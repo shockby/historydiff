@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: 'npm'
 
       - name: Install dependencies
@@ -24,7 +24,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Check build output
+        run: ls -R out/
+
       - name: Deploy to Cloudflare Pages
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

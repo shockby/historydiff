@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
           cache: 'npm'
 
       - name: Install dependencies
@@ -28,10 +28,7 @@ jobs:
         run: ls -R out/
 
       - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy out --project-name=history-comp
         env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out --project-name=history-comp
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

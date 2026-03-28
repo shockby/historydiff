@@ -32,6 +32,81 @@ export default function EventPageClient({ initialPerspectives }: EventPageClient
         </p>
       </header>
 
+      {/* 比較まとめテーブル */}
+      <section className="card glass" style={{ marginBottom: '3rem', overflow: 'hidden' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem', color: 'var(--foreground)' }}>
+          <CheckCircle2 size={18} />
+          <h3 style={{ fontSize: '1.1rem', fontWeight: 700 }}>各国の視点まとめ</h3>
+        </div>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{
+            width: '100%',
+            borderCollapse: 'collapse',
+            fontSize: '0.85rem',
+            minWidth: `${initialPerspectives.length * 180}px`,
+          }}>
+            <thead>
+              <tr>
+                <th style={{
+                  textAlign: 'left',
+                  padding: '0.75rem 1rem',
+                  borderBottom: '1px solid var(--card-border)',
+                  color: 'var(--text-secondary)',
+                  fontWeight: 600,
+                  whiteSpace: 'nowrap',
+                  width: '100px',
+                }}>項目</th>
+                {initialPerspectives.map((p) => (
+                  <th key={p.country} style={{
+                    textAlign: 'left',
+                    padding: '0.75rem 1rem',
+                    borderBottom: '1px solid var(--card-border)',
+                    color: 'var(--foreground)',
+                    fontWeight: 700,
+                    whiteSpace: 'nowrap',
+                  }}>{p.country}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>タイトル</td>
+                {initialPerspectives.map((p) => (
+                  <td key={p.country + '-title'} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--foreground)' }}>{p.title}</td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>カテゴリー</td>
+                {initialPerspectives.map((p) => (
+                  <td key={p.country + '-cat'} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--foreground)' }}>
+                    <span className="badge">{p.category}</span>
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>年代</td>
+                {initialPerspectives.map((p) => (
+                  <td key={p.country + '-year'} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--foreground)' }}>{p.year}</td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>出典</td>
+                {initialPerspectives.map((p) => (
+                  <td key={p.country + '-src'} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem' }}>{p.source}</td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ padding: '0.75rem 1rem', color: 'var(--text-secondary)', fontWeight: 600 }}>冒頭の記述</td>
+                {initialPerspectives.map((p) => (
+                  <td key={p.country + '-excerpt'} style={{ padding: '0.75rem 1rem', color: 'var(--text-secondary)', fontSize: '0.8rem', lineHeight: 1.5 }}>{p.content.trim().split('\n')[0].slice(0, 120)}…</td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
         <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
           <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>

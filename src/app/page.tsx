@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
         <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
           同じ歴史的事象でも、国や地域が異なれば、教科書に記載される内容は大きく異なります。
-          HistoriDiffは、その「認識の差」をテキストの比較（Diff）によって浮き彫りにするためのプラットフォームです。
+          HistoryDiffは、その「認識の差」をテキストの比較（Diff）によって浮き彫りにするためのプラットフォームです。
         </p>
       </section>
 

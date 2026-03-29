@@ -15,7 +15,7 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
   const title = perspectives[0]?.title || 'Event Details';
   
   return {
-    title: `${title} | HistoriDiff`,
+    title: `${title} | HistoryDiff`,
     description: `各国による「${title}」の記述内容を比較します。`,
   };
 }

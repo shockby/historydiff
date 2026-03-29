@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'] });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
           <p>© 2026 HistoryDiff Project - 教育と対話のためのプラットフォーム</p>
         </footer>
       </body>
+      <GoogleAnalytics gaId="G-QEXPZ1LKKV" />
     </html>
   );
 }

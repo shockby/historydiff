@@ -4,7 +4,7 @@ title: "太平洋における日本の膨張と真珠湾"
 category: "太平洋戦争"
 year: "1931-1945"
 location: "アジア・太平洋地域"
-country: "アメリカ合衆国"
+country: "アメリカ合衆国" 
 language: "ja"
 source: "アメリカの高校歴史教科書（一般的記述）"
 ---

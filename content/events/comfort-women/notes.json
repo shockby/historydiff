@@ -1,0 +1,115 @@
+{
+  "eventId": "comfort-women",
+  "notes": [
+    {
+      "id": "cw-kono-statement",
+      "claim": "日本政府は心からお詫びと反省の気持ちを表明（河野談話）",
+      "context": "1993年8月4日、河野洋平内閣官房長官が発表した談話。慰安所の設置・管理への旧日本軍の関与と、募集における強制性を認めた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "河野談話全文（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-2015-agreement",
+      "claim": "2015年の日韓合意で「最終的かつ不可逆的な解決」を確認",
+      "context": "2015年12月28日、日韓外相会談において合意。日本政府が韓国の設立する財団に10億円を拠出することが含まれた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "日韓外相会談（2015年12月28日）",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-awf",
+      "claim": "アジア女性基金を設立し、元慰安婦に「償い金」を届けた",
+      "context": "1995年設立、2007年解散。フィリピン・韓国・台湾・オランダ・インドネシアの元慰安婦に対し、一人当たり200万円の「償い金」と医療・福祉支援、総理大臣のお詫びの手紙が届けられた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "アジア女性基金とその活動",
+          "url": "https://www.awf.or.jp/",
+          "publisher": "アジア女性基金（デジタル記念館）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "cw-forced-mobilization",
+      "claim": "軍や官憲による強制連行を直接示す資料は発見されていない",
+      "context": "日本政府は2007年閣議決定や2014年の河野談話検証において同様の見解を示した。ただし歴史研究者の間では、「狭義の強制性」のみに焦点を当てることへの批判もある。吉見義明中央大学教授は軍の関与を示す資料を発見し、より広い意味での強制性を主張している。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-wednesday-demo",
+      "claim": "1992年からソウルの日本大使館前で毎週水曜日に「水曜デモ」が行われている",
+      "context": "韓国挺身隊問題対策協議会（現・日本軍性奴隷制問題解決のための正義記憶連帯）が主催。2011年12月14日の1000回目のデモに合わせて「平和の少女像」が設置された。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "'Comfort women' rally marks 1,000th weekly protest",
+          "url": "https://www.bbc.com/news/world-asia-16191689",
+          "publisher": "BBC News",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cw-victim-numbers",
+      "claim": "被害者の数は推定で数万人から20万人以上",
+      "context": "被害者数については諸説あり、研究者によって大きく異なる。20万人という数字は韓国政府や一部の研究者が使用するが、他の研究者はより少ない数を推定している。正確な数の確定は困難とされている。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Comfort Women: A Movement for Justice and Women's Rights in the United States",
+          "url": "https://www.amnesty.org/en/documents/asa22/012/2005/en/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "cw-2021-court",
+      "claim": "2021年のソウル中央地方裁判所の判決で日本政府に賠償を命じた",
+      "context": "2021年1月8日、ソウル中央地方裁判所は日本政府に対し元慰安婦一人当たり1億ウォンの賠償を命じた。一方、同年4月の別の訴訟では主権免除の原則に基づき却下。日本政府は主権免除を理由に判決を受け入れていない。",
+      "verdict": "公式記録あり（効力に議論）",
+      "sources": [
+        {
+          "title": "South Korea court orders Japan to compensate 'comfort women'",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-comfortwomen-idUSKBN29D03U",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

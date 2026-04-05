@@ -2,17 +2,31 @@
 
 import { useState } from 'react';
 import DiffView from '@/app/components/DiffView';
+import CommunityNotes from '@/app/components/CommunityNotes';
 import { EventPerspective } from '@/lib/markdown';
-import { Columns, Info, CheckCircle2, ChevronDown } from 'lucide-react';
+import { Columns, Info, CheckCircle2 } from 'lucide-react';
+
+interface EventNote {
+  id: string;
+  claim: string;
+  context: string;
+  verdict: string;
+  sources: {
+    title: string;
+    url: string;
+    publisher: string;
+    type: 'government' | 'academic' | 'media' | 'ngo' | 'international' | 'archive';
+  }[];
+}
 
 interface EventPageClientProps {
   initialPerspectives: EventPerspective[];
+  notes: EventNote[];
 }
 
-export default function EventPageClient({ initialPerspectives }: EventPageClientProps) {
+export default function EventPageClient({ initialPerspectives, notes }: EventPageClientProps) {
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
-  const [showMeta, setShowMeta] = useState(true);
 
   const left = initialPerspectives[leftIndex];
   const right = initialPerspectives[rightIndex];
@@ -106,7 +120,6 @@ export default function EventPageClient({ initialPerspectives }: EventPageClient
         </div>
       </section>
 
-
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
         <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
           <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>
@@ -161,6 +174,11 @@ export default function EventPageClient({ initialPerspectives }: EventPageClient
         oldTitle={`${left.country} の記述内容`}
         newTitle={`${right.country} の記述内容`}
       />
+
+      {/* Community Notes Section */}
+      {notes.length > 0 && (
+        <CommunityNotes notes={notes} />
+      )}
 
       <section style={{ marginTop: '4rem', padding: '2rem', borderTop: '1px solid var(--card-border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem', color: 'var(--foreground)' }}>

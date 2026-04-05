@@ -46,8 +46,39 @@ export function getEventPerspectives(eventId: string): EventPerspective[] {
   const folderPath = path.join(contentDirectory, eventId);
   const files = fs.readdirSync(folderPath);
 
-  return files.map((file) => {
-    const perspectiveId = file.replace(/\.md$/, '');
-    return getPerspectiveData(eventId, perspectiveId);
-  });
+  return files
+    .filter((file) => file.endsWith('.md'))
+    .map((file) => {
+      const perspectiveId = file.replace(/\.md$/, '');
+      return getPerspectiveData(eventId, perspectiveId);
+    });
+}
+
+export interface NoteSource {
+  title: string;
+  url: string;
+  publisher: string;
+  type: 'government' | 'academic' | 'media' | 'ngo' | 'international' | 'archive';
+}
+
+export interface EventNote {
+  id: string;
+  claim: string;
+  context: string;
+  verdict: string;
+  sources: NoteSource[];
+}
+
+export interface EventNotes {
+  eventId: string;
+  notes: EventNote[];
+}
+
+export function getEventNotes(eventId: string): EventNotes | null {
+  const notesPath = path.join(contentDirectory, eventId, 'notes.json');
+  if (!fs.existsSync(notesPath)) {
+    return null;
+  }
+  const fileContents = fs.readFileSync(notesPath, 'utf8');
+  return JSON.parse(fileContents) as EventNotes;
 }

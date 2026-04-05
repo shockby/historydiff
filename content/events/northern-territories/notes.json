@@ -1,0 +1,161 @@
+{
+  "eventId": "northern-territories",
+  "notes": [
+    {
+      "id": "nt-shimoda-treaty-1855",
+      "claim": "1855年の「日魯通好条約」で択捉島とウルップ島の間に国境を画定",
+      "context": "1855年2月7日（安政元年12月21日）、下田で締結。日本とロシアは初めて国境を公式に画定し、択捉島以南を日本領、ウルップ島以北をロシア領とした。樺太については両国民の混住の地とされた。日本ではこの条約締結日にちなみ、2月7日を「北方領土の日」としている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "北方領土問題の経緯（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日魯通好条約（デジタルアーカイブ）",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-karafuto-chishima-1875",
+      "claim": "1875年の「樺太・千島交換条約」で千島列島（ウルップ以北）を日本領とした",
+      "context": "1875年5月7日、ペテルブルクで締結。日本は樺太全島に対する権利を放棄し、代わりにウルップ島からシュムシュ島までの北千島18島をロシアから譲り受けた。日本の主張では、この条約で交換された「千島」に北方四島は含まれない。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "樺太・千島交換条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-yalta-agreement-1945",
+      "claim": "1945年のヤルタ会談で「クリル諸島がソ連に引き渡される」ことが合意",
+      "context": "1945年2月、ルーズベルト（米）、チャーチル（英）、スターリン（ソ）の3首脳によるヤルタ会談において、ソ連の対日参戦の条件として千島列島のソ連への引き渡しが秘密裏に合意された。日本はこの会談に参加しておらず、合意への法的拘束力については日米間でも議論がある。米国は後に「首脳個人の目標声明であり、最終的な法的効力を持つものではない」との解釈を示した。",
+      "verdict": "文書は存在（法的拘束力に議論）",
+      "sources": [
+        {
+          "title": "Yalta Agreement, February 11, 1945",
+          "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
+          "publisher": "Yale Law School - Avalon Project",
+          "type": "archive"
+        },
+        {
+          "title": "The Yalta Conference, 1945",
+          "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-soviet-neutrality-violation",
+      "claim": "ソ連は有効であった「日ソ中立条約」に違反して対日参戦",
+      "context": "日ソ中立条約（1941年締結、有効期間5年）は、ソ連が1945年4月5日に不延長を通告したものの、その規定上は1946年4月まで有効であった。ソ連は1945年8月8日に対日宣戦布告を行い、翌9日に侵攻を開始した。国際法上の条約違反か否かについては議論がある。ソ連側は日本のポツダム宣言拒否を理由に参戦の正当性を主張した。",
+      "verdict": "歴史的事実（評価に差異）",
+      "sources": [
+        {
+          "title": "日ソ中立条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-sf-treaty-kuriles",
+      "claim": "サンフランシスコ平和条約で日本は「千島列島」を放棄したが、北方四島は含まれないとの解釈",
+      "context": "1951年のサンフランシスコ平和条約第2条(c)で日本は「千島列島（Kurile Islands）」を放棄。しかし条約は「千島列島」の範囲を定義しておらず、放棄先の国家名も明記していない。日本政府は当初の国会答弁（1951年10月、西村条約局長）で「千島列島」に国後・択捉を含む趣旨の発言をしたが、その後1956年に見解を修正し、北方四島は「千島列島」に含まれないとの立場を確立した。この経緯自体がロシア側の反論に使われることがある。",
+      "verdict": "条約は存在（解釈に相違）",
+      "sources": [
+        {
+          "title": "Treaty of Peace with Japan (San Francisco Peace Treaty)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        },
+        {
+          "title": "北方領土問題に関する日本政府の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-1956-joint-declaration",
+      "claim": "1956年の日ソ共同宣言で歯舞・色丹の引き渡しが合意",
+      "context": "1956年10月19日に署名された日ソ共同宣言第9項において、ソ連は平和条約の締結後に歯舞群島および色丹島を日本に引き渡すことに同意した。この宣言は両国の国会（最高会議）で批准されており、法的拘束力を有する。ただし、択捉島と国後島については言及されなかった。プーチン大統領は2018年に「引き渡し後の主権がどちらに帰属するかは明記されていない」と発言した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "日ソ共同宣言（全文）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日ソ共同宣言（内閣府北方対策本部）",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-dulles-memo-1956",
+      "claim": "米国国務省が1956年に北方四島は「固有の日本領土」との見解を表明",
+      "context": "1956年9月7日、ダレス国務長官は覚書において、択捉・国後両島は歯舞・色丹とともに固有の日本領土であり、日本の主権下にあるものとして認められるべきと表明した。この覚書の背景には、日ソ共同宣言で二島返還で妥協しようとする日本政府に対し、米国が全四島の返還を求めるよう圧力をかけた（いわゆる「ダレスの恫喝」）という外交的文脈がある。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "北方領土問題に関する米国の立場",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        },
+        {
+          "title": "Foreign Relations of the United States (FRUS)",
+          "url": "https://history.state.gov/historicaldocuments",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-2020-constitution",
+      "claim": "2020年のロシア連邦憲法改正で領土割譲を禁止する条項が追加",
+      "context": "2020年7月に発効したロシア連邦憲法改正において、第67条に「ロシア連邦の領土の割譲に向けた行動及びそのための呼びかけは許されない」との条項が追加された。これは事実上、北方領土交渉に対する国内法的な制約となると解釈されている。ただしロシア政府は、これが平和条約交渉を妨げるものではないとしている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Constitution of the Russian Federation (2020 Amendments)",
+          "url": "http://www.constitution.ru/en/10003000-01.htm",
+          "publisher": "Constitution of Russia",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-potsdam-timing",
+      "claim": "日本がポツダム宣言受諾後にソ連軍が北方四島を占領",
+      "context": "日本のポツダム宣言受諾表明は1945年8月14日（降伏文書署名は9月2日）。ソ連軍の北方四島への侵攻は8月28日（択捉島）から9月5日（歯舞群島）にかけて行われた。日本は、戦闘終了後の占領は国際法上の正当性を持たないと主張。ロシアは、降伏文書署名（9月2日）まで戦争状態は継続していたと反論している。",
+      "verdict": "日時は確認済み（法的評価に差異）",
+      "sources": [
+        {
+          "title": "北方領土の歴史（内閣府）",
+          "url": "https://www8.cao.go.jp/hoppo/mondai/01.html",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

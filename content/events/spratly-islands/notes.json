@@ -1,0 +1,143 @@
+{
+  "eventId": "spratly-islands",
+  "notes": [
+    {
+      "id": "sp-nine-dash-line",
+      "claim": "中国は「九段線（U字線）」の内側に歴史的権利を有すると主張",
+      "context": "九段線は1947年に中華民国政府が発表した地図上の境界線（当初は十一段線）。南シナ海の約80～90%を囲む形で描かれている。中華人民共和国もこれを継承し、2009年に国連に正式に提出した。ただし、九段線の法的な意味（領海の主張なのか、歴史的権利の主張なのか）について中国政府自身が明確にしていないとの指摘がある。",
+      "verdict": "地図は存在（法的意味に議論）",
+      "sources": [
+        {
+          "title": "China's Nine-Dash Line: History, Status, and Implications",
+          "url": "https://www.uscc.gov/",
+          "publisher": "U.S.-China Economic and Security Review Commission",
+          "type": "government"
+        },
+        {
+          "title": "Note Verbale CML/17/2009 (China's submission to CLCS)",
+          "url": "https://www.un.org/depts/los/clcs_new/submissions_files/mysvnm33_09/chn_2009re_mys_vnm_e.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-2016-arbitration",
+      "claim": "2016年にハーグの仲裁裁判所が九段線内の歴史的権利を否定する判決を下した",
+      "context": "2016年7月12日、常設仲裁裁判所は「フィリピン対中国」事件（PCA Case No. 2013-19）において最終判断を下した。仲裁廷は九段線に基づく歴史的権利の主張に法的根拠がないと判断し、中国がフィリピンのEEZ内で行った活動がフィリピンの主権的権利を侵害したと認定した。この判断はUNCLOS締約国に対して法的拘束力を有する。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "The South China Sea Arbitration (The Republic of Philippines v. The People's Republic of China)",
+          "url": "https://pca-cpa.org/en/cases/7/",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        },
+        {
+          "title": "Award of 12 July 2016 (Full Text)",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "PCA Case Repository",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-china-rejects-ruling",
+      "claim": "中国は仲裁判決を「無効であり、法的拘束力を持たない」として受け入れを拒否",
+      "context": "中国外交部は判決当日に声明を発表し、仲裁廷には管轄権がなく、判決は「紙くず」であると宣言した。中国はUNCLOS第298条の選択的除外宣言により、海洋境界画定や軍事活動に関する紛争は強制的仲裁の対象外であると主張した。ただし仲裁廷はこの点を詳細に検討し、管轄権を有すると判断している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Statement of the Ministry of Foreign Affairs of the People's Republic of China on the Award of 12 July 2016",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/201607/t20160712_679470.html",
+          "publisher": "Ministry of Foreign Affairs, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-artificial-islands",
+      "claim": "2013年以降、中国は大規模な人工島の造成を行い、軍事施設を建設",
+      "context": "中国は2013年以降、南沙諸島の7つの岩礁（ファイアリークロスリーフ、スビリーフ、ミスチーフリーフなど）で大規模な埋め立てを実施。3,000m級の滑走路3本、レーダー施設、対空・対艦ミサイルの展開が衛星画像で確認されている。米シンクタンクCSISの「Asia Maritime Transparency Initiative (AMTI)」が詳細な衛星画像を公開している。",
+      "verdict": "衛星画像で確認済み",
+      "sources": [
+        {
+          "title": "Island Tracker - Asia Maritime Transparency Initiative",
+          "url": "https://amti.csis.org/island-tracker/",
+          "publisher": "CSIS (Center for Strategic and International Studies)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sp-1988-johnson-reef",
+      "claim": "1988年の赤瓜礁（ジョンソン南礁）における中越間の武力衝突",
+      "context": "1988年3月14日、赤瓜礁（ジョンソン南礁）においてベトナム海軍と中国海軍が武力衝突。ベトナム側は64名が死亡、中国側の被害は少数とされる。この衝突により中国は複数の岩礁を占拠した。事件の映像は中国側に記録されており、後年に公開された。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "The Johnson South Reef Skirmish, 1988",
+          "url": "https://www.globalsecurity.org/military/world/war/spratly-1988.htm",
+          "publisher": "GlobalSecurity.org",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-1974-paracel-seizure",
+      "claim": "1974年、中国がホアンサ諸島（西沙諸島）を軍事力により南ベトナムから奪取",
+      "context": "1974年1月、中国人民解放軍海軍は南ベトナム海軍とパラセル諸島（西沙諸島）で交戦し、同諸島全体を占領した。南ベトナム側は約70名が死亡・行方不明。この占領は現在も継続しており、ベトナムは一貫して不法占拠と抗議している。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Battle of the Paracel Islands",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
+          "publisher": "Wikipedia",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-pd1596",
+      "claim": "1978年、マルコス大統領が大統領令第1596号でカラヤン群島をフィリピンに編入",
+      "context": "1978年6月11日、フェルディナンド・マルコス大統領は大統領令第1596号を発布し、南沙諸島の一部を「カラヤン群島自治体（Municipality of Kalayaan）」としてパラワン州に正式編入した。現在もフィリピン行政上の自治体として存続している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Presidential Decree No. 1596",
+          "url": "https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1596-s-1978/",
+          "publisher": "Official Gazette of the Republic of the Philippines",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-san-francisco-1951",
+      "claim": "1951年のサンフランシスコ講和会議でベトナム代表がチュオンサ・ホアンサ両諸島の主権を公式に主張",
+      "context": "1951年9月のサンフランシスコ講和会議において、南ベトナムのチャン・ヴァン・フー代表が、パラセル諸島およびスプラトリー諸島に対するベトナムの主権を宣言した。会議ではこの発言に対して明確な反対はなかった。ただし、同条約はこれらの諸島の帰属先を明記せず、日本の領有権放棄のみを定めた。",
+      "verdict": "公式記録あり（帰属は未確定）",
+      "sources": [
+        {
+          "title": "San Francisco Peace Treaty (1951) - Full Text",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-unclos-features",
+      "claim": "南沙諸島の地形はいずれもUNCLOS上の「島」に該当せず、EEZを生成できない",
+      "context": "2016年仲裁判決において、仲裁廷は南沙諸島最大の自然の地形であるイツ・アバ島（太平島、台湾が支配）を含めて、いずれの地形もUNCLOS第121条3項に定める「島」（人間の居住または独自の経済的生活を維持できる地形）には該当しない「岩」であると判断した。このため、12海里の領海のみを生成し、200海里EEZは生成されないとされた。台湾はこの判断に強く反発している。",
+      "verdict": "仲裁判断あり（一部反発）",
+      "sources": [
+        {
+          "title": "Award of 12 July 2016 - PCA Case No. 2013-19",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

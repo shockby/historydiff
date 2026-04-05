@@ -1,0 +1,121 @@
+{
+  "eventId": "forced-labor",
+  "notes": [
+    {
+      "id": "fl-national-mobilization",
+      "claim": "国家総動員法（1938年）に基づき労働力動員を行った",
+      "context": "1938年4月1日公布。戦時において国家が人的・物的資源を統制・動員するための法律。朝鮮半島には1939年から段階的に適用された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "国家総動員法",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館デジタルアーカイブ",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "fl-three-stages",
+      "claim": "1939年の「募集」、1942年の「官斡旋」、1944年の「徴用」という段階を経て人員が確保された",
+      "context": "朝鮮人労働者の動員は3段階で実施された。1939年からは企業による募集、1942年からは行政機関を通じた官斡旋、1944年9月からは国民徴用令に基づく法的な徴用が適用された。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "朝鮮人強制連行の記録",
+          "url": "https://www.jica.go.jp/",
+          "publisher": "各種学術研究",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-1965-agreement",
+      "claim": "1965年の日韓請求権協定により「完全かつ最終的に解決済み」",
+      "context": "1965年6月22日署名。日本が韓国に無償3億ドル・有償2億ドルを供与。協定第2条で両国間の財産・請求権は「完全かつ最終的に解決された」と明記。ただし、この協定の射程範囲については日韓で解釈が異なる。",
+      "verdict": "条約は存在（解釈に相違）",
+      "sources": [
+        {
+          "title": "日韓請求権並びに経済協力協定",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Agreement on the Settlement of Problems Concerning Property and Claims",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20583/volume-583-I-8473-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-2018-supreme-court",
+      "claim": "2018年の韓国大法院判決が日本企業に対して賠償を命じた",
+      "context": "2018年10月30日、韓国大法院は新日鉄住金（現日本製鉄）に対し、元徴用工4人にそれぞれ1億ウォンの賠償を命じた。植民地支配の不法性に基づく損害賠償請求権は請求権協定の対象外との判断。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "South Korean court orders Nippon Steel to compensate forced wartime laborers",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-forcedlabor-idUSKCN1N40GW",
+          "publisher": "Reuters",
+          "type": "media"
+        },
+        {
+          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fl-780000",
+      "claim": "動員された朝鮮人の数は約78万人にのぼる",
+      "context": "数字は研究者や資料により異なる。日本政府の資料では約72万人が日本本土への労務動員の対象。韓国側の推計ではより広い「強制動員」全体でさらに多い数字が提示されることもある。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "日本における朝鮮人の強制連行・強制労働",
+          "url": "https://www.jstage.jst.go.jp/",
+          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-hashima-island",
+      "claim": "端島（軍艦島）などで過酷な環境のもと労働を強いられた",
+      "context": "端島は長崎県の世界文化遺産（「明治日本の産業革命遺産」の構成資産、2015年登録）。登録審査の際、韓国は朝鮮人強制労働の歴史が十分に伝えられていないと異議を申し立てた。日本は情報センター設置を約束した。",
+      "verdict": "歴史的事実（評価に差異）",
+      "sources": [
+        {
+          "title": "Sites of Japan's Meiji Industrial Revolution",
+          "url": "https://whc.unesco.org/en/list/1484",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-hanaoaka-incident",
+      "claim": "花岡鉱山において中国人労働者が蜂起した「花岡事件」",
+      "context": "1945年6月30日、秋田県花岡町（現大館市）の花岡鉱山で中国人労働者が蜂起。約800人のうち約400人超が死亡したとされる。2000年に鹿島建設と中国人被害者の間で和解が成立。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "花岡事件を語り継ぐ（大館市）",
+          "url": "https://www.city.odate.lg.jp/",
+          "publisher": "秋田県大館市",
+          "type": "government"
+        },
+        {
+          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
+          "publisher": "The Japan Times",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes } from '@/lib/markdown';
 import EventPageClient from './EventPageClient';
 import { Metadata } from 'next';
 
@@ -23,6 +23,7 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
 export default async function EventPage(props: { params: Promise<{ id: string }> }) {
   const { id } = await props.params;
   const perspectives = getEventPerspectives(id);
+  const notesData = getEventNotes(id);
 
   if (perspectives.length === 0) {
     return (
@@ -33,5 +34,6 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
     );
   }
 
-  return <EventPageClient initialPerspectives={perspectives} />;
+  return <EventPageClient initialPerspectives={perspectives} notes={notesData?.notes || []} />;
 }
+

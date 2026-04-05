@@ -1,0 +1,53 @@
+{
+  "eventId": "unit731",
+  "notes": [
+    {
+      "id": "u731-gruesome-experiments",
+      "claim": "731部隊が生体実験や細菌兵器の開発を行った",
+      "context": "731部隊（正式名称：関東軍防疫給水部本部）は石井四郎中将が指揮し、ハルビン郊外の平房に拠点を置いた。ペスト・コレラ・炭疽菌などの細菌兵器の研究・開発を行い、中国人・ロシア人等の捕虜に対して人体実験を実施した。ハバロフスク裁判（1949年）の記録および元隊員の証言が存在する。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Materials on the Trial of Former Servicemen of the Japanese Army (Khabarovsk Trial)",
+          "url": "https://www.legal-tools.org/",
+          "publisher": "International Legal Resources",
+          "type": "international"
+        },
+        {
+          "title": "731部隊罪証陳列館",
+          "url": "http://www.unit731.org/",
+          "publisher": "侵華日軍第七三一部隊罪証陳列館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "u731-us-immunity",
+      "claim": "米国が731部隊の関係者に戦犯免責を与え、研究データを入手した",
+      "context": "終戦後、米国は冷戦下の生物兵器研究の観点から、731部隊の石井四郎ら幹部に対して戦犯訴追を免除する代わりに、人体実験のデータを提供させた。この取引は1990年代に米国の情報公開法により公文書が開示されて確認された。",
+      "verdict": "公式記録あり（文書開示済み）",
+      "sources": [
+        {
+          "title": "Japanese Biological Warfare 1932-1945 and the American Cover-Up",
+          "url": "https://www.archives.gov/iwg/japanese-war-crimes",
+          "publisher": "U.S. National Archives (IWG)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "u731-japan-acknowledgment",
+      "claim": "日本政府は731部隊の存在自体は認めているが、人体実験の公式な認定は行っていない",
+      "context": "日本政府は731部隊が防疫給水部として存在したことは認めているが、人体実験に関する公式な調査結果の発表や個別の認定は行っていない。2011年に国立公文書館で731部隊に関する隊員名簿が公開された。民間の歴史研究者による検証は進んでいる。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "731部隊名簿（国立公文書館所蔵）",
+          "url": "https://www.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

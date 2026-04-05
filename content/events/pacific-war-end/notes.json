@@ -1,0 +1,53 @@
+{
+  "eventId": "pacific-war-end",
+  "notes": [
+    {
+      "id": "pwe-potsdam-declaration",
+      "claim": "1945年7月26日にポツダム宣言が発表された",
+      "context": "米・英・中の3カ国首脳名（トルーマン、チャーチル、蒋介石）で発表。日本に対し無条件降伏を要求。後にソ連も参加。日本は8月14日に受諾を表明、9月2日に降伏文書に署名した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-atomic-bombs",
+      "claim": "1945年8月6日に広島、8月9日に長崎に原子爆弾が投下された",
+      "context": "広島型（リトルボーイ、ウラン型）で推定14万人、長崎型（ファットマン、プルトニウム型）で推定7万人が年末までに死亡。核兵器の戦争使用は人類史上この2例のみ。投下の正当性については現在も各国で評価が分かれている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Atomic Bombings of Hiroshima and Nagasaki",
+          "url": "https://www.atomicarchive.com/",
+          "publisher": "Atomic Archive",
+          "type": "archive"
+        },
+        {
+          "title": "広島平和記念資料館",
+          "url": "https://hpmmuseum.jp/",
+          "publisher": "広島平和記念資料館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-surrender-signing",
+      "claim": "1945年9月2日にミズーリ号上で降伏文書が署名された",
+      "context": "東京湾上の戦艦ミズーリ号にて、日本の重光葵外務大臣と梅津美治郎参謀総長が降伏文書に署名。連合国側はマッカーサー最高司令官が代表して署名。中国、英国、ソ連、オーストラリア、カナダ、フランス、オランダ、ニュージーランドの各国代表も署名した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Japanese Instrument of Surrender",
+          "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
+          "publisher": "U.S. National Archives",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

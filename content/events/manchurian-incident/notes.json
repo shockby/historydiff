@@ -1,0 +1,47 @@
+{
+  "eventId": "manchurian-incident",
+  "notes": [
+    {
+      "id": "mi-railway-explosion",
+      "claim": "1931年9月18日、南満洲鉄道の線路が爆破された（柳条湖事件）",
+      "context": "関東軍の参謀・石原莞爾と板垣征四郎が計画した自作自演の爆破事件。中国軍の仕業として事変の口実とした。戦後の東京裁判および日本の歴史研究でも関東軍の謀略であったことが確認されている。",
+      "verdict": "歴史的事実（自作自演と確認済み）",
+      "sources": [
+        {
+          "title": "極東国際軍事裁判記録",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mi-lytton-commission",
+      "claim": "国際連盟のリットン調査団が満洲国を不承認とする報告書を提出",
+      "context": "1932年、国際連盟はリットン卿を団長とする調査団を派遣。報告書は満洲における日本の特殊権益を認めつつも、満洲事変は日本の正当防衛とは認められず、満洲国は日本軍の支援なくしては成立し得なかったと結論づけた。1933年2月の国際連盟総会で報告書が採択され、日本は国際連盟を脱退した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Report of the Commission of Enquiry (Lytton Report)",
+          "url": "https://digital.library.northwestern.edu/league/le000003.pdf",
+          "publisher": "League of Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mi-manchukuo",
+      "claim": "1932年に満洲国が建国された",
+      "context": "1932年3月1日建国宣言。元号は「大同」。清朝最後の皇帝・溥儀を執政（後に皇帝）に据えたが、実質的には関東軍が統治する傀儡国家であった。国際的には日本・ドイツ・イタリアなど一部の国のみが承認した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "満洲国関連資料",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

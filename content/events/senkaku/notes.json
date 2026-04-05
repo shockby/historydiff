@@ -1,0 +1,47 @@
+{
+  "eventId": "senkaku",
+  "notes": [
+    {
+      "id": "sk-1895-incorporation",
+      "claim": "1895年1月14日の閣議決定で尖閣諸島を日本に編入",
+      "context": "日本政府は1885年から現地調査を行い、いずれの国の支配も及んでいないことを確認した上で、1895年1月14日の閣議決定により尖閣諸島を沖縄県に編入した。中国側は、この編入が日清戦争の最中であり、下関条約による台湾割譲の一環であったと主張している。日本側は、尖閣編入は下関条約とは無関係であるとしている。",
+      "verdict": "公式記録あり（解釈に差異）",
+      "sources": [
+        {
+          "title": "尖閣諸島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sk-unclos-continental-shelf",
+      "claim": "1969年の国連報告書で東シナ海に石油資源の可能性が指摘された後、中国・台湾が領有権を主張し始めた",
+      "context": "1969年、国連アジア極東経済委員会（ECAFE）の海底調査報告書が東シナ海の大陸棚にイラク・クウェートに匹敵する石油・天然ガス資源が存在する可能性を指摘。中国が1971年、台湾が1970年にそれぞれ初めて公式に領有権を主張した。日本はこの時系列を根拠に、資源目的の主張であると指摘している。",
+      "verdict": "時系列は確認済み",
+      "sources": [
+        {
+          "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "United Nations ECAFE (via MOFA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sk-us-position",
+      "claim": "米国は尖閣諸島について「施政権は日本にある」としつつ主権については立場をとらない",
+      "context": "米国は尖閣諸島が日米安全保障条約第5条の適用範囲に含まれるとしているが、「最終的な主権の問題については特定の立場をとらない」としている。オバマ大統領（2014年）やバイデン大統領（2021年）が安保条約の適用を明言した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "U.S.-Japan Joint Statement (2014)",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/04/24/us-japan-joint-statement",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "eventId": "israel-territory",
+  "notes": [
+    {
+      "id": "it-un-partition-plan",
+      "claim": "1947年の国連総会決議181号でパレスチナ分割案が採択された",
+      "context": "1947年11月29日、国連総会はパレスチナをユダヤ人国家とアラブ人国家に分割し、エルサレムを国際管理下に置く案を可決（賛成33、反対13、棄権10）。アラブ側はこの決議を拒否。翌1948年5月14日にイスラエルが独立を宣言し、第一次中東戦争が勃発した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 181 (II)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/038/88/PDF/NR003888.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-1967-war",
+      "claim": "1967年の六日間戦争でイスラエルがヨルダン川西岸・ガザ・シナイ半島・ゴラン高原を占領",
+      "context": "1967年6月5-10日の第三次中東戦争（六日間戦争）で、イスラエルはエジプト・ヨルダン・シリアに対して圧倒的勝利を収め、ヨルダン川西岸地区（東エルサレムを含む）、ガザ地区、シナイ半島、ゴラン高原を占領した。国連安保理決議242号はイスラエルの占領地からの撤退を求めた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 242 (1967)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/240/94/PDF/NR024094.pdf",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-settlements",
+      "claim": "イスラエルのヨルダン川西岸における入植活動は国際法違反とされている",
+      "context": "ジュネーブ第四条約第49条は占領国による自国民の被占領地への移送を禁止している。国際司法裁判所（ICJ）は2004年の勧告的意見で入植地の建設は同条約に違反すると判断。イスラエルは占領地ではなく「係争地」であると主張し、条約の適用を認めていない。",
+      "verdict": "国際法上の評価に差異",
+      "sources": [
+        {
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory (ICJ Advisory Opinion, 2004)",
+          "url": "https://www.icj-cij.org/en/case/131",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-oslo-accords",
+      "claim": "1993年のオスロ合意でイスラエルとPLOが相互承認",
+      "context": "1993年9月13日、ワシントンD.C.でイスラエルのラビン首相とPLOのアラファト議長が「暫定自治に関する原則宣言」に署名。クリントン大統領が立会い。PLOはイスラエルの生存権を承認し、イスラエルはPLOをパレスチナ人の正統な代表として承認した。ノーベル平和賞（1994年）が授与された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Declaration of Principles on Interim Self-Government Arrangements (Oslo I)",
+          "url": "https://peacemaker.un.org/israelopt-osloaccord93",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

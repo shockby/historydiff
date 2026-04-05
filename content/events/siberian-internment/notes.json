@@ -1,0 +1,53 @@
+{
+  "eventId": "siberian-internment",
+  "notes": [
+    {
+      "id": "si-number-of-internees",
+      "claim": "約57万5千人の日本人がシベリアに抑留された",
+      "context": "厚生労働省の調査によれば、終戦時に満洲・朝鮮・樺太等にいた日本軍将兵・民間人のうち約57万5千人がソ連によりシベリア・中央アジア等に連行された。ロシア側の資料では約50万人とされる。抑留者の死亡者数は日本側推計で約5万5千人。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "シベリア抑留に関する情報（厚生労働省）",
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省",
+          "type": "government"
+        },
+        {
+          "title": "舞鶴引揚記念館",
+          "url": "https://m-hikiage-museum.jp/",
+          "publisher": "舞鶴引揚記念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "si-forced-labor",
+      "claim": "抑留者は過酷な環境で強制労働に従事させられた",
+      "context": "抑留者はシベリアの炭鉱、鉄道建設（バイカル・アムール鉄道等）、森林伐採、建設工事など重労働に従事。極寒の環境、不十分な食糧・衣服、医療の欠如により多くの死者が出た。2015年、舞鶴引揚記念館所蔵の「シベリア抑留関係資料」がユネスコ「世界の記憶」に登録された。",
+      "verdict": "歴史的事実（ユネスコ登録済み）",
+      "sources": [
+        {
+          "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",
+          "url": "https://en.unesco.org/memoryoftheworld/registry/",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "si-geneva-convention",
+      "claim": "ソ連の抑留はジュネーブ条約に違反していた",
+      "context": "1929年のジュネーブ条約（俘虜の待遇に関する条約）は、敵対行為終了後の捕虜の速やかな送還を義務づけている。ソ連は同条約を批准していなかったが、日本は批准しており、国際人道法の一般原則の適用が問題となる。ポツダム宣言第9項も日本軍将兵の「速やかな送還」を規定していた。",
+      "verdict": "法的議論あり",
+      "sources": [
+        {
+          "title": "Geneva Convention relative to the Treatment of Prisoners of War (1929)",
+          "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-pow-1929",
+          "publisher": "International Committee of the Red Cross",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "eventId": "marco-polo-bridge",
+  "notes": [
+    {
+      "id": "mpb-first-shot",
+      "claim": "1937年7月7日、盧溝橋付近で日中両軍の間で銃撃事件が発生",
+      "context": "日本軍の夜間演習中に銃声が発生し、兵士1名が一時行方不明となったことが契機。最初の発砲者については日中双方で見解が異なり、現在も歴史学的に確定していない。",
+      "verdict": "事件は確認済み（発砲元に議論）",
+      "sources": [
+        {
+          "title": "盧溝橋事件関連資料",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mpb-full-scale-war",
+      "claim": "盧溝橋事件が日中全面戦争の発端となった",
+      "context": "事件後、現地では一時停戦が成立したが、日本の近衛内閣は「北支派兵声明」を発し増援を決定。事態は拡大し、8月の第二次上海事変を経て、日中戦争は全面戦争へと発展した。中国ではこの事件を「七七事変」として抗日戦争の起点と位置づけている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "日中戦争の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

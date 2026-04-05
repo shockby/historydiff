@@ -1,0 +1,67 @@
+{
+  "eventId": "takeshima",
+  "notes": [
+    {
+      "id": "ts-1905-incorporation",
+      "claim": "1905年に日本政府が竹島を島根県に編入",
+      "context": "1905年1月28日、日本政府は閣議決定により竹島を島根県隠岐島司の所管とした。国際法上の無主地先占の法理に基づく。韓国側はこの編入が日露戦争(1904-05)中に行われた軍事的侵略の一部であったと主張している。",
+      "verdict": "公式記録あり（評価に差異）",
+      "sources": [
+        {
+          "title": "竹島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-rusk-letter",
+      "claim": "ラスク書簡で米国は「竹島は日本の領土」との見解を示した",
+      "context": "1951年8月10日、ディーン・ラスク国務次官補韓国大使宛書簡において、サンフランシスコ条約で日本が放棄する領土に竹島（独島）は含まれないとの見解を米国が韓国に通知した。ただし韓国側はこの書簡は非公開であり条約の公式解釈ではないと反論している。",
+      "verdict": "文書は存在（法的位置づけに議論）",
+      "sources": [
+        {
+          "title": "Rusk Letter (1951)",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省（引用）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-syngman-rhee-line",
+      "claim": "1952年に韓国が「李承晩ライン」を設定し竹島を含めた",
+      "context": "1952年1月18日、韓国の李承晩大統領は「大韓民国隣接海洋の主権に対する大統領の宣言」を発し、広範な海洋管轄権を一方的に設定した。竹島はこの線の内側に含まれた。日本政府はこれを国際法に反する一方的措置と抗議。1965年の日韓基本条約に伴い李承晩ラインは廃止されたが、竹島の実効支配は韓国により継続している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "竹島問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Dokdo/Takeshima - Korea's Position",
+          "url": "https://dokdo.mofa.go.kr/eng/",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-icj-proposal",
+      "claim": "日本は国際司法裁判所（ICJ）への付託を提案しているが韓国は拒否",
+      "context": "日本政府は1954年、1962年、2012年の3度にわたりICJへの付託を提案。韓国はいずれも「独島は韓国の固有領土であり、領土紛争は存在しない」として拒否。ICJの管轄権は両当事国の同意が必要なため、一方の拒否があれば裁判は成立しない。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "竹島の領有権に関するICJ付託の提案",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

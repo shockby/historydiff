@@ -1,0 +1,47 @@
+{
+  "eventId": "textbook-controversy",
+  "notes": [
+    {
+      "id": "tc-1982-controversy",
+      "claim": "1982年に日本の教科書検定で「侵略」を「進出」に書き換えたと報道",
+      "context": "1982年、日本のメディアが「文部省の教科書検定で中国への『侵略』が『進出』に書き換えられた」と報道し、中国・韓国から強い抗議が寄せられた。後の検証で、実際には当該年度の検定でそのような書き換えは確認されなかったとする指摘もあるが、報道を契機に「近隣諸国条項」が新設された。",
+      "verdict": "報道の正確性に議論",
+      "sources": [
+        {
+          "title": "教科書検定基準の改定（近隣諸国条項の新設）",
+          "url": "https://www.mext.go.jp/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-neighboring-countries-clause",
+      "claim": "1982年に「近隣諸国条項」が教科書検定基準に追加された",
+      "context": "1982年11月24日、文部省は教科書検定基準に「近隣のアジア諸国との間の近現代の歴史的事象の扱いに国際理解と国際協調の見地から必要な配慮がされていること」という条項を追加した。宮沢喜一官房長官が談話を発表し、政府として検定の改善を約束した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "宮沢官房長官談話（1982年）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-2001-new-history-textbook",
+      "claim": "2001年に「新しい歴史教科書をつくる会」の教科書が検定合格",
+      "context": "2001年、「新しい歴史教科書をつくる会」が編纂した扶桑社の歴史教科書が文部科学省の検定に合格。中国・韓国は日本の侵略や植民地支配を美化・正当化する内容であるとして強く抗議。実際の採択率は低く（1%未満）、日本国内でも議論を呼んだ。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "教科書検定結果（文部科学省）",
+          "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

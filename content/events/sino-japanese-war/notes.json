@@ -1,0 +1,47 @@
+{
+  "eventId": "sino-japanese-war",
+  "notes": [
+    {
+      "id": "sjw-treaty-of-shimonoseki",
+      "claim": "1895年の下関条約（馬関条約）で日本は台湾・遼東半島の割譲と賠償金を獲得",
+      "context": "1895年4月17日に日清講和条約（下関条約）が締結。日本は清から台湾・澎湖諸島・遼東半島の割譲、賠償金2億両（テール）、開港場の開設などを獲得。中国ではこれを「不平等条約」として記述する。遼東半島はその後、露仏独の三国干渉により返還された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Treaty of Shimonoseki (1895)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-triple-intervention",
+      "claim": "三国干渉（露仏独）により日本は遼東半島を清に返還",
+      "context": "1895年4月23日、ロシア・フランス・ドイツの3国が日本に対し、遼東半島の清への返還を勧告。軍事的圧力を背景に日本はこれを受諾し、代償として3000万両の追加賠償金を獲得した。この経験は日本国内でロシアへの敵意を高め、後の日露戦争にもつながった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "三国干渉関連外交文書",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-donghak-trigger",
+      "claim": "朝鮮の東学農民運動（甲午農民戦争）が日清戦争の契機となった",
+      "context": "1894年、朝鮮で東学農民運動が発生し、朝鮮政府が清に派兵を要請。これに対し日本も天津条約に基づき派兵し、日清両軍が朝鮮半島で対峙したことが開戦の直接的契機となった。韓国ではこの運動を反封建・反侵略の民主主義運動の先駆と位置づけている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "日清戦争の経緯",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

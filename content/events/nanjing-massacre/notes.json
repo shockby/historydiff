@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-massacre",
+  "notes": [
+    {
+      "id": "nm-death-toll-china",
+      "claim": "犠牲者の数は30万人以上であると中国側は明記",
+      "context": "30万人という数字は、1947年の南京軍事法廷の判決で認定された数に基づく。南京大虐殺紀念館にもこの数字が刻まれている。日本の研究者の間ではこの数字について異論が多く、数万人から20万人まで幅広い推定が存在する。東京裁判では「20万人以上」と認定された。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nm-tokyo-trial",
+      "claim": "松井石根大将が東京裁判で責任を問われ処刑された",
+      "context": "松井石根は南京攻略時の中支那方面軍司令官。東京裁判（極東国際軍事裁判）において、南京での残虐行為を防止する義務を怠ったとして有罪判決を受け、1948年12月23日に絞首刑に処された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "International Military Tribunal for the Far East",
+          "url": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nm-rabe-safety-zone",
+      "claim": "ドイツ人実業家ジョン・ラーベらが「南京安全区」を設立",
+      "context": "ジョン・ラーベはドイツ・ジーメンス社の社員で、南京安全区国際委員会の委員長を務め、約20万人の中国人民間人を保護した。ラーベの日記は1997年に出版され、南京の状況を詳細に記録した一次資料として高く評価されている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "The Good Man of Nanking: The Diaries of John Rabe",
+          "url": "https://www.penguinrandomhouse.com/books/167904/the-good-man-of-nanking-by-john-rabe/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nm-national-memorial-day",
+      "claim": "毎年12月13日を「国家公祭日」として追悼",
+      "context": "2014年2月27日、中国全国人民代表大会常務委員会が「南京大虐殺犠牲者国家追悼日」を法制化。毎年12月13日に国家レベルで追悼式典が行われる。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "China designates December 13 as national day of mourning for Nanjing Massacre victims",
+          "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

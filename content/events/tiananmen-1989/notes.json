@@ -1,0 +1,93 @@
+{
+  "eventId": "tiananmen-1989",
+  "notes": [
+    {
+      "id": "ta-casualty-count",
+      "claim": "犠牲者数は数百人から数千人とされるが正確な数は不明",
+      "context": "天安門事件の犠牲者数については諸説あり、正確な数は現在も判明していない。中国政府は公式に約200〜300名（軍人含む）と発表した。中国赤十字は当初2,600名と発表したが後に撤回した。2017年に機密解除された英国外交文書では、駐中英国大使アラン・ドナルドが本国に「最低限の推定で民間人の死者は1万人」と報告している。多くの研究者は数百人から千数百人程度とする推計を支持している。",
+      "verdict": "推定に幅あり（公式数値と国際的推計に大きな乖離）",
+      "sources": [
+        {
+          "title": "Tiananmen Square protest death toll 'was 10,000'",
+          "url": "https://www.bbc.com/news/world-asia-china-42465516",
+          "publisher": "BBC News",
+          "type": "media"
+        },
+        {
+          "title": "The Tiananmen Papers",
+          "url": "https://www.publicaffairsbooks.com/",
+          "publisher": "PublicAffairs",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-tank-man",
+      "claim": "「タンクマン」は暴政に立ち向かう個人の勇気の象徴となった",
+      "context": "1989年6月5日、天安門広場から長安街を進む戦車の車列の前に一人の男性が立ちはだかり、その映像は世界中に配信された。この人物は「タンクマン」（Tank Man）あるいは「無名の反逆者」（Unknown Rebel）と呼ばれ、タイム誌の「20世紀で最も影響力のある人物100人」にも選ばれた。彼の正体と消息は現在も不明であり、中国国内ではこの映像は厳しく検閲されている。",
+      "verdict": "映像記録あり（人物の身元は未確認）",
+      "sources": [
+        {
+          "title": "TIME 100: The Most Important People of the Century",
+          "url": "https://content.time.com/time/magazine/article/0,9171,988169,00.html",
+          "publisher": "TIME Magazine",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ta-censorship",
+      "claim": "中国政府は天安門事件に関する情報を徹底的に検閲している",
+      "context": "中国国内では天安門事件に関するインターネット検索は厳しく制限されており、「六四」「天安門」「タンクマン」などの関連語句は中国のSNSや検索エンジンで検閲対象となっている。毎年6月4日前後には検閲が特に強化される。中国の教科書では事件についてほとんど記述がないか、「動乱の収束」として簡潔に触れるのみである。若い世代の多くは事件の詳細を知らないとされる。",
+      "verdict": "複数の証拠あり",
+      "sources": [
+        {
+          "title": "The People's Republic of Amnesia: Tiananmen Revisited",
+          "url": "https://www.oupjapan.co.jp/",
+          "publisher": "Oxford University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Great Firewall and Tiananmen Censorship",
+          "url": "https://citizenlab.ca/",
+          "publisher": "Citizen Lab, University of Toronto",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-zhao-ziyang",
+      "claim": "趙紫陽総書記は学生に同情的な姿勢をとったために失脚した",
+      "context": "当時の中国共産党総書記・趙紫陽は、学生運動に対して対話路線を主張し、5月19日に天安門広場を訪れて「我々は来るのが遅すぎた」と涙ながらに学生に語りかけた。この行動は強硬派（鄧小平・李鵬ら）の方針に反するものとされ、趙紫陽はすべての職務を解任された。以後、2005年に死去するまで約15年間にわたり自宅軟禁下に置かれた。趙紫陽の回顧録は死後に海外で出版された。",
+      "verdict": "公式記録・複数証言あり",
+      "sources": [
+        {
+          "title": "Prisoner of the State: The Secret Journal of Premier Zhao Ziyang",
+          "url": "https://www.simonandschuster.com/",
+          "publisher": "Simon & Schuster",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-international-sanctions",
+      "claim": "西側諸国が中国に対して武器禁輸や経済制裁を科した",
+      "context": "天安門事件を受けて、アメリカは1989年6月に中国に対する武器売却を停止し、高レベルの軍事・政府間交流を凍結した。EU（当時のEC）も対中武器禁輸措置を決定し、この措置は2020年代現在も継続している。日本は円借款の一時凍結などの措置を取ったが、西側諸国の中では比較的早期に対中関係の正常化を図り、1991年には海部首相が西側首脳として初めて天安門事件後の中国を訪問した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "U.S. Arms Embargo on China",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congressional Research Service",
+          "type": "government"
+        },
+        {
+          "title": "EU Arms Embargo on China",
+          "url": "https://www.sipri.org/",
+          "publisher": "SIPRI (Stockholm International Peace Research Institute)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

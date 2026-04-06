@@ -1,0 +1,81 @@
+{
+  "eventId": "cultural-revolution",
+  "notes": [
+    {
+      "id": "cr-1981-resolution",
+      "claim": "1981年の歴史決議で文化大革命を「内乱」と総括",
+      "context": "1981年6月、中国共産党第11期中央委員会第6回全体会議で採択された「建国以来の党の若干の歴史問題についての決議」は、文化大革命を「指導者が誤って発動し、反革命集団に利用され、党・国家・人民に深刻な災難をもたらした内乱」と明確に否定した。この決議は現在に至るまで中国政府の公式評価の基礎となっている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "建国以来の党の若干の歴史問題についての決議（1981年）",
+          "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
+          "publisher": "人民日報（人民网）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-casualties",
+      "claim": "文化大革命の犠牲者数は数十万人から数百万人と推定される",
+      "context": "文化大革命における非正常な死者数については正確な統計が存在せず、研究者によって推計に大きな幅がある。中国の公式文書は具体的な犠牲者数を公表していない。海外の研究では、R・J・ランメルが約773万人、アンドリュー・ウォルダーとヤン・スーが100万～160万人など、様々な推計が存在する。数千万人が何らかの形で迫害を受けたとする見方が一般的である。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Agents of Disorder: Inside China's Cultural Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Bloody Century",
+          "url": "https://www.hawaii.edu/powerkills/",
+          "publisher": "University of Hawaii",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-mao-power-struggle",
+      "claim": "文化大革命は毛沢東の権力奪還のための政治闘争であった",
+      "context": "1958年からの大躍進政策の失敗により、推定1500万〜5500万人が飢餓で死亡した。この責任を問われた毛沢東は国家主席の座を劉少奇に譲り、党内での影響力が低下していた。文化大革命は表向き「資本主義の復活を防ぐ」イデオロギー運動とされたが、多くの歴史家は毛沢東が劉少奇・鄧小平ら実務派を打倒し、権力を再掌握するための政治闘争であったと分析している。中国の公式見解では「誤った判断による発動」とし、権力闘争としての側面は前面に出さない。",
+      "verdict": "学術的に広く支持",
+      "sources": [
+        {
+          "title": "The Cultural Revolution: A People's History, 1962-1976",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-education-impact",
+      "claim": "教育機関が閉鎖され一世代が教育機会を失った",
+      "context": "文化大革命期間中、大学入試（高考）は1966年から1977年まで約10年間にわたり中止された。中学・高校も長期間閉鎖または機能停止し、多くの青年が農村への「下放」（下乡）を強制された。推定約1600万人の都市部の若者が農村に送られた。1977年に鄧小平のもとで大学入試が再開された際には、約570万人が受験した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "中国教育年鑑",
+          "url": "https://www.moe.gov.cn/",
+          "publisher": "中華人民共和国教育部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-four-olds",
+      "claim": "「破四旧」運動により大量の文化財が破壊された",
+      "context": "「破四旧」（旧思想・旧文化・旧風俗・旧習慣の打破）運動では、仏教寺院・道教寺院・孔子廟・歴史的建造物・古典書籍・芸術品が大規模に破壊された。北京だけで6843の文化財が破壊されたとの報告がある。チベットでは6000以上の寺院のうち大部分が破壊または損傷を受けた。この運動は中国数千年の文化遺産に回復不可能な損害を与えた。",
+      "verdict": "複数の証拠あり",
+      "sources": [
+        {
+          "title": "Mao's Last Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'] });
 
@@ -21,11 +22,13 @@ export default function RootLayout({
         <header style={{ borderBottom: '1px solid var(--glass-border)', padding: '1rem 2rem', position: 'sticky', top: 0, zIndex: 100 }} className="glass">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}>
             <h1 style={{ fontSize: '1.5rem', fontWeight: 800 }}>
-              <span style={{ color: 'var(--accent)' }}>History</span>Diff
+              <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <span style={{ color: 'var(--accent)' }}>History</span>Diff
+              </Link>
             </h1>
             <nav style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-              <a href="/">アーカイブ</a>
-              <a href="#">プロジェクトについて</a>
+              <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>アーカイブ</Link>
+              <Link href="#" style={{ color: 'inherit', textDecoration: 'none' }}>プロジェクトについて</Link>
             </nav>
           </div>
         </header>

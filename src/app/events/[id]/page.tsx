@@ -1,6 +1,7 @@
 import { getEventPerspectives, getAllEvents, getEventNotes } from '@/lib/markdown';
 import EventPageClient from './EventPageClient';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const events = getAllEvents();
@@ -29,7 +30,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
     return (
       <div className="container" style={{ textAlign: 'center', padding: '10rem 0' }}>
         <h2>事象が見つかりませんでした</h2>
-        <a href="/" style={{ color: 'var(--accent)', marginTop: '2rem', display: 'inline-block' }}>ホームへ戻る</a>
+        <Link href="/" style={{ color: 'var(--accent)', marginTop: '2rem', display: 'inline-block' }}>ホームへ戻る</Link>
       </div>
     );
   }

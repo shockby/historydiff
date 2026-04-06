@@ -1,0 +1,93 @@
+{
+  "eventId": "hundred-flowers-anti-rightist",
+  "notes": [
+    {
+      "id": "hf-yanmou-theory",
+      "claim": "百花運動は知識人を炙り出すための意図的な罠（「陽謀」）であった",
+      "context": "毛沢東が百花運動を最初から反体制派を特定・粛清するために計画した「陽謀」であったかという問題は、歴史家の間で議論が続いている。毛沢東自身が後に「陽謀」という表現を使ったことが記録されている。一方、当初は本気で自由な議論を許可したが、批判の激しさに驚き急遽方針を転換したとする見方もある。現在の学術的コンセンサスは、毛沢東の意図が途中で変化した可能性が高いというものだが、完全な結論には至っていない。",
+      "verdict": "学術的に議論中",
+      "sources": [
+        {
+          "title": "The Politics of China: Sixty Years of the People's Republic of China",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        },
+        {
+          "title": "Mao: The Unknown Story",
+          "url": "https://www.penguinrandomhouse.com/",
+          "publisher": "Penguin Random House",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rightist-numbers",
+      "claim": "約55万人が右派に認定された",
+      "context": "中国政府の公式統計では、反右派闘争で「右派分子」に認定された人数は約55万人とされている。しかし、研究者の中にはこの数字を過小評価とする見方もあり、実際にはさらに多くの人々が非公式な形で迫害を受けたとされる。1978年以降、ほぼ全員の名誉が回復されたが、章伯鈞・羅隆基など6名は最後まで名誉回復されなかった（後に5名に縮小）。",
+      "verdict": "公式記録あり（実数は議論あり）",
+      "sources": [
+        {
+          "title": "中国共産党党史（第二巻）",
+          "url": "https://www.12371.cn/",
+          "publisher": "中共中央党史研究室",
+          "type": "government"
+        },
+        {
+          "title": "The Anti-Rightist Campaign and Its Aftermath",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rehabilitation",
+      "claim": "1978年以降、右派とされた人々の名誉回復が行われた",
+      "context": "1978年、中国共産党は反右派闘争の拡大化が誤りであったことを認め、右派に認定された人々の名誉回復（摘帽・改正）を全面的に行った。約54万人以上が名誉を回復されたが、章伯鈞・羅隆基・儲安平・彭文応・陳仁炳の5名は「本物の右派」として回復の対象外とされた（当初は6名だったが後に1名追加回復）。公式見解では反右派闘争そのものは「必要であった」とし、あくまで「拡大化の誤り」のみを認めている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "関於全部摘掉右派分子帽子決定的実施方案",
+          "url": "https://www.gov.cn/",
+          "publisher": "中国国務院",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hf-great-leap-connection",
+      "claim": "反右派闘争が大躍進政策の失敗を深刻化させた",
+      "context": "反右派闘争により知識人や官僚の間に深刻な恐怖と自己検閲が広がり、1958年から始まった大躍進政策に対して誰も異議を唱えることができなくなった。農業・工業生産の実態を偽って報告する風潮が蔓延し、政策の誤りが是正されないまま大規模な飢饉が発生した。彭徳懐のように大躍進の問題点を指摘した者は「右派的」として粛清された。この因果関係は多くの歴史家が指摘している。",
+      "verdict": "学術的に広く支持",
+      "sources": [
+        {
+          "title": "Tombstone: The Great Chinese Famine, 1958-1962",
+          "url": "https://us.macmillan.com/",
+          "publisher": "Farrar, Straus and Giroux",
+          "type": "academic"
+        },
+        {
+          "title": "Mao's Great Famine",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-ding-ling",
+      "claim": "著名な知識人が右派として迫害された",
+      "context": "反右派闘争で著名な知識人が多数標的となった。作家の丁玲は右派に認定され、北大荒（北東部辺境）に追放された。社会学者・人類学者の費孝通、法学者の羅隆基、ジャーナリストの儲安平なども右派とされた。儲安平はその後行方不明となり、現在も消息は不明である。これらの事例は、反右派闘争が中国の知的・文化的生活に与えた壊滅的な影響を象徴している。",
+      "verdict": "複数の証拠あり",
+      "sources": [
+        {
+          "title": "The People's Republic of China, 1949-1979: A Documentary History",
+          "url": "https://www.degruyter.com/",
+          "publisher": "De Gruyter",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "russia-china-territory",
+  "notes": [
+    {
+      "id": "rct-nerchinsk-context",
+      "claim": "ネルチンスク条約（1689年）は清朝とヨーロッパ国家の間で結ばれた最初の条約である",
+      "context": "ネルチンスク条約は、清朝（康熙帝）とロシア帝国（ピョートル1世の摂政時代）の間で1689年に締結された。交渉はラテン語を媒介としてイエズス会士の仲介で行われた。この条約により外興安嶺（スタノボイ山脈）を国境とし、ロシアのアムール川流域からの撤退が定められた。清朝が軍事的に優位にあったことが交渉結果に影響したとされる。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Treaty of Nerchinsk (1689)",
+          "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk",
+          "publisher": "Encyclopædia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-aigun-unequal",
+      "claim": "アイグン条約（1858年）は中国が主張する「不平等条約」の一つである",
+      "context": "アイグン条約は、アロー戦争（第二次アヘン戦争）で清朝が弱体化していた時期に、ロシアの東シベリア総督ムラヴィヨフ＝アムールスキーが軍事的圧力を背景に締結を迫ったものである。中国はこの条約を、清朝の危機に乗じた強圧的な外交の産物として「不平等条約」に分類している。一方、ロシア側はこの条約を正当な外交交渉の結果であるとする立場をとっている。国際法の観点からは、条約の有効性について学者の間で議論がある。",
+      "verdict": "評価が分かれる",
+      "sources": [
+        {
+          "title": "Treaty of Aigun",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Aigun",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "中国の「不平等条約」概念の歴史的展開",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-territory-loss",
+      "claim": "清朝は19世紀の条約でロシアに約100万平方キロメートルの領土を喪失した",
+      "context": "アイグン条約（1858年）で約60万平方キロメートル（アムール川以北）、北京条約（1860年）で約40万平方キロメートル（ウスリー川以東の沿海州）がロシア領とされた。これらの地域は「外満州」と呼ばれ、現在のロシア極東地域にあたる。ウラジオストクの中国名「海参崴（ハイシェンウェイ）」が今も中国で広く使われていることは、この歴史的記憶の持続を示すものである。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Sino-Russian Border Disputes",
+          "url": "https://en.wikipedia.org/wiki/Sino-Russian_border_conflicts",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-1969-conflict",
+      "claim": "1969年の珍宝島（ダマンスキー島）衝突で中ソ両国は核戦争の瀬戸際に達した",
+      "context": "1969年3月2日と15日にウスリー川の珍宝島（ダマンスキー島）で中ソ両軍が交戦し、双方に死傷者が出た。ソ連側の死者は58名、中国側は約30名（中国は正式な数を公表していない）との推計がある。この衝突後、ソ連は中国の核施設に対する先制攻撃を検討したとされ、米国のニクソン政権がこれを牽制する動きを見せた。この危機が結果的に米中接近（1972年のニクソン訪中）の契機の一つとなった。",
+      "verdict": "核攻撃検討の報告あり",
+      "sources": [
+        {
+          "title": "The Sino-Soviet Border Conflict of 1969",
+          "url": "https://www.wilsoncenter.org/",
+          "publisher": "Wilson Center / Cold War International History Project",
+          "type": "academic"
+        },
+        {
+          "title": "Sino-Soviet border conflict",
+          "url": "https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-2004-resolution",
+      "claim": "2004年の補充協定により中露間の全国境線が画定された",
+      "context": "2004年10月、プーチン大統領と胡錦濤国家主席が「中露国境東部に関する補充協定」に署名し、最後の係争地であったボリショイ・ウスリースキー島（黒瞎子島）とタラバロフ島を両国で分割することで合意した。これにより、約4,300キロメートルの中露国境が完全に画定された。ただし、2020年のロシア憲法改正で領土割譲の禁止が明記されたことは、将来的な領土交渉の余地を法的に封じるものと解釈されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "中露国境画定の経緯",
+          "url": "https://www.jiia.or.jp/",
+          "publisher": "日本国際問題研究所",
+          "type": "academic"
+        },
+        {
+          "title": "ロシア連邦憲法改正（2020年）",
+          "url": "http://kremlin.ru/",
+          "publisher": "ロシア大統領府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rct-vladivostok-name",
+      "claim": "2023年に中国がウラジオストクの中国名「海参崴」を公式地図で使用し外交問題となった",
+      "context": "2023年、中国自然資源部が発行した新版の標準地図において、ウラジオストクに中国名「海参崴」の表記を復活させたことが報じられた。ロシア外務省はこれに対し不快感を示した。この動きは、中国国内のナショナリスト的な感情と、「百年国恥」の歴史的記憶が現代の外交関係にも影響を及ぼしうることを示す事例として注目された。ただし、中国政府は公式にはロシアとの現行国境を承認し続けている。",
+      "verdict": "報道事実あり",
+      "sources": [
+        {
+          "title": "China's New Map and Vladivostok Naming Controversy",
+          "url": "https://www.scmp.com/",
+          "publisher": "South China Morning Post",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "eventId": "nanjing-death-toll",
+  "notes": [
+    {
+      "id": "ndt-30万-origin",
+      "claim": "犠牲者数「30万人以上」は南京軍事法廷の判決に基づく",
+      "context": "30万人という数字は、1947年の南京軍事法廷（国防部審判戦犯軍事法廷）の判決で認定された数字である。法廷は紅卍字会・崇善堂等の埋葬記録、生存者証言、国際安全区記録を総合して、集団殺害19万人以上＋個別殺害15万人以上＝合計30万人以上と認定した。南京大虐殺紀念館にもこの数字が刻まれている。",
+      "verdict": "法廷記録に基づく",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ndt-tokyo-trial-20万",
+      "claim": "東京裁判では「20万人以上」と認定された",
+      "context": "極東国際軍事裁判（東京裁判、1946-48年）は、南京攻略後6週間の期間に「20万人以上」の中国人民間人と捕虜が殺害されたと認定した。南京軍事法廷の「30万人以上」とは10万人の差がある。同時期の二つの法廷で認定数が異なることは、犠牲者数確定の困難さを示している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ndt-definition-scope",
+      "claim": "犠牲者数の差異は「犠牲者」の定義の違いにも起因する",
+      "context": "犠牲者数の推定は、前提条件の定義によって大きく異なる。地理的範囲（南京城内のみか近郊6県を含むか）、時間的範囲（占領直後の数週間か1938年3月頃までか）、対象者の範囲（民間人のみか、捕虜や敗残兵を含むか）によって、同じ資料からも異なる結論が導かれうる。この定義の相違を無視して数字だけを比較することは学術的に不適切である。",
+      "verdict": "背景情報",
+      "sources": [
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-burial-records",
+      "claim": "埋葬記録が犠牲者数推計の重要な一次資料である",
+      "context": "南京陥落後の遺体の埋葬を行った主な団体は、紅卍字会（約4万3千体）と崇善堂（約11万2千体）である。紅卍字会の記録は比較的信頼性が高いとされるが、崇善堂の記録については、同団体が南京陥落時に活動を停止しており、記録の一部が事後的に作成された可能性があるとして日本の一部研究者が信頼性に疑問を呈している。中国の研究者はこれに反論し、崇善堂は1938年に活動を再開して大規模な埋葬作業を行ったと主張している。",
+      "verdict": "資料の評価に議論あり",
+      "sources": [
+        {
+          "title": "『南京事件論争史』",
+          "url": "https://www.heibonsha.co.jp/",
+          "publisher": "平凡社新書（笠原十九司）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-iris-chang",
+      "claim": "アイリス・チャンの著書がアメリカの一般認識に大きな影響を与えた",
+      "context": "アイリス・チャン（張純如）の著書『The Rape of Nanking: The Forgotten Holocaust of World War II』（1997年）はニューヨーク・タイムズのベストセラーリストに10週間入り、南京事件のアメリカでの認知度を飛躍的に高めた。同書は30万人以上の犠牲者という立場をとった。ただし学術的には、一部の事実誤認や写真資料の誤用が指摘されており、歴史学者による評価は分かれている。",
+      "verdict": "影響力は事実、内容に一部議論あり",
+      "sources": [
+        {
+          "title": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+          "url": "https://www.penguinrandomhouse.com/books/55764/the-rape-of-nanking-by-iris-chang/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

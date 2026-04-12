@@ -1,0 +1,87 @@
+{
+  "eventId": "nanjing-tribunal",
+  "notes": [
+    {
+      "id": "nt-tani-hisao",
+      "claim": "谷寿夫中将が南京軍事法廷で死刑判決を受け処刑された",
+      "context": "谷寿夫は南京攻略時の第6師団長。南京軍事法廷において、部下の兵士による虐殺行為の直接的責任を問われ有罪判決を受け、1947年4月26日に南京・雨花台で銃殺刑に処された。これは南京軍事法廷における最も重要な判決の一つである。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "南京大屠殺史料集 - 南京審判",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-hyakunin-giri",
+      "claim": "「百人斬り競争」の向井敏明・野田毅両少尉が死刑判決を受けた",
+      "context": "「百人斬り競争」は1937年の『東京日日新聞』（現・毎日新聞）が報じた記事に基づく。同記事は向井・野田両少尉が南京攻略戦中に日本刀で100人斬りの「競争」を行ったと報道した。南京軍事法廷はこの記事を主要な証拠として採用し、両名に死刑判決を下した。日本では、遺族が2003年に名誉毀損訴訟を起こしたが敗訴している（2006年最高裁確定）。記事が戦意高揚のための誇張・創作であったか否かは日本国内で議論が続いている。",
+      "verdict": "事実認定に議論あり",
+      "sources": [
+        {
+          "title": "百人斬り訴訟 最高裁決定",
+          "url": "https://www.courts.go.jp/",
+          "publisher": "裁判所",
+          "type": "government"
+        },
+        {
+          "title": "東京日日新聞（1937年11月-12月の報道）",
+          "url": "https://mainichi.jp/",
+          "publisher": "毎日新聞社",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-death-toll-30万",
+      "claim": "法廷は犠牲者数を「集団殺害19万人以上、個別殺害15万人以上、合計30万人以上」と認定した",
+      "context": "この認定は、紅卍字会・崇善堂等の慈善団体による埋葬記録、生存者の証言、および国際安全区の記録に基づく。東京裁判（極東国際軍事裁判）は同時期に「20万人以上」と認定しており、二つの法廷で認定数が異なる。日本の歴史学者・秦郁彦は、崇善堂の埋葬記録（約11万体）の信頼性に疑問を呈しており、同団体が南京陥落当時は活動を停止していた可能性を指摘している。一方、中国の研究者は他の埋葬記録や証言と合わせて総合的に30万人以上が妥当であると主張している。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-tokyo-vs-nanjing",
+      "claim": "東京裁判と南京軍事法廷は別個の法廷であり、犠牲者数の認定が異なる",
+      "context": "東京裁判（IMTFE）は連合国主導の国際法廷でA級戦犯を裁き、南京での犠牲者を「20万人以上」と認定した。一方、南京軍事法廷は中華民国政府が設置した国内法廷でBC級戦犯を裁き、「30万人以上」と認定した。同時期の二つの法廷で認定が10万人異なるという事実自体が、犠牲者数確定の困難さを物語っている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nt-roc-prc-succession",
+      "claim": "中華人民共和国が中華民国政府主催の法廷判決を継承している",
+      "context": "南京軍事法廷は中華民国（国民党政権）が主催した。1949年の政権交代後、中華人民共和国（共産党政権）はこの法廷の判決を全面的に継承した。通常、PRCはROCの正統性を否定するが、南京軍事法廷の判決については「中国人民の正義の実現」として積極的に引用する。これは対日歴史問題において中台が共通の立場をとる稀有なケースの一つである。",
+      "verdict": "背景情報",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

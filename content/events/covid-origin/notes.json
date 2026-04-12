@@ -1,0 +1,159 @@
+{
+  "eventId": "covid-origin",
+  "notes": [
+    {
+      "id": "co-ratg13-similarity",
+      "claim": "雲南省のコウモリから発見されたRaTG13ウイルスがSARS-CoV-2と約96%一致し、自然由来の証拠とされる",
+      "context": "RaTG13は2013年に雲南省の鉱山洞窟から採取されたコウモリ由来コロナウイルスで、武漢ウイルス研究所の石正麗チームが配列を解析した。ゲノム全体で約96.2%の一致率だが、この4%の差異は進化的に40〜70年分に相当し、RaTG13がSARS-CoV-2の直接の祖先ではないことを意味する。より近縁のウイルス（BANAL-52など）がラオスのコウモリから発見されているが、いずれもフーリン切断部位を持たない。",
+      "verdict": "ゲノムデータは事実（直接の祖先ではない）",
+      "sources": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "url": "https://doi.org/10.1038/s41586-020-2012-7",
+          "publisher": "Nature",
+          "type": "academic"
+        },
+        {
+          "title": "Bat coronaviruses related to SARS-CoV-2 and infectious for human cells",
+          "url": "https://doi.org/10.1038/s41586-022-04532-4",
+          "publisher": "Nature (BANAL viruses)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-huanan-market",
+      "claim": "武漢華南海鮮市場が初期感染拡大の中心地であった",
+      "context": "2022年にScience誌に掲載されたWoorbey et al.の研究では、初期患者の地理的分布が華南市場を中心としていること、市場の環境サンプルから検出されたウイルスRNAが生きた野生動物の販売エリアに集中していたこと、系統学的に独立した2つの系統（A系統・B系統）がともに市場に関連していたことが示された。ただし、最初期の症例（2019年12月前半）の中には市場との接点が確認されていないケースもあり、議論は続いている。",
+      "verdict": "統計的分析あり（議論継続）",
+      "sources": [
+        {
+          "title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+          "url": "https://doi.org/10.1126/science.abp8715",
+          "publisher": "Science",
+          "type": "academic"
+        },
+        {
+          "title": "The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1126/science.abp8337",
+          "publisher": "Science",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-furin-cleavage-site",
+      "claim": "SARS-CoV-2のフーリン切断部位は近縁ウイルスに見られず、人工挿入を示唆する可能性がある",
+      "context": "SARS-CoV-2のスパイクタンパク質にはフーリン切断部位（RRAR配列）が存在し、これがヒト細胞への感染効率を高めていると考えられている。この特徴は同じサルベコウイルス亜属の近縁種には見られない。研究所漏洩説の支持者はこれを人工的挿入の可能性を示唆する証拠とする。一方、自然由来説の支持者は、他のコロナウイルス種（HKU1やMERSなど）にはフーリン切断部位が自然に存在すること、また自然な遺伝子組み換え（テンプレートスイッチング）により獲得可能であることを指摘している。2026年時点でも決定的な結論には至っていない。",
+      "verdict": "科学的議論が継続中",
+      "sources": [
+        {
+          "title": "The proximal origin of SARS-CoV-2",
+          "url": "https://doi.org/10.1038/s41591-020-0820-9",
+          "publisher": "Nature Medicine",
+          "type": "academic"
+        },
+        {
+          "title": "A critical analysis of the evidence for the SARS-CoV-2 origin hypotheses",
+          "url": "https://doi.org/10.5281/zenodo.7785921",
+          "publisher": "Preprint/Review",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-wiv-researchers-ill",
+      "claim": "2019年秋に武漢ウイルス研究所の研究者3名がCOVID様の症状で入院していた",
+      "context": "2021年5月、ウォール・ストリート・ジャーナルが米国情報機関の報告に基づき、2019年11月にWIVの研究者3名がCOVID-19と一致する症状で入院していたと報道した。米国務省は2021年1月の声明でもこの情報に言及していた。中国政府およびWIVはこの報道を否定し、石正麗博士は「WIVの職員にSARS-CoV-2感染者は一人もいなかった」と公式に否定した。米国情報機関の評価では、この情報の確度は機関により異なり、確定的とはされていない。",
+      "verdict": "真偽未確認（当事者間で相反する主張）",
+      "sources": [
+        {
+          "title": "Intelligence on Sick Staff at Wuhan Lab Fuels Debate on Covid-19 Origin",
+          "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+          "publisher": "Wall Street Journal",
+          "type": "media"
+        },
+        {
+          "title": "Fact Sheet: Activity at the Wuhan Institute of Virology",
+          "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-who-investigation",
+      "claim": "2021年のWHO調査団は自然由来説を最も可能性が高いと評価した",
+      "context": "2021年1〜2月、WHOと中国の合同調査チームが武漢で調査を実施し、同年3月に報告書を公表した。報告書は4つの仮説を評価し、①中間宿主を介した自然感染を「可能性が高い〜非常に可能性が高い」、②直接のズーノーシスを「可能性がある〜可能性が高い」、③コールドチェーン由来を「可能性がある」、④研究所事故を「極めて可能性が低い」と評価した。ただし調査団長のピーター・ベンエンバレク氏は後日、中国側から研究所漏洩説を報告書に含めないよう圧力があったと証言。テドロスWHO事務局長も「すべての仮説はオープンであり、さらなる調査が必要」と述べ、報告書の結論と距離を置いた。",
+      "verdict": "報告書は公式文書（調査の独立性に疑問あり）",
+      "sources": [
+        {
+          "title": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+          "publisher": "WHO",
+          "type": "international"
+        },
+        {
+          "title": "WHO chief says 'premature' to rule out COVID lab leak",
+          "url": "https://www.reuters.com/article/us-health-coronavirus-who-china-idUSKBN2AM0LR",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "co-us-intelligence-split",
+      "claim": "米国情報機関は起源について統一見解に至っていない",
+      "context": "2023年の米国情報コミュニティの機密解除報告によれば、FBIは「中程度の確信」で研究所漏洩説を支持、エネルギー省は「低い確信」で同様の評価。一方、国家情報会議と4つの情報機関は「低い確信」で自然由来説を支持。CIAと他の機関は判断を保留した。報告書は「いずれの説も直接的な証拠により確定されていない」と結論づけた。この意見の分裂は、利用可能な情報の限界と中国政府の透明性の欠如に起因するとされている。",
+      "verdict": "公式報告あり（見解は分裂）",
+      "sources": [
+        {
+          "title": "Updated Assessment on COVID-19 Origins",
+          "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230626.pdf",
+          "publisher": "Office of the Director of National Intelligence",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-china-data-transparency",
+      "claim": "中国は初期データへのアクセスを制限し、独立調査を妨げているとの批判がある",
+      "context": "2019年9月にWIVのウイルスデータベースがオフラインになったことが指摘されている。WIVは「セキュリティ上の理由」と説明。2020年初頭に中国政府は初期患者の生物学的サンプルの共有を制限し、華南市場の環境データの公開も遅れた。2023年にはGISAID上に一時的にアップロードされた華南市場の遺伝子配列データ（タヌキ等の動物DNAを含む）が、その後中国研究者により削除された。WHOは繰り返し中国に対しデータの透明な共有を求めているが、中国政府はすでに十分な情報を提供したと反論している。",
+      "verdict": "データアクセスの制限は確認済み（動機に議論あり）",
+      "sources": [
+        {
+          "title": "New Data Links Pandemic's Origins to Raccoon Dogs at Wuhan Market",
+          "url": "https://www.nytimes.com/2023/03/16/science/covid-wuhan-market-raccoon-dogs-lab-leak.html",
+          "publisher": "New York Times",
+          "type": "media"
+        },
+        {
+          "title": "WHO SAGO report on COVID-19 origins",
+          "url": "https://www.who.int/publications/m/item/scientific-advisory-group-on-the-origins-of-novel-pathogens-(sago)-report",
+          "publisher": "WHO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "co-gain-of-function",
+      "claim": "武漢ウイルス研究所はNIH資金により機能獲得研究を実施していた",
+      "context": "米国のNIH（国立衛生研究所）はEcoHealth Alliance（エコヘルス・アライアンス）を通じてWIVのコウモリコロナウイルス研究に資金を提供していた。2021年以降、この資金提供がウイルスの感染力を高める「機能獲得研究」（Gain-of-function research）に該当するかが米国議会で激しく議論された。NIHは当初これを否定したが、2021年10月にEcoHealth Allianceが報告義務に違反し、キメラウイルスを用いた実験でマウスの病原性が予想以上に増加した事実を報告していなかったことを認めた。ただし、これらの実験で作成されたウイルスがSARS-CoV-2の直接の前駆体であるとする証拠は見つかっていない。",
+      "verdict": "資金提供と研究は事実（SARS-CoV-2との直接的関連は未確認）",
+      "sources": [
+        {
+          "title": "NIH Letter to Rep. Comer regarding EcoHealth Alliance",
+          "url": "https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Letter-to-Congress-on-EcoHealth-Alliance.pdf",
+          "publisher": "U.S. House Committee on Oversight",
+          "type": "government"
+        },
+        {
+          "title": "The Lancet COVID-19 Commission: Task Force on the Origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1073/pnas.2202769119",
+          "publisher": "PNAS",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

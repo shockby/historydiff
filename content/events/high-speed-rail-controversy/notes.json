@@ -56,6 +56,49 @@
           "type": "media"
         }
       ]
+    },
+    {
+      "id": "hsr-shinkansen-safety-record",
+      "claim": "新幹線は開業以来60年以上、営業運転中の衝突・脱線による乗客の死亡事故ゼロを維持している",
+      "context": "1964年の東海道新幹線開業以来、営業運転中の衝突や脱線に起因する乗客の死亡事故は一度も発生していない。地震大国である日本において、自動列車制御装置（ATC）、早期地震検知警報システム（UrEDAS）、脱線防止ガードなどの多重安全対策によりこの記録が維持されている。2004年の新潟県中越地震で上越新幹線が走行中に脱線した事例があるが、乗客の死傷者はなかった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "新幹線の安全性 - JR東海",
+          "url": "https://company.jr-central.co.jp/",
+          "publisher": "東海旅客鉄道株式会社",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hsr-indonesia-competition",
+      "claim": "2015年、インドネシアのジャカルタ〜バンドン間高速鉄道プロジェクトで中国が日本に勝利した",
+      "context": "日本は長年にわたりインドネシアのジャカルタ〜バンドン間（約142km）の高速鉄道計画に新幹線方式を提案していたが、2015年9月にインドネシア政府は中国案を採用した。中国側はインドネシア政府の財政負担を求めない条件を提示した。路線は2023年10月に「Whoosh」として開業したが、建設費は当初の約55億ドルから約73億ドルに膨らみ、採算性に疑問も呈されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Jakarta-Bandung High-Speed Railway",
+          "url": "https://en.wikipedia.org/wiki/Jakarta%E2%80%93Bandung_high-speed_railway",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-taiwan-shinkansen",
+      "claim": "台湾高速鉄道（2007年開業）が日本の新幹線方式を採用した",
+      "context": "台湾高速鉄道（台湾高鉄）は台北〜左営間345kmを結ぶ路線で、2007年1月に開業。当初は欧州連合（フランスTGV・ドイツICE）が優勢だったが、1999年の台湾大地震後に安全性が重視され、最終的に日本の新幹線700系をベースとした700T系が採用された。これは日本の新幹線システムが初めて海外に本格的に輸出された事例であり、日本にとって重要な実績となっている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "台湾高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
     }
   ]
 }
+

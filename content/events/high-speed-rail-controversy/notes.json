@@ -1,0 +1,61 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "notes": [
+    {
+      "id": "hsr-china-tech-transfer",
+      "claim": "中国は2004年から日本の川崎重工など海外企業から技術を導入した",
+      "context": "中国鉄道部は2004年、時速200kmの高速列車（CRH）の技術導入先として、川崎重工（日本）、アルストム（フランス）、ボンバルディア（カナダ）、シーメンス（ドイツ）を選定した。川崎重工はE2系新幹線をベースとした「CRH2」を提供。これが後の中国独自の「再革新」のベースとなった。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "中国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-wenzhou-accident",
+      "claim": "2011年に温州で高速鉄道追突事故が発生した",
+      "context": "2011年7月23日、浙江省温州市で高速鉄道の追突・脱線事故が発生し、40人が死亡。事故直後、当局が事故車両を穴を掘って埋める様子が報じられ、「証拠隠滅」として国内外から批判を浴びた。この事故は、中国の急速な拡大路線の安全性に対する疑問を投げかける象徴的な事件となった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-korea-tgv-choice",
+      "claim": "韓国は日本ではなくフランスのTGVを選択した",
+      "context": "1994年、韓国政府は高速鉄道（KTX）の技術導入先としてフランスのGECアルストム（TGV）を選定。日本（新幹線）とドイツ（ICE）も入札に参加したが、技術移転の条件、金融支援、外交的配慮などが総合的に判断された。特に技術移転の深さが決定打になったとされる。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "韓国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-ip-controversy",
+      "claim": "中国は独自技術と主張して国際特許を申請しようとした",
+      "context": "2011年、中国は米英など数カ国で高速鉄道技術の特許を申請する方針を表明。これに対し、JR東日本の松本正之会長（当時）らが「新幹線の技術を自国の独自技術として申請するのは納得がいかない」と不快感を示した。中国側は「導入した技術を全面的に消化・再革新しており、独自のものだ」と反論している。",
+      "verdict": "事実に基づく論争",
+      "sources": [
+        {
+          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "url": "https://www.asahi.com/",
+          "publisher": "朝日新聞",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

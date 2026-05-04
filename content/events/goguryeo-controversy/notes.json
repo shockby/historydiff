@@ -1,0 +1,67 @@
+{
+  "eventId": "goguryeo-controversy",
+  "notes": [
+    {
+      "id": "gc-northeast-project",
+      "claim": "中国社会科学院が「東北工程」プロジェクト（2002〜2007年）で高句麗を中国の地方政権と位置づけた",
+      "context": "東北工程（東北辺疆歴史与現状系列研究工程）は、中国社会科学院と吉林省社会科学院が共同で実施した国家プロジェクト。中国東北地方の歴史・民族・地理を体系的に研究し、高句麗・渤海などを「統一的多民族国家」の枠組みで中国史に位置づけた。韓国では「歴史の略奪」として強い反発が起きた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "東北工程 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%8C%97%E5%B7%A5%E7%A8%8B",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "gc-unesco-dual-registration",
+      "claim": "2004年に中国と北朝鮮がそれぞれ高句麗関連遺跡をユネスコ世界文化遺産に登録した",
+      "context": "2004年7月、ユネスコ世界遺産委員会は中国が申請した「高句麗の首都と古墳群」（吉林省集安市・遼寧省桓仁県）と、北朝鮮が申請した「高句麗古墳群」（平壌市・南浦市）をいずれも世界文化遺産に登録した。同一の古代国家に関する遺産が2つの国から別々に登録されるという異例の事態となり、高句麗の歴史的帰属をめぐる論争の象徴となった。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Capital Cities and Tombs of the Ancient Koguryo Kingdom - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1135/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        },
+        {
+          "title": "Complex of Koguryo Tombs - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1091/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gc-korea-response",
+      "claim": "韓国政府が2004年に「高句麗研究財団」を設立し、後に「東北亜歴史財団」に改組した",
+      "context": "中国の東北工程に対抗するため、韓国政府は2004年に「高句麗研究財団」を設立。2006年には活動範囲を拡大し「東北亜歴史財団」に改組された。同財団は高句麗・渤海の韓国史帰属を学術的に立証する研究や、国際的な発信活動を行っている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "東北亜歴史財団 公式サイト",
+          "url": "https://www.nahf.or.kr/",
+          "publisher": "東北亜歴史財団",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gc-territorial-interpretation",
+      "claim": "中国は「現在の領土内の歴史はすべて中国史」と主張し、韓国は「民族の系譜」を重視する",
+      "context": "論争の根底には、歴史を解釈する枠組みの違いがある。中国は「統一的多民族国家論」に基づき、現在の国境内で起きた歴史を自国史とする領土的アプローチを採る。一方、韓国は民族の血統・文化的連続性を重視し、高句麗の人々と現在の朝鮮民族とのつながりを根拠とする。この根本的な方法論の違いが、論争の解決を困難にしている。",
+      "verdict": "学術的議論が継続中",
+      "sources": [
+        {
+          "title": "高句麗帰属問題をめぐる中韓の論争",
+          "url": "https://www.jkcf.or.jp/",
+          "publisher": "日韓文化交流基金",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

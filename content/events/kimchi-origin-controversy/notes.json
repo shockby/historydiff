@@ -1,0 +1,61 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "notes": [
+    {
+      "id": "kc-codex-standard",
+      "claim": "キムチには2001年に国際食品規格委員会（Codex）が独自の国際規格を制定済み",
+      "context": "2001年、国際食品規格委員会（Codex Alimentarius Commission）は「Kimchi」の国際規格（CODEX STAN 223-2001）を採択した。この規格では、キムチは塩漬けした白菜に唐辛子粉・ニンニク・生姜・ネギなどの薬味を加えて発酵させた韓国の伝統食品として定義されている。この規格の存在は、キムチが泡菜とは別の食品として国際的に認知されていることの根拠とされる。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "CODEX STAN 223-2001: Codex Standard for Kimchi",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "publisher": "FAO/WHO Codex Alimentarius",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-iso-paocai",
+      "claim": "2020年にISO 24220「泡菜（Pao cai）」規格が制定され、中国メディアが「キムチの宗主国は中国」と報道した",
+      "context": "2020年11月、ISOが四川泡菜の製造に関する国際規格（ISO 24220:2020）を制定した。中国の『環球時報』などがこれを「キムチの国際標準を中国が主導した」と報道し、韓国で強い反発が起きた。韓国の農林畜産食品部はただちに声明を発表し、この規格はキムチには適用されないことを明確にした。ISO自体も、この規格がキムチを対象としたものではないことを確認している。",
+      "verdict": "規格自体は事実だが、キムチとの関連づけは誤報・誇張",
+      "sources": [
+        {
+          "title": "ISO 24220:2020 - Pao cai (salted fermented vegetables)",
+          "url": "https://www.iso.org/standard/78120.html",
+          "publisher": "International Organization for Standardization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-kimjang-unesco",
+      "claim": "2013年に「キムジャン文化」がユネスコ無形文化遺産に登録された",
+      "context": "2013年12月、ユネスコ政府間委員会は「キムジャン、キムチを漬けて分かち合う文化（Kimjang, making and sharing kimchi in the Republic of Korea）」を人類の無形文化遺産の代表的な一覧表に記載した。これは食品としてのキムチではなく、キムチを漬ける韓国の共同体的慣行・知識・社会的機能が評価されたもの。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Kimjang, making and sharing kimchi - UNESCO",
+          "url": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+          "publisher": "UNESCO Intangible Cultural Heritage",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-china-paocai-unesco",
+      "claim": "中国も2020年に「泡菜の製造技術」をユネスコ無形文化遺産に登録申請",
+      "context": "中国は四川省の泡菜を含む伝統的な発酵食品技術を無形文化遺産として保護する動きを進めている。韓国側は、これがキムチの起源を中国に帰属させるための布石ではないかと警戒している。ただし、ユネスコ無形文化遺産は国家間の優先権を決定するものではなく、それぞれの文化的慣行の価値を認めるものであるとユネスコは説明している。",
+      "verdict": "経緯は事実だが、文化的優先権の主張とは別",
+      "sources": [
+        {
+          "title": "UNESCO Intangible Cultural Heritage Lists",
+          "url": "https://ich.unesco.org/en/lists",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

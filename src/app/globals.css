@@ -27,6 +27,35 @@ a {
   text-decoration: none;
 }
 
+/* Site header */
+.site-header {
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.site-nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -99,4 +128,52 @@ a {
   overflow: hidden;
   border: 1px solid var(--card-border);
   background: #1e1e1e; /* Standard editor dark */
+}
+
+/* Make diff text wrap on narrow screens */
+.diff-viewer-container td {
+  word-break: break-word;
+}
+
+/* Hide scrollbar on tab pill containers */
+div::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .site-logo {
+    font-size: 1.2rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .diff-viewer-container {
+    border-radius: 8px;
+  }
+
+  .diff-viewer-container td {
+    font-size: 12px !important;
+    padding: 4px 6px !important;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  footer {
+    padding: 2rem 1rem !important;
+    font-size: 0.85rem;
+  }
 }

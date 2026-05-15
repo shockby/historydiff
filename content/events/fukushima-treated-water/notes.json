@@ -1,0 +1,101 @@
+{
+  "eventId": "fukushima-treated-water",
+  "notes": [
+    {
+      "id": "ftw-tritium-comparison",
+      "claim": "福島のALPS処理水の年間トリチウム放出量（22兆ベクレル未満）は、中国・韓国の主要原発の放出量より少ない",
+      "context": "日本政府は、福島のトリチウム放出管理目標を年間22兆ベクレル未満に設定している。一方、中国の秦山原発は約143兆ベクレル（2020年）、陽江原発は約112兆ベクレル（2021年）、韓国の月城原発は約71兆ベクレル（2021年）の液体トリチウムを通常運転で放出している。数値の比較としては事実であるが、中国・韓国は「通常運転の排水」と「事故由来の処理水」の性質の違いを強調し、単純比較は不適切だと主張している。",
+      "verdict": "数値データは確認済み（解釈に差異）",
+      "sources": [
+        {
+          "title": "ALPS処理水の処分に関するQ&A",
+          "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
+          "publisher": "日本国環境省",
+          "type": "government"
+        },
+        {
+          "title": "各国の原子力施設のトリチウム排出量",
+          "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
+          "publisher": "経済産業省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-alps-effectiveness",
+      "claim": "ALPSはトリチウム以外の62核種を除去できるが、処理後も基準を超える場合がある",
+      "context": "東京電力のALPS（多核種除去設備）は62種の放射性核種を処理する設計となっているが、過去にはALPS処理後もトリチウム以外の一部核種で基準値を超えるケースが報告されている。東京電力は、基準を超えた処理水は海洋放出前に再度ALPS処理または希釈し、すべての核種で基準値以下にしてから放出するとしている。IAEAもこのプロセスを確認・承認している。",
+      "verdict": "事実（再処理の仕組みあり）",
+      "sources": [
+        {
+          "title": "ALPS処理水ポータルサイト",
+          "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
+          "publisher": "東京電力ホールディングス",
+          "type": "government"
+        },
+        {
+          "title": "IAEA Safety Review of ALPS Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-transparency",
+      "claim": "中国は自国原発の放射性物質排出データの公開が十分でない",
+      "context": "中国の「中国核能年鑑2024」では、自国の原子力発電所からの放射性物質の排出について具体的な数値データが記載されず、「国家基準の範囲内」「環境への悪影響なし」との記述にとどまった。日本やIAEAが求める透明性の基準と比較して、情報開示が不十分であるとの指摘がなされている。中国政府は、排出は厳格に管理されていると主張している。",
+      "verdict": "データ非公開は確認済み",
+      "sources": [
+        {
+          "title": "China Nuclear Energy Yearbook 2024 analysis",
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-import-ban",
+      "claim": "中国は2023年8月に日本産水産物を全面禁輸し、2025年6月に条件付きで部分再開した",
+      "context": "中国税関総署は、ALPS処理水の海洋放出開始を受けて2023年8月24日より日本産水産物の全面的な輸入停止措置を実施した。その後、IAEAの枠組みでのモニタリング参加や独自調査を経て、2025年6月29日に10都県（福島、宮城、東京都等）を除く地域からの輸入を条件付きで再開した。輸出には衛生証明書、放射性物質検査合格証、産地証明書の提出が必要とされている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "中国による日本産水産物の輸入規制について",
+          "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
+          "publisher": "農林水産省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-iaea-conclusion",
+      "claim": "IAEAは処理水放出が国際安全基準に適合していると結論づけた",
+      "context": "IAEAは2023年7月に包括的評価報告書を公表し、「日本のALPS処理水の放出計画および関連する活動は、関連する国際安全基準に合致している」「人および環境への放射線影響は無視できるレベルである」と結論づけた。IAEAは福島に常駐事務所を設置し、継続的な監視・検証を行っている。中国は当初IAEAの結論に懐疑的な姿勢を示したが、2024年以降はIAEAの枠組みを通じたモニタリングへの参加に合意した。",
+      "verdict": "公式報告書で確認済み",
+      "sources": [
+        {
+          "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-korea-budget-cut",
+      "claim": "韓国は2026年度から処理水関連の予算を大幅に縮小した",
+      "context": "韓国政府は処理水放出開始当初、国民の不安に対応するため放射能検査や情報提供の関連予算を大幅に拡充したが、2026年度からは予算を大幅に削減した。その理由として、放出開始以降の大規模な検査で基準値を上回る事例が確認されなかったこと、検査キットの実際の利用率が想定より低かったことが挙げられている。8県産水産物の輸入禁止措置は維持されている。",
+      "verdict": "報道で確認済み",
+      "sources": [
+        {
+          "title": "韓国の処理水対応予算に関する報道",
+          "url": "https://www.yonhapnews.co.kr/",
+          "publisher": "聯合ニュース",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

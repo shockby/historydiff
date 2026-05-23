@@ -1,0 +1,121 @@
+{
+  "eventId": "forced-labor",
+  "notes": [
+    {
+      "id": "fl-national-mobilization",
+      "claim": "劳动力动员是根据《全国总动员法》（1938年）进行的。",
+      "context": "1938年4月1日颁布。允许国家在战时控制和调动人力、物力的法律。 1939年开始逐步应用于朝鲜半岛。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "国家総動員法",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館デジタルアーカイブ",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "fl-three-stages",
+      "claim": "人员保障经历了1939年的“招募”、1942年的“官调”、1944年的“征用”阶段。",
+      "context": "韩国工人的动员分三个阶段进行。 1939年起实行公司招聘，1942年起通过行政机关进行官方调解，1944年9月起根据《国家征用条例》实行合法招聘。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "朝鮮人強制連行の記録",
+          "url": "https://www.jica.go.jp/",
+          "publisher": "各種学術研究",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-1965-agreement",
+      "claim": "1965年日韩索赔协定“彻底、最终解决”",
+      "context": "1965年6月22日签署。日本向韩国提供3亿美元的赠款和2亿美元的费用。该协议第2条规定，两国之间的财产和债权已“完全、最终解决”。然而，日本和韩国对该协议的范围有不同的解释。",
+      "verdict": "条约存在（不同解释）",
+      "sources": [
+        {
+          "title": "日韓請求権並びに経済協力協定",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Agreement on the Settlement of Problems Concerning Property and Claims",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20583/volume-583-I-8473-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-2018-supreme-court",
+      "claim": "韩国最高法院2018年判决责令日本企业赔偿",
+      "context": "2018年10月30日，韩国最高法院判决新日铁住金公司（现新日铁）向4名前义务兵各支付1亿韩元赔偿金。已确定，以殖民统治的非法性为由要求损害赔偿的权利不属于《索赔协议》的范围。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "South Korean court orders Nippon Steel to compensate forced wartime laborers",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-forcedlabor-idUSKCN1N40GW",
+          "publisher": "Reuters",
+          "type": "media"
+        },
+        {
+          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fl-780000",
+      "claim": "大约动员了78万朝鲜人。",
+      "context": "数字因研究人员和来源而异。根据日本政府的数据，约有72万人被调动到日本本土。韩国的估计可能表明更广泛的“强迫动员”的数字甚至更高。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "日本における朝鮮人の強制連行・強制労働",
+          "url": "https://www.jstage.jst.go.jp/",
+          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-hashima-island",
+      "claim": "他们被迫在端岛（军舰岛）等地进行艰苦的劳动。",
+      "context": "羽岛是长崎县的世界文化遗产（2015年登记为“日本明治工业革命遗址”的组成部分）。在登记审查过程中，韩国提出异议，称韩国强迫劳动的历史没有得到充分传达。日本承诺建立一个信息中心。",
+      "verdict": "历史事实（评价差异）",
+      "sources": [
+        {
+          "title": "Sites of Japan's Meiji Industrial Revolution",
+          "url": "https://whc.unesco.org/en/list/1484",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-hanaoaka-incident",
+      "claim": "花冈矿山中国工人起义的“花冈事件”",
+      "context": "1945年6月30日，秋田县花冈町（现大馆市）花冈矿山，中国工人起义。据信800人中有400多人死亡。 2000年，鹿岛公司与中国受害者达成和解。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "花岡事件を語り継ぐ（大館市）",
+          "url": "https://www.city.odate.lg.jp/",
+          "publisher": "秋田県大館市",
+          "type": "government"
+        },
+        {
+          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
+          "publisher": "The Japan Times",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

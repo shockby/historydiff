@@ -1,0 +1,159 @@
+{
+  "eventId": "covid-origin",
+  "notes": [
+    {
+      "id": "co-ratg13-similarity",
+      "claim": "在云南省蝙蝠体内发现的 RaTG13 病毒与 SARS-CoV-2 具有约 96% 的同一性，这是自然起源的证据",
+      "context": "RaTG13是2013年从云南省一个矿洞采集到的一种蝙蝠来源的冠状病毒，其序列由武汉病毒研究所石正丽团队分析。尽管整个基因组有大约 96.2% 的同一性，但这 4% 的差异对应于 40 到 70 个进化年，这意味着 RaTG13 不是 SARS-CoV-2 的直接祖先。在老挝的蝙蝠中发现了更密切相关的病毒（例如 BANAL-52），但它们都没有弗林蛋白酶切割位点。",
+      "verdict": "基因组数据是事实（不是直系血统）",
+      "sources": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "url": "https://doi.org/10.1038/s41586-020-2012-7",
+          "publisher": "Nature",
+          "type": "academic"
+        },
+        {
+          "title": "Bat coronaviruses related to SARS-CoV-2 and infectious for human cells",
+          "url": "https://doi.org/10.1038/s41586-022-04532-4",
+          "publisher": "Nature (BANAL viruses)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-huanan-market",
+      "claim": "武汉华南海鲜市场是疫情最初传播的中心",
+      "context": "Woorbey等人在2022年《Science》杂志上发表的一项研究表明，最初病例的地理分布以华南市场为中心，该市场环境样本中检测到的病毒RNA集中在出售活体野生动物的地区，并且两个系统发育上独立的谱系（谱系A和B）均与该市场相关。然而，一些最早的案例（2019年12月上半月）与市场没有联系，争论仍在继续。",
+      "verdict": "具有统计分析（讨论继续）",
+      "sources": [
+        {
+          "title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+          "url": "https://doi.org/10.1126/science.abp8715",
+          "publisher": "Science",
+          "type": "academic"
+        },
+        {
+          "title": "The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1126/science.abp8337",
+          "publisher": "Science",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-furin-cleavage-site",
+      "claim": "SARS-CoV-2中的弗林蛋白酶切割位点在相关病毒中未发现，可能表明人工插入",
+      "context": "SARS-CoV-2的刺突蛋白含有弗林蛋白酶切割位点（RRAR序列），被认为可以提高感染人体细胞的效率。在同一 Sarbecovirus 亚属的密切相关物种中未见此特征。实验室泄漏理论的支持者将此作为指向人工插入可能性的证据。另一方面，自然起源理论的支持者指出，弗林蛋白酶切割位点天然存在于其他冠状病毒物种（如HKU1和MERS）中，并且可以通过自然基因重组（模板转换）获得。截至2026年，还没有得出明确的结论。",
+      "verdict": "科学争论仍在继续",
+      "sources": [
+        {
+          "title": "The proximal origin of SARS-CoV-2",
+          "url": "https://doi.org/10.1038/s41591-020-0820-9",
+          "publisher": "Nature Medicine",
+          "type": "academic"
+        },
+        {
+          "title": "A critical analysis of the evidence for the SARS-CoV-2 origin hypotheses",
+          "url": "https://doi.org/10.5281/zenodo.7785921",
+          "publisher": "Preprint/Review",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-wiv-researchers-ill",
+      "claim": "2019年秋天，武汉病毒研究所的三名研究人员因出现类似新冠症状而住院。",
+      "context": "2021 年 5 月，《华尔街日报》报道称，根据美国情报界的报告，三名 WIV 研究人员因 2019 年 11 月出现的与 COVID-19 一致的症状而入院。美国国务院也在 2021 年 1 月的声明中提到了这一信息。中国政府和武汉病毒研究所否认了这一报道，石正丽博士正式否认“没有一名武汉病毒研究所工作人员感染SARS-CoV-2”。据美国情报机构称，这些信息的准确性因机构而异，并且不确定。",
+      "verdict": "真实性未经证实（各方之间的主张相互冲突）",
+      "sources": [
+        {
+          "title": "Intelligence on Sick Staff at Wuhan Lab Fuels Debate on Covid-19 Origin",
+          "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+          "publisher": "Wall Street Journal",
+          "type": "media"
+        },
+        {
+          "title": "Fact Sheet: Activity at the Wuhan Institute of Virology",
+          "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-who-investigation",
+      "claim": "2021年世界卫生组织专家组将自然起源理论评为最有可能的。",
+      "context": "2021年1月和2月，世卫组织和中国联合调查组赴武汉进行调查，并于同年3月发布报告。该报告评估了四种假设：（1）通过中间宿主自然感染“可能到非常可能”，（2）直接人畜共患病“可能到可能”，（3）冷链来源“可能”，（4）实验室事故“极不可能”。然而，调查组组长彼得·贝内巴雷克后来作证说，中方施加压力，要求不将实验室泄漏理论纳入报告中。世卫组织总干事谭德塞也与该报告的结论保持距离，他说：“所有假设都是开放的，需要进一步调查。”",
+      "verdict": "报告为官方文件（调查独立性存疑）",
+      "sources": [
+        {
+          "title": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+          "publisher": "WHO",
+          "type": "international"
+        },
+        {
+          "title": "WHO chief says 'premature' to rule out COVID lab leak",
+          "url": "https://www.reuters.com/article/us-health-coronavirus-who-china-idUSKBN2AM0LR",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "co-us-intelligence-split",
+      "claim": "美国情报机构尚未就起源达成共识",
+      "context": "根据美国情报界2023年解密报告，FBI以“中等信心”支持实验室泄漏理论，能源部则以“低信心”给出类似评级。另一方面，国家情报委员会和四家情报机构对自然起源说的支持度“较低”。中央情报局和其他机构保留了判断。报告的结论是“这两种理论都没有得到直接证据的证实”。这种分歧归因于可用信息有限和中国政府缺乏透明度。",
+      "verdict": "官方报告出炉（意见不一）",
+      "sources": [
+        {
+          "title": "Updated Assessment on COVID-19 Origins",
+          "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230626.pdf",
+          "publisher": "Office of the Director of National Intelligence",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-china-data-transparency",
+      "claim": "中国因限制获取早期数据并阻止独立调查而受到批评。",
+      "context": "有指出，WIV病毒库于2019年9月下线，WIV解释称是出于“安全原因”。 2020年初，中国政府限制早期患者生物样本的共享，华南市场的环境数据也被推迟发布。 2023年，临时上传到GISAID的华南市场基因序列数据（包括貉等动物的DNA）后来被中国研究人员删除。世界卫生组织一再呼吁中国透明地分享数据，但北京方面反驳说，它已经提供了足够的信息。",
+      "verdict": "数据访问限制得到确认（动机有争议）",
+      "sources": [
+        {
+          "title": "New Data Links Pandemic's Origins to Raccoon Dogs at Wuhan Market",
+          "url": "https://www.nytimes.com/2023/03/16/science/covid-wuhan-market-raccoon-dogs-lab-leak.html",
+          "publisher": "New York Times",
+          "type": "media"
+        },
+        {
+          "title": "WHO SAGO report on COVID-19 origins",
+          "url": "https://www.who.int/publications/m/item/scientific-advisory-group-on-the-origins-of-novel-pathogens-(sago)-report",
+          "publisher": "WHO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "co-gain-of-function",
+      "claim": "武汉病毒研究所正在 NIH 的资助下进行功能获得研究。",
+      "context": "美国国立卫生研究院 (NIH) 通过生态健康联盟资助武汉病毒研究所的蝙蝠冠状病毒研究。从2021年起，美国国会就这笔资金是否构成增加病毒传染性的“功能获得性研究”展开了激烈辩论。 NIH 最初否认了这一点，但在 2021 年 10 月承认生态健康联盟违反了报告要求，未能报告使用嵌合病毒的实验对小鼠的致病性增加超过预期。然而，尚未发现任何证据表明这些实验中产生的病毒是 SARS-CoV-2 的直接前体。",
+      "verdict": "资助和研究真实（与 SARS-CoV-2 的直接联系尚未得到证实）",
+      "sources": [
+        {
+          "title": "NIH Letter to Rep. Comer regarding EcoHealth Alliance",
+          "url": "https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Letter-to-Congress-on-EcoHealth-Alliance.pdf",
+          "publisher": "U.S. House Committee on Oversight",
+          "type": "government"
+        },
+        {
+          "title": "The Lancet COVID-19 Commission: Task Force on the Origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1073/pnas.2202769119",
+          "publisher": "PNAS",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

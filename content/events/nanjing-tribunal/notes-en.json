@@ -1,0 +1,87 @@
+{
+  "eventId": "nanjing-tribunal",
+  "notes": [
+    {
+      "id": "nt-tani-hisao",
+      "claim": "Lieutenant General Hisao Tani was sentenced to death by the Nanjing Military Court and executed.",
+      "context": "Hisao Tani was the commander of the 6th division at the time of the capture of Nanjing. He was found guilty by the Nanjing Military Court of direct responsibility for the massacre committed by his subordinate soldiers, and was executed by firing squad in Yuhuatai, Nanjing on April 26, 1947. This is one of the most important decisions of the Nanjing Military Tribunal.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "南京大屠殺史料集 - 南京審判",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-hyakunin-giri",
+      "claim": "Second Lieutenants Toshiaki Mukai and Takeshi Noda of the ``Hyakunin Slash Contest'' were sentenced to death.",
+      "context": "``Hyakunin Slash Competition'' is based on an article reported in ``Tokyo Nichiichi Shimbun'' (currently Mainichi Shimbun) in 1937. The same article reported that Second Lieutenants Mukai and Noda engaged in a 100-man ``competition'' with Japanese swords during the Battle of Nanjing. The Nanjing Military Tribunal used this article as key evidence and sentenced both men to death. In Japan, the family filed a defamation lawsuit in 2003, but lost (upheld by the Supreme Court in 2006). There is an ongoing debate in Japan as to whether the article was an exaggeration or a fabrication to boost fighting spirit.",
+      "verdict": "Fact finding is controversial",
+      "sources": [
+        {
+          "title": "百人斬り訴訟 最高裁決定",
+          "url": "https://www.courts.go.jp/",
+          "publisher": "裁判所",
+          "type": "government"
+        },
+        {
+          "title": "東京日日新聞（1937年11月-12月の報道）",
+          "url": "https://mainichi.jp/",
+          "publisher": "毎日新聞社",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-death-toll-30万",
+      "claim": "The court determined that the number of victims was ``more than 190,000 people killed collectively, more than 150,000 people killed individually, and more than 300,000 people in total.''",
+      "context": "This certification is based on burial records by charitable organizations such as the Red Swastika Society and Chongshan Temple, testimonies of survivors, and records of the International Safety Zone. At the same time, the Tokyo Tribunal (International Military Tribunal for the Far East) recognized the number of victims as ``more than 200,000,'' but the number recognized differs between the two courts. Japanese historian Ikuhiko Hata has questioned the reliability of the burial records at Chongshan-do (approximately 110,000 bodies), pointing out that the group may have ceased its activities at the time of the fall of Nanjing. On the other hand, Chinese researchers argue that the overall number, including other burial records and testimonies, is more than 300,000.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-tokyo-vs-nanjing",
+      "claim": "The Tokyo Tribunal and the Nanjing Military Tribunal are separate courts, and the number of victims is determined differently.",
+      "context": "The Tokyo Tribunal (IMTFE) was an international tribunal led by the Allies that tried Class A war criminals and recognized the number of victims in Nanjing as ``more than 200,000.'' On the other hand, the Nanjing Military Tribunal, a domestic tribunal set up by the Republic of China government, judged BC-class war criminals and recognized them as ``more than 300,000.'' The fact that two courts from the same period differed by 100,000 in the number of victims shows how difficult it is to determine the number of victims.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nt-roc-prc-succession",
+      "claim": "The People's Republic of China is inheriting court rulings sponsored by the Republic of China government.",
+      "context": "The Nanjing Military Tribunal was sponsored by the Republic of China (Kuomintang government). After the change of government in 1949, the People's Republic of China (communist government) fully inherited the court's rulings. Although the PRC normally denies the legitimacy of the ROC, it actively cites the judgment of the Nanjing Military Tribunal as ``realizing justice for the Chinese people.'' This is one of the rare cases in which China and Taiwan share a common position on historical issues regarding Japan.",
+      "verdict": "Background information",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

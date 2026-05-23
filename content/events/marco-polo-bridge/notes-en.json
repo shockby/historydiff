@@ -1,0 +1,33 @@
+{
+  "eventId": "marco-polo-bridge",
+  "notes": [
+    {
+      "id": "mpb-first-shot",
+      "claim": "On July 7, 1937, a shooting incident occurred between Chinese and Chinese forces near the Marco Polo Bridge.",
+      "context": "The incident occurred when a gunshot erupted during a nighttime exercise by the Japanese military, and one soldier went missing for a while. Opinions differ between Japan and China as to who fired the first shot, and it is still not confirmed historically.",
+      "verdict": "The incident has been confirmed (the source of the shooting is discussed)",
+      "sources": [
+        {
+          "title": "盧溝橋事件関連資料",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mpb-full-scale-war",
+      "claim": "The Marco Polo Bridge Incident was the beginning of a full-scale war between Japan and China.",
+      "context": "After the incident, a temporary ceasefire was established in the area, but the Japanese Konoe Cabinet issued a ``Statement to Dispatch Troops to the North'' and decided to send reinforcements. The situation escalated, and after the Second Shanghai Incident in August, the Sino-Japanese War developed into a full-scale war. In China, this incident is known as the ``77 Incidents'' and is regarded as the starting point of the Anti-Japanese War.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "日中戦争の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

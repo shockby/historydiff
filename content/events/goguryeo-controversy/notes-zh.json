@@ -1,0 +1,67 @@
+{
+  "eventId": "goguryeo-controversy",
+  "notes": [
+    {
+      "id": "gc-northeast-project",
+      "claim": "中国社会科学院在“东北工程”项目（2002-2007年）中指定高句丽为中国地方政府。",
+      "context": "东北项目（东北边疆历史与现状研究项目）是中国社会科学院和吉林省社会科学院共同实施的国家级项目。他系统地研究了中国东北的历史、民族和地理，将中国历史上的高句丽、渤海等地区置于“统一的多民族国家”的框架内。此举在韩国引起了强烈反对，称其为“对历史的掠夺”。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "東北工程 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%8C%97%E5%B7%A5%E7%A8%8B",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "gc-unesco-dual-registration",
+      "claim": "2004年，中国和朝鲜分别将高句丽相关遗址登记为联合国教科文组织世界文化遗产。",
+      "context": "2004年7月，联合国教科文组织世界遗产委员会将中国申请的高句丽都城及古墓群（吉林省吉安市、辽宁省华宁县）和朝鲜申请的“高句丽古墓群”（平壤市、南浦市）登记为世界文化遗产。这是两国对同一古代民族的遗产地分别登记的罕见情况，成为高句丽历史归属争议的象征。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Capital Cities and Tombs of the Ancient Koguryo Kingdom - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1135/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        },
+        {
+          "title": "Complex of Koguryo Tombs - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1091/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gc-korea-response",
+      "claim": "韩国政府于2004年设立高句丽研究财团，后改组为东北亚历史财团。",
+      "context": "为了与中国的东北工程竞争，韩国政府于2004年成立了高句丽研究财团，2006年扩大活动范围，改组为东北亚洲历史财团。该基金会开展研究以学术证明高句丽和渤海属于韩国历史，以及国际传播活动。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "東北亜歴史財団 公式サイト",
+          "url": "https://www.nahf.or.kr/",
+          "publisher": "東北亜歴史財団",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gc-territorial-interpretation",
+      "claim": "中国声称“其现有领土内的所有历史都是中国历史”，而韩国则强调“民族血统”。",
+      "context": "争论的根源在于解释历史的框架不同。中国以统一的多民族国家理论为基础，采取领土观，将在其境内发生的历史视为自己的历史。另一方面，韩国强调民族血统和文化连续性，并将其建立在高句丽人民与现在朝鲜民族之间的联系之上。这种方法上的根本差异使得解决争端变得困难。",
+      "verdict": "学术争论仍在继续",
+      "sources": [
+        {
+          "title": "高句麗帰属問題をめぐる中韓の論争",
+          "url": "https://www.jkcf.or.jp/",
+          "publisher": "日韓文化交流基金",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

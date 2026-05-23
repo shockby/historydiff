@@ -1,0 +1,103 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "notes": [
+    {
+      "id": "hsr-china-tech-transfer",
+      "claim": "2004年以来，我国引进日本川崎重工等海外企业技术。",
+      "context": "2004年，中国铁道部选定川崎重工（日本）、阿尔斯通（法国）、庞巴迪（加拿大）、西门子（德国）引进200公里/小时高速列车（CRH）技术。川崎重工提供基于 E2 新干线的 CRH2。这后来成为中国独特的“再创新”的基础。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "中国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-wenzhou-accident",
+      "claim": "2011年温州发生一起高铁追尾事故。",
+      "context": "2011年7月23日，浙江温州发生一起高铁相撞脱轨事故，造成40人死亡。事故发生后，有报道称当局立即挖坑掩埋事故车辆，此举招致国内外批评“破坏证据”。这起事故成为一个标志性事件，引发了人们对中国迅速扩张的航线安全性的质疑。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-korea-tgv-choice",
+      "claim": "韩国选择法国TGV而不是日本。",
+      "context": "1994年，韩国政府选择法国GEC阿尔斯通（TGV）引进高速铁路（KTX）技术。日本（新干线）和德国（ICE）也参与了竞标，但对技术转让、资金支持、外交考虑等条件进行了综合评判。特别是，技术转让的深度据说是决定因素。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "韓国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-ip-controversy",
+      "claim": "中国试图申请国际专利，声称其是原创技术",
+      "context": "2011年，中国宣布有意向美国、英国等多个国家申请高铁技术专利。对此，JR东日本董事长松本雅之（时任）等人表示不满，称“我不明白将新干线技术当作我国技术来应用的想法。”中国则反驳说，“引进的技术已经完全消化并重新创新，是独一无二的。”",
+      "verdict": "事实争议",
+      "sources": [
+        {
+          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "url": "https://www.asahi.com/",
+          "publisher": "朝日新聞",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hsr-shinkansen-safety-record",
+      "claim": "新干线开通60多年来，商业运营中因碰撞或脱轨而造成的乘客死亡为零。",
+      "context": "东海道新干线自1964年开通以来，从未发生过商业运营中因碰撞或出轨而导致乘客死亡的事故。在地震多发国家日本，这一记录是通过列车自动控制（ATC）、地震早期探测预警系统（UrEDAS）、防脱轨警卫等多重安全措施保持的。 2004年新泻县中越地震时，上越新干线曾发生脱轨事故，但没有造成乘客伤亡。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "新幹線の安全性 - JR東海",
+          "url": "https://company.jr-central.co.jp/",
+          "publisher": "東海旅客鉄道株式会社",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hsr-indonesia-competition",
+      "claim": "2015年，中国在印尼雅万高铁项目上击败日本。",
+      "context": "多年来，日本曾提出印尼雅加达至万隆（约142公里）高铁项目采用新干线系统，但2015年9月，印尼政府采纳了中国的建议。中方提出的条件是不要求印尼政府承担任何财政负担。该线路于 2023 年 10 月开通，当时名为“Whoosh”，但建设成本已从最初的 55 亿美元飙升至约 73 亿美元，引发了对其盈利能力的质疑。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Jakarta-Bandung High-Speed Railway",
+          "url": "https://en.wikipedia.org/wiki/Jakarta%E2%80%93Bandung_high-speed_railway",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-taiwan-shinkansen",
+      "claim": "台湾高铁（2007年开通）采用日本新干线系统",
+      "context": "台湾高铁（Taiwan High Speed Rail）是台北至左营之间的一条全长345公里的线路，于2007年1月开通。最初以欧盟（法国的TGV、德国的ICE）为主，但1999年台湾地震后，安全性变得更加重要，最终采用以日本新干线700系列为基础的700T系列。这是日本新干线系统首次正式出口海外，是日本的一项重要成就。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "台湾高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    }
+  ]
+}

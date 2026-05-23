@@ -1,0 +1,47 @@
+{
+  "eventId": "sino-japanese-war",
+  "notes": [
+    {
+      "id": "sjw-treaty-of-shimonoseki",
+      "claim": "In 1895, Japan ceded Taiwan and the Liaodong Peninsula and received compensation in the Treaty of Shimonoseki (Treaty of Shimonoseki).",
+      "context": "The Sino-Japanese Peace Treaty (Treaty of Shimonoseki) was concluded on April 17, 1895. From the Qing Dynasty, Japan received the cession of Taiwan, the Penghu Islands, and the Liaodong Peninsula, 200 million taels (taels) in compensation, and the establishment of an open port. In China, this is described as an \"unequal treaty.\" The Liaodong Peninsula was later returned to China through the Russian-French-German Trilateral Intervention.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Treaty of Shimonoseki (1895)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-triple-intervention",
+      "claim": "Due to the Triple Intervention (Russia, France and Germany), Japan returned the Liaodong Peninsula to Qing.",
+      "context": "On April 23, 1895, Russia, France, and Germany advised Japan to return the Liaodong Peninsula to the Qing Dynasty. Under military pressure, Japan accepted this and received an additional 30 million ryo in compensation. This experience increased hostility towards Russia within Japan and led to the later Russo-Japanese War.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "三国干渉関連外交文書",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-donghak-trigger",
+      "claim": "Korea's Donghak Peasants' Movement (Kogo Peasants' War) triggered the Sino-Japanese War",
+      "context": "In 1894, the Donghak peasant movement broke out in Korea, and the Korean government requested the Qing to send troops. In response, Japan also dispatched troops based on the Treaty of Tianjin, and the Japanese and Chinese armies faced each other on the Korean Peninsula, which was the direct trigger for the outbreak of war. In South Korea, this movement is regarded as the forerunner of the anti-feudal and anti-aggression democratic movement.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "日清戦争の経緯",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "eventId": "textbook-controversy",
+  "notes": [
+    {
+      "id": "tc-1982-controversy",
+      "claim": "1982年，有报道称日本教科书认证中“入侵”被改写为“前进”。",
+      "context": "1982年，日本媒体报道“文部科学省教科书认证中，将‘入侵’中国改写为‘先进’”，遭到中韩两国强烈抗议。尽管后来查证指出，当年的考试实际上并没有确认这种改写，但“邻国条款”是在报告发布后新设立的。",
+      "verdict": "关于报告准确性的争论",
+      "sources": [
+        {
+          "title": "教科書検定基準の改定（近隣諸国条項の新設）",
+          "url": "https://www.mext.go.jp/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-neighboring-countries-clause",
+      "claim": "1982年，教材认证标准中增加了“邻国条款”。",
+      "context": "1982年11月24日，教育部在教科书认证标准中增加了一项条款，规定“处理与亚洲邻国的近现代历史事件时，必须从国际理解与合作的角度给予必要的考虑”。内阁官房长官宫泽喜一发表声明，政府承诺改进考试。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "宮沢官房長官談話（1982年）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-2001-new-history-textbook",
+      "claim": "2001年，历史新教科书创作学会教材通过认证测试。",
+      "context": "2001年，“新历史教科书创作协会”编写的扶桑社历史教科书通过了文部科学省的认证。中国和韩国强烈抗议，称其内容美化日本侵略和殖民统治并为其辩护。实际录取率很低（不到1%），甚至在日本国内也引起了争论。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "教科書検定結果（文部科学省）",
+          "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

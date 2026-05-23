@@ -1,0 +1,47 @@
+{
+  "eventId": "ww2-asia",
+  "notes": [
+    {
+      "id": "w2a-china-casualties",
+      "claim": "The number of casualties on the Chinese side is said to be over 35 million.",
+      "context": "The Chinese government has announced that the total number of Chinese military and civilian casualties in the Sino-Japanese War was over 35 million. This figure includes military deaths, civilian deaths, and injuries. Academic estimates vary, with some researchers putting the number of deaths alone at 10 to 20 million.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "中国抗日戦争の犠牲者数",
+          "url": "https://www.mfa.gov.cn/",
+          "publisher": "中華人民共和国外交部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "w2a-murayama-statement",
+      "claim": "In the 1995 Murayama Statement, Japan expressed \"deep remorse and heartfelt apology\" for \"colonial rule and invasion.\"",
+      "context": "On August 15, 1995, Prime Minister Tomiichi Murayama issued a statement based on the Cabinet decision. ``At one point in the not-so-distant past, our country made a mistake in its national policy, went down the path to war, and put its people in a crisis of survival.Through colonial rule and invasion, it caused great damage and suffering to the people of many countries, especially Asian countries.'' Subsequent prime ministers have basically followed this statement.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "村山内閣総理大臣談話（1995年）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/07/dmu_0815.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "w2a-abe-statement-2015",
+      "claim": "In 2015, Prime Minister Abe released a statement marking the 70th anniversary of the end of the war.",
+      "context": "On August 14, 2015, Prime Minister Shinzo Abe approved the ``70th Postwar Postwar Statement'' at a cabinet meeting. Using keywords from past statements such as ``incidents, invasions, wars'' and ``colonial rule,'' he said, ``We must not burden our children and grandchildren, who had nothing to do with that war, with the fate of continuing to apologize.'' There was criticism from China and South Korea that the subjectivity of the apology was unclear.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "内閣総理大臣談話（戦後70年、2015年）",
+          "url": "https://www.kantei.go.jp/jp/97_abe/discource/20150814danwa.html",
+          "publisher": "首相官邸",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

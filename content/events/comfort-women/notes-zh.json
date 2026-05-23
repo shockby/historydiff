@@ -1,0 +1,115 @@
+{
+  "eventId": "comfort-women",
+  "notes": [
+    {
+      "id": "cw-kono-statement",
+      "claim": "一、日本政府表达诚挚的歉意和悔恨（河野声明）",
+      "context": "1993年8月4日，内阁官房长官河野洋平发表声明，承认前日本军队参与慰安所的设立和管理以及强制招募人员。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "河野談話全文（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-2015-agreement",
+      "claim": "2015年日韩协议确认了“最终且不可逆转的解决方案”",
+      "context": "二、2015年12月28日，日韩外长会议达成协议。该协议包括日本政府向韩国设立的一个基金会捐款 10 亿日元。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "日韓外相会談（2015年12月28日）",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-awf",
+      "claim": "成立亚洲妇女基金，向前慰安妇发放“赎罪金”",
+      "context": "1995年成立，2007年解散。来自菲律宾、韩国、台湾、荷兰和印度尼西亚的前慰安妇每人获得200万日元的“赎罪”金、医疗和福利支持以及首相的道歉信。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "アジア女性基金とその活動",
+          "url": "https://www.awf.or.jp/",
+          "publisher": "アジア女性基金（デジタル記念館）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "cw-forced-mobilization",
+      "claim": "未发现直接表明军方或政府当局强迫绑架的材料。",
+      "context": "日本政府在2007年内阁决定和2014年河野谈话审议中也表达了类似观点。然而，一些历史研究者批评他们只关注“狭义的强制”。中央大学教授吉见义明发现了显示军方参与的文件，并认为强制涉及更广泛的意义。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-wednesday-demo",
+      "claim": "自1992年以来，每周三都会在日本驻首尔大使馆前举行“周三示威”。",
+      "context": "由韩国志愿军问题对策委员会（现为解决日本军队性奴役问题正义与记忆团结会）主办。和平女孩雕像于2011年12月14日安装，这是第1000次示威活动。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "'Comfort women' rally marks 1,000th weekly protest",
+          "url": "https://www.bbc.com/news/world-asia-16191689",
+          "publisher": "BBC News",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cw-victim-numbers",
+      "claim": "受害者人数估计为数万至20万以上。",
+      "context": "关于受害者人数有多种理论，并且根据研究人员的不同而有很大差异。韩国政府和一些研究人员使用的数字是 20 万，但其他研究人员估计的数字要低一些。很难确定确切的数字。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "Comfort Women: A Movement for Justice and Women's Rights in the United States",
+          "url": "https://www.amnesty.org/en/documents/asa22/012/2005/en/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "cw-2021-court",
+      "claim": "2021年首尔中央地方法院判令日本政府支付赔偿金。",
+      "context": "2021年1月8日，首尔中央地方法院判令日本政府向每名前慰安妇支付1亿韩元赔偿金。与此同时，同年4月提起的另一起诉讼则基于主权豁免原则被驳回。日本政府以主权豁免为由，没有接受这一裁决。",
+      "verdict": "存在正式记录（有效性有争议）",
+      "sources": [
+        {
+          "title": "South Korea court orders Japan to compensate 'comfort women'",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-comfortwomen-idUSKBN29D03U",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

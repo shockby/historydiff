@@ -1,0 +1,61 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "notes": [
+    {
+      "id": "kc-codex-standard",
+      "claim": "The International Food Standards Committee (Codex) established its own international standard for kimchi in 2001.",
+      "context": "In 2001, the Codex Alimentarius Commission adopted the international standard for \"Kimchi\" (CODEX STAN 223-2001). According to this standard, kimchi is defined as a traditional Korean food made by fermenting salted Chinese cabbage with condiments such as chili powder, garlic, ginger, and green onions. The existence of this standard is considered to be the basis for the fact that kimchi is internationally recognized as a food separate from foamed vegetables.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "CODEX STAN 223-2001: Codex Standard for Kimchi",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "publisher": "FAO/WHO Codex Alimentarius",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-iso-paocai",
+      "claim": "In 2020, the ISO 24220 “Pao cai” standard was established, and Chinese media reported that “China is the suzerain of kimchi.”",
+      "context": "In November 2020, ISO established an international standard for the production of Sichuan foam cabbage (ISO 24220:2020). China's ``Global Times'' reported this as ``China taking the lead in setting the international standard for kimchi,'' and there was strong opposition in South Korea. South Korea's Ministry of Agriculture, Forestry, Livestock and Food immediately issued a statement clarifying that this standard does not apply to kimchi. ISO itself has confirmed that the standard is not intended for kimchi.",
+      "verdict": "The standard itself is true, but the association with kimchi is a misinformation/exaggeration.",
+      "sources": [
+        {
+          "title": "ISO 24220:2020 - Pao cai (salted fermented vegetables)",
+          "url": "https://www.iso.org/standard/78120.html",
+          "publisher": "International Organization for Standardization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-kimjang-unesco",
+      "claim": "“Kimjang Culture” was registered as a UNESCO Intangible Cultural Heritage in 2013",
+      "context": "In December 2013, the UNESCO Intergovernmental Commission included ``Kimjang, making and sharing kimchi in the Republic of Korea'' on a representative list of intangible cultural heritage of humanity. This award recognizes not kimchi as a food, but the Korean communal practice, knowledge, and social function of pickling kimchi.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Kimjang, making and sharing kimchi - UNESCO",
+          "url": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+          "publisher": "UNESCO Intangible Cultural Heritage",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-china-paocai-unesco",
+      "claim": "In 2020, China will also apply for registration of “Awaunai manufacturing technology” as a UNESCO Intangible Cultural Heritage.",
+      "context": "China is moving to protect traditional fermented food techniques, including Sichuan's foam cabbage, as intangible cultural heritage. South Korea is wary that this is a move to attribute the origin of kimchi to China. However, UNESCO explains that intangible cultural heritage does not determine priority among nations, but recognizes the value of each cultural practice.",
+      "verdict": "The history is true, but it is different from claiming cultural priority.",
+      "sources": [
+        {
+          "title": "UNESCO Intangible Cultural Heritage Lists",
+          "url": "https://ich.unesco.org/en/lists",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "russia-china-territory",
+  "notes": [
+    {
+      "id": "rct-nerchinsk-context",
+      "claim": "The Treaty of Nerchinsk (1689) was the first treaty between the Qing Dynasty and a European state.",
+      "context": "The Treaty of Nerchinsk was concluded in 1689 between the Qing Dynasty (Emperor Kangxi) and the Russian Empire (during the regency of Peter I). Negotiations were mediated by the Jesuits using Latin as the medium. This treaty made the Waixing'anling (Stanovoy Mountains) the border, and stipulated Russia's withdrawal from the Amur River basin. It is said that the military superiority of the Qing Dynasty influenced the outcome of the negotiations.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "Treaty of Nerchinsk (1689)",
+          "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk",
+          "publisher": "Encyclopædia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-aigun-unequal",
+      "claim": "The Treaty of Aygun (1858) is one of the \"unequal treaties\" that China claims",
+      "context": "The Treaty of Aygun was concluded by Muravyov-Amursky, the Russian governor of East Siberia, under military pressure at a time when the Qing Dynasty was weakening due to the Arrow War (Second Opium War). China classifies this treaty as an ``unequal treaty,'' a product of coercive diplomacy that took advantage of the Qing Dynasty's crisis. On the other hand, Russia takes the position that this treaty is the result of legitimate diplomatic negotiations. From the perspective of international law, there is debate among scholars about the validity of treaties.",
+      "verdict": "Opinions are divided",
+      "sources": [
+        {
+          "title": "Treaty of Aigun",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Aigun",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "中国の「不平等条約」概念の歴史的展開",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-territory-loss",
+      "claim": "The Qing Dynasty lost approximately 1 million square kilometers of territory to Russia in a 19th century treaty.",
+      "context": "Approximately 600,000 square kilometers (north of the Amur River) was designated as Russian territory by the Treaty of Aygun (1858), and approximately 400,000 square kilometers (the coastal region east of the Ussuri River) was designated as Russian territory by the Treaty of Peking (1860). These regions are called ``Outer Manchuria'' and correspond to the present-day Russian Far East region. The fact that Vladivostok's Chinese name ``Haishenwei'' is still widely used in China shows the persistence of this historical memory.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "Sino-Russian Border Disputes",
+          "url": "https://en.wikipedia.org/wiki/Sino-Russian_border_conflicts",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-1969-conflict",
+      "claim": "The 1969 Damansky Island collision brought China and the Soviet Union to the brink of nuclear war.",
+      "context": "On March 2 and 15, 1969, the Chinese and Soviet armies engaged in a battle on Zhenbao Island (Damansky Island) in the Ussuri River, resulting in casualties on both sides. It is estimated that 58 people died on the Soviet side, and around 30 people on the Chinese side (China has not released official numbers). After this clash, the Soviet Union was said to have considered a pre-emptive strike against China's nuclear facilities, and the Nixon administration in the United States took steps to put a check on this. This crisis eventually became one of the triggers for closer ties between the United States and China (Nixon's visit to China in 1972).",
+      "verdict": "Report on consideration of nuclear attack",
+      "sources": [
+        {
+          "title": "The Sino-Soviet Border Conflict of 1969",
+          "url": "https://www.wilsoncenter.org/",
+          "publisher": "Wilson Center / Cold War International History Project",
+          "type": "academic"
+        },
+        {
+          "title": "Sino-Soviet border conflict",
+          "url": "https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-2004-resolution",
+      "claim": "The 2004 supplementary agreement demarcated the entire border between China and Russia.",
+      "context": "In October 2004, President Putin and President Hu Jintao signed the ``Supplementary Agreement on the Eastern Sino-Russian Border'' and agreed to divide the last disputed islands of Bolshoy Ussurisky Island and Tarabalov Island between the two countries. As a result, the approximately 4,300-kilometer Sino-Russian border has been completely demarcated. However, the 2020 amendment to Russia's constitution that explicitly prohibits the cession of territory has been interpreted as legally closing off any room for future territorial negotiations.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "中露国境画定の経緯",
+          "url": "https://www.jiia.or.jp/",
+          "publisher": "日本国際問題研究所",
+          "type": "academic"
+        },
+        {
+          "title": "ロシア連邦憲法改正（2020年）",
+          "url": "http://kremlin.ru/",
+          "publisher": "ロシア大統領府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rct-vladivostok-name",
+      "claim": "In 2023, China used the Chinese name for Vladivostok, “Haizanku,” on its official map, causing a diplomatic issue.",
+      "context": "In 2023, it was reported that the Chinese name ``Haizanku'' was reinstated for Vladivostok in the new standard map published by China's Ministry of Natural Resources. The Russian Ministry of Foreign Affairs expressed displeasure. This move drew attention as an example of how nationalist sentiment within China and the historical memory of ``100 years of national shame'' can influence modern diplomatic relations. However, the Chinese government continues to officially recognize the current border with Russia.",
+      "verdict": "There are reported facts",
+      "sources": [
+        {
+          "title": "China's New Map and Vladivostok Naming Controversy",
+          "url": "https://www.scmp.com/",
+          "publisher": "South China Morning Post",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

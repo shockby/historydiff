@@ -1,0 +1,101 @@
+{
+  "eventId": "sea-of-japan-naming",
+  "notes": [
+    {
+      "id": "sj-iho-s23",
+      "claim": "\"Japan Sea\" has been used since 1929 in the International Hydrographic Organization's (IHO) \"Boundaries of Oceans and Seas (S-23)\"",
+      "context": "S-23 is an international reference document that defines the boundaries and names of maritime areas. The first edition in 1929, the second edition in 1937, and the third edition in 1953 all used \"Japan Sea\". The revised 4th edition in 2002 was not published due to opposition from South Korea.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "IHO Publication S-23",
+          "url": "https://iho.int/en/s-23-limits-of-oceans-and-seas",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sj-iho-2020",
+      "claim": "In 2020, IHO decided to transition to a new method of managing using numerical identifiers.",
+      "context": "At the IHO general meeting in November 2020, the transition to a digital registry method called S-130 was unanimously approved. A method of replacing traditional name-based management with numerical identifiers.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "IHO Assembly Decisions (2020)",
+          "url": "https://iho.int/en/assembly",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        },
+        {
+          "title": "日本海の呼称問題",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-un-usage",
+      "claim": "The United Nations has also officially used the term \"Sea of Japan\"",
+      "context": "In March 2004, the United Nations Secretariat issued a notification stating that ``Sea of Japan is the standard place name and that Sea of Japan will be used in official United Nations documents.'' This is widely cited as an international standard.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "日本海呼称問題（外務省の立場）",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-1992-first-raised",
+      "claim": "South Korea's claim was first raised at the United Nations Conference on Standardization of Place Names in 1992.",
+      "context": "South Korea officially began requesting the use of the name ``East Sea'' internationally at the 6th United Nations Conference on the Standardization of Place Names in 1992. Prior to this, no systematic assertions had been made in the international arena.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "日本海呼称問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/keicho.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-east-sea-2000-years",
+      "claim": "The name “Tokai” has a history of over 2,000 years.",
+      "context": "The Korean side bases its claim on the references to the \"East Sea\" in the Samguk Sagi (1145) and the inscription of King Gwanggaeto (414), but there is historical debate as to whether this completely corresponds to the current maritime area.",
+      "verdict": "Documents exist (discuss interpretation)",
+      "sources": [
+        {
+          "title": "The Name East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-19c-maps",
+      "claim": "The vast majority of 19th-century European and American maps have \"Sea of Japan\" written on them.",
+      "context": "The Japanese government conducted a Ministry of Foreign Affairs survey of approximately 1,500 maps of Europe from the 19th century, and announced that the Sea of Japan occupied approximately 77% of the maps. On the other hand, a study by South Korea's Ministry of Foreign Affairs refuted that it had a variety of names before the 18th century.",
+      "verdict": "Research exists (differences in interpretation)",
+      "sources": [
+        {
+          "title": "日本海呼称に関する調査",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/map/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Korea's Position on the Naming of the East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

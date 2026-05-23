@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-massacre",
+  "notes": [
+    {
+      "id": "nm-death-toll-china",
+      "claim": "The Chinese side clearly states that the number of victims is over 300,000.",
+      "context": "The figure of 300,000 is based on the number recognized in the 1947 Nanjing Military Tribunal judgment. This number is also engraved in the Nanjing Massacre Memorial Hall. There is much disagreement among Japanese researchers about this number, with estimates ranging from tens of thousands to 200,000. At the Tokyo Tribunal, the number was determined to be \"more than 200,000.\"",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nm-tokyo-trial",
+      "claim": "General Matsui Iwane was held responsible at the Tokyo trial and executed.",
+      "context": "Iwane Matsui was the commander of the Central China Army at the time of the capture of Nanjing. At the Tokyo Trials (International Military Tribunal for the Far East), he was found guilty of neglecting his duty to prevent atrocities in Nanking, and was hanged on December 23, 1948.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "International Military Tribunal for the Far East",
+          "url": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nm-rabe-safety-zone",
+      "claim": "German businessman John Rabe and others establish “Nanjing Safety Zone”",
+      "context": "John Rabe was an employee of Germany's Siemens AG and served as chairman of the Nanjing Safety Zone International Committee, which protected approximately 200,000 Chinese civilians. Rabe's diary was published in 1997 and is highly regarded as a primary source that records the situation in Nanjing in detail.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "The Good Man of Nanking: The Diaries of John Rabe",
+          "url": "https://www.penguinrandomhouse.com/books/167904/the-good-man-of-nanking-by-john-rabe/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nm-national-memorial-day",
+      "claim": "December 13th every year is commemorated as a “National Public Holiday”",
+      "context": "On February 27, 2014, the Standing Committee of the National People's Congress of China legislated the National Day of Remembrance for the Victims of the Nanjing Massacre. A memorial ceremony is held at the national level on December 13th every year.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "China designates December 13 as national day of mourning for Nanjing Massacre victims",
+          "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "eventId": "nanjing-death-toll",
+  "notes": [
+    {
+      "id": "ndt-30万-origin",
+      "claim": "The number of victims is ``more than 300,000'' based on the judgment of the Nanjing Military Tribunal.",
+      "context": "The figure of 300,000 was recognized in the 1947 judgment of the Nanjing Military Tribunal (Military Tribunal for War Criminals Tribunal of the Ministry of National Defense). The court combined the burial records of the Red Swastika Society, Chongshan Temple, etc., survivor testimonies, and records of the International Safe Zone, and found that the number of people killed was more than 190,000 in mass killings + 150,000 in individual killings = more than 300,000 people in total. This number is also engraved in the Nanjing Massacre Memorial Hall.",
+      "verdict": "Based on court records",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ndt-tokyo-trial-20万",
+      "claim": "At the Tokyo Tribunal, it was determined that there were ``more than 200,000 people.''",
+      "context": "The International Military Tribunal for the Far East (Tokyo Trial, 1946-48) found that \"more than 200,000\" Chinese civilians and prisoners of war were killed in the six-week period following the capture of Nanking. There is a difference of 100,000 people from the ``more than 300,000'' reported by the Nanjing Military Tribunal. The difference in the numbers certified by two courts from the same period shows the difficulty in determining the number of victims.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ndt-definition-scope",
+      "claim": "The difference in the number of victims is also due to the difference in the definition of \"victim\"",
+      "context": "Estimates of casualty numbers vary widely depending on the definition of assumptions. Different conclusions can be drawn from the same material, depending on the geographical scope (whether it includes only Nanjing City or the six surrounding prefectures), the temporal scope (whether it was just a few weeks after the occupation or until around March 1938), and the scope of the target population (whether it was only civilians or included prisoners of war and defeated soldiers). It is academically inappropriate to ignore this difference in definition and compare only the numbers.",
+      "verdict": "Background information",
+      "sources": [
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-burial-records",
+      "claim": "Burial records are important primary data for estimating the number of victims.",
+      "context": "The main organizations that buried bodies after the fall of Nanjing were the Red Swastika Society (approximately 43,000 bodies) and the Chongshan Temple (approximately 112,000 bodies). Although the records of the Red Swastika Society are said to be relatively reliable, some Japanese researchers are questioning the reliability of the records of the Chongshan Temple, as the group ceased its activities at the time of the fall of Nanjing, and some of the records may have been created after the fact. Chinese researchers dispute this, claiming that Chongshantang resumed its activities in 1938 and carried out extensive burial work.",
+      "verdict": "There is controversy over the evaluation of materials.",
+      "sources": [
+        {
+          "title": "『南京事件論争史』",
+          "url": "https://www.heibonsha.co.jp/",
+          "publisher": "平凡社新書（笠原十九司）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-iris-chang",
+      "claim": "Iris Chan's books had a major impact on American public perception.",
+      "context": "Iris Chan's book The Rape of Nanking: The Forgotten Holocaust of World War II (1997) spent 10 weeks on the New York Times bestseller list, dramatically increasing awareness of the Nanking incident in the United States. The book took the position that there were over 300,000 victims. However, academically, it has been pointed out that some factual errors and photographic materials were misused, and evaluations by historians are divided.",
+      "verdict": "Influence is a fact, but there is some debate about the content",
+      "sources": [
+        {
+          "title": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+          "url": "https://www.penguinrandomhouse.com/books/55764/the-rape-of-nanking-by-iris-chang/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

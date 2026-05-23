@@ -1,0 +1,61 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "notes": [
+    {
+      "id": "kc-codex-standard",
+      "claim": "国际食品标准委员会（Codex）于 2001 年制定了自己的泡菜国际标准。",
+      "context": "2001年，食品法典委员会通过了“泡菜”国际标准（CODEX STAN 223-2001）。根据该标准，泡菜被定义为用咸白菜与辣椒粉、大蒜、生姜、大葱等调味品发酵制成的韩国传统食品。这一标准的存在被认为是泡菜在国际上被公认为与泡沫蔬菜分开的食品的基础。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "CODEX STAN 223-2001: Codex Standard for Kimchi",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "publisher": "FAO/WHO Codex Alimentarius",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-iso-paocai",
+      "claim": "2020年ISO 24220“泡菜”标准制定，中国媒体报道“中国是泡菜宗主国”。",
+      "context": "2020年11月，ISO制定了四川泡沫白菜生产国际标准（ISO 24220:2020）。中国《环球时报》报道称，这是“中国带头制定泡菜国际标准”，遭到韩国强烈反对。韩国农林畜产食品部立即发表声明，澄清该标准不适用于泡菜。 ISO 本身已确认该标准不适用于泡菜。",
+      "verdict": "标准本身是正确的，但与泡菜的联系是错误信息/夸大其词。",
+      "sources": [
+        {
+          "title": "ISO 24220:2020 - Pao cai (salted fermented vegetables)",
+          "url": "https://www.iso.org/standard/78120.html",
+          "publisher": "International Organization for Standardization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-kimjang-unesco",
+      "claim": "2013年“金酱文化”被登录为联合国教科文组织非物质文化遗产",
+      "context": "2013年12月，联合国教科文组织政府间委员会将“韩国泡菜制作和分享泡菜”列入人类非物质文化遗产代表名录。该奖项表彰的不是泡菜作为一种食品，而是韩国泡菜腌制的公共实践、知识和社会功能。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Kimjang, making and sharing kimchi - UNESCO",
+          "url": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+          "publisher": "UNESCO Intangible Cultural Heritage",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-china-paocai-unesco",
+      "claim": "2020年，中国还将申请将“阿瓦奈制造技术”登记为联合国教科文组织非物质文化遗产。",
+      "context": "中国正在努力将包括四川泡白菜在内的传统发酵食品技艺作为非物质文化遗产予以保护。韩国担心这是将泡菜原产地归咎于中国的举动。然而，联合国教科文组织解释说，非物质文化遗产并不决定国家之间的优先顺序，而是承认每种文化习俗的价值。",
+      "verdict": "历史是真实的，但与主张文化优先不同。",
+      "sources": [
+        {
+          "title": "UNESCO Intangible Cultural Heritage Lists",
+          "url": "https://ich.unesco.org/en/lists",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

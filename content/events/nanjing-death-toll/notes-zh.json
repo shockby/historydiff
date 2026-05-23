@@ -1,0 +1,75 @@
+{
+  "eventId": "nanjing-death-toll",
+  "notes": [
+    {
+      "id": "ndt-30万-origin",
+      "claim": "根据南京军事法庭的判决，受害者人数“超过30万”。",
+      "context": "30万这个数字是南京军事法庭（国防部战犯军事法庭）1947年的判决所承认的。法院综合红卍字会、崇山寺等地的埋葬记录、幸存者证言以及国际安全区的记录，发现被杀人数为集体屠杀19万多人+个人屠杀15万人=总计超过30万人。这个数字也刻在南京大屠杀纪念馆里。",
+      "verdict": "根据法庭记录",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ndt-tokyo-trial-20万",
+      "claim": "东京法庭认定“人数超过20万人”。",
+      "context": "远东国际军事法庭（东京审判，1946-48）发现，在占领南京后的六周内，“超过20万”中国平民和战俘被杀害。与南京军事法庭报道的“30万多人”相差10万人。两个法院同一时期认证的人数差异表明确定受害人数的难度。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ndt-definition-scope",
+      "claim": "受害人数的差异也是由于“受害人”定义的不同造成的",
+      "context": "根据假设的定义，对伤亡人数的估计有很大差异。根据地理范围（是否仅包括南京市或周边六县）、时间范围（是否是占领后几周或直到1938年3月左右）以及目标人群范围（是否只是平民或包括战俘和战败士兵），同一材料可以得出不同的结论。忽略这种定义上的差异并仅比较数字在学术上是不合适的。",
+      "verdict": "背景资料",
+      "sources": [
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-burial-records",
+      "claim": "埋葬记录是估算遇难人数的重要原始数据。",
+      "context": "南京沦陷后埋葬尸体的主要组织是红卍字会（约43,000具尸体）和崇山寺（约112,000具尸体）。尽管红卍字会的记录据说相对可靠，但一些日本研究人员对崇山寺记录的可靠性提出质疑，因为该组织在南京沦陷时就停止了活动，而且有些记录可能是事后创建的。中国研究人员对此提出异议，声称崇善堂于1938年恢复活动并进行了广泛的埋葬工作。",
+      "verdict": "材料评价存在争议。",
+      "sources": [
+        {
+          "title": "『南京事件論争史』",
+          "url": "https://www.heibonsha.co.jp/",
+          "publisher": "平凡社新書（笠原十九司）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-iris-chang",
+      "claim": "陈纯如的书对美国公众的认知产生了重大影响。",
+      "context": "陈纯如 (Iris Chan) 的著作《南京大屠杀：被遗忘的二战大屠杀》(1997) 在《纽约时报》畅销书排行榜上停留了 10 周，极大地提高了美国对南京事件的认识。该书的立场是受害者人数超过30万。但学术上，有人指出存在一些事实错误和摄影资料被误用的情况，历史学家的评价也存在分歧。",
+      "verdict": "影响力是事实，但内容存在争议",
+      "sources": [
+        {
+          "title": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+          "url": "https://www.penguinrandomhouse.com/books/55764/the-rape-of-nanking-by-iris-chang/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "eventId": "unit731",
+  "notes": [
+    {
+      "id": "u731-gruesome-experiments",
+      "claim": "Unit 731 carried out biological experiments and developed bacterial weapons.",
+      "context": "Unit 731 (official name: Kwantung Army Epidemic Prevention and Water Supply Department Headquarters) was commanded by Lieutenant General Shiro Ishii and was based in Pingfang on the outskirts of Harbin. Research and development of bacteriological weapons such as plague, cholera, and anthrax were conducted, and human experiments were conducted on Chinese, Russian, and other prisoners of war. Records of the Khabarovsk trials (1949) and testimonies of former members exist.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "Materials on the Trial of Former Servicemen of the Japanese Army (Khabarovsk Trial)",
+          "url": "https://www.legal-tools.org/",
+          "publisher": "International Legal Resources",
+          "type": "international"
+        },
+        {
+          "title": "731部隊罪証陳列館",
+          "url": "http://www.unit731.org/",
+          "publisher": "侵華日軍第七三一部隊罪証陳列館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "u731-us-immunity",
+      "claim": "The United States granted immunity for war crimes to those associated with Unit 731 and obtained research data.",
+      "context": "After the end of the war, the United States forced Shiro Ishii and other executives of Unit 731 to provide data on human experiments in exchange for immunity from prosecution for war crimes in light of Cold War biological weapons research. The transaction was confirmed in the 1990s through public records disclosed under the U.S. Freedom of Information Act.",
+      "verdict": "Official records available (documents have been disclosed)",
+      "sources": [
+        {
+          "title": "Japanese Biological Warfare 1932-1945 and the American Cover-Up",
+          "url": "https://www.archives.gov/iwg/japanese-war-crimes",
+          "publisher": "U.S. National Archives (IWG)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "u731-japan-acknowledgment",
+      "claim": "The Japanese government acknowledges the existence of Unit 731, but does not officially acknowledge human experimentation.",
+      "context": "The Japanese government acknowledges that Unit 731 existed as an epidemic prevention and water supply department, but has not announced the results of official investigations into human experimentation or made individual certifications. In 2011, the National Archives of Japan published a list of members of Unit 731. Verification by private historical researchers is progressing.",
+      "verdict": "Discussion",
+      "sources": [
+        {
+          "title": "731部隊名簿（国立公文書館所蔵）",
+          "url": "https://www.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

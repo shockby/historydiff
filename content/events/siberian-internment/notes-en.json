@@ -1,0 +1,53 @@
+{
+  "eventId": "siberian-internment",
+  "notes": [
+    {
+      "id": "si-number-of-internees",
+      "claim": "Approximately 575,000 Japanese were interned in Siberia",
+      "context": "According to a survey by the Ministry of Health, Labor and Welfare, approximately 575,000 Japanese soldiers and civilians who were in Manchuria, Korea, Sakhalin, etc. at the end of the war were taken to Siberia, Central Asia, etc. by the Soviet Union. According to Russian sources, there are approximately 500,000 people. Japan estimates that approximately 55,000 detainees died.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "シベリア抑留に関する情報（厚生労働省）",
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省",
+          "type": "government"
+        },
+        {
+          "title": "舞鶴引揚記念館",
+          "url": "https://m-hikiage-museum.jp/",
+          "publisher": "舞鶴引揚記念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "si-forced-labor",
+      "claim": "Detainees were forced to work in harsh conditions",
+      "context": "Internees were engaged in hard labor in Siberian coal mines, railway construction (Baikal-Amur Railway, etc.), deforestation, and construction work. Many died due to the extremely cold conditions, inadequate food and clothing, and lack of medical care. In 2015, the ``Siberian Internment Related Materials'' held by the Maizuru Hikiage Memorial Museum were added to UNESCO's ``Memory of the World'' list.",
+      "verdict": "Historical facts (Registered by UNESCO)",
+      "sources": [
+        {
+          "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",
+          "url": "https://en.unesco.org/memoryoftheworld/registry/",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "si-geneva-convention",
+      "claim": "Soviet internment violated the Geneva Conventions",
+      "context": "The 1929 Geneva Convention (Convention on the Treatment of Prisoners of War) requires the prompt repatriation of prisoners of war after hostilities have ended. Although the Soviet Union had not ratified the treaty, Japan had ratified it, and the application of general principles of international humanitarian law was at issue. Article 9 of the Potsdam Declaration also stipulated the ``prompt repatriation'' of Japanese military personnel.",
+      "verdict": "There are legal arguments",
+      "sources": [
+        {
+          "title": "Geneva Convention relative to the Treatment of Prisoners of War (1929)",
+          "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-pow-1929",
+          "publisher": "International Committee of the Red Cross",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

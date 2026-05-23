@@ -1,0 +1,61 @@
+{
+  "eventId": "israel-territory",
+  "notes": [
+    {
+      "id": "it-un-partition-plan",
+      "claim": "The plan to partition Palestine was adopted in United Nations General Assembly Resolution 181 in 1947.",
+      "context": "On November 29, 1947, the United Nations General Assembly passed a proposal to divide Palestine into a Jewish state and an Arab state and place Jerusalem under international control (33 in favor, 13 against, 10 abstentions). The Arab side rejected this resolution. The following year, on May 14, 1948, Israel declared independence and the First Middle East War broke out.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 181 (II)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/038/88/PDF/NR003888.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-1967-war",
+      "claim": "Israel occupied the West Bank, Gaza, the Sinai Peninsula, and the Golan Heights in the 1967 Six-Day War.",
+      "context": "In the Third Middle East War (Six-Day War) from June 5 to 10, 1967, Israel won an overwhelming victory over Egypt, Jordan, and Syria, and occupied the West Bank (including East Jerusalem), Gaza Strip, Sinai Peninsula, and Golan Heights. UN Security Council Resolution 242 called for Israel to withdraw from occupied territory.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 242 (1967)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/240/94/PDF/NR024094.pdf",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-settlements",
+      "claim": "Israel's settlement activities in the West Bank are considered a violation of international law.",
+      "context": "Article 49 of the Fourth Geneva Convention prohibits an occupying power from deporting its nationals to the occupied territory. In a 2004 advisory opinion, the International Court of Justice (ICJ) ruled that the construction of settlements violates the treaty. Israel does not recognize the treaty's application, claiming that it is not occupied territory but \"disputed territory.\"",
+      "verdict": "Differences in evaluation under international law",
+      "sources": [
+        {
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory (ICJ Advisory Opinion, 2004)",
+          "url": "https://www.icj-cij.org/en/case/131",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-oslo-accords",
+      "claim": "Mutual recognition between Israel and the PLO in the 1993 Oslo Accords",
+      "context": "On September 13, 1993, Israeli Prime Minister Rabin and PLO Chairman Arafat signed the Declaration of Principles on Interim Self-Government in Washington, D.C. President Clinton was present. The PLO recognized Israel's right to exist, and Israel recognized the PLO as the legitimate representative of the Palestinian people. The Nobel Peace Prize (1994) was awarded.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Declaration of Principles on Interim Self-Government Arrangements (Oslo I)",
+          "url": "https://peacemaker.un.org/israelopt-osloaccord93",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

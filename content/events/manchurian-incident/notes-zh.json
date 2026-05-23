@@ -1,0 +1,47 @@
+{
+  "eventId": "manchurian-incident",
+  "notes": [
+    {
+      "id": "mi-railway-explosion",
+      "claim": "1931年9月18日，南满铁路铁轨被炸毁（鲤鱼套湖事件）",
+      "context": "关东军参谋石原宽二、板垣征四郎策划的自产爆炸事件。这被用作该事件是中国军方所为的借口。战后的东京审判和日本历史研究也证实这是关东军的阴谋。",
+      "verdict": "历史事实（确认为自产）",
+      "sources": [
+        {
+          "title": "極東国際軍事裁判記録",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mi-lytton-commission",
+      "claim": "国联利顿委员会提交不赞成满洲国的报告",
+      "context": "1932年，国际联盟派出了以利顿勋爵为首的调查组。报告虽然承认日本在满洲的特殊权益，但得出的结论是，满洲事变不能被视为日本的正当防卫，满洲国的建立离不开日本军方的支持。 1933年2月国际联盟大会通过该报告，日本退出国际联盟。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Report of the Commission of Enquiry (Lytton Report)",
+          "url": "https://digital.library.northwestern.edu/league/le000003.pdf",
+          "publisher": "League of Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mi-manchukuo",
+      "claim": "满洲国成立于1932年。",
+      "context": "1932 年 3 月 1 日《建国宣言》。年号是“大同”。清朝末代皇帝溥仪被任命为摄政王（后来的皇帝），但本质上是一个关东军统治的傀儡国家。国际上仅有日本、德国、意大利等少数国家批准。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "満洲国関連資料",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

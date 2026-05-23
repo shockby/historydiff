@@ -1,0 +1,81 @@
+{
+  "eventId": "cultural-revolution",
+  "notes": [
+    {
+      "id": "cr-1981-resolution",
+      "claim": "The Cultural Revolution was summed up as a “civil war” in the 1981 Historical Resolution",
+      "context": "In June 1981, the ``Resolution on Some Historical Issues of the Party since its Founding'' adopted at the 6th Plenary Session of the 11th Central Committee of the Communist Party of China clearly rejected the Cultural Revolution as ``a civil war that was erroneously initiated by the leadership and exploited by counter-revolutionary groups, causing serious disasters to the Party, the nation, and the people.'' This resolution remains the basis for official assessments by the Chinese government to this day.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "建国以来の党の若干の歴史問題についての決議（1981年）",
+          "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
+          "publisher": "人民日報（人民网）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-casualties",
+      "claim": "The number of victims of the Cultural Revolution is estimated to range from hundreds of thousands to millions.",
+      "context": "There are no accurate statistics regarding the number of abnormal deaths during the Cultural Revolution, and estimates vary widely among researchers. Official Chinese documents do not release specific numbers of victims. In overseas research, there are various estimates, including R. J. Rummel's estimate of approximately 7.73 million people and Andrew Walder and Yan Hsu's estimate of 1 million to 1.6 million people. It is generally believed that tens of millions of people suffered some form of persecution.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "Agents of Disorder: Inside China's Cultural Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Bloody Century",
+          "url": "https://www.hawaii.edu/powerkills/",
+          "publisher": "University of Hawaii",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-mao-power-struggle",
+      "claim": "The Cultural Revolution was a political struggle to regain power from Mao Zedong",
+      "context": "An estimated 15 million to 55 million people died of starvation due to the failure of the Great Leap Forward starting in 1958. Mao Zedong, who was held responsible for this, handed over the position of president to Liu Shaoqi, and his influence within the party decreased. Although the Cultural Revolution was ostensibly an ideological movement to ``prevent the return of capitalism,'' many historians analyze it as a political struggle in which Mao Zedong overthrew the pragmatics of Liu Shaoqi and Deng Xiaoping and regained control. China's official position is that the move was ``invoked due to a misjudgment'' and does not highlight the aspect of the move as a power struggle.",
+      "verdict": "Widely supported academically",
+      "sources": [
+        {
+          "title": "The Cultural Revolution: A People's History, 1962-1976",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-education-impact",
+      "claim": "A generation lost educational opportunities when educational institutions closed.",
+      "context": "During the Cultural Revolution, university entrance exams (gaokao) were canceled for approximately 10 years from 1966 to 1977. Junior and senior high schools were also closed or ceased to function for long periods of time, and many young people were forced to go to rural areas. An estimated 16 million urban youth were sent to rural areas. When university entrance exams were restarted under Deng Xiaoping in 1977, about 5.7 million people took them.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "中国教育年鑑",
+          "url": "https://www.moe.gov.cn/",
+          "publisher": "中華人民共和国教育部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-four-olds",
+      "claim": "A large amount of cultural properties were destroyed due to the “Break the Four Olds” movement.",
+      "context": "In the \"Breaking the Four Olds\" movement (breaking down old ideas, old culture, old customs, and old customs), Buddhist temples, Taoist temples, Confucius temples, historical buildings, classical books, and works of art were destroyed on a large scale. It is reported that 6,843 cultural properties have been destroyed in Beijing alone. Most of Tibet's more than 6,000 temples were destroyed or damaged. This movement caused irreparable damage to China's thousands of years of cultural heritage.",
+      "verdict": "There are multiple lines of evidence.",
+      "sources": [
+        {
+          "title": "Mao's Last Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

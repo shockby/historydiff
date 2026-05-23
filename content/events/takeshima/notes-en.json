@@ -1,0 +1,67 @@
+{
+  "eventId": "takeshima",
+  "notes": [
+    {
+      "id": "ts-1905-incorporation",
+      "claim": "In 1905, the Japanese government incorporated Takeshima into Shimane Prefecture.",
+      "context": "On January 28, 1905, the Japanese government placed Takeshima under the jurisdiction of Okishima Tsukasa, Shimane Prefecture, by a cabinet decision. Based on the legal doctrine of first possession of land without title under international law. South Korea claims that the annexation was part of a military invasion carried out during the Russo-Japanese War (1904-05).",
+      "verdict": "Official records available (differences in evaluation)",
+      "sources": [
+        {
+          "title": "竹島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-rusk-letter",
+      "claim": "In the Rusk letter, the United States expressed the view that ``Takeshima is Japanese territory.''",
+      "context": "On August 10, 1951, in a letter from Assistant Secretary of State Dean Rusk to the Korean Ambassador, the United States notified South Korea of its opinion that Takeshima (Dokdo) was not included in the territory renounced by Japan under the San Francisco Treaty. However, South Korea counters that this letter is not public and is not an official interpretation of the treaty.",
+      "verdict": "Documents exist (discussed legal status)",
+      "sources": [
+        {
+          "title": "Rusk Letter (1951)",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省（引用）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-syngman-rhee-line",
+      "claim": "In 1952, South Korea established the “Syngman Rhee Line” and included Takeshima.",
+      "context": "On January 18, 1952, South Korean President Syngman Rhee issued the ``President's Declaration on the Sovereignty of the Maritime Adjacent to the Republic of Korea,'' unilaterally establishing extensive maritime jurisdiction. Takeshima was included within this line. The Japanese government protests this as a unilateral measure that violates international law. Although the Syngman Rhee Line was abolished in 1965 with the Japan-Korea Basic Treaty, effective control of Takeshima continues by South Korea.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "竹島問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Dokdo/Takeshima - Korea's Position",
+          "url": "https://dokdo.mofa.go.kr/eng/",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-icj-proposal",
+      "claim": "Japan has proposed referring the case to the International Court of Justice (ICJ), but South Korea has refused.",
+      "context": "The Japanese government proposed referral to the ICJ three times: in 1954, 1962, and 2012. South Korea rejected both proposals, stating that ``Dokdo is South Korean territory and there is no territorial dispute.'' The ICJ's jurisdiction requires the consent of both parties, so if one party refuses, the case will not be successful.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "竹島の領有権に関するICJ付託の提案",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "eventId": "pacific-war-end",
+  "notes": [
+    {
+      "id": "pwe-potsdam-declaration",
+      "claim": "The Potsdam Declaration was announced on July 26, 1945.",
+      "context": "Announced by the names of the leaders of the US, UK, and China (Truman, Churchill, and Chiang Kai-shek). Demands unconditional surrender from Japan. Later the Soviet Union also joined. Japan announced its acceptance on August 14th and signed the Instrument of Surrender on September 2nd.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-atomic-bombs",
+      "claim": "Atomic bombs were dropped on Hiroshima on August 6, 1945 and Nagasaki on August 9, 1945.",
+      "context": "An estimated 140,000 people will die from the Hiroshima type (Little Boy, uranium type) and 70,000 people will die from the Nagasaki type (Fat Man, plutonium type) by the end of the year. These are the only two cases in human history of nuclear weapons being used in war. The legitimacy of the bombing is still divided among countries.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "Atomic Bombings of Hiroshima and Nagasaki",
+          "url": "https://www.atomicarchive.com/",
+          "publisher": "Atomic Archive",
+          "type": "archive"
+        },
+        {
+          "title": "広島平和記念資料館",
+          "url": "https://hpmmuseum.jp/",
+          "publisher": "広島平和記念資料館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-surrender-signing",
+      "claim": "The instrument of surrender was signed on board the Missouri on September 2, 1945.",
+      "context": "Japanese Foreign Minister Aoi Shigemitsu and Chief of Staff Yoshijiro Umetsu sign the instrument of surrender on the battleship Missouri in Tokyo Bay. Commander-in-Chief MacArthur signed on behalf of the Allied powers. Representatives from China, the United Kingdom, the Soviet Union, Australia, Canada, France, the Netherlands, and New Zealand also signed.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Japanese Instrument of Surrender",
+          "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
+          "publisher": "U.S. National Archives",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

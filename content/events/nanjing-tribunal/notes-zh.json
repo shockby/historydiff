@@ -1,0 +1,87 @@
+{
+  "eventId": "nanjing-tribunal",
+  "notes": [
+    {
+      "id": "nt-tani-hisao",
+      "claim": "谷久雄中将被南京军事法院判处死刑并执行。",
+      "context": "攻占南京时，谷久夫是第6师团的师长。南京军事法庭认定他对部下士兵的屠杀负有直接责任，并于1947年4月26日在南京雨花台被行刑队执行死刑。这是南京军事法庭最重要的判决之一。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "南京大屠殺史料集 - 南京審判",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-hyakunin-giri",
+      "claim": "“百人砍杀大赛”的少尉向井敏明和野田武被判处死刑。",
+      "context": "《百人砍杀大赛》取材于1937年《东京日新闻》（现《每日新闻》）报道的一篇文章。同一篇文章报道了南京保卫战中向井少尉和野田少尉用日本刀进行了100人的“比武”。南京军事法庭以这篇文章为关键证据，判处两人死刑。 2003年，家人在日本提起诽谤诉讼，但败诉（2006年最高法院维持原判）。日本国内一直存在争论，该文章究竟是夸大其词，还是为了鼓舞斗志而捏造的。",
+      "verdict": "事实认定存在争议",
+      "sources": [
+        {
+          "title": "百人斬り訴訟 最高裁決定",
+          "url": "https://www.courts.go.jp/",
+          "publisher": "裁判所",
+          "type": "government"
+        },
+        {
+          "title": "東京日日新聞（1937年11月-12月の報道）",
+          "url": "https://mainichi.jp/",
+          "publisher": "毎日新聞社",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-death-toll-30万",
+      "claim": "法院认定受害人数为“集体被杀19万余人，个人被杀15万余人，合计30万余人”。",
+      "context": "本认证依据红卍字会、崇善寺等慈善组织的埋葬记录、幸存者证言以及国际安全区的记录。与此同时，东京法庭（远东国际军事法庭）承认受害者人数“超过20万”，但两个法院承认的数字有所不同。日本历史学家畑育彦对崇山岛埋葬记录（约 11 万具尸体）的可靠性提出质疑，指出该组织可能在南京沦陷时就停止了活动。另一方面，中国研究人员认为，包括其他埋葬记录和证词在内的总数超过30万。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "『南京事件』",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "中公新書（秦郁彦）",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-tokyo-vs-nanjing",
+      "claim": "东京法庭和南京军事法庭是不同的法院，受害人数的认定不同。",
+      "context": "东京法庭（IMTFE）是由同盟国领导的国际法庭，审判甲级战犯，承认南京的受害者人数“超过20万”。另一方面，南京军事法庭是中华民国政府设立的国内法庭，审判BC级战犯，承认他们“超过30万”。事实是，来自同一法庭的两个法院不同时期的受害者人数相差10万，可见确定受害者人数有多么困难。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nt-roc-prc-succession",
+      "claim": "中华人民共和国继承中华民国政府所作出的法院裁决。",
+      "context": "南京军事法庭由中华民国（国民党政府）主办。 1949年政府更迭后，中华人民共和国（共产党政府）完全继承了法院的裁决。尽管中华人民共和国通常否认中华民国的合法性，但它积极援引南京军事法庭的判决“为中国人民伸张正义”。这是中国和台湾在有关日本的历史问题上持有共同立场的罕见案例之一。",
+      "verdict": "背景资料",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

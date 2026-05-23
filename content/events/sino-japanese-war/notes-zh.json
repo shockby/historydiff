@@ -1,0 +1,47 @@
+{
+  "eventId": "sino-japanese-war",
+  "notes": [
+    {
+      "id": "sjw-treaty-of-shimonoseki",
+      "claim": "1895年，日本割让台湾和辽东半岛，并在《马关条约》（Treaty of Shimonoseki）中获得赔偿。",
+      "context": "1895年4月17日签订《中日和约》（《马关条约》），日本从清朝获得台湾、澎湖列岛、辽东半岛的割让权和赔款2亿两（两），并设立开放口岸。在中国，这被称为“不平等条约”。后来通过俄法德三边干涉，辽东半岛回归中国。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Treaty of Shimonoseki (1895)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-triple-intervention",
+      "claim": "由于俄罗斯、法国、德国三国干涉，日本将辽东半岛归还清朝。",
+      "context": "1895年4月23日，俄、法、德三国劝日本将辽东半岛归还清朝。在军事压力下，日本接受了这一点，并额外获得了3000万两的赔偿。这次经历加剧了日本国内对俄罗斯的敌意，并导致了后来的日俄战争。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "三国干渉関連外交文書",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-donghak-trigger",
+      "claim": "一、朝鲜东学农民运动（高乡农民战争）引发中日战争",
+      "context": "1894年，朝鲜爆发东学农民运动，朝鲜政府请求清军出兵。对此，日本也根据《天津条约》出兵，日中两军在朝鲜半岛对峙，是战争爆发的直接导火索。在韩国，这场运动被视为反封建反侵略民主运动的先驱。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "日清戦争の経緯",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

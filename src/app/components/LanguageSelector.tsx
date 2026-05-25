@@ -17,13 +17,52 @@ export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const currentLang = searchParams.get('lang') || 'en';
+  // Determine current language from the pathname prefix
+  let currentLang = 'en';
+  if (pathname.startsWith('/ja/') || pathname === '/ja') {
+    currentLang = 'ja';
+  } else if (pathname.startsWith('/zh/') || pathname === '/zh') {
+    currentLang = 'zh';
+  }
+
   const currentLabel = LANGUAGES.find(l => l.code === currentLang)?.label || 'English';
 
   const handleLanguageChange = (langCode: string) => {
-    const params = new URLSearchParams(searchParams.toString());
-    params.set('lang', langCode);
-    router.push(`${pathname}?${params.toString()}`);
+    if (langCode === currentLang) {
+      setIsOpen(false);
+      return;
+    }
+
+    // Clean current path from localized prefix
+    let cleanPath = pathname;
+    if (pathname.startsWith('/ja/')) {
+      cleanPath = pathname.substring(3);
+    } else if (pathname === '/ja') {
+      cleanPath = '/';
+    } else if (pathname.startsWith('/zh/')) {
+      cleanPath = pathname.substring(3);
+    } else if (pathname === '/zh') {
+      cleanPath = '/';
+    }
+
+    // Ensure cleanPath starts with a single slash
+    if (!cleanPath.startsWith('/')) {
+      cleanPath = '/' + cleanPath;
+    }
+
+    // Build new path
+    let newPath = cleanPath;
+    if (langCode === 'ja') {
+      newPath = '/ja' + (cleanPath === '/' ? '' : cleanPath);
+    } else if (langCode === 'zh') {
+      newPath = '/zh' + (cleanPath === '/' ? '' : cleanPath);
+    }
+
+    // Preserve any existing search query if present
+    const params = searchParams.toString();
+    const finalUrl = params ? `${newPath}?${params}` : newPath;
+
+    router.push(finalUrl);
     setIsOpen(false);
   };
 

@@ -10,8 +10,10 @@ import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight } from 'lucide-react
 import Link from 'next/link';
 
 interface EventPageClientProps {
-  perspectivesAllLangs: Record<string, EventPerspective[]>;
-  notesAllLangs: Record<string, EventNotes | null>;
+  eventId: string;
+  initialPerspectives: EventPerspective[];
+  initialNotes: EventNotes | null;
+  lang: string;
 }
 
 function useIsMobile(breakpoint = 768) {
@@ -115,23 +117,18 @@ function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspe
   );
 }
 
-function EventPageInner({ perspectivesAllLangs, notesAllLangs }: EventPageClientProps) {
-  const searchParams = useSearchParams();
-  const lang = (searchParams.get('lang') || 'en') as Language;
-  const t = translations[lang] || translations.en;
+function EventPageInner({ eventId, initialPerspectives, initialNotes, lang }: EventPageClientProps) {
+  const activeLang = lang as Language;
+  const t = translations[activeLang] || translations.en;
 
-  const perspectives = perspectivesAllLangs[lang]?.length
-    ? perspectivesAllLangs[lang]
-    : perspectivesAllLangs['ja'] || [];
-
-  const notesData = notesAllLangs[lang] || notesAllLangs['ja'] || null;
-  const notes = notesData?.notes || [];
+  const perspectives = initialPerspectives || [];
+  const notes = initialNotes?.notes || [];
 
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
   const isMobile = useIsMobile();
 
-  const homeLink = lang === 'en' ? '/' : `/?lang=${lang}`;
+  const homeLink = activeLang === 'en' ? '/' : `/${activeLang}`;
 
   if (perspectives.length === 0) {
     return (
@@ -148,8 +145,8 @@ function EventPageInner({ perspectivesAllLangs, notesAllLangs }: EventPageClient
   const right = perspectives[rightIndex] || perspectives[Math.min(1, perspectives.length - 1)];
 
   const getPerspectiveLabel = (countryName: string) => {
-    if (lang === 'ja') return `${countryName} の記述`;
-    if (lang === 'zh') return `${countryName} 的记述`;
+    if (activeLang === 'ja') return `${countryName} の記述`;
+    if (activeLang === 'zh') return `${countryName} 的记述`;
     return `${countryName}'s Description`;
   };
 
@@ -169,8 +166,8 @@ function EventPageInner({ perspectivesAllLangs, notesAllLangs }: EventPageClient
       </header>
 
       {isMobile
-        ? <MobileSummaryCards perspectives={perspectives} lang={lang} />
-        : <DesktopSummaryTable perspectives={perspectives} lang={lang} />
+        ? <MobileSummaryCards perspectives={perspectives} lang={activeLang} />
+        : <DesktopSummaryTable perspectives={perspectives} lang={activeLang} />
       }
 
       {isMobile ? (
@@ -247,7 +244,7 @@ function EventPageInner({ perspectivesAllLangs, notesAllLangs }: EventPageClient
         newTitle={getPerspectiveLabel(right.country)}
       />
 
-      {notes.length > 0 && <CommunityNotes notes={notes} lang={lang} />}
+      {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
 
       <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem', color: 'var(--foreground)' }}>
@@ -262,14 +259,19 @@ function EventPageInner({ perspectivesAllLangs, notesAllLangs }: EventPageClient
   );
 }
 
-export default function EventPageClient({ perspectivesAllLangs, notesAllLangs }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, lang }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
         <p style={{ color: 'var(--text-secondary)' }}>Loading...</p>
       </div>
     }>
-      <EventPageInner perspectivesAllLangs={perspectivesAllLangs} notesAllLangs={notesAllLangs} />
+      <EventPageInner
+        eventId={eventId}
+        initialPerspectives={initialPerspectives}
+        initialNotes={initialNotes}
+        lang={lang}
+      />
     </Suspense>
   );
 }

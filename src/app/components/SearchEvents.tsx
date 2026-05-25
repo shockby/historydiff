@@ -7,16 +7,16 @@ import { EventPerspective } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 
 interface SearchEventsProps {
-  eventsAllLangs: Record<string, { id: string; perspectives: EventPerspective[] }[]>;
+  initialEvents: { id: string; perspectives: EventPerspective[] }[];
+  lang: string;
 }
 
-function SearchEventsInner({ eventsAllLangs }: SearchEventsProps) {
+function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
   const [searchTerm, setSearchTerm] = useState('');
-  const searchParams = useSearchParams();
-  const lang = (searchParams.get('lang') || 'en') as Language;
-  const t = translations[lang] || translations.en;
+  const activeLang = lang as Language;
+  const t = translations[activeLang] || translations.en;
 
-  const events = eventsAllLangs[lang] || eventsAllLangs['en'] || [];
+  const events = initialEvents || [];
 
   const filteredEvents = events.filter((event) => {
     const query = searchTerm.toLowerCase();
@@ -30,7 +30,7 @@ function SearchEventsInner({ eventsAllLangs }: SearchEventsProps) {
     );
   });
 
-  const eventLink = (id: string) => lang === 'en' ? `/events/${id}` : `/events/${id}?lang=${lang}`;
+  const eventLink = (id: string) => activeLang === 'en' ? `/events/${id}` : `/${activeLang}/events/${id}`;
 
   return (
     <>
@@ -121,7 +121,7 @@ function SearchEventsInner({ eventsAllLangs }: SearchEventsProps) {
   );
 }
 
-export default function SearchEvents({ eventsAllLangs }: SearchEventsProps) {
+export default function SearchEvents({ initialEvents, lang }: SearchEventsProps) {
   return (
     <div className="container">
       <Suspense fallback={
@@ -132,7 +132,7 @@ export default function SearchEvents({ eventsAllLangs }: SearchEventsProps) {
           </h1>
         </section>
       }>
-        <SearchEventsInner eventsAllLangs={eventsAllLangs} />
+        <SearchEventsInner initialEvents={initialEvents} lang={lang} />
       </Suspense>
     </div>
   );

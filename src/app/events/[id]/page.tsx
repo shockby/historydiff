@@ -24,19 +24,15 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
 export default async function EventPage(props: { params: Promise<{ id: string }> }) {
   const { id } = await props.params;
 
-  // Load all languages at build time for static export compatibility
-  const perspectivesAllLangs: Record<string, ReturnType<typeof getEventPerspectives>> = {};
-  const notesAllLangs: Record<string, ReturnType<typeof getEventNotes>> = {};
-
-  for (const lang of ['en', 'ja', 'zh']) {
-    perspectivesAllLangs[lang] = getEventPerspectives(id, lang);
-    notesAllLangs[lang] = getEventNotes(id, lang);
-  }
+  const perspectives = getEventPerspectives(id, 'en');
+  const notes = getEventNotes(id, 'en');
 
   return (
     <EventPageClient
-      perspectivesAllLangs={perspectivesAllLangs}
-      notesAllLangs={notesAllLangs}
+      eventId={id}
+      initialPerspectives={perspectives}
+      initialNotes={notes}
+      lang="en"
     />
   );
 }

@@ -1,0 +1,101 @@
+{
+  "eventId": "fukushima-treated-water",
+  "notes": [
+    {
+      "id": "ftw-tritium-comparison",
+      "claim": "후쿠시마의 ALPS 처리수의 연간 트리튬 방출량(22조 베크렐 미만)은 중국·한국의 주요 원전의 방출량보다 적다.",
+      "context": "일본 정부는 후쿠시마의 트리튬 방출 관리 목표를 연간 22조 베크렐 미만으로 설정하고 있다. 한편 중국의 진산원전은 약 143조베크렐(2020년), 양강원전은 약 112조베크렐(2021년), 한국의 월성원전은 약 71조베크렐(2021년)의 액체 트리튬을 통상 운전으로 방출하고 있다. 수치 비교로는 사실이지만 중국·한국은 '통상운전의 배수'와 '사고 유래 처리수'의 성질 차이를 강조하고 단순 비교는 부적절하다고 주장하고 있다.",
+      "verdict": "수치 데이터는 확인 완료(해석에 차이)",
+      "sources": [
+        {
+          "title": "ALPS処理水の処分に関するQ&A",
+          "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
+          "publisher": "日本国環境省",
+          "type": "government"
+        },
+        {
+          "title": "各国の原子力施設のトリチウム排出量",
+          "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
+          "publisher": "経済産業省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-alps-effectiveness",
+      "claim": "ALPS는 트리튬 이외의 62핵종을 제거할 수 있지만, 처리 후에도 기준을 초과하는 경우가 있다",
+      "context": "도쿄전력의 ALPS(다핵종 제거설비)는 62종의 방사성핵종을 처리하는 설계로 되어 있지만, 과거에는 ALPS 처리 후에도 트리튬 이외의 일부 핵종에서 기준치를 넘는 경우가 보고되고 있다. 도쿄전력은 기준을 넘은 처리수는 해양 방출 전에 다시 ALPS 처리 또는 희석하여 모든 핵종에서 기준치 이하로 하고 나서 방출한다고 한다. IAEA도 이 프로세스를 확인·승인하고 있다.",
+      "verdict": "사실(재처리의 구조 있음)",
+      "sources": [
+        {
+          "title": "ALPS処理水ポータルサイト",
+          "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
+          "publisher": "東京電力ホールディングス",
+          "type": "government"
+        },
+        {
+          "title": "IAEA Safety Review of ALPS Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-transparency",
+      "claim": "중국은 자국 원전의 방사성 물질 배출 데이터 공개가 충분하지 않다.",
+      "context": "중국의 '중국핵능연감 2024'에서는 자국의 원자력발전소에서 방사성물질의 배출에 대해 구체적인 수치데이터가 기재되지 않고 '국가기준의 범위내' '환경에 악영향 없음'이라는 설명에 그쳤다. 일본이나 IAEA가 요구하는 투명성의 기준과 비교하여 정보공시가 불충분하다는 지적이 이루어지고 있다. 중국 정부는 배출이 엄격하게 관리되고 있다고 주장한다.",
+      "verdict": "데이터 비공개는 확인됨",
+      "sources": [
+        {
+          "title": "China Nuclear Energy Yearbook 2024 analysis",
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-import-ban",
+      "claim": "중국은 2023년 8월에 일본산 수산물을 전면 금수하고, 2025년 6월에 조건부로 부분 재개했다",
+      "context": "중국 세관총서는 ALPS 처리수의 해양방출 개시를 받고 2023년 8월 24일부터 일본산 수산물의 전면적인 수입정지 조치를 실시했다. 그 후, IAEA의 틀에서의 모니터링 참가나 독자 조사를 거쳐, 2025년 6월 29일에 10도현(후쿠시마, 미야기, 도쿄도 등)을 제외한 지역으로부터의 수입을 조건부로 재개했다. 수출에는 위생증명서, 방사성물질검사 합격증, 산지증명서의 제출이 필요하다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "中国による日本産水産物の輸入規制について",
+          "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
+          "publisher": "農林水産省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-iaea-conclusion",
+      "claim": "IAEA는 처리수 방출이 국제안전기준에 적합하다고 결론지었다",
+      "context": "IAEA는 2023년 7월에 포괄적 평가보고서를 발표하고 “일본의 ALPS 처리수 방출 계획 및 관련 활동은 관련 국제안전기준과 일치한다” “사람 및 환경에 대한 방사선영향은 무시할 수 있는 수준”이라고 결론지었다. IAEA는 후쿠시마에 상주 사무소를 설치하여 지속적인 감시·검증을 실시하고 있다. 중국은 당초 IAEA의 결론에 회의적인 자세를 보였으나 2024년 이후에는 IAEA의 틀을 통한 모니터링 참여에 합의했다.",
+      "verdict": "공식 보고서에서 확인됨",
+      "sources": [
+        {
+          "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-korea-budget-cut",
+      "claim": "한국은 2026년도부터 처리수 관련 예산을 대폭 축소했다",
+      "context": "한국 정부는 처리수 방출 개시 당초 국민의 불안에 대응하기 위해 방사능 검사 및 정보 제공 관련 예산을 대폭 확충했지만, 2026년도부터는 예산을 대폭 삭감했다. 그 이유로는 방출 개시 이후의 대규모 검사에서 기준치를 웃도는 사례가 확인되지 않았고, 검사 키트의 실제 이용률이 예상보다 낮았다는 것을 들 수 있다. 8현산 수산물의 수입금지조치는 유지되고 있다.",
+      "verdict": "보도로 확인 완료",
+      "sources": [
+        {
+          "title": "韓国の処理水対応予算に関する報道",
+          "url": "https://www.yonhapnews.co.kr/",
+          "publisher": "聯合ニュース",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-export type Language = 'en' | 'ja' | 'zh';
+export type Language = 'en' | 'ja' | 'zh' | 'ko';
 
 export const translations = {
   en: {
@@ -126,5 +126,47 @@ export const translations = {
     sourcesCount: (count: number) => `${count}条`,
     showMore: (remaining: number) => `显示剩余 ${remaining} 条笔记`,
     showLess: '收起'
+  },
+  ko: {
+    archive: '비교 아카이브',
+    about: '프로젝트 소개',
+    heroTitleLine1: '역사의 "기술 차이"를',
+    heroTitleLine2: '시각적으로 밝힌다.',
+    heroDesc: '같은 역사적 사건이라도 나라나 지역에 따라 교과서에 기재된 내용은 크게 다릅니다. HistoryDiff는 그 "인식의 차이"를 텍스트 비교(Diff)를 통해 드러내기 위한 플랫폼입니다.',
+    searchPlaceholder: '사건, 국가, 키워드로 검색...',
+    comparisonArchive: '비교 아카이브',
+    noResults: '일치하는 결과를 찾지 못했습니다.',
+    compareTarget: '비교 대상:',
+    backToHome: '홈으로 돌아가기',
+    eventNotFound: '사건을 찾을 수 없습니다',
+    perspectiveSummary: '각국의 관점 요약',
+    descriptionOf: '의 기술',
+    source: '출처',
+    compareHelp: '역사 교과서의 기술 차이를 비교합니다. 좌우 드롭다운에서 비교하고 싶은 국가를 선택하세요.',
+    sourcePerspective: '관점(비교 원본)',
+    targetPerspective: '관점(비교 대상)',
+    swap: '교체',
+    diffViewer: '차이점 뷰어',
+    deletedDiff: '● 삭제 / 차이점',
+    addedDiff: '● 추가 / 차이점',
+    notesTitle: '이 비교에 관한 보충 설명',
+    notesText: (left: string, right: string) => `이 비교는 각국의 공식 또는 널리 사용되는 역사 교과서의 일반적인 기술에 기반합니다. 번역 과정에서 미세한 뉘앙스가 변할 수 있지만, 주요 사건의 인식 방식, 기술 순서, 강조점의 차이를 드러내는 것을 목적으로 합니다. 특히 "${left}"와 "${right}" 사이에서는 사건의 명칭과 발생 배경에 대한 해석에 현저한 차이가 나타납니다.`,
+    tabViewHint: '탭을 전환하여 각국의 관점을 확인',
+    tableItem: '항목',
+    tableTitle: '제목',
+    tableCategory: '카테고리',
+    tableEra: '연대',
+    tableSource: '출처',
+    tableExcerpt: '첫 번째 기술',
+    communityNotesTitle: '커뮤니티 노트',
+    claimVerified: '검증된 주장',
+    contextAndAnalysis: '배경과 역사적 분석',
+    verdictLabel: '판정',
+    referenceSources: '참고 출처',
+    publisherLabel: '발행처',
+    typeLabel: '유형',
+    sourcesCount: (count: number) => `${count}건`,
+    showMore: (remaining: number) => `나머지 ${remaining}건 표시`,
+    showLess: '접기'
   }
 };

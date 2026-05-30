@@ -1,0 +1,121 @@
+{
+  "eventId": "forced-labor",
+  "notes": [
+    {
+      "id": "fl-national-mobilization",
+      "claim": "국가총동원법(1938년)에 따라 노동력 동원을 실시했다",
+      "context": "1938년 4월 1일 공포. 전시에 있어서 국가가 인적·물적 자원을 통제·동원하기 위한 법률. 한반도에는 1939년부터 단계적으로 적용됐다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "国家総動員法",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館デジタルアーカイブ",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "fl-three-stages",
+      "claim": "1939년의 「모집」, 1942년의 「관알선」, 1944년의 「징용」이라는 단계를 거쳐 인원이 확보되었다",
+      "context": "조선인 노동자의 동원은 3단계로 실시되었다. 1939년부터는 기업에 의한 모집, 1942년부터는 행정기관을 통한 관알선, 1944년 9월부터는 국민징용령에 근거한 법적 징용이 적용되었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "朝鮮人強制連行の記録",
+          "url": "https://www.jica.go.jp/",
+          "publisher": "各種学術研究",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-1965-agreement",
+      "claim": "1965년 한일청구권협정에 의하여 “완전하고 최종적으로 해결됨”",
+      "context": "1965년 6월 22일 서명. 일본이 한국에 무상 3억 달러, 유상 2억 달러를 공여. 협정 제2조에서 양국 간의 재산·청구권은 “완전하고 최종적으로 해결되었다”고 명기. 다만, 이 협정의 사정 범위에 대해서는 한일에서 해석이 다르다.",
+      "verdict": "조약은 존재(해석에 차이)",
+      "sources": [
+        {
+          "title": "日韓請求権並びに経済協力協定",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Agreement on the Settlement of Problems Concerning Property and Claims",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20583/volume-583-I-8473-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-2018-supreme-court",
+      "claim": "2018년 한국대법원 판결이 일본 기업에 대해 배상을 명령했다",
+      "context": "2018년 10월 30일 한국대법원은 신일철주금(현일본제철)에 대해 원징용공 4명에게 각각 1억원의 배상을 명했다. 식민지 지배의 불법성에 근거하는 손해배상 청구권은 청구권 협정의 대상외라고의 판단.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "South Korean court orders Nippon Steel to compensate forced wartime laborers",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-forcedlabor-idUSKCN1N40GW",
+          "publisher": "Reuters",
+          "type": "media"
+        },
+        {
+          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fl-780000",
+      "claim": "동원된 조선인의 수는 약 78만명에 이른다",
+      "context": "숫자는 연구자나 자료에 따라 다르다. 일본 정부의 자료로는 약 72만명이 일본 본토에의 노무 동원의 대상. 한국 측의 추계에서는 더 넓은 '강제동원' 전체에서 더 많은 숫자가 제시되기도 한다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "日本における朝鮮人の強制連行・強制労働",
+          "url": "https://www.jstage.jst.go.jp/",
+          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fl-hashima-island",
+      "claim": "하시마(군함도) 등으로 가혹한 환경 아래 노동을 강요당했다",
+      "context": "하시마는 나가사키현의 세계문화유산(「메이지 일본의 산업혁명유산」의 구성자산, 2015년 등록). 등록심사 때 한국은 조선인 강제노동의 역사가 충분히 전해지지 않았다고 이의를 제기했다. 일본은 정보센터 설치를 약속했다.",
+      "verdict": "역사적 사실(평가에 차이)",
+      "sources": [
+        {
+          "title": "Sites of Japan's Meiji Industrial Revolution",
+          "url": "https://whc.unesco.org/en/list/1484",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fl-hanaoaka-incident",
+      "claim": "하나오카 광산에서 중국인 노동자가 봉기한 「하나오카 사건」",
+      "context": "1945년 6월 30일, 아키타현 하나오카초(현대관시)의 하나오카 광산에서 중국인 노동자가 봉기. 약 800명 중 약 400명 이상이 사망했다고 한다. 2000년에 가시마 건설과 중국인 피해자 사이에서 화해가 성립.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "花岡事件を語り継ぐ（大館市）",
+          "url": "https://www.city.odate.lg.jp/",
+          "publisher": "秋田県大館市",
+          "type": "government"
+        },
+        {
+          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
+          "publisher": "The Japan Times",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,8 @@ import { useState, useRef, useEffect } from 'react';
 const LANGUAGES = [
   { code: 'en', label: 'English' },
   { code: 'ja', label: '日本語' },
-  { code: 'zh', label: '简体中文' }
+  { code: 'zh', label: '简体中文' },
+  { code: 'ko', label: '한국어' }
 ];
 
 export default function LanguageSelector() {
@@ -23,6 +24,8 @@ export default function LanguageSelector() {
     currentLang = 'ja';
   } else if (pathname.startsWith('/zh/') || pathname === '/zh') {
     currentLang = 'zh';
+  } else if (pathname.startsWith('/ko/') || pathname === '/ko') {
+    currentLang = 'ko';
   }
 
   const currentLabel = LANGUAGES.find(l => l.code === currentLang)?.label || 'English';
@@ -43,6 +46,10 @@ export default function LanguageSelector() {
       cleanPath = pathname.substring(3);
     } else if (pathname === '/zh') {
       cleanPath = '/';
+    } else if (pathname.startsWith('/ko/')) {
+      cleanPath = pathname.substring(3);
+    } else if (pathname === '/ko') {
+      cleanPath = '/';
     }
 
     // Ensure cleanPath starts with a single slash
@@ -56,6 +63,8 @@ export default function LanguageSelector() {
       newPath = '/ja' + (cleanPath === '/' ? '' : cleanPath);
     } else if (langCode === 'zh') {
       newPath = '/zh' + (cleanPath === '/' ? '' : cleanPath);
+    } else if (langCode === 'ko') {
+      newPath = '/ko' + (cleanPath === '/' ? '' : cleanPath);
     }
 
     // Preserve any existing search query if present

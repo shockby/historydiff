@@ -1,0 +1,61 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "notes": [
+    {
+      "id": "kc-codex-standard",
+      "claim": "김치에는 2001년에 국제식품규격위원회(Codex)가 독자적인 국제규격을 제정",
+      "context": "2001년 국제식품규격위원회(Codex Alimentarius Commission)는 '김치'의 국제규격(CODEX STAN 223-2001)을 채택했다. 이 규격에서 김치는 소금에 절인 배추에 고추가루·마늘·생강·파 등의 양념을 더해 발효시킨 한국의 전통식품으로 정의되고 있다. 이 규격의 존재는 김치가 거품과는 다른 식품으로 국제적으로 인정되고 있다는 근거로 되어 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "CODEX STAN 223-2001: Codex Standard for Kimchi",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "publisher": "FAO/WHO Codex Alimentarius",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-iso-paocai",
+      "claim": "2020년 ISO 24220 ‘포채(Pao cai)’ 규격이 제정되어 중국 언론이 ‘김치 종주국은 중국’이라고 보도했다.",
+      "context": "2020년 11월, ISO는 사천 거품의 제조에 관한 국제 규격(ISO 24220:2020)을 제정했다. 중국의 '환구시보' 등이 이를 '김치의 국제표준을 중국이 주도했다'고 보도해 한국에서 강한 반발이 일어났다. 한국의 농림축산식품부는 즉시 성명을 발표했고, 이 규격은 김치에는 적용되지 않음을 명확히 했다. ISO 자체도 이 규격이 김치를 대상으로 한 것은 아님을 확인하고 있다.",
+      "verdict": "규격 자체는 사실이지만 김치와의 관련은 오보·과장",
+      "sources": [
+        {
+          "title": "ISO 24220:2020 - Pao cai (salted fermented vegetables)",
+          "url": "https://www.iso.org/standard/78120.html",
+          "publisher": "International Organization for Standardization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-kimjang-unesco",
+      "claim": "2013년 '김장문화'가 유네스코 무형문화유산에 등록됐다.",
+      "context": "2013년 12월 유네스코 정부간위원회는 “김장, 김치를 담그고 나누는 문화(Kimjang, making and sharing kimchi in the Republic of Korea)”를 인류의 무형문화유산의 대표적인 일람표에 기재했다. 이는 식품으로서의 김치가 아니라 김치를 담그는 한국의 공동체적 관행·지식·사회적 기능이 평가된 것.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Kimjang, making and sharing kimchi - UNESCO",
+          "url": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881",
+          "publisher": "UNESCO Intangible Cultural Heritage",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-china-paocai-unesco",
+      "claim": "중국도 2020년에 「거품채 제조 기술」을 유네스코 무형문화유산에 등록 신청",
+      "context": "중국은 사천성의 채소를 포함한 전통적인 발효식품 기술을 무형문화유산으로 보호하는 움직임을 추진하고 있다. 한국 측은 이것이 김치의 기원을 중국에 귀속시키기 위한 포석이 아닐까 경계하고 있다. 다만, 유네스코 무형문화유산은 국가간 우선권을 결정하는 것이 아니라 각각의 문화적 관행의 가치를 인정하는 것이라고 유네스코는 설명하고 있다.",
+      "verdict": "경위는 사실이지만 문화적 우선권의 주장과는 별도",
+      "sources": [
+        {
+          "title": "UNESCO Intangible Cultural Heritage Lists",
+          "url": "https://ich.unesco.org/en/lists",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

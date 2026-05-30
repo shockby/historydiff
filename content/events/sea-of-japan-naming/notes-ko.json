@@ -1,0 +1,101 @@
+{
+  "eventId": "sea-of-japan-naming",
+  "notes": [
+    {
+      "id": "sj-iho-s23",
+      "claim": "국제수로기관(IHO)의 『대양과 바다의 경계(S-23)』에서 1929년 이후 ‘Japan Sea’가 사용",
+      "context": "S-23은 해역의 경계와 명칭을 정하는 국제 참조 문서. 1929년의 초판, 1937년 제2판, 1953년 제3판에서 모두 「Japan Sea」를 사용. 2002년 제4판 개정은 한국의 반대 등에 의해 발행되지 않았다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "IHO Publication S-23",
+          "url": "https://iho.int/en/s-23-limits-of-oceans-and-seas",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sj-iho-2020",
+      "claim": "2020년에 IHO는 수치 식별자로 관리하는 새로운 방식으로의 이행을 결정",
+      "context": "2020년 11월 IHO 총회에서 S-130이라는 디지털 레지스트리 방식으로의 전환이 만장일치로 승인되었다. 종래의 명칭에 의한 관리를 수치적인 식별자로 옮겨놓는 방식.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "IHO Assembly Decisions (2020)",
+          "url": "https://iho.int/en/assembly",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        },
+        {
+          "title": "日本海の呼称問題",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-un-usage",
+      "claim": "유엔도 종래부터 「일본해」를 공식적으로 사용",
+      "context": "유엔사무국은 2004년 3월에 「일본해가 표준적인 지명이며, 유엔의 공식문서에서는 일본해를 사용한다」는 통지를 냈다. 이것은 국제적인 기준으로 널리 인용된다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "日本海呼称問題（外務省の立場）",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-1992-first-raised",
+      "claim": "한국의 주장은 1992년 유엔 지명 표준화 회의에서 처음 제기됐다.",
+      "context": "한국이 국제적으로 '동해' 명칭의 사용을 정식으로 요구하기 시작한 것은 1992년 제6회 유엔지명 표준화회의에서 한다. 그 이전의 국제적인 장소에서 계통적인 주장은 보이지 않았다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "日本海呼称問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/keicho.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-east-sea-2000-years",
+      "claim": "「도카이」의 명칭은 2,000년 이상의 역사를 가진다",
+      "context": "한국측은 '삼국사기'(1145년)와 광개토왕비문(414년) 중 '동해'에 대한 언급을 근거로 하고 있지만, 이것이 현재의 해역과 완전히 일치하는지에 대해서는 역사학적 논의가 있다.",
+      "verdict": "문헌은 존재(해석에 논의)",
+      "sources": [
+        {
+          "title": "The Name East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-19c-maps",
+      "claim": "19세기 서구의 지도에서 '일본해' 표기가 압도적 다수",
+      "context": "일본 정부는 외무성 조사로서, 19세기 유럽의 지도 약 1,500장을 조사해, 일본해가 약 77%를 차지했다고 발표. 한편, 한국 외교부의 조사에서는 18세기 이전에는 다양한 명칭이 혼재하고 있었다고 반론.",
+      "verdict": "조사는 존재(해석에 차이)",
+      "sources": [
+        {
+          "title": "日本海呼称に関する調査",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/map/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Korea's Position on the Naming of the East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "eventId": "takeshima",
+  "notes": [
+    {
+      "id": "ts-1905-incorporation",
+      "claim": "1905년에 일본 정부가 다케시마를 시마네현에 편입",
+      "context": "1905년 1월 28일 일본 정부는 각의 결정에 의해 다케시마를 시마네현 오키시마사의 소관으로 했다. 국제법상의 무주지 선점의 법리에 근거한다. 한국 측은 이 편입이 러일전쟁(1904-05) 중에 이루어진 군사적 침략의 일부였다고 주장하고 있다.",
+      "verdict": "공식 기록 있음(평가에 차이)",
+      "sources": [
+        {
+          "title": "竹島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-rusk-letter",
+      "claim": "러스크 서한으로 미국은 ‘다케시마는 일본의 영토’라는 견해를 보였다",
+      "context": "1951년 8월 10일, 딘 러스크 국무차관보 한국대사 앞서 간에서 샌프란시스코 조약에서 일본이 포기하는 영토에 다케시마(독도)는 포함되지 않는다는 견해를 미국이 한국에 통보했다. 다만 한국 측은 이 서한은 비공개이며 조약의 공식 해석이 아니라고 반론하고 있다.",
+      "verdict": "문서는 존재(법적 위치설정에 논의)",
+      "sources": [
+        {
+          "title": "Rusk Letter (1951)",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省（引用）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-syngman-rhee-line",
+      "claim": "1952년 한국이 '이승만 라인'을 설정해 다케시마를 포함시켰다",
+      "context": "1952년 1월 18일 한국의 이승만 대통령은 '대한민국 인접해양의 주권에 대한 대통령의 선언'을 내놓고 광범위한 해양관할권을 일방적으로 설정했다. 다케시마는 이 선 안에 포함되었다. 일본 정부는 이를 국제법에 반하는 일방적 조치와 항의. 1965년 한일 기본조약에 따라 이승만 라인은 폐지되었지만 다케시마의 실효지배는 한국에 의해 계속되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "竹島問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Dokdo/Takeshima - Korea's Position",
+          "url": "https://dokdo.mofa.go.kr/eng/",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-icj-proposal",
+      "claim": "일본은 국제사법재판소(ICJ)에 대한 부탁을 제안하고 있지만 한국은 거부",
+      "context": "일본 정부는 1954년, 1962년, 2012년의 3도에 걸쳐 ICJ에의 부탁을 제안. 한국은 모두 \"독도는 한국의 고유영토이며 영토분쟁은 존재하지 않는다\"며 거부. ICJ의 관할권은 양 당사국의 동의가 필요하기 때문에 한쪽 거부가 있으면 재판은 성립하지 않는다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "竹島の領有権に関するICJ付託の提案",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

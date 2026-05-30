@@ -1,0 +1,115 @@
+{
+  "eventId": "comfort-women",
+  "notes": [
+    {
+      "id": "cw-kono-statement",
+      "claim": "일본 정부는 진심으로 사과와 반성의 마음을 표명 (고노 담화)",
+      "context": "1993년 8월 4일, 고노 요헤이 내각 관방장관이 발표한 담화. 위안소의 설치·관리에의 구 일본군의 관여와 모집에 있어서의 강제성을 인정했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "河野談話全文（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-2015-agreement",
+      "claim": "2015년 한일 합의에서 '최종적이고 돌이킬 수 없는 해결' 확인",
+      "context": "2015년 12월 28일 한일 외상회담에서 합의. 일본 정부가 한국이 설립하는 재단에 10억엔을 기여하는 것이 포함됐다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "日韓外相会談（2015年12月28日）",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-awf",
+      "claim": "아시아 여성 기금을 설립하고 전 위안부에게 '보상금'을 전달했다.",
+      "context": "1995년 설립, 2007년 해산. 필리핀·한국·대만·네덜란드·인도네시아의 전위안부에게 1인당 200만엔의 '보상금'과 의료·복지 지원, 총리대신의 사과의 편지가 전해졌다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "アジア女性基金とその活動",
+          "url": "https://www.awf.or.jp/",
+          "publisher": "アジア女性基金（デジタル記念館）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "cw-forced-mobilization",
+      "claim": "군이나 관헌에 의한 강제연행을 직접 나타내는 자료는 발견되지 않았다",
+      "context": "일본 정부는 2007년 각의 결정이나 2014년의 고노 담화 검증에 있어서 같은 견해를 나타냈다. 다만 역사연구자들 사이에서는 「협의의 강제성」에만 초점을 맞추는 것에 대한 비판도 있다. 요시미 요시아키 중앙대학교수는 군의 관여를 나타내는 자료를 발견해, 보다 넓은 의미에서의 강제성을 주장하고 있다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-wednesday-demo",
+      "claim": "1992년부터 서울의 일본 대사관 앞에서 매주 수요일에 '수요일 시위'가 진행되고 있다",
+      "context": "한국 정신대 문제 대책 협의회(현·일본군성 노예제 문제 해결을 위한 정의 기억 연대)가 주최. 2011년 12월 14일 1000번째 시위에 맞춰 ‘평화의 소녀상’이 설치됐다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "'Comfort women' rally marks 1,000th weekly protest",
+          "url": "https://www.bbc.com/news/world-asia-16191689",
+          "publisher": "BBC News",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cw-victim-numbers",
+      "claim": "피해자의 수는 추정으로 수만명에서 20만명 이상",
+      "context": "피해자수에 대해서는 제설이 있으며 연구자에 따라 크게 다르다. 20만명이라는 숫자는 한국 정부나 일부 연구자가 사용하지만 다른 연구자들은 보다 적은 수를 추정하고 있다. 정확한 수의 확정은 어렵다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Comfort Women: A Movement for Justice and Women's Rights in the United States",
+          "url": "https://www.amnesty.org/en/documents/asa22/012/2005/en/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "cw-2021-court",
+      "claim": "2021년 서울중앙지방법원의 판결로 일본 정부에 배상을 명했다",
+      "context": "2021년 1월 8일 서울중앙지방법원은 일본 정부에 대해 위안부 1인당 1억원의 배상을 명했다. 한편, 같은 해 4월의 다른 소송에서는 주권 면제의 원칙에 근거해 각하. 일본 정부는 주권 면제를 이유로 판결을 받아들이지 않았다.",
+      "verdict": "공식 기록 있음(효력에 논의)",
+      "sources": [
+        {
+          "title": "South Korea court orders Japan to compensate 'comfort women'",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-comfortwomen-idUSKBN29D03U",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   const events = getAllEvents();
   const paths: { lang: string; id: string }[] = [];
 
-  for (const lang of ['ja', 'zh']) {
+  for (const lang of ['ja', 'zh', 'ko']) {
     for (const event of events) {
       paths.push({
         lang,

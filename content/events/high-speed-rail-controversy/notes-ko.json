@@ -1,0 +1,103 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "notes": [
+    {
+      "id": "hsr-china-tech-transfer",
+      "claim": "중국은 2004년부터 일본의 가와사키 중공 등 해외 기업으로부터 기술을 도입했다",
+      "context": "중국철도부는 2004년 시속 200km의 고속열차(CRH) 기술 도입처로 가와사키 중공(일본), 알스톰(프랑스), 봄바르디아(캐나다), 지멘스(독일)를 선정했다. 가와사키 중공은 E2계 신칸센을 베이스로 한 「CRH2」를 제공. 이것이 후의 중국 독자적인 「재혁신」의 베이스가 되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "中国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-wenzhou-accident",
+      "claim": "2011년 온주에서 고속철도 추돌 사고가 발생했다",
+      "context": "2011년 7월 23일 절강성 온주시에서 고속철도의 추돌·탈선 사고가 발생하여 40명이 사망. 사고 직후 당국이 사고 차량을 구멍을 파고 채우는 모습이 보도되어 ‘증거 은멸’으로 국내외에서 비판을 받았다. 이 사고는 중국의 급속한 확대 노선의 안전성에 대한 의문을 던지는 상징적인 사건이 되었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-korea-tgv-choice",
+      "claim": "한국은 일본이 아니라 프랑스의 TGV를 선택했다",
+      "context": "1994년, 한국 정부는 고속철도(KTX)의 기술 도입처로서 프랑스의 GEC 알스톰(TGV)을 선정. 일본(신칸센)과 독일(ICE)도 입찰에 참여했지만 기술 이전 조건, 금융 지원, 외교적 배려 등이 종합적으로 판단됐다. 특히 기술이전의 깊이가 결정타가 되었다고 한다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "韓国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-ip-controversy",
+      "claim": "중국은 독자기술이라고 주장하여 국제특허를 신청하려고 했다",
+      "context": "2011년 중국은 미영 등 여러 국가에서 고속철도기술 특허를 신청할 방침을 표명. 이에 대해 JR 동일본의 마츠모토 마사유키 회장(당시) 등이 “신칸센의 기술을 자국의 독자 기술로 신청하는 것은 납득이 가지 않는다”고 불쾌감을 보였다. 중국 측은 “도입한 기술을 전면적으로 소화·재혁신하고 있어 독자적인 것”이라고 반박하고 있다.",
+      "verdict": "사실에 근거한 논쟁",
+      "sources": [
+        {
+          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "url": "https://www.asahi.com/",
+          "publisher": "朝日新聞",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hsr-shinkansen-safety-record",
+      "claim": "신칸센은 개업 이래 60년 이상 영업운전 중 충돌·탈선에 의한 승객 사망사고 제로를 유지하고 있다",
+      "context": "1964년 도카이도 신칸센 개업 이후 영업운전 중 충돌이나 탈선으로 인한 승객 사망사고는 한번도 발생하지 않았다. 지진대국인 일본에서 자동열차제어장치(ATC), 조기지진검지경보시스템(UrEDAS), 탈선방지 가드 등의 다중 안전 대책에 의해 이 기록이 유지되고 있다. 2004년 니가타현 나카고시 지진으로 조에쓰 신칸센이 주행 중에 탈선한 사례가 있지만 승객 사상자는 없었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "新幹線の安全性 - JR東海",
+          "url": "https://company.jr-central.co.jp/",
+          "publisher": "東海旅客鉄道株式会社",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hsr-indonesia-competition",
+      "claim": "2015년 인도네시아 자카르타~반둥간 고속철도 프로젝트로 중국이 일본에 승리했다",
+      "context": "일본은 오랫동안 인도네시아 자카르타와 반둥 간(약 142km) 고속철도 계획에 신칸센 방식을 제안했지만, 2015년 9월 인도네시아 정부는 중국안을 채용했다. 중국 측은 인도네시아 정부의 재정부담을 요구하지 않는 조건을 제시했다. 노선은 2023년 10월 'Whoosh'로 개업했지만 건설비는 당초 약 55억 달러에서 약 73억 달러로 부풀어 채산성에 의문도 제기되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Jakarta-Bandung High-Speed Railway",
+          "url": "https://en.wikipedia.org/wiki/Jakarta%E2%80%93Bandung_high-speed_railway",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-taiwan-shinkansen",
+      "claim": "대만 고속철도(2007년 개업)가 일본의 신칸센 방식을 채용했다",
+      "context": "대만고속철도(대만고철)는 타이베이~좌영간 345km를 연결하는 노선으로 2007년 1월 개업. 당초 유럽연합(프랑스 TGV·독일 ICE)이 우세했지만, 1999년 대만 대지진 이후 안전성이 중시되어 최종적으로 일본 신칸센 700계를 기반으로 한 700T계가 채용되었다. 이는 일본의 신칸센 시스템이 처음으로 해외에 본격적으로 수출된 사례로 일본에 있어서 중요한 실적이다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "台湾高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    }
+  ]
+}

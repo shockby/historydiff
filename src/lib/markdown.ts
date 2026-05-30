@@ -47,7 +47,7 @@ export function getEventPerspectives(eventId: string, lang = 'en'): EventPerspec
   if (!fs.existsSync(folderPath)) return [];
   const files = fs.readdirSync(folderPath);
 
-  // We look for files ending with -en.md, -ja.md, or -zh.md
+  // We look for files ending with -en.md, -ja.md, -zh.md, or -ko.md
   // Supporting fallback to -ja.md if the requested language file is missing
   let filteredFiles = files.filter((file) => file.endsWith(`-${lang}.md`));
   

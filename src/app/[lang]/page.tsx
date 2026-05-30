@@ -5,6 +5,7 @@ export async function generateStaticParams() {
   return [
     { lang: 'ja' },
     { lang: 'zh' },
+    { lang: 'ko' },
   ];
 }
 

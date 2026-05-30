@@ -1,0 +1,47 @@
+{
+  "eventId": "textbook-controversy",
+  "notes": [
+    {
+      "id": "tc-1982-controversy",
+      "claim": "1982년에 일본의 교과서 검정으로 '침략'을 '진출'으로 재작성했다고 보도",
+      "context": "1982년 일본 언론이 “문부성 교과서 검정으로 중국에 대한 '침략'이 '진출'로 다시 쓰여졌다”고 보도해 중국·한국에서 강한 항의가 전해졌다. 후의 검증에서 실제로는 해당 연도의 검정에서 그러한 재기록은 확인되지 않았다는 지적도 있지만 보도를 계기로 '근린제국조항'이 신설되었다.",
+      "verdict": "보도의 정확성에 논의",
+      "sources": [
+        {
+          "title": "教科書検定基準の改定（近隣諸国条項の新設）",
+          "url": "https://www.mext.go.jp/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-neighboring-countries-clause",
+      "claim": "1982년에 「근린제국조항」이 교과서 검정기준에 추가되었다",
+      "context": "1982년 11월 24일 문부성은 교과서 검정 기준에 “인근 아시아 국가들 사이의 근현대 역사적 사건의 취급에 국제 이해와 국제 협조의 관점에서 필요한 배려가 되고 있는 것”이라는 조항을 추가했다. 미야자와 키이치 관방장관이 담화를 발표하고 정부로서 검정 개선을 약속했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "宮沢官房長官談話（1982年）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-2001-new-history-textbook",
+      "claim": "2001년에 「새로운 역사 교과서를 만드는 회」의 교과서가 검정 합격",
+      "context": "2001년, 「새로운 역사교과서를 만드는 회」가 편찬한 후소사의 역사교과서가 문부과학성의 검정에 합격. 중국·한국은 일본의 침략이나 식민지 지배를 미화·정당화하는 내용이라고 강하게 항의. 실제 채택률은 낮고(1% 미만) 일본 내에서도 논의를 불렀다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "教科書検定結果（文部科学省）",
+          "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

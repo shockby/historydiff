@@ -6,7 +6,8 @@ import { Language } from '@/lib/translations';
 const footerTranslations = {
   en: '© 2026 HistoryDiff Project - A Platform for Education and Dialogue',
   ja: '© 2026 HistoryDiff Project - 教育と対話のためのプラットフォーム',
-  zh: '© 2026 HistoryDiff Project - 教育与对话的平台'
+  zh: '© 2026 HistoryDiff Project - 教育与对话的平台',
+  ko: '© 2026 HistoryDiff Project - 교육과 대화를 위한 플랫폼'
 };
 
 export default function Footer() {

@@ -1,0 +1,53 @@
+{
+  "eventId": "pacific-war-end",
+  "notes": [
+    {
+      "id": "pwe-potsdam-declaration",
+      "claim": "1945년 7월 26일에 포츠담 선언이 발표되었다",
+      "context": "미국·영·중의 3개국 정상명(트루먼, 처칠, 장개석)으로 발표. 일본에 무조건 항복을 요구. 후에 소련도 참가. 일본은 8월 14일 수락을 표명, 9월 2일 항복문서에 서명했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-atomic-bombs",
+      "claim": "1945년 8월 6일에 히로시마, 8월 9일에 나가사키에 원자폭탄이 투하되었다",
+      "context": "히로시마형(리틀보이, 우라늄형)으로 추정 14만명, 나가사키형(팻맨, 플루토늄형)으로 추정 7만명이 연말까지 사망. 핵무기의 전쟁 사용은 인류 사상 이 2례만. 투하의 정당성에 대해서는 현재도 각국에서 평가가 나뉘어져 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Atomic Bombings of Hiroshima and Nagasaki",
+          "url": "https://www.atomicarchive.com/",
+          "publisher": "Atomic Archive",
+          "type": "archive"
+        },
+        {
+          "title": "広島平和記念資料館",
+          "url": "https://hpmmuseum.jp/",
+          "publisher": "広島平和記念資料館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-surrender-signing",
+      "claim": "1945년 9월 2일에 미주리호상에서 항복문서가 서명되었다",
+      "context": "도쿄만상의 전함 미주리호에서 일본의 시게코 아오이 외무대신과 우메즈 미지로 참모 총장이 항복 문서에 서명. 연합국 측은 맥아더 최고 사령관이 대표하여 서명. 중국, 영국, 소련, 호주, 캐나다, 프랑스, ​​네덜란드, 뉴질랜드 각국 대표도 서명했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Japanese Instrument of Surrender",
+          "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
+          "publisher": "U.S. National Archives",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

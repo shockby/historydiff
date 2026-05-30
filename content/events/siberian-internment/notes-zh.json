@@ -1,0 +1,53 @@
+{
+  "eventId": "siberian-internment",
+  "notes": [
+    {
+      "id": "si-number-of-internees",
+      "claim": "约57.5万名日本人被拘留在西伯利亚",
+      "context": "根据厚生劳动省的调查，战争结束时在满洲、朝鲜、库页岛等地的日本军民约有57.5万人被苏联送往西伯利亚、中亚等地。据俄罗斯消息来源称，约有50万人。日本估计约有 55,000 名被拘留者死亡。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "シベリア抑留に関する情報（厚生労働省）",
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省",
+          "type": "government"
+        },
+        {
+          "title": "舞鶴引揚記念館",
+          "url": "https://m-hikiage-museum.jp/",
+          "publisher": "舞鶴引揚記念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "si-forced-labor",
+      "claim": "被拘留者被迫在恶劣条件下劳动",
+      "context": "被拘留者在西伯利亚煤矿、铁路建设（贝阿铁路等）、砍伐森林和建筑工作中从事苦役。许多人因极度寒冷、食物不足、衣服不足、缺乏医疗而死亡。 2015年，舞鹤引上纪念馆藏有的“西伯利亚拘禁相关资料”被列入联合国教科文组织“世界记忆”名录。",
+      "verdict": "历史事实（联合国教科文组织登记）",
+      "sources": [
+        {
+          "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",
+          "url": "https://en.unesco.org/memoryoftheworld/registry/",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "si-geneva-convention",
+      "claim": "苏联的拘禁违反了《日内瓦公约》",
+      "context": "1929年《日内瓦公约》（战俘待遇公约）要求在敌对行动结束后立即遣返战俘。尽管苏联尚未批准该条约，但日本已批准该条约，国际人道主义法一般原则的适用存在争议。 《波茨坦公告》第九条还规定“迅速遣返”日本军事人员。",
+      "verdict": "有法律依据",
+      "sources": [
+        {
+          "title": "Geneva Convention relative to the Treatment of Prisoners of War (1929)",
+          "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-pow-1929",
+          "publisher": "International Committee of the Red Cross",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "eventId": "tiananmen-1989",
+  "notes": [
+    {
+      "id": "ta-casualty-count",
+      "claim": "The number of victims is said to be from hundreds to thousands, but the exact number is unknown.",
+      "context": "There are various theories about the number of victims of the Tiananmen Incident, and the exact number is still unknown. The Chinese government officially announced that there were approximately 200 to 300 people (including military personnel). The Chinese Red Cross initially announced that the number would be 2,600, but later withdrew the number. In British diplomatic documents declassified in 2017, Alan Donald, the British ambassador to China, reported back home that the \"minimum estimate is 10,000 civilian deaths.\" Many researchers support estimates ranging from a few hundred people to over a thousand.",
+      "verdict": "Estimates vary (large discrepancy between official figures and international estimates)",
+      "sources": [
+        {
+          "title": "Tiananmen Square protest death toll 'was 10,000'",
+          "url": "https://www.bbc.com/news/world-asia-china-42465516",
+          "publisher": "BBC News",
+          "type": "media"
+        },
+        {
+          "title": "The Tiananmen Papers",
+          "url": "https://www.publicaffairsbooks.com/",
+          "publisher": "PublicAffairs",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-tank-man",
+      "claim": "``Tankman'' became a symbol of individual courage in the face of tyranny.",
+      "context": "On June 5, 1989, a man stood in front of a convoy of tanks moving from Tiananmen Square down Chang'an Street, and the footage was broadcast around the world. He was known as ``Tank Man'' or ``Unknown Rebel,'' and was included in Time magazine's ``100 Most Influential People of the 20th Century.'' His identity and whereabouts are still unknown, and the footage is heavily censored in China.",
+      "verdict": "Video recording available (identity of person not confirmed)",
+      "sources": [
+        {
+          "title": "TIME 100: The Most Important People of the Century",
+          "url": "https://content.time.com/time/magazine/article/0,9171,988169,00.html",
+          "publisher": "TIME Magazine",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ta-censorship",
+      "claim": "The Chinese government is thoroughly censoring information about the Tiananmen incident.",
+      "context": "Internet searches related to the Tiananmen Incident are severely restricted in China, and related terms such as \"64,\" \"Tiananmen,\" and \"Tankman\" are subject to censorship on Chinese social media and search engines. Censorship is especially tightened around June 4th every year. In Chinese textbooks, there is almost no mention of the incident, or it is only mentioned briefly as ``the end of the turmoil.'' It is said that many of the younger generation do not know the details of the incident.",
+      "verdict": "There are multiple lines of evidence.",
+      "sources": [
+        {
+          "title": "The People's Republic of Amnesia: Tiananmen Revisited",
+          "url": "https://www.oupjapan.co.jp/",
+          "publisher": "Oxford University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Great Firewall and Tiananmen Censorship",
+          "url": "https://citizenlab.ca/",
+          "publisher": "Citizen Lab, University of Toronto",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-zhao-ziyang",
+      "claim": "General Secretary Zhao Ziyang was ousted because he took a sympathetic stance toward students.",
+      "context": "Zhao Ziyang, general secretary of the Chinese Communist Party at the time, advocated dialogue with the student movement, visiting Tiananmen Square on May 19 and tearfully telling the students, ``We came too late.'' This action was deemed to go against the policies of hard-liners (Deng Xiaoping, Li Peng, and others), and Zhao Ziyang was dismissed from all his duties. He was then placed under house arrest for approximately 15 years until his death in 2005. Zhao Ziyang's memoirs were published overseas after his death.",
+      "verdict": "Official records/multiple testimonies available",
+      "sources": [
+        {
+          "title": "Prisoner of the State: The Secret Journal of Premier Zhao Ziyang",
+          "url": "https://www.simonandschuster.com/",
+          "publisher": "Simon & Schuster",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-international-sanctions",
+      "claim": "Western countries imposed arms embargoes and economic sanctions on China.",
+      "context": "In response to the Tiananmen Incident, the United States suspended arms sales to China in June 1989 and froze high-level military and government-to-government exchanges. The EU (then EC) also decided to impose an arms embargo on China, and this measure continues into the 2020s. Although Japan took measures such as temporarily freezing yen loans, it was relatively quick among Western countries to normalize relations with China, and in 1991, Prime Minister Kaifu became the first Western leader to visit China after the Tiananmen Incident.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "U.S. Arms Embargo on China",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congressional Research Service",
+          "type": "government"
+        },
+        {
+          "title": "EU Arms Embargo on China",
+          "url": "https://www.sipri.org/",
+          "publisher": "SIPRI (Stockholm International Peace Research Institute)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

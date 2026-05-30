@@ -1,0 +1,47 @@
+{
+  "eventId": "senkaku",
+  "notes": [
+    {
+      "id": "sk-1895-incorporation",
+      "claim": "The Senkaku Islands were incorporated into Japan by a cabinet decision on January 14, 1895.",
+      "context": "The Japanese government conducted field surveys starting in 1885, and after confirming that the islands were not under the control of any country, incorporated the Senkaku Islands into Okinawa Prefecture by a cabinet decision on January 14, 1895. China claims that this annexation took place during the Sino-Japanese War and was part of the cession of Taiwan under the Treaty of Shimonoseki. The Japanese side says that the incorporation of the Senkaku Islands has nothing to do with the Treaty of Shimonoseki.",
+      "verdict": "Official records available (different interpretations)",
+      "sources": [
+        {
+          "title": "尖閣諸島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sk-unclos-continental-shelf",
+      "claim": "After a 1969 United Nations report pointed out the possibility of oil resources in the East China Sea, China and Taiwan began to make territorial claims.",
+      "context": "In 1969, an undersea survey report by the United Nations Economic Commission for Asia and the Far East (ECAFE) pointed out the possibility that oil and natural gas resources comparable to Iraq and Kuwait existed on the continental shelf of the East China Sea. China and Taiwan first officially claimed territory in 1971 and 1970, respectively. Based on this timeline, Japan points out that the claim is for resource purposes.",
+      "verdict": "Time series confirmed",
+      "sources": [
+        {
+          "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "United Nations ECAFE (via MOFA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sk-us-position",
+      "claim": "The United States states that ``Japan has the authority to administer the Senkaku Islands,'' but does not take a position on sovereignty.",
+      "context": "The United States states that the Senkaku Islands are included in the scope of Article 5 of the Japan-U.S. Security Treaty, but states that it \"does not take a specific position on the issue of ultimate sovereignty.\" President Obama (2014) and President Biden (2021) have clearly stated that they will apply the security treaty.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "U.S.-Japan Joint Statement (2014)",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/04/24/us-japan-joint-statement",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

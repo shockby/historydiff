@@ -1,0 +1,107 @@
+{
+  "eventId": "russia-china-territory",
+  "notes": [
+    {
+      "id": "rct-nerchinsk-context",
+      "claim": "《尼布楚条约》（1689年）是清朝与欧洲国家签订的第一个条约。",
+      "context": "《尼布楚条约》是清朝（康熙皇帝）与俄罗斯帝国（彼得一世摄政期间）于1689年签订的。谈判由耶稣会士使用拉丁语作为媒介进行调解。该条约以外兴安岭（斯坦诺沃伊山脉）为界，并规定俄罗斯从阿穆尔河流域撤军。据说清朝的军事优势影响了谈判的结果。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "Treaty of Nerchinsk (1689)",
+          "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk",
+          "publisher": "Encyclopædia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-aigun-unequal",
+      "claim": "《艾贡条约》（1858年）是中国声称的“不平等条约”之一",
+      "context": "《艾贡条约》是清朝因箭战（第二次鸦片战争）而衰弱之际，俄罗斯东西伯利亚总督穆拉维约夫-阿穆尔斯基在军事压力下签订的。中国将这一条约归类为“不平等条约”，是利用清朝危机进行强制外交的产物。另一方面，俄罗斯则认为该条约是合法外交谈判的结果。从国际法的角度来看，学者们对于条约的效力存在争议。",
+      "verdict": "意见分歧",
+      "sources": [
+        {
+          "title": "Treaty of Aigun",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Aigun",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "中国の「不平等条約」概念の歴史的展開",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-territory-loss",
+      "claim": "根据19世纪的条约，清朝将约100万平方公里的领土割让给了俄罗斯。",
+      "context": "《艾贡条约》（1858年）将约60万平方公里（阿穆尔河以北）划为俄罗斯领土，《北京条约》（1860年）将约40万平方公里（乌苏里江以东沿海地区）划为俄罗斯领土。这些地区被称为“外满洲”，相当于现在的俄罗斯远东地区。海参崴的中文名称“海神威”在中国至今仍被广泛使用，这表明了这段历史记忆的持久。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "Sino-Russian Border Disputes",
+          "url": "https://en.wikipedia.org/wiki/Sino-Russian_border_conflicts",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-1969-conflict",
+      "claim": "1969年达曼斯基岛碰撞事件使中苏两国陷入核战争的边缘。",
+      "context": "1969年3月2日至15日，中苏两军在乌苏里江珍宝岛（达曼斯基岛）发生战斗，造成双方伤亡。据估计，苏方有58人死亡，中方则有30人左右（中方尚未公布官方数字）。此次冲突后，据称苏联曾考虑对中国核设施进行先发制人的打击，美国尼克松政府也采取措施予以制止。这场危机最终成为美中关系更加密切的触发因素之一（尼克松1972年访华）。",
+      "verdict": "关于核攻击审议的报告",
+      "sources": [
+        {
+          "title": "The Sino-Soviet Border Conflict of 1969",
+          "url": "https://www.wilsoncenter.org/",
+          "publisher": "Wilson Center / Cold War International History Project",
+          "type": "academic"
+        },
+        {
+          "title": "Sino-Soviet border conflict",
+          "url": "https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rct-2004-resolution",
+      "claim": "2004年补充协定划定了中俄全部边界。",
+      "context": "2004年10月，普京总统和胡锦涛主席签署了《中俄东部边界补充协定》，同意两国瓜分大乌苏里斯基岛和塔拉巴洛夫岛最后争议岛屿。至此，约4300公里的中俄边界已完全勘定。然而，俄罗斯2020年宪法修正案明确禁止割让领土，却被解读为从法律上封锁了未来领土谈判的任何空间。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "中露国境画定の経緯",
+          "url": "https://www.jiia.or.jp/",
+          "publisher": "日本国際問題研究所",
+          "type": "academic"
+        },
+        {
+          "title": "ロシア連邦憲法改正（2020年）",
+          "url": "http://kremlin.ru/",
+          "publisher": "ロシア大統領府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rct-vladivostok-name",
+      "claim": "2023年，中国在官方地图上使用符拉迪沃斯托克的中文名称“海赞库”，引发外交问题。",
+      "context": "据报道，2023年，中国自然资源部发布的新标准地图中，海参崴恢复了中文名称“海赞库”。俄罗斯外交部对此表示不满。此举作为中国国内民族主义情绪和“100年国耻”的历史记忆如何影响现代外交关系的一个例子而引起关注。然而，中国政府继续正式承认目前与俄罗斯的边界。",
+      "verdict": "有报道事实",
+      "sources": [
+        {
+          "title": "China's New Map and Vladivostok Naming Controversy",
+          "url": "https://www.scmp.com/",
+          "publisher": "South China Morning Post",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "eventId": "hundred-flowers-anti-rightist",
+  "notes": [
+    {
+      "id": "hf-yanmou-theory",
+      "claim": "The Hundred Flowers Movement was a deliberate trap (a \"ploy\") to expose intellectuals.",
+      "context": "Historians continue to debate the question of whether Mao Zedong's Hundred Flowers Movement was a ``conspiracy'' designed from the beginning to identify and purge dissidents. Mao Zedong himself is later recorded as using the expression \"diversion.\" On the other hand, there is also the view that the government was initially serious about allowing free discussion, but was surprised by the intensity of the criticism and abruptly changed its policy. The current academic consensus is that Mao's intentions likely changed along the way, but no definitive conclusion has been reached.",
+      "verdict": "Under academic discussion",
+      "sources": [
+        {
+          "title": "The Politics of China: Sixty Years of the People's Republic of China",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        },
+        {
+          "title": "Mao: The Unknown Story",
+          "url": "https://www.penguinrandomhouse.com/",
+          "publisher": "Penguin Random House",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rightist-numbers",
+      "claim": "Approximately 550,000 people were identified as right-wing.",
+      "context": "According to official statistics from the Chinese government, approximately 550,000 people have been identified as \"right-wing elements\" in the anti-right-wing struggle. However, some researchers believe that this number is an underestimate, and that many more people were actually subjected to informal forms of persecution. After 1978, almost all of them had their honor restored, but six people, including Zhang Bojun and Luo Longji, were not restored until the end (later reduced to five).",
+      "verdict": "Official records available (actual numbers subject to debate)",
+      "sources": [
+        {
+          "title": "中国共産党党史（第二巻）",
+          "url": "https://www.12371.cn/",
+          "publisher": "中共中央党史研究室",
+          "type": "government"
+        },
+        {
+          "title": "The Anti-Rightist Campaign and Its Aftermath",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rehabilitation",
+      "claim": "After 1978, the reputation of those who were labeled as right-wing was restored.",
+      "context": "In 1978, the Chinese Communist Party acknowledged that it had made a mistake to expand its anti-right-wing struggle, and carried out a comprehensive restoration of the honor of those who had been identified as right-wing (hats removed and reformed). More than 540,000 people had their honor restored, but five people, Zhang Bojun, Luo Longji, Chu Anping, Peng Wenying, and Chen Renping, were excluded from restoration as ``genuine right-wingers'' (initially there were six people, but one additional person was later restored). The official stance is that the anti-right-wing struggle itself was ``necessary,'' and only acknowledges the ``error of expansion.''",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "関於全部摘掉右派分子帽子決定的実施方案",
+          "url": "https://www.gov.cn/",
+          "publisher": "中国国務院",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hf-great-leap-connection",
+      "claim": "Anti-rightist struggles exacerbated the failure of the Great Leap Forward",
+      "context": "The anti-right-wing struggle spread severe fear and self-censorship among intellectuals and bureaucrats, making it impossible for anyone to object to the Great Leap Forward, which began in 1958. A trend of falsely reporting the actual state of agricultural and industrial production became widespread, and large-scale famines occurred without policy errors being corrected. Those who pointed out the problems of the Great Leap Forward, such as Peng Dehuai, were purged as ``right-wingers.'' Many historians have pointed out this causal relationship.",
+      "verdict": "Widely supported academically",
+      "sources": [
+        {
+          "title": "Tombstone: The Great Chinese Famine, 1958-1962",
+          "url": "https://us.macmillan.com/",
+          "publisher": "Farrar, Straus and Giroux",
+          "type": "academic"
+        },
+        {
+          "title": "Mao's Great Famine",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-ding-ling",
+      "claim": "Prominent intellectuals were persecuted for being right-wing.",
+      "context": "Many prominent intellectuals were targeted in the anti-right-wing struggle. The writer Ding Ling was recognized as a right-winger and was exiled to Beidaran (the northeastern frontier). Sociologist and anthropologist Fei Hyo-tong, legal scholar Luo Long-ki, and journalist Chu An-ping were also considered right-wing. Chu Anping went missing after that, and his whereabouts are still unknown. These cases are emblematic of the devastating impact that anti-rightist struggles have had on China's intellectual and cultural life.",
+      "verdict": "There are multiple lines of evidence.",
+      "sources": [
+        {
+          "title": "The People's Republic of China, 1949-1979: A Documentary History",
+          "url": "https://www.degruyter.com/",
+          "publisher": "De Gruyter",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "eventId": "senkaku",
+  "notes": [
+    {
+      "id": "sk-1895-incorporation",
+      "claim": "1895 年 1 月 14 日内阁决定将尖阁诸岛并入日本。",
+      "context": "二、日本政府从1885年开始进行实地勘察，确认钓鱼岛不属于任何国家管辖后，于1895年1月14日内阁决定将尖阁列岛并入冲绳县。中国声称，这一吞并发生在甲午战争期间，是《马关条约》割让台湾的一部分。日方表示，尖阁诸岛的并入与《马关条约》无关。",
+      "verdict": "可用的官方记录（不同解释）",
+      "sources": [
+        {
+          "title": "尖閣諸島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sk-unclos-continental-shelf",
+      "claim": "1969年联合国报告指出东海可能存在石油资源后，中国和台湾开始提出领土主张。",
+      "context": "1969年，联合国亚洲及远东经济委员会（ECAFE）海底调查报告指出，东海大陆架上可能存在与伊拉克、科威特相当的石油和天然气资源。中国和台湾分别于1971年和1970年首次正式宣称拥有领土主权。根据这个时间表，日本指出该主张是出于资源目的。",
+      "verdict": "时间序列确认",
+      "sources": [
+        {
+          "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
+          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "publisher": "United Nations ECAFE (via MOFA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sk-us-position",
+      "claim": "美国声称“日本有权管理尖阁诸岛”，但在主权问题上不表明立场。",
+      "context": "美国表示将尖阁诸岛纳入《日美安保条约》第五条范围，但表示“在最终主权问题上不采取具体立场”。奥巴马总统（2014年）和拜登总统（2021年）已明确表示将适用该安全条约。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "U.S.-Japan Joint Statement (2014)",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/04/24/us-japan-joint-statement",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

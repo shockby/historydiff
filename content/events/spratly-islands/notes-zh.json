@@ -1,0 +1,143 @@
+{
+  "eventId": "spratly-islands",
+  "notes": [
+    {
+      "id": "sp-nine-dash-line",
+      "claim": "中国声称拥有“九段线”（U形线）范围内的历史权利",
+      "context": "二、九段线是中华民国政府于1947年公布的地图上的边界线（原十一段线）。据描述，它包围了南中国海约 80-90% 的面积。中华人民共和国也继承了这一点，并于2009年正式向联合国提交。但有人指出，中国政府本身并没有明确九段线的法律含义（是领海主张还是历史权利主张）？",
+      "verdict": "地图存在（讨论法律意义）",
+      "sources": [
+        {
+          "title": "China's Nine-Dash Line: History, Status, and Implications",
+          "url": "https://www.uscc.gov/",
+          "publisher": "U.S.-China Economic and Security Review Commission",
+          "type": "government"
+        },
+        {
+          "title": "Note Verbale CML/17/2009 (China's submission to CLCS)",
+          "url": "https://www.un.org/depts/los/clcs_new/submissions_files/mysvnm33_09/chn_2009re_mys_vnm_e.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-2016-arbitration",
+      "claim": "2016年，海牙仲裁法院裁定九段线内的历史权利不成立。",
+      "context": "2016年7月12日，常设仲裁法院对“菲律宾诉中国”案（常设仲裁法院案号2013-19）作出终审判决。仲裁庭认为，基于九段线的历史权利主张没有法律依据，并认定中国在菲律宾专属经济区内的活动侵犯了菲律宾的主权权利。该决定对《联合国海洋法公约》缔约方具有法律约束力。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "The South China Sea Arbitration (The Republic of Philippines v. The People's Republic of China)",
+          "url": "https://pca-cpa.org/en/cases/7/",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        },
+        {
+          "title": "Award of 12 July 2016 (Full Text)",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "PCA Case Repository",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-china-rejects-ruling",
+      "claim": "中国拒绝接受仲裁裁决，称其“无效且不具有法律约束力”。",
+      "context": "中国外交部在判决当天发表声明，宣称仲裁庭没有管辖权，判决是“废纸”。中方主张，根据《公约》第298条选择性豁免声明，有关海域划界和军事活动的争议不适用强制仲裁。但仲裁庭对此进行了详细考虑，并认定其具有管辖权。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Statement of the Ministry of Foreign Affairs of the People's Republic of China on the Award of 12 July 2016",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/201607/t20160712_679470.html",
+          "publisher": "Ministry of Foreign Affairs, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-artificial-islands",
+      "claim": "2013年以来，中国大规模建造人工岛屿并建设军事设施。",
+      "context": "2013年以来，中国对南沙群岛7个岛礁（永暑礁、渚碧礁、美济礁等）进行了大规模填海造地。卫星图像显示了3条3000米级跑道、雷达设施以及防空反舰导弹的部署。美国智库战略与国际研究中心的亚洲海事透明度倡议组织（AMTI）发布了详细的卫星图像。",
+      "verdict": "通过卫星图像确认",
+      "sources": [
+        {
+          "title": "Island Tracker - Asia Maritime Transparency Initiative",
+          "url": "https://amti.csis.org/island-tracker/",
+          "publisher": "CSIS (Center for Strategic and International Studies)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sp-1988-johnson-reef",
+      "claim": "1988年中越赤高礁（约翰逊南礁）武装冲突",
+      "context": "1988年3月14日，越南海军与中国海军在赤卡礁（约翰逊南礁）发生武装冲突。越南方面死亡64人，中方仅有少量人员伤亡。由于这场冲突，中国占领了多个岛礁。中方录制了该事件的视频并随后发布。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "The Johnson South Reef Skirmish, 1988",
+          "url": "https://www.globalsecurity.org/military/world/war/spratly-1988.htm",
+          "publisher": "GlobalSecurity.org",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-1974-paracel-seizure",
+      "claim": "1974年，中国从南越武力夺取黄沙群岛（西沙群岛）。",
+      "context": "1974年1月，中国人民解放军海军在西沙群岛（帕塞尔群岛）与南越海军交战，占领整个群岛。南越方面约有70人死亡或失踪。这种占领一直持续到今天，越南一直抗议这是非法占领。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "Battle of the Paracel Islands",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
+          "publisher": "Wikipedia",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-pd1596",
+      "claim": "1978年，马科斯总统通过第1596号行政命令将卡拉延群岛并入菲律宾。",
+      "context": "1978年6月11日，费迪南德·马科斯总统发布第1596号行政命令，正式将南沙群岛部分地区并入巴拉望省，称为“卡拉延市”。它仍然作为菲律宾的一个行政市存在。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Presidential Decree No. 1596",
+          "url": "https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1596-s-1978/",
+          "publisher": "Official Gazette of the Republic of the Philippines",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-san-francisco-1951",
+      "claim": "1951年旧金山和平会议上，越南代表正式宣示对长沙群岛和黄沙群岛拥有主权。",
+      "context": "1951年9月，南越代表陈文富在旧金山和平会议上宣布越南对西沙群岛和南沙群岛拥有主权。会议上没有人明确反对这一说法。但该条约并未明确这些岛屿的归属，仅规定日本放弃其领土权利。",
+      "verdict": "可用的官方记录（归属未确认）",
+      "sources": [
+        {
+          "title": "San Francisco Peace Treaty (1951) - Full Text",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-unclos-features",
+      "claim": "一、南沙群岛的地形不属于《联合国海洋法公约》规定的“岛屿”范畴，不能设立专属经济区。",
+      "context": "仲裁庭在2016年仲裁裁决中认定，包括南沙群岛最大的自然地貌太平岛（台湾控制的太平岛）在内的所有地貌均不属于《海洋法公约》第121条第（3）款定义的“岛屿”（能够维持人类居住或独立经济生活的地貌）的“岩石”。为此，决定仅设立12海里领海，不设立200海里专属经济区。台湾方面强烈反对这一决定。",
+      "verdict": "仲裁裁决（部分反对）",
+      "sources": [
+        {
+          "title": "Award of 12 July 2016 - PCA Case No. 2013-19",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

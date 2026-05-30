@@ -1,0 +1,159 @@
+{
+  "eventId": "covid-origin",
+  "notes": [
+    {
+      "id": "co-ratg13-similarity",
+      "claim": "RaTG13 virus discovered in bats in Yunnan province has approximately 96% identity with SARS-CoV-2, evidence of natural origin",
+      "context": "RaTG13 is a bat-derived coronavirus collected from a mining cave in Yunnan Province in 2013, and its sequence was analyzed by the Shi Zhengli team at the Wuhan Institute of Virology. Although there is approximately 96.2% identity across the genome, this 4% difference corresponds to 40 to 70 evolutionary years, meaning that RaTG13 is not a direct ancestor of SARS-CoV-2. More closely related viruses (such as BANAL-52) have been discovered in bats in Laos, but none of them have a furin cleavage site.",
+      "verdict": "Genome data is fact (not direct ancestry)",
+      "sources": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "url": "https://doi.org/10.1038/s41586-020-2012-7",
+          "publisher": "Nature",
+          "type": "academic"
+        },
+        {
+          "title": "Bat coronaviruses related to SARS-CoV-2 and infectious for human cells",
+          "url": "https://doi.org/10.1038/s41586-022-04532-4",
+          "publisher": "Nature (BANAL viruses)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-huanan-market",
+      "claim": "Wuhan Huanan Seafood Market was the epicenter of the initial spread of infection",
+      "context": "A study by Woorbey et al., published in Science in 2022, showed that the geographic distribution of the initial cases was centered around the South China market, that viral RNA detected in environmental samples at the market was concentrated in areas where live wild animals were sold, and that two phylogenetically independent lineages (lineages A and B) were both associated with the market. However, some of the earliest cases (in the first half of December 2019) have no connection to the market, and the debate continues.",
+      "verdict": "With statistical analysis (discussion continues)",
+      "sources": [
+        {
+          "title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+          "url": "https://doi.org/10.1126/science.abp8715",
+          "publisher": "Science",
+          "type": "academic"
+        },
+        {
+          "title": "The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1126/science.abp8337",
+          "publisher": "Science",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-furin-cleavage-site",
+      "claim": "The Furin cleavage site in SARS-CoV-2 is not found in related viruses, potentially suggesting artificial insertion",
+      "context": "The spike protein of SARS-CoV-2 contains a furin cleavage site (RRAR sequence), which is thought to increase the efficiency of infection into human cells. This characteristic is not seen in closely related species of the same Sarbecovirus subgenus. Supporters of the laboratory leak theory take this as evidence pointing to the possibility of artificial insertion. On the other hand, proponents of the natural origin theory point out that furin cleavage sites exist naturally in other coronavirus species (such as HKU1 and MERS) and can be obtained through natural genetic recombination (template switching). As of 2026, no definitive conclusion has been reached.",
+      "verdict": "Scientific debate continues",
+      "sources": [
+        {
+          "title": "The proximal origin of SARS-CoV-2",
+          "url": "https://doi.org/10.1038/s41591-020-0820-9",
+          "publisher": "Nature Medicine",
+          "type": "academic"
+        },
+        {
+          "title": "A critical analysis of the evidence for the SARS-CoV-2 origin hypotheses",
+          "url": "https://doi.org/10.5281/zenodo.7785921",
+          "publisher": "Preprint/Review",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-wiv-researchers-ill",
+      "claim": "In the fall of 2019, three researchers at the Wuhan Institute of Virology were hospitalized with COVID-like symptoms.",
+      "context": "In May 2021, the Wall Street Journal reported that three WIV researchers were hospitalized with symptoms consistent with COVID-19 in November 2019, based on a report from the U.S. intelligence community. The US State Department also referred to this information in a January 2021 statement. The Chinese government and the WIV denied this report, with Dr. Shi Zhengli officially denying that \"not a single WIV staff member was infected with SARS-CoV-2.\" According to U.S. intelligence agencies, the accuracy of this information varies by agency and is not definitive.",
+      "verdict": "Authenticity unconfirmed (conflicting claims between parties)",
+      "sources": [
+        {
+          "title": "Intelligence on Sick Staff at Wuhan Lab Fuels Debate on Covid-19 Origin",
+          "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+          "publisher": "Wall Street Journal",
+          "type": "media"
+        },
+        {
+          "title": "Fact Sheet: Activity at the Wuhan Institute of Virology",
+          "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-who-investigation",
+      "claim": "The 2021 WHO panel rated the natural origin theory as the most likely.",
+      "context": "In January and February 2021, a joint investigation team from WHO and China conducted an investigation in Wuhan and published a report in March of the same year. The report evaluated four hypotheses: (1) natural infection via an intermediate host as \"likely to very likely,\" (2) direct zoonosis as \"possible to likely,\" (3) cold chain origin as \"possible,\" and (4) laboratory accident as \"extremely unlikely.\" However, the head of the investigation team, Peter Benembarek, later testified that there was pressure from the Chinese side not to include the lab leak theory in the report. WHO Director-General Tedros Adhanom Ghebreyesus also distanced himself from the report's conclusions, saying, \"All hypotheses are open and require further investigation.\"",
+      "verdict": "The report is an official document (there are doubts about the independence of the investigation)",
+      "sources": [
+        {
+          "title": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+          "publisher": "WHO",
+          "type": "international"
+        },
+        {
+          "title": "WHO chief says 'premature' to rule out COVID lab leak",
+          "url": "https://www.reuters.com/article/us-health-coronavirus-who-china-idUSKBN2AM0LR",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "co-us-intelligence-split",
+      "claim": "U.S. intelligence agencies have not reached a consensus on origins",
+      "context": "According to a 2023 U.S. Intelligence Community declassified report, the FBI supports the lab leak theory with \"moderate confidence,\" and the Department of Energy gives a similar rating with \"low confidence.\" On the other hand, the National Intelligence Council and four intelligence agencies support the natural origin theory with \"low confidence.\" The CIA and other agencies withheld judgment. The report concluded that \"neither theory is confirmed by direct evidence.\" This division has been attributed to the limited information available and the Chinese government's lack of transparency.",
+      "verdict": "Official report available (opinions are divided)",
+      "sources": [
+        {
+          "title": "Updated Assessment on COVID-19 Origins",
+          "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230626.pdf",
+          "publisher": "Office of the Director of National Intelligence",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-china-data-transparency",
+      "claim": "China has been criticized for restricting access to early data and preventing independent investigations.",
+      "context": "It has been pointed out that the WIV virus database went offline in September 2019. WIV explained that it was for \"security reasons.\" In early 2020, the Chinese government restricted the sharing of biological samples from early patients, and the release of environmental data for the Huanan market was also delayed. In 2023, genetic sequence data from the Huanan market (including DNA from animals such as raccoon dogs) that was temporarily uploaded to GISAID was later deleted by Chinese researchers. The WHO has repeatedly called on China to share data transparently, but Beijing has countered that it has already provided enough information.",
+      "verdict": "Data access restrictions confirmed (motives debated)",
+      "sources": [
+        {
+          "title": "New Data Links Pandemic's Origins to Raccoon Dogs at Wuhan Market",
+          "url": "https://www.nytimes.com/2023/03/16/science/covid-wuhan-market-raccoon-dogs-lab-leak.html",
+          "publisher": "New York Times",
+          "type": "media"
+        },
+        {
+          "title": "WHO SAGO report on COVID-19 origins",
+          "url": "https://www.who.int/publications/m/item/scientific-advisory-group-on-the-origins-of-novel-pathogens-(sago)-report",
+          "publisher": "WHO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "co-gain-of-function",
+      "claim": "The Wuhan Institute of Virology was conducting gain-of-function research with NIH funding.",
+      "context": "The US National Institutes of Health (NIH) was funding WIV's bat coronavirus research through the EcoHealth Alliance. From 2021 onwards, there has been intense debate in the US Congress over whether this funding constitutes \"gain-of-function research\" to increase the infectivity of the virus. The NIH initially denied this, but admitted in October 2021 that EcoHealth Alliance violated reporting requirements and failed to report that experiments using the chimeric virus had increased pathogenicity in mice more than expected. However, no evidence has been found that the viruses created in these experiments are direct precursors to SARS-CoV-2.",
+      "verdict": "Funding and research are true (direct link to SARS-CoV-2 not confirmed)",
+      "sources": [
+        {
+          "title": "NIH Letter to Rep. Comer regarding EcoHealth Alliance",
+          "url": "https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Letter-to-Congress-on-EcoHealth-Alliance.pdf",
+          "publisher": "U.S. House Committee on Oversight",
+          "type": "government"
+        },
+        {
+          "title": "The Lancet COVID-19 Commission: Task Force on the Origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1073/pnas.2202769119",
+          "publisher": "PNAS",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

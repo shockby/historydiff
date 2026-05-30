@@ -1,0 +1,53 @@
+{
+  "eventId": "unit731",
+  "notes": [
+    {
+      "id": "u731-gruesome-experiments",
+      "claim": "731部队进行生物实验，研制细菌武器。",
+      "context": "731部队（正式名称：关东军防疫供水部本部），由石井四郎中将指挥，驻扎在哈尔滨市郊平房。进行鼠疫、霍乱、炭疽等细菌武器的研发，并对中国、俄罗斯等战俘进行人体实验。存在哈巴罗夫斯克审判（1949 年）的记录和前成员的证词。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "Materials on the Trial of Former Servicemen of the Japanese Army (Khabarovsk Trial)",
+          "url": "https://www.legal-tools.org/",
+          "publisher": "International Legal Resources",
+          "type": "international"
+        },
+        {
+          "title": "731部隊罪証陳列館",
+          "url": "http://www.unit731.org/",
+          "publisher": "侵華日軍第七三一部隊罪証陳列館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "u731-us-immunity",
+      "claim": "美国对731部队相关人员给予战争罪豁免并获取研究数据。",
+      "context": "战争结束后，美国根据冷战生物武器研究，强迫石井四郎等731部队高管提供人体实验数据，以换取免于战争罪起诉。该交易于 20 世纪 90 年代通过美国信息自由法披露的公共记录得到证实。",
+      "verdict": "有正式记录（文件已公开）",
+      "sources": [
+        {
+          "title": "Japanese Biological Warfare 1932-1945 and the American Cover-Up",
+          "url": "https://www.archives.gov/iwg/japanese-war-crimes",
+          "publisher": "U.S. National Archives (IWG)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "u731-japan-acknowledgment",
+      "claim": "日本政府承认731部队的存在，但不正式承认人体实验。",
+      "context": "日本政府承认731部队作为防疫和供水部门存在，但没有公布官方人体实验调查结果，也没有做出个别认证。 2011年，日本国家档案馆公布了731部队成员名单。民间历史研究人员的核实工作正在进行中。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "731部隊名簿（国立公文書館所蔵）",
+          "url": "https://www.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

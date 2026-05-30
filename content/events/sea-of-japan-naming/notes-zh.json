@@ -1,0 +1,101 @@
+{
+  "eventId": "sea-of-japan-naming",
+  "notes": [
+    {
+      "id": "sj-iho-s23",
+      "claim": "自1929年以来，国际海道测量组织（IHO）的《海洋边界（S-23）》中一直使用“日本海”",
+      "context": "S-23是一份定义海域边界和名称的国际参考文件。 1929年第一版、1937年第二版、1953年第三版均使用“日本海”。 2002年修订的第4版因韩国反对而未出版。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "IHO Publication S-23",
+          "url": "https://iho.int/en/s-23-limits-of-oceans-and-seas",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sj-iho-2020",
+      "claim": "2020 年，IHO 决定过渡到使用数字标识符进行管理的新方法。",
+      "context": "在 2020 年 11 月的 IHO 大会上，一致批准过渡到名为 S-130 的数字登记方法。一种用数字标识符取代传统的基于名称的管理的方法。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "IHO Assembly Decisions (2020)",
+          "url": "https://iho.int/en/assembly",
+          "publisher": "International Hydrographic Organization",
+          "type": "international"
+        },
+        {
+          "title": "日本海の呼称問題",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-un-usage",
+      "claim": "联合国也正式使用“日本海”一词",
+      "context": "2004年3月，联合国秘书处发出通知，指出“日本海是标准地名，日本海将用于联合国正式文件”。这作为国际标准被广泛引用。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "日本海呼称問題（外務省の立場）",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-1992-first-raised",
+      "claim": "韩国的主张是在1992年联合国地名标准化会议上首次提出的。",
+      "context": "韩国于1992年第六届联合国地名标准化会议上正式开始要求在国际上使用“东海”这一名称。此前，国际上尚未有系统的主张。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "日本海呼称問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/keicho.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-east-sea-2000-years",
+      "claim": "“东海”这个名字已有2000多年的历史。",
+      "context": "韩方主张的依据是《三国史记》（1145年）和光开土王铭文（414年）中提到的“东海”，但对于这是否完全符合现在的海域存在历史争议。",
+      "verdict": "文件存在（讨论解释）",
+      "sources": [
+        {
+          "title": "The Name East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sj-19c-maps",
+      "claim": "绝大多数19世纪的欧美地图上都写有“日本海”。",
+      "context": "日本外务省对19世纪以来的约1500张欧洲地图进行了调查，并宣布日本海占据了约77%的地图。另一方面，韩国外交部的一项研究反驳说，它在18世纪之前有多种名称。",
+      "verdict": "研究存在（解释上存在差异）",
+      "sources": [
+        {
+          "title": "日本海呼称に関する調査",
+          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/map/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Korea's Position on the Naming of the East Sea",
+          "url": "https://www.mofa.go.kr/eng/wpge/m_5447/contents.do",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

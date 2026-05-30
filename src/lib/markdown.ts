@@ -42,16 +42,23 @@ export function getPerspectiveData(eventId: string, perspectiveId: string): Even
   };
 }
 
-export function getEventPerspectives(eventId: string): EventPerspective[] {
+export function getEventPerspectives(eventId: string, lang = 'en'): EventPerspective[] {
   const folderPath = path.join(contentDirectory, eventId);
+  if (!fs.existsSync(folderPath)) return [];
   const files = fs.readdirSync(folderPath);
 
-  return files
-    .filter((file) => file.endsWith('.md'))
-    .map((file) => {
-      const perspectiveId = file.replace(/\.md$/, '');
-      return getPerspectiveData(eventId, perspectiveId);
-    });
+  // We look for files ending with -en.md, -ja.md, or -zh.md
+  // Supporting fallback to -ja.md if the requested language file is missing
+  let filteredFiles = files.filter((file) => file.endsWith(`-${lang}.md`));
+  
+  if (filteredFiles.length === 0) {
+    filteredFiles = files.filter((file) => file.endsWith('-ja.md'));
+  }
+
+  return filteredFiles.map((file) => {
+    const perspectiveId = file.replace(/\.md$/, '');
+    return getPerspectiveData(eventId, perspectiveId);
+  });
 }
 
 export interface NoteSource {
@@ -74,11 +81,18 @@ export interface EventNotes {
   notes: EventNote[];
 }
 
-export function getEventNotes(eventId: string): EventNotes | null {
-  const notesPath = path.join(contentDirectory, eventId, 'notes.json');
+export function getEventNotes(eventId: string, lang = 'en'): EventNotes | null {
+  const fileName = lang === 'ja' ? 'notes.json' : `notes-${lang}.json`;
+  let notesPath = path.join(contentDirectory, eventId, fileName);
+  
   if (!fs.existsSync(notesPath)) {
-    return null;
+    notesPath = path.join(contentDirectory, eventId, 'notes.json');
+    if (!fs.existsSync(notesPath)) {
+      return null;
+    }
   }
+  
   const fileContents = fs.readFileSync(notesPath, 'utf8');
   return JSON.parse(fileContents) as EventNotes;
 }
+

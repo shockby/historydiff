@@ -1,0 +1,103 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "notes": [
+    {
+      "id": "hsr-china-tech-transfer",
+      "claim": "Since 2004, China has introduced technology from overseas companies such as Japan's Kawasaki Heavy Industries.",
+      "context": "In 2004, the Chinese Ministry of Railways selected Kawasaki Heavy Industries (Japan), Alstom (France), Bombardier (Canada), and Siemens (Germany) to introduce technology for 200km/h high-speed trains (CRH). Kawasaki Heavy Industries offers the CRH2, which is based on the E2 Shinkansen. This later became the basis for China's unique \"re-innovation.\"",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "中国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-wenzhou-accident",
+      "claim": "A high-speed train rear-end accident occurred in Wenzhou in 2011.",
+      "context": "On July 23, 2011, a high-speed rail collision and derailment accident occurred in Wenzhou, Zhejiang Province, killing 40 people. Immediately after the accident, it was reported that authorities were seen digging a hole and burying the accident vehicle, which drew criticism both domestically and internationally for ``destroying evidence.'' This accident became a symbolic incident that raised questions about the safety of China's rapidly expanding routes.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-korea-tgv-choice",
+      "claim": "South Korea chose France's TGV over Japan.",
+      "context": "In 1994, the Korean government selected France's GEC Alstom (TGV) to introduce technology for high-speed railway (KTX). Japan (Shinkansen) and Germany (ICE) also participated in the bidding, but conditions for technology transfer, financial support, and diplomatic considerations were comprehensively judged. In particular, the depth of technology transfer is said to have been the deciding factor.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "韓国高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-ip-controversy",
+      "claim": "China tried to apply for an international patent claiming it was an original technology",
+      "context": "In 2011, China announced its intention to apply for patents for high-speed rail technology in several countries, including the United States and the United Kingdom. In response, JR East Chairman Masayuki Matsumoto (at the time) and others expressed their displeasure, saying, ``I don't understand the idea of ​​applying Shinkansen technology as our own country's technology.'' China counters by saying, ``The technology that was introduced has been completely digested and re-innovated, and it is unique.''",
+      "verdict": "Factual disputes",
+      "sources": [
+        {
+          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "url": "https://www.asahi.com/",
+          "publisher": "朝日新聞",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hsr-shinkansen-safety-record",
+      "claim": "The Shinkansen has maintained zero passenger fatalities due to collisions or derailments during commercial operation for more than 60 years since its opening.",
+      "context": "Since the Tokaido Shinkansen opened in 1964, there has never been a fatal passenger accident due to a collision or derailment during commercial operation. In Japan, a country prone to earthquakes, this record is maintained through multiple safety measures such as automatic train control (ATC), early earthquake detection and warning system (UrEDAS), and derailment prevention guards. There was a case in which the Joetsu Shinkansen derailed during the Niigata Prefecture Chuetsu Earthquake in 2004, but no passengers were killed or injured.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "新幹線の安全性 - JR東海",
+          "url": "https://company.jr-central.co.jp/",
+          "publisher": "東海旅客鉄道株式会社",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hsr-indonesia-competition",
+      "claim": "In 2015, China defeated Japan in Indonesia's Jakarta-Bandung high-speed rail project.",
+      "context": "For many years, Japan had proposed the Shinkansen system for Indonesia's Jakarta-Bandung (approximately 142 km) high-speed railway project, but in September 2015, the Indonesian government adopted the Chinese proposal. The Chinese side proposed the condition that it would not require any financial burden from the Indonesian government. The line opened in October 2023 as \"Whoosh,\" but construction costs have ballooned from the initial $5.5 billion to about $7.3 billion, raising questions about its profitability.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Jakarta-Bandung High-Speed Railway",
+          "url": "https://en.wikipedia.org/wiki/Jakarta%E2%80%93Bandung_high-speed_railway",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "hsr-taiwan-shinkansen",
+      "claim": "Taiwan High Speed Rail (opened in 2007) adopted the Japanese Shinkansen system",
+      "context": "Taiwan High Speed Rail (Taiwan High Speed Rail) is a 345km line between Taipei and Zuoying, which opened in January 2007. Initially, the European Union (France's TGV, Germany's ICE) was dominant, but after the 1999 Taiwan earthquake, safety became more important, and the 700T series, based on Japan's Shinkansen 700 series, was eventually adopted. This is the first time that Japan's Shinkansen system has been exported in earnest overseas, and is an important achievement for Japan.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "台湾高速鉄道 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    }
+  ]
+}

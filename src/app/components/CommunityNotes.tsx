@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ExternalLink, ChevronDown, ChevronUp, Shield, BookOpen, Newspaper, Globe, Archive, Building } from 'lucide-react';
+import { translations, Language } from '@/lib/translations';
 
 interface NoteSource {
   title: string;
@@ -20,15 +21,44 @@ interface EventNote {
 
 interface CommunityNotesProps {
   notes: EventNote[];
+  lang: Language;
 }
 
 function getVerdictStyle(verdict: string) {
-  if (verdict.includes('公式記録あり') || verdict.includes('歴史的事実') || verdict.includes('事実確認済み')) {
+  const lower = verdict.toLowerCase();
+  
+  // Safe language-independent verdict coloring check
+  if (
+    lower.includes('公式') || 
+    lower.includes('事実') || 
+    lower.includes('official') || 
+    lower.includes('fact') || 
+    lower.includes('官方') || 
+    lower.includes('已确认') ||
+    lower.includes('存在')
+  ) {
     return { color: '#3fb950', bg: 'rgba(46, 160, 67, 0.12)', border: 'rgba(46, 160, 67, 0.3)' };
   }
-  if (verdict.includes('議論') || verdict.includes('差異') || verdict.includes('幅あり') || verdict.includes('解釈')) {
+  
+  if (
+    lower.includes('議論') || 
+    lower.includes('差異') || 
+    lower.includes('幅あり') || 
+    lower.includes('解釈') || 
+    lower.includes('dispute') || 
+    lower.includes('differ') || 
+    lower.includes('interpret') || 
+    lower.includes('争议') || 
+    lower.includes('分歧') || 
+    lower.includes('解释') ||
+    lower.includes('誤報') ||
+    lower.includes('誇張') ||
+    lower.includes('exaggerat') ||
+    lower.includes('misleading')
+  ) {
     return { color: '#d29922', bg: 'rgba(210, 153, 34, 0.12)', border: 'rgba(210, 153, 34, 0.3)' };
   }
+  
   return { color: '#8b949e', bg: 'rgba(139, 148, 158, 0.12)', border: 'rgba(139, 148, 158, 0.3)' };
 }
 
@@ -44,21 +74,45 @@ function getSourceIcon(type: string) {
   }
 }
 
-function getSourceTypeLabel(type: string) {
-  switch (type) {
-    case 'government': return '政府公式';
-    case 'academic': return '学術';
-    case 'media': return 'メディア';
-    case 'ngo': return 'NGO';
-    case 'international': return '国際機関';
-    case 'archive': return '公文書';
-    default: return 'その他';
+function getSourceTypeLabel(type: string, lang: Language) {
+  if (lang === 'ja') {
+    switch (type) {
+      case 'government': return '政府公式';
+      case 'academic': return '学術';
+      case 'media': return 'メディア';
+      case 'ngo': return 'NGO';
+      case 'international': return '国際機関';
+      case 'archive': return '公文書';
+      default: return 'その他';
+    }
+  } else if (lang === 'zh') {
+    switch (type) {
+      case 'government': return '官方政府';
+      case 'academic': return '学术';
+      case 'media': return '媒体';
+      case 'ngo': return 'NGO';
+      case 'international': return '国际机构';
+      case 'archive': return '档案文献';
+      default: return '其他';
+    }
+  } else {
+    switch (type) {
+      case 'government': return 'Government';
+      case 'academic': return 'Academic';
+      case 'media': return 'Media';
+      case 'ngo': return 'NGO';
+      case 'international': return 'International';
+      case 'archive': return 'Archive';
+      default: return 'Other';
+    }
   }
 }
 
-function NoteCard({ note }: { note: EventNote }) {
+function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
   const [expanded, setExpanded] = useState(false);
   const verdictStyle = getVerdictStyle(note.verdict);
+  
+  const sourcesHeader = lang === 'ja' ? '出典・証跡' : lang === 'zh' ? '出处与凭证' : 'Sources & Evidence';
 
   return (
     <div
@@ -169,7 +223,7 @@ function NoteCard({ note }: { note: EventNote }) {
               textTransform: 'uppercase',
               letterSpacing: '0.05em',
             }}>
-              出典・証跡
+              {sourcesHeader}
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
               {note.sources.map((source, idx) => (
@@ -213,7 +267,7 @@ function NoteCard({ note }: { note: EventNote }) {
                     flexShrink: 0,
                   }}>
                     {getSourceIcon(source.type)}
-                    {getSourceTypeLabel(source.type)}
+                    {getSourceTypeLabel(source.type, lang)}
                   </span>
                   <span style={{
                     flex: 1,
@@ -237,9 +291,16 @@ function NoteCard({ note }: { note: EventNote }) {
   );
 }
 
-export default function CommunityNotes({ notes }: CommunityNotesProps) {
+export default function CommunityNotes({ notes, lang }: CommunityNotesProps) {
   const [showAll, setShowAll] = useState(false);
   const visibleNotes = showAll ? notes : notes.slice(0, 3);
+  const t = translations[lang] || translations.en;
+  
+  const subTitle = lang === 'ja' 
+    ? '記述内容に関する証跡・出典リンクと文脈の補足' 
+    : lang === 'zh'
+    ? '关于记述内容的凭证、出处链接与背景补充'
+    : 'Evidence, source links, and contextual annotations regarding descriptions.';
 
   return (
     <section style={{ marginTop: '3rem' }}>
@@ -274,14 +335,14 @@ export default function CommunityNotes({ notes }: CommunityNotesProps) {
             fontWeight: 700,
             color: 'var(--foreground)',
           }}>
-            コミュニティノート
+            {t.communityNotesTitle}
           </h3>
           <p style={{
             fontSize: '0.75rem',
             color: 'var(--text-secondary)',
             marginTop: '2px',
           }}>
-            記述内容に関する証跡・出典リンクと文脈の補足
+            {subTitle}
           </p>
         </div>
         <div style={{
@@ -294,14 +355,14 @@ export default function CommunityNotes({ notes }: CommunityNotesProps) {
           fontWeight: 600,
           color: '#818cf8',
         }}>
-          {notes.length}件
+          {t.sourcesCount(notes.length)}
         </div>
       </div>
 
       {/* Notes list */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
         {visibleNotes.map((note) => (
-          <NoteCard key={note.id} note={note} />
+          <NoteCard key={note.id} note={note} lang={lang} />
         ))}
       </div>
 
@@ -338,12 +399,12 @@ export default function CommunityNotes({ notes }: CommunityNotesProps) {
           {showAll ? (
             <>
               <ChevronUp size={16} />
-              折りたたむ
+              {t.showLess}
             </>
           ) : (
             <>
               <ChevronDown size={16} />
-              残り{notes.length - 3}件を表示
+              {t.showMore(notes.length - 3)}
             </>
           )}
         </button>

@@ -1,0 +1,33 @@
+{
+  "eventId": "marco-polo-bridge",
+  "notes": [
+    {
+      "id": "mpb-first-shot",
+      "claim": "1937年7月7日，卢沟桥附近发生中方军队枪击事件。",
+      "context": "事件发生时，日军夜间演习时突然响起枪声，导致一名士兵失踪一段时间。对于谁开第一枪，日中两国说法不一，历史上尚无定论。",
+      "verdict": "事件已确认（枪击事件来源已讨论）",
+      "sources": [
+        {
+          "title": "盧溝橋事件関連資料",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "アジア歴史資料センター（JACAR）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mpb-full-scale-war",
+      "claim": "卢沟桥事变是中日全面战争的开始。",
+      "context": "事件发生后，该地区暂时停火，但日本近卫内阁发表“向北派遣军队声明”，决定派遣增援部队。事态不断升级，8月第二次上海事变后，中日战争发展为全面战争。在中国，这一事件被称为“七七事变”，被视为抗日战争的起点。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "日中戦争の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "eventId": "pacific-war-end",
+  "notes": [
+    {
+      "id": "pwe-potsdam-declaration",
+      "claim": "1945年7月26日公布《波茨坦宣言》。",
+      "context": "以美国、英国和中国领导人（杜鲁门、丘吉尔和蒋介石）的名字宣布。要求日本无条件投降。后来苏联也加入了。日本于8月14日宣布接受，并于9月2日签署投降书。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-atomic-bombs",
+      "claim": "1945年8月6日在广岛投下原子弹，1945年8月9日在长崎投下原子弹。",
+      "context": "预计到今年年底，将有 14 万人死于广岛型（小男孩，铀型）和 7 万人死于长崎型（胖子，钚型）。这是人类历史上仅有的两起在战争中使用核武器的案例。爆炸事件的合法性在各国之间仍然存在分歧。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "Atomic Bombings of Hiroshima and Nagasaki",
+          "url": "https://www.atomicarchive.com/",
+          "publisher": "Atomic Archive",
+          "type": "archive"
+        },
+        {
+          "title": "広島平和記念資料館",
+          "url": "https://hpmmuseum.jp/",
+          "publisher": "広島平和記念資料館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "pwe-surrender-signing",
+      "claim": "投降书于 1945 年 9 月 2 日在密苏里号上签署。",
+      "context": "日本外务大臣葵重光和参谋长梅津芳二郎在东京湾密苏里号战列舰上签署投降书。总司令麦克阿瑟代表盟军签署。中国、英国、苏联、澳大利亚、加拿大、法国、荷兰和新西兰的代表也签署了。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Japanese Instrument of Surrender",
+          "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
+          "publisher": "U.S. National Archives",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

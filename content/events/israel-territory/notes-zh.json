@@ -1,0 +1,61 @@
+{
+  "eventId": "israel-territory",
+  "notes": [
+    {
+      "id": "it-un-partition-plan",
+      "claim": "1947年联合国大会第181号决议通过了分割巴勒斯坦的计划。",
+      "context": "1947年11月29日，联合国大会通过了将巴勒斯坦分为犹太国家和阿拉伯国家并将耶路撒冷置于国际控制之下的提案（33票赞成，13票反对，10票弃权）。阿拉伯方面拒绝了这一决议。次年，1948年5月14日，以色列宣布独立，第一次中东战争爆发。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 181 (II)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/038/88/PDF/NR003888.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-1967-war",
+      "claim": "以色列在1967年的六日战争中占领了西岸、加沙、西奈半岛和戈兰高地。",
+      "context": "1967年6月5日至10日第三次中东战争（六日战争）中，以色列以压倒性优势战胜埃及、约旦、叙利亚，占领约旦河西岸（包括东耶路撒冷）、加沙地带、西奈半岛、戈兰高地。联合国安理会第242号决议呼吁以色列从被占领土撤军。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 242 (1967)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/240/94/PDF/NR024094.pdf",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-settlements",
+      "claim": "以色列在西岸的定居点活动被视为违反国际法。",
+      "context": "《日内瓦第四公约》第四十九条禁止占领国将其国民驱逐到被占领土。国际法院（ICJ）在2004年的一份咨询意见中裁定，定居点的建设违反了条约。以色列不承认该条约的适用，声称它不是被占领土，而是“有争议的领土”。",
+      "verdict": "国际法评价的差异",
+      "sources": [
+        {
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory (ICJ Advisory Opinion, 2004)",
+          "url": "https://www.icj-cij.org/en/case/131",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-oslo-accords",
+      "claim": "1993年奥斯陆协议中以色列与巴解组织的相互承认",
+      "context": "二、1993年9月13日，以色列总理拉宾与巴解组织主席阿拉法特在华盛顿签署《临时自治原则宣言》，克林顿总统出席。巴解组织承认以色列的生存权，以色列也承认巴解组织是巴勒斯坦人民的合法代表。诺贝尔和平奖（1994年）被授予。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Declaration of Principles on Interim Self-Government Arrangements (Oslo I)",
+          "url": "https://peacemaker.un.org/israelopt-osloaccord93",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

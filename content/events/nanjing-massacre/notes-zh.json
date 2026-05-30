@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-massacre",
+  "notes": [
+    {
+      "id": "nm-death-toll-china",
+      "claim": "一、中方明确表示遇难人数超过30万。",
+      "context": "30万是根据1947年南京军事法庭判决所确认的数字。这个数字也刻在南京大屠杀纪念馆里。日本研究人员对这个数字存在很大分歧，估计从数万到20万不等。东京法庭认定这一数字“超过20万”。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nm-tokyo-trial",
+      "claim": "松井石根将军被认定对东京审判负有责任并被处决。",
+      "context": "松井石根是攻占南京时的华中军司令。在东京审判（远东国际军事法庭）中，他被判犯有玩忽职守、防止南京暴行的罪名，并于 1948 年 12 月 23 日被绞死。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "International Military Tribunal for the Far East",
+          "url": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nm-rabe-safety-zone",
+      "claim": "德国商人约翰·拉贝等建立“南京安全区”",
+      "context": "约翰·拉贝是德国西门子公司的员工，曾担任南京安全区国际委员会主席，该委员会保护了约20万中国平民。拉贝的日记发表于1997年，被认为是详细记录南京情况的第一手资料。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "The Good Man of Nanking: The Diaries of John Rabe",
+          "url": "https://www.penguinrandomhouse.com/books/167904/the-good-man-of-nanking-by-john-rabe/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nm-national-memorial-day",
+      "claim": "每年12月13日被定为“国家公共假期”",
+      "context": "2014年2月27日，中国全国人民代表大会常务委员会立法设立全国南京大屠杀死难者国家公祭日。每年12月13日都会举行国家级纪念仪式。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "China designates December 13 as national day of mourning for Nanjing Massacre victims",
+          "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

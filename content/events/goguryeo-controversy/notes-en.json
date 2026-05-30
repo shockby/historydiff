@@ -1,0 +1,67 @@
+{
+  "eventId": "goguryeo-controversy",
+  "notes": [
+    {
+      "id": "gc-northeast-project",
+      "claim": "The Chinese Academy of Social Sciences designated Goguryeo as a regional government in China in the \"Northeast Project\" project (2002-2007).",
+      "context": "Northeast Project (Northeast Frontier History and Current Status Research Project) is a national project jointly implemented by the Chinese Academy of Social Sciences and the Jilin Provincial Academy of Social Sciences. He systematically studied the history, ethnicity, and geography of northeastern China, and positioned Goguryeo, Balhae, and other areas in Chinese history within the framework of a ``unified multiethnic nation.'' In South Korea, there was a strong backlash against the move, calling it ``the plundering of history.''",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "東北工程 - Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%8C%97%E5%B7%A5%E7%A8%8B",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "gc-unesco-dual-registration",
+      "claim": "In 2004, China and North Korea each registered Goguryeo-related ruins as UNESCO World Cultural Heritage Sites.",
+      "context": "In July 2004, the UNESCO World Heritage Committee registered both the Goguryeo Capital and Ancient Tombs (Ji'an City, Jilin Province, Huanin County, Liaoning Province), applied by China, and the 'Koguryo Ancient Tombs' (Pyongyang City, Nampo City), applied by North Korea, as World Cultural Heritage Sites. This was an unusual situation in which heritage sites related to the same ancient nation were registered separately by two countries, and became a symbol of the controversy over Goguryeo's historical ownership.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Capital Cities and Tombs of the Ancient Koguryo Kingdom - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1135/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        },
+        {
+          "title": "Complex of Koguryo Tombs - UNESCO",
+          "url": "https://whc.unesco.org/en/list/1091/",
+          "publisher": "UNESCO World Heritage Centre",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gc-korea-response",
+      "claim": "The Korean government established the Goguryeo Research Foundation in 2004, which was later reorganized as the Northeast Asian History Foundation.",
+      "context": "In order to compete with China's northeast project, the Korean government established the Goguryeo Research Foundation in 2004. In 2006, the scope of its activities was expanded and it was reorganized as the Tohoku Asia History Foundation. The foundation conducts research to academically prove that Goguryeo and Balhae belong to Korean history, as well as international dissemination activities.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "東北亜歴史財団 公式サイト",
+          "url": "https://www.nahf.or.kr/",
+          "publisher": "東北亜歴史財団",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gc-territorial-interpretation",
+      "claim": "China claims that ``all history within its current territory is Chinese history,'' while South Korea emphasizes ``ethnic lineage.''",
+      "context": "At the root of the controversy is a difference in the framework for interpreting history. Based on the theory of a unified multi-ethnic nation, China takes a territorial approach that considers the history that occurred within its current borders to be its own history. On the other hand, South Korea emphasizes ethnic lineage and cultural continuity, and bases this on the connection between the people of Goguryeo and the current Korean nation. This fundamental difference in methodology makes resolving the dispute difficult.",
+      "verdict": "Academic debate continues",
+      "sources": [
+        {
+          "title": "高句麗帰属問題をめぐる中韓の論争",
+          "url": "https://www.jkcf.or.jp/",
+          "publisher": "日韓文化交流基金",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

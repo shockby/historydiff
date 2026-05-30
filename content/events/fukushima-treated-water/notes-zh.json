@@ -1,0 +1,101 @@
+{
+  "eventId": "fukushima-treated-water",
+  "notes": [
+    {
+      "id": "ftw-tritium-comparison",
+      "claim": "福岛ALPS处理水每年释放的氚量（低于22万亿贝克勒尔）低于中国和韩国主要核电站的氚释放量。",
+      "context": "日本政府为福岛制定了每年低于22万亿贝克勒尔的氚排放控制目标。另一方面，中国秦山核电站在正常运行期间释放约143万亿贝克勒尔（2020年）、阳江核电站释放约112万亿贝克勒尔（2021年）、韩国月城核电站在正常运行期间释放约71万亿贝克勒尔（2021年）液态氚。虽然在比较数字时确实如此，但中国和韩国强调“正常运行废水”和“事故处理水”性质的差异，并认为简单的比较是不合适的。",
+      "verdict": "数值数据已确认（解释上的差异）",
+      "sources": [
+        {
+          "title": "ALPS処理水の処分に関するQ&A",
+          "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
+          "publisher": "日本国環境省",
+          "type": "government"
+        },
+        {
+          "title": "各国の原子力施設のトリチウム排出量",
+          "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
+          "publisher": "経済産業省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-alps-effectiveness",
+      "claim": "ALPS可去除氚以外的62种核素，但处理后仍可能超标。",
+      "context": "东京电力的ALPS（多核素去除设备）旨在处理62种放射性核素，但过去曾有报道称，即使在ALPS处理后，除氚之外的某些核素也超出了标准值。东京电力表示，处理后的超标水将经过ALPS处理或再次稀释，然后再排放到海洋中，使所有核素低于标准值后再排放。国际原子能机构也审查并批准了这一进程。",
+      "verdict": "事实（有再处理机制）",
+      "sources": [
+        {
+          "title": "ALPS処理水ポータルサイト",
+          "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
+          "publisher": "東京電力ホールディングス",
+          "type": "government"
+        },
+        {
+          "title": "IAEA Safety Review of ALPS Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-transparency",
+      "claim": "中国没有充分披露本国核电厂放射性物质排放数据。",
+      "context": "中国的《中国核电年鉴2024》没有包含其核电站放射性物质释放的具体数字数据，仅表示“在国家标准范围内”和“对环境没有负面影响”。有人指出，与日本和国际原子能机构要求的透明度标准相比，信息披露不足。中国政府坚持严格控制排放。",
+      "verdict": "确认数据未公开",
+      "sources": [
+        {
+          "title": "China Nuclear Energy Yearbook 2024 analysis",
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-import-ban",
+      "claim": "一、中国于2023年8月对日本水产品实施全面禁运，并于2025年6月有条件恢复部分进口。",
+      "context": "二、针对ALPS处理水开始排入海洋的情况，中国海关总署自2023年8月24日起全面暂停进口日本水产品。随后，在IAEA框架下参与监测并进行独立调查后，于2025年6月29日有条件恢复除10个县（福岛、宫城、东京等）以外地区的进口。出口需提交卫生证书、放射性物质测试合格证书、原产地证书。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "中国による日本産水産物の輸入規制について",
+          "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
+          "publisher": "農林水産省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-iaea-conclusion",
+      "claim": "国际原子能机构得出结论，处理后的水排放符合国际安全标准",
+      "context": "IAEA于2023年7月发布综合评估报告，结论是“日本ALPS处理水排放计划及相关活动符合相关国际安全标准”、“对人类和环境的放射性影响可以忽略不计”。IAEA已在福岛设立常设办事处，正在进行持续监测和核查。尽管中国最初对IAEA的结论表示怀疑，但同意从2024年起通过IAEA框架参与监测。",
+      "verdict": "官方报告确认",
+      "sources": [
+        {
+          "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-korea-budget-cut",
+      "claim": "韩国从2026年起大幅削减处理水预算。",
+      "context": "在处理水释放之初，韩国政府为回应公众担忧，大幅扩大了放射性检测和信息提供的预算，但从2026财年开始，预算已大幅削减。究其原因，是自发布以来的大规模检测未发现超标情况，且检测试剂盒的实际使用率低于预期。八个县的水产品进口禁令仍然有效。",
+      "verdict": "经新闻报道证实",
+      "sources": [
+        {
+          "title": "韓国の処理水対応予算に関する報道",
+          "url": "https://www.yonhapnews.co.kr/",
+          "publisher": "聯合ニュース",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

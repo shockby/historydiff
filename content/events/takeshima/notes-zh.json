@@ -1,0 +1,67 @@
+{
+  "eventId": "takeshima",
+  "notes": [
+    {
+      "id": "ts-1905-incorporation",
+      "claim": "1905年，日本政府将竹岛并入岛根县。",
+      "context": "1905年1月28日，日本政府根据内阁决定，将竹岛划归岛根县冲岛司管辖。基于国际法中首先占有土地而无所有权的法律原则。韩国声称吞并是日俄战争（1904-05）期间军事入侵的一部分。",
+      "verdict": "官方记录（评价差异）",
+      "sources": [
+        {
+          "title": "竹島に関する外務省の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-rusk-letter",
+      "claim": "美国在腊斯克信中表达了“竹岛是日本领土”的观点。",
+      "context": "1951年8月10日，美国助理国务卿迪安·腊斯克致韩国大使的信中，向韩国通报了其认为竹岛（独岛）不属于日本根据《旧金山条约》放弃的领土的意见。但韩国反驳称，这封信并未公开，也不是对该条约的官方解释。",
+      "verdict": "文件存在（讨论法律地位）",
+      "sources": [
+        {
+          "title": "Rusk Letter (1951)",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省（引用）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-syngman-rhee-line",
+      "claim": "1952年，韩国设立“李承晚线”，将竹岛纳入其中。",
+      "context": "1952年1月18日，韩国总统李承晚发表《关于大韩民国毗邻海域主权的总统宣言》，单方面建立广泛的海洋管辖权。竹岛就属于这一行。日本政府对此表示抗议，认为这是违反国际法的单方面措施。尽管1965年《日韩基本条约》废除了李承晚线，但韩国对竹岛的有效控制仍在继续。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "竹島問題の経緯",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Dokdo/Takeshima - Korea's Position",
+          "url": "https://dokdo.mofa.go.kr/eng/",
+          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ts-icj-proposal",
+      "claim": "日本提议将此案提交国际法院（ICJ），但韩国拒绝。",
+      "context": "日本政府曾于1954年、1962年、2012年三次向国际法院提出移交建议。韩国两次均拒绝了建议，称“独岛是韩国领土，不存在领土争议”。国际法院的管辖权需要双方同意，如果一方拒绝，案件就不会成功。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "竹島の領有権に関するICJ付託の提案",
+          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

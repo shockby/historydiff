@@ -1,0 +1,161 @@
+{
+  "eventId": "northern-territories",
+  "notes": [
+    {
+      "id": "nt-shimoda-treaty-1855",
+      "claim": "In 1855, the Japan-Russia Treaty of Commerce established the border between Etorofu Island and Urup Island.",
+      "context": "Concluded in Shimoda on February 7, 1855 (December 21, 1855). For the first time, Japan and Russia officially demarcated their borders, with the area south of Etorofu Island designated as Japanese territory, and the area north of Urup Island designated as Russian territory. Sakhalin was considered to be a place where people from both countries lived together. In Japan, February 7th is designated as ``Northern Territories Day'' in honor of the date this treaty was concluded.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "北方領土問題の経緯（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日魯通好条約（デジタルアーカイブ）",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-karafuto-chishima-1875",
+      "claim": "The Kuril Islands (north of Uruppu) became Japanese territory in 1875 with the Sakhalin-Kildo Exchange Treaty.",
+      "context": "Signed in Petersburg, May 7, 1875. Japan renounced its rights to all of Sakhalin, and in return received from Russia the 18 Northern Kuril Islands from Urup Island to Shumshu Island. Japan claims that the four northern islands are not included in the ``thousands'' exchanged under this treaty.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "樺太・千島交換条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-yalta-agreement-1945",
+      "claim": "At the Yalta Conference in 1945, it was agreed that the Kuril Islands would be handed over to the Soviet Union.",
+      "context": "In February 1945, at the Yalta Conference between the leaders of Roosevelt (US), Churchill (UK), and Stalin (USSR), it was secretly agreed that the Kuril Islands would be handed over to the Soviet Union as a condition for the Soviet Union's participation in the war against Japan. Japan did not participate in the talks, and there is debate between Japan and the United States as to whether the agreement is legally binding. The United States later interpreted the statement as ``a statement of personal goals by the leaders and does not have final legal effect.''",
+      "verdict": "Document exists (legal binding discussed)",
+      "sources": [
+        {
+          "title": "Yalta Agreement, February 11, 1945",
+          "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
+          "publisher": "Yale Law School - Avalon Project",
+          "type": "archive"
+        },
+        {
+          "title": "The Yalta Conference, 1945",
+          "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-soviet-neutrality-violation",
+      "claim": "The Soviet Union entered the war against Japan in violation of the valid Japan-Soviet Neutrality Treaty.",
+      "context": "Although the Soviet Union notified the Soviet Union on April 5, 1945 that it would not be extended, the Japan-Soviet Neutrality Treaty (concluded in 1941, valid for five years) remained in effect until April 1946. The Soviet Union declared war on Japan on August 8, 1945, and began its invasion the following day on the 9th. There is debate as to whether this is a violation of a treaty under international law. The Soviet Union argued for the legitimacy of Japan's participation in the war, citing Japan's rejection of the Potsdam Declaration.",
+      "verdict": "Historical facts (differences in evaluation)",
+      "sources": [
+        {
+          "title": "日ソ中立条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-sf-treaty-kuriles",
+      "claim": "Although Japan renounced the Kuril Islands in the San Francisco Peace Treaty, it is interpreted that the four northern islands are not included.",
+      "context": "In Article 2(c) of the San Francisco Peace Treaty of 1951, Japan renounced the Kurile Islands. However, the treaty does not define the scope of the Kuril Islands, nor does it specify the name of the country to which they will be renounced. The Japanese government made a statement in its initial Diet session (October 1951, by Treaty Director-General Nishimura) to the effect that Kunashiri and Etorofu were included in the ``Kildo Islands,'' but later revised its opinion in 1956 and established the position that the four northern islands were not included in the ``Kilo Islands.'' This history itself is sometimes used as a counterargument on the Russian side.",
+      "verdict": "Treaty exists (different interpretations)",
+      "sources": [
+        {
+          "title": "Treaty of Peace with Japan (San Francisco Peace Treaty)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        },
+        {
+          "title": "北方領土問題に関する日本政府の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-1956-joint-declaration",
+      "claim": "The handover of Habomai and Shikotan was agreed in the 1956 Japan-Soviet Joint Declaration.",
+      "context": "In Article 9 of the Japan-Soviet Joint Declaration signed on October 19, 1956, the Soviet Union agreed to hand over the Habomai Islands and Shikotan Island to Japan after the conclusion of a peace treaty. This declaration has been ratified by the parliaments (Supreme Assemblies) of both countries and is legally binding. However, Etorofu Island and Kunashiri Island were not mentioned. In 2018, President Putin said, ``It is not specified to whom sovereignty will belong after the handover.''",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "日ソ共同宣言（全文）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日ソ共同宣言（内閣府北方対策本部）",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-dulles-memo-1956",
+      "claim": "In 1956, the U.S. Department of State expressed the view that the four northern islands are “inherent Japanese territory.”",
+      "context": "On September 7, 1956, Secretary of State Dulles declared in a memorandum that Etorofu and Kunashiri, along with Habomai and Shikotan, were inherent Japanese territory and should be recognized as being under Japanese sovereignty. The background to this memorandum is the diplomatic context in which the United States pressured the Japanese government to request the return of all four islands (the so-called ``Dulles Threat'') against the Japanese government, which was attempting to compromise by returning two islands in the Japan-Soviet Joint Declaration.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "北方領土問題に関する米国の立場",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        },
+        {
+          "title": "Foreign Relations of the United States (FRUS)",
+          "url": "https://history.state.gov/historicaldocuments",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-2020-constitution",
+      "claim": "A clause prohibiting the cession of territory was added in the 2020 amendment to the Constitution of the Russian Federation.",
+      "context": "In the amendment to the Constitution of the Russian Federation that came into effect in July 2020, a clause was added to Article 67 stating that ``actions toward, or calls for, the cession of the territory of the Russian Federation are not permitted.'' In effect, this has been interpreted as a domestic legal constraint on negotiations on the Northern Territories. However, the Russian government says this will not prevent peace treaty negotiations.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Constitution of the Russian Federation (2020 Amendments)",
+          "url": "http://www.constitution.ru/en/10003000-01.htm",
+          "publisher": "Constitution of Russia",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-potsdam-timing",
+      "claim": "Soviet troops occupy the four northern islands after Japan accepts the Potsdam Declaration",
+      "context": "Japan announced its acceptance of the Potsdam Declaration on August 14, 1945 (the instrument of surrender was signed on September 2). The Soviet army's invasion of the four northern islands took place from August 28 (Etorofu Island) to September 5 (Habomai Islands). Japan maintains that its occupation after the end of hostilities has no legitimacy under international law. Russia counters that a state of war continued until the signing of the instrument of surrender (September 2).",
+      "verdict": "Date and time confirmed (difference in legal evaluation)",
+      "sources": [
+        {
+          "title": "北方領土の歴史（内閣府）",
+          "url": "https://www8.cao.go.jp/hoppo/mondai/01.html",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

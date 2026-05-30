@@ -1,0 +1,93 @@
+{
+  "eventId": "hundred-flowers-anti-rightist",
+  "notes": [
+    {
+      "id": "hf-yanmou-theory",
+      "claim": "百花运动是一个揭露知识分子的蓄意陷阱（“策略”）。",
+      "context": "历史学家继续争论毛泽东的百花运动是否是从一开始就旨在识别和清除异见人士的“阴谋”。据记载，毛泽东本人后来也使用过“转移”这个词。另一方面，也有观点认为，政府最初认真对待允许自由讨论，但对批评的激烈程度感到惊讶，并突然改变了政策。目前学术界的共识是，毛泽东的意图很可能在此过程中发生了变化，但尚未得出明确的结论。",
+      "verdict": "学术讨论中",
+      "sources": [
+        {
+          "title": "The Politics of China: Sixty Years of the People's Republic of China",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        },
+        {
+          "title": "Mao: The Unknown Story",
+          "url": "https://www.penguinrandomhouse.com/",
+          "publisher": "Penguin Random House",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rightist-numbers",
+      "claim": "大约有55万人被认定为右翼分子。",
+      "context": "据中国政府官方统计，在反右翼斗争中，约有55万人被认定为“右翼分子”。然而，一些研究人员认为这个数字被低估了，实际上还有更多的人遭受了非正式形式的迫害。 1978年以后，几乎全部恢复了荣誉，但张伯钧、罗隆基等六人直到最后才恢复（后减为五人）。",
+      "verdict": "可用的官方记录（实际数字有待讨论）",
+      "sources": [
+        {
+          "title": "中国共産党党史（第二巻）",
+          "url": "https://www.12371.cn/",
+          "publisher": "中共中央党史研究室",
+          "type": "government"
+        },
+        {
+          "title": "The Anti-Rightist Campaign and Its Aftermath",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rehabilitation",
+      "claim": "1978年后，那些被贴上右翼标签的人的名声得到了恢复。",
+      "context": "1978年，中国共产党承认扩大反右翼斗争是错误的，并对那些被认定为右翼的人进行全面恢复名誉（摘帽改造）。恢复名誉者达54万余人，但张伯钧、罗隆基、褚安平、彭文英、陈仁平五人被列为“真正的右翼分子”而被排除在恢复名单之外（最初有六人，后来又恢复了一人）。官方立场是反右翼斗争本身是“必要的”，并且只承认“扩张的错误”。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "関於全部摘掉右派分子帽子決定的実施方案",
+          "url": "https://www.gov.cn/",
+          "publisher": "中国国務院",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hf-great-leap-connection",
+      "claim": "一、反右斗争加剧了大跃进的失败",
+      "context": "反右派斗争在知识分子和官僚中造成了严重的恐惧和自我审查，使任何人都无法反对1958年开始的大跃进。虚报工农业生产实际情况的风气盛行，政策错误得不到纠正，出现了大规模饥荒。那些指出大跃进问题的人，如彭德怀，被当作“右翼分子”清洗。许多历史学家都指出了这个因果关系。",
+      "verdict": "学术上广泛支持",
+      "sources": [
+        {
+          "title": "Tombstone: The Great Chinese Famine, 1958-1962",
+          "url": "https://us.macmillan.com/",
+          "publisher": "Farrar, Straus and Giroux",
+          "type": "academic"
+        },
+        {
+          "title": "Mao's Great Famine",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-ding-ling",
+      "claim": "著名知识分子因右翼而受到迫害。",
+      "context": "许多知名知识分子成为反右翼斗争的目标。作家丁玲被认定为右翼分子，被流放到北大然（东北边疆）。社会学家和人类学家费孝通、法律学者罗隆基和记者朱安平也被认为是右翼。此后楚安平失踪，至今下落不明。这些案件象征着反右斗争对中国的思想和文化生活造成的破坏性影响。",
+      "verdict": "有多种证据。",
+      "sources": [
+        {
+          "title": "The People's Republic of China, 1949-1979: A Documentary History",
+          "url": "https://www.degruyter.com/",
+          "publisher": "De Gruyter",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "eventId": "spratly-islands",
+  "notes": [
+    {
+      "id": "sp-nine-dash-line",
+      "claim": "China claims that it has historical rights within the “Nine-Dash Line” (U-shaped line)",
+      "context": "The nine-dash line is the boundary line on the map announced by the government of the Republic of China in 1947 (originally the 11-dash line). It is depicted as enclosing approximately 80-90% of the South China Sea. The People's Republic of China also inherited this and formally submitted it to the United Nations in 2009. However, it has been pointed out that the Chinese government itself has not clarified the legal meaning of the nine-dash line (is it a claim of territorial waters or a claim of historical rights)?",
+      "verdict": "Maps exist (legal meaning discussed)",
+      "sources": [
+        {
+          "title": "China's Nine-Dash Line: History, Status, and Implications",
+          "url": "https://www.uscc.gov/",
+          "publisher": "U.S.-China Economic and Security Review Commission",
+          "type": "government"
+        },
+        {
+          "title": "Note Verbale CML/17/2009 (China's submission to CLCS)",
+          "url": "https://www.un.org/depts/los/clcs_new/submissions_files/mysvnm33_09/chn_2009re_mys_vnm_e.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-2016-arbitration",
+      "claim": "In 2016, the Hague Court of Arbitration ruled against historical rights within the nine-dash line.",
+      "context": "On July 12, 2016, the Permanent Court of Arbitration rendered its final judgment in the case of “Philippines v. China” (PCA Case No. 2013-19). The arbitral tribunal found that the historical rights claim based on the nine-dash line had no legal basis and found that China's activities within the Philippines' EEZ violated the Philippines' sovereign rights. This decision is legally binding on the Parties to UNCLOS.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "The South China Sea Arbitration (The Republic of Philippines v. The People's Republic of China)",
+          "url": "https://pca-cpa.org/en/cases/7/",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        },
+        {
+          "title": "Award of 12 July 2016 (Full Text)",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "PCA Case Repository",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-china-rejects-ruling",
+      "claim": "China refuses to accept the arbitration award, calling it “invalid and not legally binding.”",
+      "context": "China's Ministry of Foreign Affairs issued a statement on the day of the judgment, declaring that the arbitral tribunal had no jurisdiction and that the judgment was a \"waste of paper\". China asserted that, pursuant to the selective exemption declaration under Article 298 of UNCLOS, disputes regarding maritime delimitation and military activities are not subject to compulsory arbitration. However, the arbitral tribunal has considered this point in detail and has determined that it has jurisdiction.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Statement of the Ministry of Foreign Affairs of the People's Republic of China on the Award of 12 July 2016",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/201607/t20160712_679470.html",
+          "publisher": "Ministry of Foreign Affairs, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-artificial-islands",
+      "claim": "Since 2013, China has created large-scale artificial islands and built military facilities.",
+      "context": "Since 2013, China has carried out large-scale land reclamation on seven reefs in the Spratly Islands (Fiery Cross Reef, Subi Reef, Mischief Reef, etc.). Satellite images show three 3,000m-class runways, radar facilities, and deployment of anti-aircraft and anti-ship missiles. The Asia Maritime Transparency Initiative (AMTI) of the US think tank CSIS has released detailed satellite images.",
+      "verdict": "Confirmed with satellite images",
+      "sources": [
+        {
+          "title": "Island Tracker - Asia Maritime Transparency Initiative",
+          "url": "https://amti.csis.org/island-tracker/",
+          "publisher": "CSIS (Center for Strategic and International Studies)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sp-1988-johnson-reef",
+      "claim": "Armed conflict between China and Vietnam at Chikao Reef (Johnson South Reef) in 1988",
+      "context": "On March 14, 1988, there was an armed conflict between the Vietnamese Navy and the Chinese Navy at Chika Reef (Johnson South Reef). 64 people died on the Vietnamese side, and only a small number of casualties on the Chinese side. As a result of this conflict, China occupied several reefs. Video of the incident was recorded by the Chinese side and released later.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "The Johnson South Reef Skirmish, 1988",
+          "url": "https://www.globalsecurity.org/military/world/war/spratly-1988.htm",
+          "publisher": "GlobalSecurity.org",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-1974-paracel-seizure",
+      "claim": "In 1974, China captured the Hoang Sa Islands (Xisha Islands) from South Vietnam by military force.",
+      "context": "In January 1974, the Chinese People's Liberation Army Navy engaged the South Vietnamese Navy in the Paracel Islands (Parcel Islands) and occupied the entire archipelago. Approximately 70 people on the South Vietnamese side were killed or missing. This occupation continues to this day, and Vietnam has consistently protested that it is an illegal occupation.",
+      "verdict": "Historical facts",
+      "sources": [
+        {
+          "title": "Battle of the Paracel Islands",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
+          "publisher": "Wikipedia",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-pd1596",
+      "claim": "In 1978, President Marcos incorporated the Kalayaan Archipelago into the Philippines through Executive Order No. 1596.",
+      "context": "On June 11, 1978, President Ferdinand Marcos issued Executive Order No. 1596, officially incorporating part of the Spratly Islands into the Province of Palawan as the \"Municipality of Kalayaan.\" It still exists as an administrative municipality in the Philippines.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Presidential Decree No. 1596",
+          "url": "https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1596-s-1978/",
+          "publisher": "Official Gazette of the Republic of the Philippines",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-san-francisco-1951",
+      "claim": "At the San Francisco Peace Conference in 1951, Vietnamese representatives officially asserted sovereignty over the Truong Sa and Hoang Sa Islands.",
+      "context": "At the San Francisco Peace Conference in September 1951, the South Vietnamese representative, Tran Van Phu, declared Vietnam's sovereignty over the Paracel Islands and the Spratly Islands. There was no clear opposition to this statement at the meeting. However, the treaty did not specify the ownership of these islands, only stipulating Japan to renounce its territorial rights.",
+      "verdict": "Official records available (attribution not confirmed)",
+      "sources": [
+        {
+          "title": "San Francisco Peace Treaty (1951) - Full Text",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-unclos-features",
+      "claim": "None of the topography of the Spratly Islands falls under the category of “islands” under UNCLOS, and an EEZ cannot be created.",
+      "context": "In the 2016 arbitral ruling, the arbitral tribunal determined that none of the landforms, including Itu Aba Island (Taiping Island, controlled by Taiwan), the largest natural landform in the Spratly Islands, are \"rocks\" that do not qualify as \"islands\" (landforms capable of sustaining human habitation or independent economic life) as defined in Article 121(3) of UNCLOS. For this reason, it was decided that only a 12 nautical mile territorial sea would be created, and a 200 nautical mile EEZ would not be created. Taiwan strongly opposes this decision.",
+      "verdict": "Arbitration award (some opposition)",
+      "sources": [
+        {
+          "title": "Award of 12 July 2016 - PCA Case No. 2013-19",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

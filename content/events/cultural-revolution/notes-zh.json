@@ -1,0 +1,81 @@
+{
+  "eventId": "cultural-revolution",
+  "notes": [
+    {
+      "id": "cr-1981-resolution",
+      "claim": "一、1981年的历史决议将文化大革命概括为“内战”",
+      "context": "1981年6月，中共十一届六中全会通过的《关于建党以来若干历史问题的决议》明确否定文化大革命是“领导层错误发动、反革命集团利用的内战，给党、国家和人民造成深重灾难”。该决议至今仍是官方评价的依据直至今日，中国政府仍坚持执行。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "建国以来の党の若干の歴史問題についての決議（1981年）",
+          "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
+          "publisher": "人民日報（人民网）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-casualties",
+      "claim": "文化大革命的受害者估计有几十万到几百万。",
+      "context": "文革期间非正常死亡人数没有准确的统计数据，不同研究者的估计差异很大。中国官方文件没有公布受害者的具体人数。国外的研究有多种估计，其中R.J.Rummel估计约773万人，Andrew Walder和Yan Hsu估计100万至160万人。人们普遍认为，有数千万人遭受了某种形式的迫害。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "Agents of Disorder: Inside China's Cultural Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Bloody Century",
+          "url": "https://www.hawaii.edu/powerkills/",
+          "publisher": "University of Hawaii",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-mao-power-struggle",
+      "claim": "文化大革命是一场从毛泽东手中夺回权力的政治斗争",
+      "context": "1958年开始的大跃进失败，估计有1500万至5500万人饿死。对此负有责任的毛泽东将国家主席的位置交给了刘少奇，他在党内的影响力下降。尽管文化大革命表面上是一场“防止资本主义回归”的意识形态运动，但许多历史学家将其分析为毛泽东推翻刘少奇和邓小平的务实主义并重新掌权的政治斗争。中国的官方立场是，此举是“因误判而引发的”，并没有强调此举是权力斗争的一面。",
+      "verdict": "学术上广泛支持",
+      "sources": [
+        {
+          "title": "The Cultural Revolution: A People's History, 1962-1976",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-education-impact",
+      "claim": "当教育机构关闭时，一代人失去了受教育的机会。",
+      "context": "文革期间，从1966年到1977年，高考被取消了大约10年。初中和高中也长期关闭或停止运作，许多年轻人被迫下乡。据估计，有1600万城市青年被送到农村地区。 1977年邓小平领导下重新启动高考时，大约有570万人参加了考试。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "中国教育年鑑",
+          "url": "https://www.moe.gov.cn/",
+          "publisher": "中華人民共和国教育部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-four-olds",
+      "claim": "“破四旧”运动导致大量文物被毁。",
+      "context": "“破四旧”运动（破除旧思想、旧文化、旧风俗、旧风俗），佛寺、道观、孔庙以及历史建筑、经典书籍、艺术品被大规模毁坏。据悉，仅北京一地就有6843件文化财产被毁。西藏6000多座寺庙大部分被毁坏。这场运动对中国几千年的文化遗产造成了不可挽回的损害。",
+      "verdict": "有多种证据。",
+      "sources": [
+        {
+          "title": "Mao's Last Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

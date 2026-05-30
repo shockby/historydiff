@@ -1,0 +1,47 @@
+{
+  "eventId": "textbook-controversy",
+  "notes": [
+    {
+      "id": "tc-1982-controversy",
+      "claim": "In 1982, it was reported that \"invasion\" was rewritten as \"advancement\" in Japanese textbook certification.",
+      "context": "In 1982, Japanese media reported that ``In the Ministry of Education's textbook certification, ``invasion'' into China was rewritten as ``advancement,'' and strong protests were received from China and South Korea. Although it has been pointed out that later verification revealed that no such rewriting had actually been confirmed in the exams in that year, the ``neighboring countries clause'' was newly established in the wake of the report.",
+      "verdict": "Debate over accuracy of reporting",
+      "sources": [
+        {
+          "title": "教科書検定基準の改定（近隣諸国条項の新設）",
+          "url": "https://www.mext.go.jp/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-neighboring-countries-clause",
+      "claim": "In 1982, the “neighboring countries clause” was added to the textbook certification standards.",
+      "context": "On November 24, 1982, the Ministry of Education added a clause to the textbook certification standards stating that ``the treatment of modern and contemporary historical events with neighboring Asian countries must be given the necessary consideration from the standpoint of international understanding and cooperation.'' Chief Cabinet Secretary Kiichi Miyazawa released a statement in which the government promised to improve the examination.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "宮沢官房長官談話（1982年）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tc-2001-new-history-textbook",
+      "claim": "In 2001, the textbook of the Society for Creating New History Textbooks passed the certification test.",
+      "context": "In 2001, Fusosha's history textbook compiled by the \"New History Textbook Creation Association\" passed the Ministry of Education, Culture, Sports, Science and Technology's certification. China and South Korea strongly protested that the content glorified and justified Japan's invasion and colonial rule. The actual acceptance rate was low (less than 1%), which caused debate even within Japan.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "教科書検定結果（文部科学省）",
+          "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/",
+          "publisher": "文部科学省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

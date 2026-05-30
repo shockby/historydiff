@@ -1,0 +1,101 @@
+{
+  "eventId": "fukushima-treated-water",
+  "notes": [
+    {
+      "id": "ftw-tritium-comparison",
+      "claim": "The annual amount of tritium released from Fukushima's ALPS treated water (less than 22 trillion becquerels) is lower than the amount released from major nuclear power plants in China and South Korea.",
+      "context": "The Japanese government has set a tritium release control target for Fukushima of less than 22 trillion becquerels per year. On the other hand, China's Qinshan nuclear power plant releases approximately 143 trillion becquerels (2020), Yangjiang nuclear power plant releases approximately 112 trillion becquerels (2021), and South Korea's Wolseong nuclear power plant releases approximately 71 trillion becquerels (2021) of liquid tritium during normal operation. While this is true when comparing numbers, China and South Korea emphasize the difference in the nature of ``normal operation wastewater'' and ``treated water from accidents,'' and argue that a simple comparison is inappropriate.",
+      "verdict": "Numerical data has been confirmed (differences in interpretation)",
+      "sources": [
+        {
+          "title": "ALPS処理水の処分に関するQ&A",
+          "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
+          "publisher": "日本国環境省",
+          "type": "government"
+        },
+        {
+          "title": "各国の原子力施設のトリチウム排出量",
+          "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
+          "publisher": "経済産業省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-alps-effectiveness",
+      "claim": "ALPS can remove 62 nuclides other than tritium, but the standards may be exceeded even after treatment.",
+      "context": "TEPCO's ALPS (multi-nuclide removal equipment) is designed to process 62 types of radionuclides, but in the past there have been reports of cases in which some nuclides other than tritium exceeded standard values even after ALPS treatment. TEPCO says that treated water that exceeds standards will be treated with ALPS or diluted again before being released into the ocean, bringing all nuclides below standard values ​​before releasing it. The IAEA has also reviewed and approved this process.",
+      "verdict": "Facts (there is a reprocessing mechanism)",
+      "sources": [
+        {
+          "title": "ALPS処理水ポータルサイト",
+          "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
+          "publisher": "東京電力ホールディングス",
+          "type": "government"
+        },
+        {
+          "title": "IAEA Safety Review of ALPS Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-transparency",
+      "claim": "China does not sufficiently disclose radioactive material emission data from its own nuclear power plants.",
+      "context": "China's ``China Nuclear Power Yearbook 2024'' does not include specific numerical data on the release of radioactive materials from its nuclear power plants, only stating that it is ``within national standards'' and ``no negative impact on the environment.'' It has been pointed out that information disclosure is insufficient compared to the transparency standards required by Japan and the IAEA. The Chinese government insists emissions are strictly controlled.",
+      "verdict": "Data non-disclosure confirmed",
+      "sources": [
+        {
+          "title": "China Nuclear Energy Yearbook 2024 analysis",
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ftw-china-import-ban",
+      "claim": "China imposed a complete embargo on Japanese marine products in August 2023, and partially resumed imports with conditions in June 2025.",
+      "context": "The General Administration of Customs of China implemented a complete suspension of imports of Japanese marine products from August 24, 2023, in response to the start of the discharge of ALPS treated water into the ocean. Subsequently, after participating in monitoring under the framework of the IAEA and conducting an independent investigation, imports from areas excluding 10 prefectures (Fukushima, Miyagi, Tokyo, etc.) were resumed with conditions on June 29, 2025. For export, it is necessary to submit a sanitary certificate, a radioactive substance test pass certificate, and a certificate of origin.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "中国による日本産水産物の輸入規制について",
+          "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
+          "publisher": "農林水産省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ftw-iaea-conclusion",
+      "claim": "IAEA concludes that treated water discharge complies with international safety standards",
+      "context": "The IAEA published a comprehensive assessment report in July 2023, concluding that ``Japan's ALPS treated water release plan and related activities comply with relevant international safety standards'' and ``radiological effects on humans and the environment are negligible.'' The IAEA has established a permanent office in Fukushima and is conducting continuous monitoring and verification. Although China initially expressed skepticism about the IAEA's conclusions, it agreed to participate in monitoring through the IAEA framework from 2024 onwards.",
+      "verdict": "Confirmed in official report",
+      "sources": [
+        {
+          "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
+          "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
+          "publisher": "国際原子力機関（IAEA）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ftw-korea-budget-cut",
+      "claim": "South Korea has significantly reduced its budget for treated water from 2026.",
+      "context": "At the beginning of the release of treated water, the South Korean government significantly expanded the budget for radioactivity testing and information provision in response to public concerns, but from FY2026 the budget has been significantly reduced. The reasons for this are that large-scale testing since the start of release did not confirm any cases exceeding standard values, and that the actual utilization rate of test kits was lower than expected. The ban on importing marine products from eight prefectures remains in place.",
+      "verdict": "Confirmed by news reports",
+      "sources": [
+        {
+          "title": "韓国の処理水対応予算に関する報道",
+          "url": "https://www.yonhapnews.co.kr/",
+          "publisher": "聯合ニュース",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

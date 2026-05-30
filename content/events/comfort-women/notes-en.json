@@ -1,0 +1,115 @@
+{
+  "eventId": "comfort-women",
+  "notes": [
+    {
+      "id": "cw-kono-statement",
+      "claim": "The Japanese government expresses its sincere apology and remorse (Kono Statement)",
+      "context": "Statement released by Chief Cabinet Secretary Yohei Kono on August 4, 1993. It recognized the involvement of the former Japanese military in the establishment and management of comfort stations, and the coercion of recruitment.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "河野談話全文（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-2015-agreement",
+      "claim": "The 2015 Japan-South Korea agreement confirms a “final and irreversible solution”",
+      "context": "On December 28, 2015, an agreement was reached at the Japan-Korea Foreign Ministers' Meeting. The agreement included the Japanese government contributing 1 billion yen to a foundation established in South Korea.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "日韓外相会談（2015年12月28日）",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-awf",
+      "claim": "Established the Asian Women's Fund and delivered \"atonement money\" to former comfort women",
+      "context": "Established in 1995, disbanded in 2007. Former comfort women from the Philippines, South Korea, Taiwan, the Netherlands, and Indonesia were each given 2 million yen in \"atonement\" money, medical and welfare support, and a letter of apology from the prime minister.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "アジア女性基金とその活動",
+          "url": "https://www.awf.or.jp/",
+          "publisher": "アジア女性基金（デジタル記念館）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "cw-forced-mobilization",
+      "claim": "No materials have been found that directly indicate forced abduction by the military or government authorities.",
+      "context": "The Japanese government expressed a similar view in the 2007 cabinet decision and in the 2014 review of the Kono Statement. However, there is some criticism among historical researchers for focusing only on ``coercion in a narrow sense.'' Yoshiaki Yoshimi, a professor at Chuo University, has discovered documents showing the military's involvement and argues that coercion was involved in a broader sense.",
+      "verdict": "Discussion",
+      "sources": [
+        {
+          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cw-wednesday-demo",
+      "claim": "\"Wednesday Demonstrations\" have been held every Wednesday in front of the Japanese Embassy in Seoul since 1992.",
+      "context": "Sponsored by the Korean Volunteer Corps Issue Countermeasures Council (currently the Justice and Memory Solidarity for Resolving the Japanese Military Sexual Slavery Issue). The Peace Girl Statue was installed on December 14, 2011, for the 1000th demonstration.",
+      "verdict": "Fact-checked",
+      "sources": [
+        {
+          "title": "'Comfort women' rally marks 1,000th weekly protest",
+          "url": "https://www.bbc.com/news/world-asia-16191689",
+          "publisher": "BBC News",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cw-victim-numbers",
+      "claim": "The number of victims is estimated to range from tens of thousands to more than 200,000.",
+      "context": "There are various theories about the number of victims, and it varies greatly depending on the researcher. The figure of 200,000 is used by the South Korean government and some researchers, but other researchers estimate a lower number. It is difficult to determine the exact number.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "Comfort Women: A Movement for Justice and Women's Rights in the United States",
+          "url": "https://www.amnesty.org/en/documents/asa22/012/2005/en/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "cw-2021-court",
+      "claim": "The 2021 Seoul Central District Court ordered the Japanese government to pay compensation.",
+      "context": "On January 8, 2021, the Seoul Central District Court ordered the Japanese government to pay compensation of 100 million won to each former comfort woman. Meanwhile, another lawsuit filed in April of the same year was dismissed based on the principle of sovereign immunity. The Japanese government has not accepted the ruling, citing sovereign immunity.",
+      "verdict": "Official record exists (validity debated)",
+      "sources": [
+        {
+          "title": "South Korea court orders Japan to compensate 'comfort women'",
+          "url": "https://www.reuters.com/article/us-southkorea-japan-comfortwomen-idUSKBN29D03U",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

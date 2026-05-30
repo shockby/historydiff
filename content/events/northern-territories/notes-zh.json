@@ -1,0 +1,161 @@
+{
+  "eventId": "northern-territories",
+  "notes": [
+    {
+      "id": "nt-shimoda-treaty-1855",
+      "claim": "1855年，日俄通商条约划定了择捉岛和乌鲁普岛的边界。",
+      "context": "1855年2月7日（1855年12月21日）在下田缔结。日本和俄罗斯首次正式划定边界，择捉岛以南地区划为日本领土，乌鲁普岛以北地区划为俄罗斯领土。萨哈林岛被认为是两国人民共同居住的地方。在日本，2 月 7 日被指定为“北方领土日”，以纪念该条约的缔结日期。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "北方領土問題の経緯（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日魯通好条約（デジタルアーカイブ）",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "国立公文書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-karafuto-chishima-1875",
+      "claim": "1875 年，根据萨哈林岛-基尔岛交换条约，千岛群岛（乌鲁普以北）成为日本领土。",
+      "context": "1875 年 5 月 7 日在彼得堡签署。日本放弃对整个萨哈林岛的权利，作为回报，从俄罗斯获得了从乌鲁普岛到舒姆舒岛的 18 个北千岛群岛。日本声称，北方四岛不包括在该条约所交换的“数千个岛屿”之内。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "樺太・千島交換条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-yalta-agreement-1945",
+      "claim": "1945年雅尔塔会议同意将千岛群岛移交给苏联。",
+      "context": "1945年2月，罗斯福（美国）、丘吉尔（英国）、斯大林（苏联）领导人在雅尔塔会议上秘密商定将千岛群岛移交给苏联，作为苏联参加对日战争的条件。日本没有参加会谈，日本和美国之间就该协议是否具有法律约束力存在争议。美国后来将该声明解释为“领导人个人目标的声明，不具有最终法律效力”。",
+      "verdict": "文件存在（已讨论法律约束力）",
+      "sources": [
+        {
+          "title": "Yalta Agreement, February 11, 1945",
+          "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
+          "publisher": "Yale Law School - Avalon Project",
+          "type": "archive"
+        },
+        {
+          "title": "The Yalta Conference, 1945",
+          "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-soviet-neutrality-violation",
+      "claim": "苏联违反有效的日苏中立条约，对日发动战争。",
+      "context": "虽然苏联于1945年4月5日通知苏联不再延长，但《日苏中立条约》（1941年缔结，有效期五年）一直有效到1946年4月。苏联于1945年8月8日对日宣战，并于次日9日开始侵华。关于这是否违反国际法条约存在争议。苏联以日本拒绝《波茨坦公告》为由，为日本参战的合法性辩护。",
+      "verdict": "历史事实（评价差异）",
+      "sources": [
+        {
+          "title": "日ソ中立条約",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-sf-treaty-kuriles",
+      "claim": "虽然日本在《旧金山和约》中放弃了千岛群岛，但解释为不包括北方四岛。",
+      "context": "根据 1951 年《旧金山和平条约》第 2 条（c）款，日本放弃千岛群岛。然而，该条约没有界定千岛群岛的范围，也没有具体说明将放弃千岛群岛的国家名称。日本政府在首次国会会议上（1951年10月，条约总干事西村）发表声明，将国后岛和择捉岛纳入“基洛群岛”，但后来在1956年修改了意见，确立了北方四岛不包括在“基洛群岛”的立场。这一历史本身有时也被俄罗斯方面用来反驳。",
+      "verdict": "条约存在（不同解释）",
+      "sources": [
+        {
+          "title": "Treaty of Peace with Japan (San Francisco Peace Treaty)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        },
+        {
+          "title": "北方領土問題に関する日本政府の立場",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-1956-joint-declaration",
+      "claim": "齿舞和色丹的移交是在1956年日苏联合声明中商定的。",
+      "context": "1956年10月19日签署的《日苏联合声明》第九条规定，苏联同意在缔结和平条约后将齿舞群岛和色丹岛移交给日本。该宣言已经两国议会（最高议会）批准，具有法律约束力。不过，择捉岛和国后岛却没有被提及。 2018年，普京总统表示，“没有具体说明移交后主权将属于谁。”",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "日ソ共同宣言（全文）",
+          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "日ソ共同宣言（内閣府北方対策本部）",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-dulles-memo-1956",
+      "claim": "1956年，美国国务院表示北方四岛是“日本固有领土”。",
+      "context": "1956年9月7日，国务卿杜勒斯在一份备忘录中宣布，择捉岛和国后岛以及齿舞岛和色丹岛都是日本固有领土，应承认日本拥有主权。这份备忘录的背景是美国向日本政府施压，要求其归还全部四座岛屿（所谓“杜勒斯威胁”），而日本政府则试图在《日苏联合声明》中通过归还两座岛屿进行妥协。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "北方領土問題に関する米国の立場",
+          "url": "https://www8.cao.go.jp/hoppo/",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        },
+        {
+          "title": "Foreign Relations of the United States (FRUS)",
+          "url": "https://history.state.gov/historicaldocuments",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-2020-constitution",
+      "claim": "俄罗斯联邦宪法2020年修正案增加禁止割让领土的条款。",
+      "context": "2020年7月生效的俄罗斯联邦宪法修正案在第67条中增加了一项条款，规定“不允许采取或要求割让俄罗斯联邦领土的行动”。实际上，这已被解释为对北方领土谈判的国内法律限制。不过，俄罗斯政府表示，这不会阻止和平条约谈判。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Constitution of the Russian Federation (2020 Amendments)",
+          "url": "http://www.constitution.ru/en/10003000-01.htm",
+          "publisher": "Constitution of Russia",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-potsdam-timing",
+      "claim": "一、日本接受波茨坦公告后苏联军队占领北方四岛",
+      "context": "日本于1945年8月14日宣布接受《波茨坦公告》（9月2日签署投降书）。苏军入侵北方四岛的时间是8月28日（择捉岛）至9月5日（齿舞群岛）。日本坚称，其在敌对行动结束后的占领根据国际法不具有合法性。俄罗斯反驳称，战争状态一直持续到签署投降书（9月2日）为止。",
+      "verdict": "确定日期和时间（法律评估差异）",
+      "sources": [
+        {
+          "title": "北方領土の歴史（内閣府）",
+          "url": "https://www8.cao.go.jp/hoppo/mondai/01.html",
+          "publisher": "内閣府北方対策本部",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

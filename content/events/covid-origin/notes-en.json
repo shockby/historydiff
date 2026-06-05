@@ -83,7 +83,7 @@
     },
     {
       "id": "co-who-investigation",
-      "claim": "The 2021 WHO panel rated the natural origin theory as the most likely.",
+      "claim": "The 2021 WHO investigation team rated the natural origin theory as the most likely.",
       "context": "In January and February 2021, a joint investigation team from WHO and China conducted an investigation in Wuhan and published a report in March of the same year. The report evaluated four hypotheses: (1) natural infection via an intermediate host as \"likely to very likely,\" (2) direct zoonosis as \"possible to likely,\" (3) cold chain origin as \"possible,\" and (4) laboratory accident as \"extremely unlikely.\" However, the head of the investigation team, Peter Benembarek, later testified that there was pressure from the Chinese side not to include the lab leak theory in the report. WHO Director-General Tedros Adhanom Ghebreyesus also distanced himself from the report's conclusions, saying, \"All hypotheses are open and require further investigation.\"",
       "verdict": "The report is an official document (there are doubts about the independence of the investigation)",
       "sources": [

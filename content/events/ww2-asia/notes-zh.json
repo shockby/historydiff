@@ -8,9 +8,9 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "中国抗日戦争の犠牲者数",
+          "title": "四、中国抗日战争受害者人数",
           "url": "https://www.mfa.gov.cn/",
-          "publisher": "中華人民共和国外交部",
+          "publisher": "中华人民共和国外交部",
           "type": "government"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "村山内閣総理大臣談話（1995年）",
-          "url": "https://www.mofa.go.jp/mofaj/press/danwa/07/dmu_0815.html",
-          "publisher": "日本国外務省",
+          "title": "村山首相的讲话（1995年）",
+          "url": "https://www.mofa.go.jp/announce/press/pm/murayama/9508.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "内閣総理大臣談話（戦後70年、2015年）",
-          "url": "https://www.kantei.go.jp/jp/97_abe/discource/20150814danwa.html",
-          "publisher": "首相官邸",
+          "title": "总理讲话（战后 70 周年，2015 年）",
+          "url": "https://japan.kantei.go.jp/97_abe/statement/201508/0814statement.html",
+          "publisher": "总理府",
           "type": "government"
         }
       ]

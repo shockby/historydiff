@@ -4,13 +4,13 @@
     {
       "id": "rct-nerchinsk-context",
       "claim": "《尼布楚条约》（1689年）是清朝与欧洲国家签订的第一个条约。",
-      "context": "《尼布楚条约》是清朝（康熙皇帝）与俄罗斯帝国（彼得一世摄政期间）于1689年签订的。谈判由耶稣会士使用拉丁语作为媒介进行调解。该条约以外兴安岭（斯坦诺沃伊山脉）为界，并规定俄罗斯从阿穆尔河流域撤军。据说清朝的军事优势影响了谈判的结果。",
+      "context": "《尼布楚条约》是清朝（康熙皇帝）与俄罗斯帝国（彼得一世摄政期间）于1689年签订的。谈判是在耶稣会士的调解下进行的，使用拉丁语作为媒介。该条约以外兴安岭（斯坦诺沃伊山脉）为界，并规定俄罗斯从阿穆尔河流域撤军。据说清朝的军事优势影响了谈判的结果。",
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "Treaty of Nerchinsk (1689)",
+          "title": "《尼布楚条约》（1689）",
           "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk",
-          "publisher": "Encyclopædia Britannica",
+          "publisher": "大英百科全书",
           "type": "academic"
         }
       ]
@@ -22,15 +22,15 @@
       "verdict": "意见分歧",
       "sources": [
         {
-          "title": "Treaty of Aigun",
+          "title": "瑷珲条约",
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Aigun",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "academic"
         },
         {
-          "title": "中国の「不平等条約」概念の歴史的展開",
+          "title": "六、中国“不平等条约”概念的历史发展",
           "url": "https://www.cambridge.org/",
-          "publisher": "Cambridge University Press",
+          "publisher": "剑桥大学出版社",
           "type": "academic"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "Sino-Russian Border Disputes",
+          "title": "四、中俄边境争端",
           "url": "https://en.wikipedia.org/wiki/Sino-Russian_border_conflicts",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "academic"
         }
       ]
@@ -56,15 +56,15 @@
       "verdict": "关于核攻击审议的报告",
       "sources": [
         {
-          "title": "The Sino-Soviet Border Conflict of 1969",
+          "title": "四、1969年中苏边界冲突",
           "url": "https://www.wilsoncenter.org/",
-          "publisher": "Wilson Center / Cold War International History Project",
+          "publisher": "威尔逊中心/冷战国际历史项目",
           "type": "academic"
         },
         {
-          "title": "Sino-Soviet border conflict",
+          "title": "六、中苏边境冲突",
           "url": "https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "academic"
         }
       ]
@@ -76,15 +76,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "中露国境画定の経緯",
+          "title": "四、中俄边界勘界史 (日语)",
           "url": "https://www.jiia.or.jp/",
-          "publisher": "日本国際問題研究所",
+          "publisher": "日本国际问题研究所",
           "type": "academic"
         },
         {
-          "title": "ロシア連邦憲法改正（2020年）",
+          "title": "俄罗斯联邦宪法修正案（2020年）",
           "url": "http://kremlin.ru/",
-          "publisher": "ロシア大統領府",
+          "publisher": "俄罗斯总统府",
           "type": "government"
         }
       ]
@@ -92,13 +92,13 @@
     {
       "id": "rct-vladivostok-name",
       "claim": "2023年，中国在官方地图上使用符拉迪沃斯托克的中文名称“海赞库”，引发外交问题。",
-      "context": "据报道，2023年，中国自然资源部发布的新标准地图中，海参崴恢复了中文名称“海赞库”。俄罗斯外交部对此表示不满。此举作为中国国内民族主义情绪和“100年国耻”的历史记忆如何影响现代外交关系的一个例子而引起关注。然而，中国政府继续正式承认目前与俄罗斯的边界。",
+      "context": "据报道，2023年，中国自然资源部发布的新标准地图中，海参崴恢复了中文名称“海赞库”。俄罗斯外交部对此表示不满。此举作为中国国内民族主义情绪和“100年国耻”的历史记忆如何影响现代外交关系的一个例子而引起关注。然而，中国政府继续正式承认其目前与俄罗斯的边界。",
       "verdict": "有报道事实",
       "sources": [
         {
-          "title": "China's New Map and Vladivostok Naming Controversy",
+          "title": "四、中国新地图与符拉迪沃斯托克命名争议",
           "url": "https://www.scmp.com/",
-          "publisher": "South China Morning Post",
+          "publisher": "南华早报",
           "type": "media"
         }
       ]

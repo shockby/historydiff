@@ -8,9 +8,9 @@
       "verdict": "事件已确认（枪击事件来源已讨论）",
       "sources": [
         {
-          "title": "盧溝橋事件関連資料",
+          "title": "四、卢沟桥事件相关资料 (日语)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "亚洲历史记录中心（JACAR）",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "日中戦争の経緯",
+          "title": "四、甲午战争史 (日语)",
           "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
-          "publisher": "日本国外務省",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]

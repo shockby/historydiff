@@ -3,14 +3,14 @@
   "notes": [
     {
       "id": "cw-kono-statement",
-      "claim": "일본 정부는 진심으로 사과와 반성의 마음을 표명 (고노 담화)",
+      "claim": "일본 정부는 진심으로 사과와 반성의 마음을 표명(고노 담화)",
       "context": "1993년 8월 4일, 고노 요헤이 내각 관방장관이 발표한 담화. 위안소의 설치·관리에의 구 일본군의 관여와 모집에 있어서의 강제성을 인정했다.",
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "河野談話全文（外務省）",
-          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
-          "publisher": "日本国外務省",
+          "title": "고노 담화 전문(외무성)",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         },
         {
@@ -28,9 +28,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "日韓外相会談（2015年12月28日）",
-          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
-          "publisher": "日本国外務省",
+          "title": "한일외상회담(2015년 12월 28일)",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         },
         {
@@ -48,9 +48,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "アジア女性基金とその活動",
+          "title": "아시아 여성 기금과 그 활동 (일본어)",
           "url": "https://www.awf.or.jp/",
-          "publisher": "アジア女性基金（デジタル記念館）",
+          "publisher": "아시아 여성 기금(디지털 기념관)",
           "type": "archive"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "토론 있음",
       "sources": [
         {
-          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "title": "위안부 관계 조사 결과 발표에 관한 고노 내각 관방장관 담화의 검증 (일본어)",
           "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
-          "publisher": "内閣官房",
+          "publisher": "내각 관방",
           "type": "government"
         }
       ]
@@ -78,7 +78,7 @@
         {
           "title": "'Comfort women' rally marks 1,000th weekly protest",
           "url": "https://www.bbc.com/news/world-asia-16191689",
-          "publisher": "BBC News",
+          "publisher": "BBC 뉴스",
           "type": "media"
         }
       ]

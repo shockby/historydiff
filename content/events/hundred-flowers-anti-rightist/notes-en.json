@@ -28,9 +28,9 @@
       "verdict": "Official records available (actual numbers subject to debate)",
       "sources": [
         {
-          "title": "中国共産党党史（第二巻）",
+          "title": "History of the Communist Party of China (Volume 2)",
           "url": "https://www.12371.cn/",
-          "publisher": "中共中央党史研究室",
+          "publisher": "CCP Central Party History Research Room",
           "type": "government"
         },
         {
@@ -43,14 +43,14 @@
     },
     {
       "id": "hf-rehabilitation",
-      "claim": "After 1978, the reputation of those who were labeled as right-wing was restored.",
+      "claim": "Since 1978, people who were labeled as right-wing have been rehabilitated.",
       "context": "In 1978, the Chinese Communist Party acknowledged that it had made a mistake to expand its anti-right-wing struggle, and carried out a comprehensive restoration of the honor of those who had been identified as right-wing (hats removed and reformed). More than 540,000 people had their honor restored, but five people, Zhang Bojun, Luo Longji, Chu Anping, Peng Wenying, and Chen Renping, were excluded from restoration as ``genuine right-wingers'' (initially there were six people, but one additional person was later restored). The official stance is that the anti-right-wing struggle itself was ``necessary,'' and only acknowledges the ``error of expansion.''",
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "関於全部摘掉右派分子帽子決定的実施方案",
+          "title": "Definitive implementation plan to eliminate all right-wing elements",
           "url": "https://www.gov.cn/",
-          "publisher": "中国国務院",
+          "publisher": "State Council of China",
           "type": "government"
         }
       ]
@@ -78,7 +78,7 @@
     {
       "id": "hf-ding-ling",
       "claim": "Prominent intellectuals were persecuted for being right-wing.",
-      "context": "Many prominent intellectuals were targeted in the anti-right-wing struggle. The writer Ding Ling was recognized as a right-winger and was exiled to Beidaran (the northeastern frontier). Sociologist and anthropologist Fei Hyo-tong, legal scholar Luo Long-ki, and journalist Chu An-ping were also considered right-wing. Chu Anping went missing after that, and his whereabouts are still unknown. These cases are emblematic of the devastating impact that anti-rightist struggles have had on China's intellectual and cultural life.",
+      "context": "Many prominent intellectuals were targeted in the anti-right-wing struggle. Writer Ding Ling was recognized as a right-winger and was exiled to Beidaran (the northeastern frontier). Sociologist and anthropologist Fei Hyo-tong, legal scholar Luo Long-ki, and journalist Chu An-ping were also considered right-wing. Chu Anping went missing after that, and his whereabouts are still unknown. These cases are emblematic of the devastating impact that anti-rightist struggles have had on China's intellectual and cultural life.",
       "verdict": "There are multiple lines of evidence.",
       "sources": [
         {

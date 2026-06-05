@@ -8,9 +8,9 @@
       "verdict": "Official records available (different interpretations)",
       "sources": [
         {
-          "title": "尖閣諸島に関する外務省の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
-          "publisher": "日本国外務省",
+          "title": "Ministry of Foreign Affairs’ position regarding the Senkaku Islands",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -23,7 +23,7 @@
       "sources": [
         {
           "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
-          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
           "publisher": "United Nations ECAFE (via MOFA)",
           "type": "international"
         }

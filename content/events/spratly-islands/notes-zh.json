@@ -8,15 +8,15 @@
       "verdict": "地图存在（讨论法律意义）",
       "sources": [
         {
-          "title": "China's Nine-Dash Line: History, Status, and Implications",
+          "title": "中国九段线：历史、现状和意义",
           "url": "https://www.uscc.gov/",
-          "publisher": "U.S.-China Economic and Security Review Commission",
+          "publisher": "美中经济与安全审查委员会",
           "type": "government"
         },
         {
-          "title": "Note Verbale CML/17/2009 (China's submission to CLCS)",
+          "title": "普通照会 CML/17/2009（中国向 CLCS 提交的材料）",
           "url": "https://www.un.org/depts/los/clcs_new/submissions_files/mysvnm33_09/chn_2009re_mys_vnm_e.pdf",
-          "publisher": "United Nations",
+          "publisher": "联合国",
           "type": "international"
         }
       ]
@@ -28,15 +28,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "The South China Sea Arbitration (The Republic of Philippines v. The People's Republic of China)",
+          "title": "南海仲裁案（菲律宾共和国诉中华人民共和国）",
           "url": "https://pca-cpa.org/en/cases/7/",
-          "publisher": "Permanent Court of Arbitration",
+          "publisher": "常设仲裁法院",
           "type": "international"
         },
         {
-          "title": "Award of 12 July 2016 (Full Text)",
+          "title": "2016年7月12日颁奖（全文）",
           "url": "https://pcacases.com/web/sendAttach/2086",
-          "publisher": "PCA Case Repository",
+          "publisher": "PCA案例库",
           "type": "international"
         }
       ]
@@ -48,9 +48,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Statement of the Ministry of Foreign Affairs of the People's Republic of China on the Award of 12 July 2016",
+          "title": "中华人民共和国外交部2016年7月12日颁奖声明",
           "url": "https://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/201607/t20160712_679470.html",
-          "publisher": "Ministry of Foreign Affairs, PRC",
+          "publisher": "中华人民共和国外交部",
           "type": "government"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "通过卫星图像确认",
       "sources": [
         {
-          "title": "Island Tracker - Asia Maritime Transparency Initiative",
+          "title": "岛屿追踪 - 亚洲海事透明度倡议",
           "url": "https://amti.csis.org/island-tracker/",
-          "publisher": "CSIS (Center for Strategic and International Studies)",
+          "publisher": "CSIS（战略与国际研究中心）",
           "type": "academic"
         }
       ]
@@ -76,7 +76,7 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "The Johnson South Reef Skirmish, 1988",
+          "title": "赤瓜礁南礁冲突，1988 年",
           "url": "https://www.globalsecurity.org/military/world/war/spratly-1988.htm",
           "publisher": "GlobalSecurity.org",
           "type": "media"
@@ -90,9 +90,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "Battle of the Paracel Islands",
+          "title": "西沙群岛海战",
           "url": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "media"
         }
       ]
@@ -104,9 +104,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Presidential Decree No. 1596",
+          "title": "第 1596 号总统令",
           "url": "https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1596-s-1978/",
-          "publisher": "Official Gazette of the Republic of the Philippines",
+          "publisher": "菲律宾共和国官方公报",
           "type": "government"
         }
       ]
@@ -118,9 +118,9 @@
       "verdict": "可用的官方记录（归属未确认）",
       "sources": [
         {
-          "title": "San Francisco Peace Treaty (1951) - Full Text",
+          "title": "旧金山和平条约 (1951) - 全文",
           "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
-          "publisher": "United Nations Treaty Series",
+          "publisher": "联合国条约汇编",
           "type": "international"
         }
       ]
@@ -132,9 +132,9 @@
       "verdict": "仲裁裁决（部分反对）",
       "sources": [
         {
-          "title": "Award of 12 July 2016 - PCA Case No. 2013-19",
+          "title": "2016 年 7 月 12 日裁决 - PCA 案件编号 2013-19",
           "url": "https://pcacases.com/web/sendAttach/2086",
-          "publisher": "Permanent Court of Arbitration",
+          "publisher": "常设仲裁法院",
           "type": "international"
         }
       ]

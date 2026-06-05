@@ -8,15 +8,15 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "シベリア抑留に関する情報（厚生労働省）",
+          "title": "西伯利亚拘留信息（厚生劳动省） (日语)",
           "url": "https://www.mhlw.go.jp/",
-          "publisher": "厚生労働省",
+          "publisher": "厚生劳动省",
           "type": "government"
         },
         {
-          "title": "舞鶴引揚記念館",
+          "title": "舞鹤引上纪念馆 (日语)",
           "url": "https://m-hikiage-museum.jp/",
-          "publisher": "舞鶴引揚記念館",
+          "publisher": "舞鹤引上纪念馆",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "历史事实（联合国教科文组织登记）",
       "sources": [
         {
-          "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",
+          "title": "世界记忆——二战后日本士兵被拘留的文献",
           "url": "https://en.unesco.org/memoryoftheworld/registry/",
-          "publisher": "UNESCO",
+          "publisher": "联合国教科文组织",
           "type": "international"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "有法律依据",
       "sources": [
         {
-          "title": "Geneva Convention relative to the Treatment of Prisoners of War (1929)",
+          "title": "关于战俘待遇的日内瓦公约（1929）",
           "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-pow-1929",
-          "publisher": "International Committee of the Red Cross",
+          "publisher": "红十字国际委员会",
           "type": "international"
         }
       ]

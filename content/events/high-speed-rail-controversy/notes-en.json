@@ -8,7 +8,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "中国高速鉄道 - Wikipedia",
+          "title": "China High Speed Rail - Wikipedia",
           "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
           "publisher": "Wikipedia",
           "type": "reference"
@@ -22,7 +22,7 @@
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "title": "Wenzhou high-speed railway rear-end accident - Wikipedia",
           "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
           "publisher": "Wikipedia",
           "type": "reference"
@@ -36,7 +36,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "韓国高速鉄道 - Wikipedia",
+          "title": "Korean High Speed Rail - Wikipedia",
           "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
           "publisher": "Wikipedia",
           "type": "reference"
@@ -50,23 +50,23 @@
       "verdict": "Factual disputes",
       "sources": [
         {
-          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "title": "China to apply for patent for Shinkansen? Japan says it is \"unacceptable\"",
           "url": "https://www.asahi.com/",
-          "publisher": "朝日新聞",
+          "publisher": "Asahi Shimbun",
           "type": "media"
         }
       ]
     },
     {
       "id": "hsr-shinkansen-safety-record",
-      "claim": "The Shinkansen has maintained zero passenger fatalities due to collisions or derailments during commercial operation for more than 60 years since its opening.",
+      "claim": "For more than 60 years since the Shinkansen opened, there have been no passenger fatalities due to collisions or derailments during commercial operation.",
       "context": "Since the Tokaido Shinkansen opened in 1964, there has never been a fatal passenger accident due to a collision or derailment during commercial operation. In Japan, a country prone to earthquakes, this record is maintained through multiple safety measures such as automatic train control (ATC), early earthquake detection and warning system (UrEDAS), and derailment prevention guards. There was a case in which the Joetsu Shinkansen derailed during the Niigata Prefecture Chuetsu Earthquake in 2004, but no passengers were killed or injured.",
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "新幹線の安全性 - JR東海",
+          "title": "Shinkansen safety - JR Tokai (in Japanese)",
           "url": "https://company.jr-central.co.jp/",
-          "publisher": "東海旅客鉄道株式会社",
+          "publisher": "Central Railway Company",
           "type": "government"
         }
       ]
@@ -92,7 +92,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "台湾高速鉄道 - Wikipedia",
+          "title": "Taiwan High Speed Rail - Wikipedia",
           "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
           "publisher": "Wikipedia",
           "type": "reference"

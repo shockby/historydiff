@@ -3,14 +3,14 @@
   "notes": [
     {
       "id": "pwe-potsdam-declaration",
-      "claim": "1945年7月26日公布《波茨坦宣言》。",
+      "claim": "1945年7月26日公布《波茨坦公告》。",
       "context": "以美国、英国和中国领导人（杜鲁门、丘吉尔和蒋介石）的名字宣布。要求日本无条件投降。后来苏联也加入了。日本于8月14日宣布接受，并于9月2日签署投降书。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "title": "日本投降条款公告（波茨坦公告） (日语)",
           "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
-          "publisher": "国立国会図書館",
+          "publisher": "国立国会图书馆",
           "type": "archive"
         }
       ]
@@ -18,19 +18,19 @@
     {
       "id": "pwe-atomic-bombs",
       "claim": "1945年8月6日在广岛投下原子弹，1945年8月9日在长崎投下原子弹。",
-      "context": "预计到今年年底，将有 14 万人死于广岛型（小男孩，铀型）和 7 万人死于长崎型（胖子，钚型）。这是人类历史上仅有的两起在战争中使用核武器的案例。爆炸事件的合法性在各国之间仍然存在分歧。",
+      "context": "预计到今年年底，将有 14 万人死于广岛型（小男孩，铀型），7 万人将死于长崎型（胖子，钚型）。这是人类历史上仅有的两起在战争中使用核武器的案例。爆炸事件的合法性在各国之间仍然存在分歧。",
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "Atomic Bombings of Hiroshima and Nagasaki",
+          "title": "广岛和长崎原子弹爆炸",
           "url": "https://www.atomicarchive.com/",
-          "publisher": "Atomic Archive",
+          "publisher": "原子档案",
           "type": "archive"
         },
         {
-          "title": "広島平和記念資料館",
+          "title": "广岛和平纪念资料馆 (日语)",
           "url": "https://hpmmuseum.jp/",
-          "publisher": "広島平和記念資料館",
+          "publisher": "广岛和平纪念资料馆",
           "type": "archive"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Japanese Instrument of Surrender",
+          "title": "日本投降书",
           "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
-          "publisher": "U.S. National Archives",
+          "publisher": "美国国家档案馆",
           "type": "government"
         }
       ]

@@ -8,9 +8,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "国家総動員法",
+          "title": "全国总动员法 (日语)",
           "url": "https://www.digital.archives.go.jp/",
-          "publisher": "国立公文書館デジタルアーカイブ",
+          "publisher": "国家档案馆数字档案馆",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "朝鮮人強制連行の記録",
+          "title": "强迫绑架韩国人的记录 (日语)",
           "url": "https://www.jica.go.jp/",
-          "publisher": "各種学術研究",
+          "publisher": "各类学术研究",
           "type": "academic"
         }
       ]
@@ -36,15 +36,15 @@
       "verdict": "条约存在（不同解释）",
       "sources": [
         {
-          "title": "日韓請求権並びに経済協力協定",
+          "title": "日韩索赔与经济合作协定 (日语)",
           "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
-          "publisher": "日本国外務省",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "Agreement on the Settlement of Problems Concerning Property and Claims",
+          "title": "六、财产及债权问题解决协议",
           "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20583/volume-583-I-8473-English.pdf",
-          "publisher": "United Nations Treaty Series",
+          "publisher": "联合国条约汇编",
           "type": "international"
         }
       ]
@@ -52,19 +52,19 @@
     {
       "id": "fl-2018-supreme-court",
       "claim": "韩国最高法院2018年判决责令日本企业赔偿",
-      "context": "2018年10月30日，韩国最高法院判决新日铁住金公司（现新日铁）向4名前义务兵各支付1亿韩元赔偿金。已确定，以殖民统治的非法性为由要求损害赔偿的权利不属于《索赔协议》的范围。",
+      "context": "2018年10月30日，韩国最高法院判决新日铁住金公司（现新日铁）向4名前义务兵各支付1亿韩元赔偿金。法院裁定，《索赔协定》不涵盖以殖民统治的非法性为由要求损害赔偿的权利。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "South Korean court orders Nippon Steel to compensate forced wartime laborers",
+          "title": "韩国法院命令新日铁赔偿战时强迫劳工",
           "url": "https://www.reuters.com/article/us-southkorea-japan-forcedlabor-idUSKCN1N40GW",
-          "publisher": "Reuters",
+          "publisher": "路透社",
           "type": "media"
         },
         {
-          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "title": "外交部长关于前朝鲜半岛劳工问题的声明 (日语)",
           "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
-          "publisher": "日本国外務省",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -76,9 +76,9 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "日本における朝鮮人の強制連行・強制労働",
+          "title": "强迫在日朝鲜人入伍和强迫劳动 (日语)",
           "url": "https://www.jstage.jst.go.jp/",
-          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "publisher": "日本学术振兴会（J-STAGE发表论文）",
           "type": "academic"
         }
       ]
@@ -90,9 +90,9 @@
       "verdict": "历史事实（评价差异）",
       "sources": [
         {
-          "title": "Sites of Japan's Meiji Industrial Revolution",
+          "title": "日本明治工业革命遗址",
           "url": "https://whc.unesco.org/en/list/1484",
-          "publisher": "UNESCO World Heritage Centre",
+          "publisher": "联合国教科文组织世界遗产中心",
           "type": "international"
         }
       ]
@@ -104,15 +104,15 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "花岡事件を語り継ぐ（大館市）",
+          "title": "花冈事件的故事的传承（大馆市） (日语)",
           "url": "https://www.city.odate.lg.jp/",
-          "publisher": "秋田県大館市",
+          "publisher": "秋田县大馆市",
           "type": "government"
         },
         {
-          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "title": "中国与鹿岛就战时强迫劳动问题达成和解 (日语)",
           "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
-          "publisher": "The Japan Times",
+          "publisher": "日本时报",
           "type": "media"
         }
       ]

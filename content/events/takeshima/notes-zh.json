@@ -8,9 +8,9 @@
       "verdict": "官方记录（评价差异）",
       "sources": [
         {
-          "title": "竹島に関する外務省の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "外务省关于竹岛问题的立场",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "文件存在（讨论法律地位）",
       "sources": [
         {
-          "title": "Rusk Letter (1951)",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省（引用）",
+          "title": "面包干信 (1951)",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "日本外务省（引用）",
           "type": "government"
         }
       ]
@@ -36,29 +36,29 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "竹島問題の経緯",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "竹岛问题的历史",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "Dokdo/Takeshima - Korea's Position",
+          "title": "独岛/竹岛——韩国的立场",
           "url": "https://dokdo.mofa.go.kr/eng/",
-          "publisher": "Ministry of Foreign Affairs, Republic of Korea",
+          "publisher": "大韩民国外交部",
           "type": "government"
         }
       ]
     },
     {
       "id": "ts-icj-proposal",
-      "claim": "日本提议将此案提交国际法院（ICJ），但韩国拒绝。",
+      "claim": "日本提议将此案提交国际法院（ICJ），韩国拒绝",
       "context": "日本政府曾于1954年、1962年、2012年三次向国际法院提出移交建议。韩国两次均拒绝了建议，称“独岛是韩国领土，不存在领土争议”。国际法院的管辖权需要双方同意，如果一方拒绝，案件就不会成功。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "竹島の領有権に関するICJ付託の提案",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "将竹岛领土权利提交国际法院的提案",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]

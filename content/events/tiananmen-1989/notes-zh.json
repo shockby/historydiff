@@ -4,19 +4,19 @@
     {
       "id": "ta-casualty-count",
       "claim": "据称受害者人数有数百至数千人，但具体数字不详。",
-      "context": "关于天安门事件遇难者人数有多种说法，具体人数尚不清楚。中国政府官方宣布，约有200至300人（包括军人）。中国红十字会最初宣布的人数为2600人，但后来撤回了这一数字。在 2017 年解密的英国外交文件中，英国驻华大使艾伦·唐纳德 (Alan Donald) 在国内报告称，“至少估计有 10,000 名平民死亡”。许多研究人员支持的估计范围从几百人到一千多人不等。",
+      "context": "关于天安门事件遇难者人数有多种说法，具体人数尚不清楚。中国政府官方宣布约有200至300人（包括军人）。中国红十字会最初宣布的人数为2600人，但后来撤回了这一数字。在 2017 年解密的英国外交文件中，英国驻华大使艾伦·唐纳德 (Alan Donald) 在国内报告称，“至少估计有 10,000 名平民死亡”。许多研究人员支持的估计范围从几百人到一千多人不等。",
       "verdict": "估计有所不同（官方数据与国际估计差异较大）",
       "sources": [
         {
-          "title": "Tiananmen Square protest death toll 'was 10,000'",
+          "title": "天安门广场抗议死亡人数“为10,000”",
           "url": "https://www.bbc.com/news/world-asia-china-42465516",
-          "publisher": "BBC News",
+          "publisher": "英国广播公司新闻",
           "type": "media"
         },
         {
-          "title": "The Tiananmen Papers",
+          "title": "天安门文件",
           "url": "https://www.publicaffairsbooks.com/",
-          "publisher": "PublicAffairs",
+          "publisher": "公共事务",
           "type": "academic"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "可录像（身份未确认）",
       "sources": [
         {
-          "title": "TIME 100: The Most Important People of the Century",
+          "title": "TIME 100：本世纪最重要的人物",
           "url": "https://content.time.com/time/magazine/article/0,9171,988169,00.html",
-          "publisher": "TIME Magazine",
+          "publisher": "《时代》杂志",
           "type": "media"
         }
       ]
@@ -42,15 +42,15 @@
       "verdict": "有多种证据。",
       "sources": [
         {
-          "title": "The People's Republic of Amnesia: Tiananmen Revisited",
+          "title": "失忆的中华人民共和国：重访天安门 (日语)",
           "url": "https://www.oupjapan.co.jp/",
-          "publisher": "Oxford University Press",
+          "publisher": "牛津大学出版社",
           "type": "academic"
         },
         {
-          "title": "China's Great Firewall and Tiananmen Censorship",
+          "title": "中国的防火墙和天安门审查制度",
           "url": "https://citizenlab.ca/",
-          "publisher": "Citizen Lab, University of Toronto",
+          "publisher": "多伦多大学公民实验室",
           "type": "academic"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "有官方记录/多份证词",
       "sources": [
         {
-          "title": "Prisoner of the State: The Secret Journal of Premier Zhao Ziyang",
+          "title": "国家的囚徒：赵紫阳总理的秘密日记",
           "url": "https://www.simonandschuster.com/",
-          "publisher": "Simon & Schuster",
+          "publisher": "西蒙与舒斯特",
           "type": "academic"
         }
       ]
@@ -76,15 +76,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "U.S. Arms Embargo on China",
+          "title": "美国对华武器禁运",
           "url": "https://www.congress.gov/",
-          "publisher": "U.S. Congressional Research Service",
+          "publisher": "美国国会研究服务处",
           "type": "government"
         },
         {
-          "title": "EU Arms Embargo on China",
+          "title": "欧盟对华武器禁运",
           "url": "https://www.sipri.org/",
-          "publisher": "SIPRI (Stockholm International Peace Research Institute)",
+          "publisher": "SIPRI（斯德哥尔摩国际和平研究所）",
           "type": "international"
         }
       ]

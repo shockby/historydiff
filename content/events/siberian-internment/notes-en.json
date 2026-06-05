@@ -8,15 +8,15 @@
       "verdict": "There is a wide range of estimates.",
       "sources": [
         {
-          "title": "シベリア抑留に関する情報（厚生労働省）",
+          "title": "Information on Siberian internment (Ministry of Health, Labor and Welfare) (in Japanese)",
           "url": "https://www.mhlw.go.jp/",
-          "publisher": "厚生労働省",
+          "publisher": "Ministry of Health, Labor and Welfare",
           "type": "government"
         },
         {
-          "title": "舞鶴引揚記念館",
+          "title": "Maizuru Hikiage Memorial Hall (in Japanese)",
           "url": "https://m-hikiage-museum.jp/",
-          "publisher": "舞鶴引揚記念館",
+          "publisher": "Maizuru Hikiage Memorial Museum",
           "type": "archive"
         }
       ]
@@ -25,7 +25,7 @@
       "id": "si-forced-labor",
       "claim": "Detainees were forced to work in harsh conditions",
       "context": "Internees were engaged in hard labor in Siberian coal mines, railway construction (Baikal-Amur Railway, etc.), deforestation, and construction work. Many died due to the extremely cold conditions, inadequate food and clothing, and lack of medical care. In 2015, the ``Siberian Internment Related Materials'' held by the Maizuru Hikiage Memorial Museum were added to UNESCO's ``Memory of the World'' list.",
-      "verdict": "Historical facts (Registered by UNESCO)",
+      "verdict": "Historical facts (registered by UNESCO)",
       "sources": [
         {
           "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",

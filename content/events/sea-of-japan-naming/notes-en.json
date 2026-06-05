@@ -18,7 +18,7 @@
     {
       "id": "sj-iho-2020",
       "claim": "In 2020, IHO decided to transition to a new method of managing using numerical identifiers.",
-      "context": "At the IHO general meeting in November 2020, the transition to a digital registry method called S-130 was unanimously approved. A method of replacing traditional name-based management with numerical identifiers.",
+      "context": "At the IHO general meeting in November 2020, the transition to a digital registry method called S-130 was unanimously approved. A method that replaces traditional name management with numerical identifiers.",
       "verdict": "Official records available",
       "sources": [
         {
@@ -28,9 +28,9 @@
           "type": "international"
         },
         {
-          "title": "日本海の呼称問題",
-          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
-          "publisher": "日本国外務省",
+          "title": "The issue of naming the Sea of Japan",
+          "url": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "日本海呼称問題（外務省の立場）",
-          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html",
-          "publisher": "日本国外務省",
+          "title": "Sea of Japan name issue (Ministry of Foreign Affairs’ position)",
+          "url": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -56,9 +56,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "日本海呼称問題の経緯",
-          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/keicho.html",
-          "publisher": "日本国外務省",
+          "title": "History of the Sea of Japan name issue",
+          "url": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -84,9 +84,9 @@
       "verdict": "Research exists (differences in interpretation)",
       "sources": [
         {
-          "title": "日本海呼称に関する調査",
-          "url": "https://www.mofa.go.jp/mofaj/area/nihonkai_k/map/index.html",
-          "publisher": "日本国外務省",
+          "title": "Survey on Sea of Japan name",
+          "url": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {

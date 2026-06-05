@@ -10,7 +10,7 @@
         {
           "title": "Memorial Hall of the Victims in Nanjing Massacre",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "Memorial Hall of the Japanese Invading Forces of Nanjing Massacre and Victims",
           "type": "archive"
         }
       ]
@@ -22,7 +22,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "Judgment of the International Military Tribunal for the Far East",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
           "publisher": "International Criminal Court - Legal Tools Database",
           "type": "international"
@@ -36,9 +36,9 @@
       "verdict": "Background information",
       "sources": [
         {
-          "title": "『南京事件』",
+          "title": "“Nanjing Incident” (in Japanese)",
           "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
-          "publisher": "中公新書（秦郁彦）",
+          "publisher": "Chuko Shinsho (Ikuhiko Hata)",
           "type": "media"
         }
       ]
@@ -50,9 +50,9 @@
       "verdict": "There is controversy over the evaluation of materials.",
       "sources": [
         {
-          "title": "『南京事件論争史』",
+          "title": "“History of the Nanjing Incident Controversy” (in Japanese)",
           "url": "https://www.heibonsha.co.jp/",
-          "publisher": "平凡社新書（笠原十九司）",
+          "publisher": "Heibonsha Shinsho (Jukushi Kasahara)",
           "type": "media"
         }
       ]

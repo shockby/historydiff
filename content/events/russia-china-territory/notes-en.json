@@ -4,13 +4,13 @@
     {
       "id": "rct-nerchinsk-context",
       "claim": "The Treaty of Nerchinsk (1689) was the first treaty between the Qing Dynasty and a European state.",
-      "context": "The Treaty of Nerchinsk was concluded in 1689 between the Qing Dynasty (Emperor Kangxi) and the Russian Empire (during the regency of Peter I). Negotiations were mediated by the Jesuits using Latin as the medium. This treaty made the Waixing'anling (Stanovoy Mountains) the border, and stipulated Russia's withdrawal from the Amur River basin. It is said that the military superiority of the Qing Dynasty influenced the outcome of the negotiations.",
+      "context": "The Treaty of Nerchinsk was concluded in 1689 between the Qing Dynasty (Emperor Kangxi) and the Russian Empire (during the regency of Peter I). Negotiations were conducted through the mediation of the Jesuits, using Latin as the medium. This treaty made the Waixing'anling (Stanovoy Mountains) the border, and stipulated Russia's withdrawal from the Amur River basin. It is said that the military superiority of the Qing Dynasty influenced the outcome of the negotiations.",
       "verdict": "Historical facts",
       "sources": [
         {
           "title": "Treaty of Nerchinsk (1689)",
           "url": "https://www.britannica.com/event/Treaty-of-Nerchinsk",
-          "publisher": "Encyclopædia Britannica",
+          "publisher": "Encyclopedia Britannica",
           "type": "academic"
         }
       ]
@@ -28,7 +28,7 @@
           "type": "academic"
         },
         {
-          "title": "中国の「不平等条約」概念の歴史的展開",
+          "title": "Historical development of China's concept of \"unequal treaties\"",
           "url": "https://www.cambridge.org/",
           "publisher": "Cambridge University Press",
           "type": "academic"
@@ -76,15 +76,15 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "中露国境画定の経緯",
+          "title": "History of China-Russia border demarcation (in Japanese)",
           "url": "https://www.jiia.or.jp/",
-          "publisher": "日本国際問題研究所",
+          "publisher": "Japan Institute of International Affairs",
           "type": "academic"
         },
         {
-          "title": "ロシア連邦憲法改正（2020年）",
+          "title": "Amendment to the Constitution of the Russian Federation (2020)",
           "url": "http://kremlin.ru/",
-          "publisher": "ロシア大統領府",
+          "publisher": "Russian Presidential Palace",
           "type": "government"
         }
       ]
@@ -92,7 +92,7 @@
     {
       "id": "rct-vladivostok-name",
       "claim": "In 2023, China used the Chinese name for Vladivostok, “Haizanku,” on its official map, causing a diplomatic issue.",
-      "context": "In 2023, it was reported that the Chinese name ``Haizanku'' was reinstated for Vladivostok in the new standard map published by China's Ministry of Natural Resources. The Russian Ministry of Foreign Affairs expressed displeasure. This move drew attention as an example of how nationalist sentiment within China and the historical memory of ``100 years of national shame'' can influence modern diplomatic relations. However, the Chinese government continues to officially recognize the current border with Russia.",
+      "context": "In 2023, it was reported that the Chinese name ``Haizanku'' was reinstated for Vladivostok in the new standard map published by China's Ministry of Natural Resources. The Russian Ministry of Foreign Affairs expressed displeasure. This move drew attention as an example of how nationalist sentiment within China and the historical memory of ``100 years of national shame'' can influence modern diplomatic relations. However, the Chinese government continues to officially recognize its current border with Russia.",
       "verdict": "There are reported facts",
       "sources": [
         {

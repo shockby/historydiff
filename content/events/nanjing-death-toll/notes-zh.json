@@ -8,9 +8,9 @@
       "verdict": "根据法庭记录",
       "sources": [
         {
-          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "title": "南京大屠杀遇难同胞纪念馆",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "侵华日军南京大屠杀遇难同胞纪念馆",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "远东国际军事法庭的判决",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
-          "publisher": "International Criminal Court - Legal Tools Database",
+          "publisher": "国际刑事法院 - 法律工具数据库",
           "type": "international"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "背景资料",
       "sources": [
         {
-          "title": "『南京事件』",
+          "title": "“南京事变” (日语)",
           "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
-          "publisher": "中公新書（秦郁彦）",
+          "publisher": "中子新胜（畑育彦）",
           "type": "media"
         }
       ]
@@ -50,9 +50,9 @@
       "verdict": "材料评价存在争议。",
       "sources": [
         {
-          "title": "『南京事件論争史』",
+          "title": "《南京事变史论》 (日语)",
           "url": "https://www.heibonsha.co.jp/",
-          "publisher": "平凡社新書（笠原十九司）",
+          "publisher": "平凡社新胜（笠原熟士）",
           "type": "media"
         }
       ]
@@ -64,9 +64,9 @@
       "verdict": "影响力是事实，但内容存在争议",
       "sources": [
         {
-          "title": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+          "title": "南京大屠杀：被遗忘的二战大屠杀",
           "url": "https://www.penguinrandomhouse.com/books/55764/the-rape-of-nanking-by-iris-chang/",
-          "publisher": "Penguin Random House",
+          "publisher": "企鹅兰登书屋",
           "type": "media"
         }
       ]

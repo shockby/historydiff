@@ -8,9 +8,9 @@
       "verdict": "历史事实（确认为自产）",
       "sources": [
         {
-          "title": "極東国際軍事裁判記録",
+          "title": "远东国际军事法庭记录 (日语)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "亚洲历史记录中心（JACAR）",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Report of the Commission of Enquiry (Lytton Report)",
+          "title": "调查委员会的报告（利顿报告）",
           "url": "https://digital.library.northwestern.edu/league/le000003.pdf",
-          "publisher": "League of Nations",
+          "publisher": "国际联盟",
           "type": "international"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "満洲国関連資料",
+          "title": "满洲国相关资料 (日语)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "亚洲历史记录中心（JACAR）",
           "type": "archive"
         }
       ]

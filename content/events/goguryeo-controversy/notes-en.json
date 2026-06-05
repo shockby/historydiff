@@ -8,7 +8,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "東北工程 - Wikipedia",
+          "title": "Tohoku Process - Wikipedia",
           "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%8C%97%E5%B7%A5%E7%A8%8B",
           "publisher": "Wikipedia",
           "type": "reference"
@@ -24,13 +24,13 @@
         {
           "title": "Capital Cities and Tombs of the Ancient Koguryo Kingdom - UNESCO",
           "url": "https://whc.unesco.org/en/list/1135/",
-          "publisher": "UNESCO World Heritage Centre",
+          "publisher": "UNESCO World Heritage Center",
           "type": "international"
         },
         {
           "title": "Complex of Koguryo Tombs - UNESCO",
           "url": "https://whc.unesco.org/en/list/1091/",
-          "publisher": "UNESCO World Heritage Centre",
+          "publisher": "UNESCO World Heritage Center",
           "type": "international"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "東北亜歴史財団 公式サイト",
+          "title": "Tohoku Asia History Foundation Official Website",
           "url": "https://www.nahf.or.kr/",
-          "publisher": "東北亜歴史財団",
+          "publisher": "Northeast Asian History Foundation",
           "type": "government"
         }
       ]
@@ -52,13 +52,13 @@
     {
       "id": "gc-territorial-interpretation",
       "claim": "China claims that ``all history within its current territory is Chinese history,'' while South Korea emphasizes ``ethnic lineage.''",
-      "context": "At the root of the controversy is a difference in the framework for interpreting history. Based on the theory of a unified multi-ethnic nation, China takes a territorial approach that considers the history that occurred within its current borders to be its own history. On the other hand, South Korea emphasizes ethnic lineage and cultural continuity, and bases this on the connection between the people of Goguryeo and the current Korean nation. This fundamental difference in methodology makes resolving the dispute difficult.",
+      "context": "At the root of the controversy is a difference in the framework for interpreting history. Based on the theory of a unified multi-ethnic nation, China takes a territorial approach that considers the history that occurred within its current borders to be its own history. On the other hand, South Korea places emphasis on ethnic lineage and cultural continuity, and bases this on the connection between the people of Goguryeo and the current Korean nation. This fundamental difference in methodology makes resolving the dispute difficult.",
       "verdict": "Academic debate continues",
       "sources": [
         {
-          "title": "高句麗帰属問題をめぐる中韓の論争",
+          "title": "China-Korea dispute over Goguryeo ownership issue (in Japanese)",
           "url": "https://www.jkcf.or.jp/",
-          "publisher": "日韓文化交流基金",
+          "publisher": "Japan-Korea Cultural Exchange Foundation",
           "type": "academic"
         }
       ]

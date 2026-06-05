@@ -8,9 +8,9 @@
       "verdict": "공식 기록 있음(평가에 차이)",
       "sources": [
         {
-          "title": "竹島に関する外務省の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "다케시마에 관한 외무성의 입장",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         }
       ]
@@ -23,8 +23,8 @@
       "sources": [
         {
           "title": "Rusk Letter (1951)",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省（引用）",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "일본국 외무성(인용)",
           "type": "government"
         }
       ]
@@ -36,14 +36,14 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "竹島問題の経緯",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "다케시마 문제의 경위",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         },
         {
           "title": "Dokdo/Takeshima - Korea's Position",
-          "url": "https://dokdo.mofa.go.kr/eng/",
+          "url": "https://dokdo.mofa.go.kr/",
           "publisher": "Ministry of Foreign Affairs, Republic of Korea",
           "type": "government"
         }
@@ -56,9 +56,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "竹島の領有権に関するICJ付託の提案",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "다케시마의 영유권에 관한 ICJ 부탁의 제안",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         }
       ]

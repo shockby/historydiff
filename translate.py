@@ -223,10 +223,23 @@ def translate_notes(file_path, target_lang):
                 was_mapped = False
                 
             parsed_url = urllib.parse.urlparse(new_url)
+            
+            is_english_path = any(x in parsed_url.path.lower() for x in ['/policy/', '/region/', '/announce/', '/a_o/', '/en/', '/eng/', '/english/'])
+            is_chinese_path = any(x in parsed_url.path.lower() for x in ['/zh/', '/chi/', '/chinese/'])
+            is_korean_path = any(x in parsed_url.path.lower() for x in ['/ko/', '/kor/', '/korean/'])
+            
+            is_foreign_path = False
+            if target_lang == 'en':
+                is_foreign_path = is_english_path
+            elif 'zh' in target_lang:
+                is_foreign_path = is_chinese_path or is_english_path
+            elif 'ko' in target_lang:
+                is_foreign_path = is_korean_path or is_english_path
+                
             is_still_japanese_url = (
                 'mofaj' in parsed_url.path or
                 '/jp/' in parsed_url.path or
-                parsed_url.netloc.endswith('.jp')
+                (parsed_url.netloc.endswith('.jp') and not is_foreign_path)
             )
             
             if is_still_japanese_url and not was_mapped:

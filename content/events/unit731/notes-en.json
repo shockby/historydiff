@@ -14,9 +14,9 @@
           "type": "international"
         },
         {
-          "title": "731部隊罪証陳列館",
+          "title": "Unit 731 Criminal Evidence Exhibition Hall",
           "url": "http://www.unit731.org/",
-          "publisher": "侵華日軍第七三一部隊罪証陳列館",
+          "publisher": "Japanese Invasion Army 731st Guild Evidence Exhibition Hall",
           "type": "archive"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "Discussion",
       "sources": [
         {
-          "title": "731部隊名簿（国立公文書館所蔵）",
+          "title": "List of Unit 731 (held by the National Archives) (in Japanese)",
           "url": "https://www.archives.go.jp/",
-          "publisher": "国立公文書館",
+          "publisher": "National Archives",
           "type": "archive"
         }
       ]

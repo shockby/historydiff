@@ -4,19 +4,19 @@
     {
       "id": "ftw-tritium-comparison",
       "claim": "福岛ALPS处理水每年释放的氚量（低于22万亿贝克勒尔）低于中国和韩国主要核电站的氚释放量。",
-      "context": "日本政府为福岛制定了每年低于22万亿贝克勒尔的氚排放控制目标。另一方面，中国秦山核电站在正常运行期间释放约143万亿贝克勒尔（2020年）、阳江核电站释放约112万亿贝克勒尔（2021年）、韩国月城核电站在正常运行期间释放约71万亿贝克勒尔（2021年）液态氚。虽然在比较数字时确实如此，但中国和韩国强调“正常运行废水”和“事故处理水”性质的差异，并认为简单的比较是不合适的。",
+      "context": "日本政府为福岛制定了每年低于22万亿贝克勒尔的氚排放控制目标。与此同时，中国秦山核电站在正常运行期间释放约143万亿贝克勒尔（2020年）液态氚，阳江核电站释放约112万亿贝克勒尔（2021年）液态氚，韩国月城核电站在正常运行期间释放约71万亿贝克勒尔（2021年）液态氚。虽然在比较数字时确实如此，但中国和韩国强调“正常运行废水”和“事故处理水”性质的差异，并认为简单的比较是不合适的。",
       "verdict": "数值数据已确认（解释上的差异）",
       "sources": [
         {
-          "title": "ALPS処理水の処分に関するQ&A",
+          "title": "有关 ALPS 处理水处理的问答 (日语)",
           "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
-          "publisher": "日本国環境省",
+          "publisher": "日本环境省",
           "type": "government"
         },
         {
-          "title": "各国の原子力施設のトリチウム排出量",
+          "title": "各国核设施氚排放量 (日语)",
           "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
-          "publisher": "経済産業省",
+          "publisher": "经济产业省",
           "type": "government"
         }
       ]
@@ -28,15 +28,15 @@
       "verdict": "事实（有再处理机制）",
       "sources": [
         {
-          "title": "ALPS処理水ポータルサイト",
+          "title": "ALPS处理水门户网站 (日语)",
           "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
-          "publisher": "東京電力ホールディングス",
+          "publisher": "东京电力控股公司",
           "type": "government"
         },
         {
-          "title": "IAEA Safety Review of ALPS Treated Water",
+          "title": "IAEA 对 ALPS 处理水的安全审查",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "国际原子能机构（IAEA）",
           "type": "international"
         }
       ]
@@ -48,9 +48,9 @@
       "verdict": "确认数据未公开",
       "sources": [
         {
-          "title": "China Nuclear Energy Yearbook 2024 analysis",
+          "title": "中国核能年鉴2024分析",
           "url": "https://www.reuters.com/world/asia-pacific/",
-          "publisher": "Reuters",
+          "publisher": "路透社",
           "type": "media"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "中国による日本産水産物の輸入規制について",
+          "title": "四、中国对日本水产品的进口限制 (日语)",
           "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
-          "publisher": "農林水産省",
+          "publisher": "农林水产省",
           "type": "government"
         }
       ]
@@ -72,13 +72,13 @@
     {
       "id": "ftw-iaea-conclusion",
       "claim": "国际原子能机构得出结论，处理后的水排放符合国际安全标准",
-      "context": "IAEA于2023年7月发布综合评估报告，结论是“日本ALPS处理水排放计划及相关活动符合相关国际安全标准”、“对人类和环境的放射性影响可以忽略不计”。IAEA已在福岛设立常设办事处，正在进行持续监测和核查。尽管中国最初对IAEA的结论表示怀疑，但同意从2024年起通过IAEA框架参与监测。",
+      "context": "IAEA于2023年7月发布综合评估报告，结论是“日本ALPS处理水排放计划及相关活动符合相关国际安全标准”、“对人类和环境的放射性影响可以忽略不计”。国际原子能机构已在福岛设立常设办事处，正在进行持续监测和核查。尽管中国最初对IAEA的结论表示怀疑，但同意从2024年起通过IAEA框架参与监测。",
       "verdict": "官方报告确认",
       "sources": [
         {
-          "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
+          "title": "国际原子能机构关于 ALPS 处理水安全审查的综合报告",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "国际原子能机构（IAEA）",
           "type": "international"
         }
       ]
@@ -90,9 +90,9 @@
       "verdict": "经新闻报道证实",
       "sources": [
         {
-          "title": "韓国の処理水対応予算に関する報道",
+          "title": "韩国处理水预算报告",
           "url": "https://www.yonhapnews.co.kr/",
-          "publisher": "聯合ニュース",
+          "publisher": "韩联社新闻",
           "type": "media"
         }
       ]

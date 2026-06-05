@@ -109,6 +109,22 @@ def translate_markdown(file_path):
         f.write(new_content)
     print(f"  Saved: {out_file}")
 
+URL_MAP_KO = {
+    "https://www.mofa.go.jp/mofaj/area/taisen/kono.html": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+    "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+    "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html": "https://www.mofa.go.jp/policy/postwar/state8208.html",
+    "https://www.mofa.go.jp/mofaj/press/danwa/07/dmu_0815.html": "https://www.mofa.go.jp/announce/press/pm/murayama/9508.html",
+    "https://www.mofa.go.jp/mofaj/area/takeshima/index.html": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+    "https://www.mofa.go.jp/mofaj/area/senkaku/index.html": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+    "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+    "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+    "https://www.mofa.go.jp/mofaj/area/nihonkai_k/index.html": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+    "https://www.mofa.go.jp/mofaj/area/nihonkai_k/keicho.html": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+    "https://www.mofa.go.jp/mofaj/area/nihonkai_k/map/index.html": "https://www.mofa.go.jp/policy/maritime/japan/index.html",
+    "https://www.kantei.go.jp/jp/97_abe/discource/20150814danwa.html": "https://japan.kantei.go.jp/97_abe/statement/201508/0814statement.html",
+    "https://dokdo.mofa.go.kr/eng/": "https://dokdo.mofa.go.kr/",
+}
+
 def translate_notes(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -119,11 +135,18 @@ def translate_notes(file_path):
 
     new_notes = []
     for note in notes:
-        note_list = [
-            f"1. {note.get('claim', '')}",
-            f"2. {note.get('context', '')}",
-            f"3. {note.get('verdict', '')}"
+        # Translate each note individually along with its sources
+        texts_to_translate = [
+            note.get('claim', ''),
+            note.get('context', ''),
+            note.get('verdict', '')
         ]
+        sources = note.get('sources', [])
+        for src in sources:
+            texts_to_translate.append(src.get('title', ''))
+            texts_to_translate.append(src.get('publisher', ''))
+
+        note_list = [f"{i+1}. {txt}" for i, txt in enumerate(texts_to_translate)]
         note_text = "\n".join(note_list)
 
         print(f"  Translating note {note.get('id')} to ko...")
@@ -142,19 +165,61 @@ def translate_notes(file_path):
             else:
                 parsed.append(line_str)
 
-        if len(parsed) != 3:
-            print(f"  Warning: note count mismatch (got {len(parsed)} instead of 3). Translating individually.")
-            parsed = [
-                translate_text(note.get('claim', '')),
-                translate_text(note.get('context', '')),
-                translate_text(note.get('verdict', ''))
-            ]
-            time.sleep(0.3)
+        expected_len = len(texts_to_translate)
+        if len(parsed) != expected_len:
+            print(f"  Warning: note count mismatch (got {len(parsed)} instead of {expected_len}). Translating individually.")
+            parsed = []
+            for txt in texts_to_translate:
+                if txt.strip():
+                    parsed.append(translate_text(txt))
+                else:
+                    parsed.append('')
+                time.sleep(0.3)
+
+        def get_parsed(idx, default=''):
+            if idx < len(parsed):
+                return parsed[idx]
+            return default
 
         new_note = note.copy()
-        new_note['claim'] = parsed[0] if len(parsed) > 0 else ''
-        new_note['context'] = parsed[1] if len(parsed) > 1 else ''
-        new_note['verdict'] = parsed[2] if len(parsed) > 2 else ''
+        new_note['claim'] = get_parsed(0, note.get('claim', ''))
+        new_note['context'] = get_parsed(1, note.get('context', ''))
+        new_note['verdict'] = get_parsed(2, note.get('verdict', ''))
+
+        new_sources = []
+        for idx, src in enumerate(sources):
+            trans_title = get_parsed(3 + idx * 2, src.get('title', ''))
+            trans_pub = get_parsed(3 + idx * 2 + 1, src.get('publisher', ''))
+
+            original_url = src.get('url', '')
+            mapped_url = URL_MAP_KO.get(original_url)
+
+            if mapped_url:
+                new_url = mapped_url
+                was_mapped = True
+            else:
+                new_url = original_url
+                was_mapped = False
+
+            parsed_url = urllib.parse.urlparse(new_url)
+            is_still_japanese_url = (
+                'mofaj' in parsed_url.path or
+                '/jp/' in parsed_url.path or
+                parsed_url.netloc.endswith('.jp')
+            )
+
+            if is_still_japanese_url and not was_mapped:
+                final_title = f"{trans_title} (일본어)"
+            else:
+                final_title = trans_title
+
+            new_src = src.copy()
+            new_src['title'] = final_title
+            new_src['publisher'] = trans_pub
+            new_src['url'] = new_url
+            new_sources.append(new_src)
+
+        new_note['sources'] = new_sources
         new_notes.append(new_note)
 
     new_data = data.copy()

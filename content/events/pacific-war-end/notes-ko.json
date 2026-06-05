@@ -4,13 +4,13 @@
     {
       "id": "pwe-potsdam-declaration",
       "claim": "1945년 7월 26일에 포츠담 선언이 발표되었다",
-      "context": "미국·영·중의 3개국 정상명(트루먼, 처칠, 장개석)으로 발표. 일본에 무조건 항복을 요구. 후에 소련도 참가. 일본은 8월 14일 수락을 표명, 9월 2일 항복문서에 서명했다.",
+      "context": "미국·영·중의 3개국 정상명(트루먼, 처칠, 장개석)으로 발표. 일본에 무조건 항복을 요구. 후에 소련도 참가. 일본은 8월 14일에 수락을 표명, 9월 2일에 항복문서에 서명했다.",
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration)",
+          "title": "Proclamation Defining Terms for Japanese Surrender (Potsdam Declaration) (일본어)",
           "url": "https://www.ndl.go.jp/constitution/e/etc/c06.html",
-          "publisher": "国立国会図書館",
+          "publisher": "국립 국회 도서관",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
           "type": "archive"
         },
         {
-          "title": "広島平和記念資料館",
+          "title": "히로시마 평화 기념 자료관 (일본어)",
           "url": "https://hpmmuseum.jp/",
-          "publisher": "広島平和記念資料館",
+          "publisher": "히로시마 평화 기념 자료관",
           "type": "archive"
         }
       ]
@@ -42,7 +42,7 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "Japanese Instrument of Surrender",
+          "title": "Korean Instrument of Surrender",
           "url": "https://www.archives.gov/historical-docs/todays-doc/?dod-date=902",
           "publisher": "U.S. National Archives",
           "type": "government"

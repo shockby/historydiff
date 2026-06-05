@@ -8,9 +8,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "国家総動員法",
+          "title": "National General Mobilization Law (in Japanese)",
           "url": "https://www.digital.archives.go.jp/",
-          "publisher": "国立公文書館デジタルアーカイブ",
+          "publisher": "National Archives Digital Archive",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "朝鮮人強制連行の記録",
+          "title": "Records of forced abduction of Koreans (in Japanese)",
           "url": "https://www.jica.go.jp/",
-          "publisher": "各種学術研究",
+          "publisher": "Various academic research",
           "type": "academic"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "Treaty exists (different interpretations)",
       "sources": [
         {
-          "title": "日韓請求権並びに経済協力協定",
+          "title": "Japan-Korea Claims and Economic Cooperation Agreement (in Japanese)",
           "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
-          "publisher": "日本国外務省",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
@@ -52,7 +52,7 @@
     {
       "id": "fl-2018-supreme-court",
       "claim": "South Korean Supreme Court judgment in 2018 ordered Japanese companies to pay compensation",
-      "context": "On October 30, 2018, the South Korean Supreme Court ordered Nippon Steel & Sumitomo Metal (now Nippon Steel) to pay compensation of 100 million won each to four former conscripted workers. It has been determined that the right to claim compensation for damages based on the illegality of colonial rule is not covered by the Claims Agreement.",
+      "context": "On October 30, 2018, the South Korean Supreme Court ordered Nippon Steel & Sumitomo Metal (now Nippon Steel) to pay compensation of 100 million won each to four former conscripted workers. It was determined that the right to claim compensation for damages based on the illegality of colonial rule was not covered by the Claims Agreement.",
       "verdict": "Official records available",
       "sources": [
         {
@@ -62,9 +62,9 @@
           "type": "media"
         },
         {
-          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "title": "Statement by the Minister of Foreign Affairs on the issue of workers from the former Korean Peninsula (in Japanese)",
           "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
-          "publisher": "日本国外務省",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -76,9 +76,9 @@
       "verdict": "There is a wide range of estimates.",
       "sources": [
         {
-          "title": "日本における朝鮮人の強制連行・強制労働",
+          "title": "Forced recruitment and forced labor of Koreans in Japan (in Japanese)",
           "url": "https://www.jstage.jst.go.jp/",
-          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "publisher": "Japan Society for the Promotion of Science (paper published on J-STAGE)",
           "type": "academic"
         }
       ]
@@ -92,7 +92,7 @@
         {
           "title": "Sites of Japan's Meiji Industrial Revolution",
           "url": "https://whc.unesco.org/en/list/1484",
-          "publisher": "UNESCO World Heritage Centre",
+          "publisher": "UNESCO World Heritage Center",
           "type": "international"
         }
       ]
@@ -104,13 +104,13 @@
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "花岡事件を語り継ぐ（大館市）",
+          "title": "Handing down the story of the Hanaoka Incident (Odate City) (in Japanese)",
           "url": "https://www.city.odate.lg.jp/",
-          "publisher": "秋田県大館市",
+          "publisher": "Odate City, Akita Prefecture",
           "type": "government"
         },
         {
-          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "title": "Chinese, Kajima settle suit on wartime forced labor (in Japanese)",
           "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
           "publisher": "The Japan Times",
           "type": "media"

@@ -8,9 +8,9 @@
       "verdict": "Historical facts (confirmed as self-produced)",
       "sources": [
         {
-          "title": "極東国際軍事裁判記録",
+          "title": "Far East International Military Tribunal Records (in Japanese)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "Asian Historical Records Center (JACAR)",
           "type": "archive"
         }
       ]
@@ -22,7 +22,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "Report of the Commission of Enquiry (Lytton Report)",
+          "title": "Report of the Commission of Inquiry (Lytton Report)",
           "url": "https://digital.library.northwestern.edu/league/le000003.pdf",
           "publisher": "League of Nations",
           "type": "international"
@@ -36,9 +36,9 @@
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "満洲国関連資料",
+          "title": "Manchukuo related materials (in Japanese)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "Asian Historical Records Center (JACAR)",
           "type": "archive"
         }
       ]

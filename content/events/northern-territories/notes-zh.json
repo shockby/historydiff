@@ -8,15 +8,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "北方領土問題の経緯（外務省）",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "北方领土问题的历史（外交部）",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "日魯通好条約（デジタルアーカイブ）",
+          "title": "日俄商工条约（数字档案） (日语)",
           "url": "https://www.digital.archives.go.jp/",
-          "publisher": "国立公文書館",
+          "publisher": "国家档案馆",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "樺太・千島交換条約",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "库页岛-千岛交换条约",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -38,19 +38,19 @@
     {
       "id": "nt-yalta-agreement-1945",
       "claim": "1945年雅尔塔会议同意将千岛群岛移交给苏联。",
-      "context": "1945年2月，罗斯福（美国）、丘吉尔（英国）、斯大林（苏联）领导人在雅尔塔会议上秘密商定将千岛群岛移交给苏联，作为苏联参加对日战争的条件。日本没有参加会谈，日本和美国之间就该协议是否具有法律约束力存在争议。美国后来将该声明解释为“领导人个人目标的声明，不具有最终法律效力”。",
+      "context": "1945年2月，罗斯福（美国）、丘吉尔（英国）、斯大林（苏联）领导人在雅尔塔会议上秘密商定将千岛群岛移交给苏联，作为苏联参加对日战争的条件。日本没有参加会谈，日本和美国之间就该协议是否具有法律约束力存在争论。美国后来将该声明解释为“领导人个人目标的声明，不具有最终法律效力”。",
       "verdict": "文件存在（已讨论法律约束力）",
       "sources": [
         {
-          "title": "Yalta Agreement, February 11, 1945",
+          "title": "雅尔塔协定，1945 年 2 月 11 日",
           "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
-          "publisher": "Yale Law School - Avalon Project",
+          "publisher": "耶鲁大学法学院-阿瓦隆项目",
           "type": "archive"
         },
         {
-          "title": "The Yalta Conference, 1945",
+          "title": "雅尔塔会议，1945年",
           "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
-          "publisher": "U.S. Department of State - Office of the Historian",
+          "publisher": "美国国务院 - 历史学家办公室",
           "type": "government"
         }
       ]
@@ -58,13 +58,13 @@
     {
       "id": "nt-soviet-neutrality-violation",
       "claim": "苏联违反有效的日苏中立条约，对日发动战争。",
-      "context": "虽然苏联于1945年4月5日通知苏联不再延长，但《日苏中立条约》（1941年缔结，有效期五年）一直有效到1946年4月。苏联于1945年8月8日对日宣战，并于次日9日开始侵华。关于这是否违反国际法条约存在争议。苏联以日本拒绝《波茨坦公告》为由，为日本参战的合法性辩护。",
+      "context": "《日苏中立条约》（1941年缔结，有效期五年）有效期至1946年4月，但苏联于1945年4月5日通知不再延期。苏联于1945年8月8日对日宣战，并于次日9日开始入侵。关于这是否违反国际法条约存在争议。苏联以日本拒绝《波茨坦公告》为由，为日本参战的合法性辩护。",
       "verdict": "历史事实（评价差异）",
       "sources": [
         {
-          "title": "日ソ中立条約",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "日苏中立条约",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -72,19 +72,19 @@
     {
       "id": "nt-sf-treaty-kuriles",
       "claim": "虽然日本在《旧金山和约》中放弃了千岛群岛，但解释为不包括北方四岛。",
-      "context": "根据 1951 年《旧金山和平条约》第 2 条（c）款，日本放弃千岛群岛。然而，该条约没有界定千岛群岛的范围，也没有具体说明将放弃千岛群岛的国家名称。日本政府在首次国会会议上（1951年10月，条约总干事西村）发表声明，将国后岛和择捉岛纳入“基洛群岛”，但后来在1956年修改了意见，确立了北方四岛不包括在“基洛群岛”的立场。这一历史本身有时也被俄罗斯方面用来反驳。",
+      "context": "根据 1951 年《旧金山和平条约》第 2 条（c）款，日本放弃千岛群岛。然而，该条约没有界定千岛群岛的范围，也没有具体说明将放弃千岛群岛的国家名称。日本政府在首次国会会议上（条约总干事西村于1951年10月）发表声明，将国后岛和择捉岛纳入“基洛群岛”，但后来在1956年修改了意见，确立了北方四岛不包括在“基洛群岛”的立场。这一历史本身有时也被俄罗斯方面用来反驳。",
       "verdict": "条约存在（不同解释）",
       "sources": [
         {
-          "title": "Treaty of Peace with Japan (San Francisco Peace Treaty)",
+          "title": "对日和平条约（旧金山和平条约）",
           "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
-          "publisher": "United Nations Treaty Series",
+          "publisher": "联合国条约汇编",
           "type": "international"
         },
         {
-          "title": "北方領土問題に関する日本政府の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html",
-          "publisher": "日本国外務省",
+          "title": "六、日本政府在北方领土问题上的立场",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -96,15 +96,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "日ソ共同宣言（全文）",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "日苏联合声明（全文）",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "日ソ共同宣言（内閣府北方対策本部）",
-          "url": "https://www8.cao.go.jp/hoppo/",
-          "publisher": "内閣府",
+          "title": "日苏联合声明（内阁府、北方领土特遣部队）",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "内阁府",
           "type": "government"
         }
       ]
@@ -112,19 +112,19 @@
     {
       "id": "nt-dulles-memo-1956",
       "claim": "1956年，美国国务院表示北方四岛是“日本固有领土”。",
-      "context": "1956年9月7日，国务卿杜勒斯在一份备忘录中宣布，择捉岛和国后岛以及齿舞岛和色丹岛都是日本固有领土，应承认日本拥有主权。这份备忘录的背景是美国向日本政府施压，要求其归还全部四座岛屿（所谓“杜勒斯威胁”），而日本政府则试图在《日苏联合声明》中通过归还两座岛屿进行妥协。",
+      "context": "1956年9月7日，国务卿杜勒斯在一份备忘录中宣布，择捉岛和国后岛以及齿舞岛和色丹岛都是日本固有领土，应承认日本拥有主权。这份备忘录的背景是美国向日本政府施压，要求其归还所有四个岛屿（即所谓的“杜勒斯威胁”），而日本政府试图在《日苏联合声明》中通过归还两座岛屿来妥协。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "北方領土問題に関する米国の立場",
-          "url": "https://www8.cao.go.jp/hoppo/",
-          "publisher": "内閣府北方対策本部",
+          "title": "四、美国在北方领土问题上的立场",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "内阁府北方对策本部",
           "type": "government"
         },
         {
-          "title": "Foreign Relations of the United States (FRUS)",
+          "title": "美国对外关系（FRUS）",
           "url": "https://history.state.gov/historicaldocuments",
-          "publisher": "U.S. Department of State - Office of the Historian",
+          "publisher": "美国国务院 - 历史学家办公室",
           "type": "government"
         }
       ]
@@ -136,9 +136,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Constitution of the Russian Federation (2020 Amendments)",
+          "title": "俄罗斯联邦宪法（2020年修正案）",
           "url": "http://www.constitution.ru/en/10003000-01.htm",
-          "publisher": "Constitution of Russia",
+          "publisher": "俄罗斯宪法",
           "type": "government"
         }
       ]
@@ -150,9 +150,9 @@
       "verdict": "确定日期和时间（法律评估差异）",
       "sources": [
         {
-          "title": "北方領土の歴史（内閣府）",
-          "url": "https://www8.cao.go.jp/hoppo/mondai/01.html",
-          "publisher": "内閣府北方対策本部",
+          "title": "北方领土历史（内阁办公室）",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "内阁府北方对策本部",
           "type": "government"
         }
       ]

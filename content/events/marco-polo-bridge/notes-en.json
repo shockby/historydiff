@@ -8,9 +8,9 @@
       "verdict": "The incident has been confirmed (the source of the shooting is discussed)",
       "sources": [
         {
-          "title": "盧溝橋事件関連資料",
+          "title": "Documents related to the Marco Polo Bridge Incident (in Japanese)",
           "url": "https://www.jacar.archives.go.jp/",
-          "publisher": "アジア歴史資料センター（JACAR）",
+          "publisher": "Asian Historical Records Center (JACAR)",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "Historical facts",
       "sources": [
         {
-          "title": "日中戦争の経緯",
+          "title": "History of the Sino-Japanese War (in Japanese)",
           "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
-          "publisher": "日本国外務省",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]

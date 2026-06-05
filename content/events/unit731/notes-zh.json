@@ -8,15 +8,15 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "Materials on the Trial of Former Servicemen of the Japanese Army (Khabarovsk Trial)",
+          "title": "审判原日军军人的材料（哈巴罗夫斯克审判）",
           "url": "https://www.legal-tools.org/",
-          "publisher": "International Legal Resources",
+          "publisher": "国际法律资源",
           "type": "international"
         },
         {
-          "title": "731部隊罪証陳列館",
+          "title": "731部队刑事证据陈列馆",
           "url": "http://www.unit731.org/",
-          "publisher": "侵華日軍第七三一部隊罪証陳列館",
+          "publisher": "侵华军第731行会证物陈列馆",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "有正式记录（文件已公开）",
       "sources": [
         {
-          "title": "Japanese Biological Warfare 1932-1945 and the American Cover-Up",
+          "title": "1932-1945 年的日本生物战和美国的掩盖",
           "url": "https://www.archives.gov/iwg/japanese-war-crimes",
-          "publisher": "U.S. National Archives (IWG)",
+          "publisher": "美国国家档案馆（IWG）",
           "type": "government"
         }
       ]
@@ -42,9 +42,9 @@
       "verdict": "三、讨论",
       "sources": [
         {
-          "title": "731部隊名簿（国立公文書館所蔵）",
+          "title": "731部队名单（国家档案馆保存） (日语)",
           "url": "https://www.archives.go.jp/",
-          "publisher": "国立公文書館",
+          "publisher": "国家档案馆",
           "type": "archive"
         }
       ]

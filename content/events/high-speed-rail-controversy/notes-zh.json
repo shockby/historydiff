@@ -8,9 +8,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "中国高速鉄道 - Wikipedia",
+          "title": "中国高铁-维基百科",
           "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "reference"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "温州高速鉄道追突事故 - Wikipedia",
+          "title": "温州高铁追尾事故——维基百科",
           "url": "https://ja.wikipedia.org/wiki/%E6%B8%A9%E5%B7%9E%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93%E8%BF%BD%E7%AA%81%E4%BA%8B%E6%95%85",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "reference"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "韓国高速鉄道 - Wikipedia",
+          "title": "韩国高铁——维基百科",
           "url": "https://ja.wikipedia.org/wiki/%E9%93%93%E5%9B%BD%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "reference"
         }
       ]
@@ -50,23 +50,23 @@
       "verdict": "事实争议",
       "sources": [
         {
-          "title": "中国、新幹線の特許申請へ？ 日本側は「容認できない」",
+          "title": "中国将申请新干线专利？日本表示这是“不可接受的”",
           "url": "https://www.asahi.com/",
-          "publisher": "朝日新聞",
+          "publisher": "朝日新闻",
           "type": "media"
         }
       ]
     },
     {
       "id": "hsr-shinkansen-safety-record",
-      "claim": "新干线开通60多年来，商业运营中因碰撞或脱轨而造成的乘客死亡为零。",
+      "claim": "新干线开通60多年来，没有发生过商业运营中因碰撞、脱轨而导致乘客死亡的事件。",
       "context": "东海道新干线自1964年开通以来，从未发生过商业运营中因碰撞或出轨而导致乘客死亡的事故。在地震多发国家日本，这一记录是通过列车自动控制（ATC）、地震早期探测预警系统（UrEDAS）、防脱轨警卫等多重安全措施保持的。 2004年新泻县中越地震时，上越新干线曾发生脱轨事故，但没有造成乘客伤亡。",
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "新幹線の安全性 - JR東海",
+          "title": "新干线安全-JR东海 (日语)",
           "url": "https://company.jr-central.co.jp/",
-          "publisher": "東海旅客鉄道株式会社",
+          "publisher": "中央铁路公司",
           "type": "government"
         }
       ]
@@ -78,9 +78,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Jakarta-Bandung High-Speed Railway",
+          "title": "雅加达-万隆高铁",
           "url": "https://en.wikipedia.org/wiki/Jakarta%E2%80%93Bandung_high-speed_railway",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "reference"
         }
       ]
@@ -92,9 +92,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "台湾高速鉄道 - Wikipedia",
+          "title": "台湾高铁 - 维基百科",
           "url": "https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E9%AB%98%E9%80%9F%E9%89%84%E9%81%93",
-          "publisher": "Wikipedia",
+          "publisher": "维基百科",
           "type": "reference"
         }
       ]

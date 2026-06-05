@@ -8,9 +8,9 @@
       "verdict": "Official records available (differences in evaluation)",
       "sources": [
         {
-          "title": "竹島に関する外務省の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "Ministry of Foreign Affairs’ position regarding Takeshima",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -23,8 +23,8 @@
       "sources": [
         {
           "title": "Rusk Letter (1951)",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省（引用）",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan (cited)",
           "type": "government"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "竹島問題の経緯",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "History of the Takeshima issue",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
@@ -51,14 +51,14 @@
     },
     {
       "id": "ts-icj-proposal",
-      "claim": "Japan has proposed referring the case to the International Court of Justice (ICJ), but South Korea has refused.",
+      "claim": "Japan proposes to refer the case to the International Court of Justice (ICJ), but South Korea rejects it",
       "context": "The Japanese government proposed referral to the ICJ three times: in 1954, 1962, and 2012. South Korea rejected both proposals, stating that ``Dokdo is South Korean territory and there is no territorial dispute.'' The ICJ's jurisdiction requires the consent of both parties, so if one party refuses, the case will not be successful.",
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "竹島の領有権に関するICJ付託の提案",
-          "url": "https://www.mofa.go.jp/mofaj/area/takeshima/index.html",
-          "publisher": "日本国外務省",
+          "title": "Proposal to refer the territorial rights of Takeshima to the ICJ",
+          "url": "https://www.mofa.go.jp/region/asia-paci/takeshima/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]

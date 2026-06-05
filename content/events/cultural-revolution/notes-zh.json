@@ -4,13 +4,13 @@
     {
       "id": "cr-1981-resolution",
       "claim": "一、1981年的历史决议将文化大革命概括为“内战”",
-      "context": "1981年6月，中共十一届六中全会通过的《关于建党以来若干历史问题的决议》明确否定文化大革命是“领导层错误发动、反革命集团利用的内战，给党、国家和人民造成深重灾难”。该决议至今仍是官方评价的依据直至今日，中国政府仍坚持执行。",
+      "context": "1981年6月，中共十一届六中全会通过的《关于建国以来党的若干历史问题的决议》明确否定文化大革命是“领导层错误发动的、被反革命集团利用的内战，给党、国家和人民带来了深重灾难”。直至今日，仍需中国政府的官方评估。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "建国以来の党の若干の歴史問題についての決議（1981年）",
+          "title": "四、关于建党以来一些历史问题的决议（1981年）",
           "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
-          "publisher": "人民日報（人民网）",
+          "publisher": "人民日报（People's Daily）",
           "type": "government"
         }
       ]
@@ -22,15 +22,15 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "Agents of Disorder: Inside China's Cultural Revolution",
+          "title": "混乱的代理人：中国文化大革命的内部",
           "url": "https://www.hup.harvard.edu/",
-          "publisher": "Harvard University Press",
+          "publisher": "哈佛大学出版社",
           "type": "academic"
         },
         {
-          "title": "China's Bloody Century",
+          "title": "中国的血腥世纪",
           "url": "https://www.hawaii.edu/powerkills/",
-          "publisher": "University of Hawaii",
+          "publisher": "夏威夷大学",
           "type": "academic"
         }
       ]
@@ -38,13 +38,13 @@
     {
       "id": "cr-mao-power-struggle",
       "claim": "文化大革命是一场从毛泽东手中夺回权力的政治斗争",
-      "context": "1958年开始的大跃进失败，估计有1500万至5500万人饿死。对此负有责任的毛泽东将国家主席的位置交给了刘少奇，他在党内的影响力下降。尽管文化大革命表面上是一场“防止资本主义回归”的意识形态运动，但许多历史学家将其分析为毛泽东推翻刘少奇和邓小平的务实主义并重新掌权的政治斗争。中国的官方立场是，此举是“因误判而引发的”，并没有强调此举是权力斗争的一面。",
+      "context": "1958年开始的大跃进失败，估计有15至5500万人饿死。对此负有责任的毛泽东将国家主席的位置交给了刘少奇，他在党内的影响力下降。尽管文化大革命表面上是一场“防止资本主义回归”的意识形态运动，但许多历史学家将其分析为毛泽东推翻刘少奇和邓小平的务实主义并重新掌权的政治斗争。中国的官方立场是，此举是“因误判而引发的”，并没有强调此举是权力斗争的一面。",
       "verdict": "学术上广泛支持",
       "sources": [
         {
-          "title": "The Cultural Revolution: A People's History, 1962-1976",
+          "title": "文化大革命：一部人民的历史，1962-1976",
           "url": "https://www.bloomsbury.com/",
-          "publisher": "Bloomsbury Publishing",
+          "publisher": "布卢姆斯伯里出版社",
           "type": "academic"
         }
       ]
@@ -56,9 +56,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "中国教育年鑑",
+          "title": "中国教育年鉴",
           "url": "https://www.moe.gov.cn/",
-          "publisher": "中華人民共和国教育部",
+          "publisher": "中华人民共和国教育部",
           "type": "government"
         }
       ]
@@ -70,9 +70,9 @@
       "verdict": "有多种证据。",
       "sources": [
         {
-          "title": "Mao's Last Revolution",
+          "title": "毛泽东的最后一次革命",
           "url": "https://www.hup.harvard.edu/",
-          "publisher": "Harvard University Press",
+          "publisher": "哈佛大学出版社",
           "type": "academic"
         }
       ]

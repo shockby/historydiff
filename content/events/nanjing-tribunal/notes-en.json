@@ -8,9 +8,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "南京大屠殺史料集 - 南京審判",
+          "title": "Nanjing Great Slaughter Historical Materials - Nanjing Judgment",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "Memorial Hall of the Japanese Invading Forces of Nanjing Massacre and Victims",
           "type": "archive"
         }
       ]
@@ -18,19 +18,19 @@
     {
       "id": "nt-hyakunin-giri",
       "claim": "Second Lieutenants Toshiaki Mukai and Takeshi Noda of the ``Hyakunin Slash Contest'' were sentenced to death.",
-      "context": "``Hyakunin Slash Competition'' is based on an article reported in ``Tokyo Nichiichi Shimbun'' (currently Mainichi Shimbun) in 1937. The same article reported that Second Lieutenants Mukai and Noda engaged in a 100-man ``competition'' with Japanese swords during the Battle of Nanjing. The Nanjing Military Tribunal used this article as key evidence and sentenced both men to death. In Japan, the family filed a defamation lawsuit in 2003, but lost (upheld by the Supreme Court in 2006). There is an ongoing debate in Japan as to whether the article was an exaggeration or a fabrication to boost fighting spirit.",
+      "context": "``Hyakunin Slash Competition'' is based on an article reported in ``Tokyo Nichi Nichi Shimbun'' (currently Mainichi Shimbun) in 1937. The same article reported that Second Lieutenants Mukai and Noda engaged in a 100-man ``competition'' with Japanese swords during the Battle of Nanjing. The Nanjing Military Tribunal used this article as key evidence and sentenced both men to death. In Japan, the family filed a defamation lawsuit in 2003, but lost (upheld by the Supreme Court in 2006). There is an ongoing debate in Japan as to whether the article was an exaggeration or a fabrication to boost fighting spirit.",
       "verdict": "Fact finding is controversial",
       "sources": [
         {
-          "title": "百人斬り訴訟 最高裁決定",
+          "title": "Supreme Court decision on Hyakunin-kiri lawsuit (in Japanese)",
           "url": "https://www.courts.go.jp/",
-          "publisher": "裁判所",
+          "publisher": "Court",
           "type": "government"
         },
         {
-          "title": "東京日日新聞（1937年11月-12月の報道）",
+          "title": "Tokyo Nichinichi Shimbun (reports from November to December 1937) (in Japanese)",
           "url": "https://mainichi.jp/",
-          "publisher": "毎日新聞社",
+          "publisher": "Mainichi Shimbun",
           "type": "media"
         }
       ]
@@ -42,15 +42,15 @@
       "verdict": "There is a wide range of estimates.",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "Judgment of the International Military Tribunal for the Far East",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
           "publisher": "International Criminal Court - Legal Tools Database",
           "type": "international"
         },
         {
-          "title": "『南京事件』",
+          "title": "“Nanjing Incident” (in Japanese)",
           "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
-          "publisher": "中公新書（秦郁彦）",
+          "publisher": "Chuko Shinsho (Ikuhiko Hata)",
           "type": "media"
         }
       ]
@@ -62,7 +62,7 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "Judgment of the International Military Tribunal for the Far East",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
           "publisher": "International Criminal Court - Legal Tools Database",
           "type": "international"
@@ -78,7 +78,7 @@
         {
           "title": "Memorial Hall of the Victims in Nanjing Massacre",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "Memorial Hall of the Japanese Invading Forces of Nanjing Massacre and Victims",
           "type": "archive"
         }
       ]

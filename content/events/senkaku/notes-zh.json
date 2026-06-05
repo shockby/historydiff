@@ -8,9 +8,9 @@
       "verdict": "可用的官方记录（不同解释）",
       "sources": [
         {
-          "title": "尖閣諸島に関する外務省の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
-          "publisher": "日本国外務省",
+          "title": "外务省关于尖阁列岛的立场",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "时间序列确认",
       "sources": [
         {
-          "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
-          "url": "https://www.mofa.go.jp/mofaj/area/senkaku/index.html",
-          "publisher": "United Nations ECAFE (via MOFA)",
+          "title": "ECAFE报告：东海和黄海的地质结构和一些水体特征",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+          "publisher": "联合国 ECAFE（通过外交部）",
           "type": "international"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "U.S.-Japan Joint Statement (2014)",
+          "title": "美日联合声明（2014）",
           "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/04/24/us-japan-joint-statement",
-          "publisher": "The White House",
+          "publisher": "白宫",
           "type": "government"
         }
       ]

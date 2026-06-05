@@ -4,7 +4,7 @@
     {
       "id": "ta-casualty-count",
       "claim": "The number of victims is said to be from hundreds to thousands, but the exact number is unknown.",
-      "context": "There are various theories about the number of victims of the Tiananmen Incident, and the exact number is still unknown. The Chinese government officially announced that there were approximately 200 to 300 people (including military personnel). The Chinese Red Cross initially announced that the number would be 2,600, but later withdrew the number. In British diplomatic documents declassified in 2017, Alan Donald, the British ambassador to China, reported back home that the \"minimum estimate is 10,000 civilian deaths.\" Many researchers support estimates ranging from a few hundred people to over a thousand.",
+      "context": "There are various theories about the number of victims of the Tiananmen Incident, and the exact number is still unknown. The Chinese government officially announced that there were about 200 to 300 people (including military personnel). The Chinese Red Cross initially announced that the number would be 2,600, but later withdrew the number. In British diplomatic documents declassified in 2017, Alan Donald, the British ambassador to China, reported back home that the \"minimum estimate is 10,000 civilian deaths.\" Many researchers support estimates ranging from a few hundred people to over a thousand.",
       "verdict": "Estimates vary (large discrepancy between official figures and international estimates)",
       "sources": [
         {
@@ -42,7 +42,7 @@
       "verdict": "There are multiple lines of evidence.",
       "sources": [
         {
-          "title": "The People's Republic of Amnesia: Tiananmen Revisited",
+          "title": "The People's Republic of Amnesia: Tiananmen Revisited (in Japanese)",
           "url": "https://www.oupjapan.co.jp/",
           "publisher": "Oxford University Press",
           "type": "academic"

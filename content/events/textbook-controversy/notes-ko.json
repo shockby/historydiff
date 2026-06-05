@@ -8,9 +8,9 @@
       "verdict": "보도의 정확성에 논의",
       "sources": [
         {
-          "title": "教科書検定基準の改定（近隣諸国条項の新設）",
+          "title": "교과서 검정 기준의 개정(근린 제국 조항의 신설) (일본어)",
           "url": "https://www.mext.go.jp/",
-          "publisher": "文部科学省",
+          "publisher": "문부과학성",
           "type": "government"
         }
       ]
@@ -18,13 +18,13 @@
     {
       "id": "tc-neighboring-countries-clause",
       "claim": "1982년에 「근린제국조항」이 교과서 검정기준에 추가되었다",
-      "context": "1982년 11월 24일 문부성은 교과서 검정 기준에 “인근 아시아 국가들 사이의 근현대 역사적 사건의 취급에 국제 이해와 국제 협조의 관점에서 필요한 배려가 되고 있는 것”이라는 조항을 추가했다. 미야자와 키이치 관방장관이 담화를 발표하고 정부로서 검정 개선을 약속했다.",
+      "context": "1982년 11월 24일 문부성은 교과서 검정 기준에 “인근 아시아 국가들과의 근현대 역사적 사건의 취급에 국제 이해와 국제 협조의 관점에서 필요한 배려가 되고 있는 것”이라는 조항을 추가했다. 미야자와 키이치 관방장관이 담화를 발표하고 정부로서 검정 개선을 약속했다.",
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "宮沢官房長官談話（1982年）",
-          "url": "https://www.mofa.go.jp/mofaj/area/taisen/miyazawa.html",
-          "publisher": "日本国外務省",
+          "title": "미야자와 관방장관 담화(1982년)",
+          "url": "https://www.mofa.go.jp/policy/postwar/state8208.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "教科書検定結果（文部科学省）",
+          "title": "교과서 검정 결과(문부 과학성) (일본어)",
           "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/",
-          "publisher": "文部科学省",
+          "publisher": "문부과학성",
           "type": "government"
         }
       ]

@@ -8,15 +8,15 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "远东国际军事法庭的判决",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
-          "publisher": "International Criminal Court - Legal Tools Database",
+          "publisher": "国际刑事法院 - 法律工具数据库",
           "type": "international"
         },
         {
-          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "title": "南京大屠杀遇难同胞纪念馆",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "南京侵华日军大屠杀及受难同胞纪念馆",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "International Military Tribunal for the Far East",
+          "title": "远东国际军事法庭",
           "url": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
-          "publisher": "United Nations",
+          "publisher": "联合国",
           "type": "international"
         }
       ]
@@ -38,13 +38,13 @@
     {
       "id": "nm-rabe-safety-zone",
       "claim": "德国商人约翰·拉贝等建立“南京安全区”",
-      "context": "约翰·拉贝是德国西门子公司的员工，曾担任南京安全区国际委员会主席，该委员会保护了约20万中国平民。拉贝的日记发表于1997年，被认为是详细记录南京情况的第一手资料。",
+      "context": "约翰·拉贝是德国西门子公司的员工，曾担任南京安全区国际委员会主席，该委员会保护了约20万中国平民。拉贝的日记出版于1997年，被认为是详细记录南京情况的第一手资料。",
       "verdict": "历史事实",
       "sources": [
         {
-          "title": "The Good Man of Nanking: The Diaries of John Rabe",
+          "title": "南京好人：约翰·拉贝日记",
           "url": "https://www.penguinrandomhouse.com/books/167904/the-good-man-of-nanking-by-john-rabe/",
-          "publisher": "Penguin Random House",
+          "publisher": "企鹅兰登书屋",
           "type": "media"
         }
       ]
@@ -56,9 +56,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "China designates December 13 as national day of mourning for Nanjing Massacre victims",
+          "title": "四、中国将12月13日定为南京大屠杀死难者全国哀悼日",
           "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
-          "publisher": "Reuters",
+          "publisher": "路透社",
           "type": "media"
         }
       ]

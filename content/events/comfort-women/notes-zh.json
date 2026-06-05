@@ -8,15 +8,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "河野談話全文（外務省）",
-          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
-          "publisher": "日本国外務省",
+          "title": "河野声明全文（外交部）",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "title": "内阁官房长官河野洋平的发言 (日语)",
           "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
-          "publisher": "Ministry of Foreign Affairs of Japan",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -28,15 +28,15 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "日韓外相会談（2015年12月28日）",
-          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
-          "publisher": "日本国外務省",
+          "title": "日韩外长会晤（2015年12月28日）",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "日本外务省",
           "type": "government"
         },
         {
-          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "title": "六、日韩外长公告 (日语)",
           "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
-          "publisher": "Ministry of Foreign Affairs of Japan",
+          "publisher": "日本外务省",
           "type": "government"
         }
       ]
@@ -48,9 +48,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "アジア女性基金とその活動",
+          "title": "亚洲妇女基金会及其活动 (日语)",
           "url": "https://www.awf.or.jp/",
-          "publisher": "アジア女性基金（デジタル記念館）",
+          "publisher": "亚洲妇女基金会（数字纪念博物馆）",
           "type": "archive"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "三、讨论",
       "sources": [
         {
-          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "title": "河野内阁官房长官关于慰安妇调查结果公布的说法的核实 (日语)",
           "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
-          "publisher": "内閣官房",
+          "publisher": "内阁官房",
           "type": "government"
         }
       ]
@@ -76,9 +76,9 @@
       "verdict": "事实核查",
       "sources": [
         {
-          "title": "'Comfort women' rally marks 1,000th weekly protest",
+          "title": "“慰安妇”集会标志着第1000次每周抗议",
           "url": "https://www.bbc.com/news/world-asia-16191689",
-          "publisher": "BBC News",
+          "publisher": "英国广播公司新闻",
           "type": "media"
         }
       ]
@@ -90,9 +90,9 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "Comfort Women: A Movement for Justice and Women's Rights in the United States",
+          "title": "慰安妇：美国的正义和妇女权利运动",
           "url": "https://www.amnesty.org/en/documents/asa22/012/2005/en/",
-          "publisher": "Amnesty International",
+          "publisher": "国际特赦组织",
           "type": "ngo"
         }
       ]
@@ -104,9 +104,9 @@
       "verdict": "存在正式记录（有效性有争议）",
       "sources": [
         {
-          "title": "South Korea court orders Japan to compensate 'comfort women'",
+          "title": "韩国法院命令日本赔偿“慰安妇”",
           "url": "https://www.reuters.com/article/us-southkorea-japan-comfortwomen-idUSKBN29D03U",
-          "publisher": "Reuters",
+          "publisher": "路透社",
           "type": "media"
         }
       ]

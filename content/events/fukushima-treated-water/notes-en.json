@@ -4,19 +4,19 @@
     {
       "id": "ftw-tritium-comparison",
       "claim": "The annual amount of tritium released from Fukushima's ALPS treated water (less than 22 trillion becquerels) is lower than the amount released from major nuclear power plants in China and South Korea.",
-      "context": "The Japanese government has set a tritium release control target for Fukushima of less than 22 trillion becquerels per year. On the other hand, China's Qinshan nuclear power plant releases approximately 143 trillion becquerels (2020), Yangjiang nuclear power plant releases approximately 112 trillion becquerels (2021), and South Korea's Wolseong nuclear power plant releases approximately 71 trillion becquerels (2021) of liquid tritium during normal operation. While this is true when comparing numbers, China and South Korea emphasize the difference in the nature of ``normal operation wastewater'' and ``treated water from accidents,'' and argue that a simple comparison is inappropriate.",
+      "context": "The Japanese government has set a tritium release control target for Fukushima of less than 22 trillion becquerels per year. Meanwhile, China's Qinshan nuclear power plant releases approximately 143 trillion becquerels (2020), Yangjiang nuclear power plant releases approximately 112 trillion becquerels (2021), and South Korea's Wolseong nuclear power plant releases approximately 71 trillion becquerels (2021) of liquid tritium during normal operation. While this is true when comparing numbers, China and South Korea emphasize the difference in the nature of ``normal operation wastewater'' and ``treated water from accidents,'' and argue that a simple comparison is inappropriate.",
       "verdict": "Numerical data has been confirmed (differences in interpretation)",
       "sources": [
         {
-          "title": "ALPS処理水の処分に関するQ&A",
+          "title": "Q&A regarding disposal of ALPS treated water (in Japanese)",
           "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
-          "publisher": "日本国環境省",
+          "publisher": "Ministry of the Environment, Japan",
           "type": "government"
         },
         {
-          "title": "各国の原子力施設のトリチウム排出量",
+          "title": "Tritium emissions from nuclear facilities in each country (in Japanese)",
           "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
-          "publisher": "経済産業省",
+          "publisher": "Ministry of Economy, Trade and Industry",
           "type": "government"
         }
       ]
@@ -28,15 +28,15 @@
       "verdict": "Facts (there is a reprocessing mechanism)",
       "sources": [
         {
-          "title": "ALPS処理水ポータルサイト",
+          "title": "ALPS treated water portal site (in Japanese)",
           "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
-          "publisher": "東京電力ホールディングス",
+          "publisher": "Tokyo Electric Power Company Holdings",
           "type": "government"
         },
         {
           "title": "IAEA Safety Review of ALPS Treated Water",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "International Atomic Energy Agency (IAEA)",
           "type": "international"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "中国による日本産水産物の輸入規制について",
+          "title": "China's import restrictions on Japanese marine products (in Japanese)",
           "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
-          "publisher": "農林水産省",
+          "publisher": "Ministry of Agriculture, Forestry and Fisheries",
           "type": "government"
         }
       ]
@@ -72,13 +72,13 @@
     {
       "id": "ftw-iaea-conclusion",
       "claim": "IAEA concludes that treated water discharge complies with international safety standards",
-      "context": "The IAEA published a comprehensive assessment report in July 2023, concluding that ``Japan's ALPS treated water release plan and related activities comply with relevant international safety standards'' and ``radiological effects on humans and the environment are negligible.'' The IAEA has established a permanent office in Fukushima and is conducting continuous monitoring and verification. Although China initially expressed skepticism about the IAEA's conclusions, it agreed to participate in monitoring through the IAEA framework from 2024 onwards.",
+      "context": "The IAEA published a comprehensive assessment report in July 2023, concluding that \"Japan's ALPS treated water release plan and related activities comply with relevant international safety standards\" and \"radiological effects on humans and the environment are negligible.\" The IAEA has established a permanent office in Fukushima and is conducting continuous monitoring and verification. Although China initially expressed skepticism about the IAEA's conclusions, it agreed to participate in monitoring through the IAEA framework from 2024 onwards.",
       "verdict": "Confirmed in official report",
       "sources": [
         {
           "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "International Atomic Energy Agency (IAEA)",
           "type": "international"
         }
       ]
@@ -90,9 +90,9 @@
       "verdict": "Confirmed by news reports",
       "sources": [
         {
-          "title": "韓国の処理水対応予算に関する報道",
+          "title": "Reports on South Korea’s budget for treated water",
           "url": "https://www.yonhapnews.co.kr/",
-          "publisher": "聯合ニュース",
+          "publisher": "Yonhap News",
           "type": "media"
         }
       ]

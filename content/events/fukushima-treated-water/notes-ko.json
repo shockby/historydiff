@@ -8,15 +8,15 @@
       "verdict": "수치 데이터는 확인 완료(해석에 차이)",
       "sources": [
         {
-          "title": "ALPS処理水の処分に関するQ&A",
+          "title": "ALPS 처리수의 처분에 관한 Q&A (일본어)",
           "url": "https://www.env.go.jp/chemi/rhm/r5kisoshiryo/r5kiso-06-03-14.html",
-          "publisher": "日本国環境省",
+          "publisher": "일본국 환경성",
           "type": "government"
         },
         {
-          "title": "各国の原子力施設のトリチウム排出量",
+          "title": "각국의 원자력시설의 트리튬 배출량 (일본어)",
           "url": "https://www.meti.go.jp/earthquake/nuclear/hairo_osensui/alps.html",
-          "publisher": "経済産業省",
+          "publisher": "경제산업성",
           "type": "government"
         }
       ]
@@ -28,15 +28,15 @@
       "verdict": "사실(재처리의 구조 있음)",
       "sources": [
         {
-          "title": "ALPS処理水ポータルサイト",
+          "title": "ALPS 처리 물 포털 사이트 (일본어)",
           "url": "https://www.tepco.co.jp/decommission/progress/watertreatment/alps01/",
-          "publisher": "東京電力ホールディングス",
+          "publisher": "도쿄 전력 홀딩스",
           "type": "government"
         },
         {
           "title": "IAEA Safety Review of ALPS Treated Water",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "국제원자력기관(IAEA)",
           "type": "international"
         }
       ]
@@ -44,7 +44,7 @@
     {
       "id": "ftw-china-transparency",
       "claim": "중국은 자국 원전의 방사성 물질 배출 데이터 공개가 충분하지 않다.",
-      "context": "중국의 '중국핵능연감 2024'에서는 자국의 원자력발전소에서 방사성물질의 배출에 대해 구체적인 수치데이터가 기재되지 않고 '국가기준의 범위내' '환경에 악영향 없음'이라는 설명에 그쳤다. 일본이나 IAEA가 요구하는 투명성의 기준과 비교하여 정보공시가 불충분하다는 지적이 이루어지고 있다. 중국 정부는 배출이 엄격하게 관리되고 있다고 주장한다.",
+      "context": "중국의 '중국핵능연감 2024'에서는 자국의 원자력발전소에서 방사성물질의 배출에 대해 구체적인 수치데이터가 기재되지 않고 '국가기준의 범위내' '환경에 악영향 없음'이라는 기술에 그쳤다. 일본이나 IAEA가 요구하는 투명성의 기준과 비교하여 정보공시가 불충분하다는 지적이 이루어지고 있다. 중국 정부는 배출이 엄격하게 관리되고 있다고 주장한다.",
       "verdict": "데이터 비공개는 확인됨",
       "sources": [
         {
@@ -62,9 +62,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "中国による日本産水産物の輸入規制について",
+          "title": "중국에 의한 일본산 수산물의 수입 규제에 대해서 (일본어)",
           "url": "https://www.maff.go.jp/j/export/e_shoumei/china.html",
-          "publisher": "農林水産省",
+          "publisher": "농림 수산성",
           "type": "government"
         }
       ]
@@ -78,7 +78,7 @@
         {
           "title": "IAEA Comprehensive Report on the Safety Review of the ALPS-Treated Water",
           "url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident/fukushima-daiichi-alps-treated-water-discharge",
-          "publisher": "国際原子力機関（IAEA）",
+          "publisher": "국제원자력기관(IAEA)",
           "type": "international"
         }
       ]
@@ -90,9 +90,9 @@
       "verdict": "보도로 확인 완료",
       "sources": [
         {
-          "title": "韓国の処理水対応予算に関する報道",
+          "title": "한국의 처리수 대응 예산에 관한 보도",
           "url": "https://www.yonhapnews.co.kr/",
-          "publisher": "聯合ニュース",
+          "publisher": "연합 뉴스",
           "type": "media"
         }
       ]

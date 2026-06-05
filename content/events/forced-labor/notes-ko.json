@@ -8,9 +8,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "国家総動員法",
+          "title": "국가총동원법 (일본어)",
           "url": "https://www.digital.archives.go.jp/",
-          "publisher": "国立公文書館デジタルアーカイブ",
+          "publisher": "국립 공문서관 디지털 아카이브",
           "type": "archive"
         }
       ]
@@ -22,9 +22,9 @@
       "verdict": "역사적 사실",
       "sources": [
         {
-          "title": "朝鮮人強制連行の記録",
+          "title": "조선인 강제연행 기록 (일본어)",
           "url": "https://www.jica.go.jp/",
-          "publisher": "各種学術研究",
+          "publisher": "각종 학술 연구",
           "type": "academic"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "조약은 존재(해석에 차이)",
       "sources": [
         {
-          "title": "日韓請求権並びに経済協力協定",
+          "title": "한일청구권 및 경제협력협정 (일본어)",
           "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/A-S40-293_1.pdf",
-          "publisher": "日本国外務省",
+          "publisher": "일본국 외무성",
           "type": "government"
         },
         {
@@ -62,9 +62,9 @@
           "type": "media"
         },
         {
-          "title": "旧朝鮮半島出身労働者問題に関する外務大臣談話",
+          "title": "구한반도 출신 노동자 문제에 관한 외무대신 담화 (일본어)",
           "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_004440.html",
-          "publisher": "日本国外務省",
+          "publisher": "일본국 외무성",
           "type": "government"
         }
       ]
@@ -76,9 +76,9 @@
       "verdict": "추정에 폭 있음",
       "sources": [
         {
-          "title": "日本における朝鮮人の強制連行・強制労働",
+          "title": "일본에서의 조선인의 강제연행·강제노동 (일본어)",
           "url": "https://www.jstage.jst.go.jp/",
-          "publisher": "日本学術振興会（J-STAGE掲載論文）",
+          "publisher": "일본 학술 진흥회(J-STAGE 게재 논문)",
           "type": "academic"
         }
       ]
@@ -104,13 +104,13 @@
       "verdict": "역사적 사실",
       "sources": [
         {
-          "title": "花岡事件を語り継ぐ（大館市）",
+          "title": "하나오카 사건을 계승한다(오다테시) (일본어)",
           "url": "https://www.city.odate.lg.jp/",
-          "publisher": "秋田県大館市",
+          "publisher": "아키타현 오다테시",
           "type": "government"
         },
         {
-          "title": "Chinese, Kajima settle suit on wartime forced labor",
+          "title": "Chinese, Kajima settle suit on wartime forced labor (일본어)",
           "url": "https://www.japantimes.co.jp/news/2000/11/29/national/chinese-kajima-settle-suit-on-wartime-forced-labor/",
           "publisher": "The Japan Times",
           "type": "media"

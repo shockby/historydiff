@@ -8,9 +8,9 @@
       "verdict": "추정에 폭 있음",
       "sources": [
         {
-          "title": "中国抗日戦争の犠牲者数",
+          "title": "중국 항일전쟁의 희생자수",
           "url": "https://www.mfa.gov.cn/",
-          "publisher": "中華人民共和国外交部",
+          "publisher": "중화인민공화국 외교부",
           "type": "government"
         }
       ]
@@ -18,13 +18,13 @@
     {
       "id": "w2a-murayama-statement",
       "claim": "1995년 무라야마 담화에서 일본은 “식민지 지배와 침략”에 대해 “통절한 반성과 진심의 사과”를 표명",
-      "context": "1995년 8월 15일 무라야마 토미시 총리가 각의 결정에 따라 담화를 발표. “우리는 멀지 않은 과거의 일시기, 국책을 잘못, 전쟁으로 가는 길을 걸어 국민을 존망의 위기에 빠져 식민지 지배와 침략에 의해 많은 나라들, 특히 아시아 국가 사람들에게 많은 피해와 고통을 주었습니다”라고 표명. 이후 역대 총리도 기본적으로 이 담화를 답습하고 있다.",
+      "context": "1995년 8월 15일 무라야마 토미시 총리가 각의 결정에 따라 담화를 발표. “우리는 멀지 않은 과거 일시기, 국책을 잘못하고 전쟁으로 가는 길을 걸어 국민을 존망의 위기에 빠져 식민지 지배와 침략에 의해 많은 나라들, 특히 아시아 국가 사람들에게 많은 피해와 고통을 주었습니다”라고 표명. 이후 역대 총리도 기본적으로 이 담화를 답습하고 있다.",
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "村山内閣総理大臣談話（1995年）",
-          "url": "https://www.mofa.go.jp/mofaj/press/danwa/07/dmu_0815.html",
-          "publisher": "日本国外務省",
+          "title": "무라야마 내각 총리 대신 담화(1995년)",
+          "url": "https://www.mofa.go.jp/announce/press/pm/murayama/9508.html",
+          "publisher": "일본국 외무성",
           "type": "government"
         }
       ]
@@ -36,9 +36,9 @@
       "verdict": "공식 기록 있음",
       "sources": [
         {
-          "title": "内閣総理大臣談話（戦後70年、2015年）",
-          "url": "https://www.kantei.go.jp/jp/97_abe/discource/20150814danwa.html",
-          "publisher": "首相官邸",
+          "title": "내각총리대신 담화(전후 70년, 2015년)",
+          "url": "https://japan.kantei.go.jp/97_abe/statement/201508/0814statement.html",
+          "publisher": "총리관저",
           "type": "government"
         }
       ]

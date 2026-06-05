@@ -8,15 +8,15 @@
       "verdict": "学术讨论中",
       "sources": [
         {
-          "title": "The Politics of China: Sixty Years of the People's Republic of China",
+          "title": "中国政治：中华人民共和国六十年",
           "url": "https://www.cambridge.org/",
-          "publisher": "Cambridge University Press",
+          "publisher": "剑桥大学出版社",
           "type": "academic"
         },
         {
-          "title": "Mao: The Unknown Story",
+          "title": "毛泽东：不为人知的故事",
           "url": "https://www.penguinrandomhouse.com/",
-          "publisher": "Penguin Random House",
+          "publisher": "企鹅兰登书屋",
           "type": "academic"
         }
       ]
@@ -28,29 +28,29 @@
       "verdict": "可用的官方记录（实际数字有待讨论）",
       "sources": [
         {
-          "title": "中国共産党党史（第二巻）",
+          "title": "中国共产党史（第二卷）",
           "url": "https://www.12371.cn/",
           "publisher": "中共中央党史研究室",
           "type": "government"
         },
         {
-          "title": "The Anti-Rightist Campaign and Its Aftermath",
+          "title": "六、反右运动及其后果",
           "url": "https://www.cambridge.org/",
-          "publisher": "Cambridge University Press",
+          "publisher": "剑桥大学出版社",
           "type": "academic"
         }
       ]
     },
     {
       "id": "hf-rehabilitation",
-      "claim": "1978年后，那些被贴上右翼标签的人的名声得到了恢复。",
+      "claim": "1978年以来，被标记为右翼的人得到了平反。",
       "context": "1978年，中国共产党承认扩大反右翼斗争是错误的，并对那些被认定为右翼的人进行全面恢复名誉（摘帽改造）。恢复名誉者达54万余人，但张伯钧、罗隆基、褚安平、彭文英、陈仁平五人被列为“真正的右翼分子”而被排除在恢复名单之外（最初有六人，后来又恢复了一人）。官方立场是反右翼斗争本身是“必要的”，并且只承认“扩张的错误”。",
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "関於全部摘掉右派分子帽子決定的実施方案",
+          "title": "四、消灭右翼分子的具体实施方案",
           "url": "https://www.gov.cn/",
-          "publisher": "中国国務院",
+          "publisher": "中国国务院",
           "type": "government"
         }
       ]
@@ -62,15 +62,15 @@
       "verdict": "学术上广泛支持",
       "sources": [
         {
-          "title": "Tombstone: The Great Chinese Famine, 1958-1962",
+          "title": "墓碑：中国大饥荒，1958-1962",
           "url": "https://us.macmillan.com/",
-          "publisher": "Farrar, Straus and Giroux",
+          "publisher": "法拉尔、斯特劳斯和吉鲁",
           "type": "academic"
         },
         {
-          "title": "Mao's Great Famine",
+          "title": "毛泽东的大饥荒",
           "url": "https://www.bloomsbury.com/",
-          "publisher": "Bloomsbury Publishing",
+          "publisher": "布卢姆斯伯里出版社",
           "type": "academic"
         }
       ]
@@ -78,13 +78,13 @@
     {
       "id": "hf-ding-ling",
       "claim": "著名知识分子因右翼而受到迫害。",
-      "context": "许多知名知识分子成为反右翼斗争的目标。作家丁玲被认定为右翼分子，被流放到北大然（东北边疆）。社会学家和人类学家费孝通、法律学者罗隆基和记者朱安平也被认为是右翼。此后楚安平失踪，至今下落不明。这些案件象征着反右斗争对中国的思想和文化生活造成的破坏性影响。",
+      "context": "许多知名知识分子成为反右翼斗争的目标。作家丁玲被认定为右翼分子，被流放到北大然（东北边疆）。社会学家和人类学家费孝通、法律学者罗隆基和记者朱安平也被认为是右翼分子。此后楚安平失踪，至今下落不明。这些案件象征着反右斗争对中国的思想和文化生活造成的破坏性影响。",
       "verdict": "有多种证据。",
       "sources": [
         {
-          "title": "The People's Republic of China, 1949-1979: A Documentary History",
+          "title": "中华人民共和国，1949-1979：一部纪实历史",
           "url": "https://www.degruyter.com/",
-          "publisher": "De Gruyter",
+          "publisher": "德格鲁特",
           "type": "academic"
         }
       ]

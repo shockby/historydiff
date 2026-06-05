@@ -8,15 +8,15 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "北方領土問題の経緯（外務省）",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "History of the Northern Territories issue (Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
-          "title": "日魯通好条約（デジタルアーカイブ）",
+          "title": "Japan-Russia Treaty of Commerce and Industry (Digital Archive) (in Japanese)",
           "url": "https://www.digital.archives.go.jp/",
-          "publisher": "国立公文書館",
+          "publisher": "National Archives",
           "type": "archive"
         }
       ]
@@ -28,9 +28,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "樺太・千島交換条約",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "Sakhalin-Chishima Exchange Treaty",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -58,13 +58,13 @@
     {
       "id": "nt-soviet-neutrality-violation",
       "claim": "The Soviet Union entered the war against Japan in violation of the valid Japan-Soviet Neutrality Treaty.",
-      "context": "Although the Soviet Union notified the Soviet Union on April 5, 1945 that it would not be extended, the Japan-Soviet Neutrality Treaty (concluded in 1941, valid for five years) remained in effect until April 1946. The Soviet Union declared war on Japan on August 8, 1945, and began its invasion the following day on the 9th. There is debate as to whether this is a violation of a treaty under international law. The Soviet Union argued for the legitimacy of Japan's participation in the war, citing Japan's rejection of the Potsdam Declaration.",
+      "context": "The Japan-Soviet Neutrality Treaty (concluded in 1941, valid for five years) remained in effect until April 1946, although the Soviet Union notified it of non-extension on April 5, 1945. The Soviet Union declared war on Japan on August 8, 1945, and began its invasion the following day on the 9th. There is debate as to whether this is a violation of a treaty under international law. The Soviet Union argued for the legitimacy of Japan's participation in the war, citing Japan's rejection of the Potsdam Declaration.",
       "verdict": "Historical facts (differences in evaluation)",
       "sources": [
         {
-          "title": "日ソ中立条約",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "Japan-Soviet Neutrality Treaty",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -72,7 +72,7 @@
     {
       "id": "nt-sf-treaty-kuriles",
       "claim": "Although Japan renounced the Kuril Islands in the San Francisco Peace Treaty, it is interpreted that the four northern islands are not included.",
-      "context": "In Article 2(c) of the San Francisco Peace Treaty of 1951, Japan renounced the Kurile Islands. However, the treaty does not define the scope of the Kuril Islands, nor does it specify the name of the country to which they will be renounced. The Japanese government made a statement in its initial Diet session (October 1951, by Treaty Director-General Nishimura) to the effect that Kunashiri and Etorofu were included in the ``Kildo Islands,'' but later revised its opinion in 1956 and established the position that the four northern islands were not included in the ``Kilo Islands.'' This history itself is sometimes used as a counterargument on the Russian side.",
+      "context": "In Article 2(c) of the San Francisco Peace Treaty of 1951, Japan renounced the Kurile Islands. However, the treaty does not define the scope of the Kuril Islands, nor does it specify the name of the country to which they will be renounced. The Japanese government made a statement in its initial Diet session (October 1951, given by Treaty Director General Nishimura) to the effect that Kunashiri and Etorofu were included in the ``Kildo Islands,'' but later revised its opinion in 1956 and established the position that the four northern islands were not included in the ``Kilo Islands.'' This history itself is sometimes used as a counterargument on the Russian side.",
       "verdict": "Treaty exists (different interpretations)",
       "sources": [
         {
@@ -82,9 +82,9 @@
           "type": "international"
         },
         {
-          "title": "北方領土問題に関する日本政府の立場",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo.html",
-          "publisher": "日本国外務省",
+          "title": "Japanese government's position on the Northern Territories issue",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         }
       ]
@@ -96,15 +96,15 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "日ソ共同宣言（全文）",
-          "url": "https://www.mofa.go.jp/mofaj/area/hoppo/hoppo_keii.html",
-          "publisher": "日本国外務省",
+          "title": "Japan-Soviet Joint Declaration (full text)",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
-          "title": "日ソ共同宣言（内閣府北方対策本部）",
-          "url": "https://www8.cao.go.jp/hoppo/",
-          "publisher": "内閣府",
+          "title": "Japan-Soviet Joint Declaration (Cabinet Office, Northern Territory Task Force)",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "Cabinet Office",
           "type": "government"
         }
       ]
@@ -112,13 +112,13 @@
     {
       "id": "nt-dulles-memo-1956",
       "claim": "In 1956, the U.S. Department of State expressed the view that the four northern islands are “inherent Japanese territory.”",
-      "context": "On September 7, 1956, Secretary of State Dulles declared in a memorandum that Etorofu and Kunashiri, along with Habomai and Shikotan, were inherent Japanese territory and should be recognized as being under Japanese sovereignty. The background to this memorandum is the diplomatic context in which the United States pressured the Japanese government to request the return of all four islands (the so-called ``Dulles Threat'') against the Japanese government, which was attempting to compromise by returning two islands in the Japan-Soviet Joint Declaration.",
+      "context": "On September 7, 1956, Secretary of State Dulles declared in a memorandum that Etorofu and Kunashiri, along with Habomai and Shikotan, were inherent Japanese territory and should be recognized as being under Japanese sovereignty. The background to this memorandum is the diplomatic context in which the United States pressured the Japanese government to request the return of all four islands (the so-called ``Dulles Threat''), as the Japanese government was attempting to compromise by returning two islands in the Japan-Soviet Joint Declaration.",
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "北方領土問題に関する米国の立場",
-          "url": "https://www8.cao.go.jp/hoppo/",
-          "publisher": "内閣府北方対策本部",
+          "title": "US position on the Northern Territories issue",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "Cabinet Office Northern Countermeasures Headquarters",
           "type": "government"
         },
         {
@@ -150,9 +150,9 @@
       "verdict": "Date and time confirmed (difference in legal evaluation)",
       "sources": [
         {
-          "title": "北方領土の歴史（内閣府）",
-          "url": "https://www8.cao.go.jp/hoppo/mondai/01.html",
-          "publisher": "内閣府北方対策本部",
+          "title": "History of the Northern Territories (Cabinet Office)",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "Cabinet Office Northern Countermeasures Headquarters",
           "type": "government"
         }
       ]

@@ -8,9 +8,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "南京大屠殺史料集 - 南京審判",
+          "title": "南京大屠杀史料——南京判决书",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "侵华日军南京大屠杀遇难同胞纪念馆",
           "type": "archive"
         }
       ]
@@ -18,19 +18,19 @@
     {
       "id": "nt-hyakunin-giri",
       "claim": "“百人砍杀大赛”的少尉向井敏明和野田武被判处死刑。",
-      "context": "《百人砍杀大赛》取材于1937年《东京日新闻》（现《每日新闻》）报道的一篇文章。同一篇文章报道了南京保卫战中向井少尉和野田少尉用日本刀进行了100人的“比武”。南京军事法庭以这篇文章为关键证据，判处两人死刑。 2003年，家人在日本提起诽谤诉讼，但败诉（2006年最高法院维持原判）。日本国内一直存在争论，该文章究竟是夸大其词，还是为了鼓舞斗志而捏造的。",
+      "context": "《百人砍杀大赛》取材于1937年《东京日日新闻》（现每日新闻）报道的一篇文章。同一篇文章报道了南京保卫战中向井少尉和野田少尉用日本刀进行了100人的“比武”。南京军事法庭以这篇文章为关键证据，判处两人死刑。 2003年，家人在日本提起诽谤诉讼，但败诉（2006年最高法院维持原判）。日本国内一直存在争论，该文章究竟是夸大其词，还是为了鼓舞斗志而捏造的。",
       "verdict": "事实认定存在争议",
       "sources": [
         {
-          "title": "百人斬り訴訟 最高裁決定",
+          "title": "最高法院关于百人切诉讼的判决 (日语)",
           "url": "https://www.courts.go.jp/",
-          "publisher": "裁判所",
+          "publisher": "法庭",
           "type": "government"
         },
         {
-          "title": "東京日日新聞（1937年11月-12月の報道）",
+          "title": "东京日日新闻（1937年11月至12月报道） (日语)",
           "url": "https://mainichi.jp/",
-          "publisher": "毎日新聞社",
+          "publisher": "每日新闻",
           "type": "media"
         }
       ]
@@ -42,15 +42,15 @@
       "verdict": "估计范围广泛。",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "远东国际军事法庭的判决",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
-          "publisher": "International Criminal Court - Legal Tools Database",
+          "publisher": "国际刑事法院 - 法律工具数据库",
           "type": "international"
         },
         {
-          "title": "『南京事件』",
+          "title": "“南京事变” (日语)",
           "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
-          "publisher": "中公新書（秦郁彦）",
+          "publisher": "中子新胜（畑育彦）",
           "type": "media"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "Judgement of the International Military Tribunal for the Far East",
+          "title": "远东国际军事法庭的判决",
           "url": "https://www.legal-tools.org/doc/9a89a0/",
-          "publisher": "International Criminal Court - Legal Tools Database",
+          "publisher": "国际刑事法院 - 法律工具数据库",
           "type": "international"
         }
       ]
@@ -76,9 +76,9 @@
       "verdict": "背景资料",
       "sources": [
         {
-          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "title": "南京大屠杀遇难同胞纪念馆",
           "url": "http://www.nj1937.org/",
-          "publisher": "侵華日軍南京大屠殺遇難同胞紀念館",
+          "publisher": "侵华日军南京大屠杀遇难同胞纪念馆",
           "type": "archive"
         }
       ]

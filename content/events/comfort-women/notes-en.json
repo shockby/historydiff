@@ -8,13 +8,13 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "河野談話全文（外務省）",
-          "url": "https://www.mofa.go.jp/mofaj/area/taisen/kono.html",
-          "publisher": "日本国外務省",
+          "title": "Full text of the Kono Statement (Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
-          "title": "Statement by Chief Cabinet Secretary Yohei Kono",
+          "title": "Statement by Chief Cabinet Secretary Yohei Kono (in Japanese)",
           "url": "https://www.mofa.go.jp/policy/women/fund/state9308.html",
           "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
@@ -28,13 +28,13 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "日韓外相会談（2015年12月28日）",
-          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_001664.html",
-          "publisher": "日本国外務省",
+          "title": "Japan-Korea Foreign Ministers Meeting (December 28, 2015)",
+          "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
         },
         {
-          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea",
+          "title": "Announcement by Foreign Ministers of Japan and the Republic of Korea (in Japanese)",
           "url": "https://www.mofa.go.jp/a_o/na/kr/page4e_000364.html",
           "publisher": "Ministry of Foreign Affairs of Japan",
           "type": "government"
@@ -48,9 +48,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "アジア女性基金とその活動",
+          "title": "Asian Women’s Fund and its activities (in Japanese)",
           "url": "https://www.awf.or.jp/",
-          "publisher": "アジア女性基金（デジタル記念館）",
+          "publisher": "Asian Women’s Fund (Digital Memorial Museum)",
           "type": "archive"
         }
       ]
@@ -62,9 +62,9 @@
       "verdict": "Discussion",
       "sources": [
         {
-          "title": "慰安婦関係調査結果発表に関する河野内閣官房長官談話の検証",
+          "title": "Verification of Chief Cabinet Secretary Kono’s statement regarding the announcement of the results of the comfort women-related investigation (in Japanese)",
           "url": "https://www.kantei.go.jp/jp/kakugikettei/2014/__icsFiles/afieldfile/2014/06/20/20140620houkokusho_2.pdf",
-          "publisher": "内閣官房",
+          "publisher": "Cabinet Secretariat",
           "type": "government"
         }
       ]

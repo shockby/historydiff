@@ -4,13 +4,13 @@
     {
       "id": "cr-1981-resolution",
       "claim": "The Cultural Revolution was summed up as a “civil war” in the 1981 Historical Resolution",
-      "context": "In June 1981, the ``Resolution on Some Historical Issues of the Party since its Founding'' adopted at the 6th Plenary Session of the 11th Central Committee of the Communist Party of China clearly rejected the Cultural Revolution as ``a civil war that was erroneously initiated by the leadership and exploited by counter-revolutionary groups, causing serious disasters to the Party, the nation, and the people.'' This resolution remains the basis for official assessments by the Chinese government to this day.",
+      "context": "In June 1981, the ``Resolution on Some Historical Issues of the Party since the Founding of the People'' adopted at the 6th Plenary Session of the 11th Central Committee of the Communist Party of China clearly rejected the Cultural Revolution as ``a civil war that was erroneously initiated by the leadership, was exploited by counterrevolutionary groups, and brought serious disasters to the Party, the nation, and the people.'' This resolution remains the basis for official assessments by the Chinese government to this day.",
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "建国以来の党の若干の歴史問題についての決議（1981年）",
+          "title": "Resolutions on some historical issues of the Party since its founding (1981)",
           "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
-          "publisher": "人民日報（人民网）",
+          "publisher": "People's Daily (People's Daily)",
           "type": "government"
         }
       ]
@@ -38,7 +38,7 @@
     {
       "id": "cr-mao-power-struggle",
       "claim": "The Cultural Revolution was a political struggle to regain power from Mao Zedong",
-      "context": "An estimated 15 million to 55 million people died of starvation due to the failure of the Great Leap Forward starting in 1958. Mao Zedong, who was held responsible for this, handed over the position of president to Liu Shaoqi, and his influence within the party decreased. Although the Cultural Revolution was ostensibly an ideological movement to ``prevent the return of capitalism,'' many historians analyze it as a political struggle in which Mao Zedong overthrew the pragmatics of Liu Shaoqi and Deng Xiaoping and regained control. China's official position is that the move was ``invoked due to a misjudgment'' and does not highlight the aspect of the move as a power struggle.",
+      "context": "An estimated 15 to 55 million people died of starvation due to the failure of the Great Leap Forward starting in 1958. Mao Zedong, who was held responsible for this, handed over the position of president to Liu Shaoqi, and his influence within the party decreased. Although the Cultural Revolution was ostensibly an ideological movement to ``prevent the return of capitalism,'' many historians analyze it as a political struggle in which Mao Zedong overthrew the pragmatics of Liu Shaoqi and Deng Xiaoping and regained control. China's official position is that the move was ``invoked due to a misjudgment'' and does not highlight the aspect of the move as a power struggle.",
       "verdict": "Widely supported academically",
       "sources": [
         {
@@ -56,9 +56,9 @@
       "verdict": "Official records available",
       "sources": [
         {
-          "title": "中国教育年鑑",
+          "title": "China Education Yearbook",
           "url": "https://www.moe.gov.cn/",
-          "publisher": "中華人民共和国教育部",
+          "publisher": "Ministry of Education of the People's Republic of China",
           "type": "government"
         }
       ]

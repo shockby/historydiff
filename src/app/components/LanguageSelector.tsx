@@ -30,6 +30,13 @@ export default function LanguageSelector() {
 
   const currentLabel = LANGUAGES.find(l => l.code === currentLang)?.label || 'English';
 
+  // Save current language prefix to localStorage on mount or change
+  useEffect(() => {
+    if (typeof window !== 'undefined' && currentLang) {
+      localStorage.setItem('preferred-lang', currentLang);
+    }
+  }, [currentLang]);
+
   const handleLanguageChange = (langCode: string) => {
     if (langCode === currentLang) {
       setIsOpen(false);

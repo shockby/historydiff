@@ -1,5 +1,6 @@
 import { getAllEvents, getEventPerspectives } from '@/lib/markdown';
 import SearchEvents from './components/SearchEvents';
+import LanguageRedirect from './components/LanguageRedirect';
 
 export default function Home() {
   const eventIds = getAllEvents();
@@ -12,5 +13,10 @@ export default function Home() {
     }))
     .filter((e) => e.perspectives.length > 0);
 
-  return <SearchEvents initialEvents={events} lang="en" />;
+  return (
+    <>
+      <LanguageRedirect />
+      <SearchEvents initialEvents={events} lang="en" />
+    </>
+  );
 }

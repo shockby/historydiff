@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { EventPerspective } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
+import { extractStartYear } from '@/lib/sorting';
 
 interface SearchEventsProps {
   initialEvents: { id: string; perspectives: EventPerspective[] }[];
@@ -13,6 +14,7 @@ interface SearchEventsProps {
 
 function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState<'default' | 'chrono-asc' | 'chrono-desc'>('default');
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -28,6 +30,23 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       event.perspectives.some((p) => p.country.toLowerCase().includes(query)) ||
       event.perspectives.some((p) => p.content.toLowerCase().includes(query))
     );
+  });
+
+  const sortedEvents = [...filteredEvents].sort((a, b) => {
+    if (sortBy === 'default') {
+      return 0;
+    }
+    const aFirst = a.perspectives[0];
+    const bFirst = b.perspectives[0];
+    if (!aFirst) return 1;
+    if (!bFirst) return -1;
+    const aYear = extractStartYear(aFirst.year);
+    const bYear = extractStartYear(bFirst.year);
+    if (sortBy === 'chrono-asc') {
+      return aYear - bYear;
+    } else {
+      return bYear - aYear;
+    }
   });
 
   const eventLink = (id: string) => activeLang === 'en' ? `/events/${id}` : `/${activeLang}/events/${id}`;
@@ -53,19 +72,41 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
           </h2>
         </div>
 
-        <div className="search-container" style={{ marginBottom: '3rem' }}>
-          <input
-            type="text"
-            className="search-input"
-            placeholder={t.searchPlaceholder}
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', flexWrap: 'wrap' }}>
+          <div style={{ flex: '1', minWidth: '280px' }}>
+            <input
+              type="text"
+              className="search-input"
+              placeholder={t.searchPlaceholder}
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </div>
+          <div style={{ width: '240px' }}>
+            <select
+              className="search-input"
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as any)}
+              style={{
+                cursor: 'pointer',
+                appearance: 'none',
+                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'right 1rem center',
+                backgroundSize: '1.2em',
+                paddingRight: '2.5rem'
+              }}
+            >
+              <option value="default" style={{ background: '#121216' }}>{t.sortDefault}</option>
+              <option value="chrono-asc" style={{ background: '#121216' }}>{t.sortChronologicalAsc}</option>
+              <option value="chrono-desc" style={{ background: '#121216' }}>{t.sortChronologicalDesc}</option>
+            </select>
+          </div>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '2rem' }}>
-          {filteredEvents.length > 0 ? (
-            filteredEvents.map((event) => {
+          {sortedEvents.length > 0 ? (
+            sortedEvents.map((event) => {
               const first = event.perspectives[0];
               return (
                 <Link href={eventLink(event.id)} key={event.id}>

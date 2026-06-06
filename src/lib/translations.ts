@@ -49,6 +49,9 @@ export const translations = {
     photoAuthor: 'Author',
     photoExpand: 'View full size',
     photoClose: 'Close',
+    sortDefault: 'Default (Alphabetical)',
+    sortChronologicalAsc: 'Date: Oldest First',
+    sortChronologicalDesc: 'Date: Newest First',
   },
   ja: {
     archive: 'アーカイブ',
@@ -98,6 +101,9 @@ export const translations = {
     photoAuthor: '撮影・作成',
     photoExpand: '拡大表示',
     photoClose: '閉じる',
+    sortDefault: 'デフォルト（五十音順）',
+    sortChronologicalAsc: '年代順（古い順）',
+    sortChronologicalDesc: '年代順（新しい順）',
   },
   zh: {
     archive: '对比档案',
@@ -147,6 +153,9 @@ export const translations = {
     photoAuthor: '作者',
     photoExpand: '查看原图',
     photoClose: '关闭',
+    sortDefault: '默认（按字母顺序）',
+    sortChronologicalAsc: '时间：从旧到新',
+    sortChronologicalDesc: '时间：从新到旧',
   },
   ko: {
     archive: '비교 아카이브',
@@ -196,5 +205,8 @@ export const translations = {
     photoAuthor: '작성자',
     photoExpand: '전체 보기',
     photoClose: '닫기',
+    sortDefault: '기본 (가나다순)',
+    sortChronologicalAsc: '연대순 (오래된 순)',
+    sortChronologicalDesc: '연대순 (최신순)',
   }
 };

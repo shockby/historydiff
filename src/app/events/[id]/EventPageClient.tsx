@@ -168,6 +168,8 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
         </p>
       </header>
 
+      {photos && <PhotoGallery photos={photos} lang={activeLang} />}
+
       {isMobile
         ? <MobileSummaryCards perspectives={perspectives} lang={activeLang} />
         : <DesktopSummaryTable perspectives={perspectives} lang={activeLang} />
@@ -246,8 +248,6 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
         oldTitle={getPerspectiveLabel(left.country)}
         newTitle={getPerspectiveLabel(right.country)}
       />
-
-      {photos && <PhotoGallery photos={photos} lang={activeLang} />}
 
       {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
 

@@ -342,47 +342,33 @@ export default function PhotoGallery({ photos, lang }: PhotoGalleryProps) {
 
   return (
     <>
-      <section style={{ marginTop: '3rem', marginBottom: '2rem' }}>
-        {/* Section header */}
+      <section style={{ marginTop: '0rem', marginBottom: '2.5rem' }}>
+        {/* Simple clean header */}
         <div style={{
           display: 'flex',
           alignItems: 'center',
-          gap: '0.6rem',
-          marginBottom: '1.25rem',
+          gap: '0.5rem',
+          marginBottom: '0.875rem',
         }}>
-          <div style={{
-            width: '32px',
-            height: '32px',
-            borderRadius: '8px',
-            background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.2), rgba(249, 115, 22, 0.2))',
-            border: '1px solid rgba(234, 179, 8, 0.3)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexShrink: 0,
+          <span style={{
+            fontSize: '0.8rem',
+            fontWeight: 700,
+            color: 'var(--text-secondary)',
+            letterSpacing: '0.05em',
           }}>
-            <Camera size={16} color="#fbbf24" />
-          </div>
-          <div>
-            <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--foreground)' }}>
-              {t.photoGalleryTitle}
-            </h3>
-            <p style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
-              {t.photoGallerySubtitle}
-            </p>
-          </div>
-          <div style={{
-            marginLeft: 'auto',
-            padding: '4px 10px',
-            borderRadius: '12px',
-            background: 'rgba(234, 179, 8, 0.1)',
-            border: '1px solid rgba(234, 179, 8, 0.2)',
-            fontSize: '0.75rem',
+            {t.photoGalleryTitle}
+          </span>
+          <span style={{
+            padding: '2px 6px',
+            borderRadius: '6px',
+            background: 'rgba(255, 255, 255, 0.05)',
+            border: '1px solid rgba(255, 255, 255, 0.08)',
+            fontSize: '0.7rem',
             fontWeight: 600,
-            color: '#fbbf24',
+            color: 'var(--text-secondary)',
           }}>
             {photos.photos.length}
-          </div>
+          </span>
         </div>
 
         {/* Horizontal scroll cards */}

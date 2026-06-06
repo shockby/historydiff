@@ -1,0 +1,21 @@
+{
+  "eventId": "takeshima",
+  "photos": [
+    {
+      "id": "dokdo-photo",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/takeshima/dokdo-photo.jpg",
+      "caption": {
+        "ja": "竹島（韓国名: 独島）のパノラマ写真。東島（ドンディ）と西島（ソディ）の二つの主要な島から構成される。",
+        "en": "Panoramic view of the Liancourt Rocks (known as Takeshima in Japan and Dokdo in Korea), showing the two main islets: Dongdo (East Island) and Seodo (West Island).",
+        "zh": "独岛（日本称：竹岛）的全景照片，展示了东岛和西岛这两个主要岛屿。",
+        "ko": "독도(일본명: 다케시마)의 전경 사진. 동도와 서도 두 개의 주요 섬으로 이루어져 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Dokdo_Photo.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Koryo"
+      }
+    }
+  ]
+}

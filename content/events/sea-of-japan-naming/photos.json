@@ -1,0 +1,22 @@
+{
+  "eventId": "sea-of-japan-naming",
+  "photos": [
+    {
+      "id": "sea-of-japan-satellite",
+      "filename": "Japanese_archipelago_ESA21799466.jpeg",
+      "caption": {
+        "ja": "宇宙から見た日本海（東海）周辺の衛星画像。国際水路機関（IHO）等の指針や韓国・北朝鮮による「東海（East Sea）」の併記要求を巡り議論が続いている。",
+        "en": "Satellite view of the Sea of Japan (East Sea) region. Geopolitical debates continue over the naming convention and South/North Korean proposals for \"East Sea\".",
+        "zh": "从太空拍摄的日本海（东海）周边卫星图像。围绕国际水道测量组织（IHO）等机构的命名指南，以及韩国与朝鲜提出的并记“东海”的要求，争议仍在继续。",
+        "ko": "우주에서 바라본 동해(일본해) 주변 위성 이미지. 국제수로기구(IHO) 등의 지침 및 한국·북한의 '동해(East Sea)' 병기 요구를 둘러싼 논쟁이 계속되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Japanese_archipelago_ESA21799466.jpeg",
+        "license": "CC BY-SA 3.0",
+        "author": "ESA"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sea-of-japan-naming/sea-of-japan-satellite.jpg"
+    }
+  ]
+}

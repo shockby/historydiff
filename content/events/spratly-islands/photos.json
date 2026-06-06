@@ -1,0 +1,22 @@
+{
+  "eventId": "spratly-islands",
+  "photos": [
+    {
+      "id": "itu-aba-island",
+      "filename": "Taiping_Island_and_Zhongzhou_Reef_ISS.jpg",
+      "caption": {
+        "ja": "スプラトリー諸島（南沙諸島）最大の自然島である太平島（イトゥアバ）。領有権を主張する中国、台湾、フィリピン、ベトナムなどの間で、島か岩かの定義や主権を巡る対立がある。",
+        "en": "Taiping Island (Itu Aba), the largest natural feature of the Spratly Islands. Sovereignty is contested by China, Taiwan, the Philippines, and Vietnam.",
+        "zh": "南沙群岛（斯普拉特利群岛）最大的自然岛屿——太平岛（Itu Aba）。围绕其“岛屿”还是“岩礁”的定义以及主权归属，中国大陆、台湾、菲律宾、越南等声索方存在对立。",
+        "ko": "스프라틀리 군도(남사군도) 최대의 자연 섬인 태평도(이투아바). 영유권을 주장하는 중국, 대만, 필리핀, 베트남 등 사이에서 섬 또는 암초 여부의 정의와 주권을 둘러싼 대립이 존재한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Taiping_Island_and_Zhongzhou_Reef_ISS.jpg",
+        "license": "Public Domain",
+        "author": "NASA"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/spratly-islands/itu-aba-island.jpg"
+    }
+  ]
+}

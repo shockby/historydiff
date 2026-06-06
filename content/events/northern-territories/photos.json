@@ -1,0 +1,21 @@
+{
+  "eventId": "northern-territories",
+  "photos": [
+    {
+      "id": "kurils-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/northern-territories/kurils-map.png",
+      "caption": {
+        "ja": "千島列島と北方四島（国後島、択捉島、色丹島、歯舞群島）の位置を示す地図。",
+        "en": "Map showing the location of the Kuril Islands and the disputed Northern Territories (Kunashiri, Etorofu, Shikotan, and the Habomai islets).",
+        "zh": "展示千岛群岛及争议领土北方四岛（国后岛、择捉岛、色丹岛、齿舞群岛）位置的地图。",
+        "ko": "쿠릴 열도와 분쟁 지역인 北方四島(구나시리, 에토로후, 시코탄, 하보마이 군도)의 위치를 보여주는 지도."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kurils_map.png",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons User"
+      }
+    }
+  ]
+}

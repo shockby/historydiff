@@ -1,0 +1,22 @@
+{
+  "eventId": "goguryeo-controversy",
+  "photos": [
+    {
+      "id": "gwanggaeto-stele",
+      "filename": "Gwanggaeto_Stele_1903.jpg",
+      "caption": {
+        "ja": "中国吉林省集安市にある「広開土王碑」（好太王碑）。高句麗の第19代王の業績を称える碑で、高句麗の歴史的帰属を巡る中韓の議論の中心となっている。",
+        "en": "The Gwanggaeto Stele in Ji'an, China. Commemorating the achievements of Goguryeo's 19th king, it sits at the heart of the China-Korea Goguryeo history dispute.",
+        "zh": "位于中国吉林省集安市的“广开土大王碑”（好太王碑）。为纪念高句丽第19代国王的业绩而建，目前是中韩关于高句丽历史归属争议的核心。",
+        "ko": "중국 지린성 지안시에 위치한 '광개토대왕릉비'(호태왕비). 고구려 제19대 왕의 업적을 기리는 비석으로, 고구려의 역사적 귀속을 둘러싼 한중 논쟁의 중심에 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Gwanggaeto_Stele_1903.jpg",
+        "license": "Public Domain",
+        "author": "Unknown"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/goguryeo-controversy/gwanggaeto-stele.jpg"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "senkaku",
+  "photos": [
+    {
+      "id": "senkaku-islands-aerial-kitakojima",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/senkaku/senkaku-islands-aerial-kitakojima.jpg",
+      "caption": {
+        "ja": "1978年に撮影された尖閣諸島の北小島と南小島の空中写真。日本の国土交通省による提供資料。",
+        "en": "Aerial photograph of Kitakojima and Minamikojima of the Senkaku Islands, taken in 1978. Source: Ministry of Land, Infrastructure, Transport and Tourism of Japan.",
+        "zh": "1978年拍摄的钓鱼岛及其附属岛屿中北小岛和南小岛的航拍照片。由日本国土交通省提供。",
+        "ko": "1978년에 촬영된 센카쿠 열도의 기타코지마와 미나미코지마의 항공 사진. 일본 국토교통성 제공 자료."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kitakojima_and_Minamikojima_of_Senkaku_Islands.jpg",
+        "license": "Public Domain",
+        "author": "国土交通省 (MLIT Japan)"
+      }
+    },
+    {
+      "id": "uotsuri-island-aerial-composite",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/senkaku/uotsuri-island-aerial-composite.jpg",
+      "caption": {
+        "ja": "1978年に撮影された魚釣島（うおつりじま）の空中合成写真。尖閣諸島で最大の島である。",
+        "en": "Aerial composite photograph of Uotsuri Island (the largest island in the Senkaku chain), taken in 1978 by the Japanese government.",
+        "zh": "1978年拍摄的钓鱼岛（钓鱼岛群岛中最大的岛屿）的空中合成照片。由日本政府拍摄。",
+        "ko": "1978년에 촬영된 우오쓰리섬의 항공 합성 사진. 센카쿠 열도에서 가장 큰 섬이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Senkaku-uotsuri.jpg",
+        "license": "Public Domain",
+        "author": "国土交通省 (MLIT Japan)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "eventId": "textbook-controversy",
+  "photos": [
+    {
+      "id": "japanese-history-textbooks",
+      "filename": "Shogaku_Kokushi_-_Kobayashi_Torasaburo.png",
+      "caption": {
+        "ja": "国立歴史民俗博物館に展示されている歴史教科書。教科書の検定制度、歴史記述の「自虐性」や「愛国心」の記述バランス、周辺国からの修正要求を巡る議論が繰り返されている。",
+        "en": "Japanese history textbooks on display. Recurring controversies exist over the textbook authorization system, descriptive balance, and requests for revisions from neighboring nations.",
+        "zh": "在国立历史民俗博物馆展示的历史教科书。围绕教科书审定制度、历史叙述中“自虐”与“爱国心”的平衡，以及周边国家提出的修改要求，相关争议一再出现。",
+        "ko": "국립역사민속박물관에 전시된 역사 교과서. 교과서 검정 제도, 역사 기술의 '자학성'과 '애국심' 기술의 균형, 주변국들로부터의 수정 요구를 둘러싼 논쟁이 반복되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Shogaku_Kokushi_-_Kobayashi_Torasaburo.png",
+        "license": "Public Domain",
+        "author": "Kobayashi Torasaburo"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/textbook-controversy/japanese-history-textbooks.png"
+    }
+  ]
+}

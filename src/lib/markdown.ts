@@ -96,3 +96,36 @@ export function getEventNotes(eventId: string, lang = 'en'): EventNotes | null {
   return JSON.parse(fileContents) as EventNotes;
 }
 
+export interface PhotoSource {
+  title: string;
+  url: string;
+  license: string;
+  author: string;
+}
+
+export interface EventPhoto {
+  id: string;
+  url: string;
+  caption: {
+    ja?: string;
+    en?: string;
+    zh?: string;
+    ko?: string;
+  };
+  source: PhotoSource;
+}
+
+export interface EventPhotos {
+  eventId: string;
+  photos: EventPhoto[];
+}
+
+export function getEventPhotos(eventId: string): EventPhotos | null {
+  const photosPath = path.join(contentDirectory, eventId, 'photos.json');
+  if (!fs.existsSync(photosPath)) {
+    return null;
+  }
+  const fileContents = fs.readFileSync(photosPath, 'utf8');
+  return JSON.parse(fileContents) as EventPhotos;
+}
+

@@ -1,0 +1,22 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "photos": [
+    {
+      "id": "crh380a-train",
+      "filename": "MTR_CRH380A_operated_as_G5824_at_Hong_Kong_West_Kowloon_Station.jpg",
+      "caption": {
+        "ja": "北京南駅に停車する中国の高速鉄道車両「CRH380A」。日本や欧州からの技術移転と、中国独自の特許出願や自主開発を巡る主張に違いがある。",
+        "en": "The Chinese high-speed train CRH380A at Beijing South Station. Perspectives differ regarding technology transfer from Japan/Europe vs. China's autonomous patent claims.",
+        "zh": "停靠在北京南站的中国高铁“CRH380A”列车。围绕从日本及欧洲引进的技术转移，与中国自身的专利申请及自主研发，各方的说法存在分歧。",
+        "ko": "베이징남역에 정차 중인 중국의 고속철도 차량 'CRH380A'. 일본 및 유럽으로부터의 기술 이전과 중국 독자적인 특허 출원 및 자주 개발을 둘러싼 주장에 차이가 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:MTR_CRH380A_operated_as_G5824_at_Hong_Kong_West_Kowloon_Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Wpcpey"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/high-speed-rail-controversy/crh380a-train.jpg"
+    }
+  ]
+}

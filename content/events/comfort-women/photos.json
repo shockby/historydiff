@@ -1,0 +1,37 @@
+{
+  "eventId": "comfort-women",
+  "photos": [
+    {
+      "id": "peace-statue-seoul",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/comfort-women/peace-statue-seoul.jpg",
+      "caption": {
+        "ja": "ソウルの日本大使館前に設置された「平和の少女像」（2011年設置）。日本軍慰安婦の被害を象徴する像で、韓国各地・世界各国に設置が広まっている。",
+        "en": "The Statue of Peace (comfort women memorial) in front of the former Japanese Embassy in Seoul, erected in 2011 to commemorate victims of Japanese military sexual slavery.",
+        "zh": "2011年设立于首尔日本大使馆前的「和平少女像」（慰安妇纪念碑）。象征日军慰安妇受害者，目前已在韩国各地及世界各国广泛设立。",
+        "ko": "2011년 서울 일본대사관 앞에 설치된 '평화의 소녀상'. 일본군 위안부 피해를 상징하는 동상으로, 한국 각지와 세계 각국에 설치가 확산되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Japanese_Embassy_in_Seoul_and_watched_from_behind_a_bronze_statue_of_comfort_women.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons User"
+      }
+    },
+    {
+      "id": "peace-statue-berlin",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/comfort-women/peace-statue-berlin.jpg",
+      "caption": {
+        "ja": "ドイツ・ベルリンのモアビット地区に設置された「平和の少女像」（2020年設置）。ヨーロッパでの慰安婦問題への関心の高まりを示す。",
+        "en": "The Statue of Peace (Trostfrauen / comfort women memorial) in Berlin-Moabit, Germany, installed in 2020, reflecting growing global awareness of the issue.",
+        "zh": "2020年设立于德国柏林莫阿比特区的「和平少女像」（Trostfrauen慰安妇纪念碑），体现了国际社会对慰安妇问题的日益关注。",
+        "ko": "2020년 독일 베를린 모아비트 지구에 설치된 '평화의 소녀상'(Trostfrauen). 위안부 문제에 대한 국제적 관심의 고조를 보여준다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Friedensstatue_Trostfrauen_in_Berlin-Moabit.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Gerd Fahrenhorst"
+      }
+    }
+  ]
+}

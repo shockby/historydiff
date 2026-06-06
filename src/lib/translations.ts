@@ -41,7 +41,14 @@ export const translations = {
     typeLabel: 'Type',
     sourcesCount: (count: number) => `${count} note${count !== 1 ? 's' : ''}`,
     showMore: (remaining: number) => `Show remaining ${remaining} notes`,
-    showLess: 'Collapse'
+    showLess: 'Collapse',
+    photoGalleryTitle: 'Related Photos',
+    photoGallerySubtitle: 'Historical photographs and documents related to this event.',
+    photoSource: 'Source',
+    photoLicense: 'License',
+    photoAuthor: 'Author',
+    photoExpand: 'View full size',
+    photoClose: 'Close',
   },
   ja: {
     archive: 'アーカイブ',
@@ -83,7 +90,14 @@ export const translations = {
     typeLabel: '種別',
     sourcesCount: (count: number) => `${count}件`,
     showMore: (remaining: number) => `残り${remaining}件を表示`,
-    showLess: '折りたたむ'
+    showLess: '折りたたむ',
+    photoGalleryTitle: '関連写真',
+    photoGallerySubtitle: 'このイベントに関連する歴史的写真・資料です。',
+    photoSource: '出典',
+    photoLicense: 'ライセンス',
+    photoAuthor: '撮影・作成',
+    photoExpand: '拡大表示',
+    photoClose: '閉じる',
   },
   zh: {
     archive: '对比档案',
@@ -125,7 +139,14 @@ export const translations = {
     typeLabel: '类型',
     sourcesCount: (count: number) => `${count}条`,
     showMore: (remaining: number) => `显示剩余 ${remaining} 条笔记`,
-    showLess: '收起'
+    showLess: '收起',
+    photoGalleryTitle: '相关图片',
+    photoGallerySubtitle: '与本事件相关的历史照片与文献资料。',
+    photoSource: '出处',
+    photoLicense: '许可证',
+    photoAuthor: '作者',
+    photoExpand: '查看原图',
+    photoClose: '关闭',
   },
   ko: {
     archive: '비교 아카이브',
@@ -167,6 +188,13 @@ export const translations = {
     typeLabel: '유형',
     sourcesCount: (count: number) => `${count}건`,
     showMore: (remaining: number) => `나머지 ${remaining}건 표시`,
-    showLess: '접기'
+    showLess: '접기',
+    photoGalleryTitle: '관련 사진',
+    photoGallerySubtitle: '이 사건과 관련된 역사적 사진 및 문서입니다.',
+    photoSource: '출처',
+    photoLicense: '라이선스',
+    photoAuthor: '작성자',
+    photoExpand: '전체 보기',
+    photoClose: '닫기',
   }
 };

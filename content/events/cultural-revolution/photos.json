@@ -1,0 +1,22 @@
+{
+  "eventId": "cultural-revolution",
+  "photos": [
+    {
+      "id": "mao-red-guards-1966",
+      "filename": "Red_Guards.jpg",
+      "caption": {
+        "ja": "文化大革命の初期、北京の天安門広場に集まった紅衛兵（1966年）。毛沢東への忠誠を示す若者たちによる運動は、中国社会に大きな混乱をもたらした。",
+        "en": "Red Guards gathering in Tiananmen Square, Beijing, in 1966. The movement led by youth pledging loyalty to Mao Zedong caused widespread disruption in Chinese society.",
+        "zh": "文化大革命初期，聚集在北京天安门广场的红卫兵（1966年）。宣誓效忠毛泽东的青年运动给中国社会带来了巨大的混乱。",
+        "ko": "문화대혁명 초기, 베이징 천안문 광장에 모인 홍위병(1966년). 마오쩌둥에게 충성을 맹세한 청년들의 운동은 중국 사회에 큰 혼란을 초래했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_Guards.jpg",
+        "license": "Public Domain",
+        "author": "Unknown / Chinese State Media"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/cultural-revolution/mao-red-guards-1966.jpg"
+    }
+  ]
+}

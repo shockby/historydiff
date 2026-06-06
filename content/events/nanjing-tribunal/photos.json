@@ -1,0 +1,22 @@
+{
+  "eventId": "nanjing-tribunal",
+  "photos": [
+    {
+      "id": "nanjing-tribunal-trial",
+      "filename": "Tani_Hisao_on_trial_1.jpg",
+      "caption": {
+        "ja": "国防部審判戦犯軍事法廷（南京軍事法廷）の審理の様子（1946年）。谷寿夫中将などの裁判が行われ、その判決における事実認定や犠牲者数は現在も日中間の歴史認識摩擦の一部となっている。",
+        "en": "The Nanjing War Crimes Tribunal in session, 1946. The court tried senior Japanese officers; its findings and casualty estimates remain a subject of historical debate.",
+        "zh": "国防部审判战犯军事法庭（南京军事法庭）审理现场（1946年）。法庭对谷寿夫中将等人进行了审判，判决中的事实认定及遇难人数至今仍是中日历史认识摩擦的一部分。",
+        "ko": "국방부 심판 전범 군사법정(남경 군사법정)의 심리 모습(1946년). 다니 히사오 중장 등의 재판이 열렸으며, 판결에서의 사실 인정과 희생자 수는 현재도 한중일 간 역사 인식 갈등의 일부로 남아 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Tani_Hisao_on_trial_1.jpg",
+        "license": "Public Domain",
+        "author": "Unknown"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nanjing-tribunal/nanjing-tribunal-trial.jpg"
+    }
+  ]
+}

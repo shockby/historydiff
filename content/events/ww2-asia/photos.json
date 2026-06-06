@@ -1,0 +1,22 @@
+{
+  "eventId": "ww2-asia",
+  "photos": [
+    {
+      "id": "signing-surrender-missouri",
+      "filename": "Surrender_of_Japan_-_USS_Missouri.jpg",
+      "caption": {
+        "ja": "戦艦ミズーリ号上での降伏文書調印式（1945年9月2日）。アジア太平洋地域における第二次世界大戦の終結日や、各国の戦勝・戦敗の歴史的解釈、戦後秩序の捉え方に違いがある。",
+        "en": "The Japanese surrender ceremony aboard the USS Missouri, September 2, 1945. Nations interpret the war's conclusion date, historical legacy, and postwar order differently.",
+        "zh": "战列舰密苏里号上的投降书签字仪式（1945年9月2日）。关于亚太地区第二次世界大战的终结日期、各国的战胜与战败历史解释，以及对战后秩序的理解存在差异。",
+        "ko": "전함 미주리호 함상에서의 항복 문서 조인식(1945년 9월 2일). 아시아·태평양 지역에서의 제2차 세계대전 종결일이나 각국의 전승·전패에 대한 역사적 해석, 전후 질서 인식에 차이가 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Surrender_of_Japan_-_USS_Missouri.jpg",
+        "license": "Public Domain",
+        "author": "U.S. Navy"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/ww2-asia/signing-surrender-missouri.jpg"
+    }
+  ]
+}

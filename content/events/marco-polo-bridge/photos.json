@@ -1,0 +1,37 @@
+{
+  "eventId": "marco-polo-bridge",
+  "photos": [
+    {
+      "id": "thomas-child-1877",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/marco-polo-bridge/thomas-child-1877.jpg",
+      "caption": {
+        "ja": "1877年にイギリス人写真家トーマス・チャイルドが撮影した盧溝橋（盧溝橋、Lugou Qiao）。1937年7月7日の「盧溝橋事件」は、この橋の付近で発生した日中両軍の衝突から始まった。",
+        "en": "The Marco Polo Bridge (Lugou Qiao) photographed by Thomas Child in 1877. The Marco Polo Bridge Incident began near this bridge on July 7, 1937, triggering the Second Sino-Japanese War.",
+        "zh": "1877年英国摄影师托马斯·柴尔德拍摄的卢沟桥。1937年7月7日，卢沟桥事变在此桥附近爆发，由此引发了全面抗日战争。",
+        "ko": "1877년 영국 사진가 토마스 차일드가 촬영한 루거우차오(마르코 폴로 다리). 1937년 7월 7일 이 다리 근처에서 '루거우차오 사건'이 발생해 중일전쟁이 시작되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Thomas_Child_-_Marco_Polo_Bridge_(Lugou_Qiao),_Peking,_1877_NA01-75.jpg",
+        "license": "Public Domain",
+        "author": "Thomas Child (1841–1898)"
+      }
+    },
+    {
+      "id": "incident-map-1937",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/marco-polo-bridge/incident-map-1937.jpg",
+      "caption": {
+        "ja": "盧溝橋事件（1937年7月7日）における日中両軍の配置図。この衝突が日中全面戦争の引き金となった。",
+        "en": "Deployment map of Japanese and Chinese forces at the Marco Polo Bridge Incident (July 7, 1937), the clash that triggered the Second Sino-Japanese War.",
+        "zh": "卢沟桥事变（1937年7月7日）日中两军部署图。此次冲突引发了全面的第二次中日战争。",
+        "ko": "마르코 폴로 다리 사건(1937년 7월 7일) 일중 양군 배치도. 이 충돌이 중일전쟁의 발단이 되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Marco_Polo_Bridge_Incident_1.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "みや東亜 (Miya Toa)"
+      }
+    }
+  ]
+}

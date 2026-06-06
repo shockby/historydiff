@@ -1,0 +1,22 @@
+{
+  "eventId": "israel-territory",
+  "photos": [
+    {
+      "id": "un-partition-plan-1947",
+      "filename": "UN_Partition_Plan_For_Palestine_1947.png",
+      "caption": {
+        "ja": "国連による1947年のパレスチナ分割決議案の地図。ユダヤ人とアラブ人の国家を並立させる提案で、その正当性と後の紛争の原因を巡り異なる評価がある。",
+        "en": "The 1947 UN Partition Plan for Palestine. The proposal to create separate Jewish and Arab states is evaluated differently regarding its legitimacy and impact.",
+        "zh": "联合国于1947年通过的巴勒斯坦分治决议地图。该提案建议分别建立犹太人和阿拉伯人国家，围绕其正当性及后续冲突的起因存在截然不同的评价。",
+        "ko": "유엔에 의한 1947년 팔레스타인 분할안 지도. 유대인과 아랍인의 국가를 병립시키려는 제안으로, 그 정당성과 이후 분쟁의 원인을 둘러싸고 엇갈린 평가가 존재한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:UN_Partition_Plan_For_Palestine_1947.png",
+        "license": "CC BY-SA 3.0",
+        "author": "ChrisO"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/israel-territory/un-partition-plan-1947.png"
+    }
+  ]
+}

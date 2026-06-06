@@ -1,0 +1,21 @@
+{
+  "eventId": "manchurian-incident",
+  "photos": [
+    {
+      "id": "railway-sabotage-1931",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/manchurian-incident/railway-sabotage-1931.jpg",
+      "caption": {
+        "ja": "1931年9月18日夜、関東軍が爆破した奉天（現・瀋陽）郊外の南満州鉄道線路。この自作自演の爆破「柳条湖事件」が満洲事変の引き金となった。",
+        "en": "The South Manchuria Railway line sabotaged by the Kwantung Army near Mukden (Shenyang) on the night of September 18, 1931. This staged explosion, known as the Liutiaohu Incident, triggered the Manchurian Incident.",
+        "zh": "1931年9月18日夜，关东军在奉天（今沈阳）郊外炸毁的南满铁路线路。这次自导自演的爆炸（柳条湖事件）引发了九一八事变。",
+        "ko": "1931년 9월 18일 밤 관동군이 폭파한 봉천(현 선양) 교외의 남만주철도 선로. 이 자작극인 '류탸오후 사건'이 만주사변의 발단이 되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:193109_mukden_incident_railway_sabotage.jpg",
+        "license": "Public Domain",
+        "author": "Unknown Japanese military documentation"
+      }
+    }
+  ]
+}

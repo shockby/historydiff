@@ -1,0 +1,22 @@
+{
+  "eventId": "russia-china-territory",
+  "photos": [
+    {
+      "id": "zhenbao-island-marker",
+      "filename": "Zhenbao_island.png",
+      "caption": {
+        "ja": "ダマンスキー島（珍宝島）付近のソ連・中国国境碑。1969年に領有権を巡り軍事衝突が発生したが、その後の国境画定交渉とその評価について異なる叙述が見られる。",
+        "en": "Soviet-Chinese border marker near Zhenbao (Damansky) Island, the site of a 1969 military clash. Modern texts describe the subsequent border demarcation differently.",
+        "zh": "珍宝岛（达曼斯基岛）附近的苏中边界碑。1969年双方因领土主权爆发军事冲突，对于随后的边界划定谈判及其评价，两国的叙述存在差异。",
+        "ko": "다만스키 섬(진보도) 부근의 소련·중국 국경비. 1969년에 영유권을 둘러싸고 군사 충돌이 발생했으며, 이후의 국경 획정 협상과 그 평가에 대해 서로 다른 서술이 나타난다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhenbao_island.png",
+        "license": "Public Domain",
+        "author": "Unknown"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/russia-china-territory/zhenbao-island-marker.png"
+    }
+  ]
+}

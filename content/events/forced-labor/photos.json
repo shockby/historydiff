@@ -1,0 +1,22 @@
+{
+  "eventId": "forced-labor",
+  "photos": [
+    {
+      "id": "hashima-island-aerial",
+      "filename": "Battle-Ship_Island_Nagasaki_Japan.jpg",
+      "caption": {
+        "ja": "長崎県の端島（軍艦島）。戦時中の朝鮮人や中国人の強制労働の歴史を巡り、ユネスコ世界遺産の登録時や展示内容において日韓等で議論が続いている。",
+        "en": "Hashima Island (Gunkanjima) in Nagasaki. Japan and South Korea continue to debate the description of wartime Korean and Chinese forced labor at the site.",
+        "zh": "长崎县的端岛（军舰岛）。围绕二战期间朝鲜人和中国人在该岛强制劳动的历史，日韩等国在联合国教科文组织世界遗产登记及展示内容上持续存在争议。",
+        "ko": "나가사키현의 하시마 섬(군함도). 전시 중 조선인 및 중국인 강제 노동의 역사를 둘러싸고, 유네스코 세계유산 등재 및 전시 내용과 관련하여 한일 등에서 논쟁이 지속되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Battle-Ship_Island_Nagasaki_Japan.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "kntrty"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/forced-labor/hashima-island-aerial.jpg"
+    }
+  ]
+}

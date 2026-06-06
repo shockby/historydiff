@@ -1,0 +1,22 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "photos": [
+    {
+      "id": "kimchi-dish",
+      "filename": "Various_kimchi.jpg",
+      "caption": {
+        "ja": "韓国の代表的な家庭料理である「白菜キムチ」。中国の泡菜（パオツァイ）との国際規格や文化的な起源を巡り、中韓のネットユーザーやメディアで論争となった。",
+        "en": "Traditional Korean Baechu-kimchi (cabbage kimchi). A cultural dispute arose between China and South Korea over its origin and international culinary standards.",
+        "zh": "韩国代表性的家庭料理“白菜泡菜”（Kimchi）。围绕其与中国四川泡菜的国际标准及文化起源，中韩网民和媒体展开了激烈的论争。",
+        "ko": "한국의 대표적인 가정 요리인 '배추김치'. 중국의 파오차이(泡菜)와의 국제 표준 및 문화적 기원을 둘러싸고 한중 네티즌과 언론 사이에서 논쟁이 벌어졌다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons User"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kimchi-origin-controversy/kimchi-dish.jpg"
+    }
+  ]
+}

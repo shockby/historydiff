@@ -1,0 +1,22 @@
+{
+  "eventId": "nanjing-death-toll",
+  "photos": [
+    {
+      "id": "nanjing-memorial-hall",
+      "filename": "Nanjing_massacre_memorial_hall.JPG",
+      "caption": {
+        "ja": "南京大虐殺の犠牲者を追悼する「侵華日軍南京大屠殺遇難同胞記念館」。犠牲者数（中国側の30万人以上と日本の一部の研究者による数万〜十数万人説など）を巡る議論が続いている。",
+        "en": "The Memorial Hall of the Victims in Nanjing Massacre. Historical debates persist regarding the total death toll (over 300,000 in China vs. lower figures in Japan).",
+        "zh": "悼念南京大屠杀遇难者的“侵华日军南京大屠杀遇难同胞纪念馆”。围绕遇难者人数（中方主张的30万人以上与日本部分学者的数万至十几万人说等）存在持续争论。",
+        "ko": "남경대학살 희생자를 추모하는 '침화일군남경대도살우난동포기념관'. 희생자 수(중국 측의 30만 명 이상 주장과 일본 일부 연구자들의 수만~십수만 명 설 등)를 둘러싼 논쟁이 이어지고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Nanjing_massacre_memorial_hall.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons User"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nanjing-death-toll/nanjing-memorial-hall.jpg"
+    }
+  ]
+}

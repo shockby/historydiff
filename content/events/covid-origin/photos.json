@@ -1,0 +1,22 @@
+{
+  "eventId": "covid-origin",
+  "photos": [
+    {
+      "id": "sars-cov-2-virions",
+      "filename": "Novel_Coronavirus_SARS-CoV-2.jpg",
+      "caption": {
+        "ja": "透過型電子顕微鏡で撮影されたSARS-CoV-2（新型コロナウイルス）の粒子。ウイルスの起源を巡り、自然由来説と研究所流出説などの議論が存在する。",
+        "en": "Transmission electron micrograph of SARS-CoV-2 (COVID-19) virions. The origin of the virus remains a subject of international debate and research.",
+        "zh": "透射电子显微镜下的SARS-CoV-2（新冠病毒）颗粒。关于病毒的起源，存在自然起源说与实验室泄漏说等讨论。",
+        "ko": "투과 전자 현미경으로 촬영된 SARS-CoV-2(코로나19) 바이러스 입자. 바이러스의 기원을 둘러싸고 자연 발생설과 연구소 유출설 등의 논쟁이 존재한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Novel_Coronavirus_SARS-CoV-2.jpg",
+        "license": "Public Domain",
+        "author": "NIAID"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/covid-origin/sars-cov-2-virions.jpg"
+    }
+  ]
+}

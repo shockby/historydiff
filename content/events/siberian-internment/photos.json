@@ -1,0 +1,21 @@
+{
+  "eventId": "siberian-internment",
+  "photos": [
+    {
+      "id": "returning-soldiers-1946",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/siberian-internment/returning-soldiers-1946.jpg",
+      "caption": {
+        "ja": "1946年、シベリア抑留から京都府の舞鶴港に引き揚げてきた日本軍兵士たち。帰国を待つ引揚船の様子。",
+        "en": "Japanese soldiers returning from Siberian internment waiting to disembark from a repatriation ship at Maizuru Port, Kyoto Prefecture, in 1946.",
+        "zh": "1946年，从西伯利亚拘留所被遣返回京都府舞鹤港的日本士兵，在遣返船上等待登岸的情景。",
+        "ko": "1946년 시베리아 억류에서 교토부 마이즈루항으로 귀환하여 송환선에서 내리기를 기다리는 일본군 병사들."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Japanese_Soldiers_Returning_from_Siberia_1946.jpg",
+        "license": "Public Domain",
+        "author": "Maizuru Repatriation Memorial Museum"
+      }
+    }
+  ]
+}

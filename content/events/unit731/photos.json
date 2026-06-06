@@ -1,0 +1,37 @@
+{
+  "eventId": "unit731",
+  "photos": [
+    {
+      "id": "facility-aerial-1930s",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/unit731/facility-aerial-1930s.jpg",
+      "caption": {
+        "ja": "満洲・哈爾浜（ハルビン）平房区にあった731部隊（関東軍防疫給水部本部）施設の上空写真（1930年代）。人体実験・細菌兵器開発が行われた。",
+        "en": "Aerial view of the Unit 731 (Kwantung Army Epidemic Prevention and Water Purification Department) biological warfare facility in Pingfang, Harbin, Manchuria, 1930s.",
+        "zh": "日本关东军防疫给水部（731部队）位于哈尔滨平房区的细菌战基地航拍图（1930年代），曾进行人体实验和细菌武器研发。",
+        "ko": "만주 하얼빈 핑팡구에 위치했던 731부대(관동군 방역급수부 본부) 시설 항공사진 (1930년대). 인체실험과 세균무기 개발이 행해진 곳이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Unit_731_-_Complex.jpg",
+        "license": "Public Domain",
+        "author": "Unknown / Bulletin of Unit 731"
+      }
+    },
+    {
+      "id": "harbin-building",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/unit731/harbin-building.jpg",
+      "caption": {
+        "ja": "現在のハルビン731部隊旧址（石井部隊本部跡）に残る建物。現在は「侵華日軍第七三一部隊罪証陳列館」として一般公開されている。",
+        "en": "A remaining building at the former Unit 731 Harbin site (Ishii Unit HQ). Now open to the public as the Exhibition Hall of Evidence of Crimes Committed by Unit 731 of the Japanese Imperial Army.",
+        "zh": "现哈尔滨731部队旧址（石井部队本部遗址）留存的建筑，现作为「侵华日军第七三一部队罪证陈列馆」向公众开放。",
+        "ko": "현재 하얼빈 731부대 옛터(이시이 부대 본부 터)에 남아 있는 건물. 현재는 '침화일군제731부대죄증진열관'으로 일반에 공개되어 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Building_on_the_site_of_the_Harbin_bioweapon_facility_of_Unit_731_%E9%96%A2%E6%9D%B1%E8%BB%8D%E9%98%B2%E7%96%AB%E7%B5%A6%E6%B0%B4%E9%83%A8%E6%9C%AC%E9%83%A8731%E9%83%A8%E9%9A%8A%EF%BC%88%E7%9F%B3%E4%BA%95%E9%83%A8%E9%9A%8A%EF%BC%89%E6%97%A5%E8%BB%8D%E7%AC%AC731%E9%83%A8%E9%9A%8A%E6%97%A7%E5%9D%80_PB121201.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Hahahaha he"
+      }
+    }
+  ]
+}

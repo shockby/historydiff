@@ -1,0 +1,21 @@
+{
+  "eventId": "tiananmen-1989",
+  "photos": [
+    {
+      "id": "goddess-of-democracy-ubc",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/tiananmen-1989/goddess-of-democracy-ubc.jpg",
+      "caption": {
+        "ja": "カナダ・バンクーバーのブリティッシュコロンビア大学に建つ「民主の女神」像のレプリカ（2009年撮影）。1989年の天安門広場抗議運動を追悼するモニュメント。",
+        "en": "Replica of the Goddess of Democracy statue at the University of British Columbia, Vancouver (2009). A memorial to the 1989 Tiananmen Square protests.",
+        "zh": "位于加拿大温哥华不列颠哥伦比亚大学的「民主女神」雕像复制品（2009年摄）。是纪念1989年天安门广场抗议运动的纪念碑。",
+        "ko": "캐나다 밴쿠버 브리티시 컬럼비아 대학교에 세워진 '민주의 여신상' 레플리카 (2009년 촬영). 1989년 천안문 광장 시위를 추모하는 기념물이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:UBC_Goddess_of_Democracy_statue_2009.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Maedin"
+      }
+    }
+  ]
+}

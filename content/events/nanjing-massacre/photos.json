@@ -1,0 +1,37 @@
+{
+  "eventId": "nanjing-massacre",
+  "photos": [
+    {
+      "id": "chinese-captives-1938",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nanjing-massacre/chinese-captives-1938.jpg",
+      "caption": {
+        "ja": "1938年、南京・幕府山付近の中国人捕虜（朝日グラフ誌掲載）。南京占領時に多数の捕虜や民間人が被害を受けたことを伝える一次資料のひとつ。",
+        "en": "Chinese captives near Mufu Mountain in Nanjing, 1938, as printed in the Japanese magazine Asahi Graph. One of the primary sources documenting the treatment of captives during the Nanjing occupation.",
+        "zh": "1938年南京幕府山附近的中国战俘（刊登于日本《朝日画报》）。这是记录南京占领期间战俘遭遇的一手资料之一。",
+        "ko": "1938년 난징 무부산 인근의 중국인 포로(일본 '아사히 그래프' 게재). 난징 점령 당시 다수의 포로와 민간인이 피해를 입었음을 전하는 1차 자료 중 하나."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chinese_captives_in_Nanking.jpg",
+        "license": "Public Domain",
+        "author": "Unknown / Asahi Graph (朝日グラフ), 1938"
+      }
+    },
+    {
+      "id": "nanjing-memorial-hall",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nanjing-massacre/nanjing-memorial-hall.jpg",
+      "caption": {
+        "ja": "南京大屠殺遭難同胞紀念館（南京大虐殺記念館）。1985年に開館し、毎年12月13日の国家追悼日に大規模な追悼式典が行われる。",
+        "en": "Memorial Hall of the Victims in Nanjing Massacre, opened in 1985. Each year on December 13 (China's National Memorial Day), a large state ceremony is held here.",
+        "zh": "侵华日军南京大屠杀遇难同胞纪念馆，1985年开馆。每年12月13日（国家公祭日），在此举行大规模国家公祭仪式。",
+        "ko": "난징 대학살 희생자 기념관. 1985년 개관. 매년 12월 13일 '국가 공제일'에 대규모 국가 추도식이 거행된다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Nanjing_massacre_memorial_hall.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Hahahahehe"
+      }
+    }
+  ]
+}

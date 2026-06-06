@@ -4,7 +4,8 @@ import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import DiffView from '@/app/components/DiffView';
 import CommunityNotes from '@/app/components/CommunityNotes';
-import { EventPerspective, EventNotes } from '@/lib/markdown';
+import PhotoGallery from '@/app/components/PhotoGallery';
+import { EventPerspective, EventNotes, EventPhotos } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight } from 'lucide-react';
 import Link from 'next/link';
@@ -13,6 +14,7 @@ interface EventPageClientProps {
   eventId: string;
   initialPerspectives: EventPerspective[];
   initialNotes: EventNotes | null;
+  initialPhotos?: EventPhotos | null;
   lang: string;
 }
 
@@ -117,12 +119,13 @@ function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspe
   );
 }
 
-function EventPageInner({ eventId, initialPerspectives, initialNotes, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
   const perspectives = initialPerspectives || [];
   const notes = initialNotes?.notes || [];
+  const photos = initialPhotos ?? null;
 
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
@@ -244,6 +247,8 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, lang }: Ev
         newTitle={getPerspectiveLabel(right.country)}
       />
 
+      {photos && <PhotoGallery photos={photos} lang={activeLang} />}
+
       {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
 
       <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>
@@ -259,7 +264,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, lang }: Ev
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, lang }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, lang }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -270,6 +275,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         eventId={eventId}
         initialPerspectives={initialPerspectives}
         initialNotes={initialNotes}
+        initialPhotos={initialPhotos}
         lang={lang}
       />
     </Suspense>

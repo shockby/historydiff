@@ -1,0 +1,21 @@
+{
+  "eventId": "pacific-war-end",
+  "photos": [
+    {
+      "id": "surrender-ceremony-1945",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/pacific-war-end/surrender-ceremony-1945.jpg",
+      "caption": {
+        "ja": "1945年9月2日、東京湾の米戦艦ミズーリ号で行われた日本の降伏文書調印式。大戦が正式に終結した。",
+        "en": "The formal surrender ceremony of Japan aboard the battleship USS Missouri in Tokyo Bay on September 2, 1945, marking the official end of World War II.",
+        "zh": "1945年9月2日，在东京湾的美国战列舰密苏里号上举行的日本投降签字仪式，标志着第二次世界大战正式结束。",
+        "ko": "1945년 9월 2일 도쿄만 전함 미주리호에서 거행된 일본의 항복 문서 조인식. 이로써 제2차 세계대전이 공식적으로 종결되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Surrender_of_Japan_-_USS_Missouri.jpg",
+        "license": "Public Domain",
+        "author": "Lt. C. F. Wheeler / US Navy"
+      }
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 
 interface SearchEventsProps {
-  initialEvents: { id: string; perspectives: EventPerspective[] }[];
+  initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
   lang: string;
 }
 
@@ -109,42 +109,55 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
             sortedEvents.map((event) => {
               const first = event.perspectives[0];
               return (
-                <Link href={eventLink(event.id)} key={event.id}>
-                  <div title={first.title} className="card glass">
-                    <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
-                      <span className="badge">{first.category}</span>
-                      <span className="badge">{first.year}</span>
-                      <span className="badge">{first.location}</span>
-                    </div>
-                    <h4 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem' }}>{first.title}</h4>
-                    <p style={{
-                      color: 'var(--text-secondary)',
-                      fontSize: '0.9rem',
-                      marginBottom: '1.5rem',
-                      overflow: 'hidden',
-                      textOverflow: 'ellipsis',
-                      display: '-webkit-box',
-                      WebkitLineClamp: 3,
-                      WebkitBoxOrient: 'vertical',
-                    }}>
-                      {first.content.slice(0, 150)}...
-                    </p>
-                    <div style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '1rem',
-                      borderTop: '1px solid var(--card-border)',
-                      paddingTop: '1rem',
-                      fontSize: '0.8rem',
-                      color: 'var(--text-secondary)',
-                    }}>
-                      <span>{t.compareTarget}</span>
-                      <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap' }}>
-                        {event.perspectives.map((p) => (
-                          <span key={p.country} style={{ padding: '2px 8px', borderRadius: '4px', background: 'rgba(255,255,255,0.05)' }}>
-                            {p.country}
-                          </span>
-                        ))}
+                <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
+                  <div title={first.title} className="card glass" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', width: '100%' }}>
+                    {event.imageUrl && (
+                      <div className="card-image-container">
+                        <img
+                          src={event.imageUrl}
+                          alt={first.title}
+                          loading="lazy"
+                          className="card-image"
+                        />
+                      </div>
+                    )}
+                    <div className="card-content">
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+                        <span className="badge">{first.category}</span>
+                        <span className="badge">{first.year}</span>
+                        <span className="badge">{first.location}</span>
+                      </div>
+                      <h4 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem' }}>{first.title}</h4>
+                      <p style={{
+                        color: 'var(--text-secondary)',
+                        fontSize: '0.9rem',
+                        marginBottom: '1.5rem',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 3,
+                        WebkitBoxOrient: 'vertical',
+                      }}>
+                        {first.content.slice(0, 150)}...
+                      </p>
+                      <div style={{
+                        marginTop: 'auto',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '1rem',
+                        borderTop: '1px solid var(--card-border)',
+                        paddingTop: '1rem',
+                        fontSize: '0.8rem',
+                        color: 'var(--text-secondary)',
+                      }}>
+                        <span>{t.compareTarget}</span>
+                        <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap' }}>
+                          {event.perspectives.map((p) => (
+                            <span key={p.country} style={{ padding: '2px 8px', borderRadius: '4px', background: 'rgba(255,255,255,0.05)' }}>
+                              {p.country}
+                            </span>
+                          ))}
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -1,0 +1,37 @@
+{
+  "eventId": "kanto-massacre",
+  "photos": [
+    {
+      "id": "kanto-massacre-monument-funabashi",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kanto_earthquake_massacre_korean_victims_monument_of_funabashi_magome_cemetery.JPG",
+      "caption": {
+        "ja": "千葉県船橋市の馬込霊園に建立された「関東大震災朝鮮人犠牲者追悼碑」。虐殺された朝鮮人の慰霊碑は関東各地に存在する。（Wikimedia Commons / CC BY-SA 4.0）",
+        "en": "Memorial monument for Korean victims of the Kantō Massacre, located at Magome Cemetery in Funabashi, Chiba Prefecture. Memorials to the massacred Koreans exist throughout the Kantō region. (Wikimedia Commons / CC BY-SA 4.0)",
+        "zh": "位于千叶县船桥市马込墓地的关东大地震朝鲜人遇难者追悼碑。关东各地均设有被屠杀朝鲜人的追悼碑。（Wikimedia Commons / CC BY-SA 4.0）",
+        "ko": "지바현 후나바시시 마고메 묘지에 건립된 '관동대지진 조선인 희생자 추도비'. 학살된 조선인의 위령비는 관동 각지에 존재한다. (Wikimedia Commons / CC BY-SA 4.0)"
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kanto_earthquake_massacre_korean_victims_monument_of_funabashi_magome_cemetery.JPG",
+        "license": "CC BY-SA 4.0",
+        "author": "Wikimedia Commons User"
+      }
+    },
+    {
+      "id": "kanto-earthquake-massacre-1923",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/8-2earthquake-kanto.jpg",
+      "caption": {
+        "ja": "1923年の関東大震災・朝鮮人虐殺に関連する写真。虐殺後の遺体のそばに立つ日本人男性2人を写したもの（Wikimedia Commonsより、パブリックドメイン）。",
+        "en": "A photograph from the 1923 Kantō Massacre showing two Japanese men standing beside a victim's body. (Wikimedia Commons / Public Domain)",
+        "zh": "1923年关东大屠杀相关照片。图为两名日本男性站在遇难者遗体旁。（Wikimedia Commons / 公共领域）",
+        "ko": "1923년 관동 대학살 관련 사진. 두 명의 일본인 남성이 피해자 시신 옆에 서 있는 모습. (Wikimedia Commons / 퍼블릭 도메인)"
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:8-2earthquake-kanto.jpg",
+        "license": "Public Domain",
+        "author": "Unknown"
+      }
+    }
+  ]
+}

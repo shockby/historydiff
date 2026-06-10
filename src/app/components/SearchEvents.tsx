@@ -171,6 +171,42 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
           )}
         </div>
       </section>
+
+      {/* About section */}
+      <section id="about" className="glass" style={{ marginTop: '5rem', padding: '3rem', borderRadius: '16px', border: '1px solid var(--card-border)' }}>
+        <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', fontWeight: 800, borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
+          {t.aboutTitle}
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', lineHeight: '1.8' }}>
+          <div>
+            <p style={{ color: 'var(--text-primary)', fontSize: '1.1rem', marginBottom: '1rem' }}>
+              {t.aboutText1}
+            </p>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '1rem' }}>
+              {t.aboutText2}
+            </p>
+          </div>
+          <div style={{ borderTop: '1px solid var(--card-border)', paddingTop: '2rem' }}>
+            <h3 style={{ fontSize: '1.3rem', marginBottom: '1.2rem', fontWeight: 700, color: 'var(--accent)' }}>
+              {t.aboutFeaturesTitle}
+            </h3>
+            <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <li style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                <span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>✓</span>
+                <span style={{ color: 'var(--text-secondary)' }}>{t.aboutFeature1}</span>
+              </li>
+              <li style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                <span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>✓</span>
+                <span style={{ color: 'var(--text-secondary)' }}>{t.aboutFeature2}</span>
+              </li>
+              <li style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                <span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>✓</span>
+                <span style={{ color: 'var(--text-secondary)' }}>{t.aboutFeature3}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

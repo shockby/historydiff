@@ -26,7 +26,7 @@ export default function Header() {
             <Link href={homeLink} style={{ color: 'inherit', textDecoration: 'none' }}>
               {t.archive}
             </Link>
-            <Link href="#" style={{ color: 'inherit', textDecoration: 'none' }}>
+            <Link href={lang === 'en' ? '/#about' : `/?lang=${lang}#about`} style={{ color: 'inherit', textDecoration: 'none' }}>
               {t.about}
             </Link>
           </nav>

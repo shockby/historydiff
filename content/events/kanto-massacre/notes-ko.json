@@ -1,0 +1,81 @@
+{
+  "eventId": "kanto-massacre",
+  "notes": [
+    {
+      "id": "km-victim-count",
+      "claim": "희생자 수는 6,000명 이상으로 추정된다",
+      "context": "당시 내무성·사법성 등의 공문서에 '약 6,000명'이라는 수치가 기록되어 있다. 전후 야마다 아키쓰기, 니시자키 마사오 등의 연구에서도 이 수치가 지지되고 있다. 반면, 일본 정부는 현재도 '정부로서 사실관계를 파악할 수 있는 기록을 찾을 수 없다'며 공식 인정을 거부하고 있다.",
+      "verdict": "추정 범위에 차이 있음（일본 정부 미인정）",
+      "sources": [
+        {
+          "title": "야마다 아키쓰기 『관동대지진 시의 조선인 학살』",
+          "url": "https://www.iwanami.co.jp/book/b263843.html",
+          "publisher": "이와나미쇼텐",
+          "type": "academic"
+        },
+        {
+          "title": "관동대지진 조선인 학살 관련 기록（일본 국립국회도서관 디지털 컬렉션）",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "일본 국립국회도서관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-government-stance-2023",
+      "claim": "일본 정부는 '사실을 파악할 수 있는 기록이 없다'며 학살을 공식 인정하지 않고 있다",
+      "context": "2023년 9월 1일 100주년에 마쓰노 히로카즈 관방장관은 '정부로서 사실관계를 파악할 수 있는 기록을 찾을 수 없다'고 발언하며 '학살'이라는 표현을 피했다. 반면, 당시의 내무성·육군성·사법성 공문서에는 조선인의 대량 학살을 기록한 자료가 존재한다.",
+      "verdict": "논쟁 중（일본 정부 공식 인정 없음）",
+      "sources": [
+        {
+          "title": "관방장관 기자회견（2023년 9월 1일）",
+          "url": "https://www.kantei.go.jp/",
+          "publisher": "일본 내각관방",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "km-us-diplomatic-records",
+      "claim": "당시 미국 외교관이 학살을 목격·기록하여 본국에 보고했다",
+      "context": "요코하마 미국 영사 대리 프랭크 나일 등은 1923년 9월, 조선인에 대한 조직적 폭력을 목격하고 '수천 명의 조선인이 살해되었다'는 내용의 상세한 보고서를 국무부에 발송하였다. 이 문서들은 미국 국립문서기록관리청（NARA）에 소장되어 공개되어 있다.",
+      "verdict": "1차 자료 존재",
+      "sources": [
+        {
+          "title": "U.S. National Archives - Diplomatic Records on the Kanto Earthquake",
+          "url": "https://www.archives.gov/",
+          "publisher": "미국 국립문서기록관리청（NARA）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-memorial-stone",
+      "claim": "도쿄 요코아미초 공원에 조선인 희생자 추도비가 건립되어 있다",
+      "context": "'관동대지진 시 학살된 조선인의 유골을 발굴하고 추도하는 모임'이 건립한 추도비가 도쿄도 스미다구 요코아미초 공원에 설치되어 있으며, 매년 9월 1일 추도식이 거행된다. 2017년 이후 도쿄도지사의 추도문 발송이 중단되었다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "도쿄도 요코아미초 공원 조선인 희생자 추도비",
+          "url": "https://www.tokyo-park.or.jp/park/format/index036.html",
+          "publisher": "도쿄도 공원협회",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-chinese-victims",
+      "claim": "조선인뿐 아니라 재일 중국인도 학살 피해를 입었다",
+      "context": "관동대지진의 혼란 속에서 재일 중국인（화교）도 조선인으로 오인되는 등 폭력의 표적이 되었다. 왕시톈 사건 등 著名한 중국인이 살해된 사건도 포함된다. 중국 측 자료에는 수백 명의 화교가 희생되었다고 기록되어 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "왕시톈 사건 관련 기록",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "일본 국립국회도서관 디지털 컬렉션",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "eventId": "kanto-massacre",
+  "notes": [
+    {
+      "id": "km-victim-count",
+      "claim": "遇难人数估计超过6,000人",
+      "context": "当时，内务省、司法省等机构的官方文件记录了"约6,000人"这一数字。战后学者山田昭次、西崎雅夫等人的研究也支持这一数字。然而，日本政府至今仍以"政府尚未发现能够掌握相关事实的记录"为由，拒绝作出官方认定。",
+      "verdict": "估计范围存在分歧（日本政府未予承认）",
+      "sources": [
+        {
+          "title": "山田昭次《关东大地震时的朝鲜人虐杀》",
+          "url": "https://www.iwanami.co.jp/book/b263843.html",
+          "publisher": "岩波书店",
+          "type": "academic"
+        },
+        {
+          "title": "关东大地震朝鲜人虐杀相关记录（日本国立国会图书馆数字馆藏）",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "日本国立国会图书馆",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-government-stance-2023",
+      "claim": "日本政府以"找不到能够掌握事实的记录"为由，未对大屠杀作出官方认定",
+      "context": "2023年9月1日百周年之际，时任官房长官松野博一表示"政府尚未发现能够掌握相关事实的记录"，回避使用"大屠杀"一词。然而，当年内务省、陆军省、司法省的官方文件中，确有记录朝鲜人被大规模杀害的内容。",
+      "verdict": "存在争议（日本政府未予官方认定）",
+      "sources": [
+        {
+          "title": "官房长官记者发布会（2023年9月1日）",
+          "url": "https://www.kantei.go.jp/",
+          "publisher": "日本内阁官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "km-us-diplomatic-records",
+      "claim": "当时的美国外交官亲历并记录了大屠杀，并向国内发出报告",
+      "context": "横滨美国代理领事弗兰克·奈尔等人于1923年9月亲眼目睹了针对朝鲜人的有组织暴力，并向国务院发送了详细报告，明确指出"数千名朝鲜人遭到杀害"。这些文件现保存于美国国家档案和文件署（NARA），已对外公开。",
+      "verdict": "存有一手史料",
+      "sources": [
+        {
+          "title": "U.S. National Archives - Diplomatic Records on the Kanto Earthquake",
+          "url": "https://www.archives.gov/",
+          "publisher": "美国国家档案和文件署（NARA）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-memorial-stone",
+      "claim": "东京横纲町公园内设有朝鲜人遇难者追悼碑",
+      "context": "由"发掘关东大地震遇难朝鲜人遗骨及追悼会"建立的追悼碑矗立于东京都墨田区横纲町公园内，每年9月1日举行追悼仪式。自2017年起，东京都知事停止向追悼仪式发送吊唁函。",
+      "verdict": "经事实核查确认",
+      "sources": [
+        {
+          "title": "横纲町公园朝鲜人遇难者追悼碑",
+          "url": "https://www.tokyo-park.or.jp/park/format/index036.html",
+          "publisher": "东京都公园协会",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-chinese-victims",
+      "claim": "不仅朝鲜人，旅日华人同样遭受了大屠杀的迫害",
+      "context": "关东大地震的混乱中，旅日华人也因被误认为朝鲜人等原因而成为暴力侵害的对象。王希天事件等著名华人遇难事件亦包含其中。中方资料记载，有数百名华人在此次事件中罹难。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "王希天事件相关记录",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "日本国立国会图书馆数字馆藏",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

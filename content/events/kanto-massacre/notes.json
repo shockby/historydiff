@@ -1,0 +1,81 @@
+{
+  "eventId": "kanto-massacre",
+  "notes": [
+    {
+      "id": "km-victim-count",
+      "claim": "犠牲者数は6,000人以上とされる",
+      "context": "1923年当時、内務省・司法省などの公文書に「約6,000人」という数字が記録されている。戦後の山田昭次・西崎雅夫らの研究でもこの数字が支持されている。一方、日本政府は現在も「政府として事実関係を把握できる記録が見当たらない」として公式認定を避けている。",
+      "verdict": "推定に幅あり（政府未認定）",
+      "sources": [
+        {
+          "title": "山田昭次『関東大震災時の朝鮮人虐殺』",
+          "url": "https://www.iwanami.co.jp/book/b263843.html",
+          "publisher": "岩波書店",
+          "type": "academic"
+        },
+        {
+          "title": "関東大震災時の朝鮮人虐殺に関する記録（国立国会図書館デジタルコレクション）",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-government-stance-2023",
+      "claim": "日本政府は「事実を把握できる記録が見当たらない」として虐殺を公式認定していない",
+      "context": "2023年9月1日の100周年において、松野博一官房長官は「政府として事実関係を把握できる記録が見当たらない」と発言し、「虐殺」という用語の使用を避けた。一方、当時の内務省・陸軍・司法省の公文書には朝鮮人の大量殺害を記録したものが存在する。",
+      "verdict": "議論あり（政府の公式認定なし）",
+      "sources": [
+        {
+          "title": "官房長官記者会見（2023年9月1日）",
+          "url": "https://www.kantei.go.jp/",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "km-us-diplomatic-records",
+      "claim": "当時のアメリカ外交官が虐殺を目撃・記録し、本国に報告した",
+      "context": "横浜の在日米国領事代理フランク・ナイルらは1923年9月の段階で、朝鮮人への組織的暴力を目撃し、「数千人の朝鮮人が殺害された」との詳細な報告書を国務省に送付した。これらの文書はアメリカ国立公文書館（NARA）に所蔵されており、公開されている。",
+      "verdict": "一次資料あり",
+      "sources": [
+        {
+          "title": "U.S. National Archives - Diplomatic Records on the Kanto Earthquake",
+          "url": "https://www.archives.gov/",
+          "publisher": "National Archives and Records Administration (NARA)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-memorial-stone",
+      "claim": "東京都立横網町公園に朝鮮人犠牲者追悼碑が建立されている",
+      "context": "「関東大震災時に虐殺された朝鮮人の遺骨を発掘し追悼する会」が建立した追悼碑が東京都墨田区横網町公園内に設置されており、毎年9月1日に追悼式が行われる。2017年以降、東京都知事による追悼文の送付が停止されている。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "東京都横網町公園 朝鮮人犠牲者追悼碑",
+          "url": "https://www.tokyo-park.or.jp/park/format/index036.html",
+          "publisher": "東京都公園協会",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-chinese-victims",
+      "claim": "朝鮮人のみならず在日中国人も虐殺の被害を受けた",
+      "context": "関東大震災の混乱の中で、在日中国人（華人）も「朝鮮人」と誤認されるなどして暴力の標的となった。王希天事件など、著名な中国人が殺害された事件も含まれる。中国側の資料では数百人の華人が犠牲になったと記録されている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "王希天事件に関する記録",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "国立国会図書館デジタルコレクション",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

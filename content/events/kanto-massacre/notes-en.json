@@ -1,0 +1,81 @@
+{
+  "eventId": "kanto-massacre",
+  "notes": [
+    {
+      "id": "km-victim-count",
+      "claim": "The number of victims is estimated at more than 6,000.",
+      "context": "At the time, official documents from the Ministry of Home Affairs and Ministry of Justice recorded a figure of 'approximately 6,000.' Postwar research by scholars such as Akitsugi Yamada and Masao Nishizaki supports this figure. Meanwhile, the Japanese government continues to avoid official recognition, stating that 'no records confirming the facts can be found by the government.'",
+      "verdict": "Wide range of estimates (not officially recognized by Japan)",
+      "sources": [
+        {
+          "title": "Yamada Akitsugi, Kanto Daishinsai-ji no Chosenjin Gyakusatsu (Korean Massacre during the Great Kanto Earthquake)",
+          "url": "https://www.iwanami.co.jp/book/b263843.html",
+          "publisher": "Iwanami Shoten",
+          "type": "academic"
+        },
+        {
+          "title": "Records on the Massacre of Koreans during the Great Kanto Earthquake (NDL Digital Collections)",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "National Diet Library",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-government-stance-2023",
+      "claim": "The Japanese government has not officially recognized the massacre, stating 'no records confirming the facts can be found.'",
+      "context": "At the 100th anniversary on September 1, 2023, Chief Cabinet Secretary Hirokazu Matsuno stated that 'no records confirming the facts can be found by the government,' avoiding the term 'massacre.' However, official documents from the Ministry of Home Affairs, Army, and Ministry of Justice from that era do contain records of mass killings of Koreans.",
+      "verdict": "Disputed (no official Japanese government recognition)",
+      "sources": [
+        {
+          "title": "Chief Cabinet Secretary Press Conference (September 1, 2023)",
+          "url": "https://www.kantei.go.jp/",
+          "publisher": "Cabinet Secretariat of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "km-us-diplomatic-records",
+      "claim": "U.S. diplomats of the time witnessed and recorded the massacre, reporting back to Washington.",
+      "context": "Acting U.S. Consul Frank Nile in Yokohama and others witnessed the organized violence against Koreans in September 1923 and sent detailed reports to the State Department stating that 'thousands of Koreans were killed.' These documents are held at the U.S. National Archives and Records Administration (NARA) and are publicly accessible.",
+      "verdict": "Primary sources available",
+      "sources": [
+        {
+          "title": "U.S. National Archives - Diplomatic Records on the Kanto Earthquake",
+          "url": "https://www.archives.gov/",
+          "publisher": "National Archives and Records Administration (NARA)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-memorial-stone",
+      "claim": "A memorial monument for Korean victims stands in Yokoamicho Park, Tokyo.",
+      "context": "A memorial stone erected by the 'Association to Excavate and Memorialize the Bones of Koreans Massacred during the Great Kanto Earthquake' stands in Yokoamicho Park, Sumida Ward, Tokyo. Memorial services are held annually on September 1. Since 2017, the Governor of Tokyo has stopped sending a condolence message to the ceremony.",
+      "verdict": "Fact-checked",
+      "sources": [
+        {
+          "title": "Yokoamicho Park - Korean Victims Memorial Stone",
+          "url": "https://www.tokyo-park.or.jp/park/format/index036.html",
+          "publisher": "Tokyo Metropolitan Park Association",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "km-chinese-victims",
+      "claim": "Not only Koreans but also Chinese residents in Japan were victimized in the massacre.",
+      "context": "In the chaos of the Great Kanto Earthquake, Chinese residents in Japan were also targeted for violence, often mistaken for Koreans. The incident includes the killing of prominent Chinese figures such as the Wang Xitian case. Chinese sources record that several hundred Chinese nationals were killed.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Records on the Wang Xitian Incident",
+          "url": "https://dl.ndl.go.jp/",
+          "publisher": "National Diet Library Digital Collections",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "eventId": "korea-colonization",
+  "photos": [
+    {
+      "id": "kc-march-first-declaration",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/korea-colonization/kc-march-first-declaration.jpg",
+      "caption": {
+        "ja": "1919年3月1日に発布された「独立宣言書」（朝鮮独立宣言書）。民族代表33人が署名したこの宣言は、日本の植民地支配からの独立を訴えた三・一運動の中心文書である。",
+        "en": "The Korean Declaration of Independence, proclaimed on March 1, 1919. Signed by 33 representatives of the Korean people, this document was the central text of the March First Movement, which called for independence from Japanese colonial rule.",
+        "zh": "1919年3月1日颁布的《独立宣言书》（朝鲜独立宣言书）。这份由民族代表33人签署的宣言，是三一运动的核心文件，呼吁从日本殖民统治下获得独立。",
+        "ko": "1919년 3월 1일 선포된 '독립선언서'. 민족 대표 33인이 서명한 이 선언서는 일제 식민지 지배로부터의 독립을 호소한 3·1운동의 중심 문서이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Korean_Declaration_of_Independence.jpg",
+        "license": "Public Domain",
+        "author": "Unknown (historical document)"
+      }
+    },
+    {
+      "id": "kc-gojong-emperor",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/korea-colonization/kc-gojong-emperor.jpg",
+      "caption": {
+        "ja": "大韓帝国の初代皇帝・高宗（光武帝、1852〜1919年）の肖像写真。高宗は「光武改革」を推進し自主近代化を目指したが、日露戦争後の1905年に乙巳条約で外交権を剥奪され、1907年にハーグ密使事件を理由に退位を強いられた。",
+        "en": "Portrait of Emperor Gojong (Emperor Gwangmu, 1852–1919), the first emperor of the Korean Empire. Gojong pursued the 'Gwangmu Reforms' for self-directed modernization, but was stripped of diplomatic rights by the Eulsa Treaty in 1905 and forced to abdicate in 1907 after the Hague Secret Emissary affair.",
+        "zh": "大韩帝国首任皇帝高宗（光武帝，1852—1919年）的肖像照片。高宗推行\"光武改革\"谋求自主近代化，但于日俄战争后的1905年，因乙巳条约被剥夺外交权，1907年又因海牙密使事件被迫退位。",
+        "ko": "대한제국 초대 황제 고종（광무제, 1852~1919년）의 초상 사진. 고종은 '광무개혁'을 추진하며 자주적 근대화를 도모했으나, 러일전쟁 이후 1905년 을사늑약으로 외교권을 박탈당하고, 1907년 헤이그 밀사 사건을 빌미로 강제 퇴위되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kojong,_emperor_of_Korea,_1852-1919_LCCN2003666654.jpg",
+        "license": "Public Domain",
+        "author": "U.S. Library of Congress"
+      }
+    },
+    {
+      "id": "kc-liberation-1945",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/korea-colonization/kc-liberation-1945.jpg",
+      "caption": {
+        "ja": "1945年、米ソ共同委員会歓迎集会に参加した光復軍（韓国独立軍）の兵士たち。日本の敗戦により35年間の植民地支配が終わり、朝鮮は解放を迎えた。",
+        "en": "Members of the Korean Liberation Army at a welcome meeting of the U.S.-Soviet Joint Commission in 1945. With Japan's defeat, 35 years of colonial rule ended and Korea was liberated.",
+        "zh": "1945年，光复军（韩国独立军）士兵参加美苏联合委员会欢迎集会。随着日本战败，长达35年的殖民统治结束，朝鲜半岛迎来解放。",
+        "ko": "1945년 미소 공동위원회 환영 집회에 참가한 광복군 병사들. 일본의 패전으로 35년간의 식민지 지배가 끝나고 조선은 해방을 맞이하였다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Korean_Liberation_Army_in_Joint_U.S.-Soviet_Comittee_Welcome_Meeting_1945.jpg",
+        "license": "Public Domain",
+        "author": "Unknown (historical photograph)"
+      }
+    }
+  ]
+}

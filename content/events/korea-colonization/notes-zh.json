@@ -1,0 +1,121 @@
+{
+  "eventId": "korea-colonization",
+  "notes": [
+    {
+      "id": "kc-annexation-treaty",
+      "claim": "1910年《日韩合并条约》是在胁迫和恐吓下缔结的。",
+      "context": "韩国方面（以及许多国际法学者）否认该条约的合法性，理由是伊藤博文在缔结条约时被暗杀后受到军事压力。日本政府坚称该条约在当时的国际法下有效，但在2010年的菅义伟声明中承认该条约“是违背当时朝鲜人民意愿的”。1965年的《日韩基本关系条约》称其“不再有效”，但其解释（无论是从一开始就无效还是1965年后无效）在日韩之间仍存在争议。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "日韩基本条约（外交部） (日语)",
+          "url": "https://www.mofa.go.jp/mofaj/area/korea/j_k_relation/ann_b.html",
+          "publisher": "日本外务省",
+          "type": "government"
+        },
+        {
+          "title": "菅义伟首相讲话（2010年8月10日） (日语)",
+          "url": "https://www.kantei.go.jp/jp/kan/statement/201008/10danwa.html",
+          "publisher": "内阁官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-march-first-movement",
+      "claim": "1919年三一运动期间，数千人死亡，数万人被捕。",
+      "context": "大约有200万人参加了独立运动（韩国估计）。韩国总督府的官方记录显示，日本的镇压造成7,509人死亡、15,961人受伤、46,948人被捕，但有人指出，实际损失可能要大得多。 3月1日仍然是韩国的国定假日。",
+      "verdict": "有官方记录（实际数字有所不同）",
+      "sources": [
+        {
+          "title": "3月1日独立运动（大英百科全书）",
+          "url": "https://www.britannica.com/event/March-First-Movement",
+          "publisher": "大英百科全书",
+          "type": "academic"
+        },
+        {
+          "title": "삼일운동（国立中央图书馆韩国学数据库）",
+          "url": "https://www.nl.go.kr/",
+          "publisher": "国立中央图书馆（韩国）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-land-survey",
+      "claim": "由于土地调查项目（1910-1918），许多韩国农民失去了土地",
+      "context": "据报道，由于以建立现代地籍制度为借口进行土地调查，许多不了解申报程序的农民以及公有土地和习惯用地被作为“未申报”土地纳入国有土地。结果，许多农民变成了佃农。一些日本研究人员强调土地所有权的“现代化”，但韩国研究人员认为这是大规模征用。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "Carter Eckert 等人，《韩国的新与旧：一段历史》，1990 年",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674495258",
+          "publisher": "哈佛大学出版社/韩国研究院",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-soshi-kaimei",
+      "claim": "由于改姓苏氏（1940年），大约80%的韩国人将名字改为日式。",
+      "context": "1940年2月实施的“姓氏设定”制度下，许多韩国人实际上被迫选择了日本式的“姓氏”。据说渗透率超过80％是由于行政压力以及与就业和分配的联系。尽管日本某些地区有一种观点认为这是“自愿的”，但主流历史研究认为这是被迫的。",
+      "verdict": "事实确认（强制性质有争议）",
+      "sources": [
+        {
+          "title": "泰莎·莫里斯·铃木，《重新发明日本》，1998",
+          "url": "https://www.routledge.com/Re-Inventing-Japan-Time-Space-Nation/Morris-Suzuki/p/book/9780765601919",
+          "publisher": "劳特利奇",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-forced-labor",
+      "claim": "太平洋战争期间，约70万至80万韩国人被强征到日本及海外的矿山、工厂等地工作。",
+      "context": "除了1944-45年征兵令下的动员之外，如果算上之前的“官方调解”和“集体征兵”，动员总数还会更高。在此前针对新日铁住金（现新日铁）的强迫劳动诉讼中（2018年韩国最高法院判决），日本公司被责令支付赔偿金，日本政府表示反对，认为这违反了1965年协议。",
+      "verdict": "事实已确认（赔偿问题正在讨论中）",
+      "sources": [
+        {
+          "title": "韩国最高法院判决（2018年10月30日）",
+          "url": "https://www.hani.co.kr/arti/english_edition/e_national/868052.html",
+          "publisher": "韩民族日报（报道）",
+          "type": "media"
+        },
+        {
+          "title": "六、外交部：关于所谓“招工”问题 (日语)",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_000827.html",
+          "publisher": "日本外务省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-taft-katsura",
+      "claim": "1905年的桂塔夫脱备忘录默认了日本对朝鲜的统治。",
+      "context": "1905年7月，美国陆军部长塔夫脱（后来的总统）与日本首相桂太郎签署的秘密备忘录。据说，美国实际上承认了日本对朝鲜的“宗主权”，条件是日本不干涉菲律宾。该备忘录由历史学家泰勒·丹尼特 (Tyler Dennett) 于 1924 年发表。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "塔夫脱-桂备忘录（耶鲁大学法学院阿瓦隆项目）",
+          "url": "https://avalon.law.yale.edu/20th_century/kate.asp",
+          "publisher": "耶鲁大学法学院阿瓦隆项目",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-us-house-resolution",
+      "claim": "2007年，美国众议院通过决议（H.Res.121），要求日本就慰安妇问题道歉。",
+      "context": "2007年7月30日，众议院全体会议通过了众议员迈克·本田（加州民主党）提出的一项决议（无异议通过）。他们呼吁日本政府“对强迫性奴役制度做出明确、毫不含糊的公开道歉”。日本政府对此提出抗议。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "H.Res。 121（第110届国会）——慰安妇决议",
+          "url": "https://www.congress.gov/bill/110th-congress/house-resolution/121",
+          "publisher": "美国国会",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

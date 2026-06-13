@@ -1,0 +1,121 @@
+{
+  "eventId": "korea-colonization",
+  "notes": [
+    {
+      "id": "kc-annexation-treaty",
+      "claim": "The Japan-Korea Annexation Treaty of 1910 was concluded under coercion and intimidation.",
+      "context": "The South Korean side (and many international law scholars) deny the legality of the treaty, citing military pressure following the assassination of Hirobumi Ito when the treaty was concluded. The Japanese government maintains that the treaty was valid under international law at the time, but acknowledged in the Suga statement in 2010 that it was ``conducted against the wishes of the Korean people at the time.'' The 1965 Treaty on Basic Relations between Japan and South Korea states that it is ``no longer valid,'' but its interpretation (whether it is invalid from the beginning or invalid after 1965) is still disputed between Japan and South Korea.",
+      "verdict": "Discussion",
+      "sources": [
+        {
+          "title": "Japan-Korea Basic Treaty (Ministry of Foreign Affairs) (in Japanese)",
+          "url": "https://www.mofa.go.jp/mofaj/area/korea/j_k_relation/ann_b.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        },
+        {
+          "title": "Statement by Prime Minister Suga (August 10, 2010) (in Japanese)",
+          "url": "https://www.kantei.go.jp/jp/kan/statement/201008/10danwa.html",
+          "publisher": "Cabinet Secretariat",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-march-first-movement",
+      "claim": "Thousands of people died and tens of thousands were arrested during the 1919 March First Movement.",
+      "context": "Approximately 2 million people participated in the independence movement (estimated by South Korea). The official records of the Korean Governor-General's Office show that 7,509 people died, 15,961 people were injured, and 46,948 people were arrested as a result of the Japanese suppression, but it has been pointed out that the actual damage may have been much greater. March 1st is still a national holiday in South Korea.",
+      "verdict": "Official records available (actual numbers vary)",
+      "sources": [
+        {
+          "title": "March 1st Independence Movement (Encyclopedia Britannica)",
+          "url": "https://www.britannica.com/event/March-First-Movement",
+          "publisher": "Encyclopedia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "삼일운동 (National Central Library Korean Studies Database)",
+          "url": "https://www.nl.go.kr/",
+          "publisher": "National Central Library (Korea)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-land-survey",
+      "claim": "Many Korean farmers lost their land due to the land survey project (1910-1918)",
+      "context": "Due to land surveys carried out under the pretext of establishing a modern cadastral system, many farmers who did not know the declaration procedures, as well as communal and customary land, were reportedly incorporated into state-owned land as ``undeclared'' land. As a result, many farmers became tenant farmers. Some Japanese researchers emphasize the \"modernization\" of land ownership, but Korean researchers argue that it was a large-scale expropriation.",
+      "verdict": "Discussion",
+      "sources": [
+        {
+          "title": "Carter Eckert et al., 'Korea Old and New: A History', 1990",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674495258",
+          "publisher": "Harvard University Press / Korea Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-soshi-kaimei",
+      "claim": "Approximately 80% of Koreans changed their names to the Japanese style due to the change of names to the So clan (1940).",
+      "context": "Under the ``surname setting'' system implemented from February 1940, many Koreans were effectively forced to choose a Japanese-style ``surname.'' The penetration rate of over 80% is said to be due to administrative pressure and connections with employment and distribution. Although there is a view in some parts of Japan that it was ``voluntary,'' mainstream historical research accepts that it was forced.",
+      "verdict": "Facts confirmed (compulsory nature is debated)",
+      "sources": [
+        {
+          "title": "Tessa Morris-Suzuki, 'Re-inventing Japan', 1998",
+          "url": "https://www.routledge.com/Re-Inventing-Japan-Time-Space-Nation/Morris-Suzuki/p/book/9780765601919",
+          "publisher": "Routledge",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-forced-labor",
+      "claim": "During the Pacific War, approximately 700,000 to 800,000 Koreans were forcibly mobilized to work in mines, factories, etc. in Japan and overseas.",
+      "context": "In addition to mobilization under the 1944-45 conscription order, the total number of mobilizations is even higher if we include ``official mediation'' and ``group recruitment'' from before that time. In the former forced labor lawsuit against Nippon Steel & Sumitomo Metal (currently Nippon Steel) (Judgment by the South Korean Supreme Court in 2018), the Japanese company was ordered to pay compensation, and the Japanese government objected, arguing that this was a violation of the 1965 agreement.",
+      "verdict": "Facts confirmed (compensation issue is under discussion)",
+      "sources": [
+        {
+          "title": "South Korean Supreme Court Judgment (October 30, 2018)",
+          "url": "https://www.hani.co.kr/arti/english_edition/e_national/868052.html",
+          "publisher": "Hankyoreh Newspaper (report)",
+          "type": "media"
+        },
+        {
+          "title": "Ministry of Foreign Affairs: Regarding the so-called “recruited labor” issue (in Japanese)",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_000827.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-taft-katsura",
+      "claim": "The Katsura-Taft Memorandum of 1905 tacitly acknowledged Japan's domination of Korea.",
+      "context": "A secret memorandum signed between U.S. Army Secretary Taft (later President) and Japanese Prime Minister Katsura Taro in July 1905. The United States is said to have effectively recognized Japan's ``suzerainty'' over Korea on the condition that Japan not interfere in the Philippines. The memorandum was published in 1924 by historian Tyler Dennett.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Taft-Katsura Memorandum (Yale Law School Avalon Project)",
+          "url": "https://avalon.law.yale.edu/20th_century/kate.asp",
+          "publisher": "Yale Law School Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-us-house-resolution",
+      "claim": "In 2007, the U.S. House of Representatives adopted a resolution (H.Res.121) calling on Japan to apologize for the comfort women issue.",
+      "context": "On July 30, 2007, a resolution submitted by Rep. Mike Honda (Democratic Party of California) was adopted by the plenary session of the House of Representatives (adopted without objection). They called on the Japanese government to issue a \"clear and unambiguous public apology for the forced sexual slavery system.\" The Japanese government protested against this.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "H.Res. 121 (110th Congress) – Comfort Women Resolution",
+          "url": "https://www.congress.gov/bill/110th-congress/house-resolution/121",
+          "publisher": "United States Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

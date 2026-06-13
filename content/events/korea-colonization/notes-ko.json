@@ -1,0 +1,121 @@
+{
+  "eventId": "korea-colonization",
+  "notes": [
+    {
+      "id": "kc-annexation-treaty",
+      "claim": "1910년의 한일병합조약은 강제·협박하에 체결되었다",
+      "context": "한국측(및 많은 국제법학자)은 조약 체결 시에 이토 히로부미 암살 후의 군사적 압력이 있었다고 하며 조약의 합법성 자체를 부정한다. 일본 정부는 조약은 당시 국제법 하에서 유효했다고 하지만, 2010년 간담화에서는 “당시 조선인의 뜻에 반하여 행해졌다”고 인정했다. 1965년 한일기본조약에서는 '이제 무효'로 여겨지지만 그 해석(처음부터 무효인가, 1965년 이후 무효인가)이 한일간에 지금도 싸워지고 있다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "한일기본조약(외무성) (일본어)",
+          "url": "https://www.mofa.go.jp/mofaj/area/korea/j_k_relation/ann_b.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        },
+        {
+          "title": "스가 내각 총리 대신 담화(2010년 8월 10일) (일본어)",
+          "url": "https://www.kantei.go.jp/jp/kan/statement/201008/10danwa.html",
+          "publisher": "내각 관방",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-march-first-movement",
+      "claim": "1919년의 3·1운동에서는 수천명이 사망하고, 수만명이 체포되었다",
+      "context": "독립운동 참가자는 약 200만명(한국측 추계). 일본의 진압에 의해 사망자 7,509명, 부상자 15,961명, 체포자 46,948명이라는 숫자가 조선총독부의 공식 기록에 남아 있지만 실제 피해는 더 컸을 가능성이 지적되고 있다. 3월 1일은 현재도 한국의 국경일(삼일절)이 되고 있다.",
+      "verdict": "공식 기록 있음(실수에 폭 있음)",
+      "sources": [
+        {
+          "title": "March 1st Independence Movement (Encyclopedia Britannica)",
+          "url": "https://www.britannica.com/event/March-First-Movement",
+          "publisher": "Encyclopædia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "삼일운동(국립중앙도서관 한국학 데이터베이스)",
+          "url": "https://www.nl.go.kr/",
+          "publisher": "국립중앙도서관(한국)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-land-survey",
+      "claim": "토지조사사업(1910~1918년)에 따라 조선인 농민의 대부분이 토지를 잃었다",
+      "context": "근대적인 지적제도의 정비를 명목으로 이루어진 토지조사에 의해, 신고절차를 모르는 농민이나 공동소유지·관습적 소유지의 대부분이 「미신고」로서 국유지에 편입되었다고 한다. 이로 인해 많은 농민들이 소작농으로 전락했다. 일본의 연구자 중 일부는 토지 소유의 '근대화'를 강조하지만, 한국의 연구자는 대규모 수탈이었다고 주장한다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "Carter Eckert et al., 'Korea Old and New: A History', 1990",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674495258",
+          "publisher": "Harvard University Press / Korea Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-soshi-kaimei",
+      "claim": "창씨 개명(1940년)에 의해 조선인의 약 80%가 일본식 성명으로 바꿨다",
+      "context": "1940년 2월부터 실시된 「씨 설정」제도로, 많은 조선인이 사실상 강제적으로 일본식의 「씨」를 설정하게 되었다. 80% 이상이라는 보급률은 행정적 압력과 취업·배급과의 연결이 배경에 있었다고 한다. 일본 일부에서는 '자발적이었다'는 견해도 있지만 역사연구의 주류는 강제성을 인정하고 있다.",
+      "verdict": "사실 확인 완료(강제성에 논의 있음)",
+      "sources": [
+        {
+          "title": "Tessa Morris-Suzuki, 'Re-inventing Japan', 1998",
+          "url": "https://www.routledge.com/Re-Inventing-Japan-Time-Space-Nation/Morris-Suzuki/p/book/9780765601919",
+          "publisher": "Routledge",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-forced-labor",
+      "claim": "태평양전쟁 당시 약 70만~80만명의 조선인이 일본 및 해외의 광산, 공장 등에 강제 동원됐다.",
+      "context": "1944~45년 징집명령에 따른 동원에 더해 그 이전의 '공식조정'과 '집단모집'까지 포함하면 총 동원수는 더욱 많다. 과거 신일철주금(현 신일철주금)을 상대로 한 강제징용 소송(2018년 한국 대법원 판결)에서 일본 기업이 배상하라는 판결을 받았고, 일본 정부는 이것이 1965년 협정 위반이라며 반발했다.",
+      "verdict": "사실 확인 (보상 문제 논의 중)",
+      "sources": [
+        {
+          "title": "한국 대법원 판결(2018.10.30)",
+          "url": "https://www.hani.co.kr/arti/english_edition/e_national/868052.html",
+          "publisher": "한겨레신문(보도)",
+          "type": "media"
+        },
+        {
+          "title": "외교부 : 소위 '근로자 채용' 문제에 대하여 (일본어)",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_000827.html",
+          "publisher": "일본 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-taft-katsura",
+      "claim": "1905년 카츠라 태프트 각서에서 미국은 일본의 조선 지배를 묵인했다",
+      "context": "1905년 7월, 미 육군 장관 태프트(후 대통령)와 일본 총리 가쓰라타로가 교제한 비밀 각서. 미국은 필리핀에 대한 일본의 간섭을 조건으로 일본 조선에 대한 '종주권'을 사실상 승인했다고 한다. 각서는 1924년에 역사가 타일러 데넷에 의해 공개되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Taft-Katsura Memorandum (Yale Law School Avalon Project)",
+          "url": "https://avalon.law.yale.edu/20th_century/kate.asp",
+          "publisher": "Yale Law School Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-us-house-resolution",
+      "claim": "미국 하원은 2007년 위안부 문제로 일본에 사과를 요구하는 결의(H.Res.121)를 채택했다",
+      "context": "2007년 7월 30일 마이크 혼다 의원(민주당, 캘리포니아주)이 제출한 결의안이 하원 본회의에서 채택(이의 없이 채택). 일본 정부에 대해 “강제적인 성적 노예제도에 관한 명확하고 애매함 없는 형태로 공식 사과”를 요구했다. 일본 정부는 이에 항의했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "H.Res. 121 (110th Congress) – Comfort Women Resolution",
+          "url": "https://www.congress.gov/bill/110th-congress/house-resolution/121",
+          "publisher": "United States Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

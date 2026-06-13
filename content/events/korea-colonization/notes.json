@@ -1,0 +1,121 @@
+{
+  "eventId": "korea-colonization",
+  "notes": [
+    {
+      "id": "kc-annexation-treaty",
+      "claim": "1910年の日韓併合条約は、強制・脅迫のもとで締結された",
+      "context": "韓国側（および多くの国際法学者）は、条約締結時に伊藤博文暗殺後の軍事的圧力があったとし、条約の合法性自体を否定する。日本政府は条約は当時の国際法のもとで有効だったとしているが、2010年の菅談話では「当時の朝鮮人の意に反して行われた」と認めた。1965年の日韓基本条約では「もはや無効」とされるが、その解釈（最初から無効か、1965年以降に無効か）が日韓間で今も争われている。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "日韓基本条約（外務省）",
+          "url": "https://www.mofa.go.jp/mofaj/area/korea/j_k_relation/ann_b.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        },
+        {
+          "title": "菅内閣総理大臣談話（2010年8月10日）",
+          "url": "https://www.kantei.go.jp/jp/kan/statement/201008/10danwa.html",
+          "publisher": "内閣官房",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-march-first-movement",
+      "claim": "1919年の三・一運動では数千人が死亡し、数万人が逮捕された",
+      "context": "独立運動への参加者は約200万人（韓国側推計）。日本の鎮圧によって死者7,509人・負傷者15,961人・逮捕者46,948人という数字が朝鮮総督府の公式記録に残っているが、実際の被害はより大きかった可能性が指摘されている。3月1日は現在も韓国の国祝日（三一節）となっている。",
+      "verdict": "公式記録あり（実数に幅あり）",
+      "sources": [
+        {
+          "title": "March 1st Independence Movement (Encyclopedia Britannica)",
+          "url": "https://www.britannica.com/event/March-First-Movement",
+          "publisher": "Encyclopædia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "삼일운동（国立中央図書館 韓国学データベース）",
+          "url": "https://www.nl.go.kr/",
+          "publisher": "国立中央図書館（韓国）",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-land-survey",
+      "claim": "土地調査事業（1910〜1918年）により、朝鮮人農民の多くが土地を失った",
+      "context": "近代的な地籍制度の整備を名目に行われた土地調査により、申告手続きを知らない農民や共同所有地・慣習的所有地の多くが「未申告」として国有地に編入されたとされる。これによって多くの農民が小作農に転落した。日本の研究者の一部は土地所有の「近代化」を強調するが、韓国の研究者は大規模な収奪だったと主張する。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "Carter Eckert et al., 'Korea Old and New: A History', 1990",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674495258",
+          "publisher": "Harvard University Press / Korea Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-soshi-kaimei",
+      "claim": "創氏改名（1940年）により、朝鮮人の約80%が日本式氏名に改めた",
+      "context": "1940年2月から実施された「氏設定」制度で、多くの朝鮮人が事実上強制的に日本式の「氏」を設定させられた。80%以上という普及率は、行政的圧力や就職・配給との結びつけが背景にあったとされる。日本の一部では「自発的だった」とする見解もあるが、歴史研究の主流は強制性を認めている。",
+      "verdict": "事実確認済み（強制性に議論あり）",
+      "sources": [
+        {
+          "title": "Tessa Morris-Suzuki, 'Re-inventing Japan', 1998",
+          "url": "https://www.routledge.com/Re-Inventing-Japan-Time-Space-Nation/Morris-Suzuki/p/book/9780765601919",
+          "publisher": "Routledge",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kc-forced-labor",
+      "claim": "太平洋戦争中、約70〜80万人の朝鮮人が日本内地や海外の鉱山・工場等に強制動員された",
+      "context": "1944〜45年の徴用令による動員のほか、それ以前からの「官斡旋」「集団募集」を含めると動員総数はさらに多い。新日鉄住金（現・日本製鉄）の元徴用工訴訟（2018年韓国大法院判決）では日本企業に賠償が命じられ、日本政府はこれが1965年協定違反だとして反発した。",
+      "verdict": "事実確認済み（賠償問題に議論あり）",
+      "sources": [
+        {
+          "title": "韓国大法院判決（2018年10月30日）",
+          "url": "https://www.hani.co.kr/arti/english_edition/e_national/868052.html",
+          "publisher": "ハンギョレ新聞（報道）",
+          "type": "media"
+        },
+        {
+          "title": "外務省：いわゆる「徴用工」問題について",
+          "url": "https://www.mofa.go.jp/mofaj/a_o/na/kr/page4_000827.html",
+          "publisher": "日本国外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-taft-katsura",
+      "claim": "1905年のカツラ・タフト覚書で米国は日本の朝鮮支配を黙認した",
+      "context": "1905年7月、米陸軍長官タフト（後の大統領）と日本首相桂太郎が交わした秘密覚書。米国はフィリピンへの日本の不干渉を条件に、日本の朝鮮への「宗主権」を事実上承認したとされる。覚書は1924年に歴史家タイラー・デネットによって公開された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Taft-Katsura Memorandum (Yale Law School Avalon Project)",
+          "url": "https://avalon.law.yale.edu/20th_century/kate.asp",
+          "publisher": "Yale Law School Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kc-us-house-resolution",
+      "claim": "米国下院は2007年に慰安婦問題で日本に謝罪を求める決議（H.Res.121）を採択した",
+      "context": "2007年7月30日、マイク・ホンダ議員（民主党・カリフォルニア州）が提出した決議案が下院本会議で採択（異議なし採択）。日本政府に対し「強制的な性的奴隷制度に関する明確かつ曖昧さのない形での公式謝罪」を求めた。日本政府はこれに抗議した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "H.Res. 121 (110th Congress) – Comfort Women Resolution",
+          "url": "https://www.congress.gov/bill/110th-congress/house-resolution/121",
+          "publisher": "United States Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

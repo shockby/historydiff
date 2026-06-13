@@ -7,7 +7,7 @@ import time
 
 content_dir = 'content/events'
 
-# 残り4イベント（韓国視点あり）
+# 韓国視点ありイベント（korea-colonization を含む）
 TARGET_EVENTS = [
     'fukushima-treated-water',
     'high-speed-rail-controversy',

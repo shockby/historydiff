@@ -181,4 +181,4 @@ Contributions that add verified regional perspectives, fix translation nuances, 
 
 ## 📄 License
 
-This project is private and proprietary. All rights reserved.
+This project is MIT License.

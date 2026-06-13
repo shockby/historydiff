@@ -1,16 +1,16 @@
 ---
 id: "ukraine-invasion"
-title: "Russian Perspective on the Special Military Operation in Ukraine"
-category: "Territorial Disputes & Sovereignty"
-year: "2014-Present"
+title: "Russia's Perspective on the Special Military Operation in Ukraine"
+category: "Territorial disputes, sovereignty & security"
+year: "February 2022-Present"
 location: "Ukraine"
 country: "Russia"
 language: "en"
-source: "Russian Federation Government Stance and Textbook Accounts"
+source: "Russian Federation Government Official Position and Textbook Accounts (including 2023 edition)"
 ---
 
-According to the Russian government's stance and the new Russian history textbooks introduced in **2023** (authored by Medinsky and others), the military actions in Ukraine initiated in **February 2022** are categorized not as an "invasion" but as a "Special Military Operation" to protect Russia's national security and defend the residents of the Donbas region.
+In the official position of the Russian Federation government, and in the new Russian history textbook introduced in **2023** (supervised by Vladimir Medinsky), the military action in Ukraine launched on **February 24, 2022** is not defined as an "invasion" but as a "**Special Military Operation**" conducted to protect Russia's vital security interests and shield the residents of the Donbas region from what Russia characterizes as threats posed by Ukrainian government forces.
 
-The Russian narrative asserts that the primary cause of the conflict is the eastward expansion of **NATO (North Atlantic Treaty Organization)** and the militarization of Ukraine led by the United States, which posed a direct threat to Russia's existence. Additionally, Russia views the 2014 change of government in Ukraine (the Maidan Revolution) as an "illegal coup" backed by Western nations, arguing that the subsequent Ukrainian administrations engaged in systematic persecution and "genocide" against the Russian-speaking population in the east.
+According to the Russian narrative, the fundamental cause of the conflict is the eastward expansion of **NATO (North Atlantic Treaty Organization)** under U.S. leadership. Ukraine's potential NATO membership is presented as an existential security threat to Russia. The **2014 Maidan Revolution** is characterized as an "illegal coup" orchestrated by Western powers, after which successive Ukrainian governments allegedly carried out systematic persecution of Russian-speaking residents in the Donbas.
 
-Russian educational curricula teach that the incorporation of **Crimea** into Russia (2014) and the annexation of the four regions of **Donetsk**, **Luhansk**, **Zaporizhzhia**, and **Kherson** (**September 2022**) were peacefully and legally decided through "referendums" based on the residents' right to self-determination. The objectives of the operation are defined as the "demilitarization" and "denazification" of Ukraine, emphasizing the restoration of historical justice and the establishment of a multipolar world order.
+Within Russia's educational and information space, the "reintegration" of **Crimea** in **2014** and the incorporation of **Donetsk, Luhansk, Zaporizhzhia, and Kherson** oblasts following referendums in **September 2022** are taught as the legitimate exercise of self-determination by local populations, making them constitutionally indivisible parts of the Russian Federation. The operation's goals are defined as the "**demilitarization**" and "**denazification**" of Ukraine, framed as a historic struggle toward building a multipolar world order in place of Western unipolar dominance.

@@ -2,13 +2,13 @@
   "eventId": "ukraine-invasion",
   "notes": [
     {
-      "id": "ui-budapest-memorandum-1994",
-      "claim": "In the 1994 Budapest Memorandum, Russia committed to respect Ukraine's independence, sovereignty, and existing borders",
-      "context": "In December 1994, Ukraine agreed to surrender its nuclear weapons—then the third-largest stockpile in the world inherited from the Soviet Union—and join the Treaty on the Non-Proliferation of Nuclear Weapons (NPT). In exchange, Russia, the United States, and the United Kingdom signed the Budapest Memorandum, committing to respect Ukraine's territorial integrity and political independence. Ukraine and Western nations criticize Russia's 2014 annexation of Crimea and 2022 invasion as flagrant violations of this memorandum. Conversely, Russia argues that the 2014 change of government (Maidan Revolution) altered the legal identity of Ukraine, creating a new state to which Russia's prior commitments do not apply.",
-      "verdict": "Official record exists (disagreement over legal status and applicability)",
+      "id": "ui-budapest-memorandum",
+      "claim": "Russia undertook obligations to guarantee Ukraine's sovereignty and territorial integrity under the 1994 Budapest Memorandum",
+      "context": "In December 1994, Ukraine agreed to relinquish the nuclear arsenal it had inherited from the Soviet Union (then the world's third largest) and join the NPT. In return, Russia, the United States, and the United Kingdom signed a memorandum pledging to respect Ukraine's independence, sovereignty, and territorial integrity. Ukraine and the West regard Russia's 2014 annexation of Crimea and 2022 invasion as serious violations of this memorandum. Russia argues that the 2014 Maidan Revolution changed the legal entity of Ukraine, meaning its obligations do not apply to the current government.",
+      "verdict": "Official record exists (disagreement over legal effect and applicability)",
       "sources": [
         {
-          "title": "Memorandum on security assurances in connection with Ukraine’s accession to the Treaty on the Non-Proliferation of Nuclear Weapons",
+          "title": "Memorandum on Security Assurances in Connection with Ukraine's Accession to the NPT (Budapest Memorandum)",
           "url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280401fbb",
           "publisher": "United Nations Treaty Series",
           "type": "international"
@@ -16,24 +16,24 @@
       ]
     },
     {
-      "id": "ui-crimea-annexation-2014",
-      "claim": "The incorporation of Crimea into Russia was carried out based on the results of a referendum held in March 2014",
-      "context": "On March 16, 2014, a referendum was held in the Autonomous Republic of Crimea on joining Russia, with official results showing approximately 97% approval. Russia claims this was a legal process based on the right of self-determination. However, the Ukrainian government and the international community, including the UN General Assembly (Resolution 68/262), reject the referendum's validity, stating it was conducted under Russian military occupation in violation of the Ukrainian constitution, and thus constitutes an illegal annexation with no legal force.",
-      "verdict": "Referendum held (overwhelmingly rejected as invalid under international law)",
+      "id": "ui-crimea-referendum-2014",
+      "claim": "A referendum was held in Crimea in March 2014 and an annexation to Russia was declared",
+      "context": "On March 16, 2014, a referendum was held in the Autonomous Republic of Crimea, then under de facto Russian military control, with official results showing 96.77% in favor of joining Russia. Russia considers this a legitimate exercise of the right to self-determination. On March 27, 2014, the UN General Assembly adopted Resolution 68/262 (with 100 countries in favor), reaffirming Ukraine's territorial integrity and declaring the referendum invalid. Most countries other than Russia still do not recognize Russian sovereignty over Crimea.",
+      "verdict": "Referendum held (rejected as invalid by the majority of the international community)",
       "sources": [
         {
-          "title": "United Nations General Assembly Resolution 68/262 (Territorial integrity of Ukraine)",
-          "url": "https://undocs.org/Home/Mobile?FinalSymbol=A%2FRES%2F68%2F262",
-          "publisher": "United Nations",
+          "title": "United Nations General Assembly Resolution 68/262: Territorial integrity of Ukraine",
+          "url": "https://undocs.org/en/A/RES/68/262",
+          "publisher": "United Nations General Assembly",
           "type": "international"
         }
       ]
     },
     {
-      "id": "ui-minsk-agreements-2014",
-      "claim": "The Minsk Agreements were signed to resolve the conflict in Donbas, but both sides accuse each other of failing to implement them",
-      "context": "The Minsk Agreements (Minsk I and II) were signed in 2014 and 2015 by Russia, Ukraine, the OSCE, and pro-Russian separatist leaders to cease fighting in eastern Ukraine. Russia accuses Ukraine of refusing to implement political provisions, such as granting special status and autonomy to the eastern regions. Ukraine argues that Russia failed to fulfill its primary security obligations first, including maintaining an immediate ceasefire, withdrawing foreign military assets, and returning control of the border to Ukraine, leading both sides to blame each other for the collapse of the peace process.",
-      "verdict": "Agreements exist (disagreement over responsibility for implementation failure)",
+      "id": "ui-minsk-agreements",
+      "claim": "The 2014-2015 Minsk Agreements established a ceasefire framework for Donbas, but both sides accused each other of non-compliance",
+      "context": "Minsk I (September 2014) and Minsk II (February 2015) were ceasefire frameworks agreed upon by Ukraine, Russia, the OSCE, and representatives of the Donetsk/Luhansk People's Republics. Russia claims Ukraine refused the political provisions (granting special status to Donbas; constitutional reforms), while Ukraine argues Russia failed to initiate disarmament and border handover first. Complicating interpretation, French President Macron and former German Chancellor Merkel later suggested the agreements were designed to give Ukraine time to rebuild its military, highlighting the profound gap in how each side understood the accords.",
+      "verdict": "Agreements exist (disagreement over responsibility for non-compliance)",
       "sources": [
         {
           "title": "Package of Measures for the Implementation of the Minsk Agreements",
@@ -44,9 +44,9 @@
       ]
     },
     {
-      "id": "ui-nato-expansion",
-      "claim": "It is argued that Western leaders gave verbal assurances to the Soviet Union at the end of the Cold War that NATO would not expand eastward",
-      "context": "During the 1990 negotiations on German reunification, U.S. Secretary of State James Baker reportedly told Soviet Leader Mikhail Gorbachev that NATO's jurisdiction would not expand 'one inch eastward.' Russia cites these transcripts as evidence of a broken Western promise. In contrast, the U.S. and NATO contend that these discussions were strictly in the context of German reunification, no formal treaty or written agreement restricted NATO expansion to other European nations, and sovereign states retain the freedom to choose their own alliances (as enshrined in the Helsinki Accords).",
+      "id": "ui-nato-eastward-promise",
+      "claim": "It is claimed that at the end of the Cold War, Western nations promised the Soviet Union that NATO would 'not expand one inch eastward'",
+      "context": "Diplomatic documents record statements made by U.S. Secretary of State James Baker to Soviet President Gorbachev during German reunification negotiations in 1990. Russia cites these as a broken promise and uses them as one basis for justifying the invasion. The U.S. and NATO counter that the remarks were limited to the German context and that no treaty or formal agreement restricting expansion to Central and Eastern Europe was ever concluded. The Helsinki Final Act (1975) enshrines every sovereign state's right to freely choose its alliances, a principle widely held to apply to Ukraine's NATO aspirations.",
       "verdict": "Record of statements exists (disagreement over legal bindingness and scope)",
       "sources": [
         {
@@ -58,21 +58,35 @@
       ]
     },
     {
-      "id": "ui-donbas-genocide-claim",
-      "claim": "It is claimed that the Ukrainian military committed 'genocide' against residents of the Donbas region",
-      "context": "The Russian government has repeatedly labeled the post-2014 conflict in eastern Ukraine as a 'genocide against Russian-speakers' by the Ukrainian regime, citing it as a major justification for the 2022 invasion. However, international bodies, including the UN Office of the High Commissioner for Human Rights (OHCHR) and the International Court of Justice (ICJ), have found no evidence of systematic or intentional genocide in the region. The approximately 3,400 civilian deaths in the region between 2014 and 2021 are documented as casualties resulting from active hostilities rather than a deliberate campaign of ethnic destruction.",
-      "verdict": "Rejected by international organizations (significant dispute over facts and legal characterization)",
+      "id": "ui-war-crimes-bucha",
+      "claim": "Killings of civilians by Russian forces have been confirmed in Bucha and multiple other locations",
+      "context": "After Russian forces withdrew from areas north of Kyiv in late March 2022, large numbers of civilian bodies were discovered on streets and in buildings in Bucha. The UN Human Rights Monitoring Mission (OHCHR), the International Criminal Court (ICC), and multiple independent investigators documented evidence of extrajudicial killings, torture, and sexual violence against civilians. In March 2023, the ICC issued an arrest warrant for President Putin in connection with the unlawful deportation of children from Ukraine. Russia claims the Bucha footage was staged and does not recognize the ICC's jurisdiction.",
+      "verdict": "Documented by the UN and ICC (Russia denies and does not recognize ICC jurisdiction)",
       "sources": [
         {
-          "title": "International Court of Justice - Case concerning Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation)",
-          "url": "https://www.icj-cij.org/case/182",
-          "publisher": "International Court of Justice",
+          "title": "Ukraine: Situation Report (OHCHR)",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
           "type": "international"
         },
         {
-          "title": "Conflict-related civilian casualties in Ukraine (OHCHR)",
-          "url": "https://www.ohchr.org/en/documents/reports/conflict-related-civilian-casualties-ukraine",
-          "publisher": "OHCHR",
+          "title": "ICC Arrest Warrant for Vladimir Putin",
+          "url": "https://www.icc-cpi.int/news/situation-ukraine-icc-judges-issue-arrest-warrants-against-vladimir-vladimirovich-putin-and",
+          "publisher": "International Criminal Court",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-four-oblasts-annexation-2022",
+      "claim": "In September 2022, Russia declared the 'annexation' of Donetsk, Luhansk, Zaporizhzhia, and Kherson oblasts",
+      "context": "Referendums were held in Russian-controlled areas from September 23-27, 2022, and on September 30 President Putin declared the annexation of all four oblasts. Official results claimed 87-99% approval, but no international monitors such as the OSCE were present. On October 12, 2022, the UN General Assembly adopted Resolution ES-11/4 (143 countries in favor), declaring these 'illegal referendums' void and calling on Russia to withdraw. Russia has enshrined these four oblasts in its constitution as 'indivisible territory.'",
+      "verdict": "Annexation declaration is a fact (rejected as invalid by the majority of the international community)",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution ES-11/4",
+          "url": "https://undocs.org/en/A/RES/ES-11/4",
+          "publisher": "United Nations General Assembly",
           "type": "international"
         }
       ]

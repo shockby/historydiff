@@ -2,13 +2,13 @@
   "eventId": "ukraine-invasion",
   "notes": [
     {
-      "id": "ui-budapest-memorandum-1994",
-      "claim": "1994年の「ブダペスト覚書」でロシアはウクライナの主権と既存の国境の尊重を約束した",
-      "context": "1994年12月、ウクライナが核兵器（旧ソ連から引き継いだ世界第3位の保有量）を放棄して核拡散防止条約（NPT）に加盟する見返りとして、ロシア、米国、英国の3カ国がウクライナの領土保全と政治的独立を尊重する覚書（ブダペスト覚書）に署名した。ウクライナと欧米諸国は、ロシアによる2014年のクリミア併合や2022年の侵攻をこの覚書に対する重大な義務違反であると批判している。一方、ロシアは、2014年の政変（マイダン革命）によってウクライナの法的主体が変わり、新たな国家が誕生したため、以前の覚書に基づく義務は適用されないと主張している。",
-      "verdict": "公式記録あり（法的効力や適用について解釈に相違）",
+      "id": "ui-budapest-memorandum",
+      "claim": "1994年の「ブダペスト覚書」でロシアはウクライナの主権・領土保全を保証する義務を負った",
+      "context": "1994年12月、ウクライナが旧ソ連から引き継いだ核兵器（世界第3位の保有量）を放棄しNPTに加盟する見返りとして、ロシア・米国・英国の3カ国がウクライナの独立・主権・領土保全を尊重する覚書に署名した。ウクライナと欧米はロシアによる2014年のクリミア併合と2022年の侵攻をこの覚書の重大な違反とみなしている。ロシアは、2014年のマイダン革命でウクライナの法的実体が変わったため覚書の義務は現政権に適用されないと主張している。",
+      "verdict": "公式記録あり（法的効力・適用範囲の解釈に相違）",
       "sources": [
         {
-          "title": "Memorandum on security assurances in connection with Ukraine’s accession to the Treaty on the Non-Proliferation of Nuclear Weapons",
+          "title": "Memorandum on Security Assurances in Connection with Ukraine's Accession to the NPT (Budapest Memorandum)",
           "url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280401fbb",
           "publisher": "United Nations Treaty Series",
           "type": "international"
@@ -16,23 +16,23 @@
       ]
     },
     {
-      "id": "ui-crimea-annexation-2014",
-      "claim": "2014年3月にクリミアで実施された住民投票の結果に基づいてロシアへの編入が行われた",
-      "context": "2014年3月16日、ウクライナのクリミア自治共和国でロシアへの編入の是非を問う住民投票が実施され、公式発表では賛成が約97%に達した。ロシアはこれを民族自決権に基づく合法的な手続きであると主張している。しかし、ウクライナ政府および国連総会（決議68/262）をはじめとする国際社会は、ロシア軍が武装占領した条件下でウクライナ憲法に反して行われた投票であり、一切の法的有効性を持たず、国際法に違反する不法占有であるとして認めていない。",
-      "verdict": "住民投票は実施（国際法上の有効性・合法性を否定する見解が大半）",
+      "id": "ui-crimea-referendum-2014",
+      "claim": "2014年3月、クリミアで住民投票が行われ、ロシアへの編入が宣言された",
+      "context": "2014年3月16日、ロシア軍の事実上の管理下に置かれたクリミア自治共和国で住民投票が実施され、公式発表では賛成96.77%という結果が出た。ロシアはこれを民族自決権の正当な行使とする。国連総会は同年3月27日、決議68/262（賛成100カ国）でウクライナの領土保全を確認し、住民投票の無効を宣言した。現在もロシアを除く主要国はクリミアのロシア主権を承認していない。",
+      "verdict": "住民投票は実施（国際社会の大多数が無効と判断）",
       "sources": [
         {
-          "title": "United Nations General Assembly Resolution 68/262 (Territorial integrity of Ukraine)",
-          "url": "https://undocs.org/Home/Mobile?FinalSymbol=A%2FRES%2F68%2F262",
-          "publisher": "United Nations",
+          "title": "United Nations General Assembly Resolution 68/262: Territorial integrity of Ukraine",
+          "url": "https://undocs.org/en/A/RES/68/262",
+          "publisher": "United Nations General Assembly",
           "type": "international"
         }
       ]
     },
     {
-      "id": "ui-minsk-agreements-2014",
-      "claim": "ドンバス地方の紛争解決を目指した「ミンスク合意」が締結されたが、双方が履行義務を怠ったと主張している",
-      "context": "2014年と2015年にウクライナ東部での戦闘を停止させるため、ロシア、ウクライナ、OSCE、さらに親ロシア派武装勢力が参加して「ミンスク合意（ミンスク1および2）」が結ばれた。ロシアは、ウクライナが東部地域への広範な自治権付与や憲法改正などの政治プロセスの履行を拒否したと主張。対してウクライナは、ロシアが即時停戦や親ロ派武装組織の武装解除、国境管理権の返還といった安全保障上の義務を先に果たすべきであったと主張し、互いに相手の不履行を対話決裂の理由としている。",
+      "id": "ui-minsk-agreements",
+      "claim": "2014・2015年の「ミンスク合意」でドンバス停戦が合意されたが、双方が相互に不履行を主張した",
+      "context": "ミンスク1（2014年9月）とミンスク2（2015年2月）は、ウクライナ・ロシア・OSCE・ドネツク/ルハンスク人民共和国代表によって合意された停戦枠組み。政治条項（ドンバスへの特別地位付与・ウクライナ憲法改正）はウクライナが拒否したとロシアは主張。ウクライナはロシアが武装解除・国境返還を先行させないため合意が成立しないと主張した。ミンスク2の主要仲介国だったフランスのマクロン大統領とドイツのメルケル前首相は後に「合意はウクライナに時間を稼がせるものだった」とも発言しており、合意の性格をめぐる解釈の差が浮き彫りになっている。",
       "verdict": "合意は存在（不履行の責任帰属について相違）",
       "sources": [
         {
@@ -44,10 +44,10 @@
       ]
     },
     {
-      "id": "ui-nato-expansion",
-      "claim": "冷戦終結期に西側諸国がソ連に対し「NATOは東方に拡大しない」との約束をしたと主張されている",
-      "context": "1990年のドイツ統一交渉の際、ベーカー米国務長官がゴルバチョフ・ソ連大統領に対し「NATOの管轄は東方に1インチも拡大しない」と発言した等の口頭記録が残されている。ロシアはこれを公式な約束に対する西側の裏切りであると非難している。一方で米国やNATOは、それらの対話はドイツ統一の文脈におけるものであり、中東欧諸国への拡大を制限する条約や公式な合意文書は締結されておらず、主権国家が自国の同盟を選択する自由（ヘルシンキ宣言等）は保障されていると反論している。",
-      "verdict": "発言の記録あり（法的拘束力および対象範囲の解釈に相違）",
+      "id": "ui-nato-eastward-promise",
+      "claim": "冷戦終結時に西側諸国がソ連に対し「NATOは東に1インチも拡大しない」と約束したと主張されている",
+      "context": "1990年のドイツ統一交渉の過程でベーカー米国務長官がゴルバチョフ大統領に行ったとされる発言が外交文書に残っている。ロシアはこれを破られた約束として侵攻の正当性の根拠の一つに挙げている。米国・NATOはこの発言がドイツ統一の文脈に限定されたものであり、東中欧諸国への拡大を制限する条約・正式合意は存在しないと反論する。ヘルシンキ最終議定書（1975年）はすべての主権国家が同盟を自由に選択できると定めており、ウクライナのNATO加盟問題に関しても適用されるとする立場が多い。",
+      "verdict": "発言の記録あり（法的拘束力・適用範囲の解釈に相違）",
       "sources": [
         {
           "title": "NATO-Russia relations: the facts",
@@ -58,21 +58,35 @@
       ]
     },
     {
-      "id": "ui-donbas-genocide-claim",
-      "claim": "ウクライナ政府軍がドンバス地方の住民に対し「ジェノサイド」を行っていたと主張されている",
-      "context": "ロシア政府は、2014年以降の親ロシア派地域に対する攻撃を「ウクライナ政権によるロシア系住民へのジェノサイド」と呼び、侵攻開始の主要な大義名分として掲げている。これに対し、国連人権高等弁務官事務所（OHCHR）や国際司法裁判所（ICJ）などは検証の結果、ジェノサイドを裏付ける組織的・意図的な大量虐殺の証拠は存在しないと報告している。また、2014〜2021年の東部紛争における民間人死者約3,400人は、双方の戦闘行為による結果であり、特定の民族集団に対する抹殺の意思によるものではないと見なされている。",
-      "verdict": "国際機関等は否定（評価・事実認定に大きな相違）",
+      "id": "ui-war-crimes-bucha",
+      "claim": "ブチャほか複数の地域でロシア軍による民間人殺害が確認されている",
+      "context": "2022年3月末にロシア軍がキーウ北郊のブチャから撤退後、多数の民間人遺体が路上や建物内で発見された。国連人権監視団（OHCHR）・国際刑事裁判所（ICC）・複数の独立調査機関が現地調査を行い、民間人に対する超法規的殺害・拷問・性的暴力の証拠を文書化している。ICCは2023年3月、プーチン大統領に対してウクライナからの子どもの不法移送に関わる戦争犯罪の逮捕状を発付した。ロシアはブチャの映像を「演出」と主張し、ICCの管轄権を認めていない。",
+      "verdict": "国連・ICCが記録を確認（ロシアは否定・ICCの管轄権を不承認）",
       "sources": [
         {
-          "title": "International Court of Justice - Case concerning Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation)",
-          "url": "https://www.icj-cij.org/case/182",
-          "publisher": "International Court of Justice",
+          "title": "Ukraine: Situation Report (OHCHR)",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
           "type": "international"
         },
         {
-          "title": "Conflict-related civilian casualties in Ukraine (OHCHR)",
-          "url": "https://www.ohchr.org/en/documents/reports/conflict-related-civilian-casualties-ukraine",
-          "publisher": "OHCHR",
+          "title": "ICC Arrest Warrant for Vladimir Putin",
+          "url": "https://www.icc-cpi.int/news/situation-ukraine-icc-judges-issue-arrest-warrants-against-vladimir-vladimirovich-putin-and",
+          "publisher": "International Criminal Court",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-four-oblasts-annexation-2022",
+      "claim": "2022年9月、ロシアはドネツク・ルハンスク・ザポリージャ・ヘルソン4州の「編入」を宣言した",
+      "context": "2022年9月23〜27日にかけてロシア実効支配地域で住民投票が行われ、プーチン大統領は9月30日に4州のロシアへの編入を宣言した。公式発表ではいずれも賛成87〜99%とされたが、OSCE等の国際監視団の立ち会いはなかった。国連総会は同年10月12日、決議ES-11/4（賛成143カ国）でこの「違法な住民投票」を無効と宣言し、ロシアに撤退を求めた。ロシアはこれら4州を憲法に明記された自国の「不可分の領土」と位置づけている。",
+      "verdict": "編入宣言は事実（国際社会の大多数が無効と判断）",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution ES-11/4",
+          "url": "https://undocs.org/en/A/RES/ES-11/4",
+          "publisher": "United Nations General Assembly",
           "type": "international"
         }
       ]

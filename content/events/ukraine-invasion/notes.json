@@ -1,0 +1,81 @@
+{
+  "eventId": "ukraine-invasion",
+  "notes": [
+    {
+      "id": "ui-budapest-memorandum-1994",
+      "claim": "1994年の「ブダペスト覚書」でロシアはウクライナの主権と既存の国境の尊重を約束した",
+      "context": "1994年12月、ウクライナが核兵器（旧ソ連から引き継いだ世界第3位の保有量）を放棄して核拡散防止条約（NPT）に加盟する見返りとして、ロシア、米国、英国の3カ国がウクライナの領土保全と政治的独立を尊重する覚書（ブダペスト覚書）に署名した。ウクライナと欧米諸国は、ロシアによる2014年のクリミア併合や2022年の侵攻をこの覚書に対する重大な義務違反であると批判している。一方、ロシアは、2014年の政変（マイダン革命）によってウクライナの法的主体が変わり、新たな国家が誕生したため、以前の覚書に基づく義務は適用されないと主張している。",
+      "verdict": "公式記録あり（法的効力や適用について解釈に相違）",
+      "sources": [
+        {
+          "title": "Memorandum on security assurances in connection with Ukraine’s accession to the Treaty on the Non-Proliferation of Nuclear Weapons",
+          "url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280401fbb",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-crimea-annexation-2014",
+      "claim": "2014年3月にクリミアで実施された住民投票の結果に基づいてロシアへの編入が行われた",
+      "context": "2014年3月16日、ウクライナのクリミア自治共和国でロシアへの編入の是非を問う住民投票が実施され、公式発表では賛成が約97%に達した。ロシアはこれを民族自決権に基づく合法的な手続きであると主張している。しかし、ウクライナ政府および国連総会（決議68/262）をはじめとする国際社会は、ロシア軍が武装占領した条件下でウクライナ憲法に反して行われた投票であり、一切の法的有効性を持たず、国際法に違反する不法占有であるとして認めていない。",
+      "verdict": "住民投票は実施（国際法上の有効性・合法性を否定する見解が大半）",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution 68/262 (Territorial integrity of Ukraine)",
+          "url": "https://undocs.org/Home/Mobile?FinalSymbol=A%2FRES%2F68%2F262",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-minsk-agreements-2014",
+      "claim": "ドンバス地方の紛争解決を目指した「ミンスク合意」が締結されたが、双方が履行義務を怠ったと主張している",
+      "context": "2014年と2015年にウクライナ東部での戦闘を停止させるため、ロシア、ウクライナ、OSCE、さらに親ロシア派武装勢力が参加して「ミンスク合意（ミンスク1および2）」が結ばれた。ロシアは、ウクライナが東部地域への広範な自治権付与や憲法改正などの政治プロセスの履行を拒否したと主張。対してウクライナは、ロシアが即時停戦や親ロ派武装組織の武装解除、国境管理権の返還といった安全保障上の義務を先に果たすべきであったと主張し、互いに相手の不履行を対話決裂の理由としている。",
+      "verdict": "合意は存在（不履行の責任帰属について相違）",
+      "sources": [
+        {
+          "title": "Package of Measures for the Implementation of the Minsk Agreements",
+          "url": "https://peacemaker.un.org/ukraine-minsk2",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-nato-expansion",
+      "claim": "冷戦終結期に西側諸国がソ連に対し「NATOは東方に拡大しない」との約束をしたと主張されている",
+      "context": "1990年のドイツ統一交渉の際、ベーカー米国務長官がゴルバチョフ・ソ連大統領に対し「NATOの管轄は東方に1インチも拡大しない」と発言した等の口頭記録が残されている。ロシアはこれを公式な約束に対する西側の裏切りであると非難している。一方で米国やNATOは、それらの対話はドイツ統一の文脈におけるものであり、中東欧諸国への拡大を制限する条約や公式な合意文書は締結されておらず、主権国家が自国の同盟を選択する自由（ヘルシンキ宣言等）は保障されていると反論している。",
+      "verdict": "発言の記録あり（法的拘束力および対象範囲の解釈に相違）",
+      "sources": [
+        {
+          "title": "NATO-Russia relations: the facts",
+          "url": "https://www.nato.int/cps/en/natohq/topics_111767.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-donbas-genocide-claim",
+      "claim": "ウクライナ政府軍がドンバス地方の住民に対し「ジェノサイド」を行っていたと主張されている",
+      "context": "ロシア政府は、2014年以降の親ロシア派地域に対する攻撃を「ウクライナ政権によるロシア系住民へのジェノサイド」と呼び、侵攻開始の主要な大義名分として掲げている。これに対し、国連人権高等弁務官事務所（OHCHR）や国際司法裁判所（ICJ）などは検証の結果、ジェノサイドを裏付ける組織的・意図的な大量虐殺の証拠は存在しないと報告している。また、2014〜2021年の東部紛争における民間人死者約3,400人は、双方の戦闘行為による結果であり、特定の民族集団に対する抹殺の意思によるものではないと見なされている。",
+      "verdict": "国際機関等は否定（評価・事実認定に大きな相違）",
+      "sources": [
+        {
+          "title": "International Court of Justice - Case concerning Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation)",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "Conflict-related civilian casualties in Ukraine (OHCHR)",
+          "url": "https://www.ohchr.org/en/documents/reports/conflict-related-civilian-casualties-ukraine",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

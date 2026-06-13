@@ -1,0 +1,81 @@
+{
+  "eventId": "ukraine-invasion",
+  "notes": [
+    {
+      "id": "ui-budapest-memorandum-1994",
+      "claim": "In the 1994 Budapest Memorandum, Russia committed to respect Ukraine's independence, sovereignty, and existing borders",
+      "context": "In December 1994, Ukraine agreed to surrender its nuclear weapons—then the third-largest stockpile in the world inherited from the Soviet Union—and join the Treaty on the Non-Proliferation of Nuclear Weapons (NPT). In exchange, Russia, the United States, and the United Kingdom signed the Budapest Memorandum, committing to respect Ukraine's territorial integrity and political independence. Ukraine and Western nations criticize Russia's 2014 annexation of Crimea and 2022 invasion as flagrant violations of this memorandum. Conversely, Russia argues that the 2014 change of government (Maidan Revolution) altered the legal identity of Ukraine, creating a new state to which Russia's prior commitments do not apply.",
+      "verdict": "Official record exists (disagreement over legal status and applicability)",
+      "sources": [
+        {
+          "title": "Memorandum on security assurances in connection with Ukraine’s accession to the Treaty on the Non-Proliferation of Nuclear Weapons",
+          "url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280401fbb",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-crimea-annexation-2014",
+      "claim": "The incorporation of Crimea into Russia was carried out based on the results of a referendum held in March 2014",
+      "context": "On March 16, 2014, a referendum was held in the Autonomous Republic of Crimea on joining Russia, with official results showing approximately 97% approval. Russia claims this was a legal process based on the right of self-determination. However, the Ukrainian government and the international community, including the UN General Assembly (Resolution 68/262), reject the referendum's validity, stating it was conducted under Russian military occupation in violation of the Ukrainian constitution, and thus constitutes an illegal annexation with no legal force.",
+      "verdict": "Referendum held (overwhelmingly rejected as invalid under international law)",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution 68/262 (Territorial integrity of Ukraine)",
+          "url": "https://undocs.org/Home/Mobile?FinalSymbol=A%2FRES%2F68%2F262",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-minsk-agreements-2014",
+      "claim": "The Minsk Agreements were signed to resolve the conflict in Donbas, but both sides accuse each other of failing to implement them",
+      "context": "The Minsk Agreements (Minsk I and II) were signed in 2014 and 2015 by Russia, Ukraine, the OSCE, and pro-Russian separatist leaders to cease fighting in eastern Ukraine. Russia accuses Ukraine of refusing to implement political provisions, such as granting special status and autonomy to the eastern regions. Ukraine argues that Russia failed to fulfill its primary security obligations first, including maintaining an immediate ceasefire, withdrawing foreign military assets, and returning control of the border to Ukraine, leading both sides to blame each other for the collapse of the peace process.",
+      "verdict": "Agreements exist (disagreement over responsibility for implementation failure)",
+      "sources": [
+        {
+          "title": "Package of Measures for the Implementation of the Minsk Agreements",
+          "url": "https://peacemaker.un.org/ukraine-minsk2",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-nato-expansion",
+      "claim": "It is argued that Western leaders gave verbal assurances to the Soviet Union at the end of the Cold War that NATO would not expand eastward",
+      "context": "During the 1990 negotiations on German reunification, U.S. Secretary of State James Baker reportedly told Soviet Leader Mikhail Gorbachev that NATO's jurisdiction would not expand 'one inch eastward.' Russia cites these transcripts as evidence of a broken Western promise. In contrast, the U.S. and NATO contend that these discussions were strictly in the context of German reunification, no formal treaty or written agreement restricted NATO expansion to other European nations, and sovereign states retain the freedom to choose their own alliances (as enshrined in the Helsinki Accords).",
+      "verdict": "Record of statements exists (disagreement over legal bindingness and scope)",
+      "sources": [
+        {
+          "title": "NATO-Russia relations: the facts",
+          "url": "https://www.nato.int/cps/en/natohq/topics_111767.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-donbas-genocide-claim",
+      "claim": "It is claimed that the Ukrainian military committed 'genocide' against residents of the Donbas region",
+      "context": "The Russian government has repeatedly labeled the post-2014 conflict in eastern Ukraine as a 'genocide against Russian-speakers' by the Ukrainian regime, citing it as a major justification for the 2022 invasion. However, international bodies, including the UN Office of the High Commissioner for Human Rights (OHCHR) and the International Court of Justice (ICJ), have found no evidence of systematic or intentional genocide in the region. The approximately 3,400 civilian deaths in the region between 2014 and 2021 are documented as casualties resulting from active hostilities rather than a deliberate campaign of ethnic destruction.",
+      "verdict": "Rejected by international organizations (significant dispute over facts and legal characterization)",
+      "sources": [
+        {
+          "title": "International Court of Justice - Case concerning Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation)",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "Conflict-related civilian casualties in Ukraine (OHCHR)",
+          "url": "https://www.ohchr.org/en/documents/reports/conflict-related-civilian-casualties-ukraine",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

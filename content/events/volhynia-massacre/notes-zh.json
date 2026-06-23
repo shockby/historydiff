@@ -1,0 +1,75 @@
+{
+  "eventId": "volhynia-massacre",
+  "notes": [
+    {
+      "id": "vm-victim-count",
+      "claim": "沃里尼亚地区的波兰受害者人数估计为 50,000-100,000 人。",
+      "context": "根据历史学家和波兰国家纪念研究所 (IPN) 的研究。另一方面，据称由于相互冲突和报复行为，乌克兰人的伤亡人数从数千人到上万多人不等，但具体数字仍有争议。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "沃里尼亚大屠杀门户",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "波兰国家纪念研究所（IPN）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-sejm-resolution",
+      "claim": "2016年，波兰议会通过决议，承认沃里尼亚大屠杀为种族灭绝。",
+      "context": "2016年7月22日，波兰众议院通过决议，将每年7月11日定为“乌克兰民族主义者种族灭绝波兰平民受害者纪念日”。乌克兰表示反对。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 22 lipca 2016 r。",
+          "url": "https://eli.gov.pl/eli/MP/2016/726/ogl",
+          "publisher": "波兰共和国官方公报（Monitor Polski）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-upa-status",
+      "claim": "2015年，乌克兰颁布法律，承认乌克兰起义军（UPA）战士为独立战士。",
+      "context": "二、2015年4月9日，乌克兰最高拉达通过《20世纪乌克兰独立战士法律地位和纪念法》，规定了乌克兰独立联盟等组织的法律地位。波兰方面提出强烈抗议。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Про правовий статус та вшанування пам'яті борців за незалежність України у XX століті",
+          "url": "https://zakon.rada.gov.ua/laws/show/314-19",
+          "publisher": "乌克兰最高拉达（Verkhovna Rada）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-mutual-conflict",
+      "claim": "乌克兰历史研究倾向于将事件描述为“武装冲突和相互暴力行为”",
+      "context": "乌克兰历史学家认为，他们认为这不是单方面的“种族灭绝”，而是战时的种族冲突，其中包括波兰家园军（AK）等武装团体对乌克兰村庄的反击。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "UPA的历史和波兰-乌克兰冲突",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "波兰国家纪念研究所（IPN）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "vm-exhumation-ban",
+      "claim": "乌克兰政府限制波兰全面挖掘遗骸的许可。",
+      "context": "二、在波兰境内乌克兰纪念碑遭到破坏和拆除的背景下，乌克兰方面实际上冻结并限制了在其境内挖掘和调查波兰遇难者遗体的许可。谈判仍在进行中。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "波兰和乌克兰讨论沃里尼亚大屠杀尸体挖掘事宜",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "波兰国家纪念研究所（IPN）",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

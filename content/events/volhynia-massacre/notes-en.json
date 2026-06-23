@@ -1,0 +1,75 @@
+{
+  "eventId": "volhynia-massacre",
+  "notes": [
+    {
+      "id": "vm-victim-count",
+      "claim": "The number of Polish victims in the Volhynia region is estimated at 50,000-100,000.",
+      "context": "According to research by historians and the Polish Institute of National Remembrance (IPN). On the other hand, the number of Ukrainian casualties is said to have ranged from several thousand to more than 10,000 due to mutual conflicts and acts of retaliation, although the exact number is disputed.",
+      "verdict": "There is a wide range of estimates.",
+      "sources": [
+        {
+          "title": "Volhynia Massacre Portal",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "Polish Institute of National Remembrance (IPN)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-sejm-resolution",
+      "claim": "In 2016, the Polish parliament adopted a resolution recognizing the Volhynia massacre as genocide.",
+      "context": "On July 22, 2016, the Polish Chamber of Deputies (Seim) adopted a resolution designating July 11 of each year as “Memorial Day of the Victims of the Genocide of Polish Civilians by Ukrainian Nationalists.” Ukraine is objecting.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 22 lipca 2016 r.",
+          "url": "https://eli.gov.pl/eli/MP/2016/726/ogl",
+          "publisher": "Official Gazette of the Republic of Poland (Monitor Polski)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-upa-status",
+      "claim": "In 2015, Ukraine enacted a law recognizing fighters of the Ukrainian Uprising Army (UPA) as independence fighters.",
+      "context": "On April 9, 2015, the Verkhovna Rada of Ukraine adopted the Law on the Legal Status and Honoring of the Memory of the Fighters of Ukrainian Independence of the 20th Century, which stipulates the legal status of organizations such as the UPA. The Polish side strongly protested.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Про правовий статус та вшанування пам'яті борців за незалежність України у XX столітті",
+          "url": "https://zakon.rada.gov.ua/laws/show/314-19",
+          "publisher": "Supreme Rada of Ukraine (Verkhovna Rada)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-mutual-conflict",
+      "claim": "Ukrainian historical studies tend to depict events as “armed conflicts and acts of mutual violence”",
+      "context": "Ukrainian historians argue that rather than a unilateral \"genocide,\" they view it as a wartime ethnic conflict that included counterattacks against Ukrainian villages by armed groups such as the Polish Home Army (AK).",
+      "verdict": "Discussion",
+      "sources": [
+        {
+          "title": "History of the UPA and Polish-Ukrainian Conflict",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "Polish Institute of National Remembrance (IPN)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "vm-exhumation-ban",
+      "claim": "The Ukrainian government is restricting permission for Poland to conduct full-scale excavations of remains.",
+      "context": "Against the backdrop of the destruction and removal of Ukrainian monuments within Poland, the Ukrainian side has effectively frozen and restricted permission to excavate and investigate the remains of Polish victims within its territory. Negotiations are still ongoing.",
+      "verdict": "Fact-checked",
+      "sources": [
+        {
+          "title": "Poland and Ukraine discuss Volhynia massacre exhumations",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "Polish Institute of National Remembrance (IPN)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

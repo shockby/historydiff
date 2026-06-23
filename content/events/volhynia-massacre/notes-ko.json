@@ -1,0 +1,75 @@
+{
+  "eventId": "volhynia-massacre",
+  "notes": [
+    {
+      "id": "vm-victim-count",
+      "claim": "볼리니 지방에서의 폴란드인 희생자수는 5만~10만명으로 추정되고 있다",
+      "context": "역사가나 폴란드 국가기명원(IPN)의 조사에 의한다. 한편 우크라이나인의 희생자수도 상호 충돌이나 보복행위에 의해 수천~1만명 이상 존재했다고 하지만 정확한 수에는 논란이 있다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Volhynia Massacre Portal",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "폴란드 국가기명원 (IPN)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-sejm-resolution",
+      "claim": "폴란드 국회는 2016년 볼리니의 학살을 제노사이드로 인정하는 결의를 채택했다",
+      "context": "2016년 7월 22일 폴란드 하원(세임)은 결의를 채택하고 매년 7월 11일을 '우크라이나 민족주의자에 의한 폴란드 시민의 제노사이드 희생자 추도 기념일'로 지정했다. 우크라이나 측은 반발하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 22 lipca 2016 r.",
+          "url": "https://eli.gov.pl/eli/MP/2016/726/ogl",
+          "publisher": "폴란드 공화국 관보 (Monitor Polski)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-upa-status",
+      "claim": "우크라이나는 2015년 우크라이나 봉기군(UPA)의 전사를 독립투사로 인정하는 법률을 제정했다",
+      "context": "2015년 4월 9일 우크라이나 최고회의는 “20세기 우크라이나 독립 투사의 법적 지위와 기억의 현창에 관한 법률”을 채택하여 UPA 등 조직의 법적 지위를 규정했다. 폴란드 측은 강하게 항의했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "О правовом статусе и памяти борцов за независимость Украины в XX веке",
+          "url": "https://zakon.rada.gov.ua/laws/show/314-19",
+          "publisher": "우크라이나 최고 회의 (Verkhovna Rada)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-mutual-conflict",
+      "claim": "우크라이나의 역사연구에서는 사건을 '무장분쟁 및 상호폭력행위'로 그리는 경향이 있다",
+      "context": "우크라이나인 역사가는 일방적인 '학살'이 아니라 폴란드의 국내군(AK) 등의 무장세력에 의한 우크라이나인 마을에의 반격도 포함한 전시하의 민족간 충돌로 포착하는 주장을 전개하고 있다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "History of the UPA and Polish-Ukrainian Conflict",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "폴란드 국가기명원 (IPN)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "vm-exhumation-ban",
+      "claim": "우크라이나 정부는 폴란드 측에 의한 유골의 본격적인 발굴 조사의 허가를 제한하고 있다",
+      "context": "폴란드 국내에서의 우크라이나계 기념비의 손괴·철거 등을 배경으로, 우크라이나측은 영내에서의 폴란드인 희생자의 유골 발굴·조사 허가를 실질적으로 동결·제한해 왔다. 현재도 협의가 계속되고 있다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Poland and Ukraine discuss Volhynia massacre exhumations",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "폴란드 국가기명원 (IPN)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

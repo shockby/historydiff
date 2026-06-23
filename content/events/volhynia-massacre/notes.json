@@ -1,0 +1,75 @@
+{
+  "eventId": "volhynia-massacre",
+  "notes": [
+    {
+      "id": "vm-victim-count",
+      "claim": "ヴォルィーニ地方でのポーランド人犠牲者数は5万〜10万人と推定されている",
+      "context": "歴史家やポーランド国家記銘院（IPN）の調査による。一方でウクライナ人の犠牲者数も相互の衝突や報復行為により数千〜1万人以上存在したとされるが、正確な数には議論がある。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Volhynia Massacre Portal",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "ポーランド国家記銘院 (IPN)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-sejm-resolution",
+      "claim": "ポーランド国会は2016年にヴォルィーニの虐殺をジェノサイドと認定する決議を採択した",
+      "context": "2016年7月22日、ポーランド下院（セイム）は決議を採択し、毎年7月11日を「ウクライナ民族主義者によるポーランド市民のジェノサイド犠牲者追悼記念日」に指定した。ウクライナ側は反発している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 22 lipca 2016 r.",
+          "url": "https://eli.gov.pl/eli/MP/2016/726/ogl",
+          "publisher": "ポーランド共和国官報 (Monitor Polski)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-upa-status",
+      "claim": "ウクライナは2015年にウクライナ蜂起軍（UPA）の戦士を独立の闘士と認定する法律を制定した",
+      "context": "2015年4月9日、ウクライナ最高会議は「20世紀のウクライナ独立の闘士の法的地位と記憶の顕彰に関する法律」を採択し、UPAなどの組織の法的地位を規定した。ポーランド側は強く抗議した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Про правовий статус та вшанування пам'яті борців за незалежність України у XX столітті",
+          "url": "https://zakon.rada.gov.ua/laws/show/314-19",
+          "publisher": "ウクライナ最高会議 (Verkhovna Rada)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vm-mutual-conflict",
+      "claim": "ウクライナの歴史研究では、出来事を「武装紛争および相互の暴力行為」として描く傾向がある",
+      "context": "ウクライナ人歴史家は、一方的な「虐殺」ではなく、ポーランドの国内軍（AK）等の武装勢力によるウクライナ人集落への反撃も含めた、戦時下の民族間衝突として捉える主張を展開している。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "History of the UPA and Polish-Ukrainian Conflict",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "ポーランド国家記銘院 (IPN)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "vm-exhumation-ban",
+      "claim": "ウクライナ政府はポーランド側による遺骨の本格的な発掘調査の許可を制限している",
+      "context": "ポーランド国内におけるウクライナ系記念碑の損壊・撤去などを背景に、ウクライナ側は領内でのポーランド人犠牲者の遺骨発掘・調査許可を実質的に凍結・制限してきた。現在も協議が続けられている。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Poland and Ukraine discuss Volhynia massacre exhumations",
+          "url": "https://volhyniamassacre.eu",
+          "publisher": "ポーランド国家記銘院 (IPN)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

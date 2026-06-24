@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "battle-of-yalu-1894",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sino-japanese-war/battle-of-yalu-1894.jpg",
+      "url": "/images/events/sino-japanese-war/battle-of-yalu-1894.jpg",
       "caption": {
         "ja": "小林清親画『黄海海戦』（1894年）。日清戦争における最大の海戦である黄海海戦を描いた錦絵・木版画。",
         "en": "Woodblock print of the Battle of the Yalu River (1894) by Kobayashi Kiyochika, depicting the major naval engagement of the First Sino-Japanese War.",
@@ -19,7 +19,7 @@
     },
     {
       "id": "treaty-of-shimonoseki",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sino-japanese-war/treaty-of-shimonoseki.jpg",
+      "url": "/images/events/sino-japanese-war/treaty-of-shimonoseki.jpg",
       "caption": {
         "ja": "1895年4月17日、山口県下関市で調印された日清講和条約（下関条約）の調印文書（清国側署名）。日清戦争が終結した。",
         "en": "Signed document of the Treaty of Shimonoseki (Qing Dynasty copy), signed on April 17, 1895 in Shimonoseki, Japan, ending the First Sino-Japanese War.",

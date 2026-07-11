@@ -2,10 +2,15 @@
 
 import { useState, Suspense } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
 import { EventPerspective } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
+import TimelineView from './TimelineView';
+
+// Dynamically import MapView to avoid SSR issues with react-simple-maps
+const MapView = dynamic(() => import('./MapView'), { ssr: false });
 
 interface SearchEventsProps {
   initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
@@ -15,6 +20,7 @@ interface SearchEventsProps {
 function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState<'default' | 'chrono-asc' | 'chrono-desc'>('default');
+  const [viewMode, setViewMode] = useState<'grid' | 'map' | 'timeline'>('grid');
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -66,45 +72,98 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
       {/* Archive section */}
       <section style={{ marginTop: '2rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
           <h2 style={{ fontSize: '1.5rem', borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
             {t.comparisonArchive}
           </h2>
+          {/* View mode toggles */}
+          <div style={{ display: 'flex', gap: '0.4rem' }}>
+            {([
+              { mode: 'grid', icon: '▦', label: t.viewGrid },
+              { mode: 'map', icon: '🌏', label: t.viewMap },
+              { mode: 'timeline', icon: '📅', label: t.viewTimeline },
+            ] as const).map(({ mode, icon, label }) => (
+              <button
+                key={mode}
+                onClick={() => setViewMode(mode)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                  padding: '0.45rem 1rem',
+                  borderRadius: '8px',
+                  border: viewMode === mode ? '1px solid var(--accent)' : '1px solid var(--card-border)',
+                  background: viewMode === mode ? 'rgba(var(--accent-rgb, 139,92,246),0.15)' : 'rgba(255,255,255,0.03)',
+                  color: viewMode === mode ? 'var(--accent)' : 'var(--text-secondary)',
+                  fontSize: '0.85rem',
+                  fontWeight: viewMode === mode ? 700 : 400,
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                  fontFamily: 'inherit',
+                }}
+              >
+                <span style={{ fontSize: '0.9rem' }}>{icon}</span>
+                <span>{label}</span>
+              </button>
+            ))}
+          </div>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', flexWrap: 'wrap' }}>
-          <div style={{ flex: '1', minWidth: '280px' }}>
-            <input
-              type="text"
-              className="search-input"
-              placeholder={t.searchPlaceholder}
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
+        {/* Search + sort — only shown in grid and timeline modes */}
+        {viewMode !== 'map' && (
+          <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1', minWidth: '280px' }}>
+              <input
+                type="text"
+                className="search-input"
+                placeholder={t.searchPlaceholder}
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+            </div>
+            {viewMode === 'grid' && (
+              <div style={{ width: '240px' }}>
+                <select
+                  className="search-input"
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as any)}
+                  style={{
+                    cursor: 'pointer',
+                    appearance: 'none',
+                    backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'right 1rem center',
+                    backgroundSize: '1.2em',
+                    paddingRight: '2.5rem'
+                  }}
+                >
+                  <option value="default" style={{ background: '#121216' }}>{t.sortDefault}</option>
+                  <option value="chrono-asc" style={{ background: '#121216' }}>{t.sortChronologicalAsc}</option>
+                  <option value="chrono-desc" style={{ background: '#121216' }}>{t.sortChronologicalDesc}</option>
+                </select>
+              </div>
+            )}
           </div>
-          <div style={{ width: '240px' }}>
-            <select
-              className="search-input"
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as any)}
-              style={{
-                cursor: 'pointer',
-                appearance: 'none',
-                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'right 1rem center',
-                backgroundSize: '1.2em',
-                paddingRight: '2.5rem'
-              }}
-            >
-              <option value="default" style={{ background: '#121216' }}>{t.sortDefault}</option>
-              <option value="chrono-asc" style={{ background: '#121216' }}>{t.sortChronologicalAsc}</option>
-              <option value="chrono-desc" style={{ background: '#121216' }}>{t.sortChronologicalDesc}</option>
-            </select>
-          </div>
-        </div>
+        )}
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '2rem' }}>
+        {/* Map mode: search bar for filtering */}
+        {viewMode === 'map' && (
+          <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1', minWidth: '280px' }}>
+              <input
+                type="text"
+                className="search-input"
+                placeholder={t.searchPlaceholder}
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* Grid view */}
+        {viewMode === 'grid' && (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '2rem' }}>
           {sortedEvents.length > 0 ? (
             sortedEvents.map((event) => {
               const first = event.perspectives[0];
@@ -170,6 +229,17 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
             </div>
           )}
         </div>
+        )}
+
+        {/* Map view */}
+        {viewMode === 'map' && (
+          <MapView events={filteredEvents} lang={lang} />
+        )}
+
+        {/* Timeline view */}
+        {viewMode === 'timeline' && (
+          <TimelineView events={filteredEvents} lang={lang} />
+        )}
       </section>
 
       {/* About section */}

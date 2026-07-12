@@ -1,0 +1,36 @@
+{
+  "eventId": "ww2-asia",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "ww2-asia-voice-1",
+      "country": {
+        "ja": "東南アジア諸国",
+        "en": "Southeast Asian Countries",
+        "zh": "东南亚国家",
+        "ko": "동남아시아 국가"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "日本の軍事占領は強制労働や物資徴発など多大な被害をもたらしたが、同時に欧米の植民地支配の打破や各国の独立運動の契機になったという歴史の二面性を理解すべきだ。",
+        "en": "Japan's military occupation caused immense suffering through forced labor and resource requisitions, but we should also understand the dual nature of history: it broke Western colonial rule and triggered independence movements.",
+        "zh": "日本的军事占领通过强征劳工和征调物资造成了巨大的损害，但同时也应当理解历史的两面性：它打破了欧美殖民统治，成为了各国独立运动的契機。",
+        "ko": "일본의 군사 점령은 강제노동이나 물자 징발 등 많은 피해를 주었지만, 동시에 유럽과 미국의 식민지 지배 타파나 각국의 독립운동 계기가 되었다는 역사의 양면성을 이해해야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "東南アジア（インドネシア、マレーシア等）の歴史フォーラムやネット上の議論で見られる、加害被害の関係だけではない複雑な歴史的解釈。",
+        "en": "A nuanced historical view seen on Southeast Asian (e.g., Indonesia, Malaysia) forums, not focusing solely on the perpetrator-victim dichotomy.",
+        "zh": "在东南亚国家（如印尼、马来西亚等）历史论坛或网络讨论中可见的、不仅限于加害与受害关系的复杂历史解读。",
+        "ko": "동남아시아(인도네시아, 말레이시아 등)의 역사 포럼이나 인터넷 토론에서 볼 수 있는, 가해와 피해 관계만은 아닌 복잡한 역사적 해석."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

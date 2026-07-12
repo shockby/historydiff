@@ -1,0 +1,96 @@
+{
+  "eventId": "fukushima-treated-water",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "fukushima-treated-water-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "ALPS処理水は基準以下に希釈され、IAEAの監視下で安全に放出されている。風評被害を防ぐためにも、科学的事実に基づいた議論をするべきだ。",
+        "en": "ALPS treated water is diluted below safety limits and released safely under IAEA monitoring. Discussion should be based on scientific facts to prevent reputational damage.",
+        "zh": "多核素去除设备（ALPS）处理水已被稀释至标准值以下，并在国际原子能机构（IAEA）的监督下安全排放。为了防止声誉受损，应基于科学事实进行讨论。",
+        "ko": "ALPS 처리수는 기준 이하로 희석되어 IAEA의 감시하에 안전하게 방출되고 있다. 풍평 피해(소문 피해)를 방지하기 위해서라도 과학적 사실에 기반한 논의를 해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "政府見解の支持や、被災地漁業者を応援しようとする市民ネットコミュニティで見られる論調。",
+        "en": "A tone seen among civic online communities supporting the government stance and aiming to support local fishermen.",
+        "zh": "支持政府立场及旨在声援受灾地区渔民的市民网络社区中可见的论调。",
+        "ko": "정부 견해 지지나 피해 지역 어민들을 응원하려는 시민 인터넷 커뮤니티에서 볼 수 있는 논조."
+      },
+      "keywords": [
+        "#処理水",
+        "#科学的根拠",
+        "#常磐もの"
+      ],
+      "timeframe": "2023-2024"
+    },
+    {
+      "id": "fukushima-treated-water-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "日本は核汚染水を強引に海洋放出して海洋環境を脅かしている。利己的で極めて無責任な行為だ。水産物の輸入制限は国民の安全を守るために当然の措置だ。",
+        "en": "Japan is forcing the discharge of nuclear-contaminated water into the ocean, threatening the marine environment. It is a selfish and highly irresponsible act. The seafood import ban is a natural measure to protect public safety.",
+        "zh": "日本强行将核污染水排入海洋，威胁海洋环境。这是极度自私和极其不负责任的行为。限制进口日本水产品是为了保护国民安全而采取的理所当然的措施。",
+        "ko": "일본은 핵 오염수를 강제로 해양 방출하여 해양 환경을 위협하고 있다. 이기적이고 극히 무책임한 행위이다. 수산물 수입 제한은 국민의 안전을 지키기 위한 당연한 조치이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "放出開始直後、微博（Weibo）などの中国SNSで圧倒的なトレンドとなり、日本製品のボイコット活動と連動した意見。",
+        "en": "Opinions that trended overwhelmingly on Chinese social media (Weibo) immediately after the discharge began, linking with boycotts of Japanese products.",
+        "zh": "排放开始后，在微博等中国社交媒体上成为压倒性的趋势话题，并与抵制日货活动相关联的意见。",
+        "ko": "방출 개시 직후 웨이보 등 중국 SNS에서 압도적인 트렌드가 되었으며, 일본 제품 불매 운동과 연동된 의견."
+      },
+      "keywords": [
+        "#日本核污染水排海",
+        "#抵制日货"
+      ],
+      "timeframe": "2023-2024"
+    },
+    {
+      "id": "fukushima-treated-water-voice-3",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "政府が日本の説明をただ受け入れたのは納得がいかない。国民の不安を無視し、科学的安全を担保できないまま海洋放出を容認したことに怒りを感じる。",
+        "en": "It is unacceptable that our government simply accepted Japan's explanation. We feel anger that the discharge was condoned without resolving public anxiety or ensuring absolute safety.",
+        "zh": "政府仅接受日方的解释令人难以信服。在无视国民不安情绪且无法确保绝对安全的情况下纵容核污染水排海，令人愤怒。",
+        "ko": "정부가 일본의 설명만을 수용한 것은 납득하기 어렵다. 국민의 불안을 무시하고 과학적 안전을 담보하지 못한 채 해양 방출을 용인한 것에 분노를 느낀다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "韓国国内の野党支持層や環境保護団体がSNSで強く主張する意見。政権批判の材料としても用いられた。",
+        "en": "Opinions strongly asserted on South Korean social media by opposition supporters and environmental groups, also used for political criticism.",
+        "zh": "韩国国内在野党支持者及环保团体在社交媒体上强烈主张的观点，也被用作批评现政权的材料。",
+        "ko": "한국 국내 야당 지지층이나 환경 단체가 SNS에서 강하게 주장하는 의견. 정권 비판의 카드로도 사용되었다."
+      },
+      "keywords": [
+        "#오염수방류반대",
+        "#국민안전"
+      ],
+      "timeframe": "2023-2024"
+    }
+  ]
+}

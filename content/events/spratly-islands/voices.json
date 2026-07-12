@@ -1,0 +1,61 @@
+{
+  "eventId": "spratly-islands",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "spratly-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "南沙諸島（スプラトリー諸島）は古来より中国の領土であり、主権は明確だ。人工島の建設やパトロールは自国領土内での正当な権利行使であり、他国の介入は許されない。",
+        "en": "The Nansha Islands (Spratly Islands) have been China's territory since ancient times, and our sovereignty is clear. Building artificial islands and patrolling are legitimate actions within our territory, and foreign intervention is unacceptable.",
+        "zh": "南沙群岛自古以来就是中国的领土，主权清晰明确。进行人工岛礁建设及海上巡逻是在自国领土内的合法行使主权行为，不容他国干涉。",
+        "ko": "난사 군도(스프래틀리 군도)는 예로부터 중국의 영토였으며 주권은 명확하다. 인공섬 건설이나 순찰은 자국 영토 내에서의 정당한 권리 행사이며 타국의 개입은 용납할 수 없다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国海警局が他国の船を威嚇する映像や軍事関連のニュースが流れる際、中国のネットユーザーが領土主権を強く擁護する書き込み。",
+        "en": "Posts by Chinese netizens strongly defending territorial sovereignty whenever news reports military activities or Coast Guard confrontations in the area.",
+        "zh": "每当报道中国海警船与别国船只对峙或发生海上纠纷的新闻时，中国网民强烈维护领土主权完整的留言观点。",
+        "ko": "중국 해경국이 타국 배를 위협하는 영상이나 군사 관련 뉴스가 흐를 때 중국 네티즌들이 영토 주권을 강력히 옹호하며 게시하는 글."
+      },
+      "keywords": ["#南沙群岛", "#中国领土主权"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "spratly-voice-2",
+      "country": {
+        "ja": "フィリピン",
+        "en": "Philippines",
+        "zh": "菲律宾",
+        "ko": "필리핀"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "西フィリピン海（南シナ海）の領有権に関するハーグ仲裁裁判所の判決を尊重すべきだ。中国の人工島建設や我が国の漁師に対する嫌がらせは明確な国際法違反だ。",
+        "en": "The ruling of the arbitral tribunal in The Hague regarding sovereignty in the West Philippine Sea must be respected. China's building of artificial islands and harassment of our fishermen are clear violations of international law.",
+        "zh": "应尊重海牙仲裁庭关于西菲律宾海（南海）主权裁决的结果。中国建设人工岛礁并对我渔民进行侵扰，是明显的违反国际法行为。",
+        "ko": "서필리핀해(남중국해) 영유권에 관한 헤이그 중재재판소의 판결을 존중해야 한다. 중국의 인공섬 건설이나 우리 어민에 대한 방해 행위는 명백한 국제법 위반이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "領海摩擦のニュースの際、フィリピンやグローバルな英語圏のSNSで中国の覇権主義的動きを批判する声として強く拡散される世論。",
+        "en": "A sentiment widely spread on Philippine and global English-language social media criticizing China's assertive moves during maritime friction news.",
+        "zh": "每当发生海域摩擦新闻时，在菲律宾及全球英语社交媒体上强烈谴责中国霸权行为的舆论倾向。",
+        "ko": "영해 갈등 뉴스가 보도될 때 필리핀이나 글로벌 영어권 SNS에서 중국의 패권주의적 움직임을 비판하는 목소리로 강하게 확산되는 여론."
+      },
+      "keywords": ["#WestPhilippineSea", "#CHINAGetOut", "#ArbitralRuling"],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

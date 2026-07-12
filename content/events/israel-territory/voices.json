@@ -1,0 +1,67 @@
+{
+  "eventId": "israel-territory",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "israel-territory-voice-1",
+      "country": {
+        "ja": "イスラエル",
+        "en": "Israel",
+        "zh": "以色列",
+        "ko": "이스라엘"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "イスラエルの地は我々の歴史的・聖書的な固有の故郷である。防衛戦を勝ち抜き、現在の生存圏を確保したのは当然の権利だ。テロの脅威から国民を守るため治安対策は譲れない。",
+        "en": "The Land of Israel is our historical and biblical homeland. Winning defensive wars to secure our current borders is our natural right. Security measures are non-negotiable to protect citizens from terrorism.",
+        "zh": "以色列土地是我们在历史和圣经上的固有家园。通过赢得自卫战争以确保生存空间是理所当然的权利。为了保护国民免受恐怖活动威胁，安全保障措施绝不退让。",
+        "ko": "이스라엘 땅은 우리의 역사적·성서적 고유의 고향이다. 방어전을 이겨내고 현재의 생존 영역을 확보한 것은 당연한 권리이다. 테러 위협으로부터 국민을 지키기 위한 치안 대책은 양보할 수 없다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ヘブライ語のSNS空間や、防衛政策を支持する国内外のユダヤ人コミュニティにおける世論。",
+        "en": "Sentiment in the Hebrew social media sphere and Jewish communities worldwide supporting defense policies.",
+        "zh": "在希伯来语社交媒体空间及国内外支持防卫政策的犹太社区中的舆论倾向。",
+        "ko": "히브리어 SNS 공간이나 방위 정책을 지지하는 국내외 유대인 커뮤니티에서의 여론."
+      },
+      "keywords": [
+        "#AmYisraelChai",
+        "#StandWithIsrael"
+      ],
+      "timeframe": "2023-2024"
+    },
+    {
+      "id": "israel-territory-voice-2",
+      "country": {
+        "ja": "パレスチナ",
+        "en": "Palestine",
+        "zh": "巴勒斯坦",
+        "ko": "팔레스타인"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "何世代にもわたる先祖の土地から不当に追われ、入植地拡大により生活が寸断されている。我々の自決権と失われた土地への帰還権は認められるべきだ。",
+        "en": "We have been unjustly driven out of our ancestral lands for generations, and our lives are fragmented by expanding settlements. Our right to self-determination and return to our lost land must be recognized.",
+        "zh": "我们几代人居住的祖传土地被不公正地夺走，生活空间因犹太人定居点的扩张而支离破碎。我们的自决权和重返家园的权利必须得到承认。",
+        "ko": "수세대에 걸쳐 조상 대대로 살아온 땅에서 부당하게 쫓겨났고, 정착지 확대로 인해 삶이 산산조각 났다. 우리의 자결권과 잃어버린 땅으로의 귀환권은 인정받아야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アラブ諸国のSNSや、パレスチナ支持を訴えるグローバルな連帯ハッシュタグ運動での主流派の声。",
+        "en": "The mainstream voice on Arab social media and global solidarity movements calling for support of Palestine.",
+        "zh": "阿拉伯国家社交媒体及呼吁支持巴勒斯坦的全球声援标签运动中的主流声音。",
+        "ko": "아랍 국가의 SNS나 팔레스타인 지지를 호소하는 글로벌 연대 해시태그 운동에서의 주류 목소리."
+      },
+      "keywords": [
+        "#FreePalestine",
+        "#SaveSheikhJarrah"
+      ],
+      "timeframe": "2023-2024"
+    }
+  ]
+}

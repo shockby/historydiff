@@ -1,0 +1,67 @@
+{
+  "eventId": "cultural-revolution",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "cultural-revolution-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "歴史決議の通り、文革は党と人民に深刻な災難をもたらした歴史の誤りだ。その過ちを直視し、二度と繰り返さないように改革開放の道を揺るぎなく進むべきだ。",
+        "en": "As stated in the historical resolution, the Cultural Revolution was a historical mistake that brought disaster to the Party and the people. We must face it and firmly advance reform and opening up to ensure it never happens again.",
+        "zh": "正如历史决议所言，文革是给党和人民带来严重灾难的历史错误。我们应当直面错误，毫不动摇地走改革开放道路，防止悲剧重演。",
+        "ko": "역사 결의에 적힌 대로 문화대혁명은 당과 인민에게 심각한 재앙을 초래한 역사적 오류이다. 그 잘못을 직시하고 다시는 반복하지 않도록 개혁개방의 길을 흔들림 없이 나아가야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の公式メディアや知識人、中庸なネットユーザーの意見。歴史決議の枠組みに沿った慎重かつ公式な見解。",
+        "en": "Opinions of Chinese official media, intellectuals, and moderate netizens, aligned with the official historical resolution.",
+        "zh": "中国官方媒体、知识分子以及温和网民的观点，符合官方历史决议的定性。",
+        "ko": "중국의 공식 미디어나 지식인, 중도적인 네티즌의 의견. 역사 결의의 틀에 맞춘 신중하고 공식적인 견해."
+      },
+      "keywords": [
+        "#改革开放",
+        "#历史决议"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "cultural-revolution-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "文革は確かに多くの極端な過ちを生んだが、毛主席が腐敗を防ぎ、革命の純粋性を守るために試みた初心は理解されるべきだ。",
+        "en": "Although the Cultural Revolution generated many extreme errors, Chairman Mao's original intention to prevent corruption and safeguard the purity of the revolution should be understood.",
+        "zh": "虽然文革确实造成了许多极端的错误，但毛主席为了防止腐败、保持革命纯洁性而进行尝试的初衷应当被理解。",
+        "ko": "문혁은 분명히 많은 극단적인 잘못을 낳았지만, 마오 주석이 부패를 방지하고 혁명의 순수성을 지키기 위해 시도했던 초심은 이해되어야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "若手の毛沢東主義者（いわゆる「毛左」）や、現代の格差社会に不満を持つ労働者層からSNSで発信される再評価論。",
+        "en": "Reevaluation arguments posted on social media by young Maoists and working-class people dissatisfied with modern wealth inequality.",
+        "zh": "青年毛主义者及对现代贫富差距不平等的工薪阶层在社交媒体上发表的重新评估论调。",
+        "ko": "젊은 마오쩌둥주의자(이른바 '모좌')나 현대의 격차 사회에 불만을 가진 노동자층이 SNS에 게시하는 재평가론."
+      },
+      "keywords": [
+        "#毛主席",
+        "#为人民服务"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

@@ -129,3 +129,38 @@ export function getEventPhotos(eventId: string): EventPhotos | null {
   return JSON.parse(fileContents) as EventPhotos;
 }
 
+// --- Public Voices (SNS World Opinion) ---
+
+export interface LocalizedText {
+  ja?: string;
+  en?: string;
+  zh?: string;
+  ko?: string;
+}
+
+export interface EventVoice {
+  id: string;
+  country: LocalizedText;
+  sentiment: 'nationalist' | 'critical' | 'neutral' | 'academic' | 'reconciliatory';
+  summary: LocalizedText;
+  prevalence: 'high' | 'medium' | 'low';
+  context: LocalizedText;
+  keywords: string[];
+  timeframe: string;
+}
+
+export interface EventVoices {
+  eventId: string;
+  disclaimer: LocalizedText;
+  voices: EventVoice[];
+}
+
+export function getEventVoices(eventId: string): EventVoices | null {
+  const voicesPath = path.join(contentDirectory, eventId, 'voices.json');
+  if (!fs.existsSync(voicesPath)) {
+    return null;
+  }
+  const fileContents = fs.readFileSync(voicesPath, 'utf8');
+  return JSON.parse(fileContents) as EventVoices;
+}
+

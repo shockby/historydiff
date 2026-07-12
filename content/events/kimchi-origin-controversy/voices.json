@@ -1,0 +1,68 @@
+{
+  "eventId": "kimchi-origin-controversy",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "kimchi-voice-1",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "キムチは独自の歴史と製法を持つ韓国固有の伝統食文化であり、国際標準（CODEX）でも認められている。中国の「泡菜（パオツァイ）」の亜種とする主張は文化強奪であり容認できない。",
+        "en": "Kimchi is a traditional food culture unique to Korea with its own history and recipe, recognized by CODEX. The claim by China that it is a variant of 'Pao Cai' is cultural theft and unacceptable.",
+        "zh": "泡菜（Kimchi）是韩国特有的传统饮食文化，拥有独特的历史和制作方法，并获得了国际标准（CODEX）的认可。中国将其主张为“泡菜”的一种是文化掠夺，无法容忍。",
+        "ko": "김치는 독자적인 역사와 제조법을 가진 한국 고유의 전통 식문화이며 국제 표준(CODEX)에서도 인정받았다. 중국의 '파오차이'의 아종이라는 주장은 문화 강탈이며 용납할 수 없다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の公式メディアや有名YouTuberがキムチ作りを自国文化として紹介した際、韓国のSNSで極めて激しい反発とバズを引き起こした世論。",
+        "en": "A sentiment that caused extremely intense backlash and went viral on South Korean social media when Chinese official media and YouTubers presented kimchi-making as Chinese culture.",
+        "zh": "当中国官方媒体或知名YouTuber将制作泡菜作为中国文化介绍时，在韩国社交媒体上引起极度强烈反弹和热议的舆论。",
+        "ko": "중국의 공식 미디어나 유명 유튜버가 김장 과정을 자국 문화로 소개했을 때 한국 SNS에서 극히 격렬한 반발과 화제를 불러일으킨 여론."
+      },
+      "keywords": [
+        "#김치는한국음식",
+        "#KimchiIsKorean",
+        "#문화공정저지"
+      ],
+      "timeframe": "2020-2022"
+    },
+    {
+      "id": "kimchi-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "中国の「泡菜（パオツァイ）」は塩漬け発酵野菜の総称であり、キムチもその広範な定義の一部だ。過剰反応する必要はなく、文化は影響し合うものだ。",
+        "en": "China's 'Pao Cai' is a generic term for salted, fermented vegetables, and kimchi is part of this broad definition. There is no need to overreact; cultures naturally influence each other.",
+        "zh": "中国的“泡菜”是腌制发酵蔬菜的总称，韩国泡菜也是这一广泛定义的一部分。没有必要过度反应，文化本身就是相互影响的。",
+        "ko": "중국의 '파오차이'는 소금에 절여 발효시킨 채소류의 총칭이며 김치 역시 이 넓은 정의의 일부에 불과하다. 과잉 반응할 필요는 없으며 문화는 서로 영향을 주고받는 것이다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国のネット上で、韓国側の激しい反発に対する冷ややかな反応や、広義の定義を支持する中国ユーザーの意見。",
+        "en": "A cool reaction on Chinese social media to Korea's fierce backlash, with Chinese users supporting a broader definition of fermented vegetables.",
+        "zh": "中国网络上对于韩国方面强烈反弹的冷淡反应，以及支持广义发酵蔬菜定义的中国用户的观点。",
+        "ko": "중국 인터넷상에서 한국 측의 격렬한 반발에 대한 싸늘한 반응 및 광의의 정의를 지지하는 중국 사용자들의 의견."
+      },
+      "keywords": [
+        "#四川泡菜",
+        "#泡菜文化"
+      ],
+      "timeframe": "2020-2022"
+    }
+  ]
+}

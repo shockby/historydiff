@@ -1,0 +1,39 @@
+{
+  "eventId": "marco-polo-bridge",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "marco-polo-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "七七事変（盧溝橋事件）は、日本の軍国主義が中国を全面的に滅ぼそうとした侵略戦争の火蓋だ。中国人民が団結して抗日戦争を闘い抜いた誇り高き歴史の出発点である。",
+        "en": "The July 7 Incident (Marco Polo Bridge Incident) was the trigger for the aggressive war by Japanese militarism to completely conquer China. It marks the starting point of the proud history of the Chinese people uniting to fight the War of Resistance.",
+        "zh": "七七事变（卢沟桥事变）是日本帝国主义发动全面侵华战争的开端。这是中国人民团结一致进行全面抗战的起点，是值得铭记的伟大历史性开端。",
+        "ko": "7·7 사변(노구교 사건)은 일본 군국주의가 중국을 전면적으로 멸망시키려 한 침략 전쟁의 신호탄이다. 중국 인민이 단결하여 항일 전쟁을 치러낸 자랑스러운 역사의 출발점이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年7月7日の盧溝橋事件記念日に、中国のSNSやメディアで抗日戦争の英霊を追悼する動きに関連して広く発信される。",
+        "en": "Widely posted on Chinese social media and media around the July 7 anniversary, related to commemorating the heroes of the War of Resistance.",
+        "zh": "每年7月7日卢沟桥事变纪念日，在社交媒体和媒体上伴随着缅怀抗战英烈活动而广泛发布的观点。",
+        "ko": "매년 7월 7일 노구교 사건 기념일에 중국 SNS와 미디어에서 항일 전쟁 영웅들을 추모하는 움직임과 관련하여 널리 게시된다."
+      },
+      "keywords": [
+        "#七七事变",
+        "#全民族抗战"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

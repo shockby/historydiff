@@ -1,0 +1,69 @@
+{
+  "eventId": "high-speed-rail-controversy",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "hs-rail-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "中国の高速鉄道は日本の新幹線技術のライセンス供与から始まったのに、独自技術と主張して海外へ輸出するのは特許や信義則の違反だ。日本は技術保護を徹底すべきだった。",
+        "en": "China's high-speed rail started from licensing Japan's Shinkansen technology. Claiming it as entirely proprietary and exporting it overseas violates patents and good faith. Japan should have protected its technology better.",
+        "zh": "中国的高铁起步于日本新干线技术的许可转让，但现在主张为自主技术并向海外出口，这违反了专利和诚信原则。日本本应彻底做好技术保护。",
+        "ko": "중국의 고속철도는 일본의 신칸센 기술 라이선스 공여로 시작되었는데, 독자 기술이라고 주장하며 해외로 수출하는 것은 특허와 신의칙 위반이다. 일본은 기술 보호를 철저히 했어야 했다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国のインフラ輸出のニュースや、日中の海外鉄道受注競争の話題の際に、日本のSNSで広く見られる懸念。",
+        "en": "A concern widely seen on Japanese social media during news about Chinese infrastructure exports and bilateral bidding competition for overseas rail projects.",
+        "zh": "关于中国基建出口新闻及中日在海外铁路竞标竞争的话题出现时，日本社交媒体上广泛可见的担忧。",
+        "ko": "중국의 인프라 수출 뉴스나 한일/중일 간의 해외 철도 수주 경쟁 화제 시 일본 SNS에서 널리 볼 수 있는 우려."
+      },
+      "keywords": [
+        "#新幹線技術",
+        "#中国高铁",
+        "#技術流出"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "hs-rail-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "我々は他国の先進技術を導入した後に自力で消化・吸収・革新し、世界一の高速鉄道ネットワークを構築した。安全で効率的な中国技術は今や世界をリードしている。",
+        "en": "We introduced foreign advanced technologies, digested, absorbed, and innovated on them independently, building the world's top high-speed rail network. Safe and efficient Chinese technology now leads the world.",
+        "zh": "我们在引进外国先进技术后，通过消化、吸收、再创新，建设了世界第一的高铁网络。安全高效的中国高铁技术如今正引领世界。",
+        "ko": "우리는 타국의 선진 기술을 도입한 후 자체적으로 소화·흡수·혁신하여 세계 최고의 고속철도 네트워크를 구축했다. 안전하고 효율적인 중국 기술은 이제 세계를 선도하고 있다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "「中国速度」や国家的な技術発展の象徴として、中国国内のネットで極めて肯定的に語られる誇りの世論。",
+        "en": "A proud sentiment spoken of highly positively on Chinese social media as a symbol of 'China Speed' and national technological progress.",
+        "zh": "作为“中国速度”和国家技术发展的象征，在中国国内网络上极具肯定色彩的自豪舆论。",
+        "ko": "'중국 속도'나 국가적 기술 발전의 상징으로서 중국 국내 인터넷에서 극히 긍정적으로 언급되는 자랑스러운 여론."
+      },
+      "keywords": [
+        "#中国高铁",
+        "#大国重器",
+        "#中国速度"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

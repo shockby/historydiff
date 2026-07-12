@@ -1,0 +1,67 @@
+{
+  "eventId": "ukraine-invasion",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "ukraine-voice-1",
+      "country": {
+        "ja": "ウクライナ",
+        "en": "Ukraine",
+        "zh": "乌克兰",
+        "ko": "우크라이나"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ロシアの侵略行為は我が国の主権と平和な生活を破壊する許しがたい暴挙だ。我々は祖国と自由を守るために最後まで戦い抜く。国際社会はより強力な軍事支援をすべきだ。",
+        "en": "Russia's invasion is an unforgivable atrocity that destroys our sovereignty and peaceful lives. We will fight to the end to defend our homeland and freedom. The international community must provide stronger military aid.",
+        "zh": "俄罗斯的侵略行为是破坏我国主权与和平生活的不可容忍的暴行。我们将为捍卫祖国和自由战斗到底。国际社会应提供更强大的军事援助。",
+        "ko": "러시아의 침략 행위는 우리 나라의 주권과 평화로운 삶을 파괴하는 용납할 수 없는 폭거이다. 우리는 조국과 자유를 지키기 위해 끝까지 싸울 것이다. 국제사회는 더 강력한 군사 지원을 해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ウクライナ国民や、世界中のウクライナ支持者がSNS（X、Instagram等）で連帯を示すために最も活発に発信する世論。",
+        "en": "The most actively asserted sentiment by Ukrainian citizens and supporters worldwide on social media (X, Instagram) to show solidarity.",
+        "zh": "乌克兰国民及全球支持者为了表达团结声援，在社交媒体（如X、Instagram等）上最活跃发表的舆论观点。",
+        "ko": "우크라이나 국민이나 전 세계의 우크라이나 지지자들이 SNS(X, 인스타그램 등)에서 연대를 표시하기 위해 가장 활발하게 발신하는 여론."
+      },
+      "keywords": [
+        "#StandWithUkraine",
+        "#SlavaUkraini"
+      ],
+      "timeframe": "2022-2024"
+    },
+    {
+      "id": "ukraine-voice-2",
+      "country": {
+        "ja": "ロシア",
+        "en": "Russia",
+        "zh": "俄罗斯",
+        "ko": "러시아"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "特別軍事作戦は、NATOの東方拡大から我が国の安全保障を守り、ドンバス地方のロシア系住民を保護するための正当防衛措置だ。ロシア軍はファシズムと戦っている。",
+        "en": "The special military operation is a legitimate self-defense measure to protect our national security against NATO's eastward expansion and safeguard Russian-speaking people in Donbas. The Russian military is fighting fascism.",
+        "zh": "特别军事行动是为了保护我国安全免受北约东扩威胁，并保护顿巴斯地区俄语居民的合法自卫措施。俄罗斯军队正在同法西斯主义作斗争。",
+        "ko": "특별 군사 작전은 NATO의 동방 확장으로부터 우리 나라의 안보를 지키고, 돈바스 지역의 러시아계 주민을 보호하기 위한 정당방위 조치이다. 러시아군은 파시즘과 싸우고 있다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ロシア国内のネット空間や、政府の公式見解を支持するプラットフォームで、愛国心や安全保障上の必要性を強調する書き込み。",
+        "en": "Posts on Russian social media and platforms supporting the official narrative, emphasizing patriotism and security necessities.",
+        "zh": "在俄罗斯国内网络空间及支持官方立场的平台发表的、强调爱国主义和地缘安全必要性的留言观点。",
+        "ko": "러시아 국내 인터넷 공간이나 정부 공식 견해를 지지하는 플랫폼에서 애국심이나 안보상의 필요성을 강조하는 게시물."
+      },
+      "keywords": [
+        "#ЗаНаших",
+        "#СвоихНеБросаем"
+      ],
+      "timeframe": "2022-2024"
+    }
+  ]
+}

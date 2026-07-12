@@ -1,0 +1,136 @@
+{
+  "eventId": "nanjing-massacre",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "nanjing-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "南京大虐殺は30万人以上の犠牲を出した歴史的事実であり、日本はこの歴史を正面から認め、心からの謝罪を行うべきだ。忘れてはならない民族の記憶。",
+        "en": "The Nanjing Massacre is a historical fact with over 300,000 victims. Japan must squarely acknowledge this history and offer sincere apology. A national memory that must never be forgotten.",
+        "zh": "南京大屠杀是造成30万以上遇难者的历史事实。日本必须正视这段历史并真诚道歉。这是不能忘却的民族记忆。",
+        "ko": "난징대학살은 30만 명 이상의 희생자를 낸 역사적 사실이며, 일본은 이 역사를 정면으로 인정하고 진심 어린 사과를 해야 한다. 잊어서는 안 되는 민족의 기억."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年12月13日の「国家公祭日」前後に大量に投稿される。Weibo・WeChat上で公式メディアの投稿と共にリシェアされる。",
+        "en": "Mass posts appear around the annual 'National Memorial Day' on December 13. Shared alongside official media posts on Weibo and WeChat.",
+        "zh": "每年12月13日\"国家公祭日\"前后大量出现。在微博和微信上随官方媒体帖子一起转发。",
+        "ko": "매년 12월 13일 '국가 공제일' 전후에 대량으로 게시된다. 웨이보·위챗에서 공식 미디어 게시물과 함께 공유된다."
+      },
+      "keywords": ["#南京大屠杀", "#国家公祭日", "#勿忘国耻"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "reconciliatory",
+      "summary": {
+        "ja": "歴史を記憶することは重要だが、憎しみを次世代に引き継ぐべきではない。日中の民間レベルの相互理解と未来志向の関係構築が必要。",
+        "en": "Remembering history is important, but hatred should not be passed to the next generation. Mutual understanding at the civilian level and building a future-oriented Japan-China relationship is needed.",
+        "zh": "铭记历史很重要，但不应将仇恨传给下一代。需要中日民间层面的相互理解和面向未来的关系建设。",
+        "ko": "역사를 기억하는 것은 중요하지만, 증오를 다음 세대에 물려주어서는 안 된다. 중일 민간 차원의 상호 이해와 미래지향적 관계 구축이 필요하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "留学経験者や若年層のSNSで見られるが、「親日派」と批判されるリスクがあり、公開発言は控える傾向。",
+        "en": "Seen on social media among those with study abroad experience and younger generations, but carries the risk of being criticized as 'pro-Japanese' and tends to be expressed cautiously.",
+        "zh": "在有留学经验者和年轻一代的社交媒体上可见，但有被批评为\"亲日派\"的风险，倾向于谨慎表达。",
+        "ko": "유학 경험자나 젊은 층의 SNS에서 볼 수 있지만, '친일파'로 비판받을 위험이 있어 공개 발언을 자제하는 경향."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-voice-3",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "犠牲者数の「30万人」という数字は政治的に誇張されたものであり、実際の犠牲者数は不明。歴史的検証なしに特定の数字を受け入れることは学問的に不誠実。",
+        "en": "The '300,000 victims' figure is politically exaggerated, and the actual number of victims remains unknown. Accepting a specific number without historical verification is academically dishonest.",
+        "zh": "\"30万遇难者\"的数字是政治上的夸大，实际遇难人数不明。在没有历史验证的情况下接受特定数字在学术上是不诚实的。",
+        "ko": "희생자 수 '30만 명'이라는 숫자는 정치적으로 과장된 것이며, 실제 희생자 수는 불명확하다. 역사적 검증 없이 특정 숫자를 받아들이는 것은 학문적으로 불성실하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "保守系メディアやSNSで根強い主張。虐殺の存在自体を否定する極端な意見から、規模の再検証を求める学術的議論まで幅がある。",
+        "en": "A persistent argument in conservative media and social media. Ranges from extreme views denying the massacre itself to academic discussions seeking re-examination of the scale.",
+        "zh": "在保守派媒体和社交媒体上根深蒂固的主张。从否认大屠杀本身的极端观点到要求重新审视规模的学术讨论，范围很广。",
+        "ko": "보수 계열 미디어와 SNS에서 뿌리 깊은 주장. 학살 자체를 부정하는 극단적인 의견부터 규모의 재검증을 요구하는 학술적 논의까지 폭이 넓다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-voice-4",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "南京事件の悲劇は否定できないが、犠牲者数については日中双方の研究者間でも見解が分かれている。感情論ではなく、史料に基づく冷静な議論が必要。",
+        "en": "The tragedy of the Nanjing Incident is undeniable, but views on victim numbers differ even among researchers from both Japan and China. Calm discussion based on historical sources, not emotional arguments, is needed.",
+        "zh": "南京事件的悲剧不可否认，但即使在中日两国研究者之间，关于遇难人数的看法也存在分歧。需要的是基于史料的冷静讨论，而非情绪化的争论。",
+        "ko": "난징사건의 비극은 부정할 수 없지만, 희생자 수에 대해서는 일중 양국 연구자 간에도 견해가 나뉘어 있다. 감정론이 아닌 사료에 기반한 냉정한 논의가 필요하다."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "歴史学研究者・ジャーナリスト層で見られる立場。SNS上では「どっちもどっち」と批判されることもある。",
+        "en": "A stance seen among historians and journalists. Sometimes criticized on social media as 'both-sides-ism'.",
+        "zh": "在历史学研究者和记者群体中可见的立场。在社交媒体上有时被批评为\"各打五十大板\"。",
+        "ko": "역사학 연구자·저널리스트 층에서 볼 수 있는 입장. SNS에서는 '양비론'이라고 비판받기도 한다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-voice-5",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "南京大虐殺はホロコーストに並ぶ20世紀の重大な人道的悲劇の一つとして認識されている。アイリス・チャンの著書がアメリカでの認知度向上に大きく寄与。",
+        "en": "The Nanjing Massacre is recognized as one of the major humanitarian tragedies of the 20th century, alongside the Holocaust. Iris Chang's book significantly raised awareness in the US.",
+        "zh": "南京大屠杀被认为是20世纪与大屠杀并列的重大人道主义悲剧之一。张纯如的著作极大地提高了美国的认知度。",
+        "ko": "난징대학살은 홀로코스트와 함께 20세기의 중대한 인도적 비극 중 하나로 인식되고 있다. 아이리스 장의 저서가 미국에서의 인지도 향상에 크게 기여했다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "アメリカの大学教育やドキュメンタリーで取り上げられることが多い。中国系アメリカ人コミュニティでは特に関心が高い。",
+        "en": "Frequently covered in American university education and documentaries. Particularly high interest among Chinese-American communities.",
+        "zh": "在美国大学教育和纪录片中经常被提及。华裔美国人社区对此尤为关注。",
+        "ko": "미국 대학 교육이나 다큐멘터리에서 다루어지는 경우가 많다. 중국계 미국인 커뮤니티에서 특히 관심이 높다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

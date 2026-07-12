@@ -1,0 +1,136 @@
+{
+  "eventId": "takeshima",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "takeshima-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "竹島は歴史的にも国際法的にも日本固有の領土であり、韓国による不法占拠は許されない。政府はICJへの付託をもっと強く求めるべきだ。",
+        "en": "Takeshima is historically and legally Japan's inherent territory. South Korea's illegal occupation is unacceptable, and the government should more strongly pursue referral to the ICJ.",
+        "zh": "竹岛在历史上和国际法上都是日本的固有领土。韩国的非法占据不可接受，政府应更强烈地推动将此事提交国际法院。",
+        "ko": "다케시마는 역사적으로도 국제법적으로도 일본 고유의 영토이며, 한국의 불법 점거는 용납할 수 없다. 정부는 ICJ 회부를 더 강력히 추진해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "外務省の年次レポート発表時や「竹島の日」（2月22日）前後に、この主張がSNS上で急増する傾向がある。",
+        "en": "This sentiment surges on social media around the annual MOFA report release and 'Takeshima Day' (February 22).",
+        "zh": "每年外务省年度报告发布及\"竹岛日\"（2月22日）前后，这一观点在社交媒体上急剧增加。",
+        "ko": "외무성의 연례 보고서 발표 시기나 '다케시마의 날'(2월 22일) 전후로 이 주장이 SNS에서 급증하는 경향이 있다."
+      },
+      "keywords": ["#竹島は日本の領土", "#竹島の日", "#Takeshima"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "takeshima-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "reconciliatory",
+      "summary": {
+        "ja": "領土問題にばかりエネルギーを使うのではなく、日韓の文化交流や経済協力を優先すべきだ。若い世代はもっと未来志向であるべき。",
+        "en": "Rather than expending energy solely on territorial disputes, Japan-South Korea cultural exchange and economic cooperation should be prioritized. The younger generation should be more future-oriented.",
+        "zh": "与其把精力都花在领土问题上，不如优先考虑日韩文化交流和经济合作。年轻一代应该更加面向未来。",
+        "ko": "영토 문제에만 에너지를 쏟기보다 한일 문화 교류와 경제 협력을 우선해야 한다. 젊은 세대는 더 미래지향적이어야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "K-POP・韓国ドラマのファンコミュニティや、留学経験のある層で見られる意見。政治的話題を避ける傾向が強い。",
+        "en": "Commonly seen among K-pop/K-drama fan communities and those with study abroad experience. Strong tendency to avoid political topics.",
+        "zh": "常见于K-pop/韩剧粉丝社区和有留学经验的群体中。有强烈回避政治话题的倾向。",
+        "ko": "K-pop·한국 드라마 팬 커뮤니티나 유학 경험이 있는 층에서 볼 수 있는 의견. 정치적 화제를 피하는 경향이 강하다."
+      },
+      "keywords": ["#日韓友好", "#未来志向"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "takeshima-voice-3",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "独島は歴史的に韓国の領土であり、日本の領有権主張は帝国主義の残滓である。独島を守ることは民族の尊厳を守ることだ。",
+        "en": "Dokdo is historically Korean territory, and Japan's sovereignty claims are remnants of imperialism. Defending Dokdo means defending national dignity.",
+        "zh": "独岛在历史上是韩国领土，日本的主权主张是帝国主义的残余。捍卫独岛就是捍卫民族尊严。",
+        "ko": "독도는 역사적으로 한국의 영토이며, 일본의 영유권 주장은 제국주의의 잔재이다. 독도를 지키는 것은 민족의 존엄을 지키는 것이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "「独島の日」（10月25日）や日韓関係の緊張が高まる時期に集中的に投稿される。愛国的教育と結びついた強い感情的反応。",
+        "en": "Posts concentrate around 'Dokdo Day' (October 25) and periods of heightened Japan-South Korea tensions. Strong emotional response tied to patriotic education.",
+        "zh": "在\"独岛日\"（10月25日）及日韩关系紧张时期集中出现。与爱国教育相关的强烈情感反应。",
+        "ko": "'독도의 날'(10월 25일)이나 한일 관계 긴장이 고조되는 시기에 집중적으로 게시된다. 애국 교육과 연계된 강한 감정적 반응."
+      },
+      "keywords": ["#독도는우리땅", "#독도사랑", "#독도"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "takeshima-voice-4",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "独島問題が政治家の支持率維持のために利用されている面がある。本質的な外交問題解決よりも、国内政治のツールになっている。",
+        "en": "There are aspects of the Dokdo issue being exploited to maintain politicians' approval ratings. It has become a tool for domestic politics rather than solving the actual diplomatic issue.",
+        "zh": "独岛问题在某些方面被政治家用来维持支持率。它已成为国内政治的工具，而非真正解决外交问题。",
+        "ko": "독도 문제가 정치인의 지지율 유지를 위해 이용되는 측면이 있다. 본질적인 외교 문제 해결보다 국내 정치의 도구가 되고 있다."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "政治に批判的な若年層や知識人コミュニティで見られる少数意見。公開で発言すると激しい反発を受けることが多い。",
+        "en": "A minority opinion found among politically critical younger generations and intellectual communities. Public expression often faces intense backlash.",
+        "zh": "在持批评态度的年轻一代和知识分子社区中可见的少数观点。公开表达往往面临激烈的反弹。",
+        "ko": "정치에 비판적인 젊은 층이나 지식인 커뮤니티에서 볼 수 있는 소수 의견. 공개적으로 발언하면 격렬한 반발을 받는 경우가 많다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "takeshima-voice-5",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "竹島/独島問題は日韓双方の同盟国として、アメリカにとって扱いにくい問題。両国が対話で解決してほしいという声が主流。",
+        "en": "The Takeshima/Dokdo issue is an awkward problem for the US as an ally to both nations. The mainstream view is that both countries should resolve it through dialogue.",
+        "zh": "竹岛/独岛问题对于作为日韩双方盟友的美国来说是一个棘手的问题。主流观点是两国应通过对话解决。",
+        "ko": "다케시마/독도 문제는 한일 양국의 동맹국인 미국에게 다루기 어려운 문제이다. 양국이 대화로 해결해 주기를 바라는 목소리가 주류이다."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "一般のアメリカ人にとっては関心が低い話題。外交・安全保障に関心のある層や東アジア研究者コミュニティで限定的に議論される。",
+        "en": "This is a topic of low interest for the average American. Discussion is limited to those interested in foreign policy/security and East Asian studies communities.",
+        "zh": "对普通美国人来说，这是一个关注度较低的话题。讨论仅限于对外交安全有兴趣的群体和东亚研究社区。",
+        "ko": "일반 미국인에게는 관심이 낮은 화제. 외교·안보에 관심이 있는 층이나 동아시아 연구자 커뮤니티에서 제한적으로 논의된다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

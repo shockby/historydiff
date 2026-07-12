@@ -1,0 +1,68 @@
+{
+  "eventId": "northern-territories",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "northern-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "北方領土は歴史的にも国際法的にも日本固有の領土であり、第二次世界大戦末期にソ連が日ソ中立条約を破って不法占拠した。ロシアは直ちに全島を返還すべきだ。",
+        "en": "The Northern Territories are historically and legally Japan's inherent territory, illegally occupied by the Soviet Union violating the Soviet-Japanese Neutrality Pact at the end of WWII. Russia must return all islands immediately.",
+        "zh": "北方领土在历史和国际法上都是日本的固有领土，二战末期苏联违反《日苏中立条约》非法占据了这些岛屿。俄罗斯应立即归还所有岛屿。",
+        "ko": "북방영토는 역사적으로도 국제법적으로도 일본 고유의 영토이며, 제2차 세계대전 말기에 소련이 일소중립조약을 깨고 불법 점거했다. 러시아는 즉시 모든 섬을 반환해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年2月7日の「北方領土の日」や、ロシアが北方領土周辺で軍事演習を行うニュースの際にSNSで拡散される一般的な主張。",
+        "en": "A general claim spread on social media during the annual February 7 'Northern Territories Day' and when news reports military exercises by Russia in the region.",
+        "zh": "每年2月7日“北方领土日”及俄罗斯在北方领土周边举行军事演习的新闻报道出现时，在社交媒体上流传的普遍观点。",
+        "ko": "매년 2월 7일 '북방영토의 날'이나 러시아가 북방영토 주변에서 군사 훈련을 한다는 뉴스가 보도될 때 SNS에서 확산되는 일반적인 주장."
+      },
+      "keywords": [
+        "#北方領土返還",
+        "#北方領土の日",
+        "#固有の領土"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "northern-voice-2",
+      "country": {
+        "ja": "ロシア",
+        "en": "Russia",
+        "zh": "俄罗斯",
+        "ko": "러시아"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "南クリル諸島（北方四島）は第二次世界大戦の結果として正当にソビエト連邦（ロシア）の領土となった。ロシアの主権は不可侵であり、領土問題自体が存在しない。",
+        "en": "The Southern Kurils (Northern Territories) rightfully became the territory of the Soviet Union (Russia) as a result of World War II. Russia's sovereignty is inviolable, and no territorial dispute exists.",
+        "zh": "南千岛群岛（北方四岛）作为第二次世界大战的结果，理所当然地成为了苏联（俄罗斯）的领土。俄罗斯的主权神圣不可侵犯，领土争议本身并不存在。",
+        "ko": "남쿠릴 열도(북방 영토)는 제2차 세계대전의 결과로서 정당하게 소비에트 연방(러시아)의 영토가 되었다. 러시아의 주권은 불가침이며 영토 문제 자체는 존재하지 않는다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ロシア国内のSNSや公式声明に関連するスレッドでの主流派の意見。大戦の結果を尊重すべきだとする立場。",
+        "en": "Mainstream opinions in Russian social media and threads related to official statements, holding that the outcome of WWII must be respected.",
+        "zh": "俄罗斯国内社交媒体及官方声明相关帖文中的主流观点，主张应尊重第二次世界大战的结果。",
+        "ko": "러시아 국내 SNS나 공식 성명 관련 스레드에서의 주류 의견. 대전의 결과를 존중해야 한다는 입장."
+      },
+      "keywords": [
+        "#КурилыНаши",
+        "#КурильскиеОстрова"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

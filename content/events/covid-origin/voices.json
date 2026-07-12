@@ -1,0 +1,68 @@
+{
+  "eventId": "covid-origin",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "covid-origin-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ウイルス起源論を政治化し、武漢研究所の流出疑惑を煽るのは、中国への政治的攻撃であり責任転嫁だ。起源は多角的に科学的に調査されるべきだ。",
+        "en": "Politicizing the virus origin and hyping the Wuhan lab leak theory is a political attack on China and a blame-shifting tactic. The origin should be investigated scientifically worldwide.",
+        "zh": "将病毒溯源问题政治化、炒作武汉实验室泄漏论是对中国的政治攻击和甩锅行为。溯源应在全球范围内进行多角度的科学调查。",
+        "ko": "바이러스 기원 문제를 정치화하고 무한 연구소 유출 의혹을 선동하는 것은 중국에 대한 정치적 공격이자 책임 전가이다. 기원은 다각적이고 과학적으로 조사되어야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国国内のSNS（微博など）や、公式メディアがWHO関連のニュースを報道する際に広く見られる論調。",
+        "en": "A tone widely seen on Chinese social media (Weibo) and official media during reports on WHO-related news.",
+        "zh": "在中国国内社交媒体（如微博）及官方媒体报道世卫组织相关新闻时广泛可见的论调。",
+        "ko": "중국 국내 SNS(웨이보 등)나 공식 미디어가 WHO 관련 뉴스를 보도할 때 널리 나타나는 논조."
+      },
+      "keywords": [
+        "#病毒溯源",
+        "#科学溯源"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "covid-origin-voice-2",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "中国政府は初期の武漢のデータを公開せず、WHOの調査にも非協力的だった。ラボ流出説も含め、透明性のある徹底調査が必要だ。",
+        "en": "The Chinese government concealed early data in Wuhan and was uncooperative with WHO. A transparent and thorough investigation, including the lab leak hypothesis, is necessary.",
+        "zh": "中国政府未公开武汉早期的关键数据，且不配合世卫组织的调查。必须进行包含实验室泄漏假说在内的透明、彻底的调查。",
+        "ko": "중국 정부는 초기 무한의 데이터를 공개하지 않았고, WHO의 조사에도 비협조적이었다. 연구소 유출설을 포함해 투명하고 철저한 조사가 필요하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "米国の議員やジャーナリスト、一般SNSユーザーの間で広く支持される意見。情報の透明性と説明責任を問う声。",
+        "en": "A widely supported view among US lawmakers, journalists, and general social media users, questioning information transparency and accountability.",
+        "zh": "在美国议员、记者及普通社交媒体用户中获得广泛支持的观点。追问信息透明度和解释责任的声音。",
+        "ko": "미국 의원이나 언론인, 일반 SNS 사용자들 사이에서 널리 지지받는 의견. 정보의 투명성과 설명 책임을 묻는 목소리."
+      },
+      "keywords": [
+        "#CovidOrigin",
+        "#LabLeak",
+        "#Wuhan"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

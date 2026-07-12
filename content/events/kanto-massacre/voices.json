@@ -1,0 +1,64 @@
+{
+  "eventId": "kanto-massacre",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "kanto-massacre-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "震災の混乱の中で、デマにより多くの朝鮮人が犠牲になったのは事実であり、追悼し反省すべき悲劇。公式な調査記録を見直し、歴史から教訓を学ぶべきだ。",
+        "en": "It is a fact that many Koreans fell victim to rumors during the post-earthquake chaos. It is a tragedy to be commemorated and reflected upon. We must review official records and learn lessons from history.",
+        "zh": "在地震灾后的混乱中，因谣言导致许多朝鲜人遇难是事实，这是一场值得哀悼和反思的悲剧。应重新审查官方记录，并从历史中汲取教訓。",
+        "ko": "지진의 혼란 속에서 유언비어로 인해 많은 조선인이 희생된 것은 사실이며, 추모하고 반성해야 할 비극이다. 공식 조사 기록을 재검토하고 역사에서 교훈을 배워야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "毎年9月1日の震災記念日前後に、追悼集会のニュース等に関連して日本のリベラル層や知識人が発信する意見。",
+        "en": "Opinions posted by Japanese liberals and intellectuals around the annual September 1 earthquake memorial day, related to memorial services.",
+        "zh": "每年9月1日关东大地震纪念日前后，日本自由派及知识分子在相关追悼集会新闻中发表的观点。",
+        "ko": "매년 9월 1일 지진 기념일 전후로 추모 집회 뉴스 등과 관련하여 일본의 리베랄층이나 지식인들이 게시하는 의견."
+      },
+      "keywords": [
+        "#関東大震災",
+        "#歴史の直視"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "kanto-massacre-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "当時の混乱の中での自警団の活動は治安維持のための過剰防衛の側面もあり、誇張された数字（数千人虐殺など）だけが一人歩きするのは避けるべきだ。数字の学術的検証が必要。",
+        "en": "The activities of vigilante groups in the chaos also had aspects of excess self-defense to maintain order. We should avoid letting exaggerated figures (like thousands massacred) take on a life of their own. Academic verification is required.",
+        "zh": "当时混乱中自警团 of 活动也有维持治安下的过度防卫方面。应避免让夸大的数字（如屠杀数千人）被盲目传播。需要对数字进行学术检验。",
+        "ko": "당시의 혼란 속에서 자경단의 활동은 치안 유지를 위한 과잉방어의 측면도 있었으며, 과장된 숫자(수천 명 학살 등)만이 퍼져나가는 것은 피해야 한다. 숫자에 대한 학술적 검증이 필요하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "日本のネットの保守層で見られる意見。犠牲者数に関する議論や自治体の追悼文送付見送りニュースの際によく発信される。",
+        "en": "Opinions found among Japanese conservative netizens, often shared during debates about casualty numbers or municipal decisions to skip memorial messages.",
+        "zh": "在日本网络保守派中可见的观点。常在讨论遇难者人数或地方政府取消发送追悼信的新闻时发表。",
+        "ko": "일본 인터넷의 보수층에서 볼 수 있는 의견. 희생자 수에 대한 논쟁이나 지자체의 추모문 송부 보류 뉴스 발생 시 자주 게시된다."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

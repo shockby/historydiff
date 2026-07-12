@@ -1,0 +1,69 @@
+{
+  "eventId": "pacific-war-end",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "pacific-war-voice-1",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "原爆投下は太平洋戦争を早期に終結させ、何百万人もの日米双方の兵士や民間人の命を救うために必要不可欠な決定だった。当時の文脈を考慮すべきだ。",
+        "en": "The atomic bombings were a necessary decision to bring the Pacific War to a rapid end, saving millions of lives of both US and Japanese soldiers and civilians. The historical context must be considered.",
+        "zh": "投下原子弹是为了迅速结束太平洋战争、挽救美日双方数百万士兵及平民生命而做出的必要决定。应当考虑当时的历史背景。",
+        "ko": "원폭 투하는 태평양 전쟁을 조기에 종식시키고 수백만 명에 달하는 미일 양측 군인과 민간인의 생명을 구하기 위해 불가피한 결정이었다. 당시의 맥락을 고려해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年8月の原爆追悼の日や、原爆開発を描いた映画「オッペンハイマー」公開時などに英語圏SNSで支配的だった伝統的な擁護論。",
+        "en": "A traditional defense dominant on English-language social media during the August atomic bomb anniversaries and the release of the film 'Oppenheimer'.",
+        "zh": "每年8月原子弹纪念日前后，及讲述研发原子弹的电影《奥本海默》上映时，在英语社交媒体上占支配地位的传统辩护观点。",
+        "ko": "매년 8월 원폭 추모일이나 원폭 개발을 그린 영화 '오펜하이머' 개봉 시기 등에 영어권 SNS에서 지배적이었던 전통적인 옹호론."
+      },
+      "keywords": [
+        "#WW2History",
+        "#Oppenheimer",
+        "#Hiroshima"
+      ],
+      "timeframe": "2023-2024"
+    },
+    {
+      "id": "pacific-war-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "広島・長崎への原爆投下は、何万人もの一般市民を一瞬で虐殺した非人道的な戦争犯罪だ。日本は敗戦間近であり、ソ連参戦への牽制など政治的実験の側面があったのではないか。",
+        "en": "The atomic bombings of Hiroshima and Nagasaki were inhumane war crimes that massacred tens of thousands of ordinary civilians in an instant. Japan was close to defeat, and it likely had aspects of a political experiment to check the USSR.",
+        "zh": "对广岛和长崎投下原子弹是一瞬间夺走数十万普通市民生命的人道主义战争罪行。当时日本已接近战败，原爆或许存在牵制苏联等政治实验的性质。",
+        "ko": "히로시마·나가사키에 대한 원폭 투하는 수만 명의 일반 시민을 한순간에 학살한 비인도적인 전쟁 범죄이다. 일본은 패전 직전이었으며, 소련 참전에 대한 견제 등 정치적 실험의 측면이 있었던 것은 아닌가."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "原爆忌前後に、被爆者の体験談紹介や平和活動、あるいは英語圏の「原爆正当化論」への反論としてSNSで強く共感される世論。",
+        "en": "A sentiment strongly shared on Japanese social media during atomic bomb memorial days in response to English 'atomic bomb justification' views.",
+        "zh": "在原爆忌日纪念日前后，作为对被爆者经历介绍、和平活动或英语圈的“原子弹正当化论”的反驳，在社交媒体上获得强烈共鸣的舆论观点。",
+        "ko": "원폭 추모일 전후로 피폭자 체험담 소개나 평화 활동, 혹은 영어권의 '원폭 정당화론'에 대한 반론으로서 SNS에서 강한 공감을 얻는 여론."
+      },
+      "keywords": [
+        "#原爆投下は戦争犯罪",
+        "#原爆忌",
+        "#広島長崎"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

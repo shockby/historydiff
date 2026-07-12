@@ -1,0 +1,68 @@
+{
+  "eventId": "senkaku",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "senkaku-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "尖閣諸島は歴史的にも国際法的にも日本固有の領土であり、現に有効支配している。中国海警局の船が領海侵入を繰り返すのは断じて容認できず、毅然とした対応が必要だ。",
+        "en": "The Senkaku Islands are historically and legally Japan's inherent territory, and Japan currently exercises effective control. Incursions by Chinese Coast Guard vessels are absolutely unacceptable and require a firm response.",
+        "zh": "尖阁诸岛（钓鱼岛）在历史和国际法上都是日本的固有领土，且目前正处于日本的有效控制下。绝对无法容忍中国海警船反复侵入领海，必须采取坚决应对措施。",
+        "ko": "센카쿠 열도는 역사적으로도 국제법적으로도 일본 고유의 영토이며, 현재 유효 지배하고 있다. 중국 해경국 배가 영해 침범을 반복하는 것은 결코 용납할 수 없으며 단호한 대응이 필요하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国船の接近ニュースが報じられるたび、日本のSNSで領土防衛や海上保安庁への支援を訴える声として強く発信される意見。",
+        "en": "Opinions strongly posted on Japanese social media calling for territorial defense and support for the Japan Coast Guard whenever news of Chinese ship approaches is reported.",
+        "zh": "每当报道中国船只接近的新闻时，在日本社交媒体上作为呼吁领土防卫和支持海上保安厅的声音强烈发表的观点。",
+        "ko": "중국 배의 접근 뉴스가 보도될 때마다 일본 SNS에서 영토 방위와 해상보안청 지원을 호소하는 목소리로 강하게 발신되는 의견."
+      },
+      "keywords": [
+        "#尖閣諸島は日本の領土",
+        "#海上保安庁に感謝",
+        "#Senkaku"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "senkaku-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "釣魚島およびその付属島嶼は古来より中国固有の領土だ。日本が日清戦争中に不当に掠め取った歴史があり、我が海警船による巡視は主権を守る正当な権利行使である。",
+        "en": "Diaoyu Island and its affiliated islands have been China's inherent territory since ancient times. Japan unjustly seized them during the Sino-Japanese War, and patrols by our Coast Guard are a legitimate exercise of sovereignty.",
+        "zh": "钓鱼岛及其附属岛屿自古以来就是中国的固有领土。日本在甲午战争期间不当窃取了这些岛屿，我海警船进行的常态化巡航是维护主权的合法行使权力行为。",
+        "ko": "다오위다오(센카쿠) 및 그 부속 도서는 예로부터 중국 고유의 영토다. 일본이 청일전쟁 중에 부당하게 가로챈 역사가 있으며, 우리 해경선의 순찰은 주권을 지키는 정당한 권리 행사이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の海警局がパトロール実施を発表した際、Weiboなどで公式発表の共有と共に国民が主権維持を支持する書き込み。",
+        "en": "Posts on Chinese social media supporting the sovereignty patrol whenever the Chinese Coast Guard announces regular patrols around Diaoyu Island.",
+        "zh": "当中国海警局宣布进行例行巡航时，在微博等平台配合官方公告发布、支持维护主权的网民留言。",
+        "ko": "중국 해경국이 순찰 실시를 발표했을 때 웨이보 등에서 공식 발표의 공유와 함께 국민들이 주권 유지를 지지하는 게시물."
+      },
+      "keywords": [
+        "#钓鱼岛是中国的",
+        "#中国海警巡航"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

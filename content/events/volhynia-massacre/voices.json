@@ -1,0 +1,64 @@
+{
+  "eventId": "volhynia-massacre",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "volhynia-voice-1",
+      "country": {
+        "ja": "ポーランド",
+        "en": "Poland",
+        "zh": "波兰",
+        "ko": "폴란드"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ヴォルィーニでのウクライナ民族主義者（UPA）によるポーランド人虐殺は、明確なジェノサイド（民族抹殺）だ。ウクライナ政府はこれを認め、犠牲者の発掘と適切な追悼を行うべきだ。",
+        "en": "The massacre of Poles by Ukrainian nationalists (UPA) in Volhynia was a clear genocide. The Ukrainian government must acknowledge this, allow the exhumation of victims, and hold proper memorials.",
+        "zh": "乌克兰民族主义者（UPA）在沃伦对波兰人进行的屠杀是明显的种族灭绝行为。乌克兰政府必须承认这一点，允许发掘遇难者遗骸并进行妥善悼念。",
+        "ko": "볼히니아에서 우크라이나 민족주의자(UPA)에 의한 폴란드인 학살은 명백한 제노사이드(민족 말살)이다. 우크라이나 정부는 이를 인정하고 희생자 발굴과 적절한 추모를 허용해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年7月11日の虐殺記念日前後に、ポーランド国内のSNSや保守政治家の発言に関連して強く主張される世論。",
+        "en": "A sentiment strongly asserted on Polish social media around the annual July 11 anniversary and related remarks by conservative politicians.",
+        "zh": "每年7月11日屠杀纪念日前后，在波兰国内社交媒体及保守派政治家发表言论时强烈主张的舆论观点。",
+        "ko": "매년 7월 11일 학살 기념일 전후로 폴란드 국내 SNS나 보수 정치인들의 발언과 관련하여 강력히 주장되는 여론."
+      },
+      "keywords": [
+        "#Wołyń",
+        "#RzeźWołyńska"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "volhynia-voice-2",
+      "country": {
+        "ja": "ウクライナ",
+        "en": "Ukraine",
+        "zh": "乌克兰",
+        "ko": "우크라이나"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "ヴォルィーニの悲劇は両民族の衝突であり、多くのウクライナ人も報復で命を落とした。歴史的検証は重要だが、ロシアの脅威に対抗するためにポーランドとの現在の団結を優先すべきだ。",
+        "en": "The Volhynia tragedy was a conflict between both nations where many Ukrainians also died in retaliation. While historical verification is important, we must prioritize our current unity with Poland against the Russian threat.",
+        "zh": "沃伦悲剧是两个民族之间的历史冲突，许多乌克兰人也在报复行动中丧生。历史考证固然重要，但为了应对俄罗斯的现实威胁，当前应优先考虑与波兰的团结。",
+        "ko": "볼히니아의 비극은 양 민족 간의 충돌이었으며 많은 우크라이나인들도 보복으로 목숨을 잃었다. 역사적 검증은 중요하지만 러시아의 위협에 대응하기 위해 폴란드와의 현재 연대를 우선해야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ウクライナ国内のネットユーザーや知識人の間で見られる、歴史問題が対露抗戦の足かせになることを懸念する世論。",
+        "en": "A sentiment seen among Ukrainian netizens and intellectuals concerned that historical disputes might undermine the united front against Russia.",
+        "zh": "在乌克兰国内网民及知识分子中可见的观点，担忧历史问题会成为联合抗俄的绊脚石。",
+        "ko": "우크라이나 국내 네티즌이나 지식인들 사이에서 볼 수 있는, 역사 문제가 대러 항전의 발목을 잡을 것을 우려하는 여론."
+      },
+      "keywords": [],
+      "timeframe": "2022-2024"
+    }
+  ]
+}

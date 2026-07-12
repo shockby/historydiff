@@ -1,0 +1,65 @@
+{
+  "eventId": "korea-colonization",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "korea-colonization-voice-1",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "日韓併合は武力を背景にした不法な侵略であり、植民地支配は我が民族に多大な苦痛と権利侵害をもたらした。近代化論などは本質的な収奪を隠蔽する詭弁だ。",
+        "en": "The annexation of Korea was an illegal invasion backed by military force, and colonial rule caused immense suffering and rights violations. The modernization theory is a sophistry concealing the essence of exploitation.",
+        "zh": "日韩合并是靠武力支持的非法侵略，殖民统治给我们民族带来了巨大的痛苦和权利侵害。所谓的现代化论是掩盖本质掠夺的诡辩。",
+        "ko": "한일합방은 무력을 배경으로 한 불법적 침략이며, 식민지 지배는 우리 민족에게 막대한 고통과 권리 침해를 초래했다. 근대화론 등은 본질적인 수탈을 은폐하는 궤변이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国の祝日（光復節・三一節）や歴史的な争点が浮上するたびに、韓国の国民的コンセンサスとしてSNSで共有される意見。",
+        "en": "An opinion shared on South Korean social media as a national consensus during holidays (Liberation Day, March 1st Movement Day) and historical debates.",
+        "zh": "每当韩国节日（光复节、三一节）或历史争议浮出水面时，作为韩国国民共识在社交媒体上分享的观点。",
+        "ko": "한국의 공휴일(광복절, 삼일절)이나 역사적인 쟁점이 부각될 때마다 한국의 국민적 합의로서 SNS에서 공유되는 의견."
+      },
+      "keywords": [
+        "#역사를잊은민족에게나라는없다",
+        "#삼일절",
+        "#광복절"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "korea-colonization-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "当時の併合条約は国際法に則って合法的に締結されたものであり、日本はインフラ整備や近代教育の導入など、近代化に貢献した側面もある。すべての責任を日本に押し付けるべきではない。",
+        "en": "The annexation treaty at the time was concluded legally under international law. Japan also contributed to modernization, such as infrastructure development and modern education. Japan shouldn't bear all the blame.",
+        "zh": "当时的合并条约是依据国际法合法缔结的，日本在建设基础设施和引入现代教育等方面也对现代化做出了贡献。不应把所有责任推给日本。",
+        "ko": "당시의 합방 조약은 국제법에 따라 합법적으로 체결된 것이며, 일본은 인프라 정비나 근대 교육 도입 등 근대화에 기여한 측면도 있다. 모든 책임을 일본에만 지워서는 안 된다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "日本の保守系アカウントやネット掲示板で見られる主張。近代化論（インフラ投資など）を強調する論調。",
+        "en": "An argument seen among Japanese conservative accounts and online forums, emphasizing the modernization aspect (infrastructure investment).",
+        "zh": "在日本保守派账号及网络论坛中可见的主张。强调现代化论点（基础设施投资等）的论调。",
+        "ko": "일본의 보수 성향 계정이나 인터넷 게시판에서 볼 수 있는 주장. 근대화론(인프라 투자 등)을 강조하는 논조."
+      },
+      "keywords": [],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

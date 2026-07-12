@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices } from '@/lib/markdown';
 import EventPageClient from './EventPageClient';
 import { Metadata } from 'next';
 
@@ -27,6 +27,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const perspectives = getEventPerspectives(id, 'en');
   const notes = getEventNotes(id, 'en');
   const photos = getEventPhotos(id);
+  const voices = getEventVoices(id);
 
   return (
     <EventPageClient
@@ -34,7 +35,9 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
       initialPerspectives={perspectives}
       initialNotes={notes}
       initialPhotos={photos}
+      initialVoices={voices}
       lang="en"
     />
   );
 }
+

@@ -1,0 +1,68 @@
+{
+  "eventId": "goguryeo-controversy",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "goguryeo-controversy-voice-1",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "高句麗は我が民族の誇り高き歴史的根幹だ。中国が「東北工程」によって高句麗を自国の地方政権と主張するのは、明らかな歴史強奪である。",
+        "en": "Goguryeo is a proud historical pillar of our nation. China's claim that Goguryeo was its local government under the 'Northeast Project' is clear historical theft.",
+        "zh": "高句丽是我们民族自豪的历史根基。中国通过“东北工程”主张高句丽是其地方政权，这是明显的历史掠夺。",
+        "ko": "고구려는 우리 민족의 자랑스러운 역사적 뿌리이다. 중국이 '동북공정'을 통해 고구려를 자국의 지방 정권이라고 주장하는 것은 명백한 역사 강탈이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国のSNSや歴史コミュニティで、中国の文化的・歴史的主張に対抗して強く展開される愛国的な論調。",
+        "en": "A patriotic tone strongly developed on South Korean social media and history communities to counter China's cultural and historical claims.",
+        "zh": "在韩国社交媒体和历史社区中，针对中国的文化和历史主张而强烈展开的爱国主义论调。",
+        "ko": "한국의 SNS나 역사 커뮤니티에서 중국의 문화적·역사적 주장에 대항하여 강력하게 전개되는 애국적인 논조."
+      },
+      "keywords": [
+        "#고구려",
+        "#동북공정저지",
+        "#독도와고구려"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "goguryeo-controversy-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "高句麗は中国の東北部に存在した古代政権であり、その住民の多くは後に漢民族や他の中国民族に融合した。中国の多民族国家の歴史の一部として研究されるのが学術的に正しい。",
+        "en": "Goguryeo was an ancient regime in China's Northeast, and most of its inhabitants later merged into the Han and other Chinese ethnic groups. Studying it as part of China's unified multi-ethnic state history is academically correct.",
+        "zh": "高句丽是曾存在于中国东北的古代政权，其大部分居民后来融合进了汉族等中国民族中。将其作为中国统一多民族国家历史的一部分来研究在学术上是正确的。",
+        "ko": "고구려는 중국 동북부에 존재했던 고대 정권으로, 그 주민의 상당수는 나중에 한족이나 다른 중국 민족으로 융합되었다. 중국의 다민족 국가 역사의 일부로 연구하는 것이 학술적으로 타당하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国国内の歴史研究フォーラムや、愛国的なネットユーザーによる見解。高句麗の歴史を中国史の範疇とする見方。",
+        "en": "Views from Chinese historical research forums and patriotic netizens, categorizing Goguryeo history within the scope of Chinese history.",
+        "zh": "中国国内历史研究论坛及爱国网民的观点。将高句丽历史归入中国历史范畴的看法。",
+        "ko": "중국 국내 역사 연구 포럼이나 애국적인 네티즌들의 견해. 고구려 역사를 중국사 범주로 보려는 시각."
+      },
+      "keywords": [
+        "#中国历史",
+        "#多民族国家"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

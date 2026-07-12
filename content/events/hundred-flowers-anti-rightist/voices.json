@@ -1,0 +1,39 @@
+{
+  "eventId": "hundred-flowers-anti-rightist",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "hundred-flowers-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "百花斉放はもともと芸術と科学の発展を目指す好ましい方針だったが、その後の反右派闘争は拡大化されすぎ、多くの知識人を不当に傷つけてしまったのは痛ましい歴史だ。",
+        "en": "Let a Hundred Flowers Bloom was originally a positive policy to develop art and science, but the subsequent Anti-Rightist Campaign was overly expanded, unjustly hurting many intellectuals. It is a painful history.",
+        "zh": "双百方针原本是促进艺术和科学繁荣的好方针，但随后的反右斗争被严重扩大化，不公正地伤害了许多知识分子，这是一段令人痛心的历史。",
+        "ko": "백화제방은 원래 예술과 과학의 발전을 목표로 한 긍정적인 방침이었으나, 이후의 반우파 투쟁이 과도하게 확대되어 많은 지식인들을 부당하게 희생시킨 것은 아픈 역사이다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国のネット上の歴史愛好家やリベラル系ネットユーザーの書き込み。知識人抑圧の歴史に対する反省的見解。",
+        "en": "Posts by history buffs and liberal-leaning netizens in China, reflecting regretfully on the history of intellectual suppression.",
+        "zh": "中国网络上历史爱好者及自由派网民的留言。对压制知识分子的历史所持的反思性观点。",
+        "ko": "중국 인터넷상의 역사 애호가나 자유주의 성향 네티즌의 글. 지식인 억압의 역사에 대한 반성적 견해."
+      },
+      "keywords": [
+        "#双百方针",
+        "#历史反思"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

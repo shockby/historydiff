@@ -1,0 +1,67 @@
+{
+  "eventId": "forced-labor",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "forced-labor-voice-1",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "徴用工の個人請求権は消滅していない。日本企業は韓国大法院の判決に従い賠償金を支払い、過去の強制労働について真摯に謝罪すべきだ。",
+        "en": "Individual claims of forced laborers have not expired. Japanese companies must pay compensation according to the Supreme Court ruling and sincerely apologize for past forced labor.",
+        "zh": "劳工的个人索赔权并未消失。日本企业应遵循韩国大法院的判决支付赔偿金，并对过去的强制劳动进行真诚道歉。",
+        "ko": "징용공의 개인 청구권은 소멸하지 않았다. 일본 기업은 한국 대법원의 판결에 따라 배상금을 지급하고 과거 강제노동에 대해 진지하게 사과해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "被害者支援団体や野党系の市民コミュニティのSNSで最も活発に主張される世論。",
+        "en": "A sentiment most actively asserted on social media by victim support groups and opposition-aligned civic communities.",
+        "zh": "受害者支持团体及在野党倾向的市民社群社交媒体上最活跃的舆论观点。",
+        "ko": "피해자 지원 단체나 야당 계열의 시민 커뮤니티 SNS에서 가장 활발하게 주장되는 여론."
+      },
+      "keywords": [
+        "#강제징용",
+        "#대법원판결"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "forced-labor-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "1965年の日韓請求権協定で「完全かつ最終的に」解決済み。韓国国内の司法判決で二重請求を認めるのは法の支配の逸脱であり、韓国政府が国内で解決すべきだ。",
+        "en": "Settled 'completely and finally' by the 1965 claims agreement. Allowing double claims through South Korea's domestic judicial rulings deviates from the rule of law; the South Korean government should resolve it internally.",
+        "zh": "已通过1965年的《日韩请求权协定》“完全且最终”解决。韩国国内司法判决承认双重索赔背离了法治原则，韩国政府应在国内自行解决。",
+        "ko": "1965년 한일 청구권 협정으로 '완전하고 최종적으로' 해결된 문제다. 한국 국내의 사법 판결로 이중 청구를 인정하는 것은 법의 지배를 벗어난 것이며, 한국 정부가 국내적으로 해결해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "判決直後や日本政府が対抗措置をとった際、保守層のみならず広く日本のネットユーザーから出た不満の声。",
+        "en": "Dissatisfaction raised widely by Japanese netizens, not just conservatives, following the court ruling and Japan's countermeasures.",
+        "zh": "判决发表后及日本政府采取应对措施时，不仅是保守派，广大日本网民发出的不满声音。",
+        "ko": "판결 직후나 일본 정부가 대항 조치를 취했을 때, 보수층뿐만 아니라 널리 일본 네티즌들 사이에서 나온 불만의 목소리."
+      },
+      "keywords": [
+        "#日韓請求権協定",
+        "#約束を守れ"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

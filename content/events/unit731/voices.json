@@ -1,0 +1,39 @@
+{
+  "eventId": "unit731",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "unit731-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "731部隊の細菌戦や生体実験は、人類の歴史において極めて野蛮で残酷な暴行だ。日本政府はこの戦争犯罪を認め、被害者の遺族に謝罪と賠償を行うべきだ。",
+        "en": "Unit 731's biological warfare and human experimentation were extremely barbaric and brutal atrocities in human history. The Japanese government must acknowledge these war crimes and provide apology and compensation to the victims' families.",
+        "zh": "731部队进行的细菌战和人体实验是人类历史上极其野蛮和残酷的暴行。日本政府必须承认这一战争罪行，并向受害者家属道歉和赔偿。",
+        "ko": "731 부대의 세균전과 생체 실험은 인류 역사상 극히 야만적이고 잔혹한 폭행이다. 일본 정부는 이 전쟁 범죄를 인정하고 피해자 유족에게 사죄와 배상을 해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "哈爾浜の遺跡博物館の話題や、新たな史料が発見されたというニュースが報道された際に、中国SNS（微博など）で怒りの世論として拡散される主張。",
+        "en": "Claims spread as angry sentiments on Chinese social media when news covers the Harbin memorial museum or the discovery of new historical records.",
+        "zh": "每当报道哈尔滨遗址博物馆相关话题或发现新史料的新闻时，在中国社交媒体上作为愤怒舆论而流传的主张观点。",
+        "ko": "하얼빈 유적 박물관 화제나 새로운 사료가 발견되었다는 뉴스가 보도되었을 때 중국 SNS에서 분노의 여론으로써 확산되는 주장."
+      },
+      "keywords": [
+        "#侵华日军第七三一部队罪证陈列馆",
+        "#勿忘历史"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

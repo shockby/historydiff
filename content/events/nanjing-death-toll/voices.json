@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-death-toll",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "nanjing-toll-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "南京大虐殺での犠牲者「30万人」という数字は、戦後の法廷で認定された厳然たる史実だ。日本側の一部がこの数字に疑念を示すのは、虐殺の歴史そのものを否定・過小評価しようとする不誠実な試みだ。",
+        "en": "The figure of '300,000 victims' in the Nanjing Massacre is a historical fact established by post-war tribunals. Attempts by some on the Japanese side to question this number are dishonest efforts to deny or downplay the massacre.",
+        "zh": "南京大屠杀“30万遇难者”的数字是战后军事法庭认定的铁证历史。日方一些人对这一数字提出质疑，是企图否定和淡化大屠杀历史的不诚实行为。",
+        "ko": "난징대학살 희생자 '30만 명'이라는 숫자는 전후 법정에서 인정된 역사적 사실이다. 일본 측의 일부가 이 숫자에 의문을 제기하는 것은 학살 역사 자체를 부정하거나 과소평가하려는 불성실한 시도이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日本の教科書記述や、日本の政治家が犠牲者数に疑念を挟む発言をした際、中国のネットユーザーから強く反発する形で投稿される。",
+        "en": "Posted by Chinese netizens in strong reaction to Japanese textbook descriptions or political remarks questioning the casualty count.",
+        "zh": "当日本教科书描述或日本政治家发表质疑遇难者人数的言论时，中国网民以此进行强烈反驳的观点。",
+        "ko": "일본의 교과서 기술이나 일본 정치인이 희생자 수에 의문을 제기하는 발언을 했을 때 중국 네티즌들이 강력히 반발하며 게시하는 의견."
+      },
+      "keywords": [
+        "#南京大屠杀30万",
+        "#正视历史"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-toll-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "犠牲者数については、当時の南京の人口統計や軍史料から「30万人」は物理的に誇張されているとの指摘が学術的に多い。プロパガンダではなく、客観的な実証的研究による精査をすべきだ。",
+        "en": "Regarding the death toll, many academic studies point out that '300,000' is physically exaggerated based on Nanjing's population statistics and military records at the time. We should scrutinize it through objective empirical research, not propaganda.",
+        "zh": "关于遇难者人数，从当时南京的人口统计和军事史料来看，许多学术观点指出“30万人”在物理上存在夸大。应通过客观的实证研究进行评估，而非进行政治宣传。",
+        "ko": "희생자 수에 대해서는 당시 난징의 인구 통계나 군 사료를 바탕으로 '30만 명'은 물리적으로 과장되었다는 학술적 지적이 많다. 프로파간다(선전)가 아닌 객관적인 실증 연구를 통한 정밀 조사가 필요하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "日本のネットの保守層や、歴史議論を行うコミュニティで主流の意見。中国側の主張する数字の根拠を疑問視する論調。",
+        "en": "A mainstream opinion among Japanese conservative netizens and history debate communities, questioning the basis of the Chinese claim.",
+        "zh": "日本网络保守派及历史讨论社区中的主流观点。质疑中方主张数字依据的论调。",
+        "ko": "일본 인터넷의 보수층이나 역사 토론 커뮤니티에서 주류를 이루는 의견. 중국 측이 주장하는 숫자의 근거를 의문시하는 논조."
+      },
+      "keywords": [
+        "#歴史研究",
+        "#南京事件の実証的研究"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

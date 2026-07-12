@@ -1,0 +1,68 @@
+{
+  "eventId": "sea-of-japan-naming",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "sea-of-japan-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「日本海（Sea of Japan）」は国際的に19世紀から確立された唯一の公式呼称だ。韓国が「東海（East Sea）」への変更や併記を求めるのは国際적合意の無視であり不当だ。",
+        "en": "'Sea of Japan' is the only internationally established official name since the 19th century. South Korea's demand to change to or co-name with 'East Sea' ignores international consensus and is unjustified.",
+        "zh": "“日本海（Sea of Japan）”是自19世纪以来在国际上确立的唯一官方名称。韩国要求将其更改为“东海（East Sea）”或与之并列标注，是对国际共识的无视，是不合理的。",
+        "ko": "'일본해(Sea of Japan)'는 국제적으로 19세기부터 확립된 유일한 공식 명칭이다. 한국이 '동해(East Sea)'로의 변경이나 병기를 요구하는 것은 국제적 합의 무시이며 부당하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "国際機関（IHO等）の会合や、海外の地図・航空会社が「東海」と誤表記したとニュースになるたびに、日本のSNSで反発として投稿される意見。",
+        "en": "Posted on Japanese social media in protest whenever international meetings (e.g., IHO) occur or when foreign maps/airlines are reported to have used 'East Sea'.",
+        "zh": "每当国际机构（如IHO）举行会议，或报道国外地图、航空公司将其误标为“东海”的新闻时，在日本社交媒体上作为反弹发表的观点。",
+        "ko": "국제 기구(IHO 등)의 회의나 해외 지도·항공사가 '동해'로 표기했다는 뉴스가 보도될 때마다 일본 SNS에서 반발로써 게시되는 의견."
+      },
+      "keywords": [
+        "#日本海",
+        "#SeaOfJapan"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "sea-of-japan-voice-2",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「東海」は2000年以上前から使われてきた歴史的名称であり、「日本海」は20世紀初頭の日本の植民地支配期に国際社会で強制された歪曲だ。公平に併記されるべきだ。",
+        "en": "'East Sea' is a historical name used for over 2,000 years. 'Sea of Japan' was forced onto the international community during Japan's colonial expansion in the early 20th century. They must be co-named fairly.",
+        "zh": "“东海”是使用了2000年以上的历史名称，“日本海”则是20世纪初日本殖民统治时期被强加给国际社会的历史歪曲。应当公平地进行并列标注。",
+        "ko": "'동해'는 2000년 이상 전부터 사용되어 온 역사적인 명칭이며, '일본해'는 20세기 초 일본의 식민지 지배기에 국제사회에 강요된 왜곡이다. 공평하게 병기되어야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国のサイバー外交使節団（VANK）などの呼びかけに応じ、世界のウェブサイトや地図メーカーに修正要求を送る連動キャンペーンと共に発信される世論。",
+        "en": "A sentiment shared alongside campaigns by organizations like VANK urging corrections on global websites and map services.",
+        "zh": "顺应韩国网络外交使节团（VANK）等机构的呼吁，在向全球网站和地图制作商发送修改要求的多方联动活动中发表的舆论观点。",
+        "ko": "한국의 사이버 외교 사절단(VANK) 등의 호소에 응해 세계 웹사이트나 지도 제작업체에 수정 요구를 보내는 캠페인과 함께 발신되는 여론."
+      },
+      "keywords": [
+        "#동해",
+        "#EastSea",
+        "#VANK"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "eventId": "russia-china-territory",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "russia-china-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "中露の国境画定協定により、長年の領土紛争が完全に解決されたことは両国の平和的協力のために素晴らしいことだ。戦略的パートナーシップは重要だ。",
+        "en": "The final settlement of the long-standing border disputes through the China-Russia border agreements is excellent for peaceful cooperation between both nations. The strategic partnership is important.",
+        "zh": "通过中俄国境划定协定彻底解决长年以来的领土纠纷，对于两国和平合作是一件极好的事情。战略协作伙伴关系非常重要。",
+        "ko": "중러 국경 획정 협정을 통해 오랜 영토 분쟁이 완전히 해결된 것은 양국의 평화적 협력을 위해 훌륭한 일이다. 전략적 파트너십은 중요하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中露関係の強化を好意的に捉える公式論調に準拠した一般的な中国国内SNSの書き込み。",
+        "en": "General posts on Chinese social media aligned with the official narrative that views the strengthening of China-Russia relations favorably.",
+        "zh": "中国国内社交媒体上普遍可见的观点，符合倾向于正面看待中俄关系加强的官方论调。",
+        "ko": "중러 관계 강화를 호의적으로 바라보는 공식 논조에 부합하는 일반적인 중국 국내 SNS의 게시물."
+      },
+      "keywords": [
+        "#中俄关系",
+        "#和平边境"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "russia-china-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "国境合意を認めるが、ウラジオストク（海参崴）などの外満州は歴史的に中国の領土であり、清朝がロシアに強制的に割譲させられた悲しい歴史は忘れてはならない。",
+        "en": "While acknowledging the border agreements, we must not forget that Outer Manchuria (including Vladivostok/Haishenwai) was historically Chinese land forced to be ceded by the Qing Dynasty under unequal treaties.",
+        "zh": "虽然承认现有的国界协定，但历史上海参崴（符拉迪沃斯托克）等外东北地区是中国领土，清朝被迫割让给俄罗斯的悲痛历史不容忘却。",
+        "ko": "국경 합의를 인정하지만 블라디보스토크(해삼위) 등 외만주는 역사적으로 중국의 영토였으며, 청나라가 러시아에 강제로 할양당했던 슬픈 역사는 잊어서는 안 된다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国の民族主義的ネットユーザーの間で、ロシアとの国境問題を歴史的に回顧する際に出てくる「失われた領土」への愛国的な嘆き。",
+        "en": "Patriotic laments over 'lost territories' that emerge among Chinese nationalist netizens when historically reviewing border treaties with Russia.",
+        "zh": "在中国民族主义网民中，当历史性地回顾与俄罗斯的边境协定时，出现的对于“失去的领土”的爱国主义哀叹。",
+        "ko": "중국의 민족주의 성향 네티즌들 사이에서 러시아와의 국경 문제를 역사적으로 회고할 때 나오는 '잃어버린 영토'에 대한 애국적인 탄식."
+      },
+      "keywords": [
+        "#海参崴",
+        "#历史疆域"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

@@ -5,7 +5,8 @@ import { useSearchParams } from 'next/navigation';
 import DiffView from '@/app/components/DiffView';
 import CommunityNotes from '@/app/components/CommunityNotes';
 import PhotoGallery from '@/app/components/PhotoGallery';
-import { EventPerspective, EventNotes, EventPhotos } from '@/lib/markdown';
+import PublicVoices from '@/app/components/PublicVoices';
+import { EventPerspective, EventNotes, EventPhotos, EventVoices } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight } from 'lucide-react';
 import Link from 'next/link';
@@ -15,6 +16,7 @@ interface EventPageClientProps {
   initialPerspectives: EventPerspective[];
   initialNotes: EventNotes | null;
   initialPhotos?: EventPhotos | null;
+  initialVoices?: EventVoices | null;
   lang: string;
 }
 
@@ -119,13 +121,14 @@ function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspe
   );
 }
 
-function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
   const perspectives = initialPerspectives || [];
   const notes = initialNotes?.notes || [];
   const photos = initialPhotos ?? null;
+  const voices = initialVoices ?? null;
 
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
@@ -251,6 +254,8 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
 
       {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
 
+      {voices && voices.voices.length > 0 && <PublicVoices voices={voices} lang={activeLang} />}
+
       <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem', color: 'var(--foreground)' }}>
           <Info size={20} />
@@ -264,7 +269,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, lang }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -276,6 +281,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         initialPerspectives={initialPerspectives}
         initialNotes={initialNotes}
         initialPhotos={initialPhotos}
+        initialVoices={initialVoices}
         lang={lang}
       />
     </Suspense>

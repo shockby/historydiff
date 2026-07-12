@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-tribunal",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "nanjing-tribunal-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "南京戦犯裁判および東京裁判は、日本の軍国主義による侵略戦争と虐殺の罪を正当に裁いた歴史的審判だ。これらの裁判結果を否定することは、戦後国際秩序の破壊につながる。",
+        "en": "The Nanjing War Crimes Tribunal and Tokyo Trials were historical judgments that justly prosecuted the crimes of aggressive war and massacres committed by Japanese militarism. Denying these outcomes threatens the post-war international order.",
+        "zh": "南京审判和东京审判是对日本关东军及军国主义发动的侵略战争和屠杀罪行进行公正裁决的历史性审判。否定这些审判结果无异于破坏战后国际秩序。",
+        "ko": "난징 전범 재판 및 도쿄 재판은 일본 군국주의에 의한 침략 전쟁과 학살 죄를 정당하게 심판한 역사적 재판이다. 이 재판 결과를 부정하는 것은 전후 국제 질서를 파괴하는 것과 같다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の公式論調に準拠し、戦後秩序の根幹を守るべきとする中国SNS上の世論。",
+        "en": "A sentiment on Chinese social media aligned with the official narrative, stressing the need to protect the foundation of the post-war order.",
+        "zh": "符合中国官方论调、强调应维护战后秩序根基的中国社交媒体舆论。",
+        "ko": "중국의 공식 논조에 부합하며 전후 질서의 근간을 지켜야 한다고 주장하는 중국 SNS상의 여론."
+      },
+      "keywords": [
+        "#东京审判",
+        "#战后秩序"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "nanjing-tribunal-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "戦後裁判は「勝者の裁き」としての側面が強く、不十分な証拠のまま政治的に判決が下された箇所もある。特に犠牲者数の根拠などは、現代の学術研究で再検証されるべきだ。",
+        "en": "The post-war trials strongly resembled 'victors' justice,' with some verdicts delivered politically based on insufficient evidence. Particularly, the basis of death tolls should be re-examined by modern academic standards.",
+        "zh": "战后军事审判具有强烈的“胜利者正义”色彩，部分判决在证据不足的情况下做出了政治性裁决。特别是遇难者人数依据等，应通过现代学术研究重新评估。",
+        "ko": "전후 재판은 '승자의 재판'이라는 측면이 강하며, 불충분한 증거 속에서 정치적으로 판결이 내려진 부분도 있다. 특히 희생자 수의 근거 등은 현대의 학술 연구를 통해 재검증되어야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "戦後日本の裁判評価に関する保守派や言論人の主張。復讐的司法の不当性を問う意見。",
+        "en": "Claims by Japanese conservatives and commentators regarding the post-war trial evaluation, questioning the unfairness of retaliatory justice.",
+        "zh": "日本保守派和媒体舆论界关于战后军事审判评估的主张，追问报复性司法不公的观点。",
+        "ko": "전후 일본 재판 평가에 관한 보수파나 언론인들의 주장. 보복적 사법의 부당함을 지적하는 의견."
+      },
+      "keywords": [
+        "#勝者の裁き",
+        "#東京裁判検証"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

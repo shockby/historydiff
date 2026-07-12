@@ -1,0 +1,39 @@
+{
+  "eventId": "manchurian-incident",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "manchurian-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "九一八事変は日本軍が自ら鉄路を爆破した自作自演であり、我が国への全面侵略の始まりだ。この屈辱の歴史を決して忘れず、強国を目指すべきだ。",
+        "en": "The September 18 Incident was a staged self-sabotage by the Japanese military, marking the start of a full-scale invasion. We must never forget this national humiliation and strive for a strong nation.",
+        "zh": "九一八事变是日本关东军自导自演炸毁铁路、开始全面侵华的起点。我们要铭记这段屈辱历史，勿忘国耻，振兴中华。",
+        "ko": "9·18 사변은 일본군이 스스로 철도를 폭파한 자작극이며 우리 나라에 대한 전면적 침략의 시작이다. 이 굴욕의 역사를 절대 잊지 말고 강한 나라를 목표로 삼아야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年9月18日の事変記念日に、中国のSNS（微博など）でサイレン吹鳴のニュースと共にハッシュタグ「#勿忘九一八」で爆発的に投稿される意見。",
+        "en": "An opinion posted explosively with the hashtag '#Don'tForget918' on Chinese social media on the annual September 18 anniversary, alongside news of air raid sirens.",
+        "zh": "每年9月18日纪念日前后，在社交媒体上伴随着防空警报鸣响的新闻，以“#勿忘九一八”标签呈爆发式发布的观点。",
+        "ko": "매년 9월 18일 사변 기념일에 중국 SNS(웨이보 등)에서 사이렌 울림 뉴스 등과 함께 해시태그 '#勿忘九一八'로 폭발적으로 게시되는 의견."
+      },
+      "keywords": [
+        "#勿忘九一八",
+        "#九一八事变"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "eventId": "textbook-controversy",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "textbook-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "日本の教科書検定は客観的かつ学術的な手続きに従っており、外国の意向に合わせて内容を変えるべきではない。他国からの歴史認識の強要には反対だ。",
+        "en": "Japanese textbook authorization follows objective and academic procedures. Content shouldn't be altered to suit foreign preferences. We oppose the coercion of historical perspectives by other nations.",
+        "zh": "日本的教科书审定程序遵循了客观和学术的步骤，不应根据外国的意愿改变内容。反对别国强加历史认识。",
+        "ko": "일본의 교과서 검정은 객관적이고 학술적인 절차에 따르고 있으며, 외국의 의도에 맞춰 내용을 변경해서는 안 된다. 타국에 의한 역사 인식 강요에 반대한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "教科書検定結果の発表時、中国や韓国からの修正要求のニュースが出た際に、日本の保守層や一般的なネットユーザーから出る反応。",
+        "en": "Reactions from Japanese conservatives and general netizens whenever news reports demands for corrections from China and South Korea following textbook authorization releases.",
+        "zh": "每当教科书审定结果公布、中国或韩国提出修改要求的新闻出现时，日本保守派及普通网民做出的反应观点。",
+        "ko": "교과서 검정 결과 발표 때 중국이나 한국의 수정 요구 뉴스가 나왔을 때 일본 보수층이나 일반 네티즌들이 보이는 반응."
+      },
+      "keywords": [
+        "#教科書検定",
+        "#内政干渉反対"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "textbook-voice-2",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "日本は教科書検定を通じて、独島の領有権主張や過去の侵略、慰安婦・強制労働の強制性を薄めるなど歴史の歪曲を行っている。次世代への不真面目な教育を直ちに正すべきだ。",
+        "en": "Through its textbook authorization, Japan distorts history by claiming sovereignty over Dokdo and downplaying past aggression, comfort women, and forced labor. This dishonest education for the next generation must be corrected immediately.",
+        "zh": "日本通过教科书审定，主张独岛主权并淡化过去的侵略、慰安妇及强征劳工的强制性，企图歪曲历史。必须立即纠正针对下一代的不诚实教育。",
+        "ko": "일본은 교과서 검정을 통해 독도 영유권 주장이나 과거의 침략, 위안부·강제동원의 강제성을 축소하는 등 역사를 왜곡하고 있다. 차세대에 대한 불성실한 교육을 즉각 바로잡아야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日本の教科書検定結果が報じられるニュース記事のコメント欄や、韓国の教育関係者・市民団体のSNSで強く主張される世論。",
+        "en": "A sentiment strongly asserted on South Korean social media by educators and civic groups in the comment sections of news covering Japan's textbook authorization.",
+        "zh": "在报道日本教科书审定结果的新闻评论区，或韩国教育界人士、市民团体的社交媒体上强烈主张的舆论观点。",
+        "ko": "일본의 교과서 검정 결과가 보도되는 뉴스 기사의 댓글 창이나 한국 교육 관계자·시민단체의 SNS에서 강력히 주장되는 여론."
+      },
+      "keywords": [
+        "#역사왜곡규탄",
+        "#독도는우리땅"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

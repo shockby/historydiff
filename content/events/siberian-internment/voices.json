@@ -1,0 +1,39 @@
+{
+  "eventId": "siberian-internment",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "siberian-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "終戦後に数十万人の日本兵がシベリアに強制連行され、過酷な労働で多くが命を落としたのはポツダム宣言違反の重大な人道侵害だ。この歴史をもっと国内外に伝えるべきだ。",
+        "en": "The forced deportation of hundreds of thousands of Japanese soldiers to Siberia post-war, where many died from harsh labor, was a major violation of the Potsdam Declaration. This history should be communicated more.",
+        "zh": "停战后数十万日本士兵被强制遣送至西伯利亚，在极其残酷的劳动环境下导致许多人丧生，这严重违反了《波茨坦公告》的精神。应当向国内外更多地宣传这段历史。",
+        "ko": "종전 후 수십만 명의 일본군이 시베리아로 강제 연행되어 가혹한 노동으로 많은 이들이 목숨을 잃은 것은 포츠담 선언을 위반한 중대한 인도적 침해이다. 이 역사를 국내외에 더 많이 알려야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "日本の遺族会や歴史検証を行うアカウント、終戦記念日（8月15日）前後に悲劇の記憶継承として発信される意見。",
+        "en": "Opinions posted by Japanese bereaved family groups and historical accounts around August 15 to preserve the memory of the tragedy.",
+        "zh": "日本遗族会或进行历史考证的账号，在每年八一五终战纪念日期间作为悲剧记忆的传承而发表的观点。",
+        "ko": "일본의 유족회나 역사 검증을 하는 계정, 종전 기념일(8월 15일) 전후로 비극의 기억 계승으로써 게시되는 의견."
+      },
+      "keywords": [
+        "#シベリア抑留",
+        "#強制連行"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

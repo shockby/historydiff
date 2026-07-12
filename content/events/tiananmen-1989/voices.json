@@ -1,0 +1,68 @@
+{
+  "eventId": "tiananmen-1989",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "tiananmen-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "1980年代末の政治騒乱を断固として平定したことは、国家の長期的な安定と急速な経済発展を確保するための正しい選択だった。歴史は中国の道が正しかったことを証明している。",
+        "en": "Decisively quelling the political disturbance in the late 1980s was a necessary choice to secure long-term national stability and rapid economic growth. History proves that China's path was correct.",
+        "zh": "坚决平息上世纪80年代末的政治风波，是保障国家长期稳定和经济快速发展的必要抉择。历史已经证明，中国选择的道路是完全正确的。",
+        "ko": "1980년대 말의 정치 소란을 단호히 평정한 것은 국가의 장기적인 안정과 급격한 경제 발전을 확보하기 위한 불가피한 선택이었다. 역사는 중국의 길이 옳았음을 증명하고 있다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国国内のSNSにおいて、安定と発展を重視する愛国的な市民や公式報道の枠組みを支持するネットユーザーが主張する意見。",
+        "en": "Opinions asserted on Chinese social media by patriotic citizens and netizens who support the official framework emphasizing stability and growth.",
+        "zh": "在中国国内社交媒体上，重视稳定与发展的爱国网民及支持官方话语体系的用户发表的观点。",
+        "ko": "중국 국내 SNS에서 안정과 발전을 중시하는 애국적인 시민이나 공식 보도의 틀을 지지하는 네티즌들이 주장하는 의견."
+      },
+      "keywords": [
+        "#大国稳定",
+        "#中国道路"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "tiananmen-voice-2",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "天安門広場での民主化要求運動への武力弾圧は、重大な人権侵害であり非難されるべきだ。犠牲者の追悼と事件の真相究明、表現の自由の尊重が必要だ。",
+        "en": "The military crackdown on pro-democracy protests in Tiananmen Square was a grave human rights violation and should be condemned. Remembering the victims, searching for the truth, and respecting free speech are essential.",
+        "zh": "在天安门广场对民主诉求运动进行的武力镇压是严重的人权侵害行为，应当受到谴责。有必要缅怀逝者、查明真相并尊重言论自由。",
+        "ko": "천안문 광장에서의 민주화 요구 운동에 대한 무력 탄압은 중대한 인권 침해이며 규탄받아야 한다. 희생자 추모와 사건의 진상 규명, 표현의 자유 존중이 필요하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年6月4日の周年前後に、英語圏のSNSや香港（過去）の追悼活動、人権NGOのアカウントなどで強く主張される世論。",
+        "en": "A sentiment strongly asserted around the annual June 4 anniversary on English-language social media, human rights NGO accounts, and memorial campaigns.",
+        "zh": "每年六四纪念日前后，在英语圈社交媒体、人权NGO账号及相关纪念活动中强烈发表的舆论观点。",
+        "ko": "매년 6월 4일 기념일 전후로 영어권 SNS나 인권 NGO 계정 등에서 강력히 주장되는 여론."
+      },
+      "keywords": [
+        "#TiananmenSquare",
+        "#June4",
+        "#HumanRights"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

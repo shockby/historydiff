@@ -1,0 +1,96 @@
+{
+  "eventId": "comfort-women",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "comfort-women-voice-1",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "日本政府は慰安婦問題の強制性を認め、公式な謝罪と法的賠償を行うべきだ。歴史の真実を歪曲してはならない。",
+        "en": "The Japanese government must acknowledge the forced nature of the comfort women system, offer an official apology, and provide legal compensation. History must not be distorted.",
+        "zh": "日本政府必须承认慰安妇制度的强制性，进行正式道歉并进行法律赔偿。历史真相不容歪曲。",
+        "ko": "일본 정부는 위안부 문제의 강제성을 인정하고 공식적인 사죄와 법적 배상을 해야 한다. 역사의 진실을 왜곡해서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "水曜集会（ソウル）や、慰安婦記念日のニュースが報じられる際にSNS上で多くの支持を集める世論。",
+        "en": "A sentiment that garners high support on social media during Wednesday demonstrations in Seoul and on Comfort Women Memorial Days.",
+        "zh": "在首尔水曜集会或慰安妇纪念日新闻报道期间，该观点在社交媒体上获得广泛支持。",
+        "ko": "수요집회(서울)나 위안부 기림일 뉴스가 보도될 때 SNS상에서 많은 지지를 얻는 여론."
+      },
+      "keywords": [
+        "#위안부",
+        "#기억하겠습니다",
+        "#ComfortWomen"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "comfort-women-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "日韓合意（2015年）で「最終的かつ不可逆的」に解決したはずだ。政権が変わるたびに取り決めを覆すのは国際的な約束違反だ。",
+        "en": "The issue was settled 'finally and irreversibly' by the 2015 Japan-South Korea agreement. Reversing agreements whenever administrations change violates international promises.",
+        "zh": "日韩协议（2015年）已经“最终且不可逆”地解决了这一问题。每当政权更迭就推翻协议，违反了国际承诺。",
+        "ko": "한일 합의(2015년)로 '최종적이고 불가역적'으로 해결된 문제다. 정권이 바뀔 때마다 합의를 뒤집는 것은 국제적인 약속 위반이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日韓関係の話題、あるいは慰安婦像の設置問題などが国際的に取り上げられる際に、日本国内のSNSで強く主張される論調。",
+        "en": "A tone strongly asserted on Japanese social media whenever bilateral relations or the installation of comfort women statues are discussed internationally.",
+        "zh": "每当国际上提及日韩关系话题或慰安妇像设置问题时，日本国内社交媒体上强烈主张的论调。",
+        "ko": "한일 관계 화제나 위안부 소녀상 설치 문제 등이 국제적으로 다루어질 때 일본 국내 SNS에서 강력히 주장되는 논조."
+      },
+      "keywords": [
+        "#日韓合意",
+        "#国際法遵守"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "comfort-women-voice-3",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "この問題は極めて人道的な悲劇であり、女性の人権問題として記憶されるべきだ。日韓は対立を乗り越え友好関係を築いてほしい。",
+        "en": "This issue is a grave humanitarian tragedy and should be remembered as a women's rights issue. We hope Japan and South Korea can overcome their conflict and build friendly relations.",
+        "zh": "这个问题是极其严重的人道主义悲剧，应当作为女性人权问题被铭记。希望日韩克服对立，建立友好关系。",
+        "ko": "이 문제는 지극히 인도주의적인 비극이며 여성 인권 문제로 기억되어야 한다. 한일 양국이 대립을 극복하고 우호 관계를 구축하길 바란다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米国の政治家やアジア系コミュニティ、人権活動家のSNSで見られる意見。同盟国間の対立緩和を望む声。",
+        "en": "An opinion seen among US politicians, Asian-American communities, and human rights activists, hoping for defused tensions between allies.",
+        "zh": "美国政界人士、亚裔社区 and 人权活动人士社交媒体上可见的观点。希望同盟国之间缓解对立的声音。",
+        "ko": "미국 정치인이나 아시아계 커뮤니티, 인권 활동가들의 SNS에서 볼 수 있는 의견. 동맹국 간의 대립 완화를 바라는 목소리."
+      },
+      "keywords": [
+        "#HumanRights",
+        "#AsiaPacific"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

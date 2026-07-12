@@ -1,0 +1,66 @@
+{
+  "eventId": "sino-japanese-war",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "sino-jp-war-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "China",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "日本の軍国主義による侵略戦争は、中国人民に計り知れない災難と何千万人もの犠牲をもたらした。私たちは団結して祖国を守り抜いた抗日戦争の勝利の歴史を忘れてはならない。",
+        "en": "The aggressive war by Japanese militarism brought immeasurable disaster and tens of millions of casualties to the Chinese people. We must never forget the victory of the War of Resistance that defended our homeland.",
+        "zh": "日本军国主义发动的侵略战争给中国人民带来了无法估量的灾难和数千万人的伤亡。我们绝不能忘记万众一心维护祖国尊严的抗日战争伟大胜利历史。",
+        "ko": "일본 군국주의에 의한 침략 전쟁은 중국 인민에게 헤아릴 수 없는 재앙과 수천만 명의 희생자를 냈다. 우리는 단결하여 조국을 지켜낸 항일 전쟁의 승리 역사를 잊어서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の抗日戦争勝利記念日（9月3日）や各種の歴史ドラマ、日本に対する公式声明に関連してSNSで非常に広く共有される一般的なコンセンサス。",
+        "en": "A general consensus shared very widely on Chinese social media during the victory anniversary (September 3), historical dramas, and official remarks.",
+        "zh": "每年9月3日中国抗日战争胜利纪念日、各类历史影视剧热播或针对日本官方声明发表时，在社交媒体上非常广泛分享的普遍共识。",
+        "ko": "중국의 항일 전쟁 승리 기념일(9월 3일)이나 각종 역사 드라마, 일본에 대한 공식 성명과 관련하여 SNS에서 아주 널리 공유되는 일반적인 합의."
+      },
+      "keywords": [
+        "#牢记历史"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "sino-jp-war-voice-2",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "先の大戦における中国等での侵略と加害行為は痛切に反省すべきだ。二度と悲惨な戦争を繰り返さないよう、平和憲法を守り近隣諸国と友好を保つべきだ。",
+        "en": "We must deeply reflect on the invasion and atrocities in China and other nations during the war. To ensure such a miserable war never happens again, we should defend our peace constitution and maintain friendly ties with neighbors.",
+        "zh": "我们应当痛切反思过去在战争中对中国等国进行的侵略和加害行为。为了防止悲惨战争重演，必须坚守和平宪法，与近邻各国保持友好关系。",
+        "ko": "지난 전쟁에서의 중국 등지에서의 침략과 가해 행위는 뼈저리게 반성해야 한다. 다시는 비참한 전쟁을 반복하지 않도록 평화헌법을 지키고 이웃 국가들과 우호를 유지해야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "日本の平和運動団体、知識人、リベラル層が終戦記念日の前後などに発信する反戦の世論。",
+        "en": "Anti-war sentiments posted by Japanese peace movement groups, intellectuals, and liberals around the annual war-end anniversary.",
+        "zh": "日本和平运动团体、知识分子以及自由派在终战纪念日前后等节点发表的反战舆论观点。",
+        "ko": "일본의 평화 운동 단체, 지식인, 리베랄층이 종전 기념일 전후 등에 게시하는 반전 여론."
+      },
+      "keywords": [
+        "#不戦の誓い",
+        "#平和憲法"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

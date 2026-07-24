@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "falklands-war-distances-map",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-war-distances-map.svg",
+      "url": "/images/events/falklands-war/falklands-war-distances-map.svg",
       "caption": {
         "ja": "フォークランド紛争の作戦域と基地間距離を示した地図。アルゼンチン本土からの距離約500km、イギリスのアセンション島からの距離約6,300kmが示されており、英国機動部隊が直面した兵站的困難が視覚的にわかる。",
         "en": "Map showing the operational theater and distances between military bases during the Falklands War. The roughly 500 km from the Argentine mainland and 6,300 km from Britain's Ascension Island illustrate the enormous logistical challenge faced by the British Task Force.",
@@ -18,7 +18,7 @@
     },
     {
       "id": "falklands-land-operations",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-land-operations.svg",
+      "url": "/images/events/falklands-war/falklands-land-operations.svg",
       "caption": {
         "ja": "1982年5〜6月のフォークランド紛争における地上作戦図。英国海兵隊と空挺部隊のサン・カルロス上陸からポート・スタンリー攻略までの進撃ルートと主要な戦闘地点を示す。",
         "en": "Map of land operations during the Falklands War, May–June 1982. Shows the British Marine and Parachute Regiment advance routes from the San Carlos landings to the capture of Port Stanley, with key battle sites marked.",
@@ -33,7 +33,7 @@
     },
     {
       "id": "falklands-action-stations",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-action-stations.jpg",
+      "url": "/images/events/falklands-war/falklands-action-stations.jpg",
       "caption": {
         "ja": "1982年、フォークランド紛争中の英国軍艦上での「戦闘配置（アクション・ステーションズ）」の様子。参戦した英海兵隊員・ケン・グリフィス氏が撮影した現場記録写真。",
         "en": "British naval personnel at 'Action Stations' during the Falklands War, 1982. A documentary photograph taken by Ken Griffiths, a Royal Marine who served during the conflict.",
@@ -48,7 +48,7 @@
     },
     {
       "id": "falklands-argentine-pows-stanley",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-argentine-pows-stanley.jpg",
+      "url": "/images/events/falklands-war/falklands-argentine-pows-stanley.jpg",
       "caption": {
         "ja": "1982年6月、ポート・スタンリーでの降伏後、英軍に拘束されたアルゼンチン軍捕虜たち。74日間の紛争の終結を示す歴史的な一場面。参戦した英海兵隊員・ケン・グリフィス氏撮影。",
         "en": "Argentine prisoners of war in Port Stanley following the Argentine surrender, June 1982. A historic scene marking the end of the 74-day conflict. Photographed by Ken Griffiths, a Royal Marine who served during the conflict.",
@@ -63,7 +63,7 @@
     },
     {
       "id": "falklands-clear-up-stanley",
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-clear-up-stanley.jpg",
+      "url": "/images/events/falklands-war/falklands-clear-up-stanley.jpg",
       "caption": {
         "ja": "1982年6月の戦闘終結後、ポート・スタンリー市内の後片付けにあたる英軍兵士たち。戦後の占領地管理と平和回復の過程を記録した写真。ケン・グリフィス氏撮影（CC BY-SA 4.0）。",
         "en": "British soldiers clearing up in Port Stanley after the end of fighting in June 1982. Documents the post-war occupation and restoration of order. Photo by Ken Griffiths (CC BY-SA 4.0).",

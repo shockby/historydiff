@@ -1,0 +1,35 @@
+{
+  "eventId": "falklands-war",
+  "photos": [
+    {
+      "id": "falklands-war-task-force",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/falklands-task-force.jpg",
+      "caption": {
+        "ja": "1982年4月、フォークランド諸島に向けて出港するイギリス海軍機動部隊。空母HMSハーミーズ（手前）とHMSインビンシブルが率いるこの艦隊は、74日間の戦争の幕を開けた。",
+        "en": "The British Royal Navy Task Force departing for the Falkland Islands in April 1982. Led by carriers HMS Hermes (foreground) and HMS Invincible, the fleet launched the 74-day conflict.",
+        "es": "El Grupo de Tarea de la Royal Navy británica partiendo hacia las Islas Malvinas en abril de 1982. Encabezada por los portaaviones HMS Hermes (primer plano) y HMS Invincible, la flota inició el conflicto de 74 días."
+      },
+      "source": {
+        "title": "Imperial War Museum",
+        "url": "https://www.iwm.org.uk/history/the-falklands-war",
+        "license": "Crown Copyright",
+        "author": "Royal Navy"
+      }
+    },
+    {
+      "id": "falklands-war-stanley",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/falklands-war/port-stanley.jpg",
+      "caption": {
+        "ja": "フォークランド諸島の首都スタンリー（アルゼンチン占領中はプエルト・アルヘンティーノと呼ばれた）の港。この小さな港湾都市が74日間の紛争の焦点となった。",
+        "en": "The harbour of Stanley (called Puerto Argentino during the Argentine occupation), the capital of the Falkland Islands. This small port town was the focal point of the 74-day conflict.",
+        "es": "El puerto de Stanley (llamado Puerto Argentino durante la ocupación argentina), capital de las Islas Malvinas. Esta pequeña ciudad portuaria fue el punto focal del conflicto de 74 días."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Stanley_Falkland_Islands.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "eventId": "falklands-war",
+  "notes": [
+    {
+      "id": "fw-unsc-resolution-502",
+      "claim": "国連安全保障理事会決議502号は、アルゼンチン軍の即時撤退を要求した",
+      "context": "1982年4月3日、国連安保理は賛成10・反対1・棄権4でアルゼンチンを侵略国と認定し、決議502号を採択した。アルゼンチン・スペインが反対票、旧ソ連・中国・ポーランド・スペインが棄権した。この決議はアルゼンチンへの即時停戦と全軍撤退、そして外交的解決のための交渉開始を求めた。アルゼンチンはこの決議を拒否し、国際社会からの孤立を深めた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 502 (1982)",
+          "url": "https://undocs.org/S/RES/502(1982)",
+          "publisher": "国連",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-1833-expulsion",
+      "claim": "1833年のイギリスによるアルゼンチン守備隊追放の歴史的評価",
+      "context": "1833年1月、イギリス軍艦HMS クリオがポート・ルイス（現スタンリー）に到着し、アルゼンチンの守備隊（当初約25名）に立ち退きを要求した。守備隊司令官エステバン・メシーナスは抵抗せず退去した。一部の民間入植者はその後も残留した。この出来事をアルゼンチンは「占領」と呼ぶが、イギリスは「先に放棄した領土への正当な復帰」と主張し、解釈に大きな差異がある。",
+      "verdict": "事実関係は確認済み（評価に差異）",
+      "sources": [
+        {
+          "title": "The Falkland Islands: The Facts",
+          "url": "https://www.falklands.gov.fk/history/",
+          "publisher": "フォークランド諸島政府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-unga-resolution-2065",
+      "claim": "国連総会決議2065号（1965年）はマルビナス問題を植民地主義の文脈で認識した",
+      "context": "1965年の国連総会決議2065号は「マルビナス諸島（フォークランド諸島）の問題」を取り上げ、アルゼンチンと英国の両政府が交渉を通じて解決策を見出すよう求めた。この決議を巡り、アルゼンチンは「植民地状況の認定と交渉義務の確認」と解釈し、イギリスは「交渉促進の勧告にすぎない」とする立場をとっており、法的効力についての解釈が異なる。",
+      "verdict": "決議は採択済み（法的解釈に差異）",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 2065 (XX)",
+          "url": "https://undocs.org/A/RES/2065(XX)",
+          "publisher": "国連",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-2013-referendum",
+      "claim": "2013年3月の住民投票で島民の99.8%がイギリス領への残留を選択した",
+      "context": "2013年3月10・11日にフォークランド諸島で主権に関する住民投票が実施され、投票率92%・賛成99.8%で「英国海外領土」への残留が支持された。アルゼンチン政府はこの住民投票の正当性を認めておらず、「植民地的に移住させられた人々による投票は自決原則の適用対象外」との立場を維持している。",
+      "verdict": "住民投票は実施済み（正当性解釈に差異）",
+      "sources": [
+        {
+          "title": "Falkland Islands Referendum 2013",
+          "url": "https://www.falklands.gov.fk/government/referendum-2013/",
+          "publisher": "フォークランド諸島政府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-general-belgrano",
+      "claim": "英潜水艦によるアルゼンチン巡洋艦ベルグラノ撃沈（323名死亡）の倫理的評価",
+      "context": "1982年5月2日、イギリス原子力潜水艦HMS コンカラーがアルゼンチン巡洋艦ヘネラル・ベルグラノを撃沈し、323名が死亡した。撃沈時、ベルグラノは排他的戦闘水域の外側を航行中であったため、英国内でもサッチャー政権への批判が高まった。イギリス政府は「脅威への適法な対応」と主張したが、アルゼンチンはこれを「戦争犯罪」として非難した。",
+      "verdict": "事実確認済み（倫理的評価に差異）",
+      "sources": [
+        {
+          "title": "ARA General Belgrano sinking - historical record",
+          "url": "https://www.iwm.org.uk/history/the-falklands-war",
+          "publisher": "帝国戦争博物館（ロンドン）",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

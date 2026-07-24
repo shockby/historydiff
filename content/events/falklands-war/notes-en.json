@@ -1,0 +1,75 @@
+{
+  "eventId": "falklands-war",
+  "notes": [
+    {
+      "id": "fw-unsc-resolution-502",
+      "claim": "UN Security Council Resolution 502 demanded the immediate withdrawal of Argentine forces.",
+      "context": "On 3 April 1982, the UN Security Council adopted Resolution 502 by 10 votes to 1 (Panama), with 4 abstentions (USSR, China, Poland, Spain). It recognized Argentina as the aggressor, demanded an immediate ceasefire and the complete withdrawal of all Argentine forces from the Falkland Islands, and called for diplomatic negotiations to find a solution. Argentina's refusal to comply isolated it internationally and provided the legal basis for the British military response.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 502 (1982)",
+          "url": "https://undocs.org/S/RES/502(1982)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-1833-expulsion",
+      "claim": "Historical assessment of Britain's 1833 expulsion of the Argentine garrison",
+      "context": "In January 1833, HMS Clio arrived at Port Louis (present-day Stanley) and demanded that the Argentine garrison (approximately 25 men) depart. Commander Esteban Mestivier withdrew without resistance. Some civilian settlers remained on the islands afterward. Argentina calls this event an 'occupation,' while Britain maintains it was a 'legitimate return to territory it had never abandoned.' Interpretations differ significantly over this critical juncture in the islands' history.",
+      "verdict": "Factual sequence confirmed (evaluations differ)",
+      "sources": [
+        {
+          "title": "The Falkland Islands: The Facts",
+          "url": "https://www.falklands.gov.fk/history/",
+          "publisher": "Falkland Islands Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-unga-resolution-2065",
+      "claim": "UN General Assembly Resolution 2065 (1965) recognized the Malvinas/Falklands issue in the context of colonialism.",
+      "context": "In 1965, UN General Assembly Resolution 2065 addressed 'the question of the Falkland Islands (Malvinas)' and invited the governments of Argentina and the United Kingdom to proceed without delay to negotiate in order to find a peaceful solution. Argentina interprets the resolution as an acknowledgment of a colonial situation and a binding obligation to negotiate. The UK views it as a non-binding invitation to dialogue. The two sides differ significantly over the legal weight of this resolution.",
+      "verdict": "Resolution adopted (legal interpretation differs)",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 2065 (XX)",
+          "url": "https://undocs.org/A/RES/2065(XX)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-2013-referendum",
+      "claim": "In the March 2013 referendum, 99.8% of islanders voted to remain a British Overseas Territory.",
+      "context": "On 10-11 March 2013, the Falkland Islands held a referendum on their political status. With a turnout of 92%, an overwhelming 99.8% voted in favor of remaining a British Overseas Territory. The Argentine government rejected the legitimacy of the referendum, maintaining its position that 'a vote by a population that was transplanted onto the islands following the 1833 expulsion cannot invoke the right of self-determination.' The UK cited the result as the definitive expression of democratic will.",
+      "verdict": "Referendum held (legitimacy interpretation differs)",
+      "sources": [
+        {
+          "title": "Falkland Islands Referendum 2013",
+          "url": "https://www.falklands.gov.fk/government/referendum-2013/",
+          "publisher": "Falkland Islands Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-general-belgrano",
+      "claim": "The sinking of ARA General Belgrano by a British submarine, killing 323 Argentine sailors.",
+      "context": "On 2 May 1982, HMS Conqueror, a British nuclear-powered submarine, sank the Argentine cruiser ARA General Belgrano, killing 323 of the 1,093 crew members. At the time of the sinking, Belgrano was outside the exclusion zone established by Britain, fuelling controversy in the UK and internationally. The British government justified the action as a legitimate response to a direct military threat. Argentina condemned it as a war crime. The sinking remains one of the most controversial events of the conflict.",
+      "verdict": "Facts confirmed (ethical assessment differs)",
+      "sources": [
+        {
+          "title": "ARA General Belgrano sinking - historical record",
+          "url": "https://www.iwm.org.uk/history/the-falklands-war",
+          "publisher": "Imperial War Museum, London",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

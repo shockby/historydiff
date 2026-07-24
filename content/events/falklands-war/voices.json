@@ -1,0 +1,115 @@
+{
+  "eventId": "falklands-war",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "es": "Lo siguiente resume las tendencias de opinión general en las redes sociales. Se trata de opiniones personales, no de hechos verificados."
+  },
+  "voices": [
+    {
+      "id": "falklands-voice-1",
+      "country": {
+        "ja": "イギリス",
+        "en": "United Kingdom",
+        "es": "Reino Unido"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "フォークランドはイギリスの島だ。1982年にアルゼンチンが武力侵攻を試み、我々は戦って守り抜いた。2013年の住民投票でも99.8%がイギリスへの残留を選んだ。この民主的な意思こそが全てだ。",
+        "en": "The Falklands are British. Argentina tried to take them by force in 1982, and we fought to keep them. In 2013, 99.8% of islanders voted to stay British. That democratic will is what matters above all else.",
+        "es": "Las Malvinas son británicas. Argentina intentó tomarlas por la fuerza en 1982 y luchamos para conservarlas. En 2013, el 99,8% de los isleños votó por seguir siendo británicos. Esa voluntad democrática es lo que más importa."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年4月2日（アルゼンチンの「マルビナスの日」）前後や、英国国内でフォークランド関連ニュースが報じられる際に、英国SNSで強く発信される意見。",
+        "en": "Opinion strongly expressed on British social media around April 2 (Argentina's Malvinas Day) each year, or whenever Falklands-related news is reported in the UK.",
+        "es": "Opinión expresada con fuerza en las redes sociales británicas en torno al 2 de abril (Día de los Caídos/Malvinas en Argentina) cada año, o cuando se informa sobre noticias relacionadas con las Malvinas en el Reino Unido."
+      },
+      "keywords": [
+        "#FalklandsArebritish",
+        "#RememberTheFalklands",
+        "#FalklandsWar"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "falklands-voice-2",
+      "country": {
+        "ja": "アルゼンチン",
+        "en": "Argentina",
+        "es": "Argentina"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "マルビナスはアルゼンチンのものだ。1833年にイギリスが不法に占領し、今も植民地支配を続けている。英雄たちの犠牲を忘れない。マルビナスは過去も、現在も、未来も永遠にアルゼンチン領だ。",
+        "en": "Las Malvinas son argentinas. Britain illegally seized them in 1833 and continues its colonial occupation to this day. We will never forget the sacrifice of our heroes. The Malvinas were, are, and always will be Argentine.",
+        "es": "Las Malvinas son argentinas. Gran Bretaña las ocupó ilegalmente en 1833 y continúa su ocupación colonial hasta hoy. No olvidamos el sacrificio de nuestros héroes. Las Malvinas fueron, son y serán argentinas."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "毎年4月2日の「マルビナスの日」（アルゼンチン退役軍人の日）前後や、英国がマルビナスに関する強硬な発言をするたびにアルゼンチンのSNSで広範に発信される意見。",
+        "en": "Opinion widely expressed on Argentine social media around April 2 (Argentina's Malvinas Veterans Day) each year, or whenever Britain makes strong statements about the Falklands.",
+        "es": "Opinión expresada ampliamente en las redes sociales argentinas en torno al 2 de abril (Día del Veterano y de los Caídos en la Guerra de Malvinas) cada año, o cuando Gran Bretaña hace declaraciones firmes sobre las islas."
+      },
+      "keywords": [
+        "#MalvinasArgentinas",
+        "#2DeAbril",
+        "#VeteranosDeMalvinas",
+        "#MalvinassonArgentinas"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "falklands-voice-3",
+      "country": {
+        "ja": "アルゼンチン",
+        "en": "Argentina",
+        "es": "Argentina"
+      },
+      "sentiment": "moderate",
+      "summary": {
+        "ja": "私はマルビナスがアルゼンチン領だと信じているが、軍事独裁政権が無謀にも戦争を始め、若者を無駄死にさせたことは憎む。主権回復は外交で実現すべきだ。あの戦争は政権の延命のための道具に使われた。",
+        "en": "I believe the Malvinas are Argentine, but I despise how the military dictatorship recklessly started a war and sent our young men to their deaths. Recovering sovereignty should be achieved through diplomacy. That war was used as a tool to keep the regime alive.",
+        "es": "Creo que las Malvinas son argentinas, pero desprecio cómo la dictadura militar inició irresponsablemente una guerra y mandó a morir a nuestros jóvenes. La recuperación de la soberanía debe lograrse por vías diplomáticas. Esa guerra fue usada como herramienta para mantener al régimen."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "紛争40周年（2022年）前後に顕著になったアルゼンチン国内の批判的意見。軍事政権への批判と主権主張の両立を試みる複雑な立場を反映している。",
+        "en": "Critical opinion that became prominent in Argentina around the 40th anniversary of the conflict (2022). Reflects the complex position of criticizing the military junta while maintaining the sovereignty claim.",
+        "es": "Opinión crítica que se destacó en Argentina en torno al 40 aniversario del conflicto (2022). Refleja la compleja postura de criticar a la junta militar mientras se mantiene el reclamo de soberanía."
+      },
+      "keywords": [
+        "#Malvinas40",
+        "#NuncaMas",
+        "#MalvinasConDemocracia"
+      ],
+      "timeframe": "2022-2024"
+    },
+    {
+      "id": "falklands-voice-4",
+      "country": {
+        "ja": "フォークランド諸島（島民）",
+        "en": "Falkland Islands (Islanders)",
+        "es": "Islas Malvinas (Isleños)"
+      },
+      "sentiment": "pro-british",
+      "summary": {
+        "ja": "私たちはフォークランド人であり、イギリス人だ。アルゼンチンは私たちを自分たちの「植民地的に移住させられた人々」と呼ぶが、私たちの家族はここに数世代にわたって暮らしてきた。私たちの自決の権利は絶対に尊重されなければならない。",
+        "en": "We are Falkland Islanders, and we are British. Argentina calls us 'transplanted colonists,' but our families have lived here for generations. Our right to self-determination must be respected, absolutely.",
+        "es": "Somos isleños de las Malvinas y somos británicos. Argentina nos llama 'colonos trasplantados', pero nuestras familias han vivido aquí durante generaciones. Nuestro derecho a la autodeterminación debe ser respetado, de manera absoluta."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "フォークランド諸島の島民は人口約3,700名で、その多くがイギリス系の家系を持つ。2013年住民投票後、自決権を国際社会に訴える声は特に高まっている。",
+        "en": "The Falkland Islands have a population of approximately 3,700, many with British heritage. Since the 2013 referendum, voices advocating for their right to self-determination to the international community have grown particularly strong.",
+        "es": "Las Islas Falkland tienen una población de aproximadamente 3.700 habitantes, muchos de herencia británica. Desde el referéndum de 2013, las voces que abogan por su derecho a la autodeterminación ante la comunidad internacional se han fortalecido particularmente."
+      },
+      "keywords": [
+        "#FalklandIslands",
+        "#SelfDetermination",
+        "#FalklandsFreedom"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

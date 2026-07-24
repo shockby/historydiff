@@ -1,0 +1,75 @@
+{
+  "eventId": "falklands-war",
+  "notes": [
+    {
+      "id": "fw-unsc-resolution-502",
+      "claim": "La Resolución 502 del Consejo de Seguridad de la ONU exigió la retirada inmediata de las fuerzas argentinas.",
+      "context": "El 3 de abril de 1982, el Consejo de Seguridad de la ONU adoptó la Resolución 502 con 10 votos a favor, 1 en contra (Panamá) y 4 abstenciones (URSS, China, Polonia y España). La resolución reconoció a Argentina como agresor, exigió un alto al fuego inmediato y la retirada de todas las fuerzas argentinas de las Islas Malvinas, y llamó a negociaciones diplomáticas. La negativa de Argentina a cumplir la resolución la aisló internacionalmente y proporcionó la base legal para la respuesta militar británica.",
+      "verdict": "Registros oficiales disponibles",
+      "sources": [
+        {
+          "title": "Resolución 502 del Consejo de Seguridad de la ONU (1982)",
+          "url": "https://undocs.org/S/RES/502(1982)",
+          "publisher": "Naciones Unidas",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-1833-expulsion",
+      "claim": "Evaluación histórica de la expulsión de la guarnición argentina por parte de Gran Bretaña en 1833.",
+      "context": "En enero de 1833, el HMS Clio llegó a Puerto Soledad (actual Stanley) y exigió la partida de la guarnición argentina (unos 25 hombres). El comandante Esteban Mestivier se retiró sin resistencia. Algunos colonos civiles permanecieron en las islas posteriormente. Argentina denomina este hecho «ocupación», mientras que Gran Bretaña sostiene que fue un «retorno legítimo a un territorio que nunca había abandonado». Las interpretaciones difieren significativamente en este punto crítico de la historia de las islas.",
+      "verdict": "Secuencia factual confirmada (evaluaciones difieren)",
+      "sources": [
+        {
+          "title": "The Falkland Islands: The Facts",
+          "url": "https://www.falklands.gov.fk/history/",
+          "publisher": "Gobierno de las Islas Falkland",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-unga-resolution-2065",
+      "claim": "La Resolución 2065 de la Asamblea General de la ONU (1965) reconoció la cuestión de las Malvinas en el contexto del colonialismo.",
+      "context": "En 1965, la Resolución 2065 de la Asamblea General de la ONU abordó «la cuestión de las Islas Malvinas (Falkland)» e instó a los gobiernos de Argentina y el Reino Unido a negociar sin demora para encontrar una solución pacífica. Argentina interpreta la resolución como un reconocimiento de una situación colonial y una obligación vinculante de negociar. El Reino Unido la considera una invitación no vinculante al diálogo. Las dos partes difieren significativamente sobre el peso jurídico de esta resolución.",
+      "verdict": "Resolución adoptada (interpretación jurídica difiere)",
+      "sources": [
+        {
+          "title": "Resolución 2065 (XX) de la Asamblea General de la ONU",
+          "url": "https://undocs.org/A/RES/2065(XX)",
+          "publisher": "Naciones Unidas",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-2013-referendum",
+      "claim": "En el referéndum de marzo de 2013, el 99,8% de los isleños votó por permanecer como Territorio Británico de Ultramar.",
+      "context": "Los días 10 y 11 de marzo de 2013, las Islas Falkland celebraron un referéndum sobre su estatus político. Con una participación del 92%, un abrumador 99,8% votó a favor de seguir siendo un Territorio Británico de Ultramar. El gobierno argentino rechazó la legitimidad del referéndum, manteniendo su postura de que «un voto de una población trasladada a las islas tras la expulsión de 1833 no puede invocar el derecho a la autodeterminación». El Reino Unido citó el resultado como la expresión definitiva de la voluntad democrática.",
+      "verdict": "Referéndum celebrado (interpretación de legitimidad difiere)",
+      "sources": [
+        {
+          "title": "Falkland Islands Referendum 2013",
+          "url": "https://www.falklands.gov.fk/government/referendum-2013/",
+          "publisher": "Gobierno de las Islas Falkland",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-general-belgrano",
+      "claim": "El hundimiento del ARA General Belgrano por un submarino británico, con 323 marinos argentinos muertos.",
+      "context": "El 2 de mayo de 1982, el HMS Conqueror, un submarino nuclear británico, hundió el crucero argentino ARA General Belgrano, matando a 323 de los 1.093 tripulantes. En el momento del hundimiento, el Belgrano se encontraba fuera de la zona de exclusión establecida por Gran Bretaña, lo que generó polémica en el Reino Unido e internacionalmente. El gobierno británico justificó la acción como una respuesta legítima a una amenaza militar directa. Argentina lo condenó como un crimen de guerra. El hundimiento sigue siendo uno de los eventos más controvertidos del conflicto.",
+      "verdict": "Hechos confirmados (evaluación ética difiere)",
+      "sources": [
+        {
+          "title": "ARA General Belgrano sinking - historical record",
+          "url": "https://www.iwm.org.uk/history/the-falklands-war",
+          "publisher": "Museo Imperial de la Guerra, Londres",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,8 @@
   "notes": [
     {
       "id": "sp-nine-dash-line",
-      "claim": "China claims that it has historical rights within the “Nine-Dash Line” (U-shaped line)",
-      "context": "The nine-dash line is the boundary line on the map announced by the government of the Republic of China in 1947 (originally the 11-dash line). It is depicted as enclosing approximately 80-90% of the South China Sea. The People's Republic of China also inherited this and formally submitted it to the United Nations in 2009. However, it has been pointed out that the Chinese government itself has not clarified the legal meaning of the nine-dash line (is it a claim of territorial waters or a claim of historical rights)?",
+      "claim": "China claims that it has historical rights within the \"Nine-Dash Line\" (U-shaped line)",
+      "context": "The nine-dash line is the boundary line on the map announced by the government of the Republic of China in 1947 (originally the 11-dash line). It is depicted as enclosing approximately 80-90% of the South China Sea. The People's Republic of China also inherited this and formally submitted it to the United Nations in 2009. However, it has been pointed out that the Chinese government itself has not clarified the legal meaning of the nine-dash line (is it a claim of territorial waters or a claim of historical rights).",
       "verdict": "Maps exist (legal meaning discussed)",
       "sources": [
         {
@@ -24,7 +24,7 @@
     {
       "id": "sp-2016-arbitration",
       "claim": "In 2016, the Hague Court of Arbitration ruled against historical rights within the nine-dash line.",
-      "context": "On July 12, 2016, the Permanent Court of Arbitration rendered its final judgment in the case of “Philippines v. China” (PCA Case No. 2013-19). The arbitral tribunal found that the historical rights claim based on the nine-dash line had no legal basis and found that China's activities within the Philippines' EEZ violated the Philippines' sovereign rights. This decision is legally binding on the Parties to UNCLOS.",
+      "context": "On July 12, 2016, the Permanent Court of Arbitration rendered its final judgment in the case of \"Philippines v. China\" (PCA Case No. 2013-19). The arbitral tribunal found that the historical rights claim based on the nine-dash line had no legal basis and found that China's activities within the Philippines' EEZ violated the Philippines' sovereign rights. This decision is legally binding on the Parties to UNCLOS.",
       "verdict": "Official records available",
       "sources": [
         {
@@ -43,8 +43,8 @@
     },
     {
       "id": "sp-china-rejects-ruling",
-      "claim": "China refuses to accept the arbitration award, calling it “invalid and not legally binding.”",
-      "context": "China's Ministry of Foreign Affairs issued a statement on the day of the judgment, declaring that the arbitral tribunal had no jurisdiction and that the judgment was a \"waste of paper.\" China asserted that, pursuant to the selective exemption declaration under Article 298 of UNCLOS, disputes regarding maritime delimitation and military activities are not subject to compulsory arbitration. However, the arbitral tribunal has considered this point in detail and has determined that it has jurisdiction.",
+      "claim": "China refuses to accept the arbitration award, calling it \"invalid and not legally binding.\"",
+      "context": "China's Ministry of Foreign Affairs issued a statement on the day of the judgment, declaring that the arbitral tribunal had no jurisdiction and that the judgment was a \"waste of paper.\" China asserted that, pursuant to the selective exemption declaration under Article 298 of UNCLOS, disputes regarding maritime delimitation and military activities are not subject to compulsory arbitration. However, the arbitral tribunal considered this point in detail and determined that it has jurisdiction.",
       "verdict": "Official records available",
       "sources": [
         {
@@ -58,7 +58,7 @@
     {
       "id": "sp-artificial-islands",
       "claim": "Since 2013, China has created large-scale artificial islands and built military facilities.",
-      "context": "Since 2013, China has carried out large-scale land reclamation on seven reefs in the Spratly Islands (Fiery Cross Reef, Subi Reef, Mischief Reef, etc.). Satellite images show three 3,000m-class runways, radar facilities, and deployment of anti-aircraft and anti-ship missiles. The Asia Maritime Transparency Initiative (AMTI) of the US think tank CSIS has released detailed satellite images.",
+      "context": "Since 2013, China has carried out large-scale land reclamation on seven reefs in the Spratly Islands (Fiery Cross Reef, Subi Reef, Mischief Reef, etc.). Satellite images confirm three 3,000m-class runways, radar facilities, and deployment of anti-aircraft and anti-ship missiles. The Asia Maritime Transparency Initiative (AMTI) of the U.S. think tank CSIS has released detailed satellite imagery.",
       "verdict": "Confirmed with satellite images",
       "sources": [
         {
@@ -71,8 +71,8 @@
     },
     {
       "id": "sp-1988-johnson-reef",
-      "claim": "Armed conflict between China and Vietnam at Chikao Reef (Johnson South Reef) in 1988",
-      "context": "On March 14, 1988, there was an armed conflict between the Vietnamese Navy and the Chinese Navy at Chika Reef (Johnson South Reef). 64 people died on the Vietnamese side, and only a small number of casualties on the Chinese side. As a result of this conflict, China occupied several reefs. Video of the incident was recorded by the Chinese side and released later.",
+      "claim": "Armed conflict between China and Vietnam at Johnson South Reef in 1988",
+      "context": "On March 14, 1988, an armed conflict occurred between the Vietnamese Navy and the Chinese Navy at Johnson South Reef. 64 people died on the Vietnamese side, with only a small number of casualties on the Chinese side. As a result of this conflict, China occupied several reefs. Video of the incident was recorded by the Chinese side and released later.",
       "verdict": "Historical facts",
       "sources": [
         {
@@ -85,8 +85,8 @@
     },
     {
       "id": "sp-1974-paracel-seizure",
-      "claim": "In 1974, China captured the Hoang Sa Islands (Xisha Islands) from South Vietnam by military force.",
-      "context": "In January 1974, the Chinese People's Liberation Army Navy engaged the South Vietnamese Navy in the Paracel Islands (Parcel Islands) and occupied the entire archipelago. Approximately 70 people on the South Vietnamese side were killed or missing. This occupation continues to this day, and Vietnam has consistently protested that it is an illegal occupation.",
+      "claim": "In 1974, China seized the Paracel Islands (Hoang Sa) from South Vietnam by military force.",
+      "context": "In January 1974, the Chinese People's Liberation Army Navy engaged the South Vietnamese Navy in the Paracel Islands and occupied the entire archipelago. Approximately 70 South Vietnamese personnel were killed or missing. This occupation continues to this day, and Vietnam has consistently protested it as an illegal occupation.",
       "verdict": "Historical facts",
       "sources": [
         {
@@ -99,8 +99,8 @@
     },
     {
       "id": "sp-pd1596",
-      "claim": "In 1978, President Marcos incorporated the Kalayaan Archipelago into the Philippines through Executive Order No. 1596.",
-      "context": "On June 11, 1978, President Ferdinand Marcos issued Executive Order No. 1596, officially incorporating part of the Spratly Islands into the Province of Palawan as the \"Municipality of Kalayaan.\" It still exists as an administrative municipality in the Philippines.",
+      "claim": "In 1978, President Marcos incorporated the Kalayaan Archipelago into the Philippines through Presidential Decree No. 1596.",
+      "context": "On June 11, 1978, President Ferdinand Marcos issued Presidential Decree No. 1596, officially incorporating part of the Spratly Islands into the Province of Palawan as the \"Municipality of Kalayaan.\" It still exists as an administrative municipality in the Philippines today.",
       "verdict": "Official records available",
       "sources": [
         {
@@ -113,8 +113,8 @@
     },
     {
       "id": "sp-san-francisco-1951",
-      "claim": "At the San Francisco Peace Conference in 1951, Vietnamese representatives officially asserted sovereignty over the Truong Sa and Hoang Sa Islands.",
-      "context": "At the San Francisco Peace Conference in September 1951, South Vietnamese representative Tran Van Phu declared Vietnam's sovereignty over the Paracel Islands and the Spratly Islands. There was no clear opposition to this statement at the meeting. However, the treaty did not specify the ownership of these islands, only stipulating Japan to renounce its territorial rights.",
+      "claim": "At the 1951 San Francisco Peace Conference, Vietnamese representatives officially asserted sovereignty over the Truong Sa and Hoang Sa Islands.",
+      "context": "At the San Francisco Peace Conference in September 1951, South Vietnamese representative Tran Van Huu declared Vietnam's sovereignty over the Paracel Islands and the Spratly Islands. There was no explicit opposition to this statement at the conference. However, the treaty did not specify the ownership of these islands, only stipulating Japan's renunciation of territorial rights.",
       "verdict": "Official records available (attribution not confirmed)",
       "sources": [
         {
@@ -127,8 +127,8 @@
     },
     {
       "id": "sp-unclos-features",
-      "claim": "None of the topography of the Spratly Islands falls under the category of “islands” under UNCLOS, and an EEZ cannot be created.",
-      "context": "In the 2016 arbitral ruling, the arbitral tribunal determined that none of the landforms, including Itu Aba Island (Taiping Island, controlled by Taiwan), the largest natural landform in the Spratly Islands, are \"rocks\" that do not qualify as \"islands\" (landforms capable of sustaining human habitation or independent economic life) as defined in Article 121(3) of UNCLOS. For this reason, it was decided that only a 12 nautical mile territorial sea would be created, and a 200 nautical mile EEZ would not be created. Taiwan strongly opposes this decision.",
+      "claim": "None of the geographic features in the Spratly Islands qualify as \"islands\" under UNCLOS, and thus cannot generate an EEZ.",
+      "context": "In the 2016 arbitral ruling, the tribunal determined that none of the natural features in the Spratly Islands — including Itu Aba Island (Taiping Island, controlled by Taiwan), the largest natural feature — qualify as \"islands\" under Article 121(3) of UNCLOS (landforms capable of sustaining human habitation or independent economic life). They are classified as \"rocks,\" generating only a 12-nautical-mile territorial sea, not a 200-nautical-mile EEZ. Taiwan has strongly rejected this finding.",
       "verdict": "Arbitration award (some opposition)",
       "sources": [
         {
@@ -136,6 +136,54 @@
           "url": "https://pcacases.com/web/sendAttach/2086",
           "publisher": "Permanent Court of Arbitration",
           "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-us-philippines-mdt-2023",
+      "claim": "In 2023, the U.S. explicitly stated that the U.S.-Philippines Mutual Defense Treaty applies to attacks on Philippine vessels, aircraft, and armed forces in the South China Sea.",
+      "context": "In the February 2023 U.S.-Philippines joint statement, President Biden explicitly stated that \"Article IV of the 1951 U.S.-Philippines Mutual Defense Treaty applies to armed attacks on Philippine armed forces, public vessels, and aircraft in the Pacific Ocean, including in the South China Sea.\" This was a stronger formulation than previous U.S. positions and was intended to deter China's interference with Philippine resupply missions and direct threats to Philippine forces.",
+      "verdict": "Official statement on record",
+      "sources": [
+        {
+          "title": "U.S.-Philippines Joint Statement (February 2023)",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/02/02/joint-statement-of-president-joseph-r-biden-jr-and-president-ferdinand-r-marcos-jr/",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-second-thomas-shoal",
+      "claim": "China's Coast Guard has repeatedly used water cannons, military-grade lasers, and physical obstruction against Philippine resupply vessels at Second Thomas Shoal.",
+      "context": "Since 1999, the Philippines has maintained a small Marine garrison aboard the deliberately grounded BRP Sierra Madre at Second Thomas Shoal to assert its claim. China's Coast Guard conducted a series of increasingly aggressive actions from 2023 to 2024, including water cannon attacks, military-grade laser illumination, and physical boarding of Philippine vessels. The Philippine government condemned these actions as \"illegal and aggressive\" and documented them extensively with video evidence, drawing significant international criticism of China.",
+      "verdict": "Video evidence available / Major international incident",
+      "sources": [
+        {
+          "title": "Asia Maritime Transparency Initiative - Second Thomas Shoal",
+          "url": "https://amti.csis.org/",
+          "publisher": "CSIS - Asia Maritime Transparency Initiative",
+          "type": "academic"
+        },
+        {
+          "title": "Philippine Coast Guard Press Releases on South China Sea Incidents",
+          "url": "https://coastguard.gov.ph/",
+          "publisher": "Philippine Coast Guard",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-fonop",
+      "claim": "The U.S. Navy regularly conducts Freedom of Navigation Operations (FONOPs) within 12 nautical miles of China's artificial islands.",
+      "context": "FONOPs are operations conducted by the U.S. Department of Defense under UNCLOS and customary international law to challenge excessive maritime claims by coastal states. In the South China Sea, their frequency has increased since 2015, with more than 10 conducted annually in 2023–2024. China condemns FONOPs as \"sovereignty violations\" and has responded by having naval and Coast Guard vessels shadow and issue warnings. The U.S., which has not ratified UNCLOS itself, maintains that it respects UNCLOS as customary international law.",
+      "verdict": "Official records and confirmed operations",
+      "sources": [
+        {
+          "title": "Freedom of Navigation Program - Annual Reports",
+          "url": "https://policy.defense.gov/OUSDP-Offices/FON/",
+          "publisher": "U.S. Department of Defense",
+          "type": "government"
         }
       ]
     }

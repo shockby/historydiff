@@ -49,12 +49,62 @@
       },
       "prevalence": "high",
       "context": {
-        "ja": "領海摩擦のニュースの際、フィリピンやグローバルな英語圏のSNSで中国の覇権主義的動きを批判する声として強く拡散される世論。",
-        "en": "A sentiment widely spread on Philippine and global English-language social media criticizing China's assertive moves during maritime friction news.",
-        "zh": "每当发生海域摩擦新闻时，在菲律宾及全球英语社交媒体上强烈谴责中国霸权行为的舆论倾向。",
-        "ko": "영해 갈등 뉴스가 보도될 때 필리핀이나 글로벌 영어권 SNS에서 중국의 패권주의적 움직임을 비판하는 목소리로 강하게 확산되는 여론."
+        "ja": "領海摩擦のニュースの際、フィリピンやグローバルな英語圏のSNSで中国の覇権主義的動きを批判する声として強く拡散される世論。仁愛礁（セカンドトーマス礁）での補給船妨害事件以降は特に激化。",
+        "en": "A sentiment widely spread on Philippine and global English-language social media criticizing China's assertive moves during maritime friction news. Particularly intensified after China's interference with Philippine resupply missions at Second Thomas Shoal.",
+        "zh": "每当发生海域摩擦新闻时，在菲律宾及全球英语社交媒体上强烈谴责中国霸权行为的舆论倾向。自中国干扰菲律宾仁爱礁补给船事件后尤为激烈。",
+        "ko": "영해 갈등 뉴스가 보도될 때 필리핀이나 글로벌 영어권 SNS에서 중국의 패권주의적 움직임을 비판하는 목소리로 강하게 확산되는 여론. 인아이礁(제2토마스 암초) 보급선 방해 사건 이후 특히 격화."
       },
       "keywords": ["#WestPhilippineSea", "#CHINAGetOut", "#ArbitralRuling"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "spratly-voice-3",
+      "country": {
+        "ja": "ベトナム",
+        "en": "Vietnam",
+        "zh": "越南",
+        "ko": "베트남"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "東海（南シナ海）はベトナムの歴史的な海域であり、チュオンサ（南沙）・ホアンサ（西沙）両諸島に対するベトナムの主権は揺るぎない。1974年のホアンサ強奪、1988年の赤瓜礁での虐殺は絶対に忘れない。",
+        "en": "The East Sea (South China Sea) is Vietnam's historic waters, and Vietnam's sovereignty over the Truong Sa (Spratly) and Hoang Sa (Paracel) Islands is unshakeable. We will never forget the 1974 seizure of Hoang Sa or the 1988 massacre at Johnson South Reef.",
+        "zh": "东海（南海）是越南的历史性海域，越南对长沙（南沙）群岛和黄沙（西沙）群岛的主权不可动摇。1974年黄沙群岛被强占、1988年赤瓜礁遭到屠杀，这段历史永远不会忘记。",
+        "ko": "동해(남중국해)는 베트남의 역사적 해역이며, 쯔엉사(남사)와 호앙사(서사) 군도에 대한 베트남의 주권은 확고하다. 1974년 호앙사 강탈과 1988년 적과초 학살은 절대 잊지 않겠다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ベトナム国内では、南シナ海問題に関して政府の立場に沿った報道が主流だが、SNS上ではより感情的・民族主義的な表現が見られる。特に1988年の赤瓜礁事件は毎年3月14日に追悼が行われ、反中感情が高まる。",
+        "en": "Within Vietnam, state media dominates South China Sea coverage aligned with the government's position. On social media, more emotional and nationalist expressions appear. The 1988 Johnson South Reef skirmish is commemorated every March 14, heightening anti-China sentiment.",
+        "zh": "在越南国内，关于南海问题的报道以符合政府立场的官方媒体为主，但社交媒体上出现了更多情绪化和民族主义色彩的表达。尤其是每年3月14日，人们都会悼念1988年赤瓜礁事件，反华情绪随之高涨。",
+        "ko": "베트남 국내에서는 남중국해 문제에 관해 정부 입장에 맞춘 보도가 주류이지만, SNS에서는 더 감정적이고 민족주의적인 표현이 나타난다. 특히 1988년 적과초 사건은 매년 3월 14일에 추모가 이루어지며 반중 감정이 고조된다."
+      },
+      "keywords": ["#BiểnĐông", "#HoàngSaTrườngSaViệtNam", "#ChủQuyềnBiểnĐảo"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "spratly-voice-4",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "geopolitical",
+      "summary": {
+        "ja": "中国の人工島建設と軍事化は、航行の自由と国際法に対する脅威だ。米海軍のFONOPは中国の過剰な権利主張に対抗するためのものであり、ルールに基づく国際秩序を守るために不可欠だ。",
+        "en": "China's island-building and militarization are a threat to freedom of navigation and international law. U.S. Navy FONOPs are necessary to push back against China's excessive claims and uphold the rules-based international order.",
+        "zh": "中国建岛填礁及军事化行动是对航行自由和国际法的威胁。美国海军的航行自由行动是为了反对中国过度主张，维护基于规则的国际秩序所必需的。",
+        "ko": "중국의 인공섬 건설과 군사화는 항행의 자유와 국제법에 대한 위협이다. 미 해군의 FONOP는 중국의 과도한 권리 주장에 대항하고 규칙 기반 국제질서를 지키기 위해 불가결하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米国の外交政策コミュニティや国際安全保障の専門家・メディアを中心に形成される世論。一般のSNSでは南シナ海への関心は低いが、外交・安全保障系のオンラインメディアでは中国の覇権的行動を批判する論調が多い。",
+        "en": "Public opinion primarily formed within the U.S. foreign policy community, international security experts, and media. While general social media interest in the South China Sea is limited, foreign policy and national security online media are dominated by criticism of China's assertive behavior.",
+        "zh": "主要在美国外交政策界、国际安全专家及媒体中形成的舆论倾向。一般社交媒体对南海的关注度较低，但外交和国家安全类在线媒体中批评中国强硬行为的论调占主流。",
+        "ko": "미국 외교정책 커뮤니티, 국제안보 전문가, 미디어를 중심으로 형성되는 여론. 일반 SNS에서는 남중국해에 대한 관심이 낮지만, 외교·안보 분야 온라인 미디어에서는 중국의 패권적 행동을 비판하는 논조가 많다."
+      },
+      "keywords": ["#FreedomOfNavigation", "#FONOP", "#SouthChinaSea", "#IndoPacific"],
       "timeframe": "2020-2024"
     }
   ]

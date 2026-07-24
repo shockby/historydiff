@@ -138,6 +138,54 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "sp-us-philippines-mdt-2023",
+      "claim": "2023年、米国は米比相互防衛条約が南シナ海でのフィリピン船・航空機・軍への攻撃に適用されると明言",
+      "context": "2023年2月の米比共同声明において、バイデン大統領は「1951年米比相互防衛条約第4条は、南シナ海を含む太平洋において、フィリピンの軍・公船・航空機が武力攻撃を受けた場合に適用される」と明確に述べた。これは従来より踏み込んだ表現であり、中国の補給船妨害やフィリピン軍への直接の脅威に対する抑止力強化を意図している。",
+      "verdict": "公式声明あり",
+      "sources": [
+        {
+          "title": "U.S.-Philippines Joint Statement (February 2023)",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/02/02/joint-statement-of-president-joseph-r-biden-jr-and-president-ferdinand-r-marcos-jr/",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-second-thomas-shoal",
+      "claim": "仁愛礁（セカンドトーマス礁）で中国海警局がフィリピン補給船に対して放水砲・レーザー照射などを繰り返し行使",
+      "context": "フィリピンは1999年以降、座礁させたBRPシエラ・マドレ号に少数の海兵隊員を駐留させ、仁愛礁（セカンドトーマス礁）の実効支配を維持している。中国海警局は2023年〜2024年にかけて、フィリピンの補給任務船に対して放水砲の噴射、軍用グレードのレーザー照射、物理的な妨害行為を繰り返した。フィリピン政府はこれらの行為を「違法かつ侵略的」として国際的に強く非難した。",
+      "verdict": "映像証拠あり・国際問題化",
+      "sources": [
+        {
+          "title": "Asia Maritime Transparency Initiative - Second Thomas Shoal",
+          "url": "https://amti.csis.org/",
+          "publisher": "CSIS - Asia Maritime Transparency Initiative",
+          "type": "academic"
+        },
+        {
+          "title": "Philippine Coast Guard Press Releases on South China Sea Incidents",
+          "url": "https://coastguard.gov.ph/",
+          "publisher": "Philippine Coast Guard",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-fonop",
+      "claim": "米海軍は「航行の自由作戦（FONOP）」として中国の人工島周辺12海里以内に定期的に艦船を派遣",
+      "context": "FONOPはUNCLOSおよび慣習国際法のもとで、沿岸国の過剰な権利主張に異議を唱えるために米国防省が実施する作戦。南シナ海では2015年以降、頻度が増加し、2023〜2024年には年間10回以上実施されている。中国はFONOPを「主権侵害」として非難し、海軍・海警局の艦船による追尾・警告を行ってきた。米国自身はUNCLOSを未批准であるが、同条約を慣習国際法として尊重するとの立場をとる。",
+      "verdict": "公式記録・実施事実あり",
+      "sources": [
+        {
+          "title": "Freedom of Navigation Program - Annual Reports",
+          "url": "https://policy.defense.gov/OUSDP-Offices/FON/",
+          "publisher": "U.S. Department of Defense",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

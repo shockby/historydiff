@@ -1,0 +1,75 @@
+{
+  "eventId": "kashmir-conflict",
+  "notes": [
+    {
+      "id": "kc-instrument-of-accession",
+      "claim": "On October 26, 1947, Maharaja Hari Singh signed the Instrument of Accession, joining Kashmir to India.",
+      "context": "It is a confirmed historical fact that Maharaja Hari Singh of Jammu and Kashmir signed the Instrument of Accession on October 26, 1947 (some documents bear the date of October 27). However, Pakistan disputes its legitimacy on several grounds: (1) the signature was obtained under duress; (2) it did not reflect the will of the Kashmiri people; and (3) India had not concluded a Standstill Agreement with Kashmir at the time of signing. India maintains that the document was a legitimate and legally valid response to the emergency created by the invasion of Pakistani-backed armed forces.",
+      "verdict": "Signature confirmed (legal validity disputed)",
+      "sources": [
+        {
+          "title": "Instrument of Accession of Jammu and Kashmir State (1947)",
+          "url": "https://mea.gov.in/in-focus-article.htm?19066/Instrument+of+Accession+of+Jammu+and+Kashmir+State",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-unsc-resolution-47",
+      "claim": "UN Security Council Resolution 47 (1948) called for a plebiscite to determine the future of Kashmir.",
+      "context": "Adopted on April 21, 1948, UN Security Council Resolution 47 called for a free and impartial plebiscite to decide the political future of Jammu and Kashmir. The resolution set conditions for the plebiscite: first, Pakistani tribal militias must withdraw, followed by a phased withdrawal of Indian forces. Pakistan continues to invoke this resolution to demand a plebiscite. India, however, argues that the 1972 Simla Agreement shifted the framework for resolution to bilateral dialogue, rendering the UN resolution's applicability obsolete.",
+      "verdict": "Resolution adoption confirmed (applicability disputed)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 47 (1948)",
+          "url": "https://undocs.org/S/RES/47(1948)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kc-simla-agreement",
+      "claim": "The 1972 Simla Agreement stipulated that the Kashmir issue be resolved through bilateral negotiations.",
+      "context": "The Simla Agreement, signed in 1972 following the Third Indo-Pakistani War (and the independence of Bangladesh), commits India and Pakistan to resolving their 'mutual problems' through bilateral negotiations. India uses this as grounds to reject the internationalization of the Kashmir dispute. Pakistan acknowledges the agreement but maintains that it has not forfeited its right to seek UN involvement.",
+      "verdict": "Agreement signing confirmed (interpretation disputed)",
+      "sources": [
+        {
+          "title": "Simla Agreement (1972)",
+          "url": "https://mea.gov.in/bilateral-documents.htm?dtl/5541/Simla+Agreement",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-article-370-revocation",
+      "claim": "In August 2019, the Indian government revoked Article 370, which had granted special autonomous status to Jammu and Kashmir.",
+      "context": "On August 5, 2019, the Indian government revoked Article 370 of the Indian Constitution (granting special autonomous status to Jammu and Kashmir) and Article 35A (which gave preferential rights to local residents regarding land and public employment), and reorganized the state into two Union Territories: Jammu and Kashmir, and Ladakh. India described this as a measure for 'uniform development' of the region. Pakistan protested, calling it a violation of UN resolutions, and recalled its ambassador. International observers also expressed concerns about the human rights situation. In December 2023, India's Supreme Court ruled the revocation of Article 370 to be constitutional.",
+      "verdict": "Revocation confirmed (constitutionality and compliance with international law disputed)",
+      "sources": [
+        {
+          "title": "Supreme Court of India Judgment on Article 370 (December 2023)",
+          "url": "https://main.sci.gov.in/",
+          "publisher": "Supreme Court of India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kc-china-aksai-chin",
+      "claim": "China exercises de facto control over Aksai Chin (approx. 37,000 km²), which India claims as part of its Union Territory of Ladakh.",
+      "context": "Aksai Chin is a high-altitude plateau located east of the Karakoram Range, where the borders of India, China, and Pakistan converge. China built the Xinjiang-Tibet Highway through this region in the 1950s and maintains effective control to this day. India claims it as part of Ladakh. The dispute over this territory was one of the primary causes of the 1962 Sino-Indian War and remains a core issue in ongoing border demarcation negotiations between the two countries.",
+      "verdict": "De facto control situation confirmed (sovereignty disputed)",
+      "sources": [
+        {
+          "title": "India-China Border Dispute: An Overview",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

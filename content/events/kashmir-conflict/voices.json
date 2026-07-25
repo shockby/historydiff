@@ -1,0 +1,143 @@
+{
+  "eventId": "kashmir-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "kc-voice-1",
+      "country": {
+        "ja": "インド",
+        "en": "India",
+        "zh": "印度"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "カシミールはインドの不可分の一部だ。1947年に合法的に加盟したのであり、パキスタンはその侵略で手に入れた土地を違法に占拠し続けている。2019年の第370条廃止はようやく訪れた正常化だ。",
+        "en": "Kashmir is an integral part of India. The accession in 1947 was legal, and Pakistan continues to illegally occupy territory it seized through aggression. The revocation of Article 370 in 2019 was long-overdue normalization.",
+        "zh": "克什米尔是印度不可分割的一部分。1947年的加入完全合法，而巴基斯坦至今仍非法占领着其通过侵略夺取的土地。2019年废除第370条是迟来已久的正常化举措。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "インド・パキスタン間で緊張が高まるたびに、インドのSNS（Twitter/X、Facebook）で広く発信される意見。特に2019年のプルワマ攻撃後やバラコット空爆後に高まった。",
+        "en": "Opinion widely expressed on Indian social media (Twitter/X, Facebook) whenever tensions rise between India and Pakistan, particularly surging after the 2019 Pulwama attack and Balakot air strike.",
+        "zh": "每当印巴局势紧张时，在印度社交媒体（Twitter/X、Facebook）上广泛流传的观点，尤其在2019年普尔瓦马袭击和巴拉科特空袭后急剧升温。"
+      },
+      "keywords": [
+        "#KashmirIsIndia",
+        "#IndiaStrikesBack",
+        "#Article370",
+        "#JammuKashmir"
+      ],
+      "timeframe": "2019-2024"
+    },
+    {
+      "id": "kc-voice-2",
+      "country": {
+        "ja": "パキスタン",
+        "en": "Pakistan",
+        "zh": "巴基斯坦"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "カシミールはパキスタンの「頸動脈（shehrag）」だ。イスラム教徒が多数を占める地域がインドの一部であるはずがない。国連決議に基づく住民投票の実施こそが唯一の正義ある解決策だ。",
+        "en": "Kashmir is Pakistan's jugular vein (shehrag). A Muslim-majority region cannot be part of India. A UN-mandated plebiscite is the only just solution.",
+        "zh": "克什米尔是巴基斯坦的'颈动脉'（shehrag）。一个穆斯林占多数的地区不可能是印度的一部分。依照联合国决议举行公民投票，才是唯一公正的解决方案。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "「シェラーグ（頸動脈）」という表現は、初代パキスタン首相リアクット・アリー・ハーンが使用した言葉であり、今日もパキスタンのSNSで多用される愛国的な言辞。特に2月5日の「カシミール連帯の日」に多く見られる。",
+        "en": "The 'shehrag' (jugular vein) expression was coined by Pakistan's first Prime Minister Liaquat Ali Khan and remains widely used as a patriotic phrase on Pakistani social media, especially on February 5th, 'Kashmir Solidarity Day'.",
+        "zh": "'颈动脈'这一表述源自巴基斯坦首位总理利亚卡特·阿里·汗，至今仍是巴基斯坦社交媒体上常见的爱国表达，尤其在每年2月5日'克什米尔团结日'前后大量出现。"
+      },
+      "keywords": [
+        "#KashmirBanegaPakistan",
+        "#KashmirSolidarityDay",
+        "#StandWithKashmir",
+        "#MakeKashmirGreatAgain"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "kc-voice-3",
+      "country": {
+        "ja": "カシミール（インド側住民）",
+        "en": "Kashmir (Indian-administered side)",
+        "zh": "克什米尔（印控区居民）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "私たちカシミール人は、インドにもパキスタンにも帰属することを求めていない。私たちが求めるのは「アザーディー（自由）」だ。何十年にもわたって軍事化された生活、人権侵害、そして声を奪われてきた現実を世界は知るべきだ。",
+        "en": "We Kashmiris don't want to belong to either India or Pakistan. What we want is 'Azadi' (freedom). The world needs to know the reality of decades of militarization, human rights abuses, and silenced voices.",
+        "zh": "我们克什米尔人既不想归属印度，也不想归属巴基斯坦。我们要的是'阿扎迪'（自由）。世界应当了解我们数十年来在军事化生活、人权侵害和噤若寒蝉中度过的现实。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "インド管理区のカシミール住民から発せられる声。2019年の第370条廃止以降、通信封鎖（インターネット・電話の遮断）が長期間実施されたことへの抗議もあり、特にインド国外のカシミール系ディアスポラが声を上げた。",
+        "en": "Voices from residents of Indian-administered Kashmir. Following the 2019 revocation of Article 370, long-duration communication blockades (internet and phone shutdowns) intensified protests, with the Kashmiri diaspora outside India particularly vocal.",
+        "zh": "来自印控克什米尔居民的声音。2019年第370条废除后，通讯封锁（互联网和电话中断）长期实施，抗议声浪随之升温，尤其是海外克什米尔裔侨民发出了强烈呼声。"
+      },
+      "keywords": [
+        "#Azadi",
+        "#KashmirFreedom",
+        "#KashmirBlackout",
+        "#StandWithKashmir"
+      ],
+      "timeframe": "2019-2024"
+    },
+    {
+      "id": "kc-voice-4",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "インドの一方的な行動（第370条廃止・ラダックの直轄地化）は地域の安定を損なうものであり、強く反対する。中国はアクサイ・チンに対する疑いなき主権を有しており、インドの挑発的な行為は容認できない。",
+        "en": "India's unilateral actions (revocation of Article 370, reorganization of Ladakh) undermine regional stability and are firmly opposed. China has undisputed sovereignty over Aksai Chin, and India's provocative acts are unacceptable.",
+        "zh": "印度的单方面行动（废除第370条、将拉达克改组为联邦直辖区）破坏了地区稳定，中方对此坚决反对。中国对阿克赛钦拥有无可争辩的主权，印度的挑衅行为不可接受。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国外交部の公式声明のトーンを反映したもので、微博（Weibo）でも類似した論調が見られる。特にインド・中国間の国境緊張（2020年ガルワン渓谷衝突後）に際して顕在化した。",
+        "en": "Reflects the tone of China's official Ministry of Foreign Affairs statements, with similar rhetoric visible on Weibo, particularly after the escalation of India-China border tensions following the 2020 Galwan Valley clash.",
+        "zh": "反映了中国外交部官方声明的基调，微博上也有类似论调，尤其在2020年加勒万河谷冲突后印中边境紧张局势升级时更为突出。"
+      },
+      "keywords": [
+        "#AksaiChin",
+        "#中印边境",
+        "#加勒万河谷"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "kc-voice-5",
+      "country": {
+        "ja": "アメリカ合衆国",
+        "en": "United States",
+        "zh": "美国"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "カシミール問題はインド・パキスタンが対話によって解決すべき問題だが、同地域での人権侵害の報告は深刻に受け止めている。核保有国である両国が一触即発の状況にあることは、世界の平和にとっての脅威だ。",
+        "en": "The Kashmir issue is one that India and Pakistan must resolve through dialogue, but reports of human rights abuses in the region are taken very seriously. The fact that two nuclear-armed states are on the brink of conflict is a threat to global peace.",
+        "zh": "克什米尔问题需要印巴双方通过对话解决，但该地区人权侵犯的报道令人深感忧虑。两个拥有核武器的国家处于冲突边缘，这是对全球和平的威胁。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米国の外交・安全保障コミュニティやメディアで見られる傾向。特に2019年のバラコット空爆後やインド・パキスタン間の核緊張が高まる局面で注目が集まる。",
+        "en": "Trend observed in U.S. foreign policy and security communities and media, especially during heightened nuclear tensions between India and Pakistan, such as after the 2019 Balakot air strikes.",
+        "zh": "在美国外交与安全政策界及媒体中常见的倾向，尤其在2019年巴拉科特空袭后印巴核紧张局势升温之际引发高度关注。"
+      },
+      "keywords": [
+        "#KashmirConflict",
+        "#SouthAsiaPeace",
+        "#NuclearTensions"
+      ],
+      "timeframe": "2019-2024"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "eventId": "kashmir-conflict",
+  "photos": [
+    {
+      "id": "kashmir-region-map",
+      "url": "/images/events/kashmir-conflict/kashmir-region-map.jpg",
+      "caption": {
+        "ja": "カシミール地方の政治地図。青色がインド実効支配地域（ジャンムー・カシミール連邦直轄地・ラダック）、緑色がパキスタン実効支配地域（アザード・カシミール・ギルギット・バルティスタン）、黄色が中国実効支配地域（アクサイ・チン）を示す。赤い破線が「実効支配線（LoC）」。",
+        "en": "Political map of the Kashmir region. Blue indicates India-administered territories (Union Territory of Jammu & Kashmir and Ladakh), green shows Pakistan-administered territories (Azad Kashmir and Gilgit-Baltistan), and yellow marks China-controlled Aksai Chin. The red dashed line is the Line of Control (LoC).",
+        "zh": "克什米尔地区政治地图。蓝色为印度实控区域（查谟和克什米尔联邦直辖区及拉达克），绿色为巴基斯坦实控区域（阿扎德·克什米尔及吉尔吉特-巴尔蒂斯坦），黄色为中国实控的阿克赛钦地区。红色虚线为\"实际控制线\"（LoC）。"
+      },
+      "source": {
+        "title": "Kashmir Region Political Map (AI-generated illustration for educational purposes)",
+        "url": "",
+        "license": "AI-Generated (Educational Use)",
+        "author": "Antigravity AI"
+      }
+    },
+    {
+      "id": "kashmir-partition-timeline",
+      "url": "/images/events/kashmir-conflict/kashmir-partition-timeline.jpg",
+      "caption": {
+        "ja": "カシミール分断と紛争の歴史年表。1947年のインド独立から2019年の憲法第370条廃止まで、カシミール問題の主要な転換点を図示したインフォグラフィック。",
+        "en": "Historical timeline of the Kashmir partition and conflict, from Indian independence in 1947 to the revocation of Article 370 in 2019. An infographic illustrating the major turning points in the Kashmir dispute.",
+        "zh": "克什米尔分治与冲突历史时间轴，从1947年印度独立至2019年废除第370条，以信息图表形式呈现克什米尔问题的主要历史转折点。"
+      },
+      "source": {
+        "title": "Kashmir Conflict Historical Timeline (AI-generated illustration for educational purposes)",
+        "url": "",
+        "license": "AI-Generated (Educational Use)",
+        "author": "Antigravity AI"
+      }
+    },
+    {
+      "id": "un-security-council-chamber",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/UN_Security_Council_2005.jpg/1200px-UN_Security_Council_2005.jpg",
+      "caption": {
+        "ja": "国連安全保障理事会の議場。カシミール問題は1948年の決議47号をはじめ、国連安保理で複数回審議されてきた。安保理はカシミールの将来を決定する住民投票を求めたが、その実施は現在も実現していない。",
+        "en": "The UN Security Council chamber. The Kashmir issue has been debated multiple times in the Security Council, beginning with Resolution 47 in 1948. The Council called for a plebiscite to determine Kashmir's future, but one has never been held.",
+        "zh": "联合国安理会议事厅。克什米尔问题自1948年第47号决议起，已多次在安理会上进行审议。安理会要求举行公民投票以决定克什米尔前途，但至今从未付诸实施。"
+      },
+      "source": {
+        "title": "Wikimedia Commons - UN Security Council Chamber",
+        "url": "https://commons.wikimedia.org/wiki/File:UN_Security_Council_2005.jpg",
+        "license": "Public Domain",
+        "author": "United Nations Photo"
+      }
+    }
+  ]
+}

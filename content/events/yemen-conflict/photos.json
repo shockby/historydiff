@@ -1,0 +1,21 @@
+{
+  "eventId": "yemen-conflict",
+  "photos": [
+    {
+      "id": "sanaa-destruction",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/yemen-conflict/sanaa-destruction.jpg",
+      "caption": {
+        "ja": "2015年4月、サウジアラビア主導の連合軍による空爆後のサナア市街。イエメン内戦による壊滅的な被害は、世界最大規模の人道危機の一つを引き起こした。",
+        "en": "The streets of Sanaa after airstrikes by the Saudi-led coalition in April 2015. The devastating damage from the Yemen Civil War triggered one of the world's largest humanitarian crises.",
+        "zh": "2015年4月沙特主导联军空袭后的萨那街头。也门内战造成的毁灭性破坏引发了全球最大规模的人道主义危机之一。",
+        "ko": "2015년 4월 사우디아라비아 주도 연합군의 공습 이후 사나 시가지. 예멘 내전으로 인한 치명적인 피해는 세계 최대 규모의 인도적 위기 중 하나를 초래했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – Sana'a after airstrike 20-4-2015",
+        "url": "https://commons.wikimedia.org/wiki/File:Sana%27a_after_airstrike_20-4-2015_-_Widespread_destruction-_15.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Almigdad Mojalli / VOA"
+      }
+    }
+  ]
+}

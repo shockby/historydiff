@@ -1,0 +1,51 @@
+[
+  {
+    "id": "note-yemen-1",
+    "claim": "2024 Houthi Red Sea attacks and US-UK Operation Prosperity Guardian",
+    "context": "US and UK launched airstrikes in response to Houthi attacks on shipping, framed as Palestinian solidarity.",
+    "verdict": "Fact",
+    "sources": [
+      "International Media"
+    ]
+  },
+  {
+    "id": "note-yemen-2",
+    "claim": "2023 Saudi-Iran reconciliation (Beijing Accord)",
+    "context": "China mediated the restoration of diplomatic ties, contributing to a partial ceasefire.",
+    "verdict": "Fact",
+    "sources": [
+      "MFA China",
+      "UN"
+    ]
+  },
+  {
+    "id": "note-yemen-3",
+    "claim": "Yemen humanitarian crisis with over 150,000 deaths",
+    "context": "Considered one of the world's worst humanitarian crises, with millions facing famine risks.",
+    "verdict": "Fact",
+    "sources": [
+      "UNICEF",
+      "WFP"
+    ]
+  },
+  {
+    "id": "note-yemen-4",
+    "claim": "Iran's support for Houthis via weapons and training",
+    "context": "Iran provides military technology as part of its 'Axis of Resistance'.",
+    "verdict": "Fact",
+    "sources": [
+      "US State Dept",
+      "UN Panel of Experts"
+    ]
+  },
+  {
+    "id": "note-yemen-5",
+    "claim": "Controversy over US arms sales to Saudi Arabia",
+    "context": "Sales continue despite domestic criticism regarding their role in the humanitarian crisis.",
+    "verdict": "Fact",
+    "sources": [
+      "US Congress reports",
+      "Human Rights Orgs"
+    ]
+  }
+]

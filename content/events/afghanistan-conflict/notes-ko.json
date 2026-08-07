@@ -1,0 +1,87 @@
+{
+  "eventId": "afghanistan-conflict",
+  "notes": [
+    {
+      "id": "af-us-withdrawal-2021",
+      "claim": "2021년 8월 미군 철수는 '계획적'이었나 '혼란스러운' 철수였나",
+      "context": "바이든 행정부는 철수를 '계획적이고 질서 있는 철수'로 표현했으나, 탈레반의 카불 점령(8월 15일)은 당초 예상보다 수개월 앞당겨졌으며, 미 국무부·국방부 내에서도 정보 평가 실패가 문제시됐다. 카불 공항 자살 폭탄 테러(ISKP)로 미군 13명·아프가니스탄인 170명 이상이 사망했다.",
+      "verdict": "공식 기록으로 철수 과정에 심각한 혼란이 있었음이 확인됨",
+      "sources": [
+        {
+          "title": "After-Action Review: U.S. Withdrawal from Afghanistan",
+          "url": "https://www.state.gov/",
+          "publisher": "미국 국무부",
+          "type": "government"
+        },
+        {
+          "title": "SIGAR Reports",
+          "url": "https://www.sigar.mil/",
+          "publisher": "아프가니스탄 재건 특별감사관",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-frozen-assets",
+      "claim": "미국은 아프가니스탄 중앙은행 자산 약 70억 달러를 동결하고 있다",
+      "context": "2021년 8월 탈레반 정권 수립 후 미국은 연방준비은행에 예치된 아프가니스탄 중앙은행 자산을 동결했다. 이 중 35억 달러는 2022년 인도주의 지원 기금(FAFG)으로 전환됐다. 나머지 35억 달러는 9·11 희생자 유족 소송과 얽혀 법적 분쟁이 계속되고 있다.",
+      "verdict": "자산 동결 사실 확인됨（법적 처리는 미해결）",
+      "sources": [
+        {
+          "title": "Executive Order on Afghanistan's Frozen Assets",
+          "url": "https://www.whitehouse.gov/",
+          "publisher": "백악관",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-women-rights",
+      "claim": "탈레반은 여학생의 중학교 이상 취학을 전면 금지하고 있다",
+      "context": "2022년 3월, 탈레반 당국은 중·고등학교 개학 당일에 갑작스럽게 여학생의 등교를 금지했다. 2022년 12월에는 여성의 대학 교육도 금지됐다. 2023년 4월에는 여성의 NGO 근무도 금지됐다. 유엔은 이러한 조치를 '젠더 아파르트헤이트'라 표현하며 비난했다.",
+      "verdict": "유엔·국제기구에 의해 확인된 정책（국제법과의 합치성이 강하게 부정됨）",
+      "sources": [
+        {
+          "title": "UN Report: Taliban Restrictions on Women",
+          "url": "https://www.ohchr.org/",
+          "publisher": "유엔 인권최고대표사무소",
+          "type": "international"
+        },
+        {
+          "title": "Gender Persecution in Afghanistan",
+          "url": "https://www.amnesty.org/",
+          "publisher": "국제앰네스티",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "af-cost-of-war",
+      "claim": "미국은 아프가니스탄 전쟁에 2조 달러 이상을 소비했다",
+      "context": "브라운대학교 '전쟁의 비용' 프로젝트 추산에 따르면, 재향군인 장기 의료비를 포함한 미국의 아프가니스탄 관련 지출은 2조 3,000억 달러에 달한다. 이 수치에는 NATO 및 다른 동맹국의 비용은 포함되지 않는다.",
+      "verdict": "연구 기관 추정에 기반（공식 통계와 계산 방법이 다를 수 있음）",
+      "sources": [
+        {
+          "title": "Costs of the 20-Year War on Terror",
+          "url": "https://watson.brown.edu/costsofwar/",
+          "publisher": "브라운대학교 전쟁의 비용 프로젝트",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "af-china-etim",
+      "claim": "중국은 탈레반에 동투르키스탄 이슬람 운동(ETIM) 지원 금지를 요구하고 있다",
+      "context": "ETIM(동투르키스탄 독립운동 무장 조직)은 아프가니스탄에 거점을 두고 있는 것으로 알려지며, 중국의 신장 정책에 대한 위협으로 여겨진다. 이 문제를 포함한 안보 협력이 중국과 탈레반 간 외교 협상의 핵심이다. 미국은 2020년 ETIM의 테러 지정을 해제했으나, 중국·러시아는 여전히 테러 지정을 유지하고 있다.",
+      "verdict": "중국의 요구는 확인됨（ETIM의 실제 위협 규모는 평가가 엇갈림）",
+      "sources": [
+        {
+          "title": "China-Taliban Relations and the ETIM",
+          "url": "https://www.cfr.org/",
+          "publisher": "미국외교협회",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

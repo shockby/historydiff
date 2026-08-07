@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "claim": "Gaddafi's regime collapsed in 2011 following NATO's Operation Unified Protector.",
+    "context": "NATO's military intervention and the rebel uprising ended Gaddafi's 42-year rule.",
+    "verdict": "Fact",
+    "sources": []
+  },
+  {
+    "id": 2,
+    "claim": "Libya split between the GNU and LNA, both backed by different foreign powers.",
+    "context": "The civil war continues between the western Tripoli-based GNU (backed by Turkey) and the eastern LNA (backed by Russia, UAE, and Egypt).",
+    "verdict": "Fact",
+    "sources": []
+  },
+  {
+    "id": 3,
+    "claim": "The Russian private military company Wagner Group operates in Libya.",
+    "context": "The Wagner Group has provided mercenaries and military equipment to support the eastern LNA.",
+    "verdict": "Fact",
+    "sources": []
+  },
+  {
+    "id": 4,
+    "claim": "Libya's oil production is used as political leverage.",
+    "context": "Different factions have blockaded oil facilities to exert political and economic pressure on their rivals.",
+    "verdict": "Fact",
+    "sources": []
+  },
+  {
+    "id": 5,
+    "claim": "The UN-led peace process and national elections have repeatedly failed.",
+    "context": "UN attempts to establish a unified government and hold democratic elections have been thwarted by factional conflicts.",
+    "verdict": "Fact",
+    "sources": []
+  }
+]

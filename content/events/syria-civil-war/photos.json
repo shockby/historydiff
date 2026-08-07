@@ -1,0 +1,21 @@
+{
+  "eventId": "syria-civil-war",
+  "photos": [
+    {
+      "id": "aleppo-destruction",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/syria-civil-war/aleppo-destruction.jpg",
+      "caption": {
+        "ja": "シリア内戦で壊滅的な被害を受けたアレッポのキリスト教徒地区。2012〜2016年の激しい市街戦により、古代都市の多くが廃墟と化した。",
+        "en": "Damage in the Christian quarter of Aleppo during the Syrian Civil War. Years of intense urban combat from 2012 to 2016 left much of the ancient city in ruins.",
+        "zh": "叙利亚内战中阿勒颇基督教区遭受的破坏。2012至2016年激烈的巷战使这座古城大部分沦为废墟。",
+        "ko": "시리아 내전으로 파괴된 알레포 기독교 구역. 2012~2016년의 치열한 시가전으로 고대 도시의 많은 부분이 폐허가 됐다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – Damage in Christian quarter of Aleppo",
+        "url": "https://commons.wikimedia.org/wiki/File:Damage_in_Christian_quarter_of_Aleppo.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Voice of America News"
+      }
+    }
+  ]
+}

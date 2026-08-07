@@ -1,0 +1,21 @@
+{
+  "eventId": "afghanistan-conflict",
+  "photos": [
+    {
+      "id": "af-kabul-2021",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/afghanistan-conflict/kabul-airport-2021.jpg",
+      "caption": {
+        "ja": "2021年8月、カブール国際空港での退避支援活動。米海兵隊員がアフガニスタン人退避者の支援にあたっている。米軍撤退に伴うタリバン政権掌握後、数万人が出国を試みた。",
+        "en": "Evacuation support operations at Kabul International Airport in August 2021. U.S. Marines assist Afghan evacuees. After the Taliban seized power following the U.S. withdrawal, tens of thousands attempted to flee.",
+        "zh": "2021年8月在喀布尔国际机场开展的撤离支援行动。美国海军陆战队员正在协助阿富汗撤离者。美军撤离后塔利班夺取政权，数万人试图离境。",
+        "ko": "2021년 8월 카불 국제공항에서의 철수 지원 작전. 미 해병대원들이 아프가니스탄 피난민을 지원하고 있다. 미군 철수에 따른 탈레반 정권 장악 후 수만 명이 출국을 시도했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – Evacuation at Hamid Karzai International Airport",
+        "url": "https://commons.wikimedia.org/wiki/File:Evacuation_at_Hamid_Karzai_International_Airport_210821-M-AU949-0155.jpg",
+        "license": "Public Domain (U.S. Government Work)",
+        "author": "U.S. Marine Corps / Lance Cpl. Nicholas Guevara"
+      }
+    }
+  ]
+}

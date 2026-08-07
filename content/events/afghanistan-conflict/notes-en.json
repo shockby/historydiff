@@ -1,0 +1,87 @@
+{
+  "eventId": "afghanistan-conflict",
+  "notes": [
+    {
+      "id": "af-us-withdrawal-2021",
+      "claim": "Was the August 2021 U.S. military withdrawal 'planned' or 'chaotic'?",
+      "context": "The Biden administration described the withdrawal as 'planned and orderly,' but the Taliban's capture of Kabul (August 15) was months ahead of initial estimates, and intelligence assessment failures were criticized within the State Department and Pentagon. A suicide bombing at Kabul airport (by ISKP) killed 13 U.S. service members and over 170 Afghans.",
+      "verdict": "Confirmed by official records that significant disorder occurred during the withdrawal process",
+      "sources": [
+        {
+          "title": "After-Action Review: U.S. Withdrawal from Afghanistan",
+          "url": "https://www.state.gov/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        },
+        {
+          "title": "Special Inspector General for Afghanistan Reconstruction (SIGAR) Reports",
+          "url": "https://www.sigar.mil/",
+          "publisher": "SIGAR",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-frozen-assets",
+      "claim": "The U.S. has frozen approximately $7 billion in Afghan central bank assets",
+      "context": "Following the Taliban's establishment of power in August 2021, the U.S. froze Afghan central bank assets held at the Federal Reserve Bank. $3.5 billion was redirected in 2022 to a humanitarian support fund (FAFG). The remaining $3.5 billion is entangled in litigation by 9/11 victims' families and remains in legal dispute.",
+      "verdict": "Asset freeze confirmed (legal resolution remains pending)",
+      "sources": [
+        {
+          "title": "Executive Order on Afghanistan's Frozen Assets",
+          "url": "https://www.whitehouse.gov/",
+          "publisher": "White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-women-rights",
+      "claim": "The Taliban has completely banned girls from attending middle school and above",
+      "context": "In March 2022, Taliban authorities suddenly prohibited female students from attending school on the very day middle and high schools were to reopen. University education for women was also banned in December 2022. In April 2023, women were also banned from working for NGOs. The UN has denounced these measures as 'gender apartheid.'",
+      "verdict": "Policy confirmed by UN and international organizations (strongly incompatible with international law)",
+      "sources": [
+        {
+          "title": "UN Report: Taliban Restrictions on Women",
+          "url": "https://www.ohchr.org/",
+          "publisher": "UN Human Rights Office",
+          "type": "international"
+        },
+        {
+          "title": "Gender Persecution in Afghanistan",
+          "url": "https://www.amnesty.org/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "af-cost-of-war",
+      "claim": "The U.S. spent over $2 trillion on the Afghanistan War",
+      "context": "Brown University's 'Costs of War' project estimates that U.S. Afghanistan-related expenditures, including long-term veteran healthcare costs, reach $2.3 trillion. This figure does not include costs borne by NATO and other allies.",
+      "verdict": "Based on research institution estimates (may differ from official statistics in calculation methodology)",
+      "sources": [
+        {
+          "title": "Costs of the 20-Year War on Terror: $8 Trillion and 900,000 Deaths",
+          "url": "https://watson.brown.edu/costsofwar/",
+          "publisher": "Brown University Costs of War Project",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "af-china-etim",
+      "claim": "China is demanding the Taliban ban support for the East Turkestan Islamic Movement (ETIM)",
+      "context": "The ETIM (an armed organization of the East Turkestan independence movement) is believed to have bases in Afghanistan and is viewed as a threat to China's Xinjiang policies. Security cooperation, including this issue, is at the core of diplomatic negotiations between China and the Taliban. The U.S. removed the ETIM's terrorist designation in 2020, but China and Russia still maintain it.",
+      "verdict": "China's demands are confirmed (actual threat scale of ETIM is a matter of disputed assessment)",
+      "sources": [
+        {
+          "title": "China-Taliban Relations and the ETIM",
+          "url": "https://www.cfr.org/",
+          "publisher": "Council on Foreign Relations",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

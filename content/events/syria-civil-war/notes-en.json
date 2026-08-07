@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chemical-weapons",
+    "claim": "The Assad regime used chemical weapons multiple times during the war.",
+    "context": "Investigations by the OPCW (Organisation for the Prohibition of Chemical Weapons) confirmed that the Syrian government used sarin and chlorine gas against civilians in various attacks.",
+    "verdict": "True",
+    "sources": [
+      "OPCW Reports",
+      "United Nations"
+    ]
+  },
+  {
+    "id": "caesar-act",
+    "claim": "U.S. Caesar Act sanctions crippled the Syrian economy to limit Russian and Iranian influence.",
+    "context": "Enacted in 2019, the Caesar Syria Civilian Protection Act targeted anyone doing business with the Assad regime. These sanctions remain partially in effect today as leverage.",
+    "verdict": "True",
+    "sources": [
+      "U.S. Department of State",
+      "Congressional Research Service"
+    ]
+  },
+  {
+    "id": "hts-terrorist-designation",
+    "claim": "HTS (Hayat Tahrir al-Sham) is internationally recognized as a terrorist organization.",
+    "context": "HTS evolved from the al-Qaeda-linked al-Nusra Front. Following their takeover of Syria in late 2024, there is ongoing international debate about whether to remove this terrorist designation given their new status as a de facto government.",
+    "verdict": "Context Needed",
+    "sources": [
+      "UN Security Council",
+      "International Crisis Group"
+    ]
+  },
+  {
+    "id": "russian-intervention",
+    "claim": "Russia's 2015 military intervention and UNSC vetoes prevented the Assad regime from falling earlier.",
+    "context": "Russia launched an intensive air campaign in September 2015 that turned the tide of the war in Assad's favor. Additionally, Russia and China used their veto power at the UN Security Council over a dozen times to block sanctions and investigations.",
+    "verdict": "True",
+    "sources": [
+      "UN Security Council Records",
+      "Amnesty International"
+    ]
+  },
+  {
+    "id": "refugee-crisis",
+    "claim": "The Syrian Civil War resulted in over 500,000 deaths and millions of refugees.",
+    "context": "The conflict is one of the largest humanitarian crises of the 21st century. More than half of Syria's pre-war population was displaced, with millions fleeing to neighboring countries and Europe.",
+    "verdict": "True",
+    "sources": [
+      "UNHCR",
+      "Syrian Observatory for Human Rights"
+    ]
+  }
+]

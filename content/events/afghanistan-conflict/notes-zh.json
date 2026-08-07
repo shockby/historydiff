@@ -1,0 +1,87 @@
+{
+  "eventId": "afghanistan-conflict",
+  "notes": [
+    {
+      "id": "af-us-withdrawal-2021",
+      "claim": "2021年8月美军撤离是\"有计划的\"还是\"混乱的\"？",
+      "context": "拜登政府将撤离描述为\"有计划、有秩序的撤离\"，但塔利班攻占喀布尔（8月15日）比最初预估提前了数月，美国国务院和国防部内部也因情报评估失误受到质疑。喀布尔机场发生的自杀式炸弹袭击（由ISKP实施）造成13名美军士兵和170余名阿富汗人死亡。",
+      "verdict": "官方记录已确认撤离过程中发生了严重混乱",
+      "sources": [
+        {
+          "title": "After-Action Review: U.S. Withdrawal from Afghanistan",
+          "url": "https://www.state.gov/",
+          "publisher": "美国国务院",
+          "type": "government"
+        },
+        {
+          "title": "SIGAR Reports",
+          "url": "https://www.sigar.mil/",
+          "publisher": "阿富汗重建特别监察长",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-frozen-assets",
+      "claim": "美国冻结了约70亿美元的阿富汗央行资产",
+      "context": "2021年8月塔利班建立政权后，美国冻结了存放在美联储的阿富汗央行资产。其中35亿美元于2022年转入人道主义支持基金（FAFG）。剩余35亿美元与9·11遇难者家属的诉讼纠缠在一起，法律争议持续。",
+      "verdict": "资产冻结事实已确认（法律处置尚未解决）",
+      "sources": [
+        {
+          "title": "Executive Order on Afghanistan's Frozen Assets",
+          "url": "https://www.whitehouse.gov/",
+          "publisher": "白宫",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-women-rights",
+      "claim": "塔利班全面禁止女孩就读初中及以上学校",
+      "context": "2022年3月，塔利班当局在初高中复课当天突然禁止女生上学。2022年12月，女性大学教育也遭禁止。2023年4月，女性在NGO工作也被禁止。联合国谴责上述措施为\"性别种族隔离\"。",
+      "verdict": "联合国及国际机构已确认的政策（与国际法严重相悖）",
+      "sources": [
+        {
+          "title": "UN Report: Taliban Restrictions on Women",
+          "url": "https://www.ohchr.org/",
+          "publisher": "联合国人权事务高级专员办事处",
+          "type": "international"
+        },
+        {
+          "title": "Gender Persecution in Afghanistan",
+          "url": "https://www.amnesty.org/",
+          "publisher": "国际特赦组织",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "af-cost-of-war",
+      "claim": "美国在阿富汗战争中耗资逾2万亿美元",
+      "context": "布朗大学\"战争代价\"项目估算，包括退伍军人长期医疗费用在内，美国与阿富汗相关的支出达2.3万亿美元。该数字不包括北约及其他盟国的费用。",
+      "verdict": "基于研究机构的估算（计算方法可能与官方统计有所不同）",
+      "sources": [
+        {
+          "title": "Costs of the 20-Year War on Terror",
+          "url": "https://watson.brown.edu/costsofwar/",
+          "publisher": "布朗大学战争代价项目",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "af-china-etim",
+      "claim": "中国要求塔利班禁止支持东突厥斯坦伊斯兰运动（ETIM）",
+      "context": "ETIM（东突厥斯坦独立运动武装组织）据称在阿富汗有据点，被视为对中国新疆政策的威胁。包括这一问题在内的安全合作是中国与塔利班外交谈判的核心。美国于2020年撤销了对ETIM的恐怖主义认定，但中国和俄罗斯仍维持该认定。",
+      "verdict": "中国的要求已确认（ETIM实际威胁规模评估存在分歧）",
+      "sources": [
+        {
+          "title": "China-Taliban Relations and the ETIM",
+          "url": "https://www.cfr.org/",
+          "publisher": "美国外交关系委员会",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

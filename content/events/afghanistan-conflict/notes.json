@@ -1,0 +1,93 @@
+{
+  "eventId": "afghanistan-conflict",
+  "notes": [
+    {
+      "id": "af-us-withdrawal-2021",
+      "claim": "2021年8月の米軍撤退は「計画的」だったか「混乱した」撤退だったか",
+      "context": "バイデン政権は撤退を「計画的かつ秩序ある撤退」と表現したが、タリバンのカブール制圧（8月15日）は当初の想定より数ヶ月早く、米国務省・国防総省内でも情報評価の失敗が問題視された。カブール空港での爆発テロ（ISKP）により米兵13名・アフガニスタン人170名超が死亡。",
+      "verdict": "撤退過程に重大な混乱があったことは公式記録で確認済み",
+      "sources": [
+        {
+          "title": "After-Action Review: U.S. Withdrawal from Afghanistan",
+          "url": "https://www.state.gov/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        },
+        {
+          "title": "Special Inspector General for Afghanistan Reconstruction (SIGAR) Reports",
+          "url": "https://www.sigar.mil/",
+          "publisher": "SIGAR",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-frozen-assets",
+      "claim": "米国はアフガニスタンの中央銀行資産約70億ドルを凍結している",
+      "context": "2021年8月のタリバン政権樹立後、米国は連邦準備銀行に預けられていたアフガニスタン中央銀行資産を凍結した。うち35億ドルは2022年に人道支援ファンド（FAFG）に振り向けられた。残り35億ドルは9/11被害者遺族による訴訟と絡み、法的係争が続く。",
+      "verdict": "資産凍結の事実は確認済み（法的処理は未解決）",
+      "sources": [
+        {
+          "title": "Executive Order on Afghanistan's Frozen Assets",
+          "url": "https://www.whitehouse.gov/",
+          "publisher": "White House",
+          "type": "government"
+        },
+        {
+          "title": "Afghan Fund for Afghanistan",
+          "url": "https://www.state.gov/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "af-women-rights",
+      "claim": "タリバンは女子の中学校以上への就学を全面的に禁止している",
+      "context": "2022年3月、タリバン当局は中学・高校再開当日に突然、女子生徒の登校を禁止した。2022年12月には女子の大学教育も禁止。2023年4月には女性のNGO勤務も禁止された。国連はこれらの措置を「ジェンダーアパルトヘイト」と表現し非難している。",
+      "verdict": "国連・国際機関により確認済みの政策（国際法との整合性は強く否定される）",
+      "sources": [
+        {
+          "title": "UN Report: Taliban Restrictions on Women",
+          "url": "https://www.ohchr.org/",
+          "publisher": "UN Human Rights Office",
+          "type": "international"
+        },
+        {
+          "title": "Gender Persecution in Afghanistan",
+          "url": "https://www.amnesty.org/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "af-cost-of-war",
+      "claim": "米国はアフガニスタン戦争に2兆ドル以上を費やした",
+      "context": "ブラウン大学の「戦争のコスト」プロジェクトの推計では、米国のアフガニスタン関連支出は退役軍人医療費の長期コストを含めると2兆3000億ドルに達するとされる。この数字にはNATOや他の同盟国の費用は含まれていない。",
+      "verdict": "研究機関の試算に基づく（公式統計とは計算方法が異なる場合がある）",
+      "sources": [
+        {
+          "title": "Costs of the 20-Year War on Terror: $8 Trillion and 900,000 Deaths",
+          "url": "https://watson.brown.edu/costsofwar/",
+          "publisher": "Brown University Costs of War Project",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "af-china-etim",
+      "claim": "中国はタリバンに東トルキスタン・イスラム運動（ETIM）への支援禁止を要求している",
+      "context": "ETIM（東トルキスタン独立運動の武装組織）はアフガニスタンに拠点を持つとされ、中国の新疆政策に対する脅威と見なされている。中国とタリバンの間では、この問題を含む安全保障協力が外交交渉の核心となっている。米国は2020年にETIMのテロ指定を解除したが、中国・ロシアは依然テロ指定を維持。",
+      "verdict": "中国の要求は確認済み（ETIMの実際の脅威規模は評価が分かれる）",
+      "sources": [
+        {
+          "title": "China-Taliban Relations and the ETIM",
+          "url": "https://www.cfr.org/",
+          "publisher": "Council on Foreign Relations",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

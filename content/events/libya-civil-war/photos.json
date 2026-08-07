@@ -1,0 +1,21 @@
+{
+  "eventId": "libya-civil-war",
+  "photos": [
+    {
+      "id": "tripoli-conflict",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/libya-civil-war/tripoli-conflict.jpg",
+      "caption": {
+        "ja": "2011年10月、リビア内戦終盤の戦闘の様子。NATOの支援を受けた反カダフィ派勢力が各地で激戦を繰り広げ、カダフィ政権は同年10月に崩壊した。",
+        "en": "Combat scene from the final stages of the Libyan Civil War in October 2011. NATO-backed anti-Gaddafi forces fought intense battles across the country, and the Gaddafi regime collapsed in October of that year.",
+        "zh": "2011年10月利比亚内战末期的战斗场景。在北约支持下的反卡扎菲武装在各地展开激战，卡扎菲政权于同年10月崩溃。",
+        "ko": "2011년 10월 리비아 내전 말기의 전투 모습. NATO의 지원을 받은 반카다피 세력이 각지에서 격전을 벌였으며, 카다피 정권은 같은 해 10월 붕괴했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – Libyan Civil War in October 2011",
+        "url": "https://commons.wikimedia.org/wiki/File:Libyan_Civil_War_in_October_2011_(07).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Al Jazeera English"
+      }
+    }
+  ]
+}

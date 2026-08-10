@@ -1,0 +1,125 @@
+{
+  "eventId": "iberian-enclaves",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "ie-voice-1",
+      "country": {
+        "ja": "スペイン",
+        "en": "Spain"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "セウタとメリーリャはモロッコ独立より数百年前からスペイン領だ。植民地と呼ぶのは歴史の歪曲だ。私たちはそこで生まれ育ち、スペイン人として生きている。返還などありえない。",
+        "en": "Ceuta and Melilla have been Spanish for centuries before Morocco even existed as a country. Calling them colonies is a distortion of history. People there were born and raised as Spaniards. There is no question of return."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "モロッコとの国境問題や移民流入が報じられるたびにスペインのSNSで広がるナショナリスト的意見。特に2021年のセウタ移民危機以降に顕著。",
+        "en": "Nationalist sentiment that surges on Spanish social media whenever border tensions with Morocco or migration crises are reported. Particularly prominent since the 2021 Ceuta migration crisis."
+      },
+      "keywords": [
+        "#CeutaEsEspaña",
+        "#MelillaEsEspaña",
+        "#EspañaUnida"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "ie-voice-2",
+      "country": {
+        "ja": "モロッコ",
+        "en": "Morocco"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "スブタ（セウタ）とムリーリャ（メリーリャ）はモロッコ固有の領土だ。スペインはジブラルタルの返還をイギリスに求めながら、自分たちは北アフリカの植民地を手放さない。これは明らかな二重基準だ。",
+        "en": "Sebta and Mriya are inherently Moroccan territory. Spain demands Gibraltar back from Britain while refusing to give up its own colonies in North Africa. This is an obvious double standard."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "特に外交危機やスペインとの領土問題が話題になる際に、モロッコのSNSや政治言論で広がる意見。",
+        "en": "Opinion that spreads across Moroccan social media and political discourse, especially during diplomatic crises or when Spain-Morocco territorial disputes gain public attention."
+      },
+      "keywords": [
+        "#سبتة_ومليلية_مغربيتان",
+        "#SebtaMoroccan",
+        "#MriyaMoroccan"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "ie-voice-3",
+      "country": {
+        "ja": "イギリス（ジブラルタル住民）",
+        "en": "United Kingdom (Gibraltar residents)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "私たちは自分たちがブリティッシュであることを選んだ。住民投票を2回行い、結果は明白だ。スペインは私たちの選択を尊重すべきだ。Brexit後の不確実性の中でも、私たちはジブラルタル人であることに誇りを持っている。",
+        "en": "We have chosen to be British. We voted twice, and the result is clear. Spain should respect our choice. Despite the uncertainty after Brexit, we are proud to be Gibraltarians."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ジブラルタル住民がSNSや現地メディアで発信する意見。Brexit以降、EU市民権を失ったことへの複雑な思いと、イギリス帰属への強い意識が共存している。",
+        "en": "Views expressed by Gibraltar's residents on social media and local outlets. Since Brexit, the loss of EU citizenship has created complex feelings, yet allegiance to Britain remains strong."
+      },
+      "keywords": [
+        "#Gibraltar",
+        "#GibraltarIsOurs",
+        "#GibraltarBritish"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "ie-voice-4",
+      "country": {
+        "ja": "スペイン（リベラル・批判派）",
+        "en": "Spain (Liberal / Critical)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "スペインがジブラルタルの返還を要求しながら、セウタ・メリーリャをモロッコに返さないのは矛盾だ。歴史的文脈は理解するが、住民の意思や人権も考慮した誠実な議論が必要だ。",
+        "en": "It is contradictory for Spain to demand Gibraltar while refusing to return Ceuta and Melilla to Morocco. I understand the historical context, but an honest debate must take into account residents' wishes and human rights."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "スペイン国内の進歩派・左派の間で見られる批判的意見。植民地主義の遺産を自己批判的に捉える立場からの声。",
+        "en": "Critical view found among progressive and left-leaning voices in Spain, reflecting a self-critical stance toward the country's colonial legacy."
+      },
+      "keywords": [
+        "#Descolonización",
+        "#Gibraltar",
+        "#CeutaMelilla"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "ie-voice-5",
+      "country": {
+        "ja": "国際社会・第三者視点",
+        "en": "International Community / Third-party View"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "ジブラルタル・セウタ・メリーリャはいずれも国連が植民地として問題視している地域だ。しかし住民がどこに帰属したいかを決める権利（自決権）と、脱植民地化原則のどちらを優先するかが未解決のまま残っている。",
+        "en": "Gibraltar, Ceuta, and Melilla are all territories the UN views as problematic from a colonial standpoint. Yet the question of which principle takes precedence—the right of residents to self-determination or the principle of decolonization—remains unresolved."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国際政治を分析するジャーナリストや研究者が指摘する客観的な視点。特に国連の非自治地域リストと自決権の矛盾に着目した議論。",
+        "en": "An objective view articulated by international political journalists and researchers, focusing particularly on the contradiction between the UN list of Non-Self-Governing Territories and the right to self-determination."
+      },
+      "keywords": [
+        "#Decolonization",
+        "#SelfDetermination",
+        "#Gibraltar",
+        "#Ceuta"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

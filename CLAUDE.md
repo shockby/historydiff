@@ -89,6 +89,10 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
 
 #### 写真 JSONファイル（`photos.json`）
 
+> [!CAUTION]
+> `photos.json` のルート構造は必ず **オブジェクト** `{ "eventId": "...", "photos": [...] }` にすること。
+> 配列 `[...]` を直接ルートに書くと、Next.js の SSG プリレンダリング時に `TypeError: Cannot read properties of undefined (reading 'length')` が発生してビルドが失敗する。
+
 ```json
 {
   "eventId": "<event-id>",
@@ -121,10 +125,18 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
 4. ダウンロードした画像を配置する。方法として以下のいずれかを選択する：
    - **R2 CDN方式**: Cloudflare R2バケット（`historydiff-photos`）の `events/<event-id>/` 配下にアップロードする
    - **ローカル配置方式 (推奨/代替)**: AIエージェントなどR2へのアップロード権限がない場合やR2の画像が破損している場合は、ローカルの `public/images/events/<event-id>/` ディレクトリ配下に保存する。
-5. `photos.json` の `url` フィールドには、画像のパスを指定する：
+5. **R2 アップロードコマンド** (`--remote` フラグ必須):
+   ```bash
+   # ⚠️ --remote を省略するとローカルエミュレータに書き込まれ、本番 R2 に反映されない
+   ./node_modules/.bin/wrangler r2 object put historydiff-photos/events/<event-id>/<filename> \
+     --file=public/images/events/<event-id>/<filename> \
+     --content-type=image/jpeg \
+     --remote
+   ```
+6. `photos.json` の `url` フィールドには、画像のパスを指定する：
    - R2 CDN方式: `https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/<event-id>/<filename>`
    - ローカル配置方式: `/images/events/<event-id>/<filename>`
-6. ローカルサーバーを起動するか、ビルドを実行して画像が正常に表示されるか確認する
+7. ローカルサーバーを起動するか、ビルドを実行して画像が正常に表示されるか確認する
 
 ---
 

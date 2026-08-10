@@ -36,9 +36,9 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
     });
   });
 
-  // Default: the first country that appears across all events
-  const defaultCountry = events[0]?.perspectives[0]?.country ?? '';
-  const [selectedCountry, setSelectedCountry] = useState<string>(defaultCountry);
+  // Default: prefer '日本' (or 'Japan'), otherwise fall back to the first country
+  const preferredDefault = allCountries.find(c => ['日本', 'Japan'].includes(c)) || (events[0]?.perspectives[0]?.country ?? '');
+  const [selectedCountry, setSelectedCountry] = useState<string>(preferredDefault);
 
   // ── For a given event, pick the perspective for the selected country ────
   const getPerspective = (event: { perspectives: EventPerspective[] }): EventPerspective & { isMatch: boolean } => {

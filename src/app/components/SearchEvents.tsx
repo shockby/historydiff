@@ -26,6 +26,27 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
   const events = initialEvents || [];
 
+  // ── Collect all unique countries across events ──────────────────────────
+  const allCountries: string[] = [];
+  events.forEach((event) => {
+    event.perspectives.forEach((p) => {
+      if (p.country && !allCountries.includes(p.country)) {
+        allCountries.push(p.country);
+      }
+    });
+  });
+
+  // Default: the first country that appears across all events
+  const defaultCountry = events[0]?.perspectives[0]?.country ?? '';
+  const [selectedCountry, setSelectedCountry] = useState<string>(defaultCountry);
+
+  // ── For a given event, pick the perspective for the selected country ────
+  const getPerspective = (event: { perspectives: EventPerspective[] }): EventPerspective & { isMatch: boolean } => {
+    const match = event.perspectives.find((p) => p.country === selectedCountry);
+    if (match) return { ...match, isMatch: true };
+    return { ...(event.perspectives[0]!), isMatch: false };
+  };
+
   const filteredEvents = events.filter((event) => {
     const query = searchTerm.toLowerCase();
     const first = event.perspectives[0];
@@ -57,6 +78,19 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
   const eventLink = (id: string) => activeLang === 'en' ? `/events/${id}` : `/${activeLang}/events/${id}`;
 
+  // ── Perspective label ───────────────────────────────────────────────────
+  const perspectiveBarLabel = activeLang === 'ja'
+    ? '視点を選択'
+    : activeLang === 'zh' ? '选择视角'
+    : activeLang === 'ko' ? '관점 선택'
+    : 'Select Perspective';
+
+  const fallbackLabel = activeLang === 'ja'
+    ? '（視点なし）'
+    : activeLang === 'zh' ? '（无此视角）'
+    : activeLang === 'ko' ? '（관점 없음）'
+    : '(No perspective)';
+
   return (
     <>
       {/* Hero section */}
@@ -72,7 +106,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
       {/* Archive section */}
       <section style={{ marginTop: '2rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
           <h2 style={{ fontSize: '1.5rem', borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
             {t.comparisonArchive}
           </h2>
@@ -108,6 +142,91 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
             ))}
           </div>
         </div>
+
+        {/* ── Perspective switcher pill bar ── */}
+        {viewMode === 'grid' && allCountries.length > 1 && (
+          <div style={{
+            marginBottom: '1.5rem',
+            padding: '0.9rem 1.2rem',
+            background: 'rgba(255,255,255,0.02)',
+            border: '1px solid rgba(255,255,255,0.07)',
+            borderRadius: '14px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.75rem',
+            flexWrap: 'wrap',
+          }}>
+            <span style={{
+              fontSize: '0.78rem',
+              fontWeight: 600,
+              color: 'var(--text-secondary)',
+              whiteSpace: 'nowrap',
+              letterSpacing: '0.03em',
+            }}>
+              {perspectiveBarLabel}:
+            </span>
+            <div style={{
+              display: 'flex',
+              gap: '0.4rem',
+              flexWrap: 'wrap',
+              flex: 1,
+            }}>
+              {allCountries.map((country) => {
+                const isActive = country === selectedCountry;
+                // How many events have this country's perspective?
+                const coverCount = events.filter(e => e.perspectives.some(p => p.country === country)).length;
+                return (
+                  <button
+                    key={country}
+                    onClick={() => setSelectedCountry(country)}
+                    title={`${coverCount} / ${events.length} events`}
+                    style={{
+                      padding: '0.3rem 0.85rem',
+                      borderRadius: '20px',
+                      border: isActive
+                        ? '1px solid rgba(224,46,46,0.7)'
+                        : '1px solid rgba(255,255,255,0.1)',
+                      background: isActive
+                        ? 'rgba(224,46,46,0.18)'
+                        : 'rgba(255,255,255,0.04)',
+                      color: isActive ? '#fff' : 'var(--text-secondary)',
+                      fontSize: '0.82rem',
+                      fontWeight: isActive ? 700 : 500,
+                      cursor: 'pointer',
+                      whiteSpace: 'nowrap',
+                      transition: 'all 0.18s ease',
+                      outline: 'none',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.35rem',
+                    }}
+                    onMouseEnter={e => {
+                      if (!isActive) {
+                        e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
+                        e.currentTarget.style.color = '#fff';
+                      }
+                    }}
+                    onMouseLeave={e => {
+                      if (!isActive) {
+                        e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
+                        e.currentTarget.style.color = 'var(--text-secondary)';
+                      }
+                    }}
+                  >
+                    {country}
+                    <span style={{
+                      fontSize: '0.68rem',
+                      opacity: 0.55,
+                      fontWeight: 400,
+                    }}>
+                      {coverCount}/{events.length}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Search + sort — only shown in grid and timeline modes */}
         {viewMode !== 'map' && (
@@ -166,27 +285,53 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '2rem' }}>
           {sortedEvents.length > 0 ? (
             sortedEvents.map((event) => {
-              const first = event.perspectives[0];
+              const { isMatch, ...persp } = getPerspective(event);
               return (
                 <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
-                  <div title={first.title} className="card glass" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', width: '100%' }}>
+                  <div
+                    title={persp.title}
+                    className="card glass"
+                    style={{
+                      padding: 0,
+                      overflow: 'hidden',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      width: '100%',
+                      opacity: isMatch ? 1 : 0.6,
+                      transition: 'opacity 0.2s ease',
+                    }}
+                  >
                     {event.imageUrl && (
                       <div className="card-image-container">
                         <img
                           src={event.imageUrl}
-                          alt={first.title}
+                          alt={persp.title}
                           loading="lazy"
                           className="card-image"
                         />
                       </div>
                     )}
                     <div className="card-content">
-                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
-                        <span className="badge">{first.category}</span>
-                        <span className="badge">{first.year}</span>
-                        <span className="badge">{first.location}</span>
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+                        {/* Perspective badge — highlight if matched */}
+                        <span
+                          className="badge"
+                          style={isMatch ? {
+                            background: 'rgba(224,46,46,0.15)',
+                            color: '#f87171',
+                            border: '1px solid rgba(224,46,46,0.3)',
+                          } : {
+                            background: 'rgba(255,255,255,0.05)',
+                            color: 'var(--text-secondary)',
+                            fontStyle: 'italic',
+                          }}
+                        >
+                          {isMatch ? persp.country : fallbackLabel}
+                        </span>
+                        <span className="badge">{persp.category}</span>
+                        <span className="badge">{persp.year}</span>
                       </div>
-                      <h4 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem' }}>{first.title}</h4>
+                      <h4 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem' }}>{persp.title}</h4>
                       <p style={{
                         color: 'var(--text-secondary)',
                         fontSize: '0.9rem',
@@ -197,7 +342,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                         WebkitLineClamp: 3,
                         WebkitBoxOrient: 'vertical',
                       }}>
-                        {first.content.slice(0, 150)}...
+                        {persp.content.slice(0, 150)}...
                       </p>
                       <div style={{
                         marginTop: 'auto',
@@ -212,7 +357,20 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                         <span>{t.compareTarget}</span>
                         <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap' }}>
                           {event.perspectives.map((p) => (
-                            <span key={p.country} style={{ padding: '2px 8px', borderRadius: '4px', background: 'rgba(255,255,255,0.05)' }}>
+                            <span
+                              key={p.country}
+                              style={{
+                                padding: '2px 8px',
+                                borderRadius: '4px',
+                                background: p.country === selectedCountry
+                                  ? 'rgba(224,46,46,0.15)'
+                                  : 'rgba(255,255,255,0.05)',
+                                color: p.country === selectedCountry
+                                  ? '#f87171'
+                                  : 'inherit',
+                                fontWeight: p.country === selectedCountry ? 600 : 400,
+                              }}
+                            >
                               {p.country}
                             </span>
                           ))}

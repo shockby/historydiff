@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, Suspense, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import DiffView from '@/app/components/DiffView';
 import CommunityNotes from '@/app/components/CommunityNotes';
@@ -8,7 +8,7 @@ import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
 import { EventPerspective, EventNotes, EventPhotos, EventVoices } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
-import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight } from 'lucide-react';
+import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 
 interface EventPageClientProps {
@@ -19,6 +19,8 @@ interface EventPageClientProps {
   initialVoices?: EventVoices | null;
   lang: string;
 }
+
+type ViewMode = 'read' | 'diff';
 
 function useIsMobile(breakpoint = 768) {
   const [isMobile, setIsMobile] = useState(false);
@@ -32,12 +34,268 @@ function useIsMobile(breakpoint = 768) {
   return isMobile;
 }
 
+// ── Perspective Switcher Bar ──────────────────────────────────────────────
+interface PerspectiveSwitcherProps {
+  perspectives: EventPerspective[];
+  activeIndex: number;
+  onSelect: (idx: number) => void;
+  viewMode: ViewMode;
+  onViewModeChange: (mode: ViewMode) => void;
+  lang: Language;
+}
+
+function PerspectiveSwitcher({
+  perspectives, activeIndex, onSelect, viewMode, onViewModeChange, lang,
+}: PerspectiveSwitcherProps) {
+  const readLabel  = lang === 'ja' ? '読む'   : lang === 'zh' ? '阅读'   : lang === 'ko' ? '읽기'   : 'Read';
+  const diffLabel  = lang === 'ja' ? '差分比較' : lang === 'zh' ? '差异比较' : lang === 'ko' ? '비교'    : 'Compare';
+
+  return (
+    <div
+      style={{
+        position: 'sticky',
+        top: '61px', // site-header height
+        zIndex: 90,
+        background: 'rgba(10,10,12,0.85)',
+        backdropFilter: 'blur(16px)',
+        WebkitBackdropFilter: 'blur(16px)',
+        borderBottom: '1px solid rgba(255,255,255,0.07)',
+        padding: '0.6rem 1.5rem',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: '1rem',
+        flexWrap: 'wrap',
+      }}
+    >
+      {/* Perspective pills */}
+      <div style={{
+        display: 'flex',
+        gap: '0.4rem',
+        overflowX: 'auto',
+        scrollbarWidth: 'none',
+        WebkitOverflowScrolling: 'touch',
+        flex: 1,
+        minWidth: 0,
+      }}>
+        {perspectives.map((p, idx) => {
+          const active = idx === activeIndex;
+          return (
+            <button
+              key={idx}
+              onClick={() => onSelect(idx)}
+              style={{
+                padding: '0.35rem 0.9rem',
+                borderRadius: '20px',
+                border: active
+                  ? '1px solid rgba(224,46,46,0.7)'
+                  : '1px solid rgba(255,255,255,0.1)',
+                background: active
+                  ? 'rgba(224,46,46,0.18)'
+                  : 'rgba(255,255,255,0.04)',
+                color: active ? '#fff' : 'var(--text-secondary)',
+                fontSize: '0.82rem',
+                fontWeight: active ? 700 : 500,
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                flexShrink: 0,
+                transition: 'all 0.18s ease',
+                outline: 'none',
+              }}
+              onMouseEnter={e => {
+                if (!active) {
+                  e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
+                  e.currentTarget.style.color = '#fff';
+                }
+              }}
+              onMouseLeave={e => {
+                if (!active) {
+                  e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
+                  e.currentTarget.style.color = 'var(--text-secondary)';
+                }
+              }}
+            >
+              {p.country}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Mode toggle */}
+      <div style={{
+        display: 'flex',
+        gap: '0.3rem',
+        background: 'rgba(255,255,255,0.05)',
+        borderRadius: '20px',
+        padding: '0.25rem',
+        border: '1px solid rgba(255,255,255,0.08)',
+        flexShrink: 0,
+      }}>
+        {(['read', 'diff'] as ViewMode[]).map(mode => {
+          const isActive = viewMode === mode;
+          return (
+            <button
+              key={mode}
+              onClick={() => onViewModeChange(mode)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.35rem',
+                padding: '0.3rem 0.75rem',
+                borderRadius: '16px',
+                border: 'none',
+                background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
+                color: isActive ? '#fff' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: isActive ? 700 : 500,
+                cursor: 'pointer',
+                transition: 'all 0.18s ease',
+                outline: 'none',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {mode === 'read'
+                ? <><BookOpen size={12} /> {readLabel}</>
+                : <><GitCompare size={12} /> {diffLabel}</>
+              }
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ── Single Perspective Read View ──────────────────────────────────────────
+function SinglePerspectiveView({
+  perspective, lang, isMobile,
+}: { perspective: EventPerspective; lang: Language; isMobile: boolean }) {
+  const t = translations[lang] || translations.en;
+
+  const paragraphs = perspective.content
+    .split(/\n{2,}/)
+    .map(s => s.replace(/\n/g, ' ').trim())
+    .filter(Boolean);
+
+  return (
+    <section
+      className="card glass"
+      style={{
+        marginBottom: '2rem',
+        padding: isMobile ? '1.5rem' : '2.5rem',
+        animation: 'fadeInUp 0.22s ease-out forwards',
+      }}
+    >
+      <style>{`
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(8px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
+
+      {/* Meta row */}
+      <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
+        <span className="badge" style={{ background: 'rgba(224,46,46,0.15)', color: '#f87171', border: '1px solid rgba(224,46,46,0.3)' }}>
+          {perspective.country}
+        </span>
+        <span className="badge">{perspective.category}</span>
+        <span className="badge">{perspective.year}</span>
+        <span className="badge">{perspective.location}</span>
+      </div>
+
+      {/* Title */}
+      <h3 style={{
+        fontSize: isMobile ? '1.15rem' : '1.4rem',
+        fontWeight: 700,
+        marginBottom: '0.5rem',
+        lineHeight: 1.4,
+        color: 'var(--foreground)',
+      }}>
+        {perspective.title}
+      </h3>
+
+      {/* Source */}
+      <p style={{
+        fontSize: '0.8rem',
+        color: 'var(--text-secondary)',
+        fontStyle: 'italic',
+        marginBottom: '2rem',
+        paddingBottom: '1.5rem',
+        borderBottom: '1px solid rgba(255,255,255,0.07)',
+      }}>
+        {t.source}: {perspective.source}
+      </p>
+
+      {/* Body text */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
+        {paragraphs.map((para, i) => (
+          <p
+            key={i}
+            style={{
+              fontSize: isMobile ? '0.92rem' : '1rem',
+              lineHeight: 1.85,
+              color: 'var(--foreground)',
+              opacity: 0.9,
+            }}
+            dangerouslySetInnerHTML={{
+              __html: para
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>'),
+            }}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// ── Desktop Summary Table ─────────────────────────────────────────────────
+function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspective[]; lang: Language }) {
+  const t = translations[lang] || translations.en;
+  return (
+    <section className="card glass" style={{ marginBottom: '3rem', overflow: 'hidden' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem', color: 'var(--foreground)' }}>
+        <CheckCircle2 size={18} />
+        <h3 style={{ fontSize: '1.1rem', fontWeight: 700 }}>{t.perspectiveSummary}</h3>
+      </div>
+      <div style={{ overflowX: 'auto' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem', minWidth: `${perspectives.length * 180}px` }}>
+          <thead>
+            <tr>
+              <th style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid var(--card-border)', color: 'var(--text-secondary)', fontWeight: 600, width: '100px' }}>{t.tableItem}</th>
+              {perspectives.map((p) => (
+                <th key={p.country} style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid var(--card-border)', color: 'var(--foreground)', fontWeight: 700 }}>{p.country}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {([
+              [t.tableTitle,    (p: EventPerspective) => p.title],
+              [t.tableCategory, (p: EventPerspective) => <span className="badge">{p.category}</span>],
+              [t.tableEra,      (p: EventPerspective) => p.year],
+              [t.tableSource,   (p: EventPerspective) => <span style={{ fontStyle: 'italic', fontSize: '0.8rem' }}>{p.source}</span>],
+              [t.tableExcerpt,  (p: EventPerspective) => p.content.trim().split('\n')[0].slice(0, 120) + '…'],
+            ] as [string, (p: EventPerspective) => React.ReactNode][]).map(([label, render]) => (
+              <tr key={label as string}>
+                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>{label as string}</td>
+                {perspectives.map((p) => (
+                  <td key={p.country + label} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)' }}>{render(p)}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
+
+// ── Mobile Summary Cards ──────────────────────────────────────────────────
 function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspective[]; lang: Language }) {
   const [activeTab, setActiveTab] = useState(0);
   const p = perspectives[activeTab];
   const t = translations[lang] || translations.en;
   if (!p) return null;
-
   return (
     <section className="card glass" style={{ marginBottom: '3rem', overflow: 'hidden' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem', color: 'var(--foreground)' }}>
@@ -59,10 +317,10 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
         {[
-          [t.tableTitle, <span style={{ color: 'var(--foreground)', textAlign: 'right', maxWidth: '60%' }}>{p.title}</span>],
+          [t.tableTitle,    <span style={{ color: 'var(--foreground)', textAlign: 'right', maxWidth: '60%' }}>{p.title}</span>],
           [t.tableCategory, <span className="badge">{p.category}</span>],
-          [t.tableEra, <span style={{ color: 'var(--foreground)' }}>{p.year}</span>],
-          [t.tableSource, <span style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right', maxWidth: '60%' }}>{p.source}</span>],
+          [t.tableEra,      <span style={{ color: 'var(--foreground)' }}>{p.year}</span>],
+          [t.tableSource,   <span style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right', maxWidth: '60%' }}>{p.source}</span>],
         ].map(([label, value], i) => (
           <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5rem 0', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
             <span style={{ color: 'var(--text-secondary)', fontWeight: 600 }}>{label as string}</span>
@@ -81,46 +339,7 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
   );
 }
 
-function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspective[]; lang: Language }) {
-  const t = translations[lang] || translations.en;
-  return (
-    <section className="card glass" style={{ marginBottom: '3rem', overflow: 'hidden' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem', color: 'var(--foreground)' }}>
-        <CheckCircle2 size={18} />
-        <h3 style={{ fontSize: '1.1rem', fontWeight: 700 }}>{t.perspectiveSummary}</h3>
-      </div>
-      <div style={{ overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem', minWidth: `${perspectives.length * 180}px` }}>
-          <thead>
-            <tr>
-              <th style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid var(--card-border)', color: 'var(--text-secondary)', fontWeight: 600, width: '100px' }}>{t.tableItem}</th>
-              {perspectives.map((p) => (
-                <th key={p.country} style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid var(--card-border)', color: 'var(--foreground)', fontWeight: 700 }}>{p.country}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {([
-              [t.tableTitle, (p: EventPerspective) => p.title],
-              [t.tableCategory, (p: EventPerspective) => <span className="badge">{p.category}</span>],
-              [t.tableEra, (p: EventPerspective) => p.year],
-              [t.tableSource, (p: EventPerspective) => <span style={{ fontStyle: 'italic', fontSize: '0.8rem' }}>{p.source}</span>],
-              [t.tableExcerpt, (p: EventPerspective) => p.content.trim().split('\n')[0].slice(0, 120) + '…'],
-            ] as [string, (p: EventPerspective) => React.ReactNode][]).map(([label, render]) => (
-              <tr key={label as string}>
-                <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontWeight: 600 }}>{label as string}</td>
-                {perspectives.map((p) => (
-                  <td key={p.country + label} style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-secondary)' }}>{render(p)}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  );
-}
-
+// ── Main Event Page ───────────────────────────────────────────────────────
 function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
@@ -130,8 +349,9 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   const photos = initialPhotos ?? null;
   const voices = initialVoices ?? null;
 
-  const [leftIndex, setLeftIndex] = useState(0);
-  const [rightIndex, setRightIndex] = useState(1);
+  const [activeIndex, setActiveIndex]   = useState(0);
+  const [viewMode,    setViewMode]      = useState<ViewMode>('read');
+  const [rightIndex,  setRightIndex]    = useState(1);
   const isMobile = useIsMobile();
 
   const homeLink = activeLang === 'en' ? '/' : `/${activeLang}`;
@@ -147,8 +367,8 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
     );
   }
 
-  const left = perspectives[leftIndex] || perspectives[0];
-  const right = perspectives[rightIndex] || perspectives[Math.min(1, perspectives.length - 1)];
+  const left  = perspectives[activeIndex] || perspectives[0];
+  const right = perspectives[rightIndex]  || perspectives[Math.min(1, perspectives.length - 1)];
 
   const getPerspectiveLabel = (countryName: string) => {
     if (activeLang === 'ja') return `${countryName} の記述`;
@@ -156,116 +376,157 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
     return `${countryName}'s Description`;
   };
 
+  // Prevent left === right in diff mode
+  const safeRightIndex = rightIndex === activeIndex
+    ? perspectives.findIndex((_, i) => i !== activeIndex)
+    : rightIndex;
+  const safeRight = perspectives[safeRightIndex] ?? perspectives[0];
+
   return (
-    <div className="container" style={{ paddingBottom: '10rem', padding: isMobile ? '1rem' : '2rem' }}>
-      <header style={{ marginBottom: isMobile ? '2rem' : '3rem' }}>
-        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
-          <span className="badge" style={{ background: 'var(--accent)', color: 'white', border: 'none' }}>{t.archive}</span>
-          <span className="badge">{left.category}</span>
-          <span className="badge">{left.year}</span>
-          <span className="badge">{left.location}</span>
-        </div>
-        <h2 className="title-gradient" style={{ fontSize: isMobile ? '1.6rem' : '2.5rem', marginBottom: '1rem' }}>{left.title}</h2>
-        <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.9rem' : '1.1rem', maxWidth: '900px' }}>
-          {t.compareHelp}
-        </p>
-      </header>
-
-      {photos && <PhotoGallery photos={photos} lang={activeLang} />}
-
-      {isMobile
-        ? <MobileSummaryCards perspectives={perspectives} lang={activeLang} />
-        : <DesktopSummaryTable perspectives={perspectives} lang={activeLang} />
-      }
-
-      {isMobile ? (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.5rem' }}>
-          <div className="card glass" style={{ borderLeft: '4px solid #f85149', padding: '1rem' }}>
-            <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.sourcePerspective}</label>
-            <select value={leftIndex} onChange={(e) => setLeftIndex(Number(e.target.value))}
-              style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
-              {perspectives.map((p, idx) => (
-                <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
-              ))}
-            </select>
-            <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
-          </div>
-          <button onClick={() => { setLeftIndex(rightIndex); setRightIndex(leftIndex); }} style={{
-            alignSelf: 'center', display: 'flex', alignItems: 'center', gap: '0.4rem',
-            padding: '0.4rem 1rem', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.15)',
-            background: 'rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontSize: '0.75rem', fontWeight: 500, cursor: 'pointer',
-          }}>
-            <ArrowLeftRight size={14} /> {t.swap}
-          </button>
-          <div className="card glass" style={{ borderLeft: '4px solid #3fb950', padding: '1rem' }}>
-            <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.targetPerspective}</label>
-            <select value={rightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
-              style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
-              {perspectives.map((p, idx) => (
-                <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
-              ))}
-            </select>
-            <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{right.source}</span></div>
-          </div>
-        </div>
-      ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
-          <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
-            <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.sourcePerspective}</label>
-            <select value={leftIndex} onChange={(e) => setLeftIndex(Number(e.target.value))}
-              style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1.2rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
-              {perspectives.map((p, idx) => (
-                <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
-              ))}
-            </select>
-            <div style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
-          </div>
-          <div className="card glass" style={{ borderLeft: '4px solid #3fb950' }}>
-            <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.targetPerspective}</label>
-            <select value={rightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
-              style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1.2rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
-              {perspectives.map((p, idx) => (
-                <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
-              ))}
-            </select>
-            <div style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{right.source}</span></div>
-          </div>
-        </div>
+    <>
+      {/* ── Sticky perspective switcher bar ── */}
+      {perspectives.length > 0 && (
+        <PerspectiveSwitcher
+          perspectives={perspectives}
+          activeIndex={activeIndex}
+          onSelect={(idx) => { setActiveIndex(idx); }}
+          viewMode={viewMode}
+          onViewModeChange={setViewMode}
+          lang={activeLang}
+        />
       )}
 
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)' }}>
-          {isMobile ? <Rows3 size={18} /> : <Columns size={18} />}
-          <span style={{ fontSize: '0.85rem', fontWeight: 600 }}>{t.diffViewer} {isMobile ? '(Unified)' : '(Side-by-Side)'}</span>
-        </div>
-        <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', fontSize: isMobile ? '0.7rem' : '0.8rem', color: 'var(--text-secondary)' }}>
-          <span style={{ color: '#f85149' }}>{t.deletedDiff}</span>
-          <span style={{ margin: '0 0.3rem' }}>|</span>
-          <span style={{ color: '#3fb950' }}>{t.addedDiff}</span>
-        </div>
+      <div className="container" style={{ paddingBottom: '10rem', padding: isMobile ? '1rem' : '2rem' }}>
+        {/* ── Page header ── */}
+        <header style={{ marginBottom: isMobile ? '2rem' : '3rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+            <span className="badge" style={{ background: 'var(--accent)', color: 'white', border: 'none' }}>{t.archive}</span>
+            <span className="badge">{left.category}</span>
+            <span className="badge">{left.year}</span>
+            <span className="badge">{left.location}</span>
+          </div>
+          <h2 className="title-gradient" style={{ fontSize: isMobile ? '1.6rem' : '2.5rem', marginBottom: '1rem' }}>
+            {left.title}
+          </h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.9rem' : '1.1rem', maxWidth: '900px' }}>
+            {viewMode === 'read' ? t.perspectiveSummary : t.compareHelp}
+          </p>
+        </header>
+
+        {/* ── Photos ── */}
+        {photos && <PhotoGallery photos={photos} lang={activeLang} />}
+
+        {/* ── Read mode: single perspective ── */}
+        {viewMode === 'read' && (
+          <>
+            <SinglePerspectiveView
+              perspective={left}
+              lang={activeLang}
+              isMobile={isMobile}
+            />
+            {/* All-perspectives summary (collapsed) */}
+            {isMobile
+              ? <MobileSummaryCards perspectives={perspectives} lang={activeLang} />
+              : <DesktopSummaryTable perspectives={perspectives} lang={activeLang} />
+            }
+          </>
+        )}
+
+        {/* ── Diff mode ── */}
+        {viewMode === 'diff' && (
+          <>
+            {isMobile
+              ? <MobileSummaryCards perspectives={perspectives} lang={activeLang} />
+              : <DesktopSummaryTable perspectives={perspectives} lang={activeLang} />
+            }
+
+            {/* Left = active perspective (from switcher); Right = selectable */}
+            {isMobile ? (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.5rem' }}>
+                <div className="card glass" style={{ borderLeft: '4px solid #f85149', padding: '1rem' }}>
+                  <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.sourcePerspective}</label>
+                  <div style={{ fontSize: '1rem', fontWeight: 700, color: '#fff' }}>{getPerspectiveLabel(left.country)}</div>
+                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
+                </div>
+                <button onClick={() => {
+                  const newRight = safeRightIndex;
+                  setActiveIndex(newRight);
+                  setRightIndex(activeIndex);
+                }} style={{
+                  alignSelf: 'center', display: 'flex', alignItems: 'center', gap: '0.4rem',
+                  padding: '0.4rem 1rem', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.15)',
+                  background: 'rgba(255,255,255,0.05)', color: 'var(--text-secondary)', fontSize: '0.75rem', fontWeight: 500, cursor: 'pointer',
+                }}>
+                  <ArrowLeftRight size={14} /> {t.swap}
+                </button>
+                <div className="card glass" style={{ borderLeft: '4px solid #3fb950', padding: '1rem' }}>
+                  <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.targetPerspective}</label>
+                  <select value={safeRightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
+                    style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
+                    {perspectives.map((p, idx) => idx !== activeIndex && (
+                      <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
+                    ))}
+                  </select>
+                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{safeRight.source}</span></div>
+                </div>
+              </div>
+            ) : (
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
+                <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
+                  <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.sourcePerspective}</label>
+                  <div style={{ fontSize: '1.2rem', fontWeight: 700, color: '#fff', marginBottom: '0.5rem' }}>{getPerspectiveLabel(left.country)}</div>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
+                </div>
+                <div className="card glass" style={{ borderLeft: '4px solid #3fb950' }}>
+                  <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.targetPerspective}</label>
+                  <select value={safeRightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
+                    style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1.2rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
+                    {perspectives.map((p, idx) => idx !== activeIndex && (
+                      <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
+                    ))}
+                  </select>
+                  <div style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{safeRight.source}</span></div>
+                </div>
+              </div>
+            )}
+
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)' }}>
+                {isMobile ? <Rows3 size={18} /> : <Columns size={18} />}
+                <span style={{ fontSize: '0.85rem', fontWeight: 600 }}>{t.diffViewer} {isMobile ? '(Unified)' : '(Side-by-Side)'}</span>
+              </div>
+              <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', fontSize: isMobile ? '0.7rem' : '0.8rem', color: 'var(--text-secondary)' }}>
+                <span style={{ color: '#f85149' }}>{t.deletedDiff}</span>
+                <span style={{ margin: '0 0.3rem' }}>|</span>
+                <span style={{ color: '#3fb950' }}>{t.addedDiff}</span>
+              </div>
+            </div>
+
+            <DiffView
+              oldValue={left.content}
+              newValue={safeRight.content}
+              oldTitle={getPerspectiveLabel(left.country)}
+              newTitle={getPerspectiveLabel(safeRight.country)}
+            />
+          </>
+        )}
+
+        {/* ── Community Notes & Voices (both modes) ── */}
+        {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
+        {voices && voices.voices.length > 0 && <PublicVoices voices={voices} lang={activeLang} />}
+
+        {/* ── Footer note ── */}
+        <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem', color: 'var(--foreground)' }}>
+            <Info size={20} />
+            <h4 style={{ fontSize: isMobile ? '1rem' : '1.2rem', fontWeight: 700 }}>{t.notesTitle}</h4>
+          </div>
+          <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.85rem' : '0.95rem', lineHeight: '1.8' }}>
+            {t.notesText(left.country, safeRight.country)}
+          </p>
+        </section>
       </div>
-
-      <DiffView
-        oldValue={left.content}
-        newValue={right.content}
-        oldTitle={getPerspectiveLabel(left.country)}
-        newTitle={getPerspectiveLabel(right.country)}
-      />
-
-      {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
-
-      {voices && voices.voices.length > 0 && <PublicVoices voices={voices} lang={activeLang} />}
-
-      <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem', color: 'var(--foreground)' }}>
-          <Info size={20} />
-          <h4 style={{ fontSize: isMobile ? '1rem' : '1.2rem', fontWeight: 700 }}>{t.notesTitle}</h4>
-        </div>
-        <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.85rem' : '0.95rem', lineHeight: '1.8' }}>
-          {t.notesText(left.country, right.country)}
-        </p>
-      </section>
-    </div>
+    </>
   );
 }
 

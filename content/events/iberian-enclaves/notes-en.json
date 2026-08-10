@@ -1,0 +1,75 @@
+{
+  "eventId": "iberian-enclaves",
+  "notes": [
+    {
+      "id": "ie-utrecht-treaty-1713",
+      "claim": "The Treaty of Utrecht (1713) permanently ceded Gibraltar from Spain to Britain",
+      "context": "Article 10 of the Treaty of Utrecht (13 July 1713), concluded at the end of the War of the Spanish Succession, explicitly states that King Philip V of Spain ceded to the Crown of Great Britain 'the full and entire propriety of the town and castle of Gibraltar, together with the port, fortifications and forts thereunto belonging'. However, the treaty included a right-of-first-refusal clause stipulating that if Britain ever wished to relinquish Gibraltar, it should first offer it back to Spain—a provision Spain cites as one basis for its continuing claim.",
+      "verdict": "Treaty text confirmed (interpretations differ)",
+      "sources": [
+        {
+          "title": "Treaty of Utrecht (1713) - Text",
+          "url": "https://www.avalon.law.yale.edu/18th_century/utrecht.asp",
+          "publisher": "Yale University Avalon Project",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ie-gibraltar-referendum-2002",
+      "claim": "In the 2002 referendum, 98.5% of Gibraltar's residents rejected the proposed Spain-UK joint sovereignty arrangement",
+      "context": "In a referendum held on 7 November 2002, 98.5% of Gibraltar's voters rejected the joint sovereignty proposal under discussion between Britain and Spain (voter turnout: 87.9%). The vote was organized by the Gibraltar Government; Spain refused to recognize its legal validity, characterizing it as a misuse of the right to self-determination. The United Nations continues to list Gibraltar as a Non-Self-Governing Territory, underscoring the complex international legal dimensions of the dispute.",
+      "verdict": "Referendum took place (legal interpretations differ)",
+      "sources": [
+        {
+          "title": "Gibraltar Sovereignty Referendum 2002",
+          "url": "https://www.gibraltar.gov.gi/",
+          "publisher": "Government of Gibraltar",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ie-ceuta-portuguese-1415",
+      "claim": "Ceuta was conquered by Portugal in 1415 and confirmed as Spanish territory by the Treaty of Lisbon in 1668",
+      "context": "Ceuta was conquered by Portugal under King John I on 21 August 1415, becoming one of the first European colonial possessions in North Africa. It came under Spanish rule through the Iberian Union in 1580, and the Treaty of Lisbon (1668) formally confirmed Spanish succession. Morocco as an independent nation-state came into existence only in 1956, meaning Spain's presence in Ceuta predates Moroccan independence by more than five centuries—a fact that is historically uncontested.",
+      "verdict": "Confirmed as historical fact",
+      "sources": [
+        {
+          "title": "Ceuta - Historical Overview",
+          "url": "https://www.britannica.com/place/Ceuta",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ie-un-non-self-governing",
+      "claim": "Gibraltar appears on the UN list of Non-Self-Governing Territories and is subject to decolonization",
+      "context": "Under Article 73 of the UN Charter, Gibraltar has been listed as a Non-Self-Governing Territory since 1946. The UN General Assembly has called on Spain and the UK to enter into bilateral negotiations through multiple resolutions (e.g., Resolution 2353 (XXII), 1967). Gibraltar's residents assert their right to self-determination and previously benefited from EU membership rights, though their relationship with the EU changed significantly following Brexit. The territory's listing raises an unresolved question of international law: which principle takes precedence—the 'colonial situation' framing or the self-expressed will of the inhabitants?",
+      "verdict": "UN listing confirmed (legal interpretations differ)",
+      "sources": [
+        {
+          "title": "UN Non-Self-Governing Territories - Gibraltar",
+          "url": "https://www.un.org/dppa/decolonization/en/nsgt/gibraltar",
+          "publisher": "UN Committee on Decolonization",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ie-melilla-1497",
+      "claim": "Melilla has been Spanish since 1497, approximately 460 years before Moroccan independence (1956)",
+      "context": "Melilla was captured on 17 September 1497 by the House of Medina-Sidonia under the Crown of Castile, making it one of the oldest Spanish possessions in North Africa. Its current population is approximately 84,000, with a diverse mix of Spanish, Berber, Jewish, and Hindu communities. Morocco has repeatedly called for the return of Melilla, but Spain maintains that its sovereignty predates Moroccan independence by nearly five centuries. No significant diplomatic progress has been made on this issue.",
+      "verdict": "Confirmed as historical fact",
+      "sources": [
+        {
+          "title": "Melilla - Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/place/Melilla",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

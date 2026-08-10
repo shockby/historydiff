@@ -1,0 +1,47 @@
+{
+  "eventId": "iberian-enclaves",
+  "photos": [
+    {
+      "id": "ie-gibraltar-aerial",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/iberian-enclaves/gibraltar-rock.jpg",
+      "caption": {
+        "ja": "ジブラルタルの航空写真（2011年）。地中海とスペイン本土の境界に位置するこの戦略的要衝は1704年以来イギリスの支配下にある。古代より「ヘラクレスの柱」の一つとして知られ、地中海への出入口を制する軍事的要地であり続けている。",
+        "en": "Aerial view of Gibraltar (2011). This strategic stronghold at the entrance to the Mediterranean has been under British control since 1704. Known since antiquity as one of the Pillars of Hercules, it has long commanded the gateway between the Atlantic and the Mediterranean."
+      },
+      "source": {
+        "title": "Wikimedia Commons - Aerial-view-Gibraltar-2011.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Aerial-view-Gibraltar-2011.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons contributor"
+      }
+    },
+    {
+      "id": "ie-ceuta-border",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/iberian-enclaves/ceuta-border.jpg",
+      "caption": {
+        "ja": "セウタとモロッコの国境フェンス。北アフリカに位置するスペイン領セウタとモロッコの境界線には、EU外からの不法入国を防ぐための高度なセキュリティフェンスが設置されている。毎年多数の移民がこの国境を越えようとしており、欧州移民問題の象徴的な場所となっている。",
+        "en": "The border fence between Ceuta (Spain) and Morocco. The boundary between this Spanish enclave in North Africa and Morocco is fortified with sophisticated security fencing designed to prevent unauthorized entry into the EU. Each year, large numbers of migrants attempt to cross this border, making it one of the most symbolic flashpoints of the European migration debate."
+      },
+      "source": {
+        "title": "Wikimedia Commons - Spanish-Moroccan border (Ceuta-Sebta).JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Spanish-Moroccan_border_(Ceuta-Sebta).JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Wikimedia Commons contributor"
+      }
+    },
+    {
+      "id": "ie-canary-islands-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/iberian-enclaves/canary-islands.png",
+      "caption": {
+        "ja": "カナリア諸島の位置図。スペイン本土から約1,000km、アフリカ大陸から約100kmの大西洋上に位置する。グラン・カナリア島、テネリフェ島など7つの主要島からなるスペインの自治州であり、EUの最遠隔地域（ORs）の一つ。15世紀の征服以来スペイン領であり続けているが、その地理的位置から脱植民地化をめぐる議論の対象となることがある。",
+        "en": "Location map of the Canary Islands. Situated in the Atlantic Ocean approximately 1,000 km from mainland Spain and around 100 km from the African continent. An autonomous community of Spain comprising seven main islands including Gran Canaria and Tenerife, and one of the EU's Outermost Regions (ORs). Spanish since the fifteenth-century conquest, the islands' geographic position has occasionally made them a subject of decolonization debates."
+      },
+      "source": {
+        "title": "Wikimedia Commons - Spain Canary Islands location map with Spain.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Spain_Canary_Islands_location_map_with_Spain.png",
+        "license": "Public Domain",
+        "author": "Wikimedia Commons contributor"
+      }
+    }
+  ]
+}

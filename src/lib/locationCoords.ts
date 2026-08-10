@@ -44,4 +44,5 @@ export const eventCoords: Record<string, LatLng> = {
   'unit731': { lat: 45.75, lng: 126.6 },                 // Harbin, NE China
   'volhynia-massacre': { lat: 50.74, lng: 25.32 },       // Volhynia, Western Ukraine
   'ww2-asia': { lat: 35.0, lng: 115.0 },                 // Mainland China (general)
+  'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
 };

@@ -34,3 +34,12 @@ const MapView = dynamic(() => import('./MapView'), { ssr: false });
 - ブラウザの `localStorage` / `sessionStorage` を使うコンポーネント
 - CDN から `fetch` してレンダリングするコンポーネント
 <!-- END:nextjs-dynamic-import -->
+
+<!-- BEGIN:perspective-ui-rules -->
+## 多視点UI & コード品質ルール
+
+1. **視点（Perspective）のデフォルト選択**:
+   - 多視点を切替表示するUIコンポーネントでは、表示言語（`ja`, `en` 等）に合わせて該当する自国視点（日本語表示なら「日本」/「Japan」）を優先して初期選択状態（デフォルト）に指定すること。
+2. **Nullish Coalescing演算子 (`??`) の構文規則**:
+   - `||` 演算子と `??` 演算子を同一式で組み合わせる場合、SWC/Turbopackのパーサーエラーを防止するため、必ず括弧 `(a ?? b)` で囲んでグループ化すること。
+<!-- END:perspective-ui-rules -->

@@ -4,7 +4,7 @@ title: シリア内戦
 category: 戦争・紛争・占領
 year: 2011年-現在
 location: シリア全土
-country: hts
+country: "HTS（新シリア政府）"
 language: ja
 source: HTS（新シリア政府）公式見解
 ---

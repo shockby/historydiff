@@ -4,7 +4,7 @@ title: シリア内戦
 category: 戦争・紛争・占領
 year: 2011年-現在
 location: シリア全土
-country: usa
+country: "アメリカ合衆国"
 language: ja
 source: 米国政府公式見解・主要メディア
 ---

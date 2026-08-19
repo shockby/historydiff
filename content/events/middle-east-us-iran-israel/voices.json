@@ -1,0 +1,157 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "mei-voice-israel",
+      "country": {
+        "ja": "イスラエル",
+        "en": "Israel",
+        "zh": "以色列",
+        "ko": "이스라엘"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "10月7日は決して忘れない。イランが資金を出し、訓練し、命令したテロがイスラエルの民間人を虐殺した。核保有イランは我々の存在そのものへの脅威だ。自衛のための行動をとることは国際法が認める我々の権利だ。",
+        "en": "We will never forget October 7. Iran-funded, Iran-trained, Iran-directed terror massacred Israeli civilians. A nuclear Iran is an existential threat to our very existence. Taking action in self-defense is our right under international law.",
+        "zh": "我们永远不会忘记10月7日。由伊朗资助、训练、指挥的恐怖袭击屠杀了以色列平民。拥有核武器的伊朗是对我们存在本身的威胁。采取自卫行动是国际法赋予我们的权利。",
+        "ko": "10월 7일을 절대 잊지 않겠다. 이란이 자금을 지원하고, 훈련시키고, 명령한 테러가 이스라엘 민간인을 학살했다. 핵을 보유한 이란은 우리의 존재 자체에 대한 위협이다. 자위를 위한 행동을 취하는 것은 국제법이 인정하는 우리의 권리이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ヘブライ語のSNS空間および国際的なユダヤ人コミュニティに広く見られる世論。2023年10月7日以降、支持率が急上昇した。",
+        "en": "Opinion widely seen in the Hebrew social media space and among Jewish communities internationally. Support surged following October 7, 2023.",
+        "zh": "在希伯来语社交媒体空间及国际犹太社区中广泛存在的舆论。2023年10月7日后支持率急剧上升。",
+        "ko": "히브리어 SNS 공간 및 국제 유대인 커뮤니티에서 광범위하게 보이는 여론. 2023년 10월 7일 이후 지지율이 급상승했다."
+      },
+      "keywords": [
+        "#BringThemHome",
+        "#NeverAgainIsNow",
+        "#StandWithIsrael"
+      ],
+      "timeframe": "2023-2025"
+    },
+    {
+      "id": "mei-voice-iran",
+      "country": {
+        "ja": "イラン",
+        "en": "Iran",
+        "zh": "伊朗",
+        "ko": "이란"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "1953年から米国はイランの民主主義を踏みにじってきた。我々の核施設への攻撃は侵略であり、国際法違反だ。イスラム共和国は倒れない。パレスチナ人民との連帯は変わらない。",
+        "en": "Since 1953, the U.S. has trampled on Iranian democracy. The attack on our nuclear facilities is an act of aggression and a violation of international law. The Islamic Republic will not fall. Our solidarity with the Palestinian people is unwavering.",
+        "zh": "自1953年以来，美国就一直践踏伊朗的民主。对我们核设施的攻击是侵略行为，违反国际法。伊斯兰共和国不会倒塌。我们与巴勒斯坦人民的团结永不改变。",
+        "ko": "1953년부터 미국은 이란의 민주주의를 짓밟아 왔다. 우리 핵 시설에 대한 공격은 침략 행위이며 국제법 위반이다. 이슬람 공화국은 쓰러지지 않는다. 팔레스타인 인민과의 연대는 변함없다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "イラン国内のSNS（Telegram・Instagram）や、イラン政府系メディアで見られる愛国的・反米的世論。若年層には体制批判も混在する。",
+        "en": "Patriotic and anti-American sentiment seen on Iranian social media (Telegram, Instagram) and government-affiliated media. Criticism of the regime also coexists, particularly among younger generations.",
+        "zh": "在伊朗国内社交媒体（Telegram、Instagram）及伊朗政府媒体上可见的爱国主义反美舆论。年轻群体中也存在对体制的批评声音。",
+        "ko": "이란 국내 SNS(텔레그램, 인스타그램) 및 이란 정부계 미디어에서 보이는 애국적·반미 여론. 젊은 세대에서는 체제 비판도 혼재한다."
+      },
+      "keywords": [
+        "#مقاومت",
+        "#DeathToAmerica",
+        "#FreeGaza"
+      ],
+      "timeframe": "2023-2025"
+    },
+    {
+      "id": "mei-voice-usa-pro",
+      "country": {
+        "ja": "アメリカ合衆国（支持派）",
+        "en": "United States (Supportive)",
+        "zh": "美国（支持派）",
+        "ko": "미국 (지지파)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "イランは核兵器を持つべきでない。テロ支援国家を放置してきた結果が10月7日だ。イスラエルは自衛の権利を持ち、米国はその立場を支持する。",
+        "en": "Iran should not have nuclear weapons. October 7 is what happens when you tolerate a state sponsor of terrorism. Israel has the right to self-defense, and the U.S. stands firmly behind that position.",
+        "zh": "伊朗不应该拥有核武器。10月7日是纵容恐怖主义支持国的后果。以色列有自卫权，美国坚定支持这一立场。",
+        "ko": "이란은 핵무기를 보유해서는 안 된다. 10월 7일은 테러 지원국을 방치한 결과이다. 이스라엘은 자위권을 가지며, 미국은 그 입장을 강력히 지지한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "米国の共和党寄りのSNS空間や、親イスラエル・ロビーを支持するメディア圏での主流世論。",
+        "en": "The mainstream opinion in Republican-leaning U.S. social media spheres and media circles supportive of pro-Israel lobbying.",
+        "zh": "美国偏共和党的社交媒体空间及支持亲以色列游说团体的媒体圈中的主流舆论。",
+        "ko": "미국 공화당 성향 SNS 공간 및 친이스라엘 로비를 지지하는 미디어권에서의 주류 여론."
+      },
+      "keywords": [
+        "#StandWithIsrael",
+        "#MaximumPressure",
+        "#NoNuclearIran"
+      ],
+      "timeframe": "2023-2025"
+    },
+    {
+      "id": "mei-voice-usa-anti",
+      "country": {
+        "ja": "アメリカ合衆国（批判派）",
+        "en": "United States (Critical)",
+        "zh": "美国（批评派）",
+        "ko": "미국 (비판파)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "ガザの民間人の大量死を支援するのか。歴代政権の中東政策こそが今日の混乱を招いた。武器輸出を止め、外交解決を模索すべきだ。",
+        "en": "Are we going to support the mass killing of Gaza's civilians? It is decades of U.S. Middle East policy that created today's chaos. Stop arms exports and pursue a diplomatic solution.",
+        "zh": "我们要支持加沙平民的大规模死亡吗？正是美国历届政府的中东政策造成了今日的混乱。应该停止武器出口，寻求外交解决方案。",
+        "ko": "가자 민간인의 대량 사망을 지원할 것인가. 역대 정권의 중동 정책이야말로 오늘날의 혼란을 초래했다. 무기 수출을 중단하고 외교적 해결을 모색해야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米国の民主党進歩派・学生運動・アラブ系アメリカ人コミュニティに広まる反戦・人道主義的世論。2024年以降キャンパスでの抗議運動として広がった。",
+        "en": "Anti-war and humanitarian sentiment prevalent among progressive Democrats, student movements, and Arab-American communities in the U.S. It spread as campus protest movements from 2024 onward.",
+        "zh": "在美国民主党进步派、学生运动及阿拉伯裔美国人社区中广泛传播的反战人道主义舆论。2024年以来以校园抗议运动的形式蔓延。",
+        "ko": "미국 민주당 진보파·학생 운동·아랍계 미국인 커뮤니티에 퍼진 반전·인도주의적 여론. 2024년 이후 캠퍼스 시위 운동으로 확산되었다."
+      },
+      "keywords": [
+        "#CeasefireNow",
+        "#FreePalestine",
+        "#StopFundingIsrael"
+      ],
+      "timeframe": "2023-2025"
+    },
+    {
+      "id": "mei-voice-palestine",
+      "country": {
+        "ja": "パレスチナ",
+        "en": "Palestine",
+        "zh": "巴勒斯坦",
+        "ko": "팔레스타인"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ガザは集団虐殺の場となっている。76年間の占領と封鎖に終止符を打て。我々は故郷に帰る権利がある。世界は目を覚ませ。",
+        "en": "Gaza has become the site of genocide. End 76 years of occupation and blockade. We have the right to return to our homeland. The world must wake up.",
+        "zh": "加沙已成为种族灭绝的场所。结束76年的占领和封锁。我们有权返回家园。世界必须觉醒。",
+        "ko": "가자는 집단 학살의 현장이 되었다. 76년간의 점령과 봉쇄에 종지부를 찍어라. 우리는 고향에 돌아갈 권리가 있다. 세계여, 깨어나라."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アラビア語のSNSおよびグローバルな連帯運動での主流の声。2023年10月以降、世界各地でデモ・不買運動などに連動した。",
+        "en": "The dominant voice on Arabic social media and in global solidarity movements. Since October 2023, it has been linked to protests and boycott movements worldwide.",
+        "zh": "阿拉伯语社交媒体及全球声援运动中的主流声音。2023年10月以来，与世界各地的抗议和抵制运动相互呼应。",
+        "ko": "아랍어 SNS 및 글로벌 연대 운동에서의 주류 목소리. 2023년 10월 이후 전 세계 시위·불매 운동 등과 연동됐다."
+      },
+      "keywords": [
+        "#FreePalestine",
+        "#Gaza",
+        "#CeasefireNow",
+        "#FromTheRiverToTheSea"
+      ],
+      "timeframe": "2023-2025"
+    }
+  ]
+}

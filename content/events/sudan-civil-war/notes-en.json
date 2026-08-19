@@ -1,0 +1,53 @@
+[
+  {
+    "id": "conflict-origin",
+    "claim": "The April 2023 fighting began when the RSF launched a preemptive strike.",
+    "context": "The SAF and RSF jointly governed Sudan's transition after the fall of the Bashir regime in 2019, but tensions escalated over the integration of the RSF into a unified command. Armed clashes began on April 15, 2023, with both sides blaming the other for firing first.",
+    "verdict": "Context Needed",
+    "sources": [
+      "UN Security Council",
+      "International Crisis Group"
+    ]
+  },
+  {
+    "id": "genocide-darfur",
+    "claim": "The RSF is committing acts tantamount to genocide in Darfur.",
+    "context": "The UN and human rights organizations have documented RSF massacres, sexual violence, and forced displacement targeting non-Arab minorities in Darfur, including the Masalit people. The United States formally designated these acts as genocide in 2024.",
+    "verdict": "True",
+    "sources": [
+      "UN Human Rights Council",
+      "Human Rights Watch",
+      "U.S. Department of State"
+    ]
+  },
+  {
+    "id": "chinese-weapons-rsf",
+    "claim": "Chinese-manufactured weapons have been supplied to the RSF.",
+    "context": "In 2025, Chinese-made drones and guided bombs were confirmed in RSF use, prompting the Sudanese government to formally demand an explanation from Beijing. China has denied any connection to the RSF, but the supply chain details remain unclear.",
+    "verdict": "True (supply route unconfirmed)",
+    "sources": [
+      "ADF Magazine",
+      "Modern Diplomacy"
+    ]
+  },
+  {
+    "id": "hemedti-death-sentence",
+    "claim": "RSF leader Hemedti was sentenced to death by a Sudanese court in July 2026.",
+    "context": "A Sudanese court sentenced Hemedti and 15 associates to death in absentia for war crimes, crimes against humanity, and genocide. The RSF has dismissed the verdict as illegitimate.",
+    "verdict": "True",
+    "sources": [
+      "Sudanese Judiciary",
+      "Associated Press"
+    ]
+  },
+  {
+    "id": "humanitarian-scale",
+    "claim": "The Sudan civil war is one of the largest humanitarian crises of the 21st century.",
+    "context": "As of 2026, millions of people are internally displaced, with rapidly growing numbers of refugees in neighboring countries including Chad, South Sudan, and Egypt. Severe shortages of food, medicine, and shelter persist, prompting urgent UN appeals.",
+    "verdict": "True",
+    "sources": [
+      "UN OCHA",
+      "World Food Programme (WFP)"
+    ]
+  }
+]

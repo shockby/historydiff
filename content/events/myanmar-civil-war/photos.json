@@ -1,0 +1,19 @@
+{
+  "eventId": "myanmar-civil-war",
+  "photos": [
+    {
+      "id": "myanmar-protest",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/myanmar-civil-war/myanmar-protest.jpg",
+      "caption": {
+        "ja": "2021年2月のクーデター直後にミャンマー各地で起きた大規模な抵抗運動。市民は「三本指」のサインを掲げ、軍政への抗議と民主主義の回復を訴えた。",
+        "en": "Mass protests erupted across Myanmar immediately after the February 2021 coup. Citizens raised the three-finger salute, demanding an end to military rule and the restoration of democracy."
+      },
+      "source": {
+        "title": "Wikimedia Commons – 2021 Myanmar protests",
+        "url": "https://commons.wikimedia.org/wiki/File:2021_Myanmar_protests.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Ninjastrikers"
+      }
+    }
+  ]
+}

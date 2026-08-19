@@ -1,0 +1,19 @@
+{
+  "eventId": "sudan-civil-war",
+  "photos": [
+    {
+      "id": "sudan-displacement",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sudan-civil-war/sudan-refugees.jpg",
+      "caption": {
+        "ja": "スーダン内戦により故郷を追われた国内避難民のキャンプ。2023年4月の戦闘勃発以降、数百万人が避難を余儀なくされ、21世紀最大規模の難民危機のひとつとなっている。",
+        "en": "A camp for internally displaced persons (IDPs) in Sudan, uprooted by the civil war. Since fighting erupted in April 2023, millions have been forced to flee, creating one of the largest displacement crises of the 21st century."
+      },
+      "source": {
+        "title": "Wikimedia Commons – Internally displaced people in Sudan",
+        "url": "https://commons.wikimedia.org/wiki/File:Internally_displaced_people_in_Sudan.jpg",
+        "license": "CC BY 2.0",
+        "author": "United Nations Photo"
+      }
+    }
+  ]
+}

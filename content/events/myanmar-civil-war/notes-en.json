@@ -1,0 +1,52 @@
+[
+  {
+    "id": "coup-origin",
+    "claim": "The February 2021 coup was justified by fraud in the 2020 general election.",
+    "context": "The military claimed widespread fraud in the November 2020 election, in which the NLD won by a landslide. International and domestic election observers certified the vote as credible. The fraud claim is widely viewed as a pretext for the coup.",
+    "verdict": "False",
+    "sources": [
+      "International Election Observation Missions",
+      "UN Special Rapporteur on Myanmar"
+    ]
+  },
+  {
+    "id": "civilian-casualties",
+    "claim": "The military has systematically conducted airstrikes on hospitals, schools, and civilian homes.",
+    "context": "The UN and human rights organizations have documented repeated airstrikes on residential areas, medical facilities, and schools. The death toll since 2021 is estimated at over 100,000, with widespread evidence of indiscriminate attacks on civilians.",
+    "verdict": "True",
+    "sources": [
+      "UN Office of the High Commissioner for Human Rights",
+      "Human Rights Watch"
+    ]
+  },
+  {
+    "id": "resistance-territory",
+    "claim": "Resistance forces control approximately 42% of Myanmar's territory.",
+    "context": "As of 2026, estimates suggest ethnic armed organizations (EAOs) and People's Defense Forces (PDFs) control around 42% of Myanmar, compared to the junta's roughly 21%. However, the front lines are fluid and the exact figures are contested.",
+    "verdict": "Broadly True (estimated)",
+    "sources": [
+      "Armed Conflict Location & Event Data Project (ACLED)",
+      "Vision of Humanity"
+    ]
+  },
+  {
+    "id": "china-cmec",
+    "claim": "China supports the junta primarily to protect the China-Myanmar Economic Corridor (CMEC).",
+    "context": "The CMEC is a strategic infrastructure project that gives China an alternative route to the Indian Ocean, bypassing the Strait of Malacca. China has prioritized stability along the corridor, deepening engagement with the junta to safeguard this investment.",
+    "verdict": "True",
+    "sources": [
+      "CSIS",
+      "International Crisis Group"
+    ]
+  },
+  {
+    "id": "asean-five-point",
+    "claim": "ASEAN's Five-Point Consensus (5PC) has largely failed to achieve its objectives.",
+    "context": "The Five-Point Consensus agreed in April 2021—covering cessation of violence, dialogue, humanitarian aid, special envoy access, and follow-up—has seen little substantive progress due to the junta's non-cooperation. Multiple ASEAN members have called for a review of the framework.",
+    "verdict": "True",
+    "sources": [
+      "ASEAN Secretariat",
+      "International Crisis Group"
+    ]
+  }
+]

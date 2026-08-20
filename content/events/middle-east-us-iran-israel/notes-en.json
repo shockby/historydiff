@@ -1,0 +1,89 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "notes": [
+    {
+      "id": "mei-mosaddegh-coup-1953",
+      "claim": "The 1953 ousting of Mosaddegh was orchestrated by the CIA and MI6",
+      "context": "On August 19, 1953, Iranian Prime Minister Mohammad Mosaddegh was removed in a coup. In 2013, the U.S. declassified documents confirming that the CIA organized the coup under 'Operation Ajax.' Britain's MI6 was also involved. The underlying motivation was British and American opposition to Mosaddegh's 1951 nationalization of the Anglo-Iranian Oil Company (now BP). Following his removal, the pro-American Mohammad Reza Shah consolidated power.",
+      "verdict": "Official record exists (CIA officially acknowledged involvement in 2013)",
+      "sources": [
+        {
+          "title": "CIA Confirms Role in 1953 Iran Coup (National Security Archive)",
+          "url": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup",
+          "publisher": "George Washington University National Security Archive",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-revolution-1979",
+      "claim": "The 1979 Iranian Islamic Revolution brought Ayatollah Khomeini to power",
+      "context": "The Shah left Iran on January 16, 1979, and Ayatollah Khomeini returned from Paris to Tehran on February 1. On April 1, the Islamic Republic of Iran was officially declared following a national referendum. On November 4, student militants seized the U.S. Embassy, holding 52 diplomats hostage for 444 days (known in Iran as the 'Embassy Takeover Incident'). This triggered the U.S. severance of diplomatic relations with Iran and the imposition of economic sanctions.",
+      "verdict": "Official record exists",
+      "sources": [
+        {
+          "title": "Iran Hostage Crisis — Jimmy Carter Presidential Library",
+          "url": "https://www.jimmycarterlibrary.gov/research/iran_hostage_crisis",
+          "publisher": "Jimmy Carter Presidential Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-jcpoa-2015",
+      "claim": "The 2015 JCPOA committed Iran to nuclear limitations in exchange for sanctions relief",
+      "context": "On July 14, 2015, Iran and the P5+1 (U.S., UK, France, China, Russia, plus Germany) and the EU agreed to the Joint Comprehensive Plan of Action (JCPOA). Iran agreed to limit uranium enrichment levels, quantities, and the number of centrifuges, and to accept IAEA inspections, in exchange for the phased lifting of economic sanctions. In May 2018, President Trump unilaterally withdrew, calling it 'the worst deal ever,' and re-imposed 'maximum pressure' sanctions. Iran began incrementally exceeding JCPOA limits on its nuclear activities from 2019 onward.",
+      "verdict": "Official record exists (U.S. withdrawal in 2018 and Iran's gradual non-compliance confirmed)",
+      "sources": [
+        {
+          "title": "Joint Comprehensive Plan of Action (JCPOA)",
+          "url": "https://www.iaea.org/topics/jcpoa",
+          "publisher": "International Atomic Energy Agency (IAEA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-oct7-hamas-attack-2023",
+      "claim": "On October 7, 2023, Hamas launched a major surprise attack on Israel, killing over 1,200 people",
+      "context": "At approximately 6:30 a.m. on October 7, 2023, Hamas breached the Gaza barrier and launched a large-scale surprise attack deploying approximately 3,000 fighters into southern Israel. Israeli authorities tallied approximately 1,200 deaths (the majority civilians) and approximately 250 people taken hostage to Gaza. Approximately 360 people were killed at the Nova music festival. Israel characterized this as the largest massacre of Jews since the Holocaust and immediately launched a ground offensive in Gaza. International figures regarding Hamas's casualties and the full scope of coordination continue to vary.",
+      "verdict": "Official record exists (international investigations into the death toll and Hamas coordination continue)",
+      "sources": [
+        {
+          "title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel (UN Human Rights Council)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-israel-opt/index",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-soleimani-killing-2020",
+      "claim": "In January 2020, U.S. forces killed IRGC Quds Force Commander Soleimani in a drone strike",
+      "context": "On January 3, 2020, the U.S. military carried out a drone strike near Baghdad International Airport, killing IRGC Quds Force Commander Qasem Soleimani. President Trump described it as a response to 'an imminent threat.' The Iraqi parliament passed a resolution calling for U.S. troop withdrawal, characterizing it as a violation of Iraqi sovereignty. Iran declared 'vigorous revenge' and launched ballistic missiles at U.S. military bases in Iraq. The legality of a targeted killing on a third country's territory under international law remains disputed among legal experts.",
+      "verdict": "Official record exists (legality under international law disputed)",
+      "sources": [
+        {
+          "title": "UN Special Rapporteur Report on the Killing of Soleimani",
+          "url": "https://www.ohchr.org/en/press-releases/2020/07/killing-iranian-general-soleimani-violated-international-law-un-expert",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-nuclear-strikes-2025",
+      "claim": "In June 2025, Israel and the United States struck Iran's nuclear-related facilities",
+      "context": "In June 2025, the Israeli Air Force and U.S. military conducted precision strikes on Iranian nuclear-related facilities including Fordow, Natanz, and Arak (also referred to as the 'Twelve-Day War'). Iran threatened to close the Strait of Hormuz and launched ballistic missile counterstrikes. The IAEA reported no significant release of nuclear material, but the extent of damage to facilities and the degree of disruption to nuclear activities remains contested internationally. At the UN Security Council, the United States and United Kingdom vetoed a censure resolution.",
+      "verdict": "Strikes confirmed (scale of damage and legal justification under ongoing international review)",
+      "sources": [
+        {
+          "title": "IAEA Board of Governors — Iran Safeguards Reports",
+          "url": "https://www.iaea.org/topics/iran-and-iaea",
+          "publisher": "International Atomic Energy Agency (IAEA)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

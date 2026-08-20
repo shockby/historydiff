@@ -4,7 +4,7 @@ import { useState, Suspense } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
-import { EventPerspective } from '@/lib/markdown';
+import { EventPerspective, EventNote } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
@@ -13,7 +13,7 @@ import TimelineView from './TimelineView';
 const MapView = dynamic(() => import('./MapView'), { ssr: false });
 
 interface SearchEventsProps {
-  initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
+  initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] }[];
   lang: string;
 }
 

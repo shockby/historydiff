@@ -1,4 +1,4 @@
-import { getAllEvents, getEventPerspectives, getEventPhotos } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes } from '@/lib/markdown';
 import SearchEvents from '@/app/components/SearchEvents';
 
 export async function generateStaticParams() {
@@ -22,10 +22,12 @@ export default async function LocalizedHome({ params }: PageProps) {
     .map((event) => {
       const photos = getEventPhotos(event.id);
       const imageUrl = photos && photos.photos.length > 0 ? photos.photos[0].url : undefined;
+      const notesData = getEventNotes(event.id, lang);
       return {
         id: event.id,
         perspectives: getEventPerspectives(event.id, lang),
         imageUrl,
+        notes: notesData?.notes ?? [],
       };
     })
     .filter((e) => e.perspectives.length > 0);

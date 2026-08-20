@@ -1,0 +1,89 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "notes": [
+    {
+      "id": "mei-mosaddegh-coup-1953",
+      "claim": "1953年のモサッデグ失脚はCIA・MI6の工作によるものである",
+      "context": "1953年8月19日、イランのモハンマド・モサッデグ首相がクーデターで失脚した。米国は2013年に機密解除した公文書で、CIAが「アジャックス作戦（Operation Ajax）」として同クーデターを組織したことを認めた。英国のMI6も関与していた。背景には、モサッデグが1951年にアングロ=イラニアン石油会社（現BP）の資産を国有化したことへの英米の反発があった。失脚後、親米のモハンマド・レザー・シャーが実権を握った。",
+      "verdict": "公式記録あり（CIAが2013年に関与を公式認定）",
+      "sources": [
+        {
+          "title": "CIA Confirms Role in 1953 Iran Coup (National Security Archive)",
+          "url": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup",
+          "publisher": "George Washington University National Security Archive",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-revolution-1979",
+      "claim": "1979年のイラン・イスラム革命でホメイニー師が政権を掌握した",
+      "context": "1979年1月16日にシャー（国王）がイランを離国し、2月1日にホメイニー師がパリからテヘランに帰国。同年4月1日、国民投票によりイラン・イスラム共和国の樹立が宣言された。同年11月4日には学生グループが米国大使館を占拠し、外交官52名を444日間にわたり人質にした（イランでは「大使館乗っ取り事件」）。これを契機に米国はイランと断交し、経済制裁を発動した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Iran Hostage Crisis — Jimmy Carter Presidential Library",
+          "url": "https://www.jimmycarterlibrary.gov/research/iran_hostage_crisis",
+          "publisher": "Jimmy Carter Presidential Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-jcpoa-2015",
+      "claim": "2015年のJCPOAでイランは核開発を制限する合意に署名した",
+      "context": "2015年7月14日、イランとP5+1（米英仏中露＋独）およびEUは「包括的共同行動計画（JCPOA）」に合意した。イランはウラン濃縮レベル・量・遠心分離機数を制限し、国際原子力機関（IAEA）の査察を受け入れる代わりに経済制裁の段階的解除を受けた。2018年5月、トランプ大統領は「最悪の合意」として一方的に離脱し、「最大圧力」制裁を再発動した。イランは2019年以降、段階的にJCPOAの制限を超える核活動を再開した。",
+      "verdict": "公式記録あり（2018年の米国離脱・イランの段階的逸脱は確認済み）",
+      "sources": [
+        {
+          "title": "Joint Comprehensive Plan of Action (JCPOA)",
+          "url": "https://www.iaea.org/topics/jcpoa",
+          "publisher": "International Atomic Energy Agency (IAEA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-oct7-hamas-attack-2023",
+      "claim": "2023年10月7日、ハマスがイスラエルに大規模奇襲攻撃を行い1,200人以上が死亡した",
+      "context": "2023年10月7日午前6時30分頃、ハマスはガザ地区の壁を突破し、イスラエル南部に約3,000人の武装要員を投入する大規模奇襲を実施した。イスラエル当局の集計では約1,200人が死亡（大多数は民間人）、約250人が人質としてガザに連行された。ノヴァ音楽祭では約360人が殺害された。イスラエルはこれをホロコースト以来最大のユダヤ人殺害事件と位置づけ、直ちにガザへの地上作戦を開始した。ハマス側の死者数・人道被害については国際社会で異なる数値が流通している。",
+      "verdict": "公式記録あり（死者数・ハマスとの連携範囲については国際調査が継続中）",
+      "sources": [
+        {
+          "title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel (UN Human Rights Council)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-israel-opt/index",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-soleimani-killing-2020",
+      "claim": "2020年1月、米軍がイラン革命防衛隊コッズ部隊のソレイマニ司令官をドローン攻撃で殺害した",
+      "context": "2020年1月3日、米軍はバグダッド空港近郊でドローン攻撃を実施し、イラン革命防衛隊のコッズ部隊司令官カセム・ソレイマニを殺害した。トランプ大統領は「差し迫った脅威への対応」と主張。イラクはこれを主権侵害として米軍撤退を議会決議し、イランは「積極的抵抗」を宣言してイラク内の米軍基地にミサイルを発射した。国際法上、第三国の領土での標的殺害の合法性については専門家の間で意見が分かれている。",
+      "verdict": "公式記録あり（国際法上の合法性について争いあり）",
+      "sources": [
+        {
+          "title": "UN Special Rapporteur Report on the Killing of Soleimani",
+          "url": "https://www.ohchr.org/en/press-releases/2020/07/killing-iranian-general-soleimani-violated-international-law-un-expert",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-nuclear-strikes-2025",
+      "claim": "2025年6月、イスラエルと米国がイランの核関連施設を攻撃した",
+      "context": "2025年6月、イスラエル空軍と米軍はイランのフォルドゥ・ナタンズ・アラク等の核関連施設に対して精密打撃を実施した（「12日間戦争」とも呼ばれる）。イランはホルムズ海峡の封鎖を示唆し、弾道ミサイルによる報復を行った。IAEAは核物質の大量放出は確認されなかったと報告したが、核活動の中断・施設の損傷程度については国際社会で評価が分かれる。国連安保理では米国・英国が拒否権を行使し、非難決議は成立しなかった。",
+      "verdict": "攻撃の実施は確認済み（被害規模・国際法上の正当性については調査継続中）",
+      "sources": [
+        {
+          "title": "IAEA Board of Governors — Iran Safeguards Reports",
+          "url": "https://www.iaea.org/topics/iran-and-iaea",
+          "publisher": "International Atomic Energy Agency (IAEA)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

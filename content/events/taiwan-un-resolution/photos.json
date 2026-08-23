@@ -3,7 +3,6 @@
   "photos": [
     {
       "id": "un-general-assembly-1971",
-      "filename": "un-general-assembly-1971.png",
       "caption": {
         "ja": "1971年10月25日、国連総会にて決議2758号が採択された。この日から中華民国（台湾）は国連の議席を失い、中華人民共和国が「中国の唯一の合法政府」として国連における代表権を持つこととなった。",
         "en": "On October 25, 1971, the UN General Assembly adopted Resolution 2758. From this day, the Republic of China (Taiwan) lost its UN seat, and the People's Republic of China became the sole recognized representative of China at the United Nations.",
@@ -11,12 +10,12 @@
         "ko": "1971년 10월 25일, 유엔 총회에서 결의안 2758호가 채택되었다. 이날부터 중화민국(대만)은 유엔 의석을 잃었고, 중화인민공화국이 유엔에서 '중국의 유일한 합법 정부'로서 대표권을 갖게 되었다."
       },
       "source": {
-        "title": "Wikimedia Commons",
-        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg",
-        "license": "Public Domain",
-        "author": "United Nations / Public Domain"
+        "title": "UN General Assembly Hall — Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:UN_General_Assembly_hall.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Patrick Gruban"
       },
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/taiwan-un-resolution/un-general-assembly-1971.png"
+      "url": "/images/events/taiwan-un-resolution/un-general-assembly-1971.jpg"
     }
   ]
 }

@@ -1,0 +1,75 @@
+{
+  "eventId": "taiwan-un-resolution",
+  "notes": [
+    {
+      "id": "tur-resolution-2758-text",
+      "claim": "1971年の国連総会決議2758号は「台湾は中国の一部」とは明記していない",
+      "context": "1971年10月25日に採択された決議2758号の本文には「中華人民共和国政府の代表者が国連における中国の唯一の合法的な代表者である」と記されているが、「台湾は中華人民共和国の一部である」という文言は存在しない。決議は中国の国連代表権を中華民国から中華人民共和国に移すことを定めたもの。「台湾の帰属」「台湾住民の政治的地位」については言及なし。中国はこの決議が「一つの中国原則」を確立したと解釈するが、台湾・米国・欧州の研究者の多くはこれを決議文の越権的解釈と批判している。",
+      "verdict": "決議文に「台湾の帰属」の記述はない（各国の解釈に相違）",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 2758 (XXVI) — Restoration of the lawful rights of the People's Republic of China in the United Nations",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/327/74/PDF/NR032774.pdf",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-us-shanghai-communique-1972",
+      "claim": "米国は1972年の上海コミュニケで「台湾は中国の一部」という中国の立場を『承認』ではなく『認識』した",
+      "context": "1972年2月28日のニクソン訪中時の上海コミュニケ（Shanghai Communiqué）において、米国は「台湾海峡の両岸のすべての中国人が、中国はただ一つであり台湾は中国の一部であると主張している（maintains）」という中国側の立場を「認識する（acknowledges）」と表明したが、「承認する（recognizes）」とは書かなかった。この「acknowledge（認識する）」と「recognize（承認する）」の使い分けは外交文書の重要な差異として法学者・外交研究者が注目しており、米国の公式な「一つの中国政策」が中国の「一つの中国原則」と異なることを示す根拠とされている。",
+      "verdict": "コミュニケの文言は公式記録（「acknowledge」と「recognize」の差異は確認済み）",
+      "sources": [
+        {
+          "title": "Joint Communiqué of the United States of America and the People's Republic of China (Shanghai Communiqué, 1972)",
+          "url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d203",
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-taiwan-relations-act-1979",
+      "claim": "米国の1979年「台湾関係法」は中華人民共和国との国交正常化後も台湾への防衛物資提供を法律で規定した",
+      "context": "1979年1月1日の米中国交正常化後、米国は同年4月10日に台湾関係法（Taiwan Relations Act）を制定した。同法は「台湾の人々の安全、社会的または経済的制度に危害を加えるいかなる努力も西太平洋地域の平和と安全に対する脅威であり、米国の重大な関心事である」とし、台湾への「防衛的性格の武器」の供与を継続することを定めた。これは正式な同盟条約ではないが、台湾に対する一定の安全保障の約束として機能している。中国は同法を内政干渉と批判する。",
+      "verdict": "公式記録あり（法律の解釈・実効性については各国で見解が異なる）",
+      "sources": [
+        {
+          "title": "Taiwan Relations Act (Public Law 96-8, 1979)",
+          "url": "https://www.congress.gov/bill/96th-congress/house-bill/2479",
+          "publisher": "U.S. Congress",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-taiwan-exclusion-international-orgs",
+      "claim": "台湾は国連加盟国でないため、WHO・ICAO・INTERPOL等の多くの国際機関から排除されている",
+      "context": "台湾（中華民国）は1971年の決議2758号以降、国連の加盟国でなくなった。その結果、台湾はWHO（世界保健機関）、ICAO（国際民間航空機関）、INTERPOL（国際刑事警察機構）等、多くの国連関連機関にも参加できていない。2020年の新型コロナウイルス流行の初期段階において、台湾のWHOへのアクセス制限が情報共有の遅れを招いたとして国際的批判を呼んだ。台湾は「台湾、澎湖、金門及び馬祖個別関税領域（チャイニーズ・タイペイ）」名義でWTOやAPEC、オリンピック等一部の機関には参加している。",
+      "verdict": "事実（台湾の国際機関排除は確認済み、一部例外あり）",
+      "sources": [
+        {
+          "title": "Taiwan's Participation in International Organizations (Taiwan Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.gov.tw/en/theme.aspx?n=DF6F8F246049F8D6&sms=A76B7230ADF29736",
+          "publisher": "Ministry of Foreign Affairs, Republic of China (Taiwan)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-prc-military-pressure-2022-2024",
+      "claim": "中国は2022年のペロシ訪台・2024年の頼清徳就任以降、台湾周辺での軍事演習を大幅に拡大している",
+      "context": "2022年8月、当時の米国下院議長ナンシー・ペロシが台湾を訪問したことを受け、中国人民解放軍は台湾を包囲する形での大規模軍事演習「東部戦区」を実施した。2024年1月、台湾独立志向とされる民進党の頼清徳が台湾総統選で勝利すると、中国は「台独（台湾独立）」への警戒を強め、同年5月の就任直後にも軍事演習を実施した。米国は台湾海峡での「航行の自由作戦」を定期的に実施しており、両岸の軍事的緊張は2024年以降も高止まりしている。",
+      "verdict": "公式記録あり（演習の規模・意図・影響についての評価は各国で異なる）",
+      "sources": [
+        {
+          "title": "PLA Eastern Theater Command Joint Combat Readiness Patrol and Combat Exercises Around Taiwan (Xinhua, 2022)",
+          "url": "https://www.pladaily.com.cn/",
+          "publisher": "PLA Daily / Taiwan Strait Monitor",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

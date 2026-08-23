@@ -1,0 +1,75 @@
+{
+  "eventId": "taiwan-un-resolution",
+  "notes": [
+    {
+      "id": "tur-resolution-2758-text",
+      "claim": "UN General Assembly Resolution 2758 (1971) does not explicitly state that 'Taiwan is part of China.'",
+      "context": "The text of Resolution 2758, adopted on October 25, 1971, states that 'the representatives of the Government of the People's Republic of China are the only lawful representatives of China to the United Nations,' but contains no language stating that 'Taiwan is part of the People's Republic of China.' The resolution determined that China's UN representation would be transferred from the Republic of China to the People's Republic of China. There is no mention of 'Taiwan's attribution' or 'the political status of Taiwan's inhabitants.' While China interprets the resolution as establishing the 'One China Principle,' many scholars in Taiwan, the United States, and Europe criticize this as an ultra vires reading of the resolution text.",
+      "verdict": "Resolution text contains no statement on Taiwan's attribution (interpretations differ by country)",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 2758 (XXVI) — Restoration of the lawful rights of the People's Republic of China in the United Nations",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/327/74/PDF/NR032774.pdf",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-us-shanghai-communique-1972",
+      "claim": "In the 1972 Shanghai Communiqué, the U.S. 'acknowledged' — rather than 'recognized' — the Chinese position that Taiwan is part of China.",
+      "context": "In the Shanghai Communiqué of February 28, 1972, during Nixon's visit to China, the United States expressed that it 'acknowledges that all Chinese on either side of the Taiwan Strait maintain there is but one China and that Taiwan is a part of China,' using the word 'acknowledges' rather than 'recognizes.' Legal scholars and diplomatic researchers have noted this distinction between 'acknowledge' and 'recognize' as an important difference in diplomatic language, and it serves as the basis for the argument that the U.S. official 'One China Policy' is distinct from China's 'One China Principle.'",
+      "verdict": "The wording of the communiqué is a matter of official record (the distinction between 'acknowledge' and 'recognize' is confirmed)",
+      "sources": [
+        {
+          "title": "Joint Communiqué of the United States of America and the People's Republic of China (Shanghai Communiqué, 1972)",
+          "url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d203",
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-taiwan-relations-act-1979",
+      "claim": "The U.S. Taiwan Relations Act of 1979 legally mandated the continued provision of defensive arms to Taiwan even after diplomatic normalization with the PRC.",
+      "context": "Following diplomatic normalization with the PRC on January 1, 1979, the U.S. enacted the Taiwan Relations Act on April 10 of the same year. The Act states that 'any effort to determine the future of Taiwan by other than peaceful means... would be considered a threat to the peace and security of the Western Pacific area and of grave concern to the United States,' and mandated the continued provision of 'defensive arms' to Taiwan. While not a formal alliance treaty, it functions as a certain security commitment to Taiwan. China criticizes the Act as interference in internal affairs.",
+      "verdict": "Official records available (interpretations of the law's scope and effect differ by country)",
+      "sources": [
+        {
+          "title": "Taiwan Relations Act (Public Law 96-8, 1979)",
+          "url": "https://www.congress.gov/bill/96th-congress/house-bill/2479",
+          "publisher": "U.S. Congress",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-taiwan-exclusion-international-orgs",
+      "claim": "Since Taiwan is not a UN member state, it has been excluded from many international organizations including WHO, ICAO, and INTERPOL.",
+      "context": "Since Resolution 2758 in 1971, Taiwan (Republic of China) is no longer a UN member state. As a result, Taiwan cannot participate in many UN-affiliated agencies including the WHO, ICAO, and INTERPOL. During the early stages of the COVID-19 pandemic in 2020, Taiwan's restricted access to WHO drew international criticism as having delayed information sharing. Taiwan participates in some organizations under the name 'Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu' (Chinese Taipei), including the WTO, APEC, and the Olympics.",
+      "verdict": "Fact (Taiwan's exclusion from international organizations is confirmed, with some exceptions)",
+      "sources": [
+        {
+          "title": "Taiwan's Participation in International Organizations (Taiwan Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.gov.tw/en/theme.aspx?n=DF6F8F246049F8D6&sms=A76B7230ADF29736",
+          "publisher": "Ministry of Foreign Affairs, Republic of China (Taiwan)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tur-prc-military-pressure-2022-2024",
+      "claim": "Since Pelosi's visit to Taiwan in 2022 and Lai Ching-te's inauguration in 2024, China has significantly expanded military exercises around Taiwan.",
+      "context": "In August 2022, following then-U.S. House Speaker Nancy Pelosi's visit to Taiwan, China's People's Liberation Army conducted large-scale military exercises ('Eastern Theater' exercises) encircling Taiwan. In January 2024, when Lai Ching-te of the pro-independence Democratic Progressive Party won Taiwan's presidential election, China heightened its warnings against 'Taiwan independence' and conducted further military exercises shortly after his inauguration in May 2024. The U.S. regularly conducts 'freedom of navigation operations' in the Taiwan Strait, and military tensions across the strait have remained elevated since 2024.",
+      "verdict": "Official records available (evaluations of the scale, intent, and impact of exercises differ by country)",
+      "sources": [
+        {
+          "title": "PLA Eastern Theater Command Joint Combat Readiness Patrol and Combat Exercises Around Taiwan (Xinhua, 2022)",
+          "url": "https://www.pladaily.com.cn/",
+          "publisher": "PLA Daily / Taiwan Strait Monitor",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

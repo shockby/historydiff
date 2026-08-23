@@ -45,4 +45,6 @@ export const eventCoords: Record<string, LatLng> = {
   'volhynia-massacre': { lat: 50.74, lng: 25.32 },       // Volhynia, Western Ukraine
   'ww2-asia': { lat: 35.0, lng: 115.0 },                 // Mainland China (general)
   'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
+  'taiwan-un-resolution': { lat: 23.5, lng: 121.0 },     // Taiwan
+  'western-sahara': { lat: 24.0, lng: -13.0 },           // Western Sahara
 };

@@ -90,6 +90,34 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ui-unsc-veto-feb2022",
+      "claim": "On February 25, 2022, Russia vetoed a UN Security Council draft resolution condemning the invasion of Ukraine.",
+      "context": "On February 25, 2022, the UN Security Council voted on a draft resolution demanding Russia's immediate withdrawal, but Russia exercised its veto to block it (11 in favor, 1 against, 3 abstentions: China, India, UAE). This triggered the convening of the 11th Emergency Special Session under the 'Uniting for Peace' resolution, which adopted Resolution ES-11/1 with overwhelming support (141 in favor, 5 against, 35 abstentions), though without binding force. The structural problem of the Security Council — that permanent members can veto resolutions concerning their own actions — once again sparked international debate.",
+      "verdict": "The veto is a matter of record (ES-11/1 adoption also confirmed)",
+      "sources": [
+        {
+          "title": "UN General Assembly Emergency Special Session Resolution ES-11/1",
+          "url": "https://undocs.org/en/A/RES/ES-11/1",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-icj-provisional-measures-2022",
+      "claim": "In March 2022, the ICJ issued provisional measures ordering Russia to immediately suspend military operations in Ukraine.",
+      "context": "On February 27, 2022, Ukraine filed a case against Russia at the International Court of Justice (ICJ) on grounds of violations of the Genocide Convention. On March 16, 2022, the ICJ issued provisional measures ordering Russia to 'immediately suspend the military operations that it commenced on 24 February 2022' (13 in favor, 2 against). Russia denied the ICJ's jurisdiction and ignored the order, continuing military operations. This case is widely cited as a landmark example of the limits of international legal enforcement mechanisms.",
+      "verdict": "Provisional measures order is a matter of record (Russia refused to comply and denied jurisdiction)",
+      "sources": [
+        {
+          "title": "Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation) — ICJ",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

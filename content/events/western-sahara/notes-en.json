@@ -1,0 +1,61 @@
+{
+  "eventId": "western-sahara",
+  "notes": [
+    {
+      "id": "ws-green-march-1975",
+      "claim": "Morocco's 1975 'Green March' is cited as the basis for its acquisition of Western Sahara after Spain's withdrawal, but its legality is internationally contested.",
+      "context": "In October–November 1975, approximately 350,000 Moroccan civilians entered northern Western Sahara at the call of King Hassan II (the Green March). The Madrid Accords of November 14, 1975 transferred administrative authority from Spain to Morocco and Mauritania. However, the UN General Assembly adopted Resolution 3458 in November 1975, reaffirming the right to self-determination of the Sahrawi people. Many legal scholars question the legal validity of the Madrid Accords, arguing that Spain transferred authority unilaterally without completing the decolonization process.",
+      "verdict": "The Green March and Accords are historical fact (legality contested)",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 3458 (XXX) on Western Sahara (1975)",
+          "url": "https://undocs.org/A/RES/3458(XXX)",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-icj-advisory-1975",
+      "claim": "The 1975 ICJ Advisory Opinion found that Western Sahara was not Morocco's sovereign territory.",
+      "context": "On October 16, 1975, the ICJ issued an advisory opinion on Western Sahara at the request of the UN General Assembly. The ICJ found: (1) Western Sahara was not terra nullius at the time of Spanish colonization; (2) however, no 'tie of territorial sovereignty' between Morocco and Western Sahara existed. Morocco cites the confirmation of 'ties of allegiance' as historical grounds for its claims, while the UN and Polisario interpret the opinion as confirming only 'ties without sovereignty,' thus establishing the need for a self-determination referendum.",
+      "verdict": "Advisory opinion is official record (fundamental disagreement over interpretation)",
+      "sources": [
+        {
+          "title": "ICJ Advisory Opinion on Western Sahara (1975)",
+          "url": "https://www.icj-cij.org/case/61",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-minurso-1991",
+      "claim": "MINURSO, the UN referendum mission established in 1991, has been unable to organize a referendum for over 30 years.",
+      "context": "MINURSO, established by UN Security Council Resolution 690 (1991), is mandated to monitor the ceasefire and organize a referendum. The ceasefire has been maintained since 1991, but negotiations over voter eligibility (voter rolls) collapsed. In November 2020, the Polisario withdrew from the ceasefire agreement and armed clashes resumed, though full-scale war has not been renewed. MINURSO is considered one of the longest-running UN peacekeeping missions to have failed to achieve its founding objective (the referendum).",
+      "verdict": "Fact (ceasefire maintained; referendum not held)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 690 (1991) — Establishment of MINURSO",
+          "url": "https://undocs.org/S/RES/690(1991)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-us-recognition-2020",
+      "claim": "In December 2020, the U.S. under the Trump administration recognized Moroccan sovereignty over Western Sahara.",
+      "context": "On December 10, 2020, President Trump formally recognized Moroccan sovereignty over Western Sahara for the first time as a U.S. president. This was part of a diplomatic deal in which Morocco normalized relations with Israel (joining the Abraham Accords). This recognition explicitly contradicts the UN's official position (Western Sahara is a Non-Self-Governing Territory) and was criticized by the EU, AU, and Polisario as a violation of international law. The Biden administration did not formally reverse this decision after 2021, effectively acquiescing to it.",
+      "verdict": "Recognition is a matter of fact (contradicts UN position; internationally criticized)",
+      "sources": [
+        {
+          "title": "Presidential Proclamation on Recognizing Moroccan Sovereignty over Western Sahara (2020)",
+          "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-sovereignty-kingdom-morocco-western-sahara/",
+          "publisher": "White House (Trump Administration)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

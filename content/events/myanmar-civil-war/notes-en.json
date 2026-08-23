@@ -1,52 +1,101 @@
-[
-  {
-    "id": "coup-origin",
-    "claim": "The February 2021 coup was justified by fraud in the 2020 general election.",
-    "context": "The military claimed widespread fraud in the November 2020 election, in which the NLD won by a landslide. International and domestic election observers certified the vote as credible. The fraud claim is widely viewed as a pretext for the coup.",
-    "verdict": "False",
-    "sources": [
-      "International Election Observation Missions",
-      "UN Special Rapporteur on Myanmar"
-    ]
-  },
-  {
-    "id": "civilian-casualties",
-    "claim": "The military has systematically conducted airstrikes on hospitals, schools, and civilian homes.",
-    "context": "The UN and human rights organizations have documented repeated airstrikes on residential areas, medical facilities, and schools. The death toll since 2021 is estimated at over 100,000, with widespread evidence of indiscriminate attacks on civilians.",
-    "verdict": "True",
-    "sources": [
-      "UN Office of the High Commissioner for Human Rights",
-      "Human Rights Watch"
-    ]
-  },
-  {
-    "id": "resistance-territory",
-    "claim": "Resistance forces control approximately 42% of Myanmar's territory.",
-    "context": "As of 2026, estimates suggest ethnic armed organizations (EAOs) and People's Defense Forces (PDFs) control around 42% of Myanmar, compared to the junta's roughly 21%. However, the front lines are fluid and the exact figures are contested.",
-    "verdict": "Broadly True (estimated)",
-    "sources": [
-      "Armed Conflict Location & Event Data Project (ACLED)",
-      "Vision of Humanity"
-    ]
-  },
-  {
-    "id": "china-cmec",
-    "claim": "China supports the junta primarily to protect the China-Myanmar Economic Corridor (CMEC).",
-    "context": "The CMEC is a strategic infrastructure project that gives China an alternative route to the Indian Ocean, bypassing the Strait of Malacca. China has prioritized stability along the corridor, deepening engagement with the junta to safeguard this investment.",
-    "verdict": "True",
-    "sources": [
-      "CSIS",
-      "International Crisis Group"
-    ]
-  },
-  {
-    "id": "asean-five-point",
-    "claim": "ASEAN's Five-Point Consensus (5PC) has largely failed to achieve its objectives.",
-    "context": "The Five-Point Consensus agreed in April 2021—covering cessation of violence, dialogue, humanitarian aid, special envoy access, and follow-up—has seen little substantive progress due to the junta's non-cooperation. Multiple ASEAN members have called for a review of the framework.",
-    "verdict": "True",
-    "sources": [
-      "ASEAN Secretariat",
-      "International Crisis Group"
-    ]
-  }
-]
+{
+  "eventId": "myanmar-civil-war",
+  "notes": [
+    {
+      "id": "coup-origin",
+      "claim": "The February 2021 coup was carried out citing fraud in the 2020 general election.",
+      "context": "The military claimed there was fraud in the results of the November 2020 election, in which the NLD (National League for Democracy) won by a landslide, but domestic and international election monitors recognized the legitimacy of the election. This claim has been widely criticized as a pretext for the coup.",
+      "verdict": "False (international election monitors certified the election's legitimacy)",
+      "sources": [
+        {
+          "title": "ANFREL Myanmar Election Observation Report (2020)",
+          "url": "https://www.anfrel.org/",
+          "publisher": "Asian Network for Free Elections (ANFREL)",
+          "type": "ngo"
+        },
+        {
+          "title": "UN Special Rapporteur on the Situation of Human Rights in Myanmar",
+          "url": "https://www.ohchr.org/en/special-procedures/sr-myanmar",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "civilian-casualties",
+      "claim": "The military has systematically carried out airstrikes on hospitals, schools, and civilian homes.",
+      "context": "The UN and human rights organizations have reported that the military has repeatedly carried out airstrikes on residential areas, medical facilities, and schools. The death toll since 2021 is said to exceed 100,000, and indiscriminate attacks on civilians have been documented.",
+      "verdict": "Fact (documented by OHCHR and HRW)",
+      "sources": [
+        {
+          "title": "OHCHR Reports on Myanmar",
+          "url": "https://www.ohchr.org/en/countries/myanmar",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch — Myanmar",
+          "url": "https://www.hrw.org/asia/burma",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "resistance-territory",
+      "claim": "Resistance forces control approximately 42% of Myanmar's territory.",
+      "context": "As of 2026, estimates indicate that ethnic armed organizations (EAOs) and the People's Defence Force (PDF) control approximately 42% of the country, while the military junta controls only about 21%. However, the front lines are fluid and the exact figures are disputed.",
+      "verdict": "Largely fact (estimated figures; front lines are fluid)",
+      "sources": [
+        {
+          "title": "ACLED Myanmar Conflict Data",
+          "url": "https://acleddata.com/data-export-tool/",
+          "publisher": "Armed Conflict Location & Event Data Project (ACLED)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "china-cmec",
+      "claim": "China is supporting the military junta to protect the China-Myanmar Economic Corridor (CMEC).",
+      "context": "The China-Myanmar Economic Corridor is a strategic infrastructure project that provides China access to the Indian Ocean, bypassing the Strait of Malacca. China has prioritized stability along the corridor and deepened its engagement with the junta.",
+      "verdict": "Fact (confirmed by CSIS and ICG)",
+      "sources": [
+        {
+          "title": "China-Myanmar Economic Corridor Analysis — CSIS",
+          "url": "https://www.csis.org/programs/southeast-asia-program/projects/china-myanmar-economic-corridor",
+          "publisher": "Center for Strategic and International Studies",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "asean-five-point",
+      "claim": "ASEAN's Five-Point Consensus (5PC) has become dysfunctional.",
+      "context": "The ASEAN Five-Point Consensus agreed upon in April 2021 (cessation of violence, dialogue, humanitarian assistance, special envoy visits, and follow-up) has seen no substantive progress due to the junta's refusal to cooperate. Multiple ASEAN member states have called for a review of the framework.",
+      "verdict": "Fact (ASEAN Secretariat and ICG confirm dysfunction)",
+      "sources": [
+        {
+          "title": "ASEAN Five-Point Consensus on Myanmar",
+          "url": "https://asean.org/",
+          "publisher": "ASEAN Secretariat",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-myanmar-veto",
+      "claim": "The UN Security Council has been unable to adopt a sanctions resolution against Myanmar's military junta since 2021, due to China and Russia's veto threats.",
+      "context": "After Myanmar's coup (February 2021), Western countries sought a sanctions resolution in the Security Council, but China and Russia indicated they would use their veto or vote against it, preventing any binding sanctions resolution from being adopted. In December 2022, the Security Council adopted its first formal resolution on Myanmar (S/RES/2669), but with 12 in favor and 3 abstentions (China, Russia, India), it was limited to a non-binding demand for a halt to violence and humanitarian access. While the UN General Assembly has adopted multiple resolutions condemning the coup and calling for an arms embargo (without binding force), China and Russia's blocking in the Security Council has left effective international measures out of reach.",
+      "verdict": "No binding sanctions resolution (blocked by China and Russia)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2669 (2022) on Myanmar",
+          "url": "https://undocs.org/S/RES/2669(2022)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

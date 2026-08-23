@@ -56,6 +56,48 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "it-oct7-hamas-attack-2023",
+      "claim": "2023年10月7日、ハマスがイスラエルに大規模奇襲攻撃を行い、約1,200人が死亡・約250人が拉致された",
+      "context": "2023年10月7日早朝、ハマスはガザとイスラエルの境界フェンスを突破し、南部の複数地点を同時奇襲した。イスラエル当局の集計では約1,200人（大半が民間人）が死亡し、約250人が人質としてガザに連行された。ノヴァ音楽祭では約364人が殺害された。国連人権高等弁務官事務所（OHCHR）はレイプを含む性的暴力の証拠も記録した。これを受けイスラエルはガザへの全面的地上作戦を開始した。死者数・攻撃の具体的計画・イランの関与度については国際調査が継続中。",
+      "verdict": "公式記録あり（一部の詳細は調査継続中）",
+      "sources": [
+        {
+          "title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel (OHCHR)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-israel-opt/index",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-genocide-case-2024",
+      "claim": "2024年1月、ICJは南アフリカの申請を受け、イスラエルに対するジェノサイド条約上の暫定措置を命じた",
+      "context": "南アフリカは2023年12月29日、ガザでの軍事作戦がジェノサイド条約に違反するとしてイスラエルをICJに提訴した。ICJは2024年1月26日、「ジェノサイド条約上のパレスチナ人の権利に対する重大かつ回復不可能な損害のリスク」が認められるとして、イスラエルに対しガザでのジェノサイドを防ぐためのあらゆる措置を講じること等を求める暫定措置命令を発令した（賛成15、反対2）。「ジェノサイドが実際に行われているかどうか」についての本案判断は行っておらず、本案審理は継続中。イスラエルはジェノサイドとの認定を強く否定している。",
+      "verdict": "暫定措置命令は事実（本案はICJで審理継続中）",
+      "sources": [
+        {
+          "title": "ICJ Order on Provisional Measures — Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel)",
+          "url": "https://www.icj-cij.org/case/192",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-advisory-opinion-occupation-2024",
+      "claim": "2024年7月、ICJは「イスラエルのパレスチナ占領地における存在は国際法上違法」との勧告的意見を表明した",
+      "context": "国連総会の要請に基づき、ICJは2024年7月19日、「パレスチナ占領地におけるイスラエルの政策・慣行の法的結果」に関する勧告的意見を表明した。ICJはヨルダン川西岸・東エルサレム・ガザの占領全体を「国際法上違法」と判断し、イスラエルは可能な限り速やかに占領を終了させる義務があると述べた。また入植地建設・パレスチナ人の帰還権侵害・天然資源の収奪を違法と認定した。勧告的意見に法的拘束力はないが、国連総会は同年9月、この意見に基づく決議を採択した。イスラエルと米国はこの意見を拒否した。",
+      "verdict": "ICJによる勧告的意見は事実（法的拘束力なし、政治的実効性は限定的）",
+      "sources": [
+        {
+          "title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem (ICJ Advisory Opinion, 2024)",
+          "url": "https://www.icj-cij.org/case/186",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

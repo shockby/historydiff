@@ -56,6 +56,48 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "it-oct7-hamas-attack-2023",
+      "claim": "On October 7, 2023, Hamas launched a large-scale surprise attack on Israel, killing approximately 1,200 people and kidnapping around 250.",
+      "context": "In the early morning of October 7, 2023, Hamas breached the Gaza-Israel border fence and simultaneously attacked multiple sites in southern Israel. Israeli authorities counted approximately 1,200 deaths (mostly civilians) and around 250 people taken hostage to Gaza. Approximately 364 people were killed at the Nova music festival. The UN Office of the High Commissioner for Human Rights (OHCHR) documented evidence of sexual violence including rape. Israel subsequently launched a full-scale ground operation in Gaza. The exact death toll, specific attack planning, and the degree of Iranian involvement remain under international investigation.",
+      "verdict": "Official records available (some details under ongoing investigation)",
+      "sources": [
+        {
+          "title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel (OHCHR)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-israel-opt/index",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-genocide-case-2024",
+      "claim": "In January 2024, the ICJ issued provisional measures against Israel following South Africa's application under the Genocide Convention.",
+      "context": "On December 29, 2023, South Africa filed a case at the ICJ claiming that Israel's military operations in Gaza violated the Genocide Convention. On January 26, 2024, the ICJ issued provisional measures ordering Israel to take all measures within its power to prevent acts within the scope of the Genocide Convention in Gaza, finding a \"plausible right\" to protection (15 votes to 2). The Court did not rule on whether genocide was actually being committed, and the merits case is ongoing. Israel strongly denied any characterization of genocide.",
+      "verdict": "Provisional measures order is established fact (merits case ongoing at ICJ)",
+      "sources": [
+        {
+          "title": "ICJ Order on Provisional Measures — Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel)",
+          "url": "https://www.icj-cij.org/case/192",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-advisory-opinion-occupation-2024",
+      "claim": "In July 2024, the ICJ declared that 'Israel's presence in the Occupied Palestinian Territories is unlawful under international law.'",
+      "context": "At the request of the UN General Assembly, the ICJ issued an advisory opinion on July 19, 2024 on the 'Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory.' The ICJ found the entirety of the occupation of the West Bank, East Jerusalem, and Gaza to be 'unlawful under international law' and stated that Israel has an obligation to bring this to an end as rapidly as possible. It also found settlement construction, violations of the right of return, and exploitation of natural resources to be unlawful. While advisory opinions are not legally binding, the UN General Assembly adopted a resolution based on this opinion in September 2024. Israel and the United States rejected the opinion.",
+      "verdict": "ICJ advisory opinion is established fact (not legally binding; political effect is limited)",
+      "sources": [
+        {
+          "title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem (ICJ Advisory Opinion, 2024)",
+          "url": "https://www.icj-cij.org/case/186",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "eventId": "taiwan-un-resolution",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "taiwan-un-voice-1",
+      "country": {
+        "ja": "中国（中華人民共和国）",
+        "en": "China (PRC)",
+        "zh": "中国（中华人民共和国）",
+        "ko": "중국(중화인민공화국)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "台湾は古来より中国の神聖な領土の不可分の一部であり、「台湾独立」を支持するいかなる行為も中国の主権と領土保全への重大な挑戦である。祖国統一は歴史的必然だ。",
+        "en": "Taiwan has always been an inseparable part of China's sacred territory. Any support for 'Taiwan independence' is a grave challenge to China's sovereignty and territorial integrity. National reunification is a historical inevitability.",
+        "zh": "台湾自古以来就是中国领土不可分割的一部分，任何支持"台独"的行为都是对中国主权和领土完整的严重挑衅。祖国统一是历史的必然。",
+        "ko": "타이완은 예로부터 중국의 신성한 영토의 불가분한 일부이며, '대만 독립'을 지지하는 어떠한 행위도 중국의 주권과 영토보전에 대한 중대한 도전이다. 조국 통일은 역사적 필연이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国国内の主要SNS（微博・微信等）や官製メディア（人民日報・新華社・環球時報）での支配的な言論傾向。",
+        "en": "The dominant discourse on major Chinese social media (Weibo, WeChat) and state-run media (People's Daily, Xinhua, Global Times).",
+        "zh": "中国国内主要社交媒体（微博、微信等）及官方媒体（人民日报、新华社、环球时报）上的主流舆论趋势。",
+        "ko": "중국 국내 주요 SNS(웨이보·위챗 등) 및 관제 미디어(인민일보·신화사·환구시보)에서의 지배적 언론 경향."
+      },
+      "keywords": [
+        "#台湾回帰祖国",
+        "#一个中国"
+      ],
+      "timeframe": "2022-2024"
+    },
+    {
+      "id": "taiwan-un-voice-2",
+      "country": {
+        "ja": "台湾",
+        "en": "Taiwan",
+        "zh": "台湾",
+        "ko": "대만"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "台湾は民主的に選出された政府を持つ自由で独立した社会だ。台湾の未来は2,300万人の台湾市民が平和的手段で決定するものであり、外部からの脅迫に屈するべきではない。",
+        "en": "Taiwan is a free and independent society with a democratically elected government. Taiwan's future should be determined by 23 million Taiwanese citizens through peaceful means and should not submit to outside threats.",
+        "zh": "台湾是一个拥有民主选举政府的自由独立社会。台湾的未来应由2300万台湾公民以和平方式决定，不应屈服于外部威胁。",
+        "ko": "대만은 민주적으로 선출된 정부를 가진 자유롭고 독립적인 사회이다. 대만의 미래는 2300만 대만 시민이 평화적 수단으로 결정해야 하며, 외부의 위협에 굴복해서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "台湾のSNS空間（PTT・Dcard・Facebook等）や、民主主義を支持する国際的連帯ハッシュタグ運動での主流の声。",
+        "en": "The mainstream voice in Taiwan's social media sphere (PTT, Dcard, Facebook) and in international hashtag movements supporting democracy.",
+        "zh": "台湾社交媒体空间（PTT、Dcard、Facebook等）及支持民主的国际联署标签运动中的主流声音。",
+        "ko": "대만의 SNS 공간(PTT·Dcard·페이스북 등) 및 민주주의를 지지하는 국제적 연대 해시태그 운동에서의 주류 목소리."
+      },
+      "keywords": [
+        "#TaiwanIsNotChina",
+        "#StandWithTaiwan"
+      ],
+      "timeframe": "2022-2024"
+    }
+  ]
+}

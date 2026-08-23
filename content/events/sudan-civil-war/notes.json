@@ -1,53 +1,101 @@
-[
-  {
-    "id": "conflict-origin",
-    "claim": "2023年4月の戦闘はRSFが先制攻撃したことで勃発した。",
-    "context": "SAFとRSFはもともと2019年のバシル政権崩壊後の移行期に共同統治を担ったが、軍の統一指揮権をめぐる対立が激化し、2023年4月15日に武力衝突が始まった。どちらが先に攻撃したかについては双方の主張が食い違っている。",
-    "verdict": "背景情報の追加が必要",
-    "sources": [
-      "国連安全保障理事会",
-      "国際危機グループ"
-    ]
-  },
-  {
-    "id": "genocide-darfur",
-    "claim": "RSFはダルフールでジェノサイドに相当する行為を行っている。",
-    "context": "国連や人権団体は、RSFがダルフールの非アラブ系少数民族（マサリート族など）を標的に大規模虐殺・性暴力・強制移住を実施していると報告している。米国は2024年にこれをジェノサイドと公式認定した。",
-    "verdict": "事実",
-    "sources": [
-      "国連人権理事会",
-      "ヒューマン・ライツ・ウォッチ",
-      "米国務省"
-    ]
-  },
-  {
-    "id": "chinese-weapons-rsf",
-    "claim": "中国製兵器がRSFに供給されている。",
-    "context": "2025年、中国製ドローンや誘導爆弾がRSF側で使用されていることが確認され、スーダン政府が北京に説明を要求した。中国はRSFとの関係を否定しているが、経路の詳細は不明のまま。",
-    "verdict": "事実（供給経路は未確認）",
-    "sources": [
-      "ADF Magazine",
-      "モダン・ディプロマシー"
-    ]
-  },
-  {
-    "id": "hemedti-death-sentence",
-    "claim": "RSF指導者ヘメティは2026年7月にスーダンの裁判所から死刑判決を受けた。",
-    "context": "スーダンの裁判所はヘメティと側近15名に対し、戦争犯罪・人道に対する罪・ジェノサイドの罪で欠席裁判により死刑を宣告した。RSF側はこの判決を無効と主張している。",
-    "verdict": "事実",
-    "sources": [
-      "スーダン司法当局",
-      "AP通信"
-    ]
-  },
-  {
-    "id": "humanitarian-scale",
-    "claim": "スーダン内戦は21世紀最大規模の人道危機のひとつである。",
-    "context": "2026年時点で数百万人が国内避難民となり、チャド・南スーダン・エジプト等の隣国に逃れた難民も急増している。食料・医療・シェルターの深刻な不足が続いており、国連は緊急支援を呼びかけている。",
-    "verdict": "事実",
-    "sources": [
-      "国連人道問題調整事務所（OCHA）",
-      "世界食糧計画（WFP）"
-    ]
-  }
-]
+{
+  "eventId": "sudan-civil-war",
+  "notes": [
+    {
+      "id": "conflict-origin",
+      "claim": "2023年4月の戦闘はRSFが先制攻撃したことで勃発した。",
+      "context": "SAFとRSFはもともと2019年のバシル政権崩壊後の移行期に共同統治を担ったが、軍の統一指揮権をめぐる対立が激化し、2023年4月15日に武力衝突が始まった。どちらが先に攻撃したかについては双方の主張が食い違っている。",
+      "verdict": "開戦の経緯は双方の主張に相違（国際的な検証が困難な状況）",
+      "sources": [
+        {
+          "title": "Sudan Conflict Overview — International Crisis Group",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/sudan",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "genocide-darfur",
+      "claim": "RSFはダルフールでジェノサイドに相当する行為を行っている。",
+      "context": "国連や人権団体は、RSFがダルフールの非アラブ系少数民族（マサリート族など）を標的に大規模虐殺・性暴力・強制移住を実施していると報告している。米国は2024年にこれをジェノサイドと公式認定した。",
+      "verdict": "事実（米国はジェノサイドと公式認定・国連人権機関も記録）",
+      "sources": [
+        {
+          "title": "UN Human Rights Council Reports on Sudan",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/about-council",
+          "publisher": "United Nations Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch — Sudan",
+          "url": "https://www.hrw.org/africa/sudan",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "chinese-weapons-rsf",
+      "claim": "中国製兵器がRSFに供給されている。",
+      "context": "2025年、中国製ドローンや誘導爆弾がRSF側で使用されていることが確認され、スーダン政府が北京に説明を要求した。中国はRSFとの関係を否定しているが、経路の詳細は不明のまま。",
+      "verdict": "事実（供給経路は未確認）",
+      "sources": [
+        {
+          "title": "Chinese Weapons in Sudan's Civil War — ADF Magazine",
+          "url": "https://adf-magazine.com/",
+          "publisher": "ADF Magazine",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hemedti-death-sentence",
+      "claim": "RSF指導者ヘメティは2026年7月にスーダンの裁判所から死刑判決を受けた。",
+      "context": "スーダンの裁判所はヘメティと側近15名に対し、戦争犯罪・人道に対する罪・ジェノサイドの罪で欠席裁判により死刑を宣告した。RSF側はこの判決を無効と主張している。",
+      "verdict": "事実（欠席裁判・RSFは無効と主張）",
+      "sources": [
+        {
+          "title": "Sudan Court Sentences RSF Leader to Death — AP News",
+          "url": "https://apnews.com/",
+          "publisher": "Associated Press",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "humanitarian-scale",
+      "claim": "スーダン内戦は21世紀最大規模の人道危機のひとつである。",
+      "context": "2026年時点で数百万人が国内避難民となり、チャド・南スーダン・エジプト等の隣国に逃れた難民も急増している。食料・医療・シェルターの深刻な不足が続いており、国連は緊急支援を呼びかけている。",
+      "verdict": "事実（国連OCHAおよびWFPが最大規模の危機と認定）",
+      "sources": [
+        {
+          "title": "Sudan Humanitarian Crisis — UN OCHA",
+          "url": "https://www.unocha.org/sudan",
+          "publisher": "United Nations Office for the Coordination of Humanitarian Affairs",
+          "type": "international"
+        },
+        {
+          "title": "WFP Sudan Emergency Response",
+          "url": "https://www.wfp.org/countries/sudan",
+          "publisher": "World Food Programme",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-response-sudan",
+      "claim": "国連安全保障理事会はスーダン内戦に対して拘束力のある決議を採択できず、声明レベルの対応にとどまっている",
+      "context": "スーダン内戦（2023年〜）に対し、国連安全保障理事会は2023〜2024年にかけて複数の報道声明（プレス・ステートメント）を発出したが、常任理事国（特にロシア・中国）の反対・棄権姿勢により、制裁や強制措置を伴う拘束力ある決議の採択に至っていない。人道支援アクセスの確保を求める非拘束的決議（S/RES/2724等）は採択されたが、履行は不十分。2024年には国連PKO展開も検討されたが合意に至らなかった。安保理のこの機能不全が人道危機の深刻化を招いているとして国際NGOから批判が相次いでいる。",
+      "verdict": "拘束力ある安保理決議なし（声明・非拘束的決議のみ）",
+      "sources": [
+        {
+          "title": "UN Security Council Reports on Sudan",
+          "url": "https://www.un.org/securitycouncil/content/sudan",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

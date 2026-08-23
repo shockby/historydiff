@@ -90,6 +90,34 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ui-unsc-veto-feb2022",
+      "claim": "2022年2月25日、ロシアは安保理でのウクライナ侵攻非難決議案を拒否権行使で否決した",
+      "context": "2022年2月25日、国連安全保障理事会はロシアに即時撤退を求める決議案を採決したが、ロシアが拒否権を行使して否決された（賛成11・反対1・棄権3＝中国・インド・UAE）。これを受けて「平和のための結集」決議に基づく第11回緊急特別総会が招集され、拘束力はないが圧倒的支持を得た総会決議ES-11/1が採択された（賛成141・反対5・棄権35）。常任理事国が自国の行動を拒否権で遮断できる安保理の構造的問題が改めて国際的な議論を呼んだ。",
+      "verdict": "拒否権行使は事実（ES-11/1の採択も確認済み）",
+      "sources": [
+        {
+          "title": "UN General Assembly Emergency Special Session Resolution ES-11/1",
+          "url": "https://undocs.org/en/A/RES/ES-11/1",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-icj-provisional-measures-2022",
+      "claim": "2022年3月、ICJはウクライナの申請に基づきロシアに軍事作戦の即時停止を命じる暫定措置を発令した",
+      "context": "2022年2月27日、ウクライナは国際司法裁判所（ICJ）にジェノサイド条約違反を根拠としてロシアを提訴した。ICJは同年3月16日、「ロシアは2022年2月24日に開始した軍事作戦を直ちに停止せよ」と命じる暫定措置を発令した（賛成13・反対2）。ロシアはICJの管轄権を認めず、命令を無視して軍事作戦を継続した。この事例は、国際法上の命令が実効性を欠く場合があることを示す典型例とみなされており、国際法の執行メカニズムの限界を改めて浮き彫りにした。",
+      "verdict": "暫定措置命令は事実（ロシアは不服従・管轄権否定）",
+      "sources": [
+        {
+          "title": "Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation) — ICJ",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

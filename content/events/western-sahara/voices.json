@@ -1,0 +1,61 @@
+{
+  "eventId": "western-sahara",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "ws-voice-morocco",
+      "country": {
+        "ja": "モロッコ",
+        "en": "Morocco",
+        "zh": "摩洛哥",
+        "ko": "모로코"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "西サハラは歴史的にモロッコの一部であり、ポリサリオ戦線はアルジェリアが操る傀儡組織だ。2007年の自治案は最善の解決策であり、国際社会はこれを支持すべきだ。",
+        "en": "Western Sahara is historically part of Morocco, and the Polisario Front is a puppet organization controlled by Algeria. The 2007 Autonomy Plan is the best solution and the international community should support it.",
+        "zh": "西撒哈拉历史上是摩洛哥的一部分，波利萨里奥阵线是阿尔及利亚操控的傀儡组织。2007年自治方案是最佳解决方案，国际社会应予支持。",
+        "ko": "서사하라는 역사적으로 모로코의 일부이며, 폴리사리오 전선은 알제리가 조종하는 꼭두각시 단체다. 2007년 자치안이 최선의 해결책이며 국제사회가 이를 지지해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "モロッコ国内メディア・SNSでの支配的な言論傾向。",
+        "en": "Dominant discourse in Moroccan domestic media and social media.",
+        "zh": "摩洛哥国内媒体和社交媒体上的主流言论倾向。",
+        "ko": "모로코 국내 미디어와 SNS의 지배적 언론 경향."
+      },
+      "keywords": ["#MoroccanSahara", "#SouthernProvinces"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "ws-voice-sahrawi",
+      "country": {
+        "ja": "サハラウィー難民・SADR支持者",
+        "en": "Sahrawi Refugees / SADR Supporters",
+        "zh": "撒哈拉威难民 / SADR支持者",
+        "ko": "사흐라위 난민 / SADR 지지자"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "サハラウィー人は50年近くもティンドゥフのキャンプで難民生活を強いられている。自決権は国際法上の権利であり、住民投票なしの解決は認められない。",
+        "en": "The Sahrawi people have been forced to live as refugees in Tindouf camps for nearly 50 years. The right to self-determination is a right under international law, and no solution without a referendum is acceptable.",
+        "zh": "撒哈拉威人被迫在廷杜夫难民营生活了近50年。自决权是国际法上的权利，没有公投的解决方案是不可接受的。",
+        "ko": "사흐라위 사람들은 50년 가까이 틴두프 캠프에서 난민 생활을 강요받고 있다. 자결권은 국제법상 권리이며, 주민투표 없는 해결책은 용납될 수 없다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "SADR支持者・国際的な人権・脱植民地化活動家のSNS上の声。",
+        "en": "Voices from SADR supporters and international human rights/decolonization activists on social media.",
+        "zh": "SADR支持者和国际人权/去殖民化活动人士在社交媒体上的声音。",
+        "ko": "SADR 지지자와 국제적 인권·탈식민지화 활동가들의 SNS 목소리."
+      },
+      "keywords": ["#WesternSahara", "#SahrawiPeople", "#FreeWesternSahara"],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

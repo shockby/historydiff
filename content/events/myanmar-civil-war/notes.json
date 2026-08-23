@@ -1,52 +1,107 @@
-[
-  {
-    "id": "coup-origin",
-    "claim": "2021年2月のクーデターは2020年総選挙の不正を理由に行われた。",
-    "context": "軍はNLD（国民民主連盟）が2020年11月総選挙で圧勝した結果に不正があると主張したが、国内外の選挙監視団は選挙の正当性を認めている。この主張はクーデターの口実として広く批判されている。",
-    "verdict": "誤り",
-    "sources": [
-      "国際選挙監視連盟",
-      "国連ミャンマー特別報告者"
-    ]
-  },
-  {
-    "id": "civilian-casualties",
-    "claim": "軍は病院・学校・民家への空爆を組織的に行っている。",
-    "context": "国連や人権団体は、軍が住宅地・医療施設・学校を繰り返し空爆していると報告している。2021年以降の死者数は10万人超とも言われ、市民への無差別攻撃が記録されている。",
-    "verdict": "事実",
-    "sources": [
-      "国連人権高等弁務官事務所",
-      "ヒューマン・ライツ・ウォッチ"
-    ]
-  },
-  {
-    "id": "resistance-territory",
-    "claim": "抵抗勢力はミャンマー国土の約42%を実効支配している。",
-    "context": "2026年時点で、民族武装勢力（EAO）と国民防衛隊（PDF）が国土の約42%を支配し、軍政の支配地域は約21%にとどまるという推計がある。ただし戦線は流動的であり、正確な数字には異論もある。",
-    "verdict": "おおむね事実（推計値）",
-    "sources": [
-      "武力紛争位置・事象データプロジェクト（ACLED）",
-      "ビジョン・オブ・ヒューマニティ"
-    ]
-  },
-  {
-    "id": "china-cmec",
-    "claim": "中国は経済回廊（CMEC）保護のため軍政を支持している。",
-    "context": "中国・ミャンマー経済回廊はマラッカ海峡を迂回してインド洋へのアクセスを確保する戦略的インフラ。中国は回廊沿いの安定を優先し、軍政への関与を深めている。",
-    "verdict": "事実",
-    "sources": [
-      "戦略国際問題研究所（CSIS）",
-      "国際危機グループ"
-    ]
-  },
-  {
-    "id": "asean-five-point",
-    "claim": "ASEANの五点合意（5PC）は機能不全に陥っている。",
-    "context": "2021年4月に合意されたASEANの五点合意（暴力停止・対話・人道支援・特使訪問・フォローアップ）は、軍政の協力拒否により実質的な進展をみていない。複数のASEAN加盟国が枠組みの見直しを求めている。",
-    "verdict": "事実",
-    "sources": [
-      "ASEAN事務局",
-      "国際危機グループ"
-    ]
-  }
-]
+{
+  "eventId": "myanmar-civil-war",
+  "notes": [
+    {
+      "id": "coup-origin",
+      "claim": "2021年2月のクーデターは2020年総選挙の不正を理由に行われた。",
+      "context": "軍はNLD（国民民主連盟）が2020年11月総選挙で圧勝した結果に不正があると主張したが、国内外の選挙監視団は選挙の正当性を認めている。この主張はクーデターの口実として広く批判されている。",
+      "verdict": "誤り（国際的な選挙監視団は選挙の正当性を認定）",
+      "sources": [
+        {
+          "title": "ANFREL Myanmar Election Observation Report (2020)",
+          "url": "https://www.anfrel.org/",
+          "publisher": "Asian Network for Free Elections (ANFREL)",
+          "type": "ngo"
+        },
+        {
+          "title": "UN Special Rapporteur on the Situation of Human Rights in Myanmar",
+          "url": "https://www.ohchr.org/en/special-procedures/sr-myanmar",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "civilian-casualties",
+      "claim": "軍は病院・学校・民家への空爆を組織的に行っている。",
+      "context": "国連や人権団体は、軍が住宅地・医療施設・学校を繰り返し空爆していると報告している。2021年以降の死者数は10万人超とも言われ、市民への無差別攻撃が記録されている。",
+      "verdict": "事実（国連人権高等弁務官事務所・HRWが記録）",
+      "sources": [
+        {
+          "title": "OHCHR Reports on Myanmar",
+          "url": "https://www.ohchr.org/en/countries/myanmar",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch — Myanmar",
+          "url": "https://www.hrw.org/asia/burma",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "resistance-territory",
+      "claim": "抵抗勢力はミャンマー国土の約42%を実効支配している。",
+      "context": "2026年時点で、民族武装勢力（EAO）と国民防衛隊（PDF）が国土の約42%を支配し、軍政の支配地域は約21%にとどまるという推計がある。ただし戦線は流動的であり、正確な数字には異論もある。",
+      "verdict": "おおむね事実（推計値・戦線は流動的）",
+      "sources": [
+        {
+          "title": "ACLED Myanmar Conflict Data",
+          "url": "https://acleddata.com/data-export-tool/",
+          "publisher": "Armed Conflict Location & Event Data Project (ACLED)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "china-cmec",
+      "claim": "中国は経済回廊（CMEC）保護のため軍政を支持している。",
+      "context": "中国・ミャンマー経済回廊はマラッカ海峡を迂回してインド洋へのアクセスを確保する戦略的インフラ。中国は回廊沿いの安定を優先し、軍政への関与を深めている。",
+      "verdict": "事実（CSIS・ICGが確認）",
+      "sources": [
+        {
+          "title": "China-Myanmar Economic Corridor Analysis — CSIS",
+          "url": "https://www.csis.org/programs/southeast-asia-program/projects/china-myanmar-economic-corridor",
+          "publisher": "Center for Strategic and International Studies",
+          "type": "academic"
+        },
+        {
+          "title": "International Crisis Group — Myanmar",
+          "url": "https://www.crisisgroup.org/asia/south-east-asia/myanmar",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "asean-five-point",
+      "claim": "ASEANの五点合意（5PC）は機能不全に陥っている。",
+      "context": "2021年4月に合意されたASEANの五点合意（暴力停止・対話・人道支援・特使訪問・フォローアップ）は、軍政の協力拒否により実質的な進展をみていない。複数のASEAN加盟国が枠組みの見直しを求めている。",
+      "verdict": "事実（ASEAN事務局・ICGが機能不全を確認）",
+      "sources": [
+        {
+          "title": "ASEAN Five-Point Consensus on Myanmar",
+          "url": "https://asean.org/",
+          "publisher": "ASEAN Secretariat",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-myanmar-veto",
+      "claim": "国連安保理はミャンマー軍政への制裁決議を中国・ロシアの拒否権行使により2021年以降採択できていない",
+      "context": "ミャンマーのクーデター（2021年2月）後、欧米諸国を中心に安保理で制裁決議が模索されたが、中国とロシアが拒否権または反対票を行使する姿勢を示したため、拘束力ある制裁決議は採択されていない。2022年12月、安保理はミャンマー情勢に関する初の正式決議（S/RES/2669）を採択したが（賛成12・棄権3＝中国・ロシア・インド）、これは暴力停止と人道支援アクセスを求める非拘束的なものにとどまった。国連総会は複数の決議でクーデターを非難し武器禁輸を求めているが（総会決議は法的拘束力なし）、中国・ロシアの安保理における阻止で実効的な国際措置が取れない状況が続いている。",
+      "verdict": "拘束力ある制裁決議なし（中露の阻止により）",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2669 (2022) on Myanmar",
+          "url": "https://undocs.org/S/RES/2669(2022)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

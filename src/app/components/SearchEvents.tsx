@@ -3,14 +3,15 @@
 import { useState, Suspense } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { useSearchParams } from 'next/navigation';
 import { EventPerspective, EventNote } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
 
-// Dynamically import MapView to avoid SSR issues with react-simple-maps
+// Dynamically import MapView and MiniDiffDemo to avoid SSR issues
 const MapView = dynamic(() => import('./MapView'), { ssr: false });
+const MiniDiffDemo = dynamic(() => import('./MiniDiffDemo'), { ssr: false });
+import FeaturedEvents from './FeaturedEvents';
 
 interface SearchEventsProps {
   initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] }[];
@@ -94,7 +95,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
   return (
     <>
       {/* Hero section */}
-      <section style={{ padding: '4rem 0', textAlign: 'center' }}>
+      <section style={{ padding: '3.5rem 0 2rem', textAlign: 'center' }}>
         <h1 className="title-gradient" style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: 1.2 }}>
           {t.heroTitleLine1}<br />
           {t.heroTitleLine2}
@@ -104,8 +105,14 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
         </p>
       </section>
 
+      {/* Mini Diff Demo */}
+      <MiniDiffDemo lang={lang} />
+
+      {/* Featured Top 3 Contested Events */}
+      <FeaturedEvents lang={lang} />
+
       {/* Archive section */}
-      <section style={{ marginTop: '2rem' }}>
+      <section style={{ marginTop: '4rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
           <h2 style={{ fontSize: '1.5rem', borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
             {t.comparisonArchive}
@@ -245,7 +252,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                 <select
                   className="search-input"
                   value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value as any)}
+                  onChange={(e) => setSortBy(e.target.value as 'default' | 'chrono-asc' | 'chrono-desc')}
                   style={{
                     cursor: 'pointer',
                     appearance: 'none',

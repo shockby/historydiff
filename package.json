@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "generate:og": "python3 scripts/generate_og_images.py",
+    "build": "python3 scripts/generate_og_images.py && next build",
     "start": "next start",
     "lint": "eslint"
   },

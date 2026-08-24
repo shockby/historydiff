@@ -13,11 +13,33 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
   const { id } = await props.params;
   // Use English as canonical metadata
   const perspectives = getEventPerspectives(id, 'en');
-  const title = perspectives[0]?.title || getEventPerspectives(id, 'ja')[0]?.title || 'Event Details';
+  const title = (perspectives[0]?.title ?? getEventPerspectives(id, 'ja')[0]?.title) ?? 'Event Details';
+  const description = `Compare history textbook descriptions and perspectives on "${title}" across nations.`;
+  const ogImage = `/og/events/${id}-en.png`;
 
   return {
     title: `${title} | HistoryDiff`,
-    description: `Compare textbook descriptions of "${title}" across countries.`,
+    description,
+    openGraph: {
+      title: `${title} | HistoryDiff`,
+      description,
+      url: `https://historydiff.pages.dev/events/${id}`,
+      type: 'article',
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${title} | HistoryDiff`,
+      description,
+      images: [ogImage],
+    },
   };
 }
 

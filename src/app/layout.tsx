@@ -9,8 +9,34 @@ import Footer from '@/app/components/Footer';
 const inter = Inter({ subsets: ['latin', 'vietnamese'] });
 
 export const metadata: Metadata = {
-  title: 'HistoryDiff',
-  description: '世界各国の歴史教科書に記載されている歴史的事象の違いを明確にするプラットフォーム',
+  metadataBase: new URL('https://historydiff.pages.dev'),
+  title: {
+    default: 'HistoryDiff | Visualizing Textbook Differences in History',
+    template: '%s | HistoryDiff',
+  },
+  description: '世界各国の歴史教科書に記載されている歴史的事象の記述の違いを直接比較（Diff）によって可視化するプラットフォーム。',
+  openGraph: {
+    type: 'website',
+    locale: 'ja_JP',
+    url: 'https://historydiff.pages.dev',
+    siteName: 'HistoryDiff',
+    title: 'HistoryDiff | 歴史の「記述の差」を視覚的に解明する',
+    description: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で浮き彫りにするプラットフォーム。',
+    images: [
+      {
+        url: '/og/og-top-ja.png',
+        width: 1200,
+        height: 630,
+        alt: 'HistoryDiff - Visualizing Historical Differences in Textbooks',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'HistoryDiff | 歴史の「記述の差」を視覚的に解明する',
+    description: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で浮き彫りにするプラットフォーム。',
+    images: ['/og/og-top-ja.png'],
+  },
 };
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing } from '@/lib/markdown';
 import { generateWebSiteSchema, SITE_URL } from '@/lib/schema';
 import SearchEvents from '@/app/components/SearchEvents';
 
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ko: 'HistoryDiff | 역사의 "기술 차이"를 시각적으로 밝힌다',
   };
   const descriptions: Record<string, string> = {
-    ja: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で浮き彫りにするプラットフォーム。',
+    ja: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で検証。',
     zh: '通过文本对比（Diff）客观直观地展示各国历史教科书中的记述差异。',
     ko: '세계 각국의 역사 교과서 기술 차이를 텍스트 비교(Diff)로 시각화하는 플랫폼.',
   };
@@ -78,11 +78,13 @@ export default async function LocalizedHome({ params }: PageProps) {
       const photos = getEventPhotos(event.id);
       const imageUrl = photos && photos.photos.length > 0 ? photos.photos[0].url : undefined;
       const notesData = getEventNotes(event.id, lang);
+      const ongoing = getEventOngoing(event.id);
       return {
         id: event.id,
         perspectives: getEventPerspectives(event.id, lang),
         imageUrl,
         notes: notesData?.notes ?? [],
+        ongoing,
       };
     })
     .filter((e) => e.perspectives.length > 0);

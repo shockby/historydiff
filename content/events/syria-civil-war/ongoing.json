@@ -1,0 +1,38 @@
+{
+  "eventId": "syria-civil-war",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2011年の『アラブの春』から続くシリア内戦は、アサド政権の支配回復とアラブ連盟復帰が進む一方、北部・東部での反体制派・クルド勢力・トルコ軍・米軍の駐留が固定化し、分断統治が続いています。ロシア・イランの軍事支援と米・トルコの安全保障上の思惑が交錯し、難民帰還問題や人道支援回廊の維持が国際的な課題となっています。",
+    "en": "The Syrian conflict since 2011 has settled into a frozen partition: the Assad government has secured Arab League reintegration, but northern and eastern regions remain under the control of Turkish forces, Kurdish-led SDF, and opposition factions. Russian and Iranian security footprints remain entrenched alongside US counter-terror deployments, keeping refugee repatriation and political transition on hold.",
+    "zh": "始于2011年的叙利亚冲突目前呈现碎片化割据格局。巴沙尔政府已重返阿盟并巩固大部分核心区域，但叙北部与东部仍分别由土耳其支持力量、库尔德武装（SDF）及反对派控制，美俄驻军持续存在。叙利亚重建进程、难民返乡安全保障及安理会2254号决议政治解决路线依然面临重重阻碍。",
+    "ko": "2011년 시작된 시리아 내전은 아사드 정권의 아랍연맹 복귀와 핵심 지역 통제 회복에도 불구하고, 북부 및 동부의 쿠르드 세력, 튀르키예군, 반군 통제지로 분할된 채 교착 상태가 이어지고 있습니다. 난민 귀환과 전후 재건을 둘러싼 국제사회의 외교적 셈법이 엇갈리고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. トルコとシリア政権の国交正常化・国境安全保障協議の進展\n2. 北東部クルド自治勢力（SDF）とシリア政府軍の統合交渉または軍事的緊張\n3. 国連仲介による憲法委員会プロセスの再開と難民帰還のための治安改善",
+    "en": "1. Normalization and border security negotiations between Damascus and Ankara\n2. Power-sharing or military friction between the Syrian central government and Kurdish SDF\n3. UN-facilitated constitutional talks and verified security conditions for voluntary refugee return",
+    "zh": "1. 叙利亚与土耳其双边关系正常化谈判及边境反恐安全走廊协调\n2. 叙中央政府与叙东北部库尔德主导力量的政治对话与地方自治整合\n3. 联合国主导的叙利亚宪法委员会政治进程及战后难民返乡人道安全机制",
+    "ko": "1. 튀르키예와 시리아 정부 간의 관계 정상화 및 국경 안보 협의 진척\n2. 북동부 쿠르드 주도 세력과 시리아 중앙정부 간의 행정 통합 및 군사적 긴장 추이\n3. 유엔 중재 헌법위원회 재개 및 난민 자발적 귀환을 위한 치안 환경 조성"
+  },
+  "rssQuery": {
+    "ja": "シリア 情勢 アサド 難民復興",
+    "en": "Syria conflict Assad SDF normalization",
+    "zh": "叙利亚 局势 重建 难民",
+    "ko": "시리아 정세 아사드 재건"
+  },
+  "articles": [
+    {
+      "title": "シリア情勢と地域外交における関係改善の模索",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/world-middle-east-17258397",
+      "publishedAt": "2026-08-22",
+      "summary": {
+        "ja": "地域の安定化と人道支援の円滑化に向け、周辺国との外交的対話が続けられています。",
+        "en": "Regional diplomatic engagements continue with a focus on humanitarian coordination and border stabilization.",
+        "zh": "周边国家持续推进外交接触，重点围绕人道救援协调与边境安全机制建设展开探讨。",
+        "ko": "인도적 구호 협력과 국경 안정을 위해 주변국과의 외교적 대화가 이어지고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

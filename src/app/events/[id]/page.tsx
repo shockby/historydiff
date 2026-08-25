@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing } from '@/lib/markdown';
 import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, SITE_URL } from '@/lib/schema';
 import { getSeoKeywords } from '@/lib/seoKeywords';
 import EventPageClient from './EventPageClient';
@@ -64,6 +64,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const notes = getEventNotes(id, 'en');
   const photos = getEventPhotos(id);
   const voices = getEventVoices(id);
+  const ongoing = getEventOngoing(id);
 
   const title = (perspectives[0]?.title ?? getEventPerspectives(id, 'ja')[0]?.title) ?? 'Event Details';
   const description = `Compare history textbook descriptions and perspectives on "${title}" across nations. Multi-perspective diff analysis.`;
@@ -124,6 +125,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
         initialNotes={notes}
         initialPhotos={photos}
         initialVoices={voices}
+        initialOngoing={ongoing}
         lang="en"
       />
     </>

@@ -164,3 +164,39 @@ export function getEventVoices(eventId: string): EventVoices | null {
   return JSON.parse(fileContents) as EventVoices;
 }
 
+// --- Ongoing & Live News Context ---
+
+export interface NewsArticle {
+  title: string;
+  source: string;
+  url: string;
+  publishedAt: string;
+  summary?: LocalizedText;
+  country?: string;
+}
+
+export interface EventOngoing {
+  eventId: string;
+  isOngoing: boolean;
+  lastUpdated: string; // e.g. "2026-08-25"
+  whyItMatters: LocalizedText;
+  whatToWatchNext: LocalizedText;
+  keyPoints?: LocalizedText[];
+  rssQuery?: {
+    ja: string;
+    en: string;
+    zh: string;
+    ko: string;
+  };
+  articles: NewsArticle[];
+}
+
+export function getEventOngoing(eventId: string): EventOngoing | null {
+  const ongoingPath = path.join(contentDirectory, eventId, 'ongoing.json');
+  if (!fs.existsSync(ongoingPath)) {
+    return null;
+  }
+  const fileContents = fs.readFileSync(ongoingPath, 'utf8');
+  return JSON.parse(fileContents) as EventOngoing;
+}
+

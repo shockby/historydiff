@@ -1,13 +1,19 @@
 'use client';
 
 import { useState, Suspense, useMemo, useSyncExternalStore } from 'react';
+import dynamic from 'next/dynamic';
 import DiffView from '@/app/components/DiffView';
 import ControversyKeywords from '@/app/components/ControversyKeywords';
 import CommunityNotes from '@/app/components/CommunityNotes';
 import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
+import NeutralityBanner from '@/app/components/NeutralityBanner';
+import SourceNatureBadges from '@/app/components/SourceNatureBadges';
+const HistoryQuiz = dynamic(() => import('@/app/components/HistoryQuiz'), { ssr: false });
+const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDiagnostic'), { ssr: false });
+import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
-import { EventPerspective, EventNotes, EventPhotos, EventVoices } from '@/lib/markdown';
+import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare } from 'lucide-react';
 import Link from 'next/link';
@@ -18,6 +24,7 @@ interface EventPageClientProps {
   initialNotes: EventNotes | null;
   initialPhotos?: EventPhotos | null;
   initialVoices?: EventVoices | null;
+  initialOngoing?: EventOngoing | null;
   lang: string;
 }
 
@@ -215,17 +222,30 @@ function SinglePerspectiveView({
         {perspective.title}
       </h3>
 
-      {/* Source */}
-      <p style={{
-        fontSize: '0.8rem',
-        color: 'var(--text-secondary)',
-        fontStyle: 'italic',
+      {/* Source & Nature Tags */}
+      <div style={{
         marginBottom: '2rem',
         paddingBottom: '1.5rem',
         borderBottom: '1px solid rgba(255,255,255,0.07)',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.6rem',
       }}>
-        {t.source}: {perspective.source}
-      </p>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+          <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+            {t.source}:
+          </span>
+          <span style={{ fontSize: '0.8rem', color: 'var(--foreground)', fontStyle: 'italic' }}>
+            {perspective.source}
+          </span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <span style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
+            {t.sourceNatureLabel}:
+          </span>
+          <SourceNatureBadges perspective={perspective} lang={lang} size="md" />
+        </div>
+      </div>
 
       {/* Body text */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
@@ -274,7 +294,12 @@ function DesktopSummaryTable({ perspectives, lang }: { perspectives: EventPerspe
               [t.tableTitle,    (p: EventPerspective) => p.title],
               [t.tableCategory, (p: EventPerspective) => <span className="badge">{p.category}</span>],
               [t.tableEra,      (p: EventPerspective) => p.year],
-              [t.tableSource,   (p: EventPerspective) => <span style={{ fontStyle: 'italic', fontSize: '0.8rem' }}>{p.source}</span>],
+              [t.tableSource,   (p: EventPerspective) => (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                  <span style={{ fontStyle: 'italic', fontSize: '0.8rem' }}>{p.source}</span>
+                  <SourceNatureBadges perspective={p} lang={lang} size="sm" />
+                </div>
+              )],
               [t.tableExcerpt,  (p: EventPerspective) => p.content.trim().split('\n')[0].slice(0, 120) + '…'],
             ] as [string, (p: EventPerspective) => React.ReactNode][]).map(([label, render]) => (
               <tr key={label as string}>
@@ -321,7 +346,15 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
           { label: t.tableTitle, value: <span key="title" style={{ color: 'var(--foreground)', textAlign: 'right', maxWidth: '60%' }}>{p.title}</span> },
           { label: t.tableCategory, value: <span key="cat" className="badge">{p.category}</span> },
           { label: t.tableEra, value: <span key="era" style={{ color: 'var(--foreground)' }}>{p.year}</span> },
-          { label: t.tableSource, value: <span key="src" style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right', maxWidth: '60%' }}>{p.source}</span> },
+          {
+            label: t.tableSource,
+            value: (
+              <div key="src" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.35rem', maxWidth: '65%' }}>
+                <span style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right' }}>{p.source}</span>
+                <SourceNatureBadges perspective={p} lang={lang} size="sm" />
+              </div>
+            ),
+          },
         ].map((item, i) => (
           <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5rem 0', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
             <span style={{ color: 'var(--text-secondary)', fontWeight: 600 }}>{item.label}</span>
@@ -340,8 +373,25 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
   );
 }
 
+function getDefaultPerspectiveIndex(perspectives: EventPerspective[], lang: Language): number {
+  if (!perspectives || perspectives.length === 0) return 0;
+  const targetCountry = (lang === 'ja')
+    ? ['日本', 'japan']
+    : (lang === 'zh')
+    ? ['中国', 'china', '台湾', 'taiwan']
+    : (lang === 'ko')
+    ? ['韓国', 'korea', '대한민국']
+    : ['usa', 'united states', 'アメリカ', '米国', 'uk', 'イギリス'];
+
+  const idx = perspectives.findIndex(p => {
+    const c = p.country.toLowerCase();
+    return targetCountry.some(t => c.includes(t.toLowerCase()));
+  });
+  return idx >= 0 ? idx : 0;
+}
+
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -349,10 +399,14 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
   const notes = initialNotes?.notes || [];
   const photos = initialPhotos ?? null;
   const voices = initialVoices ?? null;
+  const ongoing = initialOngoing ?? null;
 
-  const [activeIndex, setActiveIndex]   = useState(0);
+  const [activeIndex, setActiveIndex]   = useState(() => getDefaultPerspectiveIndex(initialPerspectives || [], activeLang));
   const [viewMode,    setViewMode]      = useState<ViewMode>('read');
-  const [rightIndex,  setRightIndex]    = useState(1);
+  const [rightIndex,  setRightIndex]    = useState(() => {
+    const def = getDefaultPerspectiveIndex(initialPerspectives || [], activeLang);
+    return def === 0 ? ((initialPerspectives?.length ?? 0) > 1 ? 1 : 0) : 0;
+  });
   const [activeKeyword, setActiveKeyword] = useState<string | null>(null);
   const isMobile = useIsMobile();
 
@@ -427,10 +481,38 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
       )}
 
       <div className="container" style={{ paddingBottom: '10rem', padding: isMobile ? '1rem' : '2rem' }}>
+        {/* ── Neutrality Declaration Banner ── */}
+        <NeutralityBanner lang={activeLang} />
+
         {/* ── Page header ── */}
-        <header style={{ marginBottom: isMobile ? '2rem' : '3rem' }}>
-          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+        <header style={{ marginBottom: isMobile ? '2rem' : '2.5rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
             <span className="badge" style={{ background: 'var(--accent)', color: 'white', border: 'none' }}>{t.archive}</span>
+            {ongoing?.isOngoing && (
+              <span
+                className="badge"
+                style={{
+                  background: 'rgba(239, 68, 68, 0.2)',
+                  color: '#f87171',
+                  border: '1px solid rgba(239, 68, 68, 0.5)',
+                  fontWeight: 700,
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                }}
+              >
+                <span
+                  style={{
+                    width: '6px',
+                    height: '6px',
+                    borderRadius: '50%',
+                    backgroundColor: '#ef4444',
+                    display: 'inline-block',
+                  }}
+                />
+                {t.ongoingBadge}
+              </span>
+            )}
             <span className="badge">{left.category}</span>
             <span className="badge">{left.year}</span>
             <span className="badge">{left.location}</span>
@@ -442,6 +524,9 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
             {viewMode === 'read' ? t.perspectiveSummary : t.compareHelp}
           </p>
         </header>
+
+        {/* ── Why This Matters Today & Live News (Ongoing Events) ── */}
+        {ongoing?.isOngoing && <WhyItMattersSection ongoing={ongoing} lang={activeLang} />}
 
         {/* ── Photos ── */}
         {photos && <PhotoGallery photos={photos} lang={activeLang} />}
@@ -476,7 +561,10 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
                 <div className="card glass" style={{ borderLeft: '4px solid #f85149', padding: '1rem' }}>
                   <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.sourcePerspective}</label>
                   <div style={{ fontSize: '1rem', fontWeight: 700, color: '#fff' }}>{getPerspectiveLabel(left.country)}</div>
-                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
+                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                    <div style={{ marginBottom: '0.35rem' }}>{t.source}: <span style={{ fontStyle: 'italic', color: 'var(--foreground)' }}>{left.source}</span></div>
+                    <SourceNatureBadges perspective={left} lang={activeLang} size="sm" />
+                  </div>
                 </div>
                 <button onClick={() => {
                   const newRight = safeRightIndex;
@@ -501,7 +589,10 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
                       <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
                     ))}
                   </select>
-                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{safeRight.source}</span></div>
+                  <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                    <div style={{ marginBottom: '0.35rem' }}>{t.source}: <span style={{ fontStyle: 'italic', color: 'var(--foreground)' }}>{safeRight.source}</span></div>
+                    <SourceNatureBadges perspective={safeRight} lang={activeLang} size="sm" />
+                  </div>
                 </div>
               </div>
             ) : (
@@ -509,7 +600,10 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
                 <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
                   <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.sourcePerspective}</label>
                   <div style={{ fontSize: '1.2rem', fontWeight: 700, color: '#fff', marginBottom: '0.5rem' }}>{getPerspectiveLabel(left.country)}</div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{left.source}</span></div>
+                  <div style={{ marginTop: '0.75rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <div style={{ marginBottom: '0.4rem' }}>{t.source}: <span style={{ fontStyle: 'italic', color: 'var(--foreground)' }}>{left.source}</span></div>
+                    <SourceNatureBadges perspective={left} lang={activeLang} size="sm" />
+                  </div>
                 </div>
                 <div className="card glass" style={{ borderLeft: '4px solid #3fb950' }}>
                   <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.targetPerspective}</label>
@@ -522,7 +616,10 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
                       <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
                     ))}
                   </select>
-                  <div style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{t.source}: <span style={{ fontStyle: 'italic' }}>{safeRight.source}</span></div>
+                  <div style={{ marginTop: '0.75rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <div style={{ marginBottom: '0.4rem' }}>{t.source}: <span style={{ fontStyle: 'italic', color: 'var(--foreground)' }}>{safeRight.source}</span></div>
+                    <SourceNatureBadges perspective={safeRight} lang={activeLang} size="sm" />
+                  </div>
                 </div>
               </div>
             )}
@@ -553,6 +650,23 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
           </>
         )}
 
+        {/* ── Interactive Gamification & Diagnostic for this Event ── */}
+        {perspectives.length >= 2 && (
+          <div style={{ marginTop: '3.5rem' }}>
+            <PerceptionDiagnostic
+              lang={activeLang}
+              eventId={eventId || left.id}
+              perspectives={perspectives}
+            />
+
+            <HistoryQuiz
+              lang={activeLang}
+              eventId={eventId || left.id}
+              perspectives={perspectives}
+            />
+          </div>
+        )}
+
         {/* ── Community Notes & Voices (both modes) ── */}
         {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
         {voices && voices.voices.length > 0 && <PublicVoices voices={voices} lang={activeLang} />}
@@ -572,7 +686,7 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -585,6 +699,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         initialNotes={initialNotes}
         initialPhotos={initialPhotos}
         initialVoices={initialVoices}
+        initialOngoing={initialOngoing}
         lang={lang}
       />
     </Suspense>

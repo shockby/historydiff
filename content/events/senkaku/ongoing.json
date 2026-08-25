@@ -1,0 +1,38 @@
+{
+  "eventId": "senkaku",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "東シナ海に位置する尖閣諸島（中国名：釣魚島）は、日中両国の主権主張が真っ向から対立する最前線です。日本側は1895年の『無主地先占』を根拠に『固有の領土であり解決すべき領有権問題は存在しない』とする一方、中国側は『明清代からの固有領土であり日清戦争末期に不法盗取された』と主張します。周辺海域での中国海警船による領海侵入常態化やブイ設置問題など、現代の日中安全保障・日米安保条約第5条適用の焦点となっています。",
+    "en": "The Senkaku Islands (Diaoyu Islands in China) represent the sharpest maritime flashpoint between Tokyo and Beijing. Japan maintains that the islands are an inherent part of its territory incorporated via terra nullius in 1895 with no territorial dispute to be resolved. China claims historical sovereignty since the Ming dynasty and views Japan's control as an illegal wartime annexation. Frequent coast guard patrols and maritime airspace incursions keep the area at high military readiness.",
+    "zh": "位于东海的钓鱼岛及其附属岛屿是中日两国主权认知的核心焦点。中方主张自明清以来对钓鱼岛拥有无可争辩的领土主权，认定日本在甲午战争末期非法窃取；日方则主张依据1895年“无主地先占”原则编入版图，否认存在主权争议。中国海警舰艇在相关海域的常态化巡航与执法，已成为影响东亚安全秩序与中日关系稳定的关键变量。",
+    "ko": "동중국해의 센카쿠 열도(중국명 댜오위다오)는 중일 양국의 주권 주장이 정면으로 충돌하는 해양 안보의 최전선입니다. 일본은 1895년 무주지 선점을 근거로 고유 영토임을 주장하며 영유권 분쟁 자체를 부인하는 반면, 중국은 명·청대 이래의 고유 영토이자 청일전쟁 당시 불법 찬탈당했다고 주장합니다. 중국 해경선의 주변 해역 정례 순찰과 미일 안보조약 제5조 적용 여부는 동아시아의 핵심 현안입니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. 尖閣諸島接続水域・領海内における中国海警局大型船の航行日数と法執行活動の動向\n2. 海上保安庁と海上自衛隊による警戒監視体制の強化および共同訓練の進展\n3. 日中防衛当局間の海空連絡メカニズム（ホットライン）の実効性と偶発的衝突回避策",
+    "en": "1. Frequency and operational patterns of China Coast Guard vessel deployments in adjacent and territorial waters\n2. Enhanced joint patrols and rapid-response capabilities of Japan Coast Guard and Maritime Self-Defense Force\n3. Operational effectiveness of the Japan-China Maritime and Aerial Communication Hotline to prevent miscalculations",
+    "zh": "1. 中国海警大型舰艇编队在钓鱼岛领海与毗连区巡航维权频率及常态化管控机制\n2. 日本海上保安厅与海上自卫队警戒监视装备部署与联合应对演练动向\n3. 中日防务部门海空联络机制直通电话（热线）的常态化沟通与危机管控成效",
+    "ko": "1. 센카쿠 영해 및 접속수역 내 중국 해경선의 항행 일수 및 해양 법집행 활동 추이\n2. 일본 해상보안청과 해상자위대의 경계 감시 태세 강화 및 합동 대응 훈련\n3. 중일 방위당국 간 해공 연락 메커니즘(핫라인)의 실효성 및 우발적 충돌 방지책"
+  },
+  "rssQuery": {
+    "ja": "尖閣諸島 釣魚島 海警 海上保安庁",
+    "en": "Senkaku Diaoyu Islands coast guard Japan China",
+    "zh": "钓鱼岛 海警 巡航 中日",
+    "ko": "센카쿠 댜오위다오 해경 일본 중국"
+  },
+  "articles": [
+    {
+      "title": "尖閣諸島周辺海域における警戒監視と外交協議",
+      "source": "読売新聞オンライン",
+      "url": "https://www.yomiuri.co.jp/politics/",
+      "publishedAt": "2026-08-24",
+      "summary": {
+        "ja": "周辺海域での安全確保と偶発的衝突を防ぐための防衛ホットラインの運用が継続されています。",
+        "en": "Maritime authorities maintain steady patrols while bilateral communication channels aim to avert accidental escalation.",
+        "zh": "海上执法力量保持常态化巡航，双边防务沟通机制持续运作以管控海上风险。",
+        "ko": "해상 경계 태세가 지속되는 가운데 우발적 충돌을 방지하기 위한 양국 간 소통이 유지되고 있습니다."
+      },
+      "country": "日本"
+    }
+  ]
+}

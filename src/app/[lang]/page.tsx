@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes } from '@/lib/markdown';
+import { generateWebSiteSchema, SITE_URL } from '@/lib/schema';
 import SearchEvents from '@/app/components/SearchEvents';
 
 export async function generateStaticParams() {
@@ -34,10 +35,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description,
+    alternates: {
+      canonical: `${SITE_URL}/${lang}`,
+      languages: {
+        en: `${SITE_URL}`,
+        ja: `${SITE_URL}/ja`,
+        zh: `${SITE_URL}/zh`,
+        ko: `${SITE_URL}/ko`,
+        'x-default': `${SITE_URL}`,
+      },
+    },
     openGraph: {
       title,
       description,
-      url: `https://historydiff.pages.dev/${lang}`,
+      url: `${SITE_URL}/${lang}`,
       type: 'website',
       images: [
         {
@@ -76,5 +87,15 @@ export default async function LocalizedHome({ params }: PageProps) {
     })
     .filter((e) => e.perspectives.length > 0);
 
-  return <SearchEvents initialEvents={events} lang={lang} />;
+  const websiteSchema = generateWebSiteSchema(lang);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <SearchEvents initialEvents={events} lang={lang} />
+    </>
+  );
 }

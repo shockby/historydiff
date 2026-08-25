@@ -1,0 +1,38 @@
+{
+  "eventId": "afghanistan-conflict",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2021年8月の米軍撤退とタリバン復権以降のアフガニスタン情勢は、国際的未承認状態が続く暫定政権の下での人道危機、女性の教育・就労制限、そしてISKP（イスラム国ホラサン州）によるテロ脅威という複合的課題を抱えています。中露・中央アジア諸国との経済的実務対話と、欧米による人権・テロ防止要求が交錯する中、ユーラシア中央部の地政学的安定に直結しています。",
+    "en": "Since the August 2021 US withdrawal and the Taliban's return to power in Kabul, Afghanistan faces severe diplomatic isolation, systemic restrictions on women's rights, and recurring security threats from ISKP. While regional neighbors in Central Asia, China, and Russia pursue pragmatic trade and counter-terror engagements, Western nations condition official recognition and developmental aid on human rights benchmarks.",
+    "zh": "自2021年8月美军撤离及塔利班重掌阿富汗政权以来，阿富汗临时政府仍未获得国际社会普遍承认。人道主义援助准入、妇女教育就业权益及防范“伊斯兰国呼罗珊分支”（ISKP）等跨境恐怖主义威胁是核心关切。中俄及中亚周边国家在安全合作与经贸互通上开展务实接触，国际社会持续探索政治包容性解决方案。",
+    "ko": "2021년 8월 미군 철수와 탈레반의 재집권 이후 아프가니스탄은 국제사회의 공식 미승인 상태 속에서 심각한 경제난과 여성 인권 제한, ISKP의 테러 위협에 직면해 있습니다. 주변국들과의 실무적 경제 교류와 서방의 인권 개선 요구가 교차하며 중앙아시아 정세의 주요 변수가 되고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. 中国・ロシア・中央アジア諸国との鉱物資源開発・インフラ通商協力の実効性\n2. 国連ドーハ会議プロセスにおける国際社会とタリバン暫定政権の関与条件\n3. パキスタンとの国境対立（TTP越境テロ問題）および治安安定化措置",
+    "en": "1. Pragmatic mineral extraction and infrastructure trade initiatives with China, Central Asia, and regional partners\n2. UN-led Doha meeting outcomes balancing humanitarian assistance with human rights commitments\n3. Border tensions with Pakistan concerning cross-border TTP activities and border checkpoint operations",
+    "zh": "1. 阿富汗与中国、中亚国家在矿产资源开发与跨境铁路等基础设施领域的合作进展\n2. 联合国主导的多哈阿富汗问题会议磋商与人道援助落实机制\n3. 阿富汗与巴基斯坦边境反恐协作（巴基斯坦塔利班问题）与口岸通关稳定性",
+    "ko": "1. 중국 및 중앙아시아 국가들과의 광물 자원 개발 및 물류 통상 협력 추이\n2. 유엔 도하 회의를 통한 국제사회와 탈레반 임시정부 간의 인도적 지원 조건 조율\n3. 파키스탄과의 국경 갈등(TTP 월경 테로 대응) 및 국경 검문소 운영 안정성"
+  },
+  "rssQuery": {
+    "ja": "アフガニスタン タリバン 人道支援 カブール",
+    "en": "Afghanistan Taliban Doha humanitarian Kabul",
+    "zh": "阿富汗 塔利班 喀布尔 人道援助",
+    "ko": "아프가니스탄 탈레반 도하 지원"
+  },
+  "articles": [
+    {
+      "title": "アフガニスタンの人道支援と地域対話の最新動向",
+      "source": "国連ニュース (UN News)",
+      "url": "https://news.un.org/",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "国連機関による基礎的食糧・医療支援の継続と、周辺国による実務対話が進められています。",
+        "en": "UN agencies maintain essential humanitarian lifelines while regional neighbors engage in functional dialogue.",
+        "zh": "联合国机构持续维持基础民生与医疗救助，周边多国就务实互通保持定期沟通。",
+        "ko": "유엔 기구의 필수 인도적 지원이 유지되는 가운데 역내 주변국과의 실무적 대화가 지속되고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

@@ -1,42 +1,38 @@
-## 概要 / Summary
+## 概要
+GitHub Issue #25 の **4. インタラクション/ゲーミフィケーション** に対応し、以下の3つの新機能を実装しました。
+ユーザーが歴史記述の違いを単に受動的に読むだけでなく、自らの認識や直感を試しながら深く理解できる体験を提供します。
 
-HistoryDiff アプリケーションにおける多言語化（デフォルト：英語、および日本語・中国語）の対応と、Next.js の静的エクスポート（Static Export）対応を行いました。
-初期実装のクエリパラメータによる言語切り替えから、ご要望に合わせてサブディレクトリパス（日本語：`/ja`、中国語：`/zh`、英語：プレフィックスなし `/`）によるURLルーティング設計に移行しました。
+Closes #25 (Section 4)
 
-We have implemented comprehensive multi-language support (English, Japanese, and Chinese) for the HistoryDiff application and ensured complete compatibility with Next.js static-export mode (`output: 'export'`).
-Following the initial query parameter implementation, we transitioned the architecture to native localized subdirectory paths (Japanese: `/ja`, Chinese: `/zh`, English: `/` without prefix) to satisfy URL routing specifications.
+## 主な実装内容
 
----
+### 1. 「この記述はどの国の教科書?」当てゲーム（ミニクイズ） (`HistoryQuiz.tsx` & `quizData.ts`)
+- **クイズ体験**: 特徴的な語彙や叙述ニュアンスから、どの国・勢力の教科書記述かを当てる4択クイズ。
+- **即時フィードバック & 背景解説**: 正解・不正解の判定とともに、なぜその国がその用語や表現（例：「進出」vs「侵略」、「諸説あり」vs「30万人」等）を用いるのかの歴史的文脈を解説。
+- **ゲーミフィケーション**: 連続正解ストリーク（`🔥 N問連続正解！`）および通算スコア集計。
+- **Diffへのシームレス導線**: クイズから該当事件の詳細なDiff比較ページへ直接ジャンプ可能。
+- **デュアルモード**:
+  - **トップページ**: 全事件からランダムに出題されるクロスイベントクイズ。
+  - **イベント詳細ページ**: その事件の記述に特化した出題。
 
-### 主な変更内容 / Key Changes
+### 2. 歴史認識の「ズレ」診断 (`PerceptionDiagnostic.tsx`)
+- **ブラインド診断**: 国名を伏せた「記述A」「記述B」「記述C」から、自分が学校や本で最初に学んだ説明に最も近いものを選択。
+- **認識プロファイル判定**: 選択した記述がどの国の教科書と一致するかを判定し、他国の教科書との認識ギャップや対比ポイントを可視化。
+- **SNSシェア機能**: 診断結果を X (Twitter) でシェア・クリップボードにコピー可能。
+- **事件切替セレクター**: トップページで複数の主要事件の診断を切り替えて体験可能。
 
-1. **サブディレクトリ型ルーティングの導入 (Subdirectory Routing Transition)**
-   - 日本語（`/ja`）および中国語（`/zh`）用のディレクトリラッパー `src/app/[lang]/page.tsx` および `src/app/[lang]/events/[id]/page.tsx` を新規作成しました。
-   - `generateStaticParams()` により、ビルド時にすべての言語バリエーションに応じた静的サブディレクトリパス（例: `/ja/events/covid-origin`）を自動的に pre-render するように構成しました。
-   - Recreated localized route wraps under `src/app/[lang]/page.tsx` and `src/app/[lang]/events/[id]/page.tsx` resolving dynamic path parameters.
-   - Configured `generateStaticParams()` to pre-render every language-based permutation of routes into pristine static files during the build process.
+### 3. コミュニティノートへの「役に立った」投票システム (`CommunityNotes.tsx`)
+- **X（旧Twitter）風の3段階評価**: 「👍 役に立った」「😐 やや役に立った」「👎 役に立たなかった」の投票ボタン。
+- **フィードバックタグ選択**:
+  - 役に立った場合: 「信頼できる出典がある」「客観的・中立的」「重要な文脈が補足されている」など
+  - 役に立たなかった場合: 「出典・根拠が不十分」「偏りがある」など
+- **永続化 & リアルタイム集計**: `useSyncExternalStore` と `localStorage` により、ブラウザ再読込や複数タブ間でも同期されるSSRセーフな投票保持。
+- **評価率ゲージ**: 「92%が役に立ったと評価（計38票）」などの可視化。
 
-2. **デフォルトパスの軽量化と最適化 (Root Core Optimization)**
-   - 共通のルートパス（`/` および `/events/[id]`）は、ビルド時に英語（`en`）のデータのみをロードするように簡素化し、ページの初期読み込み時の転送量を削減し高速化しました。
-   - Reverted root templates (`src/app/page.tsx` and `src/app/events/[id]/page.tsx`) to fetch exclusively English (`en`) data payloads, ensuring ultra-lightweight entry points.
+### 4. 統合インタラクティブラボ & 4言語完全ローカライズ
+- **トップページ統合 (`InteractiveHub.tsx`)**: ミニクイズと認識診断をタブでスムーズに切り替え可能。
+- **4言語完全対応 (`translations.ts`)**: 日本語 (`ja`)、英語 (`en`)、中国語 (`zh`)、韓国語 (`ko`) のすべてのUI文字列に対応。
 
-3. **パス切り替え対応の言語セレクター (Path-based Interactive Selector)**
-   - クエリパラメータ `?lang=...` ではなく、ブラウザの `pathname`（パスの先頭に `/ja` または `/zh` があるか）からアクティブ言語を検出するロジックに変更しました。
-   - 言語変更の際には、プレフィックスを置換、追加、あるいは削除する遷移処理を `LanguageSelector.tsx` に実装しました。
-   - Re-engineered `LanguageSelector.tsx` to detect active language directly from browser `pathname` prefixes and perform URL path rewrites instead of query operations.
-
-4. **翻訳自動化ツールの導入とファイル生成 (Automated Translation Tooling)**
-   - 翻訳スクリプト `translate.py` を作成・実行し、全92個の視点マークダウンおよび28個のコミュニティノート（`notes.json`）を英語（`en`）と中国語（`zh`）に自動翻訳し、ファイルを生成しました（日本語 `ja` は元のデフォルトデータ）。
-   - Created and executed `translate.py` to translate all 92 markdown perspective files and 28 `notes.json` community notes into English (`en`) and Chinese (`zh`), with Japanese (`ja`) as the source default.
-
-5. **各UIコンポーネントのローカライズ (Component Localization)**
-   - `CommunityNotes.tsx`（判定ステータスや評価項目など）および `EventPageClient.tsx` 内の各種UIテキスト（国別フィルタ、テーブル、凡例など）を、Propsとして渡されるアクティブ言語に合わせて適切にローカライズしました。
-   - Fully localized `CommunityNotes.tsx` (including dynamic verdicts and criteria) and `EventPageClient.tsx`.
-
----
-
-### 検証およびビルド結果 / Verification & Build Results
-
-最適化された本番ビルド（`npm run build`）を実行し、ホーム3言語分および全28イベントの3言語分の詳細ページを含む、**合計90ページ**がビルドエラーや警告なしで完全に静的ファイルとして pre-render されることを確認しました。
-
-Successfully verified with an optimized production build (`npm run build`). Pre-rendered **90 static pages** (3 localized homes + 28 events × 3 languages) cleanly into static directories without build errors.
+## 検証
+- `npm run build` による全183ページの静的生成（SSG）、Turbopackコンパイル、TypeScript型チェック（0エラー）の完了を確認。
+- `npm run lint` によるコード品質チェック確認。

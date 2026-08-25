@@ -1,0 +1,51 @@
+{
+  "eventId": "ukraine-invasion",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2022年に始まったロシアによるウクライナ侵攻は、第二次世界大戦後の欧州安全保障秩序と国連主導の国際秩序を根本から揺るがしました。ウクライナ側は『1991年の主権国境回復と生存をかけた防衛戦』と位置づける一方、ロシア側は『NATO東方拡大への対抗とロシア系住民保護』を掲げており、双方が主張する歴史的領有権や国家形成の正統性の差が、領土割譲や停戦条件を巡る最大の障害となっています。",
+    "en": "Russia's 2022 full-scale invasion of Ukraine represents the most severe challenge to European security and the post-WWII international order. Ukraine frames the conflict as an existential defense of its 1991 borders and sovereignty, while Moscow asserts historical claims and resistance against NATO expansion. These clashing historical narratives directly define the terms of potential ceasefires, sovereignty guarantees, and global geopolitical alignments.",
+    "zh": "2022年爆发的俄罗斯对乌克兰全面军事行动，从根本上重塑了二战以来的欧洲安全格局。乌克兰坚持恢复1991年独立时的法定领土与国家主权，而俄罗斯则强调北约东扩威胁与历史斯拉夫统一叙事。双方在历史正统性与领土归属上的根本认知分歧，至今仍是停火谈判与战后安全架构安排的核心死结。",
+    "ko": "2022년 러시아의 우크라이나 침공은 2차 대전 이후의 유럽 안보 질서와 국제 규범을 근본적으로 뒤흔든 사건입니다. 우크라이나는 1991년 국경 회복과 주권 수호를 위한 방어전으로 규정하는 반면, 러시아는 나토 동진 저지와 역사적 완충지대 확보를 주장합니다. 이 역사적 정통성과 영토 인식의 차이는 현재의 휴전 협상과 전후 안보 질서 재편의 핵심 쟁점입니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. ドンバス・クリミアの主権帰属を巡る米欧・中東仲介の和平交渉の行方\n2. ウクライナのEU加盟手続き進展とNATO相互防衛条約に代わる安全保障協定の締結\n3. ロシア軍・ウクライナ軍双方の前線膠着とドローン・長距離打撃兵器によるインフラ消耗戦の展開",
+    "en": "1. Progress of US, European, and Global South diplomatic peace formulas concerning Crimea and Donbas status\n2. Ukraine's formal EU accession negotiations and bilateral long-term security pact implementations\n3. Frontline military stalemates and infrastructure attrition driven by deep-strike drones and precision systems",
+    "zh": "1. 围绕克里米亚与顿巴斯领土主权归属的国际和平调解与停火方案进展\n2. 乌克兰加入欧盟进程及与西方主要国家双边长期安全保障协定的落实\n3. 前线战壕战局势演变与远程无人机/精确打击对能源及后勤基础设施的消耗战",
+    "ko": "1. 크림반도 및 돈바스 영토 주권을 둘러싼 국제 평화 중재안과 휴전 협상의 진전\n2. 우크라이나의 EU 가입 절차 진척 및 서방 주요국과의 양자 안보협정 실효성\n3. 전선 교착 상태 속 드론·장거리 정밀 타격에 의한 핵심 인프라 소모전 양상"
+  },
+  "rssQuery": {
+    "ja": "ウクライナ 戦況 停戦 ロシア",
+    "en": "Ukraine war frontline ceasefire Russia",
+    "zh": "乌克兰 战况 停火 俄罗斯",
+    "ko": "우크라이나 전황 휴전 러시아"
+  },
+  "articles": [
+    {
+      "title": "ウクライナ情勢と前線の最新戦況分析",
+      "source": "ロイター (Reuters)",
+      "url": "https://jp.reuters.com/world/ukraine/",
+      "publishedAt": "2026-08-24",
+      "summary": {
+        "ja": "東部戦線での激しい防衛戦が継続する中、ドローン攻撃と防空網の配備が戦況の鍵を握る展開となっています。",
+        "en": "Heavy frontline engagements continue in the east as long-range drone strikes and air defense supplies remain pivotal.",
+        "zh": "东部战线胶着对峙仍在持续，远程无人机打击与防空拦截成为影响局势的关键要素。",
+        "ko": "동부 전선의 치열한 공방이 이어지는 가운데 드론 타격과 방공망 배치가 전황의 핵심 변수로 작용하고 있습니다."
+      },
+      "country": "国際"
+    },
+    {
+      "title": "和平構想と領土主権をめぐる各国の外交交渉",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/world-europe-60503037",
+      "publishedAt": "2026-08-22",
+      "summary": {
+        "ja": "国際社会による多国間仲介の模索が続く一方、領土主権の妥協を巡る双方の隔たりは依然として大きいままです。",
+        "en": "Diplomatic peace initiatives gain momentum globally, though fundamental disagreements on territorial integrity persist.",
+        "zh": "多方积极探索外交和平调解路径，但双方在领土主权原则问题上的分歧依然深刻。",
+        "ko": "국제사회의 외교적 중재 시도가 계속되고 있으나 영토 주권 타협을 둘러싼 입장차는 팽팽합니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

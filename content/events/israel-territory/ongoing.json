@@ -1,0 +1,38 @@
+{
+  "eventId": "israel-territory",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "1948年のイスラエル建国以来続く領土・主権問題は、ガザ地区での戦闘やヨルダン川西岸地区の入植地拡大、エルサレムの地位を巡り、現在も中東全域を揺るがす最大の火種です。イスラエル側が主張する『歴史的・聖書的権利と国家生存の安全保障』と、パレスチナ側が主張する『ナクバ（大災厄）による土地強奪の是正と民族自決・二国家解決』という根本的な歴史認識の乖離が、停戦や永続的和平の成立を困難にしています。",
+    "en": "The Israeli-Palestinian territorial and sovereignty conflict since 1948 remains the primary catalyst of Middle Eastern volatility, centered on Gaza, West Bank settlements, and Jerusalem's final status. Israel grounds its claims in ancient historical heritage and existential security doctrines, while Palestinians emphasize the Nakba, ongoing occupation, and the right to self-determination. This fundamental narrative divergence dictates current ceasefire deals and regional normalization.",
+    "zh": "自1948年以色列建国以来围绕巴勒斯坦领土与主权的长期争端，在加沙冲突、约旦河西岸定居点扩张及耶路撒冷最终地位问题上持续激化。以色列强调圣经历史渊源与国家生存安全屏障，巴勒斯坦则强调“灾难日”（Nakba）流离失所的公正救济与民族自决权。这一历史认知的根本冲突，直接阻碍了“两国方案”与中东持久和平。",
+    "ko": "1948년 이스라엘 건국 이래 지속된 영토 및 주권 분쟁은 가자 지구 분쟁, 서안 지구 정착촌 확대, 예루살렘의 최종 지위를 둘러싸고 중동 전역의 안보를 위협하고 있습니다. 이스라엘의 역사적·생존적 안보 논리와 팔레스타인의 나크바(대재앙) 극복 및 민족자결권 주장의 대립은 현재의 휴전 협상과 전후 평화 구상의 핵심 장애물입니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. ガザ地区における人道支援物資搬入と多国籍暫定統治構想・復興枠組みの進展\n2. ヨルダン川西岸地区での入植活動とパレスチナ自治政府（PA）の改革・統治能力\n3. イスラエルとアラブ諸国（サウジアラビア等）の国交正常化プロセスの再開条件",
+    "en": "1. Day-after governance frameworks, security arrangements, and reconstruction funding for Gaza\n2. West Bank settlement expansions and governance reforms within the Palestinian Authority\n3. Preconditions for restarting Saudi-Israeli normalization talks under broader regional security guarantees",
+    "zh": "1. 加沙战后安全与治理过渡安排、多边维和构想及战后重建基金的筹建\n2. 约旦河西岸定居点政策走向与巴勒斯坦民族权力机构（PA）治理能力重组\n3. 沙特与以色列关系正常化谈判的重启条件及其与巴勒斯坦建国路径的挂钩",
+    "ko": "1. 가자 지구 전후 통치 체제, 다국적 안보 유지 구상 및 전후 재건 자금 조성 추이\n2. 서안 지구 내 정착촌 확장 동향과 팔레스타인 자치정부(PA)의 개혁 및 행정력\n3. 사우디아라비아 등 아랍권과의 수교 정상화 논의 재개 조건 및 포괄적 안보 협약"
+  },
+  "rssQuery": {
+    "ja": "イスラエル パレスチナ ガザ 停戦",
+    "en": "Israel Palestine Gaza ceasefire West Bank",
+    "zh": "巴以冲突 加沙 停火 耶路撒冷",
+    "ko": "이스라엘 팔레스타인 가자 휴전"
+  },
+  "articles": [
+    {
+      "title": "中東和平調停とガザ復興に向けた多国間外交協議",
+      "source": "ロイター (Reuters)",
+      "url": "https://jp.reuters.com/world/middle-east/",
+      "publishedAt": "2026-08-24",
+      "summary": {
+        "ja": "関係国による停戦条件の調整と長期的な安全保障枠組みの策定が続けられています。",
+        "en": "Diplomats from key mediator nations continue talks on comprehensive ceasefire metrics and long-term security architectures.",
+        "zh": "主要斡旋方围绕停火具体细则及长期区域安全框架构建持续推进外交协商。",
+        "ko": "주요 중재국들이 참여하는 휴전 조건 조율과 장기적인 안보 체제 구축 협의가 진행되고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

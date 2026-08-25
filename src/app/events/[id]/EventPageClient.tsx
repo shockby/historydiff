@@ -9,8 +9,9 @@ import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
 const HistoryQuiz = dynamic(() => import('@/app/components/HistoryQuiz'), { ssr: false });
 const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDiagnostic'), { ssr: false });
+import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
-import { EventPerspective, EventNotes, EventPhotos, EventVoices } from '@/lib/markdown';
+import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare } from 'lucide-react';
 import Link from 'next/link';
@@ -21,6 +22,7 @@ interface EventPageClientProps {
   initialNotes: EventNotes | null;
   initialPhotos?: EventPhotos | null;
   initialVoices?: EventVoices | null;
+  initialOngoing?: EventOngoing | null;
   lang: string;
 }
 
@@ -344,7 +346,7 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
 }
 
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -352,6 +354,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   const notes = initialNotes?.notes || [];
   const photos = initialPhotos ?? null;
   const voices = initialVoices ?? null;
+  const ongoing = initialOngoing ?? null;
 
   const [activeIndex, setActiveIndex]   = useState(0);
   const [viewMode,    setViewMode]      = useState<ViewMode>('read');
@@ -431,9 +434,34 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
 
       <div className="container" style={{ paddingBottom: '10rem', padding: isMobile ? '1rem' : '2rem' }}>
         {/* ── Page header ── */}
-        <header style={{ marginBottom: isMobile ? '2rem' : '3rem' }}>
-          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+        <header style={{ marginBottom: isMobile ? '2rem' : '2.5rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
             <span className="badge" style={{ background: 'var(--accent)', color: 'white', border: 'none' }}>{t.archive}</span>
+            {ongoing?.isOngoing && (
+              <span
+                className="badge"
+                style={{
+                  background: 'rgba(239, 68, 68, 0.2)',
+                  color: '#f87171',
+                  border: '1px solid rgba(239, 68, 68, 0.5)',
+                  fontWeight: 700,
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                }}
+              >
+                <span
+                  style={{
+                    width: '6px',
+                    height: '6px',
+                    borderRadius: '50%',
+                    backgroundColor: '#ef4444',
+                    display: 'inline-block',
+                  }}
+                />
+                {t.ongoingBadge}
+              </span>
+            )}
             <span className="badge">{left.category}</span>
             <span className="badge">{left.year}</span>
             <span className="badge">{left.location}</span>
@@ -445,6 +473,9 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             {viewMode === 'read' ? t.perspectiveSummary : t.compareHelp}
           </p>
         </header>
+
+        {/* ── Why This Matters Today & Live News (Ongoing Events) ── */}
+        {ongoing?.isOngoing && <WhyItMattersSection ongoing={ongoing} lang={activeLang} />}
 
         {/* ── Photos ── */}
         {photos && <PhotoGallery photos={photos} lang={activeLang} />}
@@ -592,7 +623,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -605,6 +636,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         initialNotes={initialNotes}
         initialPhotos={initialPhotos}
         initialVoices={initialVoices}
+        initialOngoing={initialOngoing}
         lang={lang}
       />
     </Suspense>

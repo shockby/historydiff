@@ -3,7 +3,7 @@
 import { useState, Suspense } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { EventPerspective, EventNote } from '@/lib/markdown';
+import { EventPerspective, EventNote, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
@@ -15,7 +15,13 @@ const InteractiveHub = dynamic(() => import('./InteractiveHub'), { ssr: false })
 import FeaturedEvents from './FeaturedEvents';
 
 interface SearchEventsProps {
-  initialEvents: { id: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] }[];
+  initialEvents: {
+    id: string;
+    perspectives: EventPerspective[];
+    imageUrl?: string;
+    notes?: EventNote[];
+    ongoing?: EventOngoing | null;
+  }[];
   lang: string;
 }
 
@@ -111,6 +117,140 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
       {/* Featured Top 3 Contested Events */}
       <FeaturedEvents lang={lang} />
+
+      {/* ── Ongoing Issues & Live Context Showcase ── */}
+      {events.some((e) => e.ongoing?.isOngoing) && (
+        <section style={{ marginTop: '4.5rem', marginBottom: '2rem' }}>
+          <div style={{ marginBottom: '1.8rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.5rem' }}>
+              <span
+                style={{
+                  width: '9px',
+                  height: '9px',
+                  borderRadius: '50%',
+                  backgroundColor: '#ef4444',
+                  boxShadow: '0 0 10px #ef4444',
+                  display: 'inline-block',
+                }}
+              />
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 800, margin: 0, color: '#fff' }}>
+                {t.ongoingSectionTitle}
+              </h2>
+            </div>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
+              {t.ongoingSectionSubtitle}
+            </p>
+          </div>
+
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
+              gap: '1.5rem',
+            }}
+          >
+            {events
+              .filter((e) => e.ongoing?.isOngoing)
+              .slice(0, 3)
+              .map((event) => {
+                const persp = event.perspectives[0];
+                if (!persp) return null;
+                const ongoing = event.ongoing!;
+                const whyShort = (ongoing.whyItMatters[activeLang] ?? ongoing.whyItMatters.en) ?? ongoing.whyItMatters.ja ?? '';
+                const watchShort = (ongoing.whatToWatchNext[activeLang] ?? ongoing.whatToWatchNext.en) ?? ongoing.whatToWatchNext.ja ?? '';
+                const firstWatchPoint = watchShort.split('\n')[0] || '';
+
+                return (
+                  <Link href={eventLink(event.id)} key={event.id} style={{ textDecoration: 'none', display: 'flex' }}>
+                    <div
+                      className="card glass"
+                      style={{
+                        padding: '1.5rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        width: '100%',
+                        border: '1px solid rgba(239, 68, 68, 0.3)',
+                        background: 'linear-gradient(145deg, rgba(239, 68, 68, 0.05) 0%, rgba(18, 18, 24, 0.9) 100%)',
+                        transition: 'all 0.22s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = 'rgba(239, 68, 68, 0.6)';
+                        e.currentTarget.style.transform = 'translateY(-2px)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+                        e.currentTarget.style.transform = 'none';
+                      }}
+                    >
+                      {/* Top Header */}
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+                        <span
+                          className="badge"
+                          style={{
+                            background: 'rgba(239, 68, 68, 0.2)',
+                            color: '#fca5a5',
+                            border: '1px solid rgba(239, 68, 68, 0.5)',
+                            fontWeight: 700,
+                            fontSize: '0.75rem',
+                          }}
+                        >
+                          ● {t.ongoingBadge}
+                        </span>
+                        <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                          {t.lastUpdated}: {ongoing.lastUpdated}
+                        </span>
+                      </div>
+
+                      {/* Title */}
+                      <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.8rem', color: '#fff', lineHeight: 1.35 }}>
+                        {persp.title}
+                      </h3>
+
+                      {/* Why it matters preview */}
+                      <p
+                        style={{
+                          fontSize: '0.86rem',
+                          lineHeight: 1.65,
+                          color: 'var(--text-secondary)',
+                          marginBottom: '1.2rem',
+                          display: '-webkit-box',
+                          WebkitLineClamp: 3,
+                          WebkitBoxOrient: 'vertical',
+                          overflow: 'hidden',
+                        }}
+                      >
+                        {whyShort}
+                      </p>
+
+                      {/* Next Watch Point Preview */}
+                      {firstWatchPoint && (
+                        <div
+                          style={{
+                            marginTop: 'auto',
+                            padding: '0.75rem 0.9rem',
+                            borderRadius: '8px',
+                            background: 'rgba(255, 255, 255, 0.03)',
+                            border: '1px solid rgba(255, 255, 255, 0.07)',
+                            fontSize: '0.8rem',
+                            color: '#f87171',
+                            display: 'flex',
+                            alignItems: 'flex-start',
+                            gap: '0.5rem',
+                          }}
+                        >
+                          <span style={{ fontWeight: 700, flexShrink: 0 }}>🔮</span>
+                          <span style={{ color: 'var(--foreground)', lineHeight: 1.4 }}>
+                            {firstWatchPoint.replace(/^[0-9]+[.\-、]\s*/, '')}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                  </Link>
+                );
+              })}
+          </div>
+        </section>
+      )}
 
       {/* Interactive Exploration Lab (Quiz & Perception Diagnostic) */}
       <InteractiveHub events={events} lang={lang} />
@@ -323,7 +463,33 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                       </div>
                     )}
                     <div className="card-content">
-                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                        {/* Ongoing badge if active */}
+                        {event.ongoing?.isOngoing && (
+                          <span
+                            className="badge"
+                            style={{
+                              background: 'rgba(239, 68, 68, 0.2)',
+                              color: '#f87171',
+                              border: '1px solid rgba(239, 68, 68, 0.45)',
+                              fontWeight: 700,
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '0.35rem',
+                            }}
+                          >
+                            <span
+                              style={{
+                                width: '6px',
+                                height: '6px',
+                                borderRadius: '50%',
+                                backgroundColor: '#ef4444',
+                                display: 'inline-block',
+                              }}
+                            />
+                            {t.ongoingBadge}
+                          </span>
+                        )}
                         {/* Perspective badge — highlight if matched */}
                         <span
                           className="badge"

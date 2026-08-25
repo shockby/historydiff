@@ -1,18 +1,19 @@
 'use client';
 
-import { useState, useEffect, Suspense, useRef } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState, Suspense, useMemo, useSyncExternalStore } from 'react';
 import DiffView from '@/app/components/DiffView';
+import ControversyKeywords from '@/app/components/ControversyKeywords';
 import CommunityNotes from '@/app/components/CommunityNotes';
 import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
+import { analyzeControversyDiff } from '@/lib/diffAnalysis';
 import { EventPerspective, EventNotes, EventPhotos, EventVoices } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
-import { Columns, Rows3, Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare, ChevronDown } from 'lucide-react';
+import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare } from 'lucide-react';
 import Link from 'next/link';
 
 interface EventPageClientProps {
-  eventId: string;
+  eventId?: string;
   initialPerspectives: EventPerspective[];
   initialNotes: EventNotes | null;
   initialPhotos?: EventPhotos | null;
@@ -23,15 +24,15 @@ interface EventPageClientProps {
 type ViewMode = 'read' | 'diff';
 
 function useIsMobile(breakpoint = 768) {
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    const mql = window.matchMedia(`(max-width: ${breakpoint}px)`);
-    setIsMobile(mql.matches);
-    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
-    mql.addEventListener('change', handler);
-    return () => mql.removeEventListener('change', handler);
-  }, [breakpoint]);
-  return isMobile;
+  return useSyncExternalStore(
+    (callback) => {
+      const mql = window.matchMedia(`(max-width: ${breakpoint}px)`);
+      mql.addEventListener('change', callback);
+      return () => mql.removeEventListener('change', callback);
+    },
+    () => window.matchMedia(`(max-width: ${breakpoint}px)`).matches,
+    () => false
+  );
 }
 
 // ── Perspective Switcher Bar ──────────────────────────────────────────────
@@ -317,14 +318,14 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
         {[
-          [t.tableTitle,    <span style={{ color: 'var(--foreground)', textAlign: 'right', maxWidth: '60%' }}>{p.title}</span>],
-          [t.tableCategory, <span className="badge">{p.category}</span>],
-          [t.tableEra,      <span style={{ color: 'var(--foreground)' }}>{p.year}</span>],
-          [t.tableSource,   <span style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right', maxWidth: '60%' }}>{p.source}</span>],
-        ].map(([label, value], i) => (
+          { label: t.tableTitle, value: <span key="title" style={{ color: 'var(--foreground)', textAlign: 'right', maxWidth: '60%' }}>{p.title}</span> },
+          { label: t.tableCategory, value: <span key="cat" className="badge">{p.category}</span> },
+          { label: t.tableEra, value: <span key="era" style={{ color: 'var(--foreground)' }}>{p.year}</span> },
+          { label: t.tableSource, value: <span key="src" style={{ color: 'var(--text-secondary)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'right', maxWidth: '60%' }}>{p.source}</span> },
+        ].map((item, i) => (
           <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5rem 0', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-            <span style={{ color: 'var(--text-secondary)', fontWeight: 600 }}>{label as string}</span>
-            {value as React.ReactNode}
+            <span style={{ color: 'var(--text-secondary)', fontWeight: 600 }}>{item.label}</span>
+            {item.value}
           </div>
         ))}
         <div style={{ padding: '0.5rem 0' }}>
@@ -340,7 +341,7 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
 }
 
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
+function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, initialVoices, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -352,7 +353,39 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   const [activeIndex, setActiveIndex]   = useState(0);
   const [viewMode,    setViewMode]      = useState<ViewMode>('read');
   const [rightIndex,  setRightIndex]    = useState(1);
+  const [activeKeyword, setActiveKeyword] = useState<string | null>(null);
   const isMobile = useIsMobile();
+
+  const left  = perspectives[activeIndex] || perspectives[0];
+
+  // Prevent left === right in diff mode
+  const safeRightIndex = rightIndex === activeIndex
+    ? perspectives.findIndex((_, i) => i !== activeIndex)
+    : rightIndex;
+  const safeRight = perspectives[safeRightIndex] ?? perspectives[0];
+
+  // Compute controversy analysis for active left vs right perspectives (before early return for Hook rules)
+  const analysis = useMemo(() => {
+    if (!left || !safeRight) {
+      return {
+        exclusiveOld: [],
+        exclusiveNew: [],
+        contrasts: [],
+        stats: {
+          oldWordCount: 0,
+          newWordCount: 0,
+          exclusiveOldCount: 0,
+          exclusiveNewCount: 0,
+          divergenceRate: 0,
+        },
+      };
+    }
+    return analyzeControversyDiff(left.content, safeRight.content, activeLang);
+  }, [left, safeRight, activeLang]);
+
+  const contrastTerms = useMemo(() => {
+    return analysis.contrasts.flatMap((c) => [c.oldTerm, c.newTerm]);
+  }, [analysis]);
 
   const homeLink = activeLang === 'en' ? '/' : `/${activeLang}`;
 
@@ -367,20 +400,11 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
     );
   }
 
-  const left  = perspectives[activeIndex] || perspectives[0];
-  const right = perspectives[rightIndex]  || perspectives[Math.min(1, perspectives.length - 1)];
-
   const getPerspectiveLabel = (countryName: string) => {
     if (activeLang === 'ja') return `${countryName} の記述`;
     if (activeLang === 'zh') return `${countryName} 的记述`;
     return `${countryName}'s Description`;
   };
-
-  // Prevent left === right in diff mode
-  const safeRightIndex = rightIndex === activeIndex
-    ? perspectives.findIndex((_, i) => i !== activeIndex)
-    : rightIndex;
-  const safeRight = perspectives[safeRightIndex] ?? perspectives[0];
 
   return (
     <>
@@ -389,9 +413,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
         <PerspectiveSwitcher
           perspectives={perspectives}
           activeIndex={activeIndex}
-          onSelect={(idx) => { setActiveIndex(idx); }}
+          onSelect={(idx) => {
+            setActiveIndex(idx);
+            setActiveKeyword(null);
+          }}
           viewMode={viewMode}
-          onViewModeChange={setViewMode}
+          onViewModeChange={(m) => {
+            setViewMode(m);
+            setActiveKeyword(null);
+          }}
           lang={activeLang}
         />
       )}
@@ -452,6 +482,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   const newRight = safeRightIndex;
                   setActiveIndex(newRight);
                   setRightIndex(activeIndex);
+                  setActiveKeyword(null);
                 }} style={{
                   alignSelf: 'center', display: 'flex', alignItems: 'center', gap: '0.4rem',
                   padding: '0.4rem 1rem', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.15)',
@@ -461,7 +492,10 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                 </button>
                 <div className="card glass" style={{ borderLeft: '4px solid #3fb950', padding: '1rem' }}>
                   <label style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.4rem', display: 'block' }}>{t.targetPerspective}</label>
-                  <select value={safeRightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
+                  <select value={safeRightIndex} onChange={(e) => {
+                    setRightIndex(Number(e.target.value));
+                    setActiveKeyword(null);
+                  }}
                     style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
                     {perspectives.map((p, idx) => idx !== activeIndex && (
                       <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
@@ -471,7 +505,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                 </div>
               </div>
             ) : (
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '1.5rem' }}>
                 <div className="card glass" style={{ borderLeft: '4px solid #f85149' }}>
                   <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.sourcePerspective}</label>
                   <div style={{ fontSize: '1.2rem', fontWeight: 700, color: '#fff', marginBottom: '0.5rem' }}>{getPerspectiveLabel(left.country)}</div>
@@ -479,7 +513,10 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                 </div>
                 <div className="card glass" style={{ borderLeft: '4px solid #3fb950' }}>
                   <label style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem', display: 'block' }}>{t.targetPerspective}</label>
-                  <select value={safeRightIndex} onChange={(e) => setRightIndex(Number(e.target.value))}
+                  <select value={safeRightIndex} onChange={(e) => {
+                    setRightIndex(Number(e.target.value));
+                    setActiveKeyword(null);
+                  }}
                     style={{ width: '100%', background: 'transparent', color: 'white', border: 'none', fontSize: '1.2rem', fontWeight: 700, cursor: 'pointer', outline: 'none' }}>
                     {perspectives.map((p, idx) => idx !== activeIndex && (
                       <option key={idx} value={idx} style={{ background: '#1a1a1a' }}>{getPerspectiveLabel(p.country)}</option>
@@ -490,16 +527,18 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
               </div>
             )}
 
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)' }}>
-                {isMobile ? <Rows3 size={18} /> : <Columns size={18} />}
-                <span style={{ fontSize: '0.85rem', fontWeight: 600 }}>{t.diffViewer} {isMobile ? '(Unified)' : '(Side-by-Side)'}</span>
-              </div>
-              <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.05)', fontSize: isMobile ? '0.7rem' : '0.8rem', color: 'var(--text-secondary)' }}>
-                <span style={{ color: '#f85149' }}>{t.deletedDiff}</span>
-                <span style={{ margin: '0 0.3rem' }}>|</span>
-                <span style={{ color: '#3fb950' }}>{t.addedDiff}</span>
-              </div>
+            {/* ── Controversy Keywords Analysis Panel (Automatic Extraction) ── */}
+            <div style={{ marginBottom: '1.5rem' }}>
+              <ControversyKeywords
+                analysis={analysis}
+                oldCountry={left.country}
+                newCountry={safeRight.country}
+                lang={activeLang}
+                activeKeyword={activeKeyword}
+                onKeywordClick={(word) => {
+                  setActiveKeyword((prev) => (prev === word ? null : word));
+                }}
+              />
             </div>
 
             <DiffView
@@ -507,6 +546,9 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
               newValue={safeRight.content}
               oldTitle={getPerspectiveLabel(left.country)}
               newTitle={getPerspectiveLabel(safeRight.country)}
+              lang={activeLang}
+              highlightKeyword={activeKeyword}
+              contrastTerms={contrastTerms}
             />
           </>
         )}

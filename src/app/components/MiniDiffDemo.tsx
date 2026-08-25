@@ -2,7 +2,9 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer-continued';
+import DiffView from '@/app/components/DiffView';
+import ControversyKeywords from '@/app/components/ControversyKeywords';
+import { analyzeControversyDiff } from '@/lib/diffAnalysis';
 import { translations, Language } from '@/lib/translations';
 
 interface MiniDiffDemoProps {
@@ -193,6 +195,8 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
   const t = translations[activeLang] || translations.en;
 
   const [selectedEventId, setSelectedEventId] = useState<string>('nanjing-massacre');
+  const [activeKeyword, setActiveKeyword] = useState<string | null>(null);
+
   const currentEvent = useMemo(
     () => DEMO_EVENTS.find((e) => e.id === selectedEventId) || DEMO_EVENTS[0]!,
     [selectedEventId]
@@ -217,6 +221,7 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
   // When switching event tab, adjust countries safely
   const handleSelectEvent = (eventId: string) => {
     setSelectedEventId(eventId);
+    setActiveKeyword(null);
     const targetEvent = DEMO_EVENTS.find((e) => e.id === eventId) || DEMO_EVENTS[0]!;
     
     // Choose appropriate default sides
@@ -233,6 +238,7 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
   const handleSwap = () => {
     setLeftCountry(rightCountry);
     setRightCountry(leftCountry);
+    setActiveKeyword(null);
   };
 
   const leftPerspective = useMemo(
@@ -247,6 +253,21 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
 
   const leftText = (leftPerspective.excerpt[activeLang] ?? leftPerspective.excerpt.en);
   const rightText = (rightPerspective.excerpt[activeLang] ?? rightPerspective.excerpt.en);
+
+  // Compute controversy analysis (exclusive words and terminology contrasts)
+  const analysis = useMemo(() => {
+    return analyzeControversyDiff(leftText, rightText, activeLang);
+  }, [leftText, rightText, activeLang]);
+
+  const contrastTerms = useMemo(() => {
+    return analysis.contrasts.flatMap((c) => [c.oldTerm, c.newTerm]);
+  }, [analysis]);
+
+  const leftCountryName = (leftPerspective.countryName[activeLang] ?? leftPerspective.countryName.en);
+  const rightCountryName = (rightPerspective.countryName[activeLang] ?? rightPerspective.countryName.en);
+
+  const leftTitle = `${leftPerspective.flag} ${leftCountryName}`;
+  const rightTitle = `${rightPerspective.flag} ${rightCountryName}`;
 
   const eventLink = activeLang === 'en' ? `/events/${currentEvent.id}` : `/${activeLang}/events/${currentEvent.id}`;
 
@@ -301,7 +322,10 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
                 <button
                   key={`left-${p.countryCode}`}
                   disabled={isOtherActive}
-                  onClick={() => setLeftCountry(p.countryCode)}
+                  onClick={() => {
+                    setLeftCountry(p.countryCode);
+                    setActiveKeyword(null);
+                  }}
                   className={`country-pill left-pill ${isActive ? 'active' : ''} ${isOtherActive ? 'disabled' : ''}`}
                 >
                   <span>{p.flag}</span>
@@ -332,7 +356,10 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
                 <button
                   key={`right-${p.countryCode}`}
                   disabled={isOtherActive}
-                  onClick={() => setRightCountry(p.countryCode)}
+                  onClick={() => {
+                    setRightCountry(p.countryCode);
+                    setActiveKeyword(null);
+                  }}
                   className={`country-pill right-pill ${isActive ? 'active' : ''} ${isOtherActive ? 'disabled' : ''}`}
                 >
                   <span>{p.flag}</span>
@@ -349,53 +376,28 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
         <span>{(currentEvent.divergenceSummary[activeLang] ?? currentEvent.divergenceSummary.en)}</span>
       </div>
 
-      {/* Diff Viewer Area */}
-      <div className="mini-demo-diff-container">
-        <div className="diff-header-bar">
-          <div className="diff-header-side left-title">
-            <span>{leftPerspective.flag}</span>
-            <span>{(leftPerspective.countryName[activeLang] ?? leftPerspective.countryName.en)} {t.descriptionOf}</span>
-          </div>
-          <div className="diff-header-divider">VS</div>
-          <div className="diff-header-side right-title">
-            <span>{rightPerspective.flag}</span>
-            <span>{(rightPerspective.countryName[activeLang] ?? rightPerspective.countryName.en)} {t.descriptionOf}</span>
-          </div>
-        </div>
+      {/* ── Controversy Keywords Analysis Panel (Automatic Extraction) ── */}
+      <ControversyKeywords
+        analysis={analysis}
+        oldCountry={leftCountryName}
+        newCountry={rightCountryName}
+        lang={activeLang}
+        activeKeyword={activeKeyword}
+        onKeywordClick={(word) => {
+          setActiveKeyword((prev) => (prev === word ? null : word));
+        }}
+      />
 
-        <ReactDiffViewer
+      {/* ── Enhanced Git Diff Viewer Area ── */}
+      <div style={{ marginTop: '1.25rem' }}>
+        <DiffView
           oldValue={leftText}
           newValue={rightText}
-          splitView={true}
-          compareMethod={DiffMethod.WORDS}
-          useDarkTheme={true}
-          styles={{
-            variables: {
-              dark: {
-                diffViewerBackground: '#0a0a0e',
-                addedBackground: 'rgba(46, 160, 67, 0.16)',
-                addedColor: '#4ade80',
-                removedBackground: 'rgba(239, 68, 68, 0.16)',
-                removedColor: '#f87171',
-                wordAddedBackground: 'rgba(46, 160, 67, 0.45)',
-                wordRemovedBackground: 'rgba(239, 68, 68, 0.45)',
-                codeFoldBackground: '#0d1117',
-                gutterBackground: '#0a0a0e',
-                gutterColor: '#4b5563',
-                diffViewerTitleBackground: '#0a0a0e',
-                diffViewerTitleColor: '#9ca3af',
-              },
-            },
-            line: {
-              fontSize: '13.5px',
-              lineHeight: '1.7',
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              wordBreak: 'break-word',
-            },
-            content: {
-              padding: '12px 14px',
-            },
-          }}
+          oldTitle={leftTitle}
+          newTitle={rightTitle}
+          lang={activeLang}
+          highlightKeyword={activeKeyword}
+          contrastTerms={contrastTerms}
         />
       </div>
 

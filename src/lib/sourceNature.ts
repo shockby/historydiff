@@ -1,4 +1,4 @@
-import { translations, Language } from './translations';
+import { translations, type Language } from './translations.ts';
 
 export type SourceNatureType =
   | 'government_textbook'

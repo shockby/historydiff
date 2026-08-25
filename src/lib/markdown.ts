@@ -93,7 +93,17 @@ export function getEventNotes(eventId: string, lang = 'en'): EventNotes | null {
   }
   
   const fileContents = fs.readFileSync(notesPath, 'utf8');
-  return JSON.parse(fileContents) as EventNotes;
+  const parsed = JSON.parse(fileContents);
+  if (Array.isArray(parsed)) {
+    return {
+      eventId,
+      notes: parsed,
+    };
+  }
+  return {
+    eventId: parsed.eventId || eventId,
+    notes: parsed.notes || [],
+  };
 }
 
 export interface PhotoSource {

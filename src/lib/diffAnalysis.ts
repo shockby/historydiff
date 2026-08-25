@@ -1,4 +1,4 @@
-import { Language } from './translations';
+import type { Language } from './translations.ts';
 
 export interface KeywordItem {
   word: string;

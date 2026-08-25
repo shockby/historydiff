@@ -1,0 +1,38 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "1979年のイラン・イスラム革命以来深化した米国・イスラエルとイランの対立構造は、『抵抗の軸』（ヒズボラ、フーシ派、イラク民兵等）と親米・イスラエル連合の直接的軍事衝突へと激化しています。イラン側は『反帝国主義・パレスチナ解放の正統な抵抗』とする一方、米・イスラエル側は『核開発とテロ支援による中東地域の不安定化』と位置づけており、ホルムズ海峡の原油輸送や世界経済の安定に直結しています。",
+    "en": "The multidimensional rivalry between Iran's 'Axis of Resistance' (Hezbollah, Houthis, Iraqi militias) and the US-Israel strategic alliance has escalated into direct strikes and high-stakes brinkmanship. Tehran frames its doctrine as resistance against Western hegemony, while Washington and Jerusalem prioritize nuclear non-proliferation and missile containment, heavily impacting global energy supply chains across the Strait of Hormuz.",
+    "zh": "美以同盟与伊朗及其主导的“抵抗之弧”之间的对抗，正从长期的影子战争演变为直接的军事交火与战略遏制。伊朗强调反帝、反霸权与支持巴勒斯坦民族自决的正义性，美以则将防范核武扩散、遏制弹道导弹与无人机袭击列为核心安全优先。该对抗态势直接牵动霍尔木兹海峡石油航运与全球能源大宗商品安全。",
+    "ko": "이란의 '저항의 축' 네트워크와 미·이스라엘 동맹 간의 대립은 대리전을 넘어 직접 타격과 전면전 위기로 격화되고 있습니다. 이란은 반외세 자결권을 내세우는 반면, 미국과 이스라엘은 핵개발 저지와 항행의 자유 수호를 강조하고 있어 호르무즈 해협의 원유 수송과 글로벌 공급망에 지대한 영향을 미치고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. イラン核合意（JCPOA）の再建または新たな核抑止枠組みをめぐる米伊外交交渉\n2. レバノン国境およびシリア・イラク領内における直接報復攻撃の抑止メカニズム\n3. ホルムズ海峡における商業タンカーの航行安全と有志連合による護衛活動の規模",
+    "en": "1. Diplomatic negotiations or alternative nuclear deterrence arrangements concerning Iran's enrichment programs\n2. De-escalation mechanisms preventing uncontrolled retaliation across Lebanese, Syrian, and Iraqi theaters\n3. Commercial maritime protection and international naval escort coordination in the Strait of Hormuz",
+    "zh": "1. 围绕伊朗核计划浓缩度上限、制裁解除谈判或新型防扩散协议的国际外交磋商\n2. 黎巴嫩南部边境及叙利亚、伊拉克境内防止冲突螺旋升级的危机管控机制\n3. 霍尔木兹海峡商船安全护航规模与国际海事航行自由维护行动",
+    "ko": "1. 이란 핵 프로그램 동결 및 제재 해제를 둘러싼 국제사회의 외교적 타협 모색\n2. 레바논 국경 및 시리아·이라크 영내에서의 연쇄 보복을 억제하기 위한 위기 관리\n3. 호르무즈 해협 상선 보호를 위한 다국적 해군 호위 활동 및 해상 물류 안정성"
+  },
+  "rssQuery": {
+    "ja": "中東情勢 イラン イスラエル ホルムズ海峡",
+    "en": "Middle East Iran Israel tensions Hormuz",
+    "zh": "中东局势 伊朗 以色列 霍尔木兹海峡",
+    "ko": "중동 정세 이란 이스라엘 호르무즈"
+  },
+  "articles": [
+    {
+      "title": "中東地域における緊張緩和と安全保障外交の最新動向",
+      "source": "ウォール・ストリート・ジャーナル (WSJ)",
+      "url": "https://jp.wsj.com/",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "エネルギー輸送路の安全確保と偶発的衝突を防ぐため、主要国による仲介協議が行われています。",
+        "en": "Global powers engage in intensive backchannel diplomacy to safeguard maritime corridors and de-escalate regional tensions.",
+        "zh": "各大国持续通过外交渠道斡旋，以保障关键能源通道畅通并防止地区局势进一步恶化。",
+        "ko": "주요국들이 핵심 에너지 수송로의 안전을 확보하고 확전을 방지하기 위한 외교적 중재에 나서고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

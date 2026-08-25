@@ -1,0 +1,38 @@
+{
+  "eventId": "yemen-conflict",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2014年に始まったイエメン内戦は、シーア派系反政府勢力フーシ派（アンサール・アッラー）による首都サヌア掌握と紅海・アデン湾での商船攻撃により、国際海上交通路（シーレーン）を脅かす重大なグローバル問題に発展しています。サウジ主導連合軍とフーシ派の停戦合意維持が試みられる一方、紅海防衛のための米英連合軍による空爆など、地域安全保障の複雑な結節点となっています。",
+    "en": "The Yemeni conflict since 2014 has evolved from a localized civil war into a global maritime crisis, as Houthi forces in Sanaa conduct drone and missile attacks on commercial shipping in the Red Sea and Gulf of Aden. While Saudi-Houthi direct talks preserve a fragile de facto truce inside Yemen, multinational maritime task forces continue counter-strikes to secure crucial Red Sea chokepoints.",
+    "zh": "始于2014年的也门冲突因也门胡塞武装对红海及亚丁湾国际航道的无人机与导弹袭击，已演变为影响全球海运与大宗商品供应链的战略危机。沙特与也门胡塞武装之间维系着脆弱的实质性停火谈判，但多国海军护航与针对也门境内军事设施的精确打击使红海航行安全成为持久的国际焦点。",
+    "ko": "2014년 시작된 예멘 내전은 후티 반군의 수도 사나 통제와 홍해 및 아덴만 상선 공격으로 인해 전 세계 해상 물류를 위협하는 글로벌 안보 현안으로 확대되었습니다. 사우디와의 휴전 상태가 유지되는 가운데 홍해 항행의 자유 수호를 위한 다국적 연합군의 작전이 계속되고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. サウジアラビアとフーシ派による恒久停戦・公務員給与支払いに関する和平ロードマップ調印\n2. 紅海・バブ・エル・マンデブ海峡における商船通航量と護衛作戦の展開\n3. イエメン大統領指導評議会（PLC）内の派閥調整と南部分離独立派（STC）の動向",
+    "en": "1. Formal signing of the UN/Saudi-Houthi comprehensive peace roadmap covering port revenue and public salaries\n2. Commercial vessel throughput and naval escort deployment effectiveness in the Bab el-Mandeb Strait\n3. Political alignment within the Presidential Leadership Council (PLC) and Southern Transitional Council (STC)",
+    "zh": "1. 联合国及沙特斡旋下也门全面和平路线图的正式签署与港口关税、公务员工资支付落实\n2. 曼德海峡与红海航道商业航运恢复率及多国护航编队防卫成效\n3. 也门总统领导委员会内部权力平衡与南方过渡委员会（STC）诉求协调",
+    "ko": "1. 유엔 및 사우디 중재에 따른 예멘 포괄적 평화 로드맵 서명 및 공무원 급여 지급 합의\n2. 바브엘만데브 해협 및 홍해 항로의 상선 통항량 회복과 해상 호위 작전 추이\n3. 예멘 대통령 지도위원회 내부의 정치적 결속과 남부과도위원회(STC)의 행보"
+  },
+  "rssQuery": {
+    "ja": "イエメン フーシ派 紅海 航行安全",
+    "en": "Yemen Houthi Red Sea shipping ceasefire",
+    "zh": "也门 胡塞武装 红海 航运 停火",
+    "ko": "예멘 후티 홍해 항행 안전"
+  },
+  "articles": [
+    {
+      "title": "紅海航路の安全確保とイエメン和平プロセスの進展",
+      "source": "ロイター (Reuters)",
+      "url": "https://jp.reuters.com/",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "国際機関による航行安全の呼びかけと、包括的な停戦合意に向けた仲介努力が並行して進められています。",
+        "en": "International maritime bodies coordinate escort frameworks while regional negotiators pursue peace roadmap agreements.",
+        "zh": "国际航运组织与地区调解方协同推进，致力于保障海上航运通畅并推动达成全面和解协议。",
+        "ko": "국제 해사기구의 항행 안전 조치와 포괄적 정전 합의를 위한 중재 노력이 병행되고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "eventId": "taiwan-un-resolution",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "1971年の国連総会第2758号決議（アルバニア決議）をめぐる解釈の対立は、現在の台湾海峡危機と台湾の国際機関参加を巡る最大の外交的論争点です。中国政府は『2758号決議により台湾を含む中国全土の主権代表権が確立された（一つの中国原則）』と主張する一方、米国や台湾当局、豪州・オランダ議会などは『決議は中華民国代表の追放を定めたのみで台湾の主権や国際機関参加の排除には言及していない』として決議の再解釈・無効化論を展開しています。",
+    "en": "The legal and diplomatic debate surrounding UN General Assembly Resolution 2758 (1971) forms the battleground over Taiwan's international space and cross-strait status. Beijing argues the resolution definitively established the One China principle covering Taiwan, while Taipei, Washington, and European parliaments pass counter-resolutions asserting that 2758 neither mentions Taiwan by name nor settles Taiwan's ultimate sovereignty.",
+    "zh": "围绕1971年联大第2758号决议的法理解释，是当前台海局势与国际涉台外交博弈的焦点。中国政府强调该决议在政治上、法律上和程序上彻底解决了包括台湾在内全中国在联合国的代表权问题；而美台官方及部分西方国家议会则提出“决议未提及台湾”的解构性观点，试图为拓展台湾国际参与空间寻求依据。",
+    "ko": "1971년 유엔 총회 제2758호 결의에 대한 해석 차이는 현재 대만해협 안보와 대만의 국제기구 참여를 둘러싼 외교전의 핵심입니다. 중국은 2758호 결의로 대만을 포함한 하나의 중국 원칙이 확립되었다고 주장하는 반면, 미국과 대만, 일부 서방 의회는 결의문에 대만이라는 명칭이 명시되지 않았음을 지적하며 새로운 해석을 제기하고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. WHO（世界保健機関）総会やICAOなど国連専門機関への台湾オブザーバー参加を巡る外交攻防\n2. G7諸国および主要国議会における2758号決議解釈に関する公式決議・声明の採択動向\n3. 台湾海峡における軍事的威圧行動とグレーゾーン事態に対する日米・有志国の共同抑止",
+    "en": "1. Diplomatic motions regarding Taiwan's observer participation in UN specialized agencies like WHA and ICAO\n2. Counter-resolution adoption across G7 and democratic legislative bodies challenging Beijing's 2758 framing\n3. Cross-strait military maneuvers and joint deterrence measures by the US and regional partners",
+    "zh": "1. 围绕世卫大会（WHA）、国际民航组织（ICAO）等联合国专门机构涉台提案的外交博弈\n2. 西方国家议会通过关于联大2758号决议涉台立场的动向与多边联合声明\n3. 台海周边常态化联合战备警巡、海空演练与外部反制威慑行动",
+    "ko": "1. 세계보건기구(WHA) 및 국제민간항공기구(ICAO) 등 유엔 산하 기구에 대한 대만의 참관국 참여 외교전\n2. 주요국 의회의 2758호 결의 관련 결의안 채택 및 다자간 공식 입장 표명 추이\n3. 대만해협 주변 군사 훈련 및 회색지대 위협에 대응하는 미일 등 역내 연합 억제책"
+  },
+  "rssQuery": {
+    "ja": "台湾 国連 2758号決議 台湾海峡",
+    "en": "Taiwan UN Resolution 2758 cross-strait",
+    "zh": "联合国2758号决议 台湾 台海",
+    "ko": "대만 유엔 2758호 결의 대만해협"
+  },
+  "articles": [
+    {
+      "title": "国連総会決議2758号をめぐる解釈と各国の外交動向",
+      "source": "フォーリン・ポリシー (Foreign Policy)",
+      "url": "https://foreignpolicy.com/",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "国際社会における台湾の地位と国際機関への参加資格を巡る法理・外交的議論が活発化しています。",
+        "en": "International legal analysts debate the scope of UN resolution language and its modern geopolitical implications.",
+        "zh": "围绕联大历史决议法理效力与国际空间参与的各方声明引发国际法学者与外交界的广泛讨论。",
+        "ko": "국제기구 참여 범위와 결의문 해석을 둘러싼 각국의 외교적 성명과 법리 논쟁이 지속되고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

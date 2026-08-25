@@ -1,0 +1,51 @@
+{
+  "eventId": "sudan-civil-war",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2023年4月に勃発したスーダン軍（SAF）と準軍事組織・即応支援部隊（RSF）の武力衝突は、世界最大規模の人道危機・国内避難民危機へと深刻化しています。SAFは『反乱鎮圧と国家の主権・領土保全』を主張する一方、RSFは『旧政権残党の排除と新秩序形成』を正当化しています。紅海航路の安全保障、エジプトやUAEなど地域大国の代理戦争の様相を呈しており、アフリカの角全体の安定を脅かしています。",
+    "en": "The catastrophic civil war that erupted in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) has caused the world's largest displacement and famine crisis. SAF claims legitimate defense of constitutional statehood, while the RSF frames its war as dismantling old regime remnants. Geopolitical rivalries involving UAE, Egypt, Russia, and Iran along the Red Sea turn Sudan into a critical flashpoint.",
+    "zh": "2023年4月爆发的苏丹武装部队（SAF）与快速支援部队（RSF）冲突，已演化为全球最严重的人道主义与流离失所危机。政府军强调维护国家主权与清剿叛乱，RSF则宣称推翻旧体制垄断。围绕红海战略出海口与地缘影响力的博弈，使苏丹冲突深度卷入中东及周边区域大国的代理人竞争。",
+    "ko": "2023년 4월 발발한 수단 정부군(SAF)과 준군사조직 신속지원군(RSF) 간의 내전은 세계 최대 규모의 난민 및 식량 위기로 치달았습니다. 정부군은 국가 주권 수호와 반란 진압을 명분으로 내세우고, RSF는 군부 독재 청산을 주장합니다. 홍해 항로 안보와 주변 강대국들의 이해관계가 얽히며 아프리카의 뿔 전체의 정세를 불안정하게 만들고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. ハルツーム周辺およびダールフール・コルドファン地方におけるSAFとRSFの支配域奪還戦\n2. ジッダ交渉など米サウジ仲介による停戦枠組みの再開と人道支援回廊の確保\n3. 紅海沿岸ポートスーダンを拠点とする暫定政府の国際的承認と対外軍事調達",
+    "en": "1. Shifting territorial control across greater Khartoum, Darfur, and strategic Kordofan supply hubs\n2. Revitalization of US-Saudi Jeddah peace talks and effective humanitarian access corridors\n3. External arms supplies and diplomatic recognition surrounding the Port Sudan administrative base",
+    "zh": "1. 喀土穆周边、达尔富尔及科尔多凡战略交通枢纽的攻防拉锯与控制区变动\n2. 美沙主导的吉达和谈重启前景与跨战线人道主义救援通道落实\n3. 驻扎红海港口苏丹临时行政中心的国际外交承认与外部武器装备流动",
+    "ko": "1. 하르툼 일대 및 다르푸르, 코르도판 지역의 전략적 요충지 쟁탈전 및 전선 변화\n2. 미국·사우디 주도의 제다 평화회담 재개 및 인도주의 구호 통로 개방 여부\n3. 홍해 연안 포트수단 임시 행정부를 둘러싼 국제 외교 승인 및 무기 조달 동향"
+  },
+  "rssQuery": {
+    "ja": "スーダン 内戦 SAF RSF",
+    "en": "Sudan civil war SAF RSF Khartoum",
+    "zh": "苏丹 内战 政府军 快速支援部队",
+    "ko": "수단 내전 정부군 RSF"
+  },
+  "articles": [
+    {
+      "title": "スーダン全土で続く激しい交戦と人道支援アクセスの課題",
+      "source": "国連ニュース (UN News)",
+      "url": "https://news.un.org/en/focus/sudan",
+      "publishedAt": "2026-08-24",
+      "summary": {
+        "ja": "食糧危機と医療崩壊が深刻化する中、安全な人道支援回廊の確保に向けた国際的圧力が強まっています。",
+        "en": "UN agencies issue urgent appeals for unhindered aid delivery as millions face critical food and medical shortages.",
+        "zh": "粮食短缺与公共卫生体系承压，联合国各机构持续呼吁开辟无阻碍的生命人道救援通道。",
+        "ko": "식량 위기와 의료 인프라 마비가 심각해지며 구호 물품의 안전한 전달을 위한 국제적 요구가 높아지고 있습니다."
+      },
+      "country": "国際"
+    },
+    {
+      "title": "戦略的要衝を巡る攻防と地域大国の調停動向",
+      "source": "アルジャジーラ (Al Jazeera)",
+      "url": "https://www.aljazeera.com/where/sudan/",
+      "publishedAt": "2026-08-21",
+      "summary": {
+        "ja": "主要補給路の支配権をめぐりSAFとRSFの衝突が激化し、地域諸国による仲介外交が模索されています。",
+        "en": "Intense fighting continues along major transport arteries as regional diplomats seek renewed ceasefire pathways.",
+        "zh": "围绕主要后勤补给通道的交火依然剧烈，区域多方正积极斡旋以期促成阶段性停火。",
+        "ko": "주요 보급로를 둘러싼 교전이 치열해지는 가운데 주변국들의 정전 중재 외교가 이어지고 있습니다."
+      },
+      "country": "中東"
+    }
+  ]
+}

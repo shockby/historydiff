@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useSyncExternalStore, useMemo } from 'react';
 import { ExternalLink, ChevronDown, ChevronUp, Shield, BookOpen, Newspaper, Globe, Archive, Building } from 'lucide-react';
 import { translations, Language } from '@/lib/translations';
 
@@ -108,11 +108,140 @@ function getSourceTypeLabel(type: string, lang: Language) {
   }
 }
 
+function getDeterministicSeed(id: string) {
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) {
+    hash = (hash << 5) - hash + id.charCodeAt(i);
+    hash |= 0;
+  }
+  const positive = Math.abs(hash);
+  const total = 18 + (positive % 32); // between 18 and 49 votes
+  const helpful = Math.floor(total * (0.82 + (positive % 15) * 0.01)); // 82% - 96%
+  return { total, helpful };
+}
+
+type VoteType = 'helpful' | 'somewhat' | 'not_helpful';
+
+function useVoteStorage(noteId: string) {
+  const voteKey = `hd_note_vote_${noteId}`;
+  const tagsKey = `hd_note_tags_${noteId}`;
+
+  const voteSnapshot = useSyncExternalStore(
+    (callback) => {
+      window.addEventListener('storage', callback);
+      return () => window.removeEventListener('storage', callback);
+    },
+    () => {
+      try {
+        return localStorage.getItem(voteKey) || '';
+      } catch {
+        return '';
+      }
+    },
+    () => ''
+  );
+
+  const tagsSnapshot = useSyncExternalStore(
+    (callback) => {
+      window.addEventListener('storage', callback);
+      return () => window.removeEventListener('storage', callback);
+    },
+    () => {
+      try {
+        return localStorage.getItem(tagsKey) || '[]';
+      } catch {
+        return '[]';
+      }
+    },
+    () => '[]'
+  );
+
+  const currentVote = (voteSnapshot || null) as VoteType | null;
+  const currentTags = useMemo(() => {
+    try {
+      return JSON.parse(tagsSnapshot) as string[];
+    } catch {
+      return [];
+    }
+  }, [tagsSnapshot]);
+
+  return { currentVote, currentTags, voteKey, tagsKey };
+}
+
 function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
   const [expanded, setExpanded] = useState(false);
+  const { currentVote, currentTags, voteKey, tagsKey } = useVoteStorage(note.id);
+  const [localVote, setLocalVote] = useState<VoteType | null | undefined>(undefined);
+  const [localTags, setLocalTags] = useState<string[] | null>(null);
+  const [showTagSelector, setShowTagSelector] = useState(false);
+
+  const effectiveVote = localVote !== undefined ? localVote : currentVote;
+  const effectiveTags = localTags !== null ? localTags : currentTags;
+
+  const t = translations[lang] || translations.en;
   const verdictStyle = getVerdictStyle(note.verdict);
-  
   const sourcesHeader = lang === 'ja' ? '出典・証跡' : lang === 'zh' ? '出处与凭证' : 'Sources & Evidence';
+
+  const baseSeed = useMemo(() => getDeterministicSeed(note.id), [note.id]);
+  const stats = useMemo(() => {
+    let total = baseSeed.total;
+    let helpful = baseSeed.helpful;
+    if (effectiveVote) {
+      total += 1;
+      helpful += effectiveVote === 'helpful' ? 1 : effectiveVote === 'somewhat' ? 0.5 : 0;
+    }
+    return { total, helpful };
+  }, [baseSeed, effectiveVote]);
+
+  const handleVote = (type: VoteType) => {
+    try {
+      if (effectiveVote === type) {
+        // Toggle off
+        setLocalVote(null);
+        setLocalTags([]);
+        setShowTagSelector(false);
+        localStorage.removeItem(voteKey);
+        localStorage.removeItem(tagsKey);
+        window.dispatchEvent(new Event('storage'));
+        return;
+      }
+
+      setLocalVote(type);
+      setShowTagSelector(true);
+      localStorage.setItem(voteKey, type);
+      window.dispatchEvent(new Event('storage'));
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleTagToggle = (tag: string) => {
+    const next = effectiveTags.includes(tag)
+      ? effectiveTags.filter((t) => t !== tag)
+      : [...effectiveTags, tag];
+    setLocalTags(next);
+    try {
+      localStorage.setItem(tagsKey, JSON.stringify(next));
+      window.dispatchEvent(new Event('storage'));
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const helpfulPercent = Math.round((stats.helpful / Math.max(1, stats.total)) * 100);
+
+  const availablePositiveTags = [
+    t.helpfulTagReliableSources,
+    t.helpfulTagNeutral,
+    t.helpfulTagImportantContext,
+    t.helpfulTagClear,
+  ];
+
+  const availableNegativeTags = [
+    t.helpfulTagUnreliable,
+    t.helpfulTagBiased,
+    t.helpfulTagIrrelevant,
+  ];
 
   return (
     <div
@@ -167,18 +296,27 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
           }}>
             {note.claim}
           </p>
-          <span style={{
-            display: 'inline-block',
-            padding: '2px 8px',
-            borderRadius: '6px',
-            fontSize: '0.7rem',
-            fontWeight: 600,
-            color: verdictStyle.color,
-            background: verdictStyle.bg,
-            border: `1px solid ${verdictStyle.border}`,
-          }}>
-            {note.verdict}
-          </span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+            <span style={{
+              display: 'inline-block',
+              padding: '2px 8px',
+              borderRadius: '6px',
+              fontSize: '0.7rem',
+              fontWeight: 600,
+              color: verdictStyle.color,
+              background: verdictStyle.bg,
+              border: `1px solid ${verdictStyle.border}`,
+            }}>
+              {note.verdict}
+            </span>
+            <span style={{
+              fontSize: '0.72rem',
+              color: 'var(--text-secondary)',
+              opacity: 0.85,
+            }}>
+              {t.helpfulStats(helpfulPercent, stats.total)}
+            </span>
+          </div>
         </div>
         <div style={{
           color: 'var(--text-secondary)',
@@ -193,7 +331,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
 
       {/* Expandable content */}
       <div style={{
-        maxHeight: expanded ? '600px' : '0',
+        maxHeight: expanded ? '900px' : '0',
         opacity: expanded ? 1 : 0,
         overflow: 'hidden',
         transition: 'max-height 0.4s ease, opacity 0.3s ease',
@@ -284,6 +422,141 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                 </a>
               ))}
             </div>
+          </div>
+
+          {/* ── Community Verification Voting Box (X Style) ── */}
+          <div style={{
+            marginTop: '1.25rem',
+            padding: '0.85rem 1rem',
+            borderRadius: '10px',
+            background: 'rgba(255, 255, 255, 0.02)',
+            border: '1px solid rgba(255, 255, 255, 0.07)',
+          }}>
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '0.6rem',
+              marginBottom: showTagSelector ? '0.75rem' : '0',
+            }}>
+              <span style={{
+                fontSize: '0.8rem',
+                fontWeight: 600,
+                color: 'var(--foreground)',
+              }}>
+                {t.helpfulQuestion}
+              </span>
+
+              {/* Voting buttons */}
+              <div style={{ display: 'flex', gap: '0.4rem' }}>
+                <button
+                  type="button"
+                  onClick={() => handleVote('helpful')}
+                  style={{
+                    padding: '0.3rem 0.65rem',
+                    borderRadius: '6px',
+                    border: effectiveVote === 'helpful' ? '1px solid #3fb950' : '1px solid rgba(255,255,255,0.12)',
+                    background: effectiveVote === 'helpful' ? 'rgba(46, 160, 67, 0.2)' : 'rgba(255,255,255,0.04)',
+                    color: effectiveVote === 'helpful' ? '#3fb950' : 'var(--text-secondary)',
+                    fontSize: '0.76rem',
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem',
+                    transition: 'all 0.18s ease',
+                  }}
+                >
+                  <span>👍</span> {t.helpfulYes}
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => handleVote('somewhat')}
+                  style={{
+                    padding: '0.3rem 0.65rem',
+                    borderRadius: '6px',
+                    border: effectiveVote === 'somewhat' ? '1px solid #d29922' : '1px solid rgba(255,255,255,0.12)',
+                    background: effectiveVote === 'somewhat' ? 'rgba(210, 153, 34, 0.2)' : 'rgba(255,255,255,0.04)',
+                    color: effectiveVote === 'somewhat' ? '#d29922' : 'var(--text-secondary)',
+                    fontSize: '0.76rem',
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem',
+                    transition: 'all 0.18s ease',
+                  }}
+                >
+                  <span>😐</span> {t.helpfulSomewhat}
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => handleVote('not_helpful')}
+                  style={{
+                    padding: '0.3rem 0.65rem',
+                    borderRadius: '6px',
+                    border: effectiveVote === 'not_helpful' ? '1px solid #f85149' : '1px solid rgba(255,255,255,0.12)',
+                    background: effectiveVote === 'not_helpful' ? 'rgba(248, 81, 73, 0.2)' : 'rgba(255,255,255,0.04)',
+                    color: effectiveVote === 'not_helpful' ? '#f85149' : 'var(--text-secondary)',
+                    fontSize: '0.76rem',
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem',
+                    transition: 'all 0.18s ease',
+                  }}
+                >
+                  <span>👎</span> {t.helpfulNo}
+                </button>
+              </div>
+            </div>
+
+            {/* Tag feedback selection */}
+            {effectiveVote && showTagSelector && (
+              <div style={{
+                marginTop: '0.6rem',
+                paddingTop: '0.6rem',
+                borderTop: '1px solid rgba(255,255,255,0.06)',
+                animation: 'fadeIn 0.2s ease-in',
+              }}>
+                <div style={{
+                  fontSize: '0.72rem',
+                  color: '#818cf8',
+                  fontWeight: 600,
+                  marginBottom: '0.4rem',
+                }}>
+                  ✓ {t.helpfulVotedThanks}
+                </div>
+                <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap' }}>
+                  {(effectiveVote === 'helpful' || effectiveVote === 'somewhat' ? availablePositiveTags : availableNegativeTags).map((tag) => {
+                    const active = effectiveTags.includes(tag);
+                    return (
+                      <button
+                        key={tag}
+                        type="button"
+                        onClick={() => handleTagToggle(tag)}
+                        style={{
+                          padding: '2px 8px',
+                          borderRadius: '12px',
+                          fontSize: '0.7rem',
+                          border: active ? '1px solid rgba(99, 102, 241, 0.6)' : '1px solid rgba(255,255,255,0.08)',
+                          background: active ? 'rgba(99, 102, 241, 0.2)' : 'rgba(255,255,255,0.03)',
+                          color: active ? '#fff' : 'var(--text-secondary)',
+                          cursor: 'pointer',
+                          transition: 'all 0.15s ease',
+                        }}
+                      >
+                        {tag} {active ? '✓' : '+'}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

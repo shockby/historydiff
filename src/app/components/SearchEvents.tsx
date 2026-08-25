@@ -8,9 +8,10 @@ import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
 
-// Dynamically import MapView and MiniDiffDemo to avoid SSR issues
+// Dynamically import MapView, MiniDiffDemo, and InteractiveHub to avoid SSR issues
 const MapView = dynamic(() => import('./MapView'), { ssr: false });
 const MiniDiffDemo = dynamic(() => import('./MiniDiffDemo'), { ssr: false });
+const InteractiveHub = dynamic(() => import('./InteractiveHub'), { ssr: false });
 import FeaturedEvents from './FeaturedEvents';
 
 interface SearchEventsProps {
@@ -110,6 +111,9 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
       {/* Featured Top 3 Contested Events */}
       <FeaturedEvents lang={lang} />
+
+      {/* Interactive Exploration Lab (Quiz & Perception Diagnostic) */}
+      <InteractiveHub events={events} lang={lang} />
 
       {/* Archive section */}
       <section style={{ marginTop: '4rem' }}>

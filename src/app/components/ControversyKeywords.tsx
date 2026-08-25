@@ -1,9 +1,12 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { ControversyAnalysis } from '@/lib/diffAnalysis';
 import { translations, Language } from '@/lib/translations';
-import { Sparkles, ArrowLeftRight, Tag, TrendingUp } from 'lucide-react';
+import { Sparkles, ArrowLeftRight, Tag, TrendingUp, ChevronDown, ChevronUp } from 'lucide-react';
+import dynamic from 'next/dynamic';
+
+const ClaimDiffInline = dynamic(() => import('./ClaimDiffInline'), { ssr: false });
 
 interface ControversyKeywordsProps {
   analysis: ControversyAnalysis;
@@ -12,6 +15,9 @@ interface ControversyKeywordsProps {
   lang: Language;
   onKeywordClick?: (keyword: string, side: 'old' | 'new' | 'contrast') => void;
   activeKeyword?: string | null;
+  /** 対立ペアの「原文を比較」機能用フルテキスト */
+  oldFullText?: string;
+  newFullText?: string;
 }
 
 export default function ControversyKeywords({
@@ -21,8 +27,11 @@ export default function ControversyKeywords({
   lang,
   onKeywordClick,
   activeKeyword,
+  oldFullText,
+  newFullText,
 }: ControversyKeywordsProps) {
   const t = translations[lang] || translations.en;
+  const [expandedContrast, setExpandedContrast] = useState<number | null>(null);
 
   const { exclusiveOld, exclusiveNew, contrasts, stats } = analysis;
 
@@ -111,6 +120,8 @@ export default function ControversyKeywords({
               {contrasts.map((c, idx) => {
                 const isActiveOld = activeKeyword === c.oldTerm;
                 const isActiveNew = activeKeyword === c.newTerm;
+                const isExpanded = expandedContrast === idx;
+                const canExpand = !!(oldFullText && newFullText);
                 return (
                   <div key={`contrast-${idx}`} className="contrast-item-card">
                     {c.topic && <div className="contrast-topic">{c.topic}</div>}
@@ -131,6 +142,33 @@ export default function ControversyKeywords({
                         {c.newTerm}
                       </button>
                     </div>
+                    {/* 原文を比較ボタン */}
+                    {canExpand && (
+                      <button
+                        className={`contrast-expand-btn ${isExpanded ? 'expanded' : ''}`}
+                        onClick={() => setExpandedContrast(isExpanded ? null : idx)}
+                        aria-expanded={isExpanded}
+                        title={isExpanded ? t.claimDiffHideBtn : t.claimDiffShowBtn}
+                      >
+                        {isExpanded
+                          ? <><ChevronUp size={12} style={{ display: 'inline', marginRight: '4px' }} />{t.claimDiffHideBtn}</>
+                          : <><ChevronDown size={12} style={{ display: 'inline', marginRight: '4px' }} />{t.claimDiffShowBtn}</>
+                        }
+                      </button>
+                    )}
+                    {/* インライン展開 diff */}
+                    {isExpanded && canExpand && (
+                      <ClaimDiffInline
+                        oldFullText={oldFullText!}
+                        newFullText={newFullText!}
+                        oldTerm={c.oldTerm}
+                        newTerm={c.newTerm}
+                        oldCountry={oldCountry}
+                        newCountry={newCountry}
+                        lang={lang}
+                        topic={c.topic}
+                      />
+                    )}
                   </div>
                 );
               })}

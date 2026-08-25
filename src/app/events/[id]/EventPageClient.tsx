@@ -632,6 +632,8 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                 newCountry={safeRight.country}
                 lang={activeLang}
                 activeKeyword={activeKeyword}
+                oldFullText={left.content}
+                newFullText={safeRight.content}
                 onKeywordClick={(word) => {
                   setActiveKeyword((prev) => (prev === word ? null : word));
                 }}

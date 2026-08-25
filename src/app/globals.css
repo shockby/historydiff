@@ -1286,4 +1286,218 @@ div::-webkit-scrollbar {
   }
 }
 
+/* ── Contrast Expand Button ─────────────────────────────────────────────── */
+.contrast-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.08);
+  color: #fde68a;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: inherit;
+  outline: none;
+}
 
+.contrast-expand-btn:hover,
+.contrast-expand-btn.expanded {
+  background: rgba(245, 158, 11, 0.18);
+  border-color: rgba(245, 158, 11, 0.6);
+  color: #fff;
+}
+
+/* ── ClaimDiffInline ────────────────────────────────────────────────────── */
+.claim-diff-container {
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@keyframes claimFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.claim-diff-expand {
+  animation: claimFadeIn 0.22s ease forwards;
+}
+
+.claim-diff-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.claim-diff-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #93c5fd;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 6px;
+  padding: 0.2rem 0.55rem;
+  letter-spacing: 0.02em;
+}
+
+.claim-diff-topic {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* 凡例 */
+.claim-diff-legend {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.claim-diff-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.claim-diff-legend-swatch {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+/* 2カラムレイアウト */
+.claim-diff-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .claim-diff-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+.claim-diff-col {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  min-height: 60px;
+}
+
+.claim-diff-col-old {
+  border-left: 3px solid #ef4444;
+  background: rgba(239, 68, 68, 0.07);
+}
+
+.claim-diff-col-new {
+  border-left: 3px solid #22c55e;
+  background: rgba(34, 197, 94, 0.07);
+}
+
+.claim-diff-col-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.claim-diff-side-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dot-old { background: #ef4444; box-shadow: 0 0 6px rgba(239, 68, 68, 0.5); }
+.dot-new { background: #22c55e; box-shadow: 0 0 6px rgba(34, 197, 94, 0.5); }
+
+.claim-diff-country {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.claim-diff-term-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+}
+
+.term-old {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+
+.term-new {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+.claim-diff-text {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--foreground);
+  word-break: break-word;
+}
+
+/* ── Diff Token HighLights ──────────────────────────────────────────────── */
+.diff-token-removed {
+  background: rgba(239, 68, 68, 0.35);
+  color: #fca5a5;
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 600;
+}
+
+.diff-token-added {
+  background: rgba(34, 197, 94, 0.35);
+  color: #86efac;
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 600;
+}
+
+.diff-token-key {
+  outline: 2px solid currentColor;
+  outline-offset: 1px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+.claim-diff-no-match {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.claim-diff-note {
+  margin-top: 0.6rem;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.claim-diff-token-row {
+  font-size: 0.85rem;
+  line-height: 1.9;
+}

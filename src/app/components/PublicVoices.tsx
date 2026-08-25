@@ -224,6 +224,13 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
               {getSentimentLabel(voice.sentiment, t)}
             </span>
             <span style={{
+              display: 'inline-block', padding: '1px 6px', borderRadius: '4px',
+              fontSize: '0.65rem', fontWeight: 600,
+              color: '#fbbf24', background: 'rgba(245, 158, 11, 0.12)', border: '1px solid rgba(245, 158, 11, 0.3)',
+            }}>
+              {t.publicVoicesSubjectiveTag}
+            </span>
+            <span style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.25rem',
               fontSize: '0.65rem', color: 'var(--text-secondary)',
             }}>
@@ -367,20 +374,34 @@ export default function PublicVoices({ voices, lang }: PublicVoicesProps) {
         </div>
       </div>
 
-      {/* Disclaimer banner */}
+      {/* Prominent Disclaimer banner */}
       <div style={{
-        display: 'flex', alignItems: 'center', gap: '0.6rem',
-        padding: '0.75rem 1rem', marginBottom: '1rem',
-        borderRadius: '10px',
-        background: 'rgba(234, 179, 8, 0.08)',
-        border: '1px solid rgba(234, 179, 8, 0.25)',
+        padding: '1rem 1.25rem',
+        marginBottom: '1.25rem',
+        borderRadius: '12px',
+        background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.12), rgba(249, 115, 22, 0.08))',
+        border: '1px solid rgba(234, 179, 8, 0.4)',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
       }}>
-        <AlertTriangle size={16} style={{ color: '#eab308', flexShrink: 0 }} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.35rem' }}>
+          <AlertTriangle size={18} style={{ color: '#fbbf24', flexShrink: 0 }} />
+          <span style={{
+            fontSize: '0.85rem',
+            fontWeight: 700,
+            color: '#fbbf24',
+            letterSpacing: '0.01em',
+          }}>
+            {t.publicVoicesWarningTitle}
+          </span>
+        </div>
         <p style={{
-          fontSize: '0.8rem', color: '#eab308',
-          lineHeight: 1.5, margin: 0,
+          fontSize: '0.8rem',
+          color: 'rgba(255, 255, 255, 0.85)',
+          lineHeight: 1.6,
+          margin: 0,
+          paddingLeft: '1.75rem',
         }}>
-          {disclaimer || t.publicVoicesDisclaimer}
+          {disclaimer || t.publicVoicesWarningDetail}
         </p>
       </div>
 

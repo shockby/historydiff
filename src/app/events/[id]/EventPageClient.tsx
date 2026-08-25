@@ -1,11 +1,14 @@
 'use client';
 
 import { useState, Suspense, useMemo, useSyncExternalStore } from 'react';
+import dynamic from 'next/dynamic';
 import DiffView from '@/app/components/DiffView';
 import ControversyKeywords from '@/app/components/ControversyKeywords';
 import CommunityNotes from '@/app/components/CommunityNotes';
 import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
+const HistoryQuiz = dynamic(() => import('@/app/components/HistoryQuiz'), { ssr: false });
+const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDiagnostic'), { ssr: false });
 import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
 import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
@@ -343,7 +346,7 @@ function MobileSummaryCards({ perspectives, lang }: { perspectives: EventPerspec
 }
 
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -582,6 +585,23 @@ function EventPageInner({ initialPerspectives, initialNotes, initialPhotos, init
               contrastTerms={contrastTerms}
             />
           </>
+        )}
+
+        {/* ── Interactive Gamification & Diagnostic for this Event ── */}
+        {perspectives.length >= 2 && (
+          <div style={{ marginTop: '3.5rem' }}>
+            <PerceptionDiagnostic
+              lang={activeLang}
+              eventId={eventId || left.id}
+              perspectives={perspectives}
+            />
+
+            <HistoryQuiz
+              lang={activeLang}
+              eventId={eventId || left.id}
+              perspectives={perspectives}
+            />
+          </div>
         )}
 
         {/* ── Community Notes & Voices (both modes) ── */}

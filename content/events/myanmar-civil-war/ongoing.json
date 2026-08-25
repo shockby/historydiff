@@ -1,0 +1,51 @@
+{
+  "eventId": "myanmar-civil-war",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2021年の国軍クーデター以降、ミャンマー全土で続く内戦は、少数民族武装勢力（EAO）と民主派の国民防衛隊（PDF）の連携により軍政（タッマドー）の支配地域が急速に縮小する歴史的転換点を迎えています。軍政は『国家秩序の維持と選挙不正是正』を正当化する一方、抵抗勢力は『連邦民主制の確立と軍政打倒』を掲げており、東南アジアの地政学と中国・ASEANの国境安全保障に直結しています。",
+    "en": "Since the 2021 military coup, Myanmar's nationwide civil war has reached a historic turning point as Ethnic Armed Organizations (EAOs) and People's Defence Forces (PDF) systematically weaken the military junta (Tatmadaw). The junta claims constitutional legitimacy and anti-terror imperatives, while resistance coalitions fight for a Federal Democratic Union, directly reshaping ASEAN diplomacy and border stability with China and India.",
+    "zh": "自2021年军事政变以来，缅甸爆发的全国性内战正迎来历史性拐点。少数民族地方武装（民地武）与民主派人民保卫军（PDF）的联合攻势大幅压缩了军政府的控制区。军政府以维护宪法与国家统一自居，而抵抗力量则坚持推翻军人独裁并建立联邦民主共和国，这对东盟地缘政治与中缅边境走廊安全产生深远影响。",
+    "ko": "2021년 군부 쿠데타 이후 미얀마 전역에서 벌어진 내전은 소수민족 무장단체(EAO)와 민주 진영 국민방위군(PDF)의 연대로 군정 통제력이 급격히 약화되는 역사적 전환점에 직면했습니다. 군부는 헌법 질서 수호와 대테러 작전을 내세우는 반면, 저항 세력은 연방민주주의 수립을 추구하고 있어 동남아 및 주변국 안보에 중대한 영향을 미치고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. 国境貿易要衝や主要幹線道路を巡る少数民族同盟軍の攻勢と軍政の防衛戦\n2. 軍政主導で計画される形式的総選挙の強行と国際社会・ASEANの承認拒否動向\n3. 中国による国境停戦仲介および通信詐欺・犯罪拠点掃討を巡る利害調整",
+    "en": "1. Alliances of ethnic armed groups advancing on strategic trade hubs and major junta supply corridors\n2. Planned junta-controlled electoral exercises versus outright ASEAN and international rejection\n3. Cross-border diplomacy and Beijing's mediation balancing border security and cyber-scam crackdowns",
+    "zh": "1. 少数民族武装联军对战略边境贸易口岸及主干交通线的进一步推进与争夺\n2. 军政府拟定推行控制性选举的合法性危机及东盟国际社会的拒认立场\n3. 中方在边境安全维稳、打击跨境电信诈骗与促进停火和谈中的协调角色",
+    "ko": "1. 전략적 국경 무역 요충지 및 주요 보급로를 둘러싼 민족무장 연합군의 공세 추이\n2. 군정의 통제 하에 추진되는 총선 강행 시도와 아세안 및 국제사회의 불인정 대응\n3. 국경 지대 치안 안정 및 온라인 사기 범죄 소탕을 위한 중국의 외교적 중재 동향"
+  },
+  "rssQuery": {
+    "ja": "ミャンマー 内戦 軍政 民主派",
+    "en": "Myanmar civil war junta resistance EAO",
+    "zh": "缅甸 内战 军政府 战况",
+    "ko": "미얀마 내전 군부 민주진영"
+  },
+  "articles": [
+    {
+      "title": "ミャンマー各地で抵抗勢力の攻勢と軍政の孤立が深化",
+      "source": "AP通信 (Associated Press)",
+      "url": "https://apnews.com/hub/myanmar",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "少数民族同盟による要衝の制圧が相次ぎ、軍政は主要都市部への防衛集中を迫られています。",
+        "en": "Resistance forces consolidate territorial gains across key border corridors, putting prolonged pressure on the junta.",
+        "zh": "抵抗武装在边境重要交通枢纽取得持续进展，军政府收缩兵力巩固核心城市防线。",
+        "ko": "소수민족 연합군이 주요 국경 요충지를 확보하면서 군정은 대도시 중심의 방어선 구축에 집중하고 있습니다."
+      },
+      "country": "国際"
+    },
+    {
+      "title": "ASEANと国際社会におけるミャンマー情勢の外交的対応",
+      "source": "NHK News",
+      "url": "https://www3.nhk.or.jp/news/word/0000854.html",
+      "publishedAt": "2026-08-20",
+      "summary": {
+        "ja": "人道支援の提供と停戦合意の履行を巡り、ASEAN各国の間で実効性ある枠組み構築の議論が続いています。",
+        "en": "Discussions within ASEAN focus on expanding humanitarian corridors and establishing verifiable ceasefire terms.",
+        "zh": "东盟内部就推进人道主义救援通道建设及促成实质性停火框架展开持续磋商。",
+        "ko": "아세안 내부에서 인도적 지원 통로 확보 및 실질적 정전 합의 이행을 위한 논의가 이어지고 있습니다."
+      },
+      "country": "日本"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing } from '@/lib/markdown';
 import EventPageClient from '@/app/events/[id]/EventPageClient';
 import { Metadata } from 'next';
 
@@ -69,6 +69,7 @@ export default async function LocalizedEventPage({ params }: PageProps) {
   const notes = getEventNotes(id, lang);
   const photos = getEventPhotos(id);
   const voices = getEventVoices(id);
+  const ongoing = getEventOngoing(id);
 
   return (
     <EventPageClient
@@ -77,6 +78,7 @@ export default async function LocalizedEventPage({ params }: PageProps) {
       initialNotes={notes}
       initialPhotos={photos}
       initialVoices={voices}
+      initialOngoing={ongoing}
       lang={lang}
     />
   );

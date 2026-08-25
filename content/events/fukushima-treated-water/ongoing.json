@@ -1,0 +1,38 @@
+{
+  "eventId": "fukushima-treated-water",
+  "isOngoing": true,
+  "lastUpdated": "2026-08-25",
+  "whyItMatters": {
+    "ja": "2023年8月に始まった福島第一原発のALPS処理水海洋放出は、科学的安全性評価と風評被害・国際政治外交のせめぎ合いとして今なお継続しています。日本政府およびIAEAは『トリチウム以外の核種を除去し希釈基準を満たした安全な放出』とする一方、中国・ロシア等は『核汚染水の強行放出』として日本産水産物の全面禁輸措置等を実施。科学的ファクトと政治的対立の乖離が東アジアの貿易・外交に直接的な影響を及ぼしています。",
+    "en": "The ongoing discharge of ALPS-treated water from Fukushima Daiichi Nuclear Power Station since August 2023 remains a sharp debate between scientific verification and geopolitical maneuvering. Japan and the IAEA affirm that the treated water meets strict international safety thresholds, while China and Russia historically labeled it as contaminated water, enforcing import restrictions on Japanese marine products. Independent monitoring and gradual market reopening remain critical issues.",
+    "zh": "自2023年8月启动的福岛第一核电站经ALPS处理水排海工程，在中日及周边国家间引发了关于科学验证标准、生态安全与贸易管制的长久争议。日方与国际原子能机构（IAEA）强调经过滤与稀释后符合国际安全标准，中俄等国则曾对排海透明度提出严正关切并实施水产品进口监管。随着多边独立监测机制推进，相关贸易限制与科学评估正逐步调整。",
+    "ko": "2023년 8월 시작된 후쿠시마 제1원전 ALPS 처리수 해양 방류는 과학적 검증 기준과 환경 안전성, 국제 외교를 둘러싸고 동아시아 국가 간의 핵심 쟁점으로 이어지고 있습니다. 일본 정부와 IAEA는 방사성 물질을 기준치 이하로 희석해 안전하다고 발표한 반면, 주변국들은 독립적 모니터링과 수산물 안전성 확보를 지속적으로 요구하고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. IAEAおよび中国等の第三国専門家が参加する国際共同モニタリングの分析結果公表\n2. 中国・ロシアによる日本産水産物輸入規制の段階的緩和・撤廃プロセスの進展\n3. 東京電力による年間計画に基づく放出作業のトラブルゼロ維持と風評被害賠償対応",
+    "en": "1. Publication of joint sampling and independent testing data involving IAEA and third-party international experts\n2. Phased progress toward resolving Japanese seafood import bans by China and regional partners\n3. Safe, uninterrupted scheduled discharge batches by TEPCO and ongoing domestic fisherfolk compensation",
+    "zh": "1. 国际原子能机构（IAEA）框架下包含中方及第三方专家参与的独立取样与监测数据发布\n2. 中日关于日本水产品输华监管措施的逐步调整与双边专家技术磋商成果\n3. 东京电力公司年度排海计划的安全运行与长期核素沉降环境影响评估",
+    "ko": "1. IAEA 및 주변국 전문가가 참여하는 다자간 해양 시료 채취 및 독립 검증 결과 발표\n2. 수산물 수입 규제 조치의 단계적 완화 여부 및 양자 간 과학기술 협의 진전\n3. 도쿄전력의 연간 계획에 따른 안전 방류 유지 및 환경 모니터링 데이터 투명성"
+  },
+  "rssQuery": {
+    "ja": "ALPS処理水 福島第一原発 放出 モニタリング",
+    "en": "Fukushima treated water discharge IAEA monitoring",
+    "zh": "福岛 核污染水 排海 检测",
+    "ko": "후쿠시마 처리수 방류 모니터링"
+  },
+  "articles": [
+    {
+      "title": "ALPS処理水海洋放出のモニタリング結果と国際協調",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/",
+      "publishedAt": "2026-08-23",
+      "summary": {
+        "ja": "国際機関による海水・水産物の定期分析結果が公表され、基準値内での安定的な運用が確認されています。",
+        "en": "Independent testing confirms radioactive isotopes remain well below regulatory ceilings across sampling locations.",
+        "zh": "国际机构公布最新独立海水取样检测数据，各项指标均维持在国际标准安全阈值之内。",
+        "ko": "국제기구의 정기 분석 결과가 공개되며 방사능 수치가 기준치 이하로 안정적으로 관리되고 있음을 보여줍니다."
+      },
+      "country": "日本"
+    }
+  ]
+}

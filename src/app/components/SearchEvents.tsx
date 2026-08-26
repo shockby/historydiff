@@ -8,10 +8,11 @@ import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
 
-// Dynamically import MapView, MiniDiffDemo, and InteractiveHub to avoid SSR issues
+// Dynamically import MapView, MiniDiffDemo, InteractiveHub, and WelcomeModal to avoid SSR issues
 const MapView = dynamic(() => import('./MapView'), { ssr: false });
 const MiniDiffDemo = dynamic(() => import('./MiniDiffDemo'), { ssr: false });
 const InteractiveHub = dynamic(() => import('./InteractiveHub'), { ssr: false });
+const WelcomeModal = dynamic(() => import('./WelcomeModal'), { ssr: false });
 import FeaturedEvents from './FeaturedEvents';
 
 interface SearchEventsProps {
@@ -101,6 +102,9 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
   return (
     <>
+      {/* Welcome & Onboarding Modal for first-time visitors */}
+      <WelcomeModal lang={lang} />
+
       {/* Hero section */}
       <section style={{ padding: '3.5rem 0 2rem', textAlign: 'center' }}>
         <h1 className="title-gradient" style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: 1.2 }}>

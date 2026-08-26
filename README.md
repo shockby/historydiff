@@ -14,10 +14,13 @@ Even for the same historical event, textbook descriptions and official narrative
 ## 🚀 Key Features
 
 *   **Side-by-Side Diff Viewer:** Compares textbook excerpts or official historical narratives from different countries/regions in real-time, highlighting additions, deletions, and phrasing differences.
+*   **Platform Guide & First-Time Onboarding (`/guide`):** Dedicated multilateral guide detailing platform principles, neutrality commitments, 5-step usage walkthrough, and an interactive welcome onboarding modal for first-time visitors.
 *   **Multilingual Localization:** Complete translation and localized experience in 4 languages: **English (`en`)**, **Japanese (`ja`)**, **Chinese (`zh`)**, and **Korean (`ko`)** using Next.js localized sub-routes (e.g., `/[lang]`).
 *   **Community Notes & Fact Verification:** Interactive cards analyzing specific historical claims, complete with a neutrality "Verdict," background context, and academic or official citations.
-*   **Faceted Event Directory:** Allows users to filter historical events by category (e.g., Sovereignty & Territory, War & Conflicts, Modern Controversies), historical era, country of perspective, or real-time text query.
+*   **Interactive Lab & Perception Diagnostic:** Features "Guess the Textbook" mini quizzes and a blind historical bias diagnostic to discover perception gaps against global textbooks.
+*   **Faceted Event Directory:** Allows users to filter historical events by category, historical era, country of perspective, or real-time query across Grid, World Map, and Chronological Timeline views.
 *   **Automated Translation Scripts:** A custom translation pipeline (`translate.py`, `translate_ko.py`) that uses Google Translate with rate-limiting, exponential backoff, and robust list-based frontmatter parsing to automatically translate Japanese source content to the other languages.
+*   **Comprehensive Test Suite:** High-speed, zero-dependency unit and integration tests powered by Node.js 22 built-in test runner (`npm test`).
 
 ---
 
@@ -27,6 +30,7 @@ Even for the same historical event, textbook descriptions and official narrative
 *   **Styling & Design:** Vanilla CSS with modern styling tokens, CSS Variables, glassmorphism, responsive grids, and clean visual layouts.
 *   **Comparison Engine:** `react-diff-viewer-continued` for semantic and word-level diffing.
 *   **Markdown Parsing:** `react-markdown` and `gray-matter` for parsing frontmatter metadata and rendering rich text descriptions.
+*   **Testing:** Node.js built-in test runner (`node --test`) for fast, zero-dependency assertion and schema verification.
 *   **Icons:** `lucide-react` for modern, responsive micro-animations and intuitive interface visuals.
 
 ---
@@ -50,19 +54,30 @@ historydiff/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js internationalized routing sub-routes
 │   │   │   ├── events/[id]/      # Localized event detail pages
+│   │   │   ├── guide/            # Localized guide & how-to-use page
 │   │   │   └── page.tsx          # Localized home search page
 │   │   ├── components/           # Reusable UI components
 │   │   │   ├── CommunityNotes.tsx# Renders claims, verdicts, and reference sources
 │   │   │   ├── DiffView.tsx      # Renders side-by-side or inline diff comparison
 │   │   │   ├── LanguageSelector.tsx # Dropdown language switcher
+│   │   │   ├── WelcomeModal.tsx  # First-time visitor onboarding modal
 │   │   │   ├── Header.tsx / Footer.tsx
 │   │   │   └── SearchEvents.tsx  # Interactive search, filtering, and catalog
+│   │   ├── guide/                # Root guide & walkthrough page (English)
 │   │   ├── globals.css           # Core styling system, CSS variables, and themes
 │   │   ├── layout.tsx            # Global layout layout
 │   │   └── page.tsx              # Root home page (defaults to English)
 │   └── lib/
+│       ├── diffAnalysis.ts       # Exclusive keywords and controversy analysis
 │       ├── markdown.ts           # Markdown parsing utilities and file loaders
+│       ├── sourceNature.ts       # Source classification and language badges
 │       └── translations.ts       # Multilingual dictionaries for global UI strings
+├── tests/                        # Comprehensive unit & integration test suite
+│   ├── content.test.ts           # Markdown & dataset integrity tests
+│   ├── diffAnalysis.test.ts      # Diff algorithm & keyword extraction tests
+│   ├── sorting.test.ts           # Era & chronological parsing tests
+│   ├── sourceNature.test.ts      # Source classification tests
+│   └── translations.test.ts      # 4-language key parity & consistency tests
 ├── translate.py                  # Translates content from Japanese to English and Chinese
 └── translate_ko.py               # Translates content from Japanese to Korean
 ```
@@ -167,6 +182,13 @@ To generate a fully optimized production bundle:
 
 ```bash
 npm run build
+```
+
+### 5. Running Tests
+Run the zero-dependency test suite powered by Node.js 22 built-in test runner:
+
+```bash
+npm test
 ```
 
 ---

@@ -14,10 +14,13 @@
 ## 🚀 主要功能
 
 *   **并排文本差异对比（Side-by-Side Diff）：** 实时对比不同国家/地区的教科书摘录或官方历史叙事，直观地在单词级别高亮显示“添加”、“删除”和“措辞差异”。
+*   **使用指南与初次访问指引（`/guide`）：** 专设平台全貌解析、中立性准则说明与 5 步使用指南页面，并为首次访问用户提供友好的欢迎引导弹窗。
 *   **多语言国际化支持：** 利用 Next.js 的本地化子路由（`/[lang]`），提供 **中文 (`zh`)**、**英文 (`en`)**、**日文 (`ja`)** 和 **韩文 (`ko`)** 四种语言的完整本地化体验。
 *   **社区笔记与事实核查（Community Notes）：** 提供交互式卡片对特定的历史观点或主张进行事实核查，并给出中立的“结论”、历史背景分析以及政府公文、学术论文等权威参考文献。
-*   **多维度事件检索与过滤：** 允许用户按历史类别（例如：领土主权、战争冲突、近现代争议）、历史年代、视角国家或自由文本关键词快速筛选事件。
-*   **自动化内容翻译工作流：** 包含一套自定义翻译脚本（`translate.py`、`translate_ko.py`），以日语源内容（`-ja.md`、`notes.json`）为基准，使用 Google 翻译 API 自动翻译并同步至英语、中文和韩语。
+*   **互动实验室与历史认知诊断：** 包含“根据记述猜国家”竞猜与盲测历史认知“偏差”的诊断工具。
+*   **多维度事件检索与过滤：** 允许用户按历史类别、年代、视角国家或关键词筛选，支持网格、世界地图与历史时间轴三种视图。
+*   **自动化内容翻译工作流：** 包含一套自定义翻译脚本（`translate.py`、`translate_ko.py`），以日语源内容为基准，使用 Google 翻译 API 自动翻译并同步至英语、中文和韩语。
+*   **完备的测试套件：** 采用 Node.js 22 内置测试运行器打造的零依赖高速单元与集成测试（`npm test`）。
 
 ---
 
@@ -27,6 +30,7 @@
 *   **样式与设计：** 原生 Vanilla CSS（基于 CSS 变量定义的设计系统），结合磨砂玻璃效果（Glassmorphism）、响应式网格布局以及现代化配色。
 *   **差异对比引擎：** `react-diff-viewer-continued` 用于生成动态的行级/字符级差异对比。
 *   **Markdown 解析：** 使用 `react-markdown` 和 `gray-matter` 解析 YAML 前言（Frontmatter）元数据并渲染富文本内容。
+*   **测试框架：** Node.js 内置测试套件（`node --test`）提供零依赖的高速自动化验证。
 *   **图标库：** `lucide-react` 提供简洁、响应式的现代化矢量图标。
 
 ---
@@ -50,19 +54,30 @@ historydiff/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 国际化路由子目录
 │   │   │   ├── events/[id]/      # 针对各语言的事件详情页
+│   │   │   ├── guide/            # 多语言使用指南与平台解析页
 │   │   │   └── page.tsx          # 针对各语言的事件检索首页
 │   │   ├── components/           # 可复用的 UI 组件
 │   │   │   ├── CommunityNotes.tsx# 核查主张、结论与参考文献渲染
 │   │   │   ├── DiffView.tsx      # 并排或单栏差异对比渲染
 │   │   │   ├── LanguageSelector.tsx # 语言切换下拉菜单
+│   │   │   ├── WelcomeModal.tsx  # 初次访问用户的欢迎引导弹窗
 │   │   │   ├── Header.tsx / Footer.tsx
 │   │   │   └── SearchEvents.tsx  # 交互式搜索、过滤与卡片列表
+│   │   ├── guide/                # 根目录指南页面（英语）
 │   │   ├── globals.css           # 核心设计系统、全局样式与 CSS 变量
 │   │   ├── layout.tsx            # 全局根布局
 │   │   └── page.tsx              # 根目录首页（默认重定向/渲染英语）
 │   └── lib/
+│       ├── diffAnalysis.ts       # 专属词提取、对立表述与背离度分析算法
 │       ├── markdown.ts           # Markdown 及 JSON 读取与解析工具函数
+│       ├── sourceNature.ts       # 文献性质判定与语言标签工具
 │       └── translations.ts       # 四国语言的 UI 全局多语言词典
+├── tests/                        # 完备的单元与集成测试套件
+│   ├── content.test.ts           # 历史文献与数据集完整性测试
+│   ├── diffAnalysis.test.ts      # 差异算法与对立词提取测试
+│   ├── sorting.test.ts           # 年代解析与时序排序测试
+│   ├── sourceNature.test.ts      # 出处性质判定测试
+│   └── translations.test.ts      # 4 种语言键值一致性测试
 ├── translate.py                  # 日语内容翻译为英语和中文的脚本
 └── translate_ko.py               # 日语内容翻译为韩语的脚本
 ```
@@ -167,6 +182,13 @@ npm run dev
 
 ```bash
 npm run build
+```
+
+### 5. 运行测试
+运行基于 Node.js 22 内置测试运行器的零依赖测试套件：
+
+```bash
+npm test
 ```
 
 ---

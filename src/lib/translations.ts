@@ -187,6 +187,12 @@ export const translations = {
     newsEmptyFallback: 'Showing curated key recent reports and analyses.',
     ongoingSectionTitle: '🔴 Live & Ongoing Issues',
     ongoingSectionSubtitle: 'Historical disputes and context that directly shape ongoing conflicts and current international news',
+    // Claim Diff Inline
+    claimDiffTitle: 'Source Text Diff Highlight',
+    claimDiffShowBtn: '📖 Compare Sources',
+    claimDiffHideBtn: 'Close',
+    claimDiffExtractedFrom: '* Sentences containing this contrast term were automatically extracted from the source texts.',
+    claimDiffNoMatch: 'No matching sentence found for this contrast term.',
   },
   ja: {
     archive: 'アーカイブ',
@@ -374,6 +380,12 @@ export const translations = {
     newsEmptyFallback: '編集部選定の重要関連記事・直近の動向を表示しています。',
     ongoingSectionTitle: '🔴 進行中の重要情勢：今日のニュースの背景',
     ongoingSectionSubtitle: '教科書の歴史観の対立が今なお現地の紛争や国際政治を動かしている注目の進行中事象',
+    // Claim Diff Inline
+    claimDiffTitle: '原文の差分ハイライト',
+    claimDiffShowBtn: '📖 原文を比較',
+    claimDiffHideBtn: '閉じる',
+    claimDiffExtractedFrom: '※ 上記の文は、対立タームを含む原文テキストから自動抽出されました。',
+    claimDiffNoMatch: 'この対立語に対応する文が見つかりませんでした。',
   },
   zh: {
     archive: '对比档案',
@@ -561,6 +573,12 @@ export const translations = {
     newsEmptyFallback: '显示编辑精选的核心近期报道与动态。',
     ongoingSectionTitle: '🔴 正在进行的重要局势：今日新闻的历史背景',
     ongoingSectionSubtitle: '历史观的对立至今仍在推动现实冲突与国际政治的焦点进行中事件',
+    // Claim Diff Inline
+    claimDiffTitle: '原文差异高亮',
+    claimDiffShowBtn: '📖 比较原文',
+    claimDiffHideBtn: '关闭',
+    claimDiffExtractedFrom: '※ 以上句子为自动从原文中提取的含对立词的片段。',
+    claimDiffNoMatch: '未找到包含该对立词的句子。',
   },
   ko: {
     archive: '비교 아카이브',
@@ -748,6 +766,12 @@ export const translations = {
     newsEmptyFallback: '편집부에서 선정한 주요 관련 기사 및 최근 동향을 표시합니다.',
     ongoingSectionTitle: '🔴 진행 중인 주요 정세: 오늘의 뉴스 배경',
     ongoingSectionSubtitle: '교과서의 역사관 대립이 오늘날에도 현지 분쟁과 국제 정치를 움직이고 있는 주요 진행 사건',
+    // Claim Diff Inline
+    claimDiffTitle: '원문 차이 하이라이트',
+    claimDiffShowBtn: '📖 원문 비교',
+    claimDiffHideBtn: '닫기',
+    claimDiffExtractedFrom: '※ 위 문장은 대립어를 포함한 원문에서 자동으로 추출된 것입니다.',
+    claimDiffNoMatch: '이 대립어에 해당하는 문장을 찾을 수 없습니다.',
   },
 };
 

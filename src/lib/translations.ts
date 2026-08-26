@@ -234,6 +234,12 @@ export const translations = {
     guideCtaDesc: 'Dive into our comparison archive or try a real-time diff demo right now.',
     guideCtaButtonArchive: 'Explore Comparison Archive',
     guideCtaButtonDemo: 'Try Live Diff Demo',
+    // Claim Diff Inline
+    claimDiffTitle: 'Source Text Diff Highlight',
+    claimDiffShowBtn: '📖 Compare Sources',
+    claimDiffHideBtn: 'Close',
+    claimDiffExtractedFrom: '* Sentences containing this contrast term were automatically extracted from the source texts.',
+    claimDiffNoMatch: 'No matching sentence found for this contrast term.',
   },
   ja: {
     archive: 'アーカイブ',
@@ -468,6 +474,12 @@ export const translations = {
     guideCtaDesc: '豊富なアーカイブから事象を選ぶか、リアルタイム差分デモをお試しください。',
     guideCtaButtonArchive: '比較アーカイブを見る',
     guideCtaButtonDemo: 'リアルタイム差分デモを試す',
+    // Claim Diff Inline
+    claimDiffTitle: '原文の差分ハイライト',
+    claimDiffShowBtn: '📖 原文を比較',
+    claimDiffHideBtn: '閉じる',
+    claimDiffExtractedFrom: '※ 上記の文は、対立タームを含む原文テキストから自動抽出されました。',
+    claimDiffNoMatch: 'この対立語に対応する文が見つかりませんでした。',
   },
   zh: {
     archive: '对比档案',
@@ -702,6 +714,12 @@ export const translations = {
     guideCtaDesc: '立即浏览对比档案，或亲自体验实时差异演示。',
     guideCtaButtonArchive: '浏览对比档案',
     guideCtaButtonDemo: '体验实时差异演示',
+    // Claim Diff Inline
+    claimDiffTitle: '原文差异高亮',
+    claimDiffShowBtn: '📖 比较原文',
+    claimDiffHideBtn: '关闭',
+    claimDiffExtractedFrom: '※ 以上句子为自动从原文中提取的含对立词的片段。',
+    claimDiffNoMatch: '未找到包含该对立词的句子。',
   },
   ko: {
     archive: '비교 아카이브',
@@ -936,6 +954,12 @@ export const translations = {
     guideCtaDesc: '풍부한 비교 아카이브를 탐색하거나 실시간 차이점 데모를 직접 체험해보세요.',
     guideCtaButtonArchive: '비교 아카이브 둘러보기',
     guideCtaButtonDemo: '실시간 차이점 데모 체험',
+    // Claim Diff Inline
+    claimDiffTitle: '원문 차이 하이라이트',
+    claimDiffShowBtn: '📖 원문 비교',
+    claimDiffHideBtn: '닫기',
+    claimDiffExtractedFrom: '※ 위 문장은 대립어를 포함한 원문에서 자동으로 추출된 것입니다.',
+    claimDiffNoMatch: '이 대립어에 해당하는 문장을 찾을 수 없습니다.',
   },
 };
 

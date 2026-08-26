@@ -1,9 +1,12 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { ControversyAnalysis } from '@/lib/diffAnalysis';
 import { translations, Language } from '@/lib/translations';
-import { Sparkles, ArrowLeftRight, Tag, TrendingUp } from 'lucide-react';
+import { Sparkles, ArrowLeftRight, Tag, TrendingUp, ChevronDown, ChevronUp, GitCompare } from 'lucide-react';
+import dynamic from 'next/dynamic';
+
+const ClaimDiffInline = dynamic(() => import('./ClaimDiffInline'), { ssr: false });
 
 interface ControversyKeywordsProps {
   analysis: ControversyAnalysis;
@@ -12,7 +15,14 @@ interface ControversyKeywordsProps {
   lang: Language;
   onKeywordClick?: (keyword: string, side: 'old' | 'new' | 'contrast') => void;
   activeKeyword?: string | null;
+  /** 対立ペアの「原文を比較」機能用フルテキスト */
+  oldFullText?: string;
+  newFullText?: string;
 }
+
+type ExpandedItem =
+  | { type: 'contrast'; idx: number }
+  | { type: 'keyword'; word: string; side: 'old' | 'new' };
 
 export default function ControversyKeywords({
   analysis,
@@ -21,10 +31,32 @@ export default function ControversyKeywords({
   lang,
   onKeywordClick,
   activeKeyword,
+  oldFullText,
+  newFullText,
 }: ControversyKeywordsProps) {
   const t = translations[lang] || translations.en;
+  const [expanded, setExpanded] = useState<ExpandedItem | null>(null);
 
   const { exclusiveOld, exclusiveNew, contrasts, stats } = analysis;
+  const canExpand = !!(oldFullText && newFullText);
+
+  const toggleContrast = (idx: number) => {
+    setExpanded(prev =>
+      prev?.type === 'contrast' && prev.idx === idx ? null : { type: 'contrast', idx }
+    );
+  };
+
+  const toggleKeyword = (word: string, side: 'old' | 'new') => {
+    setExpanded(prev =>
+      prev?.type === 'keyword' && prev.word === word ? null : { type: 'keyword', word, side }
+    );
+  };
+
+  const isContrastExpanded = (idx: number) =>
+    expanded?.type === 'contrast' && expanded.idx === idx;
+
+  const isKeywordExpanded = (word: string) =>
+    expanded?.type === 'keyword' && expanded.word === word;
 
   return (
     <div className="controversy-panel glass">
@@ -65,7 +97,16 @@ export default function ControversyKeywords({
       {/* Tip Banner */}
       <div className="controversy-tip">
         <Tag size={13} style={{ flexShrink: 0, opacity: 0.8 }} />
-        <span>{t.clickToHighlight}</span>
+        <span>
+          {t.clickToHighlight}
+          {canExpand && (
+            <span style={{ marginLeft: '0.5rem', opacity: 0.85 }}>
+              {' '}／{' '}
+              <GitCompare size={11} style={{ display: 'inline', verticalAlign: '-1px', marginRight: '2px' }} />
+              {lang === 'ja' ? 'クリックで原文展開' : lang === 'zh' ? '点击展开原文' : lang === 'ko' ? '클릭으로 원문 펼치기' : 'Click to expand source diff'}
+            </span>
+          )}
+        </span>
       </div>
 
       {/* 3-Section Grid: Left Exclusive (Red), Contrasts (Yellow), Right Exclusive (Green) */}
@@ -83,16 +124,37 @@ export default function ControversyKeywords({
             ) : (
               exclusiveOld.map((item, idx) => {
                 const isActive = activeKeyword === item.word;
+                const kExpanded = isKeywordExpanded(item.word);
                 return (
-                  <button
-                    key={`old-${idx}-${item.word}`}
-                    onClick={() => onKeywordClick?.(item.word, 'old')}
-                    className={`keyword-chip chip-old ${isActive ? 'active' : ''}`}
-                    title={item.sampleContext ? `“${item.sampleContext}”` : item.word}
-                  >
-                    <span className="chip-word">{item.word}</span>
-                    {item.count > 1 && <span className="chip-count">×{item.count}</span>}
-                  </button>
+                  <React.Fragment key={`old-${idx}-${item.word}`}>
+                    <button
+                      onClick={() => {
+                        onKeywordClick?.(item.word, 'old');
+                        if (canExpand) toggleKeyword(item.word, 'old');
+                      }}
+                      className={`keyword-chip chip-old ${isActive ? 'active' : ''} ${kExpanded ? 'chip-expanded' : ''}`}
+                      title={item.sampleContext ? `"${item.sampleContext}"` : item.word}
+                    >
+                      <span className="chip-word">{item.word}</span>
+                      {item.count > 1 && <span className="chip-count">×{item.count}</span>}
+                      {canExpand && (
+                        <span className="chip-expand-icon">
+                          {kExpanded ? <ChevronUp size={10} /> : <ChevronDown size={10} />}
+                        </span>
+                      )}
+                    </button>
+                    {kExpanded && canExpand && (
+                      <ClaimDiffInline
+                        oldFullText={oldFullText!}
+                        newFullText={newFullText!}
+                        oldTerm={item.word}
+                        newTerm={item.word}
+                        oldCountry={oldCountry}
+                        newCountry={newCountry}
+                        lang={lang}
+                      />
+                    )}
+                  </React.Fragment>
                 );
               })
             )}
@@ -111,6 +173,7 @@ export default function ControversyKeywords({
               {contrasts.map((c, idx) => {
                 const isActiveOld = activeKeyword === c.oldTerm;
                 const isActiveNew = activeKeyword === c.newTerm;
+                const cExpanded = isContrastExpanded(idx);
                 return (
                   <div key={`contrast-${idx}`} className="contrast-item-card">
                     {c.topic && <div className="contrast-topic">{c.topic}</div>}
@@ -131,6 +194,32 @@ export default function ControversyKeywords({
                         {c.newTerm}
                       </button>
                     </div>
+                    {/* 原文を比較ボタン */}
+                    {canExpand && (
+                      <button
+                        className={`contrast-expand-btn ${cExpanded ? 'expanded' : ''}`}
+                        onClick={() => toggleContrast(idx)}
+                        aria-expanded={cExpanded}
+                      >
+                        {cExpanded
+                          ? <><ChevronUp size={12} style={{ display: 'inline', marginRight: '4px' }} />{t.claimDiffHideBtn}</>
+                          : <><ChevronDown size={12} style={{ display: 'inline', marginRight: '4px' }} />{t.claimDiffShowBtn}</>
+                        }
+                      </button>
+                    )}
+                    {/* インライン展開 diff */}
+                    {cExpanded && canExpand && (
+                      <ClaimDiffInline
+                        oldFullText={oldFullText!}
+                        newFullText={newFullText!}
+                        oldTerm={c.oldTerm}
+                        newTerm={c.newTerm}
+                        oldCountry={oldCountry}
+                        newCountry={newCountry}
+                        lang={lang}
+                        topic={c.topic}
+                      />
+                    )}
                   </div>
                 );
               })}
@@ -151,16 +240,37 @@ export default function ControversyKeywords({
             ) : (
               exclusiveNew.map((item, idx) => {
                 const isActive = activeKeyword === item.word;
+                const kExpanded = isKeywordExpanded(item.word);
                 return (
-                  <button
-                    key={`new-${idx}-${item.word}`}
-                    onClick={() => onKeywordClick?.(item.word, 'new')}
-                    className={`keyword-chip chip-new ${isActive ? 'active' : ''}`}
-                    title={item.sampleContext ? `“${item.sampleContext}”` : item.word}
-                  >
-                    <span className="chip-word">{item.word}</span>
-                    {item.count > 1 && <span className="chip-count">×{item.count}</span>}
-                  </button>
+                  <React.Fragment key={`new-${idx}-${item.word}`}>
+                    <button
+                      onClick={() => {
+                        onKeywordClick?.(item.word, 'new');
+                        if (canExpand) toggleKeyword(item.word, 'new');
+                      }}
+                      className={`keyword-chip chip-new ${isActive ? 'active' : ''} ${kExpanded ? 'chip-expanded' : ''}`}
+                      title={item.sampleContext ? `"${item.sampleContext}"` : item.word}
+                    >
+                      <span className="chip-word">{item.word}</span>
+                      {item.count > 1 && <span className="chip-count">×{item.count}</span>}
+                      {canExpand && (
+                        <span className="chip-expand-icon">
+                          {kExpanded ? <ChevronUp size={10} /> : <ChevronDown size={10} />}
+                        </span>
+                      )}
+                    </button>
+                    {kExpanded && canExpand && (
+                      <ClaimDiffInline
+                        oldFullText={oldFullText!}
+                        newFullText={newFullText!}
+                        oldTerm={item.word}
+                        newTerm={item.word}
+                        oldCountry={oldCountry}
+                        newCountry={newCountry}
+                        lang={lang}
+                      />
+                    )}
+                  </React.Fragment>
                 );
               })
             )}

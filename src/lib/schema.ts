@@ -14,10 +14,13 @@ export interface EventSchemaParams {
   keywords?: string[];
   perspectives?: EventPerspective[];
   notes?: EventNotes | null;
+  /** ISO 8601 date string for dateModified (e.g. from ongoing.lastUpdated) */
+  dateModified?: string;
 }
 
 /**
  * Generates schema.org Article structured data for event pages.
+ * Includes citation links extracted from community notes sources.
  */
 export function generateEventArticleSchema({
   eventId,
@@ -29,6 +32,8 @@ export function generateEventArticleSchema({
   year,
   location,
   keywords = [],
+  notes,
+  dateModified,
 }: EventSchemaParams) {
   const pageUrl = lang === 'en' ? `${SITE_URL}/events/${eventId}` : `${SITE_URL}/${lang}/events/${eventId}`;
   const fullImageUrl = ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
@@ -42,6 +47,25 @@ export function generateEventArticleSchema({
     },
   ];
 
+  // Extract citation URLs from community notes sources
+  const citationUrls: string[] = [];
+  if (notes && notes.notes) {
+    for (const note of notes.notes) {
+      if (note.sources) {
+        for (const src of note.sources) {
+          if (src.url && !citationUrls.includes(src.url)) {
+            citationUrls.push(src.url);
+          }
+        }
+      }
+    }
+  }
+
+  // Use provided dateModified or fall back to a static baseline
+  const effectiveDateModified = dateModified
+    ? `${dateModified}T00:00:00+09:00`
+    : '2026-08-25T00:00:00+09:00';
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -51,7 +75,7 @@ export function generateEventArticleSchema({
     url: pageUrl,
     inLanguage: lang,
     datePublished: '2026-01-01T00:00:00+09:00',
-    dateModified: '2026-08-25T00:00:00+09:00',
+    dateModified: effectiveDateModified,
     author: {
       '@type': 'Organization',
       name: 'HistoryDiff Project',
@@ -73,6 +97,7 @@ export function generateEventArticleSchema({
     ...(category ? { articleSection: category } : {}),
     ...(keywords.length > 0 ? { keywords: keywords.join(', ') } : {}),
     about: aboutEntities,
+    ...(citationUrls.length > 0 ? { citation: citationUrls } : {}),
   };
 }
 
@@ -88,7 +113,6 @@ export function generateEventFaqSchema(params: {
   [key: string]: unknown;
 }) {
   const { lang, title, notes, perspectives = [] } = params;
-
 
   const mainEntities: Array<{
     '@type': string;
@@ -111,7 +135,7 @@ export function generateEventFaqSchema(params: {
       const questionPrompt = lang === 'ja'
         ? `「${title}」の論点: ${note.claim}`
         : lang === 'zh'
-        ? `“${title}”争议焦点: ${note.claim}`
+        ? `"${title}"争议焦点: ${note.claim}`
         : lang === 'ko'
         ? `"${title}" 쟁점: ${note.claim}`
         : `Historical point on "${title}": ${note.claim}`;
@@ -133,7 +157,7 @@ export function generateEventFaqSchema(params: {
       const question = lang === 'ja'
         ? `「${p.country}」の歴史教科書における「${title}」の記述と立場は？`
         : lang === 'zh'
-        ? `“${p.country}”历史教科书关于“${title}”的记述与立场是什么？`
+        ? `"${p.country}"历史教科书关于"${title}"的记述与立场是什么？`
         : lang === 'ko'
         ? `"${p.country}" 역사 교과서의 "${title}"에 대한 기술과 입장은?`
         : `How is "${title}" described in ${p.country}'s history textbooks?`;
@@ -212,6 +236,7 @@ export function generateBreadcrumbSchema({
 
 /**
  * Generates schema.org WebSite structured data for Homepages.
+ * Includes SearchAction potentialAction for sitelinks search box.
  */
 export function generateWebSiteSchema(lang: string = 'en') {
   const descriptions: Record<string, string> = {
@@ -223,10 +248,12 @@ export function generateWebSiteSchema(lang: string = 'en') {
 
   const titles: Record<string, string> = {
     ja: 'HistoryDiff | 歴史の「記述の差」を視覚的に解明する',
-    zh: 'HistoryDiff | 直观阐明历史“记述之差”',
-    ko: 'HistoryDiff | 역사의 "기술 차이"를 시각적으로 밝힌다',
+    zh: 'HistoryDiff | 直观阐明历史"记述之差"',
+    ko: 'HistoryDiff | 역사의 \"기술 차이\"를 시각적으로 밝힌다',
     en: 'HistoryDiff | Visualizing Textbook Differences in History',
   };
+
+  const baseUrl = lang === 'en' ? SITE_URL : `${SITE_URL}/${lang}`;
 
   return {
     '@context': 'https://schema.org',
@@ -245,5 +272,47 @@ export function generateWebSiteSchema(lang: string = 'en') {
         url: `${SITE_URL}/og/og-top-ja.png`,
       },
     },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${baseUrl}?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+}
+
+/**
+ * Generates schema.org ItemList structured data for archive/top pages.
+ * Enables Google rich results that list individual events.
+ */
+export function generateItemListSchema({
+  lang,
+  events,
+}: {
+  lang: string;
+  events: Array<{ id: string; title: string }>;
+}) {
+  const baseUrl = lang === 'en' ? `${SITE_URL}/events` : `${SITE_URL}/${lang}/events`;
+
+  const listNames: Record<string, string> = {
+    ja: '歴史比較アーカイブ',
+    zh: '历史对比档案',
+    ko: '역사 비교 아카이브',
+    en: 'History Comparison Archive',
+  };
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: listNames[lang] || listNames.en,
+    url: lang === 'en' ? SITE_URL : `${SITE_URL}/${lang}`,
+    itemListElement: events.map((event, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: event.title,
+      url: `${baseUrl}/${event.id}`,
+    })),
   };
 }

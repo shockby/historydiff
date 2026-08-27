@@ -109,6 +109,8 @@ export default async function LocalizedEventPage({ params }: PageProps) {
     year,
     location,
     keywords,
+    notes,
+    dateModified: ongoing?.lastUpdated,
   });
 
   const faqSchema = generateEventFaqSchema({

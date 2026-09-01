@@ -13,7 +13,6 @@ const MapView = dynamic(() => import('./MapView'), { ssr: false });
 const MiniDiffDemo = dynamic(() => import('./MiniDiffDemo'), { ssr: false });
 const InteractiveHub = dynamic(() => import('./InteractiveHub'), { ssr: false });
 const WelcomeModal = dynamic(() => import('./WelcomeModal'), { ssr: false });
-import FeaturedEvents from './FeaturedEvents';
 
 interface SearchEventsProps {
   initialEvents: {
@@ -119,12 +118,9 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       {/* Mini Diff Demo */}
       <MiniDiffDemo lang={lang} />
 
-      {/* Featured Top 3 Contested Events */}
-      <FeaturedEvents lang={lang} />
-
       {/* ── Ongoing Issues & Live Context Showcase ── */}
       {events.some((e) => e.ongoing?.isOngoing) && (
-        <section style={{ marginTop: '4.5rem', marginBottom: '2rem' }}>
+        <section style={{ marginTop: '3rem', marginBottom: '2.5rem' }}>
           <div style={{ marginBottom: '1.8rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.5rem' }}>
               <span
@@ -242,7 +238,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                             gap: '0.5rem',
                           }}
                         >
-                          <span style={{ fontWeight: 700, flexShrink: 0 }}>🔮</span>
+                          <span style={{ fontWeight: 700, flexShrink: 0, color: '#f87171' }}>⚡</span>
                           <span style={{ color: 'var(--foreground)', lineHeight: 1.4 }}>
                             {firstWatchPoint.replace(/^[0-9]+[.\-、]\s*/, '')}
                           </span>
@@ -260,7 +256,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       <InteractiveHub events={events} lang={lang} />
 
       {/* Archive section */}
-      <section style={{ marginTop: '4rem' }}>
+      <section style={{ marginTop: '3.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
           <h2 style={{ fontSize: '1.5rem', borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
             {t.comparisonArchive}

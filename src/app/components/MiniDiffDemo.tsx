@@ -20,6 +20,7 @@ interface DemoPerspective {
 
 interface DemoEvent {
   id: string;
+  rank: number;
   title: Record<Language, string>;
   year: string;
   divergenceSummary: Record<Language, string>;
@@ -31,6 +32,7 @@ interface DemoEvent {
 const DEMO_EVENTS: DemoEvent[] = [
   {
     id: 'nanjing-massacre',
+    rank: 1,
     title: {
       ja: '南京事件 / 南京大屠殺',
       en: 'Nanjing Massacre (The Rape of Nanking)',
@@ -84,6 +86,7 @@ const DEMO_EVENTS: DemoEvent[] = [
   },
   {
     id: 'comfort-women',
+    rank: 2,
     title: {
       ja: '慰安婦問題',
       en: 'Comfort Women Controversy',
@@ -137,6 +140,7 @@ const DEMO_EVENTS: DemoEvent[] = [
   },
   {
     id: 'senkaku',
+    rank: 3,
     title: {
       ja: '尖閣諸島（釣魚島）領有権問題',
       en: 'Senkaku / Diaoyu Islands Dispute',
@@ -303,6 +307,7 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
               onClick={() => handleSelectEvent(event.id)}
               className={`mini-demo-tab ${isSelected ? 'active' : ''}`}
             >
+              <span className="tab-rank">#{event.rank}</span>
               <span className="tab-year">{event.year}</span>
               <span className="tab-title">{eventTitle}</span>
             </button>

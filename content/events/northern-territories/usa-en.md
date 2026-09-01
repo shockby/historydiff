@@ -4,7 +4,7 @@ title: "US position on the issue of the Four Northern Islands (Southern Kuril Is
 category: "Territorial issues/diplomacy"
 year: "1945-present"
 location: "Four Northern Islands (Southern Kuril Islands)"
-country: "America"
+country: "United States"
 language: "en"
 source: "Official positions and diplomatic documents of the U.S. Department of State (general description)"
 ---

@@ -4,7 +4,7 @@ title: "Yemen Conflict and Red Sea Crisis"
 category: "War, Conflict & Occupation"
 year: "2014–Present"
 location: "Yemen, Red Sea"
-country: "USA"
+country: "United States"
 language: "en"
 source: "US State Dept / Academic sources"
 ---

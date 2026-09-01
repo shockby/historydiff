@@ -4,7 +4,7 @@ title: "リビア内戦"
 category: "戦争・紛争・占領"
 year: "2011年-現在"
 location: "リビア"
-country: "アメリカ"
+country: "アメリカ合衆国"
 language: "ja"
 source: ""
 ---

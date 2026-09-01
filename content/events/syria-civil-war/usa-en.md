@@ -4,7 +4,7 @@ title: Syrian Civil War
 category: War, Conflict & Occupation
 year: 2011–Present
 location: Syria
-country: usa
+country: United States
 language: en
 source: Official U.S. Government Position / Major Media
 ---

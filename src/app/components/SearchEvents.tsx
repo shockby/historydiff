@@ -34,22 +34,38 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
   const events = initialEvents || [];
 
-  // ── Collect all unique countries across events ──────────────────────────
-  const allCountries: string[] = [];
+  // ── Collect all unique valid countries across events ────────────────────
+  const isTheory = (name: string) => /説|theory|论|学说|事故/i.test(name);
+
+  const countryCounts: Record<string, number> = {};
   events.forEach((event) => {
     event.perspectives.forEach((p) => {
-      if (p.country && !allCountries.includes(p.country)) {
-        allCountries.push(p.country);
+      if (p.country && !isTheory(p.country)) {
+        countryCounts[p.country] = (countryCounts[p.country] || 0) + 1;
       }
     });
   });
 
-  // Default: prefer '日本' (or 'Japan'), otherwise fall back to the first country
-  const preferredDefault = allCountries.find(c => ['日本', 'Japan'].includes(c)) || (events[0]?.perspectives[0]?.country ?? '');
+  const sortedCountries = Object.keys(countryCounts).sort((a, b) => (countryCounts[b] ?? 0) - (countryCounts[a] ?? 0));
+  const PINNED_THRESHOLD = 3;
+  const pinnedCountries = sortedCountries.filter((c) => (countryCounts[c] ?? 0) >= PINNED_THRESHOLD).slice(0, 7);
+  const otherCountries = sortedCountries.filter((c) => !pinnedCountries.includes(c));
+
+  // Default: prefer '日本' (or 'Japan') based on lang rule, otherwise fall back to first pinned
+  const preferredDefault = activeLang === 'ja'
+    ? (sortedCountries.find(c => c === '日本') || 'all')
+    : activeLang === 'ko'
+    ? (sortedCountries.find(c => c === '한국') || sortedCountries.find(c => c === '일본') || 'all')
+    : (sortedCountries.find(c => ['Japan', '日本', '중국', 'China'].includes(c)) || 'all');
+
   const [selectedCountry, setSelectedCountry] = useState<string>(preferredDefault);
 
   // ── For a given event, pick the perspective for the selected country ────
   const getPerspective = (event: { perspectives: EventPerspective[] }): EventPerspective & { isMatch: boolean } => {
+    if (selectedCountry === 'all') {
+      const jaPref = activeLang === 'ja' ? event.perspectives.find(p => p.country === '日本') : undefined;
+      return { ...(jaPref ?? event.perspectives[0]!), isMatch: true };
+    }
     const match = event.perspectives.find((p) => p.country === selectedCountry);
     if (match) return { ...match, isMatch: true };
     return { ...(event.perspectives[0]!), isMatch: false };
@@ -295,16 +311,16 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
         </div>
 
         {/* ── Perspective switcher pill bar ── */}
-        {viewMode === 'grid' && allCountries.length > 1 && (
+        {viewMode === 'grid' && sortedCountries.length > 0 && (
           <div style={{
             marginBottom: '1.5rem',
-            padding: '0.9rem 1.2rem',
+            padding: '0.75rem 1.1rem',
             background: 'rgba(255,255,255,0.02)',
             border: '1px solid rgba(255,255,255,0.07)',
             borderRadius: '14px',
             display: 'flex',
             alignItems: 'center',
-            gap: '0.75rem',
+            gap: '0.6rem',
             flexWrap: 'wrap',
           }}>
             <span style={{
@@ -318,17 +334,44 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
             </span>
             <div style={{
               display: 'flex',
-              gap: '0.4rem',
+              gap: '0.35rem',
               flexWrap: 'wrap',
+              alignItems: 'center',
               flex: 1,
             }}>
-              {allCountries.map((country) => {
+              {/* "All" button */}
+              <button
+                type="button"
+                onClick={() => setSelectedCountry('all')}
+                style={{
+                  padding: '0.3rem 0.85rem',
+                  borderRadius: '20px',
+                  border: selectedCountry === 'all'
+                    ? '1px solid rgba(224,46,46,0.7)'
+                    : '1px solid rgba(255,255,255,0.1)',
+                  background: selectedCountry === 'all'
+                    ? 'rgba(224,46,46,0.18)'
+                    : 'rgba(255,255,255,0.04)',
+                  color: selectedCountry === 'all' ? '#fff' : 'var(--text-secondary)',
+                  fontSize: '0.82rem',
+                  fontWeight: selectedCountry === 'all' ? 700 : 500,
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  transition: 'all 0.18s ease',
+                  outline: 'none',
+                }}
+              >
+                {t.allPerspectives}
+              </button>
+
+              {/* Pinned major country pills */}
+              {pinnedCountries.map((country) => {
                 const isActive = country === selectedCountry;
-                // How many events have this country's perspective?
-                const coverCount = events.filter(e => e.perspectives.some(p => p.country === country)).length;
+                const coverCount = countryCounts[country] || 0;
                 return (
                   <button
                     key={country}
+                    type="button"
                     onClick={() => setSelectedCountry(country)}
                     title={`${coverCount} / ${events.length} events`}
                     style={{
@@ -351,20 +394,8 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                       alignItems: 'center',
                       gap: '0.35rem',
                     }}
-                    onMouseEnter={e => {
-                      if (!isActive) {
-                        e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
-                        e.currentTarget.style.color = '#fff';
-                      }
-                    }}
-                    onMouseLeave={e => {
-                      if (!isActive) {
-                        e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
-                        e.currentTarget.style.color = 'var(--text-secondary)';
-                      }
-                    }}
                   >
-                    {country}
+                    <span>{country}</span>
                     <span style={{
                       fontSize: '0.68rem',
                       opacity: 0.55,
@@ -375,6 +406,51 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                   </button>
                 );
               })}
+
+              {/* "Other Perspectives" dropdown selector */}
+              {otherCountries.length > 0 && (
+                <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
+                  <select
+                    value={otherCountries.includes(selectedCountry) ? selectedCountry : ''}
+                    onChange={(e) => {
+                      if (e.target.value) {
+                        setSelectedCountry(e.target.value);
+                      }
+                    }}
+                    style={{
+                      padding: '0.3rem 2rem 0.3rem 0.85rem',
+                      borderRadius: '20px',
+                      border: otherCountries.includes(selectedCountry)
+                        ? '1px solid rgba(224,46,46,0.7)'
+                        : '1px solid rgba(255,255,255,0.1)',
+                      background: otherCountries.includes(selectedCountry)
+                        ? 'rgba(224,46,46,0.18)'
+                        : 'rgba(255,255,255,0.04)',
+                      color: otherCountries.includes(selectedCountry) ? '#fff' : 'var(--text-secondary)',
+                      fontSize: '0.82rem',
+                      fontWeight: otherCountries.includes(selectedCountry) ? 700 : 500,
+                      cursor: 'pointer',
+                      outline: 'none',
+                      appearance: 'none',
+                      backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'right 0.6rem center',
+                      backgroundSize: '0.9em',
+                    }}
+                  >
+                    <option value="" style={{ background: '#121216', color: '#a1a1aa' }}>
+                      {otherCountries.includes(selectedCountry)
+                        ? `${selectedCountry} (${countryCounts[selectedCountry] ?? 0}/${events.length})`
+                        : `${t.otherPerspectives} (+${otherCountries.length})`}
+                    </option>
+                    {otherCountries.map((country) => (
+                      <option key={country} value={country} style={{ background: '#121216', color: '#fff' }}>
+                        {country} ({countryCounts[country] ?? 0}/{events.length})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
             </div>
           </div>
         )}

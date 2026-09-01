@@ -4,7 +4,7 @@ title: Sudan Civil War
 category: War, Conflict & Occupation
 year: 2023–Present
 location: Sudan
-country: usa
+country: United States
 language: en
 source: U.S. Department of State / U.S. Treasury / U.S. Congress
 ---

@@ -4,7 +4,7 @@ title: Myanmar Civil War
 category: War, Conflict & Occupation
 year: 2021–Present
 location: Myanmar
-country: japan
+country: Japan
 language: en
 source: Japanese Ministry of Foreign Affairs / ASEAN Statements
 ---

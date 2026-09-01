@@ -1,10 +1,10 @@
 ---
 id: "korea-colonization"
-title: "我想知道"
-category: "做什么"
+title: "关于日本对朝鲜殖民统治的韩国观点"
+category: "殖民统治·历史认识问题"
 year: "1910年至1945年"
-location: "主页"
-country: "主页"
+location: "朝鲜半岛"
+country: "韩国"
 language: "zh"
 source: "大韩民国历史教科书和政府意见（概述）"
 ---

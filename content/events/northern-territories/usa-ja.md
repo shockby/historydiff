@@ -4,7 +4,7 @@ title: "北方四島（南クリル諸島）問題に関する米国の立場"
 category: "領土問題・外交"
 year: "1945年-現在"
 location: "北方四島（南クリル諸島）"
-country: "アメリカ"
+country: "アメリカ合衆国"
 language: "ja"
 source: "米国国務省の公式見解・外交文書（一般的記述）"
 ---

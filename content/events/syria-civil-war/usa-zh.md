@@ -4,7 +4,7 @@ title: 叙利亚内战
 category: 战争·冲突·占领
 year: 2011年至今
 location: 叙利亚全境
-country: usa
+country: 美国
 language: zh
 source: 美国政府官方立场及主要媒体
 ---

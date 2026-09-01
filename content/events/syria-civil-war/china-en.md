@@ -4,7 +4,7 @@ title: Syrian Civil War
 category: War, Conflict & Occupation
 year: 2011–Present
 location: Syria
-country: china
+country: China
 language: en
 source: Official Chinese Government Position / Major Media
 ---

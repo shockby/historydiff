@@ -4,7 +4,7 @@ title: Syrian Civil War
 category: War, Conflict & Occupation
 year: 2011–Present
 location: Syria
-country: japan
+country: Japan
 language: en
 source: Official Japanese Government Position / Major Media
 ---

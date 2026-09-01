@@ -3,10 +3,24 @@
 import { useState, Suspense } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { LayoutGrid, Globe, Calendar, Search, Layers } from 'lucide-react';
 import { EventPerspective, EventNote, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
+
+// Clean markdown markup and format excerpt cleanly
+function cleanExcerpt(text: string, maxLength: number = 110): string {
+  const stripped = text
+    .replace(/^#+\s+/gm, '')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\n+/g, ' ')
+    .trim();
+  if (stripped.length <= maxLength) return stripped;
+  return stripped.slice(0, maxLength) + '...';
+}
 
 // Dynamically import MapView, MiniDiffDemo, InteractiveHub, and WelcomeModal to avoid SSR issues
 const MapView = dynamic(() => import('./MapView'), { ssr: false });
@@ -280,17 +294,17 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
           {/* View mode toggles */}
           <div style={{ display: 'flex', gap: '0.4rem' }}>
             {([
-              { mode: 'grid', icon: '▦', label: t.viewGrid },
-              { mode: 'map', icon: '🌏', label: t.viewMap },
-              { mode: 'timeline', icon: '📅', label: t.viewTimeline },
-            ] as const).map(({ mode, icon, label }) => (
+              { mode: 'grid', Icon: LayoutGrid, label: t.viewGrid },
+              { mode: 'map', Icon: Globe, label: t.viewMap },
+              { mode: 'timeline', Icon: Calendar, label: t.viewTimeline },
+            ] as const).map(({ mode, Icon, label }) => (
               <button
                 key={mode}
                 onClick={() => setViewMode(mode)}
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '0.4rem',
+                  gap: '0.45rem',
                   padding: '0.45rem 1rem',
                   borderRadius: '8px',
                   border: viewMode === mode ? '1px solid var(--accent)' : '1px solid var(--card-border)',
@@ -303,7 +317,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                   fontFamily: 'inherit',
                 }}
               >
-                <span style={{ fontSize: '0.9rem' }}>{icon}</span>
+                <Icon size={15} />
                 <span>{label}</span>
               </button>
             ))}
@@ -457,14 +471,26 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
         {/* Search + sort — only shown in grid and timeline modes */}
         {viewMode !== 'map' && (
-          <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', flexWrap: 'wrap' }}>
-            <div style={{ flex: '1', minWidth: '280px' }}>
+          <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.75rem', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1', minWidth: '280px', position: 'relative' }}>
+              <Search
+                size={18}
+                style={{
+                  position: 'absolute',
+                  left: '1.1rem',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  color: 'var(--text-secondary)',
+                  pointerEvents: 'none',
+                }}
+              />
               <input
                 type="text"
                 className="search-input"
                 placeholder={t.searchPlaceholder}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
+                style={{ paddingLeft: '2.8rem' }}
               />
             </div>
             {viewMode === 'grid' && (
@@ -494,14 +520,26 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
         {/* Map mode: search bar for filtering */}
         {viewMode === 'map' && (
-          <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
-            <div style={{ flex: '1', minWidth: '280px' }}>
+          <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.75rem', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1', minWidth: '280px', position: 'relative' }}>
+              <Search
+                size={18}
+                style={{
+                  position: 'absolute',
+                  left: '1.1rem',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  color: 'var(--text-secondary)',
+                  pointerEvents: 'none',
+                }}
+              />
               <input
                 type="text"
                 className="search-input"
                 placeholder={t.searchPlaceholder}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
+                style={{ paddingLeft: '2.8rem' }}
               />
             </div>
           </div>
@@ -509,7 +547,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
         {/* Grid view */}
         {viewMode === 'grid' && (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '2rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem' }}>
           {sortedEvents.length > 0 ? (
             sortedEvents.map((event) => {
               const { isMatch, ...persp } = getPerspective(event);
@@ -525,7 +563,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                       flexDirection: 'column',
                       width: '100%',
                       opacity: isMatch ? 1 : 0.6,
-                      transition: 'opacity 0.2s ease',
+                      transition: 'all 0.2s ease',
                     }}
                   >
                     {event.imageUrl && (
@@ -539,19 +577,21 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                       </div>
                     )}
                     <div className="card-content">
-                      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                      <div style={{ display: 'flex', gap: '0.4rem', marginBottom: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
                         {/* Ongoing badge if active */}
                         {event.ongoing?.isOngoing && (
                           <span
                             className="badge"
                             style={{
-                              background: 'rgba(239, 68, 68, 0.2)',
+                              background: 'rgba(239, 68, 68, 0.15)',
                               color: '#f87171',
-                              border: '1px solid rgba(239, 68, 68, 0.45)',
+                              border: '1px solid rgba(239, 68, 68, 0.35)',
                               fontWeight: 700,
                               display: 'inline-flex',
                               alignItems: 'center',
                               gap: '0.35rem',
+                              fontSize: '0.75rem',
+                              padding: '0.2rem 0.6rem',
                             }}
                           >
                             <span
@@ -570,57 +610,78 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                         <span
                           className="badge"
                           style={isMatch ? {
-                            background: 'rgba(224,46,46,0.15)',
+                            background: 'rgba(224,46,46,0.14)',
                             color: '#f87171',
                             border: '1px solid rgba(224,46,46,0.3)',
+                            fontWeight: 600,
+                            fontSize: '0.75rem',
+                            padding: '0.2rem 0.65rem',
                           } : {
-                            background: 'rgba(255,255,255,0.05)',
+                            background: 'rgba(255,255,255,0.04)',
                             color: 'var(--text-secondary)',
                             fontStyle: 'italic',
+                            fontSize: '0.75rem',
+                            padding: '0.2rem 0.65rem',
                           }}
                         >
                           {isMatch ? persp.country : fallbackLabel}
                         </span>
-                        <span className="badge">{persp.category}</span>
-                        <span className="badge">{persp.year}</span>
+                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem' }}>
+                          {persp.category}
+                        </span>
+                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+                          <Calendar size={11} style={{ opacity: 0.7 }} />
+                          {persp.year}
+                        </span>
                       </div>
-                      <h4 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem' }}>{persp.title}</h4>
+                      <h4 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem' }}>
+                        {persp.title}
+                      </h4>
                       <p style={{
                         color: 'var(--text-secondary)',
-                        fontSize: '0.9rem',
-                        marginBottom: '1.5rem',
+                        fontSize: '0.85rem',
+                        lineHeight: 1.55,
+                        marginBottom: '1.1rem',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                         display: '-webkit-box',
-                        WebkitLineClamp: 3,
+                        WebkitLineClamp: 2,
                         WebkitBoxOrient: 'vertical',
                       }}>
-                        {persp.content.slice(0, 150)}...
+                        {cleanExcerpt(persp.content, 110)}
                       </p>
                       <div style={{
                         marginTop: 'auto',
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '1rem',
-                        borderTop: '1px solid var(--card-border)',
-                        paddingTop: '1rem',
-                        fontSize: '0.8rem',
+                        justifyContent: 'space-between',
+                        borderTop: '1px solid rgba(255,255,255,0.06)',
+                        paddingTop: '0.75rem',
+                        fontSize: '0.78rem',
                         color: 'var(--text-secondary)',
+                        gap: '0.5rem',
                       }}>
-                        <span>{t.compareTarget}</span>
-                        <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', whiteSpace: 'nowrap' }}>
+                          <Layers size={13} style={{ opacity: 0.7 }} />
+                          <span>{t.compareTarget}</span>
+                        </div>
+                        <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
                           {event.perspectives.map((p) => (
                             <span
                               key={p.country}
                               style={{
-                                padding: '2px 8px',
-                                borderRadius: '4px',
+                                padding: '2px 7px',
+                                borderRadius: '10px',
+                                fontSize: '0.72rem',
                                 background: p.country === selectedCountry
-                                  ? 'rgba(224,46,46,0.15)'
-                                  : 'rgba(255,255,255,0.05)',
+                                  ? 'rgba(224,46,46,0.18)'
+                                  : 'rgba(255,255,255,0.04)',
                                 color: p.country === selectedCountry
                                   ? '#f87171'
-                                  : 'inherit',
+                                  : 'var(--text-secondary)',
+                                border: p.country === selectedCountry
+                                  ? '1px solid rgba(224,46,46,0.35)'
+                                  : '1px solid rgba(255,255,255,0.06)',
                                 fontWeight: p.country === selectedCountry ? 600 : 400,
                               }}
                             >

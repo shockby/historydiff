@@ -29,7 +29,7 @@ export default function InteractiveHub({ events, lang }: InteractiveHubProps) {
     }));
 
   return (
-    <section style={{ marginTop: '4rem', marginBottom: '3rem' }}>
+    <section style={{ marginTop: '3.5rem', marginBottom: '3rem' }}>
       {/* Section Header */}
       <div style={{
         display: 'flex',

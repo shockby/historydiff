@@ -1,10 +1,10 @@
 ---
 id: "korea-colonization"
-title: "I want to know"
-category: "What to do"
-year: "1910 to 1945"
-location: "Home"
-country: "Home"
+title: "South Korean Perspective on Japanese Colonial Rule"
+category: "Colonial Rule & Historical Perception"
+year: "1910-1945"
+location: "Korean Peninsula"
+country: "Korea"
 language: "en"
 source: "History textbooks and government opinion of the Republic of Korea (general description)"
 ---

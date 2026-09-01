@@ -240,6 +240,9 @@ export const translations = {
     claimDiffHideBtn: 'Close',
     claimDiffExtractedFrom: '* Sentences containing this contrast term were automatically extracted from the source texts.',
     claimDiffNoMatch: 'No matching sentence found for this contrast term.',
+    allPerspectives: 'All Perspectives',
+    otherPerspectives: 'Other Perspectives',
+    selectOtherPerspective: 'Select other perspective...',
   },
   ja: {
     archive: 'アーカイブ',
@@ -480,6 +483,9 @@ export const translations = {
     claimDiffHideBtn: '閉じる',
     claimDiffExtractedFrom: '※ 上記の文は、対立タームを含む原文テキストから自動抽出されました。',
     claimDiffNoMatch: 'この対立語に対応する文が見つかりませんでした。',
+    allPerspectives: 'すべての視点',
+    otherPerspectives: 'その他の視点',
+    selectOtherPerspective: 'その他の視点を選択...',
   },
   zh: {
     archive: '对比档案',
@@ -720,6 +726,9 @@ export const translations = {
     claimDiffHideBtn: '关闭',
     claimDiffExtractedFrom: '※ 以上句子为自动从原文中提取的含对立词的片段。',
     claimDiffNoMatch: '未找到包含该对立词的句子。',
+    allPerspectives: '所有视角',
+    otherPerspectives: '其他视角',
+    selectOtherPerspective: '选择其他视角...',
   },
   ko: {
     archive: '비교 아카이브',
@@ -960,6 +969,9 @@ export const translations = {
     claimDiffHideBtn: '닫기',
     claimDiffExtractedFrom: '※ 위 문장은 대립어를 포함한 원문에서 자동으로 추출된 것입니다.',
     claimDiffNoMatch: '이 대립어에 해당하는 문장을 찾을 수 없습니다.',
+    allPerspectives: '모든 관점',
+    otherPerspectives: '기타 관점',
+    selectOtherPerspective: '기타 관점 선택...',
   },
 };
 

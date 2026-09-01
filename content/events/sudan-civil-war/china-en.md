@@ -4,7 +4,7 @@ title: Sudan Civil War
 category: War, Conflict & Occupation
 year: 2023–Present
 location: Sudan
-country: china
+country: China
 language: en
 source: Chinese Ministry of Foreign Affairs / Xinhua News Agency
 ---

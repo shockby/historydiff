@@ -4,7 +4,7 @@ title: 시리아 내전
 category: 전쟁·분쟁·점령
 year: 2011년~현재
 location: 시리아 전역
-country: china
+country: 중국
 language: ko
 source: 중국 정부 공식 입장 및 주요 언론
 ---

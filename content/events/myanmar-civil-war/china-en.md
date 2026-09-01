@@ -4,7 +4,7 @@ title: Myanmar Civil War
 category: War, Conflict & Occupation
 year: 2021–Present
 location: Myanmar
-country: china
+country: China
 language: en
 source: Chinese Ministry of Foreign Affairs / Xinhua News Agency
 ---

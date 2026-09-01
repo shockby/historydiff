@@ -1,10 +1,10 @@
 ---
 id: "korea-colonization"
-title: "일본 식민지 지배에 관한 기술"
-category: "식민지 지배・역사인식 문제"
-year: "1910년〜1945년"
-location: "조선반도"
-country: "한국"
+title: "日本の朝鮮植民地支配に関する韓国の見解"
+category: "植民地支配・歴史認識問題"
+year: "1910年〜1945年"
+location: "朝鮮半島"
+country: "韓国"
 language: "ja"
 source: "大韓民国の歴史教科書・政府見解（一般的記述）"
 ---

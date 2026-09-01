@@ -4,7 +4,7 @@ title: Sudan Civil War
 category: War, Conflict & Occupation
 year: 2023–Present
 location: Sudan
-country: japan
+country: Japan
 language: en
 source: Japanese Ministry of Foreign Affairs / UN OCHA
 ---

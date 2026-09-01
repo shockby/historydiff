@@ -4,7 +4,7 @@ title: Syrian Civil War
 category: War, Conflict & Occupation
 year: 2011–Present
 location: Syria
-country: hts
+country: "HTS (New Syrian Gov)"
 language: en
 source: HTS (New Syrian Government) Official Position
 ---

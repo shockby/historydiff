@@ -4,7 +4,7 @@ title: Myanmar Civil War
 category: War, Conflict & Occupation
 year: 2021–Present
 location: Myanmar
-country: usa
+country: United States
 language: en
 source: U.S. Department of State / U.S. Treasury / U.S. Congress
 ---

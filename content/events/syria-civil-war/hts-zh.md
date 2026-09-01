@@ -4,7 +4,7 @@ title: 叙利亚内战
 category: 战争·冲突·占领
 year: 2011年至今
 location: 叙利亚全境
-country: hts
+country: "HTS（叙利亚新政府）"
 language: zh
 source: HTS（新叙利亚政府）官方立场
 ---

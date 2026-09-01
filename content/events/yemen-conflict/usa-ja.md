@@ -4,7 +4,7 @@ title: "イエメン紛争と紅海危機"
 category: "戦争・紛争・占領"
 year: "2014年-現在"
 location: "イエメン、紅海"
-country: "アメリカ"
+country: "アメリカ合衆国"
 language: "ja"
 source: "米国務省 / 学術機関"
 ---

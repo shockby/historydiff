@@ -4,7 +4,7 @@ title: ミャンマー内戦
 category: 戦争・紛争・占領
 year: 2021年-現在
 location: ミャンマー全土
-country: "米国"
+country: "アメリカ合衆国"
 language: ja
 source: 米国務省・米財務省・米議会
 ---

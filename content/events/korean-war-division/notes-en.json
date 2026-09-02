@@ -1,0 +1,143 @@
+{
+  "eventId": "korean-war-division",
+  "notes": [
+    {
+      "id": "kwd-outbreak-responsibility",
+      "claim": "The Korean War began on June 25, 1950 when North Korean forces launched a surprise invasion across the 38th parallel.",
+      "context": "At approximately 4 a.m. on June 25, 1950, the Korean People's Army launched simultaneous artillery barrages and ground assaults across the entire 38th parallel. The UN Security Council adopted Resolution 82 on June 25 (condemning the invasion) and Resolution 83 on June 27 (recommending military assistance). North Korea initially claimed that South Korea had crossed the 38th parallel first and provoked the war, and contemporary North Korean and Chinese official histories continue to emphasize American and South Korean 'provocations.' However, Soviet Communist Party documents released after the USSR's collapse — including Stalin's telegrams — clearly establish that Kim Il-sung planned and executed the invasion with the approval of Stalin and Mao Zedong. The mainstream historical consensus in South Korea, the United States, Japan, and the UN holds that North Korea was the aggressor. Revisionist scholars such as Bruce Cumings have emphasized cross-border provocations by the southern side and the civil-war character of the conflict, but this view remains a minority position in academic historiography.",
+      "verdict": "The fact of North Korea's initiation of the invasion is corroborated by multiple primary sources including Soviet archives, and represents the established historical consensus. However, the full origins of the war — including Cold War structural factors, major-power complicity, and pre-war cross-border skirmishing — require more complex analysis than a simple aggressor narrative provides.",
+      "sources": [
+        {
+          "title": "The Korean War: A History",
+          "url": "https://www.penguinrandomhouse.com/books/311037/the-korean-war-by-bruce-cumings/",
+          "publisher": "Random House (Bruce Cumings)",
+          "type": "academic"
+        },
+        {
+          "title": "UN Security Council Resolution 82 (1950)",
+          "url": "https://undocs.org/S/RES/82(1950)",
+          "publisher": "UN Security Council",
+          "type": "international"
+        },
+        {
+          "title": "Cold War International History Project: Korean War Documents",
+          "url": "https://www.wilsoncenter.org/program/cold-war-international-history-project",
+          "publisher": "Wilson Center (USA)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-armistice-status",
+      "claim": "The Armistice Agreement signed on July 27, 1953 is not a peace treaty, and the Korean War has not legally ended.",
+      "context": "The 'Korean War Armistice Agreement,' signed at Panmunjom on July 27, 1953, is a military cease-fire agreement — not an instrument of peace under international law. It was signed by the UN Commander, the Supreme Commander of the Korean People's Army, and the Commander of the Chinese People's Volunteer Forces. South Korean President Syngman Rhee refused to sign, rejecting any agreement short of unification; South Korea is therefore technically not a party to the armistice. North Korea declared in 1994 that it would no longer recognize the armistice's implementing body (the Military Armistice Commission), effectively treating the agreement as defunct. No peace treaty has ever been concluded among the belligerents — the United States, South Korea, North Korea, and China — despite more than 70 years of periodic diplomatic discussions. The UN Command continues to administer the armistice and manage the DMZ, including incidents at the Joint Security Area at Panmunjom.",
+      "verdict": "The legal position that the Korean War exists in a state of armistice rather than formal peace is broadly accepted among international law and diplomacy scholars. The phrase 'the war never ended' is technically accurate in legal terms, though the political implications of this framing vary by context and stakeholder.",
+      "sources": [
+        {
+          "title": "Korean War Armistice Agreement (1953)",
+          "url": "https://peacemaker.un.org/sites/peacemaker.un.org/files/KP%20KR_530727_ArmisticeAgreementKoreanWar.pdf",
+          "publisher": "UN Peacemaker Database",
+          "type": "international"
+        },
+        {
+          "title": "Congressional Research Service: The Korean War Armistice Agreement",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "U.S. Congressional Research Service",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-civilian-casualties",
+      "claim": "Civilian deaths in the Korean War may have exceeded one million; documented incidents include the No Gun Ri massacre by U.S. troops and the Bodo League massacres by South Korean authorities.",
+      "context": "Total Korean War death estimates vary widely depending on source and methodology. Military deaths include approximately 36,500 Americans, 137,000 South Koreans, 215,000 North Koreans, and (by official Chinese count) 180,000 Chinese. Civilian deaths across both Koreas are estimated at anywhere from one million to over three million, with no authoritative aggregate figure. The No Gun Ri massacre (July 26–29, 1950) came to international attention through a 1999 Associated Press investigation: troops of the U.S. 1st Cavalry Division killed an estimated 250–300 South Korean refugees sheltering under a railroad bridge. The U.S. Army conducted a review and expressed 'regrets' but did not characterize the killings as a war crime. The South Korean Truth and Reconciliation Commission (2005–2010, reconstituted 2020) documented the Bodo League massacres — in which South Korean military and police executed tens of thousands to over 100,000 suspected communist sympathizers at the outbreak of war — along with dozens of other civilian atrocity incidents. North Korean forces also committed documented atrocities against civilians in southern territory they occupied.",
+      "verdict": "The occurrence of civilian massacres by multiple parties — including U.S. forces, South Korean authorities, and North Korean forces — is corroborated by documentary evidence, survivor testimonies, and official investigations. The exact death tolls remain subjects of ongoing historical research. No Gun Ri's factual basis is confirmed by the U.S. Army's own review; the Bodo League massacres are documented by South Korea's own truth commission.",
+      "sources": [
+        {
+          "title": "No Gun Ri: A Military History of the Korean War Incident",
+          "url": "https://www.palgrave.com/gp/book/9780312293505",
+          "publisher": "Palgrave Macmillan (Robert Hanes & Martha Mendoza)",
+          "type": "academic"
+        },
+        {
+          "title": "U.S. Department of the Army: No Gun Ri Review (2001)",
+          "url": "https://www.army.mil/nogunri/",
+          "publisher": "U.S. Department of the Army",
+          "type": "government"
+        },
+        {
+          "title": "Truth and Reconciliation Commission of Korea",
+          "url": "https://www.jinsil.go.kr/",
+          "publisher": "Republic of Korea Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-divided-families",
+      "claim": "Approximately ten million Koreans were separated from family members by the division; by 2018, over 70 percent of South Korean registered divided-family members had already died.",
+      "context": "Wartime population displacement and the hardening of the 38th parallel as a permanent border separated an estimated ten million Koreans from family members — though this figure reflects a broad definition encompassing all those with relatives on the other side. South Korea's Ministry of Unification maintains a Separated Family Information Integrated System; as of 2018, it recorded approximately 133,000 registrants, of whom only about 57,000 (43%) remained alive — the majority in their seventies or older. Inter-Korean family reunion events were first held in 1985 and have occurred 22 times as of 2018, but are repeatedly suspended during periods of inter-Korean tension. The last in-person reunion was held at Mount Kumgang in August 2018. The demographic erosion of the separated generation — with thousands dying each year — is recognized as a severe human rights issue by the UN Human Rights Council and international humanitarian organizations.",
+      "verdict": "The scale and severity of the divided families issue — including the rate of death among registrants before reunion — is well-documented in South Korean government statistics and ICRC records. The 'ten million' figure depends on definitional scope but the humanitarian magnitude is confirmed.",
+      "sources": [
+        {
+          "title": "Ministry of Unification: Separated Family Information System",
+          "url": "https://reunion.unikorea.go.kr/",
+          "publisher": "Republic of Korea Ministry of Unification",
+          "type": "government"
+        },
+        {
+          "title": "ICRC: Restoring Family Links – Korean Peninsula",
+          "url": "https://www.icrc.org/en/where-we-work/asia-pacific/korean-peninsula",
+          "publisher": "International Committee of the Red Cross",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nuclear-development",
+      "claim": "North Korea conducted six nuclear tests between 2006 and 2017 and has developed intercontinental ballistic missiles assessed as capable of reaching the continental United States.",
+      "context": "North Korea has pursued nuclear weapons since the 1950s and survived two major nuclear crises (1993–94 and 2002–03) before conducting its first nuclear explosive test on October 9, 2006. Subsequent tests followed in 2009, 2013, twice in 2016, and in September 2017 — the last assessed as a thermonuclear (hydrogen bomb) device with an estimated yield of 100–300 kilotons. On ICBM development: the Hwasong-15 test (November 2017) and Hwasong-17 test (November 2022) demonstrated theoretical range covering the entire continental United States. The U.S. Defense Intelligence Agency and other intelligence assessments have concluded that North Korea has likely achieved warhead miniaturization sufficient for missile delivery, though the exact number of warheads and the reliability of delivery systems involves remaining uncertainties. North Korea legally declared itself a nuclear state in 2012 and enacted a nuclear doctrine law in 2022 authorizing preemptive use. The UN Security Council has adopted over ten sanctions resolutions since 2006.",
+      "verdict": "The fact of North Korea's nuclear tests (confirmed by seismic data) and long-range ballistic missile development (confirmed by tracking and flight data) is well-established. DPRK nuclear and missile capabilities are assessed by international analysts as a substantive threat. Exact warhead counts and miniaturization status involve intelligence uncertainties.",
+      "sources": [
+        {
+          "title": "IAEA: DPRK Nuclear Activities",
+          "url": "https://www.iaea.org/newscenter/focus/dprk",
+          "publisher": "International Atomic Energy Agency",
+          "type": "international"
+        },
+        {
+          "title": "UN Security Council Sanctions Committee – 1718",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718",
+          "publisher": "UN Security Council",
+          "type": "international"
+        },
+        {
+          "title": "SIPRI Yearbook: World Nuclear Forces",
+          "url": "https://www.sipri.org/",
+          "publisher": "Stockholm International Peace Research Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nll-dispute",
+      "claim": "The Northern Limit Line (NLL) was not established by the 1953 Armistice Agreement but was unilaterally drawn by the UN Command; North Korea has never recognized it.",
+      "context": "The Northern Limit Line was established on August 30, 1953 by UN Commander General Mark Clark as the northern limit of UN naval patrol operations. It was not part of the Armistice Agreement text, which did not define a maritime boundary, and was never accepted by North Korea. South Korea treats the NLL as a de facto maritime boundary; North Korea asserts a different 'Maritime Military Demarcation Line' further south. Multiple armed incidents have occurred in the NLL area, including the First (1999) and Second (2002) Battles of Yeonpyeong and the 2010 shelling of Yeonpyeong Island. The sinking of ROKS Cheonan (March 26, 2010), in which 46 South Korean sailors died, was attributed to a North Korean torpedo by a South Korean-led multinational investigation; North Korea denied responsibility and Russia expressed doubts about the conclusion. South Korea and the United States maintain that the NLL is a valid line of control based on long historical practice, while North Korea and some international law scholars argue it lacks legal standing under the armistice agreement.",
+      "verdict": "It is factually correct that the NLL does not appear in the 1953 Armistice Agreement text. Its de facto validity as a maritime boundary is sustained by South Korean and U.S. practice rather than explicit multilateral agreement. The Cheonan investigation's conclusion is supported by extensive physical evidence, though full certainty on all aspects of the incident remains a matter of ongoing discussion.",
+      "sources": [
+        {
+          "title": "Joint Investigation Report on the Sinking of ROKS Cheonan (2010)",
+          "url": "https://www.mnd.go.kr/user/mnd/upload/pblictn/PBLICTNEBOOK_201309160233450.pdf",
+          "publisher": "Republic of Korea Ministry of National Defense / Multinational Investigation Team",
+          "type": "government"
+        },
+        {
+          "title": "International Crisis Group: North Korea",
+          "url": "https://www.crisisgroup.org/",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

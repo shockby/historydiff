@@ -1,0 +1,18 @@
+---
+id: "preah-vihear-dispute"
+title: "Preah Vihear Temple Dispute: Japan's Perspective"
+category: "Regional Security & Diplomacy"
+year: "1962–present"
+location: "Thai-Cambodian Border"
+country: "Japan"
+language: "en"
+source: "Ministry of Foreign Affairs statements, ASEAN diplomatic records, Japan bilateral ODA documentation"
+---
+
+Japan occupies the position of an engaged observer in the Preah Vihear dispute, holding no direct territorial stake but maintaining significant diplomatic interests as a leading ASEAN dialogue partner, a major development aid donor to both Thailand and Cambodia, and a consistent advocate of rule-of-law principles in regional affairs. The Japanese government's formal posture has been to support peaceful resolution through dialogue, express concern at military escalation without assigning blame, and encourage engagement through multilateral frameworks including the ASEAN Regional Forum (ARF) and the East Asia Summit (EAS). During both the 2008 and 2011 armed incidents, Japan's Ministry of Foreign Affairs issued statements calling for maximum restraint and endorsing Indonesia's mediation efforts as ASEAN Chair.
+
+Japan's engagement with both disputant states through development assistance creates a structural complexity that shapes its diplomatic positioning. Japan has been one of the largest contributors to Cambodia's post-conflict reconstruction and has funded cultural heritage preservation at Angkor through the UNESCO-Japan Trust Fund, deepening its relationship with Phnom Penh through the soft power of heritage diplomacy. At the same time, Japan maintains deep economic ties with Thailand—its fourth-largest ASEAN trade partner—and values Bangkok's cooperation across multiple ASEAN frameworks. This dual engagement predisposes Japan toward constructive ambiguity rather than explicit alignment, enabling it to function as a trusted interlocutor with both parties while constraining its capacity to take forceful public positions on the merits of the underlying legal dispute.
+
+On the legal dimension, Japanese government officials and international law scholars have generally acknowledged the binding character of both the 1962 ICJ judgment and the 2013 interpretation ruling. Japan's broader foreign policy doctrine of rules-based international order—articulated through the Free and Open Indo-Pacific concept—logically implies support for ICJ rulings as authoritative determinations of international law. However, the Japanese government has stopped short of formally endorsing Cambodia's interpretation of those rulings, a restraint consistent with its longstanding practice of non-interference in ASEAN members' bilateral disputes. This approach reflects a calculated balancing act: vocal legal endorsement of Cambodia's position could damage the bilateral relationship with Bangkok without materially advancing resolution of the dispute.
+
+The Preah Vihear dispute has relevance to Japan's own territorial challenges in the East China Sea and around the Senkaku Islands, where Tokyo likewise invokes international law and historical treaty arrangements to support its position. Japanese policymakers have observed the Preah Vihear precedent—particularly the ICJ's reliance on colonial-era maps and the doctrine of acquiescence—as a reminder that the conduct of states over extended periods can carry legal weight in boundary disputes, for better or worse. Through the Japan-Mekong Cooperation framework launched in 2009, Japan has sought to maintain comprehensive engagement with mainland Southeast Asia, using infrastructure investment and governance support as instruments of regional stabilisation that can create favorable conditions for the resolution of disputes such as Preah Vihear.

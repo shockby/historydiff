@@ -1,0 +1,105 @@
+{
+  "eventId": "preah-vihear-dispute",
+  "notes": [
+    {
+      "id": "pvd-icj-1962",
+      "claim": "1962年のICJ判決はプレアビヒア寺院の主権がカンボジアにあると確定し、タイに撤退を命じた。",
+      "context": "1962年6月15日、国際司法裁判所は9対3の多数決でプレアビヒア寺院の主権はカンボジアに帰属するとの判決を下した。判決の根拠は、1904年のフランス＝シャム条約に基づき1907年に作成されたフランス・カンボジア混成委員会の地図（アネックスI地図）であり、タイ（当時シャム）がこの地図を数十年にわたり黙認・承認してきた（禁反言＝acquiescence）という事実であった。タイ側は分水嶺線に基づけば寺院はタイ領に入ると主張したが、裁判所は国境の実際の位置よりも国家の行動（effectivités）を重視した。タイはこの判決に強く反発し、国内では「屈辱的な判決」として大きな政治問題となったが、翌1963年に撤退を実施した。",
+      "verdict": "ICJの判決は国際法上明確な拘束力を持つ。タイが主張する分水嶺論は1907年時点でフランス側地図によって実質的に否定されており、タイの長年の黙認がその効力を確定した。ただし判決が寺院建造物のみを対象とするのか周囲の土地全体を含むのかについては1962年時点では解釈の余地があった（2013年判決で補足）。",
+      "sources": [
+        {
+          "title": "Case concerning the Temple of Preah Vihear (Cambodia v. Thailand), Merits, Judgment of 15 June 1962",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "The Temple of Preah Vihear Case Revisited",
+          "url": "https://doi.org/10.1017/S0922156514000417",
+          "publisher": "Asian Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-map-dispute",
+      "claim": "紛争の根拠となったフランス製地図は1904年条約が定めた分水嶺線と一致せず、両国の解釈を分けた。",
+      "context": "1904年のフランス＝シャム条約は国境をドンレク山脈の分水嶺に沿って画定することを規定した。しかし1907年にフランス人技師が作成したアネックスI地図は、測量上の誤差（当時の技術的限界による）により、プレアビヒア周辺において分水嶺線ではなくカンボジア側に寺院を含む線を描いていた。タイは「条約の文言（分水嶺）」こそが真の境界であると主張し続けた。ICJは1962年判決で、シャム政府がこの地図を公式に受領し長年使用したという事実を重視し、「条約の文言」よりも「国家の行為」を優先した。この「地図問題」はタイ国内で今日も政治的に非常にセンシティブであり続けている。",
+      "verdict": "地図の測量上の不正確さはタイ側の反論に一定の事実的根拠を与えるが、ICJは国家の行動（長年の地図の承認・使用）が条約文言の修正を生じさせうるという法的原則を適用した。この解釈はその後の国際境界紛争において広く引用される先例となっている。",
+      "sources": [
+        {
+          "title": "Maps and the Preah Vihear Case: Lessons for Territorial Disputes",
+          "url": "https://doi.org/10.1093/chinesejil/jmr059",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "ICJ 1962 Judgment - Separate Opinion of Judge Alfaro",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pvd-unesco-2008",
+      "claim": "2008年のユネスコ世界遺産登録はカンボジアの単独申請に基づくものであり、タイの同意を得ていなかった。",
+      "context": "カンボジアは2007年にプレアビヒア寺院の世界遺産登録を申請した。当初はタイとの共同申請が検討されたが、境界問題での対立から交渉が決裂し、カンボジアは単独申請に切り替えた。2008年7月の第32回世界遺産委員会（カナダ・ケベック）はこれを登録承認した。タイはこの登録が係争地域に関するカンボジアの主権を前提とするものであり、未解決の境界問題を蒸し返すと強く抗議した。タイ国内では当時連立与党の一角を担うタイ党首（後首相、サマック・スンタラウェート）がカンボジアとの共同申請に合意した外相（ノッパドン・パタマ）を政治的に攻撃する事態となり、ノッパドンは辞任に追い込まれた。この政争が両国間の直接武力衝突へのエスカレーションを加速させたとされる。",
+      "verdict": "世界遺産登録の法的行為そのものはカンボジアの申請内容（寺院建造物とその直接周辺）に限定されており、境界画定の変更を伴うものではない。ユネスコ規則上も国境問題への介入を意図するものではなかった。しかしタイ国内の政治的敏感さがこれを安全保障上の危機として増幅させた側面は否定できない。",
+      "sources": [
+        {
+          "title": "UNESCO World Heritage Committee Decision 32COM 8B.102",
+          "url": "https://whc.unesco.org/en/decisions/1492",
+          "publisher": "ユネスコ世界遺産委員会",
+          "type": "international"
+        },
+        {
+          "title": "Thailand-Cambodia Border Conflict and the 2008 Political Crisis",
+          "url": "https://doi.org/10.1017/S0022463413000143",
+          "publisher": "Journal of Southeast Asian Studies",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-icj-2013",
+      "claim": "2013年のICJ補足判決は全会一致でタイに係争地帯（プロモントリー）からの撤退を命じ、1962年判決の射程を拡大解釈した。",
+      "context": "カンボジアは2011年、1962年判決の意味を明確にするようICJに解釈を請求した。タイは寺院建造物のみが1962年判決の対象であり、周囲の土地には及ばないと主張してきた。2013年11月11日、ICJは全会一致（15対0）で、1962年判決の主文はプレアビヒアが所在する突出部（プロモントリー）全体がカンボジア領に属するとの決定を含んでおり、タイはその地域から軍事・行政人員を撤退させる義務があると判示した。ただし裁判所は係争地帯の正確な境界線（4.6km²の詳細な輪郭）については「1962年判決の主文の解釈権限を超える」として画定を行わず、二国間交渉に委ねた。",
+      "verdict": "2013年判決はタイの狭義解釈を明確に否定し、カンボジアの主権範囲を法的に拡張する効果を持った。全会一致の採択は判決の権威を際立たせる。ただし係争地帯の精確な境界画定は未解決のまま残っており、この問題の最終的な法的完結には追加の二国間または司法手続きが必要である。",
+      "sources": [
+        {
+          "title": "Request for Interpretation of the Judgment of 15 June 1962 (Cambodia v. Thailand), Judgment of 11 November 2013",
+          "url": "https://www.icj-cij.org/case/151",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "The 2013 ICJ Preah Vihear Interpretation Judgment",
+          "url": "https://doi.org/10.1093/chinesejil/jmu006",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-civilian-casualties",
+      "claim": "2008年〜2011年の武力衝突ではカンボジア・タイ両国の兵士・民間人に死傷者が出た。",
+      "context": "2008年7月以降、特に2011年2月〜5月に集中して発生した銃撃戦・砲撃戦・地雷爆発による死傷者数については両国政府の公式発表が一致しない。カンボジア政府の集計では軍民合わせた死傷者数は数十名規模とされているが、タイ側の記録とは齟齬がある。ヒューマン・ライツ・ウォッチおよび国際赤十字委員会（ICRC）は国際人道法上の懸念を表明し、特に2011年2〜4月の衝突でタイ軍が発射した砲弾が寺院周辺の集落に着弾した事例を記録した。国内避難民数についてはカンボジア政府が最大8万人の国内避難を報告した。地雷・不発弾による農業・移動への長期的影響は現在も続いている。",
+      "verdict": "武力衝突による死傷者の発生および大規模な国内避難は複数の独立した情報源によって確認されている。ただし正確な死傷者数については両国政府の発表に差異があり、独立した調査による完全な検証は行われていない。民間人への影響、特に地雷汚染の長期的被害については国際人道法上の責任追及が不十分なままである。",
+      "sources": [
+        {
+          "title": "Human Rights Watch Report: Thailand/Cambodia Border Conflict",
+          "url": "https://www.hrw.org/news/2011/04/28/thailand-stop-use-cluster-munitions",
+          "publisher": "ヒューマン・ライツ・ウォッチ",
+          "type": "ngo"
+        },
+        {
+          "title": "ICRC Statement on Armed Clashes at Preah Vihear",
+          "url": "https://www.icrc.org/en/doc/resources/documents/news-release/2011/thailand-cambodia-news-2011-02-07.htm",
+          "publisher": "国際赤十字委員会（ICRC）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

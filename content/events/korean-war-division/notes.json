@@ -1,0 +1,143 @@
+{
+  "eventId": "korean-war-division",
+  "notes": [
+    {
+      "id": "kwd-outbreak-responsibility",
+      "claim": "朝鮮戦争は1950年6月25日、北朝鮮軍が38度線を越えて南側を奇襲侵攻することで始まった。",
+      "context": "1950年6月25日午前4時ごろ、北朝鮮の朝鮮人民軍は38度線全域にわたり一斉に南側への砲撃・越境を開始した。国連安全保障理事会は6月25日に決議82号（侵略を認定・非難）、6月27日に決議83号（軍事支援勧告）を採択した。北朝鮮は当初「韓国側が先に38度線を侵犯した」と主張し、現在の北朝鮮・中国の公式叙述も米韓側の「挑発」を強調するが、ソ連崩壊後に公開されたソ連共産党文書（スターリンの電報など）は、金日成がスターリンと毛沢東の了承を得て南侵計画を立案・実行したことを明確に示している。韓国・国連・米国・日本の主流的歴史認識は、北朝鮮による先制侵攻を戦争の起点としている。一方、ブルース・カミングス等の修正主義的研究者は、38度線周辺での南側の挑発行為や内戦的性格を強調し、単純な「侵略」図式に疑問を呈しているが、この見解は学界の主流ではない。",
+      "verdict": "北朝鮮が先制侵攻を行ったことは、ソ連公文書を含む複数の一次資料によって裏付けられており、歴史的コンセンサスとなっている。ただし戦争の起源については内戦的要素・冷戦構造・大国の関与等、複合的な要因の分析が求められる。",
+      "sources": [
+        {
+          "title": "The Korean War: A History",
+          "url": "https://www.penguinrandomhouse.com/books/311037/the-korean-war-by-bruce-cumings/",
+          "publisher": "ランダムハウス（ブルース・カミングス著）",
+          "type": "academic"
+        },
+        {
+          "title": "UN Security Council Resolution 82 (1950)",
+          "url": "https://undocs.org/S/RES/82(1950)",
+          "publisher": "国連安全保障理事会",
+          "type": "international"
+        },
+        {
+          "title": "Cold War International History Project: Korean War Documents",
+          "url": "https://www.wilsoncenter.org/program/cold-war-international-history-project",
+          "publisher": "ウィルソン・センター（米国）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-armistice-status",
+      "claim": "1953年7月27日に締結された休戦協定は平和条約ではなく、朝鮮戦争は法的に終結していない。",
+      "context": "1953年7月27日、板門店で署名された「朝鮮国連軍総司令官、朝鮮人民軍最高司令官及び中国人民志願軍司令員間の朝鮮軍事停戦に関する協定」は、戦闘の停止と捕虜交換、軍事境界線の設定を定めたものであり、国際法上の「平和条約」ではない。協定の署名者は国連軍（米国主導）・北朝鮮・中国であり、韓国の李承晩大統領は北進統一を諦めないとして署名を拒否した。したがって厳密には韓国は協定の当事者ではない。北朝鮮は1994年に休戦協定の実施機関である軍事停戦委員会から撤退を宣言し、協定の形骸化を図ってきた。米国・韓国・北朝鮮・中国による平和条約締結交渉は、70年以上にわたって実現していない。国連軍司令部（UNC）は休戦協定の管理を継続しており、軍事境界線上の板門店共同警備区域（JSA）での事件処理等にあたっている。",
+      "verdict": "法的見解として朝鮮戦争が休戦状態にある（平和条約未締結）という点は、国際法・外交の専門家の間で広くコンセンサスが形成されている。ただし「終わっていない戦争」という表現は政治的文脈によって異なる含意を持つため注意が必要。",
+      "sources": [
+        {
+          "title": "Korean War Armistice Agreement (1953)",
+          "url": "https://peacemaker.un.org/sites/peacemaker.un.org/files/KP%20KR_530727_ArmisticeAgreementKoreanWar.pdf",
+          "publisher": "国連平和和解データベース",
+          "type": "international"
+        },
+        {
+          "title": "Congressional Research Service: The Korean War Armistice Agreement",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "米国議会調査局",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-civilian-casualties",
+      "claim": "朝鮮戦争での民間人死者数は数十万人から数百万人と推計され、ノグンリ事件など米軍による民間人殺害も記録されている。",
+      "context": "朝鮮戦争の総死者数の推計は資料・研究者によって大きく異なる。軍人の死者は国連軍側約36,000人（うち米国約36,500人）、韓国軍約13万7千人、北朝鮮軍約21万5千人、中国人民志願軍（公式）約18万人とされる。民間人死者の推計は南北合わせて100万〜300万人超とも言われるが、精確な統計は存在しない。ノグンリ事件（1950年7月26〜29日）では、AP通信の調査報道（1999年）により米第1騎兵師団が橋の下に避難していた難民（主に女性・子ども）を銃撃し、約250〜300人が死亡したことが明らかになった。米国防総省は調査報告を行い「遺憾」を表明したが、「虐殺」という表現は使わなかった。韓国の真実和解委員会（2005〜2010年、2020年再設置）は、国民保導連盟虐殺（南の韓国当局が共産主義者疑惑の被拘束者数万〜10万人超を処刑）など多数の民間人虐殺を調査した。",
+      "verdict": "ノグンリ事件が発生したという事実はAPの取材・米国防総省調査・韓国真実和解委員会によって確認されている。ただし死者数の精確な推計、発砲命令の有無と経路等については継続的な議論がある。民間人虐殺が北朝鮮・韓国・国連軍の各側で発生したという広義の事実は史学上広く認められている。",
+      "sources": [
+        {
+          "title": "No Gun Ri: A Military History of the Korean War Incident",
+          "url": "https://www.palgrave.com/gp/book/9780312293505",
+          "publisher": "Palgrave Macmillan（ロバート・ヘイニーズ著）",
+          "type": "academic"
+        },
+        {
+          "title": "U.S. Department of the Army: No Gun Ri Review (2001)",
+          "url": "https://www.army.mil/nogunri/",
+          "publisher": "米陸軍省",
+          "type": "government"
+        },
+        {
+          "title": "진실화해위원회（韓国真実和解のための過去事整理委員会）",
+          "url": "https://www.jinsil.go.kr/",
+          "publisher": "韓国政府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-divided-families",
+      "claim": "南北分断によって引き裂かれた離散家族は約1000万人と推計され、2018年時点で韓国側登録者の70%以上がすでに死亡している。",
+      "context": "朝鮮戦争中の人口移動と38度線の固定化により、多くの家族が南北に引き裂かれた。韓国政府の推計では離散家族の総数は約1000万人とも言われるが、この数字は「朝鮮半島出身者で南北いずれかに家族がいる者」の広義の定義を含む。韓国統一部が管理する離散家族情報統合システムへの登録者は2018年時点で約13万3千人。このうち生存者は約5万7千人（43%）で、70歳代以上が大半を占める。南北離散家族の対面再会事業は1985年に初めて行われ、2000年代以降の南北宥和ムードの中で22回が実施されたが、北朝鮮の核実験・ミサイル発射等によりたびたび中断された。最後の対面再会は2018年8月に金剛山で行われた。",
+      "verdict": "離散家族問題の深刻さ（高齢化・死亡による解決機会の消滅）は韓国政府統計・国際赤十字の記録によって裏付けられている。「1000万人」という数字は定義によって変動するが、人道問題としての深刻さは確認された事実である。",
+      "sources": [
+        {
+          "title": "韓国統一部・離散家族情報統合システム",
+          "url": "https://reunion.unikorea.go.kr/",
+          "publisher": "大韓民国統一部",
+          "type": "government"
+        },
+        {
+          "title": "ICRC: Restoring Family Links – Korean Peninsula",
+          "url": "https://www.icrc.org/en/where-we-work/asia-pacific/korean-peninsula",
+          "publisher": "国際赤十字委員会",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nuclear-development",
+      "claim": "北朝鮮は2006年から2017年の間に6回の核実験を実施し、大陸間弾道ミサイル（ICBM）の開発により米国本土への攻撃能力を保有するに至ったと評価されている。",
+      "context": "北朝鮮は1950年代から核開発を進め、1993〜94年の第一次核危機、2002〜03年の第二次核危機を経て、2006年10月9日に初の核爆発実験を実施した（以後2009・2013・2016年2回・2017年と計6回）。2017年9月の第6回実験は水爆実験とされ、推定爆発規模は100〜300キロトンに達する。ICBMについては2017年の火星15号・火星17号の試験発射により、理論上米国本土全域を射程に収めるとされる。核弾頭の小型化・ミサイルへの搭載能力については、米国防情報局（DIA）等が「達成した可能性が高い」と評価しているが、完全な能力については不確実性が残る。北朝鮮は自国を「核保有国」と主張し、2022年には「核兵器の先制使用を含む核ドクトリン」を法制化した。国連安保理は2006年以降、計10本以上の制裁決議を採択している。",
+      "verdict": "北朝鮮が核実験を複数回実施し、長射程弾道ミサイルを開発してきた事実は地震観測データ・衛星画像・各国政府の公式評価によって確認されている。核弾頭の正確な数・小型化の程度については不確実性が残るが、北朝鮮の核能力が実質的な脅威水準に達していることは国際的コンセンサスとなっている。",
+      "sources": [
+        {
+          "title": "IAEA: DPRK Nuclear Activities",
+          "url": "https://www.iaea.org/newscenter/focus/dprk",
+          "publisher": "国際原子力機関",
+          "type": "international"
+        },
+        {
+          "title": "UN Security Council Resolutions on DPRK (1718/1874/2094 etc.)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718",
+          "publisher": "国連安全保障理事会",
+          "type": "international"
+        },
+        {
+          "title": "Stockholm International Peace Research Institute: DPRK Nuclear Forces",
+          "url": "https://www.sipri.org/",
+          "publisher": "ストックホルム国際平和研究所",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nll-dispute",
+      "claim": "北方限界線（NLL）は1953年の休戦協定によって設定されたものではなく、国連軍司令部が一方的に設定した海上境界線であり、北朝鮮はその有効性を認めていない。",
+      "context": "北方限界線（NLL）は1953年8月30日、国連軍司令官クラーク大将が国連軍の哨戒活動の北限として一方的に設定した。休戦協定は海上境界線を明示的に規定しておらず、NLLは協定の附属文書でも公式の合意文書でもない。韓国政府はNLLを事実上の海上境界線と主張するが、北朝鮮はNLLを「存在しない線」として認めず、独自の「海上軍事境界線」を主張している。NLL周辺では1999年・2002年の延坪海戦、2010年の天安艦沈没事件・延坪島砲撃など複数の武力衝突が発生している。天安艦沈没（2010年3月26日、韓国海軍哨戒艦が爆発沈没し46名死亡）について、韓国・国連合同調査団は北朝鮮潜水艦の魚雷によるものと結論付けたが、北朝鮮はこれを完全否定し、ロシアも疑問を呈した。",
+      "verdict": "NLLが1953年休戦協定の条文には明示されていないという事実は国際法・軍事史の専門家が確認している。ただし事実上の管理ラインとして機能してきた歴史的実績は存在する。天安艦事件については韓国・国際合同調査の結論が最も証拠に基づくものとされるが、事件の全容に関する議論は続いている。",
+      "sources": [
+        {
+          "title": "Joint Investigation Report on the Sinking of ROKS Cheonan (2010)",
+          "url": "https://www.mnd.go.kr/user/mnd/upload/pblictn/PBLICTNEBOOK_201309160233450.pdf",
+          "publisher": "韓国国防省・多国間合同調査団",
+          "type": "government"
+        },
+        {
+          "title": "International Crisis Group: Shelling of Yeonpyeong Island",
+          "url": "https://www.crisisgroup.org/",
+          "publisher": "インターナショナル・クライシス・グループ",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

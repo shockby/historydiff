@@ -1,0 +1,120 @@
+{
+  "eventId": "preah-vihear-dispute",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "pvd-voice-1",
+      "country": {
+        "ja": "カンボジア",
+        "en": "Cambodia",
+        "zh": "柬埔寨"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「プレアビヒアはクメール文明の遺産だ。ICJが1962年に判決を下し、2013年にも確認した。これ以上の議論は必要ない。タイは判決を完全に履行すべきだ」",
+        "en": "\"Preah Vihear is the heritage of Khmer civilization. The ICJ ruled in 1962 and confirmed it again in 2013. There's nothing more to debate—Thailand must fully comply with the rulings.\"",
+        "zh": "\"柏威夏是高棉文明的遗产。国际法院1962年作出裁决，2013年再次确认。这不需要再争论——泰国必须完全遵守裁决。\""
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "カンボジアのSNS（Facebook、Twitterなど）では、ICJ判決をカンボジアの「完全な勝利」として称え、タイの歴史的主張を「帝国主義的な領土拡張の試み」として批判する投稿が多い。2013年の補足判決後に特に高まりを見せた。",
+        "en": "On Cambodian social media platforms, the ICJ rulings are frequently celebrated as a complete vindication of Cambodian sovereignty. Thai historical claims are often characterised as a form of territorial expansionism. This sentiment intensified following the 2013 ICJ interpretation ruling.",
+        "zh": "在柬埔寨社交媒体上，国际法院裁决经常被视为柬埔寨主权的完全证明。泰国的历史主张常被描述为领土扩张主义。这一情绪在2013年国际法院解释性裁决后尤为强烈。"
+      },
+      "keywords": ["#PreahVihear", "#KhmerHeritage", "#ICJRuling", "#CambodianSovereignty"],
+      "timeframe": "2008-2015"
+    },
+    {
+      "id": "pvd-voice-2",
+      "country": {
+        "ja": "タイ",
+        "en": "Thailand",
+        "zh": "泰国"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「カオ・プラ・ウィハーンはタイの土地だ。フランスが不正確な地図を使って国境を歪め、ICJはその嘘を追認した。我々の文化と主権を守るために戦わなければならない」",
+        "en": "\"Khao Phra Wihan is Thai land. France used inaccurate maps to distort the border, and the ICJ endorsed that distortion. We must stand up for our culture and sovereignty.\"",
+        "zh": "\"考帕威汉是泰国领土。法国使用不准确的地图扭曲了边界，国际法院认可了这种扭曲。我们必须为我们的文化和主权而战。\""
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "タイのSNSでは、PAD（人民民主同盟、黄シャツ）支持者を中心に、プレアビヒアをめぐる政府の妥協を「主権の売却」と非難する声が強い。2008年当時の外相辞任要求運動や国境地帯への抗議デモにつながった。国境問題に関するナショナリスト的投稿は今日も散見される。",
+        "en": "Thai nationalist social media, particularly among supporters of the People's Alliance for Democracy (PAD, Yellow Shirts), frequently accused the government of 'selling sovereignty' by accommodating Cambodian claims. This online sentiment translated into street protests in 2008 and contributed to the political crisis. Nationalist posts on the border issue remain visible today.",
+        "zh": "泰国民族主义社交媒体，尤其是人民民主联盟（PAD，黄衫军）支持者，频繁指责政府通过接受柬埔寨主张来'出卖主权'。这种网络情绪在2008年转化为街头抗议，并引发政治危机。有关边界问题的民族主义帖子至今仍可见到。"
+      },
+      "keywords": ["#เขาพระวิหาร", "#ThaiSovereignty", "#PAD", "#KhaoPraWihan"],
+      "timeframe": "2008-2013"
+    },
+    {
+      "id": "pvd-voice-3",
+      "country": {
+        "ja": "カンボジア・タイ国境の現地住民",
+        "en": "Local Border Communities (Cambodia & Thailand)",
+        "zh": "柬泰边境当地居民"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「政治家たちが言い争っている間、私たちは家を失い、田んぼを捨てて逃げた。寺院が誰の国のものかより、子どもたちが安全に育てる場所を返してほしい」",
+        "en": "\"While politicians argue, we lost our homes and fled our farms. I care less about which country owns the temple and more about getting back a safe place to raise our children.\"",
+        "zh": "\"政客们在争论，而我们失去了家园，逃离了农田。比起寺庙属于哪个国家，我更想要一个能安全抚养孩子的地方。\""
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国境地帯の避難民がNGOや報道機関のインタビューで語った声を代表するもの。FacebookやTwitterなど一般的なSNSよりも、地元ラジオやコミュニティメディアを通じて広まった意見傾向。平和と生活の安定を求める声は両国の境界を超えていた。",
+        "en": "Representative of testimonies gathered by NGOs and journalists from internally displaced persons in both countries. More prevalent in local radio and community media than mainstream social networks. Calls for peace and livelihood recovery crossed national lines, with border residents on both sides expressing similar frustrations.",
+        "zh": "代表两国国内流离失所者向非政府组织和记者讲述的证词。在地方广播和社区媒体上比在主流社交网络上更为普遍。对和平与生计恢复的呼声跨越了国界，两国边境居民都表达了类似的不满。"
+      },
+      "keywords": ["#BorderPeace", "#IDPCambodia", "#PreahVihearVillagers"],
+      "timeframe": "2008-2012"
+    },
+    {
+      "id": "pvd-voice-4",
+      "country": {
+        "ja": "国際社会・欧米メディア読者",
+        "en": "International Community / Western Media Readership",
+        "zh": "国际社会/西方媒体读者"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "「ICJの判決は明確だ。タイは国際法を受け入れるべきだ。南シナ海と同じ問題——小国が大国の行動に対して国際裁判所に訴えても、その判決が尊重されなければ意味がない」",
+        "en": "\"The ICJ ruling is clear. Thailand should accept international law. This is the same problem as the South China Sea—if countries can just ignore court rulings, what's the point of international institutions?\"",
+        "zh": "\"国际法院的裁决是明确的。泰国应该接受国际法。这与南海问题相同——如果国家可以无视法院裁决，国际机构还有什么意义？\""
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "欧米の国際政治・法律フォーラムやReddit（r/geopoliticsなど）、Twitter/Xの英語圏ユーザーの間では、ICJ判決の拘束力と遵守問題を南シナ海仲裁裁定と並べて論じる傾向が見られる。プレアビヒアを「法の支配対現実政治」の典型例として捉えるフレームが多い。",
+        "en": "Prevalent in English-language international relations and law forums, Reddit communities (r/geopolitics, r/worldnews), and Twitter/X discussions. Users frequently draw parallels with the South China Sea arbitration ruling, framing the dispute as a test case for international rule of law. Academic and journalistic commentary reinforces this framing.",
+        "zh": "在英语国际关系和法律论坛、Reddit社区（r/geopolitics、r/worldnews）以及Twitter/X讨论中较为普遍。用户经常将其与南海仲裁裁决相提并论，将该争端定性为国际法治的试金石。学术和新闻评论强化了这一框架。"
+      },
+      "keywords": ["#RuleOfLaw", "#ICJ", "#PreahVihear", "#TerritorialDisputes"],
+      "timeframe": "2013-2016"
+    },
+    {
+      "id": "pvd-voice-5",
+      "country": {
+        "ja": "中国（SNSユーザー）",
+        "en": "China (Social Media Users)",
+        "zh": "中国（社交媒体用户）"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "「カンボジアの主権は尊重されるべきだ。ICJの判決は明確で、国際社会はそれを支持している。これが本当の『法に基づく国際秩序』だ」（中国の南シナ海問題への立場との対比を意識した投稿も見られる）",
+        "en": "\"Cambodia's sovereignty must be respected. The ICJ ruling is clear and the international community supports it. This is what a real 'rules-based international order' looks like.\" (Some posts implicitly contrast this with perceived Western double standards on South China Sea.)",
+        "zh": "\"应该尊重柬埔寨的主权。国际法院的裁决是明确的，国际社会支持它。这才是真正的'基于规则的国际秩序'。\"（部分帖子隐含地与西方在南海问题上的双重标准形成对比。）"
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "中国のWeibo・WeChatでプレアビヒア紛争が独立したトピックとして大きく盛り上がることは少ないが、ASEAN関連ニュースや国際法議論のスレッドでカンボジア支持の声が散見される。中国政府の外交的立場（カンボジア支持）を反映した投稿が目立つ。南シナ海仲裁への反論としてプレアビヒアを引用する文脈も見られる。",
+        "en": "Preah Vihear is not a high-salience topic on Chinese social media platforms (Weibo, WeChat) as a standalone subject. Cambodian-supportive voices appear in threads about ASEAN affairs and international law. Some users invoke Preah Vihear as a counterpoint to perceived Western double standards—where the West endorses ICJ rulings it likes (Preah Vihear) while allegedly ignoring those it dislikes.",
+        "zh": "普威夏并不是中国社交媒体平台（微博、微信）上的高热度独立话题。支持柬埔寨的声音出现在关于东盟事务和国际法的话题中。一些用户将普威夏作为反驳西方双重标准的论据——西方支持它喜欢的国际法院裁决（普威夏），却忽视它不喜欢的裁决。"
+      },
+      "keywords": ["#柬埔寨主权", "#国际法院", "#普威夏"],
+      "timeframe": "2013-2016"
+    }
+  ]
+}

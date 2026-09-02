@@ -1,0 +1,125 @@
+{
+  "eventId": "sino-indian-border",
+  "notes": [
+    {
+      "id": "sib-macmahon-line",
+      "claim": "マクマホン・ラインは1914年のシムラ会議で合法的に設定された国際的に認められた境界線である",
+      "context": "マクマホン・ラインは1914年、英領インド代表ヘンリー・マクマホンとチベット代表の間で締結された秘密協定に基づき設定された境界線で、現在のアルナーチャル・プラデーシュ州北部を画する。インドはこの線を合法的な国際境界線と主張するが、中国はシムラ会議への参加・批准を拒否しており、チベットが独立した条約締結能力を持たなかったため協定は無効と主張している。国際法学者の見解は割れており、当時のチベットの法的地位（自治地域か独立国か）が解釈の鍵となっている。インドは独立後もこの線を実効境界として維持し、1954年に正式に採用した。",
+      "verdict": "法的に争いがある。インド・中国双方に一定の根拠があり、決定的な国際法上の解決は存在しない。",
+      "sources": [
+        {
+          "title": "The McMahon Line: A Study in the Relations between India, China and Tibet",
+          "url": "https://www.jstor.org/stable/2752016",
+          "publisher": "アジア研究（学術誌）",
+          "type": "academic"
+        },
+        {
+          "title": "India-China Border Dispute: A Background",
+          "url": "https://www.mea.gov.in/bilateral-documents.htm",
+          "publisher": "インド外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-1962-war-cause",
+      "claim": "1962年の中印戦争はインドの「前進政策」が引き起こした",
+      "context": "1962年の中印戦争の原因については、歴史家の間で論争が続いている。中国の公式見解は、インドのネルー政権が採用した「前進政策」（国境地帯への哨戒拠点の積極的設置）が挑発となり中国の自衛的反撃を招いたとする。インドの立場は、中国がアクサイチンに秘密裏に道路を建設し既成事実化したことへの対応であったとする。独立した歴史家（ネービル・マクスウェル、スリナス・ゴパール等）の研究は双方に原因を見出し、外交的失敗と誤算が複合した結果との評価が多い。インド国内では長年、1962年の敗北の原因分析を求める声が強く、2021年に部分的に非機密化されたヘンダーソン・ブルックス報告書がその解明に貢献している。",
+      "verdict": "両国の責任が複合的に絡んでいる。中国の前進的インフラ整備とインドの前進政策が相互に作用した結果とする見方が国際的には有力。",
+      "sources": [
+        {
+          "title": "India's China War",
+          "url": "https://www.penguinrandomhouse.com/books/",
+          "publisher": "ネビル・マクスウェル著（1970年）",
+          "type": "academic"
+        },
+        {
+          "title": "Henderson Brooks Report (partially declassified)",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "インド国防省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-galwan-casualties",
+      "claim": "2020年6月のガルワン渓谷衝突でインド軍20名が死亡した",
+      "context": "2020年6月15〜16日の衝突でインドは20名の死亡を公式発表した。中国は当初死者数を公表せず、2021年2月になって4名の死亡を認め、同年4月に英雄として追悼した。複数の情報源（ロシアメディア、一部の米情報機関リークとされる報道）は中国側の死者が35〜45名に達した可能性を示唆しているが、独立した検証はなされていない。この衝突は銃火器ではなく石・鉄棒・素手による白兵戦であり、1975年を最後に途絶えていた国境での死者が約45年ぶりに出た事案として記録される。両国政府間の情報統制により実態の完全な解明は困難な状況が続いている。",
+      "verdict": "インド側20名死亡は確認済み。中国側の実際の損害は不明で独立した検証不可能だが、複数の傍証から公表数（4名）より多い可能性がある。",
+      "sources": [
+        {
+          "title": "Galwan Valley Clashes: India confirms 20 soldiers killed",
+          "url": "https://www.bbc.com/news/world-asia-india-53061476",
+          "publisher": "BBC",
+          "type": "international"
+        },
+        {
+          "title": "China honors soldiers killed in Galwan clash with India",
+          "url": "https://www.reuters.com/world/china/china-honors-soldiers-killed-galwan-clash-with-india-2021-02-19/",
+          "publisher": "ロイター通信",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sib-lac-definition",
+      "claim": "実際の支配線（LAC）は両国が合意した明確な境界線である",
+      "context": "LAC（Line of Actual Control）は1962年の戦争停戦後に生じた事実上の境界線であり、法的に確定した国境線ではない。1993年と1996年の二国間協定でLACが言及されているものの、両国はLACの正確な位置について異なる地図・解釈を持ち、相互に開示・合意したことはない。推定では、両国のLAC認識のずれは多くの場所で数キロメートルに及び、合計で約800〜3,488平方キロメートルの「係争地帯」を形成している（研究者によって推計は異なる）。LACは三つのセクター（西部・中部・東部）に区分され、特に西部のデプサン平原・ガルワン渓谷、東部のアルナーチャル周辺でのずれが大きい。",
+      "verdict": "LACは合意された境界線ではなく、あくまで管理上の暫定的概念。両国の認識ギャップが継続的な摩擦の構造的原因となっている。",
+      "sources": [
+        {
+          "title": "The Line of Actual Control: China's Claim vs. India's Claim",
+          "url": "https://www.cfr.org/backgrounder/china-india-border-dispute",
+          "publisher": "外交問題評議会（CFR）",
+          "type": "international"
+        },
+        {
+          "title": "India-China Border Areas",
+          "url": "https://www.mea.gov.in/bilateral-documents.htm",
+          "publisher": "インド外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-aksai-chin",
+      "claim": "アクサイチンは歴史的にインドの一部であり、中国による不法占拠地である",
+      "context": "アクサイチンはインドが「ジャンムー・カシミール州（現連邦直轄地域）」の一部と主張する約37,244平方キロメートルの高原地帯で、中国が1950年代から実効支配している。インドの主張は19世紀末の英国側探検家ジョンソンが提案した「ジョンソン・ライン」に依拠するが、当時中国（清朝）はこの境界を承認しなかった。中国側は1899年の英中間の外交文書（マッカートニー=マクドナルドライン）を根拠とし、アクサイチンは歴史的に清朝・中華民国・中華人民共和国が管轄してきたと主張する。現在、新疆とチベットを結ぶG219国道がアクサイチンを通過しており、この道路は中国にとって戦略的に死活的な意義を持つ。",
+      "verdict": "双方の歴史的主張に根拠があり、現在は中国が実効支配。国際社会はいずれかの主権を明示的に認定していない。",
+      "sources": [
+        {
+          "title": "Aksai Chin: The disputed region between India and China",
+          "url": "https://www.bbc.com/news/world-asia-india-52062455",
+          "publisher": "BBC",
+          "type": "international"
+        },
+        {
+          "title": "India-China Boundary Question",
+          "url": "https://www.mfa.gov.cn/",
+          "publisher": "中国外交部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-arunachal-renaming",
+      "claim": "中国によるアルナーチャル・プラデーシュ州の地名変更は国際的に認められた行為である",
+      "context": "中国は2017年以降、アルナーチャル・プラデーシュ州内の地名を中国語（チベット語）に「標準化」するリストを繰り返し発表している（2017年に6地名、2021年に15地名、その後も追加）。中国民政部は2017年にこの措置の法的根拠として「地名管理条例」を施行した。インドはこれを「でたらめな地名変更」として全面拒否し、「歴史的現実を変えることはできない」と反論している。国際社会においても、一方的な地名変更が国際法上の権利を生み出すという概念は支持されておらず、ICJや国連の関連機関もこの種の行為を領土主権の確立手段として認定していない。ただし地名変更が既成事実化の心理的・外交的戦術として機能し得ることは国際法学者が指摘している。",
+      "verdict": "地名変更は主権的効力を持たない一方的な行為。インドの実効支配・行政統治は継続しており、国際的には領土変更の根拠と認められない。",
+      "sources": [
+        {
+          "title": "China renames places in Arunachal Pradesh",
+          "url": "https://www.reuters.com/world/asia-pacific/china-assigns-names-15-places-india-arunachal-2021-12-30/",
+          "publisher": "ロイター通信",
+          "type": "international"
+        },
+        {
+          "title": "India rejects China's renaming of places in Arunachal Pradesh",
+          "url": "https://www.mea.gov.in/media-briefings.htm",
+          "publisher": "インド外務省",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

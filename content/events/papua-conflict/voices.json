@@ -1,0 +1,120 @@
+{
+  "eventId": "papua-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "pc-voice-1",
+      "country": {
+        "ja": "西パプア（先住民族・独立支持派）",
+        "en": "West Papua (Indigenous/Pro-Independence)",
+        "zh": "西巴布亚（原住民/独立派）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「ペペラは茶番だった。1,025人がどうして80万人を代表できるのか。私たちは今も占領下にある。モーニング・スター旗を掲げるだけで逮捕される。これは独立ではない、支配だ。」",
+        "en": "'The Act of Free Choice was a sham. How could 1,025 handpicked people represent 800,000 of us? We are still living under occupation. You get arrested just for raising the Morning Star flag. This isn't autonomy — it's control.'",
+        "zh": "\"'自由选择法'是一场骗局。1025个人怎么能代表80万人？我们仍然生活在占领之下。仅仅举起晨星旗就会被逮捕。这不是自治，这是控制。\""
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "西パプアのSNS（主にツイッター／X、Facebook、Instagramのダイアスポラ・コミュニティ）では、国際的な支持を求める声が多く、英語での発信が目立つ。国内では検閲リスクがあるため、パプア系ダイアスポラ（オーストラリア、PNG、英国在住）が主要な発信者となっている。",
+        "en": "Pro-independence Papuan voices are most visible via diaspora communities on Twitter/X, Facebook, and Instagram, primarily in English targeting international audiences. Domestic expression is suppressed by security restrictions, making the Papua diaspora in Australia, PNG, and the UK the primary amplifiers.",
+        "zh": "独立派巴布亚人的声音主要通过海外侨民社区在Twitter/X、Facebook和Instagram上传播，主要以英语面向国际受众。由于国内安全限制压制了国内言论，澳大利亚、巴布亚新几内亚和英国的巴布亚侨民成为主要的发声者。"
+      },
+      "keywords": ["#FreePapua", "#WestPapua", "#MorningStar", "#ActOfNoChoice", "#PapuaMerdeka"],
+      "timeframe": "2013-2024"
+    },
+    {
+      "id": "pc-voice-2",
+      "country": {
+        "ja": "インドネシア（政府支持・国家統一派）",
+        "en": "Indonesia (Pro-Government / National Unity)",
+        "zh": "印度尼西亚（政府支持/国家统一派）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「パプアはインドネシアの一部だ。政府は何十億ルピアも投資してきた。道路、病院、学校を建てた。分離主義者たちは外国の支援を受けた不満分子だ。TNIはインドネシア国民全員を守っている。」",
+        "en": "'Papua is part of Indonesia. The government has invested billions in infrastructure — roads, hospitals, schools. The separatists are foreign-backed troublemakers. The TNI protects all Indonesian citizens, including Papuans.'",
+        "zh": "\"巴布亚是印度尼西亚的一部分。政府已经投入了数十亿卢比——道路、医院、学校。分裂分子是受外国支持的麻烦制造者。印尼国民军保护包括巴布亚人在内的所有印度尼西亚公民。\""
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "インドネシアの主要SNS（Twitter/X、Instagram、TikTok）では、パプア問題に関してナショナリスト的な言説が優勢であり、国家統一・開発成果を強調する傾向がある。政府のプロパガンダと民間のナショナリズムが混在しており、軍や警察のパプア派遣への支持表明も多い。",
+        "en": "On Indonesian social media (Twitter/X, Instagram, TikTok), nationalist narratives dominate discussions of Papua, emphasizing national unity and development achievements. Government messaging and organic nationalism are intertwined, with frequent expressions of support for TNI and police operations in Papua.",
+        "zh": "在印度尼西亚社交媒体（Twitter/X、Instagram、TikTok）上，关于巴布亚问题的民族主义叙事占主导地位，强调国家统一和发展成就。政府信息传播与有机民族主义交织在一起，经常有人表达对印尼国民军和警察在巴布亚行动的支持。"
+      },
+      "keywords": ["#NKRI", "#PapuaIndonesia", "#TNI", "#PapuaBangkit", "#MerahPutih"],
+      "timeframe": "2014-2024"
+    },
+    {
+      "id": "pc-voice-3",
+      "country": {
+        "ja": "太平洋島嶼国（バヌアツ・ソロモン諸島等）",
+        "en": "Pacific Island Nations (Vanuatu, Solomon Islands, etc.)",
+        "zh": "太平洋岛国（瓦努阿图、所罗门群岛等）"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "「西パプアの人々は私たちのメラネシアの兄弟姉妹だ。彼らは自決権を持っている。国連はペペラを真の自由選択として認めていない。私たちは国連でこの声を上げ続ける。」",
+        "en": "'The people of West Papua are our Melanesian brothers and sisters. They have the right to self-determination. The UN never truly validated the Pepera as a free choice. We will continue to raise this at the United Nations.'",
+        "zh": "\"西巴布亚人民是我们的美拉尼西亚兄弟姐妹。他们有自决权。联合国从未真正将'自由选择法'验证为自由选择。我们将继续在联合国提出这个问题。\""
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "バヌアツ、ソロモン諸島、ナウルなど太平洋島嶼国の政府・一般市民の間では、パプアへのメラネシア連帯意識が強い。SNS上では英語での連帯表明が多く、MSG関連の政治的動向への関心が高い。インドネシアとの経済関係を重視する国では官民ともに慎重な立場をとることもある。",
+        "en": "Melanesian solidarity with West Papua is deeply felt among both governments and citizens of Vanuatu, Solomon Islands, Nauru, and other Pacific Island nations. Social media discourse in these countries expresses strong pro-Papuan sympathy in English, with close attention to MSG political developments. Countries with significant economic ties to Indonesia (e.g., Fiji, PNG) tend toward more cautious public positioning.",
+        "zh": "瓦努阿图、所罗门群岛、瑙鲁等太平洋岛国的政府和公民之间，对西巴布亚的美拉尼西亚团结感情深厚。这些国家社交媒体上的英语讨论表达了对巴布亚的强烈同情，并密切关注美拉尼西亚先锋集团的政治动向。与印度尼西亚有重大经济联系的国家（如斐济、巴布亚新几内亚）倾向于更谨慎的公开立场。"
+      },
+      "keywords": ["#MelanesianSolidarity", "#FreePapua", "#MSG", "#SelfDetermination", "#Pacific"],
+      "timeframe": "2015-2024"
+    },
+    {
+      "id": "pc-voice-4",
+      "country": {
+        "ja": "欧米メディア・人権活動家",
+        "en": "Western Media & Human Rights Advocates",
+        "zh": "西方媒体与人权活动人士"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「インドネシアはジャーナリストのパプアへのアクセスを禁止し続けている。人権団体の報告する拷問・失踪・超法規的殺害は看過できない。国際社会はインドネシアへの圧力を強めるべきだ。」",
+        "en": "'Indonesia continues to ban journalists from Papua. Reports from human rights organizations of torture, disappearances, and extrajudicial killings cannot be ignored. The international community needs to increase pressure on Indonesia and allow independent monitoring.'",
+        "zh": "\"印度尼西亚继续禁止记者进入巴布亚。人权组织关于酷刑、失踪和法外杀戮的报告不容忽视。国际社会需要向印度尼西亚施加更大压力，并允许独立监督。\""
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "英語圏のメディア（ガーディアン、BBCニュース、ニューヨーク・タイムズ）やTwitter/X上の人権活動家コミュニティでは、パプアの報道規制・人権状況への批判が定期的に浮上する。しかしパプア問題への関心は断続的で、大規模な武力衝突や特定の事件があった際に急増し、その後下火になるパターンを繰り返している。",
+        "en": "English-language media (The Guardian, BBC News, NYT) and human rights communities on Twitter/X periodically spotlight Papua's press restrictions and human rights situation. However, international attention follows a cyclical pattern: it spikes following documented incidents or military clashes, then recedes. West Papua consistently ranks lower than other human rights emergencies in Western public attention.",
+        "zh": "英语媒体（《卫报》、BBC新闻、《纽约时报》）和Twitter/X上的人权社区定期关注巴布亚的新闻限制和人权状况。然而，国际关注遵循周期性模式：在有记录的事件或军事冲突后急剧上升，然后退潮。在西方公众关注中，西巴布亚始终低于其他人权紧急情况。"
+      },
+      "keywords": ["#WestPapua", "#HumanRights", "#PressFreedorn", "#Indonesia", "#UN"],
+      "timeframe": "2010-2024"
+    },
+    {
+      "id": "pc-voice-5",
+      "country": {
+        "ja": "中国（官製メディア・ネット世論）",
+        "en": "China (State Media & Online Opinion)",
+        "zh": "中国（官方媒体与网络舆论）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "「パプア問題はインドネシアの内政問題だ。西側諸国が人権を口実に主権国家に干渉することは二重基準だ。インドネシアの発展と安定を支持する。」",
+        "en": "'The Papua issue is Indonesia's internal affair. Western countries using human rights as a pretext to interfere in a sovereign state is a double standard. We support Indonesia's development and stability.'",
+        "zh": "\"巴布亚问题是印度尼西亚的内政。西方国家以人权为借口干涉主权国家是双重标准。我们支持印度尼西亚的发展和稳定。\""
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "中国の国営メディア（新華社・環球時報・人民日報）はパプア問題をほとんど報道せず、報道する場合はインドネシアの主権と西側の干渉への批判という文脈に限定される。微博（Weibo）・微信（WeChat）などの中国SNS上でパプアへの一般市民の関心は極めて低く、話題になることは稀である。",
+        "en": "Chinese state media (Xinhua, Global Times, People's Daily) rarely covers West Papua; when it does, coverage frames the issue as Indonesian sovereignty versus Western interference. Organic interest in Papua on Chinese social media platforms (Weibo, WeChat) is extremely low — the conflict is barely registered in Chinese public discourse.",
+        "zh": "中国官方媒体（新华社、环球时报、人民日报）很少报道西巴布亚；即便报道，也将其定性为印度尼西亚主权对抗西方干涉。巴布亚问题在中国社交媒体平台（微博、微信）上的自发关注度极低——该冲突几乎未在中国公众话语中留下痕迹。"
+      },
+      "keywords": ["#内政不干渉", "#インドネシア支持", "#一帯一路", "#主権尊重"],
+      "timeframe": "2015-2024"
+    }
+  ]
+}

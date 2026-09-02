@@ -1,0 +1,37 @@
+{
+  "eventId": "sino-indian-border",
+  "photos": [
+    {
+      "id": "china-india-cia-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sino-indian-border/china-india-cia-map.jpg",
+      "caption": {
+        "ja": "中国・インド・パキスタン国境紛争地域を示すCIA作成地図（1965年頃）。アクサイチン（中国実効支配・インド領有権主張）、カシミール地方（実効支配線）、マクマホン・ラインによって画定されたアルナーチャル・プラデーシュ州（インド実効支配・中国が「蔵南地区」として領有権主張）の各係争地域が示されている。",
+        "en": "CIA map showing disputed border areas between China, India, and Pakistan (c. 1965). The map indicates key contested zones: Aksai Chin (Chinese de facto control, Indian claim), the Kashmir region along the Line of Control, and Arunachal Pradesh (Indian de facto control, claimed by China as 'South Tibet / Zangnan').",
+        "zh": "美国中央情报局绘制的中印巴边境争议地区地图（约1965年）。图中标注了主要争议区域：阿克赛钦（中国实际控制，印度主张主权）、沿实际控制线的克什米尔地区，以及阿鲁纳恰尔邦（印度实际控制，中国主张为\"藏南地区\"）。",
+        "ko": "중국·인도·파키스탄 국경 분쟁 지역을 나타낸 CIA 작성 지도(1965년경). 악사이 친(중국 실효 지배·인도 영유권 주장), 실질 통제선(LoC) 일대 카슈미르 지역, 아루나찰프라데시주(인도 실효 지배·중국이 '장난 지구'로 주장) 등 주요 분쟁 지역이 표시되어 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — China India CIA map border disputes.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:China_India_CIA_map_border_disputes.jpg",
+        "license": "Public Domain",
+        "author": "United States Central Intelligence Agency"
+      }
+    },
+    {
+      "id": "mcmahon-line-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sino-indian-border/mcmahon-line-map.jpg",
+      "caption": {
+        "ja": "タワン地区周辺のマクマホン・ライン地図（英国政府作成、パブリックドメイン）。1914年のシムラ会議でイギリス領インドとチベット代表が合意した境界線で、中国はこれを承認していない。同ラインはインドが実効支配するアルナーチャル・プラデーシュ州と中国チベット自治区の間の事実上の境界として機能している。",
+        "en": "Map of the McMahon Line in the Tawang sector (British Government, Public Domain). Agreed at the 1914 Simla Convention between British India and Tibetan representatives, the line was never recognized by China. It functions as the de facto boundary between India-administered Arunachal Pradesh and China's Tibet Autonomous Region.",
+        "zh": "塔旺地区麦克马洪线地图（英国政府绘制，公共领域）。该线于1914年西姆拉会议上由英属印度与西藏代表达成协议，但从未得到中国承认。目前作为印度实际控制的阿鲁纳恰尔邦与中国西藏自治区之间的事实边界。",
+        "ko": "타왕 지구 부근 맥마흔선 지도(영국 정부 작성, 퍼블릭 도메인). 1914년 심라 회의에서 영국령 인도와 티베트 대표가 합의한 경계선으로, 중국은 이를 인정하지 않는다. 현재 인도가 실효 지배하는 아루나찰프라데시주와 중국 티베트 자치구 사이의 사실상의 경계로 기능하고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — McMahon-Line-map-Tawang-sector.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:McMahon-Line-map-Tawang-sector.jpg",
+        "license": "Public Domain",
+        "author": "Government of United Kingdom"
+      }
+    }
+  ]
+}

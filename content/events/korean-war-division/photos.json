@@ -1,0 +1,37 @@
+{
+  "eventId": "korean-war-division",
+  "photos": [
+    {
+      "id": "korean-armistice-1953",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/korean-war-division/korean-armistice-1953.jpg",
+      "caption": {
+        "ja": "1953年7月27日、板門店において調印された朝鮮戦争休戦協定。国連軍側代表ウィリアム・K・ハリスン・ジュニア将軍と朝鮮人民軍・中国人民志願軍側代表南日大将が署名した。この協定は正式な平和条約ではなく、法的には戦争状態が続いている。",
+        "en": "The Korean Armistice Agreement signed at Panmunjom on July 27, 1953. UN Command representative General William K. Harrison Jr. and KPA/CPV representative General Nam Il signed the document. This armistice is not a formal peace treaty — the two Koreas remain technically at war.",
+        "zh": "1953年7月27日在板门店签署的朝鲜停战协定。联合国军方代表威廉·K·哈里森将军与朝鲜人民军/中国人民志愿军代表南日上将签署了该协定。停战协定并非正式和平条约——两国在法律层面仍处于交战状态。",
+        "ko": "1953년 7월 27일 판문점에서 조인된 한국전쟁 휴전협정. 유엔군 측 대표 윌리엄 K. 해리슨 주니어 장군과 인민군·중국인민지원군 측 대표 남일 대장이 서명했다. 이 협정은 정식 평화조약이 아니며, 법적으로는 전쟁 상태가 지속되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — Korean Armistice 1953.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Korean_Armistice_1953.jpg",
+        "license": "Public Domain (PD-USGov)",
+        "author": "United States Department of Defense"
+      }
+    },
+    {
+      "id": "korea-armistice-delegation",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/korean-war-division/korea-armistice-delegation.jpg",
+      "caption": {
+        "ja": "休戦交渉における国連軍代表団の写真（1951〜1953年頃、板門店）。朝鮮戦争の休戦交渉は1951年7月10日に開始され、2年以上にわたる交渉の末、1953年7月27日に休戦協定が調印された。捕虜の扱いをめぐる対立が交渉を長期化させた最大の要因の一つであった。",
+        "en": "Photograph of the UN Command delegation during armistice negotiations (c. 1951–1953, Panmunjom). Negotiations began on July 10, 1951 and lasted over two years before the armistice was signed on July 27, 1953. The treatment of prisoners of war was one of the most contentious issues prolonging the talks.",
+        "zh": "联合国军停战谈判代表团照片（约1951—1953年，板门店）。谈判于1951年7月10日开始，历经两年多的艰难磋商，最终于1953年7月27日签署停战协定。战俘处置问题是导致谈判旷日持久的最主要争议之一。",
+        "ko": "한국전쟁 휴전 협상 중 유엔군 대표단 사진(1951~1953년경, 판문점). 협상은 1951년 7월 10일에 시작되어 2년여의 교섭 끝에 1953년 7월 27일 휴전협정이 조인되었다. 포로 처우 문제가 협상을 장기화시킨 최대 쟁점 중 하나였다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — Korea delegation.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Korea_delegation.jpg",
+        "license": "Public Domain (PD-USGov)",
+        "author": "United States Department of Defense"
+      }
+    }
+  ]
+}

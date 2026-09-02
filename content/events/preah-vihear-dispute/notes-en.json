@@ -1,0 +1,105 @@
+{
+  "eventId": "preah-vihear-dispute",
+  "notes": [
+    {
+      "id": "pvd-icj-1962",
+      "claim": "The 1962 ICJ judgment definitively awarded sovereignty over Preah Vihear to Cambodia and ordered Thailand to withdraw.",
+      "context": "On 15 June 1962, the International Court of Justice ruled 9–3 that the Temple of Preah Vihear is situated in territory under the sovereignty of Cambodia, and that Thailand was under an obligation to withdraw all armed forces stationed there and to restore any objects removed from the temple and its precincts. The judgment rested on two key findings: (1) the Annex I map prepared by French cartographers in 1907 following the Franco-Siamese Treaty of 1904 placed the temple on the Cambodian side of the border, even though it deviated from the watershed line stipulated in the treaty text; and (2) Thailand (then Siam) had accepted this map through decades of conduct—receiving it officially, relying on it in correspondence, and permitting French and later Cambodian authorities to treat the temple as theirs. The Court applied the doctrines of acquiescence and estoppel by conduct to hold that Thailand could not, after half a century, repudiate the cartographic line it had implicitly endorsed. The judgment was deeply controversial in Thailand, where it was perceived as a national humiliation; Thailand complied by withdrawing in 1963 but reserved its legal position.",
+      "verdict": "The 1962 ICJ judgment is a binding international legal determination under the ICJ Statute. Thailand's watershed argument had factual grounding given the cartographic error, but the Court's application of acquiescence and estoppel is well-established in international boundary law. The scope of the judgment—whether it applied to the temple structures alone or to the surrounding promontory—remained ambiguous until the 2013 interpretation ruling.",
+      "sources": [
+        {
+          "title": "Case concerning the Temple of Preah Vihear (Cambodia v. Thailand), Merits, Judgment of 15 June 1962",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "The Temple of Preah Vihear Case Revisited",
+          "url": "https://doi.org/10.1017/S0922156514000417",
+          "publisher": "Asian Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-map-dispute",
+      "claim": "The French colonial maps that formed the basis of the ICJ ruling did not accurately follow the watershed line specified in the 1904 treaty.",
+      "context": "The 1904 Franco-Siamese Treaty designated the watershed of the Dangrek range as the boundary criterion. When French engineers prepared the Annex I map in 1907, surveying limitations of the era resulted in the boundary being drawn in a manner that diverged from the actual watershed in the vicinity of Preah Vihear, placing the temple on the Cambodian (then French Indochinese) side. Thailand has consistently maintained that the treaty's text—specifying the watershed—must take precedence over an inaccurate map. The ICJ disagreed in 1962, emphasising that Siam had officially received the maps, communicated on the basis of them, and never protested the deviation before the dispute arose. This cartographic controversy remains politically potent in Thailand, where nationalist sentiment holds that the temple and surrounding area historically and geographically belong to Thailand.",
+      "verdict": "The factual inaccuracy of the Annex I map vis-à-vis the watershed line is undisputed by cartographic experts. However, the ICJ's application of acquiescence—treating Thailand's conduct as superseding the treaty's literal terms—reflects mainstream international boundary law. The ruling's precedential value for the principle that state conduct can modify treaty text has been widely cited in subsequent boundary cases.",
+      "sources": [
+        {
+          "title": "Maps and the Preah Vihear Case: Lessons for Territorial Disputes",
+          "url": "https://doi.org/10.1093/chinesejil/jmr059",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "ICJ 1962 Judgment - Separate Opinion of Judge Alfaro",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pvd-unesco-2008",
+      "claim": "UNESCO's 2008 World Heritage inscription was based on Cambodia's unilateral nomination, submitted without Thai consent.",
+      "context": "Cambodia submitted its nomination of Preah Vihear to UNESCO in 2007. Earlier discussions about a joint nomination with Thailand broke down over the boundary dispute. The 32nd World Heritage Committee session in Quebec City (July 2008) approved the inscription. Thailand argued that the management zone accompanying the nomination implicitly recognised Cambodian sovereignty over contested land and prejudged the unresolved boundary dispute. The political fallout in Thailand was severe: Thai Foreign Minister Noppadon Pattama, who had endorsed the joint nomination approach, was forced to resign after nationalist opposition accused him of compromising Thai sovereignty. The episode accelerated the militarization of the border and contributed to the broader political crisis that ultimately brought down the Samak Sundaravej government. UNESCO maintained that the inscription related solely to the outstanding universal cultural value of the temple structures and was not intended as a sovereignty determination.",
+      "verdict": "The legal act of inscription covered the temple structures and their immediate setting, not the contested boundary zone as such. UNESCO's rules do not permit heritage designation to alter sovereignty claims. However, the political consequences in Thailand—where the inscription was read as a de facto acknowledgment of Cambodian jurisdiction—were real and consequential. The dispute illustrates the difficulty of separating cultural heritage governance from territorial politics.",
+      "sources": [
+        {
+          "title": "UNESCO World Heritage Committee Decision 32COM 8B.102",
+          "url": "https://whc.unesco.org/en/decisions/1492",
+          "publisher": "UNESCO World Heritage Committee",
+          "type": "international"
+        },
+        {
+          "title": "Thailand-Cambodia Border Conflict and the 2008 Political Crisis",
+          "url": "https://doi.org/10.1017/S0022463413000143",
+          "publisher": "Journal of Southeast Asian Studies",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-icj-2013",
+      "claim": "The 2013 ICJ interpretation ruling unanimously ordered Thailand to withdraw from the promontory, expanding the understood scope of the 1962 judgment.",
+      "context": "Following renewed military clashes in 2011, Cambodia filed a Request for Interpretation of the 1962 Judgment with the ICJ, asking the Court to clarify whether the judgment's operative clause had determined that the whole promontory of Preah Vihear lies within Cambodian territory. Thailand had consistently argued that the 1962 judgment covered only the temple buildings themselves, not the surrounding land. On 11 November 2013, the Court ruled unanimously (15–0) that the 1962 operative clause had indeed determined that the whole of the promontory falls under Cambodian sovereignty, and that Thailand consequently had an obligation to withdraw all personnel it had stationed in that zone. The Court notably declined to fix the precise limits of the promontory or delimit the full 4.6 km² disputed area, holding that boundary delimitation exceeded the scope of the interpretation request and must be addressed through bilateral negotiation or new proceedings.",
+      "verdict": "The 2013 ruling definitively rejected Thailand's narrow interpretation of the 1962 judgment. The unanimous vote lends the ruling exceptional authority. The practical consequence—Thai withdrawal from the promontory—was achieved; however, the precise delimitation of the boundary in the 4.6 km² area remains unresolved and is subject to ongoing bilateral negotiation. The case is a significant precedent for ICJ interpretation proceedings under Article 60 of the ICJ Statute.",
+      "sources": [
+        {
+          "title": "Request for Interpretation of the Judgment of 15 June 1962 (Cambodia v. Thailand), Judgment of 11 November 2013",
+          "url": "https://www.icj-cij.org/case/151",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "The 2013 ICJ Preah Vihear Interpretation Judgment",
+          "url": "https://doi.org/10.1093/chinesejil/jmu006",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-civilian-casualties",
+      "claim": "Armed clashes between 2008 and 2011 caused military and civilian casualties on both sides and displaced up to 80,000 Cambodian civilians.",
+      "context": "Intermittent armed clashes between Thai and Cambodian forces occurred from 2008, with the most intense fighting in February–May 2011. Both governments reported casualties but their figures differ. Human Rights Watch documented Thai use of cluster munitions in populated areas in 2011—weapons prohibited under the Convention on Cluster Munitions (which Thailand has not ratified). The ICRC expressed concern about compliance with international humanitarian law during the hostilities. Cambodia's government reported up to 80,000 internally displaced persons at the peak of the 2011 clashes. Land-mine and unexploded ordnance contamination from the conflict continues to affect agricultural livelihoods and freedom of movement for border communities. No international accountability mechanism has been established for casualties or civilian harm caused during the hostilities.",
+      "verdict": "The occurrence of armed hostilities, casualties, and large-scale civilian displacement is confirmed by multiple independent sources. Precise casualty figures are contested between the parties. The use of cluster munitions by Thai forces, if confirmed, would represent a violation of international humanitarian law norms even in the absence of treaty obligation for Thailand. The absence of accountability mechanisms represents a significant gap in post-conflict justice.",
+      "sources": [
+        {
+          "title": "Human Rights Watch Report: Thailand/Cambodia Border Conflict - Stop Use of Cluster Munitions",
+          "url": "https://www.hrw.org/news/2011/04/28/thailand-stop-use-cluster-munitions",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        },
+        {
+          "title": "ICRC Statement on Armed Clashes at Preah Vihear (February 2011)",
+          "url": "https://www.icrc.org/en/doc/resources/documents/news-release/2011/thailand-cambodia-news-2011-02-07.htm",
+          "publisher": "International Committee of the Red Cross",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

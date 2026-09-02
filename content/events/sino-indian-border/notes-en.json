@@ -1,0 +1,125 @@
+{
+  "eventId": "sino-indian-border",
+  "notes": [
+    {
+      "id": "sib-macmahon-line",
+      "claim": "The McMahon Line is a legally established, internationally recognized boundary set at the 1914 Simla Convention.",
+      "context": "The McMahon Line was drawn through a secret exchange of notes between British Indian representative Sir Henry McMahon and a Tibetan delegate at the 1914 Simla Convention, delineating the northern boundary of what is now Arunachal Pradesh. India regards it as a legitimate international boundary, citing the signatures on the convention. China rejects its validity on two grounds: China was not a party to the convention and declined to ratify it; and Tibet, as a non-sovereign entity under Chinese suzerainty, lacked the legal authority to conclude binding boundary agreements. International legal scholars remain divided, with the crux of the dispute hinging on the legal status of Tibet in 1914. India formally adopted the line as its boundary in 1954.",
+      "verdict": "Legally contested. Both India and China have credible, if not conclusive, legal arguments. No definitive international legal resolution exists.",
+      "sources": [
+        {
+          "title": "The McMahon Line: A Study in the Relations between India, China and Tibet",
+          "url": "https://www.jstor.org/stable/2752016",
+          "publisher": "Journal of Asian Studies",
+          "type": "academic"
+        },
+        {
+          "title": "India-China Border Dispute: A Background",
+          "url": "https://www.mea.gov.in/bilateral-documents.htm",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-1962-war-cause",
+      "claim": "The 1962 Sino-Indian War was caused by India's 'Forward Policy' of establishing military outposts in disputed territory.",
+      "context": "The causes of the 1962 war remain historically contested. China's official narrative holds that India's 'Forward Policy' under PM Nehru—which involved establishing forward military posts in disputed zones—was the proximate cause, necessitating a Chinese defensive counteroffensive. India's position is that the war was triggered by China's covert construction of the Aksai Chin highway and its refusal to negotiate boundaries in good faith. Independent historians, including Neville Maxwell and Srinath Raghavan, find fault on both sides, characterizing the war as the product of compounded diplomatic miscalculations. In India, the Henderson Brooks Report—a classified military assessment partially leaked in 2014—has fueled ongoing debate about operational and political failures leading to the defeat.",
+      "verdict": "Causation is shared and complex. Most independent historians view the war as stemming from mutual provocation, diplomatic failure, and strategic miscalculation rather than unilateral aggression by either party.",
+      "sources": [
+        {
+          "title": "India's China War",
+          "url": "https://archive.org/details/indiachinawar0000maxw",
+          "publisher": "Neville Maxwell (1970)",
+          "type": "academic"
+        },
+        {
+          "title": "1962: The War That Wasn't",
+          "url": "https://aleph.net.in/",
+          "publisher": "Srinath Raghavan (2010)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sib-galwan-casualties",
+      "claim": "Twenty Indian soldiers were killed in the June 2020 Galwan Valley clash; China suffered minimal casualties.",
+      "context": "India officially confirmed the deaths of 20 soldiers in the June 15–16, 2020 Galwan Valley confrontation. China initially suppressed its casualty count; in February 2021 it acknowledged four deaths, posthumously honoring those soldiers as national heroes. Multiple independent sources—including Russian state media reports and alleged leaks attributed to U.S. intelligence—suggested Chinese casualties may have been significantly higher, possibly 35–45, though this has not been independently verified. The clash involved no firearms—it was fought with rocks, iron rods, and hand-to-hand combat in compliance with a 1996 border protocol prohibiting the use of firearms near the LAC. It represented the first fatal incident on the Sino-Indian border since 1975.",
+      "verdict": "India's 20 deaths are confirmed. The true scale of Chinese casualties remains unverified; the official Chinese figure of four is disputed by multiple independent sources but cannot be confirmed.",
+      "sources": [
+        {
+          "title": "Galwan Valley Clashes: India confirms 20 soldiers killed",
+          "url": "https://www.bbc.com/news/world-asia-india-53061476",
+          "publisher": "BBC",
+          "type": "international"
+        },
+        {
+          "title": "China honors soldiers killed in Galwan clash with India",
+          "url": "https://www.reuters.com/world/china/china-honors-soldiers-killed-galwan-clash-with-india-2021-02-19/",
+          "publisher": "Reuters",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sib-lac-definition",
+      "claim": "The Line of Actual Control (LAC) is a mutually agreed-upon boundary between India and China.",
+      "context": "The LAC is a de facto ceasefire line that emerged from the 1962 war; it is not a legally defined or mutually demarcated boundary. While the 1993 and 1996 bilateral agreements reference the LAC as a basis for peace and tranquility, the two countries have never exchanged maps showing their respective LAC perceptions, and their interpretations diverge in multiple sectors. The gap between the Indian and Chinese LAC perceptions is estimated to create overlapping claim areas totaling several hundred to several thousand square kilometers, depending on the sector and methodology used. Divergent LAC perceptions are the structural cause of recurring stand-offs in Depsang, Galwan, Pangong Tso, and other areas.",
+      "verdict": "The LAC is not a mutually agreed boundary. It is a provisional management concept with significant perceptual gaps that serve as the structural root cause of recurring border friction.",
+      "sources": [
+        {
+          "title": "The Line of Actual Control: China's Claim vs. India's Claim",
+          "url": "https://www.cfr.org/backgrounder/china-india-border-dispute",
+          "publisher": "Council on Foreign Relations",
+          "type": "international"
+        },
+        {
+          "title": "India-China Boundary",
+          "url": "https://www.mea.gov.in/bilateral-documents.htm",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-aksai-chin",
+      "claim": "Aksai Chin is historically Indian territory illegally occupied by China since the 1950s.",
+      "context": "Aksai Chin is a high-altitude plateau of approximately 37,244 sq km that India claims as part of Ladakh (formerly Jammu & Kashmir) and China administers as part of the Hotan Prefecture, Xinjiang. India's claim rests on the Johnson Line proposed by British surveyor W.H. Johnson in 1865, which was never formally accepted by the Qing dynasty. China's claim draws on the Macartney-MacDonald Line proposed by Britain in 1899, which approximated Chinese Qing-era administrative jurisdiction. China built the strategically vital G219 highway through Aksai Chin in the 1950s, reportedly without India's knowledge, a fact discovered by India in 1958 and which contributed to the diplomatic breakdown leading to the 1962 war. China's control of Aksai Chin is critical for connecting Xinjiang and Tibet.",
+      "verdict": "Both sides have historical arguments. China has maintained effective control since the 1950s. The international community has not formally recognized either party's sovereignty claim.",
+      "sources": [
+        {
+          "title": "Aksai Chin: The disputed region between India and China",
+          "url": "https://www.bbc.com/news/world-asia-india-52062455",
+          "publisher": "BBC",
+          "type": "international"
+        },
+        {
+          "title": "China-India Boundary Question",
+          "url": "https://www.mfa.gov.cn/",
+          "publisher": "Ministry of Foreign Affairs, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sib-arunachal-renaming",
+      "claim": "China's renaming of places in Arunachal Pradesh constitutes an internationally recognized assertion of sovereignty.",
+      "context": "China has issued multiple lists of 'standardized' Chinese (and Tibetan) place names for locations in Arunachal Pradesh, which it calls 'Zangnan': six names in 2017, fifteen in 2021, and further additions subsequently, under the authority of a 2017 regulation of China's Ministry of Civil Affairs. India has categorically rejected all such renamings as 'akin to giving a new name to one's neighbor's house,' reaffirming that Arunachal Pradesh is an integral part of India. International legal consensus does not recognize unilateral renaming as a mechanism for establishing territorial sovereignty—it creates no rights under international law. However, scholars note that such renaming serves as a political signaling and map-making strategy designed to normalize China's territorial claims in diplomatic discourse over time.",
+      "verdict": "The renamings carry no legal force and are rejected by India and the international community. They represent a political strategy of normalizing claims rather than a legally effective assertion of sovereignty.",
+      "sources": [
+        {
+          "title": "China assigns names to 15 places in India's Arunachal Pradesh",
+          "url": "https://www.reuters.com/world/asia-pacific/china-assigns-names-15-places-india-arunachal-2021-12-30/",
+          "publisher": "Reuters",
+          "type": "international"
+        },
+        {
+          "title": "India rejects China's renaming of places in Arunachal Pradesh",
+          "url": "https://www.mea.gov.in/media-briefings.htm",
+          "publisher": "Ministry of External Affairs, India",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "eventId": "sino-indian-border",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "sib-voice-1",
+      "country": {
+        "ja": "インド",
+        "en": "India",
+        "zh": "印度"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「中国は2020年に私たちの土地に侵入し、兵士を殺した。それでも政府は弱腰だ。アクサイチンを取り戻すまで中国製品の不買を続けるべきだ」",
+        "en": "'China invaded our land in 2020 and killed our soldiers. Yet the government is too soft. We should boycott Chinese goods until Aksai Chin is reclaimed.'",
+        "zh": "'中国在2020年入侵我们的土地并杀害了我们的士兵。但政府态度太软弱。在收回阿克赛钦之前，我们应该持续抵制中国商品。'"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "2020年のガルワン衝突後、インドのSNS（Twitter/X、WhatsApp）では中国製品の不買運動が急拡大した。「#BoycottChina」「#BanChineseApps」のハッシュタグが数千万件投稿され、インド政府はTikTokを含む多数の中国製アプリを禁止した。この種の民族主義的感情はヒンドゥー・ナショナリスト的な傾向を持つ層に特に強いが、より広い中産階級にも広がっている。",
+        "en": "After the 2020 Galwan clash, boycott sentiment surged across Indian social media. Hashtags like #BoycottChina and #BanChineseApps generated tens of millions of posts. The Indian government banned hundreds of Chinese apps including TikTok. This nationalist sentiment is strongest among Hindu nationalist-leaning groups but has spread broadly across the urban middle class.",
+        "zh": "2020年加勒万冲突后，抵制情绪在印度社交媒体上迅速蔓延。#BoycottChina等标签获得数千万次帖子，印度政府禁止了包括TikTok在内的大量中国应用程序。这种民族主义情绪在印度教民族主义倾向群体中尤为强烈，但也在城市中产阶级中广泛传播。"
+      },
+      "keywords": ["#BoycottChina", "#BanChineseApps", "#GalwanValley", "#AksaiChin"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "sib-voice-2",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「蔵南はチベットの一部であり、常に中国の土地だった。インドが植民地の不正な境界線にしがみついているだけだ。英雄的な解放軍兵士を称えよう」",
+        "en": "'Zangnan has always been part of Tibet, which is part of China. India is clinging to an unjust colonial boundary. Honor our heroic PLA soldiers!'",
+        "zh": "'藏南一直是西藏的一部分，也就是中国的一部分。印度只是在坚持不公正的殖民地边界线。向我们英勇的解放军战士致敬！'"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国のSNS（微博・微信）では、国境紛争に関する議論は検閲によって限定されている。許容される言論は主に愛国的なものであり、解放軍兵士の英雄化や「蔵南は中国の固有領土」という主張が主流。2021年2月に4名の烈士が公表された際には大規模な追悼の投稿が溢れた。中国政府に批判的な見解（例：交渉の遅さへの不満）は削除される傾向がある。",
+        "en": "Discussion of the border dispute on Chinese social media (Weibo, WeChat) is constrained by censorship. Permitted discourse is predominantly patriotic—lionizing PLA martyrs and asserting that 'Zangnan is inherently Chinese territory.' When four martyrs were officially disclosed in February 2021, waves of commemorative posts flooded platforms. Views critical of government handling are typically suppressed.",
+        "zh": "在中国社交媒体（微博、微信）上，关于边境争端的讨论受到审查限制。被允许的言论主要是爱国主义性质的，包括颂扬解放军烈士和主张'藏南是中国固有领土'。2021年2月四名烈士公开后，平台上涌现出大量悼念帖子。批评政府处理方式的观点往往遭到压制。"
+      },
+      "keywords": ["#藏南是中国的", "#解放军英雄", "#中印边境"],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "sib-voice-3",
+      "country": {
+        "ja": "ラダック（境界地帯住民）",
+        "en": "Ladakh (Border Residents)",
+        "zh": "拉达克（边境地区居民）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「私たちは牧草地を失い、観光客も来なくなった。デリーは私たちの保護を約束したが、第六付則はまだない。インドとチャイナの戦争に使われているだけだ」",
+        "en": "'We have lost our grazing lands and tourists stopped coming. Delhi promised us protection but we still have no Sixth Schedule. We are just being used as pawns in India and China's conflict.'",
+        "zh": "'我们失去了牧场，游客也不再来了。德里承诺保护我们，但我们仍然没有第六附则。我们只是被当作印中冲突的棋子。'"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ラダック自治丘陵評議会（LEH・カルギルの両評議会）は、2019年の連邦直轄地域化以降、インド憲法第六付則に基づく部族地域保護を繰り返し要求してきた。この訴えはSNS上でも展開され、若いラダック人活動家がTwitter/Xで#SixthScheduleForLadakhのハッシュタグを使い英語で訴えを発信した。軍事的緊張を理由とした境界地域への立入規制が地元の牧畜・観光経済に与えた打撃への不満も多くのアカウントで表明されている。",
+        "en": "The Ladakh Autonomous Hill Development Councils of Leh and Kargil have repeatedly demanded Sixth Schedule protections since the 2019 reorganization. This advocacy has extended to social media, with young Ladakhi activists using #SixthScheduleForLadakh on Twitter/X to reach national and international audiences. Grievances about military-imposed restrictions on border grazing lands and the collapse of border tourism are widely expressed.",
+        "zh": "列城和卡尔吉尔的拉达克自治山地发展委员会自2019年重组以来，多次要求获得第六附则保护。这一倡导延伸到社交媒体，年轻的拉达克活动人士在Twitter/X上使用#SixthScheduleForLadakh标签，向全国和国际观众传递诉求。关于军事管制对边境牧场和旅游业造成影响的不满也在许多账号上广泛表达。"
+      },
+      "keywords": ["#SixthScheduleForLadakh", "#LadakhDemands", "#LadakhTourism"],
+      "timeframe": "2019-2024"
+    },
+    {
+      "id": "sib-voice-4",
+      "country": {
+        "ja": "欧米（西側メディア・研究者）",
+        "en": "Western Media & Analysts",
+        "zh": "西方媒体与分析人士"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「中国は複数の隣国と同時に攻勢的な行動を取っている。南シナ海と同じパターンだ。インドを支持することがルールに基づく国際秩序の維持に不可欠だ」",
+        "en": "'China is simultaneously assertive against multiple neighbors—it's the same pattern as in the South China Sea. Supporting India is essential to maintaining a rules-based international order.'",
+        "zh": "'中国正在同时对多个邻国采取强硬行动——这与南海的模式相同。支持印度对于维护基于规则的国际秩序至关重要。'"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "英語圏の専門家・ジャーナリスト・外交政策コミュニティのSNS（特にTwitter/X）での言論は、中国の行動を「グレーゾーン」戦術の一環として批判的に分析する傾向が強い。CFR・ブルッキングス・国際危機グループなどのシンクタンクのアナリストは、ガルワン衝突を中国の地域的強権的行動の証拠として繰り返し引用している。一方でインド自身の行動（ドクラムでの役割など）への批判的見解も一部の研究者から発信されている。",
+        "en": "Anglophone foreign policy experts and journalists on Twitter/X tend to frame Chinese actions as part of a broader pattern of 'gray-zone' assertiveness. Analysts from CFR, Brookings, and the International Crisis Group regularly cite Galwan as evidence of Chinese regional coercion. A minority of scholars also provide critical assessments of Indian actions, including its role in the Doklam standoff.",
+        "zh": "英语外交政策专家和记者在Twitter/X上倾向于将中国的行动定性为更广泛'灰色地带'强硬模式的一部分。来自外交关系委员会、布鲁金斯学会和国际危机组织的分析人士经常引用加勒万冲突作为中国地区强制行为的证据。少数学者也对印度的行为提出批评性评估，包括其在洞朗对峙中的作用。"
+      },
+      "keywords": ["#SinoIndianBorder", "#GalwanClash", "#IndoPacific", "#Doklam"],
+      "timeframe": "2017-2024"
+    },
+    {
+      "id": "sib-voice-5",
+      "country": {
+        "ja": "アルナーチャル・プラデーシュ州（インド）",
+        "en": "Arunachal Pradesh (India)",
+        "zh": "阿鲁纳恰尔邦（印度）"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "「私たちはインド人だ。中国がどれだけ地名を変えても変わらない。蔵南という呼称は受け入れない。タワンは私たちの聖地だ」",
+        "en": "'We are Indians. No matter how many times China renames our places, that won't change. We reject the name Zangnan. Tawang is our sacred homeland.'",
+        "zh": "'我们是印度人。无论中国把我们的地名改多少次都不会改变这一事实。我们拒绝接受藏南这个称呼。达旺是我们神圣的家园。'"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "アルナーチャル・プラデーシュ州の住民—特にタワン地区のモンパ族—は、中国による地名変更リスト発表のたびに強い抗議の声をSNSで上げてきた。2022年12月に中国軍がタワン近郊のヤンツィでインド軍と衝突した際には、「#TawangIsIndia」「#ArunachalIsIndia」のタグが急増した。達頼喇嘛の後継者問題でタワンのチベット仏教的重要性が注目されている文脈もあり、宗教的アイデンティティと国家アイデンティティが交差する複雑な語りが展開されている。",
+        "en": "Residents of Arunachal Pradesh—especially Monpa communities in Tawang—have responded forcefully on social media each time China releases a new renaming list. Following a PLA-Indian Army clash near Yangtse in Tawang in December 2022, hashtags like #TawangIsIndia and #ArunachalIsIndia surged. The intersection of religious identity (Tawang's significance to Tibetan Buddhism and the Dalai Lama succession) and political identity generates distinctive and nuanced online narratives.",
+        "zh": "阿鲁纳恰尔邦居民，尤其是达旺的门巴族社区，每次中国发布新的改名清单时都在社交媒体上强烈回应。2022年12月解放军与印度军队在达旺附近的央子发生冲突后，#TawangIsIndia和#ArunachalIsIndia等标签急剧增加。宗教认同（达旺对藏传佛教和达赖喇嘛传承的重要性）与政治认同的交叉产生了独特而细腻的网络叙事。"
+      },
+      "keywords": ["#ArunachalIsIndia", "#TawangIsIndia", "#RejectZangnan"],
+      "timeframe": "2017-2024"
+    },
+    {
+      "id": "sib-voice-6",
+      "country": {
+        "ja": "グローバル・サウス（第三国・中立的立場）",
+        "en": "Global South / Non-Aligned States",
+        "zh": "全球南方/不结盟国家"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "「インドも中国も核保有国だ。この対立を煽るのではなく、両国の対話を支持すべきだ。アメリカはインドをクアッドの道具として使いたいだけではないか」",
+        "en": "'Both India and China have nuclear weapons. We should support dialogue between them, not fan the flames. Isn't the US just trying to use India as a Quad instrument?'",
+        "zh": "'印度和中国都拥有核武器。我们应该支持两国对话，而不是煽风点火。美国难道不是只想把印度当作Quad的工具吗？'"
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "中立国・途上国の外交官・知識人・活動家のSNS上での声は、中印対立の軍事的エスカレーションへの懸念と、米国主導のクアッドがインドを利用して中国封じ込めを図っているという疑念の両面から構成される傾向がある。上海協力機構（SCO）参加国の一部（パキスタン、中央アジア諸国）はより中国寄りの立場をとる。アフリカ・東南アジアの多くの国は中立を維持し、核保有国同士の和解を呼びかける声も散見される。",
+        "en": "Voices from neutral and developing countries on social media tend to express concern about military escalation between two nuclear states and skepticism about U.S. motives in promoting the Quad as a China-containment vehicle. Some SCO member states (Pakistan, Central Asian states) lean more pro-China. Many African and Southeast Asian commentators maintain neutrality, with some calling for both sides to pursue reconciliation.",
+        "zh": "中立国和发展中国家在社交媒体上的声音倾向于表达对两个核国家之间军事升级的担忧，以及对美国推广Quad作为遏制中国工具的动机持怀疑态度。部分上合组织成员国（巴基斯坦、中亚国家）立场更倾向中国。许多非洲和东南亚评论者保持中立，部分人呼吁双方寻求和解。"
+      },
+      "keywords": ["#IndiaChina", "#PeaceNotWar", "#Quad", "#NonAlignment"],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "eventId": "papua-conflict",
+  "notes": [
+    {
+      "id": "pc-pepera-validity",
+      "claim": "The 1969 'Act of Free Choice' (Pepera) was a legitimate, UN-supervised plebiscite",
+      "context": "The Pepera was conducted under the framework of the 1962 New York Agreement, which obligated Indonesia to organize an 'act of free choice' by 1969. However, rather than a universal suffrage referendum of West Papua's approximately 800,000 inhabitants, the vote was conducted via a 'musyawarah' (deliberative assembly) system in which only 1,025 representatives — handpicked by Indonesian authorities — participated and voted unanimously for integration. The UN's special representative, Ortiz Sanz, reported reservations about the process in his final report to the Secretary-General, noting it did not fully conform to international standards. UN General Assembly Resolution 2504 (November 19, 1969) 'took note' of the result, a diplomatically significant phrase that most international legal scholars distinguish from explicit endorsement of legitimacy. Scholars including John Saltford, Richard Chauvel, and Robin Osborne have concluded that the Pepera failed to satisfy the international standard of self-determination. Indonesia and the majority of UN member states have treated the Pepera as legally conclusive.",
+      "verdict": "It is historically established that the Pepera was not a general referendum. Its legal validity under international law remains genuinely contested. The UN neither explicitly endorsed nor overturned the result, leaving the question in deliberate ambiguity.",
+      "sources": [
+        {
+          "title": "The United Nations and the Indonesian Takeover of West Papua, 1962–1969",
+          "url": "https://www.cambridge.org/core/books/united-nations-and-the-indonesian-takeover-of-west-papua-19621969/",
+          "publisher": "John Saltford, RoutledgeCurzon",
+          "type": "academic"
+        },
+        {
+          "title": "UN General Assembly Resolution 2504 (XXIV)",
+          "url": "https://digitallibrary.un.org/record/191004",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pc-transmigration",
+      "claim": "Transmigration policy has rendered indigenous Papuans a minority in their own land",
+      "context": "Indonesia's transmigration (transmigrasi) program, operating from the 1960s through the 1990s, relocated hundreds of thousands of settlers from densely populated islands — primarily Java, Bali, Lombok, and Madura — to Papua. Academic estimates suggest that indigenous Melanesian Papuans, who constituted over 90% of the population in the early 1960s, now make up approximately 40–50% of the total provincial population, though precise figures vary depending on methodology and classification. The Indonesian government promoted transmigration as a solution to overpopulation and a tool of regional development. Critics, including Amnesty International and independent researchers, argue it has led to indigenous land dispossession, economic marginalization, and cultural dilution. Indonesia denies that transmigration constituted intentional demographic engineering against indigenous Papuans.",
+      "verdict": "Demographic shifts driven by transmigration are documented by multiple independent researchers. The characterization of the policy as 'demographic genocide' is contested; Indonesia rejects this framing. The extent and distributional impact of these changes merits continued independent assessment.",
+      "sources": [
+        {
+          "title": "Papua, Indonesia: Anatomy of a Conflict",
+          "url": "https://www.amnesty.org/en/documents/asa21/002/2004/en/",
+          "publisher": "Amnesty International",
+          "type": "ngo"
+        },
+        {
+          "title": "West Papua Resource Politics",
+          "url": "https://www.eastwestcenter.org/",
+          "publisher": "East-West Center",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-grasberg-mine",
+      "claim": "The Grasberg mine benefits the local Papuan economy and indigenous communities",
+      "context": "The Grasberg mine, operated by Freeport-McMoRan in partnership with the Indonesian state-owned mining company (now PT-FI majority-owned by the Indonesian government following a 2018 divestment agreement), is the world's largest gold mine and one of its largest copper mines. It contributes significantly to Indonesian state revenue and has generated local employment. Papua provincial government receives royalty payments. However, indigenous communities — particularly the Amungme and Kamoro peoples whose ancestral lands encompass the mine site — have consistently argued that compensation for land and environmental losses is inadequate. Tailings disposal into the Ajkwa river system has caused documented environmental damage. Human Rights Watch and others have reported that economic benefits are inequitably distributed and that affected communities lack meaningful consultation rights over operational decisions.",
+      "verdict": "The mine's contribution to national revenue is documented. However, the distribution of benefits and costs at the local and indigenous community level shows significant disparities, and environmental impacts are independently documented. Claims of broad community benefit require qualification.",
+      "sources": [
+        {
+          "title": "Freeport-McMoRan Annual Report",
+          "url": "https://www.fcx.com/investors",
+          "publisher": "Freeport-McMoRan Inc.",
+          "type": "government"
+        },
+        {
+          "title": "Mining and Indigenous Rights in Papua",
+          "url": "https://www.hrw.org/asia/indonesia",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "pc-msg-ulmwp",
+      "claim": "The Melanesian Spearhead Group (MSG) officially supports West Papuan independence",
+      "context": "The MSG is a regional intergovernmental body comprising Papua New Guinea, Fiji, Vanuatu, the Solomon Islands, the FLNKS (Kanak independence movement of New Caledonia), and Indonesia (which joined as an associate member in 2011). In 2015, over Indonesian objections, the MSG granted observer status to the United Liberation Movement for West Papua (ULMWP), the umbrella body of the independence movement. This represented a significant diplomatic achievement for the Papuan cause. However, the MSG as an institution has not formally endorsed West Papuan independence. Individual member states vary considerably in the strength of their position: Vanuatu is the most consistently outspoken, while Papua New Guinea and Fiji have been more cautious, reflecting their bilateral economic ties with Indonesia. Indonesia uses its associate membership to lobby against stronger MSG positions on Papua.",
+      "verdict": "The MSG has granted observer status to the Papuan independence movement, reflecting significant regional sympathy, but has not taken an institutional position endorsing independence. Member states' individual positions range from strong support (Vanuatu) to diplomatic ambiguity (PNG, Fiji).",
+      "sources": [
+        {
+          "title": "MSG Communiqué 2015",
+          "url": "https://www.msg.org.fj/",
+          "publisher": "Melanesian Spearhead Group",
+          "type": "international"
+        },
+        {
+          "title": "Pacific Islands Report: West Papua and the MSG",
+          "url": "https://www.pireport.org/",
+          "publisher": "East-West Center Pacific Islands Report",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-2022-province-split",
+      "claim": "The 2022 division of Papua into six provinces advances regional development and autonomy",
+      "context": "In 2022, the Indonesian parliament passed legislation creating four new provinces from the existing two Papua provinces (Papua and West Papua), resulting in six total provincial units: Papua, West Papua, South Papua, Highland Papua, Central Papua, and Southwest Papua. The government framed this as enhancing administrative efficiency and expanding special autonomy. Critics — including indigenous Papuan leaders, Human Rights Watch, and academic observers — argued that the division was conducted without adequate free, prior, and informed consent (FPIC) from indigenous communities, as required by the UN Declaration on the Rights of Indigenous Peoples (UNDRIP). They contend the reorganization serves to fragment indigenous political organization, open new resource concession frameworks, and dilute special autonomy arrangements that had been established under the 2001 Special Autonomy Law. Indonesia's position is that the reorganization is a legitimate exercise of sovereign administrative authority in the service of development.",
+      "verdict": "Administrative reorganization is within the sovereign authority of the Indonesian state. However, the process's compliance with international standards for indigenous consultation (FPIC) is disputed and warrants independent evaluation. The political motivations underlying the timing and structure of the split remain contested.",
+      "sources": [
+        {
+          "title": "Indonesia: New Papua Provinces Risk Exacerbating Conflict",
+          "url": "https://www.hrw.org/news/2022/07/14/indonesia-new-papua-provinces-risk-exacerbating-conflict",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        },
+        {
+          "title": "Indonesian Government Papua Special Autonomy Documentation",
+          "url": "https://www.indonesia.go.id/",
+          "publisher": "Government of the Republic of Indonesia",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

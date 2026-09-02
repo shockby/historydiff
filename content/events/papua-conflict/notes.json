@@ -1,0 +1,105 @@
+{
+  "eventId": "papua-conflict",
+  "notes": [
+    {
+      "id": "pc-pepera-validity",
+      "claim": "1969年の「自由選択法（ペペラ）」は国連の監督下で合法的に実施された住民投票である",
+      "context": "ペペラは1962年のニューヨーク協定の規定に基づき実施されたが、その形式は普通選挙ではなく、インドネシア当局が選定した1,025人の代表者による「協議評議会（musyawarah）」方式であった。当時の西パプアの推定人口は約80万人。国連事務総長代表のフェルナンド・オルティス＝サルズは最終報告書において、「自由意思の行使」という観点からプロセスへの懸念を示唆したが、国連として結果を否定することはなかった。国連総会決議2504（1969年11月19日）は結果を「留意（took note）」するとの表現を採用した。国際法学者の多くは「took note」を積極的な正当性の承認とは解釈しておらず、John Saltfordら複数の研究者はペペラが自己決定の国際基準を満たさなかったと結論付けている。インドネシアはペペラを法的に有効な行為と位置づけ、国際社会の大多数もこの立場を受け入れてきた。",
+      "verdict": "ペペラが普通選挙の形式をとらなかったことは歴史的事実であり、その正当性は国際法学的に論争が続いている。国連は結果を明示的に承認したわけではないが、事実上それを覆す措置も取らなかった。",
+      "sources": [
+        {
+          "title": "The United Nations and the Indonesian Takeover of West Papua, 1962-1969",
+          "url": "https://www.cambridge.org/core/books/united-nations-and-the-indonesian-takeover-of-west-papua-19621969/",
+          "publisher": "John Saltford著、RoutledgeCurzon",
+          "type": "academic"
+        },
+        {
+          "title": "国連総会決議2504（XXIV）",
+          "url": "https://digitallibrary.un.org/record/191004",
+          "publisher": "国際連合",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pc-transmigration",
+      "claim": "トランスミグラシ（移住政策）によりパプア先住民族は自らの土地で少数派になりつつある",
+      "context": "インドネシア政府は1960年代から2000年代にかけてトランスミグラシ政策を実施し、ジャワ・バリ・ロンボク・マドゥラ島などの過密地域から数十万人をパプアへ移住させた。政府統計および学術的推計によれば、1960年代に90%以上を占めていたパプア先住民族の人口比率は、2020年代には40〜50%台に低下したとされる。ただし、正確な数値は調査方法・定義によって異なり、インドネシア政府と独立研究者の間で推計に差がある。移住者は商業・行政・軍事の分野で経済的優位を占めることが多く、先住民族が土地権を失うケースが報告されてきた。インドネシア政府はトランスミグラシを過密地域の人口圧力解消と地域開発のための施策と位置づけており、意図的な人口置換政策であるという解釈は否定している。",
+      "verdict": "トランスミグラシによる人口構造の変化は多くの独立した研究者によって確認されている。ただし「人口的ジェノサイド」という用語をめぐっては議論があり、インドネシア政府はその解釈を否定している。",
+      "sources": [
+        {
+          "title": "Papua, Indonesia: Anatomy of a Conflict",
+          "url": "https://www.amnesty.org/en/documents/asa21/002/2004/en/",
+          "publisher": "アムネスティ・インターナショナル",
+          "type": "ngo"
+        },
+        {
+          "title": "West Papua Resource Politics",
+          "url": "https://www.eastwestcenter.org/",
+          "publisher": "East-West Center",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-grasberg-mine",
+      "claim": "グラスバーグ鉱山はパプアの地域経済・先住民族に利益をもたらしている",
+      "context": "グラスバーグ鉱山（Grasberg Mine）はアメリカのフリーポート・マクモランとインドネシア国営鉱業公社（インメダル、現PT Indonesia Asahan Aluminium）が運営する世界最大級の金・銅鉱山であり、インドネシア国家歳入に多大な貢献をしてきた。2018年にインドネシア政府はフリーポートから51%の株式を取得した。鉱山はパプア州への多額のロイヤリティ・税収をもたらしており、地元雇用も創出されている。一方で、先住民族（特にアムングメ族・コモロ族）は土地と環境の喪失に対する補償が不十分であると訴えてきた。テイルズ（廃棄物）の垂れ流しによる河川汚染が長年問題となっており、環境団体から批判を受けている。地域社会への利益分配が不公平であるとする批判は多く、国際社会からも指摘されている。",
+      "verdict": "鉱山がインドネシア国家財政に貢献していることは事実だが、先住民地域社会への便益とコストの分配については重大な格差があり、独立した検証が必要な分野が多い。",
+      "sources": [
+        {
+          "title": "Freeport-McMoRan Annual Report",
+          "url": "https://www.fcx.com/investors",
+          "publisher": "フリーポート・マクモラン",
+          "type": "government"
+        },
+        {
+          "title": "Mining and Indigenous Rights in Papua",
+          "url": "https://www.hrw.org/asia/indonesia",
+          "publisher": "ヒューマン・ライツ・ウォッチ",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "pc-msg-ulmwp",
+      "claim": "メラネシア民族評議会（MSG）は西パプアの独立を公式に支持している",
+      "context": "メラネシア民族評議会（MSG）はパプアニューギニア、フィジー、バヌアツ、ソロモン諸島、ニューカレドニア（FLNKS）、インドネシアで構成される地域機関で、インドネシアも2011年に准加盟国として加入している。2015年、MSGは西パプア独立運動の統括団体である「西パプア解放統一運動（ULMWP）」にオブザーバー資格を付与した。これはインドネシアの強い反対を押し切った決定だった。ただしMSG自体は組織として西パプアの独立を正式に支持しているわけではなく、バヌアツやソロモン諸島など個別の加盟国がより強い立場を表明している。インドネシアは自国の加盟資格を活用してMSG内でのパプア独立支持の動きを牽制し続けている。",
+      "verdict": "MSG加盟国の間でパプアへの同情的姿勢は広く共有されているが、組織としての公式な独立支持は未だ実現していない。各国の立場には温度差があり、インドネシアとの経済関係も判断に影響している。",
+      "sources": [
+        {
+          "title": "MSG Communiqué 2015",
+          "url": "https://www.msg.org.fj/",
+          "publisher": "メラネシア民族評議会",
+          "type": "international"
+        },
+        {
+          "title": "Pacific Islands Report: West Papua and the MSG",
+          "url": "https://www.pireport.org/",
+          "publisher": "East-West Center Pacific Islands Report",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-2022-province-split",
+      "claim": "2022年のパプア州分割（6州への再編）は地域振興と自治推進のための措置である",
+      "context": "2022年、インドネシア国会は西パプアと既存のパプア州を分割し、新たに4州（南パプア、高地パプア、中央パプア、南西パプア）を追加設置する法律を可決、計6州体制とした。インドネシア政府はこれを地域行政の効率化と特別自治の拡充のための措置と説明している。しかし、多くのパプア先住民族リーダー、研究者、人権団体は、分割が先住民族との十分な協議なく行われたと批判し、独立運動の地理的・政治的分断、資源開発のための新たな行政ゲートウェイの設置を目的とするものだと主張している。国連先住民族権利宣言（UNDRIP）は先住民族に影響する決定への自由意思に基づく事前の十分な情報に基づく同意（FPIC）を要求しており、この基準が満たされたかどうかについて疑義が呈されている。",
+      "verdict": "行政区分の再編は主権国家の内政上の権限に属するが、事前協議の欠如とその政治的意図については独立した評価が必要であり、国際人権基準との整合性についての検討が求められる。",
+      "sources": [
+        {
+          "title": "Indonesia's Papua Expansion: Development or Division?",
+          "url": "https://www.hrw.org/news/2022/07/14/indonesia-new-papua-provinces-risk-exacerbating-conflict",
+          "publisher": "ヒューマン・ライツ・ウォッチ",
+          "type": "ngo"
+        },
+        {
+          "title": "インドネシア政府パプア特別自治法改正関連文書",
+          "url": "https://www.indonesia.go.id/",
+          "publisher": "インドネシア共和国政府",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

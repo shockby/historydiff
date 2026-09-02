@@ -1,0 +1,142 @@
+{
+  "eventId": "korean-war-division",
+  "disclaimer": {
+    "ja": "以下はSNS・メディア・世論調査等に見られる一般的な意見傾向をまとめたものです。個人・集団の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends observed on social media, in media reporting, and in public opinion surveys. These represent personal or collective views, not verified facts.",
+    "zh": "以下是社交媒体、媒体报道和民调中观察到的一般舆论倾向摘要。这些代表个人或集体观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "kwd-voice-1",
+      "country": {
+        "ja": "韓国（離散家族・当事者世代）",
+        "en": "South Korea (Divided family members / survivor generation)",
+        "zh": "韩国（离散家庭成员/亲历者一代）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「政治家たちが会うたびに期待させておいて、また中断する。私はもう85歳だ。兄に会えないまま死ぬのか。統一でも何でもいい、せめて手紙の一通でも送れないのか」——南北対話の再開と離散家族再会事業の恒久化を求める声が特に高齢当事者から強い。",
+        "en": "'Politicians raise our hopes every time they meet, then everything stops again. I'm 85 years old. Will I die without seeing my brother? I don't care about unification — can't they at least allow us to exchange letters?' — Strong calls from the elderly surviving generation for permanent humanitarian exchange channels regardless of political relations.",
+        "zh": "\"政客每次会面都让我们充满希望，然后一切又停止了。我已经85岁了。难道我要在没见到哥哥的情况下死去吗？什么统一不统一的，哪怕只是让我们通个信呢？\"——特别是年迈的亲历者强烈呼吁建立永久性的人道主义交流渠道。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "1985年以降、南北離散家族の対面再会は22回しか実現しておらず、再会を希望する登録者の過半数がすでに死亡している。当事者の高齢化は「時間との闘い」という切迫感を生み出している。韓国の市民団体（離散家族全国連合会など）は恒常的な再会・書信往来・生死確認の実現を求めて活動しているが、南北政治の影響を受けやすい。",
+        "en": "Only 22 in-person reunion events have occurred since 1985, and the majority of registered applicants have already died. The aging of the separated generation creates acute urgency. South Korean civil society organizations advocate for permanent humanitarian channels, but these remain vulnerable to political disruption.",
+        "zh": "自1985年以来，只举行了22次面对面团聚活动，大多数登记申请者已经去世。离散家庭成员的老龄化带来了紧迫感。韩国民间社会组织倡导建立永久性人道主义渠道，但这些渠道仍易受政治波动影响。"
+      },
+      "keywords": ["#이산가족", "#분단70년", "#离散家族", "#DividedFamilies"],
+      "timeframe": "2000-2026"
+    },
+    {
+      "id": "kwd-voice-2",
+      "country": {
+        "ja": "韓国（若い世代・30代以下）",
+        "en": "South Korea (Younger generation, under 30s)",
+        "zh": "韩国（年轻一代，30岁以下）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "「統一コストを誰が払うの？ドイツの例を見れば分かる、30年たってもまだ格差がある。北の人たちは別の国の人みたいな感じがする。統一よりも平和な共存の方が現実的じゃないか」——統一への強い否定ではなく、統一の「タイミング」と「方法」への実用主義的懐疑が広がっている。",
+        "en": "'Who's going to pay for reunification costs? Look at Germany — even after 30 years there are still huge gaps. North Koreans feel like people from a different country. Isn't peaceful coexistence more realistic than reunification?' — Not strong opposition to reunification per se, but growing pragmatic skepticism about its timing and method.",
+        "zh": "\"统一费用由谁承担？看看德国就知道了，30年后差距依然巨大。朝鲜人感觉像另一个国家的人。和平共存不是比统一更现实吗？\"——并非强烈反对统一本身，而是对统一的时机和方式产生了日益增长的务实怀疑。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国統一研究院（KINU）の世論調査では、統一を「必要」と考える比率は若年層ほど低い傾向にある。2022年調査では20代の約40%が「統一は必要ない」と回答。核武装した北朝鮮への恐怖よりも、統一コストや社会統合の困難への現実的懸念が若い世代の態度を形成している。",
+        "en": "Korea Institute for National Unification (KINU) surveys show younger generations are consistently less enthusiastic about unification. A 2022 survey found approximately 40% of those in their 20s saying reunification is unnecessary. Pragmatic concerns about costs and social integration — rather than fear of nuclear North Korea — shape this generational attitude.",
+        "zh": "韩国统一研究院（KINU）的民调显示，年轻一代对统一的热情一贯较低。2022年调查发现，约40%的20多岁韩国人表示统一没有必要。对费用和社会融合的务实担忧——而非对核朝鲜的恐惧——塑造了这一代人的态度。"
+      },
+      "keywords": ["#통일비용", "#평화공존", "#북한핵", "#한반도평화"],
+      "timeframe": "2015-2026"
+    },
+    {
+      "id": "kwd-voice-3",
+      "country": {
+        "ja": "アメリカ合衆国（退役軍人・保守派）",
+        "en": "United States (Veterans and conservative commentators)",
+        "zh": "美国（退伍军人和保守派评论员）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「朝鮮戦争は忘れられた戦争と言われるが、我々の犠牲によって韓国は自由を守った。北朝鮮の核に妥協してはならない。圧力と制裁を維持し、完全な非核化を要求し続けるべきだ」——米韓同盟の堅持と対北強硬策を支持する声が退役軍人・共和党系論者に多い。",
+        "en": "'They call it the Forgotten War, but our sacrifice preserved South Korea's freedom. We cannot compromise on North Korea's nukes. We must maintain pressure and sanctions and keep demanding full denuclearization.' — Strong support for the U.S.-South Korea alliance and a hardline approach to North Korea among veterans and Republican-aligned commentators.",
+        "zh": "\"他们称之为被遗忘的战争，但我们的牺牲保卫了韩国的自由。我们不能在朝鲜核问题上妥协。必须维持压力和制裁，继续要求完全无核化。\"——退伍军人和共和党倾向评论员中强烈支持美韩同盟和对朝强硬立场。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "朝鮮戦争での米国の死者は約3万6500人。退役軍人コミュニティは戦争の記念と同盟の堅持に強い関心を持つ。トランプ外交（首脳会談路線）は一部の退役軍人・保守層から「北朝鮮を正当化する」として批判を受けた。",
+        "en": "The Korean War cost approximately 36,500 American lives. The veteran community has strong interest in commemorating the war and maintaining the alliance. Trump's summit diplomacy drew criticism from some veterans and conservatives as 'legitimizing' North Korea.",
+        "zh": "朝鲜战争使美国付出了约36500条生命。退伍军人群体对纪念战争和维持同盟有强烈关注。特朗普的峰会外交因被部分退伍军人和保守派批评为\"使朝鲜合法化\"而受到谴责。"
+      },
+      "keywords": ["#KoreanWar", "#NeverForget", "#ForgottenWar", "#USFK", "#Denuclearization"],
+      "timeframe": "2010-2026"
+    },
+    {
+      "id": "kwd-voice-4",
+      "country": {
+        "ja": "中国（一般市民・愛国主義的意見）",
+        "en": "China (General public, patriotic opinion)",
+        "zh": "中国（普通民众，爱国主义观点）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「抗美援朝は中国が世界の超大国に立ち向かい、勝利した偉大な戦争だ。志願兵たちの犠牲を忘れてはならない。米国は今も朝鮮半島で中国を包囲しようとしている」——愛国主義的な枠組みで朝鮮戦争を語る声は、米中関係が緊張するほど強まる傾向がある。",
+        "en": "'The War to Resist America and Aid Korea was a great war in which China stood up to the world's superpower and won. We must not forget the sacrifice of the volunteers. America is still trying to encircle China on the Korean Peninsula.' — Patriotic framing of the Korean War intensifies in proportion to U.S.-China tensions.",
+        "zh": "\"抗美援朝是中国与世界超级大国抗争并取得胜利的伟大战争。我们不能忘记志愿军的牺牲。美国至今仍在朝鲜半岛试图包围中国。\"——随着中美关系紧张，以爱国主义框架叙述朝鲜战争的声音有所增强。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国政府は2020年の70周年・2023年の記念事業を通じて抗美援朝の「偉大な精神」を積極的に宣伝した。微博（Weibo）等のSNSでは、朝鮮戦争映画（「長津湖」等）の公開に合わせて愛国的なハッシュタグが急増する現象が繰り返される。中国国内では戦争の批判的な見直しは検閲対象となる。",
+        "en": "The Chinese government actively promoted the 'spirit of the War to Resist America and Aid Korea' through major 70th and subsequent anniversaries. On Chinese social media (Weibo), patriotic hashtags surge with releases of war films (e.g., The Battle at Lake Changjin). Critical revisiting of the war inside China is subject to censorship.",
+        "zh": "中国政府通过70周年等重大纪念活动积极宣传\"抗美援朝精神\"。在微博等社交媒体上，爱国主义标签随着战争题材电影（如《长津湖》）的上映而激增。中国国内对这场战争的批判性重审受到审查。"
+      },
+      "keywords": ["#抗美援朝", "#最可爱的人", "#长津湖", "#志愿军"],
+      "timeframe": "2019-2026"
+    },
+    {
+      "id": "kwd-voice-5",
+      "country": {
+        "ja": "日本（在日コリアン）",
+        "en": "Japan (Zainichi Korean community)",
+        "zh": "日本（在日朝鲜族/韩裔群体）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "「私たちは朝鮮半島の分断を日本から見続けてきた。植民地支配が分断の根にある。日本社会はその責任から目を背けている。在日コリアンもまた、総連と民団に引き裂かれ、70年以上にわたって分断を生きてきた」——在日コリアン社会の声は、日本の植民地責任への問いと在日社会内部の南北分断という二重の問題意識を持つ。",
+        "en": "'We have watched the division of the Korean Peninsula from Japan for decades. Japanese colonial rule is at the root of the division. Japanese society averts its eyes from that responsibility. The Zainichi community itself was split between Chongryon and Mindan — we have lived the division for 70-plus years.' — Zainichi Korean voices reflect a dual consciousness: questioning Japan's colonial responsibility and the internal north-south division within their own community.",
+        "zh": "\"我们在日本观看朝鲜半岛的分裂已经几十年了。日本殖民统治是分裂的根源。日本社会回避这一责任。在日朝鲜族社区本身也在朝鲜总联和民团之间分裂——我们生活在这种分裂中已超过70年。\"——在日朝鲜族的声音反映了双重意识：质疑日本的殖民责任，以及他们自身社区内部的南北分裂。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "在日コリアンは朝鮮総連（北朝鮮系）と在日本大韓民国民団（韓国系）に分かれており、朝鮮学校・日本の公立学校・韓国系学校など教育においても異なる歴史認識が継承されてきた。拉致問題をめぐる日本の対北強硬世論の高まりは、在日コリアン社会全体への差別・偏見の強化につながったとの指摘もある。",
+        "en": "The Zainichi Korean community is divided between Chongryon (pro-DPRK) and Mindan (pro-South Korea), with different historical narratives transmitted through their respective school systems. The rise of anti-North Korean sentiment in Japan following the abduction issue revelations has also been linked to increased discrimination against the Zainichi community as a whole.",
+        "zh": "在日朝鲜族社区分为朝鲜总联（亲朝鲜）和民团（亲韩国），不同的历史叙事通过各自的学校系统传承。日本因绑架事件而兴起的反朝鲜情绪也与整个在日朝鲜族群体所遭受的歧视加剧有关。"
+      },
+      "keywords": ["#在日コリアン", "#朝鮮学校", "#植民地責任", "#分断"],
+      "timeframe": "2002-2026"
+    },
+    {
+      "id": "kwd-voice-6",
+      "country": {
+        "ja": "北朝鮮（国家公式声明・対外的プロパガンダ）",
+        "en": "North Korea (Official state statements and external propaganda)",
+        "zh": "朝鲜（官方声明和对外宣传）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "「朝鮮人民は祖国解放戦争において米帝国主義の侵略に正義で打ち勝った。南朝鮮の民衆は米国の植民地支配から解放されるべきだ。わが国の核抑止力は帝国主義の脅威に対する正当な自衛手段である」——北朝鮮の公式メディア（朝鮮中央通信、労働新聞）に見られる固定化された語り口。",
+        "en": "'The Korean people righteously defeated the aggression of U.S. imperialism in the Fatherland Liberation War. The people of southern Korea should be liberated from American colonial domination. Our nuclear deterrent is a legitimate means of self-defense against imperialist threats.' — The fixed narrative found in North Korean official media (KCNA, Rodong Sinmun).",
+        "zh": "\"朝鲜人民在祖国解放战争中正义地击败了美帝国主义的侵略。南朝鲜人民应当从美国殖民统治中解放出来。我国的核威慑力量是对抗帝国主义威胁的正当自卫手段。\"——朝鲜官方媒体（朝中社、劳动新闻）中的固定叙事。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "北朝鮮国内の市民が自由に意見を表明できる環境は存在せず、外部に見える「声」は実質的にすべて国家によって統制されたものである。朝鮮戦争の呼称・解釈・記念行事はすべて政治的に管理されており、7月27日の「戦勝記念日（조국해방전쟁승리기념일）」は重要な国家行事となっている。このVoiceは一般市民の声ではなく、国家プロパガンダとして提示している。",
+        "en": "There is no environment in which North Korean citizens can freely express opinions; the 'voices' visible externally are virtually all state-controlled. The nomenclature, interpretation, and commemoration of the Korean War are politically managed. July 27, designated 'Victory Day,' is a major state occasion. This voice is presented as state propaganda, not ordinary citizen opinion.",
+        "zh": "朝鲜没有公民能够自由表达意见的环境；对外可见的\"声音\"几乎都是国家管控的。朝鲜战争的命名、解释和纪念活动均由政治管控。7月27日被定为\"胜利日\"，是重要的国家活动。此声音作为国家宣传而非普通公民意见呈现。"
+      },
+      "keywords": ["#조국해방전쟁", "#전승절", "#자위적핵억제력"],
+      "timeframe": "1953-2026"
+    }
+  ]
+}

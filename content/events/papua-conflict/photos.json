@@ -1,0 +1,21 @@
+{
+  "eventId": "papua-conflict",
+  "photos": [
+    {
+      "id": "grasberg-mine-nasa",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/papua-conflict/grasberg-mine-nasa.jpg",
+      "caption": {
+        "ja": "国際宇宙ステーション（ISS）から撮影されたグラスバーグ鉱山（2005年6月25日、NASA提供）。インドネシア・パプア州（現在のパプア中央州）に位置する同鉱山は、世界最大級の金・銅の埋蔵量を誇る。フリーポート・マクモランが操業し、その利益配分をめぐってはインドネシア政府・パプア先住民・企業の間で長年にわたる紛争が続いている。鉱山廃水による環境汚染も深刻な問題となっている。",
+        "en": "NASA photograph of the Grasberg Mine taken from the International Space Station (June 25, 2005). Located in Papua province (now Central Papua) in Indonesia, Grasberg is one of the world's largest gold and copper deposits. Operated by Freeport-McMoRan, it has been the center of long-running disputes over revenue sharing between the Indonesian government, Papuan indigenous communities, and the company. Environmental contamination from mine tailings is also a severe issue.",
+        "zh": "国际空间站拍摄的格拉斯伯格矿山NASA照片（2005年6月25日）。该矿山位于印度尼西亚巴布亚省（现中巴布亚省），是世界上储量最大的金铜矿之一。由自由港-麦克莫兰公司运营，围绕收益分配问题，印度尼西亚政府、巴布亚原住民与企业之间长期存在争端。矿山尾矿造成的环境污染也是严峻问题。",
+        "ko": "국제우주정거장(ISS)에서 촬영한 그라스버그 광산 NASA 사진(2005년 6월 25일). 인도네시아 파푸아주(현 중앙 파푸아주)에 위치한 이 광산은 세계 최대 규모의 금·구리 매장량을 자랑한다. 프리포트-맥모란이 운영하며, 수익 배분을 둘러싸고 인도네시아 정부·파푸아 원주민·기업 간 장기간 분쟁이 이어지고 있다. 광산 폐수에 의한 환경오염도 심각한 문제다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — GrasbergMine ISS011-E-9620.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:GrasbergMine_ISS011-E-9620.jpg",
+        "license": "Public Domain (NASA)",
+        "author": "NASA Johnson Space Center — Earth Sciences and Image Analysis"
+      }
+    }
+  ]
+}

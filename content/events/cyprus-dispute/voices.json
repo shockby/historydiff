@@ -1,0 +1,100 @@
+{
+  "eventId": "cyprus-dispute",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "cd-voice-1",
+      "country": {"ja": "ギリシャ系キプロス人（民族主義派）", "en": "Greek Cypriots (nationalist)", "zh": "希腊裔塞人（民族主义派）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "私の家族は北部から追い出された。50年経った今でも帰れない。トルコはEUに加盟してはならない。占領軍を撤退させるまで交渉はない。",
+        "en": "My family was expelled from the north. Fifty years later, we still cannot return. Turkey must not join the EU. There will be no negotiation until the occupation forces withdraw.",
+        "zh": "我的家人被从北部驱逐出去。五十年过去了，我们仍然无法回家。土耳其不应加入欧盟。在占领军撤退之前，谈判无从开始。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "キプロス共和国内の難民出身者やその子孫の間で広く共有される論調。財産権・帰還権問題を中心に展開され、トルコのEU加盟問題と連動している。",
+        "en": "Widely shared among refugees and their descendants in the Republic of Cyprus, centered on property rights and right of return, linked to Turkey's EU accession process.",
+        "zh": "在塞浦路斯共和国难民及其后代中广泛流传，以财产权和返乡权为核心，与土耳其入盟进程相关联。"
+      },
+      "keywords": ["#Cyprus", "#Occupation", "#ReturnNow", "#TurkeyOutOfCyprus"],
+      "timeframe": "1974-present"
+    },
+    {
+      "id": "cd-voice-2",
+      "country": {"ja": "トルコ系キプロス人（現実主義派）", "en": "Turkish Cypriots (pragmatist)", "zh": "土耳其裔塞人（务实派）"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "私たちも50年間経済的孤立を余儀なくされている。アナン計画で賛成票を入れたのに拒否したのはギリシャ系だ。私たちも正常な国際社会への参加を望んでいる。統一は両方が妥協すれば可能だ。",
+        "en": "We too have been economically isolated for 50 years. It was the Greek Cypriots who rejected the Annan Plan after we said yes. We also want normal participation in international society. Reunification is possible if both sides compromise.",
+        "zh": "我们也遭受了50年的经济孤立。阿南计划是希腊裔塞人否决的，而我们投了赞成票。我们也希望正常参与国际社会。如果双方都妥协，统一是可能实现的。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "北キプロスの若年層・リベラル派に多く見られる論調。TRNCの経済的孤立状況に対する不満と再統一への現実的な期待が背景にある。",
+        "en": "Common among younger and liberal Turkish Cypriots, reflecting frustration with the TRNC's economic isolation and pragmatic hopes for reunification.",
+        "zh": "在北塞浦路斯年轻人和自由派中较为常见，反映了对北塞经济孤立状况的不满，以及对统一的务实期望。"
+      },
+      "keywords": ["#CyprusTalks", "#Reunification", "#NorthCyprus", "#OpenGreenLine"],
+      "timeframe": "2004-present"
+    },
+    {
+      "id": "cd-voice-3",
+      "country": {"ja": "トルコ（民族主義派）", "en": "Turkey (nationalist)", "zh": "土耳其（民族主义派）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "1974年の介入はトルコ系キプロス人を大量虐殺から守るための合法的な平和作戦だった。ギリシャのエノシス（合併）クーデターへの正当な対応だ。2国家解決こそが現実的な唯一の答えだ。",
+        "en": "The 1974 operation was a legitimate peace operation to protect Turkish Cypriots from massacre. It was a justified response to the Greek enosis coup. A two-state solution is the only realistic answer.",
+        "zh": "1974年的行动是一次合法的维和行动，旨在保护土耳其裔塞人免遭屠杀。这是对希腊亲并入派政变的正当回应。两国解决方案是唯一现实的出路。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "トルコ国内の主流ナラティブ。政府の公式立場とも一致しており、近年エルドアン政権下で2国家解決へのトルコの立場がより明確になっている。",
+        "en": "The mainstream Turkish domestic narrative, aligned with official government positions and increasingly explicit under the Erdogan government's advocacy for a two-state solution.",
+        "zh": "土耳其国内的主流叙事，与政府官方立场一致，在埃尔多安政府明确推动两国解决方案的情况下更加鲜明。"
+      },
+      "keywords": ["#PeaceOperation", "#TurkishCypriots", "#TwoStatesSolution", "#Cyprus1974"],
+      "timeframe": "1974-present"
+    },
+    {
+      "id": "cd-voice-4",
+      "country": {"ja": "EU・西欧の観察者", "en": "EU/Western European observers", "zh": "欧盟/西欧观察人士"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "キプロス問題はNATO内のギリシャ・トルコ対立の人質になっている。政治的意志があれば解決できるはずだが、50年間どの側も本気で妥協しようとしていない。EUにとっては北部の統治不能状態が深刻な問題だ。",
+        "en": "The Cyprus issue is held hostage by the Greek-Turkish rift within NATO. It could be resolved if there were political will, but no side has genuinely sought compromise in 50 years. For the EU, the ungoverned north represents a serious problem.",
+        "zh": "塞浦路斯问题沦为北约内希土矛盾的人质。如果双方有政治意愿，本应可以解决，但50年来没有任何一方真正寻求妥协。对欧盟而言，北部地区处于治理真空，是一个严重问题。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "EU・欧州議会・欧州政策研究者の間での一般的な見解。キプロス問題解決の停滞に対する「疲れ」と「フラストレーション」が背景にある。",
+        "en": "A general view among EU officials, MEPs, and European policy researchers, reflecting a sense of fatigue and frustration at the intractability of the Cyprus issue.",
+        "zh": "欧盟官员、欧洲议员和欧洲政策研究者的普遍看法，反映出对塞浦路斯问题久拖不决的疲倦与挫折。"
+      },
+      "keywords": ["#CyprusProblem", "#EUCyprus", "#NATO", "#GreenLine"],
+      "timeframe": "2004-present"
+    },
+    {
+      "id": "cd-voice-5",
+      "country": {"ja": "キプロス（二民族共生を求める市民）", "en": "Cyprus (bi-communal citizens)", "zh": "塞浦路斯（寻求两族共存的公民）"},
+      "sentiment": "critical",
+      "summary": {
+        "ja": "私はギリシャ系とトルコ系の友人が両方いる。緑の線なんて消えてほしい。政治家たちは解決したくないのだと思う。両側の人々は普通の隣人として暮らしたいだけなのに。",
+        "en": "I have both Greek and Turkish Cypriot friends. I just want the Green Line to disappear. I think the politicians don't really want a solution. People on both sides just want to live as normal neighbors.",
+        "zh": "我既有希腊裔朋友，也有土耳其裔朋友。我只希望绿线消失。我认为政客们其实并不真心想要解决问题。两边的普通人只是想像正常邻居一样生活。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "特に2003年以降（グリーンラインの一部開放後）、両コミュニティ間の交流が増えた世代の若者の間で見られる論調。Bicommunal市民グループやNGOが運動を推進。",
+        "en": "A view especially prevalent among younger Cypriots who have interacted across communities since the partial opening of the Green Line in 2003. Promoted by bicommunal civil society groups.",
+        "zh": "在2003年绿线部分开放后，与两个社区都有接触的年轻一代塞浦路斯人中尤为流行。由双民族公民社会团体积极推动。"
+      },
+      "keywords": ["#BicommunalCyprus", "#OpenGreenLine", "#CyprusReunification", "#TogetherWeCan"],
+      "timeframe": "2003-present"
+    }
+  ]
+}

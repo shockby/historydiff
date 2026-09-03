@@ -1,0 +1,75 @@
+{
+  "eventId": "georgia-russia-conflict",
+  "notes": [
+    {
+      "id": "gr-georgia-attack",
+      "claim": "ジョージア軍は2008年8月7日夜から8日未明にかけて南オセチアの州都ツヒンバリへの砲撃を開始した",
+      "context": "EU委託のタリアヴィーニ調査委員会（2009年）の報告書によれば、ジョージア軍は8月7日夜から8日未明にかけてツヒンバリと南オセチア内の村々への大規模砲撃を開始したとされています。これが軍事的エスカレーションのきっかけとなりました。ただし同報告書は、ロシアがその前から挑発的行動を行っており、ジョージアの攻撃はロシアに軍事介入の口実を与えるよう誘導されたとも指摘しています。この先行行動の評価をめぐっては、ジョージア・ロシア双方の主張が大きく対立しています。",
+      "verdict": "軍事攻撃の事実は確認済み（文脈・責任帰属に争いあり）",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report) 2009",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU委託・マックスプランク比較公法国際法研究所",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-russia-recognition",
+      "claim": "ロシアは2008年8月26日にアブハジアおよび南オセチアの独立を承認した",
+      "context": "ロシアは5日間の戦争終結後の2008年8月26日、アブハジアと南オセチアの独立を正式承認しました。この承認に追随したのはニカラグア（2008年）、ベネズエラ（2009年）、ナウル（2009年、後に撤回、再承認）、シリア（2018年）、北朝鮮（2011年）のみで、いずれも国連加盟国ですが国際社会の大多数からは孤立した立場です。国連総会では2009年にジョージア国内避難民の帰還権を認める決議が採択されており、これはアブハジア・南オセチアの独立承認を否定する文脈で解釈されています。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Признание независимости Абхазии и Южной Осетии (Recognition of Independence of Abkhazia and South Ossetia)",
+          "url": "http://www.kremlin.ru/events/president/news/1123",
+          "publisher": "ロシア大統領府",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gr-tagliavini",
+      "claim": "EU委託のタリアヴィーニ調査委員会（2009年）は「軍事的局面はジョージアが開始したが、ロシアの反応は過剰であった」と結論づけた",
+      "context": "スイスの外交官ハイディ・タリアヴィーニが委員長を務めたEU委託の独立調査委員会は2009年9月、約1000ページに及ぶ報告書を公表しました。報告書は「武力行使はジョージアが先行した」と指摘する一方で、ロシアの反応はジョージアの攻撃への対応の範囲を超えており国際法に違反すると結論づけました。また、ロシアが長年にわたる挑発的行動によって紛争を誘発した経緯もあると指摘しています。この報告書は単純な二項対立（「誰が悪いか」）を避けており、双方が国際法違反に関与したとの立場をとっています。",
+      "verdict": "報告書の内容は公開済み（解釈に争いあり）",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia, Volume I: Main Report (2009)",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU / マックスプランク研究所",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-abkhaz-displacement",
+      "claim": "1990年代のアブハジア戦争でジョージア系住民約25万人がアブハジアから追放された",
+      "context": "1992〜93年のアブハジア戦争および1998年の民兵衝突の結果、アブハジアに居住していたジョージア人（グルジア人）の大部分が難民・国内避難民となりました。推計では20万〜25万人が避難を余儀なくされたとされ、これはアブハジア人口の大幅な民族構成変化をもたらしました。国連難民高等弁務官事務所（UNHCR）はこれを国際的に認知された国内避難民（IDP）危機として記録しています。2008年以降もその多くは帰還できておらず、ジョージアはこれを民族浄化と主張しています。",
+      "verdict": "大規模避難は確認済み（規模の正確な数値に幅あり）",
+      "sources": [
+        {
+          "title": "UNHCR Georgia IDP statistics",
+          "url": "https://www.unhcr.org/georgia.html",
+          "publisher": "国連難民高等弁務官事務所",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gr-eumm",
+      "claim": "EU監視団（EUMM Georgia）は2008年10月に設立され、2024年現在も活動を継続している",
+      "context": "EU監視団ジョージア（EUMM Georgia）は2008年10月に設立された民間人による停戦監視ミッションです。南オセチア・アブハジアとの境界線（行政境界線、ABL）の監視、人権状況のモニタリング、信頼醸成措置の促進が主な任務です。ただしロシアはEUMMのアブハジア・南オセチア内への立入を許可していないため、ミッションはジョージア側（ABL外側）でのみ活動しています。これは停戦合意の実施における重大な制約となっています。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "EUMM Georgia official website",
+          "url": "https://www.eumm.eu/",
+          "publisher": "欧州連合",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

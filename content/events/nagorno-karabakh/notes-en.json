@@ -1,0 +1,75 @@
+{
+  "eventId": "nagorno-karabakh",
+  "notes": [
+    {
+      "id": "nk-unsc-resolutions",
+      "claim": "The UN Security Council adopted four resolutions in 1993 (822, 853, 874, 884) demanding Armenian withdrawal from Azerbaijani territory.",
+      "context": "The four UNSC resolutions adopted in 1993 all demanded the immediate withdrawal of Armenian forces and related groups from occupied Azerbaijani territories including Nagorno-Karabakh. Azerbaijan has consistently cited these resolutions as supporting its territorial claims under international law. Armenia argued that the resolutions did not fully resolve the issue of NK's ethnic status and that the 1994 ceasefire created a new baseline. None of the four resolutions were fully implemented for nearly three decades.",
+      "verdict": "Adoption of resolutions confirmed (implementation and interpretation disputed)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolutions 822, 853, 874, 884 (1993)",
+          "url": "https://undocs.org/S/RES/822(1993)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nk-1994-ceasefire",
+      "claim": "The May 1994 Bishkek Protocol ceasefire left Nagorno-Karabakh under Armenian de facto control for 26 years until 2020.",
+      "context": "The Bishkek Protocol, brokered by Russia in May 1994, ended the First Nagorno-Karabakh War. As a result, the Nagorno-Karabakh Republic (Artsakh), backed by Armenia, gained de facto control over approximately 20% of Azerbaijan's internationally recognized territory — NK proper plus seven surrounding districts. This situation was widely described as a 'frozen conflict.' NK's legal status remained unresolved under international law, with Azerbaijani sovereignty nominally maintained. The situation persisted for 26 years until the 2020 war.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "Bishkek Protocol (1994)",
+          "url": "https://peacemaker.un.org/azerbaijanarmenia-bishkekprotocol94",
+          "publisher": "UN Peacemaker",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nk-tb2-drones",
+      "claim": "In the 2020 44-day war, Azerbaijan made large-scale use of Turkish-made Bayraktar TB2 armed drones, decisively altering the battlefield.",
+      "context": "During the 44-day war (September–November 2020), Azerbaijani forces deployed Turkish-made Bayraktar TB2 armed UAVs extensively in combat. Precision strikes by these drones are widely credited with devastating Armenian armor and air defense systems, fundamentally shifting the military balance. Military analysts have cited this conflict as a landmark case study in drone warfare. The extent of Turkish involvement — including military advisors and intelligence support — remains disputed; Armenia alleged direct Turkish military participation, which Turkey denied.",
+      "verdict": "TB2 use confirmed (extent of Turkish involvement disputed)",
+      "sources": [
+        {
+          "title": "Nagorno-Karabakh conflict 2020: A military analysis",
+          "url": "https://www.iiss.org/",
+          "publisher": "International Institute for Strategic Studies (IISS)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "nk-2023-exodus",
+      "claim": "Azerbaijan's September 2023 military offensive lasted less than 24 hours and triggered the flight of over 100,000 ethnic Armenians from Nagorno-Karabakh.",
+      "context": "On September 19, 2023, Azerbaijan launched what it termed an 'anti-terrorist operation,' which NK forces accepted a ceasefire within hours. In the days that followed, virtually the entire ethnic Armenian population of NK — estimated at approximately 120,000 — fled to Armenia. International human rights organizations, Western governments, and the European Parliament described the mass displacement as ethnic cleansing or forced population transfer. The Azerbaijani government maintained it had invited NK Armenians to remain as Azerbaijani citizens.",
+      "verdict": "Military offensive and mass displacement confirmed (characterization as 'ethnic cleansing' disputed)",
+      "sources": [
+        {
+          "title": "UNHCR Nagorno-Karabakh situation report (2023)",
+          "url": "https://www.unhcr.org/",
+          "publisher": "United Nations High Commissioner for Refugees",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nk-dissolution",
+      "claim": "The Republic of Nagorno-Karabakh (Artsakh) was formally dissolved on October 1, 2023.",
+      "context": "Following the September 2023 offensive, NK Republic President Samvel Shahramanyan signed a dissolution decree on September 28, 2023, with the republic ceasing to exist on October 1. This ended the self-proclaimed state that had existed since its 1991 declaration of independence. The territory came under full Azerbaijani administrative control. While NK had never been recognized by any UN member state, its dissolution represented a historically significant geopolitical shift in the South Caucasus.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "Decree on dissolution of the Republic of Artsakh (September 28, 2023)",
+          "url": "https://www.president.nkr.am/",
+          "publisher": "Office of the President of the Nagorno-Karabakh Republic",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

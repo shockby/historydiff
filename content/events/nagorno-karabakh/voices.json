@@ -1,0 +1,100 @@
+{
+  "eventId": "nagorno-karabakh",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "nk-voice-1",
+      "country": {"ja": "アルメニア（ディアスポラ含む）", "en": "Armenia (incl. diaspora)", "zh": "亚美尼亚（含海外侨民）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "アルツァフはアルメニア人の血で築かれた土地だ。国際社会は見て見ぬふりをしてアゼルバイジャンによる民族浄化を許した。2023年の悲劇を絶対に忘れない。",
+        "en": "Artsakh was built with Armenian blood. The international community looked away and allowed ethnic cleansing by Azerbaijan. We will never forget the tragedy of 2023.",
+        "zh": "阿尔察赫是用亚美尼亚人的鲜血建立的。国际社会坐视阿塞拜疆实施种族清洗。我们永远不会忘记2023年的悲剧。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アルメニア本国およびフランス・米国・ロシアのアルメニア系ディアスポラのSNS（Twitter/X、Facebook）で広く見られる論調。2023年9月の大規模避難後に急増した。",
+        "en": "Widely expressed on social media by Armenians in Armenia and diaspora communities in France, the US, and Russia, particularly surging after the mass exodus of September 2023.",
+        "zh": "在亚美尼亚本国及法国、美国、俄罗斯亚美尼亚侨民社区的社交媒体（Twitter/X、Facebook）上广泛传播，2023年9月大规模撤离后急剧增加。"
+      },
+      "keywords": ["#ArtsakhGenocide", "#RecognizeArtsakh", "#NeverForget", "#ArmenianGenocide"],
+      "timeframe": "2020-2023"
+    },
+    {
+      "id": "nk-voice-2",
+      "country": {"ja": "アゼルバイジャン", "en": "Azerbaijan", "zh": "阿塞拜疆"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "カラバフはアゼルバイジャンだ！30年間の占領からついに解放された。これは侵略への正当な対応であり、勝利だ。領土保全は国際法が認める権利だ。",
+        "en": "Karabakh is Azerbaijan! After 30 years of occupation, we have finally achieved liberation. This is a legitimate response to aggression, and it is victory. Territorial integrity is a right recognized by international law.",
+        "zh": "卡拉巴赫是阿塞拜疆的！我们终于从30年的占领中解放出来。这是对侵略的正当回应，是胜利。领土完整是国际法认可的权利。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アゼルバイジャン国内のSNSで特に2020年・2023年の軍事的勝利後に爆発的に広がった論調。政府の公式ナラティブとも一致しており、国民的熱狂として現れた。",
+        "en": "Exploded across Azerbaijani social media, particularly after the military victories of 2020 and 2023, aligning closely with official government narratives and manifesting as nationwide celebration.",
+        "zh": "在阿塞拜疆国内社交媒体上广泛传播，尤其在2020年和2023年军事胜利后呈爆发式增长，与政府官方叙事高度吻合，体现为全国性的狂欢。"
+      },
+      "keywords": ["#KarabakhIsAzerbaijan", "#Victory", "#Liberation", "#IronFist"],
+      "timeframe": "2020-2023"
+    },
+    {
+      "id": "nk-voice-3",
+      "country": {"ja": "ナゴルノ・カラバフ（アルメニア系難民）", "en": "Nagorno-Karabakh (ethnic Armenian refugees)", "zh": "纳卡（亚美尼亚族难民）"},
+      "sentiment": "critical",
+      "summary": {
+        "ja": "私は数日で先祖代々の家を失った。荷物だけ持ってアルメニアに逃げた。何百年も続いた故郷が消えた。世界は沈黙し、私たちは見捨てられた。",
+        "en": "I lost my ancestral home within days. I fled to Armenia with only my belongings. A homeland of hundreds of years vanished. The world was silent, and we were abandoned.",
+        "zh": "我在几天之内失去了祖辈的家园。我只带着行李逃到了亚美尼亚。延续数百年的家乡消失了。世界沉默了，我们被遗弃了。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "2023年9月にアルメニアに避難したNK出身のアルメニア系住民の証言。国際メディアでも大きく取り上げられ、難民の声として世界的に注目を集めた。",
+        "en": "Testimonies from ethnic Armenian refugees who fled to Armenia in September 2023, widely covered by international media and drawing global attention.",
+        "zh": "2023年9月撤离至亚美尼亚的纳卡亚美尼亚族居民证词，被国际媒体广泛报道，在全球引发广泛关注。"
+      },
+      "keywords": ["#Artsakh", "#Refugees", "#Displacement", "#ArtsakhStrong"],
+      "timeframe": "2023"
+    },
+    {
+      "id": "nk-voice-4",
+      "country": {"ja": "欧米の人権・ジャーナリスト", "en": "Western human rights advocates / journalists", "zh": "西方人权人士/记者"},
+      "sentiment": "critical",
+      "summary": {
+        "ja": "アゼルバイジャンが行ったことは教科書的な民族浄化だ。国際社会はエネルギー利権のためにそれを見逃した。ICCはアリエフを調査すべきだ。",
+        "en": "What Azerbaijan did was textbook ethnic cleansing. The international community turned a blind eye for energy interests. The ICC should investigate Aliyev.",
+        "zh": "阿塞拜疆的所作所为是教科书式的种族清洗。国际社会为了能源利益对此视而不见。国际刑事法院应对阿利耶夫展开调查。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "HRW（ヒューマン・ライツ・ウォッチ）、国際特赦、欧州議会議員、英仏の調査報道記者らによる論評。英語圏のソーシャルメディアで2023年秋に急増。",
+        "en": "Commentary by HRW, Amnesty International, MEPs, and investigative journalists in the UK and France, surging on English-language social media in autumn 2023.",
+        "zh": "人权观察、国际特赦组织、欧洲议会议员及英法调查记者的评论，2023年秋季在英语社交媒体上急剧增加。"
+      },
+      "keywords": ["#EthnicCleansing", "#Artsakh", "#HumanRights", "#ICCArtsakh"],
+      "timeframe": "2023"
+    },
+    {
+      "id": "nk-voice-5",
+      "country": {"ja": "ロシア（メディア・コメンタリー）", "en": "Russia (media commentary)", "zh": "俄罗斯（媒体评论）"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "ロシアの平和維持軍は最善を尽くした。しかしアルメニアがEUや米国に接近しようとした結果、カラバフでの立場が弱まった。これは西側の干渉が招いた悲劇だ。",
+        "en": "Russia's peacekeepers did their best. But as Armenia tried to pivot toward the EU and US, its position in Karabakh weakened. This is a tragedy brought about by Western interference.",
+        "zh": "俄罗斯维和人员已尽力而为。但随着亚美尼亚试图向欧盟和美国靠拢，其在卡拉巴赫的立场不断削弱。这是西方干涉所造成的悲剧。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ロシア国内メディア（RT・タス通信・Telegram系チャンネル）で見られる論調。2022年ウクライナ侵攻後にアルメニアがロシア離れを加速させた文脈で、ロシアの責任回避を正当化する論理として使われた。",
+        "en": "A narrative prevalent in Russian media (RT, TASS, Telegram channels), used to deflect Russian responsibility in the context of Armenia's post-2022 drift away from Moscow.",
+        "zh": "在俄罗斯媒体（今日俄罗斯、塔斯社、Telegram频道）中普遍存在的叙事，在2022年后亚美尼亚加速脱离莫斯科的背景下，被用来为俄罗斯推卸责任提供理由。"
+      },
+      "keywords": ["#Karabakh", "#Russia", "#Peacekeepers", "#NATOThreat"],
+      "timeframe": "2022-2023"
+    }
+  ]
+}

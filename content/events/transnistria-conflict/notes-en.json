@@ -1,0 +1,75 @@
+{
+  "eventId": "transnistria-conflict",
+  "notes": [
+    {
+      "id": "tc-1992-war",
+      "claim": "During the 1992 war, Russia's 14th Army under General Lebed effectively intervened on behalf of the PMR, leading to a ceasefire on July 21, 1992.",
+      "context": "During fighting between Moldovan government forces and PMR paramilitaries from March to June 1992, Russia's 14th Army effectively sided with the PMR, with heavy weapons and ammunition flowing to PMR militias. After General Alexander Lebed took command, the intervention became more overt. The July 21, 1992 ceasefire agreement established the Joint Control Commission (JCC) involving Russia, Moldova, and Transnistria. This ceasefire consolidated the PMR's de facto independence.",
+      "verdict": "Russian military involvement and ceasefire confirmed (character and extent of intervention disputed)",
+      "sources": [
+        {
+          "title": "Ceasefire Agreement on the Conflict in the Dniester Region of the Republic of Moldova (1992)",
+          "url": "https://peacemaker.un.org/moldova-transnistria-ceasefire92",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-unrecognized",
+      "claim": "Transnistria (PMR) has not been recognized by any UN member state.",
+      "context": "Having declared autonomy within the Soviet Union in September 1990 and full independence in December 1991, Transnistria remains unrecognized by all 193 UN member states as of 2024. Even Russia, which nominally supports Moldova's territorial integrity, has not formally recognized the PMR — while simultaneously issuing Russian passports to PMR residents, stationing troops there, and providing economic subsidies that sustain the entity.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "United Nations Member States list",
+          "url": "https://www.un.org/en/about-us/member-states",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-ogrf-withdrawal",
+      "claim": "The OSCE demanded Russian troop withdrawal from Transnistria at the 1999 Istanbul Summit; Russia has not complied.",
+      "context": "The 1999 OSCE Istanbul Summit document committed Russia to withdrawing its Operational Group of Russian Forces (OGRF) and military equipment from Transnistria by end-2002. The OGRF — approximately 1,500 troops — remains deployed as of 2024. Russia has linked its withdrawal to a political settlement of the Transnistrian conflict, maintaining custody of significant Soviet-era weapons and ammunition stockpiles at the Cobasna depot. The OSCE has repeatedly criticized Russia's non-compliance.",
+      "verdict": "OSCE demand and non-compliance confirmed",
+      "sources": [
+        {
+          "title": "OSCE Istanbul Document 1999",
+          "url": "https://www.osce.org/mc/39569",
+          "publisher": "OSCE",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-5plus2",
+      "claim": "The 5+2 negotiations (Moldova, PMR, Russia, Ukraine, OSCE with EU and U.S. as observers) have been effectively stalled since 2019.",
+      "context": "The 5+2 format, revived in the 2010s with some progress including the 2016 Berlin Measures, has been effectively frozen since 2019. The PMR has refused to engage on political status discussions, and Russia's 2022 invasion of Ukraine further complicated the negotiating environment. The EU and Moldova have advocated a step-by-step approach prioritizing confidence-building measures over resolving fundamental status issues, with no near-term resolution in sight.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "OSCE Mission to Moldova: 5+2 Process",
+          "url": "https://www.osce.org/mission-to-moldova",
+          "publisher": "OSCE",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-energy-crisis",
+      "claim": "In early 2025, Transnistria faced a severe energy crisis after Ukraine halted the transit of Russian gas.",
+      "context": "The Ukraine-Russia gas transit agreement expired at the end of 2024, and Ukraine declined to renew it, cutting off Russian gas supplies to Transnistria from January 2025. The Cuciurgan power plant, which had supplied approximately 70–80% of Moldova's electricity from Transnistria on subsidized Russian gas, was forced to reduce or halt operations, causing severe heating and electricity shortages across the PMR. This crisis exposed the structural vulnerability of Transnistria's economic model, which depended on heavily subsidized Russian energy.",
+      "verdict": "Energy crisis confirmed (ongoing impact varies)",
+      "sources": [
+        {
+          "title": "European Parliament Research Service: Transnistria energy crisis 2025",
+          "url": "https://www.europarl.europa.eu/",
+          "publisher": "European Parliament",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

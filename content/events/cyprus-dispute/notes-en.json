@@ -1,0 +1,75 @@
+{
+  "eventId": "cyprus-dispute",
+  "notes": [
+    {
+      "id": "cd-treaty-guarantee",
+      "claim": "Turkey invokes Article IV of the 1960 Treaty of Guarantee as the legal basis for its 1974 military intervention in Cyprus.",
+      "context": "Article IV of the 1960 Treaty of Guarantee, signed by the UK, Greece, Turkey, and Cyprus as guarantor powers of Cypriot independence, is interpreted by Turkey as authorizing unilateral action when tripartite consultations fail. Turkey argues it conducted consultations with the UK and Greece before acting alone. Greece, Cyprus, and most international legal scholars counter that the article does not authorize occupation, territorial changes, or population transfer, and that Turkey's interpretation exceeds the treaty's scope. The ICJ has not issued a direct ruling on the legality of Turkey's 1974 intervention.",
+      "verdict": "Treaty existence confirmed (fundamental legal dispute over interpretation of Article IV)",
+      "sources": [
+        {
+          "title": "Treaty of Guarantee (1960)",
+          "url": "https://peacemaker.un.org/cyprus-treatyguarantee60",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cd-resolution-541",
+      "claim": "UN Security Council Resolution 541 (1983) declared the TRNC's declaration of independence legally invalid.",
+      "context": "On November 18, 1983 — three days after the TRNC's declaration of independence on November 15 — the UN Security Council adopted Resolution 541, declaring the declaration 'legally invalid' and calling for its withdrawal. Resolution 550 (1984) further condemned attempts to establish exchange of ambassadors with the TRNC. These resolutions form the international legal basis for the non-recognition of the TRNC. Only Turkey recognizes the TRNC as of 2024.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 541 (1983)",
+          "url": "https://undocs.org/S/RES/541(1983)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cd-displacement",
+      "claim": "Approximately 160,000–200,000 Greek Cypriots fled or were expelled from northern Cyprus, while approximately 45,000 Turkish Cypriots moved from south to north, following Turkey's 1974 military intervention.",
+      "context": "Turkey's military operation triggered massive population displacement on both sides of what became the Green Line. Estimates suggest that between 160,000 and 200,000 Greek Cypriots were displaced from the north, and approximately 40,000–45,000 Turkish Cypriots moved to the north. This effectively separated the island along ethnic lines. The property rights of displaced persons remain one of the most contentious issues in reunification talks. The European Court of Human Rights (ECHR) has issued multiple judgments against Turkey for violations of property rights of Greek Cypriot displaced persons.",
+      "verdict": "Mass displacement confirmed (precise scale varies; attribution disputed)",
+      "sources": [
+        {
+          "title": "UNHCR Cyprus displacement records",
+          "url": "https://www.unhcr.org/",
+          "publisher": "UNHCR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cd-annan-plan",
+      "claim": "In the 2004 Annan Plan referendum, 64.9% of Turkish Cypriots voted yes while 75.8% of Greek Cypriots voted no.",
+      "context": "Simultaneous referendums on the UN Secretary-General's Annan Plan for Cyprus reunification were held on April 24, 2004. Turkish Cypriots approved it 64.9% to 35.1%, while Greek Cypriots rejected it 75.8% to 24.2%. Greek Cypriot objections centered on: the continued presence of Turkish military forces (up to 45,000 troops), the status of settlers from mainland Turkey (estimated at 80,000–160,000), inadequate property compensation, and weak security guarantees. Cyprus acceded to the EU on May 1, 2004 — with the northern part excluded from the acquis communautaire — regardless of the referendum outcome.",
+      "verdict": "Referendum results confirmed",
+      "sources": [
+        {
+          "title": "Annan Plan for Cyprus (2004)",
+          "url": "https://peacemaker.un.org/cyprus-annanplan2004",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cd-trnc-recognition",
+      "claim": "Only Turkey recognizes the TRNC as an independent state.",
+      "context": "Since the TRNC's declaration of independence in 1983, only Turkey has formally recognized it as an independent state. Pakistan has expressed sympathy but has not extended formal recognition. The vast majority of the international community treats northern Cyprus as Cypriot territory under Turkish occupation. The EU treats the TRNC territory as part of the Republic of Cyprus, with the EU acquis communautaire suspended in the north pending reunification.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "Republic of Cyprus official position on non-recognition of TRNC",
+          "url": "https://www.mfa.gov.cy/",
+          "publisher": "Ministry of Foreign Affairs of the Republic of Cyprus",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

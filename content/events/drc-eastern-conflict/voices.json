@@ -1,0 +1,105 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "drc-voice-1",
+      "country": {
+        "ja": "コンゴ民主共和国市民・主権擁護層",
+        "en": "DRC citizens & sovereignty advocates"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ルワンダによるM23反乱軍への武器供与と軍事介入は明白な国家主権の侵害であり、我が国のコルタンや金を強奪するための資源侵略だ。国際社会はルワンダに対し断固たる制裁を発動すべきだ。",
+        "en": "Rwanda's financing and arming of the M23 terrorists is a direct act of territorial aggression designed to plunder our coltan, gold, and mineral wealth. The world must impose harsh sanctions on Kigali immediately."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "首都キンシャサや東部諸都市で広がる強い反ルワンダ抗議行動と、国家主権の死守を訴える世論。",
+        "en": "Widespread popular demonstrations across Kinshasa and eastern cities demanding an end to external aggression."
+      },
+      "keywords": [
+        "#RwandaIsKilling",
+        "#FreeCongo",
+        "#StopGenocideInCongo",
+        "#CongoIsBleeding"
+      ],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "drc-voice-2",
+      "country": {
+        "ja": "ルワンダ政府支持層・ツチ系保護擁護派",
+        "en": "Rwandan supporters & Tutsi protection advocates"
+      },
+      "sentiment": "security-focused",
+      "summary": {
+        "ja": "コンゴ軍は1994年のルワンダ虐殺を実行した過激派FDLRと結託してツチ系住民を迫害している。ルワンダ自国の安全保障と国境沿いの同胞を守る自衛の権利は不可欠である。",
+        "en": "The DRC military openly colludes with genocidal FDLR terrorists who target Congolese Tutsis and threaten Rwanda's borders. Rwanda has a legitimate duty to ensure its national security and protect vulnerable ethnic communities."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "1994年のジェノサイドの記憶と、FDLRの残存に対するルワンダ社会の深い安全保障上の警戒感。",
+        "en": "Deep-seated trauma from the 1994 genocide driving security doctrine against anti-Tutsi militias in eastern DRC."
+      },
+      "keywords": [
+        "#StopFDLR",
+        "#RwandaSecurity",
+        "#ProtectBanyamulenge",
+        "#NeverAgain"
+      ],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "drc-voice-3",
+      "country": {
+        "ja": "北キヴ州ゴマ近郊の国内避難民・一般市民",
+        "en": "Internally displaced persons & eastern DRC residents"
+      },
+      "sentiment": "humanitarian-plea",
+      "summary": {
+        "ja": "30年もの間、政治家や武装勢力の都合で故郷を焼かれ、難民キャンプで飢えと病魔、暴力に怯え続けている。私たちは政治の道具ではなく人間だ。ただ平和に畑を耕し、子どもを学校に通わせたい。",
+        "en": "For 30 years we have been displaced from our homes, living in makeshift camps amidst starvation, disease, and constant rape. We are human beings, not bargaining chips for warlords and politicians. We just want peace."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "数百万人におよぶ避難民キャンプで極限状態を生き抜く現地住民の悲痛な叫び。",
+        "en": "Overwhelming cries of millions surviving in destitute displacement camps around Goma and Beni."
+      },
+      "keywords": [
+        "#GomaNeedsPeace",
+        "#VoicesFromKivu",
+        "#HumanitarianCrisisDRC",
+        "#EndTheWar"
+      ],
+      "timeframe": "1996-present"
+    },
+    {
+      "id": "drc-voice-4",
+      "country": {
+        "ja": "国際市民社会・エシカル消費運動",
+        "en": "Global civil society & ethical supply chain advocates"
+      },
+      "sentiment": "activist",
+      "summary": {
+        "ja": "ハイテク大手やEVメーカーはコンゴの紛争鉱物で巨利を得ている。消費者はサプライチェーンの真実を知り、血塗られたコルタンやコバルトの徹底的な追跡とクリーンな調達を企業に義務付けるべきだ。",
+        "en": "Global tech corporations generate trillions using minerals extracted through slave labor and armed violence in DRC. Consumers must demand radical supply chain transparency to end the era of conflict minerals."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "スマートフォンや電気自動車の普及に伴い高まるエシカル調達と人権デューディリジェンスへの関心。",
+        "en": "Growing international movement pressuring multinational electronics and automotive giants for ethical mineral sourcing."
+      },
+      "keywords": [
+        "#ConflictFreeMinerals",
+        "#CleanColtan",
+        "#SupplyChainEthics",
+        "#BloodBatteries"
+      ],
+      "timeframe": "2010-present"
+    }
+  ]
+}

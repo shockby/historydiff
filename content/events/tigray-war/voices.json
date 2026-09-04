@@ -1,0 +1,104 @@
+{
+  "eventId": "tigray-war",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "tw-voice-1",
+      "country": {
+        "ja": "ティグレ住民・自治擁護層",
+        "en": "Tigrayan citizens & regional autonomy advocates"
+      },
+      "sentiment": "victimhood-resistance",
+      "summary": {
+        "ja": "連邦政府とエリトリア軍によるティグレ包囲網は、明らかな民族虐殺（ジェノサイド）作戦だった。食料も薬も電話も断たれ、親族が空爆や飢えで死んでいった。プレトリア合意後もエリトリア軍の完全撤退と正義の実現を強く求める。",
+        "en": "The federal siege and Eritrean troop invasion amounted to deliberate genocide against the people of Tigray. Cutting off food, medicine, and communications while bombing civilians was barbaric. We demand full Eritrean withdrawal and accountability for war crimes."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "世界中のティグレ系ディアスポラや現地住民による人道封鎖解除と戦争犯罪責任追及の訴え。",
+        "en": "Global Tigrayan diaspora mobilization demanding justice, humanitarian access, and international investigations."
+      },
+      "keywords": [
+        "#TigrayGenocide",
+        "#AllowAccessToTigray",
+        "#EritreaOutOfTigray",
+        "#JusticeForAxum"
+      ],
+      "timeframe": "2020-present"
+    },
+    {
+      "id": "tw-voice-2",
+      "country": {
+        "ja": "エチオピア連邦政府支持派・統一擁護層",
+        "en": "Ethiopian federal supporters & unionists"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "TPLFは27年間にわたり国を専制支配し、国家分裂を企てて連邦軍基地を夜襲した軍事テロ組織だ。アビィ首相の作戦は国家の主権と法秩序を守る正当な防衛行動であり、外国勢力の不当な内政干渉を許してはならない。",
+        "en": "The TPLF ruled Ethiopia brutally for 27 years and treasonously assaulted federal soldiers in their sleep to seize power. Prime Minister Abiy acted constitutionally to preserve our 3,000-year-old nation. Western interference against Ethiopia must stop."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アディスアベバやアムハラ州、オロミア州などの連邦支持層による反TPLF感情と国家統合の支持。",
+        "en": "Strong pan-Ethiopian nationalist mobilization resisting foreign diplomatic pressure and defending state sovereignty."
+      },
+      "keywords": [
+        "#NoMore",
+        "#StandWithEthiopia",
+        "#DefendEthiopia",
+        "#TPLFTerroristGroup"
+      ],
+      "timeframe": "2020-present"
+    },
+    {
+      "id": "tw-voice-3",
+      "country": {
+        "ja": "エリトリア国民・反TPLF世論",
+        "en": "Eritrean citizens & anti-TPLF diaspora"
+      },
+      "sentiment": "security-focused",
+      "summary": {
+        "ja": "TPLF指導部は1998〜2000年のバダメ国境戦争以来、20年間にわたりエリトリアを武力で脅かし国際仲裁裁定の履行を拒んできた。アスマラへのロケット弾攻撃を仕掛けたTPLFを無力化することは、エリトリアの自衛権である。",
+        "en": "The TPLF occupied sovereign Eritrean lands for two decades in violation of the 2002 boundary ruling and fired ballistic missiles at Asmara. Neutralizing this hostile threat was a legitimate act of national defense."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "長年の国境紛争とTPLFに対するエリトリア社会の強い警戒感と報復的感情。",
+        "en": "Eritrean historical grievances rooted in the devastating 1998–2000 border war and TPLF's refusal to cede Badme."
+      },
+      "keywords": [
+        "#EritreaPrevails",
+        "#TPLFDefeated",
+        "#PeaceForHornOfAfrica"
+      ],
+      "timeframe": "2020-2022"
+    },
+    {
+      "id": "tw-voice-4",
+      "country": {
+        "ja": "国際人道援助関係者・平和活動家",
+        "en": "International humanitarian workers & peace advocates"
+      },
+      "sentiment": "neutral-humanitarian",
+      "summary": {
+        "ja": "政治的駆け引きの犠牲になったのは、数十万人の何の罪もない子どもや民間人だ。双方が重大な戦争犯罪に関与した。プレトリア合意が形式的な停戦にとどまらず、人道復興と移行期正義の確実な履行につながることを望む。",
+        "en": "Hundreds of thousands of innocent civilians starved while leaders fought over power. Atrocities were committed on all sides. The Pretoria accord must deliver actual disarmament, unfettered aid, and transitional justice, not just paper promises."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "国際NGOや国連人道機関による人命優先と恒久的平和構築の呼びかけ。",
+        "en": "Global humanitarian outcry demanding accountability, rapid reconstruction, and healing of ethnic divisions."
+      },
+      "keywords": [
+        "#PretoriaAgreement",
+        "#AidForTigray",
+        "#HumanRightsFirst",
+        "#PeaceInEthiopia"
+      ],
+      "timeframe": "2022-present"
+    }
+  ]
+}

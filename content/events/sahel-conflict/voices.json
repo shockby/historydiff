@@ -1,0 +1,105 @@
+{
+  "eventId": "sahel-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "sahel-voice-1",
+      "country": {
+        "ja": "サヘル諸国軍事政権支持層・汎アフリカ主義世論",
+        "en": "AES junta supporters & Pan-Africanist youth"
+      },
+      "sentiment": "anti-imperialist",
+      "summary": {
+        "ja": "フランス軍は10年駐留してもテロリストを掃討せず、自国のウランや金を略奪し続けた。旧宗主国の支配を断ち切り、ロシアと連携して自国の主権を奪還した我々の指導者を誇りに思う。アフリカはアフリカ人のものだ。",
+        "en": "France occupied our land for a decade under the guise of fighting terrorism while pillaging our resources. Expelling French forces and partnering with Russia represents true sovereign independence for the Sahel. Africa belongs to Africans."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "バマコ、ワガドゥグ、ニアメで爆発的に拡大した反仏デモと、軍政指導者への熱狂的支持。",
+        "en": "Surging anti-French, pro-sovereignty mass mobilizations across capital cities celebrating the AES alliance."
+      },
+      "keywords": [
+        "#FranceDégage",
+        "#ViveAES",
+        "#SovereignSahel",
+        "#RussiaAfrica"
+      ],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "sahel-voice-2",
+      "country": {
+        "ja": "フランスおよび欧米外交・人権監視世論",
+        "en": "French & Western diplomatic/human rights observers"
+      },
+      "sentiment": "critical-alarmist",
+      "summary": {
+        "ja": "軍事政権は民主主義と立憲秩序を破壊し、フランス軍を追い出してロシアの残虐な傭兵ワグネルを招き入れた。ムラ虐殺のように民間人を虐殺し、かえって過激派を勢いづかせている。サヘルは専制と混乱の泥沼へ向かっている。",
+        "en": "Military putschists overthrew elected governments only to invite Russian Wagner mercenaries who slaughter innocent villagers. By destroying democratic institutions, they are worsening instability and accelerating jihadist expansion."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "欧米主要メディアや人権団体による民主主義の後退とロシア軍事介入への強い危機感。",
+        "en": "Western political discourse emphasizing democratic erosion, Wagner human rights atrocities, and geopolitical manipulation."
+      },
+      "keywords": [
+        "#SahelDemocracy",
+        "#WagnerAtrocities",
+        "#ConstitutionalOrder",
+        "#HumanRightsSahel"
+      ],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "sahel-voice-3",
+      "country": {
+        "ja": "サヘル地域農村住民・国内避難民",
+        "en": "Sahelian rural civilians & displaced families"
+      },
+      "sentiment": "survival-despair",
+      "summary": {
+        "ja": "過激派に村を焼かれ、家族を殺され、軍や民兵からも疑われて追われる。フランスもロシアも政治家も関係ない。私たちに必要なのは銃ではなく、子どもたちが通える学校と、安心して畑を耕せる安全な日常だけだ。",
+        "en": "We are trapped between jihadist massacres and military reprisals. Neither French troops nor Russian mercenaries have brought security to our villages. We just want our children back in school and the peace to farm our fields."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "戦闘と略奪に晒され続けるリプタコ・グルマ地域などの極限状態にある一般住民の声。",
+        "en": "Exhausted voices of millions displaced across rural Mali, Burkina Faso, and Niger enduring acute insecurity."
+      },
+      "keywords": [
+        "#SahelCivilians",
+        "#EndSahelViolence",
+        "#SafeVillages",
+        "#ProtectOurSchools"
+      ],
+      "timeframe": "2015-present"
+    },
+    {
+      "id": "sahel-voice-4",
+      "country": {
+        "ja": "西アフリカ諸国経済共同体（ECOWAS）民主派世論",
+        "en": "ECOWAS democratic supporters & regional integrationists"
+      },
+      "sentiment": "pro-integration",
+      "summary": {
+        "ja": "軍事政権が制裁を理由にECOWASを離脱したことは、西アフリカの地域統合と自由移動の成果を半世紀逆行させる暴挙だ。国境を越えるテロリズムに対処するには、地域全体の連帯と民主的統治の回復が不可欠である。",
+        "en": "The military juntas' decision to rupture ECOWAS shatters 50 years of West African regional integration and economic freedom. Countering cross-border terrorism requires unified regional solidarity, not isolated military dictatorships."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "ガーナ、セネガル、ナイジェリアなど西アフリカ民主国家における地域統合防衛の立場。",
+        "en": "Regional perspective defending constitutional norms and warning against the fragmentation of West Africa."
+      },
+      "keywords": [
+        "#SaveECOWAS",
+        "#WestAfricaUnited",
+        "#DemocraticSahel",
+        "#RegionalIntegration"
+      ],
+      "timeframe": "2023-present"
+    }
+  ]
+}

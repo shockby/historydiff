@@ -1,0 +1,33 @@
+{
+  "eventId": "sahel-conflict",
+  "photos": [
+    {
+      "id": "minusma-camp-ber-mali",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sahel-conflict/minusma-camp-ber-mali.jpg",
+      "caption": {
+        "ja": "マリ北部ベール（Ber）に展開していた国連マリ多次元統合安定化ミッション（MINUSMA）の宿営地。過激派掃討と停戦監視のため2013年に創設され1万人以上の要員を擁したが、相次ぐ死傷者と軍事政権による撤退要求を受け、2023年末に完全撤退を余儀なくされた。",
+        "en": "Camp of the United Nations Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) in Ber, northern Mali. Established in 2013 to counter extremist insurgencies and monitor peace accords, the mission suffered over 300 fatalities before being forced into an expedited, full withdrawal in late 2023 at the demand of Mali's military junta."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Camp MINUSMA Ber (Mali) 2017.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Camp_MINUSMA_Ber_(Mali)_2017.jpg",
+        "license": "CC BY 3.0",
+        "author": "UN Human Rights"
+      }
+    },
+    {
+      "id": "sahel-region-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/sahel-conflict/sahel-region-map.png",
+      "caption": {
+        "ja": "サハラ砂漠南縁に広がるサヘル地域の広域地図。マリ、ブルキナファソ、ニジェールの国境地帯（リプタコ・グルマ地域）を中心に、アルカイダ系（JNIM）やIS系（ISGS）過激派が跋扈し、相次ぐ軍事クーデターとサヘル諸国連合（AES）の結成へと発展した。",
+        "en": "Regional map of the Sahel belt stretching south of the Sahara Desert. Centered on the volatile tri-border Liptako-Gourma region between Mali, Burkina Faso, and Niger, the area has witnessed devastating insurgencies by al-Qaeda (JNIM) and Islamic State affiliates (ISGS), triggering successive military coups and the creation of the Alliance of Sahel States (AES)."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Sahel map.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Sahel_map.png",
+        "license": "CC BY 4.0",
+        "author": "Mr DSeven"
+      }
+    }
+  ]
+}

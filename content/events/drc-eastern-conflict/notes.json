@@ -1,0 +1,105 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "notes": [
+    {
+      "id": "drc-1994-genocide-aftermath",
+      "claim": "1994年のルワンダ虐殺後の難民流入が、コンゴ東部における長期紛争の直接の引き金となった",
+      "context": "1994年7月のルワンダ虐殺終息後、旧ルワンダ軍（FAR）や過激派民兵（インテラハムウェ）を含む100万人以上のフツ系難民が旧ザイール東部（現コンゴ民主共和国北キヴ州・南キヴ州）に越境・流入した。これを追撃・掃討するルワンダ新政権軍（RPF）の越境侵攻がモブツ政権崩壊を招く第一次コンゴ戦争（1996-1997年）を引き起こし、さらに周辺8カ国が介入した第二次コンゴ戦争（1998-2003年、「アフリカの大戦」）へと連鎖した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "UNHCR - The Rwandan Genocide and its Aftermath in Zaire/DRC",
+          "url": "https://www.unhcr.org/publications/operations/3ebf9bb60/state-worlds-refugees-2000-fifty-years-humanitarian-action-chapter-10-ruanda.html",
+          "publisher": "国連難民高等弁務官事務所（UNHCR）",
+          "type": "international"
+        },
+        {
+          "title": "Report of the Mapping Exercise documenting human rights violations in the DRC 1993-2003",
+          "url": "https://www.ohchr.org/en/countries/africa-region/democratic-republic-congo/mapping-exercise-1993-2003",
+          "publisher": "国連人権高等弁務官事務所（OHCHR）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-m23-rwanda-support",
+      "claim": "国連専門家パネルは、ルワンダ国防軍がM23反乱軍に対して直接的な軍事支援や共同作戦を行っていると報告している",
+      "context": "国連安全保障理事会のコンゴ民主共和国制裁委員会専門家グループ報告書（S/2023/431、S/2024/432など）は、ルワンダ国防軍（RDF）が北キヴ州内でM23反乱軍に対して武器・弾薬の供給、防衛装備の提供、兵士の共同展開や軍事指揮の支援を行っている確固たる証拠を提示している。ルワンダ政府はこれらを一貫して公式否定する一方、コンゴ国軍と連携するルワンダ解放民主勢力（FDLR）の存在が自国の生存に対する脅威であると反論している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Final report of the Group of Experts on the Democratic Republic of the Congo (S/2024/432)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1533/panel_experts/reports",
+          "publisher": "国際連合安全保障理事会（UN Security Council）",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch - DRC: Rwandan Military Aiding M23 Rebels",
+          "url": "https://www.hrw.org/news/2023/02/06/dr-congo-m23-rebels-backed-rwanda",
+          "publisher": "ヒューマン・ライツ・ウォッチ",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "drc-conflict-minerals-coltan",
+      "claim": "コンゴ東部のコルタンや金などの鉱物資源の違法採掘と密輸が、武装勢力の主要な資金源となっている",
+      "context": "コンゴ東部はスマートフォンや電子機器に不可欠なタンタル（コルタンから精錬）の世界供給の大部分を産出し、金、錫、タングステン、コバルトなどの世界的産地でもある。武装勢力（M23、FDLR、現地マイマイ民兵等）や腐敗した軍高官は鉱山を占拠・支配し、不法課税や近隣国（ルワンダ、ウガンダ等）経由の密輸を通じて莫大な利益を得て軍備を強化している。国際社会はOECDデューディリジェンスガイドラインや米国ドッド・フランク法1502条で規制を試みているが根絶には至っていない。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+          "url": "https://www.oecd.org/daf/inv/mne/mining.htm",
+          "publisher": "経済協力開発機構（OECD）",
+          "type": "international"
+        },
+        {
+          "title": "United States SEC - Dodd-Frank Section 1502 Conflict Minerals Rule",
+          "url": "https://www.sec.gov/spotlight/dodd-frank/corporatereporting.shtml",
+          "publisher": "米国証券取引委員会（SEC）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "drc-monusco-peacekeeping",
+      "claim": "国連コンゴ安定化ミッション（MONUSCO）は国連最大規模のPKO部隊として展開したが、治安回復の遅れから撤退計画が進められている",
+      "context": "1999年に安保理決議1291で設立されたMONUC（2010年にMONUSCOへ改組）は、ピーク時に2万人近い要員を擁し、2013年には国連史上初の攻勢任務を持つ「強制介入旅団（FIB）」を編成した。しかし、長年にわたり武装勢力の虐殺を阻止できなかったことに対する現地住民の抗議デモや暴動が激化し、DRC政府の強い要請を受けて2023年12月の安保理決議2717により段階的撤退が承認され、2024年より撤退プロセスが進行している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2717 (2023) on MONUSCO mandate drawdown",
+          "url": "https://undocs.org/S/RES/2717(2023)",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        },
+        {
+          "title": "MONUSCO - Mission Profile and Phased Drawdown",
+          "url": "https://monusco.unmissions.org/en",
+          "publisher": "国際連合平和維持活動（UN PKO）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-humanitarian-crisis-displacement",
+      "claim": "コンゴ民主共和国では東部紛争により700万人以上の国内避難民が発生し、世界有数の深刻な人道危機に直面している",
+      "context": "国際移住機関（IOM）および国連人道問題調整事務所（OCHA）の統計によれば、コンゴ民主共和国における国内避難民（IDP）数は700万人を超え、その大半が北キヴ州・南キヴ州・イトゥリ州に集中している。急性栄養失調、コレラの大流行、医療機関や学校の機能停止に加え、交戦勢力による広範かつ組織的な性暴力（戦争の武器としてのレイプ）が重大な人権侵害として国連等から告発されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "IOM DRC Crisis Response Plan - Record 7 Million Displaced",
+          "url": "https://crisisresponse.iom.int/response/democratic-republic-congo-crisis-response-plan-2024",
+          "publisher": "国際移住機関（IOM）",
+          "type": "international"
+        },
+        {
+          "title": "UN OCHA - Democratic Republic of the Congo Humanitarian Needs Overview",
+          "url": "https://www.unocha.org/democratic-republic-congo",
+          "publisher": "国際連合人道問題調整事務所（OCHA）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

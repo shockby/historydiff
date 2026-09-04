@@ -1,0 +1,33 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "photos": [
+    {
+      "id": "monusco-patrol-goma",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/drc-eastern-conflict/monusco-patrol-goma.jpg",
+      "caption": {
+        "ja": "コンゴ東部北キヴ州ゴマ近郊を展開・巡回する国連コンゴ安定化ミッション（MONUSCO）部隊。1999年のMONUC設立以来、国連最大規模の平和維持部隊として治安維持や文民保護に当たってきたが、武装勢力の跋扈を阻止できず現地社会の不満が高まり、段階的撤退が進められている。",
+        "en": "United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) peacekeepers patrolling near Goma in North Kivu. Established originally as MONUC in 1999, it grew into one of the largest UN peacekeeping missions to protect civilians, but faced mounting local frustration over chronic insecurity, prompting phased drawdown plans."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (8229521146).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:United_Nations_Organization_Stabilization_Mission_in_the_Democratic_Republic_of_the_Congo_(8229521146).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "MONUSCO Photos"
+      }
+    },
+    {
+      "id": "rubaya-coltan-mine-drc",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/drc-eastern-conflict/rubaya-coltan-mine-drc.jpg",
+      "caption": {
+        "ja": "北キヴ州ルバヤのコルタン（タンタル原鉱）鉱山を視察する国連代表団。コンゴ東部は世界のタンタル供給の過半を占める世界屈指の鉱物埋蔵地帯であり、武装勢力や周辺国による違法採掘・密輸が紛争の最大の資金源となっている。",
+        "en": "A UN delegation visiting the Rubaya coltan (tantalum ore) artisanal mine in North Kivu. Eastern DRC accounts for a major share of global tantalum supplies, where illicit extraction, smuggling, and military taxation of critical minerals constitute primary revenue sources driving perpetual armed conflict."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:SRSG visits coltan mine in Rubaya (13406579753).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:SRSG_visits_coltan_mine_in_Rubaya_(13406579753).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "MONUSCO Photos"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "eventId": "tigray-war",
+  "notes": [
+    {
+      "id": "tw-2020-outbreak",
+      "claim": "The war erupted in November 2020 after TPLF forces executed pre-emptive assaults on federal Northern Command bases",
+      "context": "Following the postponement of national elections by the federal government due to COVID-19, the Tigray regional administration dominated by the TPLF defiantly held unilateral regional polls in September 2020, leading both sides to declare each other illegitimate. On the night of November 3–4, 2020, TPLF special forces attacked federal army bases belonging to the Northern Command in Mekelle and seized heavy armaments, prompting Prime Minister Abiy Ahmed to declare a state of emergency and launch a military offensive termed the 'Law Enforcement Operation.'",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "Federal Democratic Republic of Ethiopia - Address by PM Abiy Ahmed on Northern Command attacks",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "Prime Minister's Office of Ethiopia",
+          "type": "government"
+        },
+        {
+          "title": "International Crisis Group - Clashes over Ethiopia's Tigray Region",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/ethiopia/clashes-over-ethiopias-tigray-region",
+          "publisher": "International Crisis Group",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-eritrean-intervention",
+      "claim": "Eritrean forces intervened alongside Ethiopian federal troops in Tigray, committing widespread atrocities against civilians",
+      "context": "Capitalizing on the 2018 historic rapprochement between Abiy Ahmed and President Isaias Afwerki, the Eritrean Defence Forces (EDF) crossed the border to invade Tigray from the north. Comprehensive joint investigations by the UN Office of the High Commissioner for Human Rights (OHCHR) and the Ethiopian Human Rights Commission, as well as Amnesty International, documented horrific war crimes perpetrated by Eritrean units, including the mass slaughter of hundreds of unarmed civilians in the historic city of Axum. While initially denied by both capitals, Abiy publicly confirmed Eritrean troop deployments in March 2021.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Report of the EHRC/OHCHR Joint Investigation into alleged violations in Tigray",
+          "url": "https://www.ohchr.org/en/documents/country-reports/report-ehrc-and-ohchr-joint-investigation-human-rights-violations-tigray",
+          "publisher": "UN OHCHR / Ethiopian Human Rights Commission",
+          "type": "international"
+        },
+        {
+          "title": "Amnesty International - The Massacre in Axum",
+          "url": "https://www.amnesty.org/en/documents/afr25/3730/2021/en/",
+          "publisher": "Amnesty International",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-blockade-humanitarian-famine",
+      "claim": "The systematic siege of Tigray through communications, electricity, banking cutoffs, and aid restrictions caused catastrophic famine",
+      "context": "From the onset of hostilities, the federal government instituted a comprehensive blockade of Tigray, disconnecting banking services, internet, phone connectivity, electricity, and severely restricting humanitarian aid, fuel, and medical shipments. World Food Programme (WFP) officials and WHO Director-General Tedros Adhanom Ghebreyesus condemned the siege as the deliberate weaponization of starvation. Researchers from Ghent University estimated that between 300,000 and 600,000 civilians died during the two-year conflict as a result of violence, starvation, and the lack of basic healthcare.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "UN OCHA - Northern Ethiopia Humanitarian Update",
+          "url": "https://reports.unocha.org/en/country/ethiopia/",
+          "publisher": "United Nations OCHA",
+          "type": "international"
+        },
+        {
+          "title": "Ghent University Tigray Atlas - Mortality and Humanitarian Toll Estimates",
+          "url": "https://zenodo.org/record/5807266",
+          "publisher": "Ghent University Research Team",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-2022-pretoria-agreement",
+      "claim": "The Pretoria Agreement brokered by the African Union in November 2022 established a permanent cessation of hostilities",
+      "context": "Under the auspices of African Union high representative Olusegun Obasanjo (former Nigerian President) and international observers, the Ethiopian government and the TPLF signed the Agreement for Lasting Peace through a Permanent Cessation of Hostilities (COHA) in Pretoria, South Africa, on November 2, 2022. The accord mandated the disarmament of TPLF heavy weaponry, restoration of federal authority in Tigray, unhindered delivery of humanitarian aid, and the withdrawal of non-federal foreign forces (Eritrea).",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Agreement for Lasting Peace through a Permanent Cessation of Hostilities (Pretoria Agreement)",
+          "url": "https://au.int/en/pressreleases/20221102/cessation-hostilities-agreement-ethiopia",
+          "publisher": "African Union",
+          "type": "international"
+        },
+        {
+          "title": "UN Security Council Statement Welcoming the Cessation of Hostilities Agreement in Ethiopia",
+          "url": "https://press.un.org/en/2022/sc15103.doc.htm",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tw-ethnic-federalism-constitution",
+      "claim": "The root ideological divide pitted the 1995 Constitution's ethnic federalism against Prime Minister Abiy's pan-Ethiopian centralism",
+      "context": "Between 1991 and 2018, the TPLF spearheaded the ruling EPRDF coalition, entrenching a system of 'ethnic federalism' under the 1995 Constitution that granted self-determination up to secession (Article 39) to distinct ethno-linguistic nations. Upon taking office in 2018, Prime Minister Abiy Ahmed sought to overcome ethnic fragmentation by merging regional parties into the unitary Prosperity Party to foster centralized nation-building. The TPLF viewed this as an unconstitutional power grab dismantling hard-won federal autonomy, triggering systemic constitutional friction that escalated into war.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "Constitution of the Federal Democratic Republic of Ethiopia (1995)",
+          "url": "https://www.wipo.int/wipolex/en/legislation/details/5157",
+          "publisher": "WIPO Lex",
+          "type": "government"
+        },
+        {
+          "title": "Chatham House - Ethiopia's Transition and the Tigray Conflict",
+          "url": "https://www.chathamhouse.org/2021/04/ethiopia-crossroads",
+          "publisher": "Chatham House",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

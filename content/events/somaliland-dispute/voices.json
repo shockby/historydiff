@@ -1,0 +1,105 @@
+{
+  "eventId": "somaliland-dispute",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "sl-voice-1",
+      "country": {
+        "ja": "ソマリランド国民・独立推進派",
+        "en": "Somaliland citizens & independence advocates"
+      },
+      "sentiment": "nationalist-sovereign",
+      "summary": {
+        "ja": "私たちは1960年に主権国家として独立した歴史があり、1988年の大虐殺を乗り越えて30年以上平和と民主主義を自力で築き上げてきた。破綻国家モガディシュに縛られる理由は一切ない。国際社会はダブルスタンダードをやめ、我々の国家主権を直ちに承認すべきだ。",
+        "en": "We were an independent state in 1960 and survived horrific genocide to build a peaceful, democratic republic with our own bare hands for 30 years. We owe nothing to failed Mogadishu. The world must end its double standards and recognize Somaliland now."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ハルゲイサをはじめ国内外のソマリランド人ディアスポラにおける圧倒的な独立支持世論。",
+        "en": "Overwhelming patriotic consensus across Somaliland society and diaspora demanding formal de jure statehood."
+      },
+      "keywords": [
+        "#RecognizeSomaliland",
+        "#SomalilandIsNotSomalia",
+        "#LandOfPeace",
+        "#SomalilandIndependence"
+      ],
+      "timeframe": "1991-present"
+    },
+    {
+      "id": "sl-voice-2",
+      "country": {
+        "ja": "ソマリア連邦政府支持派・統一擁護層",
+        "en": "Somali federalists & national unity defenders"
+      },
+      "sentiment": "territorial-integrity",
+      "summary": {
+        "ja": "ソマリアの領土と主権は不可分であり、北部地域（ソマリランド）は我が国の神聖な一部だ。エチオピアによる港湾奪取と分離独立の煽動は明白な侵略行為であり、いかなる外国の領土強奪も断固として許さない。",
+        "en": "Somalia is one nation, indivisible and sacred. Northern Somalia is our historical land. Ethiopia's backroom MoU to annex our waters and dismember our country is an act of naked aggression. We will defend our territorial integrity to the last drop of blood."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "モガディシュをはじめとするソマリア連邦支持層における強い反エチオピア感情と領土保全の叫び。",
+        "en": "Fervent pan-Somali nationalist anger against foreign interference and maritime partition."
+      },
+      "keywords": [
+        "#SomaliaIsOne",
+        "#DefendSomaliSea",
+        "#HandsOffSomalia",
+        "#NoToAnnexation"
+      ],
+      "timeframe": "2024-present"
+    },
+    {
+      "id": "sl-voice-3",
+      "country": {
+        "ja": "エチオピア国民・海洋アクセス支持世論",
+        "en": "Ethiopian public & maritime access advocates"
+      },
+      "sentiment": "strategic-nationalist",
+      "summary": {
+        "ja": "人口1億2,000万人を抱える内陸国エチオピアにとって、海へのアクセスは地理的牢獄からの脱出であり、経済と安全保障の死活問題だ。平和的なソマリランドと互恵的な協定を結び港湾を確保することは当然の正当な権利だ。",
+        "en": "For 120 million Ethiopians, landlocked status is a geographic prison strangling our economic destiny. Partnering with stable, democratic Somaliland for commercial and naval sea access through the Red Sea corridor is an existential necessity and fully legitimate."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "1993年のエリトリア独立に伴い海を失ったエチオピア社会における強い海洋アクセス渇望。",
+        "en": "Historical yearning across Ethiopian politics to reverse the loss of sea access following Eritrea's independence."
+      },
+      "keywords": [
+        "#EthiopiaSeaAccess",
+        "#RedSeaGateway",
+        "#EthiopiaSomalilandMoU",
+        "#ProsperityHorn"
+      ],
+      "timeframe": "2024-present"
+    },
+    {
+      "id": "sl-voice-4",
+      "country": {
+        "ja": "国際安全保障アナリスト・紅海地政学専門家",
+        "en": "Horn of Africa analysts & Red Sea strategists"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "ソマリランドの国家承認問題は、アフリカの国境不変原則と、現地における30年間の実効的民主統治という現実のジレンマそのものだ。エチオピア、エジプト、トルコ、UAEなどの大国が関与する紅海の地政学競争が、アフリカの角の火種をさらに危険にしている。",
+        "en": "Somaliland represents the ultimate international legal paradox: impeccable de facto democratic governance colliding with the AU's sacrosanct norm against border revisions. Competing geopolitical interests from the Gulf, Egypt, and Turkey make the Red Sea corridor extremely volatile."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "ベルベラ港開発（DPワールド）や湾岸・紅海諸国の代理戦争リスクに対する学術・外交界の分析。",
+        "en": "Strategic analysis of maritime chokepoints and great-power competition in the Gulf of Aden."
+      },
+      "keywords": [
+        "#HornOfAfricaGeopolitics",
+        "#BerberaPort",
+        "#RedSeaSecurity",
+        "#DeFactoStates"
+      ],
+      "timeframe": "2020-present"
+    }
+  ]
+}

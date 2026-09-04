@@ -1,0 +1,105 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "notes": [
+    {
+      "id": "drc-1994-genocide-aftermath",
+      "claim": "The mass influx of refugees and genocidaires following the 1994 Rwandan Genocide triggered the protracted eastern DRC wars",
+      "context": "Following the end of the Rwandan Genocide in July 1994, over one million Hutu refugees—including remnants of the former Rwandan Armed Forces (FAR) and Interahamwe militias—fled into eastern Zaire (now DRC). In response, the Rwandan Patriotic Front (RPF) government invaded to dismantle refugee camps harboring armed elements, sparking the First Congo War (1996–1997) that toppled Mobutu, which escalated into the multinational Second Congo War (1998–2003, dubbed 'Africa's World War') involving eight sovereign states.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "UNHCR - The Rwandan Genocide and its Aftermath in Zaire/DRC",
+          "url": "https://www.unhcr.org/publications/operations/3ebf9bb60/state-worlds-refugees-2000-fifty-years-humanitarian-action-chapter-10-ruanda.html",
+          "publisher": "UN High Commissioner for Refugees (UNHCR)",
+          "type": "international"
+        },
+        {
+          "title": "Report of the Mapping Exercise documenting human rights violations in the DRC 1993-2003",
+          "url": "https://www.ohchr.org/en/countries/africa-region/democratic-republic-congo/mapping-exercise-1993-2003",
+          "publisher": "UN Office of the High Commissioner for Human Rights (OHCHR)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-m23-rwanda-support",
+      "claim": "UN Group of Experts reports confirm that the Rwandan Defense Force provides direct military assistance and troop deployments to the M23 rebel group",
+      "context": "Successive reports by the UN Security Council Group of Experts on the DRC (e.g., S/2023/431 and S/2024/432) documented extensive evidence that the Rwanda Defence Force (RDF) provides weapons, ammunition, advanced military hardware, and direct combat troop reinforcements to the March 23 Movement (M23) in North Kivu. While the Rwandan government denies supporting M23, it asserts that the presence and collaboration of the Democratic Forces for the Liberation of Rwanda (FDLR) with the Congolese army (FARDC) poses an existential threat to Rwanda.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Final report of the Group of Experts on the Democratic Republic of the Congo (S/2024/432)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1533/panel_experts/reports",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch - DRC: Rwandan Military Aiding M23 Rebels",
+          "url": "https://www.hrw.org/news/2023/02/06/dr-congo-m23-rebels-backed-rwanda",
+          "publisher": "Human Rights Watch",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "drc-conflict-minerals-coltan",
+      "claim": "Illicit exploitation and smuggling of critical minerals like coltan and gold provide primary funding for armed groups in eastern DRC",
+      "context": "Eastern DRC produces a substantial portion of the global supply of coltan (refined into tantalum for electronics) alongside major deposits of gold, tin, tungsten (3TG), and cobalt. Armed groups (such as M23, FDLR, and local Mai-Mai groups) and corrupt commanders control artisanal mining pits and supply routes, generating millions in revenue via smuggling through neighboring countries like Rwanda and Uganda. Regulatory frameworks like the OECD Due Diligence Guidance and US Dodd-Frank Section 1502 aim to eliminate conflict minerals from global supply chains.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+          "url": "https://www.oecd.org/daf/inv/mne/mining.htm",
+          "publisher": "OECD",
+          "type": "international"
+        },
+        {
+          "title": "United States SEC - Dodd-Frank Section 1502 Conflict Minerals Rule",
+          "url": "https://www.sec.gov/spotlight/dodd-frank/corporatereporting.shtml",
+          "publisher": "US Securities and Exchange Commission (SEC)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "drc-monusco-peacekeeping",
+      "claim": "MONUSCO operated as the UN's largest peacekeeping mission, but local protests and government demands prompted a phased withdrawal",
+      "context": "Created under UN Security Council Resolution 1291 in 1999 as MONUC (transitioned to MONUSCO in 2010), the mission deployed nearly 20,000 personnel and established the first-ever Force Intervention Brigade (FIB) authorized to conduct offensive operations against rebels. However, persistent failure to halt recurring massacres fueled deadly anti-UN civil demonstrations, leading the DRC government to request an accelerated exit. UN Security Council Resolution 2717 (2023) approved a phased, orderly drawdown beginning in 2024.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2717 (2023) on MONUSCO mandate drawdown",
+          "url": "https://undocs.org/S/RES/2717(2023)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        },
+        {
+          "title": "MONUSCO - Mission Profile and Phased Drawdown",
+          "url": "https://monusco.unmissions.org/en",
+          "publisher": "UN Peacekeeping",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-humanitarian-crisis-displacement",
+      "claim": "The conflict in eastern DRC has generated over 7 million internally displaced persons, creating one of the world's most severe humanitarian crises",
+      "context": "According to the International Organization for Migration (IOM) and UN OCHA, internal displacement in the DRC reached a record exceeding 7 million people, concentrated in North Kivu, South Kivu, and Ituri. Displaced populations endure catastrophic rates of acute malnutrition, cholera outbreaks, and loss of livelihoods. Systematic sexual and gender-based violence (rape as a weapon of war) by armed factions has been extensively condemned by international human rights monitors and the UN.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "IOM DRC Crisis Response Plan - Record 7 Million Displaced",
+          "url": "https://crisisresponse.iom.int/response/democratic-republic-congo-crisis-response-plan-2024",
+          "publisher": "International Organization for Migration (IOM)",
+          "type": "international"
+        },
+        {
+          "title": "UN OCHA - Democratic Republic of the Congo Humanitarian Needs Overview",
+          "url": "https://www.unocha.org/democratic-republic-congo",
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs (OCHA)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

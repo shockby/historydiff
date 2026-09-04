@@ -1,0 +1,33 @@
+{
+  "eventId": "guayana-esequiba",
+  "photos": [
+    {
+      "id": "guayana-esequiba-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/guayana-esequiba/guayana-esequiba-map.png",
+      "caption": {
+        "ja": "ガイアナ西部を占めるエセキボ地域（Guayana Esequiba、橙色枠線部）の境界地図。国土の約3分の2（約15万9,500平方キロメートル）に及び、ベネズエラが領有権を主張している。2015年に沖合（スタブローク鉱区）で膨大な海底油田が発見されたことで、主権・権益をめぐる国際的緊張が急激に高まった。",
+        "en": "Boundary map of Guayana Esequiba (outlined in orange) covering western Guyana, representing roughly two-thirds of Guyana's territory (approx. 159,500 sq km). Venezuela claims historic sovereignty over this region. Following major offshore oil discoveries in the Stabroek block in 2015, geopolitical tensions over territorial control and resource rights escalated sharply."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Guayana Esequiba (zona completa Neutral).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Guayana_Esequiba_(zona_completa_Neutral).png",
+        "license": "CC BY-SA 4.0",
+        "author": "SurinameCentral"
+      }
+    },
+    {
+      "id": "esequibo-1895-dispute-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/guayana-esequiba/esequibo-1895-dispute-map.jpg",
+      "caption": {
+        "ja": "1895〜1896年のベネズエラ・英領ギアナ国境紛争を描いた歴史地図（フランス国立図書館所蔵、1897年刊行）。ションバーグ線（Schomburgk Line）をはじめとする歴代の境界主張線が示されている。この紛争は1899年のパリ仲裁裁定により解決されたとされたが、1960年代にベネズエラが不正を主張して無効を宣言した。",
+        "en": "Historical map illustrating the Venezuela-British Guiana boundary dispute of 1895–1896 (Bibliothèque nationale de France collection, published in 1897). It depicts multiple disputed boundary lines, including the Schomburgk Line. Although settled by the 1899 Paris Arbitral Award, Venezuela declared the award null and void in the 1960s, citing procedural fraud."
+      },
+      "source": {
+        "title": "Wikimedia Commons — Special Map of british Guiana, illustrating the Venezuela-Guiana boundary dispute 1895-96",
+        "url": "https://commons.wikimedia.org/wiki/File:Special_Map_of_british_Guiana,_illustrating_the_Venezuela-Guiana_boundary_dispute_1895-96_-_btv1b8441757p_(1_of_2).jpg",
+        "license": "Public domain",
+        "author": "Bibliothèque nationale de France / G. Philip (London)"
+      }
+    }
+  ]
+}

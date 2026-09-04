@@ -1,0 +1,105 @@
+{
+  "eventId": "guayana-esequiba",
+  "notes": [
+    {
+      "id": "ge-1899-paris-arbitral-award",
+      "claim": "1899年のパリ仲裁裁定により、エセキボ地域の大部分が英領ギアナ（現ガイアナ）領として確定された",
+      "context": "1897年のワシントン条約に基づき、英国とベネズエラ（米国の代理仲裁人を含む）の国際仲裁法廷がパリで開かれ、1899年10月3日に全員一致で境界裁定が下された。これにより、ベネズエラがオリノコ川河口の支配権を確保する一方、エセキボ川以西の約15万9,500平方キロメートルの大部分が英領ギアナ領と裁定され、双方はこれを「完全かつ最終的な解決」として受諾した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Award Regarding the Boundary Between the Colony of British Guiana and the United States of Venezuela (1899)",
+          "url": "https://legal.un.org/riaa/cases/vol_XXVIII/331-340.pdf",
+          "publisher": "国際連合（UN Reports of International Arbitral Awards）",
+          "type": "international"
+        },
+        {
+          "title": "Arbitral Award of 3 October 1899 (Guyana v. Venezuela)",
+          "url": "https://www.icj-cij.org/case/171",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1962-nullity-claim",
+      "claim": "ベネズエラは1962年にベネズエラ弁護団所属の米国人弁護士マレット＝プレヴォストの死後公開手記（1949年）などを根拠に1899年裁定の不正・無効を国連で主張した",
+      "context": "ベネズエラ弁護団の一員だったセヴェロ・マレット＝プレヴォスト弁護士の死後公開手記（英国人仲裁官とロシア人裁判長フリードリヒ・マルテンスの間の不当な政治的取引を示唆）を根拠に、ベネズエラ政府は1962年11月の国連総会で裁定の無効（null and void）を公式に表明した。ガイアナ側は、手記には客観的証拠が欠けており既判力（res judicata）を覆す根拠にならないと反論している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "The Venezuelan-Guyana Boundary Dispute: The Mallet-Prevost Memorandum",
+          "url": "https://www.jstor.org/stable/2193962",
+          "publisher": "American Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "Official Records of the General Assembly, Seventeenth Session",
+          "url": "https://digitallibrary.un.org/record/727931",
+          "publisher": "国際連合総会記録",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1966-geneva-agreement",
+      "claim": "1966年のジュネーブ協定は、国境紛争の平和的かつ友好的な解決に向けた協議枠組みを定めた",
+      "context": "ガイアナの英連邦からの独立直前の1966年2月17日、英国・ベネズエラ・英領ギアナの間で「ジュネーブ協定」が署名された。同協定は紛争の存在を認識し、混合委員会および国連憲章第33条に定める平和的解決手続きを通じて合意を目指すことを規定した。ベネズエラはこの協定が1899年裁定を無効化したと解釈するが、ガイアナは協定は紛争処理手続きを定めたに過ぎず裁定の有効性は維持されていると主張する。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Agreement to resolve the controversy between Venezuela and the United Kingdom (Treaty Series No. 561)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20561/v561.pdf",
+          "publisher": "国際連合条約集（UNTS）",
+          "type": "international"
+        },
+        {
+          "title": "The 1966 Geneva Agreement",
+          "url": "https://www.minfor.gov.gy/the-geneva-agreement/",
+          "publisher": "ガイアナ外務・国際協力省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ge-2015-oil-discoveries",
+      "claim": "2015年に米エクソンモービルがエセキボ沖合（スタブローク鉱区）で大規模油田を発見して以降、対立が再燃した",
+      "context": "2015年5月、米エクソンモービルはガイアナ沖合スタブローク鉱区で「リザ1号（Liza-1）」油田を発見した。その後の探査により推定可採埋蔵量は110億バレル以上と確認され、ガイアナは世界屈指の産油国へと急成長した。これを受け、ベネズエラ政府は沿岸海域を含む主権宣言の大統領令を発令し、海洋境界をめぐる対立が急激に深刻化した。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Guyana Energy and Crude Discoveries Overview",
+          "url": "https://www.eia.gov/international/overview/country/GUY",
+          "publisher": "米国エネルギー情報局（EIA）",
+          "type": "government"
+        },
+        {
+          "title": "ExxonMobil Guyana Operations and Resources",
+          "url": "https://corporate.exxonmobil.com/locations/guyana",
+          "publisher": "ExxonMobil Corporate",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ge-2023-referendum-icj",
+      "claim": "2023年のベネズエラ国民投票に対し、国際司法裁判所（ICJ）はベネズエラに現状変更を禁じる暫定保全措置を命令した",
+      "context": "ベネズエラ政府は2023年12月3日にエセキボ地域の領有権主張および新州創設を問う国民投票を実施した。これに対しガイアナが要請した暫定保全措置について、ICJは12月1日、本案判決が出るまでベネズエラはガイアナがエセキボ地域を管理・支配している現状を変更するいかなる行動も控えるべきだとする命令を全員一致で下した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Order on Request for the Indication of Provisional Measures (1 December 2023)",
+          "url": "https://www.icj-cij.org/sites/default/files/case-related/171/171-20231201-ord-01-00-en.pdf",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "Joint Declaration of Argyle for Dialogue and Peace Between Guyana and Venezuela",
+          "url": "https://caricom.org/joint-declaration-of-argyle-for-dialogue-and-peace-between-guyana-and-venezuela/",
+          "publisher": "カリブ共同体（CARICOM）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

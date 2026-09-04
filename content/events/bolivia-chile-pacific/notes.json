@@ -1,0 +1,105 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "notes": [
+    {
+      "id": "bcp-1879-war-of-pacific",
+      "claim": "太平洋戦争（1879-1884）により、ボリビアは約400kmの海岸線と約12万km²のアントファガスタ沿岸部を喪失した",
+      "context": "1879年、アタカマ砂漠の硝石税引き上げをめぐる対立からチリ軍がアントファガスタを占領し、ボリビア・ペルー同盟軍とチリの間で戦争が勃発した。チリ軍の勝利により、ボリビアは沿岸部全域（約400kmの海岸線、約12万km²の領土）を失い、完全な内陸国となった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "History of the War of the Pacific (1879-1884)",
+          "url": "https://www.ejercito.cl/historia/guerra-del-pacifico",
+          "publisher": "チリ陸軍歴史部門",
+          "type": "government"
+        },
+        {
+          "title": "The Maritime Book of Bolivia (Libro del Mar)",
+          "url": "https://www.cancilleria.gob.bo/webmre/sites/default/files/libromar.pdf",
+          "publisher": "ボリビア外務省（DIREMAR）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1904-peace-treaty",
+      "claim": "1904年の平和友好条約により両国国境が画定され、チリはボリビアに港湾の無税通過権と鉄道建設を約束した",
+      "context": "1904年10月20日に調印された条約で、チリのアントファガスタ地域領有が確定した。見返りとしてチリは、アリカ〜ラパス間の鉄道建設費用の負担、ボリビア貨物に対するチリ港湾（アリカおよびアントファガスタ）での完全かつ無税の自由通過権（libre tránsito）の永久保障などを引き受けた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Tratado de Paz y Amistad de 1904 entre Chile y Bolivia",
+          "url": "https://www.difrol.gob.cl/tratado-de-paz-y-amistad-de-1904/",
+          "publisher": "チリ外務省国境局（DIFROL）",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Peace, Friendship and Commerce (1904)",
+          "url": "https://treaties.un.org/",
+          "publisher": "国際連合条約集",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1929-treaty-of-lima",
+      "claim": "1929年リマ条約の補足議定書により、旧ペルー領（アリカなど）の第三国割譲にはペルーの同意が必要と定められた",
+      "context": "チリとペルーがタクナ・アリカ紛争を解決した1929年リマ条約の追加議定書第1条には、かつてペルーに属していた領土（アリカ県など）を第三国（ボリビア）に割譲する場合、事前に両国政府（チリとペルー）の合意が必要であると規定されている。これにより、ボリビアに回廊を供与するいかなるチリ案もペルーの承認を要する枠組みが確立した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Tratado y Protocolo Complementario de Lima de 1929",
+          "url": "https://portal.transparencia.gob.pe/rree/tratados",
+          "publisher": "ペルー外務省",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Lima and the Tacna-Arica Dispute",
+          "url": "https://www.oas.org/",
+          "publisher": "米州機構（OAS）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-2018-icj-judgment",
+      "claim": "2018年10月、国際司法裁判所（ICJ）はチリにボリビアへの主権的太平洋アクセスを交渉する法的義務はないと判決を下した",
+      "context": "ボリビア（モラレス政権）は、過去の外交協議・覚書に基づきチリが主権的回廊の供与について誠実に交渉する法的義務を負ったとして2013年にICJへ提訴した。2018年10月1日、裁判所は12対3の多数でボリビアの請求を全面的に退け、チリにそのような交渉義務は存在しないと判示。ただし付随意見として善隣関係と対話の継続を促した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile) - Judgment of 1 October 2018",
+          "url": "https://www.icj-cij.org/case/153",
+          "publisher": "国際司法裁判所（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "ICJ Judgment Analysis: Bolivia v. Chile",
+          "url": "https://www.asil.org/insights/volume/22/issue/17/icj-rules-chile-has-no-obligation-negotiate-ocean-access-bolivia",
+          "publisher": "アメリカ国際法学会（ASIL）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "bcp-dia-del-mar",
+      "claim": "ボリビアは毎年3月23日を「海の日（Día del Mar）」と定め、海軍組織を維持して主権回復を国家目標としている",
+      "context": "ボリビアは1879年3月23日のカラマの戦いにおける英雄エドゥアルド・アバロアの抵抗を顕彰し、毎年3月23日を「海の日」として国家式典を挙行している。また、内陸国でありながらチチカカ湖や主要河川を管轄する「ボリビア海軍（Armada Boliviana）」を存続させており、憲法第267条で海への主権回復を不可侵の国民的権利として規定している。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Constitución Política del Estado Plurinacional de Bolivia (Artículo 267)",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "publisher": "ボリビア多民族国憲法（OAS保管版）",
+          "type": "government"
+        },
+        {
+          "title": "Reseña Histórica de la Armada Boliviana",
+          "url": "https://armada.mil.bo/",
+          "publisher": "ボリビア海軍公式記録",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

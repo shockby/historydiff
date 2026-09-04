@@ -1,0 +1,33 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "photos": [
+    {
+      "id": "bolivia-chile-border-1879",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/bolivia-chile-pacific/bolivia-chile-border-1879.png",
+      "caption": {
+        "ja": "1879年の太平洋戦争前後のボリビア・チリ・ペルー国境の変遷を示す地図。戦争前はボリビアがアントファガスタ地方の太平洋沿岸（約400km）を領有していたが、チリの勝利により海岸線を完全に喪失し、1904年条約によって現在の内陸国境界が画定された。",
+        "en": "Map showing the historical boundaries between Bolivia, Chile, and Peru before and after the 1879 War of the Pacific. Prior to the conflict, Bolivia possessed approximately 400 kilometers of coastline along Antofagasta. Chile's victory resulted in Bolivia's complete loss of ocean access, formalized by the 1904 Treaty."
+      },
+      "source": {
+        "title": "Wikimedia Commons — Borders-Bolivia-Chile-Peru-Before and after Pacific War of 1879 SP.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Borders-Bolivia-Chile-Peru-Before_and_after_Pacific_War_of_1879_SP.png",
+        "license": "Public domain",
+        "author": "NL-Ninane"
+      }
+    },
+    {
+      "id": "bolivia-dia-del-mar-parade",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/bolivia-chile-pacific/bolivia-dia-del-mar-parade.jpg",
+      "caption": {
+        "ja": "ボリビアのエル・アルトで開催された「海の日（Día del Mar）」の記念パレード。ボリビアでは毎年3月23日、1879年の太平洋戦争で海岸部を失った歴史を記憶し、主権ある太平洋への出口回復を誓う国家行事として海軍部隊や市民による行進が行われている。",
+        "en": "Commemorative parade for the \"Day of the Sea\" (Día del Mar) held in El Alto, Bolivia. Observed annually on March 23, the national observance honors defenders who fought during the 1879 War of the Pacific and reaffirms Bolivia's enduring constitutional pledge to regain sovereign access to the Pacific Ocean."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Desfile en El Alto, Bolivia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Desfile_en_El_Alto,_Bolivia.jpg",
+        "license": "CC BY 2.0",
+        "author": "Pedro Szekely"
+      }
+    }
+  ]
+}

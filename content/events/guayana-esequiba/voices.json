@@ -1,0 +1,105 @@
+{
+  "eventId": "guayana-esequiba",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "ge-voice-1",
+      "country": {
+        "ja": "ガイアナ国民・主権防衛支持層",
+        "en": "Guyanese citizens & territorial defenders"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "エセキボ地域は120年以上にわたり独立国ガイアナの不可欠な領土であり、国民の生活圏だ。ベネズエラが石油発見後に強行する一方的な領有主張や威嚇は、主権侵害そのものである。",
+        "en": "Essequibo represents two-thirds of our sovereign territory and home to our people for over a century. Venezuela's aggressive land grab and referendums after offshore oil was discovered constitute blatant violations of international law."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ガイアナ国民全体に広がる国家的主権意識と、1899年仲裁裁定の遵守を求める世論。",
+        "en": "Overwhelming consensus across Guyanese society demanding adherence to the 1899 Arbitral Award and territorial integrity."
+      },
+      "keywords": [
+        "#EssequiboIsGuyana",
+        "#GuyanaStrong",
+        "#DefendOurSovereignty",
+        "#ICJRuling"
+      ],
+      "timeframe": "2015-present"
+    },
+    {
+      "id": "ge-voice-2",
+      "country": {
+        "ja": "ベネズエラ国民・歴史的領有権主張層",
+        "en": "Venezuelan citizens & historic claims supporters"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "エセキボ川以西の地はスペイン植民地時代からベネズエラ総督領の一部であり、1899年のパリ仲裁は英国と米国による不正な共謀だった。1966年ジュネーブ協定に基づき実質的な返還交渉を行うべきだ。",
+        "en": "Guayana Esequiba belonged to Venezuela since the Captaincy General in 1777. The 1899 Paris Award was a fraudulent imperialist conspiracy between Britain and the US. Only the 1966 Geneva Agreement can bring a just solution."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "歴代政権・与野党を問わず教育や地図で教え込まれてきたベネズエラ社会共通の領有権認識。",
+        "en": "Broad political consensus across Venezuelan regime and opposition rooted in civic education depicting Esequibo as a reclamation zone."
+      },
+      "keywords": [
+        "#ElEsequiboEsNuestro",
+        "#VenezuelaSoberana",
+        "#AcuerdoDeGinebra",
+        "#Sovereignty"
+      ],
+      "timeframe": "1962-present"
+    },
+    {
+      "id": "ge-voice-3",
+      "country": {
+        "ja": "カリブ共同体（CARICOM）諸国世論",
+        "en": "CARICOM & Caribbean regional observers"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "小国ガイアナに対する軍事的威嚇や領土保全の侵犯はカリブ海地域の平和と安定を揺るがす。武力不行使を定めたアーガイル宣言を尊重し、国際司法裁判所の司法判断を待つべきだ。",
+        "en": "Threats against small island and littoral developing states endanger regional stability. Both nations must adhere to the Argyle Declaration of non-violence and respect the judicial authority of the International Court of Justice."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ガイアナが本部を置くカリブ共同体（CARICOM）加盟国の外交的連帯と軍事衝突回避の願い。",
+        "en": "Diplomatic stance of Caribbean states advocating peaceful dispute resolution while maintaining solidarity with Guyana."
+      },
+      "keywords": [
+        "#CARICOM",
+        "#ZoneOfPeace",
+        "#ArgyleDeclaration",
+        "#CaribbeanDiplomacy"
+      ],
+      "timeframe": "2023-present"
+    },
+    {
+      "id": "ge-voice-4",
+      "country": {
+        "ja": "国際法学者・資源エネルギーアナリスト",
+        "en": "International lawyers & energy market analysts"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "紛争の本質は歴史的経緯と110億バレル超のスタブローク油田利権の結合にある。1899年裁定の既判力（res judicata）を否定する法理的ハードルは高く、ICJの最終判決が決定打となる。",
+        "en": "The crisis merges historical legal grievances with control over 11+ billion barrels of crude oil. Overturning the 1899 Award faces steep evidentiary burdens regarding res judicata, making the ICJ's final merit judgment pivotal."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国際エネルギー市場の動向と国際法上の条約・仲裁判断の拘束力を分析する専門家の見解。",
+        "en": "Expert analyses evaluating ExxonMobil/CNOOC offshore assets, international law precedent, and Latin American energy diplomacy."
+      },
+      "keywords": [
+        "#InternationalLaw",
+        "#ICJ",
+        "#StabroekBlock",
+        "#EnergyGeopolitics"
+      ],
+      "timeframe": "2018-present"
+    }
+  ]
+}

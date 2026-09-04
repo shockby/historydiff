@@ -1,0 +1,105 @@
+{
+  "eventId": "guayana-esequiba",
+  "notes": [
+    {
+      "id": "ge-1899-paris-arbitral-award",
+      "claim": "The 1899 Paris Arbitral Award allocated the vast majority of Guayana Esequiba to British Guiana (now Guyana)",
+      "context": "Pursuant to the 1897 Treaty of Washington, an international arbitration tribunal convened in Paris and delivered an award on October 3, 1899. While securing Venezuelan control over the mouth of the Orinoco River, it granted British Guiana nearly 159,500 square kilometers west of the Essequibo River. Both governments accepted the outcome as a 'full, perfect, and final settlement' and formally demarcated the border on the ground in 1905.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Award Regarding the Boundary Between the Colony of British Guiana and the United States of Venezuela (1899)",
+          "url": "https://legal.un.org/riaa/cases/vol_XXVIII/331-340.pdf",
+          "publisher": "United Nations (UN Reports of International Arbitral Awards)",
+          "type": "international"
+        },
+        {
+          "title": "Arbitral Award of 3 October 1899 (Guyana v. Venezuela)",
+          "url": "https://www.icj-cij.org/case/171",
+          "publisher": "International Court of Justice (ICJ)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1962-nullity-claim",
+      "claim": "In 1962, Venezuela claimed before the UN that the 1899 award was fraudulent and null, citing an American arbitrator's posthumous memorandum",
+      "context": "Citing a memorandum written by Severo Mallet-Prevost—an American lawyer on Venezuela's legal team published posthumously in 1949—Venezuela argued that the Russian president of the tribunal, Friedrich Martens, and British arbitrators engaged in political collusion. At the UN General Assembly in November 1962, Venezuela declared the award null and void. Guyana maintains that uncorroborated allegations cannot undermine established res judicata.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "The Venezuelan-Guyana Boundary Dispute: The Mallet-Prevost Memorandum",
+          "url": "https://www.jstor.org/stable/2193962",
+          "publisher": "American Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "Official Records of the General Assembly, Seventeenth Session",
+          "url": "https://digitallibrary.un.org/record/727931",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1966-geneva-agreement",
+      "claim": "The 1966 Geneva Agreement established a practical framework for resolving the frontier dispute between Venezuela and the UK/Guyana",
+      "context": "Signed on February 17, 1966, shortly before Guyana gained independence from Great Britain, the Geneva Agreement acknowledged Venezuela's contention that the 1899 Award was null and established a Mixed Commission to seek practical and satisfactory solutions pursuant to Article 33 of the UN Charter. Venezuela interprets this as invalidating the 1899 borders, while Guyana argues it merely set forth dispute-resolution mechanisms without prejudice to existing territorial sovereignty.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "Agreement to resolve the controversy between Venezuela and the United Kingdom (Treaty Series No. 561)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20561/v561.pdf",
+          "publisher": "United Nations Treaty Series (UNTS)",
+          "type": "international"
+        },
+        {
+          "title": "The 1966 Geneva Agreement",
+          "url": "https://www.minfor.gov.gy/the-geneva-agreement/",
+          "publisher": "Ministry of Foreign Affairs and International Cooperation of Guyana",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ge-2015-oil-discoveries",
+      "claim": "The territorial dispute flared up significantly after ExxonMobil made massive offshore crude discoveries in the Stabroek block in 2015",
+      "context": "In May 2015, ExxonMobil announced the world-class Liza-1 discovery in the Stabroek block off the coast of Guayana Esequiba. Subsequent appraisals confirmed recoverable crude reserves exceeding 11 billion barrels of oil equivalent, positioning Guyana as one of the world's highest per-capita oil producers. Venezuela reacted immediately with presidential decrees claiming maritime dominion over the shelf and deploying naval patrols, sharply escalating the dispute.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "Guyana Energy and Crude Discoveries Overview",
+          "url": "https://www.eia.gov/international/overview/country/GUY",
+          "publisher": "US Energy Information Administration (EIA)",
+          "type": "government"
+        },
+        {
+          "title": "ExxonMobil Guyana Operations and Resources",
+          "url": "https://corporate.exxonmobil.com/locations/guyana",
+          "publisher": "ExxonMobil Corporate",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ge-2023-referendum-icj",
+      "claim": "Following Venezuela's 2023 referendum on annexing Esequibo, the International Court of Justice ordered provisional measures barring unilateral actions",
+      "context": "On December 3, 2023, Venezuela held a nationwide consultative referendum endorsing the creation of 'Guayana Esequiba State' and granting citizenship to local residents. Acting on Guyana's urgent request, the ICJ issued a binding unanimous order on December 1, 2023, ruling that pending a final judgment, Venezuela must refrain from any action that would modify the situation prevailing in the territory, where Guyana administers and exercises control.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Order on Request for the Indication of Provisional Measures (1 December 2023)",
+          "url": "https://www.icj-cij.org/sites/default/files/case-related/171/171-20231201-ord-01-00-en.pdf",
+          "publisher": "International Court of Justice (ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "Joint Declaration of Argyle for Dialogue and Peace Between Guyana and Venezuela",
+          "url": "https://caricom.org/joint-declaration-of-argyle-for-dialogue-and-peace-between-guyana-and-venezuela/",
+          "publisher": "Caribbean Community (CARICOM)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

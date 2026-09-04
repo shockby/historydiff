@@ -1,0 +1,21 @@
+{
+  "eventId": "georgia-russia-conflict",
+  "photos": [
+    {
+      "id": "2008-south-ossetia-war-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/georgia-russia-conflict/2008-south-ossetia-war-map.png",
+      "caption": {
+        "ja": "2008年8月のロシア・ジョージア戦争（南オセチア紛争）における軍事展開地図。ジョージア軍のツヒンバリ進攻、ロシア軍の反撃とジョージア本土（ゴリ、ポティ、セナキなど）への進出、アブハジア戦線での展開が示されている。",
+        "en": "Map of military operations during the August 2008 Russo-Georgian War (South Ossetia conflict), showing the initial Georgian offensive toward Tskhinvali, Russian counter-offensives pushing into undisputed Georgian territory (Gori, Poti, Senaki), and operations along the Abkhazian front.",
+        "zh": "2008年8月俄格战争（南奥塞梯冲突）军事行动地图，标示了格鲁吉亚军队进攻茨欣瓦利、俄罗斯军队反击并进逼格鲁吉亚本土（哥里、波季、塞纳基等）以及阿布哈兹战线的态势。",
+        "ko": "2008년 8월 러시아-조지아 전쟁(남오세티야 분쟁) 군사 작전도. 조지아군의 츠힌발리 진격, 러시아군의 반격 및 조지아 본토(고리, 포티, 세나키 등) 진출, 아브하지야 전선에서의 전개 상황이 표시되어 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:2008 South Ossetia war en.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:2008_South_Ossetia_war_en.svg",
+        "license": "CC BY-SA 3.0",
+        "author": "Andrein at English Wikipedia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "kosovo-dispute",
+  "photos": [
+    {
+      "id": "newborn-monument-pristina",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kosovo-dispute/newborn-monument-pristina.jpg",
+      "caption": {
+        "ja": "コソボの首都プリシュティナに設置された「NEWBORN」モニュメント。2008年2月17日のセルビアからの独立宣言を記念して除幕された。写真は独立承認国の国旗が描かれた2013年当時の様子。毎年独立記念日に新たなテーマで塗り替えられている。",
+        "en": "The NEWBORN monument in Pristina, capital of Kosovo, unveiled on February 17, 2008 to commemorate Kosovo's declaration of independence from Serbia. Shown in 2013 repainted with flags of recognizing states; the monument is repainted annually on Independence Day with new artistic themes.",
+        "zh": "位于科索沃首都普里什蒂纳的\"NEWBORN\"（新生）纪念碑，于2008年2月17日揭幕以纪念科索沃宣布从塞尔维亚独立。图中为2013年涂满各承认国国旗的样貌；该纪念碑每年独立日都会以全新主题重新粉刷。",
+        "ko": "코소보 수도 프리슈티나에 설치된 'NEWBORN'(신생) 기념비. 2008년 2월 17일 세르비아로부터의 독립 선언을 기념하여 제막되었다. 사진은 승인국들의 국기가 그려진 2013년 당시의 모습으로, 매년 독립기념일마다 새로운 테마로 덧칠된다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Newborn Pristina February 2013.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Newborn_Pristina_February_2013.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Arild Vågen"
+      }
+    },
+    {
+      "id": "mitrovica-bridge",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kosovo-dispute/mitrovica-bridge.jpg",
+      "caption": {
+        "ja": "コソボ北部の都市ミトロビツァを流れるイバル川にかかる主要橋梁。アルバニア系住民が多数を占める南部とセルビア系住民が多数を占める北部を物理的に隔てており、紛争後の民族分断とNATO主導のKFORによる警備・警戒の象徴的な場所となっている。",
+        "en": "The main bridge over the Ibar River in Mitrovica, northern Kosovo. The bridge physically separates the predominantly Albanian south from the predominantly Serb north, serving as an enduring symbol of ethnic division and a focal point for NATO-led KFOR peacekeeping presence.",
+        "zh": "跨越科索沃北部城市米特罗维察伊巴尔河的主桥。该桥在地理上分隔了阿尔巴尼亚裔为主的南部与塞尔维亚裔为主的北部，成为战后民族分裂及北约领导的KFOR维和警备的象征性地点。",
+        "ko": "코소보 북부 도시 미트로비차의 이바르강을 가로지르는 주요 다리. 알바니아계 주민이 다수인 남부와 세르비아계 주민이 다수인 북부를 물리적으로 나누고 있어, 분쟁 후의 민족적 분단과 NATO 주도 KFOR 평화유지군 경계 활동의 상징적인 장소가 되어 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Mitrovica bridge.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mitrovica_bridge.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Tiia Monto"
+      }
+    }
+  ]
+}

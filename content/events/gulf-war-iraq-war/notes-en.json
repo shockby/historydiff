@@ -1,0 +1,109 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "notes": [
+    {
+      "id": "giw-unsc678",
+      "claim": "UN Security Council Resolution 678 explicitly authorized member states to use force to liberate Kuwait",
+      "context": "Adopted on November 29, 1990, Resolution 678 authorized coalition member states to use 'all necessary means' to uphold previous resolutions if Iraq did not withdraw from Kuwait by January 15, 1991. China abstained while the remaining 12 council members voted in favor. The resolution provided the legal basis for Operation Desert Storm.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 678 (1990)",
+          "url": "https://undocs.org/S/RES/678(1990)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "giw-wmd-notfound",
+      "claim": "No weapons of mass destruction were found in Iraq despite WMDs being the primary justification for the 2003 invasion",
+      "context": "After the invasion, the Iraq Survey Group (ISG) conducted an extensive search across Iraq but found no active WMD programs. The 2004 Duelfer Report concluded that Iraq had effectively dismantled its WMD programs in the early 1990s. This finding severely undermined the legal and moral case for the war.",
+      "verdict": "Confirmed fact",
+      "sources": [
+        {
+          "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD (Duelfer Report)",
+          "url": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+          "publisher": "Central Intelligence Agency (CIA)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-japan-contribution",
+      "claim": "Japan contributed approximately $13 billion to the Gulf War coalition but was criticized for 'checkbook diplomacy'",
+      "context": "Japan provided roughly $9 billion initially, later adding $3 billion more, for a total exceeding $13 billion. Because Japan sent no personnel, it was notably absent from Kuwait's thank-you advertisements listing contributing nations. This embarrassment directly spurred the passage of the PKO Cooperation Act in 1992.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Japan and the Gulf Crisis",
+          "url": "https://www.mofa.go.jp/mofaj/area/middleeast/gulf.html",
+          "publisher": "Japanese Ministry of Foreign Affairs",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-kofi-illegal",
+      "claim": "UN Secretary-General Kofi Annan called the Iraq War 'illegal' under the UN Charter",
+      "context": "In September 2004, Annan told the BBC that the 2003 invasion of Iraq was 'illegal' because it was not sanctioned by the UN Security Council. This statement drew strong rebuttals from the U.S. and UK governments and significant international attention, highlighting the deep divisions over the war's legitimacy.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Annan: Iraq war 'illegal' (BBC News, 2004-09-16)",
+          "url": "http://news.bbc.co.uk/2/hi/middle_east/3661134.stm",
+          "publisher": "BBC",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "giw-sdf-samawah",
+      "claim": "Japan's Self-Defense Forces were deployed to Samawah, southern Iraq, from 2004 to 2006",
+      "context": "The Koizumi government passed the Iraq Special Measures Law in 2003 and deployed Ground Self-Defense Force units to Samawah in January 2004. The deployment ignited fierce parliamentary debate over Japan's pacifist constitution and the government's definition of 'non-combat zones.' The SDF completed its mission and withdrew in July 2006.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "SDF Activities in Iraq",
+          "url": "https://www.mod.go.jp/j/approach/kokusai_heiwa/iraq/",
+          "publisher": "Japan Ministry of Defense",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-abu-ghraib",
+      "claim": "Photographs showing U.S. soldiers abusing Iraqi detainees at Abu Ghraib prison were published in 2004, causing international outcry",
+      "context": "In April 2004, photographs depicting U.S. military personnel physically and sexually abusing Iraqi prisoners at Abu Ghraib were broadcast worldwide. The abuse was widely condemned as a violation of the Geneva Conventions and severely damaged the credibility of the U.S.-led occupation. Several soldiers were court-martialed and convicted.",
+      "verdict": "Confirmed fact",
+      "sources": [
+        {
+          "title": "Article 15-6 Investigation of the 800th Military Police Brigade (Taguba Report)",
+          "url": "https://fas.org/irp/agency/dod/taguba.pdf",
+          "publisher": "U.S. Army",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-civilian-casualties",
+      "claim": "Civilian deaths from the Iraq War (2003–2011) are estimated at over 100,000, though estimates vary widely",
+      "context": "Iraq Body Count documented over 100,000 civilian deaths based on media and official reports. A 2006 Lancet study estimated around 650,000 excess deaths, a figure disputed on methodological grounds. The U.S. Department of Defense did not officially track or publish comprehensive civilian casualty figures.",
+      "verdict": "Estimates vary",
+      "sources": [
+        {
+          "title": "Iraq Body Count database",
+          "url": "https://www.iraqbodycount.org/",
+          "publisher": "Iraq Body Count",
+          "type": "ngo"
+        },
+        {
+          "title": "Mortality after the 2003 invasion of Iraq (The Lancet, 2006)",
+          "url": "https://doi.org/10.1016/S0140-6736(06)69491-9",
+          "publisher": "The Lancet",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "notes": [
+    {
+      "id": "giw-unsc678",
+      "claim": "国連安保理決議678号は多国籍軍によるクウェート解放のための武力行使を明示的に授権した",
+      "context": "1990年11月29日、安保理は決議678号を採択し、イラクが1991年1月15日までにクウェートから撤退しない場合、加盟国が「必要なあらゆる手段」を使用することを授権した。中国は棄権、残る12カ国が賛成した。この決議は湾岸戦争の法的根拠とされている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 678 (1990)",
+          "url": "https://undocs.org/S/RES/678(1990)",
+          "publisher": "国連",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "giw-wmd-notfound",
+      "claim": "米英がイラク戦争開戦の根拠とした大量破壊兵器（WMD）は結局発見されなかった",
+      "context": "2003年の侵攻後、イラク調査グループ（ISG）がイラク全土を調査したが、活動中の大量破壊兵器プログラムは発見されなかった。2004年のデュエルファー報告書はフセイン政権が1990年代初頭にWMDプログラムを実質的に廃棄していたと結論づけた。この事実は開戦の正当性に深刻な疑問を投げかけた。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD (Duelfer Report)",
+          "url": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+          "publisher": "米国中央情報局（CIA）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-japan-contribution",
+      "claim": "湾岸戦争で日本は約130億ドルの資金拠出を行ったが「小切手外交」と批判された",
+      "context": "日本政府は湾岸戦争において多国籍軍支援のため総額約90億ドルを拠出し、その後追加で30億ドルを提供した。しかし人員を派遣しなかったため、クウェート政府の感謝広告に日本の名前が掲載されなかった。この経験が1992年のPKO協力法制定につながった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "湾岸戦争と日本の対応",
+          "url": "https://www.mofa.go.jp/mofaj/area/middleeast/gulf.html",
+          "publisher": "外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-kofi-illegal",
+      "claim": "コフィ・アナン国連事務総長はイラク戦争を「国連憲章に照らして違法」と発言した",
+      "context": "2004年9月、アナン事務総長はBBCのインタビューで2003年のイラク侵攻について「私の見解では、それは国連憲章に照らして違法であった」と述べた。この発言は国際社会に大きな波紋を呼び、米英両国政府は反論した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Annan: Iraq war 'illegal' (BBC News, 2004-09-16)",
+          "url": "http://news.bbc.co.uk/2/hi/middle_east/3661134.stm",
+          "publisher": "BBC",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "giw-sdf-samawah",
+      "claim": "日本の自衛隊は2004年から2006年にかけてイラク南部サマワに派遣された",
+      "context": "小泉政権は2003年にイラク特措法を成立させ、翌2004年1月に陸上自衛隊をイラク南部のサマワに派遣した。「非戦闘地域」という政府の定義をめぐって国会で激しい論争が起きた。自衛隊は2006年7月に任務を完了し撤退した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "イラクにおける自衛隊の活動",
+          "url": "https://www.mod.go.jp/j/approach/kokusai_heiwa/iraq/",
+          "publisher": "防衛省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-abu-ghraib",
+      "claim": "アブグレイブ刑務所での米兵による被拘禁者虐待が2004年に発覚し国際的批判を招いた",
+      "context": "2004年4月、イラクのアブグレイブ刑務所で米軍兵士がイラク人被拘禁者を身体的・性的に虐待する写真が公開された。この事件はジュネーブ条約違反として国際社会から強く非難され、米国の占領政策への信頼を大きく損なった。複数の兵士が軍法会議で有罪判決を受けた。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Article 15-6 Investigation of the 800th Military Police Brigade (Taguba Report)",
+          "url": "https://fas.org/irp/agency/dod/taguba.pdf",
+          "publisher": "米陸軍",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-civilian-casualties",
+      "claim": "イラク戦争（2003〜2011年）における民間人死者数は10万人以上と推計されている",
+      "context": "イラク・ボディ・カウントは文書化された民間人死者として10万人以上を記録している。ランセット誌の2006年研究は超過死亡として約65万人を推計したが、この数字は方法論をめぐり論争がある。米国防総省は詳細な民間人死者数を公式に集計・公表してこなかった。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Iraq Body Count database",
+          "url": "https://www.iraqbodycount.org/",
+          "publisher": "Iraq Body Count",
+          "type": "ngo"
+        },
+        {
+          "title": "Mortality after the 2003 invasion of Iraq (The Lancet, 2006)",
+          "url": "https://doi.org/10.1016/S0140-6736(06)69491-9",
+          "publisher": "The Lancet",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "photos": [
+    {
+      "id": "m1a1-abrams-desert-storm",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/gulf-war-iraq-war/m1a1-abrams-desert-storm.jpg",
+      "caption": {
+        "ja": "1991年「砂漠の嵐」作戦で展開された米陸軍のM1A1エイブラムス主力戦車。多国籍軍による圧倒的な軍事作戦を象徴する。",
+        "en": "A US Army M1A1 Abrams tank deployed during Operation Desert Storm in 1991, symbolizing coalition military operations to liberate Kuwait.",
+        "zh": "1991年“沙漠风暴”行动中部署的美国陆军M1A1艾布拉姆斯主战坦克，象征多国部队解放科威特的军事行动。",
+        "ko": "1991년 '사막의 폭풍' 작전 당시 전개된 미 육군 M1A1 에이브럼스 전차. 쿠웨이트 해방을 위한 다국적군의 군사작전을 상징한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:United_States_Army_M1A1_Abrams_tank_deployed_during_Operation_Desert_Storm.jpg",
+        "license": "Public Domain",
+        "author": "US Department of Defense"
+      }
+    },
+    {
+      "id": "kuwait-oil-fires-1991",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/gulf-war-iraq-war/kuwait-oil-fires-1991.jpg",
+      "caption": {
+        "ja": "1991年の湾岸戦争終結時、撤退するイラク軍によって放火されたクウェート南部の油田火災。大規模な環境破壊と経済被害を引き起こした。",
+        "en": "Burning oil wells south of Kuwait City in 1991, ignited by retreating Iraqi forces during the Gulf War, causing severe environmental damage.",
+        "zh": "1991年海湾战争撤退时被伊拉克军队点燃的科威特南部油田火灾，造成严重的生态环境与经济破坏。",
+        "ko": "1991년 걸프 전쟁 말기 철수하는 이라크군에 의해 방화된 쿠웨이트 남부의 유전 화재. 심각한 환경 파괴와 피해를 낳았다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Oil_well_fires,_south_of_Kuwait_City,_1991.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Jonas Jordan / US Army Corps of Engineers"
+      }
+    }
+  ]
+}

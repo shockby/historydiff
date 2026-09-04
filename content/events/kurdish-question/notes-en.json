@@ -1,0 +1,127 @@
+{
+  "eventId": "kurdish-question",
+  "notes": [
+    {
+      "id": "kq-halabja-chemical",
+      "claim": "The 1988 Halabja chemical attack killed approximately 5,000 Kurdish civilians under orders from Saddam Hussein's government.",
+      "context": "On March 16–17, 1988, Iraqi forces dropped mustard gas and nerve agents on the predominantly Kurdish city of Halabja. Casualty estimates range from 3,200 to 5,000, mostly civilians. The Iraqi High Tribunal later classified the attack as genocide. The U.S. government, then pursuing a tilt toward Iraq in the Iran-Iraq War, initially avoided public condemnation.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        },
+        {
+          "title": "Halabja chemical attack – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halabja_chemical_attack",
+          "publisher": "Wikipedia (multiple academic references)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kq-sevres-lausanne",
+      "claim": "The 1920 Treaty of Sèvres promised Kurdish autonomy; the 1923 Treaty of Lausanne eliminated all such provisions.",
+      "context": "Articles 62–64 of the Treaty of Sèvres envisioned local autonomy and potential independence for Kurdish-majority areas. However, Mustafa Kemal's military victories over Allied forces led to the renegotiated Treaty of Lausanne, which made no mention of Kurdish rights. This reversal is a foundational grievance in Kurdish political history.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Treaty of Sèvres (1920), Articles 62-64",
+          "url": "https://wwi.lib.byu.edu/index.php/Section_I,_Articles_1_-_260",
+          "publisher": "BYU WWI Document Archive",
+          "type": "archive"
+        },
+        {
+          "title": "Treaty of Lausanne (1923)",
+          "url": "https://avalon.law.yale.edu/20th_century/lausanne.asp",
+          "publisher": "Yale Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kq-pkk-designation",
+      "claim": "The PKK is designated a terrorist organization by Turkey, the EU, and the U.S., but its Syrian affiliate YPG was simultaneously America's primary anti-ISIS partner.",
+      "context": "Turkey has designated the PKK since the 1980s; the U.S. since 1997; the EU since 2002. Despite this, the U.S. partnered with the YPG — which Turkey considers an extension of the PKK — to fight ISIS in Syria from 2014 onward. This contradiction severely strained U.S.-Turkey relations and contributed to Turkey's 2019 military operation in northeast Syria.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "U.S. Department of State: Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        },
+        {
+          "title": "EU Terrorist List",
+          "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/terrorist-list/",
+          "publisher": "European Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kq-un-688",
+      "claim": "UN Security Council Resolution 688 (1991) was one of the earliest precedents for humanitarian intervention, declaring Kurdish repression a threat to international peace.",
+      "context": "After the Gulf War, Saddam Hussein suppressed Shia and Kurdish uprisings, displacing roughly two million Kurds. Resolution 688 passed 10-3 (2 abstentions) over objections from Cuba, Yemen, and Zimbabwe. Though it did not authorize military action, it established a precedent for framing internal repression as an international security matter and justified subsequent no-fly zones.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 688 (1991)",
+          "url": "https://digitallibrary.un.org/record/110659",
+          "publisher": "UN Digital Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kq-rojava",
+      "claim": "The Rojava autonomous region in northern Syria has operated a distinctive model of decentralized governance since 2012, though its long-term viability remains uncertain.",
+      "context": "As Syrian government control collapsed during the civil war, Kurdish-led forces established de facto autonomy in northern Syria. The Autonomous Administration of North and East Syria (AANES) practices democratic confederalism, emphasizing gender co-governance and multi-ethnic representation. Its existence is disputed by Turkey, unrecognized by Damascus, and has no formal international legal status.",
+      "verdict": "Estimates vary",
+      "sources": [
+        {
+          "title": "International Crisis Group: The Kurdish Question in Syria",
+          "url": "https://www.crisisgroup.org/middle-east-north-africa/eastern-mediterranean/syria",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-anfal",
+      "claim": "The Anfal campaign (1986–1989) killed or disappeared an estimated 50,000–180,000 Kurds in Iraq.",
+      "context": "Directed by Ali Hassan al-Majid ('Chemical Ali'), the Anfal campaign involved systematic village destruction, mass executions, and forced displacement targeting Iraqi Kurds during the Iran-Iraq War. Death toll estimates vary widely; Human Rights Watch documented 'at least 50,000 and possibly as many as 100,000 or more.' The Iraqi parliament recognized it as genocide in 2006.",
+      "verdict": "Estimates vary",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-japan-kurd-refugee",
+      "claim": "Kurdish asylum seekers in Japan face one of the lowest refugee recognition rates in the OECD, with many remaining in prolonged provisional release status.",
+      "context": "Japan hosts a significant Kurdish community, primarily from Turkey, concentrated in Kawaguchi and Warabi cities in Saitama Prefecture. Japan's overall refugee recognition rate has historically been below 1%, far lower than European and North American peers. Kurdish applicants are rarely granted full refugee status, and many endure multi-year provisional release while their cases are reviewed, unable to work legally.",
+      "verdict": "Debated",
+      "sources": [
+        {
+          "title": "Immigration Services Agency of Japan: Refugee Recognition Statistics",
+          "url": "https://www.moj.go.jp/isa/publications/press/07_00035.html",
+          "publisher": "Japan Ministry of Justice",
+          "type": "government"
+        },
+        {
+          "title": "Japan Association for Refugees (JAR) Annual Report",
+          "url": "https://www.refugee.or.jp/",
+          "publisher": "Japan Association for Refugees",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

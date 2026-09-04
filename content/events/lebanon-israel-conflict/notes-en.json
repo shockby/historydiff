@@ -1,0 +1,139 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "notes": [
+    {
+      "id": "lic-1982-invasion",
+      "claim": "Israel's 1982 invasion of Lebanon (Operation Peace for Galilee) advanced to Beirut and expelled the PLO",
+      "context": "In June 1982, Israeli forces invaded Lebanon, besieged Beirut, and destroyed PLO infrastructure. Under multinational force supervision, the PLO evacuated Beirut in August. Thousands of Lebanese civilians were killed during the invasion, making it a defining trauma in Lebanese collective memory.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Israel's Operation in Lebanon - Official History",
+          "url": "https://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/pages/israel-s%20operation%20in%20lebanon.aspx",
+          "publisher": "Israeli Ministry of Foreign Affairs",
+          "type": "government"
+        },
+        {
+          "title": "The 1982 Israeli Invasion of Lebanon",
+          "url": "https://www.hrw.org/reports/1983/lebanon/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-2006-casualties",
+      "claim": "The 2006 Lebanon War killed over 1,200 Lebanese and 165 Israelis over 33 days",
+      "context": "During the July–August 2006 war, the Lebanese Ministry of Health recorded approximately 1,191 deaths, predominantly civilians. Israeli losses totaled 119 soldiers and 44 civilians (163–165 total). This asymmetric toll reinforced Lebanese and Arab perceptions of the conflict as Israeli aggression rather than self-defense.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Lebanon: Death toll and impact of 2006 war",
+          "url": "https://www.un.org/unispal/document/auto-insert-187660/",
+          "publisher": "UN OCHA",
+          "type": "international"
+        },
+        {
+          "title": "2006 Lebanon War casualties",
+          "url": "https://www.btselem.org/",
+          "publisher": "B'Tselem",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-shebaa-farms",
+      "claim": "The sovereignty of Shebaa Farms is disputed between Lebanon (claiming Lebanese territory) and the UN/Israel/Syria (treating it as part of the Golan Heights)",
+      "context": "Shebaa Farms is an approximately 22 km² mountainous area captured by Israel from Syria in 1967. Lebanon claims it as Lebanese territory, but the UN, Israel, and Syria's Assad government treat it as part of the occupied Golan Heights. Since Israel's 2000 withdrawal from Lebanon, Hezbollah has used the area as justification for continued armed resistance.",
+      "verdict": "Debated",
+      "sources": [
+        {
+          "title": "Report of the Secretary-General on the Blue Line",
+          "url": "https://undocs.org/S/2000/590",
+          "publisher": "UN Secretary-General",
+          "type": "international"
+        },
+        {
+          "title": "Shebaa Farms: The Lebanon-Syria-Israel Territorial Dispute",
+          "url": "https://www.cfr.org/backgrounder/shebaa-farms",
+          "publisher": "Council on Foreign Relations",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "lic-unsc-1701",
+      "claim": "UN Security Council Resolution 1701 (2006) prohibits armed groups south of the Litani River, but implementation remains incomplete",
+      "context": "Resolution 1701 called for an enhanced UNIFIL of up to 15,000 troops, Lebanese Armed Forces deployment to the south, and creation of a zone free of armed groups between the Blue Line and the Litani River. Annual UN Secretary-General reports have consistently documented continued Hezbollah arms storage and movement in the area, confirming incomplete implementation.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 1701 (2006)",
+          "url": "https://undocs.org/S/RES/1701(2006)",
+          "publisher": "UN Security Council",
+          "type": "international"
+        },
+        {
+          "title": "UNIFIL Mandate and Implementation Reports",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/mandate.shtml",
+          "publisher": "UN UNIFIL",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "lic-unifil-japan",
+      "claim": "Japan contributes civilian experts and Ministry of Defense staff to UNIFIL but has not deployed armed Self-Defense Force combat units",
+      "context": "Constraints from Japan's pacifist constitution (Article 9) have made armed SDF participation in UNIFIL difficult. Japan instead deploys civilian Ministry of Defense experts and headquarters staff. This contrasts with China's deployment of engineering units numbering in the hundreds, highlighting different approaches to UN peacekeeping participation.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "UNIFIL Contributing Countries",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/contributing.shtml",
+          "publisher": "UN UNIFIL",
+          "type": "international"
+        },
+        {
+          "title": "Japan's Contribution to UNIFIL",
+          "url": "https://www.mofa.go.jp/mofaj/fp/un_pko/page23_001140.html",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-hezbollah-designation",
+      "claim": "Hezbollah is designated a terrorist organization by the US and EU, but not by Japan, China, or Russia",
+      "context": "The United States designated Hezbollah as a Foreign Terrorist Organization (FTO) in 1997. The EU designated only Hezbollah's military wing in 2013. Japan, China, Russia, and most developing countries do not designate Hezbollah as a terrorist organization, treating it as a Lebanese political and military organization. This divergence of recognition causes splits in international response.",
+      "verdict": "Confirmed fact",
+      "sources": [
+        {
+          "title": "Designated Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "US Department of State",
+          "type": "government"
+        },
+        {
+          "title": "EU Council Decision on Hezbollah's military wing",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013D0495",
+          "publisher": "Council of the European Union",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-1983-barracks",
+      "claim": "The 1983 Beirut barracks bombing killed 241 US Marines and led to American withdrawal from Lebanon",
+      "context": "On October 23, 1983, a suicide truck bomb destroyed the US Marine barracks in Beirut, killing 241 Americans (a simultaneous attack on French barracks killed 58). The US attributed the attack to Hezbollah with Iranian support. The Reagan administration subsequently withdrew the multinational force from Lebanon in 1984. This event became the origin of American enmity toward Hezbollah.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "1983 Beirut barracks bombings",
+          "url": "https://history.state.gov/milestones/1981-1988/lebanon",
+          "publisher": "US Department of State Office of the Historian",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "giw-voice-1",
+      "country": {
+        "ja": "イラク市民（戦争被害者）",
+        "en": "Iraqi citizens (war affected)",
+        "zh": "伊拉克民众（战争受害者）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "大量破壊兵器は見つからず、国は破壊され、ISISが台頭した。独裁者は去ったが、その代償として支払わされたのは何十万人もの一般市民の命と未来だった。",
+        "en": "No WMDs were ever found, yet our country was destroyed and ISIS was born. The dictator was removed, but the price paid was hundreds of thousands of innocent lives and our children's future.",
+        "zh": "根本没有发现大规模杀伤性武器，但我们的国家被摧毁了，还催生了ISIS。独裁者虽然下台，但付出的是数十万无辜生命和未来的沉重代价。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "2003年以降の混乱、宗派間暴力、治安崩壊を直接経験したイラク国内の市民感情。",
+        "en": "Deeply felt sentiment among Iraqis who endured post-2003 sectarian conflict, infrastructure collapse, and violence.",
+        "zh": "经历2003年后宗派冲突、基础设施崩溃和暴力动荡的伊拉克民众的深切感受。"
+      },
+      "keywords": [
+        "#IraqWar",
+        "#NoWMD",
+        "#IraqisRemember",
+        "#JusticeForIraq"
+      ],
+      "timeframe": "2003-present"
+    },
+    {
+      "id": "giw-voice-2",
+      "country": {
+        "ja": "クウェート市民（解放派）",
+        "en": "Kuwaiti citizens (liberation grateful)",
+        "zh": "科威特民众（解放感恩派）"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "1990年のイラク軍の突然の侵略と占領は恐怖そのものだった。多国籍軍による迅速な介入がなければ、クウェートという国家は地図から消えていた。",
+        "en": "The sudden Iraqi invasion in August 1990 was terrifying. Without the resolute intervention of the international coalition, Kuwait would have been wiped off the map.",
+        "zh": "1990年8月伊拉克的突然入侵极其恐怖。如果没有多国联军的果断干预，科威特这个国家可能已经从地图上消失了。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "1991年湾岸戦争における主権回復と国際協調への強い支持と感謝。",
+        "en": "Widespread public sentiment in Kuwait commemorating liberation and the enforcement of international law in 1991.",
+        "zh": "科威特公众对1991年恢复主权和多国联军执行国际法所普遍抱有的感激态度。"
+      },
+      "keywords": [
+        "#KuwaitLiberation",
+        "#DesertStorm",
+        "#Kuwait1991",
+        "#NeverForget90"
+      ],
+      "timeframe": "1991-present"
+    },
+    {
+      "id": "giw-voice-3",
+      "country": {
+        "ja": "米国・欧米世論（反省と検証派）",
+        "en": "Western public (critical re-evaluation)",
+        "zh": "西方公众（反思与批判派）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "1991年の湾岸戦争は国際法秩序を守る明確な正当性があった。しかし2003年のイラク侵攻は不確かな情報に基づく致命的な誤算であり、中東全域に計り知れない混乱をもたらした。",
+        "en": "The 1991 Gulf War had clear multilateral legitimacy, but the 2003 invasion was a disastrous miscalculation based on faulty intelligence that destabilized the entire region.",
+        "zh": "1991年海湾战争拥有明确的多边合法性，但2003年入侵伊拉克则是基于错误情报的灾难性误判，导致整个中东陷入长久动荡。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "チルコット報告書（英国）や米国議会調査を経た、欧米社会におけるイラク戦争に対する支配的な歴史的総括。",
+        "en": "Mainstream historical consensus in Western democracies following the Chilcot Report, Senate investigations, and years of debate.",
+        "zh": "在英国齐尔考特调查报告及美国参议院调查之后，西方社会对伊拉克战争的主流反思。"
+      },
+      "keywords": [
+        "#IraqLessons",
+        "#ChilcotReport",
+        "#ForeignPolicy",
+        "#Accountability"
+      ],
+      "timeframe": "2004-present"
+    }
+  ]
+}

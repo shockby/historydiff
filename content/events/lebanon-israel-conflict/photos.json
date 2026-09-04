@@ -1,0 +1,37 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "photos": [
+    {
+      "id": "unifil-blue-line-patrol",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/lebanon-israel-conflict/unifil-blue-line-patrol.jpg",
+      "caption": {
+        "ja": "レバノン南部・ブルーライン沿いを巡回する国連レバノン暫定軍（UNIFIL）とレバノン軍の合同パトロール。",
+        "en": "A joint patrol by UNIFIL peacekeepers and the Lebanese Armed Forces along the UN Blue Line in southern Lebanon.",
+        "zh": "联合国驻黎巴嫩临时部队（联黎部队，UNIFIL）与黎巴嫩政府军沿“蓝线”进行的联合巡逻。",
+        "ko": "레바논 남부 '블루 라인'을 따라 순찰 중인 유엔 레바논 임시평화유じ군(UNIFIL)과 레바ノン 정부군의 합동 순찰."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:LAF_and_UNIFIL_Joint_Patrol_along_the_Blue_Line_with_Pte_Mark_Slattery_of_Clare(3)_(6868975337).jpg",
+        "license": "CC BY 2.0",
+        "author": "Irish Defence Forces"
+      }
+    },
+    {
+      "id": "beirut-damage-2006",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/lebanon-israel-conflict/beirut-damage-2006.jpg",
+      "caption": {
+        "ja": "2006年レバノン戦争（33日間戦争）の空爆により損壊したベイルート南郊ダヒエ地区の建物。",
+        "en": "Damaged apartment buildings in the Dahiyeh southern suburb of Beirut following Israeli air strikes during the 2006 Lebanon War.",
+        "zh": "2006年黎以冲突期间因空袭受损的贝鲁特南郊达希耶地区建筑物。",
+        "ko": "2006년 제2차 레바논 전쟁(33일 전쟁) 당시 이스라엘 공습으로 파괴된 베이루트 남부 다히예 지구의 건물."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Damaged_buildings_in_Beirut_after_the_2006_Lebanon_war.jpg",
+        "license": "CC BY 2.0",
+        "author": "David Karvala"
+      }
+    }
+  ]
+}

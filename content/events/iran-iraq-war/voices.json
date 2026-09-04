@@ -1,0 +1,91 @@
+{
+  "eventId": "iran-iraq-war",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "iiw-voice-1",
+      "country": {
+        "ja": "イラン市民・遺族（聖なる防衛派）",
+        "en": "Iranian public (Sacred Defence)",
+        "zh": "伊朗民众（神圣防卫派）"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "これは革命直後の祖国を侵略者サダムから守り抜いた「神聖なる防衛」だ。西側や東側が敵に武器と化学兵器を支援する中、私たちは孤立無援で領土を守った。",
+        "en": "This was our 'Sacred Defence' against Saddam's unprovoked invasion right after our revolution. While global powers supplied him with arms and chemical weapons, we defended our soil entirely alone.",
+        "zh": "这是我们在革命后保卫祖国免遭萨达姆侵略的“神圣防卫”。在大国向敌方提供武器和化学武器的情况下，我们孤立无援地捍卫了国土。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "イラン国内で国家アイデンティティと犠牲の記憶として深く浸透している「聖なる防衛」叙事詩。",
+        "en": "Core narrative within Iran regarding national sacrifice, resilience, and deep skepticism toward Western powers.",
+        "zh": "伊朗国内关于民族牺牲、坚韧精神以及对西方大国深层警惕的核心叙事。"
+      },
+      "keywords": [
+        "#SacredDefence",
+        "#DefaMoqaddas",
+        "#Khorramshahr",
+        "#IranIraqWar"
+      ],
+      "timeframe": "1980-present"
+    },
+    {
+      "id": "iiw-voice-2",
+      "country": {
+        "ja": "イラク退役軍人・市民",
+        "en": "Iraqi veterans and citizens",
+        "zh": "伊拉克老兵与民众"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "8年間の戦争で一世代の若者が塹壕で命を落とした。シャトルアラブ川の境界線は戦争前と何も変わらなかった。残ったのは膨大な戦債と次の戦争への破滅的な道だけだった。",
+        "en": "An entire generation of young men perished in trenches over eight brutal years. In the end, the borders remained exactly where they started, leaving only catastrophic debt that led to our next wars.",
+        "zh": "长达八年的残酷战壕战牺牲了整整一代年轻人。最终边界几乎毫无变化，留下的只有巨额战债，并将国家推向了接下来的战争深渊。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "イラク国内の元兵士や遺族の間で共有される、戦争の無益さと指導部への批判的視点。",
+        "en": "Widespread retrospective consensus among Iraqi families on the futility and devastating human toll of the conflict.",
+        "zh": "伊拉克家庭与退伍军人对该场冲突徒劳无益和惨痛代价的普遍反思。"
+      },
+      "keywords": [
+        "#IraqHistory",
+        "#FutilityOfWar",
+        "#LostGeneration",
+        "#ShattAlArab"
+      ],
+      "timeframe": "1988-present"
+    },
+    {
+      "id": "iiw-voice-3",
+      "country": {
+        "ja": "軍縮・人道法専門家",
+        "en": "Disarmament and humanitarian experts",
+        "zh": "军控与人道法专家"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "イラン・イラク戦争は第一次世界大戦以降で最大規模の化学兵器使用が行われた紛争だ。国際社会の初期の沈黙が悲劇を拡大させ、後の化学兵器禁止条約（CWC）策定の契機となった。",
+        "en": "The Iran-Iraq War witnessed the largest use of chemical weapons since WWI. The international community's initial reluctance to hold perpetrators accountable was tragic and spurred the creation of the CWC.",
+        "zh": "两伊战争见证了一战以来最大规模的化学武器使用。国际社会早期的绥靖与不作为加剧了悲剧，但也促成了后来的《禁止化学武器公约》（CWC）。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国連化学兵器調査団やジュネーブ軍縮会議で強調される国際人道法上の教訓。",
+        "en": "Standard assessment among arms control specialists and UN disarmament bodies.",
+        "zh": "军控专家及联合国裁军机构对该战争在国际人道法层面的普遍定论。"
+      },
+      "keywords": [
+        "#ChemicalWeapons",
+        "#CWC",
+        "#Halabja",
+        "#InternationalLaw"
+      ],
+      "timeframe": "1988-present"
+    }
+  ]
+}

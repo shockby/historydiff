@@ -1,0 +1,121 @@
+{
+  "eventId": "iran-iraq-war",
+  "notes": [
+    {
+      "id": "iiw-shatt-al-arab",
+      "claim": "イラン・イラク戦争の主要な開戦原因はシャトルアラブ川の主権をめぐる争いだった",
+      "context": "シャトルアラブ川はイランとイラクの国境を形成する水路で、ペルシャ湾への出口として両国にとって戦略的に重要。1975年のアルジェ協定でイラクは川の中央線を国境と認めたが、サダム・フセインは1980年9月17日にこの協定を一方的に破棄し、5日後にイランへ侵攻した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "The Algiers Agreement of 1975",
+          "url": "https://peacemaker.un.org/iraq-iran-algiersagreement75",
+          "publisher": "国連平和構築支援",
+          "type": "international"
+        },
+        {
+          "title": "Iran-Iraq War (1980-1988)",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-chemical-weapons",
+      "claim": "イラクはイラン・イラク戦争中に化学兵器を使用し、国連の調査団がこれを確認した",
+      "context": "国連事務総長の調査団は1984年から複数回にわたりイランへの調査を実施し、マスタードガスおよびタブン（神経剤）の使用を確認する報告書を公表した。1988年3月のハラブジャ攻撃ではクルド人民間人に対して化学兵器が使用され、約5,000人が死亡したとされる。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Report of the specialists appointed by the Secretary-General to investigate allegations by the Islamic Republic of Iran concerning the use of chemical weapons (S/16433)",
+          "url": "https://digitallibrary.un.org/record/84243",
+          "publisher": "国連デジタルライブラリ",
+          "type": "international"
+        },
+        {
+          "title": "Halabja chemical attack",
+          "url": "https://www.hrw.org/reports/1993/iraqkurds/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "iiw-us-support-iraq",
+      "claim": "米国はイラクの化学兵器使用を知りながらイラクへの支援を継続した",
+      "context": "機密解除された米国務省・国家安全保障会議文書（2013年公開）により、レーガン政権がイラクによる化学兵器使用の情報を持ちながら、対イラン封じ込めを優先してイラクへの外交・経済支援を継続したことが確認されている。1983-84年にはドナルド・ラムズフェルドが特使としてバグダッドを訪問しサダムと会談した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Shaking Hands with Saddam Hussein: The U.S. Tilts toward Iraq, 1980-1984",
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB82/",
+          "publisher": "National Security Archive, George Washington University",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "iiw-casualties",
+      "claim": "イラン・イラク戦争の死者数は両国合わせて50万人から100万人超と推定されている",
+      "context": "8年間の戦争による死者数の推計は研究者によって大きく幅がある。戦闘員・民間人を合わせた死者数は最低でも40万人、多くの推計で50万〜100万人以上とされる。イランは「殉教者」の数を聖戦の証として強調し、正確な統計の公開には消極的だった。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Iran-Iraq War",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "The Iran-Iraq War: A Military Analysis",
+          "url": "https://www.rand.org/pubs/reports/R3339.html",
+          "publisher": "RAND Corporation",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-un-res598",
+      "claim": "国連安保理決議598（1987年）が最終的に停戦の法的根拠となった",
+      "context": "決議598は1987年7月20日に全会一致で採択され、即時停戦、捕虜交換、国境への撤退を求めた。イラクはほぼ即時に受諾したが、イランは1988年7月まで受諾を拒否した。停戦は1988年8月20日に発効し、UNIIMOGが監視に当たった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Security Council Resolution 598 (1987)",
+          "url": "https://digitallibrary.un.org/record/148734",
+          "publisher": "国連デジタルライブラリ",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "iiw-china-arms",
+      "claim": "中国はイラン・イラク両国に武器を輸出し、紛争から利益を得た",
+      "context": "中国はイランへF-7（ミグ21改良型）戦闘機、HY-2シルクワームミサイルなどを供給し、イラクへも各種兵器を輸出した。ストックホルム国際平和研究所（SIPRI）の武器移転データベースにより両国への輸出実績が記録されている。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "SIPRI Arms Transfers Database",
+          "url": "https://www.sipri.org/databases/armstransfers",
+          "publisher": "Stockholm International Peace Research Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-iran-air-655",
+      "claim": "米艦ヴィンセンスが1988年にイラン航空655便を撃墜し、290人が死亡した",
+      "context": "1988年7月3日、米海軍ミサイル巡洋艦USSヴィンセンスがホルムズ海峡でイラン航空655便（エアバスA300）を民間機と認識せずに撃墜し、乗客乗員290人全員が死亡した。米国は後に遺族に補償金を支払ったが、謝罪はしなかった。この事件はイランにとって停戦受諾を加速させた一因とも分析されている。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Iran Air Flight 655",
+          "url": "https://www.icao.int/Meetings/AMC/MA/DGCA%2011th%20Conference/dgca11_wp085.pdf",
+          "publisher": "国際民間航空機関（ICAO）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "kurdish-question",
+  "photos": [
+    {
+      "id": "kurdish-inhabited-area-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kurdish-question/kurdish-inhabited-area-map.jpg",
+      "caption": {
+        "ja": "1992年にCIAが作成したクルド人居住地域マップ。トルコ、イラク、イラン、シリアにまたがる「クルディスタン」の広がりを示す。",
+        "en": "CIA map (1992) showing Kurdish-inhabited areas spanning Turkey, Iraq, Iran, and Syria across historical Kurdistan.",
+        "zh": "1992年美国中央情报局（CIA）绘制的库尔德人聚居区地图，显示横跨土耳其、伊拉克、伊朗和叙利亚的库尔德斯坦区域。",
+        "ko": "1992년 미국 CIA가 제작한 쿠르드족 거주 지역 지도. 터키, 이라크, 이란, 시리아에 걸친 '쿠르디스탄'의 분포를 보여준다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kurdish-inhabited_area_by_CIA_(1992).jpg",
+        "license": "Public Domain",
+        "author": "Central Intelligence Agency (CIA)"
+      }
+    },
+    {
+      "id": "flag-of-kurdistan",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kurdish-question/flag-of-kurdistan.png",
+      "caption": {
+        "ja": "クルディスタンの旗（アラ・レンギン）。イラクのクルディスタン地域政府で公式採用され、世界中のクルド人の象徴となっている。",
+        "en": "The Flag of Kurdistan (Ala Rengîn), officially adopted by the Kurdistan Regional Government in Iraq and widely flown by Kurds worldwide.",
+        "zh": "库尔德斯坦旗帜（Ala Rengîn），由伊拉克库尔德斯坦地区政府官方采用，是全球库尔德人的象征。",
+        "ko": "쿠르디스탄의 깃발(Ala Rengîn). 이라크 쿠르디스탄 지역정부에서 공식 채택되었으며 전 세계 쿠르드인의 상징이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kurdistan.svg",
+        "license": "Public Domain",
+        "author": "Zaza"
+      }
+    }
+  ]
+}

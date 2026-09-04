@@ -121,13 +121,18 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
 ※ Wikimedia Commons等の外部画像を直接ホットリンク（`upload.wikimedia.org`）して使用すると、リファラー制限やHTTP 400エラー等で読み込めないため、必ずCloudflare R2（CDN）にコピーするか、ローカルに配置して使用すること。
 1. `https://commons.wikimedia.org/wiki/Category:<EventName>` でカテゴリを検索する
 2. 個別ファイルページでライセンス（`CC BY-SA 4.0` または `Public Domain` を優先）と作者名を確認する
-3. 画像ファイルをダウンロードする（例: `wget` 等を利用）
+3. 画像ファイルをダウンロードする：
+   - **User-Agent の指定**: Wikimedia Commons はプレーンな `wget` やデフォルトの HTTP クライアントに `403 Forbidden` や `429 Too Many Requests` を返すため、必ず `wget --user-agent="Mozilla/5.0"` または Python `urllib` でブラウザ相当の User-Agent を設定する。
+   - **レートリミット対策**: 連続リクエスト時はリクエスト間に 1〜2 秒のウェイトを設ける。
+   - **SVG 画像の扱い**: SVG はサムネイル API（`iiprop=url&iiurlwidth=1920`）でレンダリング済み高解像度 PNG/JPG を取得するか、ラスタ形式（PNG/JPG）を優先する。
+   - **画像サイズ最適化**: ダウンロード後、Pillow 等で最大 1920x1920 px 以内にリサイズし、ファイルサイズを軽量化（目安 1MB 前後）する。
 4. ダウンロードした画像を配置する。方法として以下のいずれかを選択する：
    - **R2 CDN方式**: Cloudflare R2バケット（`historydiff-photos`）の `events/<event-id>/` 配下にアップロードする
    - **ローカル配置方式 (推奨/代替)**: AIエージェントなどR2へのアップロード権限がない場合やR2の画像が破損している場合は、ローカルの `public/images/events/<event-id>/` ディレクトリ配下に保存する。
-5. **R2 アップロードコマンド** (`--remote` フラグ必須):
+5. **R2 アップロードコマンド** (`--remote` フラグ必須、リトライ推奨):
    ```bash
    # ⚠️ --remote を省略するとローカルエミュレータに書き込まれ、本番 R2 に反映されない
+   # 一時的なネットワーク瞬断（fetch failed）に備え、スクリプト実行時はリトライ（2〜3回）を推奨
    ./node_modules/.bin/wrangler r2 object put historydiff-photos/events/<event-id>/<filename> \
      --file=public/images/events/<event-id>/<filename> \
      --content-type=image/jpeg \
@@ -137,6 +142,7 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
    - R2 CDN方式: `https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/<event-id>/<filename>`
    - ローカル配置方式: `/images/events/<event-id>/<filename>`
 7. ローカルサーバーを起動するか、ビルドを実行して画像が正常に表示されるか確認する
+   - **CDN URL の疎通確認**: HEAD / GET リクエストで R2 URL をテストする際、Cloudflare のボット保護により User-Agent なしだと `403 Forbidden` になるため、必ず `User-Agent: Mozilla/5.0` などのヘッダーを付与して HTTP 200 を確認する。
 
 ---
 
@@ -167,6 +173,8 @@ JSONやMarkdownのフロントマターを記述・翻訳する際は、構文�
     ```bash
     rtk npm run build
     ```
+    - `npm run build` を実行すると `scripts/generate_og_images.py` により新規イベントの OGP 画像（`public/og/events/<event-id>-<lang>.png`）が自動生成される。
+    - 対象イベントの OGP 画像もコミット対象に含めること（他の未関係ブランチの OGP は含めないようステージングする）。
 
 ---
 

@@ -43,3 +43,17 @@ const MapView = dynamic(() => import('./MapView'), { ssr: false });
 2. **Nullish Coalescing演算子 (`??`) の構文規則**:
    - `||` 演算子と `??` 演算子を同一式で組み合わせる場合、SWC/Turbopackのパーサーエラーを防止するため、必ず括弧 `(a ?? b)` で囲んでグループ化すること。
 <!-- END:perspective-ui-rules -->
+
+<!-- BEGIN:doc-sync-rules -->
+## ドキュメント更新 & 4言語 README 同期ルール
+
+1. **4言語 README の一貫性と同期**:
+   - プロジェクトの README（`README.ja.md`, `README.md`, `README.zh.md`, `README.ko.md`）を更新する際は、必ず4言語すべてを同時に更新すること。
+   - セクション構成（主な機能、技術スタック、ディレクトリ構成、操作ガイド、データ構造、自動化スクリプト、セットアップ手順）を4言語間で統一し、記述の欠落や古い情報の残存を防ぐ。
+
+2. **操作ガイド・Mermaid図の維持**:
+   - ユーザー向けの操作手順（事象探索 → 記述比較 → 事実検証 → 診断・クイズ・現代ニュース）は、Mermaid図やステップ番号を用いて全言語で分かりやすく明記する。
+
+3. **アプリ内利用ガイド（`/guide`）との整合性**:
+   - UIの操作方法や主要機能に変更があった場合は、README だけでなくアプリ内ガイド（`src/app/[lang]/guide/page.tsx`、`src/lib/translations.ts`、`src/app/components/WelcomeModal.tsx`）の説明との整合性を確認すること。
+<!-- END:doc-sync-rules -->

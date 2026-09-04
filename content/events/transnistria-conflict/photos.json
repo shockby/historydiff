@@ -1,0 +1,37 @@
+{
+  "eventId": "transnistria-conflict",
+  "photos": [
+    {
+      "id": "transnistria-parliament-tiraspol",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/transnistria-conflict/transnistria-parliament-tiraspol.jpg",
+      "caption": {
+        "ja": "トランスニストリア（沿ドニエストル共和国）の事実上の首都ティラスポリにある最高会議（議会）ビルとレーニン像。旧ソ連時代のシンボルが現在も公的建造物として保存され、未承認国家としての独自体制を象徴している。",
+        "en": "The Supreme Soviet (parliament) building and statue of Vladimir Lenin in Tiraspol, de facto capital of Transnistria (PMR). Soviet-era symbols remain prominently preserved throughout the breakaway territory, reflecting its distinct political and historical identity.",
+        "zh": "位于德涅斯特河左岸共和国事实首都蒂拉斯波尔的最高苏维埃（议会）大厦与列宁雕像。苏联时期的象征符号在这一分离地区得以完整保存，彰显其独特的政治与历史特征。",
+        "ko": "트란스니스트리아(연드네스트르 공화국)의 사실상 수도 티라스폴에 있는 최고 소비에트(의회) 건물과 레닌 동상. 구소련 시대의 상징이 오늘날에도 보존되어 미승인 국가로서의 독자적인 체제를 상징하고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Transnistrian Parliament House (11384632876).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Transnistrian_Parliament_House_(11384632876).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Clay Gilliland"
+      }
+    },
+    {
+      "id": "transnistria-locator-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/transnistria-conflict/transnistria-locator-map.png",
+      "caption": {
+        "ja": "モルドバにおけるトランスニストリア（沿ドニエストル地方、赤色）の位置図。ドニエストル川東岸に沿ってウクライナと国境を接する細長い地域であり、1992年の戦闘終結以降、モルドバ中央政府の実効支配が及ばない「凍結された紛争」地域となっている。",
+        "en": "Locator map of Transnistria (red) within Moldova. Running along the eastern bank of the Dniester River bordering Ukraine, the narrow strip of land has functioned as an internationally unrecognized de facto independent territory since the 1992 War of Transnistria.",
+        "zh": "德涅斯特河左岸地区在摩尔多瓦境内的位置图（红色）。该细长区域沿德涅斯特河东岸延伸并与乌克兰接壤，自1992年战争结束以来一直处于摩尔多瓦中央政府实际控制之外，是典型的\"冻结冲突\"地区。",
+        "ko": "몰도바 내 트란스니스트리아(연드네스트르 지역, 붉은색)의 위치도. 드네스트르강 동쪽 기슭을 따라 우크라이나와 국경을 접하는 좁고 긴 지역으로, 1992년 전쟁 이후 몰도바 중앙정부의 실효 지배가 미치지 않는 '동결된 분쟁' 지역이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Moldova Transnistria Locator.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Moldova_Transnistria_Locator.png",
+        "license": "CC BY-SA 4.0",
+        "author": "Adam Hegazy337259"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "eventId": "transnistria-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "tc-voice-1",
+      "country": {"ja": "トランスニストリア（親ロシア派住民）", "en": "Transnistria (pro-Russian residents)", "zh": "德左（亲俄居民）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "私たちはロシア語を話すロシア人だ。モルドバはルーマニアになろうとしている。ロシアが私たちを守ってくれている。EUはここには不要だ。",
+        "en": "We are Russian people who speak Russian. Moldova wants to become Romania. Russia is protecting us. The EU is not needed here.",
+        "zh": "我们是说俄语的俄罗斯人。摩尔多瓦想成为罗马尼亚。俄罗斯在保护我们。欧盟在这里没有立足之地。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "PMR住民、特に中高年世代のロシア語話者に多く見られる論調。ソ連時代への郷愁と民族的アイデンティティへの強いこだわりが背景にある。",
+        "en": "Prevalent among PMR residents, especially older Russian-speaking generations, rooted in Soviet-era nostalgia and strong ethnic identification.",
+        "zh": "在德左居民中普遍存在，尤其是中老年俄语使用者，根植于对苏联时代的怀念和强烈的民族认同感。"
+      },
+      "keywords": ["#Transnistria", "#Russia", "#PMR", "#RussianWorld"],
+      "timeframe": "1990-present"
+    },
+    {
+      "id": "tc-voice-2",
+      "country": {"ja": "モルドバ（EU統合支持派）", "en": "Moldova (pro-EU integration)", "zh": "摩尔多瓦（亲欧盟派）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "トランスニストリアはロシアの道具だ。私たちの領土は占領されている。EUに加盟すれば未来がある。ロシア軍はモルドバから出ていくべきだ。",
+        "en": "Transnistria is a tool of Russia. Our territory is occupied. EU membership is our future. Russian troops must leave Moldova.",
+        "zh": "德左是俄罗斯的工具。我们的领土被占领了。加入欧盟才是我们的未来。俄罗斯军队必须撤出摩尔多瓦。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "モルドバ本国、特に首都キシナウとその周辺の若年層に多い論調。サンドゥ大統領当選（2020年）以降、EU統合への機運の高まりとともに増加した。",
+        "en": "Common in Moldova proper, especially among younger urban residents in Chisinau, surging after President Sandu's election in 2020 and growing EU integration momentum.",
+        "zh": "在摩尔多瓦本土广泛存在，尤其是首都基希讷乌及其周边的年轻人，随着桑杜总统当选（2020年）和欧盟一体化进程加速而增多。"
+      },
+      "keywords": ["#Moldova", "#EU", "#MoldovaEU", "#TransnistriaOccupied"],
+      "timeframe": "2020-present"
+    },
+    {
+      "id": "tc-voice-3",
+      "country": {"ja": "ウクライナ（戦時の視点、2022年以降）", "en": "Ukraine (wartime perspective, post-2022)", "zh": "乌克兰（战时视角，2022年后）"},
+      "sentiment": "critical",
+      "summary": {
+        "ja": "トランスニストリアはロシアがモルドバとウクライナを脅かすために利用しているもう一つの武器だ。ロシア軍の存在は地域全体への脅威だ。",
+        "en": "Transnistria is another weapon Russia uses to threaten Moldova and Ukraine. The presence of Russian troops is a threat to the entire region.",
+        "zh": "德左是俄罗斯用来威胁摩尔多瓦和乌克兰的又一工具。俄罗斯军队的存在对整个地区构成威胁。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "2022年のロシアによるウクライナ侵攻後、ウクライナのSNSでトランスニストリア問題への言及が急増。特に2022年4月のトランスニストリア内での爆発事件後に高まった。",
+        "en": "Discourse on Transnistria surged in Ukrainian social media after Russia's 2022 invasion, particularly following the unexplained explosions in Transnistria in April 2022.",
+        "zh": "2022年俄罗斯入侵乌克兰后，乌克兰社交媒体上提及德左问题的内容急剧增加，尤其在2022年4月德左发生不明爆炸事件后达到高峰。"
+      },
+      "keywords": ["#Transnistria", "#Russia", "#Ukraine", "#SecurityThreat"],
+      "timeframe": "2022-present"
+    },
+    {
+      "id": "tc-voice-4",
+      "country": {"ja": "EU・西欧のオブザーバー", "en": "EU/Western European observers", "zh": "欧盟/西欧观察人士"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "トランスニストリアはロシアが欧州に維持している「凍結紛争」の典型例だ。解決への意志があれば可能なはずだが、ロシアはモルドバを政治的人質にし続けている。",
+        "en": "Transnistria is the archetypal 'frozen conflict' Russia maintains in Europe. Resolution would be possible if there were political will, but Russia continues to hold Moldova as a political hostage.",
+        "zh": "德左是俄罗斯在欧洲维持的\"冻结冲突\"的典型案例。如果有政治意愿，解决是可能的，但俄罗斯继续将摩尔多瓦当作政治人质。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "EU外交官・東欧研究者・欧州議会議員の間で広く共有される分析的見方。凍結紛争研究の学術的文脈でも頻繁に引用される。",
+        "en": "Widely shared analytical view among EU diplomats, Eastern Europe scholars, and MEPs, frequently cited in academic literature on frozen conflicts.",
+        "zh": "在欧盟外交官、东欧研究学者和欧洲议员中广泛流传的分析性观点，在冻结冲突学术研究中也被频繁引用。"
+      },
+      "keywords": ["#FrozenConflict", "#Moldova", "#OSCE", "#RussianInfluence"],
+      "timeframe": "2005-present"
+    },
+    {
+      "id": "tc-voice-5",
+      "country": {"ja": "トランスニストリアの若者", "en": "Transnistrian youth", "zh": "德左年轻人"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "私はパスポートが3つある（PMR・モルドバ・ロシア）。将来をどこに求めればいいか分からない。PMRは本当の国じゃない。でもモルドバも自分の国とは思えない。",
+        "en": "I have three passports (PMR, Moldova, Russia). I don't know where to seek my future. The PMR is not a real country, but I don't feel Moldova is my country either.",
+        "zh": "我有三本护照（德左、摩尔多瓦、俄罗斯）。我不知道去哪里寻找未来。德左不是一个真正的国家，但我也感觉摩尔多瓦不是我的国家。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "PMRの若年層に見られる複雑なアイデンティティの揺れ。PMRから移住を検討し、EU圏での就職・教育を求める若者が増えているとされる。",
+        "en": "Reflects the complex identity ambivalence among younger PMR residents, with growing numbers reportedly considering emigration to seek employment and education in the EU.",
+        "zh": "反映了德左年轻一代复杂的身份认同困境。据报道，越来越多的年轻人正考虑移民，寻求在欧盟国家就业和接受教育。"
+      },
+      "keywords": ["#Transnistria", "#Identity", "#PMR", "#Emigration"],
+      "timeframe": "2015-present"
+    }
+  ]
+}

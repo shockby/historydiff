@@ -1,0 +1,37 @@
+{
+  "eventId": "nagorno-karabakh",
+  "photos": [
+    {
+      "id": "nagorno-karabakh-conflict-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nagorno-karabakh/nagorno-karabakh-conflict-map.png",
+      "caption": {
+        "ja": "2020年紛争後のナゴルノ・カラバフ地域勢力図。旧ナゴルノ・カラバフ自治州、アルメニア側実効支配地域、アゼルバイジャン奪還地域、ロシア平和維持部隊展開地域が示されている。2023年9月の電撃攻勢により全域がアゼルバイジャン実効支配下に入った。",
+        "en": "Map of the Nagorno-Karabakh conflict region following the 2020 war, showing the former Nagorno-Karabakh Autonomous Oblast, Armenian-controlled areas, territories recovered by Azerbaijan, and the Russian peacekeeping deployment zone. The entire region came under Azerbaijani control following the September 2023 offensive.",
+        "zh": "2020年战争后的纳戈尔诺-卡拉巴赫地区局势图，标示了前纳卡自治州、亚美尼亚实际控制区、阿塞拜疆收复领土及俄罗斯维和部队部署区。2023年9月闪击攻势后，该地区完全由阿塞拜疆实际控制。",
+        "ko": "2020년 전쟁 후 나고르노카라바흐 분쟁 지역 판세도. 구 나고르노카라바흐 자치주, 아르메니아 측 실효 지배 지역, 아제르바이잔 탈환 지역 및 러시아 평화유지군 전개 지역이 표시되어 있다. 2023년 9월 전격 공세로 전역이 아제르바이잔 통제하에 들어갔다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Nagorno-Karabakh conflict.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Nagorno-Karabakh_conflict.png",
+        "license": "CC BY-SA 4.0",
+        "author": "Golden"
+      }
+    },
+    {
+      "id": "we-are-our-mountains",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/nagorno-karabakh/we-are-our-mountains.jpg",
+      "caption": {
+        "ja": "ステパナケルト（ハンケンディ）北郊にあるモニュメント「我らの山」（通称タティク・パピク、「祖母と祖父」の意）。1967年建立。ナゴルノ・カラバフのアルメニア系住民の民族的アイデンティティと土地への歴史的絆の象徴として親しまれてきた。",
+        "en": "\"We Are Our Mountains\" (locally known as Tatik-Papik, meaning 'Grandmother and Grandfather') monument on the northern outskirts of Stepanakert (Khankendi). Erected in 1967, it has long served as an enduring symbol of Armenian identity and historic connection to the land in Nagorno-Karabakh.",
+        "zh": "位于斯捷潘纳克特（汉肯德）北郊的\"我们是我们的山\"纪念碑（俗称\"老爷爷老奶奶\"）。建于1967年，长期作为纳卡亚美尼亚族身份认同与这片土地历史纽带的象征。",
+        "ko": "스테파나케르트(한켄디) 북쪽 교외에 위치한 '우리들의 산' 기념비(통칭 타틱-파픽, '할머니와 할아버지'라는 뜻). 1967년 건립되었으며, 나고르노카라바흐 아르메니아계 주민의 민족적 정체성과 영토에 대한 역사적 유대의 상징으로 여겨져 왔다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:We Are Our Mountains - 2017 - 0.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:We_Are_Our_Mountains_-_2017_-_0.JPG",
+        "license": "CC0",
+        "author": "Benoît Prieur"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "cyprus-dispute",
+  "photos": [
+    {
+      "id": "nicosia-green-line",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/cyprus-dispute/nicosia-green-line.jpg",
+      "caption": {
+        "ja": "首都ニコシア市内を東西に貫く国連緩衝地帯（グリーンライン）のバリケード。1974年のトルコ軍事介入以降、キプロス島をギリシャ系南部とトルコ系北部に隔てる象徴的な境界となっている。",
+        "en": "Barricade along the United Nations Buffer Zone (Green Line) cutting through central Nicosia. Since Turkey's 1974 military intervention, the Green Line has served as the physical divide separating the Greek Cypriot south from the Turkish Cypriot north.",
+        "zh": "横贯首都尼科西亚市中心的联合国缓冲区（绿线）路障。自1974年土耳其军事干预以来，绿线成为分隔南部希腊裔与北部土耳其裔社区的象征性分界线。",
+        "ko": "수도 니코시아 시내를 동서로 가로지르는 유엔 완충지대(그린라인)의 바리케이드. 1974년 터키의 군사 개입 이후 키프로스섬을 그리스계 남부와 터키계 북부로 나누는 상징적인 경계로 남아 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Along the Green Line - Nicosia - Cyprus - 15 (27879613904).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Along_the_Green_Line_-_Nicosia_-_Cyprus_-_15_(27879613904).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Adam Jones"
+      }
+    },
+    {
+      "id": "cyprus-un-buffer-zone-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/cyprus-dispute/cyprus-un-buffer-zone-map.png",
+      "caption": {
+        "ja": "キプロス全島における国連緩衝地帯（グリーンライン）と統治区分図。南部のキプロス共和国、北部の「北キプロス・トルコ共和国」（トルコのみ承認）、国連平和維持軍（UNFICYP）が管理する緩衝地帯、イギリス主権基地領域（アクロティリおよびデケリア）が示されている。",
+        "en": "Administrative map of Cyprus showing the United Nations Buffer Zone (Green Line), distinguishing the Republic of Cyprus in the south, the Turkish Republic of Northern Cyprus (recognized only by Turkey), the UNFICYP-patrolled buffer zone, and the British Sovereign Base Areas of Akrotiri and Dhekelia.",
+        "zh": "塞浦路斯全岛联合国缓冲区（绿线）与政治区划图，显示了南部的塞浦路斯共和国、北部的\"北塞浦路斯土耳其共和国\"（仅获土耳其承认）、联合国维和部队（UNFICYP）巡逻的缓冲区以及英国主权基地区（阿克罗蒂里和德凯利亚）。",
+        "ko": "키프로스 전역의 유엔 완충지대(그린라인) 및 통치 구분도. 남부 키프로스 공화국, 북부 '북키프로스 튀르크 공화국'(터키만 승인), 유엔 평화유지군(UNFICYP) 관할 완충지대, 영국 주권 기지 구역(아크로티리 및 데켈리아)이 표시되어 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:UN buffer zone in Cyprus.png",
+        "url": "https://commons.wikimedia.org/wiki/File:UN_buffer_zone_in_Cyprus.png",
+        "license": "CC BY 4.0",
+        "author": "Andy Asquelt"
+      }
+    }
+  ]
+}

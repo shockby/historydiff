@@ -1,0 +1,100 @@
+{
+  "eventId": "kyrgyzstan-tajikistan-border",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "ktb-voice-1",
+      "country": {"ja": "キルギスタン（国境地帯住民）", "en": "Kyrgyzstan (border region residents)", "zh": "吉尔吉斯斯坦（边境地区居民）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "タジキスタン軍が私たちの村を焼いた。子どもたちを連れて逃げた。これは侵略だ。キルギスの土地はキルギスのものだ。政府はもっと強く対応すべきだ。",
+        "en": "Tajik forces burned our village. I fled with my children. This is an invasion. Kyrgyz land belongs to Kyrgyz. The government should respond more firmly.",
+        "zh": "塔吉克军队烧毁了我们的村庄。我带着孩子们逃跑了。这是侵略行为。吉尔吉斯的土地属于吉尔吉斯人。政府应该更强硬地回应。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "バトケン州出身の避難民や国境沿いの住民のSNS（Twitter/X、Telegram）で2022年9月に急増。",
+        "en": "Surged on social media (Twitter/X, Telegram) from Batken Oblast evacuees and border residents in September 2022.",
+        "zh": "2022年9月在巴特肯州撤离居民和边境居民的社交媒体（Twitter/X、Telegram）上急剧增加。"
+      },
+      "keywords": ["#KyrgyzTajik", "#Batken", "#KyrgyzBorder", "#StopWar"],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "ktb-voice-2",
+      "country": {"ja": "タジキスタン（国境地帯住民）", "en": "Tajikistan (border region residents)", "zh": "塔吉克斯坦（边境地区居民）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "キルギス側が先に挑発した。私たちは自分たちの水と土地を守っただけだ。ヴォルフの住民の生活を人質にするのはやめてほしい。",
+        "en": "The Kyrgyz side provoked first. We only defended our water and land. Stop holding the residents of Vorukh hostage.",
+        "zh": "吉尔吉斯方面率先挑衅。我们只是在保卫自己的水源和土地。请停止将沃鲁赫居民当作人质。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "タジキスタン国内のSNSで見られる論調。タジキスタン政府メディアと親和性が高く、ヴォルフ飛び地へのアクセス問題への不満が中心。",
+        "en": "Prevalent on Tajikistani social media, closely aligned with government media narratives, centered on frustrations over access to the Vorukh exclave.",
+        "zh": "在塔吉克斯坦国内社交媒体上普遍流传，与政府媒体叙事高度一致，核心是对进入沃鲁赫飞地的通道问题的不满。"
+      },
+      "keywords": ["#Tajikistan", "#Vorukh", "#Border", "#WaterRights"],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "ktb-voice-3",
+      "country": {"ja": "中央アジア政策アナリスト", "en": "Central Asian policy analysts", "zh": "中亚政策分析人士"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "この紛争の根本はスターリン時代の国境引きの失敗だ。両国政府は国内世論に押されて妥協できない。水資源と気候変動がこれをさらに悪化させる。SCOは機能しない。CSTOも同様だ。",
+        "en": "The root of this conflict is the failure of Stalin-era border drawing. Both governments are pushed by domestic opinion and cannot compromise. Water scarcity and climate change are making it worse. The SCO is not functioning. Neither is the CSTO.",
+        "zh": "这场冲突的根源在于斯大林时代划定边界的失败。两国政府在国内舆论压力下无法妥协。水资源短缺和气候变化正使局势进一步恶化。上合组织没有发挥作用，独联体集体安全条约组织也是如此。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中央アジア専門の学術研究者・ICG・カーネギー国際平和財団等の政策アナリストの発信。英語・ロシア語の分析媒体で主に見られる。",
+        "en": "Expressed by Central Asia specialists, ICG analysts, Carnegie Endowment researchers, primarily in English and Russian-language policy publications.",
+        "zh": "由中亚问题专家、国际危机组织分析人士、卡内基国际和平基金会研究人员发表，主要见于英语和俄语政策出版物。"
+      },
+      "keywords": ["#CentralAsia", "#KyrgyzTajik", "#FerganaValley", "#WaterConflict"],
+      "timeframe": "2021-present"
+    },
+    {
+      "id": "ktb-voice-4",
+      "country": {"ja": "ロシア（CSTO文脈での反応）", "en": "Russia (CSTO context)", "zh": "俄罗斯（独联体集体安全条约组织背景）"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "CSTOは適切に機能した。軍事介入よりも対話が大切だ。ロシアは両国の仲介を続けている。これは複雑な二国間問題であり、CSTOの枠外で解決すべき問題もある。",
+        "en": "The CSTO functioned appropriately. Dialogue is more important than military intervention. Russia continues to mediate between the two countries. This is a complex bilateral issue; some aspects are beyond the CSTO's scope.",
+        "zh": "独联体集体安全条约组织运作正常。对话比军事干预更重要。俄罗斯继续在两国之间斡旋。这是一个复杂的双边问题；某些方面超出了独联体集条约安全组织的职权范围。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ロシア国営メディアやCSTOの公式声明で見られる論調。CSTOの不介入への批判をかわすための擁護的なポジショニングが特徴。",
+        "en": "The narrative of Russian state media and CSTO official statements, characterized by defensive positioning to deflect criticism of the CSTO's failure to intervene.",
+        "zh": "俄罗斯官方媒体和独联体集体安全条约组织官方声明的叙事，以防御性定位为特征，以转移外界对其未进行干预的批评。"
+      },
+      "keywords": ["#CSTO", "#Russia", "#CentralAsia", "#Mediation"],
+      "timeframe": "2022-present"
+    },
+    {
+      "id": "ktb-voice-5",
+      "country": {"ja": "中国（SCO枠組みの強調）", "en": "China (SCO framework emphasis)", "zh": "中国（强调上合组织框架）"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "SCO加盟国間の紛争はSCOの対話の場で解決されるべきだ。両国が平和的話し合いを継続することを中国は支持する。地域の安定が最も重要だ。",
+        "en": "Disputes between SCO member states should be resolved through the SCO's dialogue mechanisms. China supports both countries in continuing peaceful consultations. Regional stability is of paramount importance.",
+        "zh": "上合组织成员国之间的争端应通过上合组织对话机制解决。中国支持两国继续开展和平协商。地区稳定至关重要。"
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "中国外務省のブリーフィングや中国国営メディアで見られる定型的な論調。実質的な解決策の提示よりも枠組みの強調にとどまっており、国際的な存在感は限定的。",
+        "en": "A formulaic narrative seen in Chinese MFA briefings and state media, emphasizing frameworks over substantive proposals, with limited international visibility.",
+        "zh": "中国外交部吹风会和官方媒体中的固定叙事，强调框架而非实质性解决方案，国际能见度有限。"
+      },
+      "keywords": ["#SCO", "#CentralAsia", "#Stability", "#PeacefulResolution"],
+      "timeframe": "2021-present"
+    }
+  ]
+}

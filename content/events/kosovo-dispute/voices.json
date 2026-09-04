@@ -1,0 +1,118 @@
+{
+  "eventId": "kosovo-dispute",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "kd-voice-1",
+      "country": {"ja": "コソボ（アルバニア系住民）", "en": "Kosovo (Kosovo Albanians)", "zh": "科索沃（阿尔巴尼亚裔居民）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "コソボは自由だ！1999年のNATOがなければ私たちは存在していなかった。独立は私たちの権利だ。セルビアは過去と向き合うべきだ。",
+        "en": "Kosovo is free! Without NATO in 1999, we would not exist. Independence is our right. Serbia must face its past.",
+        "zh": "科索沃自由了！没有1999年的北约，我们将不复存在。独立是我们的权利。塞尔维亚必须正视自己的历史。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "コソボ国内のアルバニア系住民に広く共有される論調。独立記念日（2月17日）周辺に特にSNSで活発化する。",
+        "en": "Widely shared by Kosovo Albanians, particularly active on social media around Independence Day (February 17).",
+        "zh": "在科索沃阿尔巴尼亚裔居民中广泛流传，独立纪念日（2月17日）前后在社交媒体上尤为活跃。"
+      },
+      "keywords": ["#Kosovo", "#Independence", "#NATOKosovo", "#FreeKosovo"],
+      "timeframe": "2008-present"
+    },
+    {
+      "id": "kd-voice-2",
+      "country": {"ja": "コソボのセルビア系住民", "en": "Kosovo Serbs", "zh": "科索沃塞族居民"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "コソボはセルビアだ！NATOはセルビア人を爆撃し、私たちの教会を破壊した。私たちはセルビアとつながっていたい。プリシュティナの法律には従わない。",
+        "en": "Kosovo is Serbia! NATO bombed Serbs and destroyed our churches. We want to stay connected with Serbia. We will not obey laws from Pristina.",
+        "zh": "科索沃是塞尔维亚的！北约轰炸了塞尔维亚人，摧毁了我们的教堂。我们想保持与塞尔维亚的联系。我们不会服从来自普里什蒂纳的法律。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "北コソボ（ミトロビツァ北部等）のセルビア系住民と、セルビア本国SNSで広く見られる論調。2022〜2023年の緊張時に大きく高まった。",
+        "en": "Widespread among Kosovo Serbs in northern Kosovo (north Mitrovica etc.) and on Serbian social media, surging during the 2022–2023 tensions.",
+        "zh": "在北科索沃（北米特罗维察等地）的塞族居民和塞尔维亚国内社交媒体上广泛流传，2022—2023年紧张局势期间急剧升温。"
+      },
+      "keywords": ["#KosovoJeSrbija", "#Kosovo", "#NorthKosovo", "#Serbs"],
+      "timeframe": "2008-present"
+    },
+    {
+      "id": "kd-voice-3",
+      "country": {"ja": "セルビア（民族主義派）", "en": "Serbia (nationalist)", "zh": "塞尔维亚（民族主义派）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "コソボはセルビアの聖地だ。1389年のコソボの戦い以来、我々の国の魂だ。NATOは無法な空爆で我々を攻撃した。絶対に独立を認めない。",
+        "en": "Kosovo is Serbia's sacred land. It has been the soul of our nation since the 1389 Battle of Kosovo. NATO attacked us with lawless bombing. We will never recognize independence.",
+        "zh": "科索沃是塞尔维亚的圣地。自1389年科索沃战役以来，它一直是我们民族的灵魂。北约以非法轰炸攻击了我们。我们绝不承认其独立。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "セルビア国内で広く共有される論調。コソボ問題はセルビアの主要な国民的争点であり続けており、どの政党もコソボ独立を公式に承認することはできない。",
+        "en": "Widely shared across Serbia. The Kosovo issue remains a defining national question; no Serbian political party can formally recognize Kosovo's independence and remain electorally viable.",
+        "zh": "在塞尔维亚国内广泛流传。科索沃问题仍是塞尔维亚最重要的国家议题；任何塞尔维亚政党都无法正式承认科索沃独立而保住选票。"
+      },
+      "keywords": ["#KosovoJeSrbija", "#Serbia", "#NATO", "#SerbiaStrong"],
+      "timeframe": "2008-present"
+    },
+    {
+      "id": "kd-voice-4",
+      "country": {"ja": "西欧のリベラル派", "en": "Western European liberals", "zh": "西欧自由派"},
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "コソボ独立はその歴史的文脈では理解できる。しかしセルビアもEUに向けて前進すべきだ。双方が妥協すれば解決できる。法の支配が大切だ。",
+        "en": "Kosovo's independence is understandable in its historical context. But Serbia should also move toward the EU. Both sides should compromise to find a solution. The rule of law is what matters.",
+        "zh": "科索沃独立在其历史背景下是可以理解的。但塞尔维亚也应该向欧盟迈进。双方应妥协找到解决方案。法治才是最重要的。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "西欧諸国の中道・リベラル寄りの有権者やメディアに多い論調。コソボ問題はバルカン半島のEU統合という大きな枠組みの中で論じられる傾向にある。",
+        "en": "Common among center-left voters and media in Western Europe, tending to frame the Kosovo issue within the broader context of Western Balkan EU integration.",
+        "zh": "在西欧中左翼选民和媒体中较为普遍，倾向于将科索沃问题置于西巴尔干欧盟一体化的宏观框架下讨论。"
+      },
+      "keywords": ["#Kosovo", "#WesternBalkans", "#EU", "#RuleOfLaw"],
+      "timeframe": "2008-present"
+    },
+    {
+      "id": "kd-voice-5",
+      "country": {"ja": "中国（欧米NATOへの批判）", "en": "China (critical of NATO/Western intervention)", "zh": "中国（批评北约/西方干涉）"},
+      "sentiment": "critical",
+      "summary": {
+        "ja": "コソボはNATOが主権国家を爆撃して作り上げた人工国家だ。これは中国大使館への爆撃という犯罪行為と一体のものだ。台湾問題にこれを適用しようとするな。",
+        "en": "Kosovo is an artificial state created by NATO bombing a sovereign nation. This is part of the same criminal act as bombing the Chinese Embassy. Do not try to apply this to the Taiwan issue.",
+        "zh": "科索沃是北约轰炸主权国家后制造的人工国家。这与轰炸中国大使馆的罪行一脉相承。不要试图将此与台湾问题相提并论。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国国内のSNS（微博・微信等）および中国系メディアで見られる論調。1999年のNATO空爆での中国大使館誤爆事件への言及が特徴的。",
+        "en": "Prevalent on Chinese domestic social media (Weibo, WeChat) and state-affiliated media, characteristically referencing the 1999 bombing of the Chinese Embassy in Belgrade.",
+        "zh": "在中国国内社交媒体（微博、微信等）和官方媒体上普遍存在，特别强调1999年北约误炸中国驻南联盟大使馆事件。"
+      },
+      "keywords": ["#科索沃", "#北约", "#主权", "#中国大使馆"],
+      "timeframe": "2008-present"
+    },
+    {
+      "id": "kd-voice-6",
+      "country": {"ja": "ロシア（批判的・民族主義的論調）", "en": "Russia (critical/nationalist narrative)", "zh": "俄罗斯（批评性/民族主义叙事）"},
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "欧米がコソボ独立を認めたのに、なぜクリミアやドネツクは認めないのか？二重基準だ。コソボの先例こそが世界秩序を壊した。",
+        "en": "If the West recognized Kosovo's independence, why not Crimea or Donetsk? It is a double standard. The Kosovo precedent is what destroyed the world order.",
+        "zh": "如果西方承认了科索沃独立，为什么不承认克里米亚或顿涅茨克？这是双重标准。科索沃先例才是破坏世界秩序的根源。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ロシアの国営メディア（RT・タス通信）・Telegram系チャンネルで特に2014年以降、クリミア併合の文脈で頻繁に援用されるようになった論調。「コソボ先例」はロシアの対外プロパガンダの重要な柱の一つとなっている。",
+        "en": "Prevalent in Russian state media (RT, TASS) and Telegram channels, particularly since 2014 when Russia began invoking the 'Kosovo precedent' to justify its annexation of Crimea. The 'Kosovo precedent' has become a key pillar of Russian information operations.",
+        "zh": "在俄罗斯官方媒体（今日俄罗斯、塔斯社）和Telegram频道上普遍存在，尤其自2014年起，俄罗斯开始援引\"科索沃先例\"为吞并克里米亚辩护。\"科索沃先例\"已成为俄罗斯信息战的重要支柱。"
+      },
+      "keywords": ["#Kosovo", "#Crimea", "#DoubleStandards", "#SerbiaRussia"],
+      "timeframe": "2014-present"
+    }
+  ]
+}

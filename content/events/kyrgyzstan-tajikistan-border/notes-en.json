@@ -1,0 +1,75 @@
+{
+  "eventId": "kyrgyzstan-tajikistan-border",
+  "notes": [
+    {
+      "id": "ktb-stalin-borders",
+      "claim": "The borders of the Fergana Valley were drawn during Stalin-era Soviet administrative delimitation (1924–1936), creating the fragmented territorial configuration underlying today's conflict.",
+      "context": "The 1924 Soviet National Delimitation process and the subsequent 1936 finalization of Soviet republic boundaries divided the Fergana Valley among the Kyrgyz, Tajik, and Uzbek Soviet Socialist Republics. The resulting configuration created numerous enclaves, exclaves, and ambiguously demarcated stretches — a product of the complex interplay between ethnic distributions, economic considerations, and political negotiations within the Soviet administrative system. Some analysts characterize this as deliberate 'divide and rule' policy; others view it as an unavoidable consequence of imposing administrative boundaries on an ethnically mixed region. The resulting institutional legacy is universally recognized as the structural root of today's border disputes.",
+      "verdict": "Soviet-era administrative delimitation as structural background confirmed (interpretation of intent varies)",
+      "sources": [
+        {
+          "title": "Shaikhutdinov: The Fergana Valley: Background, History, Features (2014)",
+          "url": "https://astanatimes.com/",
+          "publisher": "Central Asian academic journal",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ktb-2021-clashes",
+      "claim": "The April 2021 clashes in the Batken region killed approximately 50 people and displaced 40,000.",
+      "context": "On April 28–29, 2021, large-scale armed clashes erupted along the Kyrgyz-Tajik border in the Batken region of southwestern Kyrgyzstan. The immediate trigger was a dispute over the installation of surveillance cameras near the Golovnoi water intake facility. Approximately 50 people were killed on both sides, with Kyrgyzstan reporting roughly 40,000 displaced. The clashes involved drones, armored vehicles, and the destruction of several Kyrgyz villages. A ceasefire was reached within days, but the underlying border disputes remained unresolved.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "ICG: Central Asia: Reducing the Risks of Kyrgyz-Tajik Border Conflict (2021)",
+          "url": "https://www.crisisgroup.org/",
+          "publisher": "International Crisis Group",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ktb-2022-clashes",
+      "claim": "In the September 2022 clashes, Tajik forces used tanks, artillery, and Bayraktar TB2 drones; approximately 100 Kyrgyz nationals were killed and over 140,000 displaced.",
+      "context": "On September 14–15, 2022, a large-scale military escalation encompassed much of Kyrgyzstan's Batken Oblast. Tajik forces deployed BM-21 multiple rocket launchers, tanks, and Bayraktar TB2 armed UAVs, occupying several Kyrgyz villages. Kyrgyzstan reported approximately 100 killed (including civilians) and over 140,000 displaced. A ceasefire was concluded on September 16, and Tajik forces largely withdrew, though some reports indicated consolidated Tajik control in limited areas. This represented the most serious border conflict between the two countries since independence.",
+      "verdict": "Confirmed (territorial changes require ongoing verification)",
+      "sources": [
+        {
+          "title": "HRW: Kyrgyzstan/Tajikistan Border Conflict (September 2022)",
+          "url": "https://www.hrw.org/",
+          "publisher": "Human Rights Watch",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ktb-vorukh",
+      "claim": "Vorukh is a Tajik exclave surrounded by Kyrgyz territory, home to approximately 30,000 residents; access road disputes have repeatedly triggered border clashes.",
+      "context": "Vorukh, in northern Tajikistan, is an exclave entirely surrounded by Kyrgyz territory with a population estimated at approximately 30,000. The main road linking Vorukh to Tajikistan proper passes through Kyrgyz territory, making access control, checkpoints, and road construction recurring flashpoints for border clashes. Vorukh's existence epitomizes the dysfunctional territorial configuration produced by Soviet-era administrative delimitation. Multiple rounds of negotiations on road access and border demarcation around Vorukh have stalled repeatedly.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "ICG: Kyrgyzstan-Tajikistan Border Tensions (2021)",
+          "url": "https://www.crisisgroup.org/",
+          "publisher": "International Crisis Group",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ktb-csto",
+      "claim": "Both Kyrgyzstan and Tajikistan are CSTO members, but the CSTO did not intervene militarily in the September 2022 conflict.",
+      "context": "The Collective Security Treaty Organisation (CSTO) encompasses both Kyrgyzstan and Tajikistan as member states. However, CSTO's Article 4 collective defense provision applies to external aggression, not conflicts between member states — a structural limitation exposed by the 2022 clashes. The CSTO issued statements calling for a ceasefire but took no military action. This failure to intervene — coming after the CSTO's non-intervention in the 2020 Nagorno-Karabakh war (also involving member Armenia) — sharply intensified criticism of the organization's relevance as a security structure.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "CSTO official statements on Kyrgyzstan-Tajikistan border clashes (2022)",
+          "url": "https://en.odkb-csto.org/",
+          "publisher": "Collective Security Treaty Organization",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "eventId": "kosovo-dispute",
+  "notes": [
+    {
+      "id": "kd-nato-bombing",
+      "claim": "NATO's 1999 bombing of Yugoslavia (Operation Allied Force) was carried out without explicit UN Security Council authorization.",
+      "context": "The 78-day NATO air campaign against Yugoslavia (March 24 – June 10, 1999) proceeded without an explicit UNSC resolution authorizing use of force. NATO members invoked justifications including humanitarian necessity, implied authorization, and customary international law on humanitarian intervention — all of which remain legally contested. Russia and China condemned the action as a violation of Article 2(4) of the UN Charter. The campaign's legality continues to be debated among international legal scholars, and it established a precedent — or a controversy — regarding military action without UNSC authorization.",
+      "verdict": "Air campaign without explicit UNSC authorization confirmed (legality fundamentally disputed)",
+      "sources": [
+        {
+          "title": "NATO Operation Allied Force (1999)",
+          "url": "https://www.nato.int/cps/en/natohq/topics_49602.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kd-res1244",
+      "claim": "UN Security Council Resolution 1244 (1999) placed Kosovo under UN interim administration (UNMIK) while nominally preserving Yugoslav/Serbian sovereignty.",
+      "context": "Resolution 1244, adopted on June 10, 1999, demanded Yugoslav military withdrawal from Kosovo, established UNMIK, and authorized the KFOR peacekeeping force. While treating Kosovo as part of the Federal Republic of Yugoslavia (with Serbian nominal sovereignty), it vested effective administrative authority in UNMIK. Resolution 1244 remains the foundational UNSC framework for Kosovo; Serbia cites it as preventing independence, while Kosovo argues the Ahtisaari supervised independence plan supersedes the pre-independence framework.",
+      "verdict": "Confirmed (current legal interpretation of Resolution 1244 disputed)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 1244 (1999)",
+          "url": "https://undocs.org/S/RES/1244(1999)",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kd-independence",
+      "claim": "Kosovo declared independence on February 17, 2008.",
+      "context": "The Kosovo Assembly adopted a declaration of independence from Serbia on February 17, 2008, based on the Ahtisaari Plan for supervised independence proposed by former Finnish President Martti Ahtisaari as UN Special Envoy. The United States and major EU member states recognized Kosovo immediately. Russia exercised its UNSC veto to block any Security Council endorsement of independence. Serbia rejected the declaration as unconstitutional and contrary to international law, and has continued to contest Kosovo's status in international fora.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "Kosovo Declaration of Independence (February 17, 2008)",
+          "url": "https://www.assembly-kosova.org/",
+          "publisher": "Assembly of the Republic of Kosovo",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kd-icj-opinion",
+      "claim": "The ICJ concluded in its July 22, 2010 advisory opinion that Kosovo's declaration of independence 'did not violate international law.'",
+      "context": "In response to the UN General Assembly's request (at Serbia's initiative), the ICJ issued an advisory opinion on July 22, 2010, finding by a vote of 10 to 4 that Kosovo's declaration of independence did not violate international law — specifically, neither general principles of territorial integrity nor Security Council Resolution 1244. The ICJ notably did not address whether Kosovo had a right to independence, confining itself to the narrow question of whether the declaration itself violated law. Recognizing states cited the opinion as legal support; Russia, China, and Serbia rejected it as grounds for broader recognition.",
+      "verdict": "Advisory opinion content confirmed (legal implications disputed)",
+      "sources": [
+        {
+          "title": "ICJ Advisory Opinion on Kosovo (2010)",
+          "url": "https://www.icj-cij.org/case/141",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kd-recognition",
+      "claim": "Approximately 100 UN member states recognize Kosovo, but 5 EU members do not: Spain, Greece, Slovakia, Romania, and Cyprus.",
+      "context": "As of 2024, approximately 100 UN member states recognize Kosovo — a majority of the 193 members but still short of universality. Major Western states (US, UK, France, Germany, Japan, Australia) recognize Kosovo. Five EU members withhold recognition: Spain (Catalan precedent concerns), Greece (linked to North Macedonia dispute), Slovakia (Hungarian minority concerns), Romania (Moldova linkage), and Cyprus (TRNC precedent concerns). Major emerging powers including Russia, China, India, and Brazil have not recognized Kosovo.",
+      "verdict": "Confirmed (exact count varies)",
+      "sources": [
+        {
+          "title": "Republic of Kosovo Ministry of Foreign Affairs: Countries recognizing Kosovo",
+          "url": "https://www.mfa-ks.net/",
+          "publisher": "Ministry of Foreign Affairs of Kosovo",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kd-north-kosovo",
+      "claim": "Kosovo Serbs in northern Kosovo reject Pristina's governance; serious tensions erupted in 2022–2023, resulting in clashes with KFOR.",
+      "context": "Northern Kosovo — especially north Mitrovica — is predominantly ethnic Serb and has maintained close ties to Serbia while refusing to participate in Kosovo government institutions since 2008. In 2022–2023, disputes over law enforcement of Kosovo license plate rules escalated into barricades and armed incidents. In May 2023, municipal elections held with an ethnic Serb boycott resulted in Albanian mayors being elected with low turnout; the inauguration ceremonies triggered clashes involving KFOR, Kosovo Police, and Kosovo Serb protesters, resulting in injuries to NATO soldiers. KFOR reinforced its presence in response.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "KFOR Kosovo Force updates (2022–2023)",
+          "url": "https://jfcnaples.nato.int/kfor",
+          "publisher": "NATO KFOR",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "eventId": "georgia-russia-conflict",
+  "notes": [
+    {
+      "id": "gr-georgia-attack",
+      "claim": "Georgian forces launched a large-scale artillery bombardment of Tskhinvali, the capital of South Ossetia, on the night of August 7–8, 2008.",
+      "context": "The EU-commissioned Tagliavini Commission Report (2009) concluded that Georgian forces initiated the large-scale military attack on Tskhinvali and villages in South Ossetia on the night of August 7–8, triggering the military escalation. However, the same report noted that Russia had engaged in prior provocative actions and that Georgia's attack appeared designed or manipulated to give Russia a pretext for military intervention. The attribution of blame and the sequence of preceding provocations remain sharply contested between Georgian and Russian accounts.",
+      "verdict": "Military attack confirmed (context and attribution disputed)",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report) 2009",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU-commissioned / Max Planck Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-russia-recognition",
+      "claim": "Russia formally recognized Abkhazia and South Ossetia as independent states on August 26, 2008.",
+      "context": "Following the five-day war, Russia formally recognized Abkhazia and South Ossetia as independent states on August 26, 2008. Only four other UN member states followed: Nicaragua (2008), Venezuela (2009), Nauru (2009, later withdrew before re-recognizing), Syria (2018), and North Korea (2011). These recognitions are rejected by the vast majority of the international community. The UN General Assembly adopted Resolution 62/249 in 2009, affirming the right of return of IDPs — a resolution interpreted as implicitly rejecting the independence of the two territories.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "Presidential Address to the Federal Assembly of Russia (August 26, 2008)",
+          "url": "http://www.kremlin.ru/events/president/news/1123",
+          "publisher": "Kremlin",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gr-tagliavini",
+      "claim": "The EU-commissioned Tagliavini Report (2009) concluded that Georgia started the military phase of the conflict but that Russia's response was disproportionate and violated international law.",
+      "context": "The independent commission chaired by Swiss diplomat Heidi Tagliavini published a nearly 1,000-page report in September 2009. It concluded that Georgian forces initiated the military attack on Tskhinvali, while also finding that Russia's subsequent military response went beyond the bounds of reasonable defense of its peacekeepers and South Ossetian civilians, violating international law. The report further noted that Russia had engaged in years of provocative actions that helped engineer the conditions for conflict. The report's nuanced findings were selectively cited by both sides.",
+      "verdict": "Report findings published (interpretation disputed)",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia, Vol. I (2009)",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU / Max Planck Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-abkhaz-displacement",
+      "claim": "Approximately 200,000–250,000 ethnic Georgians were displaced from Abkhazia during the wars of the early 1990s.",
+      "context": "The 1992–1993 Abkhaz-Georgian War and subsequent 1998 clashes resulted in the displacement of the majority of the Georgian population residing in Abkhazia. Estimates range from 200,000 to 250,000 people forced to flee, fundamentally changing the ethnic composition of Abkhazia. UNHCR has documented this as a recognized IDP crisis. The majority have not been able to return as of 2024, and Georgia characterizes this displacement as ethnic cleansing.",
+      "verdict": "Mass displacement confirmed (precise scale varies by source)",
+      "sources": [
+        {
+          "title": "UNHCR Georgia IDP statistics",
+          "url": "https://www.unhcr.org/georgia.html",
+          "publisher": "UNHCR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gr-eumm",
+      "claim": "The EU Monitoring Mission in Georgia (EUMM Georgia) was established in October 2008 and continues to operate as of 2024.",
+      "context": "EUMM Georgia, a civilian monitoring mission, was established in October 2008 to monitor compliance with the ceasefire, observe human rights conditions, and contribute to stability along the Administrative Boundary Lines (ABLs) with Abkhazia and South Ossetia. However, Russia has denied EUMM access to the territories of Abkhazia and South Ossetia, limiting the mission's monitoring to the Georgian side of the ABLs — a significant constraint on the mission's effectiveness. This is one of the core implementation failures of the 2008 ceasefire agreement.",
+      "verdict": "Confirmed",
+      "sources": [
+        {
+          "title": "EUMM Georgia official website",
+          "url": "https://www.eumm.eu/",
+          "publisher": "European Union",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

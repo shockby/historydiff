@@ -1,0 +1,105 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "notes": [
+    {
+      "id": "bcp-1879-war-of-pacific",
+      "claim": "In the War of the Pacific (1879–1884), Bolivia lost its entire ~400 km coastline and roughly 120,000 sq km of maritime littoral to Chile",
+      "context": "Triggered by tax disputes over nitrate extraction in the Atacama Desert, Chilean forces occupied Antofagasta in February 1879, sparking war against the Bolivia-Peru alliance. Chile's military victory deprived Bolivia of its entire Department of the Littoral—amounting to approximately 400 kilometers of coastline and 120,000 square kilometers of territory—turning Bolivia into a landlocked country.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "History of the War of the Pacific (1879-1884)",
+          "url": "https://www.ejercito.cl/historia/guerra-del-pacifico",
+          "publisher": "Chilean Army History Department",
+          "type": "government"
+        },
+        {
+          "title": "The Maritime Book of Bolivia (Libro del Mar)",
+          "url": "https://www.cancilleria.gob.bo/webmre/sites/default/files/libromar.pdf",
+          "publisher": "Ministry of Foreign Affairs of Bolivia (DIREMAR)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1904-peace-treaty",
+      "claim": "The 1904 Treaty of Peace and Friendship demarcated permanent borders and granted Bolivia duty-free commercial transit and a railway",
+      "context": "Signed on October 20, 1904, the bilateral treaty definitively recognized Chilean sovereignty over the Antofagasta coast. In exchange, Chile financed the construction of the Arica-La Paz railway and granted Bolivia full, permanent, and duty-free commercial transit rights through Chilean ports (Arica and Antofagasta).",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Tratado de Paz y Amistad de 1904 entre Chile y Bolivia",
+          "url": "https://www.difrol.gob.cl/tratado-de-paz-y-amistad-de-1904/",
+          "publisher": "Directorate of Frontiers and Limits of Chile (DIFROL)",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Peace, Friendship and Commerce (1904)",
+          "url": "https://treaties.un.org/",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1929-treaty-of-lima",
+      "claim": "The Supplementary Protocol of the 1929 Treaty of Lima requires Peru's prior consent for any cession of formerly Peruvian territories",
+      "context": "Under Article 1 of the Supplementary Protocol to the 1929 Treaty of Lima between Chile and Peru, neither country can cede to any third power (such as Bolivia) any portion of the territories previously belonging to Peru (including Arica) without prior mutual agreement between Lima and Santiago.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Tratado y Protocolo Complementario de Lima de 1929",
+          "url": "https://portal.transparencia.gob.pe/rree/tratados",
+          "publisher": "Ministry of Foreign Affairs of Peru",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Lima and the Tacna-Arica Dispute",
+          "url": "https://www.oas.org/",
+          "publisher": "Organization of American States (OAS)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-2018-icj-judgment",
+      "claim": "In October 2018, the ICJ ruled (12-3) that Chile is not legally bound to negotiate sovereign access to the Pacific Ocean for Bolivia",
+      "context": "In 2013, Bolivia initiated proceedings before the International Court of Justice, asserting that bilateral diplomatic exchanges and declarations over decades created a binding legal obligation for Chile to negotiate sovereign access to the Pacific. On October 1, 2018, the ICJ ruled 12 to 3 that Chile undertook no legal obligation to negotiate such access, while noting that the ruling does not preclude bilateral dialogue in the spirit of good neighborliness.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile) - Judgment of 1 October 2018",
+          "url": "https://www.icj-cij.org/case/153",
+          "publisher": "International Court of Justice (ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "ICJ Judgment Analysis: Bolivia v. Chile",
+          "url": "https://www.asil.org/insights/volume/22/issue/17/icj-rules-chile-has-no-obligation-negotiate-ocean-access-bolivia",
+          "publisher": "American Society of International Law (ASIL)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "bcp-dia-del-mar",
+      "claim": "Bolivia observes 'Day of the Sea' (Día del Mar) every March 23, maintaining an inland naval force and constitutional pledge to regain maritime access",
+      "context": "Commemorating hero Eduardo Abaroa's defense at the Battle of Calama on March 23, 1879, Bolivia marks 'Día del Mar' with nationwide civic ceremonies. Furthermore, despite being landlocked, the Bolivian Navy (Armada Boliviana) operates on Lake Titicaca and major navigable rivers, while Article 267 of the 2009 Constitution defines sovereign maritime recovery as an irrevocable right.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "Constitución Política del Estado Plurinacional de Bolivia (Artículo 267)",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "publisher": "Constitution of Bolivia (OAS Repository)",
+          "type": "government"
+        },
+        {
+          "title": "Reseña Histórica de la Armada Boliviana",
+          "url": "https://armada.mil.bo/",
+          "publisher": "Bolivian Navy Official Records",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

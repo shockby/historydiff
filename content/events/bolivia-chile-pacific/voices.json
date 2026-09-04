@@ -1,0 +1,105 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "bcp-voice-1",
+      "country": {
+        "ja": "ボリビア国民・海へのアクセス回復支持層",
+        "en": "Bolivian citizens & maritime access supporters"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "太平洋戦争での海岸強奪によってボリビアは内陸に閉じ込められ、莫大な経済的損失を被り続けてきた。主権ある海への回廊の回復は憲法に定められた国民悲願であり、正義の回復である。",
+        "en": "The unjust loss of our littoral in 1879 suffocated our economy and landlocked our nation. Gaining sovereign access to the Pacific is an unrenounceable constitutional duty and an essential matter of historic justice."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "「海の日（Día del Mar）」を通じて小学校教育から培われるボリビア国民共通の歴史意識と民族的アイデンティティ。",
+        "en": "Consensus public sentiment nurtured across generations through national education, civic memorials, and the Bolivian Constitution."
+      },
+      "keywords": [
+        "#MarParaBolivia",
+        "#DiaDelMar",
+        "#BoliviaSoberana",
+        "#ReivindicacionMaritima"
+      ],
+      "timeframe": "1879-present"
+    },
+    {
+      "id": "bcp-voice-2",
+      "country": {
+        "ja": "チリ国民・1904年条約遵守派",
+        "en": "Chilean citizens & 1904 Treaty defenders"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "1904年の平和友好条約は両国の合意で調印された確定的な国境条約だ。チリは無税通関や鉄道運行など最大限の特権を保障しており、ICJ判決でも交渉義務がないと認められた以上、領土割譲の要求には応じられない。",
+        "en": "The 1904 Treaty definitively established national borders in accordance with international law. Chile grants Bolivia full customs-free transit privileges, and the 2018 ICJ ruling confirmed Chile has no obligation to cede sovereignty."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "条約遵守（パクタ・スント・セルヴァンダ）の原則と領土保全を最重要視するチリ社会・政界の一致した世論。",
+        "en": "Widespread Chilean consensus prioritizing the sanctity of international treaties, territorial integrity, and the definitive 2018 ICJ verdict."
+      },
+      "keywords": [
+        "#Tratado1904",
+        "#ChileSoberano",
+        "#FalloLaHaya",
+        "#EstadoDeDerecho"
+      ],
+      "timeframe": "1904-present"
+    },
+    {
+      "id": "bcp-voice-3",
+      "country": {
+        "ja": "ペルー世論・歴史的当事者視点",
+        "en": "Peruvian observers & regional historians"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "太平洋戦争ではペルーもタラパカやアリカを失った痛みを共有している。1929年リマ条約により、旧ペルー領（アリカなど）を第三国に割譲する場合はペルーの事前同意が必要であり、ボリビアへの回廊供与にはペルーの国益も直結する。",
+        "en": "Peru shares the trauma of the War of the Pacific having ceded Tarapacá and Arica. Under the 1929 Treaty of Lima, any Chilean cession of former Peruvian territory to a third party requires Peru's prior consent, making us a vital stakeholder."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "太平洋戦争でボリビアと同盟を結んで戦った歴史的経緯と、リマ条約による外交的関与。",
+        "en": "Historical solidarity as wartime allies combined with legal prerogatives under the 1929 Lima Treaty concerning coastal borders."
+      },
+      "keywords": [
+        "#GuerraDelPacifico",
+        "#TratadoDeLima",
+        "#Arica",
+        "#HermandadAndina"
+      ],
+      "timeframe": "1929-present"
+    },
+    {
+      "id": "bcp-voice-4",
+      "country": {
+        "ja": "南米地域統合アナリスト・国際法学者",
+        "en": "South American integration analysts & jurists"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "2018年のICJ判決は領土境界の法的安定性を重視した判断だった。二国間の感情的対立を超え、リチウム・天然ガス・生物資源回廊など多国間インフラ連結を通じて実質的な回廊利便性を高めることが現実的な解決策となる。",
+        "en": "The 2018 ICJ judgment upheld treaty predictability over informal diplomatic expectations. Future progress relies not on redrawing sovereign borders, but on pragmatic regional logistics, bioceanic rail corridors, and lithium supply cooperation."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "バイオセアニック鉄道構想（大西洋〜太平洋連絡）やアンデス共同体（CAN）の経済実務に注目する学術的見解。",
+        "en": "Policy perspectives evaluating Mercosur/CAN integration, bioceanic corridors, and binational customs modernization."
+      },
+      "keywords": [
+        "#CorredorBioceanico",
+        "#IntegracionRegional",
+        "#ICJ2018",
+        "#AndeanLogistics"
+      ],
+      "timeframe": "2018-present"
+    }
+  ]
+}

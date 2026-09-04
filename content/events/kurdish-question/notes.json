@@ -1,0 +1,127 @@
+{
+  "eventId": "kurdish-question",
+  "notes": [
+    {
+      "id": "kq-halabja-chemical",
+      "claim": "1988年のハラブジャ化学兵器攻撃でサダム・フセイン政権が約5,000人のクルド人市民を殺害した",
+      "context": "1988年3月16〜17日、イラク軍はクルド人が多数居住するハラブジャ市にマスタードガスと神経剤を投下した。死者数は推定3,200〜5,000人とされ、大半が民間人であった。この事件は後にイラク高等法廷でジェノサイドとして認定された。アメリカ政府は1988年当時、対イラク政策上の理由からこの事件の公式批判を控えた。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        },
+        {
+          "title": "Halabja chemical attack – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halabja_chemical_attack",
+          "publisher": "Wikipedia / 学術参照多数",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kq-sevres-lausanne",
+      "claim": "1920年セーヴル条約はクルド人自治区の創設を定めたが、1923年ローザンヌ条約でその規定は撤回された",
+      "context": "セーヴル条約第62〜64条は、クルド人が多数居住する地域におけるクルド人自治および将来的な独立を想定した条項を含んでいた。しかし、ケマル・アタテュルクが率いるトルコ民族運動が連合国に対して軍事的勝利を収めたため、ローザンヌ条約においてクルド人関連の条項は一切削除された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Treaty of Sèvres (1920), Articles 62-64",
+          "url": "https://wwi.lib.byu.edu/index.php/Section_I,_Articles_1_-_260",
+          "publisher": "Brigham Young University WWI Document Archive",
+          "type": "archive"
+        },
+        {
+          "title": "Treaty of Lausanne (1923)",
+          "url": "https://avalon.law.yale.edu/20th_century/lausanne.asp",
+          "publisher": "Yale Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kq-pkk-designation",
+      "claim": "PKK（クルディスタン労働者党）はトルコ・EU・米国によりテロ組織に指定されているが、クルド人側はこれを政治的弾圧の道具と批判する",
+      "context": "PKKは1984年にトルコ政府に対する武装闘争を開始した。トルコは1980年代から、EUは2002年から、米国は1997年からPKKをテロ組織として指定している。一方、PKKと組織的つながりを持つとされるシリアのYPGは、米国がISIL打倒のために最も重要なパートナーとして支援した勢力であり、この矛盾は米国・トルコ関係の深刻な摩擦点となっている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "U.S. Department of State: Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        },
+        {
+          "title": "EU Terrorist List – PKK",
+          "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/terrorist-list/",
+          "publisher": "European Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kq-un-688",
+      "claim": "国連安保理決議688（1991年）は、イラクのクルド人弾圧を「国際的平和と安全への脅威」とした最初期の人道的介入根拠の一つである",
+      "context": "1991年湾岸戦争後、サダム・フセイン政権はシーア派とクルド人の蜂起を武力鎮圧し、約200万人のクルド人が難民化した。安保理は決議688を10対3で採択した（反対：キューバ・イエメン・ジンバブエ；棄権：インドと中国）。これは内政不干渉原則の例外として後の人道的介入論の先例となったが、直接の軍事授権は含まなかった。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 688 (1991)",
+          "url": "https://digitallibrary.un.org/record/110659",
+          "publisher": "国連デジタルライブラリー",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kq-rojava",
+      "claim": "シリア北部のクルド人自治区「ロジャヴァ（北・東シリア自治局）」は2012年以降、独自の社会制度を形成しているが、その持続可能性は不安定な情勢下にある",
+      "context": "シリア内戦の混乱のなか、クルド人主導の勢力はシリア北部に事実上の自治地域を確立した。「民主的連合主義」に基づく共同統治・女性参画・多民族共存を掲げているが、トルコによる定期的な越境攻撃、シリア政府の不承認、国際的な法的地位の欠如などの課題を抱える。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "International Crisis Group: The Kurdish Question in Syria",
+          "url": "https://www.crisisgroup.org/middle-east-north-africa/eastern-mediterranean/syria",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-japan-kurd-refugee",
+      "claim": "日本に在住するトルコ国籍クルド人の難民認定率は極めて低く、多くが長期の仮放免状態に置かれている",
+      "context": "主に埼玉県川口市・蕨市に居住するクルド人コミュニティは日本最大規模のクルド人集住地区を形成している。日本の難民認定率はOECD諸国の中で際立って低く（例年1%未満）、トルコ国籍申請者の認定率は特に低い。法務省の入管行政と人権団体の間で認識の乖離が大きい。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "難民認定申請者数・認定数（出入国在留管理庁）",
+          "url": "https://www.moj.go.jp/isa/publications/press/07_00035.html",
+          "publisher": "法務省出入国在留管理庁",
+          "type": "government"
+        },
+        {
+          "title": "難民支援協会（JAR）年次報告",
+          "url": "https://www.refugee.or.jp/",
+          "publisher": "認定NPO法人難民支援協会",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-anfal",
+      "claim": "イラクのアンファール作戦（1988〜1989年）では推定5万〜18万人のクルド人が殺害または行方不明になったとされる",
+      "context": "サダム・フセイン政権の従兄弟アリー・ハサン・アル＝マジドが指揮したアンファール作戦は、主に1988年2月から1989年9月にかけてイラクのクルド人集落に対して行われた組織的な掃討・集団虐殺・強制移住を伴う作戦であった。死者数の推定には大きな幅があるが、HRWは「少なくとも5万人、おそらくそれ以上」と記録している。2006年にイラク議会がこれをジェノサイドと認定した。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

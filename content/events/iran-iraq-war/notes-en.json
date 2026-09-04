@@ -1,0 +1,121 @@
+{
+  "eventId": "iran-iraq-war",
+  "notes": [
+    {
+      "id": "iiw-shatt-al-arab",
+      "claim": "The primary trigger for the Iran-Iraq War was the dispute over sovereignty of the Shatt al-Arab waterway.",
+      "context": "The Shatt al-Arab forms the border between Iran and Iraq and is strategically vital as the outlet to the Persian Gulf for both countries. The 1975 Algiers Agreement had Iraq recognize the midpoint (thalweg) of the river as the boundary, but Saddam Hussein unilaterally abrogated this agreement on September 17, 1980, five days before invading Iran.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "The Algiers Agreement of 1975",
+          "url": "https://peacemaker.un.org/iraq-iran-algiersagreement75",
+          "publisher": "UN Peacemaker",
+          "type": "international"
+        },
+        {
+          "title": "Iran-Iraq War (1980-1988)",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-chemical-weapons",
+      "claim": "Iraq used chemical weapons during the Iran-Iraq War, confirmed by UN investigative teams.",
+      "context": "UN Secretary-General investigative missions conducted multiple field visits to Iran from 1984 onward and published reports confirming the use of mustard gas and tabun (a nerve agent). The March 1988 attack on the Kurdish town of Halabja killed approximately 5,000 civilians with chemical agents.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Report of the specialists appointed by the Secretary-General to investigate allegations by the Islamic Republic of Iran concerning the use of chemical weapons (S/16433)",
+          "url": "https://digitallibrary.un.org/record/84243",
+          "publisher": "UN Digital Library",
+          "type": "international"
+        },
+        {
+          "title": "Halabja chemical attack",
+          "url": "https://www.hrw.org/reports/1993/iraqkurds/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "iiw-us-support-iraq",
+      "claim": "The United States continued to support Iraq despite knowing about its use of chemical weapons.",
+      "context": "Declassified US State Department and National Security Council documents (released 2013) confirm that the Reagan administration was aware of Iraqi chemical weapons use yet continued diplomatic, economic, and intelligence support, prioritizing the containment of Iran. Donald Rumsfeld visited Baghdad as special envoy and met Saddam Hussein in 1983-1984.",
+      "verdict": "Official records available",
+      "sources": [
+        {
+          "title": "Shaking Hands with Saddam Hussein: The U.S. Tilts toward Iraq, 1980-1984",
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB82/",
+          "publisher": "National Security Archive, George Washington University",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "iiw-casualties",
+      "claim": "Total casualties from the Iran-Iraq War are estimated at between 500,000 and over one million dead.",
+      "context": "Estimates of the eight-year war's death toll vary widely among scholars. Figures for combined combatant and civilian deaths range from a minimum of 400,000 to over one million. Iran consistently under-reported statistics, framing the count of 'martyrs' as a testament to revolutionary sacrifice rather than a historical record.",
+      "verdict": "Estimates vary",
+      "sources": [
+        {
+          "title": "Iran-Iraq War",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "The Iran-Iraq War: A Military Analysis",
+          "url": "https://www.rand.org/pubs/reports/R3339.html",
+          "publisher": "RAND Corporation",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-un-res598",
+      "claim": "UN Security Council Resolution 598 (1987) provided the legal basis for the final ceasefire.",
+      "context": "Resolution 598 was adopted unanimously on July 20, 1987, demanding an immediate ceasefire, prisoner-of-war exchanges, and withdrawal to international borders. Iraq accepted almost immediately; Iran delayed acceptance until July 1988. The ceasefire took effect on August 20, 1988, monitored by UNIIMOG.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Security Council Resolution 598 (1987)",
+          "url": "https://digitallibrary.un.org/record/148734",
+          "publisher": "UN Digital Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "iiw-china-arms",
+      "claim": "China exported arms to both Iran and Iraq, profiting from the conflict.",
+      "context": "China supplied Iran with F-7 (MiG-21 derivative) fighters, HY-2 Silkworm anti-ship missiles, and other weaponry, while also exporting arms to Iraq. SIPRI's Arms Transfers Database documents these transfers to both belligerents throughout the conflict.",
+      "verdict": "Confirmed fact",
+      "sources": [
+        {
+          "title": "SIPRI Arms Transfers Database",
+          "url": "https://www.sipri.org/databases/armstransfers",
+          "publisher": "Stockholm International Peace Research Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-iran-air-655",
+      "claim": "The USS Vincennes shot down Iran Air Flight 655 in 1988, killing all 290 people aboard.",
+      "context": "On July 3, 1988, the US Navy Aegis cruiser USS Vincennes shot down Iran Air Flight 655 (Airbus A300) over the Strait of Hormuz, killing all 290 passengers and crew. The US paid compensation to the victims' families but did not formally apologize. Analysts consider the incident a factor that accelerated Iran's acceptance of the ceasefire.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Iran Air Flight 655",
+          "url": "https://www.icao.int/Meetings/AMC/MA/DGCA%2011th%20Conference/dgca11_wp085.pdf",
+          "publisher": "International Civil Aviation Organization (ICAO)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

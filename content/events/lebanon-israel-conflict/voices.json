@@ -1,0 +1,91 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "lic-voice-1",
+      "country": {
+        "ja": "レバノン南部住民・ヒズボラ支持層",
+        "en": "Southern Lebanese & resistance supporters",
+        "zh": "黎巴嫩南部居民及抵抗力量支持者"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "イスラエルは数十年にわたりレバノンの領土と領空を侵犯してきた。正規軍が国を守れない以上、抵抗組織の武装こそがイスラエルの侵略を抑止する唯一の力だ。",
+        "en": "Israel has violated Lebanese sovereignty and airspace for decades. When the state army cannot defend us, the armed resistance is the only deterrent protecting our towns and families.",
+        "zh": "几十年来以色列一再侵犯黎巴嫩的主权与领空。在国家正规军无法保卫国家的情况下，武装抵抗力量是保护我们家园的唯一有效威慑。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "イスラエル軍による長期占領（1982〜2000年）と2006年空爆を経験した南部シーア派を中心とする世論。",
+        "en": "Prominent sentiment in southern Lebanon and Dahieh shaped by years of Israeli occupation and air strikes.",
+        "zh": "经历长期占领（1982-2000）和2006年空袭的黎巴嫩南部民众的核心观点。"
+      },
+      "keywords": [
+        "#Muqawama",
+        "#Lebanon",
+        "#SouthLebanon",
+        "#Deterrence"
+      ],
+      "timeframe": "1982-present"
+    },
+    {
+      "id": "lic-voice-2",
+      "country": {
+        "ja": "イスラエル北部住民・安全保障重視派",
+        "en": "Northern Israeli residents & security advocates",
+        "zh": "以色列北部居民及安全派"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "国境のすぐ向こうに数万発のロケット弾を構えるテロ組織が存在する中で、市民が安全に暮らすことはできない。安保理決議1701に従い、ヒズボラをリタニ川以北へ後退させるべきだ。",
+        "en": "No country can tolerate a heavily armed proxy militia pointing tens of thousands of missiles directly across its border. Resolution 1701 must be enforced to push Hezbollah north of the Litani River.",
+        "zh": "没有哪个国家能容忍一支拥有数万枚导弹的武装派系在边境线上时刻威胁平民。必须切实执行第1701号决议，让真主党退至利塔尼河以北。"
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ロケット攻撃の脅威に晒されるイスラエル北部住民およびイスラエル防衛軍（IDF）の公式立場。",
+        "en": "Consensus view among northern Israeli communities displaced by cross-border shelling and IDF doctrine.",
+        "zh": "承受火箭弹威胁的以色列北部撤离居民及以军安全战略的普遍共识。"
+      },
+      "keywords": [
+        "#IsraelNorth",
+        "#UNSCR1701",
+        "#HezbollahThreat",
+        "#SelfDefense"
+      ],
+      "timeframe": "2006-present"
+    },
+    {
+      "id": "lic-voice-3",
+      "country": {
+        "ja": "レバノン主権・国家再建派市民",
+        "en": "Lebanese sovereignist civil society",
+        "zh": "黎巴嫩主权与改革派公民"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "私たちはイスラエルの攻撃にも反対だが、国家の決定権を無視して国を戦争に巻き込むヒズボラの私兵化にも反対だ。武器はレバノン国軍に一元化されるべきだ。",
+        "en": "We condemn Israeli aggression, but we also reject non-state militias taking the country hostage into unwanted wars. Arms must be held exclusively by the Lebanese Armed Forces.",
+        "zh": "我们既谴责以色列的军事侵略，也坚决反对非国家武装将国家拖入非自愿的战争深渊。所有武器必须统一归由黎巴嫩国家军队掌握。"
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ベイルートをはじめとするキリスト教徒・スンニ派・リベラル市民層における、国家主権回復と二重権力解消を求める声。",
+        "en": "Common viewpoint among diverse communities in Beirut seeking state authority, economic recovery, and an end to foreign proxy entanglements.",
+        "zh": "贝鲁特多元社区及改革派群体强烈呼吁恢复国家主权、结束外部代理人控制的主张。"
+      },
+      "keywords": [
+        "#LebanonFirst",
+        "#StateMonopolyOnArms",
+        "#LAF",
+        "#NoToWar"
+      ],
+      "timeframe": "2005-present"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "notes": [
+    {
+      "id": "lic-1982-invasion",
+      "claim": "1982年のイスラエルのレバノン侵攻（「ガリラヤの平和作戦」）でベイルートまで進軍し、PLOを追放した",
+      "context": "1982年6月、イスラエル軍はレバノンに侵攻し、首都ベイルートを包囲。PLO（パレスチナ解放機構）の拠点を壊滅させ、8月に多国籍軍の監視下でPLOをベイルートから撤退させた。この侵攻でレバノン市民数千人が死亡した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Israel's Lebanon War - Official History",
+          "url": "https://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/pages/israel-s%20operation%20in%20lebanon.aspx",
+          "publisher": "イスラエル外務省",
+          "type": "government"
+        },
+        {
+          "title": "The 1982 Israeli Invasion of Lebanon",
+          "url": "https://www.hrw.org/reports/1983/lebanon/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-2006-casualties",
+      "claim": "2006年レバノン戦争でレバノン側の死者は1,200人以上、イスラエル側は165人だった",
+      "context": "2006年7月〜8月の33日間の戦争で、レバノン保健省は民間人を中心に約1,191人の死者を記録した。イスラエル側の死者は兵士119人・民間人44人の計163〜165人。この非対称な被害がレバノン・アラブ側の「侵略」認識を強化した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Lebanon: Death toll and impact of 2006 war",
+          "url": "https://www.un.org/unispal/document/auto-insert-187660/",
+          "publisher": "国連OCHA",
+          "type": "international"
+        },
+        {
+          "title": "2006 Lebanon War casualties",
+          "url": "https://www.btselem.org/",
+          "publisher": "B'Tselem",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-shebaa-farms",
+      "claim": "シェバア農場の帰属はレバノンかシリア（ゴラン高原の一部）かで争われている",
+      "context": "シェバア農場は面積約22km²の山岳地帯で、1967年にイスラエルがシリアから占領。レバノンはレバノン領土と主張するが、国連・イスラエル・シリア（バシャール政権）はゴラン高原の一部と扱う。2000年のイスラエル撤退後もこの地はヒズボラが「抵抗」を続ける根拠として使われている。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "Report of the Secretary-General on the Blue Line",
+          "url": "https://undocs.org/S/2000/590",
+          "publisher": "国連事務総長",
+          "type": "international"
+        },
+        {
+          "title": "Shebaa Farms: The Lebanon-Syria-Israel Territorial Dispute",
+          "url": "https://www.cfr.org/backgrounder/shebaa-farms",
+          "publisher": "Council on Foreign Relations",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "lic-unsc-1701",
+      "claim": "国連安保理決議1701号（2006年）はレバノン南部でのヒズボラの武装存在を禁じているが、履行は不完全である",
+      "context": "決議1701号はUNIFILの増強（最大15,000名）とレバノン軍の南部展開を規定し、ブルーラインとリタニ川の間を「武装集団のない地域」とすることを求めた。しかし国連事務総長の年次報告書は毎年、ヒズボラによる武器貯蔵・移動の継続を記録しており、完全履行には至っていない。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 1701 (2006)",
+          "url": "https://undocs.org/S/RES/1701(2006)",
+          "publisher": "国連安全保障理事会",
+          "type": "international"
+        },
+        {
+          "title": "UNIFIL Mandate and Implementation Reports",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/mandate.shtml",
+          "publisher": "国連UNIFIL",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "lic-unifil-japan",
+      "claim": "日本はUNIFILに文民専門家・防衛省職員を派遣しているが、自衛隊の武装部隊は派遣していない",
+      "context": "日本の平和憲法（第9条）の制約から、自衛隊員のUNIFIL武装参加は困難とされてきた。日本は代わりに防衛省の文民専門家や司令部要員を派遣し、工兵作業などへの参加は限定的。中国が数百名規模の工兵部隊を派遣しているのと対照的な立場にある。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UNIFIL Contributing Countries",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/contributing.shtml",
+          "publisher": "国連UNIFIL",
+          "type": "international"
+        },
+        {
+          "title": "日本のUNIFILへの参加について",
+          "url": "https://www.mofa.go.jp/mofaj/fp/un_pko/page23_001140.html",
+          "publisher": "日本外務省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-hezbollah-designation",
+      "claim": "ヒズボラはEU・米国ではテロ組織に指定されているが、日本・中国・ロシアは指定していない",
+      "context": "米国は1997年にヒズボラ全体をFTO（外国テロ組織）に指定。EUは2013年に軍事部門のみをテロ組織指定した。日本・中国・ロシア・多くの発展途上国はテロ指定を行っておらず、ヒズボラをレバノンの政治・軍事組織として扱っている。この認識の差が国際的な対応の分裂を招いている。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Designated Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "米国国務省",
+          "type": "government"
+        },
+        {
+          "title": "EU Council Decision on Hezbollah's military wing",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013D0495",
+          "publisher": "欧州連合理事会",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-1983-barracks",
+      "claim": "1983年のベイルート米海兵隊兵舎爆破で241名の米兵が死亡し、米国のレバノン撤退につながった",
+      "context": "1983年10月23日、自爆トラックが国際平和維持軍の米軍兵舎を爆破し241名が死亡（同日フランス軍兵舎も攻撃され58名死亡）。米国はこれをヒズボラとイランの支援による攻撃と断定した。翌年レーガン政権は多国籍軍をレバノンから撤退させた。この事件は米国のヒズボラ敵視の出発点となった。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "1983 Beirut barracks bombings",
+          "url": "https://history.state.gov/milestones/1981-1988/lebanon",
+          "publisher": "米国国務省 歴史局",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

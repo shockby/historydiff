@@ -1,0 +1,37 @@
+{
+  "eventId": "iran-iraq-war",
+  "photos": [
+    {
+      "id": "iranian-soldiers-trench",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/iran-iraq-war/iranian-soldiers-trench.jpg",
+      "caption": {
+        "ja": "イラン・イラク戦争の前線塹壕に配置されたイラン兵士。第一次世界大戦を想起させる凄惨な塹壕戦と消耗戦が8年間にわたり繰り広げられた。",
+        "en": "Iranian soldiers in a frontline trench during the Iran–Iraq War (1980–1988), which saw brutal trench warfare and devastating attrition.",
+        "zh": "两伊战争（1980-1988）前线战壕中的伊朗士兵。长达八年的冲突伴随着惨烈的战壕战与巨大的人力消耗。",
+        "ko": "이란-이라크 전쟁(1980~1988년) 전선 참호의 이란 군인들. 8년간에 걸쳐 제1차 세계대전을 연상시키는 참혹한 참호전과 소모전이 이어졌다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Iranian_soldiers_in_the_Iran-Iraq_War_(22).jpg",
+        "license": "Public Domain",
+        "author": "IRNA / Anonymous"
+      }
+    },
+    {
+      "id": "battle-of-khorramshahr",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/iran-iraq-war/battle-of-khorramshahr.jpg",
+      "caption": {
+        "ja": "1982年5月、激しい市街戦を経てイラン軍が奪還した要衝ホッラムシャフルの情景。戦争の大きな転換点となった。",
+        "en": "The strategic city of Khorramshahr in May 1982 after its liberation by Iranian forces, marking a major turning point in the Iran–Iraq War.",
+        "zh": "1982年5月伊朗军队收复关键城市霍拉姆沙赫尔后的景象，这成为两伊战争的重要转折点。",
+        "ko": "1982년 5월 격렬한 시가전 끝에 이란군이 탈환한 요충지 호람샤흐르의 풍경. 이란-이라크 전쟁의 중대한 전환점이 되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Battle_of_khorramshahr_2.jpg",
+        "license": "Public Domain",
+        "author": "Islamic Republic of Iran Archives"
+      }
+    }
+  ]
+}

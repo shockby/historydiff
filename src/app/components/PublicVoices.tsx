@@ -8,6 +8,7 @@ import { EventVoices, EventVoice, LocalizedText } from '@/lib/markdown';
 interface PublicVoicesProps {
   voices: EventVoices;
   lang: Language;
+  hideHeader?: boolean;
 }
 
 function getLocalizedText(text: LocalizedText, lang: Language): string {
@@ -315,7 +316,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
 
 /* ── Main Component ── */
 
-export default function PublicVoices({ voices, lang }: PublicVoicesProps) {
+export default function PublicVoices({ voices, lang, hideHeader = false }: PublicVoicesProps) {
   const t = getTranslations(lang);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
@@ -337,42 +338,44 @@ export default function PublicVoices({ voices, lang }: PublicVoicesProps) {
   }, [voices.voices, selectedCountry, lang]);
 
   return (
-    <section style={{ marginTop: '3rem' }}>
+    <section style={hideHeader ? { paddingTop: '1.25rem' } : { marginTop: '3rem' }}>
       {/* Section header */}
-      <div style={{
-        display: 'flex', alignItems: 'center', gap: '0.6rem',
-        marginBottom: '1rem',
-      }}>
+      {!hideHeader && (
         <div style={{
-          width: '32px', height: '32px', borderRadius: '8px',
-          background: 'linear-gradient(135deg, rgba(249, 115, 22, 0.2), rgba(239, 68, 68, 0.2))',
-          border: '1px solid rgba(249, 115, 22, 0.3)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          display: 'flex', alignItems: 'center', gap: '0.6rem',
+          marginBottom: '1rem',
         }}>
-          <MessageCircle size={16} style={{ color: '#f97316' }} />
-        </div>
-        <div>
-          <h3 style={{
-            fontSize: '1.1rem', fontWeight: 700, color: 'var(--foreground)',
+          <div style={{
+            width: '32px', height: '32px', borderRadius: '8px',
+            background: 'linear-gradient(135deg, rgba(249, 115, 22, 0.2), rgba(239, 68, 68, 0.2))',
+            border: '1px solid rgba(249, 115, 22, 0.3)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
           }}>
-            {t.publicVoicesTitle}
-          </h3>
-          <p style={{
-            fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px',
+            <MessageCircle size={16} style={{ color: '#f97316' }} />
+          </div>
+          <div>
+            <h3 style={{
+              fontSize: '1.1rem', fontWeight: 700, color: 'var(--foreground)',
+            }}>
+              {t.publicVoicesTitle}
+            </h3>
+            <p style={{
+              fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px',
+            }}>
+              {t.publicVoicesSubtitle}
+            </p>
+          </div>
+          <div style={{
+            marginLeft: 'auto',
+            padding: '4px 10px', borderRadius: '12px',
+            background: 'rgba(249, 115, 22, 0.1)',
+            border: '1px solid rgba(249, 115, 22, 0.2)',
+            fontSize: '0.75rem', fontWeight: 600, color: '#f97316',
           }}>
-            {t.publicVoicesSubtitle}
-          </p>
+            {t.voicesCount(voices.voices.length)}
+          </div>
         </div>
-        <div style={{
-          marginLeft: 'auto',
-          padding: '4px 10px', borderRadius: '12px',
-          background: 'rgba(249, 115, 22, 0.1)',
-          border: '1px solid rgba(249, 115, 22, 0.2)',
-          fontSize: '0.75rem', fontWeight: 600, color: '#f97316',
-        }}>
-          {t.voicesCount(voices.voices.length)}
-        </div>
-      </div>
+      )}
 
       {/* Prominent Disclaimer banner */}
       <div style={{

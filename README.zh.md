@@ -22,7 +22,7 @@
 ### 2. ⚡ 首页即时体验与现代化探索交互
 * **实时Diff迷你演示：** 首页首屏即可即时切换并体验独岛（竹岛）等多视角的文本Diff对比。
 * **认知分歧最大的历史事件 TOP 3：** 专区展示全球认知背离度最高的焦点事件。
-* **置顶国家筛选胶囊（Pinned Country Pills）与多维视图：** 一键筛选主要国家（日本、美国、中国、韩国等）及完整下拉列表。支持网格（精简卡片）、交互式世界地图、时序时间轴三种视图。
+* **置顶国家筛选胶囊（Pinned Country Pills）与多维视图：** 一键筛选主要国家（日本、美国、中国、韩国等）及完整下拉列表。支持每页12项的网格（精简卡片）、覆盖全部65个事件的交互式世界地图、以及支持多年代展开、严格年代注释过滤和年代/分类筛选的时序时间轴三种视图。
 
 ### 3. 📰 连通当代国际地缘政治（Why This Matters Today）
 * **“为什么现在这很重要”：** 深入解析历史教科书争议如何直接影响当下的外交博弈与地缘危机。
@@ -113,12 +113,14 @@ historydiff/
 │   │   └── sitemap.ts            # 动态 sitemap.xml
 │   └── lib/
 │       ├── diffAnalysis.ts       # 专属词提取与背离度分析算法
-│       ├── locationCoords.ts     # 地图可视化经纬度数据
+│       ├── locationCoords.ts     # 地图可视化经纬度数据（全65个事件完整映射）
 │       ├── markdown.ts           # Markdown 及 JSON 解析工具
 │       ├── quizData.ts           # 竞猜与认知诊断题库
 │       ├── schema.ts             # Schema.org 结构化数据生成
+│       ├── sorting.ts            # 年代排序实用工具
 │       ├── sourceNature.ts       # 出处性质判定与语言标签工具
-│       └── translations.ts       # 四国语言 UI 全局字典
+│       ├── timelineUtils.ts      # 多年代展开与年代专属注释筛选实用工具
+│       └── translations.ts       # 4国语言全球化文本字典
 ├── tests/                        # 完备的单元与集成测试套件
 │   ├── content.test.ts           # 历史文献与数据集完整性测试
 │   ├── diffAnalysis.test.ts      # 差异算法与对立词提取测试

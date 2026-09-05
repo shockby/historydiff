@@ -22,7 +22,7 @@ Even for the same historical event, textbook descriptions and official narrative
 ### 2. ⚡ Instant Experience & Streamlined Discovery
 * **Interactive Live Mini Diff Demo:** Instantly explore multilateral diffs for landmark events (such as Takeshima / Dokdo) right on the homepage hero section.
 * **Featured Controversies TOP 3:** Highlights historical events with the sharpest global perception divergences.
-* **Pinned Country Pills & Multi-View Exploration:** Quick-filter by major countries (Japan, USA, China, Korea, etc.) via pills and a full dropdown. Browse the catalog across Grid (minimalist cards), Interactive World Map, and Chronological Timeline views.
+* **Pinned Country Pills & Multi-View Exploration:** Quick-filter by major countries (Japan, USA, China, Korea, etc.) via pills and a full dropdown. Browse the catalog across 12-item Grid (minimalist cards), fully-mapped Interactive World Map (all 65 events), and Chronological Timeline featuring multi-decade expansion, period-specific annotation filtering, and decade/category filters.
 
 ### 3. 📰 Connecting History to Modern Geopolitics (Why This Matters Today)
 * **"Why This Matters Today":** In-depth analysis explaining how historical disputes directly fuel current diplomatic tensions and international crises.
@@ -113,11 +113,13 @@ historydiff/
 │   │   └── sitemap.ts            # Dynamic sitemap.xml
 │   └── lib/
 │       ├── diffAnalysis.ts       # Exclusive keywords and controversy analysis algorithms
-│       ├── locationCoords.ts     # Geo-coordinates database for map visualization
+│       ├── locationCoords.ts     # Geo-coordinates database for map visualization (all 65 events mapped)
 │       ├── markdown.ts           # Markdown parsing utilities and file loaders
 │       ├── quizData.ts           # Question datasets for quizzes and diagnostics
 │       ├── schema.ts             # Schema.org structured data generators
+│       ├── sorting.ts            # Chronological sort utilities
 │       ├── sourceNature.ts       # Source classification and language badge utilities
+│       ├── timelineUtils.ts      # Multi-decade expansion and period-filtered annotations utility
 │       └── translations.ts       # Multilingual dictionaries for global UI strings
 ├── tests/                        # Comprehensive unit & integration test suite
 │   ├── content.test.ts           # Markdown & dataset integrity tests

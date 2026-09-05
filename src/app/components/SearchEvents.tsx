@@ -115,8 +115,8 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
     }
   });
 
-  // ── Pagination logic (Kaminari-style: 10 items per page) ────────────────
-  const ITEMS_PER_PAGE = 10;
+  // ── Pagination logic (Kaminari-style: 12 items per page) ────────────────
+  const ITEMS_PER_PAGE = 12;
   const [currentPage, setCurrentPage] = useState(1);
 
   // Reset to page 1 whenever filters change
@@ -343,7 +343,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
         </div>
 
         {/* ── Perspective switcher pill bar ── */}
-        {viewMode === 'grid' && sortedCountries.length > 0 && (
+        {viewMode !== 'map' && sortedCountries.length > 0 && (
           <div style={{
             marginBottom: '1.5rem',
             padding: '0.75rem 1.1rem',
@@ -748,7 +748,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
         {/* Timeline view */}
         {viewMode === 'timeline' && (
-          <TimelineView events={filteredEvents} lang={lang} />
+          <TimelineView events={filteredEvents} lang={lang} selectedCountry={selectedCountry} />
         )}
       </section>
 

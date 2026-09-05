@@ -47,4 +47,34 @@ export const eventCoords: Record<string, LatLng> = {
   'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
   'taiwan-un-resolution': { lat: 23.5, lng: 121.0 },     // Taiwan
   'western-sahara': { lat: 24.0, lng: -13.0 },           // Western Sahara
+  'afghanistan-conflict': { lat: 34.53, lng: 69.17 },    // Afghanistan (Kabul)
+  'bolivia-chile-pacific': { lat: -23.65, lng: -70.4 },  // Antofagasta / Atacama Corridor
+  'cyprus-dispute': { lat: 35.17, lng: 33.36 },          // Cyprus (Nicosia)
+  'drc-eastern-conflict': { lat: -1.68, lng: 29.22 },    // Eastern DRC (Goma / North Kivu)
+  'falklands-war': { lat: -51.7, lng: -57.85 },          // Falkland / Malvinas Islands
+  'georgia-russia-conflict': { lat: 42.23, lng: 43.97 }, // South Ossetia / Tskhinvali
+  'gerd-nile-dispute': { lat: 11.21, lng: 35.09 },       // Blue Nile GERD, Ethiopia
+  'guayana-esequiba': { lat: 6.5, lng: -59.5 },          // Guayana Esequiba
+  'gulf-war-iraq-war': { lat: 33.31, lng: 44.36 },       // Baghdad, Iraq / Kuwait
+  'iran-iraq-war': { lat: 30.5, lng: 47.82 },            // Iran-Iraq border / Shatt al-Arab
+  'kashmir-conflict': { lat: 34.08, lng: 74.8 },         // Kashmir (Srinagar)
+  'korean-war-division': { lat: 37.96, lng: 126.67 },    // Panmunjom / Korean DMZ
+  'kosovo-dispute': { lat: 42.66, lng: 21.17 },          // Kosovo (Pristina)
+  'kurdish-question': { lat: 36.19, lng: 44.01 },        // Kurdistan region (Erbil)
+  'kyrgyzstan-tajikistan-border': { lat: 40.06, lng: 70.82 }, // Fergana Valley (Batken)
+  'lebanon-israel-conflict': { lat: 33.15, lng: 35.3 },  // Southern Lebanon
+  'libya-civil-war': { lat: 32.89, lng: 13.19 },         // Tripoli, Libya
+  'middle-east-us-iran-israel': { lat: 35.69, lng: 51.39 }, // Tehran / Middle East
+  'myanmar-civil-war': { lat: 19.76, lng: 96.08 },       // Myanmar (Naypyidaw)
+  'nagorno-karabakh': { lat: 39.82, lng: 46.75 },        // Nagorno-Karabakh (Stepanakert)
+  'papua-conflict': { lat: -2.53, lng: 140.72 },         // West Papua (Jayapura)
+  'preah-vihear-dispute': { lat: 14.39, lng: 104.68 },   // Preah Vihear Temple
+  'sahel-conflict': { lat: 14.9, lng: 0.15 },            // Sahel tri-border area
+  'sino-indian-border': { lat: 34.5, lng: 78.5 },        // Ladakh / Aksai Chin
+  'somaliland-dispute': { lat: 9.56, lng: 44.06 },       // Somaliland (Hargeisa)
+  'sudan-civil-war': { lat: 15.5, lng: 32.53 },          // Khartoum, Sudan
+  'syria-civil-war': { lat: 33.51, lng: 36.28 },         // Damascus, Syria
+  'tigray-war': { lat: 13.5, lng: 39.47 },               // Tigray, Ethiopia (Mekelle)
+  'transnistria-conflict': { lat: 46.85, lng: 29.63 },   // Transnistria (Tiraspol)
+  'yemen-conflict': { lat: 15.37, lng: 44.19 },          // Sana'a, Yemen
 };

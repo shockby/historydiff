@@ -1,0 +1,105 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "gerd-voice-1",
+      "country": {
+        "ja": "エチオピア国民・国家開発支持層",
+        "en": "Ethiopian citizens & development supporters"
+      },
+      "sentiment": "nationalist-pride",
+      "summary": {
+        "ja": "ナイルの水は8割以上がエチオピアの大地から湧き出ている。国民の半数が電気のない生活を送る中、自国の資源を使って電力を生み出し貧困を克服することは正当な主権の行使だ。他国の植民地時代の不当な特権に屈することは絶対にない。",
+        "en": "Over 85% of the Nile originates in Ethiopia. Over 60 million of our people live without electricity. Harnessing our own natural resources to lift our nation out of poverty is our sovereign right. We will never submit to colonial-era monopolies."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "国内外のエチオピア人が給与を寄付して建設を支えた国民的結束の象徴としての世論。",
+        "en": "Universal domestic mobilization and diaspora fundraising celebrating GERD as a monument of national dignity."
+      },
+      "keywords": [
+        "#ItsMyDam",
+        "#GERDIsOurs",
+        "#FillTheDam",
+        "#EthiopiaPrevails"
+      ],
+      "timeframe": "2011-present"
+    },
+    {
+      "id": "gerd-voice-2",
+      "country": {
+        "ja": "エジプト国民・水資源防衛擁護層",
+        "en": "Egyptian citizens & water security advocates"
+      },
+      "sentiment": "existential-defense",
+      "summary": {
+        "ja": "ナイル川は数千年にわたりエジプト文明を育んできた命そのものだ。上流で合意もなくダムを閉め切られれば、エジプトの農民は干上がり国民全体が飲料水不足に陥る。水は生きる権利であり、国家安全保障のレッドラインだ。",
+        "en": "The Nile is the lifeblood of Egypt's civilization and 100 million lives. Unilateral dam filling without a binding drought treaty threatens our water supply and agriculture. The Nile is an existential red line that can never be compromised."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "エジプト国内に根付くナイル川への絶対的な依存と、一方的な貯水に対する強い危機感。",
+        "en": "Profound existential anxiety across Egyptian society regarding downstream water shortages and food insecurity."
+      },
+      "keywords": [
+        "#EgyptNileRights",
+        "#NileIsLife",
+        "#SaveTheNile",
+        "#WaterSecurity"
+      ],
+      "timeframe": "2011-present"
+    },
+    {
+      "id": "gerd-voice-3",
+      "country": {
+        "ja": "スーダン国民・農業技術関係者",
+        "en": "Sudanese citizens & river basin technicians"
+      },
+      "sentiment": "balanced-pragmatic",
+      "summary": {
+        "ja": "ダムによって毎年の破滅的なナイル川の洪水が防がれ、電気も安くなるのは歓迎だ。しかし、国境すぐ隣の巨大ダムの放水データが共有されなければ、ロゼイレスダムの崩壊や農地の冠水が起こりうる。安全協定の締結が最優先だ。",
+        "en": "GERD offers immense benefits by regulating seasonal flooding and providing cheap energy. But without daily operational data exchange and safety protocols, our own downstream dams and millions of farmers are at catastrophic risk."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "エチオピアとエジプトの板挟みの中で、実利と安全保障の両立を模索するスーダンの世論。",
+        "en": "Nuanced pragmatic perspective balancing flood alleviation against genuine operational safety hazards."
+      },
+      "keywords": [
+        "#SudanWaterRights",
+        "#SafeGERD",
+        "#BindingAgreementNow",
+        "#BlueNileSafety"
+      ],
+      "timeframe": "2015-present"
+    },
+    {
+      "id": "gerd-voice-4",
+      "country": {
+        "ja": "国際水文学・環境ガバナンス専門家",
+        "en": "Hydrologists & transboundary river scholars"
+      },
+      "sentiment": "cooperative-scientific",
+      "summary": {
+        "ja": "ナイル川問題の解決策は対立ではなく、科学的データに基づく流域全体の共同管理にある。気候変動による渇水期を乗り切るため、三カ国が協調運用体制を構築し、ウィン・ウィンの電力・水利協力を確立すべきだ。",
+        "en": "Water conflicts cannot be solved through zero-sum nationalism. The Nile basin requires scientific data sharing, joint reservoir management, and shared power grids to build climate resilience for all 250 million basin inhabitants."
+      },
+      "prevalence": "moderate",
+      "context": {
+        "ja": "国際河川水法（1997年国連水路条約の精神）に基づく公平・合理的利用の推進。",
+        "en": "Academic and policy advocacy for cooperative basin-wide governance models."
+      },
+      "keywords": [
+        "#NileCooperation",
+        "#WaterDiplomacy",
+        "#TransboundaryWater",
+        "#BasinGovernance"
+      ],
+      "timeframe": "2015-present"
+    }
+  ]
+}

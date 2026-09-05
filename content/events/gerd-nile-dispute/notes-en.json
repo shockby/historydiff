@@ -1,0 +1,105 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "notes": [
+    {
+      "id": "gerd-1929-1959-colonial-treaties",
+      "claim": "Colonial-era treaties from 1929 and 1959 granted Egypt and Sudan exclusive rights over nearly the entire Nile water volume",
+      "context": "Under the 1929 Anglo-Egyptian Treaty and the subsequent 1959 bilateral agreement between Egypt and Sudan, the annual flow of the Nile (estimated at 84 billion cubic meters at Aswan) was apportioned exclusively: 55.5 bcm (66%) to Egypt and 18.5 bcm (22%) to Sudan, granting Egypt veto rights over upstream infrastructural works. However, Ethiopia—whose Blue Nile contributes roughly 85% of the total Nile waters—was never a party to these agreements and has steadfastly repudiated them as illegitimate colonial relics infringing on its sovereign rights.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "Exchange of Notes between the UK and Egypt with regard to the Use of the Waters of the River Nile for Irrigation (1929)",
+          "url": "https://treaties.un.org/",
+          "publisher": "League of Nations Treaty Series (Vol. 93)",
+          "type": "international"
+        },
+        {
+          "title": "Agreement between Sudan and the United Arab Republic for the Full Utilization of the Nile Waters (1959)",
+          "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC018042/",
+          "publisher": "FAO FAOLEX Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-construction-capacity",
+      "claim": "The GERD is Africa's largest hydroelectric facility, featuring over 5,000 MW generating capacity and a 74 bcm reservoir",
+      "context": "In April 2011, Ethiopia initiated construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile in the Benishangul-Gumuz region near the Sudanese border. Costing over $4 billion and financed entirely without World Bank loans through domestic government bonds and national public donations, the mega-infrastructure project features a reservoir capacity of approx. 74 billion cubic meters and planned capacity of roughly 5,150 MW, aimed at eradicating energy poverty for over 60 million un-electrified Ethiopians and exporting surplus clean power.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Ethiopian Electric Power (EEP) - Grand Ethiopian Renaissance Dam Project Profile",
+          "url": "https://www.eep.com.et/",
+          "publisher": "Ethiopian Electric Power",
+          "type": "government"
+        },
+        {
+          "title": "International Water Power & Dam Construction - GERD Technical Specifications",
+          "url": "https://www.waterpowermagazine.com/",
+          "publisher": "Water Power & Dam Construction",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-egypt-water-security",
+      "claim": "Egypt relies on the Nile for more than 90% of its freshwater and regards uncoordinated GERD operations as an existential threat",
+      "context": "With over 95% of its territory classified as hyper-arid desert, Egypt depends on the Nile River for more than 90% of its freshwater needs supporting its population of over 100 million. Cairo warns that unilateral impoundment of the dam—particularly during multi-year droughts without guaranteed volumetric release baselines—would cause catastrophic depletion of Lake Nasser, disrupt agricultural output, and threaten national survival, maintaining that Egypt's water security is an inviolable red line.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Ministry of Foreign Affairs of Egypt - Statement on the Grand Ethiopian Renaissance Dam",
+          "url": "https://www.mfa.gov.eg/",
+          "publisher": "Ministry of Foreign Affairs of Egypt",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Letter from the Permanent Representative of Egypt (S/2021/583)",
+          "url": "https://undocs.org/S/2021/583",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-sudan-dual-position",
+      "claim": "Sudan balances substantial benefits from flood control with acute operational hazards to its downstream dams",
+      "context": "Sudan recognizes significant technical benefits from the GERD, including the mitigation of destructive seasonal floods along the Blue Nile, reduced sediment clogging, and the import of cheap electricity. However, because Sudan's Roseires Dam is located a mere 100 km downstream with a modest storage capacity, Khartoum insists that absent a legally binding agreement on coordinated reservoir operations and real-time hydrological data exchange, the safety of millions of Sudanese citizens and agricultural schemes remains acutely jeopardized.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "Ministry of Irrigation and Water Resources of Sudan - Position Paper on GERD",
+          "url": "https://www.sudanembassy.org/",
+          "publisher": "Ministry of Irrigation and Water Resources of Sudan",
+          "type": "government"
+        },
+        {
+          "title": "Middle East Institute - Sudan's Ambiguous Position on the GERD",
+          "url": "https://www.mei.edu/publications/sudans-ambiguous-position-gerd",
+          "publisher": "Middle East Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-2015-declaration-principles-impasse",
+      "claim": "Despite signing the 2015 Declaration of Principles, trilateral negotiations have failed to yield a legally binding pact",
+      "context": "In March 2015, the heads of state of Ethiopia, Egypt, and Sudan signed the Khartoum Declaration of Principles (DoP), endorsing fair and equitable utilization and the prevention of significant harm. However, subsequent mediation under the United States and the World Bank (2019–2020) and the African Union (AU) deadlocked over dispute resolution mechanisms, drought mitigation rules, and whether the accord should be legally binding. Ethiopia completed successive annual reservoir fillings unilaterally, leaving formal diplomatic negotiations at an impasse.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Agreement on Declaration of Principles on the GERD Project (Khartoum, 2015)",
+          "url": "https://www.internationalwaterlaw.org/documents/regionaldocs/Final_Nile_Agreement_23March2015.pdf",
+          "publisher": "International Water Law Project",
+          "type": "international"
+        },
+        {
+          "title": "African Union Communique on the Trilateral Negotiations on the GERD",
+          "url": "https://au.int/",
+          "publisher": "African Union",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

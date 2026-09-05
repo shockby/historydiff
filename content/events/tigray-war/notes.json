@@ -1,0 +1,105 @@
+{
+  "eventId": "tigray-war",
+  "notes": [
+    {
+      "id": "tw-2020-outbreak",
+      "claim": "2020年11月、連邦軍北部司令部へのTPLFによる先制攻撃を機にアビィ首相が軍事作戦を発令し開戦した",
+      "context": "新型コロナウイルス流行を理由に連邦政府が総選挙を延期したのに対し、ティグレ州政府（TPLF）は2020年9月に独自選挙を強行し双方の正統性を否定し合っていた。同年11月3日深夜、TPLF部隊がメケレ等の連邦軍北部司令部基地を急襲し重火器を奪取したことを受け、アビィ・アハメド首相は11月4日未明に国家非常事態を宣言し「法秩序回復作戦」としての武力行使を命じた。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Federal Democratic Republic of Ethiopia - Address by PM Abiy Ahmed on Northern Command attacks",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "エチオピア連邦民主共和国首相府",
+          "type": "government"
+        },
+        {
+          "title": "International Crisis Group - Clashes over Ethiopia's Tigray Region",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/ethiopia/clashes-over-ethiopias-tigray-region",
+          "publisher": "国際危機グループ（ICG）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-eritrean-intervention",
+      "claim": "隣国エリトリア軍がエチオピア連邦政府軍と同盟してティグレ州に侵攻し、民間人虐殺等に関与した",
+      "context": "アビィ首相とエリトリアのイサイアス大統領は2018年に電撃的和解を果たしていたが、開戦直後からエリトリア国防軍（EDF）がティグレ州北部・中部に越境侵攻した。国連人権高等弁務官事務所（OHCHR）やアムネスティ・インターナショナル等の調査により、エリトリア軍部隊がアクスムでの数百人規模の民間人虐殺をはじめ、広範な略奪・性的暴行・戦争犯罪に関与した事実が確認・報告された。両国政府は当初エリトリア軍の存在を否認していたが、2021年3月にアビィ首相が公式に駐留を認めた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Report of the Ethiopian Human Rights Commission (EHRC)/OHCHR Joint Investigation into alleged violations in Tigray",
+          "url": "https://www.ohchr.org/en/documents/country-reports/report-ehrc-and-ohchr-joint-investigation-human-rights-violations-tigray",
+          "publisher": "国連人権高等弁務官事務所（OHCHR） / エチオピア人権委員会",
+          "type": "international"
+        },
+        {
+          "title": "Amnesty International - The Massacre in Axum",
+          "url": "https://www.amnesty.org/en/documents/afr25/3730/2021/en/",
+          "publisher": "アムネスティ・インターナショナル",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-blockade-humanitarian-famine",
+      "claim": "ティグレ州に対する通信・電力・金融の遮断と人道支援の制限により、壊滅的な飢餓と医療崩壊が発生した",
+      "context": "連邦政府は開戦直後からティグレ州全域のインターネット・電話回線・送電網・銀行サービスを全面的に停止し、燃料や医薬品の搬入を厳格に制限した。国連世界食糧計画（WFP）やWHO事務局長テドロス（ティグレ出身）は「飢餓の兵器化」と激しく告発。ゲント大学の研究者らは、2年間の封鎖と紛争により推計30万人から60万人以上が直接の暴力、飢餓、治療可能な病気で死亡したと推計している。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "UN OCHA - Northern Ethiopia Humanitarian Update",
+          "url": "https://reports.unocha.org/en/country/ethiopia/",
+          "publisher": "国際連合人道問題調整事務所（OCHA）",
+          "type": "international"
+        },
+        {
+          "title": "Ghent University Tigray Atlas - Mortality and Humanitarian Toll Estimates",
+          "url": "https://zenodo.org/record/5807266",
+          "publisher": "ゲント大学研究チーム",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tw-2022-pretoria-agreement",
+      "claim": "2022年11月、アフリカ連合（AU）の仲介により南アフリカでプレトリア和平合意が調印され停戦した",
+      "context": "アフリカ連合（AU）のオルシェグン・オバサンジョ特使（元ナイジェリア大統領）らの仲介のもと、2022年11月2日、エチオピア連邦政府とTPLF代表団は南アフリカのプレトリアにおいて「敵対行為恒久停止協定（COHA）」に調印した。合意には、TPLFの重火器武装解除、連邦機関によるティグレ州の統治権回復、人道アクセスの即時再開、および外国軍（エリトリア軍）の撤退原則が含まれていた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Agreement for Lasting Peace through a Permanent Cessation of Hostilities (Pretoria Agreement)",
+          "url": "https://au.int/en/pressreleases/20221102/cessation-hostilities-agreement-ethiopia",
+          "publisher": "アフリカ連合（African Union）",
+          "type": "international"
+        },
+        {
+          "title": "UN Security Council Statement Welcoming the Cessation of Hostilities Agreement in Ethiopia",
+          "url": "https://press.un.org/en/2022/sc15103.doc.htm",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tw-ethnic-federalism-constitution",
+      "claim": "紛争の根底には、1995年憲法に基づく「民族連邦制」とアビィ首相の「汎エチオピア中央集権化」の対立が存在した",
+      "context": "1991年から2018年までTPLFを中心とする連立与党（EPRDF）が政権を掌握し、民族ごとに自決権（第39条の分離独立権を含む）を認める「民族連邦制」体制を築いた。2018年に就任したオロモ出身のアビィ首相は民族分断を是正すべく新党「繁栄党」を結成し中央集権的な国家統合を進めようとした。これに対しTPLFは民族固有の憲法上の権利と自治を解体する専制化と反発し、統治構造の根本的ビジョンをめぐる対立が武力衝突へ発展した。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Constitution of the Federal Democratic Republic of Ethiopia (1995)",
+          "url": "https://www.wipo.int/wipolex/en/legislation/details/5157",
+          "publisher": "世界知的所有権機関（WIPO保管条約集）",
+          "type": "government"
+        },
+        {
+          "title": "Chatham House - Ethiopia's Transition and the Tigray Conflict",
+          "url": "https://www.chathamhouse.org/2021/04/ethiopia-crossroads",
+          "publisher": "王立国際問題研究所（Chatham House）",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

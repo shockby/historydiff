@@ -1,0 +1,33 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "photos": [
+    {
+      "id": "gerd-dam-construction",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/gerd-nile-dispute/gerd-dam-construction.jpg",
+      "caption": {
+        "ja": "青ナイル川に建設されたグランド・エチオピアン・ルネサンス・ダム（GERD）の堤体と貯水池（エチオピア首相府公表）。総貯水量約740億立方メートル、発電容量5,000MWを超えるアフリカ最大規模の水力発電プロジェクトであり、エチオピアの脱貧困と産業化の象徴とされる一方、下流域諸国との激しい水利権対立を引き起こした。",
+        "en": "The main dam structure and reservoir of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile (Prime Minister's Office of Ethiopia). With a reservoir capacity of approx. 74 billion cubic meters and generating capacity exceeding 5,000 MW, it stands as Africa's largest hydroelectric project—celebrated in Ethiopia as a catalyst for industrialization while triggering acute water security disputes downstream."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:GERD 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:GERD_2.jpg",
+        "license": "Public domain",
+        "author": "Prime Minister Office of Ethiopia"
+      }
+    },
+    {
+      "id": "gerd-aerial-view",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/gerd-nile-dispute/gerd-aerial-view.jpg",
+      "caption": {
+        "ja": "欧州連合（EU）コペルニクスSentinel-2衛星が撮影したGERDダム湖の衛星画像。スーダン国境からわずか約15km上流に位置し、青ナイル川の流れを劇的に変化させるため、スーダンおよび下流エジプトへの流量調節と干ばつ時の放水ルールが最大の交渉課題となっている。",
+        "en": "Satellite imagery of the GERD reservoir captured by the EU Copernicus Sentinel-2 mission. Located merely 15 km upstream from the Sudanese border, the dam regulates the flow of the Blue Nile, making technical protocols for water impoundment and drought mitigation the critical crux of tripartite negotiations with Sudan and Egypt."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:The Grand Ethiopian Renaissance Dam.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Grand_Ethiopian_Renaissance_Dam.jpg",
+        "license": "Attribution",
+        "author": "European Union / Copernicus Sentinel-2 imagery"
+      }
+    }
+  ]
+}

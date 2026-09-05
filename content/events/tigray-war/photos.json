@@ -1,0 +1,33 @@
+{
+  "eventId": "tigray-war",
+  "photos": [
+    {
+      "id": "tigray-war-conflict-map",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/tigray-war/tigray-war-conflict-map.png",
+      "caption": {
+        "ja": "2020年11月から2021年12月にかけてエチオピア北部ティグレ州および隣接するアムハラ州・アファール州で報告された軍事衝突・人道危機インシデントの地理的分布図（ゲント大学研究チーム作成）。連邦政府軍・エリトリア軍とTPLF部隊との間で激しい戦闘が広範に展開された。",
+        "en": "Geographical distribution of reported conflict incidents across Tigray, Amhara, and Afar regions between November 2020 and December 2021 (compiled by Ghent University researchers). Illustrates the sweeping scale of armed clashes between Ethiopian federal forces, allied Eritrean troops, and the Tigray People's Liberation Front (TPLF)."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Tigray War reported conflict incidents - November 2020 to December 2021.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Tigray_War_reported_conflict_incidents_-_November_2020_to_December_2021.png",
+        "license": "CC BY 4.0",
+        "author": "Sofie Annys, Tim Vanden Bempt et al. (Ghent University)"
+      }
+    },
+    {
+      "id": "tigray-humanitarian-crisis-2021",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/tigray-war/tigray-humanitarian-crisis-2021.jpg",
+      "caption": {
+        "ja": "紛争激化に伴い電力・医薬品・食料が遮断されたティグレ州の病院で手当てを受ける負傷した子ども（2021年、VOA取材写真）。ティグレ紛争では2年間に推計数十万人が戦闘、飢餓、医療崩壊により命を落とし、21世紀最悪の人道悲劇の一つとされた。",
+        "en": "An injured child receiving treatment in a Tigray hospital grappling with severe shortages of electricity, medicine, and food due to wartime sieges and blockades (2021, photo by Yan Boechat for VOA). Over the two-year war, hundreds of thousands died from conflict violence, starvation, and collapsed healthcare."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Child at hospital in Tigray, Ethiopia (2021).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Child_at_hospital_in_Tigray,_Ethiopia_(2021).jpg",
+        "license": "Public domain",
+        "author": "Yan Boechat / Voice of America"
+      }
+    }
+  ]
+}

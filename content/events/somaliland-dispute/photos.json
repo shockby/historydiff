@@ -1,0 +1,33 @@
+{
+  "eventId": "somaliland-dispute",
+  "photos": [
+    {
+      "id": "hargeisa-war-memorial",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/somaliland-dispute/hargeisa-war-memorial.jpg",
+      "caption": {
+        "ja": "ソマリランドの首都ハルゲイサ中央広場に立つ戦争記念碑。1988年にシアド・バレ独裁政権の空軍機が自都市の市民を無差別爆撃した記憶を風化させないため、撃墜されたMiG-17戦闘機の実機を台座の上に据え付け、ソマリランド独立の原点として顕彰している。",
+        "en": "The Hargeisa War Memorial in central Freedom Square, Somaliland. Featuring an actual downed Somali Air Force MiG-17 fighter jet mounted atop a pedestal, the monument commemorates the tens of thousands of civilians killed during the 1988 aerial bombardments by the Siad Barre dictatorship—serving as the tragic foundational memory for Somaliland's 1991 declaration of re-independence."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Hargeisa War Memorial.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hargeisa_War_Memorial.jpg",
+        "license": "CC0",
+        "author": "Buufin"
+      }
+    },
+    {
+      "id": "somaliland-somalia-border",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/somaliland-dispute/somaliland-somalia-border.png",
+      "caption": {
+        "ja": "英陸軍陸地測量部が1948年に作成した旧英領ソマリランドと旧伊領ソマリアの歴史的境界地図。ソマリランド側は、1960年6月の独立時に国際承認されたこの植民地境界線こそが国家主権の法的根拠（アフリカ統一機構の国境維持原則）であると主張している。",
+        "en": "Historical boundary survey map compiled by the UK Directorate of Colonial Surveys in 1948, delineating the frontier between British Somaliland and Italian Somalia. Somaliland jurists argue that these internationally recognized colonial frontiers from June 1960 satisfy the OAU Cairo principle on the sanctity of inherited colonial borders."
+      },
+      "source": {
+        "title": "Wikimedia Commons — File:Somaliland–Somalia border.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Somaliland%E2%80%93Somalia_border.png",
+        "license": "Public domain",
+        "author": "Directorate of Colonial Surveys (UK War Office, 1948)"
+      }
+    }
+  ]
+}

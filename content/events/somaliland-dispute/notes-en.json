@@ -1,0 +1,105 @@
+{
+  "eventId": "somaliland-dispute",
+  "notes": [
+    {
+      "id": "sl-1960-independence-union",
+      "claim": "British Somaliland gained sovereign independence on June 26, 1960, and voluntarily joined Italian Somalia days later",
+      "context": "On June 26, 1960, the British Somaliland protectorate achieved recognized sovereignty as the independent State of Somaliland, receiving formal recognition from 35 nations, including permanent members of the UN Security Council. Driven by pan-Somali nationalist aspirations, Somaliland voluntarily merged on July 1, 1960, with the newly independent Italian Trust Territory of Somalia to form the Somali Republic. Modern Somaliland jurists maintain that the Act of Union was never legally ratified by the northern parliament, rendering the union legally defective.",
+      "verdict": "Historical Fact",
+      "sources": [
+        {
+          "title": "United Kingdom Somaliland Order in Council 1960",
+          "url": "https://www.legislation.gov.uk/",
+          "publisher": "The National Archives UK",
+          "type": "government"
+        },
+        {
+          "title": "American Journal of International Law - Somaliland: The Constitutional and International Law Framework",
+          "url": "https://www.jstor.org/",
+          "publisher": "American Society of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-1988-isaaq-genocide-1991-re-independence",
+      "claim": "Following the 1988 Isaaq Genocide by the Siad Barre regime, Somaliland declared the restoration of its independence in 1991",
+      "context": "In response to the northern rebellion led by the Somali National Movement (SNM), the military regime of Siad Barre executed a scorched-earth campaign, subjecting Hargeisa and Burao to intense artillery and aerial bombardment and systematically massacring an estimated 50,000 to 100,000 Isaaq civilians. Following the collapse of Barre's regime and the state failure in Mogadishu in early 1991, northern clan leaders convened the Burao Grand Conference, declaring on May 18, 1991, the dissolution of the 1960 union and the re-establishment of the Republic of Somaliland.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Human Rights Watch - A Government at War with Its Own People: Testimonies About the Killings and the Conflict in the North",
+          "url": "https://www.hrw.org/reports/1990/somalia/",
+          "publisher": "Human Rights Watch",
+          "type": "academic"
+        },
+        {
+          "title": "The Declaration of Independence of Somaliland (Burao, 18 May 1991)",
+          "url": "https://www.somalilandlaw.com/18_may_1991.html",
+          "publisher": "Somaliland Law Database",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sl-de-facto-statehood-institutions",
+      "claim": "Somaliland has sustained three decades of constitutional democracy, biometric elections, and functional de facto statehood",
+      "context": "While southern Somalia endured decades of warlordism, state collapse, and al-Shabaab terrorism, Somaliland engineered a hybrid system of traditional clan elders and constitutional democracy. Operating its own military, police force, biometric voter registry, independent currency (Somaliland shilling), passport, and judiciary, Somaliland has conducted multiple peaceful transfers of executive power following popular elections. Despite fulfilling the Montevideo criteria for statehood, it remains devoid of de jure international recognition.",
+      "verdict": "Verified Fact",
+      "sources": [
+        {
+          "title": "International Crisis Group - Somaliland: The Forgotten Horn of Africa",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/somaliland",
+          "publisher": "International Crisis Group",
+          "type": "academic"
+        },
+        {
+          "title": "Freedom House - Freedom in the World: Somaliland Country Report",
+          "url": "https://freedomhouse.org/country/somaliland",
+          "publisher": "Freedom House",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-fgs-sovereignty-one-somalia",
+      "claim": "The Federal Government of Somalia, the UN, and the AU affirm the inviolable unity and territorial integrity of Somalia",
+      "context": "The Federal Government of Somalia (FGS) in Mogadishu, under its Provisional Federal Constitution, designates Somaliland as an integral constituent member of the federation, dismissing unilateral independence declarations as unconstitutional secession. The United Nations Security Council and the African Union consistently reaffirm Somalia's sovereignty, unity, and territorial integrity, cautious that recognizing Somaliland would contravene the 1964 Cairo Resolution on inherited colonial borders and spark secessionist movements across the continent.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Provisional Constitution of the Federal Republic of Somalia",
+          "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+          "publisher": "Federal Republic of Somalia",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Resolution on Somalia - Reaffirming Sovereignty and Territorial Integrity",
+          "url": "https://undocs.org/S/RES/2710(2023)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sl-2024-ethiopia-mou-berbera",
+      "claim": "The January 2024 Ethiopia-Somaliland Memorandum of Understanding on port access and recognition ignited major regional tensions",
+      "context": "On January 1, 2024, Ethiopian Prime Minister Abiy Ahmed and Somaliland President Muse Bihi Abdi signed a landmark Memorandum of Understanding (MoU) in Addis Ababa. Under the accord, landlocked Ethiopia was granted a 50-year lease of 20 kilometers of coastline around the strategic port of Berbera for naval and commercial purposes, in exchange for shares in Ethiopian Airlines and an agreement to conduct an 'in-depth assessment' toward formal recognition of Somaliland. Somalia denounced the pact as an act of aggression and territorial annexation, triggering diplomatic ruptures and defense pacts with Egypt and Turkey.",
+      "verdict": "Official Record",
+      "sources": [
+        {
+          "title": "Federal Democratic Republic of Ethiopia and Republic of Somaliland Joint Communique on MoU (1 January 2024)",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "Prime Minister's Office of Ethiopia",
+          "type": "government"
+        },
+        {
+          "title": "Federal Republic of Somalia - Statement on the Protection of National Sovereignty (2 January 2024)",
+          "url": "https://sonna.so/en/",
+          "publisher": "Somali National News Agency (SONNA)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

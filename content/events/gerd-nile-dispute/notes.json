@@ -1,0 +1,105 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "notes": [
+    {
+      "id": "gerd-1929-1959-colonial-treaties",
+      "claim": "植民地時代の1929年および1959年の水利協定は、ナイル川水量の大部分をエジプトとスーダンに独占配分していた",
+      "context": "1929年の英・エジプト協定および1959年のエジプト・スーダン二国間協定により、年間ナイル川流水量（アスワン推計840億m³）のうちエジプトに555億m³（約66%）、スーダンに185億m³（約22%）が割り当てられ、上流国での水利事業に対するエジプトの拒否権が定められた。しかし、青ナイル川水系としてナイル川全水量の約85%を供給するエチオピアは両協定の締結当事国ではなく、植民地時代の不平等条約であり法的拘束力を持たないとして一貫して拒否している。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Exchange of Notes between the UK and Egypt with regard to the Use of the Waters of the River Nile for Irrigation (1929)",
+          "url": "https://treaties.un.org/",
+          "publisher": "国際連合条約集（League of Nations Treaty Series Vol. 93）",
+          "type": "international"
+        },
+        {
+          "title": "Agreement between the Republic of the Sudan and the United Arab Republic for the Full Utilization of the Nile Waters (1959)",
+          "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC018042/",
+          "publisher": "国連食糧農業機関（FAO FAOLEX）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-construction-capacity",
+      "claim": "GERDは発電容量5,000MW超、総貯水量約740億m³を誇るアフリカ最大の水力発電所である",
+      "context": "エチオピア政府は2011年4月、ベニシャングル・グムズ州の青ナイル川本流で「大エチオピア・ルネサンス・ダム（GERD）」の建設に着工した。総工費約40億ドル以上を世界銀行や外国融資に頼らず、国債発行や国民募金により自力調達。総貯水量約740億立方メートル、計画発電容量約5,150メガワット（MW）であり、完成すれば国内の無電化人口（国民の約半数）への電力供給と近隣諸国への電力輸出を一挙に実現する巨大国策プロジェクトである。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Ethiopian Electric Power (EEP) - Grand Ethiopian Renaissance Dam Project Profile",
+          "url": "https://www.eep.com.et/",
+          "publisher": "エチオピア電力公社（EEP）",
+          "type": "government"
+        },
+        {
+          "title": "International Water Power & Dam Construction - GERD Technical Specifications",
+          "url": "https://www.waterpowermagazine.com/",
+          "publisher": "国際水力発電・ダム建設誌",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-egypt-water-security",
+      "claim": "エジプトは水需要の90%以上をナイル川に依存しており、GERDを国家存亡に関わる実存的脅威と位置づけている",
+      "context": "国土の95%以上が砂漠であるエジプトにとって、約1億人の人口の農業・生活・工業用水の90%以上がナイル川からの取水に依存している。エジプト政府は、事前の合意がない一方的なダムの貯水（特に長期干ばつ期における放水量の減少）がアスワン・ハイ・ダムの水位低下や農業崩壊を招くとして強く警戒し、「水安全保障は国家存亡の死活問題であり、一滴の水も侵害を許さない」と主張している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Ministry of Foreign Affairs of the Arab Republic of Egypt - Position on the Grand Ethiopian Renaissance Dam",
+          "url": "https://www.mfa.gov.eg/",
+          "publisher": "エジプト・アラブ共和国外務省",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Letter from the Permanent Representative of Egypt (S/2021/583)",
+          "url": "https://undocs.org/S/2021/583",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-sudan-dual-position",
+      "claim": "スーダンは洪水の調整や安価な電力の恩恵を認めつつ、国境至近の自国ダムの安全運用のため事前合意を求めている",
+      "context": "スーダンはGERDにより毎年の青ナイル川の破滅的洪水が緩和され、安価な水力電力をエチオピアから輸入できるという大きな利点を享受できる。一方で、国境からわずか100km余り下流に位置する自国のロゼイレス・ダム（Roseires Dam）の貯水容量が小さいため、エチオピア側からのリアルタイムの放水データ共有やダム決壊・急激な放流リスクを制御する法的拘束力ある合意がない場合、数百万人の人命と農業インフラが危機に晒されると主張している。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Ministry of Irrigation and Water Resources of Sudan - Position Paper on GERD",
+          "url": "https://www.sudanembassy.org/",
+          "publisher": "スーダン灌漑水資源省",
+          "type": "government"
+        },
+        {
+          "title": "Middle East Institute - Sudan's Ambiguous Position on the GERD",
+          "url": "https://www.mei.edu/publications/sudans-ambiguous-position-gerd",
+          "publisher": "中東研究所（MEI）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-2015-declaration-principles-impasse",
+      "claim": "2015年の原則宣言署名後も、貯水ルールや干ばつ対策をめぐる法的拘束力ある合意は未だ成立していない",
+      "context": "2015年3月、エチオピア・エジプト・スーダンの首脳はハルツームで「原則宣言（Declaration of Principles）」に署名し、重大な損害の回避や公平な利用の原則に合意した。しかし、その後の米国・世界銀行仲介協議（2019-2020年）やアフリカ連合（AU）主導の協議においても、深刻な干ばつ期の放水義務量、水配分の法的性格、および紛争解決条項をめぐり対立が解消せず、エチオピアが協定締結前に段階的貯水を完了させたことで交渉は暗礁に乗り上げている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Agreement on Declaration of Principles between the Arab Republic of Egypt, the Federal Democratic Republic of Ethiopia and the Republic of the Sudan on the GERD Project (2015)",
+          "url": "https://www.internationalwaterlaw.org/documents/regionaldocs/Final_Nile_Agreement_23March2015.pdf",
+          "publisher": "国際水法プロジェクト（International Water Law Project）",
+          "type": "international"
+        },
+        {
+          "title": "African Union Communique on the Trilateral Negotiations on the Grand Ethiopian Renaissance Dam",
+          "url": "https://au.int/",
+          "publisher": "アフリカ連合（AU）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

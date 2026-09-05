@@ -1,0 +1,105 @@
+{
+  "eventId": "sahel-conflict",
+  "notes": [
+    {
+      "id": "sahel-2012-tuareg-jihadist-origins",
+      "claim": "2011年リビア内戦崩壊に伴う武器流入が、マリ北部でのトゥアレグ独立蜂起とジハーディスト台頭の引き金となった",
+      "context": "2011年のリビア・カダフィ政権崩壊後、傭兵として仕えていた重武装のトゥアレグ系戦闘員と膨大な兵器がマリ北部に流入した。2012年初頭、「アザワド解放民族運動（MNLA）」が独立宣言を行ったが、直後に「アンサール・ディーン」や「イスラム・マグレブ諸国のアルカイダ（AQIM）」等のイスラム過激派勢力に主導権を奪われ、マリ北部主要都市（トンブクトゥ、ガオ、キダル）が厳格なシャリーア支配下に置かれた。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "UN Security Council - Report of the Secretary-General on the situation in Mali (S/2012/843)",
+          "url": "https://undocs.org/S/2012/843",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        },
+        {
+          "title": "International Crisis Group - Mali: Avoiding Escalation",
+          "url": "https://www.crisisgroup.org/africa/west-africa/mali/mali-avoiding-escalation",
+          "publisher": "国際危機グループ（ICG）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-french-serval-barkhane",
+      "claim": "フランス軍はセルヴァル作戦およびバルカンヌ作戦を展開したが、テロの拡散を阻止できず強い反仏世論を招いた",
+      "context": "2013年1月、首都バマコへの過激派南下を阻止するため、フランス軍は「セルヴァル作戦」を開始し北部諸都市を短期間で奪還。翌2014年にはサヘル5カ国（G5サヘル）に跨がる「バルカンヌ作戦（Opération Barkhane）」へと拡大・改編した。しかし、軍事力中心の掃討作戦は根本的な統治不全や貧困を解決できず、暴力はブルキナファソやニジェールへと拡散。駐留の長期化に伴い「旧宗主国による新植民地主義的介入」との反発が現地世論で爆発した。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "French Ministry of Armed Forces - Operations Serval and Barkhane in the Sahel",
+          "url": "https://www.defense.gouv.fr/operations/afrique/sahel/dossier-de-presentation-de-l-operation-barkhane",
+          "publisher": "フランス国防省（Ministère des Armées）",
+          "type": "government"
+        },
+        {
+          "title": "CSIS - The End of Operation Barkhane and the Future of Counterterrorism in the Sahel",
+          "url": "https://www.csis.org/analysis/end-operation-barkhane",
+          "publisher": "戦略国際問題研究所（CSIS）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-military-coups-aes",
+      "claim": "治安悪化を背景にマリ、ブルキナファソ、ニジェールでクーデターが相次ぎ、「サヘル諸国連合（AES）」が結成された",
+      "context": "治安回復への無力さに怒る軍部により、マリ（2020年・2021年：ゴイタ大佐）、ブルキナファソ（2022年：トラオレ大尉）、ニジェール（2023年：チアニ将軍）で軍事クーデターが連鎖した。各軍事政権はフランス軍の駐留協定を破棄し国連MINUSMAを退去させ、2023年9月に相互防衛協定「サヘル諸国連合（AES）」を創設。さらに2024年初頭には、民政復帰制裁を課した西アフリカ諸国経済共同体（ECOWAS）からの脱退を通告した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Charte du Liptako-Gourma instituant l'Alliance des États du Sahel (AES)",
+          "url": "https://www.actuniger.com/politique/19597-charte-du-liptako-gourma-instituant-l-alliance-des-etats-du-sahel-aes.html",
+          "publisher": "サヘル諸国連合（AES）公式憲章",
+          "type": "government"
+        },
+        {
+          "title": "ECOWAS Communique on the Notice of Withdrawal by Burkina Faso, Mali and Niger",
+          "url": "https://ecowas.int/",
+          "publisher": "西アフリカ諸国経済共同体（ECOWAS）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sahel-russian-shift-wagner",
+      "claim": "AES諸国は欧米との安保協定を破棄し、ロシア（ワグネル／アフリカ軍団）との軍事協力を全面的に推進した",
+      "context": "フランス軍や米軍特殊部隊を追放したマリ、ブルキナファソ、ニジェールの軍政は、モスクワとの安全保障協力を急速に緊密化させた。ロシア政府直属の民間軍事会社「ワグネル・グループ」（プリゴジン死後はロシア国防省傘下の「アフリカ軍団」へ再編）の戦闘員数千名が前線に投入され、政権警護や反乱掃討を展開。一方で、2022年3月のマリ・ムラ虐殺（数百人の民間人殺害）など、国連や人権団体から深刻な人権侵害が告発されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "OHCHR Fact-Finding Mission Report on the events in Moura, Mali (May 2023)",
+          "url": "https://www.ohchr.org/en/documents/country-reports/mali-moura-investigation-report",
+          "publisher": "国連人権高等弁務官事務所（OHCHR）",
+          "type": "international"
+        },
+        {
+          "title": "US Congressional Research Service - Russia's Growing Footprint in the Sahel",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "米議会調査局（CRS）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sahel-jihadist-factions-humanitarian-toll",
+      "claim": "アルカイダ系（JNIM）とIS系（ISGS）の抗争とテロにより、サヘル地域では300万人以上の避難民が発生している",
+      "context": "サヘル地域ではアルカイダ傘下の「イスラムとムスリムの支援団（JNIM）」と「大サハラ・イスラム国（ISGS）」が村落襲撃や道路封鎖、即席爆発装置（IED）攻撃を激化させている。国連OCHAおよびUNHCRによれば、サヘル中央部（ブルキナファソ、マリ、西ニジェール）だけで国内避難民は300万人を超え、数千校の学校が過激派の脅迫により閉鎖、数百万人が深刻な飢餓危機（IPCフェーズ3以上）に直面している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UNHCR - Central Sahel Displacement Crisis Data",
+          "url": "https://data.unhcr.org/en/situations/sahelcrisis",
+          "publisher": "国連難民高等弁務官事務所（UNHCR）",
+          "type": "international"
+        },
+        {
+          "title": "ACLED - Sahel Violence Index and Fatality Trends",
+          "url": "https://acleddata.com/category/sahel/",
+          "publisher": "武力紛争位置・事件データプロジェクト（ACLED）",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "eventId": "somaliland-dispute",
+  "notes": [
+    {
+      "id": "sl-1960-independence-union",
+      "claim": "旧英領ソマリランドは1960年6月26日に主権国家として独立し、数日後に旧伊領ソマリアと自発的に統合した",
+      "context": "1960年6月26日、英国保護領ソマリランドは主権国家「ソマリランド国（State of Somaliland）」として正式に独立し、国連安保理常任理事国を含む35カ国から国家承認を受けた。しかし「大ソマリア主義」の熱狂のもと、わずか5日後の7月1日、同日独立した旧イタリア信託統治領ソマリアと自発的に統合し「ソマリア共和国」を結成した。ソマリランド側は、この統合条約は法的に正式批准されておらず無効であったと後年主張している。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "United Kingdom Somaliland Order in Council 1960",
+          "url": "https://www.legislation.gov.uk/",
+          "publisher": "英国公文書館（The National Archives UK）",
+          "type": "government"
+        },
+        {
+          "title": "American Journal of International Law - Somaliland: The Constitutional and International Law Framework",
+          "url": "https://www.jstor.org/",
+          "publisher": "アメリカ国際法学会（ASIL）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-1988-isaaq-genocide-1991-re-independence",
+      "claim": "1988年のシアド・バレ政権による虐殺（イサック・ジェノサイド）を経て、1991年にソマリランドは再独立を宣言した",
+      "context": "モガディシュのシアド・バレ軍事独裁政権は、反政府武装勢力「ソマリア国民運動（SNM）」の蜂起に対し、北部主要都市ハルゲイサやブラオを空爆・砲撃して焦土化し、イサック氏族の民間人推計5万〜10万人を虐殺した。1991年1月にバレ政権が崩壊してソマリア全土が無政府状態の内戦に突入すると、SNMおよび北部長老会議は同年5月18日のブラオ大会議において、1960年の統合破棄と「ソマリランド共和国」の主権回復（再独立）を全会一致で宣言した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Human Rights Watch - A Government at War with Its Own People: Testimonies About the Killings and the Conflict in the North",
+          "url": "https://www.hrw.org/reports/1990/somalia/",
+          "publisher": "ヒューマン・ライツ・ウォッチ",
+          "type": "academic"
+        },
+        {
+          "title": "The Declaration of Independence of Somaliland (Burao, 18 May 1991)",
+          "url": "https://www.somalilandlaw.com/18_may_1991.html",
+          "publisher": "ソマリランド法律ポータル",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sl-de-facto-statehood-institutions",
+      "claim": "ソマリランドは30年以上にわたり民主的選挙、独自通貨、軍・警察を運用し、安定したデ・ファクト国家を維持している",
+      "context": "南部ソマリアが氏族民兵やイスラム過激派（アル・シャバブ）の暴力で崩壊し続ける中、ソマリランドは氏族融和に基づく議会制民主主義を確立。生体認証技術を用いた一夫一票の直接普通選挙により複数回の大統領選挙および平和的な政権交代を実施してきた。独自の憲法、警察・軍隊、パスポート、中央銀行と通貨（ソマリランド・シリング）を運用しているが、国際社会の法的な国家承認（デ・ジュリ承認）は依然として皆無である。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "International Crisis Group - Somaliland: The Forgotten Horn of Africa",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/somaliland",
+          "publisher": "国際危機グループ（ICG）",
+          "type": "academic"
+        },
+        {
+          "title": "Freedom House - Freedom in the World: Somaliland Country Report",
+          "url": "https://freedomhouse.org/country/somaliland",
+          "publisher": "フリーダム・ハウス",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-fgs-sovereignty-one-somalia",
+      "claim": "ソマリア連邦政府および国連・アフリカ連合は、「ソマリアの統一と領土保全」を一貫して支持している",
+      "context": "モガディシュのソマリア連邦政府（FGS）は暫定連邦憲法に基づき、ソマリランドを不可分な北部領土（連邦構成地域）と位置づけ、いかなる一方的分離独立も主権侵害として断固拒否している。国連安全保障理事会およびアフリカ連合（AU）も、植民地独立時の国境変更を認めればアフリカ大陸全土で民族分離独立が連鎖する（パンドラの箱が開く）という懸念から、ソマリアの主権・統一・領土保全の尊重を基本原則として再確認し続けている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Provisional Constitution of the Federal Republic of Somalia",
+          "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+          "publisher": "ソマリア連邦共和国憲法",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Resolution on Somalia - Reaffirming Sovereignty and Territorial Integrity",
+          "url": "https://undocs.org/S/RES/2710(2023)",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sl-2024-ethiopia-mou-berbera",
+      "claim": "2024年1月、エチオピアとソマリランドが港湾利用と国家承認を巡る覚書（MoU）に署名し、地域的緊張が激化した",
+      "context": "2024年1月1日、アディスアベバでエチオピアのアビィ首相とソマリランドのビヒ大統領が覚書（MoU）に電撃署名した。エチオピアがアデン湾に面するベルベラ港周辺の沿岸20kmを50年間にわたり海軍基地および商業用港湾としてリース供与を受ける見返りに、エチオピア航空の株式譲渡と将来的なソマリランドの公式国家承認の検討が盛り込まれた。ソマリア政府はこれを自国領土への侵略と激しく反発し、両国関係の断絶やエジプト・トルコとの軍事協定締結へと発展した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Federal Democratic Republic of Ethiopia and Republic of Somaliland Joint Communique on MoU (1 January 2024)",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "エチオピア連邦民主共和国首相府",
+          "type": "government"
+        },
+        {
+          "title": "Federal Republic of Somalia - Statement on the Protection of National Sovereignty (2 January 2024)",
+          "url": "https://sonna.so/en/",
+          "publisher": "ソマリア国家通信社（SONNA）",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

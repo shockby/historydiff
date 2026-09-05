@@ -1,4 +1,4 @@
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes } from '@/lib/markdown';
 import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
 import SearchEvents from './components/SearchEvents';
 import LanguageRedirect from './components/LanguageRedirect';
@@ -25,11 +25,13 @@ export default function Home() {
     .map((event) => {
       const photos = getEventPhotos(event.id);
       const imageUrl = photos && photos.photos.length > 0 ? photos.photos[0].url : undefined;
+      const notesData = getEventNotes(event.id, 'en');
       const ongoing = getEventOngoing(event.id);
       return {
         id: event.id,
         perspectives: getEventPerspectives(event.id, 'en'),
         imageUrl,
+        notes: notesData?.notes ?? [],
         ongoing,
       };
     })

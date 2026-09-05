@@ -59,116 +59,102 @@ function PerspectiveSwitcher({
   const diffLabel  = lang === 'ja' ? '差分比較' : lang === 'zh' ? '差异比较' : lang === 'ko' ? '비교'    : 'Compare';
 
   return (
-    <div
-      style={{
-        position: 'sticky',
-        top: '61px', // site-header height
-        zIndex: 90,
-        background: 'rgba(10,10,12,0.85)',
-        backdropFilter: 'blur(16px)',
-        WebkitBackdropFilter: 'blur(16px)',
-        borderBottom: '1px solid rgba(255,255,255,0.07)',
-        padding: '0.6rem 1.5rem',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gap: '1rem',
-        flexWrap: 'wrap',
-      }}
-    >
-      {/* Perspective pills */}
-      <div style={{
-        display: 'flex',
-        gap: '0.4rem',
-        overflowX: 'auto',
-        scrollbarWidth: 'none',
-        WebkitOverflowScrolling: 'touch',
-        flex: 1,
-        minWidth: 0,
-      }}>
-        {perspectives.map((p, idx) => {
-          const active = idx === activeIndex;
-          return (
-            <button
-              key={idx}
-              onClick={() => onSelect(idx)}
-              style={{
-                padding: '0.35rem 0.9rem',
-                borderRadius: '20px',
-                border: active
-                  ? '1px solid rgba(224,46,46,0.7)'
-                  : '1px solid rgba(255,255,255,0.1)',
-                background: active
-                  ? 'rgba(224,46,46,0.18)'
-                  : 'rgba(255,255,255,0.04)',
-                color: active ? '#fff' : 'var(--text-secondary)',
-                fontSize: '0.82rem',
-                fontWeight: active ? 700 : 500,
-                cursor: 'pointer',
-                whiteSpace: 'nowrap',
-                flexShrink: 0,
-                transition: 'all 0.18s ease',
-                outline: 'none',
-              }}
-              onMouseEnter={e => {
-                if (!active) {
-                  e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
-                  e.currentTarget.style.color = '#fff';
-                }
-              }}
-              onMouseLeave={e => {
-                if (!active) {
-                  e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
-                  e.currentTarget.style.color = 'var(--text-secondary)';
-                }
-              }}
-            >
-              {p.country}
-            </button>
-          );
-        })}
-      </div>
+    <div className="perspective-switcher">
+      <div className="perspective-switcher-inner">
+        {/* Perspective pills */}
+        <div style={{
+          display: 'flex',
+          gap: '0.4rem',
+          overflowX: 'auto',
+          scrollbarWidth: 'none',
+          WebkitOverflowScrolling: 'touch',
+          flex: 1,
+          minWidth: 0,
+        }}>
+          {perspectives.map((p, idx) => {
+            const active = idx === activeIndex;
+            return (
+              <button
+                key={idx}
+                onClick={() => onSelect(idx)}
+                style={{
+                  padding: '0.35rem 0.9rem',
+                  borderRadius: '20px',
+                  border: active
+                    ? '1px solid rgba(224,46,46,0.7)'
+                    : '1px solid rgba(255,255,255,0.1)',
+                  background: active
+                    ? 'rgba(224,46,46,0.18)'
+                    : 'rgba(255,255,255,0.04)',
+                  color: active ? '#fff' : 'var(--text-secondary)',
+                  fontSize: '0.82rem',
+                  fontWeight: active ? 700 : 500,
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
+                  transition: 'all 0.18s ease',
+                  outline: 'none',
+                }}
+                onMouseEnter={e => {
+                  if (!active) {
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
+                    e.currentTarget.style.color = '#fff';
+                  }
+                }}
+                onMouseLeave={e => {
+                  if (!active) {
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
+                    e.currentTarget.style.color = 'var(--text-secondary)';
+                  }
+                }}
+              >
+                {p.country}
+              </button>
+            );
+          })}
+        </div>
 
-      {/* Mode toggle */}
-      <div style={{
-        display: 'flex',
-        gap: '0.3rem',
-        background: 'rgba(255,255,255,0.05)',
-        borderRadius: '20px',
-        padding: '0.25rem',
-        border: '1px solid rgba(255,255,255,0.08)',
-        flexShrink: 0,
-      }}>
-        {(['read', 'diff'] as ViewMode[]).map(mode => {
-          const isActive = viewMode === mode;
-          return (
-            <button
-              key={mode}
-              onClick={() => onViewModeChange(mode)}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.35rem',
-                padding: '0.3rem 0.75rem',
-                borderRadius: '16px',
-                border: 'none',
-                background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
-                color: isActive ? '#fff' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
-                fontWeight: isActive ? 700 : 500,
-                cursor: 'pointer',
-                transition: 'all 0.18s ease',
-                outline: 'none',
-                whiteSpace: 'nowrap',
-              }}
-            >
-              {mode === 'read'
-                ? <><BookOpen size={12} /> {readLabel}</>
-                : <><GitCompare size={12} /> {diffLabel}</>
-              }
-            </button>
-          );
-        })}
+        {/* Mode toggle */}
+        <div style={{
+          display: 'flex',
+          gap: '0.3rem',
+          background: 'rgba(255,255,255,0.05)',
+          borderRadius: '20px',
+          padding: '0.25rem',
+          border: '1px solid rgba(255,255,255,0.08)',
+          flexShrink: 0,
+        }}>
+          {(['read', 'diff'] as ViewMode[]).map(mode => {
+            const isActive = viewMode === mode;
+            return (
+              <button
+                key={mode}
+                onClick={() => onViewModeChange(mode)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                  padding: '0.3rem 0.75rem',
+                  borderRadius: '16px',
+                  border: 'none',
+                  background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
+                  color: isActive ? '#fff' : 'var(--text-secondary)',
+                  fontSize: '0.78rem',
+                  fontWeight: isActive ? 700 : 500,
+                  cursor: 'pointer',
+                  transition: 'all 0.18s ease',
+                  outline: 'none',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {mode === 'read'
+                  ? <><BookOpen size={12} /> {readLabel}</>
+                  : <><GitCompare size={12} /> {diffLabel}</>
+                }
+              </button>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

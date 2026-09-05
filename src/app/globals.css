@@ -44,6 +44,28 @@ a {
   margin: 0 auto;
 }
 
+/* Perspective Switcher Sticky Bar */
+.perspective-switcher {
+  position: sticky;
+  top: 61px;
+  z-index: 90;
+  background: rgba(10, 10, 12, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 0.6rem 2rem;
+}
+
+.perspective-switcher-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .site-logo {
   font-size: 1.5rem;
   font-weight: 800;
@@ -145,6 +167,15 @@ div::-webkit-scrollbar {
 @media (max-width: 768px) {
   .site-header {
     padding: 0.75rem 1rem;
+  }
+
+  .perspective-switcher {
+    top: 53px;
+    padding: 0.5rem 1rem;
+  }
+
+  .perspective-switcher-inner {
+    gap: 0.75rem;
   }
 
   .site-logo {

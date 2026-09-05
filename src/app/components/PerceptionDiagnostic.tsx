@@ -18,6 +18,7 @@ interface PerceptionDiagnosticProps {
   perspectives?: EventPerspective[];
   eventsPool?: DiagnosticEventData[];
   isCardOnly?: boolean;
+  hideHeader?: boolean;
 }
 
 export default function PerceptionDiagnostic({
@@ -26,6 +27,7 @@ export default function PerceptionDiagnostic({
   perspectives,
   eventsPool,
   isCardOnly = false,
+  hideHeader = false,
 }: PerceptionDiagnosticProps) {
   const activeLang = (lang as Language) || 'en';
   const t = translations[activeLang] || translations.en;
@@ -107,8 +109,11 @@ export default function PerceptionDiagnostic({
 
   return (
     <section
-      className="card glass"
-      style={{
+      className={hideHeader ? '' : 'card glass'}
+      style={hideHeader ? {
+        paddingTop: '1.25rem',
+        position: 'relative',
+      } : {
         padding: isCardOnly ? '1.5rem' : '2.5rem 2rem',
         borderRadius: '16px',
         border: '1px solid rgba(255, 255, 255, 0.08)',
@@ -121,91 +126,95 @@ export default function PerceptionDiagnostic({
       }}
     >
       {/* Ambient background glow */}
-      <div style={{
-        position: 'absolute',
-        top: '-15%',
-        left: '-10%',
-        width: '350px',
-        height: '350px',
-        background: 'radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%)',
-        pointerEvents: 'none',
-      }} />
+      {!hideHeader && (
+        <div style={{
+          position: 'absolute',
+          top: '-15%',
+          left: '-10%',
+          width: '350px',
+          height: '350px',
+          background: 'radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%)',
+          pointerEvents: 'none',
+        }} />
+      )}
 
       {/* Header bar */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: '0.75rem',
-        marginBottom: '1.5rem',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
-        paddingBottom: '1rem',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <div style={{
-            width: '32px',
-            height: '32px',
-            borderRadius: '8px',
-            background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(99, 102, 241, 0.25))',
-            border: '1px solid rgba(99, 102, 241, 0.4)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#818cf8',
-          }}>
-            <Compass size={18} />
-          </div>
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span style={{
-                fontSize: '0.7rem',
-                fontWeight: 700,
-                letterSpacing: '0.08em',
-                color: '#818cf8',
-                textTransform: 'uppercase',
-              }}>
-                {t.diagnosticBadge}
-              </span>
-              <span className="badge" style={{ fontSize: '0.7rem', padding: '1px 7px' }}>
-                {currentEvent.title}
-              </span>
-            </div>
-            <h3 style={{
-              fontSize: '1.15rem',
-              fontWeight: 700,
-              color: 'var(--foreground)',
-              marginTop: '2px',
-            }}>
-              {t.diagnosticTitle}
-            </h3>
-          </div>
-        </div>
-
-        {activePool.length > 1 && (
-          <button
-            type="button"
-            onClick={handleNextEvent}
-            style={{
-              padding: '0.35rem 0.85rem',
-              borderRadius: '20px',
-              border: '1px solid rgba(255, 255, 255, 0.12)',
-              background: 'rgba(255, 255, 255, 0.04)',
-              color: 'var(--text-secondary)',
-              fontSize: '0.78rem',
-              fontWeight: 500,
-              cursor: 'pointer',
+      {!hideHeader && (
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '0.75rem',
+          marginBottom: '1.5rem',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+          paddingBottom: '1rem',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+            <div style={{
+              width: '32px',
+              height: '32px',
+              borderRadius: '8px',
+              background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(99, 102, 241, 0.25))',
+              border: '1px solid rgba(99, 102, 241, 0.4)',
               display: 'flex',
               alignItems: 'center',
-              gap: '0.4rem',
-              transition: 'all 0.2s ease',
-            }}
-          >
-            <RefreshCw size={12} />
-            <span>{t.diagnosticTryAnother}</span>
-          </button>
-        )}
-      </div>
+              justifyContent: 'center',
+              color: '#818cf8',
+            }}>
+              <Compass size={18} />
+            </div>
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{
+                  fontSize: '0.7rem',
+                  fontWeight: 700,
+                  letterSpacing: '0.08em',
+                  color: '#818cf8',
+                  textTransform: 'uppercase',
+                }}>
+                  {t.diagnosticBadge}
+                </span>
+                <span className="badge" style={{ fontSize: '0.7rem', padding: '1px 7px' }}>
+                  {currentEvent.title}
+                </span>
+              </div>
+              <h3 style={{
+                fontSize: '1.15rem',
+                fontWeight: 700,
+                color: 'var(--foreground)',
+                marginTop: '2px',
+              }}>
+                {t.diagnosticTitle}
+              </h3>
+            </div>
+          </div>
+
+          {activePool.length > 1 && (
+            <button
+              type="button"
+              onClick={handleNextEvent}
+              style={{
+                padding: '0.35rem 0.85rem',
+                borderRadius: '20px',
+                border: '1px solid rgba(255, 255, 255, 0.12)',
+                background: 'rgba(255, 255, 255, 0.04)',
+                color: 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 500,
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.4rem',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              <RefreshCw size={12} />
+              <span>{t.diagnosticTryAnother}</span>
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Instructions */}
       <p style={{

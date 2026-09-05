@@ -12,9 +12,16 @@ interface HistoryQuizProps {
   eventId?: string;
   perspectives?: EventPerspective[];
   isCardOnly?: boolean;
+  hideHeader?: boolean;
 }
 
-export default function HistoryQuiz({ lang, eventId, perspectives, isCardOnly = false }: HistoryQuizProps) {
+export default function HistoryQuiz({
+  lang,
+  eventId,
+  perspectives,
+  isCardOnly = false,
+  hideHeader = false,
+}: HistoryQuizProps) {
   const activeLang = (lang as Language) || 'en';
   const t = translations[activeLang] || translations.en;
 
@@ -68,8 +75,11 @@ export default function HistoryQuiz({ lang, eventId, perspectives, isCardOnly = 
 
   return (
     <section
-      className="card glass"
-      style={{
+      className={hideHeader ? '' : 'card glass'}
+      style={hideHeader ? {
+        paddingTop: '1.25rem',
+        position: 'relative',
+      } : {
         padding: isCardOnly ? '1.5rem' : '2.5rem 2rem',
         borderRadius: '16px',
         border: '1px solid rgba(255, 255, 255, 0.08)',
@@ -82,99 +92,136 @@ export default function HistoryQuiz({ lang, eventId, perspectives, isCardOnly = 
       }}
     >
       {/* Background ambient glow */}
-      <div style={{
-        position: 'absolute',
-        top: '-10%',
-        right: '-5%',
-        width: '300px',
-        height: '300px',
-        background: 'radial-gradient(circle, rgba(224, 46, 46, 0.08) 0%, transparent 70%)',
-        pointerEvents: 'none',
-      }} />
+      {!hideHeader && (
+        <div style={{
+          position: 'absolute',
+          top: '-10%',
+          right: '-5%',
+          width: '300px',
+          height: '300px',
+          background: 'radial-gradient(circle, rgba(224, 46, 46, 0.08) 0%, transparent 70%)',
+          pointerEvents: 'none',
+        }} />
+      )}
 
-      {/* Header bar */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: '0.75rem',
-        marginBottom: '1.5rem',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
-        paddingBottom: '1rem',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <div style={{
-            width: '32px',
-            height: '32px',
-            borderRadius: '8px',
-            background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(249, 115, 22, 0.25))',
-            border: '1px solid rgba(239, 68, 68, 0.4)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#f87171',
-          }}>
-            <HelpCircle size={18} />
-          </div>
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span style={{
-                fontSize: '0.7rem',
+      {/* Header bar or streak/stats */}
+      {hideHeader ? (
+        (streak > 1 || stats.total > 0) && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem' }}>
+            {streak > 1 && (
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.3rem',
+                padding: '4px 10px',
+                borderRadius: '20px',
+                background: 'rgba(249, 115, 22, 0.15)',
+                border: '1px solid rgba(249, 115, 22, 0.3)',
+                fontSize: '0.78rem',
                 fontWeight: 700,
-                letterSpacing: '0.08em',
-                color: '#f87171',
-                textTransform: 'uppercase',
+                color: '#fb923c',
               }}>
-                {t.quizBadge}
+                <Flame size={14} />
+                <span>{t.quizStreakLabel(streak)}</span>
+              </div>
+            )}
+            {stats.total > 0 && (
+              <span style={{
+                fontSize: '0.75rem',
+                color: 'var(--text-secondary)',
+                padding: '4px 8px',
+                borderRadius: '8px',
+                background: 'rgba(255, 255, 255, 0.04)',
+              }}>
+                {t.quizScoreLabel(stats.correct, stats.total)}
               </span>
-              <span className="badge" style={{ fontSize: '0.7rem', padding: '1px 7px' }}>
-                {currentEventTitle}
-              </span>
-            </div>
-            <h3 style={{
-              fontSize: '1.15rem',
-              fontWeight: 700,
-              color: 'var(--foreground)',
-              marginTop: '2px',
-            }}>
-              {t.quizTitle}
-            </h3>
+            )}
           </div>
-        </div>
-
-        {/* Stats & Streak counter */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          {streak > 1 && (
+        )
+      ) : (
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '0.75rem',
+          marginBottom: '1.5rem',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+          paddingBottom: '1rem',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
             <div style={{
+              width: '32px',
+              height: '32px',
+              borderRadius: '8px',
+              background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(249, 115, 22, 0.25))',
+              border: '1px solid rgba(239, 68, 68, 0.4)',
               display: 'flex',
               alignItems: 'center',
-              gap: '0.3rem',
-              padding: '4px 10px',
-              borderRadius: '20px',
-              background: 'rgba(249, 115, 22, 0.15)',
-              border: '1px solid rgba(249, 115, 22, 0.3)',
-              fontSize: '0.78rem',
-              fontWeight: 700,
-              color: '#fb923c',
+              justifyContent: 'center',
+              color: '#f87171',
             }}>
-              <Flame size={14} />
-              <span>{t.quizStreakLabel(streak)}</span>
+              <HelpCircle size={18} />
             </div>
-          )}
-          {stats.total > 0 && (
-            <span style={{
-              fontSize: '0.75rem',
-              color: 'var(--text-secondary)',
-              padding: '4px 8px',
-              borderRadius: '8px',
-              background: 'rgba(255, 255, 255, 0.04)',
-            }}>
-              {t.quizScoreLabel(stats.correct, stats.total)}
-            </span>
-          )}
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{
+                  fontSize: '0.7rem',
+                  fontWeight: 700,
+                  letterSpacing: '0.08em',
+                  color: '#f87171',
+                  textTransform: 'uppercase',
+                }}>
+                  {t.quizBadge}
+                </span>
+                <span className="badge" style={{ fontSize: '0.7rem', padding: '1px 7px' }}>
+                  {currentEventTitle}
+                </span>
+              </div>
+              <h3 style={{
+                fontSize: '1.15rem',
+                fontWeight: 700,
+                color: 'var(--foreground)',
+                marginTop: '2px',
+              }}>
+                {t.quizTitle}
+              </h3>
+            </div>
+          </div>
+
+          {/* Stats & Streak counter */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+            {streak > 1 && (
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.3rem',
+                padding: '4px 10px',
+                borderRadius: '20px',
+                background: 'rgba(249, 115, 22, 0.15)',
+                border: '1px solid rgba(249, 115, 22, 0.3)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                color: '#fb923c',
+              }}>
+                <Flame size={14} />
+                <span>{t.quizStreakLabel(streak)}</span>
+              </div>
+            )}
+            {stats.total > 0 && (
+              <span style={{
+                fontSize: '0.75rem',
+                color: 'var(--text-secondary)',
+                padding: '4px 8px',
+                borderRadius: '8px',
+                background: 'rgba(255, 255, 255, 0.04)',
+              }}>
+                {t.quizScoreLabel(stats.correct, stats.total)}
+              </span>
+            )}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Subtitle instructions */}
       <p style={{

@@ -22,6 +22,7 @@ interface EventNote {
 interface CommunityNotesProps {
   notes: EventNote[];
   lang: Language;
+  hideHeader?: boolean;
 }
 
 function getVerdictStyle(verdict: string) {
@@ -564,7 +565,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
   );
 }
 
-export default function CommunityNotes({ notes, lang }: CommunityNotesProps) {
+export default function CommunityNotes({ notes, lang, hideHeader = false }: CommunityNotesProps) {
   const [showAll, setShowAll] = useState(false);
   const visibleNotes = showAll ? notes : notes.slice(0, 3);
   const t = translations[lang] || translations.en;
@@ -576,61 +577,63 @@ export default function CommunityNotes({ notes, lang }: CommunityNotesProps) {
     : 'Evidence, source links, and contextual annotations regarding descriptions.';
 
   return (
-    <section style={{ marginTop: '3rem' }}>
+    <section style={hideHeader ? { paddingTop: '1.25rem' } : { marginTop: '3rem' }}>
       {/* Section header */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '0.6rem',
-        marginBottom: '1.5rem',
-      }}>
+      {!hideHeader && (
         <div style={{
-          width: '32px',
-          height: '32px',
-          borderRadius: '8px',
-          background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2))',
-          border: '1px solid rgba(99, 102, 241, 0.3)',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
+          gap: '0.6rem',
+          marginBottom: '1.5rem',
         }}>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#818cf8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-            <polyline points="14 2 14 8 20 8"/>
-            <line x1="16" y1="13" x2="8" y2="13"/>
-            <line x1="16" y1="17" x2="8" y2="17"/>
-            <polyline points="10 9 9 9 8 9"/>
-          </svg>
-        </div>
-        <div>
-          <h3 style={{
-            fontSize: '1.1rem',
-            fontWeight: 700,
-            color: 'var(--foreground)',
+          <div style={{
+            width: '32px',
+            height: '32px',
+            borderRadius: '8px',
+            background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2))',
+            border: '1px solid rgba(99, 102, 241, 0.3)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}>
-            {t.communityNotesTitle}
-          </h3>
-          <p style={{
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#818cf8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <div>
+            <h3 style={{
+              fontSize: '1.1rem',
+              fontWeight: 700,
+              color: 'var(--foreground)',
+            }}>
+              {t.communityNotesTitle}
+            </h3>
+            <p style={{
+              fontSize: '0.75rem',
+              color: 'var(--text-secondary)',
+              marginTop: '2px',
+            }}>
+              {subTitle}
+            </p>
+          </div>
+          <div style={{
+            marginLeft: 'auto',
+            padding: '4px 10px',
+            borderRadius: '12px',
+            background: 'rgba(99, 102, 241, 0.1)',
+            border: '1px solid rgba(99, 102, 241, 0.2)',
             fontSize: '0.75rem',
-            color: 'var(--text-secondary)',
-            marginTop: '2px',
+            fontWeight: 600,
+            color: '#818cf8',
           }}>
-            {subTitle}
-          </p>
+            {t.sourcesCount(notes.length)}
+          </div>
         </div>
-        <div style={{
-          marginLeft: 'auto',
-          padding: '4px 10px',
-          borderRadius: '12px',
-          background: 'rgba(99, 102, 241, 0.1)',
-          border: '1px solid rgba(99, 102, 241, 0.2)',
-          fontSize: '0.75rem',
-          fontWeight: 600,
-          color: '#818cf8',
-        }}>
-          {t.sourcesCount(notes.length)}
-        </div>
-      </div>
+      )}
 
       {/* Notes list */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>

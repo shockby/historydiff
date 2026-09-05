@@ -701,6 +701,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   eventId={eventId || left.id}
                   perspectives={perspectives}
                   isCardOnly={true}
+                  hideHeader={true}
                 />
               </CollapsibleSection>
             )}
@@ -750,6 +751,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   eventId={eventId || left.id}
                   perspectives={perspectives}
                   isCardOnly={true}
+                  hideHeader={true}
                 />
               </CollapsibleSection>
             )}
@@ -794,7 +796,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'ko' ? '접기' : 'Close'
                 }
               >
-                <CommunityNotes notes={notes} lang={activeLang} />
+                <CommunityNotes notes={notes} lang={activeLang} hideHeader={true} />
               </CollapsibleSection>
             )}
 
@@ -838,7 +840,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'ko' ? '접기' : 'Close'
                 }
               >
-                <PublicVoices voices={voices} lang={activeLang} />
+                <PublicVoices voices={voices} lang={activeLang} hideHeader={true} />
               </CollapsibleSection>
             )}
           </div>

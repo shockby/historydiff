@@ -55,30 +55,66 @@ interface PerspectiveSwitcherProps {
 function PerspectiveSwitcher({
   perspectives, activeIndex, onSelect, viewMode, onViewModeChange, lang,
 }: PerspectiveSwitcherProps) {
+  const t = translations[lang] || translations.en;
   const readLabel  = lang === 'ja' ? '読む'   : lang === 'zh' ? '阅读'   : lang === 'ko' ? '읽기'   : 'Read';
   const diffLabel  = lang === 'ja' ? '差分比較' : lang === 'zh' ? '差异比较' : lang === 'ko' ? '비교'    : 'Compare';
 
   return (
     <div className="perspective-switcher">
       <div className="perspective-switcher-inner">
-        {/* Perspective pills */}
-        <div style={{
-          display: 'flex',
-          gap: '0.4rem',
-          overflowX: 'auto',
-          scrollbarWidth: 'none',
-          WebkitOverflowScrolling: 'touch',
-          flex: 1,
-          minWidth: 0,
-        }}>
+        {/* Top bar on mobile: perspective count badge + mode toggle */}
+        <div className="perspective-top-bar">
+          <div className="perspective-count-badge">
+            <span className="perspective-count-label">{t.allPerspectives}</span>
+            <span className="perspective-count-num">({perspectives.length})</span>
+          </div>
+
+          {/* Mode toggle */}
+          <div className="perspective-mode-toggle">
+            {(['read', 'diff'] as ViewMode[]).map(mode => {
+              const isActive = viewMode === mode;
+              return (
+                <button
+                  key={mode}
+                  onClick={() => onViewModeChange(mode)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.35rem',
+                    padding: '0.3rem 0.75rem',
+                    borderRadius: '16px',
+                    border: 'none',
+                    background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
+                    color: isActive ? '#fff' : 'var(--text-secondary)',
+                    fontSize: '0.78rem',
+                    fontWeight: isActive ? 700 : 500,
+                    cursor: 'pointer',
+                    transition: 'all 0.18s ease',
+                    outline: 'none',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {mode === 'read'
+                    ? <><BookOpen size={12} /> {readLabel}</>
+                    : <><GitCompare size={12} /> {diffLabel}</>
+                  }
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Perspective pills: wrapped so all perspectives are visible on all screens */}
+        <div className="perspective-pills-container">
           {perspectives.map((p, idx) => {
             const active = idx === activeIndex;
             return (
               <button
                 key={idx}
                 onClick={() => onSelect(idx)}
+                className="perspective-pill-btn"
                 style={{
-                  padding: '0.35rem 0.9rem',
+                  padding: '0.35rem 0.85rem',
                   borderRadius: '20px',
                   border: active
                     ? '1px solid rgba(224,46,46,0.7)'
@@ -109,48 +145,6 @@ function PerspectiveSwitcher({
                 }}
               >
                 {p.country}
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Mode toggle */}
-        <div style={{
-          display: 'flex',
-          gap: '0.3rem',
-          background: 'rgba(255,255,255,0.05)',
-          borderRadius: '20px',
-          padding: '0.25rem',
-          border: '1px solid rgba(255,255,255,0.08)',
-          flexShrink: 0,
-        }}>
-          {(['read', 'diff'] as ViewMode[]).map(mode => {
-            const isActive = viewMode === mode;
-            return (
-              <button
-                key={mode}
-                onClick={() => onViewModeChange(mode)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
-                  padding: '0.3rem 0.75rem',
-                  borderRadius: '16px',
-                  border: 'none',
-                  background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
-                  color: isActive ? '#fff' : 'var(--text-secondary)',
-                  fontSize: '0.78rem',
-                  fontWeight: isActive ? 700 : 500,
-                  cursor: 'pointer',
-                  transition: 'all 0.18s ease',
-                  outline: 'none',
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                {mode === 'read'
-                  ? <><BookOpen size={12} /> {readLabel}</>
-                  : <><GitCompare size={12} /> {diffLabel}</>
-                }
               </button>
             );
           })}

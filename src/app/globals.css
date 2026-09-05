@@ -44,6 +44,62 @@ a {
   margin: 0 auto;
 }
 
+.site-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.site-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.site-nav-link:hover {
+  color: var(--foreground);
+}
+
+.site-nav-icon {
+  flex-shrink: 0;
+}
+
+.lang-selector-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--foreground);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 /* Perspective Switcher Sticky Bar */
 .perspective-switcher {
   position: sticky;
@@ -60,22 +116,40 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
 
-.site-logo {
-  font-size: 1.5rem;
-  font-weight: 800;
+.perspective-pills-container {
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
 }
 
-.site-nav {
+.perspective-top-bar {
+  order: 2;
   display: flex;
-  gap: 2rem;
-  font-size: 0.9rem;
-  color: var(--text-secondary);
+  align-items: center;
+}
+
+.perspective-count-badge {
+  display: none;
+}
+
+.perspective-mode-toggle {
+  display: flex;
+  gap: 0.3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
 }
 
 .container {
@@ -166,25 +240,93 @@ div::-webkit-scrollbar {
 /* Mobile responsive */
 @media (max-width: 768px) {
   .site-header {
-    padding: 0.75rem 1rem;
-  }
-
-  .perspective-switcher {
-    top: 53px;
-    padding: 0.5rem 1rem;
-  }
-
-  .perspective-switcher-inner {
-    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .site-logo {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .site-header-actions {
+    gap: 0.45rem;
   }
 
   .site-nav {
-    gap: 1rem;
-    font-size: 0.8rem;
+    gap: 0.3rem;
+  }
+
+  .site-nav-link {
+    padding: 0.4rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .site-nav-link:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .site-nav-label {
+    display: none;
+  }
+
+  .site-nav-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .lang-selector-btn {
+    padding: 0.35rem 0.55rem !important;
+    gap: 0.35rem !important;
+    font-size: 0.78rem !important;
+  }
+
+  .perspective-switcher {
+    top: 48px;
+    padding: 0.45rem 0.75rem;
+  }
+
+  .perspective-switcher-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.45rem;
+  }
+
+  .perspective-top-bar {
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .perspective-count-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+
+  .perspective-count-num {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .perspective-pills-container {
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    width: 100%;
+  }
+
+  .perspective-pill-btn {
+    padding: 0.3rem 0.7rem !important;
+    font-size: 0.78rem !important;
   }
 
   .container {

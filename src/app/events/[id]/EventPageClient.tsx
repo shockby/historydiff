@@ -9,13 +9,14 @@ import PhotoGallery from '@/app/components/PhotoGallery';
 import PublicVoices from '@/app/components/PublicVoices';
 import NeutralityBanner from '@/app/components/NeutralityBanner';
 import SourceNatureBadges from '@/app/components/SourceNatureBadges';
+import CollapsibleSection from '@/app/components/CollapsibleSection';
 const HistoryQuiz = dynamic(() => import('@/app/components/HistoryQuiz'), { ssr: false });
 const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDiagnostic'), { ssr: false });
 import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
 import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
-import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare } from 'lucide-react';
+import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare, Compass, HelpCircle, Shield, MessageCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 
 interface EventPageClientProps {
@@ -632,26 +633,216 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
           </>
         )}
 
-        {/* ── Interactive Gamification & Diagnostic for this Event ── */}
-        {perspectives.length >= 2 && (
+        {/* ── Interactive & Verification Sections (Collapsible with clear previews) ── */}
+        {(perspectives.length >= 2 || notes.length > 0 || (voices && voices.voices.length > 0)) && (
           <div style={{ marginTop: '3.5rem' }}>
-            <PerceptionDiagnostic
-              lang={activeLang}
-              eventId={eventId || left.id}
-              perspectives={perspectives}
-            />
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.6rem',
+              marginBottom: '1.25rem',
+              paddingBottom: '0.6rem',
+              borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+            }}>
+              <Sparkles size={18} style={{ color: 'var(--accent)' }} />
+              <h3 style={{ fontSize: isMobile ? '1.05rem' : '1.2rem', fontWeight: 800, color: 'var(--foreground)' }}>
+                {activeLang === 'ja'
+                  ? '多角検証・インタラクティブ体験'
+                  : activeLang === 'zh'
+                  ? '多维验证与互动体验'
+                  : activeLang === 'ko'
+                  ? '다각적 검증 및 대화형 체험'
+                  : 'Interactive Verification & Exploration'}
+              </h3>
+            </div>
 
-            <HistoryQuiz
-              lang={activeLang}
-              eventId={eventId || left.id}
-              perspectives={perspectives}
-            />
+            {/* 1. ズレ診断 (Perception Diagnostic) */}
+            {perspectives.length >= 2 && (
+              <CollapsibleSection
+                id="perception-diagnostic"
+                icon={<Compass size={22} style={{ color: '#60a5fa' }} />}
+                badgeText={
+                  activeLang === 'ja' ? '歴史認識診断' :
+                  activeLang === 'zh' ? '认知诊断' :
+                  activeLang === 'ko' ? '역사 인식 진단' : 'PERCEPTION CHECK'
+                }
+                badgeBg="rgba(59, 130, 246, 0.15)"
+                badgeColor="#93c5fd"
+                badgeBorder="rgba(59, 130, 246, 0.35)"
+                title={t.diagnosticTitle}
+                subtitle={
+                  activeLang === 'ja'
+                    ? '国名を伏せた記述から、あなたが学んだ説明と一致する教科書を30秒で診断します。'
+                    : activeLang === 'zh'
+                    ? '在隐藏国名的多段记述中，30秒测试您的历史认知偏好与哪国教科书相符。'
+                    : activeLang === 'ko'
+                    ? '국명을 가린 기술 중, 내가 배운 설명과 일치하는 교과서를 30초 만에 진단합니다.'
+                    : 'Discover which nation\'s textbook best matches your historical perception in 30 seconds.'
+                }
+                metaBadge={
+                  activeLang === 'ja' ? '🎯 30秒診断' :
+                  activeLang === 'zh' ? '🎯 30秒测试' :
+                  activeLang === 'ko' ? '🎯 30초 진단' : '🎯 30s Check'
+                }
+                themeColor="#3b82f6"
+                actionLabel={
+                  activeLang === 'ja' ? '診断する' :
+                  activeLang === 'zh' ? '开始诊断' :
+                  activeLang === 'ko' ? '진단하기' : 'Start Check'
+                }
+                closeLabel={
+                  activeLang === 'ja' ? '閉じる' :
+                  activeLang === 'zh' ? '收起' :
+                  activeLang === 'ko' ? '접기' : 'Close'
+                }
+              >
+                <PerceptionDiagnostic
+                  lang={activeLang}
+                  eventId={eventId || left.id}
+                  perspectives={perspectives}
+                  isCardOnly={true}
+                />
+              </CollapsibleSection>
+            )}
+
+            {/* 2. 教科書当てクイズ (History Quiz) */}
+            {perspectives.length >= 2 && (
+              <CollapsibleSection
+                id="history-quiz"
+                icon={<HelpCircle size={22} style={{ color: '#fbbf24' }} />}
+                badgeText={
+                  activeLang === 'ja' ? 'ミニクイズ' :
+                  activeLang === 'zh' ? '迷你测验' :
+                  activeLang === 'ko' ? '미니 퀴즈' : 'MINI QUIZ'
+                }
+                badgeBg="rgba(245, 158, 11, 0.15)"
+                badgeColor="#fcd34d"
+                badgeBorder="rgba(245, 158, 11, 0.35)"
+                title={t.quizTitle}
+                subtitle={
+                  activeLang === 'ja'
+                    ? '独特の表現や叙述のニュアンスから、どの国の教科書かを推理するクイズに挑戦！'
+                    : activeLang === 'zh'
+                    ? '根据关键词汇与叙事立场，猜猜这段文字出自哪个国家的教科书！'
+                    : activeLang === 'ko'
+                    ? '특유의 표현과 서술 뉘앙스를 통해 어느 나라 교과서인지 맞혀보세요!'
+                    : 'Can you identify which country authored this excerpt based on historical framing?'
+                }
+                metaBadge={
+                  activeLang === 'ja' ? '💡 クイズ挑戦' :
+                  activeLang === 'zh' ? '💡 挑战测验' :
+                  activeLang === 'ko' ? '💡 퀴즈 도전' : '💡 Quiz Challenge'
+                }
+                themeColor="#f59e0b"
+                actionLabel={
+                  activeLang === 'ja' ? 'クイズを解く' :
+                  activeLang === 'zh' ? '参与测验' :
+                  activeLang === 'ko' ? '퀴즈 풀기' : 'Take Quiz'
+                }
+                closeLabel={
+                  activeLang === 'ja' ? '閉じる' :
+                  activeLang === 'zh' ? '收起' :
+                  activeLang === 'ko' ? '접기' : 'Close'
+                }
+              >
+                <HistoryQuiz
+                  lang={activeLang}
+                  eventId={eventId || left.id}
+                  perspectives={perspectives}
+                  isCardOnly={true}
+                />
+              </CollapsibleSection>
+            )}
+
+            {/* 3. コミュニティノート (Community Notes) */}
+            {notes.length > 0 && (
+              <CollapsibleSection
+                id="community-notes"
+                icon={<Shield size={22} style={{ color: '#34d399' }} />}
+                badgeText={
+                  activeLang === 'ja' ? '事実検証' :
+                  activeLang === 'zh' ? '事实核查' :
+                  activeLang === 'ko' ? '팩트 체크' : 'FACT CHECK'
+                }
+                badgeBg="rgba(16, 185, 129, 0.15)"
+                badgeColor="#6ee7b7"
+                badgeBorder="rgba(16, 185, 129, 0.35)"
+                title={t.communityNotesTitle}
+                subtitle={
+                  activeLang === 'ja'
+                    ? '記述内容に関する公的記録・学術論文・一次資料との照合と歴史的文脈の補足。'
+                    : activeLang === 'zh'
+                    ? '基于官方文档、学术文献与一手史料的客观事实核查与历史背景补充。'
+                    : activeLang === 'ko'
+                    ? '기술 내용에 관한 공식 기록, 학술 논문, 1차 사료 대조 및 역사적 맥락 보충.'
+                    : 'Objective fact checking, primary source citations, and balanced historical annotations.'
+                }
+                metaBadge={
+                  activeLang === 'ja' ? `🛡️ ${notes.length}件の検証` :
+                  activeLang === 'zh' ? `🛡️ ${notes.length}条核查` :
+                  activeLang === 'ko' ? `🛡️ ${notes.length}개 검증` : `🛡️ ${notes.length} Verified`
+                }
+                themeColor="#10b981"
+                actionLabel={
+                  activeLang === 'ja' ? 'ノートを見る' :
+                  activeLang === 'zh' ? '查看笔记' :
+                  activeLang === 'ko' ? '노트 보기' : 'View Notes'
+                }
+                closeLabel={
+                  activeLang === 'ja' ? '閉じる' :
+                  activeLang === 'zh' ? '收起' :
+                  activeLang === 'ko' ? '접기' : 'Close'
+                }
+              >
+                <CommunityNotes notes={notes} lang={activeLang} />
+              </CollapsibleSection>
+            )}
+
+            {/* 4. 世論・市民の声 (Public Voices) */}
+            {voices && voices.voices.length > 0 && (
+              <CollapsibleSection
+                id="public-voices"
+                icon={<MessageCircle size={22} style={{ color: '#f472b6' }} />}
+                badgeText={
+                  activeLang === 'ja' ? '世論・市民の声' :
+                  activeLang === 'zh' ? '公众舆论' :
+                  activeLang === 'ko' ? '여론과 시민 반응' : 'PUBLIC VOICES'
+                }
+                badgeBg="rgba(236, 72, 153, 0.15)"
+                badgeColor="#fbcfe8"
+                badgeBorder="rgba(236, 72, 153, 0.35)"
+                title={t.publicVoicesTitle}
+                subtitle={
+                  activeLang === 'ja'
+                    ? '各国の国民感情やSNS・市民コメントを感情分析（好意・批判・中立）して可視化。'
+                    : activeLang === 'zh'
+                    ? '对各国民众情感与社交媒体讨论进行情绪分析（支持、批判、中立）并可视化呈现。'
+                    : activeLang === 'ko'
+                    ? '각국 국민 감정과 SNS・시민 반응을 감정 분석(호의, 비판, 중립)하여 시각화.'
+                    : 'Diverse sentiments and public reactions curated from global social discussions.'
+                }
+                metaBadge={
+                  activeLang === 'ja' ? `💬 ${voices.voices.length}件の世論` :
+                  activeLang === 'zh' ? `💬 ${voices.voices.length}条舆论` :
+                  activeLang === 'ko' ? `💬 ${voices.voices.length}개 여론` : `💬 ${voices.voices.length} Voices`
+                }
+                themeColor="#ec4899"
+                actionLabel={
+                  activeLang === 'ja' ? '世論を見る' :
+                  activeLang === 'zh' ? '查看舆论' :
+                  activeLang === 'ko' ? '여론 보기' : 'View Voices'
+                }
+                closeLabel={
+                  activeLang === 'ja' ? '閉じる' :
+                  activeLang === 'zh' ? '收起' :
+                  activeLang === 'ko' ? '접기' : 'Close'
+                }
+              >
+                <PublicVoices voices={voices} lang={activeLang} />
+              </CollapsibleSection>
+            )}
           </div>
         )}
-
-        {/* ── Community Notes & Voices (both modes) ── */}
-        {notes.length > 0 && <CommunityNotes notes={notes} lang={activeLang} />}
-        {voices && voices.voices.length > 0 && <PublicVoices voices={voices} lang={activeLang} />}
 
         {/* ── Footer note ── */}
         <section style={{ marginTop: '4rem', padding: isMobile ? '1.5rem 0' : '2rem', borderTop: '1px solid var(--card-border)' }}>

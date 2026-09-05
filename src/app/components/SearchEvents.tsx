@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, Suspense } from 'react';
+import { useState, Suspense, useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { LayoutGrid, Globe, Calendar, Search, Layers } from 'lucide-react';
@@ -8,6 +8,7 @@ import { EventPerspective, EventNote, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { extractStartYear } from '@/lib/sorting';
 import TimelineView from './TimelineView';
+import Pagination from './Pagination';
 
 // Clean markdown markup and format excerpt cleanly
 function cleanExcerpt(text: string, maxLength: number = 110): string {
@@ -113,6 +114,23 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       return bYear - aYear;
     }
   });
+
+  // ── Pagination logic (Kaminari-style: 10 items per page) ────────────────
+  const ITEMS_PER_PAGE = 10;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // Reset to page 1 whenever filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, selectedCountry, sortBy]);
+
+  const totalPages = Math.ceil(sortedEvents.length / ITEMS_PER_PAGE) || 1;
+  const safeCurrentPage = Math.min(Math.max(1, currentPage), totalPages);
+
+  const paginatedEvents = sortedEvents.slice(
+    (safeCurrentPage - 1) * ITEMS_PER_PAGE,
+    safeCurrentPage * ITEMS_PER_PAGE
+  );
 
   const eventLink = (id: string) => activeLang === 'en' ? `/events/${id}` : `/${activeLang}/events/${id}`;
 
@@ -286,7 +304,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       <InteractiveHub events={events} lang={lang} />
 
       {/* Archive section */}
-      <section style={{ marginTop: '3.5rem' }}>
+      <section id="events-archive-section" style={{ marginTop: '3.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
           <h2 style={{ fontSize: '1.5rem', borderLeft: '4px solid var(--accent)', paddingLeft: '1rem' }}>
             {t.comparisonArchive}
@@ -547,160 +565,180 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
 
         {/* Grid view */}
         {viewMode === 'grid' && (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem' }}>
-          {sortedEvents.length > 0 ? (
-            sortedEvents.map((event) => {
-              const { isMatch, ...persp } = getPerspective(event);
-              return (
-                <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
-                  <div
-                    title={persp.title}
-                    className="card glass"
-                    style={{
-                      padding: 0,
-                      overflow: 'hidden',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      width: '100%',
-                      opacity: isMatch ? 1 : 0.6,
-                      transition: 'all 0.2s ease',
-                    }}
-                  >
-                    {event.imageUrl && (
-                      <div className="card-image-container">
-                        <img
-                          src={event.imageUrl}
-                          alt={persp.title}
-                          loading="lazy"
-                          className="card-image"
-                        />
-                      </div>
-                    )}
-                    <div className="card-content">
-                      <div style={{ display: 'flex', gap: '0.4rem', marginBottom: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                        {/* Ongoing badge if active */}
-                        {event.ongoing?.isOngoing && (
-                          <span
-                            className="badge"
-                            style={{
-                              background: 'rgba(239, 68, 68, 0.15)',
-                              color: '#f87171',
-                              border: '1px solid rgba(239, 68, 68, 0.35)',
-                              fontWeight: 700,
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '0.35rem',
-                              fontSize: '0.75rem',
-                              padding: '0.2rem 0.6rem',
-                            }}
-                          >
-                            <span
-                              style={{
-                                width: '6px',
-                                height: '6px',
-                                borderRadius: '50%',
-                                backgroundColor: '#ef4444',
-                                display: 'inline-block',
-                              }}
-                            />
-                            {t.ongoingBadge}
-                          </span>
-                        )}
-                        {/* Perspective badge — highlight if matched */}
-                        <span
-                          className="badge"
-                          style={isMatch ? {
-                            background: 'rgba(224,46,46,0.14)',
-                            color: '#f87171',
-                            border: '1px solid rgba(224,46,46,0.3)',
-                            fontWeight: 600,
-                            fontSize: '0.75rem',
-                            padding: '0.2rem 0.65rem',
-                          } : {
-                            background: 'rgba(255,255,255,0.04)',
-                            color: 'var(--text-secondary)',
-                            fontStyle: 'italic',
-                            fontSize: '0.75rem',
-                            padding: '0.2rem 0.65rem',
-                          }}
-                        >
-                          {isMatch ? persp.country : fallbackLabel}
-                        </span>
-                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem' }}>
-                          {persp.category}
-                        </span>
-                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
-                          <Calendar size={11} style={{ opacity: 0.7 }} />
-                          {persp.year}
-                        </span>
-                      </div>
-                      <h4 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem' }}>
-                        {persp.title}
-                      </h4>
-                      <p style={{
-                        color: 'var(--text-secondary)',
-                        fontSize: '0.85rem',
-                        lineHeight: 1.55,
-                        marginBottom: '1.1rem',
+          <>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem' }}>
+            {paginatedEvents.length > 0 ? (
+              paginatedEvents.map((event) => {
+                const { isMatch, ...persp } = getPerspective(event);
+                return (
+                  <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
+                    <div
+                      title={persp.title}
+                      className="card glass"
+                      style={{
+                        padding: 0,
                         overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        display: '-webkit-box',
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: 'vertical',
-                      }}>
-                        {cleanExcerpt(persp.content, 110)}
-                      </p>
-                      <div style={{
-                        marginTop: 'auto',
                         display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        borderTop: '1px solid rgba(255,255,255,0.06)',
-                        paddingTop: '0.75rem',
-                        fontSize: '0.78rem',
-                        color: 'var(--text-secondary)',
-                        gap: '0.5rem',
-                      }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', whiteSpace: 'nowrap' }}>
-                          <Layers size={13} style={{ opacity: 0.7 }} />
-                          <span>{t.compareTarget}</span>
+                        flexDirection: 'column',
+                        width: '100%',
+                        opacity: isMatch ? 1 : 0.6,
+                        transition: 'all 0.2s ease',
+                      }}
+                    >
+                      {event.imageUrl && (
+                        <div className="card-image-container">
+                          <img
+                            src={event.imageUrl}
+                            alt={persp.title}
+                            loading="lazy"
+                            className="card-image"
+                          />
                         </div>
-                        <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-                          {event.perspectives.map((p) => (
+                      )}
+                      <div className="card-content">
+                        <div style={{ display: 'flex', gap: '0.4rem', marginBottom: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                          {/* Ongoing badge if active */}
+                          {event.ongoing?.isOngoing && (
                             <span
-                              key={p.country}
+                              className="badge"
                               style={{
-                                padding: '2px 7px',
-                                borderRadius: '10px',
-                                fontSize: '0.72rem',
-                                background: p.country === selectedCountry
-                                  ? 'rgba(224,46,46,0.18)'
-                                  : 'rgba(255,255,255,0.04)',
-                                color: p.country === selectedCountry
-                                  ? '#f87171'
-                                  : 'var(--text-secondary)',
-                                border: p.country === selectedCountry
-                                  ? '1px solid rgba(224,46,46,0.35)'
-                                  : '1px solid rgba(255,255,255,0.06)',
-                                fontWeight: p.country === selectedCountry ? 600 : 400,
+                                background: 'rgba(239, 68, 68, 0.15)',
+                                color: '#f87171',
+                                border: '1px solid rgba(239, 68, 68, 0.35)',
+                                fontWeight: 700,
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '0.35rem',
+                                fontSize: '0.75rem',
+                                padding: '0.2rem 0.6rem',
                               }}
                             >
-                              {p.country}
+                              <span
+                                style={{
+                                  width: '6px',
+                                  height: '6px',
+                                  borderRadius: '50%',
+                                  backgroundColor: '#ef4444',
+                                  display: 'inline-block',
+                                }}
+                              />
+                              {t.ongoingBadge}
                             </span>
-                          ))}
+                          )}
+                          {/* Perspective badge — highlight if matched */}
+                          <span
+                            className="badge"
+                            style={isMatch ? {
+                              background: 'rgba(224,46,46,0.14)',
+                              color: '#f87171',
+                              border: '1px solid rgba(224,46,46,0.3)',
+                              fontWeight: 600,
+                              fontSize: '0.75rem',
+                              padding: '0.2rem 0.65rem',
+                            } : {
+                              background: 'rgba(255,255,255,0.04)',
+                              color: 'var(--text-secondary)',
+                              fontStyle: 'italic',
+                              fontSize: '0.75rem',
+                              padding: '0.2rem 0.65rem',
+                            }}
+                          >
+                            {isMatch ? persp.country : fallbackLabel}
+                          </span>
+                          <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem' }}>
+                            {persp.category}
+                          </span>
+                          <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+                            <Calendar size={11} style={{ opacity: 0.7 }} />
+                            {persp.year}
+                          </span>
+                        </div>
+                        <h4 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem' }}>
+                          {persp.title}
+                        </h4>
+                        <p style={{
+                          color: 'var(--text-secondary)',
+                          fontSize: '0.85rem',
+                          lineHeight: 1.55,
+                          marginBottom: '1.1rem',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          display: '-webkit-box',
+                          WebkitLineClamp: 2,
+                          WebkitBoxOrient: 'vertical',
+                        }}>
+                          {cleanExcerpt(persp.content, 110)}
+                        </p>
+                        <div style={{
+                          marginTop: 'auto',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          borderTop: '1px solid rgba(255,255,255,0.06)',
+                          paddingTop: '0.75rem',
+                          fontSize: '0.78rem',
+                          color: 'var(--text-secondary)',
+                          gap: '0.5rem',
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', whiteSpace: 'nowrap' }}>
+                            <Layers size={13} style={{ opacity: 0.7 }} />
+                            <span>{t.compareTarget}</span>
+                          </div>
+                          <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                            {event.perspectives.map((p) => (
+                              <span
+                                key={p.country}
+                                style={{
+                                  padding: '2px 7px',
+                                  borderRadius: '10px',
+                                  fontSize: '0.72rem',
+                                  background: p.country === selectedCountry
+                                    ? 'rgba(224,46,46,0.18)'
+                                    : 'rgba(255,255,255,0.04)',
+                                  color: p.country === selectedCountry
+                                    ? '#f87171'
+                                    : 'var(--text-secondary)',
+                                  border: p.country === selectedCountry
+                                    ? '1px solid rgba(224,46,46,0.35)'
+                                    : '1px solid rgba(255,255,255,0.06)',
+                                  fontWeight: p.country === selectedCountry ? 600 : 400,
+                                }}
+                              >
+                                {p.country}
+                              </span>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
-              );
-            })
-          ) : (
-            <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '4rem', color: 'var(--text-secondary)' }}>
-              {t.noResults}
+                  </Link>
+                );
+              })
+            ) : (
+              <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '4rem', color: 'var(--text-secondary)' }}>
+                {t.noResults}
+              </div>
+            )}
             </div>
-          )}
-        </div>
+
+            {/* Pagination controls */}
+            {sortedEvents.length > ITEMS_PER_PAGE && (
+              <Pagination
+                currentPage={safeCurrentPage}
+                totalPages={totalPages}
+                totalItems={sortedEvents.length}
+                itemsPerPage={ITEMS_PER_PAGE}
+                onPageChange={(p) => {
+                  setCurrentPage(p);
+                  const el = document.getElementById('events-archive-section');
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                lang={activeLang}
+              />
+            )}
+          </>
         )}
 
         {/* Map view */}

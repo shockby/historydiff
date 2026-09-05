@@ -97,11 +97,12 @@ export default function LanguageSelector() {
     <div ref={dropdownRef} style={{ position: 'relative', zIndex: 110 }}>
       <button
         onClick={() => setIsOpen(!isOpen)}
+        className="lang-selector-btn"
         style={{
           display: 'flex',
           alignItems: 'center',
           gap: '0.5rem',
-          padding: '0.5rem 0.85rem',
+          padding: '0.45rem 0.85rem',
           borderRadius: '20px',
           border: '1px solid var(--glass-border)',
           background: 'rgba(255, 255, 255, 0.05)',
@@ -111,6 +112,8 @@ export default function LanguageSelector() {
           cursor: 'pointer',
           transition: 'all 0.2s ease',
           outline: 'none',
+          whiteSpace: 'nowrap',
+          flexShrink: 0,
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useSearchParams, usePathname } from 'next/navigation';
 import { translations, Language } from '@/lib/translations';
+import { Archive, BookOpen, Info } from 'lucide-react';
 import LanguageSelector from './LanguageSelector';
 
 export default function Header() {
@@ -32,16 +33,19 @@ export default function Header() {
             <span style={{ color: 'var(--accent)' }}>History</span>Diff
           </Link>
         </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
-          <nav className="site-nav" style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <Link href={homeLink} style={{ color: 'inherit', textDecoration: 'none' }}>
-              {t.archive}
+        <div className="site-header-actions">
+          <nav className="site-nav" aria-label="Main Navigation">
+            <Link href={homeLink} className="site-nav-link" title={t.archive}>
+              <Archive size={16} className="site-nav-icon" />
+              <span className="site-nav-label">{t.archive}</span>
             </Link>
-            <Link href={guideLink} style={{ color: 'inherit', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-              {t.guide}
+            <Link href={guideLink} className="site-nav-link" title={t.guide}>
+              <BookOpen size={16} className="site-nav-icon" />
+              <span className="site-nav-label">{t.guide}</span>
             </Link>
-            <Link href={aboutLink} style={{ color: 'inherit', textDecoration: 'none' }}>
-              {t.about}
+            <Link href={aboutLink} className="site-nav-link" title={t.about}>
+              <Info size={16} className="site-nav-icon" />
+              <span className="site-nav-label">{t.about}</span>
             </Link>
           </nav>
           <LanguageSelector />

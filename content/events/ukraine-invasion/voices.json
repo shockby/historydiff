@@ -62,6 +62,122 @@
         "#СвоихНеБросаем"
       ],
       "timeframe": "2022-2024"
+    },
+    {
+      "id": "ukraine-voice-3",
+      "country": {
+        "ja": "欧州市民（EU加盟国）",
+        "en": "European Citizens (EU Member States)",
+        "zh": "欧洲公民（欧盟成员国）",
+        "ko": "유럽 시민（EU 회원국）"
+      },
+      "sentiment": "supportive_with_fatigue",
+      "summary": {
+        "ja": "ウクライナを支持するが、戦争が長期化するにつれ経済的負担とエネルギー価格高騰による生活への影響が深刻になっている。支援を続けることへの疲弊感と、停戦交渉を求める声も高まっている。",
+        "en": "We support Ukraine, but the prolonged war has hit us hard with economic burdens and soaring energy prices. We are growing weary of continued support, and voices calling for ceasefire negotiations are growing louder.",
+        "zh": "我们支持乌克兰，但战争旷日持久，经济负担与能源价格飞涨对民众生活的冲击日益严峻。对持续援助的疲态情绪蔓延，要求开展停火谈判的声音也在增强。",
+        "ko": "우크라이나를 지지하지만, 전쟁이 장기화되면서 경제적 부담과 에너지 가격 급등으로 인한 생활 압박이 심각해지고 있다. 지원 지속에 대한 피로감과 휴전 협상을 요구하는 목소리도 높아지고 있다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "西欧・南欧（ドイツ・フランス・イタリア・スペイン等）の一般市民がSNSやメディアで示す、ウクライナ支持と生活不安が混在する複雑な世論。",
+        "en": "Complex public opinion among ordinary citizens in Western and Southern Europe (Germany, France, Italy, Spain, etc.) on social media, blending Ukraine solidarity with personal economic anxiety.",
+        "zh": "西欧、南欧（德国、法国、意大利、西班牙等）普通民众在社交媒体上呈现的复杂舆论——既有对乌克兰的声援，也有对个人经济处境的忧虑。",
+        "ko": "서유럽·남유럽（독일·프랑스·이탈리아·스페인 등）의 일반 시민들이 SNS와 미디어에서 보여주는, 우크라이나 지지와 생활 불안이 혼재하는 복잡한 여론."
+      },
+      "keywords": [
+        "#StandWithUkraine",
+        "#EnergyPrices",
+        "#WeSupportUkraine"
+      ],
+      "timeframe": "2023-2026"
+    },
+    {
+      "id": "ukraine-voice-4",
+      "country": {
+        "ja": "グローバルサウス（アフリカ・南アジア等）",
+        "en": "Global South (Africa, South Asia, etc.)",
+        "zh": "全球南方（非洲、南亚等）",
+        "ko": "글로벌 사우스（아프리카·남아시아 등）"
+      },
+      "sentiment": "neutral_concerned",
+      "summary": {
+        "ja": "この戦争は遠い場所の出来事ではなく、食料価格高騰や肥料不足として我々の生活を直撃している。欧州の問題に自分たちが経済的代償を払わされている。停戦と対話を求める。",
+        "en": "This is not a distant war for us. It hits our lives directly through soaring food prices and fertilizer shortages. We are paying the economic price for a European problem. We want a ceasefire and dialogue.",
+        "zh": "这场战争对我们而言并不遥远，而是通过粮食价格飞涨和化肥短缺直接冲击着我们的生活。我们正在为一场欧洲的问题付出经济代价。我们呼吁停火与对话。",
+        "ko": "이 전쟁은 먼 나라의 일이 아니라, 식량 가격 급등과 비료 부족으로 우리 삶을 직접 강타하고 있다. 유럽의 문제에 우리가 경제적 대가를 치르고 있다. 우리는 휴전과 대화를 원한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "アフリカ・南アジア・ラテンアメリカの市民がSNSやメディアで示す、紛争の経済的影響への不満と中立的な停戦要求の世論。",
+        "en": "Public sentiment expressed by citizens in Africa, South Asia, and Latin America on social media and in the press — frustration with the economic fallout of the conflict and a neutral call for ceasefire.",
+        "zh": "非洲、南亚、拉丁美洲民众在社交媒体和媒体上表达的对冲突经济影响的不满情绪，以及中立立场下呼吁停火的民间声音。",
+        "ko": "아프리카·남아시아·라틴아메리카 시민들이 SNS와 미디어에서 나타내는, 분쟁의 경제적 영향에 대한 불만과 중립적 휴전 요구 여론."
+      },
+      "keywords": [
+        "#FoodCrisis",
+        "#CeasefireNow",
+        "#GlobalSouthVoice"
+      ],
+      "timeframe": "2022-2026"
+    },
+    {
+      "id": "ukraine-voice-5",
+      "country": {
+        "ja": "ロシア国内（反戦・徴兵批判層）",
+        "en": "Russia (Anti-War / Anti-Mobilization)",
+        "zh": "俄罗斯国内（反战·反动员群体）",
+        "ko": "러시아 국내（반전·징병 비판층）"
+      },
+      "sentiment": "anti_war",
+      "summary": {
+        "ja": "この戦争は不正義であり、ロシアの若者が無意味に命を落としている。プーチン政権は情報統制でロシア国民を欺いてきた。動員令は不当であり、戦争を終わらせなければならない。",
+        "en": "This is an unjust war, and Russia's youth are dying for nothing. The Putin government has deceived Russians through censorship. The mobilization decree is illegitimate, and this war must end.",
+        "zh": "这是一场不义之战，俄罗斯的年轻人正在白白牺牲生命。普京政权通过信息管控蒙骗俄国民众。动员令是非法的，战争必须结束。",
+        "ko": "이 전쟁은 부당하며, 러시아 젊은이들이 무의미하게 목숨을 잃고 있다. 푸틴 정권은 정보 통제로 러시아 국민을 기만해 왔다. 동원령은 부당하며, 전쟁을 끝내야 한다."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "ロシア国内で弾圧・検閲下に置かれながらも反戦を訴える市民層（主にVPN経由の海外SNS・망명者コミュニティ）の声。2022年9月の動員令以降に急増した。",
+        "en": "Voices of anti-war Russians operating under censorship and repression, primarily via VPNs and abroad-based exile communities. This sentiment surged following the September 2022 mobilization decree.",
+        "zh": "在审查和压制下仍坚持反战的俄罗斯国内民众（主要通过VPN访问境外社交媒体及流亡者社区）的声音。这一群体在2022年9月动员令颁布后急剧扩大。",
+        "ko": "탄압과 검열 속에서도 반전을 호소하는 러시아 국내 시민층（주로 VPN을 통한 해외 SNS·망명자 커뮤니티）의 목소리. 2022년 9월 동원령 이후 급증했다."
+      },
+      "keywords": [
+        "#NetVoine",
+        "#AntiWar",
+        "#NoWar"
+      ],
+      "timeframe": "2022-2026"
+    },
+    {
+      "id": "ukraine-voice-6",
+      "country": {
+        "ja": "アメリカ（支援懐疑派・保守層）",
+        "en": "United States (Aid Skeptics / Conservative)",
+        "zh": "美国（援助质疑派·保守派）",
+        "ko": "미국（지원 회의파·보수층）"
+      },
+      "sentiment": "skeptical",
+      "summary": {
+        "ja": "数百億ドルをウクライナに注ぎ込んでいるが、米国の国境問題や国内インフラの方が優先されるべきだ。ウクライナへの白紙小切手的な支援に終わりはあるのか。NATO加盟国はもっと負担を分担すべきだ。",
+        "en": "We have poured tens of billions of dollars into Ukraine, but America's own border security and domestic infrastructure should come first. Is there an end to this blank-check support? NATO allies need to carry more of the burden.",
+        "zh": "我们已向乌克兰投入数百亿美元，但美国自己的边境安全和国内基础设施才应该是优先事项。这种空白支票式的援助到底有没有尽头？北约盟国应当承担更多责任。",
+        "ko": "수백억 달러를 우크라이나에 쏟아붓고 있지만, 미국의 국경 문제와 국내 인프라가 먼저 우선시되어야 한다. 우크라이나에 대한 백지수표식 지원에 끝이 있는가? 나토 회원국들이 더 많은 부담을 분담해야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米国の共和党系・保守系メディア（FOXニュース等）やSNSで支持を集める、ウクライナ支援への懐疑・反対論。2024年の大統領選前後に支持が高まった。",
+        "en": "Skepticism and opposition to Ukraine aid that has gained traction on US conservative media (Fox News, etc.) and social media. This sentiment gained momentum around the 2024 presidential election.",
+        "zh": "在美国共和党系及保守媒体（福克斯新闻等）和社交平台上获得广泛共鸣的援乌质疑与反对论调。这一情绪在2024年总统大选前后明显升温。",
+        "ko": "미국 공화당계·보수 미디어（폭스뉴스 등）와 SNS에서 지지를 모으는 우크라이나 지원에 대한 회의론·반대론. 2024년 대선 전후로 지지층이 확대되었다."
+      },
+      "keywords": [
+        "#AmericaFirst",
+        "#NoMoreUkraineMoney",
+        "#BorderFirst"
+      ],
+      "timeframe": "2023-2026"
     }
   ]
 }

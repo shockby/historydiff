@@ -1,0 +1,207 @@
+{
+  "eventId": "ukraine-invasion",
+  "notes": [
+    {
+      "id": "ui-budapest-memorandum",
+      "claim": "依据1994年《布达佩斯备忘录》，俄罗斯承担了保障乌克兰主权与领土完整的义务",
+      "context": "1994年12月，乌克兰同意放弃从苏联继承的核武器（当时全球第三大核武库），加入《不扩散核武器条约》（NPT），换取俄罗斯、美国和英国签署备忘录，承诺尊重乌克兰的独立、主权与领土完整。乌克兰和西方国家将俄罗斯2014年吞并克里米亚及2022年侵乌行动视为对该备忘录的严重违反。俄罗斯则辩称，2014年广场革命改变了乌克兰的法律主体，故相关义务不适用于现届政府。",
+      "verdict": "官方记录存在（法律效力与适用范围的解释存在分歧）",
+      "sources": [
+        {
+          "title": "Memorandum on Security Assurances in Connection with Ukraine's Accession to the NPT (Budapest Memorandum)",
+          "url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280401fbb",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-crimea-referendum-2014",
+      "claim": "2014年3月，克里米亚举行公投并宣布并入俄罗斯",
+      "context": "2014年3月16日，在实际处于俄罗斯军事控制下的克里米亚自治共和国举行公投，官方公布结果显示96.77%赞成加入俄罗斯。俄罗斯将其视为民族自决权的正当行使。2014年3月27日，联合国大会通过第68/262号决议（100国赞成），重申乌克兰领土完整，宣布公投无效。目前，除俄罗斯外，大多数国家均不承认俄罗斯对克里米亚的主权。",
+      "verdict": "公投已举行（国际社会大多数认定无效）",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution 68/262: Territorial integrity of Ukraine",
+          "url": "https://undocs.org/en/A/RES/68/262",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-minsk-agreements",
+      "claim": "2014—2015年《明斯克协议》确立了顿巴斯停火框架，但双方互相指责对方违约",
+      "context": "明斯克协议一（2014年9月）和明斯克协议二（2015年2月）是由乌克兰、俄罗斯、欧安组织及顿涅茨克/卢甘斯克人民共和国代表共同签署的停火框架。俄方主张乌克兰拒绝履行政治条款（赋予顿巴斯特殊地位、修改乌宪法），乌方则声称俄罗斯未能率先启动武装解除和移交边境管制。法国总统马克龙和德国前总理默克尔事后表示协议是为了给乌克兰争取重建军事力量的时间，这进一步凸显了双方对协议性质的根本认知分歧。",
+      "verdict": "协议存在（违约责任归属存在分歧）",
+      "sources": [
+        {
+          "title": "Package of Measures for the Implementation of the Minsk Agreements",
+          "url": "https://peacemaker.un.org/ukraine-minsk2",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-nato-eastward-promise",
+      "claim": "据称冷战结束时西方曾向苏联承诺北约不会向东扩张一寸",
+      "context": "1990年德国统一谈判期间，美国国务卿贝克与苏联总统戈尔巴乔夫的谈话被载入外交文件。俄方将此视为被打破的承诺，并将其作为入侵合理性的依据之一。美国和北约则反驳称，相关表态仅限于德国问题，从未就限制北约向中东欧扩展签署任何条约或正式协议。1975年《赫尔辛基最终议定书》明确规定每个主权国家有权自由选择同盟，这一原则被普遍认为同样适用于乌克兰加入北约的问题。",
+      "verdict": "相关表态有记录可查（法律约束力与适用范围的解释存在分歧）",
+      "sources": [
+        {
+          "title": "NATO-Russia relations: the facts",
+          "url": "https://www.nato.int/cps/en/natohq/topics_111767.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-war-crimes-bucha",
+      "claim": "俄罗斯军队在布恰及多处地点杀害平民的行为已被确认",
+      "context": "2022年3月底俄军从基辅北部布恰撤退后，大量平民遗体被发现于街道和建筑物内。联合国人权监察团（OHCHR）、国际刑事法院（ICC）及多个独立调查机构对现场进行了调查，记录了针对平民实施的法外处决、酷刑和性暴力的证据。2023年3月，国际刑事法院就非法驱逐儿童离开乌克兰发出针对普京总统的逮捕令。俄方声称布恰的相关画面系摆拍，并拒绝承认国际刑事法院的管辖权。",
+      "verdict": "联合国和国际刑事法院已记录在案（俄方否认且拒绝承认ICC管辖权）",
+      "sources": [
+        {
+          "title": "Ukraine: Situation Report (OHCHR)",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        },
+        {
+          "title": "ICC Arrest Warrant for Vladimir Putin",
+          "url": "https://www.icc-cpi.int/news/situation-ukraine-icc-judges-issue-arrest-warrants-against-vladimir-vladimirovich-putin-and",
+          "publisher": "International Criminal Court",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-four-oblasts-annexation-2022",
+      "claim": "2022年9月，俄罗斯宣布吞并顿涅茨克、卢甘斯克、扎波罗热、赫尔松四个州",
+      "context": "2022年9月23至27日，俄罗斯控制区举行了所谓公投，普京于9月30日宣布四州正式并入俄罗斯。官方公布的赞成票均在87%至99%之间，但欧安组织等国际监察机构均未派员监督。同年10月12日，联合国大会通过ES-11/4号决议（143国赞成），宣布这些非法公投无效，并要求俄罗斯撤军。俄罗斯已将这四个州作为不可分割的领土写入宪法。",
+      "verdict": "吞并宣言是事实（国际社会大多数认定无效）",
+      "sources": [
+        {
+          "title": "United Nations General Assembly Resolution ES-11/4",
+          "url": "https://undocs.org/en/A/RES/ES-11/4",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-unsc-veto-feb2022",
+      "claim": "2022年2月25日，俄罗斯在安理会行使否决权，否决了谴责入侵乌克兰的决议草案",
+      "context": "2022年2月25日，安理会就要求俄罗斯立即撤军的决议草案进行表决，俄罗斯行使否决权予以阻止（赞成11票、反对1票、弃权3票——中国、印度、阿联酋）。此后依据联合一致共策和平决议召开了第11届紧急特别联大，通过了具有广泛支持但不具约束力的ES-11/1号决议（赞成141票、反对5票、弃权35票）。常任理事国可就自身行为行使否决权这一安理会结构性缺陷，再度引发国际社会广泛讨论。",
+      "verdict": "否决权行使有据可查（ES-11/1的通过亦已确认）",
+      "sources": [
+        {
+          "title": "UN General Assembly Emergency Special Session Resolution ES-11/1",
+          "url": "https://undocs.org/en/A/RES/ES-11/1",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-icj-provisional-measures-2022",
+      "claim": "2022年3月，国际法院应乌克兰申请发布临时措施，命令俄罗斯立即停止军事行动",
+      "context": "2022年2月27日，乌克兰以违反《灭绝种族罪公约》为由向国际法院（ICJ）提起诉讼。2022年3月16日，国际法院发布临时措施，命令俄罗斯立即停止于2022年2月24日开始的军事行动（赞成13票、反对2票）。俄罗斯拒绝承认ICJ管辖权，无视命令继续军事行动。此案被广泛视为国际法律执行机制局限性的经典案例。",
+      "verdict": "临时措施令有据可查（俄罗斯拒不服从且拒绝承认管辖权）",
+      "sources": [
+        {
+          "title": "Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation) — ICJ",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-north-korea-troops-2024",
+      "claim": "据报道，自2024年秋季起，朝鲜向俄罗斯派兵以支持其军事行动",
+      "context": "2024年10月，美国、韩国及乌克兰政府宣布朝鲜已向俄罗斯派遣约1万名地面部队。多个联合国安理会成员国提交了卫星图像和通信截听等证据予以佐证。朝俄双方起初均予否认，但至2024年底，普京总统已作出实际上承认一定程度朝鲜军事参与的表态。联合国制裁委员会专家组早在2023年便已记录朝鲜向俄罗斯提供炮弹和导弹的情况。乌克兰表示已俘获朝鲜士兵，并表达了接触意愿。",
+      "verdict": "派兵已获多国政府及国际机构确认（俄朝起初否认，后部分承认）",
+      "sources": [
+        {
+          "title": "UN Panel of Experts Report on DPRK sanctions — military cooperation with Russia",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718/panel-experts/reports",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-f16-transfer-2024",
+      "claim": "2024年，在丹麦和荷兰主导下，F-16战斗机移交乌克兰",
+      "context": "2024年8月，由丹麦和荷兰牵头，北约国家的F-16战斗机正式移交乌克兰，乌克兰空军随即投入实战部署。这是乌克兰自战争开始后一直寻求的先进战斗机首次实现转让。美国授权了相关移交，但附加条件禁止将这些飞机用于打击俄罗斯本土目标。俄罗斯谴责此举是北约直接干预冲突，并声称这将大幅提升冲突升级风险。",
+      "verdict": "移交是既成事实（俄方批评为北约干预，附有使用限制条件）",
+      "sources": [
+        {
+          "title": "Ukraine receives first F-16 fighter jets from Denmark and the Netherlands",
+          "url": "https://www.nato.int/cps/en/natohq/news.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-zaporizhzhia-nuclear-plant",
+      "claim": "国际原子能机构（IAEA）就遭俄军占领的扎波罗热核电站多次发出安全警告",
+      "context": "乌克兰最大核电站扎波罗热核电站（装机容量600万千瓦，欧洲最大）于2022年3月被俄军占领。国际原子能机构向核电站派驻常设监察团，并就电站周边遭炮击、外部供电多次中断、依赖应急柴油发电机等问题持续发出警告。由于双方均将炮击责任归咎于对方，责任认定极为困难。IAEA总干事格罗西警告称，每次违反核安全七大支柱之一，我们就离核事故更近一步。电站目前仍处于俄军控制之下，与乌克兰电网的连接持续不稳定。",
+      "verdict": "IAEA监察与警告有据可查（双方互相指责炮击责任）",
+      "sources": [
+        {
+          "title": "IAEA Reports on Zaporizhzhia Nuclear Power Plant",
+          "url": "https://www.iaea.org/topics/zaporizhzhia-nuclear-power-plant",
+          "publisher": "International Atomic Energy Agency",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-kursk-incursion-2024",
+      "claim": "2024年8月，乌克兰军队对俄罗斯库尔斯克州发动大规模越境作战",
+      "context": "2024年8月6日，乌克兰军队越境进入俄罗斯库尔斯克州，一度控制数百平方公里的俄罗斯领土。这是2022年2月24日侵乌战争开始以来乌克兰对俄本土发动的最大规模越境行动。乌克兰政府解释称，此次行动旨在向俄罗斯施加谈判压力并分散其兵力。俄罗斯政府将其定性为恐怖袭击，并开始疏散库尔斯克居民。面对俄军的大规模反攻，乌方至2024年底已丧失大部分占领区，但此次行动的政治与心理影响深远。",
+      "verdict": "越境作战及一度占领领土均属事实（战略价值与长期效果仍存争议）",
+      "sources": [
+        {
+          "title": "Ukraine Kursk offensive — Overview",
+          "url": "https://www.bbc.com/news/articles/c3gx9g8xg32o",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-black-sea-grain-initiative",
+      "claim": "2022年7月签署的《黑海粮食倡议》于2023年7月因俄罗斯宣布退出而崩溃",
+      "context": "俄罗斯入侵乌克兰导致乌克兰粮食和食品出口受阻，全球粮食危机风险上升。2022年7月，在联合国和土耳其斡旋下，黑海粮食倡议得以签署，乌克兰主要港口（包括敖德萨）的粮食出口随之恢复。2023年7月，俄罗斯以限制俄罗斯农产品和化肥出口的措施尚未取消为由宣布退出，协议实际宣告终止。协议生效期间，约3300万吨食品经此出口。非洲、中东及亚洲粮食进口国因此遭受严重冲击。",
+      "verdict": "签署与崩溃均属事实（影响规模及责任归属的评价存在分歧）",
+      "sources": [
+        {
+          "title": "Black Sea Grain Initiative — United Nations",
+          "url": "https://www.un.org/en/black-sea-grain-initiative",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-iran-drones-supply",
+      "claim": "据报道伊朗向俄罗斯大量供应沙赫德系列自杀式无人机",
+      "context": "西方国家政府、乌克兰及联合国专家组报告称，自2022年下半年起，伊朗向俄罗斯供应了大量沙赫德-136系列单程攻击无人机，俄军将其广泛用于攻击乌克兰基础设施和城市目标。伊朗起初否认相关供应，但自2023年起出现了承认曾于入侵前提供部分无人机的表态。美国和欧盟以此为由对伊朗实施了追加制裁。乌克兰防空部队虽击落了其中大量无人机，但持续的消耗战仍对防空资源造成较大压力。",
+      "verdict": "供应已获多国政府及国际机构确认（伊朗起初否认，后部分承认）",
+      "sources": [
+        {
+          "title": "UN experts confirm Iran supplied drones to Russia",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Security Council Panel of Experts",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

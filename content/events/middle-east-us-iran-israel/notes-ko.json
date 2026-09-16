@@ -1,0 +1,173 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "notes": [
+    {
+      "id": "mei-mosaddegh-coup-1953",
+      "claim": "1953년 모사데크 총리 실각은 CIA와 MI6가 공작한 쿠데타였다",
+      "context": "1953년 8월 19일 이란 총리 모하마드 모사데크가 쿠데타로 실각했다. 미국은 2013년 기밀 해제 문서를 통해 CIA가 '아작스 작전(Operation Ajax)'으로 쿠데타를 조직했음을 공식 인정했으며, 영국 MI6도 가담했다. 배경에는 모사데크가 1951년 앵글로이라니안 석유회사(현 BP)를 국유화한 것에 대한 영미의 반발이 있었다. 실각 후 친미 성향의 모하마드 레자 샤가 실권을 장악했다.",
+      "verdict": "공식 기록 있음（CIA 2013년 개입 공식 인정）",
+      "sources": [
+        {
+          "title": "CIA Confirms Role in 1953 Iran Coup",
+          "url": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup",
+          "publisher": "George Washington University National Security Archive",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-revolution-1979",
+      "claim": "1979년 이란 이슬람 혁명으로 호메이니가 집권하고, 학생들이 미국 대사관 직원 52명을 444일간 억류했다",
+      "context": "1979년 1월 16일 샤(국왕)가 이란을 떠났고, 2월 1일 호메이니가 파리에서 테헤란으로 귀국했다. 같은 해 4월 1일 국민투표로 이란 이슬람 공화국 수립이 선포됐다. 11월 4일에는 학생 단체가 미국 대사관을 점거해 외교관 52명을 444일간 인질로 억류했다(이란은 '대사관 점거 사건'이라 부름). 이 사건으로 미국과 이란은 단교했고, 미국은 경제 제재를 발동했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Iran Hostage Crisis — Jimmy Carter Presidential Library",
+          "url": "https://www.jimmycarterlibrary.gov/research/iran_hostage_crisis",
+          "publisher": "Jimmy Carter Presidential Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-jcpoa-2015",
+      "claim": "2015년 JCPOA로 이란의 핵 개발이 제한됐으나 2018년 미국이 일방 탈퇴했다",
+      "context": "2015년 7월 14일 이란과 P5+1 및 EU는 포괄적공동행동계획(JCPOA)에 합의했다. 이란은 우라늄 농축 수준·양·원심분리기 수를 제한하고 IAEA 사찰을 수용하는 대신 경제 제재의 단계적 해제를 받기로 했다. 2018년 5월 트럼프 대통령은 '최악의 합의'라며 일방적으로 탈퇴하고 '최대 압박' 제재를 재발동했다. 이란은 2019년 이후 단계적으로 JCPOA 제한을 초과하는 핵 활동을 재개했다.",
+      "verdict": "공식 기록 있음（2018년 미국 탈퇴·이란의 단계적 위반 확인）",
+      "sources": [
+        {
+          "title": "Joint Comprehensive Plan of Action (JCPOA)",
+          "url": "https://www.iaea.org/topics/jcpoa",
+          "publisher": "IAEA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-oct7-hamas-attack-2023",
+      "claim": "2023년 10월 7일 하마스가 이스라엘을 대규모 기습 공격해 1,200명 이상이 사망했다",
+      "context": "2023년 10월 7일 새벽, 하마스는 가자 장벽을 뚫고 약 3,000명의 무장 대원을 이스라엘 남부에 투입하는 대규모 기습을 감행했다. 이스라엘 당국 집계에 따르면 약 1,200명이 사망(대부분 민간인)하고 약 250명이 가자로 납치됐다. 노바 음악 축제에서만 약 360명이 살해됐다. 이스라엘은 이를 '홀로코스트 이후 최대 규모의 유대인 학살'로 규정하고 즉각 가자 지상 작전을 개시했다.",
+      "verdict": "공식 기록 있음（사망자 수·하마스 연계 범위는 국제 조사 중）",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN OCHA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-soleimani-killing-2020",
+      "claim": "2020년 1월 미군이 바그다드 공항 인근에서 드론 공격으로 이란 혁명수비대 쿠드스군 사령관 솔레이마니를 사살했다",
+      "context": "2020년 1월 3일 미군은 바그다드 공항 인근에서 드론 공격을 실시해 쿠드스군 사령관 카셈 솔레이마니를 사살했다. 트럼프 대통령은 '임박한 위협에 대한 대응'이라고 주장했다. 이라크 의회는 이를 주권 침해로 규정하고 미군 철수 결의를 통과시켰으며, 이란은 '적극적 저항'을 선언하고 이라크 내 미군 기지에 탄도미사일을 발사했다. 제3국 영토에서의 표적 살해의 국제법적 합법성에 대해 전문가 의견이 나뉜다.",
+      "verdict": "공식 기록 있음（국제법상 합법성 논란）",
+      "sources": [
+        {
+          "title": "UN Special Rapporteur Report on the Killing of Soleimani",
+          "url": "https://www.ohchr.org/en/press-releases/2020/07/killing-iranian-general-soleimani-violated-international-law-un-expert",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-nuclear-strikes-2025",
+      "claim": "2025년 6월 이스라엘과 미국이 이란 핵 관련 시설을 공동 타격했다",
+      "context": "2025년 6월 이스라엘 공군과 미군은 이란의 포르도·나탄즈·아라크 등 핵 관련 시설에 정밀 타격을 실시했다('12일 전쟁'이라고도 불림). 이란은 호르무즈 해협 봉쇄 위협과 함께 탄도미사일로 보복했다. IAEA는 대규모 핵물질 유출이 없었다고 보고했지만, 시설 피해 규모와 핵 활동 중단 여부에 대한 국제사회 평가는 엇갈린다. 유엔 안전보장이사회는 미국·영국의 거부권 행사로 규탄 결의안이 채택되지 못했다.",
+      "verdict": "공격 실시 확인（피해 규모·국제법적 정당성은 조사 중）",
+      "sources": [
+        {
+          "title": "IAEA Board of Governors — Iran Safeguards Reports",
+          "url": "https://www.iaea.org/topics/iran-and-iaea",
+          "publisher": "IAEA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-iraq-war-1980",
+      "claim": "이란·이라크 전쟁（1980~88년）으로 100만 명 이상이 사망했으며, 미국은 이라크를 지원했다",
+      "context": "1980년 9월 22일 이라크 사담 후세인 대통령이 이슬람 혁명 이후 이란의 혼란을 틈타 샤트알아랍 수로 영유권을 명분으로 이란을 침공했다. 전쟁은 8년간 지속돼 양국 합계 추정 50만~100만 명 이상이 사망했다. 미국은 정보 제공·무기 수출 규제 완화·농업 신용 공여 등을 통해 사실상 이라크를 지원했다. 그러나 '이란-콘트라 사건'(1986~87년 폭로)을 통해 미국 정부가 이란에도 비밀리에 무기를 판매했음이 드러났다. 이란은 이 전쟁을 '성전 방어'로 규정하며 미국의 이라크 지원을 제국주의 침략의 증거로 계속 인용한다.",
+      "verdict": "미국의 이라크 지원은 공식 기록 있음；이란-콘트라 사건은 의회 조사로 확인",
+      "sources": [
+        {
+          "title": "The Iran-Iraq War (Congressional Research Service)",
+          "url": "https://sgp.fas.org/crs/mideast/RS22392.pdf",
+          "publisher": "Congressional Research Service",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-abraham-accords-2020",
+      "claim": "2020년 아브라함 협정으로 UAE·바레인·수단·모로코가 이스라엘과 국교를 정상화했다",
+      "context": "2020년 8~12월 아랍에미리트(UAE)·바레인·수단·모로코 4개국이 트럼프 행정부 중재로 이스라엘과 관계 정상화 협정(아브라함 협정)에 서명하고 백악관에서 조인식을 열었다. 이스라엘은 요르단강 서안 일방 합병 계획을 당분간 동결하는 대가로 정상화에 합의했다. 이집트·요르단에 이은 정상화로 지역 정치 지형을 크게 바꿨지만, 팔레스타인 자치정부는 이를 '팔레스타인에 대한 배신'이라며 강하게 비판했다.",
+      "verdict": "서명·발효 공식 기록 있음；팔레스타인에 미치는 영향 평가는 입장에 따라 상이",
+      "sources": [
+        {
+          "title": "Abraham Accords — U.S. Department of State",
+          "url": "https://www.state.gov/the-abraham-accords/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-gaza-death-toll-2023",
+      "claim": "2023년 10월 이후 이스라엘의 가자 군사 작전으로 2025년까지 4만 5,000명 이상이 사망했다는 보고가 있다",
+      "context": "이스라엘이 하마스 기습에 대한 보복으로 개시한 가자 군사 작전에서 가자 보건부(하마스 계열 당국 집계) 기준 2025년 초까지 4만 5,000명 이상 사망, 10만 명 이상 부상했다. 이스라엘은 하마스 군사 인프라를 표적으로 하며 민간인 피해 최소화에 노력한다고 주장하며 이 수치에 이의를 제기한다. 유엔·WHO·독립 조사기관은 가자 의료 인프라 붕괴·대규모 기근·'대량 사상 패턴'에 대한 우려를 표명했다. 국제사법재판소는 남아프리카의 제소에 따라 2024년 1월 제노사이드 협약에 의거한 잠정 조치를 명령했다.",
+      "verdict": "사망자 수 지속 업데이트 중；이스라엘군 발표와 가자 보건부 수치 간 큰 차이；국제 조사 진행 중",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN OCHA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-hormuz-strait-oil",
+      "claim": "호르무즈 해협은 전 세계 해상 석유 운송량의 약 21%가 통과하는 전략적 요충지로, 이란은 반복적으로 봉쇄를 위협해 왔다",
+      "context": "호르무즈 해협은 이란과 오만 사이에 위치한 약 54km 너비의 해협으로, 사우디아라비아·UAE·쿠웨이트·이라크·카타르 등 페르시아만 산유국의 석유·LNG 수출 통로다. 미국 에너지정보청(EIA)에 따르면 2022년 기준 하루 약 2,100만 배럴의 원유·석유 제품이 이 해협을 통과하며, 이는 전 세계 해상 원유 무역량의 약 21%에 해당한다. 미·이란 긴장이 고조될 때마다 이란은 봉쇄를 위협하지만, 이란 자신도 석유 수입에 의존하기 때문에 실제 봉쇄 실현 가능성은 낮다는 평가가 많다.",
+      "verdict": "해협의 전략적 중요성은 공식 자료로 확인；이란의 봉쇄 능력과 의지에 대한 전문가 평가 엇갈림",
+      "sources": [
+        {
+          "title": "The Strait of Hormuz is the world's most important oil transit chokepoint",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61002",
+          "publisher": "U.S. EIA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-saudi-iran-china-2023",
+      "claim": "2023년 3월 중국의 중재로 사우디아라비아와 이란이 국교 정상화에 합의했다",
+      "context": "2023년 3월 10일 사우디와 이란의 국가안보 당국자들이 중국 측 입회하에 베이징에서 회동해 2016년 단절된 외교 관계 복원에 합의했다. 사우디-이란 관계는 2016년 이란 시위대의 사우디 대사관 난입 사건을 계기로 사우디가 단교한 뒤 7년간 끊겨 있었다. 이번 중재는 중국의 중동 외교력 확대를 보여주는 사건으로 널리 보도됐다. 그러나 예멘·레바논·이라크 등지의 지역적 대립이 해소된 것은 아니라는 분석도 많다. 2025년 6월 미국·이스라엘의 이란 핵 시설 공격 후 사우디는 강력한 규탄 성명을 발표했다.",
+      "verdict": "국교 정상화 합의·발표 공식 기록 있음；장기적 효과 평가 진행 중",
+      "sources": [
+        {
+          "title": "China-brokered Saudi-Iran deal",
+          "url": "https://www.bbc.com/news/world-middle-east-64923181",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-israel-nuclear-opacity",
+      "claim": "이스라엘은 핵무기를 보유한 것으로 널리 알려져 있으나 '핵 모호성 정책'으로 공식 인정도 부인도 하지 않는다",
+      "context": "이스라엘은 핵비확산조약(NPT)에 가입하지 않았으며 1960년대부터 핵무기 보유를 인정도 부인도 하지 않는 '핵 모호성 정책'을 유지하고 있다. 스톡홀름 국제평화연구소(SIPRI) 등에 따르면 이스라엘은 약 90기 이상의 핵탄두를 보유한 것으로 추정된다. 이란은 이를 서방의 '이중 잣대'라 비판하며 자국 핵 프로그램이 NPT가 보장하는 평화적 핵 이용 권리에 기반한다고 주장한다. IAEA는 이스라엘 핵 시설을 사찰하지 않는다. 유엔 총회는 이스라엘의 NPT 가입을 촉구하는 비구속적 결의를 반복해 채택하고 있다.",
+      "verdict": "이스라엘의 핵 보유는 광범위하게 추정되나 공식 미확인；핵 모호성 정책은 공식 기록 있음",
+      "sources": [
+        {
+          "title": "Nuclear-Weapon States — SIPRI",
+          "url": "https://www.sipri.org/research/armament-and-disarmament/nuclear-disarmament-arms-control-and-non-proliferation/nuclear-weapon-states",
+          "publisher": "SIPRI",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

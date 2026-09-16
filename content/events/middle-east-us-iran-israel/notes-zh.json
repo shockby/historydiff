@@ -1,0 +1,173 @@
+{
+  "eventId": "middle-east-us-iran-israel",
+  "notes": [
+    {
+      "id": "mei-mosaddegh-coup-1953",
+      "claim": "1953年摩萨德格首相被推翻是CIA和MI6策划的政变结果",
+      "context": "1953年8月19日，伊朗首相穆罕默德·摩萨德格在政变中被推翻。美国于2013年解密的文件确认，CIA通过「阿贾克斯行动（Operation Ajax）」策划了这场政变，英国军情六处（MI6）亦参与其中。背景是摩萨德格于1951年将英伊石油公司（现BP）的资产国有化，引发英美强烈反弹。政变后，亲美的穆罕默德·礼萨·沙赫重掌实权。",
+      "verdict": "有官方记录（CIA于2013年正式承认参与）",
+      "sources": [
+        {
+          "title": "CIA Confirms Role in 1953 Iran Coup",
+          "url": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup",
+          "publisher": "George Washington University National Security Archive",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-revolution-1979",
+      "claim": "1979年伊朗伊斯兰革命后，霍梅尼掌权，学生扣押美国使馆人质长达444天",
+      "context": "1979年1月16日，国王离开伊朗；2月1日，霍梅尼从巴黎返回德黑兰；4月1日，公投宣布成立伊朗伊斯兰共和国。同年11月4日，学生组织占领美国大使馆，扣押52名外交官，历时444天（伊朗称「大使馆事件」）。这一事件直接导致美伊断交并引发经济制裁。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Iran Hostage Crisis — Jimmy Carter Presidential Library",
+          "url": "https://www.jimmycarterlibrary.gov/research/iran_hostage_crisis",
+          "publisher": "Jimmy Carter Presidential Library",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-jcpoa-2015",
+      "claim": "2015年《联合全面行动计划》（JCPOA）约束伊朗核开发，2018年美国单方面退出",
+      "context": "2015年7月14日，伊朗与P5+1及欧盟签署JCPOA，伊朗同意限制铀浓缩水平、数量和离心机数量，并接受IAEA核查，换取制裁逐步解除。2018年5月，特朗普以「最糟糕的协议」为由单方面退出，恢复「最大压力」制裁。伊朗自2019年起逐步突破JCPOA限制，恢复相关核活动。",
+      "verdict": "有官方记录（美国退出及伊朗逐步违反均已确认）",
+      "sources": [
+        {
+          "title": "Joint Comprehensive Plan of Action (JCPOA)",
+          "url": "https://www.iaea.org/topics/jcpoa",
+          "publisher": "IAEA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-oct7-hamas-attack-2023",
+      "claim": "2023年10月7日哈马斯对以色列发动大规模突袭，造成逾1200人死亡",
+      "context": "2023年10月7日凌晨，哈马斯突破加沙隔离墙，向以色列南部投入约3000名武装人员。以色列当局统计约1200人遇难（大多数为平民），约250人被劫持至加沙。诺瓦音乐节约360人遇难。以色列将此定性为「大屠杀以来针对犹太人最大规模的杀戮事件」，并立即发动加沙地面行动。",
+      "verdict": "有官方记录（死亡人数及哈马斯协同范围仍在国际调查中）",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN OCHA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-soleimani-killing-2020",
+      "claim": "2020年1月，美军在巴格达机场用无人机击毙伊朗革命卫队圣城旅司令苏莱马尼",
+      "context": "2020年1月3日，美军在巴格达机场附近实施无人机打击，击毙圣城旅司令卡西姆·苏莱马尼。特朗普称此举是「应对迫在眉睫的威胁」。伊拉克议会随后通过决议要求美军撤离，伊朗则宣布「积极抵抗」，向伊拉克境内美军基地发射弹道导弹。国际法学者对在第三国领土实施定点清除的合法性存在分歧。",
+      "verdict": "有官方记录（国际法合法性存在争议）",
+      "sources": [
+        {
+          "title": "UN Special Rapporteur Report on the Killing of Soleimani",
+          "url": "https://www.ohchr.org/en/press-releases/2020/07/killing-iranian-general-soleimani-violated-international-law-un-expert",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-nuclear-strikes-2025",
+      "claim": "2025年6月，以色列与美国联合打击伊朗核设施",
+      "context": "2025年6月，以色列空军与美军对伊朗福尔多、纳坦兹、阿拉克等核设施实施精确打击（又称「12天战争」）。伊朗以封锁霍尔木兹海峡为威胁并发动弹道导弹报复。IAEA报告未检测到大规模核泄漏，但对设施损毁程度及伊朗核活动中断情况，国际社会评估不一。联合国安理会因美英否决权未能通过谴责决议。",
+      "verdict": "打击行动已确认（损毁规模及国际法正当性仍在调查中）",
+      "sources": [
+        {
+          "title": "IAEA Board of Governors — Iran Safeguards Reports",
+          "url": "https://www.iaea.org/topics/iran-and-iaea",
+          "publisher": "IAEA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-iran-iraq-war-1980",
+      "claim": "两伊战争（1980—1988年）造成逾百万人死亡，美国曾向伊拉克提供支持",
+      "context": "1980年9月22日，萨达姆·侯赛因以伊斯兰革命后伊朗局势混乱为机，以阿拉伯河（夏台阿拉伯）主权为由入侵伊朗。战争持续8年，两国合计死亡人数估计50至100万以上。美国通过情报共享、放宽武器出口管制及农业信贷等方式实际上支持了伊拉克。然而「伊朗门事件」（1986—87年曝光）显示，美国政府同时秘密向伊朗出售武器。伊朗将此战定性为「圣战防御」，并持续援引美国支持伊拉克作为帝国主义干涉的证据。",
+      "verdict": "美国支持伊拉克有官方记录，伊朗门事件经国会调查确认",
+      "sources": [
+        {
+          "title": "The Iran-Iraq War (Congressional Research Service)",
+          "url": "https://sgp.fas.org/crs/mideast/RS22392.pdf",
+          "publisher": "Congressional Research Service",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-abraham-accords-2020",
+      "claim": "2020年《亚伯拉罕协议》使阿联酋、巴林、苏丹、摩洛哥与以色列实现关系正常化",
+      "context": "2020年8月至12月，阿联酋、巴林、苏丹、摩洛哥四国在特朗普政府斡旋下与以色列签署正常化协议，并在白宫举行签约仪式。以色列以暂停单方面吞并约旦河西岸部分地区作为交换。继埃及、约旦之后，这一系列协议深刻改变了地区政治格局。巴勒斯坦权力机构强烈谴责，称之为「对巴勒斯坦人的背叛」。",
+      "verdict": "签署与生效有官方记录，对巴勒斯坦影响评估因立场而异",
+      "sources": [
+        {
+          "title": "Abraham Accords — U.S. Department of State",
+          "url": "https://www.state.gov/the-abraham-accords/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-gaza-death-toll-2023",
+      "claim": "以色列2023年10月以来对加沙的军事行动截至2025年已造成逾4.5万人死亡",
+      "context": "以色列回应哈马斯袭击而发动的加沙军事行动中，据加沙卫生部（由哈马斯管理当局统计）2025年初数据显示，死亡人数超过4.5万，受伤逾10万。以色列声称以哈马斯军事基础设施为目标并尽量减少平民伤亡，对上述数字存有异议。联合国、世卫组织及独立机构记录了加沙医疗体系的崩溃、大规模饥荒及「大规模伤亡模式」。2024年1月，国际法院应南非申请发布临时措施令，要求以色列防止发生灭绝种族行为。",
+      "verdict": "伤亡数字持续更新；以军发布数据与加沙卫生部数字存在较大差异；国际调查仍在进行",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN OCHA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-hormuz-strait-oil",
+      "claim": "约五分之一的全球海上石油经由霍尔木兹海峡运输，伊朗多次威胁封锁",
+      "context": "霍尔木兹海峡宽约54公里，位于伊朗与阿曼之间，是沙特、阿联酋、科威特、伊拉克、卡塔尔等波斯湾产油国石油和液化天然气出口的咽喉要道。据美国能源信息署（EIA）数据，2022年每日约有2100万桶原油及成品油经过该海峡，约占全球海上石油贸易量的21%。每当美伊紧张局势升级，伊朗便威胁封锁海峡，但由于伊朗自身石油收入有赖于此，封锁的可行性受到质疑。",
+      "verdict": "海峡战略重要性有据可查；伊朗是否有能力和意愿封锁，专家评估不一",
+      "sources": [
+        {
+          "title": "The Strait of Hormuz is the world's most important oil transit chokepoint",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61002",
+          "publisher": "U.S. EIA",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-saudi-iran-china-2023",
+      "claim": "2023年3月，中国斡旋沙特与伊朗实现关系正常化",
+      "context": "2023年3月10日，沙特与伊朗国家安全官员在中方见证下于北京会面，同意恢复自2016年断绝的外交关系。沙伊关系因2016年伊朗抗议者冲击沙特驻伊使馆事件而中断。此次斡旋被广泛报道为中国中东外交影响力提升的标志，但分析人士亦指出，双方在也门、黎巴嫩、伊拉克等地区的深层矛盾并未消解。2025年6月美以对伊朗核设施发动打击后，沙特发表强烈谴责声明。",
+      "verdict": "关系正常化协议与宣布有官方记录；长期效果仍待观察",
+      "sources": [
+        {
+          "title": "China-brokered Saudi-Iran deal",
+          "url": "https://www.bbc.com/news/world-middle-east-64923181",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-israel-nuclear-opacity",
+      "claim": "以色列被普遍认为拥有核武器，但坚持「核模糊政策」，既不承认也不否认",
+      "context": "以色列未加入《不扩散核武器条约》（NPT），自1960年代起奉行「核模糊政策」，对核武器的存在既不承认也不否认。斯德哥尔摩国际和平研究所（SIPRI）等机构估计以色列拥有约90枚以上核弹头。伊朗将此视为西方的「双重标准」，并以此为据，主张本国核计划是NPT框架下的和平利用权利。国际原子力机関（IAEA）不对以色列核设施进行核查。联合国大会多次通过不具约束力的决议，呼吁以色列加入NPT。",
+      "verdict": "以色列拥有核武器被广泛评估但官方未确认；核模糊政策有官方记录",
+      "sources": [
+        {
+          "title": "Nuclear-Weapon States — SIPRI",
+          "url": "https://www.sipri.org/research/armament-and-disarmament/nuclear-disarmament-arms-control-and-non-proliferation/nuclear-weapon-states",
+          "publisher": "SIPRI",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

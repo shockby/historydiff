@@ -84,6 +84,90 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "mei-iran-iraq-war-1980",
+      "claim": "イラン・イラク戦争（1980〜88年）で100万人以上が死亡し、米国はイラクを支援した",
+      "context": "1980年9月22日、イラクのサダム・フセイン大統領はイランに侵攻した。イラン・イスラム革命後の混乱を好機と判断したフセインは、シャットゥルアラブ水路の領有権を名目に開戦した。戦争は8年間続き、両国合計で推定50万〜100万人以上が死亡したとされる。米国はイラクに情報提供・武器輸出規制の緩和・農業信用供与などを通じて事実上支援した。一方で「イランコントラ事件」（1986〜87年発覚）では、米政府がイランにも秘密裏に武器を売却していたことが判明した。イランは同戦争を「聖なる防衛（دفاع مقدس）」と位置づけ、フセインの侵略戦争を米国が支援した証拠として現在も引用する。",
+      "verdict": "米国のイラク支援は公式記録あり（イランコントラ事件も議会調査で確認済み）",
+      "sources": [
+        {
+          "title": "The Iran-Iraq War: The History Behind the Current Crisis (Congressional Research Service)",
+          "url": "https://sgp.fas.org/crs/mideast/RS22392.pdf",
+          "publisher": "Congressional Research Service",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-abraham-accords-2020",
+      "claim": "2020年のアブラハム合意でUAE・バーレーン・スーダン・モロッコがイスラエルと国交を正常化した",
+      "context": "2020年8月〜12月にかけて、アラブ首長国連邦（UAE）・バーレーン・スーダン・モロッコの4カ国がイスラエルとの国交正常化協定（通称「アブラハム合意」）に署名した。トランプ政権が仲介し、ホワイトハウスで調印式が行われた。イスラエルはUAEとバーレーンとの正常化の代わりに、ヨルダン川西岸のユダヤ人入植地の一方的併合計画を当面凍結した。エジプト・ヨルダンに続く正常化として地域の政治地図を塗り替えたが、パレスチナ自治政府はこれを「パレスチナ人への裏切り」として強く批判した。",
+      "verdict": "署名・発効は公式記録あり（パレスチナへの影響評価は立場により異なる）",
+      "sources": [
+        {
+          "title": "Abraham Accords — U.S. Department of State",
+          "url": "https://www.state.gov/the-abraham-accords/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-gaza-death-toll-2023",
+      "claim": "2023年10月以降のイスラエルのガザ軍事作戦で、2025年までに4万人以上が死亡したとされる",
+      "context": "2023年10月7日のハマス奇襲への報復としてイスラエルが開始したガザへの軍事作戦では、ガザ保健省の集計（ハマス系当局が管理）によると2025年初頭時点で4万5,000人以上が死亡、10万人以上が負傷した。イスラエルは「民間人被害を最小化しながらハマス壊滅を目指している」と主張し、死者数の多くはハマス戦闘員であると説明している。一方、国連・WHO・独立調査機関はガザの保健インフラの壊滅・飢餓・「大量殺戮的パターン」への懸念を表明。ICJは南アフリカの申し立てに基づき、ジェノサイド条約に照らした仮保全措置を2024年1月に命令した。",
+      "verdict": "死者数は継続的に更新中（IDF発表とガザ保健省発表に乖離、国際調査が継続）",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-hormuz-strait-oil",
+      "claim": "ホルムズ海峡は世界の海上石油輸送量の約2割が通過する戦略的要衝であり、イランは封鎖を繰り返し示唆している",
+      "context": "ホルムズ海峡はイランとオマーンの間に位置する幅約54kmの海峡で、ペルシャ湾岸産油国（サウジアラビア・UAE・クウェート・イラク・カタール等）の石油・LNGの輸出路として機能する。米国エネルギー情報局（EIA）によると、2022年時点で1日あたり約2,100万バレルの石油・石油製品が同海峡を通過し、これは世界の海上原油輸送量の約21%に相当する。イランは米国との緊張が高まるたびに封鎖を示唆してきたが、封鎖はイランの石油収入にも直結するため実施は困難とされる。",
+      "verdict": "海峡の戦略的重要性は公式記録あり（封鎖の実現可能性については専門家の評価が分かれる）",
+      "sources": [
+        {
+          "title": "The Strait of Hormuz is the world's most important oil transit chokepoint",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61002",
+          "publisher": "U.S. Energy Information Administration (EIA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-saudi-iran-china-2023",
+      "claim": "2023年3月、中国の仲介によりサウジアラビアとイランが国交正常化に合意した",
+      "context": "2023年3月10日、北京でサウジアラビアとイランの国家安全保障当局者が中国当局の立ち合いのもと会合を持ち、断絶していた外交関係の正常化に合意した。サウジ・イラン関係は2016年にイランのサウジ大使館への抗議者乱入を受けてサウジが断交して以来7年間断絶していた。この仲介は中国の中東外交力の拡大を示す出来事として広く報道された一方、専門家の間では「両国の地域的対立（イエメン・レバノン・イラク等）が解消されたわけではない」との見方も強い。2025年の米国・イスラエルによるイラン核攻撃後、サウジは強い非難声明を発出した。",
+      "verdict": "国交正常化の合意・発表は公式記録あり（長期的効果については評価継続中）",
+      "sources": [
+        {
+          "title": "China-brokered Saudi-Iran deal: What it means for the Middle East",
+          "url": "https://www.bbc.com/news/world-middle-east-64923181",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-israel-nuclear-opacity",
+      "claim": "イスラエルは核兵器を保有しているとされるが、「核曖昧政策」のもと公式に認めも否定もしていない",
+      "context": "イスラエルは核不拡散条約（NPT）に加盟しておらず、核兵器の保有を公式に認めも否定もしない「核曖昧政策（nuclear ambiguity）」を1960年代から維持している。米国のシンクタンク・SIPRI等によると、イスラエルは推定90発以上の核弾頭を保有しているとされる。イランはこの状況を「西側の二重基準」として批判し、自国の核開発はNPTが保証する平和的核利用の権利に基づくと主張する。国際原子力機関（IAEA）はイスラエルの核施設を査察していない。国連総会はイスラエルに対しNPT加盟を繰り返し求める決議を採択しているが、拘束力はない。",
+      "verdict": "イスラエルの核保有は広く推定されているが公式には未確認（核曖昧政策は公式記録あり）",
+      "sources": [
+        {
+          "title": "Nuclear-Weapon States — Stockholm International Peace Research Institute (SIPRI)",
+          "url": "https://www.sipri.org/research/armament-and-disarmament/nuclear-disarmament-arms-control-and-non-proliferation/nuclear-weapon-states",
+          "publisher": "SIPRI",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

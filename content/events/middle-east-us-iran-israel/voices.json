@@ -152,6 +152,126 @@
         "#FromTheRiverToTheSea"
       ],
       "timeframe": "2023-2025"
+    },
+    {
+      "id": "mei-voice-arab-citizen",
+      "country": {
+        "ja": "アラブ世界（一般市民）",
+        "en": "Arab World (General Public)",
+        "zh": "阿拉伯世界（普通民众）",
+        "ko": "아랍 세계（일반 시민）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "イスラエルとイランの両方への批判と、パレスチナ問題への強い関心が共存する。アブラハム合意に対しては自国政府とは異なり批判的な市民が多い。",
+        "en": "Criticism of both Israel and Iran coexists with strong concern for the Palestinian cause. Many citizens are more critical of the Abraham Accords than their governments.",
+        "zh": "对以色列和伊朗均有批评，同时对巴勒斯坦问题极为关注。许多普通民众对《亚伯拉罕协议》持批评态度，与本国政府立场不同。",
+        "ko": "이스라엘과 이란 모두에 대한 비판과 팔레스타인 문제에 대한 강한 관심이 공존한다. 아브라함 협정에 대해 자국 정부보다 비판적인 시민이 많다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アラブ諸国では一般市民と政府の中東政策に大きな乖離がある。特にガザ紛争（2023年〜）はアラブ世論の激しい反イスラエル感情を再燃させた。",
+        "en": "There is a significant gap between public opinion and government policy in Arab countries. The Gaza conflict (2023–) in particular reignited intense anti-Israel sentiment across Arab public opinion.",
+        "zh": "阿拉伯国家普通民众与政府的中东政策之间存在很大分歧。尤其是2023年加沙冲突以来，阿拉伯民间的反以色列情绪再度高涨。",
+        "ko": "아랍 국가들에서는 일반 시민과 정부의 중동 정책 간 큰 괴리가 있다. 특히 가자 분쟁(2023년~)은 아랍 여론의 강한 반이스라엘 감정을 다시 불러일으켰다."
+      },
+      "keywords": [
+        "Palestine",
+        "Gaza",
+        "Abraham Accords",
+        "Ceasefire"
+      ],
+      "timeframe": "2023–2025"
+    },
+    {
+      "id": "mei-voice-russia-citizen",
+      "country": {
+        "ja": "ロシア（一般市民）",
+        "en": "Russia (General Public)",
+        "zh": "俄罗斯（普通民众）",
+        "ko": "러시아（일반 시민）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "国営メディアによる情報統制の中、イランへの武器供与や中東情勢については「欧米の二重基準」への批判が多い。ウクライナ侵攻でイランとの連帯感が高まっている。",
+        "en": "Under state media information control, criticism of Western 'double standards' dominates discourse on Middle East policy and arms supplies to Iran. Solidarity with Iran has grown following Russia's invasion of Ukraine.",
+        "zh": "在国家媒体信息管控下，对欧美「双重标准」的批评主导了有关中东政策和伊朗军售的舆论。俄乌战争后，民间对伊朗的连带感有所上升。",
+        "ko": "국영 미디어의 정보 통제 속에 중동 정책과 이란 무기 공급에 관한 담론에서는 서방의 '이중 잣대' 비판이 지배적이다. 우크라이나 침공 이후 이란과의 연대감이 높아졌다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ロシアの独立系世論調査は著しく制限されているが、中東情勢について「西側が悪い」という図式への支持が国営メディア視聴層に多い。",
+        "en": "Independent Russian polling is severely restricted, but support for the narrative that 'the West is to blame' in the Middle East is common among state-media consumers.",
+        "zh": "俄罗斯独立民调受到严重限制，但在国家媒体受众中，「西方是罪魁祸首」的叙事在中东问题上颇有市场。",
+        "ko": "러시아의 독립적 여론조사는 크게 제한되어 있지만, 중동 문제에서 '서방이 나쁘다'는 서사에 대한 지지가 국영 미디어 시청자 사이에서 많다."
+      },
+      "keywords": [
+        "Double standards",
+        "NATO",
+        "Iran solidarity",
+        "JCPOA"
+      ],
+      "timeframe": "2022–2025"
+    },
+    {
+      "id": "mei-voice-china-citizen",
+      "country": {
+        "ja": "中国（一般市民・SNS世論）",
+        "en": "China (General Public / Social Media)",
+        "zh": "中国（普通民众·社交媒体）",
+        "ko": "중국（일반 시민·SNS 여론）"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "微博（Weibo）などでは対イスラエル批判・パレスチナ支持の投稿が多く、中国政府のサウジ・イラン仲介を誇らしく評価する声がある。米国の「偽善」を批判する論調が目立つ。",
+        "en": "On Weibo and similar platforms, anti-Israel posts and support for Palestine are prevalent, with many users proudly citing China's brokering of the Saudi–Iran deal. Criticism of US 'hypocrisy' is a dominant theme.",
+        "zh": "微博等平台上反以色列、支持巴勒斯坦的帖子大量涌现，不少网民为中国斡旋沙伊关系正常化感到自豪，批评美国「伪善」的声音十分突出。",
+        "ko": "웨이보(Weibo) 등에서는 반이스라엘·팔레스타인 지지 게시물이 많고, 중국 정부의 사우디-이란 중재를 자랑스럽게 평가하는 목소리가 있다. 미국의 '위선' 비판이 두드러지는 논조다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国のSNSは当局による検閲があるが、パレスチナ問題は比較的自由に議論される。2023年10月のハマス攻撃後、ガザ問題は中国SNSのトレンドトップに浮上した。",
+        "en": "Chinese social media is subject to censorship, but the Palestinian issue is discussed relatively freely. After Hamas's October 2023 attack, the Gaza situation trended at the top of Chinese social media.",
+        "zh": "中国社交媒体受当局审查，但巴勒斯坦问题讨论相对自由。2023年10月哈马斯袭击后，加沙问题一度冲上中国社交媒体热搜榜首。",
+        "ko": "중국 SNS는 당국의 검열이 있지만 팔레스타인 문제는 비교적 자유롭게 논의된다. 2023년 10월 하마스 공격 후 가자 문제가 중국 SNS 트렌드 1위에 올랐다."
+      },
+      "keywords": [
+        "Palestine",
+        "Gaza",
+        "China mediation",
+        "Anti-imperialism"
+      ],
+      "timeframe": "2023–2025"
+    },
+    {
+      "id": "mei-voice-europe-divided",
+      "country": {
+        "ja": "欧州（意見が分かれる世論）",
+        "en": "Europe (Divided Public Opinion)",
+        "zh": "欧洲（分歧的民间舆论）",
+        "ko": "유럽（분열된 여론）"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "欧州世論はイスラエルの自衛権を認めつつもガザの民間人犠牲への批判が根強く、政府と市民の乖離が広がっている。イランへの制裁については概ね支持しつつ外交解決を望む声も多い。",
+        "en": "European public opinion acknowledges Israel's right to self-defense while strongly criticizing civilian casualties in Gaza, widening the gap between governments and citizens. There is broad but qualified support for Iran sanctions, alongside widespread calls for diplomatic solutions.",
+        "zh": "欧洲民间舆论承认以色列的自卫权，同时对加沙平民伤亡持批评态度，政府与民间的分歧在扩大。对伊朗制裁大体支持，但同时也有不少人呼吁外交解决。",
+        "ko": "유럽 여론은 이스라엘의 자위권을 인정하면서도 가자 민간인 피해에 대한 비판이 강해 정부와 시민 간 괴리가 커지고 있다. 이란 제재는 대체로 지지하면서도 외교적 해결을 원하는 목소리도 많다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "欧州では親パレスチナ・親イスラエル双方の大規模デモが頻発した。特にガザ紛争はSNS上での世代間・宗教間の分断を拡大させた。",
+        "en": "Europe saw large-scale pro-Palestinian and pro-Israel demonstrations. The Gaza conflict in particular widened generational and religious divides on social media.",
+        "zh": "欧洲频繁出现亲巴勒斯坦和亲以色列的大规模示威。加沙冲突尤其扩大了社交媒体上的代际与宗教分歧。",
+        "ko": "유럽에서는 친팔레스타인과 친이스라엘 양측 대규모 시위가 빈발했다. 특히 가자 분쟁은 SNS에서의 세대 간·종교 간 분열을 심화시켰다."
+      },
+      "keywords": [
+        "Ceasefire",
+        "Humanitarian law",
+        "Iran nuclear",
+        "Sanctions"
+      ],
+      "timeframe": "2023–2025"
     }
   ]
 }

@@ -84,6 +84,90 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "mei-iran-iraq-war-1980",
+      "claim": "More than one million people died in the Iran–Iraq War (1980–88), and the United States supported Iraq",
+      "context": "On September 22, 1980, Iraqi President Saddam Hussein invaded Iran, exploiting the chaos following the Islamic Revolution and citing the disputed Shatt al-Arab waterway. The war lasted eight years, killing an estimated 500,000 to over one million people on both sides. The United States effectively backed Iraq through intelligence sharing, relaxation of arms-export controls, and agricultural credits. However, the Iran-Contra Affair (revealed 1986–87) disclosed that the U.S. government had also secretly sold weapons to Iran. Iran continues to cite U.S. support for Iraq as evidence of imperialist aggression, framing the war as the 'Sacred Defense (دفاع مقدس).'",
+      "verdict": "U.S. support for Iraq is documented; Iran-Contra affair confirmed by congressional investigation",
+      "sources": [
+        {
+          "title": "The Iran-Iraq War: The History Behind the Current Crisis (Congressional Research Service)",
+          "url": "https://sgp.fas.org/crs/mideast/RS22392.pdf",
+          "publisher": "Congressional Research Service",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-abraham-accords-2020",
+      "claim": "The 2020 Abraham Accords normalized relations between Israel and the UAE, Bahrain, Sudan, and Morocco",
+      "context": "Between August and December 2020, the United Arab Emirates, Bahrain, Sudan, and Morocco signed normalization agreements with Israel (the 'Abraham Accords'), brokered by the Trump administration and signed at the White House. In exchange, Israel agreed to suspend its plans to unilaterally annex parts of the West Bank. Following Egypt and Jordan, these agreements significantly reshaped the region's political map. The Palestinian Authority strongly condemned the agreements as a 'betrayal,' arguing that Arab states had abandoned the Palestinian cause.",
+      "verdict": "Signing and entry into force are a matter of public record; assessments of the impact on Palestinians differ",
+      "sources": [
+        {
+          "title": "Abraham Accords — U.S. Department of State",
+          "url": "https://www.state.gov/the-abraham-accords/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mei-gaza-death-toll-2023",
+      "claim": "Israel's military operation in Gaza since October 2023 has killed more than 45,000 people by 2025, according to Gaza health authorities",
+      "context": "Following Hamas's October 7 attack, Israel launched a military campaign in Gaza. According to the Gaza Health Ministry (administered by Hamas), over 45,000 people had been killed and more than 100,000 wounded by early 2025. Israel states that it is targeting Hamas military infrastructure while minimizing civilian casualties and contests the figures. The UN, WHO, and independent bodies have documented the collapse of Gaza's healthcare system, widespread famine, and what they describe as 'mass casualty patterns.' The ICJ issued provisional measures in January 2024, following South Africa's genocide complaint, ordering Israel to prevent genocidal acts.",
+      "verdict": "Casualty figures are continuously updated; significant divergence between IDF and Gaza Health Ministry counts; international investigations ongoing",
+      "sources": [
+        {
+          "title": "Situation Reports: Hostilities in the Gaza Strip and Israel — UN OCHA",
+          "url": "https://www.ochaopt.org/situation-reports",
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-hormuz-strait-oil",
+      "claim": "Roughly one-fifth of global seaborne oil passes through the Strait of Hormuz, and Iran has repeatedly threatened to close it",
+      "context": "The Strait of Hormuz — approximately 54 km wide and lying between Iran and Oman — is the export route for oil and LNG from Gulf producers including Saudi Arabia, the UAE, Kuwait, Iraq, and Qatar. According to the U.S. EIA, approximately 21 million barrels of crude oil and refined products transited the strait daily in 2022, accounting for about 21% of global seaborne oil trade. Iran has threatened to close the strait during periods of heightened tension with the U.S., but closure is considered strategically difficult given Iran's own dependence on oil revenues.",
+      "verdict": "The strait's strategic importance is well documented; expert assessments of Iran's ability and willingness to close it vary",
+      "sources": [
+        {
+          "title": "The Strait of Hormuz is the world's most important oil transit chokepoint",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61002",
+          "publisher": "U.S. Energy Information Administration (EIA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-saudi-iran-china-2023",
+      "claim": "In March 2023, China brokered a normalization agreement between Saudi Arabia and Iran",
+      "context": "On March 10, 2023, Saudi and Iranian national-security officials met in Beijing under Chinese auspices and agreed to restore diplomatic relations severed since 2016, when Saudi Arabia cut ties following attacks on its diplomatic premises in Iran. The mediation was widely reported as a demonstration of China's expanding Middle East diplomacy. Analysts note, however, that the agreement did not resolve underlying regional rivalries (in Yemen, Lebanon, Iraq, etc.). Saudi Arabia issued a sharp condemnation following the U.S.–Israel strikes on Iranian nuclear sites in June 2025.",
+      "verdict": "The normalization agreement and announcement are a matter of public record; long-term effects remain under assessment",
+      "sources": [
+        {
+          "title": "China-brokered Saudi-Iran deal: What it means for the Middle East",
+          "url": "https://www.bbc.com/news/world-middle-east-64923181",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mei-israel-nuclear-opacity",
+      "claim": "Israel is widely believed to possess nuclear weapons but maintains a policy of 'nuclear ambiguity,' neither confirming nor denying their existence",
+      "context": "Israel has not signed the Nuclear Non-Proliferation Treaty (NPT) and has maintained a policy of 'nuclear ambiguity' since the 1960s, neither acknowledging nor denying possession of nuclear weapons. The SIPRI and other think tanks estimate Israel holds approximately 90 or more nuclear warheads. Iran cites this as a Western 'double standard,' arguing that its own nuclear program represents a legitimate right to peaceful use under the NPT. The IAEA does not inspect Israeli nuclear facilities. The UN General Assembly has repeatedly passed non-binding resolutions calling on Israel to join the NPT.",
+      "verdict": "Israeli nuclear possession is widely assessed but officially unconfirmed; the policy of nuclear ambiguity is a matter of public record",
+      "sources": [
+        {
+          "title": "Nuclear-Weapon States — Stockholm International Peace Research Institute (SIPRI)",
+          "url": "https://www.sipri.org/research/armament-and-disarmament/nuclear-disarmament-arms-control-and-non-proliferation/nuclear-weapon-states",
+          "publisher": "SIPRI",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

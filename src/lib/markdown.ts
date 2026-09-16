@@ -210,3 +210,27 @@ export function getEventOngoing(eventId: string): EventOngoing | null {
   return JSON.parse(fileContents) as EventOngoing;
 }
 
+// --- Event Meta (shared event title across perspectives) ---
+
+export interface EventMeta {
+  eventId: string;
+  title: {
+    ja: string;
+    en: string;
+    zh?: string;
+    ko?: string;
+  };
+}
+
+export function getEventMeta(eventId: string): EventMeta | null {
+  const metaPath = path.join(contentDirectory, eventId, 'event.json');
+  if (!fs.existsSync(metaPath)) {
+    return null;
+  }
+  try {
+    const fileContents = fs.readFileSync(metaPath, 'utf8');
+    return JSON.parse(fileContents) as EventMeta;
+  } catch {
+    return null;
+  }
+}

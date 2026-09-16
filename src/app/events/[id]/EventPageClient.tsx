@@ -27,6 +27,7 @@ interface EventPageClientProps {
   initialVoices?: EventVoices | null;
   initialOngoing?: EventOngoing | null;
   lang: string;
+  eventTitle?: string | null;
 }
 
 type ViewMode = 'read' | 'diff';
@@ -372,7 +373,7 @@ function getDefaultPerspectiveIndex(perspectives: EventPerspective[], lang: Lang
 }
 
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang, eventTitle }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -499,7 +500,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             <span className="badge">{left.location}</span>
           </div>
           <h2 className="title-gradient" style={{ fontSize: isMobile ? '1.6rem' : '2.5rem', marginBottom: '1rem' }}>
-            {left.title}
+            {(eventTitle ?? null) || left.title}
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.9rem' : '1.1rem', maxWidth: '900px' }}>
             {viewMode === 'read' ? t.perspectiveSummary : t.compareHelp}
@@ -861,7 +862,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang, eventTitle }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -876,6 +877,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         initialVoices={initialVoices}
         initialOngoing={initialOngoing}
         lang={lang}
+        eventTitle={eventTitle}
       />
     </Suspense>
   );

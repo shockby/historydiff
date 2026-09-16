@@ -118,6 +118,90 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ui-north-korea-troops-2024",
+      "claim": "From autumn 2024, North Korea was reported to have deployed troops to support Russia's military operations",
+      "context": "In October 2024, the governments of the United States, South Korea, and Ukraine announced that North Korea had deployed approximately 10,000 ground troops to Russia. Multiple UN Security Council member states presented corroborating evidence — including satellite imagery and intercepted communications. While both North Korea and Russia initially denied the deployment, by late 2024 President Putin had made statements that effectively acknowledged a degree of North Korean military participation. The UN Panel of Experts had already documented North Korean supplies of artillery shells and missiles to Russia as early as 2023. Ukraine stated it had taken North Korean soldiers as prisoners of war and expressed its intent to seek access to them.",
+      "verdict": "Deployment confirmed by multiple governments and international bodies (Russia and DPRK initially denied, later partially acknowledged)",
+      "sources": [
+        {
+          "title": "UN Panel of Experts Report on DPRK sanctions — military cooperation with Russia",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718/panel-experts/reports",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-f16-transfer-2024",
+      "claim": "In 2024, F-16 fighter jets were transferred to Ukraine under an initiative led by Denmark and the Netherlands",
+      "context": "In August 2024, NATO-operated F-16 fighter jets were delivered to Ukraine — led by Denmark and the Netherlands — and the Ukrainian Air Force began operational deployment. This marked the first transfer of advanced jet fighters that Ukraine had been seeking since the start of the war. The United States authorized the transfer, but imposed conditions prohibiting the use of these aircraft for strikes on Russian territory. Russia condemned the transfer as a form of direct NATO intervention in the conflict and claimed it significantly raised the risk of escalation.",
+      "verdict": "Transfer is a matter of record (Russia criticizes it as NATO intervention; usage restriction conditions applied)",
+      "sources": [
+        {
+          "title": "Ukraine receives first F-16 fighter jets from Denmark and the Netherlands",
+          "url": "https://www.nato.int/cps/en/natohq/news.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-zaporizhzhia-nuclear-plant",
+      "claim": "The IAEA has repeatedly issued safety warnings regarding the Zaporizhzhia Nuclear Power Plant, which is under Russian occupation",
+      "context": "Ukraine's largest nuclear power plant, the Zaporizhzhia NPP (6,000 MW; Europe's largest), was seized by Russian forces in March 2022. The International Atomic Energy Agency (IAEA) deployed a permanent monitoring mission to the facility and has repeatedly expressed concern about shelling near the plant, repeated severing of external power supplies, and reliance on emergency diesel generators. With each side blaming the other for the attacks, attribution has proven extremely difficult. IAEA Director General Grossi warned that 'each time one of the seven pillars of nuclear safety is violated, we are a step closer to a nuclear accident.' The plant remains under Russian military control, and its connection to Ukraine's power grid has remained unstable.",
+      "verdict": "IAEA monitoring and warnings are a matter of record (both sides blame each other for shelling)",
+      "sources": [
+        {
+          "title": "IAEA Reports on Zaporizhzhia Nuclear Power Plant",
+          "url": "https://www.iaea.org/topics/zaporizhzhia-nuclear-power-plant",
+          "publisher": "International Atomic Energy Agency",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-kursk-incursion-2024",
+      "claim": "In August 2024, the Ukrainian military launched a large-scale cross-border operation into Russia's Kursk Oblast",
+      "context": "On August 6, 2024, Ukrainian forces crossed into Russia's Kursk Oblast, temporarily seizing several hundred square kilometers of Russian territory. This was the largest-scale Ukrainian incursion into Russian territory since the invasion began on February 24, 2022. The Ukrainian government explained the operation as designed to 'raise pressure on Russia in negotiations and to stretch the front line.' The Russian government designated it a 'terrorist act' and began evacuating residents of Kursk. Facing a major Russian counteroffensive by late 2024, Ukraine lost most of the territory it had seized, but the operation's political and psychological impact was significant.",
+      "verdict": "The operation and cross-border seizure of territory are confirmed facts (assessments of its strategic rationale and long-term effects remain debated)",
+      "sources": [
+        {
+          "title": "Ukraine Kursk offensive — Overview",
+          "url": "https://www.bbc.com/news/articles/c3gx9g8xg32o",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-black-sea-grain-initiative",
+      "claim": "The Black Sea Grain Initiative, concluded in July 2022, collapsed in July 2023 when Russia announced its withdrawal",
+      "context": "Russia's invasion of Ukraine blocked grain and food exports from Ukraine, raising the risk of a global food crisis. In July 2022, the UN and Turkey brokered the Black Sea Grain Initiative, which allowed the resumption of grain exports from Ukraine's major ports, including Odesa. In July 2023, Russia announced its withdrawal from the deal, stating that restrictions on Russian agricultural and fertilizer exports had not been lifted, and the agreement effectively collapsed. During the period the initiative was in force, approximately 33 million metric tons of foodstuffs were exported. The collapse had severe consequences for food-importing countries in Africa, the Middle East, and Asia.",
+      "verdict": "Both the signing and the collapse are matters of record (disagreement over the scale of impact and attribution of responsibility)",
+      "sources": [
+        {
+          "title": "Black Sea Grain Initiative — United Nations",
+          "url": "https://www.un.org/en/black-sea-grain-initiative",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-iran-drones-supply",
+      "claim": "Iran has been reported to have supplied Russia with large quantities of Shahed-series kamikaze drones",
+      "context": "Western governments, Ukraine, and the UN Panel of Experts have reported that from the second half of 2022, Iran supplied Russia with large numbers of 'Shahed-136' series one-way attack drones, which Russian forces have widely used in attacks on Ukrainian infrastructure and urban areas. Iran initially denied the transfers, but from 2023 onward, statements appeared acknowledging that some supplies had occurred prior to the invasion. The United States and the European Union imposed additional sanctions on Iran over the transfers. While Ukraine's air defenses have shot down many of these drones, the sustained drone assaults strain Ukraine's air-defense resources in an attritional campaign.",
+      "verdict": "Transfers confirmed by multiple governments and international bodies (Iran initially denied, later partially acknowledged)",
+      "sources": [
+        {
+          "title": "UN experts confirm Iran supplied drones to Russia",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Security Council Panel of Experts",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

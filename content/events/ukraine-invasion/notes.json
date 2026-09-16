@@ -118,6 +118,90 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ui-north-korea-troops-2024",
+      "claim": "2024年秋以降、北朝鮮がロシアの軍事作戦を支援するため兵士を派遣したと報告されている",
+      "context": "2024年10月、米国・韓国・ウクライナ政府は、北朝鮮がロシアに対して1万人規模の地上部隊を派遣したと発表した。国連安保理でも複数の加盟国が衛星画像・通信傍受などの証拠を提示して派遣を確認した。北朝鮮・ロシア双方は当初否定していたが、2024年末にはプーチン大統領も参戦の事実を「一定程度」認める発言をした。国連安保理の独立専門家パネルは2023年段階からすでに北朝鮮によるロシアへの砲弾・ミサイル供与を記録していた。ウクライナは北朝鮮兵の捕虜を拘束したとして、自国への接触を求める意向を示した。",
+      "verdict": "派遣は複数の政府・国際機関が確認（ロシア・北朝鮮は当初否定、後に一部認定）",
+      "sources": [
+        {
+          "title": "UN Panel of Experts Report on DPRK sanctions — military cooperation with Russia",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718/panel-experts/reports",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-f16-transfer-2024",
+      "claim": "2024年、デンマーク・オランダ主導によりF-16戦闘機がウクライナに移転された",
+      "context": "2024年8月、デンマークとオランダの主導でNATO加盟国のF-16戦闘機がウクライナに引き渡され、ウクライナ空軍が実戦配備を開始した。これはウクライナが求め続けてきた高度戦闘機の初の供与事例となった。米国はF-16の移転自体は認めたが、ロシア本土攻撃への使用は禁止するという条件を付けた。ロシアはこれをNATOによる紛争への直接介入と批判し、より深刻なエスカレーションリスクをもたらすと主張した。",
+      "verdict": "移転は事実（ロシアはNATO介入と批判・使用制限条件あり）",
+      "sources": [
+        {
+          "title": "Ukraine receives first F-16 fighter jets from Denmark and the Netherlands",
+          "url": "https://www.nato.int/cps/en/natohq/news.htm",
+          "publisher": "NATO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-zaporizhzhia-nuclear-plant",
+      "claim": "ロシアが占拠するザポリージャ原子力発電所をめぐり、IAEAが繰り返し安全上の懸念を警告してきた",
+      "context": "ウクライナ最大の原子力発電所であるザポリージャ原発（600万kW、欧州最大規模）は、2022年3月にロシア軍が占拠した。国際原子力機関（IAEA）は現地に常駐監視団を派遣し、施設周辺での砲撃・電力供給の断絶・非常用ディーゼル発電機への依存などについて繰り返し懸念を表明してきた。双方が砲撃の責任を相手側に帰しており、真相の特定は困難な状況が続いている。IAEAのグロッシ事務局長は「核惨事まで七つの柱の一つが壊れるたびに近づいている」と警告した。現在もロシア軍の管理下にあり、ウクライナの電力網への接続は不安定なまま続いている。",
+      "verdict": "IAEA監視・警告は事実（砲撃の帰責について双方が相手を非難）",
+      "sources": [
+        {
+          "title": "IAEA Reports on Zaporizhzhia Nuclear Power Plant",
+          "url": "https://www.iaea.org/topics/zaporizhzhia-nuclear-power-plant",
+          "publisher": "International Atomic Energy Agency",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-kursk-incursion-2024",
+      "claim": "2024年8月、ウクライナ軍がロシア・クルスク州への大規模越境作戦を実施した",
+      "context": "2024年8月6日、ウクライナ軍はロシア・クルスク州に越境侵攻し、数百平方キロメートルのロシア領土を一時的に制圧した。これは2022年2月の侵攻開始以来、ウクライナがロシア本土に侵攻した最大規模の作戦だった。ウクライナ政府は「ロシアへの交渉圧力を高め、戦線を分散させる狙い」と説明した。ロシア政府はこれを「テロ行為」と規定し、クルスク住民の避難を開始した。この作戦は2024年末にかけてロシア軍の反撃により縮小され、占領地の大半が失われたが、その政治的・心理的インパクトは大きかった。",
+      "verdict": "作戦実施・越境制圧は事実（双方の評価と長期的効果は議論継続中）",
+      "sources": [
+        {
+          "title": "Ukraine Kursk offensive — Overview",
+          "url": "https://www.bbc.com/news/articles/c3gx9g8xg32o",
+          "publisher": "BBC News",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-black-sea-grain-initiative",
+      "claim": "2022年7月に締結された「黒海穀物イニシアティブ」は2023年7月にロシアの離脱表明で崩壊した",
+      "context": "ロシアのウクライナ侵攻によりウクライナからの穀物・食料輸出が遮断され、世界的な食糧危機リスクが高まった。2022年7月、国連とトルコの仲介によって「黒海穀物イニシアティブ」が締結され、ウクライナの主要港（オデーサ等）からの穀物輸出が再開された。2023年7月にロシアが「自国の農産品・肥料の輸出に対する制限が解除されていない」として離脱を表明し、協定は実質崩壊した。協定存続期間中に約3,300万トンの食料が輸出されたとされる。アフリカ・中東・アジアの食糧輸入国に深刻な影響が及んだ。",
+      "verdict": "協定締結・崩壊は事実（影響の規模と責任帰属の評価に相違）",
+      "sources": [
+        {
+          "title": "Black Sea Grain Initiative — United Nations",
+          "url": "https://www.un.org/en/black-sea-grain-initiative",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ui-iran-drones-supply",
+      "claim": "イランがロシアに対しシャヘド系自爆ドローンを大量供与したと報告されている",
+      "context": "欧米政府・ウクライナ・国連専門家パネルは、2022年後半以降イランがロシアに「シャヘド-136」系の一方向攻撃ドローンを大量供与し、ロシア軍がウクライナのインフラ・都市攻撃に多用していると報告してきた。イランは当初供与を否定したが、2023年以降は「侵攻前から一部を供与していた」と認める発言が出た。米国・EUはこれを理由にイランへの追加制裁を実施した。ウクライナ軍は防空網によってこれらのドローンの多くを撃墜しているが、消耗戦として防空リソースを圧迫している。",
+      "verdict": "供与は複数の政府・国際機関が確認（イランは当初否定・後に一部認定）",
+      "sources": [
+        {
+          "title": "UN experts confirm Iran supplied drones to Russia",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN Security Council Panel of Experts",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

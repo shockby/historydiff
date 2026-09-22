@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing, getSearchKeywords } from '@/lib/markdown';
 import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
 import EventsArchive from '@/app/components/EventsArchive';
 
@@ -69,6 +69,7 @@ export default async function LocalizedEventsPage({ params }: PageProps) {
         imageUrl,
         notes: notesData?.notes ?? [],
         ongoing,
+        searchKeywords: getSearchKeywords(event.id),
       };
     })
     .filter((e) => e.perspectives.length > 0);

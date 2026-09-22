@@ -34,6 +34,7 @@ export interface EventsArchiveProps {
     imageUrl?: string;
     notes?: EventNote[];
     ongoing?: EventOngoing | null;
+    searchKeywords?: string[];
   }[];
   lang: string;
 }
@@ -95,11 +96,13 @@ function EventsArchiveInner({ initialEvents, lang }: EventsArchiveProps) {
 
   const filteredEvents = events.filter((event) => {
     const query = searchTerm.toLowerCase();
-    const first = event.perspectives[0];
-    if (!first) return false;
+    if (!query) return true;
+    if (event.perspectives.length === 0) return false;
+    // Check pre-computed cross-language keywords (title/category from all languages)
+    if (event.searchKeywords?.some((kw) => kw.includes(query))) return true;
     return (
-      first.title.toLowerCase().includes(query) ||
-      first.category.toLowerCase().includes(query) ||
+      event.perspectives.some((p) => p.title.toLowerCase().includes(query)) ||
+      event.perspectives.some((p) => p.category.toLowerCase().includes(query)) ||
       event.perspectives.some((p) => p.country.toLowerCase().includes(query)) ||
       event.perspectives.some((p) => p.content.toLowerCase().includes(query))
     );

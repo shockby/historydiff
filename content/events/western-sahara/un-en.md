@@ -1,6 +1,6 @@
 ---
 id: "western-sahara"
-title: "The UN Position on Western Sahara — An Unfulfilled Referendum Mandate and MINURSO"
+title: "The UN Framework and MINURSO in Western Sahara"
 category: "International Law / UN Resolutions / Non-Self-Governing Territory"
 year: "1975-present"
 location: "Western Sahara / United Nations"

@@ -1,6 +1,6 @@
 ---
 id: "taiwan-un-resolution"
-title: "What UN Resolution 2758 Actually Says — International Position on Taiwan"
+title: "The Adoption and Text of UN Resolution 2758"
 category: "International Law / UN Resolutions / Sovereignty Dispute"
 year: "1971-present"
 location: "United Nations / Taiwan Strait"

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes, getSearchKeywords } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes, getSearchKeywords, getEventMeta } from '@/lib/markdown';
 import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
 import EventsArchive from '@/app/components/EventsArchive';
 
@@ -33,8 +33,11 @@ export default function EventsPage() {
       const imageUrl = photos && photos.photos.length > 0 ? photos.photos[0].url : undefined;
       const notesData = getEventNotes(event.id, 'en');
       const ongoing = getEventOngoing(event.id);
+      const eventMeta = getEventMeta(event.id);
+      const eventTitle = eventMeta?.title?.en || undefined;
       return {
         id: event.id,
+        title: eventTitle,
         perspectives: getEventPerspectives(event.id, 'en'),
         imageUrl,
         notes: notesData?.notes ?? [],
@@ -48,7 +51,7 @@ export default function EventsPage() {
 
   const eventListForSchema = events.map((e) => ({
     id: e.id,
-    title: e.perspectives[0]?.title ?? e.id,
+    title: (e.title ?? e.perspectives[0]?.title) ?? e.id,
   }));
   const itemListSchema = generateItemListSchema({ lang: 'en', events: eventListForSchema });
 

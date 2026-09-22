@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "パプア紛争――先住民族の視点"
+title: "パプア紛争に関する記述"
 category: "先住民族の権利・独立運動"
 year: "1963年〜現在"
 location: "西パプア（インドネシア・パプア諸州）"

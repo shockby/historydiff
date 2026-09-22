@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "Pakistan's Position on the Kashmir Conflict"
+title: "Self-Determination in Kashmir and UN Resolutions"
 category: "Territorial issues/Sovereignty"
 year: "1947–present"
 location: "Kashmir Region (South Asia)"

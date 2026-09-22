@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "一、中俄战争与领土问题：中国的视角"
+title: "关于中俄边界与领土条约的记述"
 category: "领土问题/战争"
 year: "1689 年至今"
 location: "外满洲里、阿穆尔河流域、乌苏里江流域、中亚边境地区"

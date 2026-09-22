@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "중동 정세（미국·이란·이스라엘）— 중국의 시각"
+title: "중동 정세（미국·이란·이스ラエル）에 관한 기술"
 category: 전쟁・분쟁・점령
 year: 1979년~현재
 location: 중동（이란·이스라엘·팔레스타인·걸프 국가들）

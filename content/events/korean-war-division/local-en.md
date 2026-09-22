@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "The Korean War and Division: A Local Perspective"
+title: "The Korean War, Division, and the Armistice System"
 category: "Cold War / Divided Nations"
 year: "1950–present"
 location: "Korean Peninsula"

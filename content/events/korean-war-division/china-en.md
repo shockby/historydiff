@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "The Korean War and Division: China's Perspective"
+title: "The War to Resist U.S. Aggression and Aid Korea"
 category: "Cold War / Divided Nations"
 year: "1950–present"
 location: "Korean Peninsula / China"

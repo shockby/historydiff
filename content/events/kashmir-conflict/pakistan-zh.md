@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "巴基斯坦关于克什米尔问题的立场"
+title: "关于克什米尔自决权的记述"
 category: "领土问题/主权"
 year: "1947年至今"
 location: "克什米尔地区（南亚）"

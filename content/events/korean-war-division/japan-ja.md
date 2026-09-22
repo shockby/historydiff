@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "朝鮮戦争と南北分断：日本の視点"
+title: "朝鮮戦争と南北分断に関する記述"
 category: "冷戦・分断国家"
 year: "1950年〜現在"
 location: "朝鮮半島・日本"

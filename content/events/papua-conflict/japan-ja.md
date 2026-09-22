@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "パプア紛争――日本の視点"
+title: "パプア紛争に関する記述"
 category: "外交・ODA・インド太平洋戦略"
 year: "1963年〜現在"
 location: "西パプア（インドネシア）、東京"

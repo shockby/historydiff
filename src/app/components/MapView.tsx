@@ -21,7 +21,7 @@ import {
 } from '@/lib/mapUtils';
 
 interface MapViewProps {
-  events: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
+  events: { id: string; title?: string; perspectives: EventPerspective[]; imageUrl?: string }[];
   lang: string;
 }
 
@@ -137,7 +137,7 @@ export default function MapView({ events, lang }: MapViewProps) {
   };
 
   // Group filtered events by coordinate cluster
-  const markerGroups: Record<string, { id: string; perspectives: EventPerspective[]; imageUrl?: string }[]> = {};
+  const markerGroups: Record<string, MapViewProps['events']> = {};
   for (const event of filteredEvents) {
     const coords = eventCoords[event.id];
     if (!coords) continue;
@@ -438,7 +438,7 @@ export default function MapView({ events, lang }: MapViewProps) {
               const r = count > 1 ? 7 + count * 1.5 : 6;
               const first = groupEvents[0]?.perspectives[0];
               const titles = groupEvents
-                .map(e => e.perspectives[0]?.title ?? e.id)
+                .map(e => (e.title ?? e.perspectives[0]?.title) ?? e.id)
                 .join('\n');
 
               return (
@@ -556,7 +556,7 @@ export default function MapView({ events, lang }: MapViewProps) {
                     (e.currentTarget as HTMLElement).style.background = hasCoords ? '#ffffff' : '#f8fafc';
                   }}
                   >
-                    {hasCoords ? '📍' : '·'} {first.location} — {first.title}
+                    {hasCoords ? '📍' : '·'} {first.location} — {(event.title ?? first.title)}
                   </span>
                 </Link>
               );

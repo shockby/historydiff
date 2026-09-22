@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "ロシアのウクライナ侵攻に関する中国の見解"
+title: "ロシアのウクライナ侵攻と仲介対話に関する記述"
 category: "領土問題・主権・安全保障"
 year: "2022年2月-現在"
 location: "ウクライナ全土"

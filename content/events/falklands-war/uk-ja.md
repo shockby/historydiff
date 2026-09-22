@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "フォークランド諸島に関するイギリスの立場"
+title: "フォークランド諸島の帰属と住民自決権に関する記述"
 category: "領土問題・主権"
 year: "1982"
 location: "南大西洋"

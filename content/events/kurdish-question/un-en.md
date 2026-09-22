@@ -1,6 +1,6 @@
 ---
 id: "kurdish-question"
-title: "The Kurdish Question: A UN and International Community Perspective"
+title: "UN and International Framework on The Kurdish Question"
 category: "民族自決・地域紛争"
 year: "20世紀〜現在"
 location: "トルコ・イラク・シリア・イラン"

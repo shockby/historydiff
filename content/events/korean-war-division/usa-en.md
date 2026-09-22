@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "The Korean War and Division: American Perspective"
+title: "The Korean War, Containment, and Cold War Strategy"
 category: "Cold War / Divided Nations"
 year: "1950–present"
 location: "Korean Peninsula"

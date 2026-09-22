@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "中露間の戦争と領土紛争：日本の視点"
+title: "中露間の戦争と領土紛争に関する記述"
 category: "領土問題・戦争"
 year: "1689年-現在"
 location: "外満州・アムール川流域・ウスリー川流域"

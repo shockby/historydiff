@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "Border and territorial issues between Russia and China: Russia's perspective"
+title: "Description of Border Demarcation and Treaties with China"
 category: "Territorial issues/war"
 year: "1689-present"
 location: "Amur River Basin, Primorye, and Central Asian Border Area"

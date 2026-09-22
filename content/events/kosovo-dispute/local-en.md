@@ -1,6 +1,6 @@
 ---
 id: "kosovo-dispute"
-title: "The Kosovo Dispute — Local Perspectives: Kosovo Albanians and Kosovo Serbs"
+title: "Local and Regional Account of The Kosovo Dispute"
 category: "Independence / State Recognition / Self-Determination"
 year: "1999–present"
 location: "Kosovo (Balkan Peninsula, former Yugoslavia)"

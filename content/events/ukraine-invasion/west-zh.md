@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "西方国家关于俄罗斯入侵乌克兰的立场"
+title: "关于维护国际法秩序与对俄制裁的记述"
 category: "领土争端・主权・安全保障"
 year: "2022年2月至今"
 location: "乌克兰全境"

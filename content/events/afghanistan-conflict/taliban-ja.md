@@ -1,6 +1,6 @@
 ---
 id: "afghanistan-conflict"
-title: "アフガニスタン紛争：タリバン政権（現地）の視点"
+title: "アフガニスタン紛争とタリバン政権の統治に関する記述"
 category: "戦争・紛争・占領"
 year: "2001年-現在"
 location: "アフガニスタン・イスラム首長国"

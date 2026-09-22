@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "러시아의 우크라이나 침공에 관한 중국의 입장"
+title: "러시아의 우크라이나 침공과 정치적 해결에 관한 기술"
 category: "영토 분쟁·주권·안보"
 year: "2022년 2월~현재"
 location: "우크라이나 전역"

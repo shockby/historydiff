@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "Argentina's Position on the Malvinas (Falkland Islands)"
+title: "Historical Title and Sovereignty Claims over the Malvinas Islands"
 category: "Territorial issues/Sovereignty"
 year: "1982"
 location: "South Atlantic"

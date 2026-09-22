@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "プレアビヒア寺院紛争：アメリカ・英語圏の視点"
+title: "プレアビヒア寺院紛争に関する記述"
 category: "国際法・地域安全保障"
 year: "1962年〜現在"
 location: "カンボジア・タイ国境"

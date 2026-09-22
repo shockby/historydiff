@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: 否决权的陷阱与法律真空——联合国及国际社会视角下的中东80年史
+title: "否决权与法律框架——中东80年历史记述"
 category: 战争、冲突与占领
 year: 1947年至今
 location: 中东、巴勒斯坦、伊朗

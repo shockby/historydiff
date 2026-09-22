@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "The Papua Conflict — Japan's Perspective"
+title: "Description of The Papua Conflict"
 category: "Diplomacy, ODA & Indo-Pacific Strategy"
 year: "1963–present"
 location: "West Papua (Indonesia); Tokyo"

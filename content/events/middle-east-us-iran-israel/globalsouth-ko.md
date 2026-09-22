@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "중동 정세（미국·이란·이스라엘）— 글로벌 사우스의 시각"
+title: "중동 정세와 글로벌 사우스의 다변화 외교에 관한 기술"
 category: 전쟁・분쟁・점령
 year: 1979년~현재
 location: 중동（이란·이스라엘·팔레스타인·걸프 국가들）

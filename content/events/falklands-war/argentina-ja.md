@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "マルビナス諸島（フォークランド）に関するアルゼンチンの立場"
+title: "マルビナス諸島の歴史的権原に関する記述"
 category: "領土問題・主権"
 year: "1982"
 location: "南大西洋"

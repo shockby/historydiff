@@ -1,6 +1,6 @@
 ---
 id: "somaliland-dispute"
-title: "Somaliland Dispute: Perspectives of Local Belligerents"
+title: "Local and Regional Account of the Somaliland Dispute"
 category: "Secession, Diplomatic Recognition, De Facto Sovereignty & Geopolitics"
 year: "1991–present"
 location: "Horn of Africa, Northern Somalia (Hargeisa, Port of Berbera, Gulf of Aden)"

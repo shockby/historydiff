@@ -1,6 +1,6 @@
 ---
 id: "taiwan-un-resolution"
-title: "UN Resolution 2758 and Taiwan's Status — Taiwan (ROC) Perspective"
+title: "UN Resolution 2758 and Taiwan's Status"
 category: "Democracy/Self-Determination/International Status"
 year: "1971-present"
 location: "Taiwan (Republic of China) / International Community"

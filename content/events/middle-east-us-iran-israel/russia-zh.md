@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "俄罗斯视角下的中东局势：美国、伊朗与以色列"
+title: "关于中东局势与地缘战略的记述"
 category: 战争・冲突・占领
 year: 2000年代至今
 location: 中东、叙利亚及海湾地区

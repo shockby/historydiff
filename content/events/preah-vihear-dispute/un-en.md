@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "Preah Vihear Temple Dispute: The UN, ICJ, and UNESCO Perspective"
+title: "UN and International Framework on the Preah Vihear Temple Dispute"
 category: "International Law & Cultural Heritage Protection"
 year: "1962–present"
 location: "Thai-Cambodian Border"

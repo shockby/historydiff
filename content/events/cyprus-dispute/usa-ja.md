@@ -1,6 +1,6 @@
 ---
 id: "cyprus-dispute"
-title: "キプロス紛争：アメリカ・英語圏の視点"
+title: "キプロス紛争に関する記述"
 category: "占領・分断・国家承認問題"
 year: "1974年〜現在"
 location: "キプロス（東地中海）"

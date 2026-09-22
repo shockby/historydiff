@@ -1,6 +1,6 @@
 ---
 id: "gulf-war-iraq-war"
-title: "Gulf War & Iraq War: UN/International Community Perspective"
+title: "UN and International Framework on the Gulf War & Iraq War"
 category: "地域紛争・国際安全保障"
 year: "1990-1991 / 2003-2011"
 location: "イラク・クウェート・中東"

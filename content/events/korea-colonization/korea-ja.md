@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "日本の朝鮮植民地支配に関する韓国の見解"
+title: "日帝強占期の朝鮮支配と民族運動に関する記述"
 category: "植民地支配・歴史認識問題"
 year: "1910年〜1945年"
 location: "朝鮮半島"

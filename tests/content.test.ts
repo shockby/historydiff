@@ -38,4 +38,29 @@ describe('historical content & database integrity', () => {
       }
     }
   });
+
+  test('perspective titles do not contain redundant country perspective labels across all languages', () => {
+    const langs = ['ja', 'en', 'zh', 'ko'] as const;
+    const forbiddenPatterns: Record<string, RegExp> = {
+      ja: /(日本の視点|日本の立場|アメリカの視点|米国の視点|中国の視点)/,
+      en: /(Japan's Perspective|US Perspective|U\.S\. Perspective|China's Perspective)/i,
+      zh: /(中国视角|美国视角|日本视角)/,
+      ko: /(중국의 시각|미국의 시각|일본의 시각)/,
+    };
+
+    for (const event of events) {
+      for (const lang of langs) {
+        const perspectives = getEventPerspectives(event.id, lang);
+        for (const p of perspectives) {
+          const pattern = forbiddenPatterns[lang];
+          assert.strictEqual(
+            pattern.test(p.title),
+            false,
+            `Event "${event.id}" [${lang}] title "${p.title}" should not contain country perspective labels`
+          );
+        }
+      }
+    }
+  });
 });
+

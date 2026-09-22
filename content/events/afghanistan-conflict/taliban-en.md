@@ -1,6 +1,6 @@
 ---
 id: "afghanistan-conflict"
-title: "The Afghanistan Conflict: The Taliban (Local) Perspective"
+title: "Local and Regional Account of The Afghanistan Conflict"
 category: "War, Conflict & Occupation"
 year: "2001–Present"
 location: "Islamic Emirate of Afghanistan"

@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "Ukraine's Perspective on the Russian Invasion of Ukraine"
+title: "National Defense against the Russian Full-Scale Invasion"
 category: "Territorial disputes, sovereignty & security"
 year: "February 2022-Present"
 location: "Ukraine"

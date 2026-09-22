@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "The Papua Conflict — UN & International Community Perspective"
+title: "UN and International Framework on The Papua Conflict"
 category: "International Law, Human Rights & Self-Determination"
 year: "1963–present"
 location: "West Papua (Indonesia); United Nations, New York"

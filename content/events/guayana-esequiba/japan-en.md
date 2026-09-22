@@ -1,6 +1,6 @@
 ---
 id: "guayana-esequiba"
-title: "Guayana Esequiba Dispute: Japan's Perspective"
+title: "Description of the Guayana Esequiba Dispute"
 category: "Territorial Dispute, Sovereignty & Natural Resources"
 year: "1899–present"
 location: "Guayana Esequiba (Guyana–Venezuela border region)"

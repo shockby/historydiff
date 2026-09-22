@@ -1,6 +1,6 @@
 ---
 id: "iberian-enclaves"
-title: "Ceuta, Melilla, Gibraltar & the Canary Islands: Morocco's Perspective"
+title: "Decolonization Claims regarding Ceuta and Melilla"
 category: "Territorial Disputes & Sovereignty"
 year: "1415–present"
 location: "North Africa, Mediterranean"

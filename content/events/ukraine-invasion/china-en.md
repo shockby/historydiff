@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "China's View on Russia's Invasion of Ukraine"
+title: "The Ukraine Crisis and Diplomatic Mediation"
 category: "Territorial Disputes / Sovereignty / Security"
 year: "February 2022–Present"
 location: "All of Ukraine"

@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "关于日本对朝鲜殖民统治的韩国观点"
+title: "关于日本对朝鲜殖民统治与民族独立运动的记述"
 category: "殖民统治·历史认识问题"
 year: "1910年至1945年"
 location: "朝鲜半岛"

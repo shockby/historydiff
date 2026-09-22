@@ -1,6 +1,6 @@
 ---
 id: "transnistria-conflict"
-title: "The Transnistria Conflict: China's Perspective"
+title: "Description of The Transnistria Conflict"
 category: "Separatism / Frozen Conflict / Russian Sphere of Influence"
 year: "1990–present"
 location: "Transnistria (eastern Moldova, Dniester River)"

@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "Middle East Situation (US, Iran & Israel) — China's Perspective"
+title: "The Middle East Situation and Diplomatic Mediation"
 category: War, Conflict & Occupation
 year: 1979–Present
 location: Middle East (Iran, Israel, Palestine, Gulf States)

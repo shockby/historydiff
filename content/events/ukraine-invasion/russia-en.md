@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "Russia's Perspective on the Special Military Operation in Ukraine"
+title: "Account of the Special Military Operation in Ukraine"
 category: "Territorial disputes, sovereignty & security"
 year: "February 2022-Present"
 location: "Ukraine"

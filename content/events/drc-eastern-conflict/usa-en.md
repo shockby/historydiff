@@ -1,6 +1,6 @@
 ---
 id: "drc-eastern-conflict"
-title: "Eastern DRC Conflict: US & Western Perspective"
+title: "Description of the Eastern DRC Conflict"
 category: "Resource Conflict, Armed Groups, Ethnic Strife & Cross-Border Intervention"
 year: "1996–present"
 location: "Eastern Democratic Republic of the Congo (North Kivu, South Kivu, Ituri)"

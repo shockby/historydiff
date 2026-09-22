@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "The Western View on Russia's Invasion of Ukraine"
+title: "Defense of the International Rules-Based Order in Ukraine"
 category: "Territorial Disputes / Sovereignty / Security"
 year: "February 2022–Present"
 location: "All of Ukraine"

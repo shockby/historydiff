@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "プレアビヒア寺院紛争：国連・ICJ・ユネスコの視点"
+title: "プレアビヒア寺院紛争に関する記述"
 category: "国際法・文化遺産保護"
 year: "1962年〜現在"
 location: "カンボジア・タイ国境"

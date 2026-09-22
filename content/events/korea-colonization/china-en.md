@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "China's view on Japan's colonial rule of Korea"
+title: "Description of Japanese Colonial Rule in Korea"
 category: "Colonial rule, imperialism, and historical recognition issues"
 year: "1910-1945"
 location: "Korean Peninsula/East Asia"

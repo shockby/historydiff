@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing, getSearchKeywords } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing, getSearchKeywords, getEventMeta } from '@/lib/markdown';
 import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
 import EventsArchive from '@/app/components/EventsArchive';
 
@@ -63,8 +63,11 @@ export default async function LocalizedEventsPage({ params }: PageProps) {
       const imageUrl = photos && photos.photos.length > 0 ? photos.photos[0].url : undefined;
       const notesData = getEventNotes(event.id, lang);
       const ongoing = getEventOngoing(event.id);
+      const eventMeta = getEventMeta(event.id);
+      const eventTitle = (eventMeta?.title?.[lang as 'ja' | 'zh' | 'ko'] ?? eventMeta?.title?.en) || undefined;
       return {
         id: event.id,
+        title: eventTitle,
         perspectives: getEventPerspectives(event.id, lang),
         imageUrl,
         notes: notesData?.notes ?? [],
@@ -78,7 +81,7 @@ export default async function LocalizedEventsPage({ params }: PageProps) {
 
   const eventListForSchema = events.map((e) => ({
     id: e.id,
-    title: e.perspectives[0]?.title ?? e.id,
+    title: (e.title ?? e.perspectives[0]?.title) ?? e.id,
   }));
   const itemListSchema = generateItemListSchema({ lang, events: eventListForSchema });
 

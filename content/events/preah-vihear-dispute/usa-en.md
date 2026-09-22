@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "Preah Vihear Temple Dispute: The Western and U.S. Perspective"
+title: "Description of the Preah Vihear Temple Dispute"
 category: "International Law & Regional Security"
 year: "1962–present"
 location: "Thai-Cambodian Border"

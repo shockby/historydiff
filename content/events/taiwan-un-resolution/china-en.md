@@ -1,6 +1,6 @@
 ---
 id: "taiwan-un-resolution"
-title: "UN Resolution 2758 and the Taiwan Issue — China (PRC) Perspective"
+title: "UN Resolution 2758 and the One-China Principle"
 category: "Sovereignty/State Recognition/One China Principle"
 year: "1971-present"
 location: "Taiwan, United Nations, Taiwan Strait"

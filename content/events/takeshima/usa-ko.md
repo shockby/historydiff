@@ -1,6 +1,6 @@
 ---
 id: "takeshima"
-title: "다케시마(Liancourt Rocks)에 관한 미국의 입장과 평화조약의 기술"
+title: "독도/다케시마와 샌프란시스코 평화조약에 관한 기술"
 category: "국제관계·외교정책"
 year: "1945-현재"
 location: "일본해"

@@ -1,6 +1,6 @@
 ---
 id: "israel-territory"
-title: "Occupation and Displacement — The Palestinian Perspective on Land"
+title: "Occupation, Displacement, and Historical Claims to the Land"
 category: "Occupation/Refugees/Self-Determination"
 year: "1948-present"
 location: "Palestine (West Bank, Gaza Strip, East Jerusalem)"

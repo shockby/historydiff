@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "Preah Vihear Temple Dispute: China's Perspective"
+title: "Description of the Preah Vihear Temple Dispute"
 category: "Regional Diplomacy & Geopolitics"
 year: "1962–present"
 location: "Thai-Cambodian Border"

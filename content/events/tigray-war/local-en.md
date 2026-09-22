@@ -1,6 +1,6 @@
 ---
 id: "tigray-war"
-title: "Tigray War: Perspectives of Local Belligerents"
+title: "Local and Regional Account of the Tigray War"
 category: "Civil War, Federalism vs Centralization, Humanitarian Crisis & Regional Intervention"
 year: "2020–2022"
 location: "Northern Ethiopia (Tigray, Amhara, and Afar regions)"

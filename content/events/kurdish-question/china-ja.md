@@ -1,6 +1,6 @@
 ---
 id: "kurdish-question"
-title: "クルド人問題：中国の視点"
+title: "クルド人問題に関する記述"
 category: "民族自決・地域紛争"
 year: "20世紀〜現在"
 location: "トルコ・イラク・シリア・イラン"

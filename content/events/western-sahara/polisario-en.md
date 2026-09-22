@@ -1,6 +1,6 @@
 ---
 id: "western-sahara"
-title: "The Western Sahara Issue — Polisario Front / SADR Position"
+title: "The Western Sahara Dispute and the Call for Self-Determination"
 category: "Self-Determination / Decolonization / Refugees"
 year: "1975-present"
 location: "Western Sahara / Tindouf Refugee Camps (Algeria)"

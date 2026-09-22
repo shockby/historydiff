@@ -1,6 +1,6 @@
 ---
 id: "tigray-war"
-title: "Tigray War: UN & African Union Perspective"
+title: "UN and International Framework on the Tigray War"
 category: "Civil War, Federalism vs Centralization, Humanitarian Crisis & Regional Intervention"
 year: "2020–2022"
 location: "Northern Ethiopia (Tigray, Amhara, and Afar regions)"

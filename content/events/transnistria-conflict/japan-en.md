@@ -1,6 +1,6 @@
 ---
 id: "transnistria-conflict"
-title: "Transnistria Conflict: Japan's Perspective"
+title: "Description of the Transnistria Conflict"
 category: "Separatism / Frozen Conflict / Russian Sphere of Influence"
 year: "1990–present"
 location: "沿ドニエストル（モルドバ東部・ドニエストル川沿岸）"

@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "俄罗斯关于乌克兰特别军事行动的官方立场"
+title: "关于特别军事行动与安全诉求的记述"
 category: "领土争端・主权・安全保障"
 year: "2022年2月至今"
 location: "乌克兰全境"

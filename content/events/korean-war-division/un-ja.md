@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "朝鮮戦争と南北分断：国連・国際社会の視点"
+title: "朝鮮戦争と国連軍派遣に関する記述"
 category: "冷戦・分断国家"
 year: "1950年〜現在"
 location: "朝鮮半島"

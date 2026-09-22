@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: Balanced Diplomacy Between Oil Dependency and Alliance — Japan's View of Eight Decades in the Middle East
+title: "Energy Security and Balanced Diplomacy in the Middle East"
 category: War, Conflict & Occupation
 year: 1947-present
 location: Middle East, Palestinian Territories, Persian Gulf

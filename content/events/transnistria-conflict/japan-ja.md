@@ -1,6 +1,6 @@
 ---
 id: "transnistria-conflict"
-title: "トランスニストリア問題：日本の視点"
+title: "トランスニストリア問題に関する記述"
 category: "分離独立・凍結紛争・ロシアの影響圏"
 year: "1990年〜現在"
 location: "沿ドニエストル（モルドバ東部・ドニエストル川沿岸）"

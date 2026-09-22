@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "カシミール問題に関するアメリカの立場"
+title: "カシミール問題と南アジア地域安定に関する記述"
 category: "領土問題・主権"
 year: "1947年〜現在"
 location: "カシミール地方（南アジア）"

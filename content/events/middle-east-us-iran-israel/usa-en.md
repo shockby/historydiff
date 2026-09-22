@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: Defender of Freedom, Democracy, and Regional Stability — The U.S. View of Eight Decades in the Middle East
+title: "Regional Security Architecture and Alliances in the Middle East"
 category: War, Conflict & Occupation
 year: 1947-present
 location: Middle East, Persian Gulf

@@ -1,6 +1,6 @@
 ---
 id: "afghanistan-conflict"
-title: "阿富汗冲突：美国视角"
+title: "关于阿富汗冲突与反恐战争的记述"
 category: "战争·冲突·占领"
 year: "2001年至今"
 location: "阿富汗伊斯兰酋长国"

@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "The Papua Conflict — Indigenous Papuan Perspective"
+title: "Local and Regional Account of The Papua Conflict"
 category: "Indigenous Rights & Self-Determination"
 year: "1963–present"
 location: "West Papua (Papua provinces, Indonesia)"

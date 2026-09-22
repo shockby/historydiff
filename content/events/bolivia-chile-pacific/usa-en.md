@@ -1,6 +1,6 @@
 ---
 id: "bolivia-chile-pacific"
-title: "Bolivia–Chile Pacific Access Dispute: US & Western Perspectives"
+title: "Description of the Bolivia–Chile Pacific Access Dispute"
 category: "Territorial Sovereignty, Access to the Pacific Ocean & ICJ Rulings"
 year: "1879–present"
 location: "Atacama Corridor & Antofagasta (Bolivia–Chile border region)"

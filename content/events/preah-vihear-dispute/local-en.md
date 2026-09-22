@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "Preah Vihear Temple Dispute: The View from Local Communities and Displaced Persons"
+title: "Local and Regional Account of the Preah Vihear Temple Dispute"
 category: "Border Conflict & Cultural Heritage"
 year: "1962–present"
 location: "Preah Vihear Province, Cambodia / Thai-Cambodian Border Region"

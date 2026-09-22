@@ -1,6 +1,6 @@
 ---
 id: "gerd-nile-dispute"
-title: "GERD Nile Dispute: Perspectives of Riparian States"
+title: "Local and Regional Account of the GERD Nile Dispute"
 category: "Transboundary Water Rights, Energy Development & National Security"
 year: "2011–present"
 location: "Blue Nile Basin (Benishangul-Gumuz, Ethiopia; Sudan; Egypt)"

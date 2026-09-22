@@ -1,6 +1,6 @@
 ---
 id: "sahel-conflict"
-title: "Sahel Conflict: UN & International Perspective"
+title: "UN and International Framework on the Sahel Conflict"
 category: "Counter-Terrorism, Military Coups, Post-Colonial Tensions & Geopolitical Shift"
 year: "2012–present"
 location: "Sahel Belt (Mali, Burkina Faso, Niger, Liptako-Gourma Tri-Border Area)"

@@ -1,6 +1,6 @@
 ---
 id: "nagorno-karabakh"
-title: "The Nagorno-Karabakh Conflict: American and English-speaking Perspective"
+title: "Description of The Nagorno-Karabakh Conflict"
 category: "Ethnic Conflict / Territorial Dispute / Humanitarian Crisis"
 year: "1988–2023"
 location: "Nagorno-Karabakh (South Caucasus)"

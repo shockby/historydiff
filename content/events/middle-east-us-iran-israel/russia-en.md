@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "Russia's Perspective on the Middle East: US, Iran, and Israel"
+title: "Strategic Interests and Multipolarity in the Middle East"
 category: War, Conflict & Occupation
 year: 2000s–Present
 location: Middle East, Syria & Gulf Region

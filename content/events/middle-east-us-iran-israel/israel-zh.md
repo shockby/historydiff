@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: 以生存为赌注的安全保障——以色列视角下的中东80年史
+title: "以生存为基石的安全保障——中东80年历史记述"
 category: 战争、冲突与占领
 year: 1948年至今
 location: 以色列、中东全境

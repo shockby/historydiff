@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "The United States' Position on the Kashmir Conflict"
+title: "The Kashmir Dispute and Regional Stability in South Asia"
 category: "Territorial issues/Sovereignty"
 year: "1947–present"
 location: "Kashmir Region (South Asia)"

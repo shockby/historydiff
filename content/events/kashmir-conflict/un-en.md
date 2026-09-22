@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "UN Security Council Resolution 47 and the International Position on Kashmir"
+title: "UN Security Council Resolution 47 and the Kashmir Dispute"
 category: "International Law / UN Resolutions / Self-Determination"
 year: "1948–present"
 location: "Jammu and Kashmir / United Nations"

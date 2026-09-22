@@ -1,6 +1,6 @@
 ---
 id: "preah-vihear-dispute"
-title: "Preah Vihear Temple Dispute: Japan's Perspective"
+title: "Description of the Preah Vihear Temple Dispute"
 category: "Regional Security & Diplomacy"
 year: "1962–present"
 location: "Thai-Cambodian Border"

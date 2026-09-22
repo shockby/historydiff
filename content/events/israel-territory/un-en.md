@@ -1,6 +1,6 @@
 ---
 id: "israel-territory"
-title: "The Palestine/Israel Issue from the UN and International Community Perspective"
+title: "The Palestine/Israel Issue under the UN Framework and International Law"
 category: "International Law / UN Resolutions / Humanitarian Law"
 year: "1947-present"
 location: "Occupied Palestinian Territory / United Nations"

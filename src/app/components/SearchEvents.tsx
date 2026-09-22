@@ -73,15 +73,14 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
     return event.perspectives[0]!;
   };
 
-  // Real-time search filtering
+  // Real-time search filtering (cross-language: all perspectives are searched)
   const filteredEvents = searchTerm.trim()
     ? events.filter((event) => {
         const query = searchTerm.toLowerCase();
-        const first = event.perspectives[0];
-        if (!first) return false;
+        if (event.perspectives.length === 0) return false;
         return (
-          first.title.toLowerCase().includes(query) ||
-          first.category.toLowerCase().includes(query) ||
+          event.perspectives.some((p) => p.title.toLowerCase().includes(query)) ||
+          event.perspectives.some((p) => p.category.toLowerCase().includes(query)) ||
           event.perspectives.some((p) => p.country.toLowerCase().includes(query)) ||
           event.perspectives.some((p) => p.content.toLowerCase().includes(query))
         );

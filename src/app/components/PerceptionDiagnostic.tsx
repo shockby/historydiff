@@ -116,9 +116,9 @@ export default function PerceptionDiagnostic({
       } : {
         padding: isCardOnly ? '1.5rem' : '2.5rem 2rem',
         borderRadius: '16px',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
-        background: 'linear-gradient(145deg, rgba(16, 22, 34, 0.75) 0%, rgba(10, 14, 24, 0.9) 100%)',
-        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.35)',
+        border: '1px solid var(--card-border)',
+        background: '#ffffff',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)',
         marginTop: isCardOnly ? '0' : '2.5rem',
         marginBottom: isCardOnly ? '0' : '2.5rem',
         position: 'relative',
@@ -133,7 +133,7 @@ export default function PerceptionDiagnostic({
           left: '-10%',
           width: '350px',
           height: '350px',
-          background: 'radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(59, 130, 246, 0.04) 0%, transparent 70%)',
           pointerEvents: 'none',
         }} />
       )}
@@ -147,7 +147,7 @@ export default function PerceptionDiagnostic({
           flexWrap: 'wrap',
           gap: '0.75rem',
           marginBottom: '1.5rem',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+          borderBottom: '1px solid var(--card-border)',
           paddingBottom: '1rem',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
@@ -155,12 +155,12 @@ export default function PerceptionDiagnostic({
               width: '32px',
               height: '32px',
               borderRadius: '8px',
-              background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(99, 102, 241, 0.25))',
-              border: '1px solid rgba(99, 102, 241, 0.4)',
+              background: 'rgba(99, 102, 241, 0.1)',
+              border: '1px solid rgba(99, 102, 241, 0.25)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#818cf8',
+              color: '#6366f1',
             }}>
               <Compass size={18} />
             </div>
@@ -170,7 +170,7 @@ export default function PerceptionDiagnostic({
                   fontSize: '0.7rem',
                   fontWeight: 700,
                   letterSpacing: '0.08em',
-                  color: '#818cf8',
+                  color: '#6366f1',
                   textTransform: 'uppercase',
                 }}>
                   {t.diagnosticBadge}
@@ -197,16 +197,17 @@ export default function PerceptionDiagnostic({
               style={{
                 padding: '0.35rem 0.85rem',
                 borderRadius: '20px',
-                border: '1px solid rgba(255, 255, 255, 0.12)',
-                background: 'rgba(255, 255, 255, 0.04)',
-                color: 'var(--text-secondary)',
+                border: '1px solid var(--card-border)',
+                background: '#ffffff',
+                color: 'var(--foreground)',
                 fontSize: '0.78rem',
-                fontWeight: 500,
+                fontWeight: 600,
                 cursor: 'pointer',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.4rem',
                 transition: 'all 0.2s ease',
+                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
               }}
             >
               <RefreshCw size={12} />
@@ -257,28 +258,29 @@ export default function PerceptionDiagnostic({
                 borderRadius: '12px',
                 border: hasSubmitted
                   ? isSelected
-                    ? '1px solid #3fb950'
-                    : '1px solid rgba(255, 255, 255, 0.06)'
-                  : '1px solid rgba(255, 255, 255, 0.1)',
+                    ? '1px solid #86efac'
+                    : '1px solid var(--card-border)'
+                  : '1px solid var(--card-border)',
                 background: hasSubmitted
                   ? isSelected
-                    ? 'rgba(46, 160, 67, 0.08)'
-                    : 'rgba(255, 255, 255, 0.02)'
-                  : 'rgba(255, 255, 255, 0.03)',
+                    ? '#f0fdf4'
+                    : '#f8fafc'
+                  : '#ffffff',
+                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.03)',
                 cursor: hasSubmitted ? 'default' : 'pointer',
                 transition: 'all 0.2s ease',
                 position: 'relative',
               }}
               onMouseEnter={(e) => {
                 if (!hasSubmitted) {
-                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.06)';
-                  e.currentTarget.style.borderColor = 'rgba(99, 102, 241, 0.4)';
+                  e.currentTarget.style.background = '#f1f5f9';
+                  e.currentTarget.style.borderColor = '#cbd5e1';
                 }
               }}
               onMouseLeave={(e) => {
                 if (!hasSubmitted) {
-                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
-                  e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+                  e.currentTarget.style.background = '#ffffff';
+                  e.currentTarget.style.borderColor = 'var(--card-border)';
                 }
               }}
             >
@@ -294,8 +296,8 @@ export default function PerceptionDiagnostic({
                     borderRadius: '6px',
                     fontSize: '0.75rem',
                     fontWeight: 700,
-                    background: hasSubmitted && isSelected ? 'rgba(46, 160, 67, 0.2)' : 'rgba(255, 255, 255, 0.08)',
-                    color: hasSubmitted && isSelected ? '#3fb950' : 'var(--foreground)',
+                    background: hasSubmitted && isSelected ? '#dcfce7' : '#f1f5f9',
+                    color: hasSubmitted && isSelected ? '#15803d' : 'var(--foreground)',
                   }}>
                     {t.diagnosticOptionLabel(letter)}
                   </span>
@@ -305,7 +307,7 @@ export default function PerceptionDiagnostic({
                     <span style={{
                       fontSize: '0.82rem',
                       fontWeight: 700,
-                      color: isSelected ? '#3fb950' : 'var(--text-secondary)',
+                      color: isSelected ? '#15803d' : 'var(--text-secondary)',
                     }}>
                       👉 {p.country} ({p.source})
                     </span>
@@ -319,7 +321,7 @@ export default function PerceptionDiagnostic({
                     gap: '0.3rem',
                     fontSize: '0.75rem',
                     fontWeight: 600,
-                    color: '#3fb950',
+                    color: '#15803d',
                   }}>
                     <CheckCircle2 size={15} />
                     {t.quizYourAnswer}
@@ -330,7 +332,7 @@ export default function PerceptionDiagnostic({
               <p style={{
                 fontSize: '0.9rem',
                 lineHeight: 1.7,
-                color: hasSubmitted && !isSelected ? 'rgba(255, 255, 255, 0.6)' : 'var(--foreground)',
+                color: hasSubmitted && !isSelected ? 'var(--text-secondary)' : 'var(--foreground)',
               }}>
                 {excerpt}
               </p>
@@ -345,8 +347,9 @@ export default function PerceptionDiagnostic({
           marginTop: '1.5rem',
           padding: '1.5rem',
           borderRadius: '12px',
-          background: 'rgba(0, 0, 0, 0.4)',
-          border: '1px solid rgba(99, 102, 241, 0.3)',
+          background: '#f8fafc',
+          border: '1px solid #c7d2fe',
+          boxShadow: '0 2px 10px rgba(99, 102, 241, 0.06)',
           animation: 'fadeIn 0.3s ease-out',
         }}>
           <div style={{
@@ -354,7 +357,7 @@ export default function PerceptionDiagnostic({
             alignItems: 'center',
             gap: '0.6rem',
             marginBottom: '0.8rem',
-            color: '#818cf8',
+            color: '#6366f1',
           }}>
             <Award size={20} />
             <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--foreground)' }}>
@@ -365,14 +368,15 @@ export default function PerceptionDiagnostic({
           <div style={{
             padding: '1rem',
             borderRadius: '8px',
-            background: 'rgba(99, 102, 241, 0.1)',
-            border: '1px solid rgba(99, 102, 241, 0.2)',
+            background: '#ffffff',
+            border: '1px solid #c7d2fe',
+            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
             marginBottom: '1.25rem',
           }}>
             <p style={{
               fontSize: '0.95rem',
-              fontWeight: 600,
-              color: '#c7d2fe',
+              fontWeight: 700,
+              color: '#4338ca',
               lineHeight: 1.6,
             }}>
               {t.diagnosticResultMatch(selectedPerspective.country)}
@@ -409,8 +413,9 @@ export default function PerceptionDiagnostic({
                     style={{
                       padding: '0.75rem',
                       borderRadius: '8px',
-                      background: 'rgba(255, 255, 255, 0.02)',
-                      border: '1px solid rgba(255, 255, 255, 0.05)',
+                      background: '#ffffff',
+                      border: '1px solid var(--card-border)',
+                      boxShadow: '0 1px 3px rgba(0, 0, 0, 0.03)',
                     }}
                   >
                     <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.3rem' }}>
@@ -432,7 +437,7 @@ export default function PerceptionDiagnostic({
             flexWrap: 'wrap',
             gap: '0.75rem',
             paddingTop: '0.8rem',
-            borderTop: '1px solid rgba(255, 255, 255, 0.08)',
+            borderTop: '1px solid var(--card-border)',
           }}>
             <Link
               href={eventHref}
@@ -457,9 +462,9 @@ export default function PerceptionDiagnostic({
                 style={{
                   padding: '0.45rem 1rem',
                   borderRadius: '20px',
-                  background: 'rgba(255, 255, 255, 0.08)',
-                  border: '1px solid rgba(255, 255, 255, 0.15)',
-                  color: '#fff',
+                  background: '#6366f1',
+                  border: 'none',
+                  color: '#ffffff',
                   fontSize: '0.8rem',
                   fontWeight: 600,
                   cursor: 'pointer',
@@ -467,6 +472,7 @@ export default function PerceptionDiagnostic({
                   alignItems: 'center',
                   gap: '0.4rem',
                   transition: 'all 0.2s ease',
+                  boxShadow: '0 2px 6px rgba(99, 102, 241, 0.25)',
                 }}
               >
                 <Share2 size={13} />
@@ -479,8 +485,8 @@ export default function PerceptionDiagnostic({
                 style={{
                   padding: '0.45rem 0.9rem',
                   borderRadius: '20px',
-                  background: 'transparent',
-                  border: '1px solid rgba(255, 255, 255, 0.1)',
+                  background: '#ffffff',
+                  border: '1px solid var(--card-border)',
                   color: 'var(--text-secondary)',
                   fontSize: '0.8rem',
                   cursor: 'pointer',

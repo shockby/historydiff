@@ -288,7 +288,7 @@ export default function MiniDiffDemo({ lang }: MiniDiffDemoProps) {
             {currentEvent.year}
           </span>
         </div>
-        <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#fff', marginBottom: '0.4rem' }}>
+        <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--foreground)', marginBottom: '0.4rem' }}>
           {t.miniDemoTitle}
         </h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>

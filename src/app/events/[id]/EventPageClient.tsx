@@ -643,7 +643,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
               gap: '0.6rem',
               marginBottom: '1.25rem',
               paddingBottom: '0.6rem',
-              borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+              borderBottom: '1px solid var(--card-border)',
             }}>
               <Sparkles size={18} style={{ color: 'var(--accent)' }} />
               <h3 style={{ fontSize: isMobile ? '1.05rem' : '1.2rem', fontWeight: 800, color: 'var(--foreground)' }}>
@@ -661,15 +661,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             {perspectives.length >= 2 && (
               <CollapsibleSection
                 id="perception-diagnostic"
-                icon={<Compass size={22} style={{ color: '#60a5fa' }} />}
+                icon={<Compass size={22} style={{ color: '#2563eb' }} />}
                 badgeText={
                   activeLang === 'ja' ? '歴史認識診断' :
                   activeLang === 'zh' ? '认知诊断' :
                   activeLang === 'ko' ? '역사 인식 진단' : 'PERCEPTION CHECK'
                 }
-                badgeBg="rgba(59, 130, 246, 0.15)"
-                badgeColor="#93c5fd"
-                badgeBorder="rgba(59, 130, 246, 0.35)"
+                badgeBg="rgba(37, 99, 235, 0.08)"
+                badgeColor="#1d4ed8"
+                badgeBorder="rgba(37, 99, 235, 0.25)"
                 title={t.diagnosticTitle}
                 subtitle={
                   activeLang === 'ja'
@@ -685,7 +685,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'zh' ? '🎯 30秒测试' :
                   activeLang === 'ko' ? '🎯 30초 진단' : '🎯 30s Check'
                 }
-                themeColor="#3b82f6"
+                themeColor="#2563eb"
                 actionLabel={
                   activeLang === 'ja' ? '診断する' :
                   activeLang === 'zh' ? '开始诊断' :
@@ -711,15 +711,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             {perspectives.length >= 2 && (
               <CollapsibleSection
                 id="history-quiz"
-                icon={<HelpCircle size={22} style={{ color: '#fbbf24' }} />}
+                icon={<HelpCircle size={22} style={{ color: '#d97706' }} />}
                 badgeText={
                   activeLang === 'ja' ? 'ミニクイズ' :
                   activeLang === 'zh' ? '迷你测验' :
                   activeLang === 'ko' ? '미니 퀴즈' : 'MINI QUIZ'
                 }
-                badgeBg="rgba(245, 158, 11, 0.15)"
-                badgeColor="#fcd34d"
-                badgeBorder="rgba(245, 158, 11, 0.35)"
+                badgeBg="rgba(217, 119, 6, 0.08)"
+                badgeColor="#b45309"
+                badgeBorder="rgba(217, 119, 6, 0.25)"
                 title={t.quizTitle}
                 subtitle={
                   activeLang === 'ja'
@@ -735,7 +735,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'zh' ? '💡 挑战测验' :
                   activeLang === 'ko' ? '💡 퀴즈 도전' : '💡 Quiz Challenge'
                 }
-                themeColor="#f59e0b"
+                themeColor="#d97706"
                 actionLabel={
                   activeLang === 'ja' ? 'クイズを解く' :
                   activeLang === 'zh' ? '参与测验' :
@@ -761,15 +761,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             {notes.length > 0 && (
               <CollapsibleSection
                 id="community-notes"
-                icon={<Shield size={22} style={{ color: '#34d399' }} />}
+                icon={<Shield size={22} style={{ color: '#059669' }} />}
                 badgeText={
                   activeLang === 'ja' ? '事実検証' :
                   activeLang === 'zh' ? '事实核查' :
                   activeLang === 'ko' ? '팩트 체크' : 'FACT CHECK'
                 }
-                badgeBg="rgba(16, 185, 129, 0.15)"
-                badgeColor="#6ee7b7"
-                badgeBorder="rgba(16, 185, 129, 0.35)"
+                badgeBg="rgba(5, 150, 105, 0.08)"
+                badgeColor="#047857"
+                badgeBorder="rgba(5, 150, 105, 0.25)"
                 title={t.communityNotesTitle}
                 subtitle={
                   activeLang === 'ja'
@@ -785,7 +785,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'zh' ? `🛡️ ${notes.length}条核查` :
                   activeLang === 'ko' ? `🛡️ ${notes.length}개 검증` : `🛡️ ${notes.length} Verified`
                 }
-                themeColor="#10b981"
+                themeColor="#059669"
                 actionLabel={
                   activeLang === 'ja' ? 'ノートを見る' :
                   activeLang === 'zh' ? '查看笔记' :
@@ -805,15 +805,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             {voices && voices.voices.length > 0 && (
               <CollapsibleSection
                 id="public-voices"
-                icon={<MessageCircle size={22} style={{ color: '#f472b6' }} />}
+                icon={<MessageCircle size={22} style={{ color: '#db2777' }} />}
                 badgeText={
                   activeLang === 'ja' ? '世論・市民の声' :
                   activeLang === 'zh' ? '公众舆论' :
                   activeLang === 'ko' ? '여론과 시민 반응' : 'PUBLIC VOICES'
                 }
-                badgeBg="rgba(236, 72, 153, 0.15)"
-                badgeColor="#fbcfe8"
-                badgeBorder="rgba(236, 72, 153, 0.35)"
+                badgeBg="rgba(219, 39, 119, 0.08)"
+                badgeColor="#be185d"
+                badgeBorder="rgba(219, 39, 119, 0.25)"
                 title={t.publicVoicesTitle}
                 subtitle={
                   activeLang === 'ja'
@@ -829,7 +829,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
                   activeLang === 'zh' ? `💬 ${voices.voices.length}条舆论` :
                   activeLang === 'ko' ? `💬 ${voices.voices.length}개 여론` : `💬 ${voices.voices.length} Voices`
                 }
-                themeColor="#ec4899"
+                themeColor="#db2777"
                 actionLabel={
                   activeLang === 'ja' ? '世論を見る' :
                   activeLang === 'zh' ? '查看舆论' :

@@ -192,8 +192,8 @@ export default function WelcomeModal({ lang }: WelcomeModalProps) {
             style={{
               padding: '1.2rem 1rem',
               borderRadius: '14px',
-              backgroundColor: 'rgba(255, 255, 255, 0.03)',
-              border: '1px solid var(--glass-border)',
+              backgroundColor: '#f8fafc',
+              border: '1px solid var(--card-border)',
               display: 'flex',
               flexDirection: 'column',
               gap: '0.6rem',
@@ -226,8 +226,8 @@ export default function WelcomeModal({ lang }: WelcomeModalProps) {
             style={{
               padding: '1.2rem 1rem',
               borderRadius: '14px',
-              backgroundColor: 'rgba(255, 255, 255, 0.03)',
-              border: '1px solid var(--glass-border)',
+              backgroundColor: '#f8fafc',
+              border: '1px solid var(--card-border)',
               display: 'flex',
               flexDirection: 'column',
               gap: '0.6rem',
@@ -260,8 +260,8 @@ export default function WelcomeModal({ lang }: WelcomeModalProps) {
             style={{
               padding: '1.2rem 1rem',
               borderRadius: '14px',
-              backgroundColor: 'rgba(255, 255, 255, 0.03)',
-              border: '1px solid var(--glass-border)',
+              backgroundColor: '#f8fafc',
+              border: '1px solid var(--card-border)',
               display: 'flex',
               flexDirection: 'column',
               gap: '0.6rem',

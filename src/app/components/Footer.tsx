@@ -27,11 +27,12 @@ export default function Footer() {
   const t = translations[lang] || translations.en;
   const guideLink = lang === 'en' ? '/guide' : `/${lang}/guide`;
   const homeLink = lang === 'en' ? '/' : `/${lang}`;
+  const archiveLink = lang === 'en' ? '/events' : `/${lang}/events`;
 
   return (
-    <footer style={{ padding: '3.5rem 2rem 4rem', borderTop: '1px solid var(--glass-border)', textAlign: 'center', color: 'var(--text-secondary)' }}>
+    <footer style={{ padding: '3.5rem 2rem 4rem', borderTop: '1px solid var(--card-border)', background: '#f8fafc', textAlign: 'center', color: 'var(--text-secondary)' }}>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginBottom: '1.25rem', fontSize: '0.9rem' }}>
-        <Link href={homeLink} style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
+        <Link href={archiveLink} style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
           {t.archive}
         </Link>
         <span>•</span>

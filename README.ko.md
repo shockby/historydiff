@@ -81,14 +81,16 @@ historydiff/
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 다국어 라우팅
-│   │   │   ├── events/[id]/      # 언어별 이벤트 상세 및 비교 페이지
+│   │   │   ├── events/           # 언어별 비교 아카이브 목록 페이지
+│   │   │   │   └── [id]/         # 언어별 이벤트 상세 및 비교 페이지
 │   │   │   ├── guide/            # 다국어 지원 이용 가이드 페이지
-│   │   │   └── page.tsx          # 언어별 검색 및 메인 페이지
+│   │   │   └── page.tsx          # 언어별 메인 페이지 (화이트 톤·섹션 계층화 LP)
 │   │   ├── components/           # UI 컴포넌트군
 │   │   │   ├── ClaimDiffInline.tsx      # 단어/문장 단위 인라인 Diff 하이라이트
 │   │   │   ├── CommunityNotes.tsx       # 주장 사실 확인, 판정, 사료 및 유용성 평가
 │   │   │   ├── ControversyKeywords.tsx  # 고유 어휘 및 대립 표현 자동 추출 패널
 │   │   │   ├── DiffView.tsx             # 좌우 나란히 보기 / 한 줄 보기 디프 뷰어
+│   │   │   ├── EventsArchive.tsx        # 비교 아카이브 목록 (검색, 관점 필터, 페이지네이션)
 │   │   │   ├── FeaturedEvents.tsx       # 쟁점 사건 특집 섹션
 │   │   │   ├── Header.tsx / Footer.tsx  # 내비게이션 및 푸터
 │   │   │   ├── HistoryQuiz.tsx          # 교과서 맞히기 미니 퀴즈
@@ -100,15 +102,17 @@ historydiff/
 │   │   │   ├── PerceptionDiagnostic.tsx # 역사 인식 괴리 진단기
 │   │   │   ├── PhotoGallery.tsx         # 관련 역사 사진 갤러리
 │   │   │   ├── PublicVoices.tsx         # 소셜 미디어 여론의 목소리 (주관적 참고 정보)
-│   │   │   ├── SearchEvents.tsx         # 주요국 핀 필터, 검색, 아카이브 카탈로그
+│   │   │   ├── SearchEvents.tsx         # 메인 화면 (최신 아카이브 선별 쇼케이스 및 목록 유도)
 │   │   │   ├── SourceNatureBadges.tsx   # 출처 성격 및 언어 태그
 │   │   │   ├── TimelineView.tsx         # 시계열 연표 뷰
 │   │   │   ├── WelcomeModal.tsx         # 첫 방문자 온보딩 모달
 │   │   │   └── WhyItMattersSection.tsx  # 현대적 의의, 실시간 뉴스 및 관전 포인트
+│   │   ├── events/               # 루트 비교 아카이브 목록 페이지 (영어)
+│   │   │   └── [id]/             # 루트 이벤트 상세 및 비교 페이지
 │   │   ├── guide/                # 루트 가이드 페이지 (영어)
 │   │   ├── globals.css           # 글로벌 테마, 디자인 토큰 및 CSS 변수
 │   │   ├── layout.tsx            # 전역 공유 레이아웃
-│   │   ├── page.tsx              # 전역 루트 페이지
+│   │   ├── page.tsx              # 전역 루트 메인 페이지
 │   │   ├── robots.ts             # 동적 robots.txt
 │   │   └── sitemap.ts            # 동적 sitemap.xml
 │   └── lib/

@@ -72,35 +72,31 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
   const labelAnnotations = lang === 'ja' ? '注釈' : lang === 'zh' ? '注释' : lang === 'ko' ? '주석' : 'Notes';
 
   return (
-    <div style={{
-      marginTop: '0.6rem',
-      borderTop: `1px dashed ${color}44`,
-      paddingTop: '0.6rem',
-    }}>
+    <div>
       {/* ヘッダー */}
       <div style={{
         display: 'flex',
         alignItems: 'center',
         gap: '0.4rem',
-        marginBottom: '0.5rem',
+        marginBottom: '0.6rem',
       }}>
-        <span style={{ fontSize: '0.65rem', color: color, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+        <span style={{ fontSize: '0.68rem', color: color, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
           📌 {labelAnnotations}
         </span>
         <span style={{
-          fontSize: '0.6rem',
-          padding: '1px 6px',
+          fontSize: '0.62rem',
+          padding: '1px 7px',
           borderRadius: '10px',
-          background: `${color}22`,
+          background: `${color}18`,
           color: color,
-          fontWeight: 600,
+          fontWeight: 700,
         }}>
           {notes.length}
         </span>
       </div>
 
       {/* ノートリスト */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
         {notes.map((note) => {
           const isOpen = openNoteId === note.id;
           const vs = getVerdictStyle(note.verdict);
@@ -118,11 +114,12 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                   width: '100%',
                   display: 'flex',
                   alignItems: 'flex-start',
-                  gap: '0.5rem',
-                  padding: '0.4rem 0.6rem',
-                  borderRadius: '6px',
-                  border: `1px solid ${isOpen ? color + '55' : 'rgba(255,255,255,0.06)'}`,
-                  background: isOpen ? `${color}0d` : 'rgba(255,255,255,0.02)',
+                  gap: '0.55rem',
+                  padding: '0.5rem 0.75rem',
+                  borderRadius: '8px',
+                  border: `1px solid ${isOpen ? color + '88' : 'var(--card-border)'}`,
+                  background: '#ffffff',
+                  boxShadow: isOpen ? `0 2px 8px ${color}15` : '0 1px 3px rgba(0, 0, 0, 0.03)',
                   cursor: 'pointer',
                   textAlign: 'left',
                   transition: 'all 0.18s ease',
@@ -130,23 +127,23 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                 }}
                 onMouseEnter={(e) => {
                   if (!isOpen) {
-                    (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.05)';
-                    (e.currentTarget as HTMLElement).style.borderColor = `${color}44`;
+                    (e.currentTarget as HTMLElement).style.background = '#f8fafc';
+                    (e.currentTarget as HTMLElement).style.borderColor = `${color}66`;
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (!isOpen) {
-                    (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.02)';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.06)';
+                    (e.currentTarget as HTMLElement).style.background = '#ffffff';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'var(--card-border)';
                   }
                 }}
               >
                 {/* verdict icon */}
                 <span style={{
                   flexShrink: 0,
-                  fontSize: '0.7rem',
-                  width: '18px',
-                  height: '18px',
+                  fontSize: '0.72rem',
+                  width: '20px',
+                  height: '20px',
                   borderRadius: '50%',
                   background: vs.bg,
                   color: vs.color,
@@ -161,9 +158,10 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
 
                 {/* claim text */}
                 <span style={{
-                  fontSize: '0.72rem',
-                  color: 'var(--text-secondary)',
-                  lineHeight: 1.45,
+                  fontSize: '0.76rem',
+                  fontWeight: 600,
+                  color: 'var(--foreground)',
+                  lineHeight: 1.5,
                   flex: 1,
                 }}>
                   {note.claim}
@@ -172,11 +170,11 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                 {/* chevron */}
                 <span style={{
                   flexShrink: 0,
-                  fontSize: '0.6rem',
+                  fontSize: '0.62rem',
                   color: 'var(--text-secondary)',
                   transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                   transition: 'transform 0.18s ease',
-                  marginTop: '2px',
+                  marginTop: '3px',
                 }}>
                   ▼
                 </span>
@@ -187,12 +185,13 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                 <div
                   onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
                   style={{
-                    margin: '0.25rem 0 0.25rem 1.6rem',
-                    padding: '0.7rem 0.9rem',
-                    borderRadius: '6px',
-                    background: 'rgba(255,255,255,0.03)',
-                    border: `1px solid ${color}33`,
+                    margin: '0.35rem 0 0.25rem 1.6rem',
+                    padding: '0.85rem 1rem',
+                    borderRadius: '8px',
+                    background: '#ffffff',
+                    border: '1px solid var(--card-border)',
                     borderLeft: `3px solid ${color}`,
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
                   }}
                 >
                   {/* verdict badge */}
@@ -205,16 +204,16 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                     background: vs.bg,
                     marginBottom: '0.5rem',
                   }}>
-                    <span style={{ fontSize: '0.65rem', color: vs.color, fontWeight: 700 }}>
+                    <span style={{ fontSize: '0.68rem', color: vs.color, fontWeight: 700 }}>
                       {t.verdictLabel}: {note.verdict}
                     </span>
                   </div>
 
                   {/* context */}
                   <p style={{
-                    fontSize: '0.73rem',
-                    color: 'var(--text-secondary)',
-                    lineHeight: 1.6,
+                    fontSize: '0.76rem',
+                    color: '#334155',
+                    lineHeight: 1.65,
                     margin: '0 0 0.6rem 0',
                   }}>
                     {note.context}
@@ -222,7 +221,7 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
 
                   {/* sources */}
                   {note.sources.length > 0 && (
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem' }}>
                       {note.sources.map((src, i) => (
                         <a
                           key={i}
@@ -231,7 +230,7 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
                           style={{
-                            fontSize: '0.65rem',
+                            fontSize: '0.68rem',
                             color: color,
                             textDecoration: 'none',
                             display: 'flex',
@@ -240,10 +239,10 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
                           }}
                         >
                           <span>🔗</span>
-                          <span style={{ textDecoration: 'underline', textUnderlineOffset: '2px' }}>
+                          <span style={{ textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 500 }}>
                             {src.title}
                           </span>
-                          <span style={{ color: 'var(--text-secondary)', opacity: 0.6 }}>
+                          <span style={{ color: 'var(--text-secondary)', opacity: 0.75 }}>
                             — {src.publisher}
                           </span>
                         </a>
@@ -427,21 +426,22 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                 padding: '0.4rem 1.8rem 0.4rem 0.75rem',
                 borderRadius: '8px',
                 border: selectedDecade !== 'all' ? '1px solid var(--accent)' : '1px solid var(--card-border)',
-                background: selectedDecade !== 'all' ? 'rgba(var(--accent-rgb, 139,92,246),0.12)' : 'rgba(255,255,255,0.04)',
-                color: selectedDecade !== 'all' ? '#fff' : 'var(--text-primary)',
+                background: selectedDecade !== 'all' ? 'var(--accent-light)' : '#ffffff',
+                color: selectedDecade !== 'all' ? 'var(--accent)' : 'var(--foreground)',
+                fontWeight: selectedDecade !== 'all' ? 600 : 400,
                 fontSize: '0.82rem',
                 cursor: 'pointer',
                 outline: 'none',
                 appearance: 'none',
-                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
+                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%2364748b\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'right 0.6rem center',
                 backgroundSize: '0.85em',
               }}
             >
-              <option value="all" style={{ background: '#121216' }}>{ui.allDecades} ({availableDecades.length})</option>
+              <option value="all">{ui.allDecades} ({availableDecades.length})</option>
               {availableDecades.map((d) => (
-                <option key={d.key} value={d.key} style={{ background: '#121216' }}>
+                <option key={d.key} value={d.key}>
                   {d.label}
                 </option>
               ))}
@@ -459,21 +459,22 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                 padding: '0.4rem 1.8rem 0.4rem 0.75rem',
                 borderRadius: '8px',
                 border: selectedCategory !== 'all' ? '1px solid var(--accent)' : '1px solid var(--card-border)',
-                background: selectedCategory !== 'all' ? 'rgba(var(--accent-rgb, 139,92,246),0.12)' : 'rgba(255,255,255,0.04)',
-                color: selectedCategory !== 'all' ? '#fff' : 'var(--text-primary)',
+                background: selectedCategory !== 'all' ? 'var(--accent-light)' : '#ffffff',
+                color: selectedCategory !== 'all' ? 'var(--accent)' : 'var(--foreground)',
+                fontWeight: selectedCategory !== 'all' ? 600 : 400,
                 fontSize: '0.82rem',
                 cursor: 'pointer',
                 outline: 'none',
                 appearance: 'none',
-                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23a1a1aa\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
+                backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%2364748b\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Cpolyline points=\'6 9 12 15 18 9\'%3E%3C/polyline%3E%3C/svg%3E")',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'right 0.6rem center',
                 backgroundSize: '0.85em',
               }}
             >
-              <option value="all" style={{ background: '#121216' }}>{ui.allCategories} ({availableCategories.length})</option>
+              <option value="all">{ui.allCategories} ({availableCategories.length})</option>
               {availableCategories.map((cat) => (
-                <option key={cat} value={cat} style={{ background: '#121216' }}>
+                <option key={cat} value={cat}>
                   {cat}
                 </option>
               ))}
@@ -490,9 +491,9 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
               gap: '0.4rem',
               padding: '0.4rem 0.85rem',
               borderRadius: '8px',
-              border: onlyWithNotes ? '1px solid rgba(251,191,36,0.7)' : '1px solid var(--card-border)',
-              background: onlyWithNotes ? 'rgba(251,191,36,0.18)' : 'rgba(255,255,255,0.03)',
-              color: onlyWithNotes ? '#fbbf24' : 'var(--text-secondary)',
+              border: onlyWithNotes ? '1px solid rgba(245,158,11,0.7)' : '1px solid var(--card-border)',
+              background: onlyWithNotes ? 'rgba(245,158,11,0.12)' : '#ffffff',
+              color: onlyWithNotes ? '#d97706' : 'var(--text-secondary)',
               fontSize: '0.82rem',
               fontWeight: onlyWithNotes ? 700 : 500,
               cursor: 'pointer',
@@ -518,8 +519,8 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                 gap: '0.35rem',
                 padding: '0.4rem 0.75rem',
                 borderRadius: '8px',
-                border: '1px solid rgba(255,255,255,0.1)',
-                background: 'rgba(255,255,255,0.05)',
+                border: '1px solid var(--card-border)',
+                background: '#ffffff',
                 color: 'var(--text-secondary)',
                 fontSize: '0.78rem',
                 cursor: 'pointer',
@@ -539,7 +540,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
 
         {/* Quick jump decade chips (only shown when 'all' decades is selected) */}
         {selectedDecade === 'all' && availableDecades.length > 1 && (
-          <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', alignItems: 'center', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '0.75rem' }}>
+          <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', alignItems: 'center', borderTop: '1px solid var(--card-border)', paddingTop: '0.75rem' }}>
             <span style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginRight: '0.3rem' }}>
               ⚡
             </span>
@@ -559,20 +560,20 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                   style={{
                     padding: '0.2rem 0.55rem',
                     borderRadius: '12px',
-                    border: '1px solid rgba(255,255,255,0.08)',
-                    background: 'rgba(255,255,255,0.03)',
+                    border: '1px solid var(--card-border)',
+                    background: '#ffffff',
                     color: 'var(--text-secondary)',
                     fontSize: '0.73rem',
                     cursor: 'pointer',
                     transition: 'all 0.15s ease',
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = '#fff';
+                    (e.currentTarget as HTMLElement).style.color = 'var(--accent)';
                     (e.currentTarget as HTMLElement).style.borderColor = 'var(--accent)';
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLElement).style.color = 'var(--text-secondary)';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'var(--card-border)';
                   }}
                 >
                   {d.label} ({countInDecade})
@@ -703,7 +704,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                   fontSize: '0.7rem',
                                   padding: '2px 8px',
                                   borderRadius: '4px',
-                                  background: 'rgba(255,255,255,0.07)',
+                                  background: '#f1f5f9',
                                   color: 'var(--text-secondary)',
                                   display: 'inline-flex',
                                   alignItems: 'center',
@@ -717,7 +718,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                     fontSize: '0.7rem',
                                     padding: '2px 8px',
                                     borderRadius: '4px',
-                                    background: 'rgba(255,255,255,0.07)',
+                                    background: '#f1f5f9',
                                     color: 'var(--text-secondary)',
                                   }}>
                                     📍 {persp.location}
@@ -740,8 +741,8 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                     fontSize: '0.7rem',
                                     padding: '2px 8px',
                                     borderRadius: '4px',
-                                    background: 'rgba(251,191,36,0.14)',
-                                    color: '#fbbf24',
+                                    background: 'rgba(245,158,11,0.12)',
+                                    color: '#d97706',
                                     fontWeight: 600,
                                   }}>
                                     📌 {relevantNotes.length} {activeLang === 'ja' ? '注釈' : activeLang === 'zh' ? '注释' : activeLang === 'ko' ? '주석' : 'notes'}
@@ -753,7 +754,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                 fontSize: '1.05rem',
                                 fontWeight: 700,
                                 marginBottom: '0.35rem',
-                                color: 'var(--text-primary)',
+                                color: 'var(--foreground)',
                                 overflow: 'hidden',
                                 textOverflow: 'ellipsis',
                                 whiteSpace: 'nowrap',
@@ -790,14 +791,14 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                   padding: '2px 6px',
                                   borderRadius: '4px',
                                   background: p.country === selectedCountry
-                                    ? 'rgba(224,46,46,0.18)'
-                                    : 'rgba(255,255,255,0.05)',
+                                    ? 'var(--accent-light)'
+                                    : '#f1f5f9',
                                   color: p.country === selectedCountry
-                                    ? '#f87171'
+                                    ? 'var(--accent)'
                                     : 'var(--text-secondary)',
                                   border: p.country === selectedCountry
-                                    ? '1px solid rgba(224,46,46,0.35)'
-                                    : '1px solid rgba(255,255,255,0.06)',
+                                    ? '1px solid rgba(220,38,38,0.35)'
+                                    : '1px solid var(--card-border)',
                                   whiteSpace: 'nowrap',
                                 }}>
                                   {p.country}
@@ -810,14 +811,14 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                         {/* Annotation panel: Strictly filtered to notes relevant to THIS decade */}
                         {hasNotes && (
                           <div
-                            className="glass"
                             style={{
-                              padding: '0.8rem 1.5rem',
+                              padding: '0.9rem 1.5rem 1.1rem',
                               borderRadius: '0 0 12px 12px',
                               border: '1px solid var(--card-border)',
                               borderLeft: `3px solid ${color}`,
-                              borderTop: `1px dashed ${color}33`,
-                              background: 'rgba(0,0,0,0.15)',
+                              borderTop: `1px dashed ${color}44`,
+                              background: '#f8fafc',
+                              boxShadow: 'inset 0 1px 2px rgba(0, 0, 0, 0.02)',
                             }}
                           >
                             <AnnotationPanel notes={relevantNotes} lang={lang} color={color} />

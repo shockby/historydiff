@@ -1,6 +1,6 @@
 ---
 id: "kurdish-question"
-title: "The Kurdish Question: A Chinese Perspective"
+title: "Description of The Kurdish Question"
 category: "民族自決・地域紛争"
 year: "20世紀〜現在"
 location: "トルコ・イラク・シリア・イラン"

@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "パプア紛争――中国の視点"
+title: "パプア紛争に関する記述"
 category: "主権・不干渉原則・資源外交"
 year: "1963年〜現在"
 location: "西パプア（インドネシア）、北京"

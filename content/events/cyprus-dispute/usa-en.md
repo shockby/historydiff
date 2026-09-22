@@ -1,6 +1,6 @@
 ---
 id: "cyprus-dispute"
-title: "The Cyprus Dispute: American and English-speaking Perspective"
+title: "Description of The Cyprus Dispute"
 category: "Occupation / Division / State Recognition"
 year: "1974–present"
 location: "Cyprus (Eastern Mediterranean)"

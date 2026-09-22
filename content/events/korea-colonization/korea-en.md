@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "South Korean Perspective on Japanese Colonial Rule"
+title: "Colonial Rule and the Korean Independence Movement"
 category: "Colonial Rule & Historical Perception"
 year: "1910-1945"
 location: "Korean Peninsula"

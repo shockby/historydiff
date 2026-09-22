@@ -1,6 +1,6 @@
 ---
 id: "iran-iraq-war"
-title: "The Iran-Iraq War: Perspectives from Both Sides"
+title: "Local and Regional Account of The Iran-Iraq War"
 category: "地域紛争・国際安全保障"
 year: "1980-1988年"
 location: "イラン・イラク国境地帯"

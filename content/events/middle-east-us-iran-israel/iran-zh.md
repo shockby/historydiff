@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: 抵抗帝国主义与输出革命——伊朗视角下的中东80年史
+title: "抵抗帝国主义与输出革命——中东80年历史记述"
 category: 战争、冲突与占领
 year: 1953年至今
 location: 伊朗、中东全境

@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "The United States' Position on the Falklands / Malvinas Conflict"
+title: "The Falklands Conflict, the Rio Treaty, and Strategic Alliances"
 category: "Diplomatic stance / International relations"
 year: "1982"
 location: "South Atlantic"

@@ -30,6 +30,7 @@ const MapView = dynamic(() => import('./MapView'), { ssr: false });
 export interface EventsArchiveProps {
   initialEvents: {
     id: string;
+    title?: string;
     perspectives: EventPerspective[];
     imageUrl?: string;
     notes?: EventNote[];
@@ -447,10 +448,11 @@ function EventsArchiveInner({ initialEvents, lang }: EventsArchiveProps) {
               {paginatedEvents.length > 0 ? (
                 paginatedEvents.map((event) => {
                   const { isMatch, ...persp } = getPerspective(event);
+                  const cardTitle = (event.title ?? persp.title);
                   return (
                     <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
                       <div
-                        title={persp.title}
+                        title={cardTitle}
                         className="card"
                         style={{
                           padding: 0,
@@ -468,7 +470,7 @@ function EventsArchiveInner({ initialEvents, lang }: EventsArchiveProps) {
                           <div className="card-image-container">
                             <img
                               src={event.imageUrl}
-                              alt={persp.title}
+                              alt={cardTitle}
                               loading="lazy"
                               className="card-image"
                             />
@@ -533,7 +535,7 @@ function EventsArchiveInner({ initialEvents, lang }: EventsArchiveProps) {
                             </span>
                           </div>
                           <h2 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem', color: 'var(--foreground)' }}>
-                            {persp.title}
+                            {cardTitle}
                           </h2>
                           <p style={{
                             color: 'var(--text-secondary)',

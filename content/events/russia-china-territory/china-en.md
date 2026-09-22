@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "War and territorial issues between China and Russia: China's perspective"
+title: "Description of Sino-Russian Border and Territorial Treaties"
 category: "Territorial issues/war"
 year: "1689-present"
 location: "Outer Manchuria, Amur River Basin, Ussuri River Basin, Central Asian Border Area"

@@ -1,6 +1,6 @@
 ---
 id: "korean-war-division"
-title: "The Korean War and Division: Japan's Perspective"
+title: "Description of the Korean War and National Division"
 category: "Cold War / Divided Nations"
 year: "1950–present"
 location: "Korean Peninsula / Japan"

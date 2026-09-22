@@ -1,6 +1,6 @@
 ---
 id: "lebanon-israel-conflict"
-title: "Lebanon-Israel Conflict: Chinese Perspective"
+title: "Description of the Lebanon-Israel Conflict"
 category: "地域紛争・国際安全保障"
 year: "1978年〜現在"
 location: "レバノン・イスラエル国境地帯"

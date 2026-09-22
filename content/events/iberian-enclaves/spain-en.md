@@ -1,6 +1,6 @@
 ---
 id: "iberian-enclaves"
-title: "Ceuta, Melilla, Gibraltar & the Canary Islands: Spain's Perspective"
+title: "Sovereignty and Historical Integration of Ceuta and Melilla"
 category: "Territorial Disputes & Sovereignty"
 year: "1415–present"
 location: "North Africa, Mediterranean & Atlantic"

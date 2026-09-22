@@ -1,6 +1,6 @@
 ---
 id: "western-sahara"
-title: "西サハラ問題における国連の立場――30年以上未実施の住民投票とMINURSO"
+title: "西サハラ問題とMINURSO（国連監視団）に関する記述"
 category: "国際法・国連決議・非自治地域"
 year: "1975年-現在"
 location: "西サハラ・国際連合"

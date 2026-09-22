@@ -1,6 +1,6 @@
 ---
 id: "northern-territories"
-title: "一、美国在北方四岛（南千岛群岛）问题上的立场"
+title: "关于北方四岛（南千岛群岛）归属与和平条约的记述"
 category: "领土问题/外交"
 year: "1945年至今"
 location: "北方四岛（南千岛群岛）"

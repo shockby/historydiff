@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "China's Position on the Kashmir Conflict"
+title: "The Kashmir Dispute and Aksai Chin"
 category: "Territorial issues/Sovereignty"
 year: "1947–present"
 location: "Kashmir Region (South Asia) / Aksai Chin"

@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "カシミール問題に関するパキスタンの立場"
+title: "カシミール地方の自決権に関する記述"
 category: "領土問題・主権"
 year: "1947年〜現在"
 location: "カシミール地方（南アジア）"

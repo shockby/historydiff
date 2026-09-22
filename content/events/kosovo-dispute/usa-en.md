@@ -1,6 +1,6 @@
 ---
 id: "kosovo-dispute"
-title: "The Kosovo Dispute: American and English-speaking Perspective"
+title: "Description of The Kosovo Dispute"
 category: "Independence / State Recognition / Self-Determination"
 year: "1999–present"
 location: "Kosovo (Balkans, former Yugoslavia)"

@@ -1,6 +1,6 @@
 ---
 id: "afghanistan-conflict"
-title: "아프가니스탄 분쟁：중국의 시각"
+title: "아프가니스탄 분쟁과 평화 재건에 관한 기술"
 category: "전쟁·분쟁·점령"
 year: "2001년~현재"
 location: "아프가니스탄 이슬람 에미리트"

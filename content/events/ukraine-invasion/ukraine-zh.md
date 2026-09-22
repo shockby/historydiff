@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "乌克兰关于俄罗斯侵略战争的官方立场"
+title: "关于抵抗全面侵略与领土完整的记述"
 category: "领土争端・主权・安全保障"
 year: "2022年2月至今"
 location: "乌克兰全境"

@@ -1,6 +1,6 @@
 ---
 id: "kosovo-dispute"
-title: "The Kosovo Dispute — UN, EU, and NATO Perspectives"
+title: "UN and International Framework on The Kosovo Dispute"
 category: "Independence / State Recognition / Self-Determination"
 year: "1999–present"
 location: "Kosovo (Balkan Peninsula, former Yugoslavia)"

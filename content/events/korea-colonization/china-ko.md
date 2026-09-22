@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "일본의 조선 식민지 지배에 관한 중국의 견해"
+title: "일제의 조선 식민 지배에 관한 기술"
 category: "식민지 지배·제국주의·역사 인식 문제"
 year: "1910년~1945년"
 location: "한반도·동아시아"

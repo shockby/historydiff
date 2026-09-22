@@ -1,6 +1,6 @@
 ---
 id: "iran-iraq-war"
-title: "イラン・イラク戦争：日本の視点"
+title: "イラン・イラク戦争に関する記述"
 category: "地域紛争・国際安全保障"
 year: "1980-1988年"
 location: "イラン・イラク国境地帯"

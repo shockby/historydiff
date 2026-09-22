@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "The Papua Conflict — China's Perspective"
+title: "Description of The Papua Conflict"
 category: "Sovereignty, Non-Interference & Resource Diplomacy"
 year: "1963–present"
 location: "West Papua (Indonesia); Beijing"

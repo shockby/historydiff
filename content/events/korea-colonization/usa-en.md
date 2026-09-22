@@ -1,6 +1,6 @@
 ---
 id: "korea-colonization"
-title: "America's view on Japan's colonial rule of Korea"
+title: "Japanese Rule in Korea and Modern East Asian Order"
 category: "Colonial rule, international relations, and historical awareness issues"
 year: "1910-1945"
 location: "Korean Peninsula/East Asia"

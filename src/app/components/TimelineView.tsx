@@ -8,7 +8,7 @@ import { getEventDecades, getRelevantNotesForDecade, DecadeInfo } from '@/lib/ti
 import { Calendar, Layers, Filter, CheckCircle2, RotateCcw } from 'lucide-react';
 
 interface TimelineViewProps {
-  events: { id: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] }[];
+  events: { id: string; title?: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] }[];
   lang: string;
   selectedCountry?: string;
 }
@@ -260,7 +260,7 @@ function AnnotationPanel({ notes, lang, color }: AnnotationPanelProps) {
 }
 
 interface TimelineItem {
-  event: { id: string; perspectives: EventPerspective[]; imageUrl?: string; notes?: EventNote[] };
+  event: TimelineViewProps['events'][number];
   persp: EventPerspective;
   decade: DecadeInfo;
   isPrimaryDecade: boolean;
@@ -279,14 +279,14 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
     activeLang === 'en' ? `/events/${id}` : `/${activeLang}/events/${id}`;
 
   // Helper to pick perspective based on selectedCountry
-  const getPerspective = (ev: { perspectives: EventPerspective[] }): EventPerspective => {
+  const getPerspective = useCallback((ev: { perspectives: EventPerspective[] }): EventPerspective => {
     if (selectedCountry !== 'all') {
       const match = ev.perspectives.find((p) => p.country === selectedCountry);
       if (match) return match;
     }
     const jaPref = activeLang === 'ja' ? ev.perspectives.find((p) => p.country === '日本') : undefined;
     return (jaPref ?? (ev.perspectives[0]!));
-  };
+  }, [selectedCountry, activeLang]);
 
   // 1. Expand events across all relevant decades with strict note relevance
   const allTimelineItems = useMemo<TimelineItem[]>(() => {
@@ -312,7 +312,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
     }
 
     return items;
-  }, [events, selectedCountry, activeLang]);
+  }, [events, getPerspective]);
 
   // Collect unique categories and decades for filters
   const { availableCategories, availableDecades } = useMemo(() => {
@@ -681,7 +681,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                               }}>
                                 <img
                                   src={event.imageUrl}
-                                  alt={persp.title}
+                                  alt={(event.title ?? persp.title)}
                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                 />
                               </div>
@@ -759,7 +759,7 @@ export default function TimelineView({ events, lang, selectedCountry = 'all' }: 
                                 textOverflow: 'ellipsis',
                                 whiteSpace: 'nowrap',
                               }}>
-                                {persp.title}
+                                {(event.title ?? persp.title)}
                               </h3>
                               <p style={{
                                 fontSize: '0.82rem',

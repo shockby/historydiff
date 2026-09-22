@@ -1,6 +1,6 @@
 ---
 id: "northern-territories"
-title: "US position on the issue of the Four Northern Islands (Southern Kuril Islands)"
+title: "The Northern Territories Dispute and the San Francisco Peace Treaty"
 category: "Territorial issues/diplomacy"
 year: "1945-present"
 location: "Four Northern Islands (Southern Kuril Islands)"

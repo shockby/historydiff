@@ -1,6 +1,6 @@
 ---
 id: "western-sahara"
-title: "The Western Sahara Issue — Morocco's Position"
+title: "The Western Sahara Dispute and the Moroccan Autonomy Proposal"
 category: "Sovereignty / Territorial Integration / Autonomy"
 year: "1975-present"
 location: "Western Sahara (Morocco's Southern Provinces)"

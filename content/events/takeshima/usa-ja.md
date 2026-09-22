@@ -1,6 +1,6 @@
 ---
 id: "takeshima"
-title: "竹島（Liancourt Rocks）に関する米国の立場と平和条約の記述"
+title: "竹島（Liancourt Rocks）とサンフランシスコ平和条約に関する記述"
 category: "国際関係・外交政策"
 year: "1945-現在"
 location: "日本海"

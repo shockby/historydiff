@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "The Tibetan Perspective on the Kashmir Conflict"
+title: "The Kashmir Region and Historical Ties with Tibet"
 category: "Territorial issues/Sovereignty"
 year: "1947–present"
 location: "Kashmir Region / Tibetan Plateau"

@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "阿拉伯世界视角下的中东局势：美国、伊朗与以色列"
+title: "关于中东局势与阿拉伯世界的记述"
 category: 战争・冲突・占领
 year: 2000年代至今
 location: 中东及海湾地区

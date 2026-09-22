@@ -1,6 +1,6 @@
 ---
 id: "lebanon-israel-conflict"
-title: "レバノン・イスラエル紛争：中国の視点"
+title: "レバノン・イスラエル紛争に関する記述"
 category: "地域紛争・国際安全保障"
 year: "1978年〜現在"
 location: "レバノン・イスラエル国境地帯"

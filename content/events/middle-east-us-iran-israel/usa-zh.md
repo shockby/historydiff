@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: 捍卫自由、民主与地区稳定——美国视角下的中东80年史
+title: "捍卫自由与地区安全秩序——中东80年历史记述"
 category: 战争、冲突与占领
 year: 1947年至今
 location: 中东、波斯湾

@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "中东局势（美国、伊朗与以色列）——全球南方的视角"
+title: "关于中东局势与全球南方协调的记述"
 category: 战争・冲突与占领
 year: 1979年至今
 location: 中东（伊朗、以色列、巴勒斯坦、海湾国家）

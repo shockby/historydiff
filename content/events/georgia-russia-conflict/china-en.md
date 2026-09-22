@@ -1,6 +1,6 @@
 ---
 id: "georgia-russia-conflict"
-title: "The Russo-Georgian War & Abkhazia/South Ossetia: China's Perspective"
+title: "Description of The Russo-Georgian War & Abkhazia/South Ossetia"
 category: "Territorial Dispute / Occupation / State Recognition"
 year: "2008–present"
 location: "South Caucasus (Abkhazia, South Ossetia)"

@@ -1,6 +1,6 @@
 ---
 id: "takeshima"
-title: "U.S. position regarding Takeshima (Liancourt Rocks) and description of the peace treaty"
+title: "Takeshima (Liancourt Rocks) and the San Francisco Peace Treaty"
 category: "International relations/foreign policy"
 year: "1945-present"
 location: "Sea of Japan"

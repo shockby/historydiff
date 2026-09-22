@@ -1,6 +1,6 @@
 ---
 id: "iberian-enclaves"
-title: "Ceuta, Melilla, Gibraltar & the Canary Islands: The United Kingdom's Perspective"
+title: "Status and Self-Determination of Gibraltar"
 category: "Territorial Disputes & Sovereignty"
 year: "1704–present"
 location: "Mediterranean, North Africa & Atlantic"

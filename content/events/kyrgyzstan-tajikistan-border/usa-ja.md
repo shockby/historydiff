@@ -1,6 +1,6 @@
 ---
 id: "kyrgyzstan-tajikistan-border"
-title: "タジキスタン・キルギス国境紛争：アメリカ・英語圏の視点"
+title: "タジキスタン・キルギス国境紛争に関する記述"
 category: "国境未画定・水資源紛争・飛び地問題"
 year: "1991年〜現在"
 location: "フェルガナ盆地（中央アジア）"

@@ -1,6 +1,6 @@
 ---
 id: "papua-conflict"
-title: "The Papua Conflict — United States & English-Speaking World Perspective"
+title: "Description of The Papua Conflict"
 category: "Cold War Legacy, Human Rights & Indo-Pacific Strategy"
 year: "1963–present"
 location: "West Papua (Indonesia); Washington D.C."

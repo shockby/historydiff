@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "Japan's Position on the Falklands / Malvinas Conflict"
+title: "Description of the Falklands (Malvinas) Conflict"
 category: "Diplomatic stance / International relations"
 year: "1982"
 location: "South Atlantic"

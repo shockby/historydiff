@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "러시아의 침략 전쟁에 관한 우크라이나의 공식 입장"
+title: "러시아의 전면 침략과 영토 수호에 관한 기술"
 category: "영토 분쟁·주권·안보"
 year: "2022년 2월~현재"
 location: "우크라이나 전역"

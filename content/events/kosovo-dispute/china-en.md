@@ -1,6 +1,6 @@
 ---
 id: "kosovo-dispute"
-title: "The Kosovo Dispute: China's Perspective"
+title: "Description of The Kosovo Dispute"
 category: "Independence / State Recognition / Self-Determination"
 year: "1999–present"
 location: "Kosovo (Balkans, former Yugoslavia)"

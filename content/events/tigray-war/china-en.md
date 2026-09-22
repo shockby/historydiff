@@ -1,6 +1,6 @@
 ---
 id: "tigray-war"
-title: "Tigray War: China's Perspective"
+title: "Description of the Tigray War"
 category: "Civil War, Federalism vs Centralization, Humanitarian Crisis & Regional Intervention"
 year: "2020–2022"
 location: "Northern Ethiopia (Tigray, Amhara, and Afar regions)"

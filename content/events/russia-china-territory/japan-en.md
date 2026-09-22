@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "War and territorial dispute between China and Russia: Japan's perspective"
+title: "Historical Analysis of Sino-Russian Territorial Disputes"
 category: "Territorial issues/war"
 year: "1689-present"
 location: "Outer Manchuria/Amur River Basin/Ussuri River Basin"

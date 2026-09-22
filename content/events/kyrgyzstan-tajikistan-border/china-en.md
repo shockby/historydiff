@@ -1,6 +1,6 @@
 ---
 id: "kyrgyzstan-tajikistan-border"
-title: "The Kyrgyzstan-Tajikistan Border Conflict: China's Perspective"
+title: "Description of The Kyrgyzstan-Tajikistan Border Conflict"
 category: "Undemarcated Borders / Water Disputes / Enclave Conflicts"
 year: "1991–present"
 location: "Fergana Valley (Central Asia)"

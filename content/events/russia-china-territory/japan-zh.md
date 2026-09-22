@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "一、中俄战争与领土争端：日本的视角"
+title: "关于中俄领土争端历史演变的记述"
 category: "领土问题/战争"
 year: "1689 年至今"
 location: "外满洲里/阿穆尔河流域/乌苏里江流域"

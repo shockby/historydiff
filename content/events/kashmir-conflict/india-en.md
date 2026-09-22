@@ -1,6 +1,6 @@
 ---
 id: "kashmir-conflict"
-title: "India's Position on the Kashmir Conflict"
+title: "Accession of Jammu and Kashmir and Article 370"
 category: "Territorial issues/Sovereignty"
 year: "1947–present"
 location: "Kashmir Region (South Asia)"

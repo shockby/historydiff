@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "中東情勢（米・イラン・イスラエル）—中国の視点"
+title: "中東情勢（米・イラン・イスラエル）に関する記述"
 category: 戦争・紛争・占領
 year: 1979年〜現在
 location: 中東（イラン・イスラエル・パレスチナ・湾岸諸国）

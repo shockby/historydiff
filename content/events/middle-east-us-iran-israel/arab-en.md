@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "The Arab World's Perspective on the Middle East: US, Iran, and Israel"
+title: "The Middle East Situation and the Arab World"
 category: War, Conflict & Occupation
 year: 2000s–Present
 location: Middle East & Gulf Region

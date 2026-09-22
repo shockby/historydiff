@@ -30,6 +30,7 @@ const WelcomeModal = dynamic(() => import('./WelcomeModal'), { ssr: false });
 interface SearchEventsProps {
   initialEvents: {
     id: string;
+    title?: string;
     perspectives: EventPerspective[];
     imageUrl?: string;
     notes?: EventNote[];
@@ -255,10 +256,11 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem', marginBottom: '2.5rem' }}>
               {displayEvents.map((event) => {
                 const persp = getPreferredPerspective(event);
+                const cardTitle = (event.title ?? persp.title);
                 return (
                   <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
                     <div
-                      title={persp.title}
+                      title={cardTitle}
                       className="card"
                       style={{
                         padding: 0,
@@ -275,7 +277,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                         <div className="card-image-container">
                           <img
                             src={event.imageUrl}
-                            alt={persp.title}
+                            alt={cardTitle}
                             loading="lazy"
                             className="card-image"
                           />
@@ -332,7 +334,7 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
                           </span>
                         </div>
                         <h3 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem', color: 'var(--foreground)' }}>
-                          {persp.title}
+                          {cardTitle}
                         </h3>
                         <p style={{
                           color: 'var(--text-secondary)',

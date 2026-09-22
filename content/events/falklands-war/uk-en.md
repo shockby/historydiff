@@ -1,6 +1,6 @@
 ---
 id: "falklands-war"
-title: "The United Kingdom's Position on the Falkland Islands"
+title: "Sovereignty and Self-Determination in the Falkland Islands"
 category: "Territorial issues/Sovereignty"
 year: "1982"
 location: "South Atlantic"

@@ -1,6 +1,6 @@
 ---
 id: "russia-china-territory"
-title: "露中間の国境と領土問題：ロシアの視点"
+title: "露中間の国境と領土問題に関する記述"
 category: "領土問題・戦争"
 year: "1689年-現在"
 location: "アムール川流域・沿海州・中央アジア国境地帯"

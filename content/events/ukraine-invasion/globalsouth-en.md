@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "The Global South's View on Russia's Invasion of Ukraine"
+title: "The Ukraine Conflict and Global South Non-Alignment"
 category: "Territorial Disputes / Sovereignty / Security"
 year: "February 2022–Present"
 location: "All of Ukraine"

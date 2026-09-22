@@ -1,6 +1,6 @@
 ---
 id: "ukraine-invasion"
-title: "中国关于俄罗斯入侵乌克兰的立场"
+title: "关于乌克兰危机与政治解决的记述"
 category: "领土争端・主权・安全保障"
 year: "2022年2月至今"
 location: "乌克兰全境"

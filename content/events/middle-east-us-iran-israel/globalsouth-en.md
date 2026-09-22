@@ -1,6 +1,6 @@
 ---
 id: middle-east-us-iran-israel
-title: "Middle East Situation (US, Iran & Israel) — Global South Perspective"
+title: "The Middle East Situation and Global South Alignment"
 category: War, Conflict & Occupation
 year: 1979–Present
 location: Middle East (Iran, Israel, Palestine, Gulf States)

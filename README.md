@@ -81,14 +81,16 @@ historydiff/
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js internationalized routing
-│   │   │   ├── events/[id]/      # Localized event detail & comparison pages
+│   │   │   ├── events/           # Localized comparison archives catalog
+│   │   │   │   └── [id]/         # Localized event detail & comparison pages
 │   │   │   ├── guide/            # Localized guide & walkthrough page
-│   │   │   └── page.tsx          # Localized home search page
+│   │   │   └── page.tsx          # Localized landing page (light theme with striped sections)
 │   │   ├── components/           # Reusable UI components
 │   │   │   ├── ClaimDiffInline.tsx      # Word/sentence-level inline diff highlights
 │   │   │   ├── CommunityNotes.tsx       # Claims, verdicts, citations & helpfulness voting
 │   │   │   ├── ControversyKeywords.tsx  # Exclusive terms and phrasing contrasts panel
 │   │   │   ├── DiffView.tsx             # Side-by-side / Unified diff viewer
+│   │   │   ├── EventsArchive.tsx        # Comparison archives catalog (search, country filter, pagination)
 │   │   │   ├── FeaturedEvents.tsx       # Top controversies feature section
 │   │   │   ├── Header.tsx / Footer.tsx  # Header navigation and footer
 │   │   │   ├── HistoryQuiz.tsx          # "Guess the Textbook" interactive quiz
@@ -100,15 +102,17 @@ historydiff/
 │   │   │   ├── PerceptionDiagnostic.tsx # Historical bias & perception diagnostic
 │   │   │   ├── PhotoGallery.tsx         # Historical photo gallery
 │   │   │   ├── PublicVoices.tsx         # Social media public voices (subjective reference)
-│   │   │   ├── SearchEvents.tsx         # Pinned country filter, search, faceted catalog
+│   │   │   ├── SearchEvents.tsx         # Landing page (recent showcase + archive call-to-action)
 │   │   │   ├── SourceNatureBadges.tsx   # Source nature classification & language tags
 │   │   │   ├── TimelineView.tsx         # Chronological timeline view
 │   │   │   ├── WelcomeModal.tsx         # First-time visitor onboarding modal
 │   │   │   └── WhyItMattersSection.tsx  # Modern context, live news, and watchpoints
+│   │   ├── events/               # Root comparison archives catalog (English)
+│   │   │   └── [id]/             # Root event detail & comparison pages
 │   │   ├── guide/                # Root guide & walkthrough page (English)
 │   │   ├── globals.css           # Design tokens, CSS variables, and themes
 │   │   ├── layout.tsx            # Root layout
-│   │   ├── page.tsx              # Root page (defaults to English)
+│   │   ├── page.tsx              # Root landing page (defaults to English)
 │   │   ├── robots.ts             # Dynamic robots.txt
 │   │   └── sitemap.ts            # Dynamic sitemap.xml
 │   └── lib/

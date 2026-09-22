@@ -81,14 +81,16 @@ historydiff/
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 多言語ルーティング
-│   │   │   ├── events/[id]/      # 言語別イベント詳細・比較ページ
+│   │   │   ├── events/           # 言語別 比較アーカイブ一覧ページ
+│   │   │   │   └── [id]/         # 言語別イベント詳細・比較ページ
 │   │   │   ├── guide/            # 多言語対応 使い方ガイドページ
-│   │   │   └── page.tsx          # 言語別トップページ
+│   │   │   └── page.tsx          # 言語別トップページ（白地・メリハリLP）
 │   │   ├── components/           # UIコンポーネント群
 │   │   │   ├── ClaimDiffInline.tsx      # 単語/文単位のインラインDiffハイライト
 │   │   │   ├── CommunityNotes.tsx       # 検証主張、判定、参照ソース、評価投票
 │   │   │   ├── ControversyKeywords.tsx  # 独自語・表現対比の自動抽出パネル
 │   │   │   ├── DiffView.tsx             # 左右分割/統合行Diffビュアー
+│   │   │   ├── EventsArchive.tsx        # 比較アーカイブ一覧（検索・視点ピル・カタログ）
 │   │   │   ├── FeaturedEvents.tsx       # 認識が割れているTOP3特集
 │   │   │   ├── Header.tsx / Footer.tsx  # ナビゲーション・フッター
 │   │   │   ├── HistoryQuiz.tsx          # 教科書当てミニクイズ
@@ -100,15 +102,17 @@ historydiff/
 │   │   │   ├── PerceptionDiagnostic.tsx # 歴史認識のズレ診断
 │   │   │   ├── PhotoGallery.tsx         # 歴史写真ギャラリー
 │   │   │   ├── PublicVoices.tsx         # SNS世論の声（主観的意見の参考情報）
-│   │   │   ├── SearchEvents.tsx         # ピン留め国フィルター、検索、カタログ
+│   │   │   ├── SearchEvents.tsx         # トップ画面（最新アーカイブプレビュー・一覧誘導）
 │   │   │   ├── SourceNatureBadges.tsx   # 出典の性質・言語バッジ
 │   │   │   ├── TimelineView.tsx         # 時系列年表ビュー
 │   │   │   ├── WelcomeModal.tsx         # 初回オンボーディングモーダル
 │   │   │   └── WhyItMattersSection.tsx  # なぜ今重要か・最新ニュース・注目点
+│   │   ├── events/               # ルート 比較アーカイブ一覧ページ（英語）
+│   │   │   └── [id]/             # ルート イベント詳細・比較ページ
 │   │   ├── guide/                # ルートガイドページ（英語）
 │   │   ├── globals.css           # グローバルCSS設計、テーマ、デザイン変数
 │   │   ├── layout.tsx            # アプリ共通レイアウト
-│   │   ├── page.tsx              # ルートページ
+│   │   ├── page.tsx              # ルートトップページ
 │   │   ├── robots.ts             # 動的 robots.txt
 │   │   └── sitemap.ts            # 動的 sitemap.xml
 │   └── lib/

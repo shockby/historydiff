@@ -79,10 +79,11 @@ export default function InteractiveHub({ events, lang }: InteractiveHubProps) {
         <div style={{
           display: 'flex',
           gap: '0.4rem',
-          background: 'rgba(255, 255, 255, 0.04)',
+          background: '#ffffff',
           borderRadius: '12px',
           padding: '0.3rem',
-          border: '1px solid rgba(255, 255, 255, 0.08)',
+          border: '1px solid var(--card-border)',
+          boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
         }}>
           <button
             type="button"
@@ -94,8 +95,8 @@ export default function InteractiveHub({ events, lang }: InteractiveHubProps) {
               padding: '0.5rem 1rem',
               borderRadius: '8px',
               border: 'none',
-              background: activeTab === 'quiz' ? 'rgba(239, 68, 68, 0.2)' : 'transparent',
-              color: activeTab === 'quiz' ? '#f87171' : 'var(--text-secondary)',
+              background: activeTab === 'quiz' ? 'rgba(220, 38, 38, 0.1)' : 'transparent',
+              color: activeTab === 'quiz' ? '#dc2626' : 'var(--text-secondary)',
               fontSize: '0.85rem',
               fontWeight: activeTab === 'quiz' ? 700 : 500,
               cursor: 'pointer',
@@ -117,8 +118,8 @@ export default function InteractiveHub({ events, lang }: InteractiveHubProps) {
               padding: '0.5rem 1rem',
               borderRadius: '8px',
               border: 'none',
-              background: activeTab === 'diagnostic' ? 'rgba(99, 102, 241, 0.2)' : 'transparent',
-              color: activeTab === 'diagnostic' ? '#818cf8' : 'var(--text-secondary)',
+              background: activeTab === 'diagnostic' ? 'rgba(99, 102, 241, 0.12)' : 'transparent',
+              color: activeTab === 'diagnostic' ? '#6366f1' : 'var(--text-secondary)',
               fontSize: '0.85rem',
               fontWeight: activeTab === 'diagnostic' ? 700 : 500,
               cursor: 'pointer',

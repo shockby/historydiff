@@ -22,6 +22,7 @@ export default function Header() {
   const t = translations[currentLang] || translations.en;
 
   const homeLink = currentLang === 'en' ? '/' : `/${currentLang}`;
+  const archiveLink = currentLang === 'en' ? '/events' : `/${currentLang}/events`;
   const guideLink = currentLang === 'en' ? '/guide' : `/${currentLang}/guide`;
   const aboutLink = `${homeLink}#about`;
 
@@ -35,7 +36,7 @@ export default function Header() {
         </h1>
         <div className="site-header-actions">
           <nav className="site-nav" aria-label="Main Navigation">
-            <Link href={homeLink} className="site-nav-link" title={t.archive}>
+            <Link href={archiveLink} className="site-nav-link" title={t.archive}>
               <Archive size={16} className="site-nav-icon" />
               <span className="site-nav-label">{t.archive}</span>
             </Link>

@@ -81,14 +81,16 @@ historydiff/
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 国际化路由
-│   │   │   ├── events/[id]/      # 各语言事件详情与对比页
+│   │   │   ├── events/           # 各语言比较档案一览页
+│   │   │   │   └── [id]/         # 各语言事件详情与对比页
 │   │   │   ├── guide/            # 多语言使用指南页
-│   │   │   └── page.tsx          # 各语言检索首页
+│   │   │   └── page.tsx          # 各语言首页（白底分块层次化LP）
 │   │   ├── components/           # UI 组件库
 │   │   │   ├── ClaimDiffInline.tsx      # 词句级行内 Diff 高亮组件
 │   │   │   ├── CommunityNotes.tsx       # 事实核查、结论、文献与投票
 │   │   │   ├── ControversyKeywords.tsx  # 独有词与对立表述自动提取面板
 │   │   │   ├── DiffView.tsx             # 分栏/单栏差异对比渲染器
+│   │   │   ├── EventsArchive.tsx        # 比较档案一览（筛选、搜索、分页目录）
 │   │   │   ├── FeaturedEvents.tsx       # 焦点争议事件专区
 │   │   │   ├── Header.tsx / Footer.tsx  # 导航与页脚
 │   │   │   ├── HistoryQuiz.tsx          # 猜教科书趣味竞猜
@@ -100,11 +102,13 @@ historydiff/
 │   │   │   ├── PerceptionDiagnostic.tsx # 历史认知偏差诊断
 │   │   │   ├── PhotoGallery.tsx         # 历史照片画廊
 │   │   │   ├── PublicVoices.tsx         # 网络社媒舆论（主观参考信息）
-│   │   │   ├── SearchEvents.tsx         # 置顶国家筛选、搜索与分类列表
+│   │   │   ├── SearchEvents.tsx         # 首页（最新档案精选展示与一览引导）
 │   │   │   ├── SourceNatureBadges.tsx   # 出处性质与语言标签
 │   │   │   ├── TimelineView.tsx         # 历史时序时间轴视图
 │   │   │   ├── WelcomeModal.tsx         # 初次访问欢迎引导弹窗
 │   │   │   └── WhyItMattersSection.tsx  # 当代关联、实时新闻与观察点
+│   │   ├── events/               # 根目录比较档案一览页（英语）
+│   │   │   └── [id]/             # 根目录事件详情与对比页
 │   │   ├── guide/                # 根目录使用指南（英语）
 │   │   ├── globals.css           # 全局样式系统、主题与 CSS 变量
 │   │   ├── layout.tsx            # 全局布局

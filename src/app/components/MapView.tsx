@@ -123,13 +123,20 @@ export default function MapView({ events, lang }: MapViewProps) {
           <button key={label} onClick={fn} style={{
             width: '36px', height: '36px', borderRadius: '8px',
             border: '1px solid var(--card-border)',
-            background: 'rgba(18,18,22,0.85)', backdropFilter: 'blur(8px)',
-            color: 'var(--text-primary)', fontSize: '1.1rem', cursor: 'pointer',
+            background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
+            color: 'var(--foreground)', fontSize: '1.1rem', cursor: 'pointer',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            transition: 'background 0.2s',
+            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+            transition: 'all 0.2s ease',
           }}
-          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = 'var(--accent)')}
-          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = 'rgba(18,18,22,0.85)')}
+          onMouseEnter={(e) => {
+            (e.currentTarget as HTMLElement).style.background = 'var(--accent)';
+            (e.currentTarget as HTMLElement).style.color = '#ffffff';
+          }}
+          onMouseLeave={(e) => {
+            (e.currentTarget as HTMLElement).style.background = 'rgba(255, 255, 255, 0.95)';
+            (e.currentTarget as HTMLElement).style.color = 'var(--foreground)';
+          }}
           >{label}</button>
         ))}
       </div>
@@ -138,15 +145,15 @@ export default function MapView({ events, lang }: MapViewProps) {
       {tooltip && (
         <div style={{
           position: 'absolute', left: tooltip.x + 14, top: tooltip.y - 10, zIndex: 20,
-          background: 'rgba(12,12,18,0.96)', backdropFilter: 'blur(12px)',
-          border: '1px solid var(--accent)', borderRadius: '10px',
+          background: 'rgba(255, 255, 255, 0.96)', backdropFilter: 'blur(12px)',
+          border: '1px solid var(--card-border)', borderRadius: '10px',
           padding: '0.6rem 1rem', fontSize: '0.8rem',
-          color: 'var(--text-primary)', pointerEvents: 'none',
-          maxWidth: '260px', boxShadow: '0 4px 24px rgba(0,0,0,0.5)',
+          color: 'var(--foreground)', pointerEvents: 'none',
+          maxWidth: '260px', boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
           lineHeight: 1.5,
         }}>
           {tooltip.eventIds.length === 1 ? (
-            <span>{tooltip.title}</span>
+            <span style={{ fontWeight: 600 }}>{tooltip.title}</span>
           ) : (
             <ul style={{ margin: 0, padding: '0 0 0 1rem', listStyle: 'disc' }}>
               {tooltip.title.split('\n').map((line, i) => (
@@ -160,15 +167,16 @@ export default function MapView({ events, lang }: MapViewProps) {
       {/* Legend */}
       <div style={{
         position: 'absolute', bottom: '1rem', left: '1rem', zIndex: 10,
-        background: 'rgba(18,18,22,0.85)', backdropFilter: 'blur(8px)',
+        background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
         border: '1px solid var(--card-border)', borderRadius: '10px',
-        padding: '0.75rem 1rem', fontSize: '0.75rem', color: 'var(--text-secondary)',
+        boxShadow: '0 2px 10px rgba(0, 0, 0, 0.08)',
+        padding: '0.75rem 1rem', fontSize: '0.75rem', color: 'var(--foreground)',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.3rem' }}>
           <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--accent)" opacity="0.9" /></svg>
-          <span>{events.filter(e => eventCoords[e.id]).length} events</span>
+          <span style={{ fontWeight: 600 }}>{events.filter(e => eventCoords[e.id]).length} events</span>
         </div>
-        <div style={{ fontSize: '0.7rem', color: '#666' }}>
+        <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
           {lang === 'ja' ? 'クリック→詳細 / ドラッグ→移動 / スクロール→ズーム' :
            lang === 'zh' ? '点击查看 / 拖动移动 / 滚动缩放' :
            lang === 'ko' ? '클릭→상세 / 드래그→이동 / 스크롤→확대' :
@@ -180,7 +188,7 @@ export default function MapView({ events, lang }: MapViewProps) {
       <div style={{
         borderRadius: '16px', overflow: 'hidden',
         border: '1px solid var(--card-border)',
-        background: 'linear-gradient(135deg, #0d1117 0%, #0a0f1e 100%)',
+        background: '#edf2f7',
         height: '520px', position: 'relative', cursor: isDragging ? 'grabbing' : 'grab',
       }}
         onWheel={handleWheel}
@@ -197,7 +205,7 @@ export default function MapView({ events, lang }: MapViewProps) {
         >
           <defs>
             <radialGradient id="markerGlow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="var(--accent)" stopOpacity="0.6" />
+              <stop offset="0%" stopColor="var(--accent)" stopOpacity="0.35" />
               <stop offset="100%" stopColor="var(--accent)" stopOpacity="0" />
             </radialGradient>
           </defs>
@@ -206,18 +214,18 @@ export default function MapView({ events, lang }: MapViewProps) {
              style={{ transformOrigin: `${SVG_W / 2}px ${SVG_H / 2}px` }}>
             {/* Ocean */}
             <rect x={0} y={0} width={SVG_W} height={SVG_H}
-              fill="#0e1623" rx={0} />
+              fill="#e1ebf5" rx={0} />
 
             {/* Countries */}
             {paths.length > 0 ? (
               paths.map((d, i) => (
                 <path key={i} d={d}
-                  fill="#1a2540" stroke="#2d3a5a" strokeWidth={0.4} />
+                  fill="#ffffff" stroke="#cbd5e1" strokeWidth={0.5} />
               ))
             ) : (
               /* Fallback simple world outline if fetch fails */
               <rect x={40} y={60} width={SVG_W - 80} height={SVG_H - 120}
-                fill="#1a2540" stroke="#2d3a5a" strokeWidth={1} rx={4} />
+                fill="#ffffff" stroke="#cbd5e1" strokeWidth={1} rx={4} />
             )}
 
             {/* Markers */}
@@ -287,19 +295,22 @@ export default function MapView({ events, lang }: MapViewProps) {
           return (
             <Link key={event.id} href={eventLink(event.id)}>
               <span style={{
-                fontSize: '0.73rem', padding: '4px 10px', borderRadius: '6px',
-                border: `1px solid ${hasCoords ? 'var(--card-border)' : '#333'}`,
-                background: 'rgba(255,255,255,0.03)',
-                color: hasCoords ? 'var(--text-secondary)' : '#444',
-                cursor: 'pointer', transition: 'all 0.2s', display: 'inline-block',
+                fontSize: '0.73rem', padding: '5px 11px', borderRadius: '6px',
+                border: `1px solid ${hasCoords ? 'var(--card-border)' : '#e2e8f0'}`,
+                background: hasCoords ? '#ffffff' : '#f8fafc',
+                color: hasCoords ? 'var(--foreground)' : 'var(--text-muted)',
+                boxShadow: hasCoords ? '0 1px 2px rgba(0, 0, 0, 0.03)' : 'none',
+                cursor: 'pointer', transition: 'all 0.2s ease', display: 'inline-block',
               }}
               onMouseEnter={(e) => {
                 (e.currentTarget as HTMLElement).style.borderColor = 'var(--accent)';
                 (e.currentTarget as HTMLElement).style.color = 'var(--accent)';
+                (e.currentTarget as HTMLElement).style.background = 'var(--accent-light)';
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = hasCoords ? 'var(--card-border)' : '#333';
-                (e.currentTarget as HTMLElement).style.color = hasCoords ? 'var(--text-secondary)' : '#444';
+                (e.currentTarget as HTMLElement).style.borderColor = hasCoords ? 'var(--card-border)' : '#e2e8f0';
+                (e.currentTarget as HTMLElement).style.color = hasCoords ? 'var(--foreground)' : 'var(--text-muted)';
+                (e.currentTarget as HTMLElement).style.background = hasCoords ? '#ffffff' : '#f8fafc';
               }}
               >
                 {hasCoords ? '📍' : '·'} {first.location} — {first.title}

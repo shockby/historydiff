@@ -11,6 +11,14 @@ import {
   RegionId,
   SubRegionId,
 } from '@/lib/locationCoords';
+import {
+  mercatorX,
+  mercatorY,
+  geoToSvgPath,
+  topoToGeoJSON,
+  SVG_W,
+  SVG_H,
+} from '@/lib/mapUtils';
 
 interface MapViewProps {
   events: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
@@ -23,25 +31,6 @@ interface TooltipState {
   y: number;
   eventIds: string[];
 }
-
-// Mercator projection helpers
-function mercatorX(lng: number, width: number, minLng = -180, maxLng = 180): number {
-  return ((lng - minLng) / (maxLng - minLng)) * width;
-}
-
-function mercatorY(lat: number, height: number, minLat = -60, maxLat = 85): number {
-  // Use Web Mercator-style projection
-  const latRad = (lat * Math.PI) / 180;
-  const mercN = Math.log(Math.tan(Math.PI / 4 + latRad / 2));
-  const maxLatRad = (maxLat * Math.PI) / 180;
-  const minLatRad = (minLat * Math.PI) / 180;
-  const mercMax = Math.log(Math.tan(Math.PI / 4 + maxLatRad / 2));
-  const mercMin = Math.log(Math.tan(Math.PI / 4 + minLatRad / 2));
-  return ((mercMax - mercN) / (mercMax - mercMin)) * height;
-}
-
-const SVG_W = 960;
-const SVG_H = 540;
 
 export default function MapView({ events, lang }: MapViewProps) {
   const [paths, setPaths] = useState<string[]>([]);
@@ -314,85 +303,8 @@ export default function MapView({ events, lang }: MapViewProps) {
           </div>
         )}
       </div>
-      {/* Zoom controls */}
-      <div style={{
-        position: 'absolute', top: '1rem', right: '1rem', zIndex: 10,
-        display: 'flex', flexDirection: 'column', gap: '0.25rem',
-      }}>
-        {[
-          { label: '+', fn: () => setTransform((p) => ({ ...p, scale: Math.min(p.scale * 1.4, 8) })) },
-          { label: '−', fn: () => setTransform((p) => ({ ...p, scale: Math.max(p.scale / 1.4, 0.8) })) },
-          { label: '⊙', fn: () => setTransform({ x: 0, y: 0, scale: 1 }) },
-        ].map(({ label, fn }) => (
-          <button key={label} onClick={fn} style={{
-            width: '36px', height: '36px', borderRadius: '8px',
-            border: '1px solid var(--card-border)',
-            background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
-            color: 'var(--foreground)', fontSize: '1.1rem', cursor: 'pointer',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
-            transition: 'all 0.2s ease',
-          }}
-          onMouseEnter={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'var(--accent)';
-            (e.currentTarget as HTMLElement).style.color = '#ffffff';
-          }}
-          onMouseLeave={(e) => {
-            (e.currentTarget as HTMLElement).style.background = 'rgba(255, 255, 255, 0.95)';
-            (e.currentTarget as HTMLElement).style.color = 'var(--foreground)';
-          }}
-          >{label}</button>
-        ))}
-      </div>
 
-      {/* Tooltip */}
-      {tooltip && (
-        <div style={{
-          position: 'absolute', left: tooltip.x + 14, top: tooltip.y - 10, zIndex: 20,
-          background: 'rgba(255, 255, 255, 0.96)', backdropFilter: 'blur(12px)',
-          border: '1px solid var(--card-border)', borderRadius: '10px',
-          padding: '0.6rem 1rem', fontSize: '0.8rem',
-          color: 'var(--foreground)', pointerEvents: 'none',
-          maxWidth: '260px', boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
-          lineHeight: 1.5,
-        }}>
-          {tooltip.eventIds.length === 1 ? (
-            <span style={{ fontWeight: 600 }}>{tooltip.title}</span>
-          ) : (
-            <ul style={{ margin: 0, padding: '0 0 0 1rem', listStyle: 'disc' }}>
-              {tooltip.title.split('\n').map((line, i) => (
-                <li key={i}>{line}</li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-
-      {/* Legend */}
-      <div style={{
-        position: 'absolute', bottom: '1rem', left: '1rem', zIndex: 10,
-        background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
-        border: '1px solid var(--card-border)', borderRadius: '10px',
-        boxShadow: '0 2px 10px rgba(0, 0, 0, 0.08)',
-        padding: '0.75rem 1rem', fontSize: '0.75rem', color: 'var(--foreground)',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.3rem' }}>
-          <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--accent)" opacity="0.9" /></svg>
-          <span style={{ fontWeight: 600 }}>
-            {selectedRegion === 'all'
-              ? `${filteredEvents.filter(e => eventCoords[e.id]).length} events`
-              : `${currentRegionLabel}: ${filteredEvents.filter(e => eventCoords[e.id]).length} events`}
-          </span>
-        </div>
-        <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-          {lang === 'ja' ? 'クリック→詳細 / ドラッグ→移動 / スクロール→ズーム' :
-           lang === 'zh' ? '点击查看 / 拖动移动 / 滚动缩放' :
-           lang === 'ko' ? '클릭→상세 / 드래그→이동 / 스크롤→확대' :
-           'Click → detail / Drag → pan / Scroll → zoom'}
-        </div>
-      </div>
-
-      {/* SVG Map */}
+      {/* SVG Map Container */}
       <div style={{
         borderRadius: '16px', overflow: 'hidden',
         border: '1px solid var(--card-border)',
@@ -405,6 +317,85 @@ export default function MapView({ events, lang }: MapViewProps) {
         onMouseUp={handleMouseUp}
         onMouseLeave={() => { handleMouseUp(); setTooltip(null); }}
       >
+        {/* Zoom controls */}
+        <div style={{
+          position: 'absolute', top: '1rem', right: '1rem', zIndex: 10,
+          display: 'flex', flexDirection: 'column', gap: '0.25rem',
+        }}>
+          {[
+            { label: '+', fn: () => setTransform((p) => ({ ...p, scale: Math.min(p.scale * 1.4, 8) })) },
+            { label: '−', fn: () => setTransform((p) => ({ ...p, scale: Math.max(p.scale / 1.4, 0.8) })) },
+            { label: '⊙', fn: () => setTransform({ x: 0, y: 0, scale: 1 }) },
+          ].map(({ label, fn }) => (
+            <button key={label} onClick={fn} style={{
+              width: '36px', height: '36px', borderRadius: '8px',
+              border: '1px solid var(--card-border)',
+              background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
+              color: 'var(--foreground)', fontSize: '1.1rem', cursor: 'pointer',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+              transition: 'all 0.2s ease',
+            }}
+            onMouseEnter={(e) => {
+              (e.currentTarget as HTMLElement).style.background = 'var(--accent)';
+              (e.currentTarget as HTMLElement).style.color = '#ffffff';
+            }}
+            onMouseLeave={(e) => {
+              (e.currentTarget as HTMLElement).style.background = 'rgba(255, 255, 255, 0.95)';
+              (e.currentTarget as HTMLElement).style.color = 'var(--foreground)';
+            }}
+            >{label}</button>
+          ))}
+        </div>
+
+        {/* Tooltip */}
+        {tooltip && (
+          <div style={{
+            position: 'absolute', left: tooltip.x + 14, top: tooltip.y - 10, zIndex: 20,
+            background: 'rgba(255, 255, 255, 0.96)', backdropFilter: 'blur(12px)',
+            border: '1px solid var(--card-border)', borderRadius: '10px',
+            padding: '0.6rem 1rem', fontSize: '0.8rem',
+            color: 'var(--foreground)', pointerEvents: 'none',
+            maxWidth: '260px', boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
+            lineHeight: 1.5,
+          }}>
+            {tooltip.eventIds.length === 1 ? (
+              <span style={{ fontWeight: 600 }}>{tooltip.title}</span>
+            ) : (
+              <ul style={{ margin: 0, padding: '0 0 0 1rem', listStyle: 'disc' }}>
+                {tooltip.title.split('\n').map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+
+        {/* Legend */}
+        <div style={{
+          position: 'absolute', bottom: '1rem', left: '1rem', zIndex: 10,
+          background: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(8px)',
+          border: '1px solid var(--card-border)', borderRadius: '10px',
+          boxShadow: '0 2px 10px rgba(0, 0, 0, 0.08)',
+          padding: '0.75rem 1rem', fontSize: '0.75rem', color: 'var(--foreground)',
+          pointerEvents: 'none',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.3rem' }}>
+            <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--accent)" opacity="0.9" /></svg>
+            <span style={{ fontWeight: 600 }}>
+              {selectedRegion === 'all'
+                ? `${filteredEvents.filter(e => eventCoords[e.id]).length} events`
+                : `${currentRegionLabel}: ${filteredEvents.filter(e => eventCoords[e.id]).length} events`}
+            </span>
+          </div>
+          <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
+            {lang === 'ja' ? 'クリック→詳細 / ドラッグ→移動 / スクロール→ズーム' :
+             lang === 'zh' ? '点击查看 / 拖动移动 / 滚动缩放' :
+             lang === 'ko' ? '클릭→상세 / 드래그→이동 / 스크롤→확대' :
+             'Click → detail / Drag → pan / Scroll → zoom'}
+          </div>
+        </div>
+
         <svg
           ref={svgRef}
           viewBox={`0 0 ${SVG_W} ${SVG_H}`}
@@ -575,79 +566,4 @@ export default function MapView({ events, lang }: MapViewProps) {
       </div>
     </div>
   );
-}
-
-// ── Minimal TopoJSON → GeoJSON converter (no external deps) ─────────────────
-
-function topoToGeoJSON(topology: any, object: any) {
-  const arcs = topology.arcs as number[][][];
-  const transform = topology.transform;
-  const scale = transform?.scale ?? [1, 1];
-  const translate = transform?.translate ?? [0, 0];
-
-  function decodeArc(arcIdx: number): [number, number][] {
-    const reversed = arcIdx < 0;
-    const idx = reversed ? ~arcIdx : arcIdx;
-    const arc = arcs[idx];
-    let x = 0, y = 0;
-    const coords: [number, number][] = arc.map(([dx, dy]) => {
-      x += dx; y += dy;
-      return [x * scale[0] + translate[0], y * scale[1] + translate[1]];
-    });
-    return reversed ? coords.reverse() : coords;
-  }
-
-  function geometryToFeature(geom: any): any {
-    if (!geom) return null;
-    if (geom.type === 'Polygon') {
-      const coords = geom.arcs.map((ring: number[]) =>
-        ring.flatMap((a: number) => decodeArc(a))
-      );
-      return { type: 'Feature', geometry: { type: 'Polygon', coordinates: coords }, properties: geom.properties ?? {} };
-    }
-    if (geom.type === 'MultiPolygon') {
-      const coords = geom.arcs.map((poly: number[][]) =>
-        poly.map((ring: number[]) => ring.flatMap((a: number) => decodeArc(a)))
-      );
-      return { type: 'Feature', geometry: { type: 'MultiPolygon', coordinates: coords }, properties: geom.properties ?? {} };
-    }
-    if (geom.type === 'GeometryCollection') {
-      return { type: 'FeatureCollection', features: geom.geometries.map(geometryToFeature).filter(Boolean) };
-    }
-    return null;
-  }
-
-  const features: any[] = [];
-  if (object.type === 'GeometryCollection') {
-    for (const g of object.geometries) {
-      const f = geometryToFeature(g);
-      if (f) {
-        if (f.type === 'FeatureCollection') features.push(...f.features);
-        else features.push(f);
-      }
-    }
-  }
-  return { type: 'FeatureCollection', features };
-}
-
-// ── GeoJSON geometry → SVG path string ──────────────────────────────────────
-
-function geoToSvgPath(geometry: any): string {
-  if (!geometry) return '';
-  const rings: [number, number][][] = [];
-
-  if (geometry.type === 'Polygon') rings.push(...geometry.coordinates);
-  else if (geometry.type === 'MultiPolygon') {
-    for (const poly of geometry.coordinates) rings.push(...poly);
-  } else return '';
-
-  return rings.map((ring) => {
-    const pts = ring
-      .map(([lng, lat]: [number, number]) => {
-        const x = mercatorX(lng, SVG_W);
-        const y = mercatorY(lat, SVG_H);
-        return `${x.toFixed(2)},${y.toFixed(2)}`;
-      });
-    return `M${pts.join('L')}Z`;
-  }).join(' ');
 }

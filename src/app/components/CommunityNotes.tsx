@@ -248,11 +248,12 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
     <div
       className="community-note-card"
       style={{
-        background: 'rgba(255, 255, 255, 0.02)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: '#ffffff',
+        border: '1px solid var(--card-border)',
         borderRadius: '12px',
         overflow: 'hidden',
         transition: 'all 0.3s ease',
+        boxShadow: '0 1px 4px rgba(0, 0, 0, 0.04)',
       }}
     >
       {/* Header - always visible */}
@@ -339,7 +340,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
       }}>
         <div style={{
           padding: '0 1.25rem 1.25rem 1.25rem',
-          borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+          borderTop: '1px solid var(--card-border)',
         }}>
           {/* Context */}
           <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
@@ -377,20 +378,20 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                     gap: '0.5rem',
                     padding: '0.5rem 0.75rem',
                     borderRadius: '8px',
-                    background: 'rgba(255, 255, 255, 0.03)',
-                    border: '1px solid rgba(255, 255, 255, 0.06)',
+                    background: '#f8fafc',
+                    border: '1px solid var(--card-border)',
                     color: 'var(--foreground)',
                     textDecoration: 'none',
                     fontSize: '0.8rem',
                     transition: 'all 0.2s ease',
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.07)';
-                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
+                    e.currentTarget.style.background = '#f1f5f9';
+                    e.currentTarget.style.borderColor = '#cbd5e1';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
-                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.06)';
+                    e.currentTarget.style.background = '#f8fafc';
+                    e.currentTarget.style.borderColor = 'var(--card-border)';
                   }}
                 >
                   <span style={{
@@ -399,10 +400,10 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                     gap: '0.3rem',
                     padding: '2px 6px',
                     borderRadius: '4px',
-                    background: 'rgba(255, 255, 255, 0.06)',
-                    color: 'var(--text-secondary)',
+                    background: '#e2e8f0',
+                    color: 'var(--foreground)',
                     fontSize: '0.7rem',
-                    fontWeight: 500,
+                    fontWeight: 600,
                     flexShrink: 0,
                   }}>
                     {getSourceIcon(source.type)}
@@ -430,8 +431,8 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
             marginTop: '1.25rem',
             padding: '0.85rem 1rem',
             borderRadius: '10px',
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid rgba(255, 255, 255, 0.07)',
+            background: '#f8fafc',
+            border: '1px solid var(--card-border)',
           }}>
             <div style={{
               display: 'flex',
@@ -457,9 +458,9 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                   style={{
                     padding: '0.3rem 0.65rem',
                     borderRadius: '6px',
-                    border: effectiveVote === 'helpful' ? '1px solid #3fb950' : '1px solid rgba(255,255,255,0.12)',
-                    background: effectiveVote === 'helpful' ? 'rgba(46, 160, 67, 0.2)' : 'rgba(255,255,255,0.04)',
-                    color: effectiveVote === 'helpful' ? '#3fb950' : 'var(--text-secondary)',
+                    border: effectiveVote === 'helpful' ? '1px solid #86efac' : '1px solid var(--card-border)',
+                    background: effectiveVote === 'helpful' ? '#dcfce7' : '#ffffff',
+                    color: effectiveVote === 'helpful' ? '#15803d' : 'var(--foreground)',
                     fontSize: '0.76rem',
                     fontWeight: 600,
                     cursor: 'pointer',
@@ -467,6 +468,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                     alignItems: 'center',
                     gap: '0.3rem',
                     transition: 'all 0.18s ease',
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
                   }}
                 >
                   <span>👍</span> {t.helpfulYes}
@@ -478,9 +480,9 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                   style={{
                     padding: '0.3rem 0.65rem',
                     borderRadius: '6px',
-                    border: effectiveVote === 'somewhat' ? '1px solid #d29922' : '1px solid rgba(255,255,255,0.12)',
-                    background: effectiveVote === 'somewhat' ? 'rgba(210, 153, 34, 0.2)' : 'rgba(255,255,255,0.04)',
-                    color: effectiveVote === 'somewhat' ? '#d29922' : 'var(--text-secondary)',
+                    border: effectiveVote === 'somewhat' ? '1px solid #fde68a' : '1px solid var(--card-border)',
+                    background: effectiveVote === 'somewhat' ? '#fef3c7' : '#ffffff',
+                    color: effectiveVote === 'somewhat' ? '#b45309' : 'var(--foreground)',
                     fontSize: '0.76rem',
                     fontWeight: 600,
                     cursor: 'pointer',
@@ -488,6 +490,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                     alignItems: 'center',
                     gap: '0.3rem',
                     transition: 'all 0.18s ease',
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
                   }}
                 >
                   <span>😐</span> {t.helpfulSomewhat}
@@ -499,9 +502,9 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                   style={{
                     padding: '0.3rem 0.65rem',
                     borderRadius: '6px',
-                    border: effectiveVote === 'not_helpful' ? '1px solid #f85149' : '1px solid rgba(255,255,255,0.12)',
-                    background: effectiveVote === 'not_helpful' ? 'rgba(248, 81, 73, 0.2)' : 'rgba(255,255,255,0.04)',
-                    color: effectiveVote === 'not_helpful' ? '#f85149' : 'var(--text-secondary)',
+                    border: effectiveVote === 'not_helpful' ? '1px solid #fecaca' : '1px solid var(--card-border)',
+                    background: effectiveVote === 'not_helpful' ? '#fee2e2' : '#ffffff',
+                    color: effectiveVote === 'not_helpful' ? '#b91c1c' : 'var(--foreground)',
                     fontSize: '0.76rem',
                     fontWeight: 600,
                     cursor: 'pointer',
@@ -509,6 +512,7 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                     alignItems: 'center',
                     gap: '0.3rem',
                     transition: 'all 0.18s ease',
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
                   }}
                 >
                   <span>👎</span> {t.helpfulNo}
@@ -521,12 +525,12 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
               <div style={{
                 marginTop: '0.6rem',
                 paddingTop: '0.6rem',
-                borderTop: '1px solid rgba(255,255,255,0.06)',
+                borderTop: '1px solid var(--card-border)',
                 animation: 'fadeIn 0.2s ease-in',
               }}>
                 <div style={{
                   fontSize: '0.72rem',
-                  color: '#818cf8',
+                  color: '#4f46e5',
                   fontWeight: 600,
                   marginBottom: '0.4rem',
                 }}>
@@ -544,9 +548,9 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                           padding: '2px 8px',
                           borderRadius: '12px',
                           fontSize: '0.7rem',
-                          border: active ? '1px solid rgba(99, 102, 241, 0.6)' : '1px solid rgba(255,255,255,0.08)',
-                          background: active ? 'rgba(99, 102, 241, 0.2)' : 'rgba(255,255,255,0.03)',
-                          color: active ? '#fff' : 'var(--text-secondary)',
+                          border: active ? '1px solid #818cf8' : '1px solid var(--card-border)',
+                          background: active ? '#e0e7ff' : '#ffffff',
+                          color: active ? '#4338ca' : 'var(--text-secondary)',
                           cursor: 'pointer',
                           transition: 'all 0.15s ease',
                         }}
@@ -654,22 +658,23 @@ export default function CommunityNotes({ notes, lang, hideHeader = false }: Comm
             width: '100%',
             padding: '0.75rem',
             marginTop: '0.75rem',
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid rgba(255, 255, 255, 0.08)',
+            background: '#ffffff',
+            border: '1px solid var(--card-border)',
             borderRadius: '10px',
-            color: 'var(--text-secondary)',
+            color: 'var(--foreground)',
             fontSize: '0.85rem',
-            fontWeight: 500,
+            fontWeight: 600,
             cursor: 'pointer',
             transition: 'all 0.2s ease',
+            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.03)',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
-            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
+            e.currentTarget.style.background = '#f1f5f9';
+            e.currentTarget.style.borderColor = '#cbd5e1';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.02)';
-            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)';
+            e.currentTarget.style.background = '#ffffff';
+            e.currentTarget.style.borderColor = 'var(--card-border)';
           }}
         >
           {showAll ? (

@@ -78,14 +78,15 @@ function SentimentBar({ voices, lang }: SentimentBarProps) {
 
   return (
     <div style={{
-      background: 'rgba(255, 255, 255, 0.02)',
-      border: '1px solid rgba(255, 255, 255, 0.08)',
+      background: '#ffffff',
+      border: '1px solid var(--card-border)',
       borderRadius: '12px',
       padding: '1.25rem',
       marginBottom: '1rem',
+      boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-        <TrendingUp size={14} style={{ color: '#818cf8' }} />
+        <TrendingUp size={14} style={{ color: '#6366f1' }} />
         <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
           {t.sentimentOverview}
         </span>
@@ -117,7 +118,7 @@ function SentimentBar({ voices, lang }: SentimentBarProps) {
                 height: '8px',
                 borderRadius: '4px',
                 overflow: 'hidden',
-                background: 'rgba(255, 255, 255, 0.05)',
+                background: '#e2e8f0',
               }}>
                 {sentimentTypes.map((st) => {
                   const pct = total > 0 ? ((weightMap[st] || 0) / total) * 100 : 0;
@@ -177,11 +178,12 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
   return (
     <div
       style={{
-        background: 'rgba(255, 255, 255, 0.02)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: '#ffffff',
+        border: '1px solid var(--card-border)',
         borderRadius: '12px',
         overflow: 'hidden',
         transition: 'all 0.3s ease',
+        boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
       }}
     >
       <button
@@ -227,7 +229,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
             <span style={{
               display: 'inline-block', padding: '1px 6px', borderRadius: '4px',
               fontSize: '0.65rem', fontWeight: 600,
-              color: '#fbbf24', background: 'rgba(245, 158, 11, 0.12)', border: '1px solid rgba(245, 158, 11, 0.3)',
+              color: '#d97706', background: '#fef3c7', border: '1px solid #fde68a',
             }}>
               {t.publicVoicesSubjectiveTag}
             </span>
@@ -239,7 +241,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
               {Array.from({ length: 3 }).map((_, i) => (
                 <span key={i} style={{
                   width: '5px', height: '5px', borderRadius: '50%',
-                  background: i < prevCfg.dots ? cfg.color : 'rgba(255,255,255,0.1)',
+                  background: i < prevCfg.dots ? cfg.color : '#e2e8f0',
                   transition: 'background 0.3s ease',
                 }} />
               ))}
@@ -274,7 +276,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
       }}>
         <div style={{
           padding: '0 1.25rem 1.25rem 1.25rem',
-          borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+          borderTop: '1px solid var(--card-border)',
         }}>
           {/* Context */}
           <div style={{ marginTop: '0.75rem' }}>
@@ -295,7 +297,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
                   padding: '2px 8px', borderRadius: '12px',
                   background: 'rgba(99, 102, 241, 0.1)',
                   border: '1px solid rgba(99, 102, 241, 0.2)',
-                  fontSize: '0.7rem', color: '#818cf8',
+                  fontSize: '0.7rem', color: '#6366f1',
                 }}>
                   <Hash size={10} />
                   {kw.replace(/^#/, '')}
@@ -305,7 +307,7 @@ function VoiceCard({ voice, lang }: { voice: EventVoice; lang: Language }) {
           )}
 
           {/* Timeframe */}
-          <div style={{ marginTop: '0.6rem', fontSize: '0.7rem', color: 'rgba(255,255,255,0.3)' }}>
+          <div style={{ marginTop: '0.6rem', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
             {voice.timeframe}
           </div>
         </div>
@@ -382,16 +384,16 @@ export default function PublicVoices({ voices, lang, hideHeader = false }: Publi
         padding: '1rem 1.25rem',
         marginBottom: '1.25rem',
         borderRadius: '12px',
-        background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.12), rgba(249, 115, 22, 0.08))',
-        border: '1px solid rgba(234, 179, 8, 0.4)',
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+        background: '#fffbeb',
+        border: '1px solid #fde68a',
+        boxShadow: '0 2px 10px rgba(245, 158, 11, 0.08)',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.35rem' }}>
-          <AlertTriangle size={18} style={{ color: '#fbbf24', flexShrink: 0 }} />
+          <AlertTriangle size={18} style={{ color: '#d97706', flexShrink: 0 }} />
           <span style={{
             fontSize: '0.85rem',
             fontWeight: 700,
-            color: '#fbbf24',
+            color: '#b45309',
             letterSpacing: '0.01em',
           }}>
             {t.publicVoicesWarningTitle}
@@ -399,7 +401,7 @@ export default function PublicVoices({ voices, lang, hideHeader = false }: Publi
         </div>
         <p style={{
           fontSize: '0.8rem',
-          color: 'rgba(255, 255, 255, 0.85)',
+          color: 'var(--foreground)',
           lineHeight: 1.6,
           margin: 0,
           paddingLeft: '1.75rem',
@@ -422,11 +424,12 @@ export default function PublicVoices({ voices, lang, hideHeader = false }: Publi
           onClick={() => setSelectedCountry(null)}
           style={{
             padding: '0.35rem 0.75rem', borderRadius: '20px',
-            border: !selectedCountry ? '1px solid rgba(249, 115, 22, 0.5)' : '1px solid rgba(255,255,255,0.1)',
-            background: !selectedCountry ? 'rgba(249, 115, 22, 0.15)' : 'rgba(255,255,255,0.03)',
-            color: !selectedCountry ? '#fff' : 'var(--text-secondary)',
+            border: !selectedCountry ? '1px solid #f97316' : '1px solid var(--card-border)',
+            background: !selectedCountry ? '#fff7ed' : '#ffffff',
+            color: !selectedCountry ? '#c2410c' : 'var(--text-secondary)',
             fontSize: '0.8rem', fontWeight: 600, cursor: 'pointer',
             whiteSpace: 'nowrap', flexShrink: 0, transition: 'all 0.2s ease',
+            boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
           }}
         >
           {lang === 'ja' ? 'すべて' : lang === 'zh' ? '全部' : lang === 'ko' ? '전체' : 'All'}
@@ -437,11 +440,12 @@ export default function PublicVoices({ voices, lang, hideHeader = false }: Publi
             onClick={() => setSelectedCountry(country)}
             style={{
               padding: '0.35rem 0.75rem', borderRadius: '20px',
-              border: selectedCountry === country ? '1px solid rgba(249, 115, 22, 0.5)' : '1px solid rgba(255,255,255,0.1)',
-              background: selectedCountry === country ? 'rgba(249, 115, 22, 0.15)' : 'rgba(255,255,255,0.03)',
-              color: selectedCountry === country ? '#fff' : 'var(--text-secondary)',
+              border: selectedCountry === country ? '1px solid #f97316' : '1px solid var(--card-border)',
+              background: selectedCountry === country ? '#fff7ed' : '#ffffff',
+              color: selectedCountry === country ? '#c2410c' : 'var(--text-secondary)',
               fontSize: '0.8rem', fontWeight: 600, cursor: 'pointer',
               whiteSpace: 'nowrap', flexShrink: 0, transition: 'all 0.2s ease',
+              boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
             }}
           >
             {country}

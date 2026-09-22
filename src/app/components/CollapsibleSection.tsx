@@ -46,14 +46,12 @@ export default function CollapsibleSection({
         marginBottom: '1.25rem',
         borderRadius: '16px',
         border: isOpen
-          ? `1px solid ${themeColor}55`
-          : '1px solid rgba(255, 255, 255, 0.08)',
-        background: isOpen
-          ? 'linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(12, 14, 20, 0.95) 100%)'
-          : 'linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(16, 18, 24, 0.7) 100%)',
+          ? `1px solid ${themeColor}66`
+          : '1px solid var(--card-border)',
+        background: '#ffffff',
         boxShadow: isOpen
-          ? `0 12px 32px -4px rgba(0, 0, 0, 0.5), 0 0 20px -8px ${themeColor}33`
-          : '0 4px 20px rgba(0, 0, 0, 0.25)',
+          ? `0 8px 24px -4px rgba(0, 0, 0, 0.08), 0 0 16px -4px ${themeColor}22`
+          : '0 2px 10px rgba(0, 0, 0, 0.04)',
         transition: 'all 0.25s cubic-bezier(0.16, 1, 0.3, 1)',
         overflow: 'hidden',
       }}
@@ -122,9 +120,9 @@ export default function CollapsibleSection({
                   style={{
                     fontSize: '0.72rem',
                     fontWeight: 600,
-                    color: '#fff',
-                    background: 'rgba(255, 255, 255, 0.08)',
-                    border: '1px solid rgba(255, 255, 255, 0.12)',
+                    color: 'var(--foreground)',
+                    background: '#f1f5f9',
+                    border: '1px solid var(--card-border)',
                     padding: '0.15rem 0.55rem',
                     borderRadius: '12px',
                   }}
@@ -138,7 +136,7 @@ export default function CollapsibleSection({
               style={{
                 fontSize: '1.05rem',
                 fontWeight: 700,
-                color: '#fff',
+                color: 'var(--foreground)',
                 marginBottom: '0.2rem',
                 lineHeight: 1.35,
               }}
@@ -179,9 +177,9 @@ export default function CollapsibleSection({
               borderRadius: '20px',
               fontSize: '0.78rem',
               fontWeight: 600,
-              color: isOpen ? '#fff' : 'var(--text-secondary)',
-              background: isOpen ? 'rgba(255, 255, 255, 0.12)' : 'rgba(255, 255, 255, 0.05)',
-              border: isOpen ? '1px solid rgba(255, 255, 255, 0.2)' : '1px solid rgba(255, 255, 255, 0.1)',
+              color: isOpen ? '#ffffff' : 'var(--foreground)',
+              background: isOpen ? themeColor : '#f8fafc',
+              border: isOpen ? `1px solid ${themeColor}` : '1px solid var(--card-border)',
               transition: 'all 0.2s ease',
             }}
           >
@@ -203,7 +201,7 @@ export default function CollapsibleSection({
           className="collapsible-section-body"
           style={{
             padding: '0 1.5rem 1.5rem 1.5rem',
-            borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+            borderTop: '1px solid var(--card-border)',
             animation: 'collapsibleFadeIn 0.25s ease-out',
           }}
         >

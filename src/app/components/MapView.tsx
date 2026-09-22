@@ -1,10 +1,16 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import { EventPerspective } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
-import { eventCoords } from '@/lib/locationCoords';
+import {
+  eventCoords,
+  eventRegions,
+  regionViewports,
+  RegionId,
+  SubRegionId,
+} from '@/lib/locationCoords';
 
 interface MapViewProps {
   events: { id: string; perspectives: EventPerspective[]; imageUrl?: string }[];
@@ -42,6 +48,8 @@ export default function MapView({ events, lang }: MapViewProps) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   const [transform, setTransform] = useState({ x: 0, y: 0, scale: 1 });
   const [isDragging, setIsDragging] = useState(false);
+  const [selectedRegion, setSelectedRegion] = useState<RegionId>('all');
+  const [selectedSubRegion, setSelectedSubRegion] = useState<SubRegionId>('all-asia');
   const dragStart = useRef<{ x: number; y: number; tx: number; ty: number } | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -71,9 +79,77 @@ export default function MapView({ events, lang }: MapViewProps) {
       });
   }, []);
 
-  // Group events by coordinate cluster
+  // Filter logic
+  const matchesFilter = useCallback((eventId: string) => {
+    if (selectedRegion === 'all') return true;
+    const info = eventRegions[eventId];
+    if (!info) return false;
+    if (info.region !== selectedRegion) return false;
+    if (selectedRegion === 'asia') {
+      if (selectedSubRegion === 'all-asia') return true;
+      return info.subRegion === selectedSubRegion;
+    }
+    return true;
+  }, [selectedRegion, selectedSubRegion]);
+
+  const filteredEvents = useMemo(() => {
+    return events.filter(e => matchesFilter(e.id));
+  }, [events, matchesFilter]);
+
+  // Counts by region / sub-region
+  const regionCounts = useMemo(() => {
+    const counts = {
+      all: 0,
+      asia: 0,
+      'all-asia': 0,
+      'east-asia': 0,
+      'southeast-asia': 0,
+      'south-central-asia': 0,
+      'middle-east': 0,
+      europe: 0,
+      africa: 0,
+      'south-america': 0,
+      'north-america': 0,
+    };
+    for (const e of events) {
+      if (!eventCoords[e.id]) continue;
+      counts.all++;
+      const info = eventRegions[e.id];
+      if (!info) continue;
+      if (info.region in counts) {
+        counts[info.region as keyof typeof counts]++;
+      }
+      if (info.region === 'asia') {
+        counts['all-asia']++;
+        if (info.subRegion && info.subRegion in counts) {
+          counts[info.subRegion as keyof typeof counts]++;
+        }
+      }
+    }
+    return counts;
+  }, [events]);
+
+  const handleSelectRegion = (region: RegionId) => {
+    setSelectedRegion(region);
+    if (region === 'asia') {
+      setSelectedSubRegion('all-asia');
+      const vp = regionViewports['asia'];
+      if (vp) setTransform(vp);
+    } else {
+      const vp = regionViewports[region];
+      if (vp) setTransform(vp);
+    }
+  };
+
+  const handleSelectSubRegion = (sub: SubRegionId) => {
+    setSelectedSubRegion(sub);
+    const vp = regionViewports[`asia:${sub}`] || regionViewports['asia'];
+    if (vp) setTransform(vp);
+  };
+
+  // Group filtered events by coordinate cluster
   const markerGroups: Record<string, { id: string; perspectives: EventPerspective[]; imageUrl?: string }[]> = {};
-  for (const event of events) {
+  for (const event of filteredEvents) {
     const coords = eventCoords[event.id];
     if (!coords) continue;
     const key = `${coords.lat.toFixed(1)},${coords.lng.toFixed(1)}`;
@@ -108,8 +184,136 @@ export default function MapView({ events, lang }: MapViewProps) {
     dragStart.current = null;
   }, []);
 
+  const currentRegionLabel = useMemo(() => {
+    if (selectedRegion === 'all') return t.regionAll;
+    if (selectedRegion === 'europe') return t.regionEurope;
+    if (selectedRegion === 'africa') return t.regionAfrica;
+    if (selectedRegion === 'south-america') return t.regionSouthAmerica;
+    if (selectedRegion === 'north-america') return t.regionNorthAmerica;
+    if (selectedRegion === 'asia') {
+      if (selectedSubRegion === 'all-asia') return `${t.regionAsia} (${t.regionAllAsia})`;
+      if (selectedSubRegion === 'east-asia') return `${t.regionAsia} / ${t.regionEastAsia}`;
+      if (selectedSubRegion === 'middle-east') return `${t.regionAsia} / ${t.regionMiddleEast}`;
+      if (selectedSubRegion === 'southeast-asia') return `${t.regionAsia} / ${t.regionSoutheastAsia}`;
+      if (selectedSubRegion === 'south-central-asia') return `${t.regionAsia} / ${t.regionSouthCentralAsia}`;
+    }
+    return t.regionAll;
+  }, [selectedRegion, selectedSubRegion, t]);
+
   return (
     <div style={{ position: 'relative' }}>
+      {/* Region Selector Bar */}
+      <div style={{ marginBottom: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+        {/* Main regions */}
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: '0.45rem', flexWrap: 'wrap',
+        }}>
+          <span style={{ fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-secondary)', marginRight: '0.2rem' }}>
+            🌍 {t.regionFilterLabel}:
+          </span>
+          {[
+            { id: 'all' as RegionId, label: t.regionAll, count: regionCounts.all },
+            { id: 'asia' as RegionId, label: t.regionAsia, count: regionCounts.asia },
+            { id: 'europe' as RegionId, label: t.regionEurope, count: regionCounts.europe },
+            { id: 'africa' as RegionId, label: t.regionAfrica, count: regionCounts.africa },
+            { id: 'south-america' as RegionId, label: t.regionSouthAmerica, count: regionCounts['south-america'] },
+            { id: 'north-america' as RegionId, label: t.regionNorthAmerica, count: regionCounts['north-america'] },
+          ].map((r) => {
+            const isSelected = selectedRegion === r.id;
+            return (
+              <button
+                key={r.id}
+                type="button"
+                onClick={() => handleSelectRegion(r.id)}
+                style={{
+                  padding: '0.35rem 0.8rem',
+                  borderRadius: '20px',
+                  border: isSelected ? '1px solid var(--accent)' : '1px solid var(--card-border)',
+                  background: isSelected ? 'var(--accent)' : '#ffffff',
+                  color: isSelected ? '#ffffff' : 'var(--foreground)',
+                  fontSize: '0.78rem',
+                  fontWeight: isSelected ? 700 : 500,
+                  cursor: 'pointer',
+                  boxShadow: isSelected ? '0 2px 8px rgba(220,38,38,0.25)' : '0 1px 2px rgba(0,0,0,0.03)',
+                  transition: 'all 0.18s ease',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                }}
+              >
+                <span>{r.label}</span>
+                <span style={{
+                  fontSize: '0.68rem',
+                  padding: '1px 6px',
+                  borderRadius: '10px',
+                  background: isSelected ? 'rgba(255,255,255,0.25)' : '#f1f5f9',
+                  color: isSelected ? '#ffffff' : 'var(--text-secondary)',
+                  fontWeight: 600,
+                }}>
+                  {r.count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Sub-region pills (Shown when Asia is selected) */}
+        {selectedRegion === 'asia' && (
+          <div style={{
+            display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap',
+            padding: '0.6rem 0.9rem', borderRadius: '12px',
+            background: '#f8fafc', border: '1px solid var(--card-border)',
+            boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.02)',
+          }}>
+            <span style={{ fontSize: '0.74rem', fontWeight: 700, color: 'var(--text-secondary)', marginRight: '0.2rem' }}>
+              ↳ {t.subRegionFilterLabel}:
+            </span>
+            {[
+              { id: 'all-asia' as SubRegionId, label: t.regionAllAsia, count: regionCounts['all-asia'] },
+              { id: 'east-asia' as SubRegionId, label: t.regionEastAsia, count: regionCounts['east-asia'] },
+              { id: 'middle-east' as SubRegionId, label: t.regionMiddleEast, count: regionCounts['middle-east'] },
+              { id: 'southeast-asia' as SubRegionId, label: t.regionSoutheastAsia, count: regionCounts['southeast-asia'] },
+              { id: 'south-central-asia' as SubRegionId, label: t.regionSouthCentralAsia, count: regionCounts['south-central-asia'] },
+            ].map((sub) => {
+              const isSubSelected = selectedSubRegion === sub.id;
+              return (
+                <button
+                  key={sub.id}
+                  type="button"
+                  onClick={() => handleSelectSubRegion(sub.id)}
+                  style={{
+                    padding: '0.3rem 0.7rem',
+                    borderRadius: '16px',
+                    border: isSubSelected ? '1px solid var(--accent)' : '1px solid var(--card-border)',
+                    background: isSubSelected ? 'var(--accent-light)' : '#ffffff',
+                    color: isSubSelected ? 'var(--accent)' : 'var(--foreground)',
+                    fontSize: '0.74rem',
+                    fontWeight: isSubSelected ? 700 : 500,
+                    cursor: 'pointer',
+                    transition: 'all 0.15s ease',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.35rem',
+                    boxShadow: isSubSelected ? '0 1px 4px rgba(220,38,38,0.15)' : '0 1px 2px rgba(0,0,0,0.02)',
+                  }}
+                >
+                  <span>{sub.label}</span>
+                  <span style={{
+                    fontSize: '0.65rem',
+                    padding: '1px 5px',
+                    borderRadius: '10px',
+                    background: isSubSelected ? 'rgba(220,38,38,0.18)' : '#f1f5f9',
+                    color: isSubSelected ? 'var(--accent)' : 'var(--text-secondary)',
+                    fontWeight: 600,
+                  }}>
+                    {sub.count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
       {/* Zoom controls */}
       <div style={{
         position: 'absolute', top: '1rem', right: '1rem', zIndex: 10,
@@ -174,7 +378,11 @@ export default function MapView({ events, lang }: MapViewProps) {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.3rem' }}>
           <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--accent)" opacity="0.9" /></svg>
-          <span style={{ fontWeight: 600 }}>{events.filter(e => eventCoords[e.id]).length} events</span>
+          <span style={{ fontWeight: 600 }}>
+            {selectedRegion === 'all'
+              ? `${filteredEvents.filter(e => eventCoords[e.id]).length} events`
+              : `${currentRegionLabel}: ${filteredEvents.filter(e => eventCoords[e.id]).length} events`}
+          </span>
         </div>
         <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
           {lang === 'ja' ? 'クリック→詳細 / ドラッグ→移動 / スクロール→ズーム' :
@@ -286,38 +494,84 @@ export default function MapView({ events, lang }: MapViewProps) {
         </svg>
       </div>
 
-      {/* Clickable event list under map (for grouped markers) */}
-      <div style={{ marginTop: '1.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-        {events.map((event) => {
-          const first = event.perspectives[0];
-          if (!first) return null;
-          const hasCoords = !!eventCoords[event.id];
-          return (
-            <Link key={event.id} href={eventLink(event.id)}>
-              <span style={{
-                fontSize: '0.73rem', padding: '5px 11px', borderRadius: '6px',
-                border: `1px solid ${hasCoords ? 'var(--card-border)' : '#e2e8f0'}`,
-                background: hasCoords ? '#ffffff' : '#f8fafc',
-                color: hasCoords ? 'var(--foreground)' : 'var(--text-muted)',
-                boxShadow: hasCoords ? '0 1px 2px rgba(0, 0, 0, 0.03)' : 'none',
-                cursor: 'pointer', transition: 'all 0.2s ease', display: 'inline-block',
+      {/* Clickable event list under map */}
+      <div style={{ marginTop: '1.5rem' }}>
+        <div style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          marginBottom: '0.75rem',
+        }}>
+          <span style={{ fontSize: '0.82rem', fontWeight: 700, color: 'var(--foreground)' }}>
+            📍 {currentRegionLabel} ({filteredEvents.length})
+          </span>
+          {selectedRegion !== 'all' && (
+            <button
+              type="button"
+              onClick={() => handleSelectRegion('all')}
+              style={{
+                fontSize: '0.72rem',
+                padding: '3px 9px',
+                borderRadius: '6px',
+                border: '1px solid var(--card-border)',
+                background: '#ffffff',
+                color: 'var(--text-secondary)',
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.25rem',
               }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = 'var(--accent)';
-                (e.currentTarget as HTMLElement).style.color = 'var(--accent)';
-                (e.currentTarget as HTMLElement).style.background = 'var(--accent-light)';
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = hasCoords ? 'var(--card-border)' : '#e2e8f0';
-                (e.currentTarget as HTMLElement).style.color = hasCoords ? 'var(--foreground)' : 'var(--text-muted)';
-                (e.currentTarget as HTMLElement).style.background = hasCoords ? '#ffffff' : '#f8fafc';
-              }}
-              >
-                {hasCoords ? '📍' : '·'} {first.location} — {first.title}
-              </span>
-            </Link>
-          );
-        })}
+            >
+              <span>✕</span>
+              <span>{t.regionAll}</span>
+            </button>
+          )}
+        </div>
+
+        {filteredEvents.length === 0 ? (
+          <div style={{
+            padding: '2rem',
+            textAlign: 'center',
+            color: 'var(--text-secondary)',
+            background: '#f8fafc',
+            borderRadius: '10px',
+            border: '1px solid var(--card-border)',
+            fontSize: '0.82rem',
+          }}>
+            {t.noResults}
+          </div>
+        ) : (
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+            {filteredEvents.map((event) => {
+              const first = event.perspectives[0];
+              if (!first) return null;
+              const hasCoords = !!eventCoords[event.id];
+              return (
+                <Link key={event.id} href={eventLink(event.id)}>
+                  <span style={{
+                    fontSize: '0.73rem', padding: '5px 11px', borderRadius: '6px',
+                    border: `1px solid ${hasCoords ? 'var(--card-border)' : '#e2e8f0'}`,
+                    background: hasCoords ? '#ffffff' : '#f8fafc',
+                    color: hasCoords ? 'var(--foreground)' : 'var(--text-muted)',
+                    boxShadow: hasCoords ? '0 1px 2px rgba(0, 0, 0, 0.03)' : 'none',
+                    cursor: 'pointer', transition: 'all 0.2s ease', display: 'inline-block',
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = 'var(--accent)';
+                    (e.currentTarget as HTMLElement).style.color = 'var(--accent)';
+                    (e.currentTarget as HTMLElement).style.background = 'var(--accent-light)';
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = hasCoords ? 'var(--card-border)' : '#e2e8f0';
+                    (e.currentTarget as HTMLElement).style.color = hasCoords ? 'var(--foreground)' : 'var(--text-muted)';
+                    (e.currentTarget as HTMLElement).style.background = hasCoords ? '#ffffff' : '#f8fafc';
+                  }}
+                  >
+                    {hasCoords ? '📍' : '·'} {first.location} — {first.title}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

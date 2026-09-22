@@ -78,3 +78,112 @@ export const eventCoords: Record<string, LatLng> = {
   'transnistria-conflict': { lat: 46.85, lng: 29.63 },   // Transnistria (Tiraspol)
   'yemen-conflict': { lat: 15.37, lng: 44.19 },          // Sana'a, Yemen
 };
+
+export type RegionId = 'all' | 'asia' | 'europe' | 'africa' | 'north-america' | 'south-america';
+export type SubRegionId = 'all-asia' | 'east-asia' | 'southeast-asia' | 'south-central-asia' | 'middle-east';
+
+export interface EventRegionInfo {
+  region: RegionId;
+  subRegion?: SubRegionId;
+}
+
+export const eventRegions: Record<string, EventRegionInfo> = {
+  // ── East Asia (30) ──
+  'comfort-women': { region: 'asia', subRegion: 'east-asia' },
+  'covid-origin': { region: 'asia', subRegion: 'east-asia' },
+  'cultural-revolution': { region: 'asia', subRegion: 'east-asia' },
+  'forced-labor': { region: 'asia', subRegion: 'east-asia' },
+  'fukushima-treated-water': { region: 'asia', subRegion: 'east-asia' },
+  'goguryeo-controversy': { region: 'asia', subRegion: 'east-asia' },
+  'high-speed-rail-controversy': { region: 'asia', subRegion: 'east-asia' },
+  'hundred-flowers-anti-rightist': { region: 'asia', subRegion: 'east-asia' },
+  'kanto-massacre': { region: 'asia', subRegion: 'east-asia' },
+  'kimchi-origin-controversy': { region: 'asia', subRegion: 'east-asia' },
+  'korea-colonization': { region: 'asia', subRegion: 'east-asia' },
+  'korean-war-division': { region: 'asia', subRegion: 'east-asia' },
+  'manchurian-incident': { region: 'asia', subRegion: 'east-asia' },
+  'marco-polo-bridge': { region: 'asia', subRegion: 'east-asia' },
+  'nanjing-death-toll': { region: 'asia', subRegion: 'east-asia' },
+  'nanjing-massacre': { region: 'asia', subRegion: 'east-asia' },
+  'nanjing-tribunal': { region: 'asia', subRegion: 'east-asia' },
+  'northern-territories': { region: 'asia', subRegion: 'east-asia' },
+  'pacific-war-end': { region: 'asia', subRegion: 'east-asia' },
+  'russia-china-territory': { region: 'asia', subRegion: 'east-asia' },
+  'sea-of-japan-naming': { region: 'asia', subRegion: 'east-asia' },
+  'senkaku': { region: 'asia', subRegion: 'east-asia' },
+  'siberian-internment': { region: 'asia', subRegion: 'east-asia' },
+  'sino-japanese-war': { region: 'asia', subRegion: 'east-asia' },
+  'taiwan-un-resolution': { region: 'asia', subRegion: 'east-asia' },
+  'takeshima': { region: 'asia', subRegion: 'east-asia' },
+  'textbook-controversy': { region: 'asia', subRegion: 'east-asia' },
+  'tiananmen-1989': { region: 'asia', subRegion: 'east-asia' },
+  'unit731': { region: 'asia', subRegion: 'east-asia' },
+  'ww2-asia': { region: 'asia', subRegion: 'east-asia' },
+
+  // ── Southeast Asia & Oceania (4) ──
+  'myanmar-civil-war': { region: 'asia', subRegion: 'southeast-asia' },
+  'papua-conflict': { region: 'asia', subRegion: 'southeast-asia' },
+  'preah-vihear-dispute': { region: 'asia', subRegion: 'southeast-asia' },
+  'spratly-islands': { region: 'asia', subRegion: 'southeast-asia' },
+
+  // ── South & Central Asia (4) ──
+  'afghanistan-conflict': { region: 'asia', subRegion: 'south-central-asia' },
+  'kashmir-conflict': { region: 'asia', subRegion: 'south-central-asia' },
+  'kyrgyzstan-tajikistan-border': { region: 'asia', subRegion: 'south-central-asia' },
+  'sino-indian-border': { region: 'asia', subRegion: 'south-central-asia' },
+
+  // ── Middle East & West Asia (8) ──
+  'gulf-war-iraq-war': { region: 'asia', subRegion: 'middle-east' },
+  'iran-iraq-war': { region: 'asia', subRegion: 'middle-east' },
+  'israel-territory': { region: 'asia', subRegion: 'middle-east' },
+  'kurdish-question': { region: 'asia', subRegion: 'middle-east' },
+  'lebanon-israel-conflict': { region: 'asia', subRegion: 'middle-east' },
+  'middle-east-us-iran-israel': { region: 'asia', subRegion: 'middle-east' },
+  'syria-civil-war': { region: 'asia', subRegion: 'middle-east' },
+  'yemen-conflict': { region: 'asia', subRegion: 'middle-east' },
+
+  // ── Europe (8) ──
+  'cyprus-dispute': { region: 'europe' },
+  'georgia-russia-conflict': { region: 'europe' },
+  'iberian-enclaves': { region: 'europe' },
+  'kosovo-dispute': { region: 'europe' },
+  'nagorno-karabakh': { region: 'europe' },
+  'transnistria-conflict': { region: 'europe' },
+  'ukraine-invasion': { region: 'europe' },
+  'volhynia-massacre': { region: 'europe' },
+
+  // ── Africa (8) ──
+  'drc-eastern-conflict': { region: 'africa' },
+  'gerd-nile-dispute': { region: 'africa' },
+  'libya-civil-war': { region: 'africa' },
+  'sahel-conflict': { region: 'africa' },
+  'somaliland-dispute': { region: 'africa' },
+  'sudan-civil-war': { region: 'africa' },
+  'tigray-war': { region: 'africa' },
+  'western-sahara': { region: 'africa' },
+
+  // ── South America (3) ──
+  'bolivia-chile-pacific': { region: 'south-america' },
+  'falklands-war': { region: 'south-america' },
+  'guayana-esequiba': { region: 'south-america' },
+};
+
+export interface ViewportTransform {
+  x: number;
+  y: number;
+  scale: number;
+}
+
+export const regionViewports: Record<string, ViewportTransform> = {
+  'all': { x: 0, y: 0, scale: 1 },
+  'asia': { x: -220, y: -40, scale: 1.8 },
+  'asia:all-asia': { x: -220, y: -40, scale: 1.8 },
+  'asia:east-asia': { x: -500, y: -60, scale: 2.3 },
+  'asia:middle-east': { x: -140, y: -20, scale: 2.6 },
+  'asia:southeast-asia': { x: -480, y: -140, scale: 2.4 },
+  'asia:south-central-asia': { x: -290, y: -50, scale: 2.5 },
+  'europe': { x: -60, y: 70, scale: 2.4 },
+  'africa': { x: -40, y: -90, scale: 1.9 },
+  'south-america': { x: 260, y: -160, scale: 1.8 },
+  'north-america': { x: 240, y: 30, scale: 1.7 },
+};

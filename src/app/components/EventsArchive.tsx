@@ -2,6 +2,7 @@
 
 import { useState, Suspense, useEffect } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import { LayoutGrid, Globe, Calendar, Search, Layers, ChevronRight, Home as HomeIcon } from 'lucide-react';
 import { EventPerspective, EventNote, EventOngoing } from '@/lib/markdown';
@@ -38,11 +39,20 @@ export interface EventsArchiveProps {
 }
 
 function EventsArchiveInner({ initialEvents, lang }: EventsArchiveProps) {
-  const [searchTerm, setSearchTerm] = useState('');
+  const searchParams = useSearchParams();
+  const initialQuery = searchParams.get('q') || '';
+  const [searchTerm, setSearchTerm] = useState(initialQuery);
   const [sortBy, setSortBy] = useState<'default' | 'chrono-asc' | 'chrono-desc'>('default');
   const [viewMode, setViewMode] = useState<'grid' | 'map' | 'timeline'>('grid');
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
+
+  useEffect(() => {
+    const q = searchParams.get('q');
+    if (q !== null) {
+      setSearchTerm(q);
+    }
+  }, [searchParams]);
 
   const events = initialEvents || [];
 

@@ -1,9 +1,11 @@
 'use client';
 
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Suspense } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { Calendar, Layers, ArrowRight } from 'lucide-react';
+import { Calendar, Layers, ArrowRight, Search, X } from 'lucide-react';
 import { EventPerspective, EventNote, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 
@@ -37,9 +39,20 @@ interface SearchEventsProps {
 }
 
 function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
+  const router = useRouter();
+  const [searchTerm, setSearchTerm] = useState('');
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
   const events = initialEvents || [];
+
+  // Popular search keyword suggestions
+  const quickTags = activeLang === 'ja'
+    ? ['慰安婦', '南京事件', '朝鮮戦争', '北方領土', 'フォークランド紛争', '中東戦争']
+    : activeLang === 'zh'
+    ? ['慰安妇', '南京大屠杀', '朝鲜战争', '福克兰战争', '中东战争', '冷战']
+    : activeLang === 'ko'
+    ? ['위안부', '난징', '한국전쟁', '포클랜드 전쟁', '중동전쟁', '냉전']
+    : ['Comfort Women', 'Nanjing', 'Korean War', 'Falklands', 'Middle East', 'Cold War'];
 
   // Home and archive links
   const archiveLink = activeLang === 'en' ? '/events' : `/${activeLang}/events`;
@@ -60,8 +73,23 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
     return event.perspectives[0]!;
   };
 
-  // Select top 6 events for the recent archives showcase
-  const recentEvents = events.slice(0, 6);
+  // Real-time search filtering
+  const filteredEvents = searchTerm.trim()
+    ? events.filter((event) => {
+        const query = searchTerm.toLowerCase();
+        const first = event.perspectives[0];
+        if (!first) return false;
+        return (
+          first.title.toLowerCase().includes(query) ||
+          first.category.toLowerCase().includes(query) ||
+          event.perspectives.some((p) => p.country.toLowerCase().includes(query)) ||
+          event.perspectives.some((p) => p.content.toLowerCase().includes(query))
+        );
+      })
+    : events;
+
+  // Select top 6 events for the recent archives / search results showcase
+  const displayEvents = filteredEvents.slice(0, 6);
 
   return (
     <div style={{ width: '100%' }}>
@@ -69,26 +97,390 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
       <WelcomeModal lang={lang} />
 
       {/* ── 1. Hero Section (Clean White) ── */}
-      <section className="section-full section-white" style={{ padding: '4.5rem 0 3rem', textAlign: 'center' }}>
+      <section className="section-full section-white" style={{ padding: '4.5rem 0 2rem', textAlign: 'center' }}>
         <div className="container" style={{ padding: '0 1.5rem' }}>
           <h1 className="title-gradient" style={{ fontSize: '3.2rem', marginBottom: '1.5rem', lineHeight: 1.25, letterSpacing: '-0.02em' }}>
             {t.heroTitleLine1}<br />
             {t.heroTitleLine2}
           </h1>
-          <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '780px', margin: '0 auto', lineHeight: 1.7 }}>
+          <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '780px', margin: '0 auto 2rem', lineHeight: 1.7 }}>
             {t.heroDesc}
           </p>
+
+          {/* ── Search Input Field ── */}
+          <div style={{ maxWidth: '640px', margin: '0 auto', position: 'relative' }}>
+            <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+              <Search
+                size={20}
+                style={{
+                  position: 'absolute',
+                  left: '1.25rem',
+                  color: 'var(--text-secondary)',
+                  pointerEvents: 'none',
+                }}
+              />
+              <input
+                type="text"
+                className="search-input"
+                placeholder={t.searchPlaceholder}
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && searchTerm.trim()) {
+                    router.push(`${archiveLink}?q=${encodeURIComponent(searchTerm.trim())}`);
+                  }
+                }}
+                style={{
+                  width: '100%',
+                  padding: '0.95rem 3.2rem 0.95rem 3.3rem',
+                  borderRadius: '30px',
+                  border: '1px solid var(--card-border)',
+                  background: '#ffffff',
+                  fontSize: '1rem',
+                  color: 'var(--foreground)',
+                  boxShadow: '0 4px 16px rgba(0, 0, 0, 0.05)',
+                  outline: 'none',
+                  transition: 'all 0.2s ease',
+                }}
+              />
+              {searchTerm && (
+                <button
+                  type="button"
+                  onClick={() => setSearchTerm('')}
+                  aria-label="Clear search"
+                  style={{
+                    position: 'absolute',
+                    right: '1.1rem',
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer',
+                    color: 'var(--text-secondary)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: '4px',
+                    borderRadius: '50%',
+                  }}
+                >
+                  <X size={18} />
+                </button>
+              )}
+            </div>
+
+            {/* Quick Search Tag Suggestions */}
+            <div style={{
+              display: 'flex',
+              gap: '0.45rem',
+              marginTop: '0.9rem',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
+              alignItems: 'center',
+              fontSize: '0.82rem',
+              color: 'var(--text-secondary)',
+            }}>
+              <span style={{ fontSize: '0.78rem', opacity: 0.8 }}>
+                {activeLang === 'ja' ? '注目キーワード:' : activeLang === 'zh' ? '热门关键词:' : activeLang === 'ko' ? '인기 키워드:' : 'Popular:'}
+              </span>
+              {quickTags.map((tag) => (
+                <button
+                  key={tag}
+                  type="button"
+                  onClick={() => setSearchTerm(tag)}
+                  style={{
+                    background: searchTerm === tag ? '#fff1f2' : '#f8fafc',
+                    border: searchTerm === tag ? '1px solid #fecdd3' : '1px solid var(--card-border)',
+                    color: searchTerm === tag ? '#dc2626' : 'var(--text-secondary)',
+                    borderRadius: '16px',
+                    padding: '0.2rem 0.65rem',
+                    fontSize: '0.78rem',
+                    cursor: 'pointer',
+                    transition: 'all 0.18s ease',
+                  }}
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* ── 2. Mini Diff Demo Section (Subtle Slate Tint) ── */}
+      {/* ── 2. Recent Archives Showcase (Clean White) ── */}
+      <section id="events-archive-section" className="section-full section-white" style={{ padding: '1rem 0 4rem' }}>
+        <div className="container" style={{ padding: '0 1.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
+            <div>
+              <h2 style={{ fontSize: '1.8rem', fontWeight: 800, borderLeft: '4px solid var(--accent)', paddingLeft: '1rem', color: 'var(--foreground)', lineHeight: 1.2 }}>
+                {searchTerm.trim() ? (
+                  activeLang === 'ja' ? `「${searchTerm}」の検索結果` :
+                  activeLang === 'zh' ? `“${searchTerm}”的搜索结果` :
+                  activeLang === 'ko' ? `"${searchTerm}" 검색 결과` :
+                  `Search Results for "${searchTerm}"`
+                ) : t.recentArchiveTitle}
+              </h2>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', marginTop: '0.5rem', paddingLeft: '1rem' }}>
+                {searchTerm.trim() ? (
+                  activeLang === 'ja' ? `該当件数: ${filteredEvents.length}件` :
+                  activeLang === 'zh' ? `匹配项: ${filteredEvents.length}条` :
+                  activeLang === 'ko' ? `검색 결과: ${filteredEvents.length}건` :
+                  `${filteredEvents.length} matching event${filteredEvents.length !== 1 ? 's' : ''}`
+                ) : t.recentArchiveSubtitle}
+              </p>
+            </div>
+            <Link
+              href={searchTerm.trim() ? `${archiveLink}?q=${encodeURIComponent(searchTerm.trim())}` : archiveLink}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.4rem',
+                color: 'var(--accent)',
+                fontWeight: 700,
+                fontSize: '0.95rem',
+                textDecoration: 'none',
+              }}
+            >
+              <span>
+                {searchTerm.trim()
+                  ? (activeLang === 'ja' ? '一覧で詳細に絞り込む' : activeLang === 'zh' ? '在列表中详细筛选' : activeLang === 'ko' ? '목록에서 상세 필터링' : 'Filter in Archive List')
+                  : t.archive}
+              </span>
+              <ArrowRight size={16} />
+            </Link>
+          </div>
+
+          {/* Cards Grid */}
+          {displayEvents.length > 0 ? (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem', marginBottom: '2.5rem' }}>
+              {displayEvents.map((event) => {
+                const persp = getPreferredPerspective(event);
+                return (
+                  <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
+                    <div
+                      title={persp.title}
+                      className="card"
+                      style={{
+                        padding: 0,
+                        overflow: 'hidden',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        width: '100%',
+                        background: '#ffffff',
+                        border: '1px solid var(--card-border)',
+                        transition: 'all 0.2s ease',
+                      }}
+                    >
+                      {event.imageUrl && (
+                        <div className="card-image-container">
+                          <img
+                            src={event.imageUrl}
+                            alt={persp.title}
+                            loading="lazy"
+                            className="card-image"
+                          />
+                        </div>
+                      )}
+                      <div className="card-content">
+                        <div style={{ display: 'flex', gap: '0.4rem', marginBottom: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                          {event.ongoing?.isOngoing && (
+                            <span
+                              className="badge"
+                              style={{
+                                background: 'rgba(239, 68, 68, 0.1)',
+                                color: '#dc2626',
+                                border: '1px solid rgba(239, 68, 68, 0.3)',
+                                fontWeight: 700,
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '0.35rem',
+                                fontSize: '0.75rem',
+                                padding: '0.2rem 0.6rem',
+                              }}
+                            >
+                              <span
+                                style={{
+                                  width: '6px',
+                                  height: '6px',
+                                  borderRadius: '50%',
+                                  backgroundColor: '#ef4444',
+                                  display: 'inline-block',
+                                }}
+                              />
+                              {t.ongoingBadge}
+                            </span>
+                          )}
+                          <span
+                            className="badge"
+                            style={{
+                              background: 'rgba(220, 38, 38, 0.08)',
+                              color: 'var(--accent)',
+                              border: '1px solid rgba(220, 38, 38, 0.3)',
+                              fontWeight: 700,
+                              fontSize: '0.75rem',
+                              padding: '0.2rem 0.65rem',
+                            }}
+                          >
+                            {persp.country}
+                          </span>
+                          <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem' }}>
+                            {persp.category}
+                          </span>
+                          <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+                            <Calendar size={11} style={{ opacity: 0.7 }} />
+                            {persp.year}
+                          </span>
+                        </div>
+                        <h3 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem', color: 'var(--foreground)' }}>
+                          {persp.title}
+                        </h3>
+                        <p style={{
+                          color: 'var(--text-secondary)',
+                          fontSize: '0.86rem',
+                          lineHeight: 1.55,
+                          marginBottom: '1.1rem',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          display: '-webkit-box',
+                          WebkitLineClamp: 2,
+                          WebkitBoxOrient: 'vertical',
+                        }}>
+                          {cleanExcerpt(persp.content, 110)}
+                        </p>
+                        <div style={{
+                          marginTop: 'auto',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          borderTop: '1px solid var(--card-border)',
+                          paddingTop: '0.75rem',
+                          fontSize: '0.78rem',
+                          color: 'var(--text-secondary)',
+                          gap: '0.5rem',
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', whiteSpace: 'nowrap' }}>
+                            <Layers size={13} style={{ opacity: 0.7 }} />
+                            <span>{t.compareTarget}</span>
+                          </div>
+                          <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                            {event.perspectives.map((p) => (
+                              <span
+                                key={p.country}
+                                style={{
+                                  padding: '2px 7px',
+                                  borderRadius: '10px',
+                                  fontSize: '0.72rem',
+                                  background: '#f1f5f9',
+                                  color: 'var(--text-secondary)',
+                                  border: '1px solid var(--card-border)',
+                                }}
+                              >
+                                {p.country}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          ) : (
+            <div style={{
+              padding: '3.5rem 2rem',
+              textAlign: 'center',
+              background: '#f8fafc',
+              borderRadius: '16px',
+              border: '1px dashed var(--card-border)',
+              marginBottom: '2.5rem',
+            }}>
+              <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', marginBottom: '1.2rem' }}>
+                {t.noResults}
+              </p>
+              <button
+                type="button"
+                onClick={() => setSearchTerm('')}
+                style={{
+                  padding: '0.6rem 1.5rem',
+                  borderRadius: '20px',
+                  border: '1px solid var(--card-border)',
+                  background: '#ffffff',
+                  color: 'var(--foreground)',
+                  fontSize: '0.9rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                }}
+              >
+                {activeLang === 'ja' ? '検索をクリアして最新アーカイブを表示' :
+                 activeLang === 'zh' ? '清空搜索并显示最新档案' :
+                 activeLang === 'ko' ? '검색어 초기화 및 최근 아카이브 보기' :
+                 'Clear search and show recent archives'}
+              </button>
+            </div>
+          )}
+
+          {/* Call To Action Banner to Full Archive */}
+          <div
+            style={{
+              background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
+              border: '1px solid var(--card-border)',
+              borderRadius: '20px',
+              padding: '2.5rem 2rem',
+              textAlign: 'center',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.03)',
+            }}
+          >
+            <h3 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--foreground)', marginBottom: '0.8rem' }}>
+              {t.archivePageTitle}
+            </h3>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', maxWidth: '650px', margin: '0 auto 1.75rem', lineHeight: 1.6 }}>
+              {t.archiveExploreHint}
+            </p>
+            <Link
+              href={searchTerm.trim() ? `${archiveLink}?q=${encodeURIComponent(searchTerm.trim())}` : archiveLink}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.6rem',
+                padding: '0.95rem 2.4rem',
+                borderRadius: '30px',
+                background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
+                color: '#ffffff',
+                fontSize: '1rem',
+                fontWeight: 700,
+                textDecoration: 'none',
+                boxShadow: '0 4px 16px rgba(220, 38, 38, 0.35)',
+                transition: 'all 0.2s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-2px)';
+                e.currentTarget.style.boxShadow = '0 6px 22px rgba(220, 38, 38, 0.45)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'none';
+                e.currentTarget.style.boxShadow = '0 4px 16px rgba(220, 38, 38, 0.35)';
+              }}
+            >
+              <span>
+                {searchTerm.trim() && filteredEvents.length > 6
+                  ? (activeLang === 'ja' ? `「${searchTerm}」の全 ${filteredEvents.length} 件を一覧で見る →` :
+                     activeLang === 'zh' ? `查看“${searchTerm}”的全部 ${filteredEvents.length} 条结果 →` :
+                     activeLang === 'ko' ? `"${searchTerm}" 전체 ${filteredEvents.length}건 목록 보기 →` :
+                     `View all ${filteredEvents.length} results for "${searchTerm}" →`)
+                  : t.viewAllArchives(events.length)}
+              </span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 3. Mini Diff Demo Section (Subtle Slate Tint) ── */}
       <section className="section-full section-slate" style={{ padding: '2.5rem 0' }}>
         <div className="container" style={{ padding: '0 1.5rem' }}>
           <MiniDiffDemo lang={lang} />
         </div>
       </section>
 
-      {/* ── 3. Ongoing Issues Showcase (Subtle Rose Tint) ── */}
+      {/* ── 4. Ongoing Issues Showcase (Subtle Rose Tint) ── */}
       {events.some((e) => e.ongoing?.isOngoing) && (
         <section className="section-full section-rose" style={{ padding: '3.5rem 0' }}>
           <div className="container" style={{ padding: '0 1.5rem' }}>
@@ -216,223 +608,10 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
         </section>
       )}
 
-      {/* ── 4. Interactive Exploration Lab (Subtle Purple Tint) ── */}
+      {/* ── 5. Interactive Exploration Lab (Subtle Purple Tint) ── */}
       <section className="section-full section-purple" style={{ padding: '3rem 0' }}>
         <div className="container" style={{ padding: '0 1.5rem' }}>
           <InteractiveHub events={events} lang={lang} />
-        </div>
-      </section>
-
-      {/* ── 5. Recent Archives Showcase (Clean White) ── */}
-      <section id="events-archive-section" className="section-full section-white" style={{ padding: '4rem 0' }}>
-        <div className="container" style={{ padding: '0 1.5rem' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
-            <div>
-              <h2 style={{ fontSize: '1.8rem', fontWeight: 800, borderLeft: '4px solid var(--accent)', paddingLeft: '1rem', color: 'var(--foreground)', lineHeight: 1.2 }}>
-                {t.recentArchiveTitle}
-              </h2>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', marginTop: '0.5rem', paddingLeft: '1rem' }}>
-                {t.recentArchiveSubtitle}
-              </p>
-            </div>
-            <Link
-              href={archiveLink}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.4rem',
-                color: 'var(--accent)',
-                fontWeight: 700,
-                fontSize: '0.95rem',
-                textDecoration: 'none',
-              }}
-            >
-              <span>{t.archive}</span>
-              <ArrowRight size={16} />
-            </Link>
-          </div>
-
-          {/* Cards Grid (Recent 6 Events) */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem', marginBottom: '2.5rem' }}>
-            {recentEvents.map((event) => {
-              const persp = getPreferredPerspective(event);
-              return (
-                <Link href={eventLink(event.id)} key={event.id} style={{ display: 'flex' }}>
-                  <div
-                    title={persp.title}
-                    className="card"
-                    style={{
-                      padding: 0,
-                      overflow: 'hidden',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      width: '100%',
-                      background: '#ffffff',
-                      border: '1px solid var(--card-border)',
-                      transition: 'all 0.2s ease',
-                    }}
-                  >
-                    {event.imageUrl && (
-                      <div className="card-image-container">
-                        <img
-                          src={event.imageUrl}
-                          alt={persp.title}
-                          loading="lazy"
-                          className="card-image"
-                        />
-                      </div>
-                    )}
-                    <div className="card-content">
-                      <div style={{ display: 'flex', gap: '0.4rem', marginBottom: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                        {event.ongoing?.isOngoing && (
-                          <span
-                            className="badge"
-                            style={{
-                              background: 'rgba(239, 68, 68, 0.1)',
-                              color: '#dc2626',
-                              border: '1px solid rgba(239, 68, 68, 0.3)',
-                              fontWeight: 700,
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '0.35rem',
-                              fontSize: '0.75rem',
-                              padding: '0.2rem 0.6rem',
-                            }}
-                          >
-                            <span
-                              style={{
-                                width: '6px',
-                                height: '6px',
-                                borderRadius: '50%',
-                                backgroundColor: '#ef4444',
-                                display: 'inline-block',
-                              }}
-                            />
-                            {t.ongoingBadge}
-                          </span>
-                        )}
-                        <span
-                          className="badge"
-                          style={{
-                            background: 'rgba(220, 38, 38, 0.08)',
-                            color: 'var(--accent)',
-                            border: '1px solid rgba(220, 38, 38, 0.3)',
-                            fontWeight: 700,
-                            fontSize: '0.75rem',
-                            padding: '0.2rem 0.65rem',
-                          }}
-                        >
-                          {persp.country}
-                        </span>
-                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem' }}>
-                          {persp.category}
-                        </span>
-                        <span className="badge" style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
-                          <Calendar size={11} style={{ opacity: 0.7 }} />
-                          {persp.year}
-                        </span>
-                      </div>
-                      <h3 style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.35, marginBottom: '0.6rem', color: 'var(--foreground)' }}>
-                        {persp.title}
-                      </h3>
-                      <p style={{
-                        color: 'var(--text-secondary)',
-                        fontSize: '0.86rem',
-                        lineHeight: 1.55,
-                        marginBottom: '1.1rem',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        display: '-webkit-box',
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: 'vertical',
-                      }}>
-                        {cleanExcerpt(persp.content, 110)}
-                      </p>
-                      <div style={{
-                        marginTop: 'auto',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        borderTop: '1px solid var(--card-border)',
-                        paddingTop: '0.75rem',
-                        fontSize: '0.78rem',
-                        color: 'var(--text-secondary)',
-                        gap: '0.5rem',
-                      }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', whiteSpace: 'nowrap' }}>
-                          <Layers size={13} style={{ opacity: 0.7 }} />
-                          <span>{t.compareTarget}</span>
-                        </div>
-                        <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-                          {event.perspectives.map((p) => (
-                            <span
-                              key={p.country}
-                              style={{
-                                padding: '2px 7px',
-                                borderRadius: '10px',
-                                fontSize: '0.72rem',
-                                background: '#f1f5f9',
-                                color: 'var(--text-secondary)',
-                                border: '1px solid var(--card-border)',
-                              }}
-                            >
-                              {p.country}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Call To Action Banner to Full Archive */}
-          <div
-            style={{
-              background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
-              border: '1px solid var(--card-border)',
-              borderRadius: '20px',
-              padding: '2.5rem 2rem',
-              textAlign: 'center',
-              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.03)',
-            }}
-          >
-            <h3 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--foreground)', marginBottom: '0.8rem' }}>
-              {t.archivePageTitle}
-            </h3>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', maxWidth: '650px', margin: '0 auto 1.75rem', lineHeight: 1.6 }}>
-              {t.archiveExploreHint}
-            </p>
-            <Link
-              href={archiveLink}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.6rem',
-                padding: '0.95rem 2.4rem',
-                borderRadius: '30px',
-                background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
-                color: '#ffffff',
-                fontSize: '1rem',
-                fontWeight: 700,
-                textDecoration: 'none',
-                boxShadow: '0 4px 16px rgba(220, 38, 38, 0.35)',
-                transition: 'all 0.2s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.boxShadow = '0 6px 22px rgba(220, 38, 38, 0.45)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'none';
-                e.currentTarget.style.boxShadow = '0 4px 16px rgba(220, 38, 38, 0.35)';
-              }}
-            >
-              <span>{t.viewAllArchives(events.length)}</span>
-            </Link>
-          </div>
         </div>
       </section>
 

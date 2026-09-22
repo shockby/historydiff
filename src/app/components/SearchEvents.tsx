@@ -34,6 +34,7 @@ interface SearchEventsProps {
     imageUrl?: string;
     notes?: EventNote[];
     ongoing?: EventOngoing | null;
+    searchKeywords?: string[];
   }[];
   lang: string;
 }
@@ -73,11 +74,13 @@ function SearchEventsInner({ initialEvents, lang }: SearchEventsProps) {
     return event.perspectives[0]!;
   };
 
-  // Real-time search filtering (cross-language: all perspectives are searched)
+  // Real-time search filtering (cross-language: all perspectives + searchKeywords are searched)
   const filteredEvents = searchTerm.trim()
     ? events.filter((event) => {
         const query = searchTerm.toLowerCase();
         if (event.perspectives.length === 0) return false;
+        // Check pre-computed cross-language keywords (title/category from all languages)
+        if (event.searchKeywords?.some((kw) => kw.includes(query))) return true;
         return (
           event.perspectives.some((p) => p.title.toLowerCase().includes(query)) ||
           event.perspectives.some((p) => p.category.toLowerCase().includes(query)) ||

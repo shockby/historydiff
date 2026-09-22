@@ -1,4 +1,4 @@
-import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes } from '@/lib/markdown';
+import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes, getSearchKeywords } from '@/lib/markdown';
 import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
 import SearchEvents from './components/SearchEvents';
 import LanguageRedirect from './components/LanguageRedirect';
@@ -33,6 +33,7 @@ export default function Home() {
         imageUrl,
         notes: notesData?.notes ?? [],
         ongoing,
+        searchKeywords: getSearchKeywords(event.id),
       };
     })
     .filter((e) => e.perspectives.length > 0);

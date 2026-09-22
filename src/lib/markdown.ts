@@ -61,6 +61,32 @@ export function getEventPerspectives(eventId: string, lang = 'en'): EventPerspec
   });
 }
 
+/**
+ * Collect title + category from ALL language variants of an event.
+ * Used to power cross-language search (e.g. typing "afghan" on the Japanese UI).
+ */
+export function getSearchKeywords(eventId: string): string[] {
+  const folderPath = path.join(contentDirectory, eventId);
+  if (!fs.existsSync(folderPath)) return [];
+  const files = fs.readdirSync(folderPath);
+  const langFiles = files.filter((file) =>
+    /-(en|ja|zh|ko)\.md$/.test(file)
+  );
+  const keywords: string[] = [];
+  for (const file of langFiles) {
+    try {
+      const perspectiveId = file.replace(/\.md$/, '');
+      const data = getPerspectiveData(eventId, perspectiveId);
+      if (data.title) keywords.push(data.title.toLowerCase());
+      if (data.category) keywords.push(data.category.toLowerCase());
+    } catch {
+      // skip unreadable files
+    }
+  }
+  return keywords;
+}
+
+
 export interface NoteSource {
   title: string;
   url: string;

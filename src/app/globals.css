@@ -868,17 +868,17 @@ div::-webkit-scrollbar {
 }
 
 .featured-divergence-box {
-  background: rgba(0, 0, 0, 0.35);
+  background: #f8fafc;
   border-radius: 10px;
   padding: 0.9rem 1rem;
   margin-bottom: 1.25rem;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--card-border);
 }
 
 .divergence-label {
   font-size: 0.76rem;
   font-weight: 700;
-  color: #f97316;
+  color: #ea580c;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 0.5rem;
@@ -899,7 +899,7 @@ div::-webkit-scrollbar {
   gap: 0.5rem;
   font-size: 0.82rem;
   line-height: 1.45;
-  color: #d4d4d8;
+  color: var(--foreground);
 }
 
 .divergence-flag {
@@ -908,7 +908,7 @@ div::-webkit-scrollbar {
 }
 
 .divergence-text strong {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .featured-card-action {
@@ -995,9 +995,9 @@ div::-webkit-scrollbar {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 16px;
-  background: rgba(18, 18, 24, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .controversy-header {
@@ -1021,7 +1021,7 @@ div::-webkit-scrollbar {
   gap: 0.4rem;
   font-size: 0.95rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--foreground);
   letter-spacing: -0.01em;
 }
 
@@ -1045,10 +1045,10 @@ div::-webkit-scrollbar {
   flex-direction: column;
   gap: 0.35rem;
   min-width: 160px;
-  background: rgba(0, 0, 0, 0.3);
+  background: #f8fafc;
   padding: 0.5rem 0.8rem;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--card-border);
 }
 
 .divergence-label-row {
@@ -1061,7 +1061,7 @@ div::-webkit-scrollbar {
 }
 
 .divergence-percentage {
-  color: #f97316;
+  color: #ea580c;
   font-weight: 800;
   font-size: 0.85rem;
 }
@@ -1069,7 +1069,7 @@ div::-webkit-scrollbar {
 .divergence-bar-track {
   width: 100%;
   height: 6px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #e2e8f0;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -1085,9 +1085,9 @@ div::-webkit-scrollbar {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.78rem;
-  color: #93c5fd;
-  background: rgba(59, 130, 246, 0.08);
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: #1d4ed8;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
   padding: 0.4rem 0.75rem;
   border-radius: 8px;
   margin-bottom: 1.25rem;
@@ -1104,23 +1104,27 @@ div::-webkit-scrollbar {
   flex-direction: column;
   padding: 1.1rem;
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .controversy-col.col-old {
   border-top: 3px solid #ef4444;
-  background: linear-gradient(180deg, rgba(239, 68, 68, 0.06) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: #fff8f8;
+  border-color: #fecaca;
 }
 
 .controversy-col.col-new {
   border-top: 3px solid #22c55e;
-  background: linear-gradient(180deg, rgba(34, 197, 94, 0.06) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: #f0fdf4;
+  border-color: #bbf7d0;
 }
 
 .controversy-col.col-contrast {
   border-top: 3px solid #f59e0b;
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.06) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: #fffbeb;
+  border-color: #fde68a;
 }
 
 .col-header {
@@ -1144,7 +1148,7 @@ div::-webkit-scrollbar {
 .col-title {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--foreground);
   flex: 1;
   line-height: 1.3;
 }
@@ -1156,9 +1160,9 @@ div::-webkit-scrollbar {
   border-radius: 12px;
 }
 
-.red-count { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
-.green-count { background: rgba(34, 197, 94, 0.2); color: #86efac; }
-.yellow-count { background: rgba(245, 158, 11, 0.2); color: #fde68a; }
+.red-count { background: #fee2e2; color: #b91c1c; }
+.green-count { background: #dcfce7; color: #15803d; }
+.yellow-count { background: #fef3c7; color: #b45309; }
 
 .keyword-cloud {
   display: flex;
@@ -1182,31 +1186,31 @@ div::-webkit-scrollbar {
 }
 
 .chip-old {
-  background: rgba(239, 68, 68, 0.12);
-  color: #fca5a5;
-  border-color: rgba(239, 68, 68, 0.25);
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
 }
 
 .chip-old:hover, .chip-old.active {
-  background: rgba(239, 68, 68, 0.28);
-  border-color: #ef4444;
+  background: #ef4444;
+  border-color: #dc2626;
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 2px 10px rgba(239, 68, 68, 0.35);
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.25);
 }
 
 .chip-new {
-  background: rgba(34, 197, 94, 0.12);
-  color: #86efac;
-  border-color: rgba(34, 197, 94, 0.25);
+  background: #dcfce7;
+  color: #15803d;
+  border-color: #86efac;
 }
 
 .chip-new:hover, .chip-new.active {
-  background: rgba(34, 197, 94, 0.28);
-  border-color: #22c55e;
+  background: #22c55e;
+  border-color: #16a34a;
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 2px 10px rgba(34, 197, 94, 0.35);
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.25);
 }
 
 .chip-count {
@@ -1245,17 +1249,18 @@ div::-webkit-scrollbar {
 .contrast-item-card {
   padding: 0.65rem 0.8rem;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(245, 158, 11, 0.15);
+  background: #ffffff;
+  border: 1px solid #fde68a;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
 .contrast-topic {
   font-size: 0.72rem;
   font-weight: 700;
-  color: #fbbf24;
+  color: #b45309;
   letter-spacing: 0.02em;
 }
 
@@ -1283,27 +1288,27 @@ div::-webkit-scrollbar {
 }
 
 .contrast-term.term-old {
-  background: rgba(239, 68, 68, 0.15);
-  color: #fca5a5;
-  border-color: rgba(239, 68, 68, 0.3);
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
 }
 
 .contrast-term.term-old:hover, .contrast-term.term-old.active {
-  background: rgba(239, 68, 68, 0.35);
+  background: #ef4444;
   color: #fff;
-  border-color: #ef4444;
+  border-color: #dc2626;
 }
 
 .contrast-term.term-new {
-  background: rgba(34, 197, 94, 0.15);
-  color: #86efac;
-  border-color: rgba(34, 197, 94, 0.3);
+  background: #dcfce7;
+  color: #15803d;
+  border-color: #86efac;
 }
 
 .contrast-term.term-new:hover, .contrast-term.term-new.active {
-  background: rgba(34, 197, 94, 0.35);
+  background: #22c55e;
   color: #fff;
-  border-color: #22c55e;
+  border-color: #16a34a;
 }
 
 .contrast-arrow {

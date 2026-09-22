@@ -152,9 +152,9 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
         padding: '2rem',
         position: 'relative',
         overflow: 'hidden',
-        border: '1px solid rgba(239, 68, 68, 0.35)',
-        background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.04) 0%, rgba(20, 20, 26, 0.95) 100%)',
-        boxShadow: '0 8px 32px rgba(224, 46, 46, 0.12)',
+        border: '1px solid #fca5a5',
+        background: '#ffffff',
+        boxShadow: '0 4px 20px rgba(220, 38, 38, 0.06)',
         borderRadius: '16px',
       }}
     >
@@ -166,7 +166,7 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           right: '-100px',
           width: '300px',
           height: '300px',
-          background: 'radial-gradient(circle, rgba(239, 68, 68, 0.15) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(239, 68, 68, 0.06) 0%, transparent 70%)',
           pointerEvents: 'none',
           zIndex: 0,
         }}
@@ -182,7 +182,7 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           gap: '1rem',
           marginBottom: '1.5rem',
           paddingBottom: '1.2rem',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+          borderBottom: '1px solid var(--card-border)',
           position: 'relative',
           zIndex: 1,
         }}
@@ -196,9 +196,9 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
               gap: '0.45rem',
               padding: '0.35rem 0.85rem',
               borderRadius: '20px',
-              background: 'rgba(239, 68, 68, 0.18)',
-              border: '1px solid rgba(239, 68, 68, 0.5)',
-              color: '#fca5a5',
+              background: 'rgba(220, 38, 38, 0.08)',
+              border: '1px solid rgba(220, 38, 38, 0.3)',
+              color: 'var(--accent)',
               fontSize: '0.82rem',
               fontWeight: 800,
               letterSpacing: '0.04em',
@@ -209,30 +209,30 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                 width: '8px',
                 height: '8px',
                 borderRadius: '50%',
-                backgroundColor: '#ef4444',
-                boxShadow: '0 0 10px #ef4444',
+                backgroundColor: 'var(--accent)',
+                boxShadow: '0 0 10px rgba(220, 38, 38, 0.6)',
                 animation: 'pulse 1.8s infinite',
               }}
             />
             <style>{`
               @keyframes pulse {
-                0% { transform: scale(0.95); opacity: 0.85; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
-                70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
-                100% { transform: scale(0.95); opacity: 0.85; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+                0% { transform: scale(0.95); opacity: 0.85; box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
+                70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); }
+                100% { transform: scale(0.95); opacity: 0.85; box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
               }
             `}</style>
             <span>{t.ongoingBadge}</span>
           </div>
 
           <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-            <Radio size={14} style={{ color: '#ef4444' }} />
+            <Radio size={14} style={{ color: 'var(--accent)' }} />
             {t.ongoingLiveText}
           </span>
         </div>
 
         {/* Last Updated Badge */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.82rem' }}>
-          <Clock size={14} style={{ color: '#f87171' }} />
+          <Clock size={14} style={{ color: 'var(--accent)' }} />
           <span>
             {t.lastUpdated}: <strong>{ongoing.lastUpdated}</strong>
           </span>
@@ -245,14 +245,14 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           style={{
             fontSize: '1.4rem',
             fontWeight: 800,
-            color: '#fff',
+            color: 'var(--foreground)',
             display: 'flex',
             alignItems: 'center',
             gap: '0.6rem',
             marginBottom: '0.5rem',
           }}
         >
-          <Sparkles size={22} style={{ color: '#f87171' }} />
+          <Sparkles size={22} style={{ color: 'var(--accent)' }} />
           {t.whyItMattersTitle}
         </h3>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.6, margin: 0 }}>
@@ -276,9 +276,10 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           <div
             style={{
               padding: '1.3rem',
-              background: 'rgba(255, 255, 255, 0.03)',
+              background: '#ffffff',
               borderRadius: '12px',
-              border: '1px solid rgba(255, 255, 255, 0.06)',
+              border: '1px solid var(--card-border)',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.03)',
             }}
           >
             <div
@@ -286,7 +287,6 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                 fontSize: '0.95rem',
                 lineHeight: 1.85,
                 color: 'var(--foreground)',
-                opacity: 0.95,
               }}
             >
               {whyText}
@@ -297,9 +297,10 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           <div
             style={{
               padding: '1.3rem',
-              background: 'rgba(239, 68, 68, 0.06)',
+              background: '#fff8f8',
               borderRadius: '12px',
-              border: '1px solid rgba(239, 68, 68, 0.2)',
+              border: '1px solid #fecaca',
+              boxShadow: '0 2px 8px rgba(220, 38, 38, 0.04)',
             }}
           >
             <div
@@ -307,7 +308,7 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.5rem',
-                color: '#f87171',
+                color: '#dc2626',
                 fontSize: '0.9rem',
                 fontWeight: 700,
                 marginBottom: '0.8rem',
@@ -337,8 +338,8 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                       width: '20px',
                       height: '20px',
                       borderRadius: '50%',
-                      background: 'rgba(239, 68, 68, 0.25)',
-                      color: '#fca5a5',
+                      background: 'rgba(220, 38, 38, 0.12)',
+                      color: '#dc2626',
                       fontSize: '0.75rem',
                       fontWeight: 700,
                       flexShrink: 0,
@@ -358,9 +359,10 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
         <div
           style={{
             padding: '1.3rem',
-            background: 'rgba(15, 15, 18, 0.7)',
+            background: '#f8fafc',
             borderRadius: '12px',
-            border: '1px solid rgba(255, 255, 255, 0.08)',
+            border: '1px solid var(--card-border)',
+            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.03)',
             display: 'flex',
             flexDirection: 'column',
           }}
@@ -373,12 +375,12 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
               justifyContent: 'space-between',
               marginBottom: '1rem',
               paddingBottom: '0.75rem',
-              borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+              borderBottom: '1px solid var(--card-border)',
             }}
           >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#fff' }}>
-              <Newspaper size={17} style={{ color: '#f87171' }} />
-              <h4 style={{ fontSize: '0.98rem', fontWeight: 700, margin: 0 }}>{t.recentNewsTitle}</h4>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--foreground)' }}>
+              <Newspaper size={17} style={{ color: '#dc2626' }} />
+              <h4 style={{ fontSize: '0.98rem', fontWeight: 700, margin: 0, color: 'var(--foreground)' }}>{t.recentNewsTitle}</h4>
             </div>
 
             {/* Refresh Button */}
@@ -390,14 +392,16 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.35rem',
-                padding: '0.3rem 0.65rem',
+                padding: '0.35rem 0.75rem',
                 borderRadius: '8px',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
-                background: 'rgba(255, 255, 255, 0.04)',
-                color: 'var(--text-secondary)',
+                border: '1px solid var(--card-border)',
+                background: '#ffffff',
+                color: 'var(--foreground)',
                 fontSize: '0.75rem',
+                fontWeight: 600,
                 cursor: isLoading ? 'not-allowed' : 'pointer',
                 transition: 'all 0.2s ease',
+                boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
               }}
             >
               <RefreshCw
@@ -425,7 +429,7 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
             }}
           >
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-              <CheckCircle size={12} style={{ color: isLiveFeed ? '#34d399' : '#f87171' }} />
+              <CheckCircle size={12} style={{ color: isLiveFeed ? '#16a34a' : '#dc2626' }} />
               {isLiveFeed ? t.newsAutoUpdateHint : t.newsEmptyFallback}
             </span>
             {lastFetchedTime && <span>{lastFetchedTime}</span>}
@@ -445,19 +449,20 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                     display: 'block',
                     padding: '0.85rem',
                     borderRadius: '8px',
-                    background: 'rgba(255, 255, 255, 0.02)',
-                    border: '1px solid rgba(255, 255, 255, 0.05)',
+                    background: '#ffffff',
+                    border: '1px solid var(--card-border)',
+                    boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
                     textDecoration: 'none',
                     transition: 'all 0.2s ease',
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.06)';
-                    e.currentTarget.style.borderColor = 'rgba(239, 68, 68, 0.4)';
+                    e.currentTarget.style.background = '#f1f5f9';
+                    e.currentTarget.style.borderColor = '#cbd5e1';
                     e.currentTarget.style.transform = 'translateY(-1px)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.02)';
-                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)';
+                    e.currentTarget.style.background = '#ffffff';
+                    e.currentTarget.style.borderColor = 'var(--card-border)';
                     e.currentTarget.style.transform = 'none';
                   }}
                 >
@@ -496,15 +501,14 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
                       gap: '0.6rem',
                       fontSize: '0.72rem',
                       color: 'var(--text-secondary)',
-                      opacity: 0.85,
                     }}
                   >
                     <span
                       style={{
                         padding: '1px 6px',
                         borderRadius: '4px',
-                        background: 'rgba(255, 255, 255, 0.06)',
-                        color: '#f87171',
+                        background: '#fee2e2',
+                        color: '#b91c1c',
                         fontWeight: 600,
                       }}
                     >

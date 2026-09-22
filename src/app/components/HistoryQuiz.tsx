@@ -82,9 +82,9 @@ export default function HistoryQuiz({
       } : {
         padding: isCardOnly ? '1.5rem' : '2.5rem 2rem',
         borderRadius: '16px',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
-        background: 'linear-gradient(145deg, rgba(20, 20, 28, 0.7) 0%, rgba(10, 10, 15, 0.85) 100%)',
-        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
+        border: '1px solid var(--card-border)',
+        background: '#ffffff',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)',
         marginTop: isCardOnly ? '0' : '2.5rem',
         marginBottom: isCardOnly ? '0' : '2.5rem',
         position: 'relative',
@@ -99,7 +99,7 @@ export default function HistoryQuiz({
           right: '-5%',
           width: '300px',
           height: '300px',
-          background: 'radial-gradient(circle, rgba(224, 46, 46, 0.08) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(224, 46, 46, 0.04) 0%, transparent 70%)',
           pointerEvents: 'none',
         }} />
       )}
@@ -119,7 +119,7 @@ export default function HistoryQuiz({
                 border: '1px solid rgba(249, 115, 22, 0.3)',
                 fontSize: '0.78rem',
                 fontWeight: 700,
-                color: '#fb923c',
+                color: '#ea580c',
               }}>
                 <Flame size={14} />
                 <span>{t.quizStreakLabel(streak)}</span>
@@ -131,7 +131,7 @@ export default function HistoryQuiz({
                 color: 'var(--text-secondary)',
                 padding: '4px 8px',
                 borderRadius: '8px',
-                background: 'rgba(255, 255, 255, 0.04)',
+                background: '#f1f5f9',
               }}>
                 {t.quizScoreLabel(stats.correct, stats.total)}
               </span>
@@ -146,7 +146,7 @@ export default function HistoryQuiz({
           flexWrap: 'wrap',
           gap: '0.75rem',
           marginBottom: '1.5rem',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+          borderBottom: '1px solid var(--card-border)',
           paddingBottom: '1rem',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
@@ -154,12 +154,12 @@ export default function HistoryQuiz({
               width: '32px',
               height: '32px',
               borderRadius: '8px',
-              background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(249, 115, 22, 0.25))',
-              border: '1px solid rgba(239, 68, 68, 0.4)',
+              background: 'rgba(220, 38, 38, 0.1)',
+              border: '1px solid rgba(220, 38, 38, 0.25)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#f87171',
+              color: 'var(--accent)',
             }}>
               <HelpCircle size={18} />
             </div>
@@ -169,7 +169,7 @@ export default function HistoryQuiz({
                   fontSize: '0.7rem',
                   fontWeight: 700,
                   letterSpacing: '0.08em',
-                  color: '#f87171',
+                  color: 'var(--accent)',
                   textTransform: 'uppercase',
                 }}>
                   {t.quizBadge}
@@ -202,7 +202,7 @@ export default function HistoryQuiz({
                 border: '1px solid rgba(249, 115, 22, 0.3)',
                 fontSize: '0.78rem',
                 fontWeight: 700,
-                color: '#fb923c',
+                color: '#ea580c',
               }}>
                 <Flame size={14} />
                 <span>{t.quizStreakLabel(streak)}</span>
@@ -214,7 +214,7 @@ export default function HistoryQuiz({
                 color: 'var(--text-secondary)',
                 padding: '4px 8px',
                 borderRadius: '8px',
-                background: 'rgba(255, 255, 255, 0.04)',
+                background: '#f1f5f9',
               }}>
                 {t.quizScoreLabel(stats.correct, stats.total)}
               </span>
@@ -238,15 +238,15 @@ export default function HistoryQuiz({
         position: 'relative',
         padding: '1.25rem 1.5rem',
         borderRadius: '12px',
-        background: 'rgba(0, 0, 0, 0.35)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
-        borderLeft: '4px solid #ef4444',
+        background: '#f8fafc',
+        border: '1px solid var(--card-border)',
+        borderLeft: '4px solid var(--accent)',
         marginBottom: '1.5rem',
       }}>
         <div style={{
           fontSize: '0.75rem',
-          fontWeight: 600,
-          color: 'var(--text-secondary)',
+          fontWeight: 700,
+          color: 'var(--accent)',
           marginBottom: '0.5rem',
           textTransform: 'uppercase',
           letterSpacing: '0.04em',
@@ -256,7 +256,7 @@ export default function HistoryQuiz({
         <p style={{
           fontSize: '0.98rem',
           lineHeight: 1.8,
-          color: '#f3f4f6',
+          color: 'var(--foreground)',
           fontStyle: 'normal',
         }}>
           {currentExcerpt}
@@ -266,14 +266,14 @@ export default function HistoryQuiz({
           <div style={{
             marginTop: '0.8rem',
             paddingTop: '0.6rem',
-            borderTop: '1px dashed rgba(255, 255, 255, 0.08)',
+            borderTop: '1px dashed var(--card-border)',
             display: 'flex',
             alignItems: 'center',
             gap: '0.4rem',
-            fontSize: '0.75rem',
-            color: 'rgba(255, 255, 255, 0.5)',
+            fontSize: '0.78rem',
+            color: 'var(--text-secondary)',
           }}>
-            <Sparkles size={13} style={{ color: '#d29922', flexShrink: 0 }} />
+            <Sparkles size={13} style={{ color: '#d97706', flexShrink: 0 }} />
             <span>Hint: {currentClue}</span>
           </div>
         )}
@@ -302,29 +302,33 @@ export default function HistoryQuiz({
           const isSelected = selectedOption === optName;
 
           let btnStyle = {
-            border: '1px solid rgba(255, 255, 255, 0.1)',
-            background: 'rgba(255, 255, 255, 0.03)',
+            border: '1px solid var(--card-border)',
+            background: '#ffffff',
             color: 'var(--foreground)',
+            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
           };
 
           if (hasAnswered) {
             if (isThisOptionCorrect) {
               btnStyle = {
-                border: '1px solid #3fb950',
-                background: 'rgba(46, 160, 67, 0.2)',
-                color: '#3fb950',
+                border: '1px solid #86efac',
+                background: '#dcfce7',
+                color: '#15803d',
+                boxShadow: 'none',
               };
             } else if (isSelected) {
               btnStyle = {
-                border: '1px solid #f85149',
-                background: 'rgba(248, 81, 73, 0.2)',
-                color: '#f85149',
+                border: '1px solid #fecaca',
+                background: '#fee2e2',
+                color: '#b91c1c',
+                boxShadow: 'none',
               };
             } else {
               btnStyle = {
-                border: '1px solid rgba(255, 255, 255, 0.04)',
-                background: 'rgba(255, 255, 255, 0.01)',
-                color: 'rgba(255, 255, 255, 0.3)',
+                border: '1px solid var(--card-border)',
+                background: '#f8fafc',
+                color: 'var(--text-secondary)',
+                boxShadow: 'none',
               };
             }
           }
@@ -351,20 +355,20 @@ export default function HistoryQuiz({
               }}
               onMouseEnter={(e) => {
                 if (!hasAnswered) {
-                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
-                  e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.25)';
+                  e.currentTarget.style.background = '#f1f5f9';
+                  e.currentTarget.style.borderColor = '#cbd5e1';
                 }
               }}
               onMouseLeave={(e) => {
                 if (!hasAnswered) {
-                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
-                  e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+                  e.currentTarget.style.background = '#ffffff';
+                  e.currentTarget.style.borderColor = 'var(--card-border)';
                 }
               }}
             >
               <span>{optName}</span>
-              {hasAnswered && isThisOptionCorrect && <CheckCircle2 size={16} color="#3fb950" />}
-              {hasAnswered && isSelected && !isThisOptionCorrect && <XCircle size={16} color="#f85149" />}
+              {hasAnswered && isThisOptionCorrect && <CheckCircle2 size={16} color="#16a34a" />}
+              {hasAnswered && isSelected && !isThisOptionCorrect && <XCircle size={16} color="#dc2626" />}
             </button>
           );
         })}
@@ -375,8 +379,8 @@ export default function HistoryQuiz({
         <div style={{
           padding: '1.25rem',
           borderRadius: '12px',
-          background: isCorrect ? 'rgba(46, 160, 67, 0.08)' : 'rgba(248, 81, 73, 0.08)',
-          border: isCorrect ? '1px solid rgba(46, 160, 67, 0.3)' : '1px solid rgba(248, 81, 73, 0.3)',
+          background: isCorrect ? '#f0fdf4' : '#fef2f2',
+          border: isCorrect ? '1px solid #86efac' : '1px solid #fecaca',
           animation: 'fadeIn 0.25s ease-out',
         }}>
           <div style={{
@@ -385,7 +389,7 @@ export default function HistoryQuiz({
             gap: '0.5rem',
             fontSize: '1rem',
             fontWeight: 700,
-            color: isCorrect ? '#3fb950' : '#f85149',
+            color: isCorrect ? '#15803d' : '#b91c1c',
             marginBottom: '0.6rem',
           }}>
             {isCorrect ? <CheckCircle2 size={20} /> : <XCircle size={20} />}
@@ -398,20 +402,21 @@ export default function HistoryQuiz({
             marginBottom: '0.6rem',
           }}>
             <strong>{t.quizCorrectAnswer}: </strong>
-            <span style={{ color: '#3fb950', fontWeight: 700 }}>{currentCountry}</span>
+            <span style={{ color: '#15803d', fontWeight: 700 }}>{currentCountry}</span>
           </div>
 
           {/* Explanation */}
           <div style={{
             fontSize: '0.85rem',
             lineHeight: 1.7,
-            color: 'var(--text-secondary)',
+            color: 'var(--foreground)',
             padding: '0.75rem 1rem',
             borderRadius: '8px',
-            background: 'rgba(0, 0, 0, 0.2)',
+            background: '#ffffff',
+            border: '1px solid var(--card-border)',
             marginBottom: '1rem',
           }}>
-            <div style={{ fontWeight: 600, color: 'var(--foreground)', marginBottom: '0.3rem' }}>
+            <div style={{ fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.3rem' }}>
               {t.quizExplanationTitle}
             </div>
             {currentExplanation}

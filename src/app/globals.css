@@ -643,6 +643,8 @@ div::-webkit-scrollbar {
   color: var(--foreground);
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
 .mini-demo-diff-container {
   border-radius: 14px;
   overflow: hidden;
@@ -1828,100 +1830,138 @@ div::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.85rem;
-  margin: 3.5rem 0 2rem;
+  gap: 0.75rem;
+  margin: 3rem 0 2rem;
 }
 
 .pagination-info {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
-  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
 .pagination-controls {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-  justify-content: center;
+  gap: 0;
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
+/* ─ 全ボタン共通 ─ */
 .pagination-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
-  min-width: 38px;
-  height: 38px;
-  padding: 0 0.75rem;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  gap: 0.2rem;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--text-secondary);
-  transition: all 0.18s ease;
+  background: transparent;
+  border: none;
+  border-right: 1.5px solid #e2e8f0;
+  color: var(--accent);
+  transition: background 0.13s ease, color 0.13s ease;
   outline: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.pagination-btn:last-child {
+  border-right: none;
 }
 
 .pagination-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.25);
-  color: #fff;
-  transform: translateY(-1px);
+  background: #fef2f2;
 }
 
-.pagination-btn.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
+/* アクティブページ: 塗り潰し (specificity 確保) */
+.pagination-btn.active,
+.kaminari-pagination .pagination-btn.active {
+  background: var(--accent) !important;
+  color: #fff !important;
   font-weight: 700;
-  box-shadow: 0 0 16px rgba(224, 46, 46, 0.45);
+  cursor: default;
+}
+
+.pagination-btn.active:hover,
+.kaminari-pagination .pagination-btn.active:hover {
+  background: var(--accent) !important;
 }
 
 .pagination-btn:disabled {
-  opacity: 0.25;
+  color: #cbd5e1;
   cursor: not-allowed;
   pointer-events: none;
 }
 
+/* ページ番号ボタン */
 .pagination-num-btn {
   padding: 0;
-  min-width: 38px;
+  min-width: 42px;
 }
 
+/* ナビボタン (First/Prev/Next/Last) */
+.pagination-nav-btn {
+  padding: 0 0.85rem;
+  min-width: unset;
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+/* 省略記号 */
 .pagination-ellipsis {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 26px;
-  height: 38px;
-  color: var(--text-secondary);
+  min-width: 36px;
+  height: 42px;
+  color: #94a3b8;
   font-size: 0.85rem;
+  border-right: 1.5px solid #e2e8f0;
+  user-select: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
+  .pagination-controls {
+    border-radius: 8px;
+  }
+
+  .pagination-btn {
+    min-width: 38px;
+    height: 38px;
+    font-size: 0.85rem;
+    padding: 0 0.65rem;
+  }
+
+  .pagination-num-btn {
+    min-width: 38px;
+    padding: 0;
+  }
+
+  .pagination-nav-btn {
+    padding: 0 0.6rem;
+  }
+
   .pagination-text-label {
     display: none;
   }
 
-  .pagination-btn {
-    min-width: 34px;
-    height: 34px;
-    padding: 0 0.45rem;
-    font-size: 0.8rem;
-    border-radius: 8px;
-  }
-
-  .pagination-num-btn {
-    min-width: 34px;
+  .pagination-ellipsis {
+    min-width: 28px;
+    height: 38px;
   }
 
   .pagination-info {
     font-size: 0.75rem;
+    text-align: center;
+    padding: 0 1rem;
   }
 }
-
-

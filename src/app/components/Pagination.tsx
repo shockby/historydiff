@@ -20,7 +20,6 @@ function getPaginationRange(current: number, total: number) {
   const pages: (number | string)[] = [];
   const delta = 1;
 
-  // Always show first page
   pages.push(1);
 
   const left = current - delta;
@@ -35,22 +34,16 @@ function getPaginationRange(current: number, total: number) {
   const start = Math.max(2, left);
   const end = Math.min(total - 1, right);
   for (let i = start; i <= end; i++) {
-    if (!pages.includes(i)) {
-      pages.push(i);
-    }
+    if (!pages.includes(i)) pages.push(i);
   }
 
   if (right < total - 1) {
     pages.push('...');
   } else if (right === total - 1) {
-    if (!pages.includes(total - 1)) {
-      pages.push(total - 1);
-    }
+    if (!pages.includes(total - 1)) pages.push(total - 1);
   }
 
-  if (!pages.includes(total)) {
-    pages.push(total);
-  }
+  if (!pages.includes(total)) pages.push(total);
 
   return pages;
 }
@@ -67,37 +60,36 @@ export default function Pagination({
 
   const start = (currentPage - 1) * itemsPerPage + 1;
   const end = Math.min(currentPage * itemsPerPage, totalItems);
-
   const pages = getPaginationRange(currentPage, totalPages);
 
   const labels = {
     ja: {
+      info: `全 ${totalItems} 件中 ${start}〜${end} 件を表示`,
       first: '最初',
       prev: '前へ',
       next: '次へ',
       last: '最後',
-      info: `全 ${totalItems} 件中 ${start}〜${end} 件を表示 (${currentPage} / ${totalPages} ページ)`,
     },
     zh: {
+      info: `共 ${totalItems} 项，第 ${start}–${end} 项`,
       first: '首页',
-      prev: '上一页',
-      next: '下一页',
+      prev: '上页',
+      next: '下页',
       last: '末页',
-      info: `共 ${totalItems} 项，显示第 ${start} 至 ${end} 项（第 ${currentPage} / ${totalPages} 页）`,
     },
     ko: {
+      info: `총 ${totalItems}개 중 ${start}〜${end}개`,
       first: '처음',
       prev: '이전',
       next: '다음',
       last: '마지막',
-      info: `총 ${totalItems}개 중 ${start}〜${end}개 표시 (${currentPage} / ${totalPages} 페이지)`,
     },
     en: {
+      info: `${start}–${end} of ${totalItems}`,
       first: 'First',
       prev: 'Prev',
       next: 'Next',
       last: 'Last',
-      info: `Showing ${start}–${end} of ${totalItems} events (Page ${currentPage} of ${totalPages})`,
     },
   };
 
@@ -105,9 +97,12 @@ export default function Pagination({
 
   return (
     <nav aria-label="Pagination" className="kaminari-pagination">
+      {/* ページ情報 */}
       <div className="pagination-info">{l.info}</div>
 
+      {/* コントロール: 一体型ボタングループ */}
       <div className="pagination-controls">
+
         {/* First */}
         <button
           type="button"
@@ -117,8 +112,7 @@ export default function Pagination({
           className="pagination-btn pagination-nav-btn"
           aria-label={l.first}
         >
-          <ChevronsLeft size={14} />
-          <span className="pagination-text-label">{l.first}</span>
+          <ChevronsLeft size={15} />
         </button>
 
         {/* Prev */}
@@ -130,12 +124,9 @@ export default function Pagination({
           className="pagination-btn pagination-nav-btn"
           aria-label={l.prev}
         >
-          <ChevronLeft size={14} />
+          <ChevronLeft size={15} />
           <span className="pagination-text-label">{l.prev}</span>
         </button>
-
-        {/* Divider */}
-        <span className="pagination-divider" aria-hidden="true" />
 
         {/* Page numbers */}
         {pages.map((p, idx) => {
@@ -151,7 +142,7 @@ export default function Pagination({
             <button
               key={p}
               type="button"
-              onClick={() => onPageChange(p)}
+              onClick={() => !isActive && onPageChange(p)}
               aria-current={isActive ? 'page' : undefined}
               className={`pagination-btn pagination-num-btn${isActive ? ' active' : ''}`}
             >
@@ -159,9 +150,6 @@ export default function Pagination({
             </button>
           );
         })}
-
-        {/* Divider */}
-        <span className="pagination-divider" aria-hidden="true" />
 
         {/* Next */}
         <button
@@ -173,7 +161,7 @@ export default function Pagination({
           aria-label={l.next}
         >
           <span className="pagination-text-label">{l.next}</span>
-          <ChevronRight size={14} />
+          <ChevronRight size={15} />
         </button>
 
         {/* Last */}
@@ -185,9 +173,9 @@ export default function Pagination({
           className="pagination-btn pagination-nav-btn"
           aria-label={l.last}
         >
-          <span className="pagination-text-label">{l.last}</span>
-          <ChevronsRight size={14} />
+          <ChevronsRight size={15} />
         </button>
+
       </div>
     </nav>
   );

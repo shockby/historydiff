@@ -1880,16 +1880,18 @@ div::-webkit-scrollbar {
   background: #fef2f2;
 }
 
-/* アクティブページ: 塗り潰し */
-.pagination-btn.active {
-  background: var(--accent);
-  color: #fff;
+/* アクティブページ: 塗り潰し (specificity 確保) */
+.pagination-btn.active,
+.kaminari-pagination .pagination-btn.active {
+  background: var(--accent) !important;
+  color: #fff !important;
   font-weight: 700;
   cursor: default;
 }
 
-.pagination-btn.active:hover {
-  background: var(--accent);
+.pagination-btn.active:hover,
+.kaminari-pagination .pagination-btn.active:hover {
+  background: var(--accent) !important;
 }
 
 .pagination-btn:disabled {

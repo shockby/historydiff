@@ -11,7 +11,7 @@
   "whatToWatchNext": {
     "ja": "1. 「ヴィヴァルディ作戦」の進展とロシアの反撃・ハイブリッド戦（NATO加盟国へのサイバー攻撃等）の激化\n2. 米特使外交と三者会談（UAE仲介案）を通じた停戦協議の実現可否\n3. ウクライナのEU加盟交渉進展と欧米の長期軍事・財政支援の持続可能性\n4. 地上ドローン・AIドローンの実戦投入が従来型陸戦を代替するかどうか",
     "en": "1. Progress of 'Operation Vivaldi' and Russia's counter-escalation including hybrid warfare (cyberattacks against NATO states)\n2. Whether US envoy diplomacy and trilateral talks (UAE-hosted proposal) can yield a real ceasefire\n3. Ukraine's EU accession talks and the sustainability of long-term Western military and financial support\n4. Whether ground-based and AI-driven drones will replace conventional land warfare at scale",
-    "zh": "1. "维瓦尔第行动"进展及俄罗斯反制与混合战（针对北约国家网络攻击等）升级态势\n2. 美国特使外交与三方会谈（UAE斡旋方案）能否促成实质停火\n3. 乌克兰加入欧盟谈判的推进及西方长期军事与财政支援的可持续性\n4. 地面无人机与AI无人机的大规模实战运用能否取代传统地面战",
+    "zh": "1. \"维瓦尔第行动\"进展及俄罗斯反制与混合战（针对北约国家网络攻击等）升级态势\n2. 美国特使外交与三方会谈（UAE斡旋方案）能否促成实质停火\n3. 乌克兰加入欧盟谈判的推进及西方长期军事与财政支援的可持续性\n4. 地面无人机与AI无人机的大规模实战运用能否取代传统地面战",
     "ko": "1. '비발디 작전'의 진전과 러시아의 반격·하이브리드 전쟁(NATO 회원국 사이버 공격 등) 격화\n2. 미국 특사 외교와 3자 회담(UAE 중재안)을 통한 휴전 협의 실현 가능성\n3. 우크라이나의 EU 가입 협상 진전과 서방의 장기 군사·재정 지원의 지속 가능성\n4. 지상 드론·AI 드론의 실전 투입이 기존 지상전을 대체할 수 있는지 여부"
   },
   "rssQuery": {
@@ -29,7 +29,7 @@
       "summary": {
         "ja": "ウクライナ第3軍団は無人機部隊と地上戦闘ロボットを組み合わせた「ヴィヴァルディ作戦」でリマン方面を進攻し、ゼレンスキー大統領は9月30日時点で計176km²の奪還を確認。ロシア後方への飽和ドローン攻撃で補給線を寸断する新戦術が成果を上げている。",
         "en": "Ukraine's 3rd Army Corps launched 'Operation Vivaldi' in the Lyman sector, combining drone dominance with ground combat robots. President Zelenskyy confirmed the recapture of approximately 176 km² as of September 30, with saturated drone strikes on Russian rear areas severing supply lines.",
-        "zh": "乌克兰第3军团以"维瓦尔第行动"向利曼方向推进，结合无人机主导与地面战斗机器人，泽连斯基总统于9月30日确认已收复约176平方公里土地，后方饱和无人机打击有效切断俄军补给线。",
+        "zh": "乌克兰第3军团以\"维瓦尔第行动\"向利曼方向推进，结合无人机主导与地面战斗机器人，泽连斯基总统于9月30日确认已收复约176平方公里土地，后方饱和无人机打击有效切断俄军补给线。",
         "ko": "우크라이나 제3군단이 리만 방면에서 '비발디 작전'을 전개해 드론 우위와 지상 전투 로봇을 결합, 젤렌스키 대통령은 9월 30일 기준 176㎢ 탈환을 확인. 러시아 후방 포화 드론 타격으로 보급선을 차단하는 신전술이 성과를 올리고 있다."
       },
       "country": "国際"
@@ -42,7 +42,7 @@
       "summary": {
         "ja": "スティーブン・ウィトコフとジャレッド・クシュナーの米特使がモスクワとキーウを訪問し、外交安全確保のため72時間の一時停戦が実施された。しかし領土問題での両者の溝は埋まらず、包括的な停戦合意には至らなかった。国連は「危険な新局面」と警告し、50か国がEUと共に即時停戦を求める共同声明を発表。米国は同声明に署名しなかった。",
         "en": "US envoys Steven Witkoff and Jared Kushner visited Moscow and Kyiv, with a 72-hour mutual ceasefire implemented for security. No comprehensive ceasefire agreement was reached. The UN warned of a 'dangerous new phase,' and a 50-nation group with the EU issued a joint call for immediate ceasefire; the US did not join.",
-        "zh": "美国特使威特科夫和库什纳分别访问莫斯科和基辅，为外交访问安全实施了72小时临时停火，但领土问题分歧未弥合，全面停火协议未能达成。联合国警告冲突进入"危险新阶段"，50国及欧盟联合呼吁立即停火，美国未加入该声明。",
+        "zh": "美国特使威特科夫和库什纳分别访问莫斯科和基辅，为外交访问安全实施了72小时临时停火，但领土问题分歧未弥合，全面停火协议未能达成。联合国警告冲突进入\"危险新阶段\"，50国及欧盟联合呼吁立即停火，美国未加入该声明。",
         "ko": "스티브 위트코프·재러드 쿠슈너 미국 특사가 모스크바와 키이우를 방문, 외교 방문 안전 확보를 위한 72시간 상호 휴전이 이행됐다. 그러나 영토 문제에서 양측의 간극이 좁혀지지 않아 포괄적 휴전 합의에 이르지 못했다. 유엔은 '위험한 새 국면' 진입을 경고하고, 50개국과 EU가 즉각 휴전을 촉구하는 공동성명을 발표했으나 미국은 서명하지 않았다."
       },
       "country": "国際"

@@ -97,7 +97,7 @@ export default function Pagination({
       prev: 'Prev',
       next: 'Next',
       last: 'Last',
-      info: `Showing ${start}-${end} of ${totalItems} events (Page ${currentPage} of ${totalPages})`,
+      info: `Showing ${start}–${end} of ${totalItems} events (Page ${currentPage} of ${totalPages})`,
     },
   };
 
@@ -105,9 +105,7 @@ export default function Pagination({
 
   return (
     <nav aria-label="Pagination" className="kaminari-pagination">
-      <div className="pagination-info">
-        {l.info}
-      </div>
+      <div className="pagination-info">{l.info}</div>
 
       <div className="pagination-controls">
         {/* First */}
@@ -119,7 +117,7 @@ export default function Pagination({
           className="pagination-btn pagination-nav-btn"
           aria-label={l.first}
         >
-          <ChevronsLeft size={15} />
+          <ChevronsLeft size={14} />
           <span className="pagination-text-label">{l.first}</span>
         </button>
 
@@ -132,9 +130,12 @@ export default function Pagination({
           className="pagination-btn pagination-nav-btn"
           aria-label={l.prev}
         >
-          <ChevronLeft size={15} />
+          <ChevronLeft size={14} />
           <span className="pagination-text-label">{l.prev}</span>
         </button>
+
+        {/* Divider */}
+        <span className="pagination-divider" aria-hidden="true" />
 
         {/* Page numbers */}
         {pages.map((p, idx) => {
@@ -152,12 +153,15 @@ export default function Pagination({
               type="button"
               onClick={() => onPageChange(p)}
               aria-current={isActive ? 'page' : undefined}
-              className={`pagination-btn pagination-num-btn ${isActive ? 'active' : ''}`}
+              className={`pagination-btn pagination-num-btn${isActive ? ' active' : ''}`}
             >
               {p}
             </button>
           );
         })}
+
+        {/* Divider */}
+        <span className="pagination-divider" aria-hidden="true" />
 
         {/* Next */}
         <button
@@ -169,7 +173,7 @@ export default function Pagination({
           aria-label={l.next}
         >
           <span className="pagination-text-label">{l.next}</span>
-          <ChevronRight size={15} />
+          <ChevronRight size={14} />
         </button>
 
         {/* Last */}
@@ -182,7 +186,7 @@ export default function Pagination({
           aria-label={l.last}
         >
           <span className="pagination-text-label">{l.last}</span>
-          <ChevronsRight size={15} />
+          <ChevronsRight size={14} />
         </button>
       </div>
     </nav>

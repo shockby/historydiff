@@ -1859,17 +1859,17 @@ div::-webkit-scrollbar {
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #ffffff;
+  border: 1px solid var(--card-border);
   color: var(--text-secondary);
   transition: all 0.18s ease;
   outline: none;
 }
 
 .pagination-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.25);
-  color: #fff;
+  background: #f1f5f9;
+  border-color: var(--accent);
+  color: var(--accent);
   transform: translateY(-1px);
 }
 
@@ -1878,11 +1878,11 @@ div::-webkit-scrollbar {
   border-color: var(--accent);
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 0 16px rgba(224, 46, 46, 0.45);
+  box-shadow: 0 0 16px rgba(224, 46, 46, 0.35);
 }
 
 .pagination-btn:disabled {
-  opacity: 0.25;
+  opacity: 0.35;
   cursor: not-allowed;
   pointer-events: none;
 }

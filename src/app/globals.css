@@ -643,6 +643,8 @@ div::-webkit-scrollbar {
   color: var(--foreground);
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
 .mini-demo-diff-container {
   border-radius: 14px;
   overflow: hidden;

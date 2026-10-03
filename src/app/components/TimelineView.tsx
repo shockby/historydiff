@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import Link from 'next/link';
 import { EventPerspective, EventNote } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';

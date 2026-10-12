@@ -1,0 +1,53 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "photos": [
+    {
+      "id": "unhrc-chamber",
+      "url": "/images/events/universal-values-vs-sovereignty/unhrc-chamber.jpg",
+      "caption": {
+        "ja": "ジュネーブの国連欧州本部（パレ・デ・ナシオン）にある人権理事会の議場。2015年3月、ケリー米国務長官が各国代表に演説した。",
+        "en": "The Human Rights Council chamber at the UN Palais des Nations in Geneva, where US Secretary of State John Kerry addressed delegates in March 2015.",
+        "zh": "日内瓦万国宫联合国人权理事会会议厅。2015年3月，美国国务卿克里在此向各国代表发表演讲。",
+        "ko": "제네바 유엔 유럽본부(팔레 데 나시옹)의 인권이사회 회의장. 2015년 3월 케리 미국 국무장관이 각국 대표 앞에서 연설했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Secretary Kerry Addresses Delegates at UN Human Rights Council Chamber in Switzerland",
+        "url": "https://commons.wikimedia.org/wiki/File:Secretary_Kerry_Addresses_Delegates_at_UN_Human_Rights_Council_Chamber_in_Switzerland_(16692870582).jpg",
+        "license": "Public Domain",
+        "author": "U.S. Department of State"
+      }
+    },
+    {
+      "id": "orange-revolution-kyiv",
+      "url": "/images/events/universal-values-vs-sovereignty/orange-revolution-kyiv.jpg",
+      "caption": {
+        "ja": "2004年11月22日、オレンジ革命のさなかのキエフ独立広場。ロシア・中国は、こうした政変を欧米が後押しした「カラー革命」とみなしている。",
+        "en": "Kyiv's Independence Square during the Orange Revolution, 22 November 2004. Russia and China regard such upheavals as Western-backed \"color revolutions.\"",
+        "zh": "2004年11月22日橙色革命期间的基辅独立广场。俄罗斯和中国将此类政变视为西方支持的“颜色革命”。",
+        "ko": "2004년 11월 22일 오렌지 혁명 당시의 키이우 독립광장. 러시아와 중국은 이런 정변을 서방이 뒤에서 지원한 '색깔 혁명'으로 본다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Kiev Independence Square Orange Revolution 22-11-2004.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Kiev_Independence_Square_Orange_Revolution_22-11-2004.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Gutsul (Ukrainian Wikipedia)"
+      }
+    },
+    {
+      "id": "putin-xi-2023",
+      "url": "/images/events/universal-values-vs-sovereignty/putin-xi-2023.jpg",
+      "caption": {
+        "ja": "2023年3月、モスクワの大クレムリン宮殿で行われた歓迎式典に臨む習近平国家主席とプーチン大統領。両国は「内政不干渉」と多極的な国際秩序を共通の立場として掲げる。",
+        "en": "Xi Jinping and Vladimir Putin at the official welcoming ceremony in the Grand Kremlin Palace, Moscow, March 2023. Both stress non-interference and a multipolar order.",
+        "zh": "2023年3月，习近平与普京在莫斯科大克里姆林宫的欢迎仪式上。两国都强调不干涉内政与多极化的国际秩序。",
+        "ko": "2023년 3월 모스크바 대크렘린궁 환영식에 나선 시진핑 주석과 푸틴 대통령. 양국은 내정 불간섭과 다극 질서를 공통 입장으로 내세운다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Putin-Xi meeting (2023).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Putin-Xi_meeting_(2023).jpg",
+        "license": "CC BY 4.0",
+        "author": "Presidential Executive Office of Russia (kremlin.ru)"
+      }
+    }
+  ]
+}

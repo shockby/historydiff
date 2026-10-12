@@ -1,0 +1,145 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "notes": [
+    {
+      "id": "uv-udhr",
+      "claim": "1948年の世界人権宣言は、人権を「すべての人民とすべての国が達成すべき共通の基準」と位置づけた",
+      "context": "「普遍的価値」論の法的・政治的な根拠の一つ。ただし宣言自体は法的拘束力のある条約ではなく、中国・ロシアなどは文化的・歴史的文脈による解釈の違いを主張している。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Universal Declaration of Human Rights",
+          "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-charter-2-7",
+      "claim": "国連憲章第2条7項は、本質的に国内管轄権内にある事項への国連の干渉を禁じている",
+      "context": "「内政不干渉」の主張の根拠として中国・ロシアが頻繁に援用する。ただし条文は国連機関の干渉を対象とし、安保理の強制措置は例外とされる。また国際人権条約に加入した国の人権状況は純粋な国内問題とはいえないとの解釈が欧米側で主流。",
+      "verdict": "事実確認済み（解釈に争いあり）",
+      "sources": [
+        {
+          "title": "Charter of the United Nations, Chapter I",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-1",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-vienna-1993",
+      "claim": "1993年のウィーン宣言は「すべての人権は普遍的」としつつ、国家的・地域的特殊性と歴史的・文化的背景に留意すべきとも述べている",
+      "context": "双方がそれぞれの根拠として引用できる文書。「人権の促進は国家の義務」という文言は欧米側が、「特殊性に留意」という部分は中国など独自路線側が重視する。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Vienna Declaration and Programme of Action",
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-five-principles",
+      "claim": "「平和共存五原則」（相互の内政不干渉を含む）は1954年の中国・インド協定の前文で定式化された",
+      "context": "中国の外交原則の原点であり、非同盟運動やグローバル・サウスの主権重視の源流でもある。1954年の相手国はインドであり、両国は後に国境紛争で対立するが、原則自体は両国とも現在も引用する。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Five Principles of Peaceful Coexistence",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/zy/gy/201405/t20140515_678184.html",
+          "publisher": "Ministry of Foreign Affairs of the PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-color-revolutions",
+      "claim": "2003〜2005年のジョージア・ウクライナ・キルギスの政変は「カラー革命」と呼ばれる",
+      "context": "これらが欧米の資金援助や支援によって「仕組まれた」ものか、それとも不正選挙に抗議した国内の民衆運動か、評価は割れる。研究者は、外部支援は存在したが運動の主因は国内の不満だったとする見方が多い。中国・ロシア政府は外部主導を前提に政策を設計している。",
+      "verdict": "名称・出来事は事実（外部の関与の程度は争いあり）",
+      "sources": [
+        {
+          "title": "Color revolution",
+          "url": "https://www.britannica.com/topic/color-revolution",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uv-foreign-agents",
+      "claim": "ロシアは2012年に「外国エージェント法」を制定し、外国資金を受ける団体・メディア・個人に登録と表示を義務づけ、その後対象を拡大した",
+      "context": "ロシア政府は外国の影響から主権を守るための措置と説明する。欧州評議会や人権団体は、市民社会と独立メディアの弾圧に使われていると批判している。",
+      "verdict": "事実確認済み（目的の評価は対立）",
+      "sources": [
+        {
+          "title": "Russia: foreign agents law",
+          "url": "https://www.hrw.org/news/2017/11/20/russia-expanded-foreign-agents-law-hits-media",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "uv-china-white-paper",
+      "claim": "中国政府は2021年12月に白書『中国の民主』を発表し、「全過程人民民主」を提示した",
+      "context": "中国側は「民主主義に唯一のモデルはない」と主張。米国は民主主義サミット開催の直前（同年12月）にこの白書が出された点も含め、体制競争の一環と受け止めた。評価は国際的にも割れる。",
+      "verdict": "事実確認済み（内容の評価は別）",
+      "sources": [
+        {
+          "title": "China: Democracy That Works",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202112/04/content_WS61ab1bb5c6d0df57f98e3d4e.html",
+          "publisher": "State Council Information Office, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-summit-democracy",
+      "claim": "米国は2021年12月に初の「民主主義サミット」をオンラインで開催し、約110の国・地域を招待した",
+      "context": "中国・ロシアは招待されず、台湾が招かれた。中国は「冷戦思考で世界を分断する」と反発した。招待基準（なぜ特定の国が含まれるか）には、同盟国の権威主義的傾向などから二重基準との批判もあった。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "The Summit for Democracy",
+          "url": "https://www.state.gov/summit-for-democracy/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-eu-magnitsky",
+      "claim": "EUは2020年12月に「グローバル人権制裁制度」を創設し、重大な人権侵害の責任者に資産凍結・渡航禁止を課せるようにした",
+      "context": "いわゆるEU版マグニツキー法。中国は、2021年3月の新疆関連の制裁発動に対し、欧州議員らへの対抗制裁で応じた。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Global Human Rights Sanctions Regime",
+          "url": "https://www.consilium.europa.eu/en/policies/eu-global-human-rights-sanctions-regime/",
+          "publisher": "Council of the EU",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-unga-ukraine",
+      "claim": "2022年3月の国連総会ロシア非難決議は141か国が賛成した一方、インド・中国など35か国が棄権した",
+      "context": "棄権した国の多くはグローバル・サウスに属する。欧米は国際秩序への賛同の表れと捉え、棄権国は「陣営選択を避けたい」という立場を示した。グローバル・サウス全体が価値観で一致しているわけではない。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "General Assembly resolution ES-11/1 vote",
+          "url": "https://press.un.org/en/2022/ga12407.doc.htm",
+          "publisher": "UN Press",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

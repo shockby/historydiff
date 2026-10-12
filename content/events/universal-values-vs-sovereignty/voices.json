@@ -1,0 +1,180 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "uv-voice-1",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "人権や自由選挙は国境を越えた権利だ。独裁国家が「内政問題」と言い張るのは弾圧の言い訳にすぎない。",
+        "en": "Human rights and free elections transcend borders. Calling it an \"internal affair\" is just an excuse for repression."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "従来は超党派で見られた論調。近年は「他国の民主化より国内優先」との声も増えている。",
+        "en": "Traditionally bipartisan; recently more voices say domestic priorities should come before promoting democracy abroad."
+      }
+    },
+    {
+      "id": "uv-voice-2",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "イラクやリビアの失敗を見れば、民主主義の輸出は結局うまくいかない。他国に説教する前に自国の分断を直すべきだ。",
+        "en": "Iraq and Libya show exporting democracy doesn't work. Fix our own divisions before lecturing others."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "孤立主義・現実主義寄りの層で目立つ意見。",
+        "en": "Common among isolationist and realist-leaning commentators."
+      }
+    },
+    {
+      "id": "uv-voice-3",
+      "country": {
+        "ja": "ドイツ・フランス（EU）",
+        "en": "Germany/France (EU)"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "人権は我々の基盤だが、ハンガリーの例もある。他国に求めるなら、まずEU内で同じ基準を守るべきだ。",
+        "en": "Human rights are our foundation, but look at Hungary. If we demand it of others, we must uphold the same standard inside the EU."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "EU域内でも二重基準を自省する声が強い。",
+        "en": "Self-critical voices about double standards are strong within the EU."
+      }
+    },
+    {
+      "id": "uv-voice-4",
+      "country": {
+        "ja": "中国",
+        "en": "China"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "民主主義のモデルは一つではない。我々は貧困を減らし経済を発展させた。西側が自分の物差しで他国を裁くのは傲慢だ。",
+        "en": "There is no single model of democracy. We reduced poverty and grew the economy. It is arrogant for the West to judge others by its own yardstick."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "国内SNSや官製メディアで広く見られる論調。",
+        "en": "Widely seen on domestic social media and state media."
+      }
+    },
+    {
+      "id": "uv-voice-5",
+      "country": {
+        "ja": "中国",
+        "en": "China"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "香港や新疆への欧米の批判は、中国の発展を抑え込むための口実だ。カラー革命の手口には警戒が必要だ。",
+        "en": "Western criticism over Hong Kong and Xinjiang is a pretext to contain China's rise. We must watch for color-revolution tactics."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国家安全の観点で語られることが多い。",
+        "en": "Usually framed in terms of national security."
+      }
+    },
+    {
+      "id": "uv-voice-6",
+      "country": {
+        "ja": "ロシア",
+        "en": "Russia"
+      },
+      "sentiment": "nationalist-sovereign",
+      "summary": {
+        "ja": "欧米はウクライナ政変やジョージアにNGOを通じて干渉してきた。我々は主権を守っているだけだ。",
+        "en": "The West has interfered through NGOs in Ukraine and Georgia. We are only defending our sovereignty."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "国営メディアと政府系アカウントで繰り返される。",
+        "en": "Repeated across state media and pro-government accounts."
+      }
+    },
+    {
+      "id": "uv-voice-7",
+      "country": {
+        "ja": "ロシア（独立系・亡命）",
+        "en": "Russia (independent/exile)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "『内政不干渉』を叫ぶ政権が、隣国に軍を送り国内の反対派を弾圧している。矛盾だ。",
+        "en": "A government that shouts non-interference sends troops into a neighbor and jails its own opposition. That is a contradiction."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "独立系メディアや亡命者のコミュニティで見られる。",
+        "en": "Seen among independent media and exiles."
+      }
+    },
+    {
+      "id": "uv-voice-8",
+      "country": {
+        "ja": "インド",
+        "en": "India"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "民主主義は大切だが、欧米の都合のいい説教には付き合わない。我々は誰にも付かず、自国の利益で決める。",
+        "en": "Democracy matters, but we won't go along with selective Western lectures. We side with no one and decide by our own interests."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "戦略的自律を重視する外交論壇の主流。",
+        "en": "Mainstream in foreign-policy circles that prize strategic autonomy."
+      }
+    },
+    {
+      "id": "uv-voice-9",
+      "country": {
+        "ja": "南アフリカ・ブラジルなど（グローバル・サウス）",
+        "en": "South Africa/Brazil etc. (Global South)"
+      },
+      "sentiment": "skeptical",
+      "summary": {
+        "ja": "人権の名で介入されてきた歴史がある。気候や開発の問題には口を出さない国が、人権だけ強調するのは筋が通らない。",
+        "en": "We have a history of being intervened upon in the name of human rights. It is inconsistent to stress human rights alone while ignoring climate and development."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "陣営選択を拒む姿勢と結びつく。",
+        "en": "Linked to a refusal to pick sides."
+      }
+    },
+    {
+      "id": "uv-voice-10",
+      "country": {
+        "ja": "日本",
+        "en": "Japan"
+      },
+      "sentiment": "balanced-pragmatic",
+      "summary": {
+        "ja": "価値観は共有したいが、中国など隣国との経済関係も大事だ。制裁一辺倒ではなく対話も続けるべきだ。",
+        "en": "We want to share these values, but economic ties with neighbors like China matter too. Keep dialogue rather than only sanctions."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "企業・外交実務者に多い。一方で人権団体は日本版マグニツキー法の制定を求める。",
+        "en": "Common among business and diplomatic practitioners; rights groups urge a Japanese Magnitsky law."
+      }
+    }
+  ]
+}

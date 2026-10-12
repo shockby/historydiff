@@ -1,0 +1,145 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "notes": [
+    {
+      "id": "uv-udhr",
+      "claim": "The 1948 Universal Declaration of Human Rights described human rights as \"a common standard of achievement for all peoples and all nations\"",
+      "context": "One legal-political basis for the \"universal values\" argument. The declaration is not itself a binding treaty, and China, Russia and others argue that interpretation depends on historical and cultural context.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "Universal Declaration of Human Rights",
+          "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-charter-2-7",
+      "claim": "Article 2(7) of the UN Charter bars the UN from intervening in matters essentially within the domestic jurisdiction of states",
+      "context": "Frequently invoked by China and Russia to support non-interference. The text addresses UN organs, with an exception for Security Council enforcement measures, and Western states generally hold that the human-rights situation of treaty parties is not purely domestic.",
+      "verdict": "Verified (interpretation disputed)",
+      "sources": [
+        {
+          "title": "Charter of the United Nations, Chapter I",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-1",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-vienna-1993",
+      "claim": "The 1993 Vienna Declaration states that all human rights are universal while also saying national and regional particularities and historical, cultural and religious backgrounds must be borne in mind",
+      "context": "Both camps cite this text: Western states stress that States have a duty to promote all rights; China and others stress the passage on particularities.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "Vienna Declaration and Programme of Action",
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-five-principles",
+      "claim": "The Five Principles of Peaceful Coexistence, including mutual non-interference in internal affairs, were set out in the preamble of the 1954 China–India agreement on Tibet",
+      "context": "Origin of China's diplomatic principles and a root of non-aligned and Global South emphasis on sovereignty. India, the 1954 counterpart, later fell into a border dispute with China, yet both still cite the principles.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "Five Principles of Peaceful Coexistence",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/zy/gy/201405/t20140515_678184.html",
+          "publisher": "Ministry of Foreign Affairs of the PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-color-revolutions",
+      "claim": "The 2003–2005 upheavals in Georgia, Ukraine and Kyrgyzstan are commonly called \"color revolutions\"",
+      "context": "Whether they were engineered by Western funding or were domestic movements protesting electoral fraud is contested. Many scholars say outside support existed but domestic grievance was the main driver. The Chinese and Russian governments design policy on the premise of external orchestration.",
+      "verdict": "Events factual (extent of foreign role disputed)",
+      "sources": [
+        {
+          "title": "Color revolution",
+          "url": "https://www.britannica.com/topic/color-revolution",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uv-foreign-agents",
+      "claim": "Russia enacted its \"foreign agents\" law in 2012, requiring organizations, media and individuals receiving foreign funding to register and be labeled, and has since expanded its scope",
+      "context": "The Russian government describes it as protecting sovereignty from foreign influence. The Council of Europe and rights groups say it is used to suppress civil society and independent media.",
+      "verdict": "Verified (assessment of purpose disputed)",
+      "sources": [
+        {
+          "title": "Russia: foreign agents law",
+          "url": "https://www.hrw.org/news/2017/11/20/russia-expanded-foreign-agents-law-hits-media",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "uv-china-white-paper",
+      "claim": "In December 2021 the Chinese government issued the white paper \"China: Democracy That Works,\" presenting \"whole-process people's democracy\"",
+      "context": "Beijing argues there is no single model of democracy. Washington saw the paper, issued around the time of the first Summit for Democracy, as part of systemic competition. Assessments differ internationally.",
+      "verdict": "Verified (merits of content assessed separately)",
+      "sources": [
+        {
+          "title": "China: Democracy That Works",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202112/04/content_WS61ab1bb5c6d0df57f98e3d4e.html",
+          "publisher": "State Council Information Office, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-summit-democracy",
+      "claim": "In December 2021 the United States held its first virtual \"Summit for Democracy,\" inviting around 110 countries and territories",
+      "context": "China and Russia were not invited while Taiwan was. China objected that it divided the world with Cold War thinking. Invitation criteria drew double-standard criticism given authoritarian trends in some invitees.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "The Summit for Democracy",
+          "url": "https://www.state.gov/summit-for-democracy/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-eu-magnitsky",
+      "claim": "In December 2020 the EU created its Global Human Rights Sanctions Regime enabling asset freezes and travel bans on those responsible for serious abuses",
+      "context": "The so-called EU Magnitsky Act. When it was used in March 2021 over Xinjiang, China retaliated with counter-sanctions on European lawmakers and others.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "Global Human Rights Sanctions Regime",
+          "url": "https://www.consilium.europa.eu/en/policies/eu-global-human-rights-sanctions-regime/",
+          "publisher": "Council of the EU",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-unga-ukraine",
+      "claim": "A March 2022 UN General Assembly resolution condemning Russia passed with 141 votes in favour, while 35 states including India and China abstained",
+      "context": "Many abstainers belong to the Global South. The West read the vote as backing for the international order, while abstainers signaled reluctance to choose sides. The Global South is not uniform in its views.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "General Assembly resolution ES-11/1 vote",
+          "url": "https://press.un.org/en/2022/ga12407.doc.htm",
+          "publisher": "UN Press",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,53 @@
 {
   "eventId": "armenian-genocide",
-  "photos": []
+  "photos": [
+    {
+      "id": "deportation-kozan",
+      "url": "/images/events/armenian-genocide/deportation-kozan.jpg",
+      "caption": {
+        "ja": "コザン県（キリキア）から強制移送されるアルメニア人たち（1915年頃）。",
+        "en": "Armenians being deported from the Kozan Sanjak, Cilicia (c. 1915).",
+        "zh": "约1915年，亚美尼亚人被从奇里乞亚科赞地区强制迁离。",
+        "ko": "1915년경 킬리키아 코잔 지역에서 강제 이송되는 아르메니아인들."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Armenians' deportation at Kozan Sanjak.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Armenians%27_deportation_at_Kozan_Sanjak.jpg",
+        "license": "Public Domain",
+        "author": "Unknown author"
+      }
+    },
+    {
+      "id": "near-east-relief-orphans",
+      "url": "/images/events/armenian-genocide/near-east-relief-orphans.jpg",
+      "caption": {
+        "ja": "アレクサンドロポリ（現ギュムリ）の中東救援委員会孤児院にいるアルメニア人孤児たち。",
+        "en": "Armenian orphans at the Near East Relief orphanage in Alexandropol (now Gyumri).",
+        "zh": "亚历山德罗波尔（今久姆里）近东救济会孤儿院中的亚美尼亚孤儿。",
+        "ko": "알렉산드로폴(현 규므리) 근동구호 고아원의 아르메니아인 고아들."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Armenian orphans of the Near East Relief orphanage in Alexandropol",
+        "url": "https://commons.wikimedia.org/wiki/File:Armenian_orphans_of_the_Near_East_Relief_orphanage_in_Alexandropol_(now_Gyumri,_Armenia).jpg",
+        "license": "Public Domain",
+        "author": "Unknown author"
+      }
+    },
+    {
+      "id": "tsitsernakaberd-memorial",
+      "url": "/images/events/armenian-genocide/tsitsernakaberd-memorial.jpg",
+      "caption": {
+        "ja": "エレバンのツィツェルナカベルド・アルメニア人虐殺記念碑。毎年4月24日に追悼式典が行われる。",
+        "en": "Tsitsernakaberd Armenian Genocide Memorial in Yerevan, site of the annual 24 April commemoration.",
+        "zh": "埃里温的茨茨纳卡贝尔德亚美尼亚大屠杀纪念碑，每年4月24日在此举行悼念活动。",
+        "ko": "예레반의 치체르나카베르드 아르메니아인 학살 추모비. 매년 4월 24일 추모 행사가 열린다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Tsitsernakaberd - Armenian Genocide memorial complex (18.09.2019) 28.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tsitsernakaberd_-_Armenian_Genocide_memorial_complex_(18%E2%80%A409%E2%80%A42019)_28.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Gardmanahay"
+      }
+    }
+  ]
 }

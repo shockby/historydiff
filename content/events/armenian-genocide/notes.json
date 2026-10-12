@@ -1,0 +1,95 @@
+{
+  "eventId": "armenian-genocide",
+  "notes": [
+    {
+      "id": "ag-1915-0424",
+      "claim": "1915年4月24日、イスタンブールでアルメニア人知識人・指導者の大規模な逮捕が行われた",
+      "context": "この日が現在、アルメニアや各国のアルメニア系社会で追悼日とされている。逮捕・追放は数百人規模で、これは虐殺の始まりの象徴として位置づけられる。トルコ政府も逮捕の事実自体は争わないが、その目的や位置づけについて異なる説明をしている。",
+      "verdict": "事実確認済み（位置づけに争いあり）",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-tehcir-law",
+      "claim": "1915年5月の「移送法（テフジル法）」により、アルメニア人住民の強制移住が法的に開始された",
+      "context": "トルコ政府は同法を戦時下の安全保障措置と説明するが、アルメニア側や多くの歴史家は、移送が隠れ蓑となった組織的な絶滅政策だったと評価する。移送路での食料・水の欠如、護送兵や民兵による殺害が記録されている。",
+      "verdict": "法の存在は事実（目的・性格は議論あり）",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/armenian-genocide",
+          "publisher": "US Holocaust Memorial Museum",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ag-death-toll",
+      "claim": "犠牲者数の推計は60万人〜150万人以上と幅があり、アルメニア側は約150万人、トルコ側ははるかに低い数字を主張する",
+      "context": "オスマン帝国の人口統計の不備や戦時の混乱で正確な数は確定していない。多くの国際的歴史家は、100万人前後からそれ以上と見る。トルコ側は、同時期のムスリム住民の犠牲も含めた戦争全体の被害として語る傾向がある。",
+      "verdict": "推定に幅あり",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-recognition",
+      "claim": "米国（2021年）、ドイツ（2016年）、フランス（2001年）など30か国前後がジェノサイドとして公式に認定している",
+      "context": "認定の形式は国によって異なり、議会決議、大統領声明、法律など様々である。トルコ政府はこれらを一貫して拒否し、その都度外交的に反発している。日本政府は認定していない。",
+      "verdict": "公式記録あり（国数は年により変動）",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.armenian-genocide.org/recognition.html",
+          "publisher": "Armenian National Institute",
+          "type": "ngo"
+        },
+        {
+          "title": "Statement by President Joe Biden on Armenian Remembrance Day",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/24/statement-by-president-joe-biden-on-armenian-remembrance-day/",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-turkey-position",
+      "claim": "トルコ政府は死者が出たことを認めつつ「ジェノサイド」を否定し、共同歴史委員会の設置を提案している",
+      "context": "2005年のエルドアン首相の提案に対し、アルメニア側は、既に歴史学の合意があるとして政治的な委員会による事実認定の再検討に否定的である。2014年にトルコ首相は犠牲者への哀悼を表明した。",
+      "verdict": "公式見解として事実（評価は対立）",
+      "sources": [
+        {
+          "title": "The Events of 1915 (Turkish Ministry of Foreign Affairs)",
+          "url": "https://www.mfa.gov.tr/the-armenian-allegation-of-genocide-the-issue-and-the-facts.en.mfa",
+          "publisher": "Republic of Türkiye, Ministry of Foreign Affairs",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-zurich-protocols",
+      "claim": "2009年のチューリッヒ議定書は国交樹立と国境開放を定めたが、批准されず、国境は閉鎖されたままである",
+      "context": "トルコ側はナゴルノ・カラバフ問題の進展を、アルメニア側は歴史問題をめぐる前提条件を、それぞれ批准の障害として挙げた。2022年以降は特使間協議が再開し、2023年の地震後には限定的な人道支援が実現した。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Armenia–Turkey normalization",
+          "url": "https://www.mfa.gov.tr/relations-between-turkiye-and-armenia.en.mfa",
+          "publisher": "Republic of Türkiye, Ministry of Foreign Affairs",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

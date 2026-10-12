@@ -1,0 +1,95 @@
+{
+  "eventId": "armenian-genocide",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+  },
+  "voices": [
+    {
+      "id": "ag-voice-1",
+      "country": {
+        "ja": "トルコ",
+        "en": "Turkey"
+      },
+      "sentiment": "denial",
+      "summary": {
+        "ja": "トルコ人やムスリムも大勢亡くなった戦時の悲劇だ。政治利用せず、歴史家が文書館で検証すべきだ。",
+        "en": "It was a wartime tragedy in which many Turks and Muslims also died. Historians, not politicians, should examine the archives."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "トルコ国内のSNSで広く見られる論調。政府の公式見解に近い。",
+        "en": "Widely seen on Turkish social media and close to the official line."
+      }
+    },
+    {
+      "id": "ag-voice-2",
+      "country": {
+        "ja": "アルメニア（ディアスポラ含む）",
+        "en": "Armenia (incl. diaspora)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "1915年のジェノサイドを認め、謝罪と補償を行うまで、私たちは4月24日を忘れない。否定は犯罪の継続だ。",
+        "en": "We will not forget 24 April until the genocide is recognized and addressed. Denial is the continuation of the crime."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アルメニア本国や欧米のディアスポラで共有される声。",
+        "en": "Shared in Armenia and diaspora communities in Europe and North America."
+      }
+    },
+    {
+      "id": "ag-voice-3",
+      "country": {
+        "ja": "アゼルバイジャン",
+        "en": "Azerbaijan"
+      },
+      "sentiment": "denial",
+      "summary": {
+        "ja": "トルコは兄弟国だ。アルメニア側の主張は政治利用であり、ホジャリなど我々の被害こそ認められるべきだ。",
+        "en": "Turkey is a brother nation. Armenian claims are politicized; our own suffering, such as Khojaly, deserves recognition."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国営メディアや政府寄りのSNSで目立つ。",
+        "en": "Prominent in state media and pro-government social media."
+      }
+    },
+    {
+      "id": "ag-voice-4",
+      "country": {
+        "ja": "アメリカ合衆国",
+        "en": "United States"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "米国は2021年の認定で正しい道を選んだ。同盟国であっても歴史的真実は曲げられない。",
+        "en": "The 2021 recognition was the right call. Even an ally cannot be allowed to rewrite historical truth."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "アルメニア系米国人コミュニティや人権団体で支持が強い。",
+        "en": "Strong support among Armenian-American communities and human-rights groups."
+      }
+    },
+    {
+      "id": "ag-voice-5",
+      "country": {
+        "ja": "日本",
+        "en": "Japan"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "遠い地域の問題だが、両国の主張を比べて学びたい。日本政府はもっと説明してほしい。",
+        "en": "It is a distant issue, but I want to compare both sides' claims. The government should explain its position more clearly."
+      },
+      "prevalence": "low",
+      "context": {
+        "ja": "日本語圏ではあまり議論されておらず、関心は限定的。",
+        "en": "Little discussed in the Japanese-speaking world; interest is limited."
+      }
+    }
+  ]
+}

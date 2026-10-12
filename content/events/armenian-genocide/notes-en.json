@@ -1,0 +1,95 @@
+{
+  "eventId": "armenian-genocide",
+  "notes": [
+    {
+      "id": "ag-1915-0424",
+      "claim": "On 24 April 1915, Armenian intellectuals and leaders were arrested en masse in Constantinople",
+      "context": "This date is now commemorated in Armenia and diaspora communities. Several hundred people were arrested and deported, an event treated as the symbolic start of the killings. Turkey does not dispute the arrests themselves but offers a different account of their purpose.",
+      "verdict": "Arrests are factual (their significance is disputed)",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-tehcir-law",
+      "claim": "The Tehcir Law of May 1915 legally initiated the forced deportation of the Armenian population",
+      "context": "Turkey describes the law as a wartime security measure, whereas Armenia and many historians view the deportations as cover for a systematic extermination policy. Lack of food and water and killings by escorts and militias along the routes are documented.",
+      "verdict": "The law is factual (its purpose and nature are disputed)",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/armenian-genocide",
+          "publisher": "US Holocaust Memorial Museum",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ag-death-toll",
+      "claim": "Death toll estimates range from about 600,000 to over 1.5 million; Armenia cites about 1.5 million while Turkey cites far lower figures",
+      "context": "Because of incomplete Ottoman demographic records and wartime chaos, exact figures cannot be fixed. Many international historians estimate roughly one million or more. Turkey tends to frame the deaths as part of overall wartime losses that also include Muslim civilians.",
+      "verdict": "Estimates vary widely",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-recognition",
+      "claim": "About thirty states, including the US (2021), Germany (2016) and France (2001), have formally recognized the events as genocide",
+      "context": "Forms of recognition vary, including parliamentary resolutions, presidential statements and statutes. Turkey rejects all of them and typically reacts diplomatically. The Japanese government has not recognized the events.",
+      "verdict": "Official records exist (the count changes over time)",
+      "sources": [
+        {
+          "title": "Armenian Genocide",
+          "url": "https://www.armenian-genocide.org/recognition.html",
+          "publisher": "Armenian National Institute",
+          "type": "ngo"
+        },
+        {
+          "title": "Statement by President Joe Biden on Armenian Remembrance Day",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/24/statement-by-president-joe-biden-on-armenian-remembrance-day/",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-turkey-position",
+      "claim": "The Turkish government acknowledges deaths but denies \\\"genocide\\\" and proposes a joint historians' commission",
+      "context": "Armenia responded to the 2005 proposal that scholarly consensus already exists and that a political commission to re-examine the facts is unnecessary. In 2014 Turkey's prime minister expressed condolences to the victims' descendants.",
+      "verdict": "Official position is factual (assessments conflict)",
+      "sources": [
+        {
+          "title": "The Events of 1915 (Turkish Ministry of Foreign Affairs)",
+          "url": "https://www.mfa.gov.tr/the-armenian-allegation-of-genocide-the-issue-and-the-facts.en.mfa",
+          "publisher": "Republic of Türkiye, Ministry of Foreign Affairs",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-zurich-protocols",
+      "claim": "The 2009 Zurich Protocols provided for diplomatic relations and opening the border but were never ratified; the border remains closed",
+      "context": "Turkey linked ratification to progress on Nagorno-Karabakh, while Armenia objected to conditions related to historical issues. Special-envoy talks resumed in 2022, and limited humanitarian aid passed after the 2023 earthquake.",
+      "verdict": "Verified fact",
+      "sources": [
+        {
+          "title": "Armenia–Turkey normalization",
+          "url": "https://www.mfa.gov.tr/relations-between-turkiye-and-armenia.en.mfa",
+          "publisher": "Republic of Türkiye, Ministry of Foreign Affairs",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

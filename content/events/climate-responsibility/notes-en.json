@@ -1,0 +1,101 @@
+{
+  "eventId": "climate-responsibility",
+  "notes": [
+    {
+      "id": "cc-cbdr",
+      "claim": "The 1992 UNFCCC enshrines \"common but differentiated responsibilities and respective capabilities\" and states that developed countries should take the lead",
+      "context": "CBDR-RC appears in Article 3(1) of the Convention and is the legal basis for China and India's call for greater developed-country responsibility. The Paris Agreement reaffirmed it \"in the light of different national circumstances\", and where to draw the line between developed and developing countries remains contested.",
+      "verdict": "Verified (interpretation disputed)",
+      "sources": [
+        {
+          "title": "United Nations Framework Convention on Climate Change (1992)",
+          "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
+          "publisher": "UNFCCC",
+          "type": "international"
+        },
+        {
+          "title": "The Paris Agreement",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cumulative",
+      "claim": "Historical cumulative CO2 emissions are dominated by the US and EU, while China is now the largest annual emitter",
+      "context": "Since 1850 the US accounts for roughly a quarter of cumulative CO2 emissions, the EU roughly a sixth, China in the mid-teens of percent and India about 3%. Annually, however, China emits around 30% of the global total and India around 8%, while India's per-capita emissions are far below the world average. Which metric is emphasised largely explains the divergence in national positions.",
+      "verdict": "Estimates vary by dataset",
+      "sources": [
+        {
+          "title": "Cumulative CO2 emissions",
+          "url": "https://ourworldindata.org/grapher/cumulative-co-emissions",
+          "publisher": "Our World in Data / Global Carbon Project",
+          "type": "academic"
+        },
+        {
+          "title": "Global Carbon Budget",
+          "url": "https://globalcarbonbudget.org/",
+          "publisher": "Global Carbon Project",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cc-kyoto",
+      "claim": "The Kyoto Protocol (1997) imposed binding targets only on developed (Annex I) countries; the US never ratified it, and Japan, Canada and Russia did not join the second commitment period",
+      "context": "The Protocol put differentiated responsibility into practice by requiring developed countries to cut first. But the US declined to ratify, citing the absence of obligations for developing countries, and China grew into the largest emitter. This experience led to the Paris Agreement's shift to a system where all parties submit their own targets.",
+      "verdict": "Historical fact",
+      "sources": [
+        {
+          "title": "Kyoto Protocol to the UNFCCC",
+          "url": "https://unfccc.int/kyoto_protocol",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cop26-coal",
+      "claim": "At the end of COP26 (2021), India's request changed the coal language from \"phase-out\" to \"phase-down\"",
+      "context": "Just before the Glasgow Climate Pact was adopted, India's environment minister proposed the change, and China supported it; the EU and small island states voiced deep disappointment. India argued developing countries have development and poverty-reduction needs. At COP28 parties agreed on \"transitioning away\" from fossil fuels in general.",
+      "verdict": "Official record",
+      "sources": [
+        {
+          "title": "Glasgow Climate Pact (Decision 1/CMA.3)",
+          "url": "https://unfccc.int/documents/310475",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-ncqg",
+      "claim": "At COP29 (2024) parties agreed a new climate finance goal of \"$300 billion a year by 2035\", led by developed countries; India and others called it inadequate",
+      "context": "Developing countries had sought $1.3 trillion a year in mobilised finance. The agreed text has developed countries take the lead while \"encouraging\" contributions from all actors, including developing countries; India's delegate called the sum \"paltry\" and objected to its adoption.",
+      "verdict": "Official record",
+      "sources": [
+        {
+          "title": "COP29 outcome: New Collective Quantified Goal on Climate Finance (Decision 1/CMA.6)",
+          "url": "https://unfccc.int/process-and-meetings/conferences/baku-climate-change-conference-november-2024/cop-29",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cbam",
+      "claim": "The EU's CBAM applies fully from 2026, and India and China criticise it as contrary to differentiated responsibilities",
+      "context": "CBAM puts a carbon cost on imports of steel, cement, aluminium, fertiliser, electricity and hydrogen. The EU says it protects industrial competitiveness, prevents carbon leakage and is WTO-compatible; developing countries call it a trade barrier and have sought discussion at the WTO.",
+      "verdict": "Disputed",
+      "sources": [
+        {
+          "title": "Carbon Border Adjustment Mechanism",
+          "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+          "publisher": "European Commission",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

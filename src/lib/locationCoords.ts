@@ -50,6 +50,7 @@ export const eventCoords: Record<string, LatLng> = {
   'afghanistan-conflict': { lat: 34.53, lng: 69.17 },    // Afghanistan (Kabul)
   'bolivia-chile-pacific': { lat: -23.65, lng: -70.4 },  // Antofagasta / Atacama Corridor
   'armenian-genocide': { lat: 39.9, lng: 41.27 },       // Eastern Anatolia (Erzurum)
+  'climate-responsibility': { lat: 50.73, lng: 7.1 },    // Bonn (UNFCCC Secretariat)
   'cyprus-dispute': { lat: 35.17, lng: 33.36 },          // Cyprus (Nicosia)
   'drc-eastern-conflict': { lat: -1.68, lng: 29.22 },    // Eastern DRC (Goma / North Kivu)
   'falklands-war': { lat: -51.7, lng: -57.85 },          // Falkland / Malvinas Islands
@@ -146,6 +147,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   // ── Europe (8) ──
   'cyprus-dispute': { region: 'europe' },
   'armenian-genocide': { region: 'europe' },
+  'climate-responsibility': { region: 'europe' },
   'georgia-russia-conflict': { region: 'europe' },
   'iberian-enclaves': { region: 'europe' },
   'kosovo-dispute': { region: 'europe' },

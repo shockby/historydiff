@@ -1,0 +1,37 @@
+{
+  "eventId": "climate-responsibility",
+  "photos": [
+    {
+      "id": "cr-paris-signing",
+      "url": "/images/events/climate-responsibility/paris-agreement-signing.jpg",
+      "caption": {
+        "ja": "2016年4月22日、国連本部でパリ協定に署名するケリー米国務長官（当時）。協定は全締約国が自国の削減目標を提出する方式を採用した。",
+        "en": "US Secretary of State John Kerry signing the Paris Agreement at UN Headquarters on 22 April 2016. The accord has every party submit its own emissions pledge.",
+        "zh": "2016年4月22日，时任美国国务卿克里在联合国总部签署《巴黎协定》。该协定要求所有缔约方提交各自的减排目标。",
+        "ko": "2016년 4월 22일 유엔 본부에서 파리협정에 서명하는 존 케리 당시 미국 국무장관. 협정은 모든 당사국이 자국의 감축 목표를 제출하는 방식을 채택했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Secretary_Kerry_Holds_Granddaughter_Dobbs-Higginson_on_Lap_While_Signing_COP21_Climate_Change_Agreement_at_UN_General_Assembly_Hall_in_New_York_(26512345421).jpg",
+        "license": "Public Domain",
+        "author": "U.S. Department of State"
+      }
+    },
+    {
+      "id": "cr-india-coal-plant",
+      "url": "/images/events/climate-responsibility/adani-tirora-coal-plant.jpg",
+      "caption": {
+        "ja": "インド・マハラシュトラ州の石炭火力発電所（アダニ・ティローラ）。インドは電力需要の拡大に石炭を活用しつつ、2070年ネットゼロを掲げている。",
+        "en": "Adani Tirora coal-fired power station in Maharashtra, India. India relies on coal to meet rising power demand while pledging net-zero by 2070.",
+        "zh": "印度马哈拉施特拉邦的阿达尼蒂罗拉燃煤电站。印度在利用煤炭满足电力需求增长的同时，提出2070年实现净零排放。",
+        "ko": "인도 마하라슈트라주의 석탄화력발전소(아다니 티로라). 인도는 늘어나는 전력 수요에 석탄을 활용하면서 2070년 넷제로를 목표로 한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Adani_Tirora.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Aman Bisen"
+      }
+    }
+  ]
+}

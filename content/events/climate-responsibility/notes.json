@@ -1,0 +1,101 @@
+{
+  "eventId": "climate-responsibility",
+  "notes": [
+    {
+      "id": "cc-cbdr",
+      "claim": "1992年の国連気候変動枠組条約は「共通だが差異ある責任及び各国の能力」の原則を明記し、先進国が率先して対策をとるべきとした",
+      "context": "「CBDR-RC」は条約第3条1項に規定され、中国・インドなどが先進国の責任を主張する法的根拠となっている。2015年のパリ協定は同原則を「異なる国情に照らして」と付記して再確認しており、その解釈（先進国と途上国の線引き）が現在も論点である。",
+      "verdict": "事実確認済み（解釈に争いあり）",
+      "sources": [
+        {
+          "title": "United Nations Framework Convention on Climate Change (1992)",
+          "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
+          "publisher": "UNFCCC",
+          "type": "international"
+        },
+        {
+          "title": "The Paris Agreement",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cumulative",
+      "claim": "歴史的累積CO2排出量では米国・EUが大きな割合を占める一方、現在の年間排出量では中国が世界最大である",
+      "context": "1850年以降の累積CO2排出量は、米国が約4分の1、EUが約6分の1、中国が1割台半ば、インドは約3%と推計される。他方、年間排出量は中国が世界の約3割、インドは約8%で、1人当たりではインドは世界平均を大きく下回る。どの指標を重視するかが各国の主張の違いに直結する。",
+      "verdict": "データにより差あり（推定値）",
+      "sources": [
+        {
+          "title": "Cumulative CO2 emissions",
+          "url": "https://ourworldindata.org/grapher/cumulative-co-emissions",
+          "publisher": "Our World in Data / Global Carbon Project",
+          "type": "academic"
+        },
+        {
+          "title": "Global Carbon Budget",
+          "url": "https://globalcarbonbudget.org/",
+          "publisher": "Global Carbon Project",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cc-kyoto",
+      "claim": "京都議定書（1997年）は先進国（附属書I国）のみに法的拘束力のある削減目標を課し、米国は批准せず、日本・カナダ・ロシアなどは第二約束期間に参加しなかった",
+      "context": "議定書は「先進国が先に削減する」という差異ある責任を具体化した。他方、米国は途上国に義務がないことを理由に批准せず、中国は世界最大の排出国に成長した。この経験が、2015年のパリ協定で「全締約国が各自の目標を提出する」方式に転換した背景である。",
+      "verdict": "歴史的事実",
+      "sources": [
+        {
+          "title": "Kyoto Protocol to the UNFCCC",
+          "url": "https://unfccc.int/kyoto_protocol",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cop26-coal",
+      "claim": "COP26（2021年）の最終局面で、インドの要請により石炭火力の「段階的廃止（phase-out）」が「段階的削減（phase-down）」に修正された",
+      "context": "グラスゴー気候合意の採択直前にインドの環境相が修正を求め、中国も支持した。EUや小島嶼国は強い失望を表明した。インドは「途上国には開発の権利と貧困削減の課題がある」と説明した。COP28では化石燃料全般からの「移行」で合意が形成された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Glasgow Climate Pact (Decision 1/CMA.3)",
+          "url": "https://unfccc.int/documents/310475",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-ncqg",
+      "claim": "COP29（2024年）で先進国主導の新たな気候資金目標として「2035年までに年間3000億ドル」が合意され、インドなどは不十分と反発した",
+      "context": "途上国側は年間1兆3000億ドルの資金動員を求めていた。合意文書は、先進国が主導しつつ、途上国を含むあらゆる主体からの資金動員を「奨励」する形をとり、インド代表は「わずかな額」と批判して採択に異議を唱えた。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "COP29 outcome: New Collective Quantified Goal on Climate Finance (Decision 1/CMA.6)",
+          "url": "https://unfccc.int/process-and-meetings/conferences/baku-climate-change-conference-november-2024/cop-29",
+          "publisher": "UNFCCC",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cbam",
+      "claim": "EUの炭素国境調整メカニズム（CBAM）は2026年から本格適用され、インドや中国などが差異ある責任の原則に反すると批判している",
+      "context": "CBAMは鉄鋼・セメント・アルミ・肥料・電力・水素などの輸入品に炭素コストを課す制度。EUは域内産業の競争力維持と炭素リーケージ防止が目的でWTO整合的と説明する一方、途上国は貿易障壁だと主張しWTOでの協議も求めている。",
+      "verdict": "議論あり",
+      "sources": [
+        {
+          "title": "Carbon Border Adjustment Mechanism",
+          "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+          "publisher": "European Commission",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

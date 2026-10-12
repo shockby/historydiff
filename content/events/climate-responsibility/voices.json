@@ -1,0 +1,179 @@
+{
+  "eventId": "climate-responsibility",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+  },
+  "voices": [
+    {
+      "id": "cc-voice-1",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "中国とインドが排出を増やし続けるのに、米国だけ削減しても地球は救えない。全員参加が前提だ。",
+        "en": "Cutting only in America won't save the planet while China and India keep growing emissions. Everyone must take part."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "共和党支持層や産業界を中心に根強い論調。",
+        "en": "Common among Republican voters and industry groups."
+      }
+    },
+    {
+      "id": "cc-voice-2",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States"
+      },
+      "sentiment": "supportive",
+      "summary": {
+        "ja": "米国は累積排出で最大の責任国。先進国が率先して資金と技術を出さなければ、途上国の信頼は得られない。",
+        "en": "The US is the biggest historical emitter. Without rich countries leading on money and tech, developing nations won't trust us."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "民主党・気候活動家に多い見方。",
+        "en": "Typical of Democratic voters and climate activists."
+      }
+    },
+    {
+      "id": "cc-voice-3",
+      "country": {
+        "ja": "EU",
+        "en": "European Union"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "1.5℃は物理的な制約。誰の責任かを争う間にも炭素予算は減る。大排出国は全員、早期にピークを迎えるべきだ。",
+        "en": "1.5°C is a physical limit. The carbon budget shrinks while we argue over blame; every large emitter must peak soon."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "EU政策担当者・研究者に多い。",
+        "en": "Common among EU officials and researchers."
+      }
+    },
+    {
+      "id": "cc-voice-4",
+      "country": {
+        "ja": "EU",
+        "en": "European Union"
+      },
+      "sentiment": "skeptical",
+      "summary": {
+        "ja": "国境炭素税は気候対策というより域内産業の保護策では。途上国から見れば貿易障壁だ。",
+        "en": "Isn't the carbon border tax more about protecting EU industry than the climate? To developing countries it's a trade barrier."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "開発NGOや一部加盟国の産業界にも見られる。",
+        "en": "Also voiced by development NGOs and some industry groups."
+      }
+    },
+    {
+      "id": "cc-voice-5",
+      "country": {
+        "ja": "中国",
+        "en": "China"
+      },
+      "sentiment": "nationalist-sovereign",
+      "summary": {
+        "ja": "先に工業化して排出した国々が、今になって途上国の発展を止めるのは不公平だ。責任と能力は違う。",
+        "en": "It's unfair for countries that industrialised first to now halt others' development. Responsibilities and capabilities differ."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "政府の公式見解とほぼ一致。",
+        "en": "Closely mirrors the official government line."
+      }
+    },
+    {
+      "id": "cc-voice-6",
+      "country": {
+        "ja": "中国",
+        "en": "China"
+      },
+      "sentiment": "balanced-pragmatic",
+      "summary": {
+        "ja": "中国は太陽光・風力・EVで世界最大。排出も多いが、先進国の消費財を作っている面もあり、削減努力は評価されるべきだ。",
+        "en": "China leads in solar, wind and EVs. Emissions are high but partly from making goods for rich markets; its efforts deserve recognition."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "国内の専門家や技術系の論者に多い。",
+        "en": "Common among domestic experts and tech commentators."
+      }
+    },
+    {
+      "id": "cc-voice-7",
+      "country": {
+        "ja": "インド",
+        "en": "India"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "1人当たり排出量は米国の7分の1以下。数億人が電気を使えない中で「石炭をやめろ」は気候植民地主義だ。",
+        "en": "Our per-capita emissions are under a seventh of America's. Telling us to quit coal while hundreds of millions lack power is climate colonialism."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "インドの政治家・メディアで広く見られる。",
+        "en": "Widespread among Indian politicians and media."
+      }
+    },
+    {
+      "id": "cc-voice-8",
+      "country": {
+        "ja": "インド",
+        "en": "India"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "公平さの主張は正しいが、猛暑や大気汚染の最大の被害者は自国民。発展と脱炭素は両立させる必要がある。",
+        "en": "The fairness argument is valid, but our own people suffer most from heat and pollution. Development and decarbonisation must go together."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "都市部の中間層や研究者に増えている。",
+        "en": "Growing among urban middle classes and researchers."
+      }
+    },
+    {
+      "id": "cc-voice-9",
+      "country": {
+        "ja": "日本",
+        "en": "Japan"
+      },
+      "sentiment": "balanced-pragmatic",
+      "summary": {
+        "ja": "日本だけ頑張っても世界の排出の3%台。技術協力で途上国の排出を減らす方が現実的で効果的だ。",
+        "en": "Japan is only a few percent of global emissions. Helping developing countries cut via technology is more realistic and effective."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "政府・産業界の論調に近い。",
+        "en": "Close to government and industry views."
+      }
+    },
+    {
+      "id": "cc-voice-10",
+      "country": {
+        "ja": "日本",
+        "en": "Japan"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "石炭火力を続けながら「技術で解決」と言っても説得力がない。先進国として削減と資金で責任を果たすべきだ。",
+        "en": "Claiming \"technology will fix it\" while keeping coal plants isn't convincing. As a developed country Japan must deliver on cuts and finance."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "環境NGO・若年層に多い。",
+        "en": "Common among environmental NGOs and younger people."
+      }
+    }
+  ]
+}

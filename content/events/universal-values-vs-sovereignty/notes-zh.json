@@ -1,0 +1,145 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "notes": [
+    {
+      "id": "uv-udhr",
+      "claim": "1948年《世界人权宣言》将人权定义为“所有人民和所有国家努力实现的共同标准”",
+      "context": "这是“普遍价值”论的法律与政治依据之一。但该宣言本身并非具有约束力的条约，中国、俄罗斯等国主张对其理解应结合历史与文化背景。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "Universal Declaration of Human Rights",
+          "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-charter-2-7",
+      "claim": "《联合国宪章》第2条第7款禁止联合国干涉本质上属于各国国内管辖的事项",
+      "context": "中国和俄罗斯常援引此条作为“不干涉内政”的依据。但条文针对的是联合国机构，安理会的强制措施属于例外；西方国家的主流解释是，已加入国际人权条约的国家，其人权状况并非纯属内政。",
+      "verdict": "已核实（解释存在争议）",
+      "sources": [
+        {
+          "title": "Charter of the United Nations, Chapter I",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-1",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-vienna-1993",
+      "claim": "1993年《维也纳宣言》宣布一切人权具有普遍性，同时也指出应铭记国家和区域的特殊性以及各种历史、文化和宗教背景",
+      "context": "双方都可以引用这份文件：西方国家强调“促进一切人权是国家的义务”，中国等国则强调“特殊性”部分。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "Vienna Declaration and Programme of Action",
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-five-principles",
+      "claim": "包括“互不干涉内政”在内的和平共处五项原则，最早在1954年中印关于西藏的协定序言中成文",
+      "context": "这是中国外交原则的起点，也是不结盟运动和全球南方重视主权的源头之一。1954年的对手国印度后来与中国发生边界争端，但两国至今仍引用这些原则。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "Five Principles of Peaceful Coexistence",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/zy/gy/201405/t20140515_678184.html",
+          "publisher": "Ministry of Foreign Affairs of the PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-color-revolutions",
+      "claim": "2003至2005年格鲁吉亚、乌克兰、吉尔吉斯斯坦的政局剧变通常被称为“颜色革命”",
+      "context": "这些事件究竟是西方资金“策划”的，还是民众抗议选举舞弊的本国运动，评价不一。许多研究者认为外部支持确实存在，但主因是国内不满。中俄政府以外部主导为前提制定政策。",
+      "verdict": "事件属实（外部介入程度存在争议）",
+      "sources": [
+        {
+          "title": "Color revolution",
+          "url": "https://www.britannica.com/topic/color-revolution",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uv-foreign-agents",
+      "claim": "俄罗斯于2012年出台“外国代理人法”，要求接受外国资金的组织、媒体和个人登记并标注身份，此后适用范围不断扩大",
+      "context": "俄政府称这是为保护主权免受外国影响。欧洲委员会和人权组织则批评其被用于打压公民社会和独立媒体。",
+      "verdict": "已核实（对其目的的评价对立）",
+      "sources": [
+        {
+          "title": "Russia: foreign agents law",
+          "url": "https://www.hrw.org/news/2017/11/20/russia-expanded-foreign-agents-law-hits-media",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "uv-china-white-paper",
+      "claim": "2021年12月中国政府发表白皮书《中国的民主》，提出“全过程人民民主”",
+      "context": "中方主张民主没有唯一模式。美国认为该白皮书发表于首届民主峰会前后，是体制竞争的一部分。国际上评价不一。",
+      "verdict": "已核实（内容本身另当别论）",
+      "sources": [
+        {
+          "title": "China: Democracy That Works",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202112/04/content_WS61ab1bb5c6d0df57f98e3d4e.html",
+          "publisher": "State Council Information Office, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-summit-democracy",
+      "claim": "2021年12月美国首次以线上方式举办“民主峰会”，邀请约110个国家和地区",
+      "context": "中国和俄罗斯未受邀，台湾受邀。中国批评这是以冷战思维分裂世界。由于部分受邀国存在威权化倾向，邀请标准也被指存在双重标准。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "The Summit for Democracy",
+          "url": "https://www.state.gov/summit-for-democracy/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-eu-magnitsky",
+      "claim": "欧盟于2020年12月设立“全球人权制裁机制”，可对严重侵犯人权的责任人冻结资产、禁止入境",
+      "context": "即所谓欧盟版马格尼茨基法。2021年3月该机制因新疆问题被启用后，中国对欧洲议员等实施了反制裁。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "Global Human Rights Sanctions Regime",
+          "url": "https://www.consilium.europa.eu/en/policies/eu-global-human-rights-sanctions-regime/",
+          "publisher": "Council of the EU",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-unga-ukraine",
+      "claim": "2022年3月联合国大会谴责俄罗斯的决议获141票赞成，包括印度和中国在内的35国弃权",
+      "context": "弃权国多属全球南方。西方视其为对国际秩序的支持，弃权国则表示不愿选边站队。全球南方内部并非立场一致。",
+      "verdict": "已核实",
+      "sources": [
+        {
+          "title": "General Assembly resolution ES-11/1 vote",
+          "url": "https://press.un.org/en/2022/ga12407.doc.htm",
+          "publisher": "UN Press",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

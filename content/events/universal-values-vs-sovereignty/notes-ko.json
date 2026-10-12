@@ -1,0 +1,145 @@
+{
+  "eventId": "universal-values-vs-sovereignty",
+  "notes": [
+    {
+      "id": "uv-udhr",
+      "claim": "1948년 세계인권선언은 인권을 '모든 사람과 모든 국가가 달성해야 할 공통의 기준'으로 규정했다",
+      "context": "'보편적 가치' 주장의 법적·정치적 근거 중 하나다. 다만 선언 자체는 구속력 있는 조약이 아니며, 중국·러시아 등은 역사·문화적 맥락에 따른 해석의 차이를 주장한다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "Universal Declaration of Human Rights",
+          "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-charter-2-7",
+      "claim": "유엔헌장 제2조 7항은 본질적으로 각국의 국내 관할권에 속하는 사항에 대한 유엔의 간섭을 금지한다",
+      "context": "중국과 러시아가 '내정 불간섭'의 근거로 자주 인용한다. 다만 조문은 유엔 기관을 대상으로 하며 안보리의 강제조치는 예외다. 서방에서는 국제인권조약에 가입한 국가의 인권 상황은 순수한 국내 문제가 아니라는 해석이 주류다.",
+      "verdict": "사실 확인됨(해석에 논란 있음)",
+      "sources": [
+        {
+          "title": "Charter of the United Nations, Chapter I",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-1",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-vienna-1993",
+      "claim": "1993년 빈 선언은 모든 인권이 보편적이라고 하면서도 국가·지역별 특수성과 역사·문화·종교적 배경을 유념해야 한다고 밝혔다",
+      "context": "양측이 모두 근거로 삼을 수 있는 문서다. 서방은 '모든 인권의 증진은 국가의 의무'라는 부분을, 중국 등은 '특수성' 부분을 강조한다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "Vienna Declaration and Programme of Action",
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "uv-five-principles",
+      "claim": "'내정 상호 불간섭'을 포함한 평화공존 5원칙은 1954년 중국·인도의 티베트 협정 전문에서 처음 명문화되었다",
+      "context": "중국 외교 원칙의 원점이자 비동맹 운동과 글로벌 사우스가 주권을 중시하는 뿌리의 하나다. 1954년의 상대국 인도는 이후 중국과 국경 분쟁을 겪지만, 두 나라 모두 지금도 이 원칙을 인용한다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "Five Principles of Peaceful Coexistence",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/zy/gy/201405/t20140515_678184.html",
+          "publisher": "Ministry of Foreign Affairs of the PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-color-revolutions",
+      "claim": "2003~2005년 조지아·우크라이나·키르기스스탄의 정변은 흔히 '색깔 혁명'이라 불린다",
+      "context": "이것이 서방의 자금 지원으로 '기획'된 것인지, 부정선거에 항의한 국내 민중운동인지는 평가가 갈린다. 많은 연구자는 외부 지원은 있었지만 주된 동력은 국내의 불만이었다고 본다. 중국·러시아 정부는 외부 주도를 전제로 정책을 설계한다.",
+      "verdict": "사건은 사실(외부 개입의 정도는 논란)",
+      "sources": [
+        {
+          "title": "Color revolution",
+          "url": "https://www.britannica.com/topic/color-revolution",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uv-foreign-agents",
+      "claim": "러시아는 2012년 '외국 에이전트법'을 제정해 외국 자금을 받는 단체·언론·개인에게 등록과 표시를 의무화했고, 이후 대상을 확대했다",
+      "context": "러시아 정부는 외국의 영향으로부터 주권을 지키기 위한 조치라고 설명한다. 유럽평의회와 인권단체는 시민사회와 독립 언론을 탄압하는 데 쓰인다고 비판한다.",
+      "verdict": "사실 확인됨(목적에 대한 평가는 대립)",
+      "sources": [
+        {
+          "title": "Russia: foreign agents law",
+          "url": "https://www.hrw.org/news/2017/11/20/russia-expanded-foreign-agents-law-hits-media",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "uv-china-white-paper",
+      "claim": "중국 정부는 2021년 12월 백서 '중국의 민주'를 발표하고 '전과정 인민민주'를 제시했다",
+      "context": "중국은 민주주의에 유일한 모델은 없다고 주장한다. 미국은 첫 민주주의 정상회의를 전후해 나온 이 백서를 체제 경쟁의 일환으로 받아들였다. 국제적 평가는 엇갈린다.",
+      "verdict": "사실 확인됨(내용의 평가는 별개)",
+      "sources": [
+        {
+          "title": "China: Democracy That Works",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202112/04/content_WS61ab1bb5c6d0df57f98e3d4e.html",
+          "publisher": "State Council Information Office, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-summit-democracy",
+      "claim": "미국은 2021년 12월 처음으로 '민주주의 정상회의'를 온라인으로 열고 약 110개 국가·지역을 초청했다",
+      "context": "중국과 러시아는 초청받지 못했고 대만은 초청받았다. 중국은 냉전적 사고로 세계를 분열시킨다고 반발했다. 일부 초청국의 권위주의화 경향 때문에 초청 기준에도 이중잣대라는 비판이 있었다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "The Summit for Democracy",
+          "url": "https://www.state.gov/summit-for-democracy/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-eu-magnitsky",
+      "claim": "EU는 2020년 12월 '글로벌 인권 제재 체제'를 만들어 중대한 인권 침해 책임자에게 자산 동결과 입국 금지를 부과할 수 있게 했다",
+      "context": "이른바 EU판 마그니츠키법이다. 2021년 3월 신장 문제로 처음 발동되자 중국은 유럽 의원 등에 대한 맞제재로 대응했다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "Global Human Rights Sanctions Regime",
+          "url": "https://www.consilium.europa.eu/en/policies/eu-global-human-rights-sanctions-regime/",
+          "publisher": "Council of the EU",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "uv-unga-ukraine",
+      "claim": "2022년 3월 유엔 총회의 러시아 규탄 결의안은 141개국이 찬성했고 인도·중국 등 35개국이 기권했다",
+      "context": "기권국 중 다수는 글로벌 사우스에 속한다. 서방은 국제질서에 대한 지지로 받아들였고, 기권국은 진영 선택을 피하고 싶다는 입장을 보였다. 글로벌 사우스 전체가 같은 입장은 아니다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "General Assembly resolution ES-11/1 vote",
+          "url": "https://press.un.org/en/2022/ga12407.doc.htm",
+          "publisher": "UN Press",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

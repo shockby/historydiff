@@ -1,0 +1,127 @@
+{
+  "eventId": "kurdish-question",
+  "notes": [
+    {
+      "id": "kq-halabja-chemical",
+      "claim": "萨达姆·侯赛因政权在 1988 年哈拉卜贾化学武器袭击中杀害了大约 5,000 名库尔德平民。",
+      "context": "1988年3月16日至17日，伊拉克军队向库尔德人口众多的哈拉卜杰市投放芥子气和神经毒剂。死亡人数估计为 3,200 至 5,000 人，其中大多数是平民。该事件后来被伊拉克高等法院认定为种族灭绝。 1988年，美国政府出于对伊拉克政策的考虑，没有公开批评这一事件。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "人权观察：伊拉克的种族灭绝——针对库尔德人的安法尔运动",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "人权观察",
+          "type": "ngo"
+        },
+        {
+          "title": "Halabja化学袭击——维基百科",
+          "url": "https://en.wikipedia.org/wiki/Halabja_chemical_attack",
+          "publisher": "维基百科/许多学术参考文献",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kq-sevres-lausanne",
+      "claim": "1920年《塞夫勒条约》规定建立库尔德自治地区，但这一规定被1923年《洛桑条约》废除。",
+      "context": "《塞夫尔条约》第62至64条载有设想在库尔德人口众多的地区实现库尔德自治和未来独立的规定。然而，随着凯末尔·阿塔图尔克领导的土耳其民族主义运动对同盟国的军事胜利，所有与库尔德人有关的条款都从《洛桑条约》中删除。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "《塞夫尔条约》（1920 年），第 62-64 条",
+          "url": "https://wwi.lib.byu.edu/index.php/Section_I,_Articles_1_-_260",
+          "publisher": "杨百翰大学第一次世界大战文献档案馆",
+          "type": "archive"
+        },
+        {
+          "title": "洛桑条约 (1923)",
+          "url": "https://avalon.law.yale.edu/20th_century/lausanne.asp",
+          "publisher": "耶鲁阿瓦隆项目",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kq-pkk-designation",
+      "claim": "库尔德工人党被土耳其、欧盟和美国认定为恐怖组织，但库尔德人民批评其是政治压迫的工具。",
+      "context": "库尔德工人党从1984年开始对土耳其政府进行武装斗争。土耳其自1980年代起将库尔德工人党列为恐怖组织，自2002年起将其列为恐怖组织，自2002年起将其列为恐怖组织，1997年起将其列为美国的恐怖组织。而据称与库尔德工人党有组织联系的叙利亚人民保卫军是美国支持的打击“伊斯兰国”最重要伙伴的力量，这一矛盾已成为两国关系的严重摩擦点。美国与土耳其关系。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "美国国务院：外国恐怖组织",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "美国国务院",
+          "type": "government"
+        },
+        {
+          "title": "欧盟恐怖分子名单——库尔德工人党",
+          "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/terrorist-list/",
+          "publisher": "欧洲理事会",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kq-un-688",
+      "claim": "联合国安理会第 688 号决议（1991 年）是人道主义干预的最早依据之一，称对伊拉克库尔德人的压迫是“对国际和平与安全的威胁”。",
+      "context": "1991年海湾战争后，萨达姆政权暴力镇压什叶派和库尔德人起义，约200万库尔德人沦为难民。安理会以10票对3票（反对：古巴、也门、津巴布韦；弃权：印度和中国）通过了第688号决议。这成为不干涉内政原则的一个例外，并为后来的人道主义干预理论开创了先例，但它不包括直接的军事授权。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "联合国安理会第688号决议（1991）",
+          "url": "https://digitallibrary.un.org/record/110659",
+          "publisher": "联合国数字图书馆",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kq-rojava",
+      "claim": "罗贾瓦（叙利亚北部和东部自治区）是叙利亚北部库尔德自治区，自2012年以来一直在形成自己的社会体系，但其可持续性仍然不稳定。",
+      "context": "在叙利亚内战的混乱中，库尔德武装在叙利亚北部建立了事实上的自治区。虽然主张以“民主联邦制”为基础的共同治理、妇女参与、多民族共存，但面临土耳其经常跨境袭击、叙利亚政府不认可、缺乏国际法律地位等挑战。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "国际危机组织：叙利亚库尔德问题",
+          "url": "https://www.crisisgroup.org/middle-east-north-africa/eastern-mediterranean/syria",
+          "publisher": "国际危机组织",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-japan-kurd-refugee",
+      "claim": "居住在日本的土耳其库尔德人的难民识别率极低，许多人处于长期临时释放状态。",
+      "context": "主要居住在埼玉县川口市和蕨市的库尔德人社区，是日本最大的库尔德人聚居地。日本的难民认可率是迄今为止OECD国家中最低的（每年不到1%），其中对土耳其国籍申请者的认可率尤其低。法务部出入境管理部门与人权组织之间存在很大的认识差距。",
+      "verdict": "三、讨论",
+      "sources": [
+        {
+          "title": "申请难民认定/认可的人数（入国管理局） (日语)",
+          "url": "https://www.moj.go.jp/isa/publications/press/07_00035.html",
+          "publisher": "法务省、出入国在留管理厅",
+          "type": "government"
+        },
+        {
+          "title": "难民援助协会（JAR）年度报告 (日语)",
+          "url": "https://www.refugee.or.jp/",
+          "publisher": "认证NPO难民支援协会",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-anfal",
+      "claim": "估计有 50,000 至 180,000 名库尔德人在伊拉克的安法尔行动（1988-1989 年）期间被杀或失踪。",
+      "context": "安法尔行动，由萨达姆·侯赛因政权的表弟阿里·哈桑·马吉德指挥，是一项涉及系统性扫荡、种族灭绝和强制搬迁的行动，主要针对伊拉克的库尔德村庄，从1988年2月到1989年9月。对死亡人数的估计差异很大，但人权观察称“至少有5万人，可能更多”。 2006年，伊拉克议会宣布这是种族灭绝。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "人权观察：伊拉克的种族灭绝——安法尔运动",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "人权观察",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

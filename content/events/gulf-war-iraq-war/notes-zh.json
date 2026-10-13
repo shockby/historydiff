@@ -1,0 +1,109 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "notes": [
+    {
+      "id": "giw-unsc678",
+      "claim": "联合国安理会第678号决议明确授权多国部队使用武力解放科威特。",
+      "context": "1990年11月29日，安理会通过第678号决议，授权会员国如果伊拉克在1991年1月15日之前不从科威特撤军，可以使用“一切必要手段”。中国投了弃权票，其余12个国家投了赞成票。该决议被认为是海湾战争的法律依据。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "联合国安理会第678号决议（1990）",
+          "url": "https://undocs.org/S/RES/678(1990)",
+          "publisher": "联合国",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "giw-wmd-notfound",
+      "claim": "美国和英国作为发动伊拉克战争的基础的大规模杀伤性武器从未被发现。",
+      "context": "2003年入侵之后，伊拉克调查小组（ISG）对伊拉克全境进行了调查，没有发现正在实施的大规模杀伤性武器计划。 2004 年杜尔弗报告的结论是，侯赛因政权在 20 世纪 90 年代初实际上已经废除了大规模杀伤性武器计划。这一事实使人对发动战争的合法性产生严重怀疑。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "DCI特别顾问关于伊拉克大规模杀伤性武器的综合报告（Duelfer报告）",
+          "url": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+          "publisher": "美国中央情报局（CIA）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-japan-contribution",
+      "claim": "日本为海湾战争贡献约130亿美元，却被批评为“支票外交”",
+      "context": "海湾战争期间，日本政府总共出资约130亿美元支持多国部队（最初宣布90亿美元，追加40亿美元）。由于日本没有派出人员，科威特政府的感谢广告中没有出现日本的名字。这一经验促成了1992年《维持和平合作法》（国际和平合作法）的颁布。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "四、海湾战争与日本的应对 (日语)",
+          "url": "https://www.mofa.go.jp/mofaj/area/middleeast/gulf.html",
+          "publisher": "外交部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-kofi-illegal",
+      "claim": "联合国秘书长科菲·安南称伊拉克战争“根据《联合国宪章》是非法的”。",
+      "context": "2004年9月，秘书长科菲·安南在接受BBC采访时谈到2003年入侵伊拉克时表示：“在我看来，根据《联合国宪章》，这是非法的。”这一言论在国际社会引起巨大轰动，美国和英国政府均予以反驳。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "安南：伊拉克战争“非法”（BBC新闻，2004-09-16）",
+          "url": "http://news.bbc.co.uk/2/hi/middle_east/3661134.stm",
+          "publisher": "英国广播公司",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "giw-sdf-samawah",
+      "claim": "2004年至2006年，日本自卫队被派遣到伊拉克南部的萨马沃。",
+      "context": "小泉政府于2003年通过《伊拉克特别措施法》，并于次年2004年1月向伊拉克南部萨马沃派遣日本陆上自卫队。日本国会就政府对“非战斗区”的界定引发激烈争论。自卫队完成使命并于2006年7月撤出。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "自卫队在伊拉克的活动 (日语)",
+          "url": "https://www.mod.go.jp/j/approach/kokusai_heiwa/iraq/",
+          "publisher": "国防部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-abu-ghraib",
+      "claim": "2004年，美国士兵在阿布格莱布监狱虐待被拘留者的事件被发现，并引起了国际社会的批评。",
+      "context": "2004年4月，公布的照片显示，美国士兵在伊拉克阿布格莱布监狱对伊拉克被拘留者进行身体虐待和性虐待。这一事件遭到国际社会强烈谴责，认为其违反了《日内瓦公约》，极大损害了人们对美国占领政策的信心。几名士兵被军事法庭定罪。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "第十五条之六对宪兵第800旅的调查（塔古巴报告）",
+          "url": "https://fas.org/irp/agency/dod/taguba.pdf",
+          "publisher": "美国陆军",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-civilian-casualties",
+      "claim": "伊拉克战争（2003-2011）中平民死亡人数估计超过10万。",
+      "context": "伊拉克死亡人数统计记录了超过 100,000 名有记录的平民死亡。 《柳叶刀》2006 年的一项研究估计，超额死亡人数约为 650,000 人，但这一数字在方法上存在争议。美国国防部尚未正式统计或公布详细的平民死亡人数。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "伊拉克死亡人数数据库",
+          "url": "https://www.iraqbodycount.org/",
+          "publisher": "伊拉克死亡人数统计",
+          "type": "ngo"
+        },
+        {
+          "title": "2003 年入侵伊拉克后的死亡率（The Lancet，2006）",
+          "url": "https://doi.org/10.1016/S0140-6736(06)69491-9",
+          "publisher": "柳叶刀",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

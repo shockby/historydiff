@@ -1,0 +1,75 @@
+{
+  "eventId": "transnistria-conflict",
+  "notes": [
+    {
+      "id": "tc-1992-war",
+      "claim": "1992年の戦争でロシアの第14軍（レベジ将軍指揮）が事実上PMR側に立って介入し、停戦（1992年7月21日）を成立させた",
+      "context": "1992年3月から6月にかけてのモルドバ政府軍とPMR民兵の戦闘において、ロシア第14軍（後にアレクサンドル・レベジ将軍が指揮）が実質的にPMR側に立って介入しました。第14軍の重火器や弾薬のPMR民兵への流出が問題となりました。1992年7月21日の停戦合意（「ルツコイ合意」）によって戦闘は終結し、ロシア、モルドバ、トランスニストリアの三者による合同統制委員会（JCC）が設立されました。この停戦がPMRの事実上の独立状態を固定化しました。",
+      "verdict": "ロシア軍の関与と停戦成立は確認済み（介入の性格・規模に争いあり）",
+      "sources": [
+        {
+          "title": "Ceasefire Agreement on the Conflict in the Dniester Region of the Republic of Moldova (1992)",
+          "url": "https://peacemaker.un.org/moldova-transnistria-ceasefire92",
+          "publisher": "国連",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-unrecognized",
+      "claim": "トランスニストリア（PMR）はいかなる国連加盟国からも承認されていない",
+      "context": "1990年9月にソ連内の自治共和国として独立を宣言し、1991年12月には主権国家としての独立を宣言したトランスニストリア（PMR）は、2024年現在に至るまで国連加盟193ヶ国のいずれからも正式承認を受けていません。ロシアもPMRを正式承認しておらず、名目上モルドバの領土保全を支持する立場を維持しています。しかしロシアはPMR市民にロシアパスポートを付与し、ロシア軍を駐留させるなど、事実上PMRの存続を支援しています。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "List of states with limited recognition",
+          "url": "https://www.un.org/en/about-us/member-states",
+          "publisher": "国連",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-ogrf-withdrawal",
+      "claim": "OSCEは1999年のイスタンブール・サミットでロシアに対してトランスニストリアからの軍撤退を求めたが、ロシアはこれを履行していない",
+      "context": "1999年のOSCEイスタンブール・サミットで採択された文書において、ロシアは2002年末までにトランスニストリアから軍（「ロシア作戦グループ」、OGRF）と軍事装備を撤退させることを約束しました。しかしOGRFは2024年現在もトランスニストリアに駐留したままです。ロシアはPMRの政治的解決が先決であり、撤退は解決後という立場をとっており、OGRFは約1,500人の兵士と大量の旧ソ連軍の武器・弾薬（コバスナ弾薬庫）を管理しています。OSCEはこの撤退不履行を繰り返し批判してきました。",
+      "verdict": "OSCEの要求と不履行は確認済み",
+      "sources": [
+        {
+          "title": "OSCE Istanbul Document 1999",
+          "url": "https://www.osce.org/mc/39569",
+          "publisher": "欧州安全保障協力機構（OSCE）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-5plus2",
+      "claim": "「5+2」交渉（モルドバ・PMR・ロシア・ウクライナ・OSCEと、EUと米国がオブザーバー）は2019年以降事実上停止している",
+      "context": "5+2フォーマットによる交渉は2010年代に再開し、2016年のベルリン会議など一定の進展をみましたが、2019年以降実質的な交渉は停止しています。PMR側は政治的な地位に関する議論を拒否しており、2022年のウクライナ侵攻後は交渉の文脈がさらに複雑化しました。EUとモルドバはPMRの政治的地位よりも「信頼醸成措置（CBMs）」を優先する段階的アプローチを主張しており、根本的な地位問題の解決は遠い見通しです。",
+      "verdict": "事実確認済み（交渉の詳細に解釈の幅あり）",
+      "sources": [
+        {
+          "title": "OSCE Mission to Moldova: 5+2 Process",
+          "url": "https://www.osce.org/mission-to-moldova",
+          "publisher": "OSCE",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "tc-energy-crisis",
+      "claim": "2025年初頭、ウクライナがロシア産ガスの通過を停止した結果、トランスニストリアは深刻なエネルギー危機に直面した",
+      "context": "ウクライナとロシアのガス通過契約が2024年末に失効し、ウクライナが更新を拒否したため、2025年1月からトランスニストリアへのロシア産天然ガス供給が実質停止しました。トランスニストリアのモルドバ電力供給の大部分（約70〜80%）を担っていたキュシュルガン発電所がガス不足で稼働停止または著しく縮小し、PMR全体で深刻な暖房・電力不足が発生しました。この危機は、ロシアの補助金付きガスに依存するPMR経済モデルの構造的脆弱性を露わにしました。",
+      "verdict": "エネルギー危機の発生は確認済み（規模・影響の継続状況は変動中）",
+      "sources": [
+        {
+          "title": "European Parliament Research Service: Transnistria energy crisis 2025",
+          "url": "https://www.europarl.europa.eu/",
+          "publisher": "欧州議会",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

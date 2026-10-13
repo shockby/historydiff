@@ -1,0 +1,143 @@
+{
+  "eventId": "korean-war-division",
+  "notes": [
+    {
+      "id": "kwd-outbreak-responsibility",
+      "claim": "조선전쟁은 1950년 6월 25일 북한군이 38도선을 넘어 남측을 기습 침공하는 것으로 시작되었다.",
+      "context": "1950년 6월 25일 오전 4시경, 북한의 조선인민군은 38도선 전역에 걸쳐 일제히 남쪽으로의 포격·월경을 개시했다. 유엔안전보장이사회는 6월 25일 결의 82호(침략을 인정·비난), 6월 27일 결의 83호(군사지원권고)를 채택했다. 북한은 당초 ‘한국 측이 먼저 38도선을 침범했다’고 주장하며 현재 북한·중국 공식 서술도 미한 측의 ‘도발’을 강조하지만 소련 붕괴 이후 공개된 소련 공산당 문서(스탈린의 전보 등)는 김일성이 스탈린과 모택동의 승낙을 얻고 있다. 한국·유엔·미국·일본의 주류적 역사 인식은 북한에 의한 선제 침공을 전쟁의 기점으로 하고 있다. 한편 블루스 커밍스 등의 수정주의적 연구자들은 38도선 주변에서 남쪽의 도발위와 내전적 성격을 강조하고 단순한 '침략' 도식에 의문을 제기하고 있지만 이 견해는 학계의 주류가 아니다.",
+      "verdict": "북한이 선제침공을 한 것은 소련공문서를 포함한 복수의 1차 자료에 의해 뒷받침되고 있어 역사적 합의가 되고 있다. 다만 전쟁의 기원에 대해서는 내전적 요소·냉전 구조·대국의 관여 등 복합적인 요인의 분석이 요구된다.",
+      "sources": [
+        {
+          "title": "The Korean War: A History",
+          "url": "https://www.penguinrandomhouse.com/books/311037/the-korean-war-by-bruce-cumings/",
+          "publisher": "랜덤 하우스(브루스 커밍스 저)",
+          "type": "academic"
+        },
+        {
+          "title": "UN Security Council Resolution 82 (1950)",
+          "url": "https://undocs.org/S/RES/82(1950)",
+          "publisher": "유엔안전보장이사회",
+          "type": "international"
+        },
+        {
+          "title": "Cold War International History Project: Korean War Documents",
+          "url": "https://www.wilsoncenter.org/program/cold-war-international-history-project",
+          "publisher": "윌슨 센터(미국)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-armistice-status",
+      "claim": "1953년 7월 27일에 체결된 휴전협정은 평화조약이 아니며 조선전쟁은 법적으로 종결되지 않았다.",
+      "context": "1953년 7월 27일 판문점에서 서명된 「조선 유엔군 총사령관, 조선인민군 최고사령관 및 중국인민지원군사령원 간 조선군사정전에 관한 협정」은 전투정지와 포로교환, 군사경계선의 설정을 정한 것으로 국제법상의 평 협정 서명자는 유엔군(미국 주도)·북한·중국이며 한국의 이승만 대통령은 북진 통일을 포기하지 않는다고 서명을 거부했다. 따라서 엄밀하게는 한국은 협정 당사자가 아니다. 북한은 1994년 휴전협정의 실시기관인 군사정전위원회에서 철수를 선언하고 협정의 형체화를 도모해 왔다. 미국·한국·북한·중국에 의한 평화조약 체결협상은 70년 이상에 걸쳐 실현되지 않았다. 유엔군사령부(UNC)는 휴전협정의 관리를 계속하고 있으며, 군사경계선상의 판문점 공동경비구역(JSA)에서의 사건처리 등에 해당하고 있다.",
+      "verdict": "법적 견해로서 조선전쟁이 휴전상태에 있다(평화조약 미체결)라는 점은 국제법·외교 전문가들 사이에서 널리 합의가 형성되고 있다. 다만 '끝나지 않은 전쟁'이라는 표현은 정치적 문맥에 따라 다른 함의를 가지므로 주의가 필요하다.",
+      "sources": [
+        {
+          "title": "Korean War Armistice Agreement (1953)",
+          "url": "https://peacemaker.un.org/sites/peacemaker.un.org/files/KP%20KR_530727_ArmisticeAgreementKoreanWar.pdf",
+          "publisher": "유엔 평화 화해 데이터베이스",
+          "type": "international"
+        },
+        {
+          "title": "Congressional Research Service: The Korean War Armistice Agreement",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "미국 의회 조사국",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-civilian-casualties",
+      "claim": "조선전쟁에서의 민간인 사망자 수는 수십만명에서 수백만명으로 추계되어 노군리 사건 등 미군에 의한 민간인 살해도 기록되고 있다.",
+      "context": "조선전쟁의 총사자수의 추계는 자료·연구자에 따라 크게 다르다. 군인의 사망자는 유엔군 측 약 36,000명(중 미국 약 36,500명), 한국군 약 13만7천명, 북한군 약 21만5천명, 중국인민지원군(공식) 약 18만명으로 된다. 민간인 사자의 추계는 남북 맞추어 100만~300만명 초과라고도 하지만, 정확한 통계는 존재하지 않는다. 노근리 사건(1950년 7월 26~29일)에서는 AP통신 조사보도(1999년)에 따라 미국 제1기병사단이 다리 아래로 피난하던 난민(주로 여성·아이)을 총격해 약 250~300명이 사망한 것으로 나타났다. 미국 방총성은 조사보고를 하고 '유감'을 표명했지만 '학살'이라는 표현은 사용하지 않았다. 한국의 진실화해위원회(2005~2010년, 2020년 재설치)는 국민보도연맹 학살(남한 한국 당국이 공산주의자 의혹 피구속자 수만~10만명 이상을 처형) 등 다수의 민간인 학살을 조사했다.",
+      "verdict": "노근리 사건이 발생했다는 사실은 AP의 취재·미국 방총성 조사·한국 진실 화해 위원회에 의해 확인되고 있다. 다만 사망자수의 정확한 추계, 발포명령의 유무와 경로 등에 대해서는 지속적인 논의가 있다. 민간인 학살이 북한·한국·유엔군 각 측에서 발생했다는 광의의 사실은 사학상 널리 인정받고 있다.",
+      "sources": [
+        {
+          "title": "No Gun Ri: A Military History of the Korean War Incident",
+          "url": "https://www.palgrave.com/gp/book/9780312293505",
+          "publisher": "Palgrave Macmillan (로버트 헤이니즈의)",
+          "type": "academic"
+        },
+        {
+          "title": "U.S. Department of the Army: No Gun Ri Review (2001)",
+          "url": "https://www.army.mil/nogunri/",
+          "publisher": "미 육군성",
+          "type": "government"
+        },
+        {
+          "title": "진실화해위원회(한국진실화해를 위한 과거사정리위원회)",
+          "url": "https://www.jinsil.go.kr/",
+          "publisher": "한국 정부",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kwd-divided-families",
+      "claim": "남북분단에 의해 찢어진 이산가족은 약 1000만명으로 추계되어 2018년 시점에서 한국 측 등록자의 70% 이상이 이미 사망하고 있다.",
+      "context": "조선전쟁 중 인구이동과 38도선 고정화로 인해 많은 가족들이 남북으로 찢어졌다. 한국 정부의 추계에서는 이산가족의 총수는 약 1000만명이라고도 하지만, 이 숫자는 '한반도 출신자로 남북 어느 쪽에 가족이 있는 자'의 광의의 정의를 포함한다. 한국통 일부가 관리하는 이산가족정보통합시스템 등록자는 2018년 시점에서 약 13만3천명. 이 중 생존자는 약 5만7천명(43%)으로 70세대 이상이 대부분을 차지한다. 남북이산가족의 대면재회사업은 1985년 처음으로 진행되었으며, 2000년대 이후 남북유화 무드 중 22회가 실시되었으나 북한의 핵실험·미사일 발사 등에 의해 종종 중단됐다. 마지막 대면 재회는 2018년 8월 금강산에서 열렸다.",
+      "verdict": "이산가족 문제의 심각성(고령화·사망에 의한 해결 기회의 소멸)은 한국 정부 통계·국제적십자의 기록에 의해 뒷받침되고 있다. '1000만명'이라는 숫자는 정의에 따라 변동하지만 인도 문제로서의 심각성은 확인된 사실이다.",
+      "sources": [
+        {
+          "title": "한국통일부·이산가족정보통합시스템",
+          "url": "https://reunion.unikorea.go.kr/",
+          "publisher": "대한민국통 일부",
+          "type": "government"
+        },
+        {
+          "title": "ICRC: Restoring Family Links – Korean Peninsula",
+          "url": "https://www.icrc.org/en/where-we-work/asia-pacific/korean-peninsula",
+          "publisher": "국제적십자위원회",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nuclear-development",
+      "claim": "북한은 2006년부터 2017년 사이에 6회의 핵실험을 실시해 대륙간탄도미사일(ICBM)의 개발로 미국 본토에 대한 공격 능력을 보유하게 되었다고 평가되고 있다.",
+      "context": "북한은 1950년대부터 핵개발을 진행해 1993~94년의 제1차핵위기, 2002~03년의 제2차핵위기를 거쳐 2006년 10월 9일 첫 핵폭발 실험을 실시했다(이후 2009·2013·2016년 2회. 2017년 9월의 제6회 실험은 수폭 실험으로 되어 추정 폭발 규모는 100~300킬로톤에 달한다. ICBM에 대해서는 2017년의 화성 15호·화성 17호의 시험 발사에 의해, 이론상 미국 본토 전역을 사거리에 담는다고 한다. 핵탄두의 소형화·미사일에의 탑재 능력에 대해서는, 미국 방정보국(DIA) 등이 「성취했을 가능성이 높다」라고 평가하고 있지만, 완전한 능력에 대해서는 불확실성이 남는다. 북한은 자국을 ‘핵보유국’이라고 주장하고 2022년에는 ‘핵무기의 선제사용을 포함한 핵독트린’을 법제화했다. 유엔 안보리는 2006년 이후 총 10개 이상의 제재결의를 채택하고 있다.",
+      "verdict": "북한이 핵실험을 여러 번 실시해 장사정 탄도미사일을 개발해 온 사실은 지진관측 데이터·위성화상·각국 정부의 공식평가에 의해 확인되고 있다. 핵탄두의 정확한 수·소형화 정도에 대해서는 불확실성이 남지만, 북한의 핵 능력이 실질적인 위협 수준에 이르고 있는 것은 국제적 컨센서스가 되고 있다.",
+      "sources": [
+        {
+          "title": "IAEA: DPRK Nuclear Activities",
+          "url": "https://www.iaea.org/newscenter/focus/dprk",
+          "publisher": "국제 원자력 기관",
+          "type": "international"
+        },
+        {
+          "title": "UN Security Council Resolutions on DPRK (1718/1874/2094 etc.)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1718",
+          "publisher": "유엔안전보장이사회",
+          "type": "international"
+        },
+        {
+          "title": "Stockholm International Peace Research Institute: DPRK Nuclear Forces",
+          "url": "https://www.sipri.org/",
+          "publisher": "스톡홀름 국제평화연구소",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kwd-nll-dispute",
+      "claim": "북방한계선(NLL)은 1953년 휴전협정에 의해 설정된 것이 아니라 유엔군 사령부가 일방적으로 설정한 해상 경계선이며, 북한은 그 유효성을 인정하지 않았다.",
+      "context": "북방 한계선(NLL)은 1953년 8월 30일 유엔군 사령관 클라크 대장이 유엔군의 초계활동의 북한으로 일방적으로 설정했다. 휴전협정은 해상경계선을 명시적으로 규정하지 않고, NLL은 협정의 부속문서도 공식 합의문서도 아니다. 한국 정부는 NLL을 사실상의 해상 경계선이라고 주장하지만 북한은 NLL을 '존재하지 않는 선'으로 인정하지 않고 독자적인 '해상군사 경계선'을 주장하고 있다. NLL 주변에서는 1999년 2002년 연평해전, 2010년 천안함 침몰 사건 연평도 포격 등 여러 무력 충돌이 발생하고 있다. 천안함 침몰(2010년 3월 26일, 한국 해군 초계함이 폭발 침몰해 46명 사망)에 대해, 한국·국연합 동 조사단은 북한 잠수함의 어뢰에 의한 것이라고 결론 붙였지만, 북한은 이를 완전 부정해, 러시아도 의문을 제기했다.",
+      "verdict": "NLL이 1953년 휴전협정의 조문에는 명시되어 있지 않다는 사실은 국제법·군사사 전문가가 확인하고 있다. 다만 사실상의 관리 라인으로서 기능해 온 역사적 실적은 존재한다. 천안함 사건에 대해서는 한국·국제합동조사의 결론이 가장 증거에 근거하는 것으로 되지만, 사건의 전용에 관한 논의는 계속되고 있다.",
+      "sources": [
+        {
+          "title": "Joint Investigation Report on the Sinking of ROKS Cheonan (2010)",
+          "url": "https://www.mnd.go.kr/user/mnd/upload/pblictn/PBLICTNEBOOK_201309160233450.pdf",
+          "publisher": "한국 국방성·다국간 합동 조사단",
+          "type": "government"
+        },
+        {
+          "title": "International Crisis Group: Shelling of Yeonpyeong Island",
+          "url": "https://www.crisisgroup.org/",
+          "publisher": "인터내셔널 크라이시스 그룹",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

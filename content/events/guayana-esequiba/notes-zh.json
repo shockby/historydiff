@@ -1,0 +1,105 @@
+{
+  "eventId": "guayana-esequiba",
+  "notes": [
+    {
+      "id": "ge-1899-paris-arbitral-award",
+      "claim": "1899年，巴黎仲裁裁决将埃塞奎博地区大部分地区确定为英属圭亚那（现圭亚那）。",
+      "context": "根据 1897 年《华盛顿条约》，英国和委内瑞拉之间的国际仲裁庭（包括来自美国的替补仲裁员）于 1899 年 10 月 3 日在巴黎举行会议，并一致作出划界裁决。结果，虽然委内瑞拉获得了奥里诺科河口的控制权，但埃塞奎博河以西约 159,500 平方公里的大部分地区被统治为英属圭亚那领土，双方均承认该领土为英属圭亚那领土。 “完整且最终的解决方案。”",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "关于英属圭亚那殖民地和委内瑞拉合众国之间边界的裁决（1899年）",
+          "url": "https://legal.un.org/riaa/cases/vol_XXVIII/331-340.pdf",
+          "publisher": "联合国（联合国国际仲裁裁决报告）",
+          "type": "international"
+        },
+        {
+          "title": "1899 年 10 月 3 日仲裁裁决（圭亚那诉委内瑞拉）",
+          "url": "https://www.icj-cij.org/case/171",
+          "publisher": "国际法院（ICJ）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1962-nullity-claim",
+      "claim": "1962年，委内瑞拉在联合国辩称，1899年的裁决无效，并根据隶属于委内瑞拉辩护队的美国律师马利特-普雷沃斯特的遗嘱备忘录（1949年）无效。",
+      "context": "根据委内瑞拉辩护队成员塞韦罗·马莱-普雷沃斯特的遗后备忘录，其中暗示英国仲裁员与俄罗斯主审法官弗里德里希·马滕斯之间达成不公平的政治协议，委内瑞拉政府于1962年11月在联合国大会上正式宣布该裁决无效。圭亚那认为该备忘录缺乏客观证据，不能用来推翻既判力。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "委内瑞拉-圭亚那边界争端：马莱特-普雷沃斯特备忘录",
+          "url": "https://www.jstor.org/stable/2193962",
+          "publisher": "美国国际法杂志",
+          "type": "academic"
+        },
+        {
+          "title": "大会第十七届会议正式记录",
+          "url": "https://digitallibrary.un.org/record/727931",
+          "publisher": "联合国大会记录",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1966-geneva-agreement",
+      "claim": "1966年《日内瓦公约》建立了和平、友好解决边界争端的协商框架。",
+      "context": "1966年2月17日，就在圭亚那从英联邦独立之前，联合王国、委内瑞拉和英属圭亚那签署了《日内瓦公约》。该协议承认冲突的存在，并规定通过混合委员会和《联合国宪章》第三十三条规定的和平解决进程达成协议。委内瑞拉解释该协议使1899年裁决无效，而圭亚那则坚称该协议只是确立了争端解决程序并维持了裁决的有效性。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "解决委内瑞拉与英国之间争端的协议（第561号条约）",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20561/v561.pdf",
+          "publisher": "联合国条约集（UNTS）",
+          "type": "international"
+        },
+        {
+          "title": "1966年日内瓦协议",
+          "url": "https://www.minfor.gov.gy/the-geneva-agreement/",
+          "publisher": "圭亚那外交与国际合作部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ge-2015-oil-discoveries",
+      "claim": "2015年，美国埃克森美孚在埃塞奎博海岸发现大型油田（斯塔布鲁克油田）后，冲突再次爆发。",
+      "context": "2015年5月，美国埃克森美孚公司在圭亚那近海Stabroek油田发现了Liza-1油田。随后的勘探证实，预计可采储量超过110亿桶，圭亚那迅速成为世界主要产油国之一。对此，委内瑞拉政府发布行政命令，宣布对沿岸海域拥有主权，海洋边界冲突迅速加剧。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "圭亚那能源和原油发现概况",
+          "url": "https://www.eia.gov/international/overview/country/GUY",
+          "publisher": "美国能源信息署（EIA）",
+          "type": "government"
+        },
+        {
+          "title": "埃克森美孚圭亚那运营和资源",
+          "url": "https://corporate.exxonmobil.com/locations/guyana",
+          "publisher": "埃克森美孚公司",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ge-2023-referendum-icj",
+      "claim": "针对2023年委内瑞拉公投，国际法院（ICJ）下令采取临时措施，禁止委内瑞拉改变现状。",
+      "context": "2023年12月3日，委内瑞拉政府举行全民公投，决定对埃塞奎博地区拥有主权并建立新国家。关于圭亚那要求的临时措施，12月1日，国际法院一致命令委内瑞拉不得采取任何可能改变圭亚那目前对埃塞奎博地区控制和控制的行动，直至就案情作出判决。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "关于要求指示临时措施的命令（2023 年 12 月 1 日）",
+          "url": "https://www.icj-cij.org/sites/default/files/case-related/171/171-20231201-ord-01-00-en.pdf",
+          "publisher": "国际法院（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "六、圭亚那和委内瑞拉对话与和平阿盖尔联合声明",
+          "url": "https://caricom.org/joint-declaration-of-argyle-for-dialogue-and-peace-between-guyana-and-venezuela/",
+          "publisher": "加勒比共同体（CARICOM）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

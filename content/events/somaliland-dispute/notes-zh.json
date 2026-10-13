@@ -1,0 +1,105 @@
+{
+  "eventId": "somaliland-dispute",
+  "notes": [
+    {
+      "id": "sl-1960-independence-union",
+      "claim": "前英属索马里兰于1960年6月26日作为主权国家独立，几天后自愿与前意属索马里合并。",
+      "context": "1960年6月26日，英国索马里兰保护国正式独立，成为一个主权国家，即索马里兰国，并得到包括联合国安理会常任理事国在内的35个国家的承认。然而，本着“大索马里主义”的精神，仅仅五天后的7月1日，索马里就自愿与同日独立的前意大利托管领土索马里合并，成立“索马里共和国”。索马里兰后来声称，该一体化条约未经法律批准，因此无效。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "1960 年联合王国索马里兰枢密院令",
+          "url": "https://www.legislation.gov.uk/",
+          "publisher": "英国国家档案馆",
+          "type": "government"
+        },
+        {
+          "title": "美国国际法杂志 - 索马里兰：宪法和国际法框架",
+          "url": "https://www.jstor.org/",
+          "publisher": "美国国际法学会（ASIL）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-1988-isaaq-genocide-1991-re-independence",
+      "claim": "索马里兰在西亚德·巴雷政权1988年大屠杀（伊萨克种族灭绝）后于1991年再次宣布独立。",
+      "context": "摩加迪沙的西亚德·巴雷军事独裁政权对武装反对派团体索马里民族运动的起义作出回应，轰炸和炮击北部主要城市哈尔格萨和布劳，将其夷为平地，并屠杀了约 5 万至 10 万伊萨克部族平民。 1991年1月巴雷政权倒台，索马里全国进入无政府状态和内战状态，同年5月18日，索马里兰全国委员会和北方长老会在布劳大会议上一致宣布废除1960年的统一，恢复索马里兰共和国主权（重新独立）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "人权观察 - 与本国人民交战的政府：有关北方杀戮和冲突的证词",
+          "url": "https://www.hrw.org/reports/1990/somalia/",
+          "publisher": "人权观察",
+          "type": "academic"
+        },
+        {
+          "title": "索马里兰独立宣言（布劳，1991 年 5 月 18 日）",
+          "url": "https://www.somalilandlaw.com/18_may_1991.html",
+          "publisher": "索马里兰法律门户网站",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sl-de-facto-statehood-institutions",
+      "claim": "索马里兰30多年来一直保持着稳定的事实上的国家，拥有民主选举、自己的货币以及军队和警察。",
+      "context": "虽然索马里南部因部族民兵和伊斯兰极端分子(青年党)的暴力而继续崩溃，但索马里兰已经建立了以部族和解为基础的议会民主制。该国已通过使用生物识别技术的直接普选进行了多次总统选举和和平政府更迭。尽管它有自己的宪法、警察/军队、护照、中央银行和货币（索马里兰先令），但仍然缺乏国际社会的法律国家承认（法理承认）。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "国际危机组织——索马里兰：被遗忘的非洲之角",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/somaliland",
+          "publisher": "国际危机组织（ICG）",
+          "type": "academic"
+        },
+        {
+          "title": "自由之家 - 世界自由：索马里兰国家报告",
+          "url": "https://freedomhouse.org/country/somaliland",
+          "publisher": "自由之家",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-fgs-sovereignty-one-somalia",
+      "claim": "索马里联邦政府和联合国/非洲联盟一贯支持“索马里的统一和领土完整”",
+      "context": "根据临时联邦宪法，设在摩加迪沙的索马里联邦政府将索马里兰视为不可分割的北方领土（联邦组成区），坚决反对任何侵犯主权的单方面分裂和独立行为。联合国安理会和非盟继续重申尊重索马里主权、统一和领土完整作为基本原则，担心如果批准殖民独立时的边界变更，将导致整个非洲大陆民族分裂和独立的连锁反应（打开潘多拉魔盒）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "索马里联邦共和国临时宪法",
+          "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+          "publisher": "索马里联邦共和国宪法",
+          "type": "government"
+        },
+        {
+          "title": "联合国安理会关于索马里的决议——重申主权和领土完整",
+          "url": "https://undocs.org/S/RES/2710(2023)",
+          "publisher": "联合国安理会",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sl-2024-ethiopia-mou-berbera",
+      "claim": "2024年1月，埃塞俄比亚和索马里兰签署港口使用和国家承认谅解备忘录，地区紧张局势加剧。",
+      "context": "二、2024年1月1日，埃塞俄比亚总理阿比和索马里兰总统比希在亚的斯亚贝巴签署谅解备忘录。该协议包括转让埃塞俄比亚航空公司的股份，并考虑未来国家正式承认索马里兰，以换取埃塞俄比亚租赁亚丁湾伯贝拉港周围20公里的海岸线50年，作为海军基地和商业港口。索马里政府对此强烈反对，称这是对本国领土的入侵，导致两国关系断绝，并与埃及和土耳其缔结军事协议。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "埃塞俄比亚联邦民主共和国和索马里兰共和国谅解备忘录联合公报（2024年1月1日）",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "埃塞俄比亚联邦民主共和国总理办公室",
+          "type": "government"
+        },
+        {
+          "title": "索马里联邦共和国——保护国家主权声明（2024年1月2日）",
+          "url": "https://sonna.so/en/",
+          "publisher": "索马里国家通讯社（SONNA）",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

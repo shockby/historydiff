@@ -2,24 +2,32 @@
   "eventId": "gerd-nile-dispute",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "gerd-voice-1",
       "country": {
         "ja": "エチオピア国民・国家開発支持層",
-        "en": "Ethiopian citizens & development supporters"
+        "en": "Ethiopian citizens & development supporters",
+        "zh": "埃塞俄比亚人民和国家发展支持者",
+        "ko": "에티오피아 국민·국가 개발 지지층"
       },
       "sentiment": "nationalist-pride",
       "summary": {
         "ja": "ナイルの水は8割以上がエチオピアの大地から湧き出ている。国民の半数が電気のない生活を送る中、自国の資源を使って電力を生み出し貧困を克服することは正当な主権の行使だ。他国の植民地時代の不当な特権に屈することは絶対にない。",
-        "en": "Over 85% of the Nile originates in Ethiopia. Over 60 million of our people live without electricity. Harnessing our own natural resources to lift our nation out of poverty is our sovereign right. We will never submit to colonial-era monopolies."
+        "en": "Over 85% of the Nile originates in Ethiopia. Over 60 million of our people live without electricity. Harnessing our own natural resources to lift our nation out of poverty is our sovereign right. We will never submit to colonial-era monopolies.",
+        "zh": "尼罗河80%以上的水来自埃塞俄比亚的土壤。在该国一半人口无电的情况下，利用自己的资源发电、脱贫是合法行使主权。我们永远不会屈服于别国殖民时代的不公平特权。",
+        "ko": "나일의 물은 80% 이상이 에티오피아의 대지에서 솟아나고 있다. 국민의 절반이 전기 없는 생활을 보내는 가운데 자국의 자원을 사용해 전력을 만들어 빈곤을 극복하는 것은 정당한 주권 행사다. 타국의 식민지 시대의 부당한 특권에 굴복하는 것은 절대로 없다."
       },
       "prevalence": "high",
       "context": {
         "ja": "国内外のエチオピア人が給与を寄付して建設を支えた国民的結束の象徴としての世論。",
-        "en": "Universal domestic mobilization and diaspora fundraising celebrating GERD as a monument of national dignity."
+        "en": "Universal domestic mobilization and diaspora fundraising celebrating GERD as a monument of national dignity.",
+        "zh": "舆论作为民族团结的象征，其建设得到了国内外埃塞俄比亚人民的贡献。",
+        "ko": "국내외의 에티오피아인이 급여를 기부해 건설을 지지한 국민적 결속의 상징으로서의 여론."
       },
       "keywords": [
         "#ItsMyDam",
@@ -33,17 +41,23 @@
       "id": "gerd-voice-2",
       "country": {
         "ja": "エジプト国民・水資源防衛擁護層",
-        "en": "Egyptian citizens & water security advocates"
+        "en": "Egyptian citizens & water security advocates",
+        "zh": "埃及人民和水资源保护倡导者",
+        "ko": "이집트 국민·수자원 방위 옹호층"
       },
       "sentiment": "existential-defense",
       "summary": {
         "ja": "ナイル川は数千年にわたりエジプト文明を育んできた命そのものだ。上流で合意もなくダムを閉め切られれば、エジプトの農民は干上がり国民全体が飲料水不足に陥る。水は生きる権利であり、国家安全保障のレッドラインだ。",
-        "en": "The Nile is the lifeblood of Egypt's civilization and 100 million lives. Unilateral dam filling without a binding drought treaty threatens our water supply and agriculture. The Nile is an existential red line that can never be compromised."
+        "en": "The Nile is the lifeblood of Egypt's civilization and 100 million lives. Unilateral dam filling without a binding drought treaty threatens our water supply and agriculture. The Nile is an existential red line that can never be compromised.",
+        "zh": "数千年来，尼罗河一直是埃及文明的命脉。如果大坝在没有达成协议的情况下关闭上游，埃及的农民就会干涸，整个国家将面临饮用水短缺的问题。水是生命权，也是国家安全红线。",
+        "ko": "나일강은 수천년에 걸쳐 이집트 문명을 키워온 생명 그 자체다. 상류에서 합의도 없이 댐을 폐쇄하면 이집트 농민들은 말라올라 국민 전체가 식수 부족에 빠진다. 물은 사는 권리이며 국가안보의 레드라인이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "エジプト国内に根付くナイル川への絶対的な依存と、一方的な貯水に対する強い危機感。",
-        "en": "Profound existential anxiety across Egyptian society regarding downstream water shortages and food insecurity."
+        "en": "Profound existential anxiety across Egyptian society regarding downstream water shortages and food insecurity.",
+        "zh": "埃及对尼罗河的绝对依赖和单方面蓄水的强烈危机感。",
+        "ko": "이집트 국내에 뿌리 내리는 나일강에의 절대적인 의존과 일방적인 저수에 대한 강한 위기감."
       },
       "keywords": [
         "#EgyptNileRights",
@@ -57,17 +71,23 @@
       "id": "gerd-voice-3",
       "country": {
         "ja": "スーダン国民・農業技術関係者",
-        "en": "Sudanese citizens & river basin technicians"
+        "en": "Sudanese citizens & river basin technicians",
+        "zh": "苏丹国民和农业技术人员",
+        "ko": "수단 국민·농업기술 관계자"
       },
       "sentiment": "balanced-pragmatic",
       "summary": {
         "ja": "ダムによって毎年の破滅的なナイル川の洪水が防がれ、電気も安くなるのは歓迎だ。しかし、国境すぐ隣の巨大ダムの放水データが共有されなければ、ロゼイレスダムの崩壊や農地の冠水が起こりうる。安全協定の締結が最優先だ。",
-        "en": "GERD offers immense benefits by regulating seasonal flooding and providing cheap energy. But without daily operational data exchange and safety protocols, our own downstream dams and millions of farmers are at catastrophic risk."
+        "en": "GERD offers immense benefits by regulating seasonal flooding and providing cheap energy. But without daily operational data exchange and safety protocols, our own downstream dams and millions of farmers are at catastrophic risk.",
+        "zh": "我们欢迎这座大坝，它将防止尼罗河每年发生灾难性的洪水，并使电价变得更便宜。然而，如果不共享边境附近大型水坝的泄水数据，罗赛雷斯大坝可能会崩溃，农田可能会被洪水淹没。当务之急是签订安全协议。",
+        "ko": "댐에 의해 매년 파멸적인 나일강의 홍수가 막히고 전기도 저렴해지는 것은 환영이다. 그러나 국경 바로 옆의 거대댐의 방수 데이터가 공유되지 않으면 로제이레스 댐의 붕괴나 농지의 관수가 일어날 수 있다. 안전협정 체결이 최우선이다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "エチオピアとエジプトの板挟みの中で、実利と安全保障の両立を模索するスーダンの世論。",
-        "en": "Nuanced pragmatic perspective balancing flood alleviation against genuine operational safety hazards."
+        "en": "Nuanced pragmatic perspective balancing flood alleviation against genuine operational safety hazards.",
+        "zh": "夹在埃塞俄比亚和埃及之间，苏丹舆论正在寻求现实利益与安全之间的平衡。",
+        "ko": "에티오피아와 이집트의 판 사이에 실리와 안보의 양립을 모색하는 수단의 여론."
       },
       "keywords": [
         "#SudanWaterRights",
@@ -81,17 +101,23 @@
       "id": "gerd-voice-4",
       "country": {
         "ja": "国際水文学・環境ガバナンス専門家",
-        "en": "Hydrologists & transboundary river scholars"
+        "en": "Hydrologists & transboundary river scholars",
+        "zh": "国际水文与环境治理专家",
+        "ko": "국제 수문학·환경 거버넌스 전문가"
       },
       "sentiment": "cooperative-scientific",
       "summary": {
         "ja": "ナイル川問題の解決策は対立ではなく、科学的データに基づく流域全体の共同管理にある。気候変動による渇水期を乗り切るため、三カ国が協調運用体制を構築し、ウィン・ウィンの電力・水利協力を確立すべきだ。",
-        "en": "Water conflicts cannot be solved through zero-sum nationalism. The Nile basin requires scientific data sharing, joint reservoir management, and shared power grids to build climate resilience for all 250 million basin inhabitants."
+        "en": "Water conflicts cannot be solved through zero-sum nationalism. The Nile basin requires scientific data sharing, joint reservoir management, and shared power grids to build climate resilience for all 250 million basin inhabitants.",
+        "zh": "尼罗河问题的解决不是对抗，而是基于科学数据对整个流域进行共同管理。为了度过气候变化造成的干旱期，三个国家应建立合作运营体系，建立双赢的电力和水利合作。",
+        "ko": "나일강 문제에 대한 해결책은 갈등이 아니며, 과학적 데이터에 근거한 유역 전체의 공동관리에 있다. 기후변화에 따른 갈증기를 극복하기 위해 삼국이 협조운용 체제를 구축하고 윈윈의 전력·수리협력을 확립해야 한다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "国際河川水法（1997年国連水路条約の精神）に基づく公平・合理的利用の推進。",
-        "en": "Academic and policy advocacy for cooperative basin-wide governance models."
+        "en": "Academic and policy advocacy for cooperative basin-wide governance models.",
+        "zh": "根据国际河水法（1997年《联合国水道公约》的精神）促进公平合理的利用。",
+        "ko": "국제하천수법(1997년 유엔수로조약의 정신)에 근거한 공평·합리적 이용의 추진."
       },
       "keywords": [
         "#NileCooperation",

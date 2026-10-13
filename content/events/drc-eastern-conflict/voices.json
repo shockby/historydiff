@@ -2,24 +2,32 @@
   "eventId": "drc-eastern-conflict",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "drc-voice-1",
       "country": {
         "ja": "コンゴ民主共和国市民・主権擁護層",
-        "en": "DRC citizens & sovereignty advocates"
+        "en": "DRC citizens & sovereignty advocates",
+        "zh": "刚果民主共和国公民和主权捍卫者",
+        "ko": "콩고민주공화국 시민·주권 옹호층"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "ルワンダによるM23反乱軍への武器供与と軍事介入は明白な国家主権の侵害であり、我が国のコルタンや金を強奪するための資源侵略だ。国際社会はルワンダに対し断固たる制裁を発動すべきだ。",
-        "en": "Rwanda's financing and arming of the M23 terrorists is a direct act of territorial aggression designed to plunder our coltan, gold, and mineral wealth. The world must impose harsh sanctions on Kigali immediately."
+        "en": "Rwanda's financing and arming of the M23 terrorists is a direct act of territorial aggression designed to plunder our coltan, gold, and mineral wealth. The world must impose harsh sanctions on Kigali immediately.",
+        "zh": "卢旺达向“3·23”叛乱分子提供武器和军事干预，明显侵犯了国家主权，是为了窃取钶钽铁矿和黄金而侵犯我国资源。国际社会应对卢旺达实施严厉制裁。",
+        "ko": "르완다에 의한 M23 반란군에 대한 무기공여와 군사 개입은 명백한 국가주권의 침해이며 우리나라의 콜탄과 금을 강탈하기 위한 자원침략이다. 국제사회는 르완다에 대해 단호한 제재를 발동해야 한다."
       },
       "prevalence": "high",
       "context": {
         "ja": "首都キンシャサや東部諸都市で広がる強い反ルワンダ抗議行動と、国家主権の死守を訴える世論。",
-        "en": "Widespread popular demonstrations across Kinshasa and eastern cities demanding an end to external aggression."
+        "en": "Widespread popular demonstrations across Kinshasa and eastern cities demanding an end to external aggression.",
+        "zh": "强烈的反卢旺达抗议活动正在首都金沙萨和其他东部城市蔓延，舆论呼吁严厉保护国家主权。",
+        "ko": "수도 킨샤사와 동부 여러 도시에서 펼쳐지는 강한 반 르완다 항의행동과 국가주권의 사수를 호소하는 여론."
       },
       "keywords": [
         "#RwandaIsKilling",
@@ -33,17 +41,23 @@
       "id": "drc-voice-2",
       "country": {
         "ja": "ルワンダ政府支持層・ツチ系保護擁護派",
-        "en": "Rwandan supporters & Tutsi protection advocates"
+        "en": "Rwandan supporters & Tutsi protection advocates",
+        "zh": "卢旺达政府支持者/图西族保护倡导者",
+        "ko": "르완다 정부 지지층·투치계 보호 옹호파"
       },
       "sentiment": "security-focused",
       "summary": {
         "ja": "コンゴ軍は1994年のルワンダ虐殺を実行した過激派FDLRと結託してツチ系住民を迫害している。ルワンダ自国の安全保障と国境沿いの同胞を守る自衛の権利は不可欠である。",
-        "en": "The DRC military openly colludes with genocidal FDLR terrorists who target Congolese Tutsis and threaten Rwanda's borders. Rwanda has a legitimate duty to ensure its national security and protect vulnerable ethnic communities."
+        "en": "The DRC military openly colludes with genocidal FDLR terrorists who target Congolese Tutsis and threaten Rwanda's borders. Rwanda has a legitimate duty to ensure its national security and protect vulnerable ethnic communities.",
+        "zh": "刚果军队与卢民主力量（该极端组织对 1994 年卢旺达种族灭绝负有责任）勾结，迫害图西族。卢旺达的自卫权对其自身安全和保护其边境同胞至关重要。",
+        "ko": "콩고군은 1994년 르완다 학살을 실행한 과격파 FDLR과 결탁해 투치계 주민을 박해하고 있다. 르완다 자국의 안보와 국경을 따라 동포를 지키는 자위의 권리는 필수적이다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "1994年のジェノサイドの記憶と、FDLRの残存に対するルワンダ社会の深い安全保障上の警戒感。",
-        "en": "Deep-seated trauma from the 1994 genocide driving security doctrine against anti-Tutsi militias in eastern DRC."
+        "en": "Deep-seated trauma from the 1994 genocide driving security doctrine against anti-Tutsi militias in eastern DRC.",
+        "zh": "1994 年种族灭绝的记忆和卢旺达社会对剩余卢民主力量的深刻安全感敲响了警钟。",
+        "ko": "1994년 제노사이드의 기억과 FDLR의 잔존에 대한 르완다 사회의 깊은 안보상의 경계감."
       },
       "keywords": [
         "#StopFDLR",
@@ -57,17 +71,23 @@
       "id": "drc-voice-3",
       "country": {
         "ja": "北キヴ州ゴマ近郊の国内避難民・一般市民",
-        "en": "Internally displaced persons & eastern DRC residents"
+        "en": "Internally displaced persons & eastern DRC residents",
+        "zh": "北基伍省戈马附近的境内流离失所者和平民",
+        "ko": "북키브 주 참깨 근교의 국내 피난민·일반 시민"
       },
       "sentiment": "humanitarian-plea",
       "summary": {
         "ja": "30年もの間、政治家や武装勢力の都合で故郷を焼かれ、難民キャンプで飢えと病魔、暴力に怯え続けている。私たちは政治の道具ではなく人間だ。ただ平和に畑を耕し、子どもを学校に通わせたい。",
-        "en": "For 30 years we have been displaced from our homes, living in makeshift camps amidst starvation, disease, and constant rape. We are human beings, not bargaining chips for warlords and politicians. We just want peace."
+        "en": "For 30 years we have been displaced from our homes, living in makeshift camps amidst starvation, disease, and constant rape. We are human beings, not bargaining chips for warlords and politicians. We just want peace.",
+        "zh": "30年来，他们的家乡被政客和武装团体烧毁，他们继续生活在难民营中，生活在饥饿、疾病和暴力的恐惧之中。我们是人，不是政治工具。我只想安静地耕种我的田地，送我的孩子上学。",
+        "ko": "30년 동안 정치인과 무장 세력의 사정으로 고향을 태워 난민 캠프에서 굶주림과 병마, 폭력에 무서워하고 있다. 우리는 정치의 도구가 아니라 인간이다. 단지 평화로 밭을 경작하고, 아이를 학교에 다니게 하고 싶다."
       },
       "prevalence": "high",
       "context": {
         "ja": "数百万人におよぶ避難民キャンプで極限状態を生き抜く現地住民の悲痛な叫び。",
-        "en": "Overwhelming cries of millions surviving in destitute displacement camps around Goma and Beni."
+        "en": "Overwhelming cries of millions surviving in destitute displacement camps around Goma and Beni.",
+        "zh": "数百万流离失所者营地中的当地居民在极端条件下生存，发出令人心碎的呼喊。",
+        "ko": "수백만 명에 달하는 피난민 캠프에서 극한 상태를 살아남는 현지 주민들의 비통한 외침."
       },
       "keywords": [
         "#GomaNeedsPeace",
@@ -81,17 +101,23 @@
       "id": "drc-voice-4",
       "country": {
         "ja": "国際市民社会・エシカル消費運動",
-        "en": "Global civil society & ethical supply chain advocates"
+        "en": "Global civil society & ethical supply chain advocates",
+        "zh": "国际公民社会/道德消费运动",
+        "ko": "국제시민사회·에시컬소비운동"
       },
       "sentiment": "activist",
       "summary": {
         "ja": "ハイテク大手やEVメーカーはコンゴの紛争鉱物で巨利を得ている。消費者はサプライチェーンの真実を知り、血塗られたコルタンやコバルトの徹底的な追跡とクリーンな調達を企業に義務付けるべきだ。",
-        "en": "Global tech corporations generate trillions using minerals extracted through slave labor and armed violence in DRC. Consumers must demand radical supply chain transparency to end the era of conflict minerals."
+        "en": "Global tech corporations generate trillions using minerals extracted through slave labor and armed violence in DRC. Consumers must demand radical supply chain transparency to end the era of conflict minerals.",
+        "zh": "大型科技公司和电动汽车制造商正在从刚果的冲突矿物中赚取巨额利润。消费者应该了解他们供应链的真相，并要求公司彻底追踪和清洁地采购他们的钶钽铁矿和钴。",
+        "ko": "하이테크 대기업과 EV 메이커는 콩고의 분쟁 광물로 거리를 얻고 있다. 소비자는 공급망의 진실을 알고 혈색 코르탄과 코발트의 철저한 추적과 깨끗한 조달을 기업에 의무화해야 한다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "スマートフォンや電気自動車の普及に伴い高まるエシカル調達と人権デューディリジェンスへの関心。",
-        "en": "Growing international movement pressuring multinational electronics and automotive giants for ethical mineral sourcing."
+        "en": "Growing international movement pressuring multinational electronics and automotive giants for ethical mineral sourcing.",
+        "zh": "随着智能手机和电动汽车的普及，人们对道德采购和人权尽职调查的兴趣日益浓厚。",
+        "ko": "스마트폰과 전기차의 보급에 따라 높아지는 에시컬 조달과 인권 실사에 대한 관심."
       },
       "keywords": [
         "#ConflictFreeMinerals",

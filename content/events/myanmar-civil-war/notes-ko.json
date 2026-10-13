@@ -1,0 +1,107 @@
+{
+  "eventId": "myanmar-civil-war",
+  "notes": [
+    {
+      "id": "coup-origin",
+      "claim": "2021년 2월 쿠데타는 2020년 총선거의 부정을 이유로 이루어졌다.",
+      "context": "군은 NLD(국민민주연맹)가 2020년 11월 총선에서 압승한 결과에 부정이 있다고 주장했지만 국내외 선거 감시단은 선거의 정당성을 인정하고 있다. 이 주장은 쿠데타의 구실로 널리 비판되고 있다.",
+      "verdict": "오류 (국제 선거 감시단은 선거의 정당성을 인정)",
+      "sources": [
+        {
+          "title": "ANFREL Myanmar Election Observation Report (2020)",
+          "url": "https://www.anfrel.org/",
+          "publisher": "Asian Network for Free Elections (ANFREL)",
+          "type": "ngo"
+        },
+        {
+          "title": "UN Special Rapporteur on the Situation of Human Rights in Myanmar",
+          "url": "https://www.ohchr.org/en/special-procedures/sr-myanmar",
+          "publisher": "OHCHR",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "civilian-casualties",
+      "claim": "군은 병원·학교·민가에 공폭을 조직적으로 실시하고 있다.",
+      "context": "유엔이나 인권단체는 군이 주택지·의료시설·학교를 반복 공폭하고 있다고 보고하고 있다. 2021년 이후의 사망자 수는 10만명 초과라고 불리며 시민에 대한 무차별 공격이 기록되고 있다.",
+      "verdict": "사실(유엔인권고등변무관사무소·HRW가 기록)",
+      "sources": [
+        {
+          "title": "OHCHR Reports on Myanmar",
+          "url": "https://www.ohchr.org/en/countries/myanmar",
+          "publisher": "UN Office of the High Commissioner for Human Rights",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch — Myanmar",
+          "url": "https://www.hrw.org/asia/burma",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "resistance-territory",
+      "claim": "저항세력은 미얀마 국토의 약 42%를 실효 지배하고 있다.",
+      "context": "2026년 시점에서 민족무장세력(EAO)과 국민방위대(PDF)가 국토의 약 42%를 지배하고, 군정의 지배지역은 약 21%에 그친다는 추계가 있다. 다만 전선은 유동적이며 정확한 숫자에는 이론도 있다.",
+      "verdict": "대체로 사실(추계치·전선은 유동적)",
+      "sources": [
+        {
+          "title": "ACLED Myanmar Conflict Data",
+          "url": "https://acleddata.com/data-export-tool/",
+          "publisher": "Armed Conflict Location & Event Data Project (ACLED)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "china-cmec",
+      "claim": "중국은 경제회랑(CMEC) 보호를 위해 군정을 지지하고 있다.",
+      "context": "중국 미얀마 경제 회랑은 말라카 해협을 우회하여 인도양에의 접근을 확보하는 전략적 인프라. 중국은 회랑을 따라 안정을 우선해 군정에 대한 참여를 깊게 하고 있다.",
+      "verdict": "사실(CSIS·ICG가 확인)",
+      "sources": [
+        {
+          "title": "China-Myanmar Economic Corridor Analysis — CSIS",
+          "url": "https://www.csis.org/programs/southeast-asia-program/projects/china-myanmar-economic-corridor",
+          "publisher": "Center for Strategic and International Studies",
+          "type": "academic"
+        },
+        {
+          "title": "International Crisis Group — Myanmar",
+          "url": "https://www.crisisgroup.org/asia/south-east-asia/myanmar",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "asean-five-point",
+      "claim": "ASEAN의 5점 합의(5PC)는 기능부전에 빠져 있다.",
+      "context": "2021년 4월에 합의된 ASEAN의 5점 합의(폭력정지·대화·인도지원·특사방문·팔로우업)는 군정의 협력거부로 실질적인 진전을 보지 못하고 있다. 여러 ASEAN 회원국이 틀의 검토를 요구하고 있다.",
+      "verdict": "사실(ASEAN 사무국·ICG가 기능부전을 확인)",
+      "sources": [
+        {
+          "title": "ASEAN Five-Point Consensus on Myanmar",
+          "url": "https://asean.org/",
+          "publisher": "ASEAN Secretariat",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-myanmar-veto",
+      "claim": "유엔 안보리는 미얀마 군정에의 제재 결의를 중국·러시아의 거부권 행사에 의해 2021년 이후 채택할 수 없다",
+      "context": "미얀마의 쿠데타(2021년 2월) 후, 구미 국가를 중심으로 안보리로 제재 결의가 모색되었지만, 중국과 러시아가 거부권 또는 반대표를 행사하는 자세를 나타내었기 때문에 구속력 있는 제재 결의는 채택되지 않았다. 2022년 12월 안보리는 미얀마 정세에 관한 첫 정식 결의(S/RES/2669)를 채택했지만(찬성 12·기권 3=중국·러시아·인도), 이는 폭력 정지와 인도 지원 접근을 요구하는 비구속적인 것에 그쳤다. 유엔총회는 복수의 결의로 쿠데타를 비난해 무기금수를 요구하고 있지만(총회 결의는 법적 구속력 없음), 중국·러시아의 안보리에 있어서의 저지로 실효적인 국제 조치를 취할 수 없는 상황이 계속되고 있다.",
+      "verdict": "구속력 있는 제재 결의 없음(중로의 저지에 의해)",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2669 (2022) on Myanmar",
+          "url": "https://undocs.org/S/RES/2669(2022)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

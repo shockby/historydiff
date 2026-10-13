@@ -1,0 +1,101 @@
+{
+  "eventId": "sudan-civil-war",
+  "notes": [
+    {
+      "id": "conflict-origin",
+      "claim": "2023年4月的战斗是在无国界医生组织发起先发制人打击后爆发的。",
+      "context": "苏丹武装部队和无国界部队原本在2019年巴希尔政权倒台后的过渡时期采取共同治理，但军队统一指挥的矛盾加剧，武装冲突于2023年4月15日开始。对于谁先进攻，双方说法相互矛盾。",
+      "verdict": "双方声称的战争爆发的情况不同（造成国际核查困难的情况）",
+      "sources": [
+        {
+          "title": "苏丹冲突概述——国际危机组织",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/sudan",
+          "publisher": "国际危机组织",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "genocide-darfur",
+      "claim": "无国界医生组织正在达尔富尔实施相当于种族灭绝的行为。",
+      "context": "联合国和人权组织报告称，无国界部队针对达尔富尔地区的非阿拉伯少数民族，包括马萨利特人，实施大规模种族灭绝、性暴力和强迫流离失所。美国于2024年正式承认这是种族灭绝。",
+      "verdict": "事实（被美国正式认定为种族灭绝，并由联合国人权机构记录）",
+      "sources": [
+        {
+          "title": "联合国人权理事会关于苏丹的报告",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/about-council",
+          "publisher": "联合国人权理事会",
+          "type": "international"
+        },
+        {
+          "title": "人权观察——苏丹",
+          "url": "https://www.hrw.org/africa/sudan",
+          "publisher": "人权观察",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "chinese-weapons-rsf",
+      "claim": "中国正在向无国界医生组织提供武器。",
+      "context": "2025年，证实无国界武装组织使用中国制造的无人机和制导炸弹，苏丹政府要求北京做出解释。中国否认与无国界医生组织有任何联系，但路线细节仍不清楚。",
+      "verdict": "事实（供应路线未确认）",
+      "sources": [
+        {
+          "title": "苏丹内战中的中国武器 — ADF Magazine",
+          "url": "https://adf-magazine.com/",
+          "publisher": "ADF杂志",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hemedti-death-sentence",
+      "claim": "RSF领导人赫梅蒂于2026年7月被苏丹法院判处死刑。",
+      "context": "苏丹法院以战争罪、反人类罪和种族灭绝罪缺席判处赫梅蒂及其 15 名助手死刑。无国界医生组织声称这一判决无效。",
+      "verdict": "事实（缺席审判/RSF声称无效）",
+      "sources": [
+        {
+          "title": "苏丹法院判处 RSF 领导人死刑 — 美联社新闻",
+          "url": "https://apnews.com/",
+          "publisher": "美联社",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "humanitarian-scale",
+      "claim": "苏丹内战是21世纪最大的人道主义危机之一。",
+      "context": "截至2026年，将有数百万人在国内流离失所，逃往乍得、南苏丹、埃及等邻国的难民人数正在迅速增加。食物、医疗和住所仍然严重短缺，联合国正在呼吁紧急援助。",
+      "verdict": "事实（联合国人道协调厅和粮食计划署承认这是最大的危机）",
+      "sources": [
+        {
+          "title": "苏丹人道主义危机——联合国人道协调厅",
+          "url": "https://www.unocha.org/sudan",
+          "publisher": "联合国人道主义事务协调厅",
+          "type": "international"
+        },
+        {
+          "title": "粮食计划署苏丹紧急响应",
+          "url": "https://www.wfp.org/countries/sudan",
+          "publisher": "世界粮食计划署",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-response-sudan",
+      "claim": "一、联合国安理会未能就苏丹内战问题通过具有约束力的决议，仅作出声明层面的回应。",
+      "context": "关于苏丹内战（2023年起），联合国安理会在2023年至2024年期间多次发表新闻谈话，但由于常任理事国（特别是俄罗斯和中国）的反对和弃权，未能通过涉及制裁或强制措施的具有约束力的决议。呼吁确保获得人道主义援助的不具约束力的决议（例如S/RES/2724）已经获得通过，但执行力度不够。联合国也曾考虑在2024年开展维和行动，但尚未达成协议。安理会的失灵遭到了国际非政府组织的批评，称其导致了人道主义危机的恶化。",
+      "verdict": "无约束力的安理会决议（仅声明和不具约束力的决议）",
+      "sources": [
+        {
+          "title": "联合国安理会关于苏丹的报告",
+          "url": "https://www.un.org/securitycouncil/content/sudan",
+          "publisher": "联合国安理会",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

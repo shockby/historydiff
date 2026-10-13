@@ -1,0 +1,105 @@
+{
+  "eventId": "preah-vihear-dispute",
+  "notes": [
+    {
+      "id": "pvd-icj-1962",
+      "claim": "1962년 ICJ 판결은 프레아비히아 사원의 주권이 캄보디아에 있다고 확정하고 태국에 철수를 명령했다.",
+      "context": "1962년 6월 15일 국제사법재판소는 9대 3의 다수결로 프레아비히아 사원의 주권은 캄보디아에 귀속한다는 판결을 내렸다. 판결의 근거는, 1904년의 프랑스=샴 조약에 근거해 1907년에 작성된 프랑스·캄보디아 혼성 위원회의 지도(아넥스I 지도)이며, 태국(당시 샴)이 이 지도를 수십년에 걸쳐 묵인·승인해 왔다(금반언=acquiescence)라는 사실이었다. 태국 측은 분수령선에 근거하면 사원은 태국령에 들어간다고 주장했지만, 법원은 국경의 실제 위치보다 국가의 행동(effectivités)을 중시했다. 태국은 이 판결에 강하게 반발해 국내에서는 ‘굴욕적인 판결’로 큰 정치문제가 되었지만, 다음 1963년 철수를 실시했다.",
+      "verdict": "ICJ의 판결은 국제법상 명확한 구속력을 가진다. 태국이 주장하는 분수 영론은 1907년 시점에서 프랑스 측 지도에 의해 실질적으로 부정되고 있으며, 태국의 오랜 묵인이 그 효력을 확정했다. 다만 판결이 사원 건조물만을 대상으로 하는지 주위의 토지 전체를 포함하는지에 대해서는 1962년 시점에서는 해석의 여지가 있었다(2013년 판결로 보충).",
+      "sources": [
+        {
+          "title": "Case concerning the Temple of Preah Vihear (Cambodia v. Thailand), Merits, Judgment of 15 June 1962",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "The Temple of Preah Vihear Case Revisited",
+          "url": "https://doi.org/10.1017/S0922156514000417",
+          "publisher": "Asian Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-map-dispute",
+      "claim": "분쟁의 근거가 된 프랑스제 지도는 1904년 조약이 정한 분수령선과 일치하지 않고 양국의 해석을 나누었다.",
+      "context": "1904년 프랑스=샴조약은 국경을 돈렉 산맥의 분수령을 따라 획정하는 것을 규정했다. 그러나 1907년 프랑스인 기사가 작성한 아넥스 I 지도는 측량상의 오차(당시의 기술적 한계에 의한)에 의해 프레아비히아 주변에서 분수령선이 아니라 캄보디아 측에 사원을 포함한 선을 그렸다. 태국은 ‘조약의 문언(분수령)’이야말로 진정한 경계라고 주장했다. ICJ는 1962년 판결로 샴 정부가 이 지도를 공식적으로 수령해 오랫동안 사용했다는 사실을 중시해 '조약의 문언'보다 '국가의 행위'를 우선했다. 이 '지도 문제'는 태국 내에서 오늘도 정치적으로 매우 민감하고 계속되고 있다.",
+      "verdict": "지도의 측량상의 부정확성은 태국측의 반론에 일정한 사실적 근거를 부여하지만, ICJ는 국가의 행동(오랜 지도의 승인·사용)이 조약문언의 수정을 일으킬 수 있다는 법적 원칙을 적용했다. 이 해석은 후속 국제 경계 분쟁에서 널리 인용되는 선례이다.",
+      "sources": [
+        {
+          "title": "Maps and the Preah Vihear Case: Lessons for Territorial Disputes",
+          "url": "https://doi.org/10.1093/chinesejil/jmr059",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "ICJ 1962 Judgment - Separate Opinion of Judge Alfaro",
+          "url": "https://www.icj-cij.org/case/45",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pvd-unesco-2008",
+      "claim": "2008년 유네스코 세계유산 등록은 캄보디아 단독 신청에 근거한 것으로 태국의 동의를 얻지 못했다.",
+      "context": "캄보디아는 2007년에 프레아비히아 사원의 세계유산 등록을 신청했다. 당초는 태국과의 공동신청이 검토되었지만 경계문제에서의 대립에서 협상이 결렬되어 캄보디아는 단독신청으로 전환했다. 2008년 7월 제32회 세계유산위원회(캐나다 퀘벡)는 이를 등록 승인했다. 태국은 이 등록이 계쟁지역에 관한 캄보디아의 주권을 전제로 하고 있으며, 미해결 경계문제를 되풀이한다고 강하게 항의했다. 태국 국내에서는 당시 연립여당의 일각을 담당하는 태국당수(후 총리, 사막순타라웨이트)가 캄보디아와의 공동신청에 합의한 외상(노파돈 파타마)을 정치적으로 공격하는 사태가 되었고, 노파돈은 사임에 몰렸다. 이 정쟁이 양국 간 직접 무력 충돌로의 에스컬레이션을 가속시켰다고 한다.",
+      "verdict": "세계유산등록의 법적행위 그 자체는 캄보디아의 신청내용(사원건물과 그 직접 주변)에 한정되어 있으며, 경계획정의 변경을 수반하지 않는다. 유네스코 규칙상도 국경문제에의 개입을 의도하지 않았다. 그러나 태국 국내의 정치적 민감성이 이를 안보 위기로 증폭시킨 측면은 부정할 수 없다.",
+      "sources": [
+        {
+          "title": "UNESCO World Heritage Committee Decision 32COM 8B.102",
+          "url": "https://whc.unesco.org/en/decisions/1492",
+          "publisher": "유네스코 세계유산위원회",
+          "type": "international"
+        },
+        {
+          "title": "Thailand-Cambodia Border Conflict and the 2008 Political Crisis",
+          "url": "https://doi.org/10.1017/S0022463413000143",
+          "publisher": "Journal of Southeast Asian Studies",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-icj-2013",
+      "claim": "2013년 ICJ 보충판결은 만장일치로 태국에 계쟁지대(프로몬트리)로부터의 철수를 명하고 1962년 판결 사정을 확대해석했다.",
+      "context": "캄보디아는 2011년, 1962년 판결의 의미를 명확히 하도록 ICJ에 해석을 청구했다. 태국은 사원건조물만이 1962년 판결 대상이며 주위 토지에는 미치지 못한다고 주장해 왔다. 2013년 11월 11일, ICJ는 만장일치(15대0)로, 1962년 판결의 주문은 프레아비히아가 소재하는 돌출부(프로몬토리) 전체가 캄보디아령에 속한다는 결정을 포함하고 있으며, 태국은 그 지역에서 군사·행정인원을 철수할 의무가 있다고 판시했다. 다만 법원은 계쟁지대의 정확한 경계선(4.6km²의 상세한 윤곽)에 대해서는 '1962년 판결의 주문 해석 권한을 넘는다'며 획정을 하지 않고 양국간 협상에 맡겼다.",
+      "verdict": "2013년 판결은 태국의 협의 해석을 명확히 부정하고 캄보디아의 주권 범위를 법적으로 확장하는 효과를 가졌다. 만장일치 채택은 판결의 권위를 두드러지게 한다. 다만, 계쟁지대의 정밀한 경계획정은 미해결된 채 남아 있으며, 이 문제의 최종적인 법적 완결에는 추가의 양자간 또는 사법절차가 필요하다.",
+      "sources": [
+        {
+          "title": "Request for Interpretation of the Judgment of 15 June 1962 (Cambodia v. Thailand), Judgment of 11 November 2013",
+          "url": "https://www.icj-cij.org/case/151",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "The 2013 ICJ Preah Vihear Interpretation Judgment",
+          "url": "https://doi.org/10.1093/chinesejil/jmu006",
+          "publisher": "Chinese Journal of International Law",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pvd-civilian-casualties",
+      "claim": "2008년~2011년 무력 충돌에서는 캄보디아, 태국 양국의 병사, 민간인에게 사상자가 나왔다.",
+      "context": "2008년 7월 이후 특히 2011년 2월~5월에 집중해 발생한 총격전·포격전·지뢰폭발에 의한 사상자 수에 대해서는 양국 정부의 공식 발표가 일치하지 않는다. 캄보디아 정부의 집계에서는 군민 맞춘 사상자 수는 수십명 규모로 되어 있지만, 태국 측의 기록과는 굳어있다. 휴먼 라이츠 워치 및 국제적십자위원회(ICRC)는 국제인도법상의 우려를 표명했으며, 특히 2011년 2~4월 충돌로 태국군이 발사한 포탄이 사원 주변의 취락에 착탄한 사례를 기록했다. 국내 피난민수에 대해서는 캄보디아 정부가 최대 8만명의 국내 피난을 보고했다. 지뢰·불발탄에 의한 농업·이동에의 장기적 영향은 현재도 계속되고 있다.",
+      "verdict": "무력 충돌에 의한 사상자의 발생 및 대규모 국내 피난은 복수의 독립적인 출처에 의해 확인되고 있다. 다만 정확한 사상자 수에 대해서는 양국 정부의 발표에 차이가 있으며, 독립적인 조사에 의한 완전한 검증은 이루어지지 않았다. 민간인에 대한 영향, 특히 지뢰오염의 장기적 피해에 대해서는 국제인도법상의 책임 추궁이 불충분하다.",
+      "sources": [
+        {
+          "title": "Human Rights Watch Report: Thailand/Cambodia Border Conflict",
+          "url": "https://www.hrw.org/news/2011/04/28/thailand-stop-use-cluster-munitions",
+          "publisher": "휴먼 라이츠 워치",
+          "type": "ngo"
+        },
+        {
+          "title": "ICRC Statement on Armed Clashes at Preah Vihear",
+          "url": "https://www.icrc.org/en/doc/resources/documents/news-release/2011/thailand-cambodia-news-2011-02-07.htm",
+          "publisher": "국제적십자위원회(ICRC)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

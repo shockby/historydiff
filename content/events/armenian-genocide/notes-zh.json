@@ -1,0 +1,95 @@
+{
+  "eventId": "armenian-genocide",
+  "notes": [
+    {
+      "id": "ag-1915-0424",
+      "claim": "1915 年 4 月 24 日，伊斯坦布尔发生了对亚美尼亚知识分子和领导人的大规模逮捕。",
+      "context": "目前，亚美尼亚和世界各地的亚美尼亚社区都将这一天作为纪念日。数百人被逮捕并驱逐出境，这被视为种族灭绝开始的象征。土耳其政府对逮捕的事实本身并没有提出异议，但对其目的和立场提出了不同的解释。",
+      "verdict": "事实已确认（定位有争议）",
+      "sources": [
+        {
+          "title": "亚美尼亚种族灭绝",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "大英百科全书",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-tehcir-law",
+      "claim": "强制搬迁亚美尼亚居民是从 1915 年 5 月的驱逐法（特维吉尔法）开始的。",
+      "context": "土耳其政府将该法描述为战时安全措施，但亚美尼亚方面和许多历史学家表示，这是一项以驱逐出境为幌子的系统性灭绝政策。据记录，运输路线上缺乏食物和水，车队和民兵也发生杀戮。",
+      "verdict": "法律的存在是事实（目的和性质有争议）",
+      "sources": [
+        {
+          "title": "亚美尼亚种族灭绝",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/armenian-genocide",
+          "publisher": "美国大屠杀纪念馆",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ag-death-toll",
+      "claim": "对受害者人数的估计从 60 万到超过 150 万不等，亚美尼亚声称约有 150 万，土耳其声称的人数要少得多。",
+      "context": "由于奥斯曼帝国人口统计不充分以及战时混乱，确切数字无法确定。许多国际历史学家估计这一数字约为 100 万或更多。土耳其方面倾向于谈论整个战争造成的损害，包括同一时期穆斯林人口的牺牲。",
+      "verdict": "估计范围广泛。",
+      "sources": [
+        {
+          "title": "亚美尼亚种族灭绝",
+          "url": "https://www.britannica.com/event/Armenian-Genocide",
+          "publisher": "大英百科全书",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ag-recognition",
+      "claim": "大约30个国家正式承认这是种族灭绝，包括美国（2021年）、德国（2016年）和法国（2001年）。",
+      "context": "承认的形式因国家而异，可以包括议会决议、总统声明和法律。土耳其政府一贯拒绝这些提议，并每次都做出外交回应。日本政府尚未承认。",
+      "verdict": "可用的官方记录（国家数量每年有所不同）",
+      "sources": [
+        {
+          "title": "亚美尼亚种族灭绝",
+          "url": "https://www.armenian-genocide.org/recognition.html",
+          "publisher": "亚美尼亚国家研究所",
+          "type": "ngo"
+        },
+        {
+          "title": "乔·拜登总统在亚美尼亚阵亡将士纪念日发表的声明",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/24/statement-by-president-joe-biden-on-armenian-remembrance-day/",
+          "publisher": "白宫",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-turkey-position",
+      "claim": "土耳其政府承认有人死亡，但否认“种族灭绝”，并提议成立联合历史委员会。",
+      "context": "二、针对埃尔多安总理2005年提出的建议，亚美尼亚方面反对重新考虑政治委员会的事实调查结果，认为这已经是历史共识。 2014年，土耳其总理向遇难者表示哀悼。",
+      "verdict": "事实为官方观点（评价相互矛盾）",
+      "sources": [
+        {
+          "title": "1915 年事件（土耳其外交部）",
+          "url": "https://www.mfa.gov.tr/the-armenian-allegation-of-genocide-the-issue-and-the-facts.en.mfa",
+          "publisher": "土耳其共和国外交部",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ag-zurich-protocols",
+      "claim": "2009年《苏黎世议定书》建立了外交关系并开放边界，但尚未获得批准，边界仍然关闭。",
+      "context": "二、土耳其方面以纳戈尔诺-卡拉巴赫问题的发展为由，亚美尼亚方面则以与历史问题有关的先决条件作为批准的障碍。 2022年后特使间恢复会谈，2023年地震后实现了有限的人道主义援助。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "亚美尼亚与土耳其关系正常化",
+          "url": "https://www.mfa.gov.tr/relations-between-turkiye-and-armenia.en.mfa",
+          "publisher": "土耳其共和国外交部",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "eventId": "western-sahara",
+  "notes": [
+    {
+      "id": "ws-green-march-1975",
+      "claim": "1975年のモロッコの「緑の行進」はスペイン撤退後の西サハラ取得の根拠とされているが、国際的には合法性に争いがある",
+      "context": "1975年10〜11月、モロッコのハサン2世国王の呼びかけで約35万人のモロッコ市民が西サハラ北部に進入した（緑の行進）。同年11月14日のマドリード協定によりスペインはモロッコとモーリタニアに施政権を移譲した。しかし国連総会は同年11月に決議3458号を採択し、サハラウィー人の自決権を再確認した。マドリード協定はスペインが脱植民地化の手続きを経ずに一方的に権限を移譲したとして、その法的有効性を疑問視する法学者も多い。",
+      "verdict": "緑の行進と協定は歴史的事実（合法性に争いあり）",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 3458 (XXX) on Western Sahara (1975)",
+          "url": "https://undocs.org/A/RES/3458(XXX)",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-icj-advisory-1975",
+      "claim": "1975年のICJ勧告的意見は、西サハラはモロッコ固有の領土ではないと判断した",
+      "context": "1975年10月16日、ICJは国連総会の要請で西サハラに関する勧告的意見を発出した。ICJは①西サハラはスペイン植民地化当時に「無主地（terra nullius）」ではなかった、②しかしモロッコとの間に「主権的領土権」を意味する法的絆は存在しなかった、と判断した。モロッコは「忠誠の絆（ties of allegiance）」の確認を歴史的根拠として援用するが、国連・ポリサリオはこの判断が「主権なき絆」を認めたにすぎず、自決権による住民投票の必要性を示すものと解釈する。",
+      "verdict": "勧告的意見は公式記録（解釈に根本的相違あり）",
+      "sources": [
+        {
+          "title": "ICJ Advisory Opinion on Western Sahara (1975)",
+          "url": "https://www.icj-cij.org/case/61",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-minurso-1991",
+      "claim": "1991年に設立された国連MINURSO（住民投票監視団）は30年以上にわたって住民投票を実施できていない",
+      "context": "安全保障理事会決議690号（1991年）によって設立されたMINURSOは、停戦監視と住民投票組織化を任務とする。停戦は1991年以降維持されているが、住民投票実施に向けた「有権者資格（投票者名簿）」を巡る交渉は決裂した。2020年11月、ポリサリオが停戦合意を離脱して武力衝突が再発したが、全面的な戦争再開には至っていない。MINURSOは国連PKO（平和維持活動）のなかで最も長期にわたり設立目的（住民投票）を達成できていないミッションの一つとされる。",
+      "verdict": "事実（停戦は維持・住民投票は未実施）",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 690 (1991) — Establishment of MINURSO",
+          "url": "https://undocs.org/S/RES/690(1991)",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ws-us-recognition-2020",
+      "claim": "2020年12月、米国はトランプ政権下でモロッコの西サハラ主権を認定した",
+      "context": "2020年12月10日、トランプ大統領は大統領令でモロッコの西サハラに対する主権を米国として初めて正式承認した。これはモロッコがイスラエルとの外交関係を正常化する（アブラハム合意への参加）と同時に実施された外交取引の一環である。この認定は国連の公式立場（西サハラは非自治地域）と明白に矛盾し、欧州連合（EU）・アフリカ連合（AU）・ポリサリオはこれを国際法違反として批判した。バイデン政権は2021年以降この決定を正式に撤回せず、事実上追認した形となっている。",
+      "verdict": "認定は事実（国連の立場とは矛盾・国際的批判あり）",
+      "sources": [
+        {
+          "title": "Presidential Proclamation on Recognizing Moroccan Sovereignty over Western Sahara (2020)",
+          "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-sovereignty-kingdom-morocco-western-sahara/",
+          "publisher": "White House (Trump Administration)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
@@ -11,19 +12,22 @@
       "country": {
         "ja": "イラク市民（戦争被害者）",
         "en": "Iraqi citizens (war affected)",
-        "zh": "伊拉克民众（战争受害者）"
+        "zh": "伊拉克民众（战争受害者）",
+        "ko": "이라크 시민(전쟁 피해자)"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "大量破壊兵器は見つからず、国は破壊され、ISISが台頭した。独裁者は去ったが、その代償として支払わされたのは何十万人もの一般市民の命と未来だった。",
         "en": "No WMDs were ever found, yet our country was destroyed and ISIS was born. The dictator was removed, but the price paid was hundreds of thousands of innocent lives and our children's future.",
-        "zh": "根本没有发现大规模杀伤性武器，但我们的国家被摧毁了，还催生了ISIS。独裁者虽然下台，但付出的是数十万无辜生命和未来的沉重代价。"
+        "zh": "根本没有发现大规模杀伤性武器，但我们的国家被摧毁了，还催生了ISIS。独裁者虽然下台，但付出的是数十万无辜生命和未来的沉重代价。",
+        "ko": "대량 파괴 무기는 발견되지 않았고, 국가는 파괴되어 ISIS가 대두했다. 독재자는 떠났지만, 그 대가로 지불된 것은 수십만 명의 일반 시민의 생명과 미래였다."
       },
       "prevalence": "high",
       "context": {
         "ja": "2003年以降の混乱、宗派間暴力、治安崩壊を直接経験したイラク国内の市民感情。",
         "en": "Deeply felt sentiment among Iraqis who endured post-2003 sectarian conflict, infrastructure collapse, and violence.",
-        "zh": "经历2003年后宗派冲突、基础设施崩溃和暴力动荡的伊拉克民众的深切感受。"
+        "zh": "经历2003年后宗派冲突、基础设施崩溃和暴力动荡的伊拉克民众的深切感受。",
+        "ko": "2003년 이후의 혼란, 종파간 폭력, 치안 붕괴를 직접 경험한 이라크 국내 시민 감정."
       },
       "keywords": [
         "#IraqWar",
@@ -38,19 +42,22 @@
       "country": {
         "ja": "クウェート市民（解放派）",
         "en": "Kuwaiti citizens (liberation grateful)",
-        "zh": "科威特民众（解放感恩派）"
+        "zh": "科威特民众（解放感恩派）",
+        "ko": "쿠웨이트 시민(해방파)"
       },
       "sentiment": "supportive",
       "summary": {
         "ja": "1990年のイラク軍の突然の侵略と占領は恐怖そのものだった。多国籍軍による迅速な介入がなければ、クウェートという国家は地図から消えていた。",
         "en": "The sudden Iraqi invasion in August 1990 was terrifying. Without the resolute intervention of the international coalition, Kuwait would have been wiped off the map.",
-        "zh": "1990年8月伊拉克的突然入侵极其恐怖。如果没有多国联军的果断干预，科威特这个国家可能已经从地图上消失了。"
+        "zh": "1990年8月伊拉克的突然入侵极其恐怖。如果没有多国联军的果断干预，科威特这个国家可能已经从地图上消失了。",
+        "ko": "1990년 이라크군의 갑작스런 침략과 점령은 공포 그 자체였다. 다국적군에 의한 신속한 개입이 없으면 쿠웨이트라는 국가는 지도에서 사라졌다."
       },
       "prevalence": "high",
       "context": {
         "ja": "1991年湾岸戦争における主権回復と国際協調への強い支持と感謝。",
         "en": "Widespread public sentiment in Kuwait commemorating liberation and the enforcement of international law in 1991.",
-        "zh": "科威特公众对1991年恢复主权和多国联军执行国际法所普遍抱有的感激态度。"
+        "zh": "科威特公众对1991年恢复主权和多国联军执行国际法所普遍抱有的感激态度。",
+        "ko": "1991년 걸프 전쟁에서 주권 회복과 국제 협력에 대한 강한 지지와 감사."
       },
       "keywords": [
         "#KuwaitLiberation",
@@ -65,19 +72,22 @@
       "country": {
         "ja": "米国・欧米世論（反省と検証派）",
         "en": "Western public (critical re-evaluation)",
-        "zh": "西方公众（反思与批判派）"
+        "zh": "西方公众（反思与批判派）",
+        "ko": "미국·구미 여론(반성과 검증파)"
       },
       "sentiment": "neutral",
       "summary": {
         "ja": "1991年の湾岸戦争は国際法秩序を守る明確な正当性があった。しかし2003年のイラク侵攻は不確かな情報に基づく致命的な誤算であり、中東全域に計り知れない混乱をもたらした。",
         "en": "The 1991 Gulf War had clear multilateral legitimacy, but the 2003 invasion was a disastrous miscalculation based on faulty intelligence that destabilized the entire region.",
-        "zh": "1991年海湾战争拥有明确的多边合法性，但2003年入侵伊拉克则是基于错误情报的灾难性误判，导致整个中东陷入长久动荡。"
+        "zh": "1991年海湾战争拥有明确的多边合法性，但2003年入侵伊拉克则是基于错误情报的灾难性误判，导致整个中东陷入长久动荡。",
+        "ko": "1991년 걸프전쟁은 국제법질서를 지키는 명확한 정당성이 있었다. 그러나 2003년의 이라크 침공은 불확실한 정보에 근거한 치명적인 오산이며, 중동 전역에 헤아릴 수 없는 혼란을 가져왔다."
       },
       "prevalence": "high",
       "context": {
         "ja": "チルコット報告書（英国）や米国議会調査を経た、欧米社会におけるイラク戦争に対する支配的な歴史的総括。",
         "en": "Mainstream historical consensus in Western democracies following the Chilcot Report, Senate investigations, and years of debate.",
-        "zh": "在英国齐尔考特调查报告及美国参议院调查之后，西方社会对伊拉克战争的主流反思。"
+        "zh": "在英国齐尔考特调查报告及美国参议院调查之后，西方社会对伊拉克战争的主流反思。",
+        "ko": "칠코트 보고서(영국)와 미국 의회 조사를 거친 서양 사회에서 이라크 전쟁에 대한 지배적인 역사적 총괄."
       },
       "keywords": [
         "#IraqLessons",

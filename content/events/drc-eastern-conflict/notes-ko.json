@@ -1,0 +1,105 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "notes": [
+    {
+      "id": "drc-1994-genocide-aftermath",
+      "claim": "1994년 르완다 학살 후 난민 유입이 콩고 동부에서 장기 분쟁의 직접적인 방아쇠가 되었다",
+      "context": "1994년 7월 르완다 학살 종식 후 구 르완다 군(FAR)과 과격파 민병(인테라함웨)을 포함한 100만명 이상의 후츠계 난민이 구 자일 동부(현 콩고 민주 공화국 북키브주·남키브주)에 넘어서 유입했다. 이를 추격·소토하는 르완다 신정권군(RPF)의 월경 침공이 모부츠 정권 붕괴를 초래하는 제1차 콩고 전쟁(1996-1997년)을 일으켜, 또한 주변 8개국이 개입한 제2차 콩고 전쟁(1998-2003년, “아프리카의 대전”)으로 연쇄",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "UNHCR - The Rwandan Genocide and its Aftermath in Zaire/DRC",
+          "url": "https://www.unhcr.org/publications/operations/3ebf9bb60/state-worlds-refugees-2000-fifty-years-humanitarian-action-chapter-10-ruanda.html",
+          "publisher": "유엔난민고등변무관사무소(UNHCR)",
+          "type": "international"
+        },
+        {
+          "title": "Report of the Mapping Exercise documenting human rights violations in the DRC 1993-2003",
+          "url": "https://www.ohchr.org/en/countries/africa-region/democratic-republic-congo/mapping-exercise-1993-2003",
+          "publisher": "유엔인권고등변무관사무소(OHCHR)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-m23-rwanda-support",
+      "claim": "유엔 전문가 패널은 르완다 국방군이 M23 반란군에 대해 직접적인 군사지원과 공동작전을 하고 있다고 보고하고 있다",
+      "context": "유엔안전보장이사회의 콩고민주공화국 제재위원회 전문가 그룹 보고서(S/2023/431, S/2024/432 등)는 르완다 국방군(RD F)가 북키브주 내에서 M23 반란군에 대하여 무기·탄약의 공급, 방위 장비의 제공, 병사의 공동 전개나 군사 지휘의 지원을 실시하고 있는 확고한 증거를 제시하고 있다. 르완다 정부는 이들을 일관되게 공식 부정하는 한편, 콩고 국군과 연계하는 르완다 해방민주세력(FDLR)의 존재가 자국의 생존에 대한 위협이라고 반론하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Final report of the Group of Experts on the Democratic Republic of the Congo (S/2024/432)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1533/panel_experts/reports",
+          "publisher": "국제연합안전보장이사회(UN Security Council)",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch - DRC: Rwandan Military Aiding M23 Rebels",
+          "url": "https://www.hrw.org/news/2023/02/06/dr-congo-m23-rebels-backed-rwanda",
+          "publisher": "휴먼 라이츠 워치",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "drc-conflict-minerals-coltan",
+      "claim": "콩고 동부의 콜탄과 금 등 광물자원의 불법 채굴과 밀수가 무장세력의 주요 자금원이 되고 있다",
+      "context": "콩고 동부는 스마트폰이나 전자기기에 필수적인 탄탈(코르탄에서 정련)의 세계 공급의 대부분을 산출하고, 금, 주석, 텅스텐, 코발트 등의 세계적 산지이기도 하다. 무장세력(M23, FDLR, 현지 마이마이 민병 등)과 부패한 군 고관은 광산을 점거·지배해 불법과세와 인근국(르완다, 우간다 등) 경유의 밀수를 통해 막대한 이익을 얻어 군비를 강화하고 있다. 국제사회는 OECD 실사 가이드라인과 미국 도드 프랭크법 1502조에서 규제를 시도하고 있지만 근절에는 이르지 않았다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+          "url": "https://www.oecd.org/daf/inv/mne/mining.htm",
+          "publisher": "경제협력개발기구(OECD)",
+          "type": "international"
+        },
+        {
+          "title": "United States SEC - Dodd-Frank Section 1502 Conflict Minerals Rule",
+          "url": "https://www.sec.gov/spotlight/dodd-frank/corporatereporting.shtml",
+          "publisher": "미국 증권거래위원회(SEC)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "drc-monusco-peacekeeping",
+      "claim": "유엔 콩고 안정화 미션(MONUSCO)은 유엔 최대 규모의 PKO 부대로 전개했지만, 치안 회복의 지연으로부터 철수 계획이 진행되고 있다",
+      "context": "1999년 안보리 결의 1291에서 설립된 MONUC(2010년 MONUSCO로 개조)는 피크시에 2만명 가까운 요원을 보유하고 2013년에는 유엔 사상 최초의 공세임무를 가진 '강제개입여단(FIB)'을 편성했다. 그러나 오랜 세월에 걸쳐 무장세력의 학살을 저지하지 못한 것에 대한 현지 주민의 항의 시위와 폭동이 격화하고 DRC 정부의 강한 요청을 받아 2023년 12월 안보리 결의 2717에 따라 단계적 철수가 승인되어 2024년부터 철수 프로세스가 진행되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2717 (2023) on MONUSCO mandate drawdown",
+          "url": "https://undocs.org/S/RES/2717(2023)",
+          "publisher": "국제연합안전보장이사회",
+          "type": "international"
+        },
+        {
+          "title": "MONUSCO - Mission Profile and Phased Drawdown",
+          "url": "https://monusco.unmissions.org/en",
+          "publisher": "국제연합평화유지활동(UN PKO)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-humanitarian-crisis-displacement",
+      "claim": "콩고민주공화국에서는 동부분쟁으로 700만명 이상의 국내 피난민이 발생해 세계 유수의 심각한 인도 위기에 직면하고 있다",
+      "context": "국제이주기관(IOM) 및 유엔인도문제조정사무소(OCHA)의 통계에 따르면 콩고민주공화국의 국내피난민(IDP) 수는 700만명을 넘어 그 대부분이 북키브주·남키브주·이트리주에 집중하고 있다. 급성영양실조, 콜레라의 대유행, 의료기관이나 학교의 기능정지에 더해, 교전세력에 의한 광범위하고 조직적인 성폭력(전쟁의 무기로서의 강간)이 중대한 인권침해로서 유엔 등으로부터 고발되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "IOM DRC Crisis Response Plan - Record 7 Million Displaced",
+          "url": "https://crisisresponse.iom.int/response/democratic-republic-congo-crisis-response-plan-2024",
+          "publisher": "국제이주기관(IOM)",
+          "type": "international"
+        },
+        {
+          "title": "UN OCHA - Democratic Republic of the Congo Humanitarian Needs Overview",
+          "url": "https://www.unocha.org/democratic-republic-congo",
+          "publisher": "국제연합 인도 문제조정사무소(OCHA)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

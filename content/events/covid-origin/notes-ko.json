@@ -1,0 +1,159 @@
+{
+  "eventId": "covid-origin",
+  "notes": [
+    {
+      "id": "co-ratg13-similarity",
+      "claim": "운남성 박쥐에서 발견된 RaTG13 바이러스가 SARS-CoV-2와 약 96% 일치하여 자연 유래의 증거로 여겨진다",
+      "context": "RaTG13은 2013년 운남성 광산 동굴에서 채취된 박쥐 유래 코로나바이러스로 무한바이러스 연구소의 석정려팀이 서열을 분석했다. 게놈 전체에서 약 96.2%의 일치율이지만, 이 4%의 차이는 진화적으로 40~70년분에 상당하며 RaTG13이 SARS-CoV-2의 직접적인 조상이 아니라는 것을 의미한다. 보다 가까운 바이러스 (BANAL-52 등)가 라오스 박쥐에서 발견되었지만 둘 다 퓨린 절단 부위를 갖지 않습니다.",
+      "verdict": "게놈 데이터는 사실(직접 조상이 아님)",
+      "sources": [
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "url": "https://doi.org/10.1038/s41586-020-2012-7",
+          "publisher": "Nature",
+          "type": "academic"
+        },
+        {
+          "title": "Bat coronaviruses related to SARS-CoV-2 and infectious for human cells",
+          "url": "https://doi.org/10.1038/s41586-022-04532-4",
+          "publisher": "Nature (BANAL viruses)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-huanan-market",
+      "claim": "우한화남해물시장이 초기 감염 확대의 중심지였다",
+      "context": "2022년에 Science지에 게재된 Woorbey et al.의 연구에서는 초기 환자의 지리적 분포가 화남 시장을 중심으로 하고 있는 것, 시장의 환경 샘플로부터 검출된 바이러스 RNA가 살아있는 야생동물의 판매 에리어에 집중하고 있던 것, 계통학적으로 독립한 2개의 계통(A계통·B계통)이. 다만, 최초기의 증례(2019년 12월 전반) 중에는 시장과의 접점이 확인되지 않은 경우도 있어, 논의는 계속되고 있다.",
+      "verdict": "통계적 분석 있음(논의 계속)",
+      "sources": [
+        {
+          "title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+          "url": "https://doi.org/10.1126/science.abp8715",
+          "publisher": "Science",
+          "type": "academic"
+        },
+        {
+          "title": "The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1126/science.abp8337",
+          "publisher": "Science",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-furin-cleavage-site",
+      "claim": "SARS-CoV-2의 풀린 절단 부위는 근연 바이러스에서 발견되지 않으며 인공 삽입을 시사할 수 있음",
+      "context": "SARS-CoV-2의 스파이크 단백질에는 퓨린 절단 부위(RRAR 서열)가 존재하여, 이것이 인간 세포에 대한 감염 효율을 높이고 있다고 생각되고 있다. 이 특징은 동일한 살베코 바이러스 아속의 근연종에서 발견되지 않는다. 연구소 유출설의 지지자는 이것을 인공적 삽입의 가능성을 시사하는 증거로 한다. 한편, 자연유래설의 지지자는, 다른 코로나바이러스종(HKU1이나 MERS 등)에는 풀린 절단 부위가 자연스럽게 존재하는 것, 또 자연적인 유전자 재조합(템플릿 스위칭)에 의해 획득 가능하다는 것을 지적하고 있다. 2026년 시점에서도 결정적인 결론에는 이르지 않았다.",
+      "verdict": "과학적 논의가 계속 중",
+      "sources": [
+        {
+          "title": "The proximal origin of SARS-CoV-2",
+          "url": "https://doi.org/10.1038/s41591-020-0820-9",
+          "publisher": "Nature Medicine",
+          "type": "academic"
+        },
+        {
+          "title": "A critical analysis of the evidence for the SARS-CoV-2 origin hypotheses",
+          "url": "https://doi.org/10.5281/zenodo.7785921",
+          "publisher": "Preprint/Review",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "co-wiv-researchers-ill",
+      "claim": "2019년 가을에 무한 바이러스 연구소의 연구자 3명이 COVID님의 증상으로 입원하고 있었다",
+      "context": "2021년 5월 월 스트리트 저널이 미국 정보기관의 보고에 근거하여 2019년 11월에 WIV 연구자 3명이 COVID-19와 일치하는 증상으로 입원했다고 보도했다. 미 국무부는 2021년 1월 성명에서도 이 정보를 언급했다. 중국 정부와 WIV는 이 보도를 부정하고, 석정려 박사는 “WIV 직원에게 SARS-CoV-2 감염자는 한 명도 없었다”고 공식적으로 부정했다. 미국 정보기관의 평가에서는 이 정보의 정확도는 기관에 따라 다르며 확정적이지 않다.",
+      "verdict": "진위미확인(당사자간에 상반되는 주장)",
+      "sources": [
+        {
+          "title": "Intelligence on Sick Staff at Wuhan Lab Fuels Debate on Covid-19 Origin",
+          "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+          "publisher": "Wall Street Journal",
+          "type": "media"
+        },
+        {
+          "title": "Fact Sheet: Activity at the Wuhan Institute of Virology",
+          "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-who-investigation",
+      "claim": "2021년 WHO 조사단은 자연유래설을 가장 가능성이 높다고 평가했다",
+      "context": "2021년 1~2월 WHO와 중국의 합동조사팀이 무한에서 조사를 실시하고 같은 해 3월에 보고서를 공표했다. 보고서는 4가지 가설을 평가하고 ①중간숙주를 통한 자연감염을 '가능성이 높다~ 매우 가능성이 높다', ②직접 주노시스를 '가능성이 있는 ~ 가능성이 높다', ③콜드체인 유래를 '가능성', ④연구소 사고를 '극히 가능성이 낮다'고 평가했다. 다만 조사단장 피터 벤엔발렉 씨는 추후 중국 측에서 연구소 누설설을 보고서에 포함하지 않도록 압력이 있었다고 증언. 테드로스 WHO 사무국장도 “모든 가설은 개방적이며 추가 조사가 필요하다”고 말하면서 보고서의 결론과 거리를 두었다.",
+      "verdict": "보고서는 공식 문서(조사의 독립성에 의문 있음)",
+      "sources": [
+        {
+          "title": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+          "publisher": "WHO",
+          "type": "international"
+        },
+        {
+          "title": "WHO chief says 'premature' to rule out COVID lab leak",
+          "url": "https://www.reuters.com/article/us-health-coronavirus-who-china-idUSKBN2AM0LR",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "co-us-intelligence-split",
+      "claim": "미국 정보기관은 기원에 대해 통일견해에 이르지 못하고 있다",
+      "context": "2023년 미국 정보 커뮤니티의 기밀 해제 보고에 의하면, FBI는 「중등의 확신」으로 연구소 누설설을 지지, 에너지성은 「낮은 확신」으로 같은 평가. 한편 국가정보회의와 4개의 정보기관은 '낮은 확신'으로 자연유래설을 지지. CIA와 다른 기관은 판단을 보류했다. 보고서는 “모든 설은 직접적인 증거로 확정되지 않았다”고 결론지었다. 이 의견의 분열은 이용 가능한 정보의 한계와 중국 정부의 투명성 부족으로 인한 것으로 여겨진다.",
+      "verdict": "공식 보고 있음(견해는 분열)",
+      "sources": [
+        {
+          "title": "Updated Assessment on COVID-19 Origins",
+          "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230626.pdf",
+          "publisher": "Office of the Director of National Intelligence",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "co-china-data-transparency",
+      "claim": "중국은 초기 데이터에 대한 액세스를 제한하고 독립 조사를 방해하고 있다는 비판이 있다.",
+      "context": "2019년 9월에 WIV 바이러스 데이터베이스가 오프라인이 된 것으로 지적되었다. WIV는 \"보안상의 이유\"라고 설명. 2020년 초 중국 정부는 초기 환자의 생물학적 샘플 공유를 제한했고, 화남 시장 환경 데이터 공개도 지연되었다. 2023년에는 GISAID 상에 일시적으로 업로드된 화남 시장의 유전자 서열 데이터(타누키 등의 동물 DNA를 포함)가 이후 중국 연구자에 의해 삭제되었다. WHO는 반복적으로 중국에 대해 데이터의 투명한 공유를 요구하고 있지만 중국 정부는 이미 충분한 정보를 제공했다고 반박하고 있다.",
+      "verdict": "데이터 액세스 제한은 확인됨(동기에 논의 있음)",
+      "sources": [
+        {
+          "title": "New Data Links Pandemic's Origins to Raccoon Dogs at Wuhan Market",
+          "url": "https://www.nytimes.com/2023/03/16/science/covid-wuhan-market-raccoon-dogs-lab-leak.html",
+          "publisher": "New York Times",
+          "type": "media"
+        },
+        {
+          "title": "WHO SAGO report on COVID-19 origins",
+          "url": "https://www.who.int/publications/m/item/scientific-advisory-group-on-the-origins-of-novel-pathogens-(sago)-report",
+          "publisher": "WHO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "co-gain-of-function",
+      "claim": "무한바이러스연구소는 NIH자금으로 기능 획득연구를 실시하고 있었다",
+      "context": "미국의 NIH(국립위생연구소)는 EcoHealth Alliance(에코헬스 얼라이언스)를 통해 WIV의 박쥐 코로나 바이러스 연구에 자금을 제공하고 있었다. 2021년 이후 이 자금제공이 바이러스 감염력을 높이는 '기능 획득연구'(Gain-of-function research)에 해당하는지 미국 의회에서 격렬하게 논의됐다. NIH는 당초 이를 부인했지만, 2021년 10월 EcoHealth Alliance가 보고 의무를 위반했으며, 키메라 바이러스를 이용한 실험에서 마우스의 병원성이 예상 이상으로 증가한 사실을 보고하지 않았다는 것을 인정했다. 그러나, 이들 실험에서 생성된 바이러스가 SARS-CoV-2의 직접적인 전구체라는 증거는 발견되지 않았다.",
+      "verdict": "자금제공과 연구는 사실(SARS-CoV-2와의 직접적 관련은 미확인)",
+      "sources": [
+        {
+          "title": "NIH Letter to Rep. Comer regarding EcoHealth Alliance",
+          "url": "https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Letter-to-Congress-on-EcoHealth-Alliance.pdf",
+          "publisher": "U.S. House Committee on Oversight",
+          "type": "government"
+        },
+        {
+          "title": "The Lancet COVID-19 Commission: Task Force on the Origins of SARS-CoV-2",
+          "url": "https://doi.org/10.1073/pnas.2202769119",
+          "publisher": "PNAS",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "eventId": "tiananmen-1989",
+  "notes": [
+    {
+      "id": "ta-casualty-count",
+      "claim": "희생자수는 수백명에서 수천명으로 되지만 정확한 수는 불명",
+      "context": "천안문 사건의 희생자 수에 대해서는 제설이 있으며 정확한 수는 현재도 밝혀지지 않았다. 중국 정부는 공식적으로 약 200~300명(군인 포함)이라고 발표했다. 중국 적십자는 당초 2,600명으로 발표했지만 나중에 철회했다. 2017년 기밀해제된 영국 외교 문서에서는 주중 영국 대사 알란 도널드가 본국에 “최소한의 추정으로 민간인의 사망자는 1만명”이라고 보고했다. 많은 연구자들은 수백명에서 천 수백명 정도로 하는 추계를 지지하고 있다.",
+      "verdict": "추정에 폭 있음(공식 수치와 국제적 추계에 큰 괴리)",
+      "sources": [
+        {
+          "title": "Tiananmen Square protest death toll 'was 10,000'",
+          "url": "https://www.bbc.com/news/world-asia-china-42465516",
+          "publisher": "BBC 뉴스",
+          "type": "media"
+        },
+        {
+          "title": "The Tiananmen Papers",
+          "url": "https://www.publicaffairsbooks.com/",
+          "publisher": "PublicAffairs",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-tank-man",
+      "claim": "'탱크맨'은 폭정에 맞서는 개인의 용기의 상징이 되었다",
+      "context": "1989년 6월 5일 천안문 광장에서 장안가를 나아가는 전차 차열 앞에 한 남자가 서서 그 영상은 전세계에 전달되었다. 이 인물은 '탱크맨'(Tank Man) 혹은 '무명의 반역자'(Unknown Rebel)라고 불리며 타임지의 '20세기에서 가장 영향력 있는 인물 100명'으로도 선정됐다. 그의 정체와 소식은 현재도 불명하고, 중국 국내에서는 이 영상은 엄격히 검열되고 있다.",
+      "verdict": "영상 기록 있음(인물의 신원은 미확인)",
+      "sources": [
+        {
+          "title": "TIME 100: The Most Important People of the Century",
+          "url": "https://content.time.com/time/magazine/article/0,9171,988169,00.html",
+          "publisher": "TIME Magazine",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ta-censorship",
+      "claim": "중국 정부는 천안문 사건에 관한 정보를 철저히 검열하고 있다",
+      "context": "중국 국내에서는 천안문 사건에 관한 인터넷 검색은 엄격히 제한되어 있으며, '육사', '천안문', '탱크맨' 등의 관련 어구는 중국의 SNS와 검색엔진에서 검열 대상이 되고 있다. 매년 6월 4일 전후에는 검열이 특히 강화된다. 중국의 교과서에서는 사건에 대해 거의 기술이 없거나 '동란의 수렴'으로 간결하게 접할 뿐이다. 젊은 세대의 대부분은 사건의 세부 사항을 모른다고 여겨진다.",
+      "verdict": "여러 증거 있음",
+      "sources": [
+        {
+          "title": "The People's Republic of Amnesia: Tiananmen Revisited (일본어)",
+          "url": "https://www.oupjapan.co.jp/",
+          "publisher": "Oxford University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Great Firewall and Tiananmen Censorship",
+          "url": "https://citizenlab.ca/",
+          "publisher": "Citizen Lab, University of Toronto",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-zhao-ziyang",
+      "claim": "조수양 총서기는 학생들에게 동정적인 자세를 취했기 때문에 실각했다.",
+      "context": "당시 중국 공산당 총서기 조수양은 학생운동에 대해 대화 노선을 주장해 5월 19일 천안문 광장을 방문해 “우리는 오는 게 너무 늦었다”고 눈물면서 학생들에게 말을 걸었다. 이 행동은 강경파(鄧小平·李鵬ら)의 방침에 반하는 것으로 되어 조수양은 모든 직무를 해임받았다. 이후 2005년 사망할 때까지 약 15년간 집 연금하에 두었다. 조수양의 회고록은 사후에 해외에서 출판되었다.",
+      "verdict": "공식 기록 · 복수 증언 있음",
+      "sources": [
+        {
+          "title": "Prisoner of the State: The Secret Journal of Premier Zhao Ziyang",
+          "url": "https://www.simonandschuster.com/",
+          "publisher": "Simon & Schuster",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ta-international-sanctions",
+      "claim": "서쪽 국가들이 중국에 대하여 무기금수나 경제제재를 부과했다",
+      "context": "천안문 사건을 받아 미국은 1989년 6월 중국에 대한 무기 매각을 중지하고 고레벨 군사·정부간 교류를 동결했다. EU(당시 EC)도 대중무기금수조치를 결정했으며, 이 조치는 2020년대 현재도 계속되고 있다. 일본은 엔차관의 일시 동결 등의 조치를 취했지만, 서방 국가 중에서는 비교적 조기에 대중관계의 정상화를 도모하고, 1991년에는 해부 총리가 서쪽 정상으로서 처음으로 천안문 사건 후 중국을 방문했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "U.S. Arms Embargo on China",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congressional Research Service",
+          "type": "government"
+        },
+        {
+          "title": "EU Arms Embargo on China",
+          "url": "https://www.sipri.org/",
+          "publisher": "SIPRI (Stockholm International Peace Research Institute)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

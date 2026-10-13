@@ -1,0 +1,47 @@
+{
+  "eventId": "senkaku",
+  "notes": [
+    {
+      "id": "sk-1895-incorporation",
+      "claim": "1895년 1월 14일의 각의 결정에서 센카쿠 제도를 일본에 편입",
+      "context": "일본 정부는 1885년부터 현지 조사를 실시하여 어느 나라의 지배도 미치지 못하고 있음을 확인한 후, 1895년 1월 14일의 각의 결정에 의해 센카쿠 제도를 오키나와현에 편입했다. 중국 측은 이 편입이 닛신 전쟁 중이었고 시모노세키 조약에 의한 대만 할양의 일환이라고 주장하고 있다. 일본측은 센카쿠 편입은 시모노세키 조약과는 무관하다고 한다.",
+      "verdict": "공식 기록 있음(해석에 차이)",
+      "sources": [
+        {
+          "title": "센카쿠 제도에 관한 외무성의 입장",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sk-unclos-continental-shelf",
+      "claim": "1969년 유엔 보고서에서 동중국해에 석유자원의 가능성이 지적된 후 중국·대만이 영유권을 주장하기 시작했다",
+      "context": "1969년 유엔아시아극동경제위원회(ECAFE)의 해저조사보고서가 동중국해 대륙붕에 이라크 쿠웨이트에 필적하는 석유·천연가스 자원이 존재할 가능성을 지적. 중국이 1971년, 대만이 1970년 각각 처음으로 공식적으로 영유권을 주장했다. 일본은 이 시계열을 근거로 자원목적의 주장이라고 지적하고 있다.",
+      "verdict": "시계열은 확인됨",
+      "sources": [
+        {
+          "title": "ECAFE Report: Geological Structure and Some Water Characteristics of the East China Sea and the Yellow Sea",
+          "url": "https://www.mofa.go.jp/region/asia-paci/senkaku/index.html",
+          "publisher": "United Nations ECAFE (via MOFA)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sk-us-position",
+      "claim": "미국은 센카쿠 제도에 대해 “시정권은 일본에 있다”며 주권에 대해서는 입장을 취하지 않는다",
+      "context": "미국은 센카쿠 제도가 미일안전보장조약 제5조의 적용범위에 포함된다고 하고 있지만, 「최종적인 주권의 문제에 대해서는 특정의 입장을 취하지 않는다」고 하고 있다. 오바마 대통령(2014년)과 바이덴 대통령(2021년)이 안보조약의 적용을 명언했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "U.S.-Japan Joint Statement (2014)",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/04/24/us-japan-joint-statement",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

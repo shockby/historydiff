@@ -1,0 +1,105 @@
+{
+  "eventId": "sahel-conflict",
+  "notes": [
+    {
+      "id": "sahel-2012-tuareg-jihadist-origins",
+      "claim": "2011년 리비아 내전 붕괴에 따른 무기 유입이 마리 북부에서의 투아렉 독립봉기와 지하디스트 대두의 방아쇠가 되었다",
+      "context": "2011년 리비아 카다피 정권 붕괴 후 용병으로 섬기던 중무장 투아렉계 전투원과 방대한 무기가 마리 북부로 유입되었다. 2012년 초, '아자와드 해방 민족 운동(MNLA)'이 독립 선언을 했지만, 직후에 '안사르 딘'과 '이슬람 마그레브 국가의 아르카 이다(AQIM) 등의 이슬람 과격파 세력에 주도권을 빼앗겨 마리 북부 주요 도시(통북투, 가오, 키달)가 엄격한 샤리아 지배하에 놓여졌다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "UN Security Council - Report of the Secretary-General on the situation in Mali (S/2012/843)",
+          "url": "https://undocs.org/S/2012/843",
+          "publisher": "국제연합안전보장이사회",
+          "type": "international"
+        },
+        {
+          "title": "International Crisis Group - Mali: Avoiding Escalation",
+          "url": "https://www.crisisgroup.org/africa/west-africa/mali/mali-avoiding-escalation",
+          "publisher": "국제위기그룹(ICG)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-french-serval-barkhane",
+      "claim": "프랑스군은 세르발 작전 및 발칸 작전을 전개했지만, 테러의 확산을 저지하지 못하고 강한 반불 여론을 초래했다",
+      "context": "2013년 1월, 수도 바마코에의 과격파 남하를 저지하기 위해, 프랑스군은 「세르발 작전」을 개시해 북부 여러 도시를 단기간에 탈환. 이듬해 2014년에는 사헬 5개국(G5 사헬)에 걸친 ‘발칸 작전(Opération Barkhane)’으로 확대·개편했다. 그러나, 군사력 중심의 소토 작전은 근본적인 통치 부전이나 빈곤을 해결할 수 없고, 폭력은 부르키나파소나 니제르로 확산. 주류의 장기화에 따라 ‘구종주국에 의한 신식민지주의적 개입’과의 반발이 현지 여론으로 폭발했다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "French Ministry of Armed Forces - Operations Serval and Barkhane in the Sahel",
+          "url": "https://www.defense.gouv.fr/operations/afrique/sahel/dossier-de-presentation-de-l-operation-barkhane",
+          "publisher": "프랑스 국방부(Ministère des Armées)",
+          "type": "government"
+        },
+        {
+          "title": "CSIS - The End of Operation Barkhane and the Future of Counterterrorism in the Sahel",
+          "url": "https://www.csis.org/analysis/end-operation-barkhane",
+          "publisher": "전략국제문제연구소(CSIS)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-military-coups-aes",
+      "claim": "치안악화를 배경으로 말리, 부르키나파소, 니제르에서 쿠데타가 잇따라 '사헬 국가연합(AES)'이 결성됐다.",
+      "context": "치안 회복에 대한 무력함에 화를 내는 군부에 의해, 마리(2020년·2021년: 고이타 대령), 부르키나파소(2022년: 트라오레 대위), 니제르(2023년: 치아니 장군)에서 군사 쿠데타가 연쇄했다. 각 군사정권은 프랑스군의 주류협정을 파기하고 유엔 MINUSMA를 퇴거시켜 2023년 9월에 상호방위협정 ‘사헬제국연합(AES)’을 창설. 게다가 2024년 초에는 민정 복귀 제재를 부과한 서아프리카 제국 경제 공동체(ECOWAS)로부터의 탈퇴를 통고했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Charte du Liptako-Gourma instituant l'Alliance des États du Sahel (AES)",
+          "url": "https://www.actuniger.com/politique/19597-charte-du-liptako-gourma-instituant-l-alliance-des-etats-du-sahel-aes.html",
+          "publisher": "사헬 국가 연합(AES) 공식 헌장",
+          "type": "government"
+        },
+        {
+          "title": "ECOWAS Communique on the Notice of Withdrawal by Burkina Faso, Mali and Niger",
+          "url": "https://ecowas.int/",
+          "publisher": "서아프리카 국가 경제 공동체(ECOWAS)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sahel-russian-shift-wagner",
+      "claim": "AES 국가들은 구미와의 안보협정을 파기하고 러시아(와그넬/아프리카 군단)와의 군사 협력을 전면적으로 추진했다",
+      "context": "프랑스군과 미군 특수부대를 추방한 마리, 부르키나파소, 니제르의 군정은 모스크바와의 안전보장 협력을 급속히 긴밀화시켰다. 러시아 정부 직속의 민간 군사회사 「와그넬 그룹」(프리고진 사후는 러시아 국방성 산하의 「아프리카 군단」으로 재편)의 전투원 수천명이 전선에 투입되어, 정권 경호나 반란 소토를 전개. 한편, 2022년 3월 마리 무라 학살(수백명의 민간인 살해) 등 유엔이나 인권 단체로부터 심각한 인권 침해가 고발되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "OHCHR Fact-Finding Mission Report on the events in Moura, Mali (May 2023)",
+          "url": "https://www.ohchr.org/en/documents/country-reports/mali-moura-investigation-report",
+          "publisher": "유엔인권고등변무관사무소(OHCHR)",
+          "type": "international"
+        },
+        {
+          "title": "US Congressional Research Service - Russia's Growing Footprint in the Sahel",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "미 의회 조사국(CRS)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sahel-jihadist-factions-humanitarian-toll",
+      "claim": "알카이다계(JNIM)와 IS계(ISGS)의 항쟁과 테러에 의해 사헬 지역에서는 300만명 이상의 피난민이 발생하고 있다",
+      "context": "사헬 지역에서는 알카이다 산하의 '이슬람과 무슬림 지원단(JNIM)'과 '대사하라 이슬람국가(ISGS)'가 마을 낙습격과 도로봉쇄, 즉석폭발장치(IED) 공격을 격화시키고 있다. 유엔 OCHA와 UNHCR에 따르면 사헬 중앙부(부르키나파소, 말리, 서니제르)만으로 국내 피난민은 300만명을 넘어 수천 학교가 과격파의 협박으로 인해 폐쇄, 수백만명이 심각한 기아 위기(IPC 3단계 이상)에 직면하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UNHCR - Central Sahel Displacement Crisis Data",
+          "url": "https://data.unhcr.org/en/situations/sahelcrisis",
+          "publisher": "유엔난민고등변무관사무소(UNHCR)",
+          "type": "international"
+        },
+        {
+          "title": "ACLED - Sahel Violence Index and Fatality Trends",
+          "url": "https://acleddata.com/category/sahel/",
+          "publisher": "무력 분쟁 위치·사건 데이터 프로젝트(ACLED)",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

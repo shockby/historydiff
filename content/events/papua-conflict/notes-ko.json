@@ -1,0 +1,105 @@
+{
+  "eventId": "papua-conflict",
+  "notes": [
+    {
+      "id": "pc-pepera-validity",
+      "claim": "1969년의 「자유선택법(페페라)」은 유엔의 감독하에 합법적으로 실시된 주민투표이다",
+      "context": "페펠라는 1962년 뉴욕협정의 규정에 의거 실시되었지만, 그 형식은 보통선거가 아니고 인도네시아 당국이 선정한 1,025명의 대표자에 의한 「협의평의회(musyawarah)」방식이었다. 당시 서쪽 파푸아의 추정 인구는 약 80만명. 유엔 사무총장 대표인 페르난도 오르티스 살즈는 최종 보고서에서 '자유의사의 행사'라는 관점에서 프로세스에 대한 우려를 시사했지만 유엔으로서 결과를 부정하지는 않았다. 유엔 총회 결의 2504(1969년 11월 19일)는 결과를 '유의(took note)'한다는 표현을 채용했다. 많은 국제 법학자들은 'took note'를 적극적인 정당성의 승인으로 해석하지 않았으며 John Saltford et al. 인도네시아는 페펠라를 법적으로 유효한 행위로 자리매김했으며, 국제사회의 대다수도 이 입장을 받아들여왔다.",
+      "verdict": "페펠라가 보통선거의 형식을 취하지 않은 것은 역사적 사실이며, 그 정당성은 국제법학적으로 논쟁이 계속되고 있다. 유엔은 결과를 명시적으로 승인한 것은 아니지만 사실상 그것을 뒤집는 조치도 취하지 않았다.",
+      "sources": [
+        {
+          "title": "The United Nations and the Indonesian Takeover of West Papua, 1962-1969",
+          "url": "https://www.cambridge.org/core/books/united-nations-and-the-indonesian-takeover-of-west-papua-19621969/",
+          "publisher": "John Saltford의, RoutedgeCurzon",
+          "type": "academic"
+        },
+        {
+          "title": "유엔 총회 결의 2504(XXIV)",
+          "url": "https://digitallibrary.un.org/record/191004",
+          "publisher": "국제연합",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "pc-transmigration",
+      "claim": "트랜스미글라시(이주 정책)에 의해 파푸아 원주민족은 자신의 토지에서 소수파가 되고 있다",
+      "context": "인도네시아 정부는 1960년대부터 2000년대에 걸쳐 트랜스미글래시 정책을 실시하여 자바 발리 롬복 마두라 섬 등의 과밀 지역에서 수십만 명을 파푸아로 이주시켰다. 정부 통계 및 학술적 추계에 따르면 1960년대에 90% 이상을 차지했던 파푸아 원주민 인구 비율은 2020년대에는 40~50%대로 떨어졌다고 한다. 다만 정확한 수치는 조사방법·정의에 따라 다르며 인도네시아 정부와 독립연구자간에 추계에 차이가 있다. 이주자들은 상업·행정·군사 분야에서 경제적 우위를 차지하는 경우가 많아 원주민족이 토지권을 잃는 경우가 보고되어 왔다. 인도네시아 정부는 트랜스미글래시를 과밀지역의 인구압력 해소와 지역개발을 위한 시책으로 자리매김하고 있어 의도적인 인구치환정책이라는 해석은 부정하고 있다.",
+      "verdict": "트랜스미글래시에 의한 인구구조의 변화는 많은 독립적인 연구자에 의해 확인되고 있다. 다만 '인구적 제노사이드'라는 용어를 둘러싼 논란이 있으며 인도네시아 정부는 그 해석을 부정하고 있다.",
+      "sources": [
+        {
+          "title": "Papua, Indonesia: Anatomy of a Conflict",
+          "url": "https://www.amnesty.org/en/documents/asa21/002/2004/en/",
+          "publisher": "암네스티 인터내셔널",
+          "type": "ngo"
+        },
+        {
+          "title": "West Papua Resource Politics",
+          "url": "https://www.eastwestcenter.org/",
+          "publisher": "East-West Center",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-grasberg-mine",
+      "claim": "글래스버그 광산은 파푸아의 지역 경제·원주민족에게 이익을 가져온다",
+      "context": "글래스버그 광산(Grasberg Mine)은 미국의 프리포트 맥모란과 인도네시아 국영광업공사(인메달, 현 PT Indonesia Asahan Aluminium)가 운영하는 세계 최대급의 금·구리광산으로 인도네시아 국가세입에 막대한 공헌을 해왔다. 2018년 인도네시아 정부는 프리포트에서 51%의 주식을 취득했다. 광산은 파푸아주에 대한 많은 금액의 로열티 및 세수를 가져오고 있으며 현지 고용도 창출되고 있다. 한편, 원주민족(특히 암구메족·코모로족)은 토지와 환경의 상실에 대한 보상이 불충분하다고 호소해 왔다. 테일즈(폐기물)의 흘러내림으로 인한 하천 오염이 수년간 문제가 되고 있어 환경 단체로부터 비판을 받고 있다. 지역사회에 대한 이익분배가 불공평하다는 비판은 많아 국제사회로부터도 지적되고 있다.",
+      "verdict": "광산이 인도네시아 국가재정에 공헌하고 있는 것은 사실이지만, 원주민 지역사회에의 편익과 비용의 분배에 대해서는 중대한 격차가 있어, 독립한 검증이 필요한 분야가 많다.",
+      "sources": [
+        {
+          "title": "Freeport-McMoRan Annual Report",
+          "url": "https://www.fcx.com/investors",
+          "publisher": "프리포트 맥모란",
+          "type": "government"
+        },
+        {
+          "title": "Mining and Indigenous Rights in Papua",
+          "url": "https://www.hrw.org/asia/indonesia",
+          "publisher": "휴먼 라이츠 워치",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "pc-msg-ulmwp",
+      "claim": "멜라네시아 민족 평의회(MSG)는 서 파푸아의 독립을 공식적으로 지지하고 있다",
+      "context": "멜라네시아 민족평의회(MSG)는 파푸아뉴기니, 피지, 바누아투, 솔로몬제도, 뉴칼레도니아(FLNKS), 인도네시아로 구성된 지역기관으로 인도네시아도 2011년 준가맹국으로 가입하고 있다. 2015년 MSG는 서 파푸아 독립운동의 통괄단체인 ‘서 파푸아 해방통일운동(ULMWP)’에 옵서버 자격을 부여했다. 이것은 인도네시아의 강한 반대를 강요한 결정이었다. 다만 MSG 자체는 조직으로서 서 파푸아의 독립을 정식으로 지지하고 있는 것은 아니고, 바누아투나 솔로몬 제도 등 개별의 회원국이 보다 강한 입장을 표명하고 있다. 인도네시아는 자국의 가맹 자격을 활용해 MSG 내에서 파푸아 독립 지지의 움직임을 계속 견제하고 있다.",
+      "verdict": "MSG 회원국들 사이에서 파푸아에 대한 동정적 자세는 널리 공유되지만, 조직으로서의 공식적인 독립 지지는 아직 실현되지 않았다. 각국의 입장에는 온도차가 있어 인도네시아와의 경제관계도 판단에 영향을 미치고 있다.",
+      "sources": [
+        {
+          "title": "MSG Communiqué 2015",
+          "url": "https://www.msg.org.fj/",
+          "publisher": "멜라네시아 민족 평의회",
+          "type": "international"
+        },
+        {
+          "title": "Pacific Islands Report: West Papua and the MSG",
+          "url": "https://www.pireport.org/",
+          "publisher": "East-West Center Pacific Islands Report",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "pc-2022-province-split",
+      "claim": "2022년 파푸아주 분할(6주로의 재편)은 지역진흥과 자치추진을 위한 조치이다.",
+      "context": "2022년 인도네시아 국회는 서 파푸아와 기존 파푸아 주를 분할하여 새롭게 4개 주(남 파푸아, 고지 파푸아, 중앙 파푸아, 남서 파푸아)를 추가로 설치하는 법률을 통과, 총 6개 주체로 했다. 인도네시아 정부는 이를 지역 행정의 효율화와 특별 자치 확충을 위한 조치로 설명하고 있다. 그러나 많은 파푸아 원주민 리더, 연구자, 인권단체는 분할이 원주민과의 충분한 협의 없이 이루어졌다고 비판하고, 독립운동의 지리적·정치적 분단, 자원개발을 위한 새로운 행정 게이트웨이의 설치를 목적으로 한다고 주장하고 있다. 유엔 원주민 권리 선언(UNDRIP)은 원주민족에 영향을 미치는 결정에 대한 자유 의사에 근거한 사전 충분한 정보에 근거한 동의(FPIC)를 요구하고 있으며, 이 기준이 충족되었는지 여부에 대한 의의가 제기되고 있다.",
+      "verdict": "행정구분의 재편은 주권국가의 내정상의 권한에 속하지만 사전협의의 부족과 그 정치적 의도에 대해서는 독립적인 평가가 필요하며 국제인권기준과의 무결성에 대한 검토가 요구된다.",
+      "sources": [
+        {
+          "title": "Indonesia's Papua Expansion: Development or Division?",
+          "url": "https://www.hrw.org/news/2022/07/14/indonesia-new-papua-provinces-risk-exacerbating-conflict",
+          "publisher": "휴먼 라이츠 워치",
+          "type": "ngo"
+        },
+        {
+          "title": "인도네시아 정부 파푸아 특별 자치법 개정 관련 문서",
+          "url": "https://www.indonesia.go.id/",
+          "publisher": "인도네시아 공화국 정부",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

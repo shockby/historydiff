@@ -1,0 +1,105 @@
+{
+  "eventId": "guayana-esequiba",
+  "notes": [
+    {
+      "id": "ge-1899-paris-arbitral-award",
+      "claim": "1899년 파리 중재 재정에 의해 에세키보 지역의 대부분이 영국령 기아나(현 가이아나)령으로 확정되었다",
+      "context": "1897년 워싱턴 조약에 따라 영국과 베네수엘라(미국 대리 중재인 포함)의 국제 중재 법정이 파리에서 열렸으며, 1899년 10월 3일에 모든 경기에서 경계 결정이 내려졌다. 이에 따라 베네수엘라가 올리노코 강 하구의 지배권을 확보하는 한편, 에세키보강 이서의 약 15만 9,500제곱킬로미터의 대부분이 영국령 기아나령으로 재정되었고, 양쪽은 이것을 '완전하고 최종적인 해결'로 수락했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Award Regarding the Boundary Between the Colony of British Guiana and the United States of Venezuela (1899)",
+          "url": "https://legal.un.org/riaa/cases/vol_XXVIII/331-340.pdf",
+          "publisher": "국제연합(UN Reports of International Arbitral Awards)",
+          "type": "international"
+        },
+        {
+          "title": "Arbitral Award of 3 October 1899 (Guyana v. Venezuela)",
+          "url": "https://www.icj-cij.org/case/171",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1962-nullity-claim",
+      "claim": "베네수엘라는 1962년 베네수엘라 변호단 소속의 미국인 변호사 말렛-프레보스트의 사후 공개 수기(1949년) 등을 근거로 1899년 재정의 부정·무효를 유엔에서 주장했다",
+      "context": "베네수엘라 변호단의 일원이었던 세베로 마레트 프리보스트 변호사의 사후 공개 수기(영국인 중재관과 러시아인 재판장 프리드리히 마르텐스 사이의 부당한 정치적 거래를 시사)를 근거로 베네수엘라 정부는 1962년 11월의 법정 void)를 공식적으로 표현했다. 가이아나 측은 수기에는 객관적 증거가 부족하고 기판력(res judicata)을 뒤집는 근거가 되지 않는다고 반론하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "The Venezuelan-Guyana Boundary Dispute: The Mallet-Prevost Memorandum",
+          "url": "https://www.jstor.org/stable/2193962",
+          "publisher": "American Journal of International Law",
+          "type": "academic"
+        },
+        {
+          "title": "Official Records of the General Assembly, Seventeenth Session",
+          "url": "https://digitallibrary.un.org/record/727931",
+          "publisher": "국제연합총회 기록",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ge-1966-geneva-agreement",
+      "claim": "1966년 제네바 협정은 국경분쟁의 평화적이고 우호적인 해결을 위한 협의 틀을 정했다.",
+      "context": "가이아나의 영국 연방으로부터의 독립 직전인 1966년 2월 17일, 영국·베네수엘라·영령 기아나 사이에 「제네바 협정」이 서명되었다. 동협정은 분쟁의 존재를 인식하고 혼합위원회 및 유엔헌장 제33조에 정하는 평화적 해결절차를 통해 합의를 목표로 하는 것을 규정했다. 베네수엘라는 이 협정이 1899년 재정을 무효화했다고 해석하지만, 가이아나는 협정은 분쟁 처리 절차를 정한 것에 불과하고 재정의 유효성은 유지되고 있다고 주장한다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Agreement to resolve the controversy between Venezuela and the United Kingdom (Treaty Series No. 561)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20561/v561.pdf",
+          "publisher": "국제연합조약집(UNTS)",
+          "type": "international"
+        },
+        {
+          "title": "The 1966 Geneva Agreement",
+          "url": "https://www.minfor.gov.gy/the-geneva-agreement/",
+          "publisher": "가이아나 외무·국제협력성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ge-2015-oil-discoveries",
+      "claim": "2015년 미국 엑손모빌이 에세키보 앞바다(스터브로크 광구)에서 대규모 유전을 발견한 이후 대립이 재연했다.",
+      "context": "2015년 5월 미국 엑손모빌은 가이아나 앞바다 스터브로크 광구에서 '리자 1호(Liza-1)' 유전을 발견했다. 그 후의 탐사에 의해 추정 가채 매장량은 110억 배럴 이상으로 확인되었고, 가이아나는 세계 굴지의 산유국으로 급성장했다. 이에 따라 베네수엘라 정부는 연안해역을 포함한 주권선언의 대통령령을 발령해 해양경계를 둘러싼 대립이 급격히 심각화했다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Guyana Energy and Crude Discoveries Overview",
+          "url": "https://www.eia.gov/international/overview/country/GUY",
+          "publisher": "미국 에너지 정보국(EIA)",
+          "type": "government"
+        },
+        {
+          "title": "ExxonMobil Guyana Operations and Resources",
+          "url": "https://corporate.exxonmobil.com/locations/guyana",
+          "publisher": "ExxonMobil Corporate",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ge-2023-referendum-icj",
+      "claim": "2023년 베네수엘라 국민투표에 대해 국제사법재판소(ICJ)는 베네수엘라에게 현재 변경을 금지하는 잠정보전조치를 명령했다.",
+      "context": "베네수엘라 정부는 2023년 12월 3일에 에세키보 지역의 영유권 주장 및 신주 창설을 묻는 국민투표를 실시했다. 이에 대해 가이아나가 요청한 잠정보전조치에 대해 ICJ는 12월 1일 본안 판결이 나올 때까지 베네수엘라는 가이아나가 에세키보 지역을 관리·지배하고 있는 현상을 변경하는 어떠한 행동도 삼가야 한다는 명령을 전원 일치로 내렸다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Order on Request for the Indication of Provisional Measures (1 December 2023)",
+          "url": "https://www.icj-cij.org/sites/default/files/case-related/171/171-20231201-ord-01-00-en.pdf",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "Joint Declaration of Argyle for Dialogue and Peace Between Guyana and Venezuela",
+          "url": "https://caricom.org/joint-declaration-of-argyle-for-dialogue-and-peace-between-guyana-and-venezuela/",
+          "publisher": "카리브해 공동체(CARICOM)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

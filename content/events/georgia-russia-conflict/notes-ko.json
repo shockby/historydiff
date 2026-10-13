@@ -1,0 +1,75 @@
+{
+  "eventId": "georgia-russia-conflict",
+  "notes": [
+    {
+      "id": "gr-georgia-attack",
+      "claim": "조지아군은 2008년 8월 7일 밤부터 8일 미명에 걸쳐 남오세티아의 주도 츠힌바리에 포격을 개시했다",
+      "context": "EU 위탁의 탈리아비니 조사위원회(2009년)의 보고서에 따르면, 조지아군은 8월 7일 밤부터 8일 미명에 걸쳐 츠힌바리와 남부 오세티아 내의 마을들에게 대규모 포격을 개시했다고 합니다. 이것이 군사적 에스컬레이션의 계기가 되었습니다. 다만 이 보고서는 러시아가 그 전부터 도발적 행동을 하고 있어, 조지아의 공격은 러시아에 군사 개입의 구실을 주기 위해 유도되었다고도 지적하고 있습니다. 이 선행 행동의 평가를 둘러싼 조지아 러시아 양측의 주장이 크게 대립하고 있습니다.",
+      "verdict": "군사 공격의 사실은 확인이 끝난 상태(문맥·책임 귀속에 싸움 있음)",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia (Tagliavini Report) 2009",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU 위탁·맥스플랑크 비교 공법 국제법 연구소",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-russia-recognition",
+      "claim": "러시아는 2008년 8월 26일에 압하지아와 남부 오세티아의 독립을 승인했다",
+      "context": "러시아는 5일간의 전쟁 종결 후 2008년 8월 26일, 압하지아와 남부 오세티아의 독립을 공식 승인했다. 이 승인에 추종한 것은 니카라과(2008년), 베네수엘라(2009년), 나울(2009년, 나중에 철회, 재승인), 시리아(2018년), 북한(2011년)만으로, 모두 유엔 회원국입니다만 국제사회의 대다수에서는 고립되었습니다 유엔 총회에서는 2009년에 조지아 국내 피난민의 귀환권을 인정하는 결의가 채택되어 있으며, 이는 압하지아·남 오세티아의 독립 승인을 부정하는 문맥으로 해석되고 있습니다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Признание независимости Абхазии и Южной Осетии (Recognition of Independence of Abkhazia and South Ossetia)",
+          "url": "http://www.kremlin.ru/events/president/news/1123",
+          "publisher": "러시아 청와대",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "gr-tagliavini",
+      "claim": "EU 위탁의 탈리아비니 조사위원회(2009년)는 “군사적 국면은 조지아가 시작했지만 러시아의 반응은 과잉이었다”고 결론지었다",
+      "context": "스위스 외교관 하이디 탈리아비니가 위원장을 맡은 EU 위탁의 독립조사위원회는 2009년 9월 약 1000페이지에 달하는 보고서를 공표했습니다. 보고서는 “무력행사는 조지아가 선행했다”고 지적하는 한편, 러시아의 반응은 조지아의 공격에 대한 대응의 범위를 넘어서고 국제법을 위반한다고 결론지었다. 또한 러시아가 수년에 걸친 도발적 행동으로 분쟁을 유발한 경위도 있다고 지적하고 있습니다. 이 보고서는 단순한 이항 갈등(\"누가 나쁜가\")을 피하고 있으며, 양측이 국제법 위반에 관여했다는 입장을 취하고 있다.",
+      "verdict": "보고서의 내용은 공개됨(해석에 싸움 있음)",
+      "sources": [
+        {
+          "title": "Independent International Fact-Finding Mission on the Conflict in Georgia, Volume I: Main Report (2009)",
+          "url": "https://www.mpil.de/en/pub/research/areas/public-international-law/georgia.cfm",
+          "publisher": "EU/맥스플랑크 연구소",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gr-abkhaz-displacement",
+      "claim": "1990년대 압하지아 전쟁에서 조지아계 주민 약 25만명이 압하지아에서 추방되었다",
+      "context": "1992~93년의 압하지아 전쟁 및 1998년의 민병 충돌의 결과, 압하지아에 거주하고 있던 조지아인(그루지아인)의 대부분이 난민·국내 피난민이 되었습니다. 추계에서는 20만~25만명이 피난을 강요당했다고 되어, 이것은 압하지아 인구의 대폭적인 민족 구성 변화를 가져왔습니다. 유엔난민고등변무관사무소(UNHCR)는 이를 국제적으로 인지된 국내 피난민(IDP) 위기로 기록하고 있습니다. 2008년 이후에도 그 대부분은 귀환할 수 없었고, 조지아는 이것을 민족정화라고 주장하고 있습니다.",
+      "verdict": "대규모 피난은 확인 완료(규모의 정확한 수치에 폭 있음)",
+      "sources": [
+        {
+          "title": "UNHCR Georgia IDP statistics",
+          "url": "https://www.unhcr.org/georgia.html",
+          "publisher": "유엔난민고등변무관사무소",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gr-eumm",
+      "claim": "EU 감시단(EUMM Georgia)은 2008년 10월에 설립되어 2024년 현재에도 활동을 계속하고 있다",
+      "context": "EU 감시단 조지아(EUMM Georgia)는 2008년 10월에 설립된 민간인에 의한 정전 감시 임무입니다. 남부 오세티아 압하지아와의 경계선(행정 경계선, ABL)의 감시, 인권 상황의 모니터링, 신뢰 양성 조치의 촉진이 주요 임무입니다. 다만 러시아는 EUMM의 압하지아 남부 오세티아 내로의 입입을 허가하지 않기 때문에 미션은 조지아 측(ABL 외측)에서만 활동하고 있습니다. 이것은 정전 합의의 실시에 있어서 중대한 제약이 되고 있습니다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "EUMM Georgia official website",
+          "url": "https://www.eumm.eu/",
+          "publisher": "유럽 연합",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

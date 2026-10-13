@@ -1,0 +1,81 @@
+{
+  "eventId": "cultural-revolution",
+  "notes": [
+    {
+      "id": "cr-1981-resolution",
+      "claim": "1981년 역사결의에서 문화대혁명을 '내란'으로 총괄",
+      "context": "1981년 6월 중국 공산당 제11기 중앙위원회 제6회 전체회의에서 채택된 ‘건국이래 당의 약간의 역사문제에 대한 결의’는 문화대혁명을 ‘지도자가 잘못 발동하고 반혁명 집단에 이용되어 당·국가·인민에게 심각한 재난을 가져왔다. 이 결의는 현재에 이르기까지 중국 정부의 공식 평가의 기초가 되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "건국 이래 당의 약간의 역사문제에 대한 결의(1981년)",
+          "url": "http://www.people.com.cn/GB/shizheng/252/5089/5106/5179/20010430/456552.html",
+          "publisher": "인민일보(인민창)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-casualties",
+      "claim": "문화대혁명의 희생자수는 수십만명에서 수백만명으로 추정된다",
+      "context": "문화대혁명에 있어서의 비정상적인 사망자수에 대해서는 정확한 통계가 존재하지 않고, 연구자에 의해 추계에 큰 폭이 있다. 중국의 공식 문서는 구체적인 희생자 수를 공표하지 않았다. 해외 연구에서는 R·J·란멜이 약 773만명, 앤드류 월더와 양수가 100만~160만명 등 다양한 추계가 존재한다. 수천만 명이 어떠한 형태로 박해를 받았다는 견해가 일반적이다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Agents of Disorder: Inside China's Cultural Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        },
+        {
+          "title": "China's Bloody Century",
+          "url": "https://www.hawaii.edu/powerkills/",
+          "publisher": "University of Hawaii",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-mao-power-struggle",
+      "claim": "문화대혁명은 모택동의 권력탈환을 위한 정치투쟁이었다",
+      "context": "1958년부터의 대약진정책의 실패로 추정 1500만~5500만명이 굶주림으로 사망했다. 이 책임을 묻는 모택동은 국가주석 자리를 류소기에게 양보해 당내 영향력이 떨어졌다. 문화대혁명은 앞으로 ‘자본주의의 부활을 막는’ 이데올로기 운동으로 여겨졌지만, 많은 역사가들은 마오쩌둥이 류소기·鄧小平ら 실무파를 타도하고 권력을 재장악하기 위한 정치투쟁이었다고 분석하고 있다. 중국의 공식 견해에서는 '잘못된 판단에 의한 발동'으로 권력투쟁으로서의 측면은 전면에 나오지 않는다.",
+      "verdict": "학술적으로 넓게 지지",
+      "sources": [
+        {
+          "title": "The Cultural Revolution: A People's History, 1962-1976",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cr-education-impact",
+      "claim": "교육기관이 폐쇄되어 일세대가 교육 기회를 잃었다",
+      "context": "문화대혁명기간 중 대학입시(고고)는 1966년부터 1977년까지 약 10년간 중단되었다. 중학교·고등학교도 장기간 폐쇄 또는 기능 정지해, 많은 청년이 농촌에의 「하방」(시모야)을 강제되었다. 약 1600만 명의 도시 지역의 젊은이가 농촌으로 보내졌다. 1977년에 鄧小平 아래 대학 입시가 재개되었을 때에는 약 570만명이 수험했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "중국 교육 연감",
+          "url": "https://www.moe.gov.cn/",
+          "publisher": "중화인민공화국 교육부",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cr-four-olds",
+      "claim": "「파사구」운동에 의해 대량의 문화재가 파괴되었다",
+      "context": "「파사구」(구사상·구문화·구풍속·구습관의 타파) 운동에서는 불교사원·도교사원·공자묘·역사적 건조물·고전서적·예술품이 대규모로 파괴되었다. 베이징에서만 6843개의 문화재가 파괴되었다는 보고가 있다. 티베트에서는 6000개 이상의 사원 중 대부분이 파괴 또는 손상을 입었다. 이 운동은 중국 수천년의 문화유산에 회복 불가능한 손해를 주었다.",
+      "verdict": "여러 증거 있음",
+      "sources": [
+        {
+          "title": "Mao's Last Revolution",
+          "url": "https://www.hup.harvard.edu/",
+          "publisher": "Harvard University Press",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

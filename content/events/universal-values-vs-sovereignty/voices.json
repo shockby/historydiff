@@ -3,177 +3,238 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。"
   },
   "voices": [
     {
       "id": "uv-voice-1",
       "country": {
         "ja": "アメリカ",
-        "en": "United States"
+        "en": "United States",
+        "zh": "アメリカ",
+        "ko": "アメリカ"
       },
       "sentiment": "supportive",
       "summary": {
         "ja": "人権や自由選挙は国境を越えた権利だ。独裁国家が「内政問題」と言い張るのは弾圧の言い訳にすぎない。",
-        "en": "Human rights and free elections transcend borders. Calling it an \"internal affair\" is just an excuse for repression."
+        "en": "Human rights and free elections transcend borders. Calling it an \"internal affair\" is just an excuse for repression.",
+        "zh": "人権や自由選挙は国境を越えた権利だ。独裁国家が「内政問題」と言い張るのは弾圧の言い訳にすぎない。",
+        "ko": "人権や自由選挙は国境を越えた権利だ。独裁国家が「内政問題」と言い張るのは弾圧の言い訳にすぎない。"
       },
       "prevalence": "high",
       "context": {
         "ja": "従来は超党派で見られた論調。近年は「他国の民主化より国内優先」との声も増えている。",
-        "en": "Traditionally bipartisan; recently more voices say domestic priorities should come before promoting democracy abroad."
+        "en": "Traditionally bipartisan; recently more voices say domestic priorities should come before promoting democracy abroad.",
+        "zh": "従来は超党派で見られた論調。近年は「他国の民主化より国内優先」との声も増えている。",
+        "ko": "従来は超党派で見られた論調。近年は「他国の民主化より国内優先」との声も増えている。"
       }
     },
     {
       "id": "uv-voice-2",
       "country": {
         "ja": "アメリカ",
-        "en": "United States"
+        "en": "United States",
+        "zh": "アメリカ",
+        "ko": "アメリカ"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "イラクやリビアの失敗を見れば、民主主義の輸出は結局うまくいかない。他国に説教する前に自国の分断を直すべきだ。",
-        "en": "Iraq and Libya show exporting democracy doesn't work. Fix our own divisions before lecturing others."
+        "en": "Iraq and Libya show exporting democracy doesn't work. Fix our own divisions before lecturing others.",
+        "zh": "イラクやリビアの失敗を見れば、民主主義の輸出は結局うまくいかない。他国に説教する前に自国の分断を直すべきだ。",
+        "ko": "イラクやリビアの失敗を見れば、民主主義の輸出は結局うまくいかない。他国に説教する前に自国の分断を直すべきだ。"
       },
       "prevalence": "medium",
       "context": {
         "ja": "孤立主義・現実主義寄りの層で目立つ意見。",
-        "en": "Common among isolationist and realist-leaning commentators."
+        "en": "Common among isolationist and realist-leaning commentators.",
+        "zh": "孤立主義・現実主義寄りの層で目立つ意見。",
+        "ko": "孤立主義・現実主義寄りの層で目立つ意見。"
       }
     },
     {
       "id": "uv-voice-3",
       "country": {
         "ja": "ドイツ・フランス（EU）",
-        "en": "Germany/France (EU)"
+        "en": "Germany/France (EU)",
+        "zh": "ドイツ・フランス（EU）",
+        "ko": "ドイツ・フランス（EU）"
       },
       "sentiment": "supportive",
       "summary": {
         "ja": "人権は我々の基盤だが、ハンガリーの例もある。他国に求めるなら、まずEU内で同じ基準を守るべきだ。",
-        "en": "Human rights are our foundation, but look at Hungary. If we demand it of others, we must uphold the same standard inside the EU."
+        "en": "Human rights are our foundation, but look at Hungary. If we demand it of others, we must uphold the same standard inside the EU.",
+        "zh": "人権は我々の基盤だが、ハンガリーの例もある。他国に求めるなら、まずEU内で同じ基準を守るべきだ。",
+        "ko": "人権は我々の基盤だが、ハンガリーの例もある。他国に求めるなら、まずEU内で同じ基準を守るべきだ。"
       },
       "prevalence": "high",
       "context": {
         "ja": "EU域内でも二重基準を自省する声が強い。",
-        "en": "Self-critical voices about double standards are strong within the EU."
+        "en": "Self-critical voices about double standards are strong within the EU.",
+        "zh": "EU域内でも二重基準を自省する声が強い。",
+        "ko": "EU域内でも二重基準を自省する声が強い。"
       }
     },
     {
       "id": "uv-voice-4",
       "country": {
         "ja": "中国",
-        "en": "China"
+        "en": "China",
+        "zh": "中国",
+        "ko": "中国"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "民主主義のモデルは一つではない。我々は貧困を減らし経済を発展させた。西側が自分の物差しで他国を裁くのは傲慢だ。",
-        "en": "There is no single model of democracy. We reduced poverty and grew the economy. It is arrogant for the West to judge others by its own yardstick."
+        "en": "There is no single model of democracy. We reduced poverty and grew the economy. It is arrogant for the West to judge others by its own yardstick.",
+        "zh": "民主主義のモデルは一つではない。我々は貧困を減らし経済を発展させた。西側が自分の物差しで他国を裁くのは傲慢だ。",
+        "ko": "民主主義のモデルは一つではない。我々は貧困を減らし経済を発展させた。西側が自分の物差しで他国を裁くのは傲慢だ。"
       },
       "prevalence": "high",
       "context": {
         "ja": "国内SNSや官製メディアで広く見られる論調。",
-        "en": "Widely seen on domestic social media and state media."
+        "en": "Widely seen on domestic social media and state media.",
+        "zh": "国内SNSや官製メディアで広く見られる論調。",
+        "ko": "国内SNSや官製メディアで広く見られる論調。"
       }
     },
     {
       "id": "uv-voice-5",
       "country": {
         "ja": "中国",
-        "en": "China"
+        "en": "China",
+        "zh": "中国",
+        "ko": "中国"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "香港や新疆への欧米の批判は、中国の発展を抑え込むための口実だ。カラー革命の手口には警戒が必要だ。",
-        "en": "Western criticism over Hong Kong and Xinjiang is a pretext to contain China's rise. We must watch for color-revolution tactics."
+        "en": "Western criticism over Hong Kong and Xinjiang is a pretext to contain China's rise. We must watch for color-revolution tactics.",
+        "zh": "香港や新疆への欧米の批判は、中国の発展を抑え込むための口実だ。カラー革命の手口には警戒が必要だ。",
+        "ko": "香港や新疆への欧米の批判は、中国の発展を抑え込むための口実だ。カラー革命の手口には警戒が必要だ。"
       },
       "prevalence": "medium",
       "context": {
         "ja": "国家安全の観点で語られることが多い。",
-        "en": "Usually framed in terms of national security."
+        "en": "Usually framed in terms of national security.",
+        "zh": "国家安全の観点で語られることが多い。",
+        "ko": "国家安全の観点で語られることが多い。"
       }
     },
     {
       "id": "uv-voice-6",
       "country": {
         "ja": "ロシア",
-        "en": "Russia"
+        "en": "Russia",
+        "zh": "ロシア",
+        "ko": "ロシア"
       },
       "sentiment": "nationalist-sovereign",
       "summary": {
         "ja": "欧米はウクライナ政変やジョージアにNGOを通じて干渉してきた。我々は主権を守っているだけだ。",
-        "en": "The West has interfered through NGOs in Ukraine and Georgia. We are only defending our sovereignty."
+        "en": "The West has interfered through NGOs in Ukraine and Georgia. We are only defending our sovereignty.",
+        "zh": "欧米はウクライナ政変やジョージアにNGOを通じて干渉してきた。我々は主権を守っているだけだ。",
+        "ko": "欧米はウクライナ政変やジョージアにNGOを通じて干渉してきた。我々は主権を守っているだけだ。"
       },
       "prevalence": "high",
       "context": {
         "ja": "国営メディアと政府系アカウントで繰り返される。",
-        "en": "Repeated across state media and pro-government accounts."
+        "en": "Repeated across state media and pro-government accounts.",
+        "zh": "国営メディアと政府系アカウントで繰り返される。",
+        "ko": "国営メディアと政府系アカウントで繰り返される。"
       }
     },
     {
       "id": "uv-voice-7",
       "country": {
         "ja": "ロシア（独立系・亡命）",
-        "en": "Russia (independent/exile)"
+        "en": "Russia (independent/exile)",
+        "zh": "ロシア（独立系・亡命）",
+        "ko": "ロシア（独立系・亡命）"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "『内政不干渉』を叫ぶ政権が、隣国に軍を送り国内の反対派を弾圧している。矛盾だ。",
-        "en": "A government that shouts non-interference sends troops into a neighbor and jails its own opposition. That is a contradiction."
+        "en": "A government that shouts non-interference sends troops into a neighbor and jails its own opposition. That is a contradiction.",
+        "zh": "『内政不干渉』を叫ぶ政権が、隣国に軍を送り国内の反対派を弾圧している。矛盾だ。",
+        "ko": "『内政不干渉』を叫ぶ政権が、隣国に軍を送り国内の反対派を弾圧している。矛盾だ。"
       },
       "prevalence": "low",
       "context": {
         "ja": "独立系メディアや亡命者のコミュニティで見られる。",
-        "en": "Seen among independent media and exiles."
+        "en": "Seen among independent media and exiles.",
+        "zh": "独立系メディアや亡命者のコミュニティで見られる。",
+        "ko": "独立系メディアや亡命者のコミュニティで見られる。"
       }
     },
     {
       "id": "uv-voice-8",
       "country": {
         "ja": "インド",
-        "en": "India"
+        "en": "India",
+        "zh": "インド",
+        "ko": "インド"
       },
       "sentiment": "analytical-pragmatic",
       "summary": {
         "ja": "民主主義は大切だが、欧米の都合のいい説教には付き合わない。我々は誰にも付かず、自国の利益で決める。",
-        "en": "Democracy matters, but we won't go along with selective Western lectures. We side with no one and decide by our own interests."
+        "en": "Democracy matters, but we won't go along with selective Western lectures. We side with no one and decide by our own interests.",
+        "zh": "民主主義は大切だが、欧米の都合のいい説教には付き合わない。我々は誰にも付かず、自国の利益で決める。",
+        "ko": "民主主義は大切だが、欧米の都合のいい説教には付き合わない。我々は誰にも付かず、自国の利益で決める。"
       },
       "prevalence": "high",
       "context": {
         "ja": "戦略的自律を重視する外交論壇の主流。",
-        "en": "Mainstream in foreign-policy circles that prize strategic autonomy."
+        "en": "Mainstream in foreign-policy circles that prize strategic autonomy.",
+        "zh": "戦略的自律を重視する外交論壇の主流。",
+        "ko": "戦略的自律を重視する外交論壇の主流。"
       }
     },
     {
       "id": "uv-voice-9",
       "country": {
         "ja": "南アフリカ・ブラジルなど（グローバル・サウス）",
-        "en": "South Africa/Brazil etc. (Global South)"
+        "en": "South Africa/Brazil etc. (Global South)",
+        "zh": "南アフリカ・ブラジルなど（グローバル・サウス）",
+        "ko": "南アフリカ・ブラジルなど（グローバル・サウス）"
       },
       "sentiment": "skeptical",
       "summary": {
         "ja": "人権の名で介入されてきた歴史がある。気候や開発の問題には口を出さない国が、人権だけ強調するのは筋が通らない。",
-        "en": "We have a history of being intervened upon in the name of human rights. It is inconsistent to stress human rights alone while ignoring climate and development."
+        "en": "We have a history of being intervened upon in the name of human rights. It is inconsistent to stress human rights alone while ignoring climate and development.",
+        "zh": "人権の名で介入されてきた歴史がある。気候や開発の問題には口を出さない国が、人権だけ強調するのは筋が通らない。",
+        "ko": "人権の名で介入されてきた歴史がある。気候や開発の問題には口を出さない国が、人権だけ強調するのは筋が通らない。"
       },
       "prevalence": "medium",
       "context": {
         "ja": "陣営選択を拒む姿勢と結びつく。",
-        "en": "Linked to a refusal to pick sides."
+        "en": "Linked to a refusal to pick sides.",
+        "zh": "陣営選択を拒む姿勢と結びつく。",
+        "ko": "陣営選択を拒む姿勢と結びつく。"
       }
     },
     {
       "id": "uv-voice-10",
       "country": {
         "ja": "日本",
-        "en": "Japan"
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "日本"
       },
       "sentiment": "balanced-pragmatic",
       "summary": {
         "ja": "価値観は共有したいが、中国など隣国との経済関係も大事だ。制裁一辺倒ではなく対話も続けるべきだ。",
-        "en": "We want to share these values, but economic ties with neighbors like China matter too. Keep dialogue rather than only sanctions."
+        "en": "We want to share these values, but economic ties with neighbors like China matter too. Keep dialogue rather than only sanctions.",
+        "zh": "価値観は共有したいが、中国など隣国との経済関係も大事だ。制裁一辺倒ではなく対話も続けるべきだ。",
+        "ko": "価値観は共有したいが、中国など隣国との経済関係も大事だ。制裁一辺倒ではなく対話も続けるべきだ。"
       },
       "prevalence": "high",
       "context": {
         "ja": "企業・外交実務者に多い。一方で人権団体は日本版マグニツキー法の制定を求める。",
-        "en": "Common among business and diplomatic practitioners; rights groups urge a Japanese Magnitsky law."
+        "en": "Common among business and diplomatic practitioners; rights groups urge a Japanese Magnitsky law.",
+        "zh": "企業・外交実務者に多い。一方で人権団体は日本版マグニツキー法の制定を求める。",
+        "ko": "企業・外交実務者に多い。一方で人権団体は日本版マグニツキー法の制定を求める。"
       }
     }
   ]

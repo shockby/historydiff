@@ -1,0 +1,105 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "notes": [
+    {
+      "id": "drc-1994-genocide-aftermath",
+      "claim": "1994年卢旺达种族灭绝事件后难民涌入，直接引发了刚果东部的长期冲突。",
+      "context": "1994年7月卢旺达种族灭绝结束后，包括前卢旺达武装部队和极端主义民兵(联攻派)在内的超过100万胡图族难民越过边境进入扎伊尔东部(现为刚果民主共和国南北基伍省)。卢旺达新政府军（RPF）为追击和消灭这些部队而跨境入侵，引发了第一次刚果战争（1996-1997），导致蒙博托政权垮台，并引发了周边八个国家介入的第二次刚果战争（1998-2003，“非洲大战”）。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "联合国难民署 - 卢旺达种族灭绝及其在扎伊尔/刚果民主共和国造成的后果",
+          "url": "https://www.unhcr.org/publications/operations/3ebf9bb60/state-worlds-refugees-2000-fifty-years-humanitarian-action-chapter-10-ruanda.html",
+          "publisher": "联合国难民事务高级专员办事处（UNHCR）",
+          "type": "international"
+        },
+        {
+          "title": "记录 1993-2003 年刚果民主共和国境内侵犯人权行为的绘图工作报告",
+          "url": "https://www.ohchr.org/en/countries/africa-region/democratic-republic-congo/mapping-exercise-1993-2003",
+          "publisher": "联合国人权事务高级专员办事处（人权高专办）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-m23-rwanda-support",
+      "claim": "联合国专家小组报告称，卢旺达国防军正在向“3·23”叛乱分子提供直接军事支持和联合行动。",
+      "context": "联合国安理会刚果民主共和国制裁委员会专家组报告（S/2023/431、S/2024/432等）提供了确凿证据，证明卢旺达国防军正在向“3·23”运动叛军提供武器弹药、防御装备、联合部署士兵以及北基伍省的军事指挥支持。卢旺达政府一直官方否认这些说法，同时反驳说，与刚果军队结盟的解放卢旺达民主力量的存在对其自身的生存构成威胁。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "刚果民主共和国问题专家组的最后报告(S/2024/432)",
+          "url": "https://www.un.org/securitycouncil/sanctions/1533/panel_experts/reports",
+          "publisher": "联合国安理会",
+          "type": "international"
+        },
+        {
+          "title": "人权观察 - 刚果民主共和国：卢旺达军队援助M23叛军",
+          "url": "https://www.hrw.org/news/2023/02/06/dr-congo-m23-rebels-backed-rwanda",
+          "publisher": "人权观察",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "drc-conflict-minerals-coltan",
+      "claim": "刚果东部非法开采和走私钶钽铁矿、黄金等矿产资源是武装团体的主要资金来源。",
+      "context": "刚果东部生产世界上大部分的钽（由钶钽铁矿精炼而成），这对于智能手机和电子设备至关重要，也是全球金、锡、钨、钴等的来源。武装团体（M23、解放卢旺达民主力量、当地马伊-马伊民兵等）和腐败的军事官员占领和控制这些矿井，通过非法征税和通过邻国（卢旺达、乌干达等）走私获取巨额利润，并加强军事实力。国际社会曾试图通过经合组织尽职调查指南和美国多德弗兰克法案第1502条对其进行监管，但这并没有导致根除。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "经合组织关于受冲突影响和高风险地区矿产负责任供应链的尽职调查指南",
+          "url": "https://www.oecd.org/daf/inv/mne/mining.htm",
+          "publisher": "经济合作与发展组织（OECD）",
+          "type": "international"
+        },
+        {
+          "title": "美国 SEC - 多德弗兰克第 1502 条冲突矿产规则",
+          "url": "https://www.sec.gov/spotlight/dodd-frank/corporatereporting.shtml",
+          "publisher": "美国证券交易委员会（SEC）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "drc-monusco-peacekeeping",
+      "claim": "联合国刚果稳定特派团（联刚稳定团）是联合国最大的维和部队，但由于恢复安全工作拖延，撤军计划正在进行中。",
+      "context": "联刚特派团（2010年改组为联刚稳定团），1999年根据安理会第1291号决议成立，鼎盛时有近2万人，2013年组建强制干预旅（FIB），在联合国历史上首次执行进攻任务。但由于多年来未能制止武装团体的屠杀，当地民众抗议和骚乱愈演愈烈，在刚果政府强烈要求下，安理会于2023年12月通过第2717号决议批准逐步撤军，并于2024年开始启动撤军程序。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "联合国安理会关于联刚稳定团缩编的第2717（2023）号决议",
+          "url": "https://undocs.org/S/RES/2717(2023)",
+          "publisher": "联合国安理会",
+          "type": "international"
+        },
+        {
+          "title": "联刚稳定团 - 任务简介和分阶段缩编",
+          "url": "https://monusco.unmissions.org/en",
+          "publisher": "联合国维持和平行动（UN PKO）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "drc-humanitarian-crisis-displacement",
+      "claim": "刚果民主共和国面临世界上最严重的人道主义危机之一，东部冲突导致超过700万境内流离失所者。",
+      "context": "根据国际移民组织和联合国人道主义事务协调厅的统计，刚果民主共和国境内有超过700万境内流离失所者，其中大部分集中在北基伍省、南基伍省和伊图里省。除了严重营养不良、霍乱爆发以及医疗设施和学校停课之外，交战部队广泛而系统的性暴力（强奸作为战争武器）也被联合国和其他组织指控为严重侵犯人权行为。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "IOM 刚果民主共和国危机应对计划 - 创纪录的 700 万人流离失所",
+          "url": "https://crisisresponse.iom.int/response/democratic-republic-congo-crisis-response-plan-2024",
+          "publisher": "国际移民组织（IOM）",
+          "type": "international"
+        },
+        {
+          "title": "联合国人道协调厅 - 刚果民主共和国人道主义需求概览",
+          "url": "https://www.unocha.org/democratic-republic-congo",
+          "publisher": "联合国人道主义事务协调办公室（OCHA）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

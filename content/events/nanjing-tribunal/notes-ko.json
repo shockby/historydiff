@@ -1,0 +1,87 @@
+{
+  "eventId": "nanjing-tribunal",
+  "notes": [
+    {
+      "id": "nt-tani-hisao",
+      "claim": "야스오 중장이 난징 군사법정에서 사형 판결을 받아 처형당했다",
+      "context": "타니스부는 난징 공략시 제6사 단장. 난징군사법정에서 부하의 병사에 의한 학살행위의 직접적 책임을 묻고 유죄판결을 받아 1947년 4월 26일 난징·우화대에서 총살형에 처했다. 이것은 난징 군사법정에서 가장 중요한 판결 중 하나이다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "난징대 도살사료집 - 난징심판",
+          "url": "http://www.nj1937.org/",
+          "publisher": "침화일군 난징대 도살살 난동포 기념관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-hyakunin-giri",
+      "claim": "「백인 베기 경쟁」의 무카이 토시아키·노다 히로시 소소위가 사형 판결을 받았다",
+      "context": "「백인 베기 경쟁」은 1937년의 「도쿄일일신문」(현·매일신문)이 보도한 기사에 근거한다. 이 기사는 무카이·노다 양소위가 난징 공략전 중에 일본도로 100명 베기의 '경쟁'을 실시했다고 보도했다. 난징군사법정은 이 기사를 주요 증거로 채택해 양명에 사형 판결을 내렸다. 일본에서는 유족이 2003년에 명예훼손 소송을 일으켰지만 패소하고 있다(2006년 대법원 확정). 기사가 전의 고양을 위한 과장·창작이었는지 아닌지는 일본 국내에서 논의가 계속되고 있다.",
+      "verdict": "사실인정에 논의 있음",
+      "sources": [
+        {
+          "title": "백인 베기 소송 대법원 결정 (일본어)",
+          "url": "https://www.courts.go.jp/",
+          "publisher": "법원",
+          "type": "government"
+        },
+        {
+          "title": "도쿄 일일신문(1937년 11월-12월 보도) (일본어)",
+          "url": "https://mainichi.jp/",
+          "publisher": "매일 신문사",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-death-toll-30万",
+      "claim": "법정은 희생자 수를 “집단 살해 19만명 이상, 개별 살해 15만명 이상, 합계 30만명 이상”이라고 인정했다",
+      "context": "이 인정은 홍비자회, 숭선당 등 자선단체에 의한 매장기록, 생존자의 증언 및 국제안전구의 기록에 근거한다. 도쿄재판(극동국제군사재판)은 같은 시기에 '20만명 이상'으로 인정하고 있으며 두 법정에서 인정수가 다르다. 일본의 역사학자 진진히코는 숭선당의 매장기록(약 11만체)의 신뢰성에 의문을 제기하고 있으며, 이 단체가 난징 함락 당시 활동을 중지했을 가능성을 지적하고 있다. 한편 중국의 연구자들은 다른 매장기록이나 증언과 함께 종합적으로 30만명 이상이 타당하다고 주장하고 있다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "'난징 사건' (일본어)",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "중공신서(秦郁彦)",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nt-tokyo-vs-nanjing",
+      "claim": "도쿄재판과 남경군사법정은 별도의 법정이며 희생자수의 인정이 다르다",
+      "context": "도쿄재판(IMTFE)은 연합국 주도의 국제법정에서 A급 전범을 심판해 난징에서의 희생자를 '20만명 이상'으로 인정했다. 한편 남경군사법정은 중화민국 정부가 설치한 국내 법정에서 BC급 전범을 심판해 '30만명 이상'으로 인정했다. 같은 시기의 두 법정에서 인정이 10만명 다르다는 사실 자체가 희생자 수 확정의 어려움을 이야기하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nt-roc-prc-succession",
+      "claim": "중화인민공화국이 중화민국 정부 주최의 법정 판결을 계승하고 있다",
+      "context": "난징군사법정은 중화민국(국민당 정권)이 주최했다. 1949년 정권 교체 후 중화인민공화국(공산당 정권)은 이 법정의 판결을 전면적으로 계승했다. 통상, PRC는 ROC의 정통성을 부정하지만, 난징군사법정의 판결에 대해서는 「중국인민의 정의의 실현」으로서 적극적으로 인용한다. 이는 대일역사 문제에서 중대가 공통의 입장을 취하는 드문 경우 중 하나이다.",
+      "verdict": "배경 정보",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "침화일군 난징대 도살살 난동포 기념관",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "eventId": "falklands-war",
+  "notes": [
+    {
+      "id": "fw-unsc-resolution-502",
+      "claim": "유엔안전보장이사회 결의 502호는 아르헨티나군의 즉각 철수를 요구했다.",
+      "context": "1982년 4월 3일 유엔 안보리는 찬성 10·반대 1·기권 4로 아르헨티나를 침략국으로 인정하고 결의 502호를 채택했다. 아르헨티나·스페인이 반대표, 구 소련·중국·폴란드·스페인이 기권했다. 이 결의는 아르헨티나에 대한 즉시 정전과 전군 철수, 그리고 외교적 해결을 위한 협상 개시를 요구했다. 아르헨티나는 이 결의를 거부하고 국제사회로부터의 고립을 심화시켰다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 502 (1982)",
+          "url": "https://undocs.org/S/RES/502(1982)",
+          "publisher": "유엔",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-1833-expulsion",
+      "claim": "1833년 영국에 의한 아르헨티나 수비대 추방의 역사적 평가",
+      "context": "1833년 1월, 영국 군함 HMS 클리오가 포트 루이스(현 스탠리)에 도착해 아르헨티나의 수비대(당초 약 25명)에 퇴퇴를 요구했다. 수비대 사령관 에스테반 메시너스는 저항하지 않고 퇴거했다. 일부 민간 정착민은 그 후에도 남았다. 이 사건을 아르헨티나는 '점령'이라고 부르지만 영국은 '처음에 포기한 영토로의 정당한 복귀'라고 주장하며 해석에 큰 차이가 있다.",
+      "verdict": "사실관계는 확인 완료(평가에 차이)",
+      "sources": [
+        {
+          "title": "The Falkland Islands: The Facts",
+          "url": "https://www.falklands.gov.fk/history/",
+          "publisher": "포클랜드 제도 정부",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-unga-resolution-2065",
+      "claim": "유엔 총회 결의안 2065(1965)는 식민주의 맥락에서 말비나스 문제를 인정했습니다.",
+      "context": "1965년 유엔 총회 결의안 2065호는 '말비나스 제도(포클랜드 제도) 문제'를 다루며 아르헨티나와 영국 정부가 협상을 통해 해결책을 찾을 것을 촉구했습니다. 이번 결의안의 법적 효력에 대해서는 아르헨티나가 '식민지 상황을 인정하고 협상 의무를 확인했다'는 뜻으로 해석하는 반면, 영국은 '단순히 협상을 촉진하기 위한 권고'에 불과하다는 입장이다.",
+      "verdict": "결의안 채택(법률해석의 차이)",
+      "sources": [
+        {
+          "title": "유엔 총회 결의안 2065(XX)",
+          "url": "https://undocs.org/A/RES/2065(XX)",
+          "publisher": "유엔",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "fw-2013-referendum",
+      "claim": "2013년 3월 주민투표에서 섬민의 99.8%가 영국령에 잔류를 선택했다",
+      "context": "2013년 3월 10·11일에 포클랜드 제도에서 주권에 관한 주민투표가 실시되어 투표율 92%·찬성 99.8%로 '영국 해외영토'에 대한 잔류가 지지되었다. 아르헨티나 정부는 이 주민 투표의 정당성을 인정하지 않고, “식민지적으로 이주된 사람들에 의한 투표는 자결 원칙의 적용 대상외”라는 입장을 유지하고 있다.",
+      "verdict": "주민투표는 실시 완료(정당성 해석에 차이)",
+      "sources": [
+        {
+          "title": "Falkland Islands Referendum 2013",
+          "url": "https://www.falklands.gov.fk/government/referendum-2013/",
+          "publisher": "포클랜드 제도 정부",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "fw-general-belgrano",
+      "claim": "영국 잠수함에 의한 아르헨티나 순양함 베르그라노 격침(323명 사망)의 윤리적 평가",
+      "context": "1982년 5월 2일 영국 원자력 잠수함 HMS 콩칼라가 아르헨티나 순양함 헤네랄 벨그라노를 격침해 323명이 사망했다. 격침 시 벨그라노는 배타적 전투수역 밖을 항행 중이었기 때문에 영국 내에서도 대처 정권에 대한 비판이 높아졌다. 영국 정부는 '위협에 대한 적법한 대응'이라고 주장했지만 아르헨티나는 이를 '전쟁 범죄'로 비난했다.",
+      "verdict": "사실 확인 완료(윤리적 평가에 차이)",
+      "sources": [
+        {
+          "title": "ARA General Belgrano sinking - historical record",
+          "url": "https://www.iwm.org.uk/history/the-falklands-war",
+          "publisher": "제국전쟁박물관(런던)",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

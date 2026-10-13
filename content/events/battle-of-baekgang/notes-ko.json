@@ -1,0 +1,85 @@
+{
+  "eventId": "battle-of-baekgang",
+  "notes": [
+    {
+      "id": "bb-naval-battle-outcome",
+      "claim": "663년 백강구(백촌강) 전투에서 나당연합 수군이 화공 전술을 펼쳐 왜선 400척을 불태우고 궤멸적 승리를 거두었다",
+      "context": "《일본서기》(덴지 천황기)와 《구당서》(유인궤 열전) 모두 당나라 수군이 진형을 엄히 갖추고 왜선을 포위하여 400척을 불사르고 바다를 붉게 물들였다는 전투 경과를 일치하게 전하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "일본서기 - 일본 국립국회도서관 디지털컬렉션",
+          "url": "https://dl.ndl.go.jp/pid/1286957",
+          "publisher": "일본 국립국회도서관",
+          "type": "archive"
+        },
+        {
+          "title": "구당서 권84 유인궤 열전 - 중국철학서전자화계획",
+          "url": "https://ctext.org/wiki.pl?if=gb&res=628045",
+          "publisher": "중국철학서전자화계획",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "bb-japan-defense-reforms",
+      "claim": "백촌강 참패 이후 왜국은 국방 체제를 전면 쇄신하여 미즈키와 조선식 산성을 축조하고 사키모리를 배치하며 중앙집권 율령국가로 전환했다",
+      "context": "나당연합군의 침공을 두려워한 나카노오에 황자(덴지 천황)는 북규슈에 미즈키와 오노성 등 요새를 축조하고 변경 수비병을 배치했으며, 오미 천도와 호적 정비 등 율령국가의 기틀을 신속히 다졌다.",
+      "verdict": "학술적 합의 있음",
+      "sources": [
+        {
+          "title": "백촌강 전투 - 일본대백과전서",
+          "url": "https://kotobank.jp/word/%E7%99%BD%E6%9D%91%E6%B1%9F%E3%81%AE%E6%88%A6%E3%81%84-118837",
+          "publisher": "쇼가쿠칸",
+          "type": "reference"
+        },
+        {
+          "title": "특별사적 미즈키 터·오노성 터 - 문화청 국지정문화재 데이터베이스",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2665",
+          "publisher": "일본 문화청",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bb-baekje-restoration-collapse",
+      "claim": "백제 부흥군은 수뇌부의 치열한 권력 투쟁(복신과 도침의 살해, 부여풍의 복신 숙청)으로 자멸했고, 백강 참패로 부흥운동이 종결되었다",
+      "context": "《삼국사기》 신라본기 및 백제본기, 《삼국유사》에 따르면 부흥군 내부에서 복신이 도침을 죽이고 부여풍이 복신을 제거하는 극심한 내분이 일어났으며, 그 직후 연합군에 각개격파되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "삼국사기 - 국사편찬위원회 한국사데이터베이스",
+          "url": "https://db.history.go.kr/",
+          "publisher": "한국국사편찬위원회",
+          "type": "archive"
+        },
+        {
+          "title": "백제부흥운동 - 한국민족문화대백과사전",
+          "url": "http://encykorea.aks.ac.kr/Contents/Item/E0022067",
+          "publisher": "한국학중앙연구원",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "bb-east-asia-order",
+      "claim": "백강구 전투는 대당제국의 동아시아 책봉·조공 질서를 확고히 굳혔으며, 왜국이 평화 외교로 선회하여 견당사를 파견하고 율령 체제를 수용하게 했다",
+      "context": "전쟁 후 당나라는 옛 백제·고구려 땅에 도독부를 설치해 지배력을 행사했고, 왜국 또한 견당사를 재개하여 선진 율령 문물을 대대적으로 수용하며 국제 질서에 순응했다.",
+      "verdict": "학술적 합의 있음",
+      "sources": [
+        {
+          "title": "고대 동아시아의 국제질서와 백촌강 전투 - 도쿄대학 학술기관 리포지터리",
+          "url": "https://repository.dl.itc.u-tokyo.ac.jp/",
+          "publisher": "도쿄대학",
+          "type": "academic"
+        },
+        {
+          "title": "중국고대대외관계사 - 중국사회과학원",
+          "url": "http://cass.cn/",
+          "publisher": "중국사회과학원",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

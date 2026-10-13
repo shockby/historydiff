@@ -1,0 +1,101 @@
+{
+  "eventId": "battle-of-baekgang",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "battle-of-baekgang-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "白村江の大敗は痛烈だったが、あの危機感がなければ日本という統一国家や律令体制、防衛意識の確立は遅れていただろう。国号『日本』誕生の契機となった重要な歴史の教訓だ。",
+        "en": "While the defeat at Baekgang was crushing, without that acute sense of existential crisis, the consolidation of the unified Japanese state, the Ritsuryo legal system, and national defense might have been significantly delayed.",
+        "zh": "白村江的惨败虽然惨痛，但若没有那种亡国危机感，日本作为统一中央集权国家的确立与律令制度的引入可能会大大推迟。这是促成“日本”国号诞生的关键历史转折点。",
+        "ko": "백촌강의 대참패는 뼈아팠지만, 그때의 절박한 위기감이 없었다면 통일된 일본이라는 국호와 율령국가, 국방 체제의 확립은 훨씬 늦어졌을 것이다. 고대 일본 국가 탄생의 중요한 교훈이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日本の歴史愛好家や教育関係者の間で、古代国家形成史の観点から前向きに捉える論調。",
+        "en": "Discussions among Japanese history enthusiasts and educators contextualizing the defeat as a necessary catalyst for state building.",
+        "zh": "日本历史爱好者与教育界从中汲取制度现代化与国家形成经验的常见论调。",
+        "ko": "일본 내 역사 연구자와 시민들이 고대 국가 형성 과정의 불가피한 계기로 해석하는 시각."
+      },
+      "keywords": [
+        "#白村江の戦い",
+        "#天智天皇",
+        "#水城",
+        "#律令国家"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "battle-of-baekgang-voice-2",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "百済復興軍の内紛さえなければ歴史は変わっていたかもしれない。外勢である唐の侵入を招いた悲劇であるが、最終的に新羅が唐を撃退して自主的な三国統一を成し遂げた点に歴史的意義がある。",
+        "en": "If only the Baekje restoration leadership had not fractured through internal betrayal, history might have unfolded differently. While the war brought the tragedy of foreign Tang intervention, Silla's ultimate victory in expelling Tang forces cemented Korean autonomous unification.",
+        "zh": "若非百济复国军高层自相残杀的内讧，历史或许会有所不同。虽然借助唐朝外势带来了民族内战的伤痛，但新罗最终击退唐军侵略、实现自主统一的历史功绩不可磨灭。",
+        "ko": "백제 부흥군의 뼈아픈 내분만 없었더라면 역사는 달라졌을 것이다. 외세인 당나라를 끌어들인 비극적 측면이 있으나, 결국 신라가 나당전쟁에서 당을 몰아내고 자주적 삼국통일을 완수한 것은 위대한 역사적 성취다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国の歴史コミュニティで、百済復興の惜敗を惜しみつつ新羅の自主的統一事業を再評価する論調。",
+        "en": "Korean public sentiment reflecting sorrow over Baekje's fall while emphasizing the broader national trajectory of Silla's autonomous unification.",
+        "zh": "韩国舆论中惋惜百济复国失利、同时肯定新罗抗唐捍卫半岛自主权的民族主义主流观点。",
+        "ko": "한국 역사 커뮤니티와 대중 사이에서 백제의 멸망을 애도하면서도 삼국통일의 자주성을 강조하는 대표적 논조."
+      },
+      "keywords": [
+        "#백강전투",
+        "#백제부흥운동",
+        "#삼국통일",
+        "#나당연합"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "battle-of-baekgang-voice-3",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "白江口の戦いは中国史上初の対日海戦であり、大唐帝国の強大な国力と劉仁軌将軍の卓越した戦術が証明された。この大勝が東アジアに数百年にわたる安定と大唐の威光をもたらした。",
+        "en": "The Battle of Baijiangkou was the first Sino-Japanese naval confrontation in history, demonstrating the supreme naval tactics of General Liu Rengui and Tang imperial strength. It established centuries of maritime security and cultural preeminence.",
+        "zh": "白江口之战是中日两国历史上的首次正面海战交锋，刘仁轨将军以少胜多、四战皆捷，尽显盛唐雄风。此战彻底打服了古代日本，换来了东亚数百年的和平以及日本对大唐文明的长久敬仰。",
+        "ko": "백강구 해전은 중일 역사상 최초의 대규모 해전으로, 유인궤 장군의 탁월한 전술과 대당제국의 위엄을 과시한 대첩이다. 이 완승을 통해 동아시아의 평화가 수세기 동안 지켜졌고 일본은 대당 문명을 적극 수용하게 되었다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国のネット論壇や歴史ファンによる、盛唐の軍事力と対外影響力を誇る論調。",
+        "en": "Discussions among Chinese netizens celebrating Tang military superiority and historical regional leadership.",
+        "zh": "中国网络历史论坛中对大唐盛世军事胜利与“以少胜多”战术成就的高度自豪论调。",
+        "ko": "중국 역사 애호가들이 당나라의 군사적 우위와 동아시아 질서 주도를 자부하는 시각."
+      },
+      "keywords": [
+        "#白江口之战",
+        "#大唐盛世",
+        "#刘仁轨",
+        "#中日首次海战"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

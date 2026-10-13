@@ -46,6 +46,7 @@ export const eventCoords: Record<string, LatLng> = {
   'ww2-asia': { lat: 35.0, lng: 115.0 },                 // Mainland China (general)
   'mongol-invasions-of-japan': { lat: 33.6, lng: 130.3 }, // Hakata Bay / Tsushima Strait
   'japanese-invasions-of-korea': { lat: 36.5, lng: 127.8 }, // Korean Peninsula (Imjin War)
+  'battle-of-baekgang': { lat: 36.0, lng: 126.7 },        // Baekgang (Geum River estuary / Gunsan area)
   'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
   'taiwan-un-resolution': { lat: 23.5, lng: 121.0 },     // Taiwan
   'western-sahara': { lat: 24.0, lng: -13.0 },           // Western Sahara
@@ -126,6 +127,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   'ww2-asia': { region: 'asia', subRegion: 'east-asia' },
   'mongol-invasions-of-japan': { region: 'asia', subRegion: 'east-asia' },
   'japanese-invasions-of-korea': { region: 'asia', subRegion: 'east-asia' },
+  'battle-of-baekgang': { region: 'asia', subRegion: 'east-asia' },
 
   // ── Southeast Asia & Oceania (4) ──
   'myanmar-civil-war': { region: 'asia', subRegion: 'southeast-asia' },

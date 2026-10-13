@@ -1,0 +1,85 @@
+{
+  "eventId": "battle-of-baekgang",
+  "notes": [
+    {
+      "id": "bb-naval-battle-outcome",
+      "claim": "在公元663年的白江口之战中，唐罗联军水军运用火攻等战术大败倭国水军，焚毁敌船400艘",
+      "context": "《日本书纪》（天智天皇纪）与《旧唐书》（刘仁轨传）均明确记载，唐军战船严密结阵、分路夹击，焚毁倭国船只400艘，烈焰冲天，海水皆赤。",
+      "verdict": "官方记载明确",
+      "sources": [
+        {
+          "title": "日本书纪 - 日本国立国会图书馆数字典藏",
+          "url": "https://dl.ndl.go.jp/pid/1286957",
+          "publisher": "日本国立国会图书馆",
+          "type": "archive"
+        },
+        {
+          "title": "旧唐书 卷八十四 刘仁轨传 - 中国哲学书电子化计划",
+          "url": "https://ctext.org/wiki.pl?if=gb&res=628045",
+          "publisher": "中国哲学书电子化计划",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "bb-japan-defense-reforms",
+      "claim": "白村江之战惨败后，倭国全面重构国防体制，构筑水城与朝鲜式山城，布设防人，并加速向中央集权律令制国家转型",
+      "context": "因深恐唐朝与新罗渡海报复，中大兄皇子（天智天皇）在北九州修筑水城与大野城等要塞，配置防人与烽燧，迁都近江大津宫并编纂《庚午年籍》，迅速奠定了律令国家的基石。",
+      "verdict": "学界高度共识",
+      "sources": [
+        {
+          "title": "白村江之战 - 日本大百科全书",
+          "url": "https://kotobank.jp/word/%E7%99%BD%E6%9D%91%E6%B1%9F%E3%81%AE%E6%88%A6%E3%81%84-118837",
+          "publisher": "小学馆",
+          "type": "reference"
+        },
+        {
+          "title": "特别史迹 水城迹·大野城迹 - 日本文化厅国指定文化财数据库",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2665",
+          "publisher": "日本文化厅",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bb-baekje-restoration-collapse",
+      "claim": "百济复国军因高层激烈内讧自相残杀，在白村江战败后复国运动彻底终结",
+      "context": "据《三国史记》新罗本纪、百济本纪及《三国遗事》记载，复国阵营中福信杀道琛、扶馀丰诛福信，内部骨肉相残严重削弱了战斗力，随后被唐罗联军彻底荡平。",
+      "verdict": "官方记载明确",
+      "sources": [
+        {
+          "title": "三国史记 - 韩国国史编纂委员会数据库",
+          "url": "https://db.history.go.kr/",
+          "publisher": "韩国国史编纂委员会",
+          "type": "archive"
+        },
+        {
+          "title": "百济复国运动 - 韩国民族文化大百科事典",
+          "url": "http://encykorea.aks.ac.kr/Contents/Item/E0022067",
+          "publisher": "韩国学中央研究院",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "bb-east-asia-order",
+      "claim": "白江口之战确立了大唐在东亚的朝贡册封权威，促使日本重新遣使通好并全面吸收中华律令文明",
+      "context": "战后唐朝在半岛设置都督府巩固宗主地位，日本转入防御与和平修好路线，多次派出遣唐使积极吸纳唐朝的律令法规、典章体制与佛教文化。",
+      "verdict": "学界高度共识",
+      "sources": [
+        {
+          "title": "古代东亚国际秩序与白江口之战 - 东京大学机构知识库",
+          "url": "https://repository.dl.itc.u-tokyo.ac.jp/",
+          "publisher": "东京大学",
+          "type": "academic"
+        },
+        {
+          "title": "中国古代对外关系史 - 中国社会科学院",
+          "url": "http://cass.cn/",
+          "publisher": "中国社会科学院",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

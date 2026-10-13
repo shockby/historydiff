@@ -1,0 +1,85 @@
+{
+  "eventId": "battle-of-baekgang",
+  "notes": [
+    {
+      "id": "bb-naval-battle-outcome",
+      "claim": "In the 663 AD Battle of Baekgang, Tang-Silla allied naval forces decisively crushed the Yamato fleet using fire tactics, burning 400 ships",
+      "context": "Both the Japanese chronicle Nihon Shoki (Tenji chapter) and the Chinese Old Book of Tang (Biography of Liu Rengui) corroborate that Tang naval forces trapped the Yamato fleet, setting fire to 400 vessels and staining the sea red.",
+      "verdict": "Officially Recorded",
+      "sources": [
+        {
+          "title": "Nihon Shoki - National Diet Library Digital Collections",
+          "url": "https://dl.ndl.go.jp/pid/1286957",
+          "publisher": "National Diet Library",
+          "type": "archive"
+        },
+        {
+          "title": "Old Book of Tang, Vol. 84, Biography of Liu Rengui - Chinese Text Project",
+          "url": "https://ctext.org/wiki.pl?if=gb&res=628045",
+          "publisher": "Chinese Text Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "bb-japan-defense-reforms",
+      "claim": "Following the catastrophic defeat, Yamato fundamentally overhauled national defense, constructing water fortresses, mountain castles, and creating a centralized Ritsuryo state",
+      "context": "Fearing a direct invasion from the Tang-Silla alliance, Crown Prince Naka no Oe (Emperor Tenji) erected the Mizuki defense dike and mountain fortresses in northern Kyushu, stationed border guards (Sakimori), and expedited administrative reforms such as the Otsu capital relocation.",
+      "verdict": "Academic Consensus",
+      "sources": [
+        {
+          "title": "Battle of Baekgang - Encyclopedia Nipponica",
+          "url": "https://kotobank.jp/word/%E7%99%BD%E6%9D%91%E6%B1%9F%E3%81%AE%E6%88%A6%E3%81%84-118837",
+          "publisher": "Shogakukan",
+          "type": "reference"
+        },
+        {
+          "title": "Special Historic Site Mizuki and Ono Castle Ruins - Agency for Cultural Affairs",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2665",
+          "publisher": "Agency for Cultural Affairs",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bb-baekje-restoration-collapse",
+      "claim": "The Baekje Restoration Movement self-destructed due to violent leadership infighting before being decisively extinguished at Baekgang",
+      "context": "The Samguk Sagi and Samguk Yusa record that factional strife resulted in Gwisil Boksin murdering monk Dochim, followed by Prince Buyeo Pung executing Boksin, fatally fracturing the movement before the allied offensive.",
+      "verdict": "Officially Recorded",
+      "sources": [
+        {
+          "title": "Samguk Sagi - National Institute of Korean History Database",
+          "url": "https://db.history.go.kr/",
+          "publisher": "National Institute of Korean History",
+          "type": "archive"
+        },
+        {
+          "title": "Baekje Restoration Movement - Encyclopedia of Korean Culture",
+          "url": "http://encykorea.aks.ac.kr/Contents/Item/E0022067",
+          "publisher": "Academy of Korean Studies",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "bb-east-asia-order",
+      "claim": "The Battle of Baekgang cemented the Tang dynasty's regional tributary supremacy and stimulated Yamato's diplomatic engagement and adoption of Chinese legal institutions",
+      "context": "Following the war, the Tang established commanderies over former Baekje and Goguryeo territories. Yamato pivoted to peaceful diplomacy, receiving Tang envoys and dispatching Kentoshi missions to absorb Ritsuryo governance models.",
+      "verdict": "Academic Consensus",
+      "sources": [
+        {
+          "title": "Ancient East Asian Order and the Battle of Baekgang - University of Tokyo Repository",
+          "url": "https://repository.dl.itc.u-tokyo.ac.jp/",
+          "publisher": "University of Tokyo",
+          "type": "academic"
+        },
+        {
+          "title": "History of Ancient Chinese Foreign Relations - CASS",
+          "url": "http://cass.cn/",
+          "publisher": "Chinese Academy of Social Sciences",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

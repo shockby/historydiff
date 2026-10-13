@@ -1,0 +1,85 @@
+{
+  "eventId": "battle-of-baekgang",
+  "notes": [
+    {
+      "id": "bb-naval-battle-outcome",
+      "claim": "663年の白村江（白江口）の戦いにおいて、唐・新羅連合水軍が火攻め等により倭国船団400隻を焼き払い壊滅的打撃を与えた",
+      "context": "『日本書紀』（天智天皇紀）および『旧唐書』（劉仁軌伝）の双方に、唐水軍が陣形を整えて倭軍船団を挟撃し、400隻の舟を焼き払い海を赤く染めた戦闘経過が一致して記録されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "日本書紀 - 国立国会図書館デジタルコレクション",
+          "url": "https://dl.ndl.go.jp/pid/1286957",
+          "publisher": "国立国会図書館",
+          "type": "archive"
+        },
+        {
+          "title": "旧唐書 巻84 劉仁軌伝 - 中華典蔵",
+          "url": "https://ctext.org/wiki.pl?if=gb&res=628045",
+          "publisher": "中国哲学書電子化計画",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "bb-japan-defense-reforms",
+      "claim": "白村江の大敗を契機として倭国（日本）は国防体制を再構築し、水城・大野城の築造や防人配置を行い、中央集権律令国家体制へ移行した",
+      "context": "敗戦後の唐・新羅による反攻を恐れた中大兄皇子（天智天皇）は、北九州に水城や朝鮮式山城を築造し、防人を配備したほか、近江大津宮遷都や庚午年籍作成など古代律令国家の骨格を急速に整えた。",
+      "verdict": "学術的合意あり",
+      "sources": [
+        {
+          "title": "白村江の戦い - 日本大百科全書（ニッポニカ）",
+          "url": "https://kotobank.jp/word/%E7%99%BD%E6%9D%91%E6%B1%9F%E3%81%AE%E6%88%A6%E3%81%84-118837",
+          "publisher": "小学館",
+          "type": "reference"
+        },
+        {
+          "title": "特別史跡 水城跡・大野城跡 - 文化庁 国指定文化財等データベース",
+          "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/2665",
+          "publisher": "文化庁",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bb-baekje-restoration-collapse",
+      "claim": "百済復興軍は内部の主導権争い（福信と道琛、扶余豊の暗闘）により自滅し、白村江での敗戦によって百済復興運動は完全に終焉した",
+      "context": "『三国史記』新羅本紀・百済本紀および『三国遺事』によれば、復興軍内部で福信が道琛を殺し、扶余豊が福信を処刑した内紛が記録されており、その直後に羅唐連合軍に各個撃破された。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "三国史記 - 韓国国史編纂委員会 한국사데이터베이스",
+          "url": "https://db.history.go.kr/",
+          "publisher": "韓国国史編纂委員会",
+          "type": "archive"
+        },
+        {
+          "title": "백제부흥운동(百濟復興運動) - 한국민족문화대백과사전",
+          "url": "http://encykorea.aks.ac.kr/Contents/Item/E0022067",
+          "publisher": "한국학중앙연구원",
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "bb-east-asia-order",
+      "claim": "白村江の戦いは大唐帝国の東アジアにおける冊封・朝貢体制を不動のものとし、のちの遣唐使再開と日本側の律令制受容につながった",
+      "context": "戦後、唐は百済・高句麗の旧領に都督府を設置し、倭国も郭務悰ら唐の使節団を受け入れつつ平和外交へと舵を切り、律令制を導入して東アジア秩序に適応した。",
+      "verdict": "学術的合意あり",
+      "sources": [
+        {
+          "title": "古代東アジアの国際秩序と白村江の戦い - 東京大学学術機関リポジトリ",
+          "url": "https://repository.dl.itc.u-tokyo.ac.jp/",
+          "publisher": "東京大学",
+          "type": "academic"
+        },
+        {
+          "title": "中国古代对外关系史 - 中国社会科学院",
+          "url": "http://cass.cn/",
+          "publisher": "中国社会科学院",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -77,7 +77,8 @@ historydiff/
 │   ├── images/                   # 역사 사진 및 사료 이미지
 │   └── og/                       # 자동 생성된 소셜 미디어 OGP 미리보기 이미지
 ├── scripts/
-│   └── generate_og_images.py     # OGP 이미지 일괄 생성 스크립트
+│   ├── generate_og_images.py     # OGP 이미지 일괄 생성 스크립트
+│   └── migrate_photos_to_r2.py   # 사진을 Cloudflare R2로 이전하는 스크립트
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 다국어 라우팅
@@ -229,6 +230,10 @@ python3 translate_ko.py
 
 # 3. 전체 이벤트 및 메인 페이지의 동적 OGP 이미지 일괄 생성
 python3 scripts/generate_og_images.py
+
+# 4. 로컬 참조 사진을 Cloudflare R2에 업로드하고 photos.json의 URL을 교체
+# (사전에 `wrangler login` 등으로 인증, `--dry-run`으로 미리 확인 가능)
+python3 scripts/migrate_photos_to_r2.py
 ```
 
 ---

@@ -77,7 +77,8 @@ historydiff/
 │   ├── images/                   # 歴史写真・資料画像
 │   └── og/                       # 自動生成された動的OGP画像
 ├── scripts/
-│   └── generate_og_images.py     # OGP画像一括生成スクリプト
+│   ├── generate_og_images.py     # OGP画像一括生成スクリプト
+│   └── migrate_photos_to_r2.py   # 写真をCloudflare R2へ移行するスクリプト
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 多言語ルーティング
@@ -231,6 +232,10 @@ python3 translate_ko.py
 
 # 3. 全イベントおよびトップページの動的OGP画像を生成
 python3 scripts/generate_og_images.py
+
+# 4. ローカル参照の写真を Cloudflare R2 へアップロードし photos.json の URL を書き換え
+# （事前に `wrangler login` 等で認証。`--dry-run` で事前確認可）
+python3 scripts/migrate_photos_to_r2.py
 ```
 
 ---

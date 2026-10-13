@@ -77,7 +77,8 @@ historydiff/
 │   ├── images/                   # Historical photographs and archival media
 │   └── og/                       # Generated dynamic OGP images
 ├── scripts/
-│   └── generate_og_images.py     # Batch OGP image generation script
+│   ├── generate_og_images.py     # Batch OGP image generation script
+│   └── migrate_photos_to_r2.py   # Script to migrate photos to Cloudflare R2
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js internationalized routing
@@ -230,6 +231,10 @@ python3 translate_ko.py
 
 # 3. Generate dynamic OGP social preview images for all events and home pages
 python3 scripts/generate_og_images.py
+
+# 4. Upload locally referenced photos to Cloudflare R2 and rewrite URLs in photos.json
+# (authenticate first, e.g. `wrangler login`; use `--dry-run` to preview)
+python3 scripts/migrate_photos_to_r2.py
 ```
 
 ---

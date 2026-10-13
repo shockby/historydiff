@@ -1,0 +1,101 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "japanese-invasions-of-korea-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "秀吉の朝鮮出兵は、国内の過剰な武力を外に向けた無謀な侵略戦争であり、朝鮮半島の人々に計り知れない惨禍をもたらした。自国の領土拡大の野望が招いた破滅的な結末を歴史の教訓とすべきだ。",
+        "en": "Hideyoshi's invasions were a reckless war of aggression driven by domestic imperial hubris that brought immeasurable tragedy to the Korean peninsula. The catastrophic collapse of his campaign serves as an enduring cautionary lesson.",
+        "zh": "丰臣秀吉发动侵朝战争是封建领主对外转嫁军力过剩的狂妄侵略，给朝鲜军民带来了深重苦难。这场扩张主义的惨败应被铭记为深刻的历史教训。",
+        "ko": "히데요시의 조선 침략은 국내 무사들의 팽창욕을 외부로 표출한 무모한 침략전쟁이었으며 조선 민중에게 헤아릴 수 없는 참화를 안겼다. 침략의 파멸적 결말을 역사의 교훈으로 삼아야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日本の歴史愛好家や教育関係者の間で、客観的な反省と戦争の悲劇を直視する論調。",
+        "en": "Discussions among Japanese historians and educators emphasizing ethical reflection and acknowledging war atrocities.",
+        "zh": "日本历史学者与严肃舆论中反思封建军国狂热与侵略罪责的代表性观点。",
+        "ko": "일본 내 역사 연구자 및 양심적 시민사회에서 침략 행위를 반성적으로 조명하는 논조."
+      },
+      "keywords": [
+        "#文禄慶長の役",
+        "#朝鮮出兵",
+        "#豊臣秀吉",
+        "#耳塚"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "japanese-invasions-of-korea-voice-2",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "壬辰倭乱は祖国の存亡をかけた最大の試練だった。不敗の聖雄・李舜臣将軍と、命を捧げて立ち上がった名もなき義兵たちの崇高な救国精神は、今も民族の誇りであり永遠に継承されるべきだ。",
+        "en": "The Imjin War was the supreme existential trial of our nation. The immortal naval triumphs of Admiral Yi Sun-sin and the sacrifice of righteous armies remain the bedrock of national pride and sovereignty.",
+        "zh": "壬辰倭乱是关乎民族生死存亡的浩劫。常胜不败的圣雄李舜臣将军与奋不顾身的草根义兵所展现的卫国精神，是值得世代永续铭记的民族脊梁。",
+        "ko": "임진왜란은 민족 최대의 국망 위기였다. 불패의 성웅 이순신 장군과 목숨을 던진 무명의 의병들이 보여준 숭고한 구국 정신은 오늘날에도 변함없는 민족의 자긍심이자 귀감이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国の国民世論やメディアにおいて、李舜臣将軍への深い敬意と自衛国防の重要性を説く主流の論調。",
+        "en": "Widespread South Korean popular sentiment venerating Admiral Yi and emphasizing patriotic self-reliance.",
+        "zh": "韩国社会主流舆论高度敬仰李舜臣保家卫国英姿并强调自强国防的崇高基调。",
+        "ko": "한국 대중문화와 역사 여론 전반에서 이순신 장군과 의병 항쟁을 기리는 주류 여론."
+      },
+      "keywords": [
+        "#임진왜란",
+        "#이순신",
+        "#거북선",
+        "#의병"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "japanese-invasions-of-korea-voice-3",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "万暦朝鮮之役は、明朝が宗主国の道義を果たし属国を救った正義の「抗倭援朝」戦争だ。李如松や鄧子龍ら明軍将兵の奮戦が東アジア秩序を守ったが、その軍費負担が明清交代の引き金となった歴史の重みも忘れてはならない。",
+        "en": "The Wanli Campaign was a righteous war to defend an allied state and regional peace against Japanese aggression. While the sacrifices of commanders like Li Rusong and Deng Zilong preserved tributary stability, the fiscal drain fundamentally reshaped East Asian history by catalyzing the Ming-Qing transition.",
+        "zh": "万历援朝之战是大明王朝践行宗主国大义、抗击侵略的壮烈义战。李如松、邓子龙等将士的英勇牺牲成功御敌于国门之外，但辽东防务消耗亦成为明末地缘格局演变与清朝崛起的重大枢纽。",
+        "ko": "만력조선지의는 명나라가 종번의 의리를 지키고 왜적을 격퇴한 정의로운 '항왜원조'였다. 이여송과 등자룡 등 명군 장병들의 희생이 동아시아 질서를 지켰으나, 이로 인한 재정 소진이 명청교체의 도화선이 된 역사적 무게도 함께 되새겨야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国の歴史フォーラムやネット論壇における、大国としての軍事支援の誇りと王朝交替史への関心。",
+        "en": "Chinese discussions celebrating Ming military valor, alliance loyalty, and its role as a pivotal prelude to the dynastic transition.",
+        "zh": "中国历史网络社区中肯定明军援朝正义性、探讨火器与骑兵战术、以及深究明清兴亡关系的代表性论述。",
+        "ko": "중국 역사 포럼에서 조·명 연합작전의 의의와 명말 청초 거시적 판도 변화를 연결짓는 견해."
+      },
+      "keywords": [
+        "#万历朝鲜之役",
+        "#抗倭援朝",
+        "#李如松",
+        "#露梁海战"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

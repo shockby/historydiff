@@ -45,6 +45,7 @@ export const eventCoords: Record<string, LatLng> = {
   'volhynia-massacre': { lat: 50.74, lng: 25.32 },       // Volhynia, Western Ukraine
   'ww2-asia': { lat: 35.0, lng: 115.0 },                 // Mainland China (general)
   'mongol-invasions-of-japan': { lat: 33.6, lng: 130.3 }, // Hakata Bay / Tsushima Strait
+  'japanese-invasions-of-korea': { lat: 36.5, lng: 127.8 }, // Korean Peninsula (Imjin War)
   'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
   'taiwan-un-resolution': { lat: 23.5, lng: 121.0 },     // Taiwan
   'western-sahara': { lat: 24.0, lng: -13.0 },           // Western Sahara
@@ -124,6 +125,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   'unit731': { region: 'asia', subRegion: 'east-asia' },
   'ww2-asia': { region: 'asia', subRegion: 'east-asia' },
   'mongol-invasions-of-japan': { region: 'asia', subRegion: 'east-asia' },
+  'japanese-invasions-of-korea': { region: 'asia', subRegion: 'east-asia' },
 
   // ── Southeast Asia & Oceania (4) ──
   'myanmar-civil-war': { region: 'asia', subRegion: 'southeast-asia' },

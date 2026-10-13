@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "cr-paris-signing",
-      "url": "/images/events/climate-responsibility/paris-agreement-signing.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/climate-responsibility/paris-agreement-signing.jpg",
       "caption": {
         "ja": "2016年4月22日、国連本部でパリ協定に署名するケリー米国務長官（当時）。協定は全締約国が自国の削減目標を提出する方式を採用した。",
         "en": "US Secretary of State John Kerry signing the Paris Agreement at UN Headquarters on 22 April 2016. The accord has every party submit its own emissions pledge.",
@@ -19,7 +19,7 @@
     },
     {
       "id": "cr-india-coal-plant",
-      "url": "/images/events/climate-responsibility/adani-tirora-coal-plant.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/climate-responsibility/adani-tirora-coal-plant.jpg",
       "caption": {
         "ja": "インド・マハラシュトラ州の石炭火力発電所（アダニ・ティローラ）。インドは電力需要の拡大に石炭を活用しつつ、2070年ネットゼロを掲げている。",
         "en": "Adani Tirora coal-fired power station in Maharashtra, India. India relies on coal to meet rising power demand while pledging net-zero by 2070.",

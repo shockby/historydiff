@@ -118,7 +118,7 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
 ```
 
 **写真の調達・配置手順**:
-※ Wikimedia Commons等の外部画像を直接ホットリンク（`upload.wikimedia.org`）して使用すると、リファラー制限やHTTP 400エラー等で読み込めないため、必ずCloudflare R2（CDN）にコピーするか、ローカルに配置して使用すること。
+※ Wikimedia Commons等の外部画像を直接ホットリンク（`upload.wikimedia.org`）して使用すると、リファラー制限やHTTP 400エラー等で読み込めないため、必ずCloudflare R2（CDN）にコピーして使用すること（ローカルファイルも `public/images/events/` に残す）。
 1. `https://commons.wikimedia.org/wiki/Category:<EventName>` でカテゴリを検索する
 2. 個別ファイルページでライセンス（`CC BY-SA 4.0` または `Public Domain` を優先）と作者名を確認する
 3. 画像ファイルをダウンロードする：
@@ -126,21 +126,21 @@ source: "<情報源の種別（例: 日本の高校歴史教科書（一般的�
    - **レートリミット対策**: 連続リクエスト時はリクエスト間に 1〜2 秒のウェイトを設ける。
    - **SVG 画像の扱い**: SVG はサムネイル API（`iiprop=url&iiurlwidth=1920`）でレンダリング済み高解像度 PNG/JPG を取得するか、ラスタ形式（PNG/JPG）を優先する。
    - **画像サイズ最適化**: ダウンロード後、Pillow 等で最大 1920x1920 px 以内にリサイズし、ファイルサイズを軽量化（目安 1MB 前後）する。
-4. ダウンロードした画像を配置する。方法として以下のいずれかを選択する：
-   - **R2 CDN方式**: Cloudflare R2バケット（`historydiff-photos`）の `events/<event-id>/` 配下にアップロードする
-   - **ローカル配置方式 (推奨/代替)**: AIエージェントなどR2へのアップロード権限がない場合やR2の画像が破損している場合は、ローカルの `public/images/events/<event-id>/` ディレクトリ配下に保存する。
-5. **R2 アップロードコマンド** (`--remote` フラグ必須、リトライ推奨):
-   ```bash
-   # ⚠️ --remote を省略するとローカルエミュレータに書き込まれ、本番 R2 に反映されない
-   # 一時的なネットワーク瞬断（fetch failed）に備え、スクリプト実行時はリトライ（2〜3回）を推奨
-   ./node_modules/.bin/wrangler r2 object put historydiff-photos/events/<event-id>/<filename> \
-     --file=public/images/events/<event-id>/<filename> \
-     --content-type=image/jpeg \
-     --remote
-   ```
-6. `photos.json` の `url` フィールドには、画像のパスを指定する：
-   - R2 CDN方式: `https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/<event-id>/<filename>`
-   - ローカル配置方式: `/images/events/<event-id>/<filename>`
+4. ダウンロードした画像を `public/images/events/<event-id>/<filename>` に保存する。**ローカルファイルは削除せず、常に残す**（R2 のバックアップ・再アップロード元を兼ねる）
+5. **R2 へアップロードする（必須）**。すべての画像は Cloudflare R2 バケット（`historydiff-photos`）の `events/<event-id>/` 配下から配信する：
+   - **認証**: `./node_modules/.bin/wrangler whoami` でログイン状態を確認する。未ログインなら `./node_modules/.bin/wrangler login`（ブラウザ OAuth）を実行する。`wrangler login` が使えない環境（CI・ヘッドレス）では、環境変数 `CLOUDFLARE_API_TOKEN`（R2 編集権限）と `CLOUDFLARE_ACCOUNT_ID` を設定する。
+   - **一括移行スクリプト（推奨）**: `photos.json` に `/images/...` のローカル参照が残っている場合は、`python3 scripts/migrate_photos_to_r2.py` を実行する。アップロード（リトライ付き）→ R2 URL の HTTP 200 確認 → `photos.json` の URL 書き換えまでを自動で行う（`--dry-run` で事前確認可）。
+   - **個別アップロードコマンド** (`--remote` フラグ必須、リトライ推奨):
+     ```bash
+     # ⚠️ --remote を省略するとローカルエミュレータに書き込まれ、本番 R2 に反映されない
+     # 一時的なネットワーク瞬断（fetch failed）に備え、スクリプト実行時はリトライ（2〜3回）を推奨
+     ./node_modules/.bin/wrangler r2 object put historydiff-photos/events/<event-id>/<filename> \
+       --file=public/images/events/<event-id>/<filename> \
+       --content-type=image/jpeg \
+       --remote
+     ```
+6. `photos.json` の `url` フィールドには、必ず R2 の URL を指定する（`/images/...` のローカルパスは使わない）：
+   `https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/<event-id>/<filename>`
 7. ローカルサーバーを起動するか、ビルドを実行して画像が正常に表示されるか確認する
    - **CDN URL の疎通確認**: HEAD / GET リクエストで R2 URL をテストする際、Cloudflare のボット保護により User-Agent なしだと `403 Forbidden` になるため、必ず `User-Agent: Mozilla/5.0` などのヘッダーを付与して HTTP 200 を確認する。
 

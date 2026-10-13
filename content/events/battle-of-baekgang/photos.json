@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "mizuki-ruins-dike",
-      "filename": "mizuki-ruins-fukuoka.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/battle-of-baekgang/mizuki-ruins.jpg",
       "caption": {
         "ja": "特別史跡 水城跡（福岡県太宰府市・大野城市）。白村江の戦いで大敗を喫した中大兄皇子が、唐・新羅の侵攻に備えて664年に博多湾側に築造させた全長約1.2kmの大防塁。",
         "en": "Special Historic Site Mizuki (Water Fortress) Ruins in Fukuoka. Following the crushing defeat at Baekgang, Crown Prince Naka no Oe erected this 1.2-km defensive dike in 664 AD to defend against a potential Tang-Silla invasion.",
@@ -11,16 +11,15 @@
         "ko": "특별사적 미즈키(水城) 유적(일본 후쿠오카현 다자이후시·오노조시). 백촌강 참패 이후 나당연합군의 일본 침공에 대비하여 나카노오에 황자가 664년에 축조한 총길이 약 1.2km의 거대 방어 둑."
       },
       "source": {
-        "title": "Wikimedia Commons",
-        "url": "https://commons.wikimedia.org/wiki/File:Mizuki_Earthwork_01.jpg",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International",
-        "author": "Wikimedia Commons Contributor"
-      },
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/battle-of-baekgang/mizuki-ruins.jpg"
+        "title": "Wikimedia Commons: Earthwork of Mizuki Castle Ruins 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Earthwork_of_Mizuki_Castle_Ruins_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "おがひろ (Wikimedia Commons Contributor)"
+      }
     },
     {
       "id": "emperor-tenji-portrait",
-      "filename": "emperor-tenji-portrait.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/battle-of-baekgang/emperor-tenji.jpg",
       "caption": {
         "ja": "天智天皇像。中大兄皇子として大化の改新を断行し、白村江の敗戦後は防人や水城を整備し、近江令や庚午年籍を定めて日本古代の律令国家建設を主導した第38代天皇。",
         "en": "Portrait of Emperor Tenji. As Crown Prince Naka no Oe, he spearheaded the Taika Reforms; after the Baekgang defeat, he fortified national defenses and centralized the ancient Japanese state under the Ritsuryo code.",
@@ -28,12 +27,11 @@
         "ko": "덴지 천황 초상화. 나카노오에 황자 시절 다이카 개신을 주도하였으며, 백촌강 패전 후 국방 요새화와 율령 제도 정비를 통해 고대 일본 국가 체제를 확립한 제38대 천황."
       },
       "source": {
-        "title": "Wikimedia Commons",
+        "title": "Wikimedia Commons: Emperor Tenji.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:Emperor_Tenji.jpg",
         "license": "Public Domain",
         "author": "Public Domain (Historical Depiction)"
-      },
-      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/battle-of-baekgang/emperor-tenji.jpg"
+      }
     }
   ]
 }

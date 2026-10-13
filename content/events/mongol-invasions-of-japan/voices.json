@@ -1,0 +1,130 @@
+{
+  "eventId": "mongol-invasions-of-japan",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "mongol-invasions-of-japan-voice-1",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "元寇は日本が未曾有の国難を武士団の団結と防塁、そして神風によって跳ね返した歴史的防衛戦だ。対馬や壱岐の犠牲を決して忘れてはならない。",
+        "en": "The Mongol Invasions were a historic defensive struggle in which Japan repelled an existential crisis through samurai unity, stone fortifications, and the divine winds. The sacrifices of Tsushima and Iki must never be forgotten.",
+        "zh": "元寇是日本依靠武士阶层的团结、石垒工事以及神风，成功击退前所未有国家危机的历史性防卫战。对马和壹岐军民的牺牲绝不容遗忘。",
+        "ko": "몽골 습래는 일본이 무사단의 단결과 방루, 신풍에 힘입어 미증유의 국난을 물리친 역사적인 국방 전쟁이다. 쓰시마와 이키의 희생을 결코 잊어서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "日本の歴史愛好家コミュニティやSNSで、鎌倉武士の武勇や対馬・壱岐防衛の悲壮さを称える論調。",
+        "en": "Online discussions celebrating samurai martial valor, defensive perseverance, and mourning the victims on Tsushima and Iki.",
+        "zh": "日本历史爱好者社区及社交媒体上赞颂镰仓武士英勇与坚守的舆论。",
+        "ko": "일본 역사 애호가 커뮤니티 및 SNS에서 가마쿠라 무사의 무용과 국난 극복을 강조하는 여론."
+      },
+      "keywords": [
+        "#元寇",
+        "#蒙古襲来",
+        "#対馬防衛",
+        "#神風"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "mongol-invasions-of-japan-voice-2",
+      "country": {
+        "ja": "モンゴル",
+        "en": "Mongolia",
+        "zh": "蒙古",
+        "ko": "몽골"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "クビライ・カアンの東方遠征は、ユーラシア大帝国が海上貿易網を統合しようとした壮大な試みだ。台風という自然の猛威によって阻まれたが、当時の帝国のスケールの大きさを象徴している。",
+        "en": "Kublai Khan's eastern campaigns represented an ambitious effort by the Eurasian world empire to integrate global maritime trade networks. Though halted by violent typhoons, it reflects the colossal reach of the empire.",
+        "zh": "忽必烈大汗的东征是欧亚世界帝国整合海上贸易网络的宏伟尝试。虽因遭遇极端台风而受挫，却展现了当时大元帝国的世界级视野与规模。",
+        "ko": "쿠빌라이 카안의 동방 원정은 유라시아 세계 제국이 해상 교역망까지 통합하려 했던 원대한 시도였다. 거대한 태풍으로 좌절되었으나 당시 제국의 스케일을 보여준다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "モンゴル史研究者や国際歴史フォーラムにおける、世界史的スケールでの遊牧帝国評価。",
+        "en": "Discussions among Eurasian history scholars evaluating the campaigns within the broader scope of global empire building.",
+        "zh": "欧亚历史讨论中从世界帝国演进宏观角度评价大汗海洋战略的观点。",
+        "ko": "유라시아 제국사 관점에서 대원 울루스의 해양 팽창 정책을 학술적으로 조명하는 시각."
+      },
+      "keywords": [
+        "#KublaiKhan",
+        "#MongolEmpire",
+        "#EurasianHistory"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "mongol-invasions-of-japan-voice-3",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "元日戦争は元朝皇帝の過度な拡張主義と使節処刑への懲罰であったが、江南の民衆にとっては過酷な造船と兵糧徴発を強いた災難でもあった。海戦技術の高さと台風による悲劇が記録されている。",
+        "en": "The Yuan-Japan Wars were driven by imperial overexpansion and retaliation for envoy executions, but brought profound suffering to southern Chinese civilians forced into shipbuilding. Historical records clearly document both advanced naval technology and the tragic typhoon catastrophe.",
+        "zh": "元日战争既是封建帝王过度的对外用兵，也因日本斩杀使节而起。但这给江南造船工匠与百姓带来了沉重劳役与苦难。先进的火药战舰技术与遭遇风暴的惨烈结局同样发人深省。",
+        "ko": "원일전쟁은 황제의 과도한 팽창욕과 사신 처형에 대한 응징이 복합된 것이었으나, 강남 백성들에게는 가혹한 조선 부역과 군량 징발의 재앙이었다. 앞선 화약 기술과 비극적 태풍 조우가 함께 기록되어 있다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "中国のネット論壇や歴史フォーラムにおける、古代外交秩序と民衆負担の両面を見据えた分析。",
+        "en": "Historical discussions examining both ancient Sinocentric diplomatic protocol and civilian burdens under imperial conscription.",
+        "zh": "中国历史论坛上结合古代外交礼仪、江南民生负担及航海火器技术展开的综合评议。",
+        "ko": "중국 역사 포럼에서 조공 외교 질서와 강남 민중의 부역 고통을 함께 짚는 견해."
+      },
+      "keywords": [
+        "#元日战争",
+        "#忽必烈",
+        "#造船与火器",
+        "#江南军"
+      ],
+      "timeframe": "2020-2024"
+    },
+    {
+      "id": "mongol-invasions-of-japan-voice-4",
+      "country": {
+        "ja": "韓国",
+        "en": "South Korea",
+        "zh": "韩国",
+        "ko": "한국"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "高麗はモンゴルの過酷な侵略に屈服させられた末、日本遠征の軍船建造と兵力提供を強制された。多大な犠牲を払わされた高麗民衆こそが最大の被害者であり、侵略の手先と単純視されるべきではない。",
+        "en": "Having surrendered after thirty years of devastating Mongol invasions, Goryeo was coerced into constructing warships and providing troops. The people of Goryeo, who bore catastrophic sacrifices, were tragic victims of imperial aggression.",
+        "zh": "高丽是在惨遭蒙古铁蹄蹂躏降服后，被迫承担建造数百艘战船和派兵参战的重负。蒙受巨大牺牲的高丽百姓是帝国扩张的无辜受害者，绝不能被简单定性为侵略帮凶。",
+        "ko": "고려는 30년 대몽항쟁 끝에 굴복한 뒤 원나라의 강압에 의해 전함 건조와 군사 징집을 강요당했다. 막대한 희생을 치른 고려 민중이야말로 제국주의적 침략의 최대 피해자이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "韓国の歴史教育や世論において、自国がモンゴル覇権の強制動員による被害者であったことを明確にする視点。",
+        "en": "South Korean historiographical emphasis highlighting Goryeo's coerced mobilization under Mongol hegemony and civilian suffering.",
+        "zh": "韩国历史学界和网络舆论中，着重强调高丽受制于蒙元强权而被迫卷入战争的苦难记忆。",
+        "ko": "한국의 역사 교육 및 여론에서 몽골의 강압적 동원과 고려 민중의 희생을 규명하는 주류 시각."
+      },
+      "keywords": [
+        "#여몽연합군",
+        "#고려의수난",
+        "#정동행성",
+        "#강제동원"
+      ],
+      "timeframe": "2020-2024"
+    }
+  ]
+}

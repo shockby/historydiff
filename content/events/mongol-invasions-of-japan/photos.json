@@ -1,0 +1,39 @@
+{
+  "eventId": "mongol-invasions-of-japan",
+  "photos": [
+    {
+      "id": "moko-shurai-ekotoba-suenaga",
+      "filename": "Takezaki_Suenaga_Moko_Shurai_Ekotoba.jpg",
+      "caption": {
+        "ja": "『蒙古襲来絵詞』（前巻絵四）。肥後国の御家人・竹崎季長が奮戦する様子と、炸裂する「てつはう」（火薬兵器）、元軍の弓兵が描かれた著名な場面（宮内庁三の丸尚蔵館所蔵）。",
+        "en": "Scene from the 'Moko Shurai Ekotoba' (Illustrated Scrolls of the Mongol Invasions), depicting samurai Takezaki Suenaga advancing on horseback against Yuan soldiers and an exploding gunpowder bomb (tetsuhau).",
+        "zh": "《蒙古袭来绘词》（前卷绘四）。描绘了肥后国御家人竹崎季长策马力战、元军射箭以及爆炸的火药武器“铁炮”的经典历史画卷（日本宫内厅三之丸尚藏馆藏）。",
+        "ko": "《몽골습래회사》(전권 그림 4). 히고국의 고케닌 다케자키 수에나가가 말을 타고 분전하는 모습과 작렬하는 '철포'(화약 무기), 원나라 군사의 모습이 묘사된 대표적인 장면."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Takezaki_Suenaga_Moko_Shurai_Ekotoba.jpg",
+        "license": "Public Domain",
+        "author": "Takezaki Suenaga / Unknown (13th Century)"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/mongol-invasions-of-japan/moko-shurai-ekotoba-suenaga.jpg"
+    },
+    {
+      "id": "genko-borui-hakata",
+      "filename": "Genko_Borui_Hakata_Stone_Wall.jpg",
+      "caption": {
+        "ja": "福岡市博多湾沿岸に現存する「元寇防塁」（国の史跡）。弘安の役（1281年）に備えて鎌倉幕府が築かせた約20キロメートルに及ぶ石築地で、元軍の上陸を完全に阻止した。",
+        "en": "Remains of the Genko Borui (Mongol Defense Wall) in Hakata, Fukuoka. A 20-kilometer stone rampart built by the Kamakura shogunate before 1281 that successfully repelled Yuan amphibious landings.",
+        "zh": "位于福冈市博多湾沿岸留存的“元寇防垒”（日本国指定史迹）。镰仓幕府为防备弘安之役（1281年）而修筑的长达约20公里的石筑防御工事，彻底阻断了元军的滩头登陆。",
+        "ko": "후쿠오카시 하카타만 연안에 현존하는 '원구방루'(국가 사적). 1281년 고안의 역에 대비하여 가마쿠라 막부가 축조한 약 20km의 석축 방벽으로, 연합군의 상륙을 완전히 저지했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Genko_borui_in_Imazu.jpg",
+        "license": "Creative Commons Attribution-ShareAlike 3.0",
+        "author": "Wikimedia User"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/mongol-invasions-of-japan/genko-borui-hakata.jpg"
+    }
+  ]
+}

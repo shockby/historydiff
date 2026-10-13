@@ -1,0 +1,73 @@
+{
+  "eventId": "mongol-invasions-of-japan",
+  "notes": [
+    {
+      "id": "mi-bunei-koan-dates",
+      "claim": "The combined Yuan-Goryeo forces invaded Japan twice, in the Bun'ei War (1274) and the Koan War (1281)",
+      "context": "Fleet armadas dispatched under orders of Kublai Khan assaulted Tsushima, Iki, and Hakata Bay twice: in October 1274 (~30,000 troops) and between May and August 1281 (~140,000 troops across Eastern Route and Gangnan Armies). Confronted with samurai defenses and catastrophic storms, the invasion forces suffered crushing losses and retreated.",
+      "verdict": "Officially Documented",
+      "sources": [
+        {
+          "title": "Mongol invasions of Japan - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+          "publisher": "Wikipedia",
+          "type": "reference"
+        },
+        {
+          "title": "Moko Shurai (Mongol Invasions) - Cultural Heritage Online",
+          "url": "https://bunka.nii.ac.jp/",
+          "publisher": "Agency for Cultural Affairs, Government of Japan",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mi-goryeo-shipbuilding",
+      "claim": "Goryeo was coerced by the Yuan Dynasty into building 900 warships within months and providing troops and provisions",
+      "context": "Preparing for the 1274 invasion, Kublai Khan commanded Goryeo to construct 900 vessels within four months. Forced conscription of carpenters, timber logging, and grain requisitions brought acute exhaustion and famine to Goryeo, as recorded throughout the Goryeosa. Substantial burdens were imposed again for the 1281 campaign.",
+      "verdict": "Officially Documented",
+      "sources": [
+        {
+          "title": "History of Goryeo (Goryeosa) - National Institute of Korean History Database",
+          "url": "https://db.history.go.kr/",
+          "publisher": "National Institute of Korean History",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mi-kamikaze-typhoon",
+      "claim": "Samurai coastal fortifications and rushed, defective ships contributed alongside typhoons to the Mongol fleet's destruction",
+      "context": "While pre-modern Japanese tradition attributed salvation exclusively to divine typhoons ('Kamikaze'), modern historical research and underwater excavations at the Takashima Kozaki site in Imari Bay confirm that samurai resistance behind the Hakata defensive wall, poor nautical construction of rushed ships, epidemics, and logistical shortfalls were crucial composite factors.",
+      "verdict": "Academic Consensus",
+      "sources": [
+        {
+          "title": "Takashima Kozaki Underwater Archaeological Site Excavation Report",
+          "url": "https://www.city.matsuura.lg.jp/",
+          "publisher": "Matsuura City Board of Education",
+          "type": "government"
+        },
+        {
+          "title": "Truth of the Mongol Invasions - Kyushu University Repository",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "Kyushu University",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "mi-envoys-execution",
+      "claim": "The Kamakura shogunate executed five Yuan imperial envoys including Du Shizhong at Tatsunokuchi in 1275",
+      "context": "In 1275, a diplomatic delegation led by Du Shizhong (Vice Minister of Rites) and He Wenxiu (Military Bureau Director) arrived to renew demands for submission. The Kamakura regent Hojo Tokimune ordered them arrested, escorted to Kamakura, and beheaded at the Tatsunokuchi execution ground. This execution outraged the Yuan court and directly precipitated the 1281 invasion.",
+      "verdict": "Officially Documented",
+      "sources": [
+        {
+          "title": "History of Yuan, Volume 208, Biography 95: Japan",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "Chinese Text Project",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

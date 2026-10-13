@@ -1,0 +1,75 @@
+{
+  "eventId": "nanjing-death-toll",
+  "notes": [
+    {
+      "id": "ndt-30万-origin",
+      "claim": "희생자수 「30만명 이상」은 난징군사법정의 판결에 근거",
+      "context": "30만명이라는 숫자는 1947년 남경군사법정(국방부심판전범군사법정)의 판결로 인정된 숫자이다. 법정은 홍비자회·숭선당 등의 매장기록, 생존자 증언, 국제안전구 기록을 종합해 집단살해 19만명 이상 + 개별살해 15만명 이상 = 총 30만명 이상으로 인정했다. 난징대학살기념관에도 이 숫자가 새겨져 있다.",
+      "verdict": "법정 기록에 근거",
+      "sources": [
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "침화일군 난징대 도살살 난동포 기념관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ndt-tokyo-trial-20万",
+      "claim": "도쿄 재판에서는 「20만명 이상」이라고 인정되었다",
+      "context": "극동국제군사재판(도쿄재판, 1946-48년)은 난징 공략 후 6주간 기간에 '20만명 이상' 중국인민간인과 포로가 살해됐다고 인정했다. 남경군사법정의 '30만명 이상'과는 10만명의 차이가 있다. 동시기의 두 법정에서 인정수가 다른 것은 희생자수 확정의 어려움을 나타내고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "ndt-definition-scope",
+      "claim": "희생자 수의 차이는 \"희생자\"의 정의의 차이에도 기인한다",
+      "context": "희생자 수의 추정은 전제 조건의 정의에 따라 크게 다르다. 지리적 범위(난징성 내 혹은 근교 6현을 포함할 것인가), 시간적 범위(점령 직후의 몇 주일인가 1938년 3월경까지인가), 대상자의 범위(민간인만인가, 포로나 패잔병을 포함하는가)에 의해, 같은 자료로부터도 다른 결론이 이끌어질 수 있다. 이 정의의 차이를 무시하고 숫자 만 비교하는 것은 학술적으로 부적절합니다.",
+      "verdict": "배경 정보",
+      "sources": [
+        {
+          "title": "『난징 사건』 (일본어)",
+          "url": "https://www.chuko.co.jp/shinsho/2007/07/102420.html",
+          "publisher": "중공신서(秦郁彦)",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-burial-records",
+      "claim": "매장 기록이 희생자 수 추계의 중요한 1차 자료이다",
+      "context": "난징 함락 후의 시신을 매장한 주요 단체는 홍유자회(약 4만3천체)와 숭선당(약 11만2천체)이다. 홍유자회의 기록은 비교적 신뢰성이 높다고 하지만, 숭선당의 기록에 대해서는, 동 단체가 난징 함락시에 활동을 정지하고 있어, 기록의 일부가 사후적으로 작성되었을 가능성이 있다고 일본의 일부 연구자가 신뢰성에 의문을 제기하고 있다. 중국 연구자는 이에 반박했고, 숭선당은 1938년 활동을 재개해 대규모 매장 작업을 했다고 주장하고 있다.",
+      "verdict": "자료의 평가에 논의 있음",
+      "sources": [
+        {
+          "title": "'난징 사건 논쟁사' (일본어)",
+          "url": "https://www.heibonsha.co.jp/",
+          "publisher": "平凡社 신서(가사와라 주쿠지)",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "ndt-iris-chang",
+      "claim": "아이리스 장의 저서가 미국의 일반인식에 큰 영향을 미쳤다",
+      "context": "아이리스 장(張純如)의 저서 『The Rape of Nanking: The Forgotten Holocaust of World War II』(1997년)는 뉴욕 타임즈의 베스트셀러리스트에 10주간 들어가 난징 사건의 미국에서의 인지도를 비약적으로 높였다. 이 책은 30만명 이상의 희생자라는 입장을 취했다. 다만 학술적으로는 일부 사실 오인이나 사진 자료의 오용이 지적되고 있으며 역사학자에 의한 평가는 나뉘어져 있다.",
+      "verdict": "영향력은 사실, 내용에 일부 논의 있음",
+      "sources": [
+        {
+          "title": "The Rape of Nanking: The Forgotten Holocaust of World War II",
+          "url": "https://www.penguinrandomhouse.com/books/55764/the-rape-of-nanking-by-iris-chang/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

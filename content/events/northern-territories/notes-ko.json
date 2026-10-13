@@ -1,0 +1,161 @@
+{
+  "eventId": "northern-territories",
+  "notes": [
+    {
+      "id": "nt-shimoda-treaty-1855",
+      "claim": "1855년 '일러통호조약'에서 택포도와 울프섬 사이에 국경을 획정",
+      "context": "1855년 2월 7일(안정 원년 12월 21일), 시모다에서 체결. 일본과 러시아는 처음으로 국경을 공식적으로 획정하고, 택포도 이남을 일본령, 울프섬 이북을 러시아령으로 했다. 사타에 대해서는 양국민의 혼주의 땅으로 되었다. 일본에서는 이 조약 체결일에 연관되어, 2월 7일을 「북방 영토의 날」로 하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "북방 영토 문제의 경위(외무성)",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        },
+        {
+          "title": "日魯通好条約(디지털 아카이브) (일본어)",
+          "url": "https://www.digital.archives.go.jp/",
+          "publisher": "국립 공문서관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nt-karafuto-chishima-1875",
+      "claim": "1875년의 「자타·치지마 교환 조약」에서 치시마 열도(울프 이북)를 일본령으로 했다",
+      "context": "1875년 5월 7일 페테르부르크에서 체결. 일본은 자타 전도에 대한 권리를 포기하고 대신 우루프 섬에서 슈무쉬 섬까지 북천도 18 섬을 러시아에서 양도했다. 일본의 주장에서는 이 협약에서 교환된 '치시마'에 북방 4섬은 포함되지 않는다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "사타 · 치시마 교환 조약",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-yalta-agreement-1945",
+      "claim": "1945년 야르타 회담에서 “크릴 제도가 소련으로 인도된다”는 것이 합의",
+      "context": "1945년 2월, 루즈벨트(미), 처칠(영), 스탈린(서)의 3 정상에 의한 야르타 회담에서, 소련의 대일 참전의 조건으로서 치지마 열도의 소련에의 인도가 비밀리에 합의되었다. 일본은 이 회담에 참가하지 않고 합의에 대한 법적 구속력에 대해서는 미·일간에도 논의가 있다. 미국은 나중에 \"정상 개인의 목표 성명이며 최종적인 법적 효력을 가진 것은 아니다\"라는 해석을 나타냈다.",
+      "verdict": "문서는 존재(법적 구속력에 논의)",
+      "sources": [
+        {
+          "title": "Yalta Agreement, February 11, 1945",
+          "url": "https://avalon.law.yale.edu/wwii/yalta.asp",
+          "publisher": "Yale Law School - Avalon Project",
+          "type": "archive"
+        },
+        {
+          "title": "The Yalta Conference, 1945",
+          "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-soviet-neutrality-violation",
+      "claim": "소련은 유효했던 '일소 중립조약'을 위반하여 대일 참전",
+      "context": "닛소 중립조약(1941년 체결, 유효기간 5년)은 소련이 1945년 4월 5일에 불연장을 통고했지만, 그 규정상은 1946년 4월까지 유효했다. 소련은 1945년 8월 8일에 대일 선전 포고를 하고, 다음 9일에 침공을 시작했다. 국제법상의 조약 위반 여부에 대해서는 논의가 있다. 소련 측은 일본 포츠담 선언 거부를 이유로 참전의 정당성을 주장했다.",
+      "verdict": "역사적 사실(평가에 차이)",
+      "sources": [
+        {
+          "title": "닛소 중립조약",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-sf-treaty-kuriles",
+      "claim": "샌프란시스코 평화조약에서 일본은 ‘치지마 열도’를 포기했지만 북방 4섬은 포함되지 않는다고 해석",
+      "context": "1951년의 샌프란시스코 평화조약 제2조(c)에서 일본은 ‘치시마 열도(Kurile Islands)’를 포기. 그러나 조약은 '치지마 열도'의 범위를 정의하지 않았으며 포기처 국가명도 명기하지 않았다. 일본 정부는 당초 국회답변(1951년 10월, 니시무라 조약국장)에서 '치시마 열도'에 국후·택착을 포함한 취지의 발언을 했지만, 그 후 1956년에 견해를 수정해 북방 4섬은 '치시마 열도'에 포함되지 않는다는 입장을 확립했다. 이 경위 자체가 러시아 측의 반론에 사용되는 경우가 있다.",
+      "verdict": "조약은 존재(해석에 차이)",
+      "sources": [
+        {
+          "title": "Treaty of Peace with Japan (San Francisco Peace Treaty)",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        },
+        {
+          "title": "북방 영토 문제에 관한 일본 정부의 입장",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-1956-joint-declaration",
+      "claim": "1956년의 일서 공동선언에서 치무·색탄의 인도가 합의",
+      "context": "1956년 10월 19일에 서명된 일소공동선언 제9항에서 소련은 평화조약의 체결 후에 치무군도와 색단도를 일본에 인도하는 것에 동의했다. 이 선언은 양국의 국회(최고회의)에서 비준되어 법적 구속력을 가진다. 다만, 택착섬과 쿠니고지마에 대해서는 언급되지 않았다. 푸틴 대통령은 2018년 “인도 후 주권이 어느 쪽에 귀속될지는 명기되지 않았다”고 발언했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "日소공동선언(전문)",
+          "url": "https://www.mofa.go.jp/region/europe/russia/territory/index.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        },
+        {
+          "title": "닛소 공동선언(내각부 북방대책본부)",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "내각부",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-dulles-memo-1956",
+      "claim": "미국 국무성이 1956년 북방 4섬은 '고유의 일본 영토'라는 견해를 표명",
+      "context": "1956년 9월 7일, 달레스 국무장관은 각서에서 택착·국후 양도는 치무·색단과 함께 고유의 일본 영토이며 일본의 주권하에 있는 것으로 인정되어야 한다고 표명했다. 이 각서의 배경에는 닛소 공동선언에서 니시마 반환으로 타협하려는 일본 정부에 대해 미국이 전 요시마의 반환을 요구하도록 압력을 가했다(이른바 '달레스의 치유')라는 외교적 맥락이 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "북방 영토 문제에 관한 미국의 입장",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "내각부 북방 대책 본부",
+          "type": "government"
+        },
+        {
+          "title": "Foreign Relations of the United States (FRUS)",
+          "url": "https://history.state.gov/historicaldocuments",
+          "publisher": "U.S. Department of State - Office of the Historian",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-2020-constitution",
+      "claim": "2020년 러시아 연방헌법 개정으로 영토할양을 금지하는 조항이 추가",
+      "context": "2020년 7월에 발효한 러시아 연방 헌법 개정에 있어서 제67조에 「러시아 연방의 영토의 할양을 위한 행동 및 이를 위한 호소는 허용되지 않는다」라는 조항이 추가되었다. 이는 사실상 북방영토교섭에 대한 국내법적인 제약이 될 것으로 해석된다. 다만 러시아 정부는 이것이 평화조약 협상을 방해하지 않는다고 한다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Constitution of the Russian Federation (2020 Amendments)",
+          "url": "http://www.constitution.ru/en/10003000-01.htm",
+          "publisher": "Constitution of Russia",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "nt-potsdam-timing",
+      "claim": "일본이 포츠담 선언 수락 후 소련군이 북방 4섬을 점령",
+      "context": "일본의 포츠담 선언 수락 표명은 1945년 8월 14일(항복 문서 서명은 9월 2일). 소련군의 북방 4섬에의 침공은 8월 28일(택포도)에서 9월 5일(치무군도)에 걸쳐 행해졌다. 일본은 전투 종료 후 점령은 국제법상의 정당성을 가지지 않는다고 주장. 러시아는 항복문서 서명(9월 2일)까지 전쟁 상태가 계속됐다고 반박하고 있다.",
+      "verdict": "일시는 확인 완료(법적 평가에 차이)",
+      "sources": [
+        {
+          "title": "북방 영토의 역사(내각부)",
+          "url": "https://www8.cao.go.jp/hoppo/en/index.html",
+          "publisher": "내각부 북방 대책 본부",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

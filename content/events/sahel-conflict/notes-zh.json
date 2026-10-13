@@ -1,0 +1,105 @@
+{
+  "eventId": "sahel-conflict",
+  "notes": [
+    {
+      "id": "sahel-2012-tuareg-jihadist-origins",
+      "claim": "2011年利比亚内战失败后，武器大量涌入，引发了图阿雷格独立起义和马里北部圣战分子的崛起。",
+      "context": "2011年利比亚卡扎菲政权垮台后，全副武装的图阿雷格武装分子充当雇佣兵，大量武器涌入马里北部。 2012年初，阿扎瓦德民族解放运动（MNLA）宣布独立，但不久后就失去对安萨尔迪恩、伊斯兰马格里布基地组织（AQIM）等伊斯兰极端组织的控制，马里北部主要城市（廷巴克图、加奥、基达尔）被严格伊斯兰教法控制。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "联合国安理会——秘书长关于马里局势的报告（S/2012/843）",
+          "url": "https://undocs.org/S/2012/843",
+          "publisher": "联合国安理会",
+          "type": "international"
+        },
+        {
+          "title": "国际危机组织-马里：避免升级",
+          "url": "https://www.crisisgroup.org/africa/west-africa/mali/mali-avoiding-escalation",
+          "publisher": "国际危机组织（ICG）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-french-serval-barkhane",
+      "claim": "法国军队实施“薮猫行动”和“巴卡尼行动”，但未能阻止恐怖主义蔓延，引发强烈反法舆论。",
+      "context": "2013年1月，为阻止极端分子向首都巴马科南下，法军发起“薮猫行动”，迅速收复北部城市。次年，即 2014 年，该行动扩大并重组为新月形行动，覆盖萨赫勒五个国家（萨赫勒五国集团）。然而，以军事为中心的清理行动未能解决治理和贫困的根本问题，暴力蔓延至布基纳法索和尼日尔。由于驻扎持续时间较长，当地舆论强烈谴责这是“前殖民列强的新殖民干预”。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "法国武装部队 - 萨赫勒地区的薮猫行动和新月形行动",
+          "url": "https://www.defense.gouv.fr/operations/afrique/sahel/dossier-de-presentation-de-l-operation-barkhane",
+          "publisher": "法国国防部（Minisère des Armées）",
+          "type": "government"
+        },
+        {
+          "title": "战略与国际研究中心（CSIS）——新月形沙丘行动的结束和萨赫勒地区反恐的未来",
+          "url": "https://www.csis.org/analysis/end-operation-barkhane",
+          "publisher": "战略与国际研究中心（CSIS）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sahel-military-coups-aes",
+      "claim": "马里、布基纳法索、尼日尔等国在安全局势恶化的背景下发生一系列政变，萨赫勒国家联盟成立。",
+      "context": "军方对其无力恢复公共秩序感到愤怒，导致马里（2020/2021：戈伊塔上校）、布基纳法索（2022：特拉奥雷上尉）和尼日尔（2023：基亚尼将军）发生一系列军事政变。 2023年9月，各个军事政权取消了法国军事驻扎协议，撤离了联合国马里稳定团，并创建了共同防御协议——萨赫勒国家联盟（AES）。此外，该国于2024年初宣布退出西非国家经济共同体（西非经共体），实施制裁，以恢复文官统治。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "萨赫勒国家联盟宪章 (AES)",
+          "url": "https://www.actuniger.com/politique/19597-charte-du-liptako-gourma-instituant-l-alliance-des-etats-du-sahel-aes.html",
+          "publisher": "萨赫勒国家联盟（AES）官方宪章",
+          "type": "government"
+        },
+        {
+          "title": "西非经共体关于布基纳法索、马里和尼日尔退出通知的公报",
+          "url": "https://ecowas.int/",
+          "publisher": "西非国家经济共同体（西非经共体）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sahel-russian-shift-wagner",
+      "claim": "AES国家放弃与西方的安全协定，全力推进与俄罗斯的军事合作（瓦格纳/非洲军团）。",
+      "context": "驱逐法国军队和美国特种部队的马里、布基纳法索和尼日尔军政府迅速加强与莫斯科的安全合作。俄罗斯政府直接控制的私营军事公司“瓦格纳集团”（普里戈任去世后改组为俄罗斯国防部下属的“非洲军团”）的数千名战士被派往前线，保护政权并消灭叛乱。另一方面，联合国和人权组织指控严重侵犯人权，包括 2022 年 3 月发生的马里毛拉大屠杀（造成数百名平民死亡）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "人权高专办关于马里莫拉事件的实况调查团报告（2023 年 5 月）",
+          "url": "https://www.ohchr.org/en/documents/country-reports/mali-moura-investigation-report",
+          "publisher": "联合国人权事务高级专员办事处（人权高专办）",
+          "type": "international"
+        },
+        {
+          "title": "美国国会研究服务处——俄罗斯在萨赫勒地区的足迹不断扩大",
+          "url": "https://crsreports.congress.gov/",
+          "publisher": "国会研究服务处（CRS）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sahel-jihadist-factions-humanitarian-toll",
+      "claim": "由于基地组织附属机构（JNIM）和伊斯兰国附属机构（ISGS）之间的冲突和恐怖主义，萨赫勒地区已有超过 300 万人流离失所。",
+      "context": "在萨赫勒地区，基地组织附属的伊斯兰和穆斯林支持团（JNIM）和大撒哈拉伊斯兰国（ISGS）加大了对村庄、路障和简易爆炸装置（IED）的袭击力度。据联合国人道协调厅和难民署称，仅在萨赫勒中部地区（布基纳法索、马里和尼日尔西部）就有超过 300 万人在境内流离失所，数千所学校因极端分子的恐吓而关闭，数百万人面临严重的饥饿危机（IPC 第三阶段及以上）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "联合国难民署 - 中萨赫勒流离失所危机数据",
+          "url": "https://data.unhcr.org/en/situations/sahelcrisis",
+          "publisher": "联合国难民事务高级专员办事处（UNHCR）",
+          "type": "international"
+        },
+        {
+          "title": "ACLED - 萨赫勒暴力指数和死亡趋势",
+          "url": "https://acleddata.com/category/sahel/",
+          "publisher": "武装冲突地点和事件数据项目（ACLED）",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,9 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "es": "Lo siguiente resume las tendencias de opinión general en las redes sociales. Se trata de opiniones personales, no de hechos verificados."
+    "es": "Lo siguiente resume las tendencias de opinión general en las redes sociales. Se trata de opiniones personales, no de hechos verificados.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
@@ -11,19 +13,25 @@
       "country": {
         "ja": "イギリス",
         "en": "United Kingdom",
-        "es": "Reino Unido"
+        "es": "Reino Unido",
+        "zh": "英格兰",
+        "ko": "영국"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "フォークランドはイギリスの島だ。1982年にアルゼンチンが武力侵攻を試み、我々は戦って守り抜いた。2013年の住民投票でも99.8%がイギリスへの残留を選んだ。この民主的な意思こそが全てだ。",
         "en": "The Falklands are British. Argentina tried to take them by force in 1982, and we fought to keep them. In 2013, 99.8% of islanders voted to stay British. That democratic will is what matters above all else.",
-        "es": "Las Malvinas son británicas. Argentina intentó tomarlas por la fuerza en 1982 y luchamos para conservarlas. En 2013, el 99,8% de los isleños votó por seguir siendo británicos. Esa voluntad democrática es lo que más importa."
+        "es": "Las Malvinas son británicas. Argentina intentó tomarlas por la fuerza en 1982 y luchamos para conservarlas. En 2013, el 99,8% de los isleños votó por seguir siendo británicos. Esa voluntad democrática es lo que más importa.",
+        "zh": "福克兰群岛是英国的一个岛屿。 1982年，阿根廷企图武装入侵，我们战斗并保卫了我们的国家。 2013年公投中，99.8%的人投票支持留在英国。这种民主意志就是一切。",
+        "ko": "포클랜드는 영국의 섬이다. 1982년 아르헨티나가 무력 침공을 시도했고, 우리는 싸우고 지켜냈다. 2013년 주민투표에서도 99.8%가 영국에 잔류를 택했다. 이 민주적인 의사야말로 전부다."
       },
       "prevalence": "high",
       "context": {
         "ja": "毎年4月2日（アルゼンチンの「マルビナスの日」）前後や、英国国内でフォークランド関連ニュースが報じられる際に、英国SNSで強く発信される意見。",
         "en": "Opinion strongly expressed on British social media around April 2 (Argentina's Malvinas Day) each year, or whenever Falklands-related news is reported in the UK.",
-        "es": "Opinión expresada con fuerza en las redes sociales británicas en torno al 2 de abril (Día de los Caídos/Malvinas en Argentina) cada año, o cuando se informa sobre noticias relacionadas con las Malvinas en el Reino Unido."
+        "es": "Opinión expresada con fuerza en las redes sociales británicas en torno al 2 de abril (Día de los Caídos/Malvinas en Argentina) cada año, o cuando se informa sobre noticias relacionadas con las Malvinas en el Reino Unido.",
+        "zh": "每年4月2日（阿根廷马尔维纳斯日）左右，当英国报道与马岛有关的新闻时，英国社交媒体上都会强烈表达这种观点。",
+        "ko": "매년 4월 2일(아르헨티나의 「마르비너스의 날」) 전후나, 영국 국내에서 포클랜드 관련 뉴스가 보도될 때, 영국 SNS에서 강하게 발신되는 의견."
       },
       "keywords": [
         "#FalklandsArebritish",
@@ -37,19 +45,25 @@
       "country": {
         "ja": "アルゼンチン",
         "en": "Argentina",
-        "es": "Argentina"
+        "es": "Argentina",
+        "zh": "阿根廷",
+        "ko": "아르헨티나"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "マルビナスはアルゼンチンのものだ。1833年にイギリスが不法に占領し、今も植民地支配を続けている。英雄たちの犠牲を忘れない。マルビナスは過去も、現在も、未来も永遠にアルゼンチン領だ。",
         "en": "Las Malvinas son argentinas. Britain illegally seized them in 1833 and continues its colonial occupation to this day. We will never forget the sacrifice of our heroes. The Malvinas were, are, and always will be Argentine.",
-        "es": "Las Malvinas son argentinas. Gran Bretaña las ocupó ilegalmente en 1833 y continúa su ocupación colonial hasta hoy. No olvidamos el sacrificio de nuestros héroes. Las Malvinas fueron, son y serán argentinas."
+        "es": "Las Malvinas son argentinas. Gran Bretaña las ocupó ilegalmente en 1833 y continúa su ocupación colonial hasta hoy. No olvidamos el sacrificio de nuestros héroes. Las Malvinas fueron, son y serán argentinas.",
+        "zh": "马尔维纳斯来自阿根廷。英国于1833年非法占领该国，并继续维持殖民统治。我们永远不会忘记英雄们的牺牲。马尔维纳斯过去、现在和将来都是阿根廷领土。",
+        "ko": "말비나스는 아르헨티나 출신이다. 영국은 1833년 불법적으로 이 나라를 점령했으며 계속해서 식민 통치를 유지하고 있습니다. 우리는 영웅들의 희생을 결코 잊지 않을 것입니다. 말비나스는 과거에도 그랬고 지금도 그러하며 영원히 아르헨티나 영토가 될 것입니다."
       },
       "prevalence": "high",
       "context": {
         "ja": "毎年4月2日の「マルビナスの日」（アルゼンチン退役軍人の日）前後や、英国がマルビナスに関する強硬な発言をするたびにアルゼンチンのSNSで広範に発信される意見。",
         "en": "Opinion widely expressed on Argentine social media around April 2 (Argentina's Malvinas Veterans Day) each year, or whenever Britain makes strong statements about the Falklands.",
-        "es": "Opinión expresada ampliamente en las redes sociales argentinas en torno al 2 de abril (Día del Veterano y de los Caídos en la Guerra de Malvinas) cada año, o cuando Gran Bretaña hace declaraciones firmes sobre las islas."
+        "es": "Opinión expresada ampliamente en las redes sociales argentinas en torno al 2 de abril (Día del Veterano y de los Caídos en la Guerra de Malvinas) cada año, o cuando Gran Bretaña hace declaraciones firmes sobre las islas.",
+        "zh": "每年4月2日左右，即马尔维纳斯日（阿根廷退伍军人日），每当英国就马尔维纳斯群岛发表强硬声明时，这一观点就会在阿根廷社交媒体上广泛传播。",
+        "ko": "매년 4월 2일의 '마르비너스의 날'(아르헨티나 퇴역군인의 날) 전후나 영국이 마르비너스에 관한 강경한 발언을 할 때마다 아르헨티나의 SNS에서 광범위하게 발신되는 의견."
       },
       "keywords": [
         "#MalvinasArgentinas",
@@ -64,19 +78,25 @@
       "country": {
         "ja": "アルゼンチン",
         "en": "Argentina",
-        "es": "Argentina"
+        "es": "Argentina",
+        "zh": "阿根廷",
+        "ko": "아르헨티나"
       },
       "sentiment": "moderate",
       "summary": {
         "ja": "私はマルビナスがアルゼンチン領だと信じているが、軍事独裁政権が無謀にも戦争を始め、若者を無駄死にさせたことは憎む。主権回復は外交で実現すべきだ。あの戦争は政権の延命のための道具に使われた。",
         "en": "I believe the Malvinas are Argentine, but I despise how the military dictatorship recklessly started a war and sent our young men to their deaths. Recovering sovereignty should be achieved through diplomacy. That war was used as a tool to keep the regime alive.",
-        "es": "Creo que las Malvinas son argentinas, pero desprecio cómo la dictadura militar inició irresponsablemente una guerra y mandó a morir a nuestros jóvenes. La recuperación de la soberanía debe lograrse por vías diplomáticas. Esa guerra fue usada como herramienta para mantener al régimen."
+        "es": "Creo que las Malvinas son argentinas, pero desprecio cómo la dictadura militar inició irresponsablemente una guerra y mandó a morir a nuestros jóvenes. La recuperación de la soberanía debe lograrse por vías diplomáticas. Esa guerra fue usada como herramienta para mantener al régimen.",
+        "zh": "我相信马尔维纳斯是阿根廷的一部分，但我讨厌军事独裁肆意发动战争，让年轻人白白死去。恢复主权应通过外交手段实现。那场战争被用作延长政权寿命的工具。",
+        "ko": "나는 마르비나스가 아르헨티나령이라고 믿고 있지만, 군사독재 정권이 무모하게도 전쟁을 시작해 젊은이를 낭비 죽게 한 것은 미워한다. 주권 회복은 외교로 실현되어야 한다. 그 전쟁은 정권의 연명을 위한 도구로 사용되었다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "紛争40周年（2022年）前後に顕著になったアルゼンチン国内の批判的意見。軍事政権への批判と主権主張の両立を試みる複雑な立場を反映している。",
         "en": "Critical opinion that became prominent in Argentina around the 40th anniversary of the conflict (2022). Reflects the complex position of criticizing the military junta while maintaining the sovereignty claim.",
-        "es": "Opinión crítica que se destacó en Argentina en torno al 40 aniversario del conflicto (2022). Refleja la compleja postura de criticar a la junta militar mientras se mantiene el reclamo de soberanía."
+        "es": "Opinión crítica que se destacó en Argentina en torno al 40 aniversario del conflicto (2022). Refleja la compleja postura de criticar a la junta militar mientras se mantiene el reclamo de soberanía.",
+        "zh": "阿根廷国内的批评意见在冲突 40 周年（2022 年）前后变得突出。它反映了试图平衡对军政权的批评与主权主张的复杂立场。",
+        "ko": "분쟁 40주년(2022년) 전후에 현저해진 아르헨티나 국내의 비판적 의견. 군사정권에 대한 비판과 주권주장의 양립을 시도하는 복잡한 입장을 반영하고 있다."
       },
       "keywords": [
         "#Malvinas40",
@@ -90,19 +110,25 @@
       "country": {
         "ja": "フォークランド諸島（島民）",
         "en": "Falkland Islands (Islanders)",
-        "es": "Islas Malvinas (Isleños)"
+        "es": "Islas Malvinas (Isleños)",
+        "zh": "福克兰群岛（岛民）",
+        "ko": "포클랜드 제도(섬민)"
       },
       "sentiment": "pro-british",
       "summary": {
         "ja": "私たちはフォークランド人であり、イギリス人だ。アルゼンチンは私たちを自分たちの「植民地的に移住させられた人々」と呼ぶが、私たちの家族はここに数世代にわたって暮らしてきた。私たちの自決の権利は絶対に尊重されなければならない。",
         "en": "We are Falkland Islanders, and we are British. Argentina calls us 'transplanted colonists,' but our families have lived here for generations. Our right to self-determination must be respected, absolutely.",
-        "es": "Somos isleños de las Malvinas y somos británicos. Argentina nos llama 'colonos trasplantados', pero nuestras familias han vivido aquí durante generaciones. Nuestro derecho a la autodeterminación debe ser respetado, de manera absoluta."
+        "es": "Somos isleños de las Malvinas y somos británicos. Argentina nos llama 'colonos trasplantados', pero nuestras familias han vivido aquí durante generaciones. Nuestro derecho a la autodeterminación debe ser respetado, de manera absoluta.",
+        "zh": "我们是福克兰人，我们是英国人。阿根廷称我们为“殖民地流离失所者”，我们的家人已经在这里生活了几代人。我们的自决权必须得到绝对尊重。",
+        "ko": "우리는 포클랜드인이고 영국인이다. 아르헨티나는 우리를 자신의 '식민지적으로 이주된 사람들'이라고 부르지만, 우리 가족은 여기 몇 세대에 걸쳐 살았습니다. 우리의 자결의 권리는 절대로 존중되어야 한다."
       },
       "prevalence": "high",
       "context": {
         "ja": "フォークランド諸島の島民は人口約3,700名で、その多くがイギリス系の家系を持つ。2013年住民投票後、自決権を国際社会に訴える声は特に高まっている。",
         "en": "The Falkland Islands have a population of approximately 3,700, many with British heritage. Since the 2013 referendum, voices advocating for their right to self-determination to the international community have grown particularly strong.",
-        "es": "Las Islas Falkland tienen una población de aproximadamente 3.700 habitantes, muchos de herencia británica. Desde el referéndum de 2013, las voces que abogan por su derecho a la autodeterminación ante la comunidad internacional se han fortalecido particularmente."
+        "es": "Las Islas Falkland tienen una población de aproximadamente 3.700 habitantes, muchos de herencia británica. Desde el referéndum de 2013, las voces que abogan por su derecho a la autodeterminación ante la comunidad internacional se han fortalecido particularmente.",
+        "zh": "福克兰群岛人口约 3,700 人，其中许多人有英国血统。 2013年公投后，国际社会要求民族自决权的呼声尤为强烈。",
+        "ko": "포클랜드 제도의 섬민은 인구 약 3,700명으로, 그 대부분이 영국계의 가계를 가진다. 2013년 주민투표 후 자결권을 국제사회에 호소하는 목소리는 특히 높아지고 있다."
       },
       "keywords": [
         "#FalklandIslands",

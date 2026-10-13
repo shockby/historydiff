@@ -1,0 +1,191 @@
+{
+  "eventId": "spratly-islands",
+  "notes": [
+    {
+      "id": "sp-nine-dash-line",
+      "claim": "중국은 ‘구단선(U자선)’ 안쪽에 역사적 권리를 가진다고 주장",
+      "context": "구단선은 1947년에 중화민국 정부가 발표한 지도상의 경계선(당초는 11단선). 남중국해의 약 80~90%를 둘러싸는 형태로 그려져 있다. 중화인민공화국도 이를 계승해 2009년 유엔에 정식으로 제출했다. 다만 9단선의 법적인 의미(영해의 주장인지 역사적 권리의 주장인지)에 대해 중국 정부 자신이 명확히 하고 있지 않다는 지적이 있다.",
+      "verdict": "지도는 존재(법적 의미에 논의)",
+      "sources": [
+        {
+          "title": "China's Nine-Dash Line: History, Status, and Implications",
+          "url": "https://www.uscc.gov/",
+          "publisher": "U.S.-China Economic and Security Review Commission",
+          "type": "government"
+        },
+        {
+          "title": "Note Verbale CML/17/2009 (China's submission to CLCS)",
+          "url": "https://www.un.org/depts/los/clcs_new/submissions_files/mysvnm33_09/chn_2009re_mys_vnm_e.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-2016-arbitration",
+      "claim": "2016년 헤이그 중재법원이 구단선 내 역사적 권리를 부정하는 판결을 내렸다.",
+      "context": "2016년 7월 12일 상설 중재법원은 '필리핀 대 중국' 사건(PCA Case No. 2013-19)에서 최종 판단을 내렸다. 중재정은 9단선에 근거한 역사적 권리의 주장에 법적 근거가 없다고 판단하고 중국이 필리핀의 EEZ 내에서 실시한 활동이 필리핀의 주권적 권리를 침해했다고 인정했다. 이 판단은 UNCLOS 당사국에 대하여 법적 구속력을 가진다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "The South China Sea Arbitration (The Republic of Philippines v. The People's Republic of China)",
+          "url": "https://pca-cpa.org/en/cases/7/",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        },
+        {
+          "title": "Award of 12 July 2016 (Full Text)",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "PCA Case Repository",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-china-rejects-ruling",
+      "claim": "중국은 중재판결을 “무효이며 법적 구속력을 갖지 않는다”며 받아들이기를 거부",
+      "context": "중국 외교부는 판결 당일에 성명을 발표하고, 중재정에는 관할권이 없고, 판결은 '종이 쓰레기'라고 선언했다. 중국은 UNCLOS 제298조의 선택적 제외선언에 따라 해양경계획정과 군사활동에 관한 분쟁은 강제적 중재의 대상외라고 주장했다. 다만 중재정은 이 점을 상세히 검토하고 관할권을 가진다고 판단하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Statement of the Ministry of Foreign Affairs of the People's Republic of China on the Award of 12 July 2016",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/201607/t20160712_679470.html",
+          "publisher": "Ministry of Foreign Affairs, PRC",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-artificial-islands",
+      "claim": "2013년 이후 중국은 대규모 인공섬을 조성하여 군사시설을 건설",
+      "context": "중국은 2013년 이후 남사제도의 7개의 암초(파이어리 크로스리프, 스빌리프, 미스티프리프 등)에서 대규모 매립을 실시. 3,000m급의 활주로 3개, 레이더 시설, 대공·대함 미사일의 전개가 위성 화상으로 확인되고 있다. 미국 싱크 탱크 CSIS의 'Asia Maritime Transparency Initiative (AMTI)'가 상세한 위성 이미지를 공개하고 있다.",
+      "verdict": "위성 이미지로 확인됨",
+      "sources": [
+        {
+          "title": "Island Tracker - Asia Maritime Transparency Initiative",
+          "url": "https://amti.csis.org/island-tracker/",
+          "publisher": "CSIS (Center for Strategic and International Studies)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sp-1988-johnson-reef",
+      "claim": "1988년의 붉은 암초(존슨 남초)에 있어서의 나카에츠간의 무력 충돌",
+      "context": "1988년 3월 14일, 적호초(존슨 남초)에서 베트남 해군과 중국 해군이 무력 충돌. 베트남 측은 64명이 사망, 중국 측의 피해는 소수로 된다. 이 충돌로 중국은 여러 암초를 점거했다. 사건의 영상은 중국 측에 기록돼 있어 후년에 공개됐다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "The Johnson South Reef Skirmish, 1988",
+          "url": "https://www.globalsecurity.org/military/world/war/spratly-1988.htm",
+          "publisher": "GlobalSecurity.org",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-1974-paracel-seizure",
+      "claim": "1974년 중국이 호안사 제도(서사제도)를 군사력으로 남베트남에서 탈취",
+      "context": "1974년 1월, 중국 인민해방군 해군은 남베트남 해군과 파라셀 제도(서사제도)에서 교전해, 이 제도 전체를 점령했다. 남 베트남 측은 약 70명이 사망·행방불명. 이 점령은 현재도 계속되고 있으며 베트남은 일관되게 불법 점거와 항의하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Battle of the Paracel Islands",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
+          "publisher": "Wikipedia",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "sp-pd1596",
+      "claim": "1978년 마르코스 대통령이 대통령령 제1596호에서 카라얀 군도를 필리핀으로 편입",
+      "context": "1978년 6월 11일 페르디난드 마르코스 대통령은 대통령령 제1596호를 발포하고 남사제도의 일부를 '칼라얀 군도 지자체(Municipality of Kalayaan)'로 팔라완주에 정식 편입했다. 현재도 필리핀 행정상의 지자체로서 존속하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Presidential Decree No. 1596",
+          "url": "https://www.officialgazette.gov.ph/1978/06/11/presidential-decree-no-1596-s-1978/",
+          "publisher": "Official Gazette of the Republic of the Philippines",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-san-francisco-1951",
+      "claim": "1951년 샌프란시스코 강의회의에서 베트남 대표가 추온사 호안사 양제도의 주권을 공식적으로 주장",
+      "context": "1951년 9월 샌프란시스코 강의회에서 남 베트남의 장 반 후 대표는 파라셀 제도와 스프라토리 제도에 대한 베트남의 주권을 선언했다. 회의에서는 이 발언에 대해 명확한 반대는 없었다. 다만, 이 조약은 이들 제도의 귀속처를 명기하지 않고, 일본의 영유권 포기만을 정했다.",
+      "verdict": "공식 기록 있음(귀속은 미확정)",
+      "sources": [
+        {
+          "title": "San Francisco Peace Treaty (1951) - Full Text",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20136/volume-136-I-1832-English.pdf",
+          "publisher": "United Nations Treaty Series",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-unclos-features",
+      "claim": "남사제도의 지형은 모두 UNCLOS상의 '섬'에 해당하지 않으며 EEZ를 생성할 수 없다",
+      "context": "2016년 중재판결에 있어서 중재정은 남사제도 최대의 자연의 지형인 이츠아바섬(태평도, 대만이 지배)을 포함하여 어느 지형도 UNCLOS 제121조 3항에 정하는 「섬」(인간의 거주 또는 독자적인 경제적 생활을 유지할 수 있는 지형)에는 해당하지 않는다. 이 때문에 12해리의 영해만을 생성하고 200해리 EEZ는 생성되지 않는다고 했다. 대만은 이 판단에 강하게 반발하고 있다.",
+      "verdict": "중재 판단 있음(일부 반발)",
+      "sources": [
+        {
+          "title": "Award of 12 July 2016 - PCA Case No. 2013-19",
+          "url": "https://pcacases.com/web/sendAttach/2086",
+          "publisher": "Permanent Court of Arbitration",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sp-us-philippines-mdt-2023",
+      "claim": "2023년 미국은 미 대비 상호방위조약이 남중국해에서 필리핀선, 항공기, 군에 대한 공격에 적용된다고 명언",
+      "context": "2023년 2월 미비 공동성명에서 바이덴 대통령은 “1951년 미비 상호방위조약 제4조는 남중국해를 포함한 태평양에서 필리핀의 군·공선·항공기가 무력 공격을 받았을 경우에 적용된다”고 명확히 말했다. 이것은 종래보다 밟은 표현이며, 중국의 보급선 방해나 필리핀군에의 직접적인 위협에 대한 억지력 강화를 의도하고 있다.",
+      "verdict": "공식 성명 있음",
+      "sources": [
+        {
+          "title": "U.S.-Philippines Joint Statement (February 2023)",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/02/02/joint-statement-of-president-joseph-r-biden-jr-and-president-ferdinand-r-marcos-jr/",
+          "publisher": "The White House",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-second-thomas-shoal",
+      "claim": "인애초(세컨드 토마스초)에서 중국해 경국이 필리핀 보급선에 대해 방수포·레이저 조사 등을 반복 행사",
+      "context": "필리핀은 1999년 이후 좌초시킨 BRP 시에라 마드레호에 소수의 해병대원을 주둔시키고, 인애초(세컨드 토마스 암초)의 실효 지배를 유지하고 있다. 중국해경국은 2023년~2024년에 걸쳐 필리핀 보급임무선에 대해 방수포 분사, 군용 등급 레이저 조사, 물리적 방해 행위를 반복했다. 필리핀 정부는 이러한 행위를 '불법적이고 침략적'으로 국제적으로 강하게 비난했다.",
+      "verdict": "영상 증거 있음 국제 문제화",
+      "sources": [
+        {
+          "title": "Asia Maritime Transparency Initiative - Second Thomas Shoal",
+          "url": "https://amti.csis.org/",
+          "publisher": "CSIS - Asia Maritime Transparency Initiative",
+          "type": "academic"
+        },
+        {
+          "title": "Philippine Coast Guard Press Releases on South China Sea Incidents",
+          "url": "https://coastguard.gov.ph/",
+          "publisher": "Philippine Coast Guard",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sp-fonop",
+      "claim": "미 해군은 ‘항행의 자유작전(FONOP)’으로 중국 인공섬 주변 12해리 이내에 정기적으로 함선을 파견",
+      "context": "FONOP은 UNCLOS 및 관습 국제법 하에서 연안국의 과잉 권리 주장에 이의를 제기하기 위해 미국 방성이 실시하는 작전. 남중국해에서는 2015년 이후 빈도가 증가하고 2023~2024년에는 연간 10회 이상 실시되고 있다. 중국은 FONOP를 '주권침해'로 비난해 해군·해경국의 함선에 의한 추적·경고를 해왔다. 미국 자신은 UNCLOS를 비비준이지만, 이 협약을 관습 국제법으로 존중한다는 입장을 취한다.",
+      "verdict": "공식 기록·실시 사실 있음",
+      "sources": [
+        {
+          "title": "Freedom of Navigation Program - Annual Reports",
+          "url": "https://policy.defense.gov/OUSDP-Offices/FON/",
+          "publisher": "U.S. Department of Defense",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

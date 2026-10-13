@@ -1,0 +1,127 @@
+{
+  "eventId": "kurdish-question",
+  "notes": [
+    {
+      "id": "kq-halabja-chemical",
+      "claim": "1988년 하라부자 화학무기 공격으로 사담 후세인 정권이 약 5,000명의 쿠르드인 시민을 살해했다",
+      "context": "1988년 3월 16~17일, 이라크군은 쿠르드인이 다수 거주하는 하라부자시에 겨자 가스와 신경제를 투하했다. 사망자 수는 추정 3,200~5,000명으로 되어 대부분이 민간인이었다. 이 사건은 나중에 이라크 고등 법정에서 제노사이드로 인정되었다. 미국 정부는 1988년 당시 대 이라크 정책상의 이유로 이 사건의 공식 비판을 앞두었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign Against the Kurds",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        },
+        {
+          "title": "Halabja chemical attack – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halabja_chemical_attack",
+          "publisher": "Wikipedia / 학술 참조 다수",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "kq-sevres-lausanne",
+      "claim": "1920년 세이블 조약은 쿠르드인 자치구의 창설을 정했지만, 1923년 로잔 조약에서 그 규정은 철회되었다",
+      "context": "세이블 협약 제62~64조는 쿠르드인이 다수 거주하는 지역에서 쿠르드인 자치 및 미래의 독립을 상정한 조항을 포함하고 있었다. 그러나 케말 아타튀르크가 이끄는 터키 민족운동이 연합국에 대해 군사적 승리를 거두었기 때문에 로잔 조약에서 쿠르드인 관련 조항은 일체 삭제되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Treaty of Sèvres (1920), Articles 62-64",
+          "url": "https://wwi.lib.byu.edu/index.php/Section_I,_Articles_1_-_260",
+          "publisher": "Brigham Young University WWI Document Archive",
+          "type": "archive"
+        },
+        {
+          "title": "Treaty of Lausanne (1923)",
+          "url": "https://avalon.law.yale.edu/20th_century/lausanne.asp",
+          "publisher": "Yale Avalon Project",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "kq-pkk-designation",
+      "claim": "PKK(클루디스탄 노동자당)는 터키·EU·미국에 의해 테러 조직으로 지정되어 있지만, 쿠르드인 측은 이를 정치적 탄압의 도구라고 비판한다",
+      "context": "PKK는 1984년 터키 정부에 대한 무장투쟁을 시작했다. 터키는 1980년대부터, EU는 2002년부터, 미국은 1997년부터 PKK를 테러 조직으로 지정하고 있다. 한편 PKK와 조직적 연결을 가진 것으로 여겨지는 시리아의 YPG는 미국이 ISIL 타도를 위해 가장 중요한 파트너로서 지원한 세력이며, 이 모순은 미국·터키 관계의 심각한 마찰점이 되고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "U.S. Department of State: Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        },
+        {
+          "title": "EU Terrorist List – PKK",
+          "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/terrorist-list/",
+          "publisher": "European Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "kq-un-688",
+      "claim": "유엔 안보리 결의 688(1991년)은 이라크의 쿠르드인 탄압을 '국제적 평화와 안전에 대한 위협'으로 한 최초의 인도적 개입 근거 중 하나이다.",
+      "context": "1991년 걸프전쟁 후 사담 후세인 정권은 시아파와 쿠르드인의 봉기를 무력 진압해 약 200만명의 쿠르드인이 난민화했다. 안보리는 결의 688을 10대 3으로 채택했다(반대: 쿠바 예멘 짐바브웨; 기권: 인도와 중국). 이는 내정불간섭 원칙의 예외로서 후속 인도적 개입론의 선례가 되었으나, 직접적인 군사수권은 포함하지 않았다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 688 (1991)",
+          "url": "https://digitallibrary.un.org/record/110659",
+          "publisher": "유엔 디지털 라이브러리",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "kq-rojava",
+      "claim": "시리아 북부의 쿠르드인 자치구 「로자바(북・동 시리아 자치국)」는 2012년 이후 독자적인 사회 제도를 형성하고 있지만, 그 지속 가능성은 불안정한 정세하에 있다",
+      "context": "시리아 내전의 혼란 속에서 쿠르드인 주도의 세력은 시리아 북부에 사실상 자치 지역을 확립했다. '민주적 연합주의'에 근거한 공동통치·여성참가·다민족공존을 내걸고 있지만 터키에 의한 정기적인 월경공격, 시리아 정부의 비승인, 국제적인 법적 지위 부족 등의 과제를 안고 있다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "International Crisis Group: The Kurdish Question in Syria",
+          "url": "https://www.crisisgroup.org/middle-east-north-africa/eastern-mediterranean/syria",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-japan-kurd-refugee",
+      "claim": "일본에 거주하는 터키 국적 쿠르드인의 난민 인정률은 매우 낮고, 대부분이 장기의 가방면 상태에 놓여 있다",
+      "context": "주로 사이타마현 가와구치시 이바라시에 거주하는 쿠르드인 커뮤니티는 일본 최대 규모의 쿠르드인 집주지구를 형성하고 있다. 일본의 난민 인정률은 OECD 국가 중에서 두드러지게 낮고(예년 1% 미만), 터키 국적 신청자의 인정률은 특히 낮다. 법무성 입관 행정과 인권단체 사이에서 인식의 괴리가 크다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "난민 인정 신청자 수·인정수(출입국 재류 관리청) (일본어)",
+          "url": "https://www.moj.go.jp/isa/publications/press/07_00035.html",
+          "publisher": "법무성 출입국 재류관리청",
+          "type": "government"
+        },
+        {
+          "title": "난민지원협회(JAR) 연차보고 (일본어)",
+          "url": "https://www.refugee.or.jp/",
+          "publisher": "인정 NPO 법인 난민 지원 협회",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "kq-anfal",
+      "claim": "이라크의 암팔 작전(1988~1989년)에서는 추정 5만~18만명의 쿠르드인이 살해 또는 행방불명이 되었다고 한다",
+      "context": "사담 후세인 정권의 종형제 아리 하산 알마지드가 지휘한 암팔 작전은 주로 1988년 2월부터 1989년 9월에 걸쳐 이라크의 쿠르드인 마을에 대해 행해진 조직적인 소탕·집단 학살·강제 이주를 수반하는 작전이었다. 사망자 수의 추정에는 큰 폭이 있지만, HRW는 \"적어도 5만명, 아마 그 이상\"이라고 기록하고 있다. 2006년 이라크 의회가 이를 제노사이드로 인정했다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Human Rights Watch: Genocide in Iraq – The Anfal Campaign",
+          "url": "https://www.hrw.org/reports/1993/iraqanfal/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    }
+  ]
+}

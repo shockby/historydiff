@@ -3,7 +3,8 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
@@ -11,19 +12,22 @@
       "country": {
         "ja": "クルド系市民（民族自決派）",
         "en": "Kurdish citizens (self-determination)",
-        "zh": "库尔德民众（民族自决派）"
+        "zh": "库尔德民众（民族自决派）",
+        "ko": "쿠르드계 시민(민족 자결파)"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "私たちは4,000万人もいるのに自分の国を持たない。セーヴル条約の約束は裏切られた。私たちに必要なのは同化ではなく、真の自決権か国家だ。",
         "en": "There are 40 million of us, yet we are denied our own state. The promise of the Treaty of Sèvres was betrayed. We need genuine self-determination, not assimilation.",
-        "zh": "我们有四千万人，却被剥夺了自己的国家。色佛尔条约的承诺被背叛了。我们需要真正的民族自决，而不是同化。"
+        "zh": "我们有四千万人，却被剥夺了自己的国家。色佛尔条约的承诺被背叛了。我们需要真正的民族自决，而不是同化。",
+        "ko": "우리는 4,000만명이나 있는데 자신의 나라가 없다. 세이블 협약의 약속은 배반되었다. 우리에게 필요한 것은 동화가 아니라 진정한 자결권이나 국가다."
       },
       "prevalence": "high",
       "context": {
         "ja": "欧米やイラク・クルディスタン地域、離散コミュニティのクルド人の間で広く共有される認識。",
         "en": "Widely shared among Kurds in the diaspora, Iraqi Kurdistan, and across the region.",
-        "zh": "在库尔德海外侨民、伊拉克库尔德斯坦地区及广大库尔德人中广泛流传。"
+        "zh": "在库尔德海外侨民、伊拉克库尔德斯坦地区及广大库尔德人中广泛流传。",
+        "ko": "구미나 이라크 쿠르디스탄 지역, 이산 커뮤니티의 쿠르드인들 사이에서 널리 공유되는 인식."
       },
       "keywords": [
         "#Kurdistan",
@@ -38,19 +42,22 @@
       "country": {
         "ja": "トルコ世論（治安・領土保全重視派）",
         "en": "Turkish public (security & territorial integrity)",
-        "zh": "土耳其舆论（治安与领土完整派）"
+        "zh": "土耳其舆论（治安与领土完整派）",
+        "ko": "터키 여론(치안·영토 보전 중시파)"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "PKKは40年間にわたり数万人の市民と兵士を殺害したテロ組織だ。民族問題ではなくテロリズムの問題であり、国家の領土保全は絶対に譲れない。",
         "en": "The PKK is a terrorist organization that has killed tens of thousands of civilians and soldiers over 40 years. This is counter-terrorism, not an ethnic issue, and our territorial integrity is non-negotiable.",
-        "zh": "库工党是40年来造成数万平民和士兵伤亡的恐怖组织。这是反恐问题而非民族问题，国家领土完整绝不容妥协。"
+        "zh": "库工党是40年来造成数万平民和士兵伤亡的恐怖组织。这是反恐问题而非民族问题，国家领土完整绝不容妥协。",
+        "ko": "PKK는 40년간 수만 명의 시민과 병사를 살해한 테러 조직이다. 민족문제가 아니라 테러리즘의 문제이며, 국가의 영토보전은 절대로 양보할 수 없다."
       },
       "prevalence": "high",
       "context": {
         "ja": "トルコ国内の主流メディアおよび世論において強固に支持されている論調。",
         "en": "The dominant view across Turkish mainstream media, politics, and broad public opinion.",
-        "zh": "土耳其主流媒体、政治界及广大公众普遍持有的主流观点。"
+        "zh": "土耳其主流媒体、政治界及广大公众普遍持有的主流观点。",
+        "ko": "터키 국내의 주류 미디어 및 여론에서 견고하게 지지되는 논조."
       },
       "keywords": [
         "#TerorleMucadele",
@@ -65,19 +72,22 @@
       "country": {
         "ja": "国際人権団体・欧米観察者",
         "en": "International human rights observers",
-        "zh": "国际人权观察人士"
+        "zh": "国际人权观察人士",
+        "ko": "국제인권단체·구미 관찰자"
       },
       "sentiment": "neutral",
       "summary": {
         "ja": "対テロ作戦の名目による市民の権利侵害や越境軍事作戦は中東の安定を損なう。クルド人の母語教育や政治参加などの基本的人権が保障されるべきだ。",
         "en": "Civilian rights abuses and unilateral cross-border strikes under the guise of counter-terrorism destabilize the region. Basic human rights, including mother-tongue education and political representation, must be guaranteed.",
-        "zh": "以反恐为名的侵犯人权行为和单边越境军事行动破坏了地区稳定。库尔德人的母语教育与政治参与等基本权利必须得到保障。"
+        "zh": "以反恐为名的侵犯人权行为和单边越境军事行动破坏了地区稳定。库尔德人的母语教育与政治参与等基本权利必须得到保障。",
+        "ko": "대테러작전의 명목에 의한 시민의 권리침해와 월경군사작전은 중동의 안정을 훼손한다. 쿠르드인의 모국어 교육이나 정치 참여 등의 기본적 인권이 보장되어야 한다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "アムネスティやヒューマン・ライツ・ウォッチ、欧州議会などの人権報告で頻繁に指摘される見解。",
         "en": "Commonly expressed in reports from Amnesty International, HRW, and European Parliament debates.",
-        "zh": "常见于大赦国际、人权观察及欧洲议会的相关报告与辩论中。"
+        "zh": "常见于大赦国际、人权观察及欧洲议会的相关报告与辩论中。",
+        "ko": "암네스티, 휴먼 라이츠 워치, 유럽 의회 등 인권보고에서 자주 지적되는 견해."
       },
       "keywords": [
         "#HumanRights",

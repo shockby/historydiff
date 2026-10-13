@@ -1,0 +1,105 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "notes": [
+    {
+      "id": "bcp-1879-war-of-pacific",
+      "claim": "태평양전쟁(1879-1884)에 의해 볼리비아는 약 400km의 해안선과 약 12만km²의 안토파가스타 연안부를 상실했다",
+      "context": "1879년 아타카마 사막의 질석세 인상을 둘러싼 대립에서 칠레군이 안토파가스타를 점령하고 볼리비아 페루 동맹군과 칠레 사이에서 전쟁이 발발했다. 칠레군의 승리로 볼리비아는 해안부 전역(약 400km의 해안선, 약 12만km²의 영토)을 잃어 완전한 내륙국이 되었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "History of the War of the Pacific (1879-1884)",
+          "url": "https://www.ejercito.cl/historia/guerra-del-pacifico",
+          "publisher": "칠레 육군 역사 부문",
+          "type": "government"
+        },
+        {
+          "title": "The Maritime Book of Bolivia (Libro del Mar)",
+          "url": "https://www.cancilleria.gob.bo/webmre/sites/default/files/libromar.pdf",
+          "publisher": "볼리비아 외무성(DIREMAR)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1904-peace-treaty",
+      "claim": "1904년 평화우호조약에 의해 양국 국경이 획정되어 칠레는 볼리비아에 항만의 무세 통과권과 철도건설을 약속했다",
+      "context": "1904년 10월 20일에 조인된 조약에서 칠레의 안토파가스타 지역 영유가 확정되었다. 보상으로 칠레는 아리카와 라파스 사이의 철도 건설 비용 부담, 볼리비아 화물에 대한 칠레 항만(아리카 및 안토파가스타)에서의 완전하고 무세한 자유 통과권(libre tránsito)의 영구 보장 등을 맡았다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Tratado de Paz y Amistad de 1904 entre Chile y Bolivia",
+          "url": "https://www.difrol.gob.cl/tratado-de-paz-y-amistad-de-1904/",
+          "publisher": "칠레 외무성 국경국(DIFROL)",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Peace, Friendship and Commerce (1904)",
+          "url": "https://treaties.un.org/",
+          "publisher": "국제연합조약집",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1929-treaty-of-lima",
+      "claim": "1929년 리마 조약의 보충 의정서에 의해, 구 페루령(아리카 등)의 제3국 할양에는 페루의 동의가 필요로 정해졌다",
+      "context": "칠레와 페루가 타쿠나 아리카 분쟁을 해결한 1929년 리마조약의 추가의정서 제1조에는 한때 페루에 속해 있던 영토(아리카현 등)를 제3국(볼리비아)에 할양할 경우 사전에 양국 정부(칠레와 페루)의 합의가 필요하다고 규정되어 있다. 이에 따라 볼리비아에 회랑을 공여하는 어떠한 칠레안도 페루의 승인을 필요로 하는 틀이 확립되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Tratado y Protocolo Complementario de Lima de 1929",
+          "url": "https://portal.transparencia.gob.pe/rree/tratados",
+          "publisher": "페루 외무성",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Lima and the Tacna-Arica Dispute",
+          "url": "https://www.oas.org/",
+          "publisher": "미주기구(OAS)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-2018-icj-judgment",
+      "claim": "2018년 10월 국제사법재판소(ICJ)는 칠레에게 볼리비아에 대한 주권적 태평양 접근을 협상할 법적 의무가 없다고 판결을 내렸다.",
+      "context": "볼리비아(모랄레스 정권)는 과거 외교협의·각서에 근거하여 칠레가 주권적 회랑의 공여에 대해 성실하게 협상할 법적 의무를 지었다고 2013년 ICJ에 제소했다. 2018년 10월 1일, 법원은 12대 3의 다수로 볼리비아의 청구를 전면적으로 물리치고, 칠레에 그러한 협상 의무는 존재하지 않는다고 판시. 다만 부수의견으로서 선 인접관계와 대화의 계속을 촉구했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile) - Judgment of 1 October 2018",
+          "url": "https://www.icj-cij.org/case/153",
+          "publisher": "국제사법재판소(ICJ)",
+          "type": "international"
+        },
+        {
+          "title": "ICJ Judgment Analysis: Bolivia v. Chile",
+          "url": "https://www.asil.org/insights/volume/22/issue/17/icj-rules-chile-has-no-obligation-negotiate-ocean-access-bolivia",
+          "publisher": "미국 국제법학회(ASIL)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "bcp-dia-del-mar",
+      "claim": "볼리비아는 매년 3월 23일을 '바다의 날(Día del Mar)'로 정하고 해군조직을 유지하고 주권회복을 국가 목표로 삼고 있다",
+      "context": "볼리비아는 1879년 3월 23일 카라마 전투에서 영웅 에두아르도 아발로아의 저항을 현창하고, 매년 3월 23일을 '바다의 날'로 국가식전을 거행하고 있다. 또한 내륙국이면서 티티카카 호수와 주요 하천을 관할하는 '볼리비아 해군(Armada Boliviana)'을 존속시키고 있으며, 헌법 제267조에서 바다에 대한 주권 회복을 불가침의 국민적 권리로 규정하고 있다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Constitución Política del Estado Plurinacional de Bolivia (Artículo 267)",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "publisher": "볼리비아 다민족 국헌법(OAS 보관판)",
+          "type": "government"
+        },
+        {
+          "title": "Reseña Histórica de la Armada Boliviana",
+          "url": "https://armada.mil.bo/",
+          "publisher": "볼리비아 해군 공식 기록",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

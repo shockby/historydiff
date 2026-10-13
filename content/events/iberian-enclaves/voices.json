@@ -2,24 +2,32 @@
   "eventId": "iberian-enclaves",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "ie-voice-1",
       "country": {
         "ja": "スペイン",
-        "en": "Spain"
+        "en": "Spain",
+        "zh": "西班牙",
+        "ko": "스페인"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "セウタとメリーリャはモロッコ独立より数百年前からスペイン領だ。植民地と呼ぶのは歴史の歪曲だ。私たちはそこで生まれ育ち、スペイン人として生きている。返還などありえない。",
-        "en": "Ceuta and Melilla have been Spanish for centuries before Morocco even existed as a country. Calling them colonies is a distortion of history. People there were born and raised as Spaniards. There is no question of return."
+        "en": "Ceuta and Melilla have been Spanish for centuries before Morocco even existed as a country. Calling them colonies is a distortion of history. People there were born and raised as Spaniards. There is no question of return.",
+        "zh": "休达和梅利利亚在摩洛哥独立前数百年是西班牙殖民地。称其为殖民地是对历史的歪曲。我们在那里出生、长大，并以西班牙人的身份生活。无法退款。",
+        "ko": "세우타와 메릴라는 모로코 독립보다 수백년 전부터 스페인령이다. 식민지라고 부르는 것은 역사의 왜곡이다. 우리는 거기서 태어나 자라며 스페인인으로 살고 있습니다. 반환 등 있을 수 없다."
       },
       "prevalence": "high",
       "context": {
         "ja": "モロッコとの国境問題や移民流入が報じられるたびにスペインのSNSで広がるナショナリスト的意見。特に2021年のセウタ移民危機以降に顕著。",
-        "en": "Nationalist sentiment that surges on Spanish social media whenever border tensions with Morocco or migration crises are reported. Particularly prominent since the 2021 Ceuta migration crisis."
+        "en": "Nationalist sentiment that surges on Spanish social media whenever border tensions with Morocco or migration crises are reported. Particularly prominent since the 2021 Ceuta migration crisis.",
+        "zh": "每当有关于与摩洛哥边境问题或移民涌入的消息时，西班牙社交媒体上就会传播民族主义观点。在 2021 年休达移民危机之后尤其如此。",
+        "ko": "모로코와의 국경 문제나 이민 유입이 보도될 때마다 스페인의 SNS에서 확산되는 내셔널리스트적 의견. 특히 2021년 세우타 이민위기 이후 현저하다."
       },
       "keywords": [
         "#CeutaEsEspaña",
@@ -32,17 +40,23 @@
       "id": "ie-voice-2",
       "country": {
         "ja": "モロッコ",
-        "en": "Morocco"
+        "en": "Morocco",
+        "zh": "摩洛哥",
+        "ko": "모로코"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "スブタ（セウタ）とムリーリャ（メリーリャ）はモロッコ固有の領土だ。スペインはジブラルタルの返還をイギリスに求めながら、自分たちは北アフリカの植民地を手放さない。これは明らかな二重基準だ。",
-        "en": "Sebta and Mriya are inherently Moroccan territory. Spain demands Gibraltar back from Britain while refusing to give up its own colonies in North Africa. This is an obvious double standard."
+        "en": "Sebta and Mriya are inherently Moroccan territory. Spain demands Gibraltar back from Britain while refusing to give up its own colonies in North Africa. This is an obvious double standard.",
+        "zh": "苏布塔（休达）和穆里利亚（梅利利亚）是摩洛哥领土。西班牙要求英国归还直布罗陀，但拒绝放弃其在北非的殖民地。这是明显的双重标准。",
+        "ko": "스부타(세우타)와 무릴라(메릴라)는 모로코 고유의 영토다. 스페인은 지브롤터의 반환을 영국에 요구하면서, 자신들은 북아프리카의 식민지를 놓치지 않는다. 이는 분명한 이중 기준이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "特に外交危機やスペインとの領土問題が話題になる際に、モロッコのSNSや政治言論で広がる意見。",
-        "en": "Opinion that spreads across Moroccan social media and political discourse, especially during diplomatic crises or when Spain-Morocco territorial disputes gain public attention."
+        "en": "Opinion that spreads across Moroccan social media and political discourse, especially during diplomatic crises or when Spain-Morocco territorial disputes gain public attention.",
+        "zh": "在摩洛哥社交媒体和政治言论中传播的观点，尤其是在与西班牙发生外交危机或领土争端时。",
+        "ko": "특히 외교위기나 스페인과의 영토문제가 화제가 될 때 모로코의 SNS나 정치언론으로 퍼지는 의견."
       },
       "keywords": [
         "#سبتة_ومليلية_مغربيتان",
@@ -55,17 +69,23 @@
       "id": "ie-voice-3",
       "country": {
         "ja": "イギリス（ジブラルタル住民）",
-        "en": "United Kingdom (Gibraltar residents)"
+        "en": "United Kingdom (Gibraltar residents)",
+        "zh": "英国（直布罗陀居民）",
+        "ko": "영국(지브롤터 주민)"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "私たちは自分たちがブリティッシュであることを選んだ。住民投票を2回行い、結果は明白だ。スペインは私たちの選択を尊重すべきだ。Brexit後の不確実性の中でも、私たちはジブラルタル人であることに誇りを持っている。",
-        "en": "We have chosen to be British. We voted twice, and the result is clear. Spain should respect our choice. Despite the uncertainty after Brexit, we are proud to be Gibraltarians."
+        "en": "We have chosen to be British. We voted twice, and the result is clear. Spain should respect our choice. Despite the uncertainty after Brexit, we are proud to be Gibraltarians.",
+        "zh": "我们选择成为英国人。已经举行了两次公投，结果已经很清楚了。西班牙应该尊重我们的选择。即使在英国脱欧后的不确定性中，我们也为自己是直布罗陀人而感到自豪。",
+        "ko": "우리는 우리가 영국인 것을 선택했다. 주민투표를 2회 실시해 결과는 분명하다. 스페인은 우리의 선택을 존중해야 한다. Brexit 이후의 불확실성 중에서도 우리는 지브롤터인 것에 자부심을 가지고 있습니다."
       },
       "prevalence": "high",
       "context": {
         "ja": "ジブラルタル住民がSNSや現地メディアで発信する意見。Brexit以降、EU市民権を失ったことへの複雑な思いと、イギリス帰属への強い意識が共存している。",
-        "en": "Views expressed by Gibraltar's residents on social media and local outlets. Since Brexit, the loss of EU citizenship has created complex feelings, yet allegiance to Britain remains strong."
+        "en": "Views expressed by Gibraltar's residents on social media and local outlets. Since Brexit, the loss of EU citizenship has created complex feelings, yet allegiance to Britain remains strong.",
+        "zh": "直布罗陀居民在社交媒体和当地媒体上表达的意见。英国脱欧后，失去欧盟公民身份的复杂感受与对英国的强烈归属感并存。",
+        "ko": "지브롤터 주민이 SNS나 현지 미디어에서 발신하는 의견. Brexit 이후 EU 시민권을 잃은 것에 대한 복잡한 생각과 영국 귀속에 대한 강한 의식이 공존하고 있다."
       },
       "keywords": [
         "#Gibraltar",
@@ -78,17 +98,23 @@
       "id": "ie-voice-4",
       "country": {
         "ja": "スペイン（リベラル・批判派）",
-        "en": "Spain (Liberal / Critical)"
+        "en": "Spain (Liberal / Critical)",
+        "zh": "西班牙（自由派/批判派）",
+        "ko": "스페인(리버럴·비판파)"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "スペインがジブラルタルの返還を要求しながら、セウタ・メリーリャをモロッコに返さないのは矛盾だ。歴史的文脈は理解するが、住民の意思や人権も考慮した誠実な議論が必要だ。",
-        "en": "It is contradictory for Spain to demand Gibraltar while refusing to return Ceuta and Melilla to Morocco. I understand the historical context, but an honest debate must take into account residents' wishes and human rights."
+        "en": "It is contradictory for Spain to demand Gibraltar while refusing to return Ceuta and Melilla to Morocco. I understand the historical context, but an honest debate must take into account residents' wishes and human rights.",
+        "zh": "西班牙要求归还直布罗陀，却不将休达梅利利亚归还给摩洛哥，这是一个矛盾。我们了解历史背景，但我们需要诚实的讨论，同时考虑到居民的意愿及其人权。",
+        "ko": "스페인이 지브롤터의 반환을 요구하면서 세우타 메릴라를 모로코에 반환하지 않는 것은 모순이다. 역사적 문맥은 이해하지만 주민의 의사나 인권도 고려한 성실한 논의가 필요하다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "スペイン国内の進歩派・左派の間で見られる批判的意見。植民地主義の遺産を自己批判的に捉える立場からの声。",
-        "en": "Critical view found among progressive and left-leaning voices in Spain, reflecting a self-critical stance toward the country's colonial legacy."
+        "en": "Critical view found among progressive and left-leaning voices in Spain, reflecting a self-critical stance toward the country's colonial legacy.",
+        "zh": "西班牙进步人士和左翼人士中存在批评意见。来自对殖民主义遗产采取自我批评立场的声音。",
+        "ko": "스페인 국내의 진보파·좌파 사이에서 볼 수 있는 비판적 의견. 식민지주의의 유산을 자기 비판적으로 파악하는 입장의 목소리."
       },
       "keywords": [
         "#Descolonización",
@@ -101,17 +127,23 @@
       "id": "ie-voice-5",
       "country": {
         "ja": "国際社会・第三者視点",
-        "en": "International Community / Third-party View"
+        "en": "International Community / Third-party View",
+        "zh": "国际社会/第三方视角",
+        "ko": "국제사회·제삼자 시점"
       },
       "sentiment": "neutral",
       "summary": {
         "ja": "ジブラルタル・セウタ・メリーリャはいずれも国連が植民地として問題視している地域だ。しかし住民がどこに帰属したいかを決める権利（自決権）と、脱植民地化原則のどちらを優先するかが未解決のまま残っている。",
-        "en": "Gibraltar, Ceuta, and Melilla are all territories the UN views as problematic from a colonial standpoint. Yet the question of which principle takes precedence—the right of residents to self-determination or the principle of decolonization—remains unresolved."
+        "en": "Gibraltar, Ceuta, and Melilla are all territories the UN views as problematic from a colonial standpoint. Yet the question of which principle takes precedence—the right of residents to self-determination or the principle of decolonization—remains unresolved.",
+        "zh": "直布罗陀、休达梅利利亚都被联合国视为殖民地。然而，优先考虑居民决定自己归属的权利（自决权）还是非殖民化原则的问题仍然没有解决。",
+        "ko": "지브롤터 세우타 메릴라는 모두 유엔이 식민지로 문제시하고 있는 지역이다. 그러나 주민이 어디에 귀속하고 싶은지를 결정할 권리(자결권)와 탈식민지화 원칙 중 어느 것을 우선할지가 미해결 그대로 남아 있다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "国際政治を分析するジャーナリストや研究者が指摘する客観的な視点。特に国連の非自治地域リストと自決権の矛盾に着目した議論。",
-        "en": "An objective view articulated by international political journalists and researchers, focusing particularly on the contradiction between the UN list of Non-Self-Governing Territories and the right to self-determination."
+        "en": "An objective view articulated by international political journalists and researchers, focusing particularly on the contradiction between the UN list of Non-Self-Governing Territories and the right to self-determination.",
+        "zh": "分析国际政治的记者和研究人员的客观视角。讨论的重点特别是联合国非自治地区清单与自决权之间的矛盾。",
+        "ko": "국제정치를 분석하는 저널리스트나 연구자가 지적하는 객관적인 관점. 특히 유엔의 비자치지역 목록과 자결권의 모순에 주목한 논의."
       },
       "keywords": [
         "#Decolonization",

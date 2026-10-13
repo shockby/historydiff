@@ -2,24 +2,32 @@
   "eventId": "sahel-conflict",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "sahel-voice-1",
       "country": {
         "ja": "サヘル諸国軍事政権支持層・汎アフリカ主義世論",
-        "en": "AES junta supporters & Pan-Africanist youth"
+        "en": "AES junta supporters & Pan-Africanist youth",
+        "zh": "萨赫勒国家军事政权的支持者和泛非主义舆论",
+        "ko": "사헬 국가 군사 정권 지지층·범아프리카주의 여론"
       },
       "sentiment": "anti-imperialist",
       "summary": {
         "ja": "フランス軍は10年駐留してもテロリストを掃討せず、自国のウランや金を略奪し続けた。旧宗主国の支配を断ち切り、ロシアと連携して自国の主権を奪還した我々の指導者を誇りに思う。アフリカはアフリカ人のものだ。",
-        "en": "France occupied our land for a decade under the guise of fighting terrorism while pillaging our resources. Expelling French forces and partnering with Russia represents true sovereign independence for the Sahel. Africa belongs to Africans."
+        "en": "France occupied our land for a decade under the guise of fighting terrorism while pillaging our resources. Expelling French forces and partnering with Russia represents true sovereign independence for the Sahel. Africa belongs to Africans.",
+        "zh": "尽管在那里驻扎了10年，法国军队并没有消灭恐怖分子，并继续掠夺该国的铀和黄金。我为我们的领导人感到自豪，他们摆脱了前宗主国的控制，并与俄罗斯合作恢复了我国的主权。非洲是非洲人的。",
+        "ko": "프랑스군은 10년 주둔해도 테러리스트를 소토하지 않고 자국의 우라늄과 금을 계속 약탈했다. 구종주국의 지배를 끊고 러시아와 연계해 자국의 주권을 탈환한 우리 지도자를 자랑스럽게 생각한다. 아프리카는 아프리카인의 것이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "バマコ、ワガドゥグ、ニアメで爆発的に拡大した反仏デモと、軍政指導者への熱狂的支持。",
-        "en": "Surging anti-French, pro-sovereignty mass mobilizations across capital cities celebrating the AES alliance."
+        "en": "Surging anti-French, pro-sovereignty mass mobilizations across capital cities celebrating the AES alliance.",
+        "zh": "巴马科、瓦加杜古和尼亚美爆发反法示威活动，军方领导人得到热烈支持。",
+        "ko": "바마코, 와가두그, 니아메에서 폭발적으로 확대한 반불 시위와 군정 지도자에 대한 열광적 지지."
       },
       "keywords": [
         "#FranceDégage",
@@ -33,17 +41,23 @@
       "id": "sahel-voice-2",
       "country": {
         "ja": "フランスおよび欧米外交・人権監視世論",
-        "en": "French & Western diplomatic/human rights observers"
+        "en": "French & Western diplomatic/human rights observers",
+        "zh": "法国和西方外交/人权监测舆论",
+        "ko": "프랑스 및 구미 외교·인권 감시 여론"
       },
       "sentiment": "critical-alarmist",
       "summary": {
         "ja": "軍事政権は民主主義と立憲秩序を破壊し、フランス軍を追い出してロシアの残虐な傭兵ワグネルを招き入れた。ムラ虐殺のように民間人を虐殺し、かえって過激派を勢いづかせている。サヘルは専制と混乱の泥沼へ向かっている。",
-        "en": "Military putschists overthrew elected governments only to invite Russian Wagner mercenaries who slaughter innocent villagers. By destroying democratic institutions, they are worsening instability and accelerating jihadist expansion."
+        "en": "Military putschists overthrew elected governments only to invite Russian Wagner mercenaries who slaughter innocent villagers. By destroying democratic institutions, they are worsening instability and accelerating jihadist expansion.",
+        "zh": "军政权摧毁了民主和宪政秩序，驱逐了法国军队，引进了残暴的俄罗斯雇佣兵瓦格纳。他们像村里屠杀一样屠杀平民，实际上是在为极端分子壮胆。萨赫勒地区正在走向暴政和混乱的泥潭。",
+        "ko": "군사정권은 민주주의와 입헌질서를 파괴하고 프랑스군을 쫓아내 러시아의 잔학한 용병 와그넬을 초대했다. 무라 학살처럼 민간인을 학살하고 오히려 과격파를 몰고 있다. 사헬은 전제와 혼란의 진흙으로 향하고 있다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "欧米主要メディアや人権団体による民主主義の後退とロシア軍事介入への強い危機感。",
-        "en": "Western political discourse emphasizing democratic erosion, Wagner human rights atrocities, and geopolitical manipulation."
+        "en": "Western political discourse emphasizing democratic erosion, Wagner human rights atrocities, and geopolitical manipulation.",
+        "zh": "西方主要媒体和人权组织对民主倒退和俄罗斯军事干预表达了强烈的危机感。",
+        "ko": "서양 주요 미디어와 인권 단체에 의한 민주주의의 후퇴와 러시아 군사 개입에 대한 강한 위기감."
       },
       "keywords": [
         "#SahelDemocracy",
@@ -57,17 +71,23 @@
       "id": "sahel-voice-3",
       "country": {
         "ja": "サヘル地域農村住民・国内避難民",
-        "en": "Sahelian rural civilians & displaced families"
+        "en": "Sahelian rural civilians & displaced families",
+        "zh": "萨赫勒地区的农村居民和境内流离失所者",
+        "ko": "사헬 지역 농촌 주민·국내 피난민"
       },
       "sentiment": "survival-despair",
       "summary": {
         "ja": "過激派に村を焼かれ、家族を殺され、軍や民兵からも疑われて追われる。フランスもロシアも政治家も関係ない。私たちに必要なのは銃ではなく、子どもたちが通える学校と、安心して畑を耕せる安全な日常だけだ。",
-        "en": "We are trapped between jihadist massacres and military reprisals. Neither French troops nor Russian mercenaries have brought security to our villages. We just want our children back in school and the peace to farm our fields."
+        "en": "We are trapped between jihadist massacres and military reprisals. Neither French troops nor Russian mercenaries have brought security to our villages. We just want our children back in school and the peace to farm our fields.",
+        "zh": "他的村庄被极端分子烧毁，他的家人被杀害，他也受到军方和民兵的​​怀疑和追捕。这与法国、俄罗斯或政客无关。我们需要的不是枪，而是孩子们上学的学校，以及安心耕地的安全日常生活。",
+        "ko": "과격파로 마을을 구워 가족을 죽이고 군과 민병으로부터도 의심받아 쫓긴다. 프랑스도 러시아도 정치인도 상관없다. 우리에게 필요한 것은 총이 아니라 아이들이 다닐 수 있는 학교와 안심하고 밭을 경작하는 안전한 일상뿐이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "戦闘と略奪に晒され続けるリプタコ・グルマ地域などの極限状態にある一般住民の声。",
-        "en": "Exhausted voices of millions displaced across rural Mali, Burkina Faso, and Niger enduring acute insecurity."
+        "en": "Exhausted voices of millions displaced across rural Mali, Burkina Faso, and Niger enduring acute insecurity.",
+        "zh": "生活在极端条件下的普通居民的声音，例如利普塔科-古尔马地区，该地区继续遭受战斗和抢劫。",
+        "ko": "전투와 약탈에 계속 노출되는 립타코·구르마 지역 등의 극한 상태에 있는 일반 주민의 목소리."
       },
       "keywords": [
         "#SahelCivilians",
@@ -81,17 +101,23 @@
       "id": "sahel-voice-4",
       "country": {
         "ja": "西アフリカ諸国経済共同体（ECOWAS）民主派世論",
-        "en": "ECOWAS democratic supporters & regional integrationists"
+        "en": "ECOWAS democratic supporters & regional integrationists",
+        "zh": "西非国家经济共同体（西非经共体）民主舆论",
+        "ko": "서아프리카 국가 경제 공동체(ECOWAS) 민주파 여론"
       },
       "sentiment": "pro-integration",
       "summary": {
         "ja": "軍事政権が制裁を理由にECOWASを離脱したことは、西アフリカの地域統合と自由移動の成果を半世紀逆行させる暴挙だ。国境を越えるテロリズムに対処するには、地域全体の連帯と民主的統治の回復が不可欠である。",
-        "en": "The military juntas' decision to rupture ECOWAS shatters 50 years of West African regional integration and economic freedom. Countering cross-border terrorism requires unified regional solidarity, not isolated military dictatorships."
+        "en": "The military juntas' decision to rupture ECOWAS shatters 50 years of West African regional integration and economic freedom. Countering cross-border terrorism requires unified regional solidarity, not isolated military dictatorships.",
+        "zh": "军政权因制裁而退出西非经共体，这是一种愤怒，它扭转了西非半个世纪以来在区域一体化和自由流动方面取得的成果。恢复整个地区的团结和民主治理对于打击跨国恐怖主义至关重要。",
+        "ko": "군사정권이 제재를 이유로 ECOWAS를 이탈한 것은 서아프리카 지역 통합과 자유 이동의 성과를 반세기 역행시키는 폭거다. 국경을 넘는 테러리즘에 대처하기 위해서는 지역 전체의 연대와 민주적 통치의 회복이 필수적이다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "ガーナ、セネガル、ナイジェリアなど西アフリカ民主国家における地域統合防衛の立場。",
-        "en": "Regional perspective defending constitutional norms and warning against the fragmentation of West Africa."
+        "en": "Regional perspective defending constitutional norms and warning against the fragmentation of West Africa.",
+        "zh": "加纳、塞内加尔和尼日利亚等西非民主国家的区域综合防御阵地。",
+        "ko": "가나, 세네갈, 나이지리아 등 서 아프리카 민주 국가에서 지역 통합 방어의 입장."
       },
       "keywords": [
         "#SaveECOWAS",

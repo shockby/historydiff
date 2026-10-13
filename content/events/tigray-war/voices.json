@@ -2,24 +2,32 @@
   "eventId": "tigray-war",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "tw-voice-1",
       "country": {
         "ja": "ティグレ住民・自治擁護層",
-        "en": "Tigrayan citizens & regional autonomy advocates"
+        "en": "Tigrayan citizens & regional autonomy advocates",
+        "zh": "提格雷居民和自治支持者",
+        "ko": "티그레 주민·자치 옹호층"
       },
       "sentiment": "victimhood-resistance",
       "summary": {
         "ja": "連邦政府とエリトリア軍によるティグレ包囲網は、明らかな民族虐殺（ジェノサイド）作戦だった。食料も薬も電話も断たれ、親族が空爆や飢えで死んでいった。プレトリア合意後もエリトリア軍の完全撤退と正義の実現を強く求める。",
-        "en": "The federal siege and Eritrean troop invasion amounted to deliberate genocide against the people of Tigray. Cutting off food, medicine, and communications while bombing civilians was barbaric. We demand full Eritrean withdrawal and accountability for war crimes."
+        "en": "The federal siege and Eritrean troop invasion amounted to deliberate genocide against the people of Tigray. Cutting off food, medicine, and communications while bombing civilians was barbaric. We demand full Eritrean withdrawal and accountability for war crimes.",
+        "zh": "联邦政府和厄立特里亚军队对提格雷的围困显然是一场种族灭绝行动。他们的食物、药品和电话被切断，他们的亲人也死于空袭和饥饿。即使在《比勒陀利亚协定》签署之后，我们仍强烈敦促厄立特里亚完全撤军并伸张正义。",
+        "ko": "연방정부와 에리트리아군에 의한 티그레 포위망은 분명한 민족학살(제노사이드) 작전이었다. 식량도 약도 전화도 거절되어 친족이 공폭이나 굶주림으로 죽어갔다. 프리토리아 합의 후에도 에리트레아군의 완전 철수와 정의의 실현을 강하게 요구한다."
       },
       "prevalence": "high",
       "context": {
         "ja": "世界中のティグレ系ディアスポラや現地住民による人道封鎖解除と戦争犯罪責任追及の訴え。",
-        "en": "Global Tigrayan diaspora mobilization demanding justice, humanitarian access, and international investigations."
+        "en": "Global Tigrayan diaspora mobilization demanding justice, humanitarian access, and international investigations.",
+        "zh": "提格雷侨民和世界各地的当地居民呼吁解除人道主义封锁并追究战争罪行的责任。",
+        "ko": "전세계의 티그레계 디아스포라나 현지 주민에 의한 인도 봉쇄 해제와 전쟁 범죄 책임 추궁의 호소."
       },
       "keywords": [
         "#TigrayGenocide",
@@ -33,17 +41,23 @@
       "id": "tw-voice-2",
       "country": {
         "ja": "エチオピア連邦政府支持派・統一擁護層",
-        "en": "Ethiopian federal supporters & unionists"
+        "en": "Ethiopian federal supporters & unionists",
+        "zh": "埃塞俄比亚联邦政府支持者/统一支持者",
+        "ko": "에티오피아 연방 정부 지지파·통일 옹호층"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "TPLFは27年間にわたり国を専制支配し、国家分裂を企てて連邦軍基地を夜襲した軍事テロ組織だ。アビィ首相の作戦は国家の主権と法秩序を守る正当な防衛行動であり、外国勢力の不当な内政干渉を許してはならない。",
-        "en": "The TPLF ruled Ethiopia brutally for 27 years and treasonously assaulted federal soldiers in their sleep to seize power. Prime Minister Abiy acted constitutionally to preserve our 3,000-year-old nation. Western interference against Ethiopia must stop."
+        "en": "The TPLF ruled Ethiopia brutally for 27 years and treasonously assaulted federal soldiers in their sleep to seize power. Prime Minister Abiy acted constitutionally to preserve our 3,000-year-old nation. Western interference against Ethiopia must stop.",
+        "zh": "TPLF是一个军事恐怖组织，残暴统治该国27年，夜间袭击联邦军事基地，企图分裂国家。阿比总理的行动是保护国家主权和法律秩序的正当防御行动，决不能允许外国列强无理干涉内政。",
+        "ko": "TPLF는 27년간 국가를 전제 지배해 국가분열을 겨냥해 연방군기지를 야습한 군사테러조직이다. 아비 총리의 작전은 국가의 주권과 법질서를 지키는 정당한 방위 행동이며 외국 세력의 부당한 내정 간섭을 허용해서는 안 된다."
       },
       "prevalence": "high",
       "context": {
         "ja": "アディスアベバやアムハラ州、オロミア州などの連邦支持層による反TPLF感情と国家統合の支持。",
-        "en": "Strong pan-Ethiopian nationalist mobilization resisting foreign diplomatic pressure and defending state sovereignty."
+        "en": "Strong pan-Ethiopian nationalist mobilization resisting foreign diplomatic pressure and defending state sovereignty.",
+        "zh": "亚的斯亚贝巴、阿姆哈拉和奥罗米亚联邦支持者的反提格雷人民解放阵线情绪和对民族融合的支持。",
+        "ko": "아디스 아바바, 암하라, 오로미아와 같은 연방 지지층에 의한 반 TPLF 감정과 국가 통합의 지지."
       },
       "keywords": [
         "#NoMore",
@@ -57,17 +71,23 @@
       "id": "tw-voice-3",
       "country": {
         "ja": "エリトリア国民・反TPLF世論",
-        "en": "Eritrean citizens & anti-TPLF diaspora"
+        "en": "Eritrean citizens & anti-TPLF diaspora",
+        "zh": "厄立特里亚人民/反TPLF舆论",
+        "ko": "에리트레아 국민·반TPLF 여론"
       },
       "sentiment": "security-focused",
       "summary": {
         "ja": "TPLF指導部は1998〜2000年のバダメ国境戦争以来、20年間にわたりエリトリアを武力で脅かし国際仲裁裁定の履行を拒んできた。アスマラへのロケット弾攻撃を仕掛けたTPLFを無力化することは、エリトリアの自衛権である。",
-        "en": "The TPLF occupied sovereign Eritrean lands for two decades in violation of the 2002 boundary ruling and fired ballistic missiles at Asmara. Neutralizing this hostile threat was a legitimate act of national defense."
+        "en": "The TPLF occupied sovereign Eritrean lands for two decades in violation of the 2002 boundary ruling and fired ballistic missiles at Asmara. Neutralizing this hostile threat was a legitimate act of national defense.",
+        "zh": "自1998年至2000年巴达梅边境战争以来，蒂格雷人阵领导人二十年来一直以武力威胁厄立特里亚，并拒绝执行国际仲裁裁决。厄立特里亚的自卫权是压制对阿斯马拉发动火箭袭击的蒂格雷人民解放阵线。",
+        "ko": "TPLF 지도부는 1998~2000년의 버다메 국경전쟁 이후 20년간 에리트레아를 무력으로 위협해 국제중재재정 이행을 거부해왔다. 아스말라에 로켓탄 공격을 가한 TPLF를 무력화하는 것은 에리트리아의 자위권이다."
       },
       "prevalence": "moderate",
       "context": {
         "ja": "長年の国境紛争とTPLFに対するエリトリア社会の強い警戒感と報復的感情。",
-        "en": "Eritrean historical grievances rooted in the devastating 1998–2000 border war and TPLF's refusal to cede Badme."
+        "en": "Eritrean historical grievances rooted in the devastating 1998–2000 border war and TPLF's refusal to cede Badme.",
+        "zh": "厄立特里亚社会对长期存在的边境冲突和提格雷人民解放阵线抱有强烈的警惕感和报复感。",
+        "ko": "오랜 국경 분쟁과 TPLF에 대한 에리트레아 사회의 강한 경계감과 보복적 감정."
       },
       "keywords": [
         "#EritreaPrevails",
@@ -80,17 +100,23 @@
       "id": "tw-voice-4",
       "country": {
         "ja": "国際人道援助関係者・平和活動家",
-        "en": "International humanitarian workers & peace advocates"
+        "en": "International humanitarian workers & peace advocates",
+        "zh": "国际人道主义援助工作者/和平活动家",
+        "ko": "国際人道援助関係者・平和活動家"
       },
       "sentiment": "neutral-humanitarian",
       "summary": {
         "ja": "政治的駆け引きの犠牲になったのは、数十万人の何の罪もない子どもや民間人だ。双方が重大な戦争犯罪に関与した。プレトリア合意が形式的な停戦にとどまらず、人道復興と移行期正義の確実な履行につながることを望む。",
-        "en": "Hundreds of thousands of innocent civilians starved while leaders fought over power. Atrocities were committed on all sides. The Pretoria accord must deliver actual disarmament, unfettered aid, and transitional justice, not just paper promises."
+        "en": "Hundreds of thousands of innocent civilians starved while leaders fought over power. Atrocities were committed on all sides. The Pretoria accord must deliver actual disarmament, unfettered aid, and transitional justice, not just paper promises.",
+        "zh": "政治的駆け引きの犠牲になったのは、数十万人の何の罪もない子どもや民間人だ。双方が重大な戦争犯罪に関与した。プレトリア合意が形式的な停戦にとどまらず、人道復興と移行期正義の確実な履行につながることを望む。",
+        "ko": "政治的駆け引きの犠牲になったのは、数十万人の何の罪もない子どもや民間人だ。双方が重大な戦争犯罪に関与した。プレトリア合意が形式的な停戦にとどまらず、人道復興と移行期正義の確実な履行につながることを望む。"
       },
       "prevalence": "moderate",
       "context": {
         "ja": "国際NGOや国連人道機関による人命優先と恒久的平和構築の呼びかけ。",
-        "en": "Global humanitarian outcry demanding accountability, rapid reconstruction, and healing of ethnic divisions."
+        "en": "Global humanitarian outcry demanding accountability, rapid reconstruction, and healing of ethnic divisions.",
+        "zh": "国際NGOや国連人道機関による人命優先と恒久的平和構築の呼びかけ。",
+        "ko": "国際NGOや国連人道機関による人命優先と恒久的平和構築の呼びかけ。"
       },
       "keywords": [
         "#PretoriaAgreement",

@@ -2,24 +2,32 @@
   "eventId": "bolivia-chile-pacific",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "bcp-voice-1",
       "country": {
         "ja": "ボリビア国民・海へのアクセス回復支持層",
-        "en": "Bolivian citizens & maritime access supporters"
+        "en": "Bolivian citizens & maritime access supporters",
+        "zh": "玻利维亚人民和恢复出海通道的支持者",
+        "ko": "볼리비아 국민·바다에의 접근 회복 지지층"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "太平洋戦争での海岸強奪によってボリビアは内陸に閉じ込められ、莫大な経済的損失を被り続けてきた。主権ある海への回廊の回復は憲法に定められた国民悲願であり、正義の回復である。",
-        "en": "The unjust loss of our littoral in 1879 suffocated our economy and landlocked our nation. Gaining sovereign access to the Pacific is an unrenounceable constitutional duty and an essential matter of historic justice."
+        "en": "The unjust loss of our littoral in 1879 suffocated our economy and landlocked our nation. Gaining sovereign access to the Pacific is an unrenounceable constitutional duty and an essential matter of historic justice.",
+        "zh": "玻利维亚在太平洋战争期间因海岸遭到掠夺而被限制在内陆，并继续遭受巨大的经济损失。恢复海上主权走廊，是宪法规定的人民的强烈愿望，是正义的恢复。",
+        "ko": "태평양 전쟁에서 해안 강탈로 볼리비아는 내륙에 갇혀 막대한 경제적 손실을 겪고 있다. 주권 있는 바다로의 회랑의 회복은 헌법에 정해진 국민비원이며 정의의 회복이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "「海の日（Día del Mar）」を通じて小学校教育から培われるボリビア国民共通の歴史意識と民族的アイデンティティ。",
-        "en": "Consensus public sentiment nurtured across generations through national education, civic memorials, and the Bolivian Constitution."
+        "en": "Consensus public sentiment nurtured across generations through national education, civic memorials, and the Bolivian Constitution.",
+        "zh": "玻利维亚的共同历史意识和民族认同是通过小学教育和 Día del Mar（海洋日）培养的。",
+        "ko": "'바다의 날(Día del Mar)'을 통해 초등학교 교육에서 길러지는 볼리비아 국민 공통의 역사 의식과 민족적 정체성."
       },
       "keywords": [
         "#MarParaBolivia",
@@ -33,17 +41,23 @@
       "id": "bcp-voice-2",
       "country": {
         "ja": "チリ国民・1904年条約遵守派",
-        "en": "Chilean citizens & 1904 Treaty defenders"
+        "en": "Chilean citizens & 1904 Treaty defenders",
+        "zh": "遵守 1904 年条约的智利人民",
+        "ko": "칠레 국민·1904년 협약 준수파"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "1904年の平和友好条約は両国の合意で調印された確定的な国境条約だ。チリは無税通関や鉄道運行など最大限の特権を保障しており、ICJ判決でも交渉義務がないと認められた以上、領土割譲の要求には応じられない。",
-        "en": "The 1904 Treaty definitively established national borders in accordance with international law. Chile grants Bolivia full customs-free transit privileges, and the 2018 ICJ ruling confirmed Chile has no obligation to cede sovereignty."
+        "en": "The 1904 Treaty definitively established national borders in accordance with international law. Chile grants Bolivia full customs-free transit privileges, and the 2018 ICJ ruling confirmed Chile has no obligation to cede sovereignty.",
+        "zh": "1904年的《和平友好条约》是两国签署的最终边界条约。智利保证免税清关、铁路运营等最大限度的特权，由于国际法院判决承认没有谈判义务，因此无法回应领土割让的要求。",
+        "ko": "1904년 평화우호조약은 양국의 합의로 조인된 확정적인 국경조약이다. 칠레는 무세통관이나 철도운행 등 최대한의 특권을 보장하고 있으며, ICJ 판결에서도 협상의무가 없다고 인정된 이상 영토할양의 요구에는 응하지 않는다."
       },
       "prevalence": "high",
       "context": {
         "ja": "条約遵守（パクタ・スント・セルヴァンダ）の原則と領土保全を最重要視するチリ社会・政界の一致した世論。",
-        "en": "Widespread Chilean consensus prioritizing the sanctity of international treaties, territorial integrity, and the definitive 2018 ICJ verdict."
+        "en": "Widespread Chilean consensus prioritizing the sanctity of international treaties, territorial integrity, and the definitive 2018 ICJ verdict.",
+        "zh": "智利社会和政治界舆论一致，高度重视遵守条约（pacta sunto servanda）和领土完整的原则。",
+        "ko": "조약 준수(팩터·순트·세르반다)의 원칙과 영토 보전을 가장 중요시하는 칠레 사회·정계의 일치한 여론."
       },
       "keywords": [
         "#Tratado1904",
@@ -57,17 +71,23 @@
       "id": "bcp-voice-3",
       "country": {
         "ja": "ペルー世論・歴史的当事者視点",
-        "en": "Peruvian observers & regional historians"
+        "en": "Peruvian observers & regional historians",
+        "zh": "秘鲁舆论/历史利益相关者的观点",
+        "ko": "페루 여론·역사적 당사자 관점"
       },
       "sentiment": "neutral",
       "summary": {
         "ja": "太平洋戦争ではペルーもタラパカやアリカを失った痛みを共有している。1929年リマ条約により、旧ペルー領（アリカなど）を第三国に割譲する場合はペルーの事前同意が必要であり、ボリビアへの回廊供与にはペルーの国益も直結する。",
-        "en": "Peru shares the trauma of the War of the Pacific having ceded Tarapacá and Arica. Under the 1929 Treaty of Lima, any Chilean cession of former Peruvian territory to a third party requires Peru's prior consent, making us a vital stakeholder."
+        "en": "Peru shares the trauma of the War of the Pacific having ceded Tarapacá and Arica. Under the 1929 Treaty of Lima, any Chilean cession of former Peruvian territory to a third party requires Peru's prior consent, making us a vital stakeholder.",
+        "zh": "秘鲁也经历了太平洋战争期间失去塔拉帕卡和阿里卡的痛苦。根据1929年《利马条约》，秘鲁将前秘鲁领土（如阿里卡）割让给第三国时需要事先同意，而秘鲁的国家利益也与提供通往玻利维亚的走廊直接相关。",
+        "ko": "태평양 전쟁에서는 페루도 타라파카와 아리카를 잃은 고통을 공유하고 있다. 1929년 리마 조약에 따라 구 페루령(아리카 등)을 제3국에 할양하는 경우는 페루의 사전 동의가 필요하며, 볼리비아에의 회랑 공여에는 페루의 국익도 직결한다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "太平洋戦争でボリビアと同盟を結んで戦った歴史的経緯と、リマ条約による外交的関与。",
-        "en": "Historical solidarity as wartime allies combined with legal prerogatives under the 1929 Lima Treaty concerning coastal borders."
+        "en": "Historical solidarity as wartime allies combined with legal prerogatives under the 1929 Lima Treaty concerning coastal borders.",
+        "zh": "在太平洋战争中与玻利维亚结盟作战以及通过《利马条约》进行外交介入的历史背景。",
+        "ko": "태평양 전쟁에서 볼리비아와 동맹을 맺고 싸운 역사적 경위와 리마 조약에 의한 외교적 관여."
       },
       "keywords": [
         "#GuerraDelPacifico",
@@ -81,17 +101,23 @@
       "id": "bcp-voice-4",
       "country": {
         "ja": "南米地域統合アナリスト・国際法学者",
-        "en": "South American integration analysts & jurists"
+        "en": "South American integration analysts & jurists",
+        "zh": "南美区域一体化分析师和国际法学者",
+        "ko": "남미 지역 통합 분석가 · 국제 법학자"
       },
       "sentiment": "academic",
       "summary": {
         "ja": "2018年のICJ判決は領土境界の法的安定性を重視した判断だった。二国間の感情的対立を超え、リチウム・天然ガス・生物資源回廊など多国間インフラ連結を通じて実質的な回廊利便性を高めることが現実的な解決策となる。",
-        "en": "The 2018 ICJ judgment upheld treaty predictability over informal diplomatic expectations. Future progress relies not on redrawing sovereign borders, but on pragmatic regional logistics, bioceanic rail corridors, and lithium supply cooperation."
+        "en": "The 2018 ICJ judgment upheld treaty predictability over informal diplomatic expectations. Future progress relies not on redrawing sovereign borders, but on pragmatic regional logistics, bioceanic rail corridors, and lithium supply cooperation.",
+        "zh": "2018 年国际法院的判决重点关注领土边界的法律稳定性。一个现实的解决方案是超越两国之间的紧张情绪，通过锂、天然气和生物资源走廊等多边基础设施连接增加走廊的实际便利性。",
+        "ko": "2018년 ICJ 판결은 영토 경계의 법적 안정성을 중시한 판단이었다. 양자 간의 감정적 대립을 넘어 리튬·천연가스·생물자원회랑 등 다국간 인프라 연결을 통해 실질적인 회랑 편리성을 높이는 것이 현실적인 해결책이 된다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "バイオセアニック鉄道構想（大西洋〜太平洋連絡）やアンデス共同体（CAN）の経済実務に注目する学術的見解。",
-        "en": "Policy perspectives evaluating Mercosur/CAN integration, bioceanic corridors, and binational customs modernization."
+        "en": "Policy perspectives evaluating Mercosur/CAN integration, bioceanic corridors, and binational customs modernization.",
+        "zh": "学术视角，重点关注生物海洋铁路概念（大西洋-太平洋连接）和安第斯山脉共同体 (CAN) 的经济实践。",
+        "ko": "바이오세아닉 철도 구상(대서양~태평양 연락)과 안데스 공동체(CAN)의 경제 실무에 주목하는 학술적 견해."
       },
       "keywords": [
         "#CorredorBioceanico",

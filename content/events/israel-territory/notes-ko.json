@@ -1,0 +1,103 @@
+{
+  "eventId": "israel-territory",
+  "notes": [
+    {
+      "id": "it-un-partition-plan",
+      "claim": "1947년 유엔총회 결의 181호에서 팔레스타인 분할안이 채택되었다",
+      "context": "1947년 11월 29일 유엔 총회는 팔레스타인을 유대인 국가와 아랍인 국가로 나누고 예루살렘을 국제관리하에 두는 방안을 통과하였다(찬성 33, 반대 13, 기권 10). 아랍 측은 이 결의를 거부. 다음 1948년 5월 14일에 이스라엘이 독립을 선언하고 제1차 중동전쟁이 발발했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN General Assembly Resolution 181 (II)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/038/88/PDF/NR003888.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-1967-war",
+      "claim": "1967년 6일간 전쟁에서 이스라엘이 요르단 강 서안, 가자, 시나이 반도, 고란 고원을 점령",
+      "context": "1967년 6월 5-10일 제3차 중동 전쟁(6일간 전쟁)에서 이스라엘은 이집트 요르단 시리아에 압도적 승리를 거두었고, 요르단 강 서안 지구(동 예루살렘 포함), 가자 지구, 시나이 반도, 고란 고원을 점령했다. 유엔 안보리 결의 242호는 이스라엘 점령지에서 철수를 요구했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 242 (1967)",
+          "url": "https://documents-dds-ny.un.org/doc/RESOLUTION/GEN/NR0/240/94/PDF/NR024094.pdf",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-settlements",
+      "claim": "이스라엘의 요르단 강 서쪽 해안에서의 이식 활동은 국제법 위반으로 여겨지고 있다",
+      "context": "제네바 제4조약 제49조는 점령국에 의한 자국민의 피점령지로의 이송을 금지하고 있다. 국제사법재판소(ICJ)는 2004년 권고적 의견으로 입식지 건설은 이 협약을 위반한다고 판단. 이스라엘은 점령지가 아니라 '계쟁지'라고 주장하며 조약의 적용을 인정하지 않는다.",
+      "verdict": "국제법상의 평가에 차이",
+      "sources": [
+        {
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory (ICJ Advisory Opinion, 2004)",
+          "url": "https://www.icj-cij.org/en/case/131",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-oslo-accords",
+      "claim": "1993년 오슬로 합의에서 이스라엘과 PLO가 상호 승인",
+      "context": "1993년 9월 13일 워싱턴 D.C.에서 이스라엘의 라빈 총리와 PLO의 아라파트 의장이 '잠정 자치에 관한 원칙 선언'에 서명. 클린턴 대통령이 입회. PLO는 이스라엘의 생존권을 승인했고, 이스라엘은 PLO를 팔레스타인의 정통 대표로 승인했다. 노벨 평화상(1994년)이 수여되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Declaration of Principles on Interim Self-Government Arrangements (Oslo I)",
+          "url": "https://peacemaker.un.org/israelopt-osloaccord93",
+          "publisher": "United Nations Peacemaker",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-oct7-hamas-attack-2023",
+      "claim": "2023년 10월 7일, 하마스가 이스라엘에 대규모 기습 공격을 실시해, 약 1,200명이 사망·약 250명이 납치되었다",
+      "context": "2023년 10월 7일 이른 아침, 하마스는 가자와 이스라엘의 경계 울타리를 돌파하고 남부의 여러 지점을 동시에 기습했다. 이스라엘 당국의 집계에서는 약 1,200명(대부분이 민간인)이 사망해, 약 250명이 인질로서 가자에 연행되었다. 노바 음악제에서는 약 364명이 살해되었다. 유엔인권고등변무관사무소(OHCHR)는 강간을 포함한 성폭력의 증거도 기록했다. 이를 받아 이스라엘은 가자에 대한 전면적 지상작전을 시작했다. 사망자 수·공격의 구체적 계획·이란의 관여도에 대해서는 국제 조사가 계속중.",
+      "verdict": "공식 기록 있음 (일부 세부 사항은 조사 계속 중)",
+      "sources": [
+        {
+          "title": "Report of the Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel (OHCHR)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-israel-opt/index",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-genocide-case-2024",
+      "claim": "2024년 1월, ICJ는 남아프리카의 신청을 받고 이스라엘에 대한 제노사이드 협약상의 잠정 조치를 명했다.",
+      "context": "남아프리카는 2023년 12월 29일 가자에서의 군사작전이 제노사이드 조약을 위반한다고 이스라엘을 ICJ에 제소했다. ICJ는 2024년 1월 26일, 「제노사이드 조약상의 팔레스타인인의 권리에 대한 중대하고 회복 불가능한 손해의 위험」이 인정되는 것으로, 이스라엘에 대하여 가자에서의 제노사이드를 막기 위한 모든 조치를 강구하는 등을 요구하는 잠정 조치 명령을 발령했다(찬성 15, 반대 2). 「제노사이드가 실제로 행해지고 있는지 어떤지」에 대한 본안 판단은 실시하지 않고, 본안 심리는 계속중. 이스라엘은 제노사이드와의 인정을 강하게 부인하고 있다.",
+      "verdict": "잠정 조치 명령은 사실(본안은 ICJ에서 심리 계속 중)",
+      "sources": [
+        {
+          "title": "ICJ Order on Provisional Measures — Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel)",
+          "url": "https://www.icj-cij.org/case/192",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "it-icj-advisory-opinion-occupation-2024",
+      "claim": "2024년 7월 ICJ는 “이스라엘의 팔레스타인 점령지에서의 존재는 국제법상 위법”이라는 권고적 의견을 표명했다.",
+      "context": "유엔 총회의 요청에 따라 ICJ는 2024년 7월 19일 “팔레스타인 점령지에서 이스라엘의 정책·관행의 법적 결과”에 관한 권고적 의견을 표명했다. ICJ는 요르단 강 서안, 동 예루살렘 가자의 점령 전체를 '국제법상 위법'으로 판단하고 이스라엘은 가능한 한 빨리 점령을 종료할 의무가 있다고 말했다. 또 이식지 건설·팔레스타인인의 귀환권 침해·천연자원 수탈을 불법으로 인정했다. 권고적 의견에 법적 구속력은 없지만 유엔총회는 같은 해 9월 이 의견에 근거한 결의를 채택했다. 이스라엘과 미국은 이 의견을 거부했다.",
+      "verdict": "ICJ에 의한 권고적 의견은 사실(법적 구속력 없음, 정치적 실효성은 한정적)",
+      "sources": [
+        {
+          "title": "Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem (ICJ Advisory Opinion, 2024)",
+          "url": "https://www.icj-cij.org/case/186",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

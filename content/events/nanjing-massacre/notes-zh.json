@@ -3,7 +3,7 @@
   "notes": [
     {
       "id": "nm-death-toll-china",
-      "claim": "一、中方明确表示遇难人数超过30万。",
+      "claim": "中方明确表示遇难人数超过30万。",
       "context": "30万是根据1947年南京军事法庭判决所确认的数字。这个数字也刻在南京大屠杀纪念馆里。日本研究人员对这个数字存在很大分歧，估计从数万到20万不等。东京法庭认定这一数字“超过20万”。",
       "verdict": "估计范围广泛。",
       "sources": [
@@ -56,7 +56,7 @@
       "verdict": "有官方记录",
       "sources": [
         {
-          "title": "四、中国将12月13日定为南京大屠杀死难者全国哀悼日",
+          "title": "中国将12月13日定为南京大屠杀死难者全国哀悼日",
           "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
           "publisher": "路透社",
           "type": "media"

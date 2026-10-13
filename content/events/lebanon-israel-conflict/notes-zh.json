@@ -1,0 +1,139 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "notes": [
+    {
+      "id": "lic-1982-invasion",
+      "claim": "1982年，以色列入侵黎巴嫩（“加利利和平行动”），进军贝鲁特并推翻巴解组织。",
+      "context": "1982年6月，以色列军队入侵黎巴嫩并围困首都贝鲁特。巴解组织（巴勒斯坦解放组织）基地被摧毁，巴解组织于8月在多国部队的监督下撤离贝鲁特。数千名黎巴嫩平民在入侵中丧生。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "以色列的黎巴嫩战争 - 官方历史",
+          "url": "https://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/pages/israel-s%20operation%20in%20lebanon.aspx",
+          "publisher": "以色列外交部",
+          "type": "government"
+        },
+        {
+          "title": "1982年以色列入侵黎巴嫩",
+          "url": "https://www.hrw.org/reports/1983/lebanon/",
+          "publisher": "人权观察",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-2006-casualties",
+      "claim": "2006年黎巴嫩战争中，黎巴嫩一方死亡1200多人，以色列一方死亡165人。",
+      "context": "2006 年 7 月至 8 月持续 33 天的战争期间，黎巴嫩卫生部记录约 1 191 人死亡，其中大部分是平民。以方死亡人数为119名士兵和44名平民，总计163至165人。这种不对称的损害强化了黎巴嫩阿拉伯方面“入侵”的感觉。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "黎巴嫩：2006 年战争的死亡人数和影响",
+          "url": "https://www.un.org/unispal/document/auto-insert-187660/",
+          "publisher": "联合国人道协调厅",
+          "type": "international"
+        },
+        {
+          "title": "2006年黎巴嫩战争伤亡情况",
+          "url": "https://www.btselem.org/",
+          "publisher": "B'Tselem",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-shebaa-farms",
+      "claim": "黎巴嫩和叙利亚之间对沙巴农场的归属存在争议（戈兰高地的一部分）",
+      "context": "沙巴阿农场是一片山区，面积约22平方公里，1967年被以色列从叙利亚占领。黎巴嫩声称其为黎巴嫩领土，但联合国、以色列和叙利亚（巴沙尔政权）将其视为戈兰高地的一部分。即使在2000年以色列撤军后，该地区仍被真主党用作持续“抵抗”的基地。",
+      "verdict": "讨论",
+      "sources": [
+        {
+          "title": "秘书长关于蓝线的报告",
+          "url": "https://undocs.org/S/2000/590",
+          "publisher": "联合国秘书长",
+          "type": "international"
+        },
+        {
+          "title": "沙巴农场：黎巴嫩-叙利亚-以色列领土争端",
+          "url": "https://www.cfr.org/backgrounder/shebaa-farms",
+          "publisher": "外交关系委员会",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "lic-unsc-1701",
+      "claim": "联合国安理会第1701（2006）号决议禁止真主党在黎巴嫩南部武装存在，但执行情况尚未完全。",
+      "context": "第1701号决议规定增援联黎部队（最多15,000人），并在南部部署黎巴嫩军队，并要求蓝线和利塔尼河之间的地区“没有武装团体”。然而，联合国秘书长的年度报告年复一年地记录真主党不断储存和转移武器，但尚未完全落实其努力。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "联合国安理会第1701号决议（2006年）",
+          "url": "https://undocs.org/S/RES/1701(2006)",
+          "publisher": "联合国安理会",
+          "type": "international"
+        },
+        {
+          "title": "联黎部队的任务授权和执行情况报告",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/mandate.shtml",
+          "publisher": "联黎部队",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "lic-unifil-japan",
+      "claim": "日本向联黎部队派遣文职专家和防卫省官员，但不向自卫队武装部队派遣。",
+      "context": "由于日本和平宪法（第9条）的限制，自卫队成员很难与联黎部队一起武装参加。日本将从防卫省派遣文职专家和总部人员，有限度地参与工程工作和其他任务。这与派遣了数百名工程师的中国形成鲜明对比。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "联黎部队派遣国",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/contributing.shtml",
+          "publisher": "联黎部队",
+          "type": "international"
+        },
+        {
+          "title": "关于日本参加联黎部队 (日语)",
+          "url": "https://www.mofa.go.jp/mofaj/fp/un_pko/page23_001140.html",
+          "publisher": "日本外务省",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-hezbollah-designation",
+      "claim": "真主党在欧盟和美国被认定为恐怖组织，但在日本、中国或俄罗斯未被认定为恐怖组织。",
+      "context": "1997年，美国将真主党整体列为FTO（外国恐怖组织）。2013年，欧盟仅将军事部门列为恐怖组织。日本、中国、俄罗斯以及许多发展中国家都没有将真主党定为恐怖组织，而是将真主党视为黎巴嫩的政治和军事组织。这种认识上的差异导致了国际反应的分歧。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "指定的外国恐怖组织",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "美国国务院",
+          "type": "government"
+        },
+        {
+          "title": "欧盟理事会关于真主党军事部门的决定",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013D0495",
+          "publisher": "欧盟理事会",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-1983-barracks",
+      "claim": "1983年贝鲁特美国海军陆战队军营发生爆炸事件，造成241名美国士兵死亡，并导致美国从黎巴嫩撤军。",
+      "context": "1983年10月23日，一辆自杀式炸弹卡车炸毁了隶属于国际维和部队的美军军营，造成241人死亡（同一天，法国一处军营也遭到袭击，造成58人死亡）。美国确定这次袭击是由真主党和伊朗赞助的。次年，里根政府从黎巴嫩撤出多国部队。这一事件成为美国敌视真主党的起点。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "1983年贝鲁特军营爆炸事件",
+          "url": "https://history.state.gov/milestones/1981-1988/lebanon",
+          "publisher": "美国国务院历史局",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

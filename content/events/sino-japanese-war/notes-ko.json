@@ -1,0 +1,47 @@
+{
+  "eventId": "sino-japanese-war",
+  "notes": [
+    {
+      "id": "sjw-treaty-of-shimonoseki",
+      "claim": "1895년 시모노세키 조약(마세키 조약)에서 일본은 대만·요동반도의 할양과 배상금을 획득",
+      "context": "1895년 4월 17일에 닛신 강화 조약(시모노세키 조약)이 체결. 일본은 청에서 대만·수호제도·요동반도의 할양, 배상금 2억량(테일), 개항장 개설 등을 획득. 중국에서는 이것을 '불평등조약'으로 기술한다. 요동반도는 이후 노불독의 삼국간섭에 의해 반환되었다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Treaty of Shimonoseki (1895) (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-triple-intervention",
+      "claim": "삼국 간섭(노불독)에 의해 일본은 요동반도를 청결하게 반환",
+      "context": "1895년 4월 23일, 러시아·프랑스·독일의 3국이 일본에 대해 요동반도의 청에의 반환을 권고. 군사적 압력을 배경으로 일본은 이를 수락해 대가로 3000만량의 추가배상금을 획득했다. 이 경험은 일본 국내에서 러시아에 대한 적의를 높여 나중에 러일전쟁으로도 이어졌다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "삼국 간섭 관련 외교 문서 (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "sjw-donghak-trigger",
+      "claim": "조선의 동학농민운동(갑오농민전쟁)이 일청전쟁의 계기가 되었다",
+      "context": "1894년 조선에서 동학농민운동이 발생해 조선정부가 청결하게 파병을 요청. 이에 대해 일본도 천진조약에 따라 파병해 닛신 양군이 한반도에서 대치한 것이 개전의 직접적 계기가 되었다. 한국에서는 이 운동을 반봉건·반침략의 민주주의운동의 선구로 자리매김하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "닛신 전쟁의 경위 (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

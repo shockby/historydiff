@@ -1,0 +1,105 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "notes": [
+    {
+      "id": "gerd-1929-1959-colonial-treaties",
+      "claim": "식민지 시대의 1929년과 1959년의 수리협정은 나일강 수량의 대부분을 이집트와 수단에 독점 배분하고 있었다",
+      "context": "1929년의 영국·이집트 협정 및 1959년의 이집트·수단 양국 협정에 의해, 연간 나일강 유수량(아스완 추계 840억 m³) 중 에지 풋에 555억 m³(약 66%), 수단에 185억 m³(약 22%)가 할당되었고, 상류국에서의 수리사업에 대한 이집트의 거부권이 정해졌다. 그러나 푸른 나일강 수계로 나일강 전체 수량의 약 85%를 공급하는 에티오피아는 양 협정의 체결 당사국이 아니라 식민지 시대의 불평등 조약이며 법적 구속력을 갖지 않는다고 일관되게 거부하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Exchange of Notes between the UK and Egypt with regard to the Use of the Waters of the River Nile for Irrigation (1929)",
+          "url": "https://treaties.un.org/",
+          "publisher": "국제연합조약집(League of Nations Treaty Series Vol. 93)",
+          "type": "international"
+        },
+        {
+          "title": "Agreement between the Republic of the Sudan and the United Arab Republic for the Full Utilization of the Nile Waters (1959)",
+          "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC018042/",
+          "publisher": "유엔식량농업기관(FAO FAOLEX)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-construction-capacity",
+      "claim": "GERD는 발전용량 5,000MW 초과, 총저수량 약 740억m³를 자랑하는 아프리카 최대의 수력발전소이다",
+      "context": "에티오피아 정부는 2011년 4월 베니션 글루무스주의 푸른 나일강 본류에서 '대 에티오피아 르네상스 댐(GERD)' 건설에 착공했다. 총공비 약 40억 달러 이상을 세계은행이나 외국융자에 의존하지 않고, 국채발행이나 국민모금에 의해 자력조달. 총 저수량 약 740억 입방미터, 계획 발전 용량 약 5,150메가와트(MW)이며, 완성하면 국내 무전화 인구(국민의 약 절반)에 전력 공급과 인근 국가에 전력 수출을 일거에 실현하는 거대 국책 프로젝트이다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Ethiopian Electric Power (EEP) - Grand Ethiopian Renaissance Dam Project Profile",
+          "url": "https://www.eep.com.et/",
+          "publisher": "에티오피아 전력 공사(EEP)",
+          "type": "government"
+        },
+        {
+          "title": "International Water Power & Dam Construction - GERD Technical Specifications",
+          "url": "https://www.waterpowermagazine.com/",
+          "publisher": "국제수력발전·댐건설지",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-egypt-water-security",
+      "claim": "이집트는 물 수요의 90% 이상을 나일강에 의존하고 있으며, GERD를 국가존망에 관련된 실존적 위협으로 자리매김하고 있다",
+      "context": "국토의 95% 이상이 사막인 이집트에 있어서, 약 1억명의 인구의 농업·생활·공업용수의 90% 이상이 나일강으로부터의 취수에 의존하고 있다. 이집트 정부는 사전 합의가 없는 일방적인 댐의 저수(특히 장기 가뭄기에서의 방수량 감소)가 아스완 하이댐의 수위 저하나 농업 붕괴를 초래한다고 강하게 경계하고 “수안보장은 국가존망의 사활 문제이며 한 방울의 물도 침해를 허용하지 않는다”고 말했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Ministry of Foreign Affairs of the Arab Republic of Egypt - Position on the Grand Ethiopian Renaissance Dam",
+          "url": "https://www.mfa.gov.eg/",
+          "publisher": "이집트 아랍 공화국 외무성",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Letter from the Permanent Representative of Egypt (S/2021/583)",
+          "url": "https://undocs.org/S/2021/583",
+          "publisher": "국제연합안전보장이사회",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-sudan-dual-position",
+      "claim": "수단은 홍수 조정과 저렴한 전력의 혜택을 인정하면서 국경에 가까운 자국댐의 안전운용을 위해 사전 합의를 요구하고 있다",
+      "context": "수단은 GERD에 의해 매년 푸른 나일강의 파멸적 홍수가 완화되어 저렴한 수력 전력을 에티오피아로부터 수입할 수 있다는 큰 이점을 누릴 수 있다. 한편, 국경에서 불과 100km가량 하류에 위치한 자국의 로제이레스 댐(Roseires Dam)의 저수 용량이 작기 때문에 에티오피아 측에서 실시간 방수 데이터 공유나 댐 결괴·급격한 방류 리스크를 제어하는 ​​법적 구속력 있는 합의가 없는 경우 수백만 명의 인기와 농업 인프라.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Ministry of Irrigation and Water Resources of Sudan - Position Paper on GERD",
+          "url": "https://www.sudanembassy.org/",
+          "publisher": "수단 관개수 자원성",
+          "type": "government"
+        },
+        {
+          "title": "Middle East Institute - Sudan's Ambiguous Position on the GERD",
+          "url": "https://www.mei.edu/publications/sudans-ambiguous-position-gerd",
+          "publisher": "중동 연구소(MEI)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-2015-declaration-principles-impasse",
+      "claim": "2015년 원칙 선언 서명 후에도 저수 규칙과 가뭄 대책을 둘러싼 법적 구속력 있는 합의는 아직 성립되지 않았다.",
+      "context": "2015년 3월, 에티오피아 이집트 수단의 정상은 하르툼에서 '원칙 선언(Declaration of Principles)'에 서명하여 중대한 손해의 회피나 공정한 이용의 원칙에 합의했다. 그러나 이후 미국·세계은행 중개협의(2019-2020년)와 아프리카연합(AU) 주도의 협의에서도 심각한 가뭄기의 방수 의무량, 수배분의 법적 성격 및 분쟁 해결 조항을 둘러싸고 대립이 해소되지 않고, 에티오피아가 협정 체결 전에 단계적 저수를 완료.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Agreement on Declaration of Principles between the Arab Republic of Egypt, the Federal Democratic Republic of Ethiopia and the Republic of the Sudan on the GERD Project (2015)",
+          "url": "https://www.internationalwaterlaw.org/documents/regionaldocs/Final_Nile_Agreement_23March2015.pdf",
+          "publisher": "국제수법 프로젝트(International Water Law Project)",
+          "type": "international"
+        },
+        {
+          "title": "African Union Communique on the Trilateral Negotiations on the Grand Ethiopian Renaissance Dam",
+          "url": "https://au.int/",
+          "publisher": "아프리카 연합(AU)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

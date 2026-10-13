@@ -1,0 +1,109 @@
+{
+  "eventId": "gulf-war-iraq-war",
+  "notes": [
+    {
+      "id": "giw-unsc678",
+      "claim": "유엔 안보리 결의 678호는 다국적군에 의한 쿠웨이트 해방을 위한 무력 행사를 명시적으로 수권했다",
+      "context": "1990년 11월 29일 안보리는 결의 678호를 채택하고 이라크가 1991년 1월 15일까지 쿠웨이트에서 철수하지 않을 경우 회원국이 \"필요한 모든 수단\"을 사용할 것을 수권했다. 중국은 기권, 남은 12개국이 찬성했다. 이 결의는 걸프전쟁의 법적 근거로 되어 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 678 (1990)",
+          "url": "https://undocs.org/S/RES/678(1990)",
+          "publisher": "유엔",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "giw-wmd-notfound",
+      "claim": "미영이 이라크 전쟁 개전의 근거로 한 대량 파괴 무기(WMD)는 결국 발견되지 않았다",
+      "context": "2003년 침공 후 이라크 조사그룹(ISG)이 이라크 전역을 조사했지만 활동 중인 대량파괴무기 프로그램은 발견되지 않았다. 2004년 듀얼퍼 보고서는 후세인 정권이 1990년대 초반에 WMD 프로그램을 실질적으로 폐기했다고 결론지었다. 이 사실은 개전의 정당성에 심각한 의문을 던졌다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD (Duelfer Report)",
+          "url": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+          "publisher": "미국 중앙정보국(CIA)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-japan-contribution",
+      "claim": "걸프전에서 일본은 약 130억 달러의 자금거출을 했지만 '수표외교'라고 비판됐다.",
+      "context": "일본 정부는 걸프 전쟁에서 다국적군 지원을 위해 총액 약 130억 달러를 거출했다(당초 90억 달러를 표명하고, 추가로 40억 달러를 추가). 인원을 파견하지 않았기 때문에 쿠웨이트 정부의 감사 광고에 일본의 이름이 게재되지 않았다. 이 경험이 1992년 PKO협력법(국제평화협력법) 제정으로 이어졌다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "걸프전쟁과 일본의 대응 (일본어)",
+          "url": "https://www.mofa.go.jp/mofaj/area/middleeast/gulf.html",
+          "publisher": "외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-kofi-illegal",
+      "claim": "코피 아난 유엔 사무총장은 이라크 전쟁을 “유엔 헌장에 비추어 불법”이라고 발언했다",
+      "context": "2004년 9월, 아난 사무총장은 BBC 인터뷰에서 2003년 이라크 침공에 대해 “나의 견해에서 그것은 유엔 헌장에 비추어 불법이었다”고 말했다. 이 발언은 국제사회에 큰 파문을 불러 미·영 양국 정부는 반박했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Annan: Iraq war 'illegal' (BBC News, 2004-09-16)",
+          "url": "http://news.bbc.co.uk/2/hi/middle_east/3661134.stm",
+          "publisher": "BBC",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "giw-sdf-samawah",
+      "claim": "일본의 자위대는 2004년부터 2006년에 걸쳐 이라크 남부 사마와에 파견되었다",
+      "context": "고이즈미 정권은 2003년에 이라크 특조법을 성립시키고, 다음 2004년 1월에 육상 자위대를 이라크 남부의 사마와에 파견했다. '비전투지역'이라는 정부의 정의를 둘러싸고 국회에서 치열한 논쟁이 일어났다. 자위대는 2006년 7월 임무를 완료하고 철수했다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "이라크에서의 자위대 활동 (일본어)",
+          "url": "https://www.mod.go.jp/j/approach/kokusai_heiwa/iraq/",
+          "publisher": "방위성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-abu-ghraib",
+      "claim": "아브그레이브 감옥에서 미병에 의한 피구금자 학대가 2004년에 발각되어 국제적 비판을 초래했다",
+      "context": "2004년 4월 이라크의 아브그레이브 감옥에서 미군 병사가 이라크인 피구금자를 신체적·성적으로 학대하는 사진이 공개됐다. 이 사건은 제네바 조약 위반으로 국제사회로부터 강하게 비난받아 미국의 점령 정책에 대한 신뢰를 크게 손상시켰다. 여러 군인이 군법회의에서 유죄판결을 받았다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Article 15-6 Investigation of the 800th Military Police Brigade (Taguba Report)",
+          "url": "https://fas.org/irp/agency/dod/taguba.pdf",
+          "publisher": "미 육군",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "giw-civilian-casualties",
+      "claim": "이라크 전쟁(2003~2011년)에 있어서의 민간인 사망자수는 10만명 이상으로 추계되고 있다",
+      "context": "이라크 바디 카운트는 문서화된 민간인 사망자로서 10만 명 이상을 기록하고 있다. 란셋지의 2006년 연구는 초과 사망으로 약 65만명을 추계했지만, 이 숫자는 방법론을 둘러싸고 논쟁이 있다. 미국 방총성은 상세한 민간인 사자 수를 공식적으로 집계·공표하지 않았다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Iraq Body Count 데이터베이스",
+          "url": "https://www.iraqbodycount.org/",
+          "publisher": "Iraq Body Count",
+          "type": "ngo"
+        },
+        {
+          "title": "Mortality after the 2003 invasion of Iraq (The Lancet, 2006)",
+          "url": "https://doi.org/10.1016/S0140-6736(06)69491-9",
+          "publisher": "The Lancet",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

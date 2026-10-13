@@ -1,0 +1,101 @@
+{
+  "eventId": "climate-responsibility",
+  "notes": [
+    {
+      "id": "cc-cbdr",
+      "claim": "1992年《联合国气候变化框架公约》明确了“共同但有区别的责任和国家能力”原则，并指出发达国家应带头采取措施。",
+      "context": "《公约》第三条第一款规定了“CBDR-RC”，作为中国、印度等国家主张发达国家责任的法律依据。 2015年《巴黎协定》重申了这一原则，并增加了“根据不同国情”的表述，其解释（发达国家与发展中国家的界限）仍存在争议。",
+      "verdict": "已确认的事实（解释有争议）",
+      "sources": [
+        {
+          "title": "《联合国气候变化框架公约》（1992年）",
+          "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
+          "publisher": "气候公约",
+          "type": "international"
+        },
+        {
+          "title": "《巴黎协定》",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "publisher": "气候公约",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cumulative",
+      "claim": "虽然美国和欧盟在二氧化碳历史累计排放量中占据很大比例，但中国目前是世界上年排放量最大的国家。",
+      "context": "自 1850 年以来累计二氧化碳排放量估计约为美国的 1/4、欧盟的 1/6、中国的 10% 左右、印度的 3% 左右。另一方面，中国年排放量约占全球的30%，印度约占8%，而按人均计算，印度远低于世界平均水平。强调哪些指标与各国主张的差异直接相关。",
+      "verdict": "根据数据（估计值）而变化",
+      "sources": [
+        {
+          "title": "累计二氧化碳排放量",
+          "url": "https://ourworldindata.org/grapher/cumulative-co-emissions",
+          "publisher": "我们的数据世界/全球碳项目",
+          "type": "academic"
+        },
+        {
+          "title": "全球碳预算",
+          "url": "https://globalcarbonbudget.org/",
+          "publisher": "全球碳项目",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cc-kyoto",
+      "claim": "《京都议定书》（1997年）仅对发达国家（附件一国家）设定了具有法律约束力的减排目标，美国未批准，日本、加拿大、俄罗斯等国未参与第二承诺期。",
+      "context": "《议定书》体现了“发达国家首先减排”的差别责任。另一方面，美国没有批准该条约，因为发展中国家没有义务，而中国则成长为世界最大排放国。这一经历是转向2015年《巴黎协定》的背景，所有签署国都提交了自己的目标。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "《联合国气候变化框架公约》京都议定书",
+          "url": "https://unfccc.int/kyoto_protocol",
+          "publisher": "气候公约",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cop26-coal",
+      "claim": "COP26（2021年）最后阶段，应印度要求，将“逐步淘汰”煤电修改为“逐步减少”。",
+      "context": "《格拉斯哥气候协议》通过前不久，印度环境部长呼吁修改，中方表示支持。欧盟和小岛屿国家对此表示强烈失望。印度解释说，“发展中国家有发展的权利，也有减少贫困的挑战。”在COP28上，人们就总体上从化石燃料的“过渡”达成了共识。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "格拉斯哥气候公约（第 1/CMA.3 号决定）",
+          "url": "https://unfccc.int/documents/310475",
+          "publisher": "气候公约",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-ncqg",
+      "claim": "在 COP29（2024 年）上，由发达国家牵头，商定了“到 2035 年每年 3000 亿美元”的新气候融资目标，但印度和其他国家反对认为这还不够。",
+      "context": "发展中国家要求每年筹集1.3万亿美元。该协议由发达国家牵头，“鼓励”包括发展中国家在内的所有参与者进行资金动员，但印度代表反对该协议的通过，批评其“数额微不足道”。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "COP29 成果：气候融资新集体量化目标（第 1/CMA.6 号决定）",
+          "url": "https://unfccc.int/process-and-meetings/conferences/baku-climate-change-conference-november-2024/cop-29",
+          "publisher": "气候公约",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cc-cbam",
+      "claim": "欧盟碳边界调整机制（CBAM）将于2026年全面适用，曾被印度、中国等国批评违反差别化责任原则。",
+      "context": "CBAM是对钢铁、水泥、铝、化肥、电力和氢气等进口商品征收碳成本的制度。尽管欧盟表示它符合世贸组织的规定，旨在保持区域产业竞争力和防止碳泄漏，但发展中国家认为这是贸易壁垒，并呼吁世贸组织进行讨论。",
+      "verdict": "讨论",
+      "sources": [
+        {
+          "title": "碳边界调整机制",
+          "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+          "publisher": "欧盟委员会",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

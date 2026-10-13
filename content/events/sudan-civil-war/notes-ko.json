@@ -1,0 +1,101 @@
+{
+  "eventId": "sudan-civil-war",
+  "notes": [
+    {
+      "id": "conflict-origin",
+      "claim": "2023년 4월 전투는 RSF가 선제공격한 것으로 발발했다.",
+      "context": "SAF와 RSF는 원래 2019년 바실 정권 붕괴 후 이행기에 공동 통치를 맡았으나 군의 통일 지휘권을 둘러싼 대립이 격화하고 2023년 4월 15일 무력 충돌이 시작되었다. 어느 쪽이 먼저 공격했는지에 대해서는 양측의 주장이 엇갈리고 있다.",
+      "verdict": "개전의 경위는 양측의 주장에 차이(국제적인 검증이 곤란한 상황)",
+      "sources": [
+        {
+          "title": "Sudan Conflict Overview — International Crisis Group",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/sudan",
+          "publisher": "International Crisis Group",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "genocide-darfur",
+      "claim": "RSF는 다르푸르에서 제노사이드에 상당하는 행위를 하고 있다.",
+      "context": "유엔과 인권단체는 RSF가 다르푸르의 비아랍계 소수민족(마사리트족 등)을 표적으로 대규모 학살·성폭력·강제이주를 실시하고 있다고 보고하고 있다. 미국은 2024년 이를 제노사이드와 공식 인정했다.",
+      "verdict": "사실(미국은 제노사이드와 공식 인정·유엔 인권기관도 기록)",
+      "sources": [
+        {
+          "title": "UN Human Rights Council Reports on Sudan",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/about-council",
+          "publisher": "United Nations Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Human Rights Watch — Sudan",
+          "url": "https://www.hrw.org/africa/sudan",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "chinese-weapons-rsf",
+      "claim": "중국제 무기가 RSF에 공급되고 있다.",
+      "context": "2025년 중국제 드론과 유도폭탄이 RSF 측에서 사용되고 있음을 확인하여 수단 정부가 베이징에 설명을 요구했다. 중국은 RSF와의 관계를 부정하고 있지만, 경로의 상세는 불명인 채.",
+      "verdict": "사실(공급 경로는 미확인)",
+      "sources": [
+        {
+          "title": "Chinese Weapons in Sudan's Civil War — ADF Magazine",
+          "url": "https://adf-magazine.com/",
+          "publisher": "ADF Magazine",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "hemedti-death-sentence",
+      "claim": "RSF 지도자 헤메티는 2026년 7월에 수단 법원으로부터 사형 판결을 받았다.",
+      "context": "수단의 법원은 헤메티와 측근 15명에게 전쟁범죄·인도에 대한 죄·제노사이드의 죄로 결석재판에 의해 사형을 선고했다. RSF 측은 이 판결을 무효라고 주장하고 있다.",
+      "verdict": "사실(결석재판·RSF는 무효라고 주장)",
+      "sources": [
+        {
+          "title": "Sudan Court Sentences RSF Leader to Death — AP News",
+          "url": "https://apnews.com/",
+          "publisher": "Associated Press",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "humanitarian-scale",
+      "claim": "수단 내전은 21세기 최대 규모의 인도 위기의 하나이다.",
+      "context": "2026년 시점에서 수백만 명이 국내 피난민이 되어 차드·남 수단·이집트 등 이웃 나라로 도망친 난민도 급증하고 있다. 식량·의료·대피소의 심각한 부족이 계속되고 있어 유엔은 긴급 지원을 호소하고 있다.",
+      "verdict": "사실(유엔 OCHA 및 WFP가 최대 규모의 위기와 인정)",
+      "sources": [
+        {
+          "title": "Sudan Humanitarian Crisis — UN OCHA",
+          "url": "https://www.unocha.org/sudan",
+          "publisher": "United Nations Office for the Coordination of Humanitarian Affairs",
+          "type": "international"
+        },
+        {
+          "title": "WFP Sudan Emergency Response",
+          "url": "https://www.wfp.org/countries/sudan",
+          "publisher": "World Food Programme",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-response-sudan",
+      "claim": "유엔안전보장이사회는 수단 내전에 대해 구속력 있는 결의를 채택할 수 없으며 성명 수준의 대응에 그치고 있다",
+      "context": "수단 내전(2023년~)에 대해 유엔안전보장이사회는 2023~2024년에 걸쳐 복수의 보도성명(프레스·스테이트먼트)을 발출했지만, 상임이사국(특히 러시아·중국)의 반대·기권자세로 제재나 강제조치를 수반하는 구속력 있다. 인도 지원 액세스의 확보를 요구하는 비구속적 결의(S/RES/2724등)는 채택되었지만, 이행은 불충분. 2024년에는 유엔 PKO 전개도 검토되었지만 합의에 이르지 않았다. 안보리의 이 기능부전이 인도 위기의 심각화를 초래하고 있다고 국제 NGO로부터 비판이 잇따르고 있다.",
+      "verdict": "구속력 있는 안보리 결의 없음(성명·비구속적 결의만)",
+      "sources": [
+        {
+          "title": "UN Security Council Reports on Sudan",
+          "url": "https://www.un.org/securitycouncil/content/sudan",
+          "publisher": "United Nations Security Council",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

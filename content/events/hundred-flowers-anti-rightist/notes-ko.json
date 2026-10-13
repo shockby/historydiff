@@ -1,0 +1,93 @@
+{
+  "eventId": "hundred-flowers-anti-rightist",
+  "notes": [
+    {
+      "id": "hf-yanmou-theory",
+      "claim": "백화운동은 지식인을 낳기 위한 의도적인 함정('양모')이었다",
+      "context": "모택동이 백화운동을 처음부터 반체제파를 특정·숙청하기 위해 계획한 ‘양모’였는가 하는 문제는 역사가들 사이에서 논의가 계속되고 있다. 모택동 자신이 나중에 '양모'라는 표현을 사용한 것이 기록되어 있다. 한편, 당초는 진심으로 자유로운 논의를 허가했지만, 비판의 격렬함에 놀라 급거 방침을 전환했다는 견해도 있다. 현재의 학술적 컨센서스는, 모택동의 의도가 도중에 변화했을 가능성이 높다고 하는 것이지만, 완전한 결론에는 이르지 않았다.",
+      "verdict": "학술적으로 논의 중",
+      "sources": [
+        {
+          "title": "The Politics of China: Sixty Years of the People's Republic of China",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        },
+        {
+          "title": "Mao: The Unknown Story",
+          "url": "https://www.penguinrandomhouse.com/",
+          "publisher": "Penguin Random House",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rightist-numbers",
+      "claim": "약 55만명이 우파로 인정되었다",
+      "context": "중국 정부의 공식 통계에서는 반우파 투쟁에서 '우파 분자'로 인정된 인원수는 약 55만명으로 되어 있다. 그러나 일부 연구자들은 이 수치를 과소평가하는 견해도 있어 실제로는 더 많은 사람들이 비공식적인 형태로 박해를 받았다고 한다. 1978년 이후 거의 전원의 명예가 회복되었지만, 장백령·라류기 등 6명은 끝까지 명예회복되지 않았다(나중에 5명으로 축소).",
+      "verdict": "공식 기록 있음(실수는 논의 있음)",
+      "sources": [
+        {
+          "title": "중국 공산당 당사(제2권)",
+          "url": "https://www.12371.cn/",
+          "publisher": "중공중앙당사연구실",
+          "type": "government"
+        },
+        {
+          "title": "The Anti-Rightist Campaign and Its Aftermath",
+          "url": "https://www.cambridge.org/",
+          "publisher": "Cambridge University Press",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-rehabilitation",
+      "claim": "1978년 이후 우파로 여겨진 사람들의 명예회복이 이루어졌다",
+      "context": "1978년 중국 공산당은 반우파 투쟁 확대가 잘못되었음을 인정하고 우파로 인정된 사람들의 명예회복(적모·개정)을 전면적으로 실시했다. 약 54만명 이상이 명예를 회복했지만, 장백령·라류기·윤안평·彭文応·첸인병의 5명은 '진짜 우파'로 회복 대상에서 제외되었다(당초는 6명이었지만 나중에 1명 추가 회복). 공식 견해에서는 반우파 투쟁 자체는 '필요했다'며 어디까지나 '확대화의 잘못'만을 인정하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "세키아타 전부 적리 우파 분자 모자 결정적 실시 방안",
+          "url": "https://www.gov.cn/",
+          "publisher": "중국 국무원",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hf-great-leap-connection",
+      "claim": "반우파투쟁이 대약진정책의 실패를 심각화시켰다",
+      "context": "반우파 투쟁으로 지식인과 관료 사이에 심각한 공포와 자기검열이 퍼져 1958년부터 시작된 대약진정책에 대해 아무도 이의를 제기할 수 없게 되었다. 농업·공업생산의 실태를 거짓으로 보고하는 풍조가 만연해 정책 오류가 시정되지 않은 채 대규모 기근이 발생했다.彭徳懐처럼 대약진의 문제점을 지적한 자는 '우파적'으로 숙청됐다. 이 인과관계는 많은 역사가가 지적하고 있다.",
+      "verdict": "학술적으로 넓게 지지",
+      "sources": [
+        {
+          "title": "Tombstone: The Great Chinese Famine, 1958-1962",
+          "url": "https://us.macmillan.com/",
+          "publisher": "Farrar, Straus and Giroux",
+          "type": "academic"
+        },
+        {
+          "title": "Mao's Great Famine",
+          "url": "https://www.bloomsbury.com/",
+          "publisher": "Bloomsbury Publishing",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "hf-ding-ling",
+      "claim": "저명한 지식인이 우파로 박해당한",
+      "context": "반우파 투쟁으로 저명한 지식인이 다수 표적이 되었다. 작가의 정령은 우파로 인정되어 북대황(북동부변경)에 추방되었다. 사회학자·인류학자의 효효통, 법학자의 나류기, 저널리스트의 혜안평 등도 우파로 여겨졌다. 청안평은 그 후 행방불명이 되어 현재도 소식은 불명하다. 이러한 사례는 반우파투쟁이 중국의 지적·문화적 생활에 준 괴멸적인 영향을 상징하고 있다.",
+      "verdict": "여러 증거 있음",
+      "sources": [
+        {
+          "title": "The People's Republic of China, 1949-1979: A Documentary History",
+          "url": "https://www.degruyter.com/",
+          "publisher": "De Gruyter",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

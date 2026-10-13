@@ -1,0 +1,121 @@
+{
+  "eventId": "iran-iraq-war",
+  "notes": [
+    {
+      "id": "iiw-shatt-al-arab",
+      "claim": "이란 이라크 전쟁의 주요 개전 원인은 셔틀 아랍 강의 주권을 둘러싼 다툼이었다",
+      "context": "셔틀 아랍 강은 이란과 이라크의 국경을 형성하는 수로로 페르시아 만으로의 출구로 양국에 전략적으로 중요하다. 1975년 알제 협정에서 이라크는 강 중앙선을 국경으로 인정했지만, 사담 후세인은 1980년 9월 17일 이 협정을 일방적으로 파기하고 5일 후에 이란에 침공했다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "The Algiers Agreement of 1975",
+          "url": "https://peacemaker.un.org/iraq-iran-algiersagreement75",
+          "publisher": "유엔 평화 구축 지원",
+          "type": "international"
+        },
+        {
+          "title": "Iran-Iraq War (1980-1988)",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-chemical-weapons",
+      "claim": "이라크는 이란 이라크 전쟁 중에 화학무기를 사용하고 유엔 조사단이 이를 확인했다.",
+      "context": "유엔 사무총장의 조사단은 1984년부터 여러 차례에 걸쳐 이란에 대한 조사를 실시하고, 겨자 가스 및 태번(신경제)의 사용을 확인하는 보고서를 공표했다. 1988년 3월 하라부자 공격에서는 쿠르드 인민간인에 대해 화학무기가 사용되어 약 5,000명이 사망했다고 한다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Report of the specialists appointed by the Secretary-General to investigate allegations by the Islamic Republic of Iran concerning the use of chemical weapons (S/16433)",
+          "url": "https://digitallibrary.un.org/record/84243",
+          "publisher": "유엔 디지털 라이브러리",
+          "type": "international"
+        },
+        {
+          "title": "Halabja chemical attack",
+          "url": "https://www.hrw.org/reports/1993/iraqkurds/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "iiw-us-support-iraq",
+      "claim": "미국은 이라크의 화학무기 사용을 알면서 이라크에 대한 지원을 계속했다",
+      "context": "기밀해제된 미국무성·국가안보회의문서(2013년 공개)에 의해 레이건 정권이 이라크에 의한 화학무기 사용의 정보를 가지면서, 대이란 봉쇄를 우선해 이라크에 대한 외교·경제 지원을 계속한 것이 확인되고 있다. 1983-84년에는 도널드 람스펠드가 특사로 바그다드를 방문해 사담과 회담했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Shaking Hands with Saddam Hussein: The U.S. Tilts toward Iraq, 1980-1984",
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB82/",
+          "publisher": "National Security Archive, George Washington University",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "iiw-casualties",
+      "claim": "이란 이라크 전쟁의 사망자 수는 양국 모두 50만명에서 100만명 이상으로 추정되고 있다",
+      "context": "8년간의 전쟁에 의한 사망자 수의 추계는 연구자에 의해 크게 폭이 있다. 전투원·민간인을 합친 사망자 수는 최소 40만명, 많은 추계로 50만~100만명 이상으로 된다. 이란은 '순교자'의 수를 성전의 증거로 강조해 정확한 통계 공개에는 소극적이었다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Iran-Iraq War",
+          "url": "https://www.britannica.com/event/Iran-Iraq-War",
+          "publisher": "Encyclopaedia Britannica",
+          "type": "academic"
+        },
+        {
+          "title": "The Iran-Iraq War: A Military Analysis",
+          "url": "https://www.rand.org/pubs/reports/R3339.html",
+          "publisher": "RAND Corporation",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-un-res598",
+      "claim": "유엔 안보리 결의 598(1987년)이 최종적으로 정전의 법적 근거가 되었다",
+      "context": "결의 598은 1987년 7월 20일에 만장일치로 채택되어 즉각 정전, 포로교환, 국경으로의 철수를 요구했다. 이라크는 거의 즉시 수락했지만, 이란은 1988년 7월까지 수락을 거부했다. 정전은 1988년 8월 20일에 발효되었으며, UNIIMOG가 감시를 당했다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Security Council Resolution 598 (1987)",
+          "url": "https://digitallibrary.un.org/record/148734",
+          "publisher": "유엔 디지털 라이브러리",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "iiw-china-arms",
+      "claim": "중국은 이란 이라크 양국에 무기를 수출하고 분쟁으로부터 이익을 얻었다",
+      "context": "중국은 이란에 F-7(미그 21 개량형) 전투기, HY-2 실크웜 미사일 등을 공급해 이라크에도 각종 무기를 수출했다. 스톡홀름 국제평화연구소(SIPRI)의 무기 이전 데이터베이스에 의해 양국으로의 수출 실적이 기록되고 있다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "SIPRI Arms Transfers Database",
+          "url": "https://www.sipri.org/databases/armstransfers",
+          "publisher": "Stockholm International Peace Research Institute",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iiw-iran-air-655",
+      "claim": "미함 빈센스가 1988년 이란항공 655편을 격추해 290명이 사망했다",
+      "context": "1988년 7월 3일 미 해군 미사일 순양함 USS 빈센스가 포름즈 해협에서 이란항공 655편(에어버스 A300)을 민간기로 인식하지 않고 격추해 승객 승무원 290명 전원이 사망했다. 미국은 나중에 유족에게 보상금을 지불했지만 사과는 하지 않았다. 이 사건은 이란에 있어서 정전 수락을 가속시킨 한 원인으로도 분석되고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Iran Air Flight 655",
+          "url": "https://www.icao.int/Meetings/AMC/MA/DGCA%2011th%20Conference/dgca11_wp085.pdf",
+          "publisher": "국제민간항공기관(ICAO)",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

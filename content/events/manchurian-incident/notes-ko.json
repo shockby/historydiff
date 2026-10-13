@@ -1,0 +1,47 @@
+{
+  "eventId": "manchurian-incident",
+  "notes": [
+    {
+      "id": "mi-railway-explosion",
+      "claim": "1931년 9월 18일, 남만주철도의 선로가 폭파되었다(야나기조호 사건)",
+      "context": "간토군의 참모·이시하라 마사와 이타가키 정시로가 계획한 자작 자연의 폭파 사건. 중국군의 사업으로서 사변의 구실로 했다. 전후의 도쿄 재판 및 일본의 역사 연구에서도 관동군의 모략이었던 것이 확인되고 있다.",
+      "verdict": "역사적 사실(자작자연과 확인이 끝난 상태)",
+      "sources": [
+        {
+          "title": "극동국제군사재판기록 (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mi-lytton-commission",
+      "claim": "국제연맹 리튼조사단이 만주국을 비승인으로 하는 보고서를 제출",
+      "context": "1932년, 국제연맹은 리튼경을 단장으로 하는 조사단을 파견. 보고서는 만주에서 일본의 특수권익을 인정하면서도 만주사변은 일본의 정당방위로는 인정되지 않았고 만주국은 일본군의 지원 없이는 성립할 수 없었다고 결론지었다. 1933년 2월 국제연맹총회에서 보고서가 채택되어 일본은 국제연맹을 탈퇴했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Report of the Commission of Enquiry (Lytton Report)",
+          "url": "https://digital.library.northwestern.edu/league/le000003.pdf",
+          "publisher": "League of Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "mi-manchukuo",
+      "claim": "1932년 만주국이 건국된",
+      "context": "1932년 3월 1일 건국 선언. 원호는 「대동」. 청조 최후의 황제·척의를 집정(나중에 황제)에 정했지만, 실질적으로는 관동군이 통치하는 괴뢰국가였다. 국제적으로는 일본·독일·이탈리아 등 일부 국가만 승인했다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "만주국 관련 자료 (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

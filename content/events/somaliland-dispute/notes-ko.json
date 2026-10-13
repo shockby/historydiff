@@ -1,0 +1,105 @@
+{
+  "eventId": "somaliland-dispute",
+  "notes": [
+    {
+      "id": "sl-1960-independence-union",
+      "claim": "구영령 소말릴랜드는 1960년 6월 26일 주권국가로 독립하여 며칠 후 구이령 소말리아와 자발적으로 통합했다.",
+      "context": "1960년 6월 26일 영국 보호령 소말릴랜드는 주권 국가 '소말릴랜드 국가(State of Somaliland)'로 정식으로 독립하여 유엔 안보리 상임이사국을 포함한 35개국으로부터 국가 승인을 받았다. 그러나 '대소말리아주의'의 열광 아래 불과 5일 후인 7월 1일 이날 독립된 구 이탈리아 신탁통치령 소말리아와 자발적으로 통합해 '소말리아 공화국'을 결성했다. 소말릴랜드 측은 이 통합조약이 법적으로 정식 비준되지 않고 무효였다고 후년 주장하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "United Kingdom Somaliland Order in Council 1960",
+          "url": "https://www.legislation.gov.uk/",
+          "publisher": "영국 공문서관(The National Archives UK)",
+          "type": "government"
+        },
+        {
+          "title": "American Journal of International Law - Somaliland: The Constitutional and International Law Framework",
+          "url": "https://www.jstor.org/",
+          "publisher": "미국 국제법학회(ASIL)",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-1988-isaaq-genocide-1991-re-independence",
+      "claim": "1988년 시아도 발레 정권에 의한 학살(이삭 제노사이드)을 거쳐 1991년 소말릴랜드는 재독립을 선언했다.",
+      "context": "모가디슈의 시아드 발레 군사독재 정권은 반정부 무장 세력 '소말리아 국민운동(SNM)'의 봉기에 대해 북부 주요 도시 하루게이사와 브라오를 공폭·포격해 초토화해 이삭 씨족의 민간인 추계 5만~10만명을 학살했다. 1991년 1월 발레 정권이 붕괴되어 소말리아 전토가 무정부 상태의 내전에 돌입하자 SNM 및 북부 장로회의는 같은 해 5월 18일 브라오 대회에서 1960년 통합 파기와 '소말릴랜드 공화국'의 주권 회복(재독립)을 만장일치로 선언했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Human Rights Watch - A Government at War with Its Own People: Testimonies About the Killings and the Conflict in the North",
+          "url": "https://www.hrw.org/reports/1990/somalia/",
+          "publisher": "휴먼 라이츠 워치",
+          "type": "academic"
+        },
+        {
+          "title": "The Declaration of Independence of Somaliland (Burao, 18 May 1991)",
+          "url": "https://www.somalilandlaw.com/18_may_1991.html",
+          "publisher": "소말릴랜드 법률 포털",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "sl-de-facto-statehood-institutions",
+      "claim": "소말릴랜드는 30년 이상 민주적 선거, 독자통화, 군·경찰을 운용해 안정된 데팩트 국가를 유지하고 있다",
+      "context": "남부 소말리아가 씨족 민병과 이슬람 과격파(알 샤밥)의 폭력으로 계속 붕괴하는 가운데, 소말릴랜드는 씨족 융화에 기초한 의회 제민주주의를 확립. 생체인증기술을 이용한 일일일표의 직접 보통선거로 여러 차례 대통령선거 및 평화적인 정권교체를 실시해 왔다. 독자적인 헌법, 경찰·군대, 여권, 중앙은행과 통화(소말릴랜드 실링)를 운용하고 있지만, 국제사회의 법적인 국가승인(데줄리승인)은 여전히 ​​전무하다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "International Crisis Group - Somaliland: The Forgotten Horn of Africa",
+          "url": "https://www.crisisgroup.org/africa/horn-africa/somaliland",
+          "publisher": "국제위기그룹(ICG)",
+          "type": "academic"
+        },
+        {
+          "title": "Freedom House - Freedom in the World: Somaliland Country Report",
+          "url": "https://freedomhouse.org/country/somaliland",
+          "publisher": "프리덤 하우스",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "sl-fgs-sovereignty-one-somalia",
+      "claim": "소말리아 연방정부 및 유엔·아프리카 연합은 '소말리아의 통일과 영토보전'을 일관되게 지지하고 있다",
+      "context": "모가디슈의 소말리아 연방정부(FGS)는 잠정연방헌법에 근거하여 소말릴랜드를 불가분한 북부영토(연방구성지역)로 자리매김하고, 어떠한 일방적 분리독립도 주권침해로 단호하게 거부하고 있다. 유엔안전보장이사회 및 아프리카연합(AU)도 식민지 독립시 국경변경을 인정하면 아프리카 대륙 전토에서 민족분리 독립이 연쇄된다(판도라 상자가 열린다)는 우려에서 소말리아의 주권·통일·영토보전의 존중을 기본 원칙으로 재확인하고 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Provisional Constitution of the Federal Republic of Somalia",
+          "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+          "publisher": "소말리아 연방 공화국 헌법",
+          "type": "government"
+        },
+        {
+          "title": "UN Security Council Resolution on Somalia - Reaffirming Sovereignty and Territorial Integrity",
+          "url": "https://undocs.org/S/RES/2710(2023)",
+          "publisher": "국제연합안전보장이사회",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sl-2024-ethiopia-mou-berbera",
+      "claim": "2024년 1월 에티오피아와 소말릴랜드가 항만 이용과 국가 승인을 둘러싼 각서(MoU)에 서명하여 지역적 긴장이 격화했다.",
+      "context": "2024년 1월 1일, 아디스 아바바에서 에티오피아의 아비 총리와 소말릴랜드 비히 대통령이 각서(MoU)에 전격 서명했다. 에티오피아가 아덴만을 향한 벨베라 항구 주변의 해안 20km를 50년간 해군기지 및 상업용 항만으로 임대를 받는 보상에 에티오피아항공의 주식 양도와 미래 소말릴랜드의 공식 국가 승인 검토가 담겼다. 소말리아 정부는 이를 자국 영토에 대한 침략과 격렬하게 반발하여 양국 관계의 단절이나 이집트 터키와의 군사협정 체결로 발전했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Federal Democratic Republic of Ethiopia and Republic of Somaliland Joint Communique on MoU (1 January 2024)",
+          "url": "https://www.pmo.gov.et/",
+          "publisher": "에티오피아 연방민주공화국 총리부",
+          "type": "government"
+        },
+        {
+          "title": "Federal Republic of Somalia - Statement on the Protection of National Sovereignty (2 January 2024)",
+          "url": "https://sonna.so/en/",
+          "publisher": "소말리아 국가 통신사(SONNA)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

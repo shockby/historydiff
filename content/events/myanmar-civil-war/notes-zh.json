@@ -1,0 +1,107 @@
+{
+  "eventId": "myanmar-civil-war",
+  "notes": [
+    {
+      "id": "coup-origin",
+      "claim": "2021年2月政变是以2020年大选舞弊为由进行的。",
+      "context": "虽然军方声称全国民主联盟在2020年11月大选中取得压倒性胜利是舞弊，但国内和国际选举观察组织都承认选举的合法性。这一说法被广泛批评为政变的借口。",
+      "verdict": "错误（国际选举观察员证明选举合法）",
+      "sources": [
+        {
+          "title": "ANFREL 缅甸选举观察报告（2020 年）",
+          "url": "https://www.anfrel.org/",
+          "publisher": "亚洲自由选举网络（ANFREL）",
+          "type": "ngo"
+        },
+        {
+          "title": "联合国缅甸人权状况特别报告员",
+          "url": "https://www.ohchr.org/en/special-procedures/sr-myanmar",
+          "publisher": "人权高专办",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "civilian-casualties",
+      "claim": "军队有系统地对医院、学校和私人住宅进行空袭。",
+      "context": "联合国和人权组织报告称，军队多次轰炸居民区、医疗设施和学校。据称自2021年以来死亡人数已超过10万，并且有针对平民的不分青红皂白的袭击记录。",
+      "verdict": "事实（由联合国人权事务高级专员办事处/人权观察记录）",
+      "sources": [
+        {
+          "title": "人权高专办关于缅甸的报告",
+          "url": "https://www.ohchr.org/en/countries/myanmar",
+          "publisher": "联合国人权事务高级专员办事处",
+          "type": "international"
+        },
+        {
+          "title": "人权观察——缅甸",
+          "url": "https://www.hrw.org/asia/burma",
+          "publisher": "人权观察",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "resistance-territory",
+      "claim": "抵抗力量有效控制了缅甸约42%的土地面积。",
+      "context": "截至2026年，预计民族武装部队（EAO）和人民国防军（PDF）将控制该国约42%的领土，而军事统治地区将保持在约21%。然而，前线局势不稳定，具体数字也存在争议。",
+      "verdict": "大部分是真实的（估计和战线是不稳定的）",
+      "sources": [
+        {
+          "title": "ACLED 缅甸冲突数据",
+          "url": "https://acleddata.com/data-export-tool/",
+          "publisher": "武装冲突地点和事件数据项目（ACLED）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "china-cmec",
+      "claim": "中国支持军政府保护经济走廊（CMEC）。",
+      "context": "中缅经济走廊是绕过马六甲海峡、通往印度洋的战略基础设施。中国正在优先考虑走廊沿线的稳定，并加深对军政府的参与。",
+      "verdict": "事实（由 CSIS/ICG 确认）",
+      "sources": [
+        {
+          "title": "中缅经济走廊分析——CSIS",
+          "url": "https://www.csis.org/programs/southeast-asia-program/projects/china-myanmar-economic-corridor",
+          "publisher": "战略与国际研究中心",
+          "type": "academic"
+        },
+        {
+          "title": "国际危机组织——缅甸",
+          "url": "https://www.crisisgroup.org/asia/south-east-asia/myanmar",
+          "publisher": "国际危机组织",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "asean-five-point",
+      "claim": "东盟五点协议（5PC）功能失调。",
+      "context": "2021年4月商定的东盟五点协议（停止暴力、对话、人道主义援助、特使访问、后续行动）因军政府拒绝合作而没有取得任何实际进展。一些东盟成员国呼吁对该框架进行审查。",
+      "verdict": "事实（东盟秘书处/ICG 确认故障）",
+      "sources": [
+        {
+          "title": "东盟关于缅甸的五点共识",
+          "url": "https://asean.org/",
+          "publisher": "东盟秘书处",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "sc-un-myanmar-veto",
+      "claim": "由于中俄行使否决权，联合国安理会自2021年以来一直未能通过制裁缅甸军政府的决议。",
+      "context": "缅甸政变（2021年2月）后，以西方国家为首的安理会寻求制裁决议，但由于中国和俄罗斯表现出使用否决票或反对票的立场，未能通过具有约束力的制裁决议。 2022年12月，安理会通过了关于缅甸局势的第一个正式决议（S/RES/2669）（12票赞成，3票弃权=中国、俄罗斯和印度），但这只是一项不具约束力的决议，呼吁结束暴力和获得人道主义援助。尽管联合国大会多次通过决议谴责政变并呼吁实施武器禁运（大会决议不具有法律约束力），但由于中俄在安理会的封锁，国际社会仍无法采取有效措施。",
+      "verdict": "无约束力的制裁决议（因中俄阻挠）",
+      "sources": [
+        {
+          "title": "联合国安理会关于缅甸的第2669（2022）号决议",
+          "url": "https://undocs.org/S/RES/2669(2022)",
+          "publisher": "联合国安理会",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

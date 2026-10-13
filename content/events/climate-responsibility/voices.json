@@ -2,177 +2,239 @@
   "eventId": "climate-responsibility",
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
-    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts."
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上总体舆论趋势的摘要。以上均为个人观点，未经证实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "cc-voice-1",
       "country": {
         "ja": "アメリカ",
-        "en": "United States"
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "中国とインドが排出を増やし続けるのに、米国だけ削減しても地球は救えない。全員参加が前提だ。",
-        "en": "Cutting only in America won't save the planet while China and India keep growing emissions. Everyone must take part."
+        "en": "Cutting only in America won't save the planet while China and India keep growing emissions. Everyone must take part.",
+        "zh": "中国和印度继续增加排放量，但仅靠美国减少排放量并不能拯救地球。每个人的参与是前提。",
+        "ko": "중국과 인도가 배출을 계속 늘리는데 미국만 줄여도 지구는 구할 수 없다. 전원 참가가 전제다."
       },
       "prevalence": "high",
       "context": {
         "ja": "共和党支持層や産業界を中心に根強い論調。",
-        "en": "Common among Republican voters and industry groups."
+        "en": "Common among Republican voters and industry groups.",
+        "zh": "共和党支持者和工业界的意见很强烈。",
+        "ko": "공화당 지지층과 산업계를 중심으로 뿌리 깊은 논조."
       }
     },
     {
       "id": "cc-voice-2",
       "country": {
         "ja": "アメリカ",
-        "en": "United States"
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
       },
       "sentiment": "supportive",
       "summary": {
         "ja": "米国は累積排出で最大の責任国。先進国が率先して資金と技術を出さなければ、途上国の信頼は得られない。",
-        "en": "The US is the biggest historical emitter. Without rich countries leading on money and tech, developing nations won't trust us."
+        "en": "The US is the biggest historical emitter. Without rich countries leading on money and tech, developing nations won't trust us.",
+        "zh": "美国是累积排放量最多的国家。发达国家除非主动提供资金和技术，否则就无法取得发展中国家的信任。",
+        "ko": "미국은 누적 배출에서 가장 큰 책임국. 선진국이 솔선하여 자금과 기술을 내놓지 않으면 개발도상국의 신뢰를 얻을 수 없다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "民主党・気候活動家に多い見方。",
-        "en": "Typical of Democratic voters and climate activists."
+        "en": "Typical of Democratic voters and climate activists.",
+        "zh": "这是民主党人和气候活动人士普遍持有的观点。",
+        "ko": "민주당·기후 활동가에게 많은 견해."
       }
     },
     {
       "id": "cc-voice-3",
       "country": {
         "ja": "EU",
-        "en": "European Union"
+        "en": "European Union",
+        "zh": "欧盟",
+        "ko": "EU"
       },
       "sentiment": "analytical-pragmatic",
       "summary": {
         "ja": "1.5℃は物理的な制約。誰の責任かを争う間にも炭素予算は減る。大排出国は全員、早期にピークを迎えるべきだ。",
-        "en": "1.5°C is a physical limit. The carbon budget shrinks while we argue over blame; every large emitter must peak soon."
+        "en": "1.5°C is a physical limit. The carbon budget shrinks while we argue over blame; every large emitter must peak soon.",
+        "zh": "1.5℃是物理限制。尽管我们争论谁该负责，但碳预算仍在减少。所有大型排放国都应该很快达到峰值。",
+        "ko": "1.5℃는 물리적 제약. 누구의 책임인지 다투는 동안에도 탄소 예산은 줄어든다. 대배출국은 모두 조기에 피크를 맞아야 한다."
       },
       "prevalence": "high",
       "context": {
         "ja": "EU政策担当者・研究者に多い。",
-        "en": "Common among EU officials and researchers."
+        "en": "Common among EU officials and researchers.",
+        "zh": "在欧盟政策制定者和研究人员中很常见。",
+        "ko": "EU 정책 담당자·연구자에게 많다."
       }
     },
     {
       "id": "cc-voice-4",
       "country": {
         "ja": "EU",
-        "en": "European Union"
+        "en": "European Union",
+        "zh": "欧盟",
+        "ko": "EU"
       },
       "sentiment": "skeptical",
       "summary": {
         "ja": "国境炭素税は気候対策というより域内産業の保護策では。途上国から見れば貿易障壁だ。",
-        "en": "Isn't the carbon border tax more about protecting EU industry than the climate? To developing countries it's a trade barrier."
+        "en": "Isn't the carbon border tax more about protecting EU industry than the climate? To developing countries it's a trade barrier.",
+        "zh": "边境碳税更多的是对地区产业的保护措施，而不是气候措施。从发展中国家的角度来看，这是贸易壁垒。",
+        "ko": "국경 탄소세는 기후 대책이라기보다 역내 산업의 보호책으로는. 개발도상국에서 보면 무역장벽이다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "開発NGOや一部加盟国の産業界にも見られる。",
-        "en": "Also voiced by development NGOs and some industry groups."
+        "en": "Also voiced by development NGOs and some industry groups.",
+        "zh": "这也可以在一些成员国的发展非政府组织和工业界中看到。",
+        "ko": "개발 NGO나 일부 회원국의 산업계에서도 볼 수 있다."
       }
     },
     {
       "id": "cc-voice-5",
       "country": {
         "ja": "中国",
-        "en": "China"
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
       },
       "sentiment": "nationalist-sovereign",
       "summary": {
         "ja": "先に工業化して排出した国々が、今になって途上国の発展を止めるのは不公平だ。責任と能力は違う。",
-        "en": "It's unfair for countries that industrialised first to now halt others' development. Responsibilities and capabilities differ."
+        "en": "It's unfair for countries that industrialised first to now halt others' development. Responsibilities and capabilities differ.",
+        "zh": "对于最早实现工业化和排放排放的国家现在阻止发展中国家的发展是不公平的。责任和能力是不同的。",
+        "ko": "먼저 공업화해 배출한 나라들이 지금이 되어 개발도상국의 발전을 멈추는 것은 불공평하다. 책임과 능력은 다르다."
       },
       "prevalence": "high",
       "context": {
         "ja": "政府の公式見解とほぼ一致。",
-        "en": "Closely mirrors the official government line."
+        "en": "Closely mirrors the official government line.",
+        "zh": "与政府官方立场几乎一致。",
+        "ko": "정부의 공식 견해와 거의 일치."
       }
     },
     {
       "id": "cc-voice-6",
       "country": {
         "ja": "中国",
-        "en": "China"
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
       },
       "sentiment": "balanced-pragmatic",
       "summary": {
         "ja": "中国は太陽光・風力・EVで世界最大。排出も多いが、先進国の消費財を作っている面もあり、削減努力は評価されるべきだ。",
-        "en": "China leads in solar, wind and EVs. Emissions are high but partly from making goods for rich markets; its efforts deserve recognition."
+        "en": "China leads in solar, wind and EVs. Emissions are high but partly from making goods for rich markets; its efforts deserve recognition.",
+        "zh": "中国是世界上最大的太阳能、风能和电动汽车生产国。虽然排放量很高，但他们也为发达国家生产消费品，他们的减排努力值得赞扬。",
+        "ko": "중국은 태양광·풍력·EV로 세계 최대. 배출도 많지만 선진국의 소비재를 만드는 면도 있어 삭감 노력은 평가되어야 한다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "国内の専門家や技術系の論者に多い。",
-        "en": "Common among domestic experts and tech commentators."
+        "en": "Common among domestic experts and tech commentators.",
+        "zh": "这在国内专家和技术专家中是普遍现象。",
+        "ko": "국내의 전문가나 기술계의 논자에게 많다."
       }
     },
     {
       "id": "cc-voice-7",
       "country": {
         "ja": "インド",
-        "en": "India"
+        "en": "India",
+        "zh": "印度",
+        "ko": "인도"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "1人当たり排出量は米国の7分の1以下。数億人が電気を使えない中で「石炭をやめろ」は気候植民地主義だ。",
-        "en": "Our per-capita emissions are under a seventh of America's. Telling us to quit coal while hundreds of millions lack power is climate colonialism."
+        "en": "Our per-capita emissions are under a seventh of America's. Telling us to quit coal while hundreds of millions lack power is climate colonialism.",
+        "zh": "人均排放量不到美国的七分之一。由于数亿人没有电，“戒煤”就是气候殖民主义。",
+        "ko": "1인당 배출량은 미국의 7분의 1 이하. 수억 명이 전기를 사용할 수 없는 가운데 '석탄을 그만두자'는 기후 식민지주의다."
       },
       "prevalence": "high",
       "context": {
         "ja": "インドの政治家・メディアで広く見られる。",
-        "en": "Widespread among Indian politicians and media."
+        "en": "Widespread among Indian politicians and media.",
+        "zh": "广泛出现在印度政界人士和媒体中。",
+        "ko": "인도의 정치가·미디어에서 널리 보인다."
       }
     },
     {
       "id": "cc-voice-8",
       "country": {
         "ja": "インド",
-        "en": "India"
+        "en": "India",
+        "zh": "印度",
+        "ko": "인도"
       },
       "sentiment": "analytical-pragmatic",
       "summary": {
         "ja": "公平さの主張は正しいが、猛暑や大気汚染の最大の被害者は自国民。発展と脱炭素は両立させる必要がある。",
-        "en": "The fairness argument is valid, but our own people suffer most from heat and pollution. Development and decarbonisation must go together."
+        "en": "The fairness argument is valid, but our own people suffer most from heat and pollution. Development and decarbonisation must go together.",
+        "zh": "尽管公平的主张是正确的，但酷暑和空气污染的最大受害者是日本人民。发展和脱碳需要齐头并进。",
+        "ko": "공평함의 주장은 옳지만, 무더위나 대기오염의 최대의 피해자는 자국민. 발전과 탈탄소는 양립시킬 필요가 있다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "都市部の中間層や研究者に増えている。",
-        "en": "Growing among urban middle classes and researchers."
+        "en": "Growing among urban middle classes and researchers.",
+        "zh": "在城市中产阶级和研究人员中这种现象正在增加。",
+        "ko": "도시부의 중간층이나 연구자로 늘고 있다."
       }
     },
     {
       "id": "cc-voice-9",
       "country": {
         "ja": "日本",
-        "en": "Japan"
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
       },
       "sentiment": "balanced-pragmatic",
       "summary": {
         "ja": "日本だけ頑張っても世界の排出の3%台。技術協力で途上国の排出を減らす方が現実的で効果的だ。",
-        "en": "Japan is only a few percent of global emissions. Helping developing countries cut via technology is more realistic and effective."
+        "en": "Japan is only a few percent of global emissions. Helping developing countries cut via technology is more realistic and effective.",
+        "zh": "即使日本竭尽全力，其排放量也仅占世界排放量的3%左右。通过技术合作来减少发展中国家的排放更加现实和有效。",
+        "ko": "일본만 열심히 해도 세계 배출의 3%대. 기술협력으로 개발도상국 배출을 줄이는 편이 현실적이고 효과적이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "政府・産業界の論調に近い。",
-        "en": "Close to government and industry views."
+        "en": "Close to government and industry views.",
+        "zh": "政府和业界的语气类似。",
+        "ko": "정부·산업계의 논조에 가깝다."
       }
     },
     {
       "id": "cc-voice-10",
       "country": {
         "ja": "日本",
-        "en": "Japan"
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
       },
       "sentiment": "critical",
       "summary": {
         "ja": "石炭火力を続けながら「技術で解決」と言っても説得力がない。先進国として削減と資金で責任を果たすべきだ。",
-        "en": "Claiming \"technology will fix it\" while keeping coal plants isn't convincing. As a developed country Japan must deliver on cuts and finance."
+        "en": "Claiming \"technology will fix it\" while keeping coal plants isn't convincing. As a developed country Japan must deliver on cuts and finance.",
+        "zh": "继续使用煤电并说通过技术解决问题是没有说服力的。作为发达国家，我们应该通过减排和资助来履行我们的责任。",
+        "ko": "석탄화력을 계속하면서 '기술로 해결'이라고 해도 설득력이 없다. 선진국으로서 삭감과 자금으로 책임을 다해야 한다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "環境NGO・若年層に多い。",
-        "en": "Common among environmental NGOs and younger people."
+        "en": "Common among environmental NGOs and younger people.",
+        "zh": "在环保非政府组织和年轻人中很常见。",
+        "ko": "환경 NGO·청년층에 많다."
       }
     }
   ]

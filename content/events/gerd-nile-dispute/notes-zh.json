@@ -1,0 +1,105 @@
+{
+  "eventId": "gerd-nile-dispute",
+  "notes": [
+    {
+      "id": "gerd-1929-1959-colonial-treaties",
+      "claim": "1929 年和 1959 年殖民时代的水协议将大部分尼罗河水专门分配给埃及和苏丹。",
+      "context": "1929年英埃协定和1959年埃及苏丹双边协定将尼罗河年流量（阿斯旺估计为840亿立方米）的555亿立方米（约占66%）分配给埃及，185亿立方米（约占22%）分配给苏丹，并规定埃及对上游国家的用水项目拥有否决权。然而，埃塞俄比亚作为青尼罗河系统的一部分，供应尼罗河总水量的约85%，它不是这两项协议的缔约方，并且一直拒绝接受它们，认为它们是殖民时代的不平等条约，不具有法律约束力。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "英国和埃及关于使用尼罗河水灌溉的换文（1929）",
+          "url": "https://treaties.un.org/",
+          "publisher": "国际联盟条约系列卷。 93",
+          "type": "international"
+        },
+        {
+          "title": "苏丹共和国和阿拉伯联合共和国关于充分利用尼罗河水域的协定（1959年）",
+          "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC018042/",
+          "publisher": "联合国粮食及农业组织（FAO FAOLEX）",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-construction-capacity",
+      "claim": "GERD是非洲最大的水力发电厂，发电能力超过5,000兆瓦，总蓄水量约740亿立方米。",
+      "context": "2011年4月，埃塞俄比亚政府开始在贝尼尚古尔-古穆兹地区的青尼罗河干流上建设埃塞俄比亚复兴大坝（GERD）。总建设成本超过40亿美元，由政府通过发行政府债券和国家捐款筹集，不依赖世界银行或外国贷款。总蓄水量约740亿立方米，规划发电量约5150兆瓦（MW），是一项庞大的国家政策项目，建成后将同时为该国未通电人口（约占人口一半）供电，并向周边国家出口电力。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "埃塞俄比亚电力（EEP）——埃塞俄比亚复兴大坝项目简介",
+          "url": "https://www.eep.com.et/",
+          "publisher": "埃塞俄比亚电力局（EEP）",
+          "type": "government"
+        },
+        {
+          "title": "国际水电大坝建设——GERD技术规范",
+          "url": "https://www.waterpowermagazine.com/",
+          "publisher": "国际水电与大坝建设杂志",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-egypt-water-security",
+      "claim": "埃及 90% 以上的用水需求依赖尼罗河，并将 GERD 视为对国家生存的生存威胁。",
+      "context": "埃及95%以上的土地是沙漠，约1亿人口的农业、生活和工业用水需求的90%以上依赖尼罗河取水。埃及政府对未经事先同意单方面蓄水（特别是在长期干旱期间减少放水量）持强烈警惕态度，因为这将导致阿斯旺高坝水位下降和农业崩溃，并声称“水安全关系到国家的生死存亡，我们不会允许哪怕一滴水受到损害”。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "阿拉伯埃及共和国外交部——关于埃塞俄比亚复兴大坝的立场",
+          "url": "https://www.mfa.gov.eg/",
+          "publisher": "阿拉伯埃及共和国外交部",
+          "type": "government"
+        },
+        {
+          "title": "埃及常驻联合国安理会代表的信（S/2021/583）",
+          "url": "https://undocs.org/S/2021/583",
+          "publisher": "联合国安理会",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "gerd-sudan-dual-position",
+      "claim": "苏丹认识到防洪和廉价电力的好处，但寻求事先就边境附近水坝的安全运营达成协议。",
+      "context": "GERD将每年减少青尼罗河的灾难性洪水，苏丹将从埃塞俄比亚进口廉价水电而受益匪浅。然而，埃塞俄比亚辩称，由于埃塞俄比亚自己的罗塞雷斯大坝（位于边境下游 100 多公里）的蓄水能力较小，而且埃塞俄比亚缺乏实时放水数据共享，也没有签署具有法律约束力的协议来控制大坝溃坝和突然泄水的风险，因此数百万人的生命和农业基础设施面临风险。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "苏丹灌溉和水资源部 - GERD 立场文件",
+          "url": "https://www.sudanembassy.org/",
+          "publisher": "苏丹灌溉和水资源部",
+          "type": "government"
+        },
+        {
+          "title": "中东研究所——苏丹对GERD的模糊立场",
+          "url": "https://www.mei.edu/publications/sudans-ambiguous-position-gerd",
+          "publisher": "中东研究所（MEI）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "gerd-2015-declaration-principles-impasse",
+      "claim": "即使在2015年签署《原则宣言》后，关于蓄水规则和干旱对策的具有法律约束力的协议尚未达成。",
+      "context": "2015年3月，埃塞俄比亚、埃及、苏丹三国领导人在喀土穆签署《原则宣言》，同意避免严重伤害和合理使用的原则。然而，在随后的美国与世界银行斡旋的谈判（2019-2020年）和非盟主导的谈判中，围绕严重干旱时期的强制放水量、水分配的法律性质、争议解决条款等方面的矛盾仍未得到解决，而且由于埃塞俄比亚在协议签署前完成了逐步蓄水，谈判陷入停滞。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "阿拉伯埃及共和国、埃塞俄比亚联邦民主共和国和苏丹共和国关于GERD项目原则声明的协议（2015年）",
+          "url": "https://www.internationalwaterlaw.org/documents/regionaldocs/Final_Nile_Agreement_23March2015.pdf",
+          "publisher": "国际水法项目",
+          "type": "international"
+        },
+        {
+          "title": "非盟关于埃塞俄比亚复兴大坝三方谈判的公报",
+          "url": "https://au.int/",
+          "publisher": "非洲联盟（AU）",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

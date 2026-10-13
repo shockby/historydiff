@@ -3,97 +3,156 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "gr-voice-1",
-      "country": {"ja": "ジョージア", "en": "Georgia", "zh": "格鲁吉亚"},
+      "country": {
+        "ja": "ジョージア",
+        "en": "Georgia",
+        "zh": "格鲁吉亚",
+        "ko": "조지아"
+      },
       "sentiment": "nationalist",
       "summary": {
         "ja": "ロシアは2008年に私たちの土地を占領した。アブハジアと南オセチアはジョージアの不可分の領土だ。EUとNATOに加盟して、二度と同じ悲劇を繰り返さないようにしたい。",
         "en": "Russia occupied our land in 2008. Abkhazia and South Ossetia are inseparable parts of Georgia. We want to join the EU and NATO so this tragedy never repeats.",
-        "zh": "俄罗斯在2008年占领了我们的土地。阿布哈兹和南奥塞梯是格鲁吉亚不可分割的领土。我们希望加入欧盟和北约，不再重演这场悲剧。"
+        "zh": "俄罗斯在2008年占领了我们的土地。阿布哈兹和南奥塞梯是格鲁吉亚不可分割的领土。我们希望加入欧盟和北约，不再重演这场悲剧。",
+        "ko": "러시아는 2008년에 우리 땅을 점령했다. 압하지아와 남부 오세티아는 조지아의 불가분의 영토다. EU와 NATO에 가맹해 두 번 같은 비극을 반복하지 않게 하고 싶다."
       },
       "prevalence": "high",
       "context": {
         "ja": "ジョージア国内、特に若年層や親EU派の間で広く共有される論調。2022年のウクライナ侵攻後に再び大きく高まった。",
         "en": "Widely shared in Georgia, particularly among younger and pro-EU demographics, surging again after Russia's 2022 invasion of Ukraine.",
-        "zh": "在格鲁吉亚国内广泛流传，尤其在年轻人和亲欧派中，2022年俄罗斯入侵乌克兰后再次高涨。"
+        "zh": "在格鲁吉亚国内广泛流传，尤其在年轻人和亲欧派中，2022年俄罗斯入侵乌克兰后再次高涨。",
+        "ko": "조지아 국내, 특히 젊은층과 부모 EU파 사이에서 널리 공유되는 논조. 2022년 우크라이나 침공 후에 다시 크게 높아졌다."
       },
-      "keywords": ["#OccupiedGeorgia", "#AbkhaziaIsGeorgia", "#SouthOssetiaIsGeorgia", "#NATOGeorgia"],
+      "keywords": [
+        "#OccupiedGeorgia",
+        "#AbkhaziaIsGeorgia",
+        "#SouthOssetiaIsGeorgia",
+        "#NATOGeorgia"
+      ],
       "timeframe": "2008-present"
     },
     {
       "id": "gr-voice-2",
-      "country": {"ja": "南オセチア（親ロシア派住民）", "en": "South Ossetia (pro-Russian residents)", "zh": "南奥塞梯（亲俄居民）"},
+      "country": {
+        "ja": "南オセチア（親ロシア派住民）",
+        "en": "South Ossetia (pro-Russian residents)",
+        "zh": "南奥塞梯（亲俄居民）",
+        "ko": "남오세티아(친 러시아파 주민)"
+      },
       "sentiment": "nationalist",
       "summary": {
         "ja": "ジョージア軍は2008年に私たちの街を攻撃し、民間人を殺した。ロシアが助けてくれなければ私たちは皆殺しにされていた。独立は私たちの権利だ。",
         "en": "Georgian forces attacked our city in 2008 and killed civilians. Without Russia's help, we would have been massacred. Independence is our right.",
-        "zh": "格鲁吉亚军队在2008年攻击了我们的城市，杀害了平民。若没有俄罗斯的帮助，我们将遭到屠杀。独立是我们的权利。"
+        "zh": "格鲁吉亚军队在2008年攻击了我们的城市，杀害了平民。若没有俄罗斯的帮助，我们将遭到屠杀。独立是我们的权利。",
+        "ko": "조지아 군대는 2008년에 우리 도시를 공격하고 민간인을 죽였다. 러시아가 도와주지 않으면 우리는 모두 죽이고 있었다. 독립은 우리의 권리다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "南オセチア在住の住民やロシアのSNS（VK等）で見られる論調。南オセチア自体の人口は少なく（約5万人）、国際的な露出は限られる。",
         "en": "Expressed by South Ossetian residents and on Russian social media (VK etc.). South Ossetia's small population (~50,000) limits its international social media presence.",
-        "zh": "在南奥塞梯居民和俄罗斯社交媒体（VK等）上可见。南奥塞梯人口稀少（约5万人），在国际社交媒体上的影响力有限。"
+        "zh": "在南奥塞梯居民和俄罗斯社交媒体（VK等）上可见。南奥塞梯人口稀少（约5万人），在国际社交媒体上的影响力有限。",
+        "ko": "남부 오세티아에 거주하는 주민과 러시아의 SNS(VK 등)에서 볼 수 있는 논조. 남오세티아 자체의 인구는 적고(약 5만명), 국제적인 노출은 제한된다."
       },
-      "keywords": ["#SouthOssetia", "#IndependenceDay", "#RussiaProtects"],
+      "keywords": [
+        "#SouthOssetia",
+        "#IndependenceDay",
+        "#RussiaProtects"
+      ],
       "timeframe": "2008-present"
     },
     {
       "id": "gr-voice-3",
-      "country": {"ja": "ロシア（国営メディア論調）", "en": "Russia (state media narrative)", "zh": "俄罗斯（官方媒体叙事）"},
+      "country": {
+        "ja": "ロシア（国営メディア論調）",
+        "en": "Russia (state media narrative)",
+        "zh": "俄罗斯（官方媒体叙事）",
+        "ko": "러시아(국영 미디어 논조)"
+      },
       "sentiment": "nationalist",
       "summary": {
         "ja": "ロシアは南オセチアの市民を守るために行動した。NATO拡大がこの危機を引き起こした。ジョージアのサーカシビリ政権が先に攻撃したのであり、ロシアは被害者を守っただけだ。",
         "en": "Russia acted to protect civilians in South Ossetia. NATO expansion caused this crisis. Georgia's Saakashvili regime attacked first; Russia only protected the victims.",
-        "zh": "俄罗斯是为了保护南奥塞梯平民而采取行动的。北约东扩引发了这场危机。格鲁吉亚萨卡什维利政权率先发动攻击，俄罗斯只是保护受害者。"
+        "zh": "俄罗斯是为了保护南奥塞梯平民而采取行动的。北约东扩引发了这场危机。格鲁吉亚萨卡什维利政权率先发动攻击，俄罗斯只是保护受害者。",
+        "ko": "러시아는 남부 오세티아 시민을 보호하기 위해 행동했다. NATO 확대가 이 위기를 일으켰다. 조지아의 서커시빌리 정권이 먼저 공격했고, 러시아는 피해자를 지켰을 뿐이다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "RT（旧ロシア・トゥデイ）、タス通信などで展開されたロシアの公式ナラティブ。タリアヴィーニ報告書の「ジョージアが先に攻撃した」との部分を選択的に強調し、ロシアの反応の過剰性については触れない。",
         "en": "Russia's official narrative, propagated via RT and TASS, selectively emphasizes the Tagliavini Report's finding that Georgia attacked first while omitting the report's conclusion that Russia's response was disproportionate.",
-        "zh": "俄罗斯通过今日俄罗斯和塔斯社传播的官方叙事，有选择性地强调塔利亚维尼报告中\"格鲁吉亚首先发动攻击\"的结论，而忽略报告中俄罗斯反应过度违反国际法的认定。"
+        "zh": "俄罗斯通过今日俄罗斯和塔斯社传播的官方叙事，有选择性地强调塔利亚维尼报告中\"格鲁吉亚首先发动攻击\"的结论，而忽略报告中俄罗斯反应过度违反国际法的认定。",
+        "ko": "RT(구 러시아·투데이), 타스 통신 등으로 전개된 러시아의 공식 내러티브. 탈리아비니 보고서의 '조지아가 먼저 공격했다'는 부분을 선택적으로 강조하며 러시아 반응의 과잉성에 대해서는 언급하지 않는다."
       },
-      "keywords": ["#Russia", "#Georgia", "#NATO", "#Peacekeeping"],
+      "keywords": [
+        "#Russia",
+        "#Georgia",
+        "#NATO",
+        "#Peacekeeping"
+      ],
       "timeframe": "2008-present"
     },
     {
       "id": "gr-voice-4",
-      "country": {"ja": "西欧の評論家・分析者", "en": "Western European analysts/commentators", "zh": "西欧分析人士/评论员"},
+      "country": {
+        "ja": "西欧の評論家・分析者",
+        "en": "Western European analysts/commentators",
+        "zh": "西欧分析人士/评论员",
+        "ko": "서구의 평론가·분석자"
+      },
       "sentiment": "neutral",
       "summary": {
         "ja": "タリアヴィーニ報告書は明確だ。ジョージアが先に攻撃したが、ロシアの反応は過剰だった。双方に責任がある。しかしロシアへの実質的制裁なしに終わったことが2014年、2022年の侵攻を招いた。",
         "en": "The Tagliavini Report is clear: Georgia attacked first, but Russia's response was disproportionate. Both bear responsibility. But the failure to impose real costs on Russia led directly to 2014 and 2022.",
-        "zh": "塔利亚维尼报告结论清晰：格鲁吉亚率先发动攻击，但俄罗斯的反应过度。双方均有责任。然而，未能对俄罗斯施加实质性代价，直接导致了2014年和2022年的侵略。"
+        "zh": "塔利亚维尼报告结论清晰：格鲁吉亚率先发动攻击，但俄罗斯的反应过度。双方均有责任。然而，未能对俄罗斯施加实质性代价，直接导致了2014年和2022年的侵略。",
+        "ko": "탈리아비니 보고서는 명확하다. 조지아가 먼저 공격했지만 러시아의 반응은 과도했다. 쌍방에 책임이 있다. 그러나 러시아에 대한 실질적 제재 없이 끝난 것이 2014년 2022년 침공을 초래했다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "欧州の政策アナリスト、外交官、学術研究者の間で主流の見方。2022年以降、この教訓を強調する声が高まっている。",
         "en": "The mainstream view among European policy analysts, diplomats, and academic researchers, gaining renewed emphasis since 2022.",
-        "zh": "欧洲政策分析人士、外交官和学术研究人员中的主流观点，自2022年以来再度受到重视。"
+        "zh": "欧洲政策分析人士、外交官和学术研究人员中的主流观点，自2022年以来再度受到重视。",
+        "ko": "유럽의 정책 분석가, 외교관, 학술 연구자들 사이의 주류 견해. 2022년 이후 이 교훈을 강조하는 목소리가 높아지고 있다."
       },
-      "keywords": ["#TagliaviniReport", "#RussiaAggression", "#EuropeanSecurity"],
+      "keywords": [
+        "#TagliaviniReport",
+        "#RussiaAggression",
+        "#EuropeanSecurity"
+      ],
       "timeframe": "2008-present"
     },
     {
       "id": "gr-voice-5",
-      "country": {"ja": "アブハジア（独立支持派）", "en": "Abkhazia (independence supporters)", "zh": "阿布哈兹（独立支持者）"},
+      "country": {
+        "ja": "アブハジア（独立支持派）",
+        "en": "Abkhazia (independence supporters)",
+        "zh": "阿布哈兹（独立支持者）",
+        "ko": "압하지아(독립 지지파)"
+      },
       "sentiment": "neutral",
       "summary": {
         "ja": "アブハジアは1990年代のジョージアの軍事攻撃から生き残った。私たちは独自の言語・文化・国家を持っている。承認を得られていないのは不公平だ。コソボは認められたのに、なぜ私たちは違うのか。",
         "en": "Abkhazia survived Georgia's military attacks in the 1990s. We have our own language, culture, and state. It is unjust that we are not recognized. Kosovo was recognized — why not us?",
-        "zh": "阿布哈兹在1990年代的格鲁吉亚军事攻击中幸存下来。我们有自己的语言、文化和国家。得不到承认是不公平的。科索沃获得了承认——为什么我们不行？"
+        "zh": "阿布哈兹在1990年代的格鲁吉亚军事攻击中幸存下来。我们有自己的语言、文化和国家。得不到承认是不公平的。科索沃获得了承认——为什么我们不行？",
+        "ko": "압하지아는 1990년대 조지아의 군사 공격에서 살아남았다. 우리는 독자적인 언어·문화·국가를 가지고 있다. 승인을 받지 못한 것은 불공평하다. 코소보는 인정되었는데 왜 우리는 다른가?"
       },
       "prevalence": "medium",
       "context": {
         "ja": "アブハジアの知識人・政治家層を中心に見られる論調。国際的な露出は限られているが、欧州の一部の独立派メディアで取り上げられることもある。",
         "en": "A narrative prevalent among Abkhazian intellectuals and politicians, with limited international exposure but occasionally featured in European pro-independence media.",
-        "zh": "在阿布哈兹知识分子和政界人士中普遍存在的叙事，国际曝光度有限，但偶尔见于欧洲独立派媒体。"
+        "zh": "在阿布哈兹知识分子和政界人士中普遍存在的叙事，国际曝光度有限，但偶尔见于欧洲独立派媒体。",
+        "ko": "압하지아의 지식인·정치가층을 중심으로 볼 수 있는 논조. 국제적인 노출은 한정되어 있지만, 유럽의 일부 독립파 미디어에서 다루어질 수도 있다."
       },
-      "keywords": ["#Abkhazia", "#Independence", "#SelfDetermination", "#RecognizeAbkhazia"],
+      "keywords": [
+        "#Abkhazia",
+        "#Independence",
+        "#SelfDetermination",
+        "#RecognizeAbkhazia"
+      ],
       "timeframe": "2008-present"
     }
   ]

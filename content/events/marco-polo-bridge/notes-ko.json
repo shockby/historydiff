@@ -1,0 +1,33 @@
+{
+  "eventId": "marco-polo-bridge",
+  "notes": [
+    {
+      "id": "mpb-first-shot",
+      "claim": "1937년 7월 7일 노미조바시 부근에서 일중 양군 사이에 총격 사건이 발생",
+      "context": "일본군의 야간 연습중에 총성이 발생해, 병사 1명이 일시행방불명이 된 것이 계기. 최초의 발포자에 대해서는 일중 쌍방에서 견해가 다르고, 현재도 역사학적으로 확정하고 있지 않다.",
+      "verdict": "사건은 확인 완료(발포원에 논의)",
+      "sources": [
+        {
+          "title": "노조교 사건 관련 자료 (일본어)",
+          "url": "https://www.jacar.archives.go.jp/",
+          "publisher": "아시아 역사 자료 센터(JACAR)",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mpb-full-scale-war",
+      "claim": "노조교 사건이 일중 전면전쟁의 발단이 되었다",
+      "context": "사건 후 현지에서는 일시정전이 성립되었지만 일본의 근위 내각은 '북지파병 성명'을 발하고 증원을 결정. 사태는 확대되고 8월의 제2차 상해 사변을 거쳐 일중 전쟁은 전면 전쟁으로 발전했다. 중국에서는 이 사건을 '칠칠사변'으로 항일전쟁의 기점으로 자리매김하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "주간 전쟁의 경위 (일본어)",
+          "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+          "publisher": "일본국 외무성",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

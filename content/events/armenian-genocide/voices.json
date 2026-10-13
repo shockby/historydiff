@@ -3,92 +3,123 @@
   "disclaimer": {
     "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
     "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
-    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。"
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "다음은 SNS에 대한 일반적인 의견 경향을 요약한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
   },
   "voices": [
     {
       "id": "ag-voice-1",
       "country": {
         "ja": "トルコ",
-        "en": "Turkey"
+        "en": "Turkey",
+        "zh": "土耳其",
+        "ko": "터키"
       },
       "sentiment": "denial",
       "summary": {
         "ja": "トルコ人やムスリムも大勢亡くなった戦時の悲劇だ。政治利用せず、歴史家が文書館で検証すべきだ。",
-        "en": "It was a wartime tragedy in which many Turks and Muslims also died. Historians, not politicians, should examine the archives."
+        "en": "It was a wartime tragedy in which many Turks and Muslims also died. Historians, not politicians, should examine the archives.",
+        "zh": "这是一场战时悲剧，许多土耳其人和穆斯林也丧生。历史学家不应该在政治上使用它，而应该在档案中对其进行研究。",
+        "ko": "터키인과 무슬림도 많이 죽은 전시의 비극이다. 정치 이용하지 않고 역사가가 문서관에서 검증해야 한다."
       },
       "prevalence": "high",
       "context": {
         "ja": "トルコ国内のSNSで広く見られる論調。政府の公式見解に近い。",
-        "en": "Widely seen on Turkish social media and close to the official line."
+        "en": "Widely seen on Turkish social media and close to the official line.",
+        "zh": "这种语气在土耳其社交媒体上随处可见。这与政府的官方立场很接近。",
+        "ko": "터키 국내 SNS에서 널리 보이는 논조. 정부의 공식 견해에 가깝다."
       }
     },
     {
       "id": "ag-voice-2",
       "country": {
         "ja": "アルメニア（ディアスポラ含む）",
-        "en": "Armenia (incl. diaspora)"
+        "en": "Armenia (incl. diaspora)",
+        "zh": "亚美尼亚（包括侨民）",
+        "ko": "아르메니아(디아스포라 포함)"
       },
       "sentiment": "nationalist",
       "summary": {
         "ja": "1915年のジェノサイドを認め、謝罪と補償を行うまで、私たちは4月24日を忘れない。否定は犯罪の継続だ。",
-        "en": "We will not forget 24 April until the genocide is recognized and addressed. Denial is the continuation of the crime."
+        "en": "We will not forget 24 April until the genocide is recognized and addressed. Denial is the continuation of the crime.",
+        "zh": "在我们承认 1915 年的种族灭绝、道歉并做出赔偿之前，我们不会忘记 4 月 24 日。否认是犯罪的继续。",
+        "ko": "1915년 제노사이드를 인정하고 사과와 보상을 할 때까지 우리는 4월 24일을 잊지 않는다. 부정은 범죄의 계속이다."
       },
       "prevalence": "high",
       "context": {
         "ja": "アルメニア本国や欧米のディアスポラで共有される声。",
-        "en": "Shared in Armenia and diaspora communities in Europe and North America."
+        "en": "Shared in Armenia and diaspora communities in Europe and North America.",
+        "zh": "亚美尼亚和西方侨民都有共同的声音。",
+        "ko": "아르메니아 본국이나 구미의 디아스포라에서 공유되는 목소리."
       }
     },
     {
       "id": "ag-voice-3",
       "country": {
         "ja": "アゼルバイジャン",
-        "en": "Azerbaijan"
+        "en": "Azerbaijan",
+        "zh": "阿塞拜疆",
+        "ko": "아제르바이잔"
       },
       "sentiment": "denial",
       "summary": {
         "ja": "トルコは兄弟国だ。アルメニア側の主張は政治利用であり、ホジャリなど我々の被害こそ認められるべきだ。",
-        "en": "Turkey is a brother nation. Armenian claims are politicized; our own suffering, such as Khojaly, deserves recognition."
+        "en": "Turkey is a brother nation. Armenian claims are politicized; our own suffering, such as Khojaly, deserves recognition.",
+        "zh": "土耳其是一个兄弟国家。亚美尼亚方面的主张是政治剥削，对包括霍贾利在内的我们造成的损害应该得到承认。",
+        "ko": "터키는 형제국이다. 아르메니아 측의 주장은 정치 이용이며, 호자리 등 우리의 피해가 인정되어야 한다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "国営メディアや政府寄りのSNSで目立つ。",
-        "en": "Prominent in state media and pro-government social media."
+        "en": "Prominent in state media and pro-government social media.",
+        "zh": "它在官方媒体和亲政府的社交媒体上很突出。",
+        "ko": "국영미디어나 정부 친밀한 SNS로 눈에 띈다."
       }
     },
     {
       "id": "ag-voice-4",
       "country": {
         "ja": "アメリカ合衆国",
-        "en": "United States"
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
       },
       "sentiment": "supportive",
       "summary": {
         "ja": "米国は2021年の認定で正しい道を選んだ。同盟国であっても歴史的真実は曲げられない。",
-        "en": "The 2021 recognition was the right call. Even an ally cannot be allowed to rewrite historical truth."
+        "en": "The 2021 recognition was the right call. Even an ally cannot be allowed to rewrite historical truth.",
+        "zh": "美国通过2021年认证选择了正确的道路。历史真相即使是盟友也不能妥协。",
+        "ko": "미국은 2021년 인정에서 올바른 길을 택했다. 동맹국이라도 역사적 진실은 구부러지지 않는다."
       },
       "prevalence": "medium",
       "context": {
         "ja": "アルメニア系米国人コミュニティや人権団体で支持が強い。",
-        "en": "Strong support among Armenian-American communities and human-rights groups."
+        "en": "Strong support among Armenian-American communities and human-rights groups.",
+        "zh": "亚美尼亚裔美国人社区和人权团体的大力支持。",
+        "ko": "아르메니아계 미국인 커뮤니티나 인권 단체에서 지지가 강하다."
       }
     },
     {
       "id": "ag-voice-5",
       "country": {
         "ja": "日本",
-        "en": "Japan"
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
       },
       "sentiment": "neutral",
       "summary": {
         "ja": "遠い地域の問題だが、両国の主張を比べて学びたい。日本政府はもっと説明してほしい。",
-        "en": "It is a distant issue, but I want to compare both sides' claims. The government should explain its position more clearly."
+        "en": "It is a distant issue, but I want to compare both sides' claims. The government should explain its position more clearly.",
+        "zh": "虽然这是一个遥远地区的问题，但我想通过比较两国的主张来了解。希望日本政府作出更多解释。",
+        "ko": "먼 지역의 문제이지만 양국의 주장을 비교해 배우고 싶다. 일본 정부는 더 설명해 주었으면 한다."
       },
       "prevalence": "low",
       "context": {
         "ja": "日本語圏ではあまり議論されておらず、関心は限定的。",
-        "en": "Little discussed in the Japanese-speaking world; interest is limited."
+        "en": "Little discussed in the Japanese-speaking world; interest is limited.",
+        "zh": "在日语世界中对此讨论不多，兴趣也有限。",
+        "ko": "일본어권에서는 그다지 논의되지 않고 관심은 한정적."
       }
     }
   ]

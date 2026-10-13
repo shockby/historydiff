@@ -1,0 +1,67 @@
+{
+  "eventId": "nanjing-massacre",
+  "notes": [
+    {
+      "id": "nm-death-toll-china",
+      "claim": "희생자의 수는 30만명 이상이라고 중국측은 명기",
+      "context": "30만명이라는 숫자는 1947년 남경군사법정의 판결로 인정된 수에 근거한다. 난징대학살기념관에도 이 숫자가 새겨져 있다. 일본의 연구자들 사이에서는 이 숫자에 대해 이론이 많아 수만명에서 20만명까지 폭넓은 추정이 존재한다. 도쿄 재판에서는 '20만명 이상'으로 인정됐다.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "Judgement of the International Military Tribunal for the Far East",
+          "url": "https://www.legal-tools.org/doc/9a89a0/",
+          "publisher": "International Criminal Court - Legal Tools Database",
+          "type": "international"
+        },
+        {
+          "title": "Memorial Hall of the Victims in Nanjing Massacre",
+          "url": "http://www.nj1937.org/",
+          "publisher": "침화일군 난징대 도살살대난동포기념관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "nm-tokyo-trial",
+      "claim": "마츠이 이시네 대장이 도쿄 재판에서 책임을 묻고 처형되었다",
+      "context": "마쓰이 이시네는 난징 공략시 중지나 방면군 사령관. 도쿄재판(극동국제군사재판)에서 난징에서의 잔학행위를 방지할 의무를 게을리했다고 유죄판결을 받고 1948년 12월 23일에 교수형에 처했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "International Military Tribunal for the Far East",
+          "url": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "nm-rabe-safety-zone",
+      "claim": "독일인 실업가 존 라베 등이 '난징안전구' 설립",
+      "context": "존 라베는 독일 지멘스사의 직원으로 난징안전구 국제위원회의 위원장을 맡아 약 20만명의 중국인민간인을 보호했다. 라베의 일기는 1997년에 출판되어 난징의 상황을 상세하게 기록한 1차 자료로 높이 평가되고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "The Good Man of Nanking: The Diaries of John Rabe",
+          "url": "https://www.penguinrandomhouse.com/books/167904/the-good-man-of-nanking-by-john-rabe/",
+          "publisher": "Penguin Random House",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "nm-national-memorial-day",
+      "claim": "매년 12월 13일을 「국가공제일」로 추모",
+      "context": "2014년 2월 27일 중국 전국인민대표대회 상무위원회가 '난징대학살 희생자 국가추도일'을 법제화. 매년 12월 13일 국가 차원에서 추도식전이 열린다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "China designates December 13 as national day of mourning for Nanjing Massacre victims",
+          "url": "https://www.reuters.com/article/us-china-japan-nanjing-idUSBREA1Q0RM20140227",
+          "publisher": "Reuters",
+          "type": "media"
+        }
+      ]
+    }
+  ]
+}

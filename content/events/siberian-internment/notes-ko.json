@@ -1,0 +1,53 @@
+{
+  "eventId": "siberian-internment",
+  "notes": [
+    {
+      "id": "si-number-of-internees",
+      "claim": "약 57만 5천명의 일본인이 시베리아에 억류되었다",
+      "context": "후생노동성의 조사에 의하면, 종전시에 만주·조선·자치 등에 있던 일본군 장병·민간인 중 약 57만 5천명이 소련에 의해 시베리아·중앙아시아 등에 연행되었다. 러시아 측의 자료에서는 약 50만명으로 된다. 억류자의 사망자수는 일본측 추계로 약 5만 5천명.",
+      "verdict": "추정에 폭 있음",
+      "sources": [
+        {
+          "title": "시베리아 억류에 관한 정보(후생노동성) (일본어)",
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "후생노동성",
+          "type": "government"
+        },
+        {
+          "title": "마이즈루 인양 기념관 (일본어)",
+          "url": "https://m-hikiage-museum.jp/",
+          "publisher": "마이즈루 인양 기념관",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "si-forced-labor",
+      "claim": "억류자는 가혹한 환경에서 강제노동에 종사하게 되었다",
+      "context": "억류자는 시베리아의 탄광, 철도건설(바이칼·아무르철도 등), 삼림벌채, 건설공사 등 중노동에 종사. 극한의 환경, 불충분한 식량·의복, 의료의 부족에 의해 많은 사망자가 나왔다. 2015년 마이즈루 인양 기념관 소장의 '시베리아 억류 관계 자료'가 유네스코 '세계의 기억'에 등록됐다.",
+      "verdict": "역사적 사실(유네스코 등록 완료)",
+      "sources": [
+        {
+          "title": "Memory of the World - Documents on the Internment of Japanese Soldiers after World War II",
+          "url": "https://en.unesco.org/memoryoftheworld/registry/",
+          "publisher": "UNESCO",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "si-geneva-convention",
+      "claim": "소련의 억류는 제네바 조약을 위반했다.",
+      "context": "1929년 제네바 조약(俘虜의 대우에 관한 조약)은 적대행위 종료 후 포로의 신속한 송환을 의무화하고 있다. 소련은 이 협약을 비준하지 않았지만 일본은 비준하고 있어 국제인도법의 일반 원칙의 적용이 문제가 된다. 포츠담 선언 제9항도 일본군 장병의 ‘신속한 송환’을 규정하고 있었다.",
+      "verdict": "법적 논의 있음",
+      "sources": [
+        {
+          "title": "Geneva Convention relative to the Treatment of Prisoners of War (1929)",
+          "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gc-pow-1929",
+          "publisher": "International Committee of the Red Cross",
+          "type": "international"
+        }
+      ]
+    }
+  ]
+}

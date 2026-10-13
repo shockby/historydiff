@@ -1,0 +1,139 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "notes": [
+    {
+      "id": "lic-1982-invasion",
+      "claim": "1982년 이스라엘의 레바논 침공('갈릴리의 평화작전')에서 베이루트까지 진군해 PLO를 추방했다",
+      "context": "1982년 6월 이스라엘 군은 레바논을 침공하여 수도 베이루트를 포위했다. PLO(팔레스타인 해방기구)의 거점을 괴멸시키고, 8월에 다국적군의 감시하에 PLO를 베이루트에서 철수시켰다. 이 침공으로 레바논 시민 수천명이 사망했다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "Israel's Lebanon War - Official History",
+          "url": "https://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/pages/israel-s%20operation%20in%20lebanon.aspx",
+          "publisher": "이스라엘 외무성",
+          "type": "government"
+        },
+        {
+          "title": "The 1982 Israeli Invasion of Lebanon",
+          "url": "https://www.hrw.org/reports/1983/lebanon/",
+          "publisher": "Human Rights Watch",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-2006-casualties",
+      "claim": "2006년 레바논 전쟁에서 레바논 측의 사망자는 1,200명 이상, 이스라엘 측은 165명이었다",
+      "context": "2006년 7월~8월 33일 전쟁에서 레바논 보건부는 민간인을 중심으로 약 1,191명의 사망자를 기록했다. 이스라엘 측의 사망자는 병사 119명, 민간인 44명의 총 163~165명. 이 비대칭 피해가 레바논 아랍 측의 \"침략\"인식을 강화했다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "Lebanon: Death toll and impact of 2006 war",
+          "url": "https://www.un.org/unispal/document/auto-insert-187660/",
+          "publisher": "유엔 OCHA",
+          "type": "international"
+        },
+        {
+          "title": "2006 Lebanon War casualties",
+          "url": "https://www.btselem.org/",
+          "publisher": "B'Tselem",
+          "type": "ngo"
+        }
+      ]
+    },
+    {
+      "id": "lic-shebaa-farms",
+      "claim": "셰바아 농장의 귀속은 레바논인지 시리아(고란 고원의 일부)인지에 싸워지고 있다",
+      "context": "셰바아 농장은 면적 약 22km²의 산악지대로, 1967년 이스라엘이 시리아에서 점령. 레바논은 레바논 영토라고 주장하지만, 유엔·이스라엘·시리아(바샤르 정권)는 고란 고원의 일부로 취급한다. 2000년 이스라엘 철수 후에도 이 땅은 히즈볼라가 '저항'을 계속하는 근거로 사용되고 있다.",
+      "verdict": "토론 있음",
+      "sources": [
+        {
+          "title": "Report of the Secretary-General on the Blue Line",
+          "url": "https://undocs.org/S/2000/590",
+          "publisher": "유엔 사무총장",
+          "type": "international"
+        },
+        {
+          "title": "Shebaa Farms: The Lebanon-Syria-Israel Territorial Dispute",
+          "url": "https://www.cfr.org/backgrounder/shebaa-farms",
+          "publisher": "Council on Foreign Relations",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "lic-unsc-1701",
+      "claim": "유엔 안보리 결의 1701호(2006년)는 레바논 남부에서 히즈보라의 무장 존재를 금지하고 있지만 이행은 불완전하다",
+      "context": "결의 1701호는 UNIFIL의 증강(최대 15,000명)과 레바논군의 남부 전개를 규정하고, 블루라인과 리타니 강 사이를 '무장집단이 없는 지역'으로 할 것을 요구했다. 그러나 유엔 사무총장의 연차 보고서는 매년 히즈보라에 의한 무기 저장·이동의 계속을 기록하고 있으며, 완전 이행에는 이르지 못하고 있다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 1701 (2006)",
+          "url": "https://undocs.org/S/RES/1701(2006)",
+          "publisher": "유엔안전보장이사회",
+          "type": "international"
+        },
+        {
+          "title": "UNIFIL Mandate and Implementation Reports",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/mandate.shtml",
+          "publisher": "유엔 UNIFIL",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "lic-unifil-japan",
+      "claim": "일본은 UNIFIL에 문민 전문가·방위성 직원을 파견하고 있지만, 자위대의 무장 부대는 파견하지 않는다",
+      "context": "일본의 평화헌법(제9조)의 제약으로부터 자위대원의 UNIFIL 무장참가는 곤란하다. 일본은 대신 방위성의 문민 전문가나 사령부 요원을 파견해, 공병 작업 등에의 참가는 한정적. 중국이 수백명 규모의 공병부대를 파견하는 것과 대조적인 입장에 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "UNIFIL Contributing Countries",
+          "url": "https://www.un.org/en/peacekeeping/missions/unifil/contributing.shtml",
+          "publisher": "유엔 UNIFIL",
+          "type": "international"
+        },
+        {
+          "title": "일본의 UNIFIL에의 참가에 대해서 (일본어)",
+          "url": "https://www.mofa.go.jp/mofaj/fp/un_pko/page23_001140.html",
+          "publisher": "일본 외무성",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-hezbollah-designation",
+      "claim": "히즈보라는 EU·미국에서는 테러 조직으로 지정되어 있지만, 일본·중국·러시아는 지정하고 있지 않다",
+      "context": "미국은 1997년에 히즈보라 전체를 FTO(외국 테러 조직)로 지정. EU는 2013년 군사부문만 테러조직 지정했다. 일본·중국·러시아·많은 개발도상국은 테러 지정을 하지 않고 히즈볼라를 레바논의 정치·군사조직으로 취급하고 있다. 이 인식의 차이가 국제적인 대응의 분열을 초래하고 있다.",
+      "verdict": "사실 확인 완료",
+      "sources": [
+        {
+          "title": "Designated Foreign Terrorist Organizations",
+          "url": "https://www.state.gov/foreign-terrorist-organizations/",
+          "publisher": "미국 국무부",
+          "type": "government"
+        },
+        {
+          "title": "EU Council Decision on Hezbollah's military wing",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013D0495",
+          "publisher": "유럽연합이사회",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "lic-1983-barracks",
+      "claim": "1983년 베이루트 미 해병대 병사 폭파로 241명의 미병이 사망하여 미국의 레바논 철수로 이어졌다",
+      "context": "1983년 10월 23일 자폭 트럭이 국제평화유지군의 미군병사를 폭파해 241명이 사망(동일 프랑스군병사도 공격받아 58명 사망). 미국은 이를 히즈볼라와 이란의 지원에 의한 공격이라고 단정했다. 이듬해 레이건 정권은 다국적군을 레바논에서 철수시켰다. 이 사건은 미국의 히즈보라 적시의 출발점이 되었다.",
+      "verdict": "역사적 사실",
+      "sources": [
+        {
+          "title": "1983 Beirut barracks bombings",
+          "url": "https://history.state.gov/milestones/1981-1988/lebanon",
+          "publisher": "미국 국무성 역사국",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

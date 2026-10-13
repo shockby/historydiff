@@ -1,0 +1,105 @@
+{
+  "eventId": "bolivia-chile-pacific",
+  "notes": [
+    {
+      "id": "bcp-1879-war-of-pacific",
+      "claim": "由于太平洋战争（1879-1884），玻利维亚失去了约400公里的海岸线和约12万平方公里的安托法加斯塔海岸线。",
+      "context": "1879年，智利军队因阿塔卡马沙漠提高硝石税问题发生冲突，占领安托法加斯塔，玻利维亚-秘鲁联军与智利爆发战争。随着智利军队的胜利，玻利维亚失去了整个沿海地区（约400公里的海岸线和约12万平方公里的领土），成为一个完全内陆国家。",
+      "verdict": "历史事实",
+      "sources": [
+        {
+          "title": "太平洋战争史（1879-1884）",
+          "url": "https://www.ejercito.cl/historia/guerra-del-pacifico",
+          "publisher": "智利陆军历史系",
+          "type": "government"
+        },
+        {
+          "title": "玻利维亚海事手册（Libro del Mar）",
+          "url": "https://www.cancilleria.gob.bo/webmre/sites/default/files/libromar.pdf",
+          "publisher": "玻利维亚外交部（DIREMAR）",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1904-peace-treaty",
+      "claim": "1904年《和平友好条约》确立了两国边界，智利承诺玻利维亚免税港口通行和铁路建设。",
+      "context": "1904年10月20日に调印された条约、チリのアントロァガスタ地域领有が确定した。 作为回报，智利同意支付建设阿里卡-拉巴斯铁路的费用，并永久保证玻利维亚货物在智利港口（阿里卡和拉巴斯）完全免税自由通行（libre tránsito）。安托法加斯塔）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "1904 年智利和玻利维亚之间的和平与友谊条约",
+          "url": "https://www.difrol.gob.cl/tratado-de-paz-y-amistad-de-1904/",
+          "publisher": "智利外交部边境事务司（DIFROL）",
+          "type": "government"
+        },
+        {
+          "title": "和平、友好和通商条约（1904年）",
+          "url": "https://treaties.un.org/",
+          "publisher": "联合国公约收藏",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-1929-treaty-of-lima",
+      "claim": "1929年《利马条约》补充议定书规定，将前秘鲁领土（阿里卡等）割让给第三国需征得秘鲁同意。",
+      "context": "1929年解决智利和秘鲁塔克纳-阿里卡争端的《利马条约》附加议定书第一条规定，将曾经属于秘鲁的领土（如阿里卡省）割让给第三国（玻利维亚）之前，必须征得两国政府（智利和秘鲁）的同意。这建立了一个框架，其中任何智利向玻利维亚授予走廊的提案都需要秘鲁的批准。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "1929 年利马补充协议",
+          "url": "https://portal.transparencia.gob.pe/rree/tratados",
+          "publisher": "Ministry of Foreign Affairs of Peru",
+          "type": "government"
+        },
+        {
+          "title": "Treaty of Lima and the Tacna-Arica Dispute",
+          "url": "https://www.oas.org/",
+          "publisher": "Organization of American States (OAS)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "bcp-2018-icj-judgment",
+      "claim": "2018年10月，国际法院裁定智利没有法律义务就太平洋主权进入玻利维亚进行谈判。",
+      "context": "玻利维亚（莫拉莱斯政府）于2013年向国际法院提起诉讼，声称智利有法律义务根据过去的外交讨论和备忘录就主权走廊的规定进行善意谈判。 2018年10月1日，法院以12比3的多数驳回了玻利维亚的全部请求，认为智利没有此类谈判义务。然而，作为旁注，他敦促睦邻关系和继续对话。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "谈判进入太平洋的义务（玻利维亚诉智利）——2018 年 10 月 1 日判决",
+          "url": "https://www.icj-cij.org/case/153",
+          "publisher": "国际法院（ICJ）",
+          "type": "international"
+        },
+        {
+          "title": "国际法院判决分析：玻利维亚诉智利",
+          "url": "https://www.asil.org/insights/volume/22/issue/17/icj-rules-chile-has-no-obligation-negotiate-ocean-access-bolivia",
+          "publisher": "美国国际法学会（ASIL）",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "bcp-dia-del-mar",
+      "claim": "玻利维亚将每年3月23日定为“Día del Mar”，并制定了维持海军组织和恢复主权的国家目标。",
+      "context": "玻利维亚于1879年3月23日举行全国仪式，纪念爱德华多·阿瓦罗亚在卡拉马战役中的英勇抵抗，并将每年3月23日定为海军陆战队日。玻利维亚虽然是内陆国家，但保有玻利维亚海军（Armada Boliviana），管辖的的喀喀湖和主要河流，而且宪法第267条规定恢复海洋主权是一项不可剥夺的国家权利。",
+      "verdict": "事实核查",
+      "sources": [
+        {
+          "title": "玻利维亚多民族国家政治宪法（第 267 条）",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "publisher": "玻利维亚多民族国宪法（美洲国家组织存档版）",
+          "type": "government"
+        },
+        {
+          "title": "玻利维亚舰队历史研究",
+          "url": "https://armada.mil.bo/",
+          "publisher": "ボribea海军公式记录",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

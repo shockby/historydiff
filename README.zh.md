@@ -77,7 +77,8 @@ historydiff/
 │   ├── images/                   # 历史照片与文献影像
 │   └── og/                       # 自动生成的社交媒体 OGP 预览图
 ├── scripts/
-│   └── generate_og_images.py     # OGP 图像批量生成脚本
+│   ├── generate_og_images.py     # OGP 图像批量生成脚本
+│   └── migrate_photos_to_r2.py   # 将照片迁移到 Cloudflare R2 的脚本
 ├── src/
 │   ├── app/
 │   │   ├── [lang]/               # Next.js 国际化路由
@@ -228,6 +229,10 @@ python3 translate_ko.py
 
 # 3. 批量生成全量事件及首页的动态 OGP 社交分享图
 python3 scripts/generate_og_images.py
+
+# 4. 将本地引用的照片上传到 Cloudflare R2，并改写 photos.json 中的 URL
+# （需先通过 `wrangler login` 等完成认证；可用 `--dry-run` 预览）
+python3 scripts/migrate_photos_to_r2.py
 ```
 
 ---

@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "deportation-kozan",
-      "url": "/images/events/armenian-genocide/deportation-kozan.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/armenian-genocide/deportation-kozan.jpg",
       "caption": {
         "ja": "コザン県（キリキア）から強制移送されるアルメニア人たち（1915年頃）。",
         "en": "Armenians being deported from the Kozan Sanjak, Cilicia (c. 1915).",
@@ -19,7 +19,7 @@
     },
     {
       "id": "near-east-relief-orphans",
-      "url": "/images/events/armenian-genocide/near-east-relief-orphans.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/armenian-genocide/near-east-relief-orphans.jpg",
       "caption": {
         "ja": "アレクサンドロポリ（現ギュムリ）の中東救援委員会孤児院にいるアルメニア人孤児たち。",
         "en": "Armenian orphans at the Near East Relief orphanage in Alexandropol (now Gyumri).",
@@ -35,7 +35,7 @@
     },
     {
       "id": "tsitsernakaberd-memorial",
-      "url": "/images/events/armenian-genocide/tsitsernakaberd-memorial.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/armenian-genocide/tsitsernakaberd-memorial.jpg",
       "caption": {
         "ja": "エレバンのツィツェルナカベルド・アルメニア人虐殺記念碑。毎年4月24日に追悼式典が行われる。",
         "en": "Tsitsernakaberd Armenian Genocide Memorial in Yerevan, site of the annual 24 April commemoration.",

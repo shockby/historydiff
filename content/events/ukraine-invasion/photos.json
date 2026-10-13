@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "lobanovskyi-building-damaged",
-      "url": "/images/events/ukraine-invasion/building-damaged.png",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/ukraine-invasion/building-damaged.png",
       "caption": {
         "ja": "2022年2月26日、ミサイル攻撃により損傷したキーウのロバノフスキー通りの高層住宅（デモ用生成画像）",
         "en": "High-rise residential building on Lobanovskyi Avenue in Kyiv damaged by a missile strike, 26 February 2022 (Demo Image)",
@@ -19,7 +19,7 @@
     },
     {
       "id": "destroyed-russian-btr",
-      "url": "/images/events/ukraine-invasion/destroyed-btr.png",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/ukraine-invasion/destroyed-btr.png",
       "caption": {
         "ja": "ウクライナの道路上に放置された大破したロシア軍の装甲兵員輸送車（BTR）（デモ用生成画像）",
         "en": "A destroyed Russian armored personnel carrier (BTR) on a road in Ukraine (Demo Image)",

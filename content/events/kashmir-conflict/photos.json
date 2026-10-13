@@ -3,7 +3,7 @@
   "photos": [
     {
       "id": "kashmir-region-map",
-      "url": "/images/events/kashmir-conflict/kashmir-region-map.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kashmir-conflict/kashmir-region-map.jpg",
       "caption": {
         "ja": "カシミール地方の政治地図。青色がインド実効支配地域（ジャンムー・カシミール連邦直轄地・ラダック）、緑色がパキスタン実効支配地域（アザード・カシミール・ギルギット・バルティスタン）、黄色が中国実効支配地域（アクサイ・チン）を示す。赤い破線が「実効支配線（LoC）」。",
         "en": "Political map of the Kashmir region. Blue indicates India-administered territories (Union Territory of Jammu & Kashmir and Ladakh), green shows Pakistan-administered territories (Azad Kashmir and Gilgit-Baltistan), and yellow marks China-controlled Aksai Chin. The red dashed line is the Line of Control (LoC).",
@@ -18,7 +18,7 @@
     },
     {
       "id": "kashmir-partition-timeline",
-      "url": "/images/events/kashmir-conflict/kashmir-partition-timeline.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kashmir-conflict/kashmir-partition-timeline.jpg",
       "caption": {
         "ja": "カシミール分断と紛争の歴史年表。1947年のインド独立から2019年の憲法第370条廃止まで、カシミール問題の主要な転換点を図示したインフォグラフィック。",
         "en": "Historical timeline of the Kashmir partition and conflict, from Indian independence in 1947 to the revocation of Article 370 in 2019. An infographic illustrating the major turning points in the Kashmir dispute.",
@@ -33,7 +33,7 @@
     },
     {
       "id": "un-security-council-chamber",
-      "url": "/images/events/kashmir-conflict/un-security-council-chamber.jpg",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/kashmir-conflict/un-security-council-chamber.jpg",
       "caption": {
         "ja": "国連安全保障理事会の議場。カシミール問題は1948年の決議47号をはじめ、国連安保理で複数回審議されてきた。安保理はカシミールの将来を決定する住民投票を求めたが、その実施は現在も実現していない。",
         "en": "The UN Security Council chamber. The Kashmir issue has been debated multiple times in the Security Council, beginning with Resolution 47 in 1948. The Council called for a plebiscite to determine Kashmir's future, but one has never been held.",

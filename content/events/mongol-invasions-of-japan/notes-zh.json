@@ -1,0 +1,73 @@
+{
+  "eventId": "mongol-invasions-of-japan",
+  "notes": [
+    {
+      "id": "mi-bunei-koan-dates",
+      "claim": "元朝与高丽联军在文永之役（1274年）与弘安之役（1281年）两次东征日本",
+      "context": "1274年10月的文永之役（约3万人规模）与1281年5月至8月的弘安之役（东路军约4万、江南军约10万，总计约14万规模）中，奉忽必烈之命的舰队经对马、壹岐进攻博多湾。受日本镰仓武士顽强抵抗与剧烈台风袭击，远征军遭受毁灭性打击并撤退。",
+      "verdict": "官方记录明确",
+      "sources": [
+        {
+          "title": "元日战争 - 维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%97%A5%E6%88%98%E4%BA%89",
+          "publisher": "维基百科",
+          "type": "reference"
+        },
+        {
+          "title": "蒙古袭来（元寇） - 日本文化厅文化遗产在线",
+          "url": "https://bunka.nii.ac.jp/",
+          "publisher": "日本文化厅",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "mi-goryeo-shipbuilding",
+      "claim": "高丽迫于元朝严令，在数月内赶造900艘战船并提供军粮与水军",
+      "context": "为筹备文永之役，元世祖忽必烈严令高丽在四个月内赶造战舰900艘。强制征发工匠、乱砍林木使高丽民生极度困苦，《高丽史》详细记载了由此引发的严重饥荒与动荡。弘安之役中高丽亦被施加了极为沉重的兵役与粮秣征发。",
+      "verdict": "官方记录明确",
+      "sources": [
+        {
+          "title": "高丽史 - 韩国国史编纂委员会数据库",
+          "url": "https://db.history.go.kr/",
+          "publisher": "韩国国史编纂委员会",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "mi-kamikaze-typhoon",
+      "claim": "除风暴（神风）外，武士沿岸防垒阻击及赶造船只的结构缺陷亦是联军覆没的主因",
+      "context": "传统叙事常将日本脱险完全归功于“神风”，但现代史学研究及长崎县伊万里湾鹰岛水下考古（鹰岛神崎遗址）证实：镰仓武士依托石筑防垒的死守、元军急造船梁柱存在严重结构缺陷、军粮匮乏与疫情暴发，共同促成了远征军的溃败。",
+      "verdict": "学术界已达成共识",
+      "sources": [
+        {
+          "title": "国史迹鹰岛神崎遗址（水下考古报告）",
+          "url": "https://www.city.matsuura.lg.jp/",
+          "publisher": "长崎县松浦市教育委员会",
+          "type": "government"
+        },
+        {
+          "title": "蒙古袭来之真相 - 九州大学学术资料库",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "九州大学",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "mi-envoys-execution",
+      "claim": "镰仓幕府于1275年在龙之口斩杀元廷使节杜世忠等五人",
+      "context": "文永之役后的1275年，元朝礼部侍郎杜世忠、兵部郎中何文秀及高丽通事等五人再次携国书赴日要求修好臣服，执权北条时宗下令将其押往镰仓并在龙之口刑场斩首（神奈川县常立寺现存“元使冢”）。此举激怒元廷，成为1281年弘安之役爆发的直接导火索。",
+      "verdict": "官方记录明确",
+      "sources": [
+        {
+          "title": "元史 卷二百八 列传第九十五 日本传",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "中国哲学书电子化计划",
+          "type": "archive"
+        }
+      ]
+    }
+  ]
+}

@@ -22,7 +22,7 @@ Even for the same historical event, textbook descriptions and official narrative
 ### 2. ⚡ Instant Experience & Streamlined Discovery
 * **Interactive Live Mini Diff Demo:** Instantly explore multilateral diffs for landmark events (such as Takeshima / Dokdo) right on the homepage hero section.
 * **Featured Controversies TOP 3:** Highlights historical events with the sharpest global perception divergences.
-* **Pinned Country Pills & Multi-View Exploration:** Quick-filter by major countries (Japan, USA, China, Korea, etc.) via pills and a full dropdown. Browse the catalog across 12-item Grid (minimalist cards), fully-mapped Interactive World Map (all 69 events), and Chronological Timeline featuring multi-decade expansion, period-specific annotation filtering, and decade/category filters.
+* **Pinned Country Pills & Multi-View Exploration:** Quick-filter by major countries (Japan, USA, China, Korea, etc.) via pills and a full dropdown. Browse the catalog across 12-item Grid (minimalist cards), fully-mapped Interactive World Map (all 70 events), and Chronological Timeline featuring multi-decade expansion, period-specific annotation filtering, and decade/category filters.
 
 ### 3. 📰 Connecting History to Modern Geopolitics (Why This Matters Today)
 * **"Why This Matters Today":** In-depth analysis explaining how historical disputes directly fuel current diplomatic tensions and international crises.
@@ -118,7 +118,7 @@ historydiff/
 │   │   └── sitemap.ts            # Dynamic sitemap.xml
 │   └── lib/
 │       ├── diffAnalysis.ts       # Exclusive keywords and controversy analysis algorithms
-│       ├── locationCoords.ts     # Geo-coordinates database for map visualization (all 69 events mapped)
+│       ├── locationCoords.ts     # Geo-coordinates database for map visualization (all 70 events mapped)
 │       ├── markdown.ts           # Markdown parsing utilities and file loaders
 │       ├── quizData.ts           # Question datasets for quizzes and diagnostics
 │       ├── schema.ts             # Schema.org structured data generators

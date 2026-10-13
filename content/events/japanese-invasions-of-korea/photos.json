@@ -1,0 +1,56 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "photos": [
+    {
+      "id": "toyotomi-hideyoshi-portrait",
+      "filename": "Toyotomi_Hideyoshi_Kodaiji.jpg",
+      "caption": {
+        "ja": "豊臣秀吉像（狩野光信画、京都・高台寺所蔵、国指定重要文化財）。天下統一を達成したのち、明征服を目指して朝鮮半島への出兵を命じた。",
+        "en": "Portrait of Toyotomi Hideyoshi by Kano Mitsunobu (Kodai-ji, Kyoto; Important Cultural Property). After unifying Japan, he launched the continental invasions.",
+        "zh": "丰臣秀吉肖像画（狩野光信绘，日本京都高台寺藏，日本国指定重要文化财）。在统一日本后，他发动了企图吞并明朝的侵朝战役。",
+        "ko": "도요토미 히데요시 초상화(가노 미쓰노부 작, 교토 고다이지 소장, 중요문화재). 일본 열도를 통일한 후 대륙 진출을 노리고 조선 침략을 명령했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Toyotomi_Hideyoshi_(Kodaiji).jpg",
+        "license": "Public Domain",
+        "author": "Kano Mitsunobu (1565–1608)"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/japanese-invasions-of-korea/toyotomi-hideyoshi.jpg"
+    },
+    {
+      "id": "yi-sun-sin-bust",
+      "filename": "Bust_of_Yi_Sun-sin_01.jpg",
+      "caption": {
+        "ja": "李舜臣（イ・スンシン）将軍の胸像。亀甲船を開発し、閑山島大捷や鳴梁海戦などで不敗の戦果をあげて制海権を握り、日本陸軍の兵站を麻痺させた朝鮮の救国英雄。",
+        "en": "Bust of Admiral Yi Sun-sin. Revered as Korea's national savior, he built turtle ships, commanded naval victories at Hansan and Myeongnyang, and severed Japanese supply lines.",
+        "zh": "李舜臣将军胸像。朝鲜救国名将与民族英雄，研制龟甲船，在闲山岛大捷与鸣梁海战中连克敌舰，斩断侵华日军海上粮道。",
+        "ko": "이순신 장군 흉상. 거북선을 건조하고 한산도 대첩과 명량 해전 등에서 불패의 전공을 세워 제해권을 장악, 왜군의 보급로를 원천 차단한 조선의 성웅."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Bust_of_Yi_Sun-sin_01.jpg",
+        "license": "Creative Commons Attribution-ShareAlike 3.0",
+        "author": "Wikimedia Commons Contributor"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/japanese-invasions-of-korea/yi-sun-sin.jpg"
+    },
+    {
+      "id": "mimizuka-kyoto",
+      "filename": "Mimizuka2.jpg",
+      "caption": {
+        "ja": "京都市東山区に現存する「耳塚（鼻塚）」（国指定史跡）。慶長の役において、日本軍が戦功の証拠として切り落とし塩漬けにして送った朝鮮軍民の鼻や耳が埋葬されている。",
+        "en": "The Mimizuka (Ears/Noses Mound) in Kyoto, Japan (National Historic Site). It contains severed and pickled noses and ears of Korean soldiers and civilians sent as war trophies.",
+        "zh": "位于日本京都市东山区的“耳冢（鼻冢）”（日本国指定史迹）。埋葬着庆长之役中日军割下并腌渍送回日本作为战功凭证的朝鲜军民鼻耳。",
+        "ko": "일본 교토시 히가시야마구에 위치한 '이총(코무덤·귀무덤)'(국가 사적). 정유재란 당시 왜군이 전공의 증표로 베어 소금에 절여 보낸 조선 군민의 코와 귀가 묻혀 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mimizuka2.jpg",
+        "license": "Creative Commons Attribution-ShareAlike 3.0",
+        "author": "Wikimedia Commons Contributor"
+      },
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/japanese-invasions-of-korea/mimizuka.jpg"
+    }
+  ]
+}

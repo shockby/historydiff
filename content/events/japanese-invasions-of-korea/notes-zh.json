@@ -1,0 +1,85 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "notes": [
+    {
+      "id": "ji-outbreak-scale",
+      "claim": "丰臣秀吉打着“假道入明”旗号发动侵略，先后两次派遣累计约30万人规模大军入侵朝鲜半岛",
+      "context": "1592年文禄之役（约16万人）与1597年庆长之役（约14万人），日本全国各大名军力大规模渡海作战。秀吉要求朝鲜充当侵明前导遭拒后悍然出兵，中日朝三国官修正史（《太阁记》、《朝鲜王朝实录》、《明史》）对此出兵规模与缘由均有高度一致的详细记载。",
+      "verdict": "官方记载明确",
+      "sources": [
+        {
+          "title": "文禄・庆长之役 - 日本大百科全书",
+          "url": "https://kotobank.jp/word/%E6%96%87%E7%A6%84%E3%83%BB%E6%85%B6%E9%95%B7%E3%81%AE%E5%BD%B9-129676",
+          "publisher": "小学馆",
+          "type": "reference"
+        },
+        {
+          "title": "宣祖实录 - 韩国国史编纂委员会",
+          "url": "https://db.history.go.kr/",
+          "publisher": "韩国国史编纂委员会",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ji-yi-sun-sin-naval",
+      "claim": "李舜臣率领的朝鲜水军运用龟甲船与火炮战术牢牢掌控海权，斩断日军海上粮道",
+      "context": "李舜臣在闲山岛大捷、鸣梁海战等战役中连战连胜，彻底掌握了西海与南海制海权。日军海上补给线被完全切断，导致其陆军北方推进攻势因极度缺粮而停滞陷入死局，这在东亚各国学术界被普遍视为战局扭转的决定性因素。",
+      "verdict": "学界高度共识",
+      "sources": [
+        {
+          "title": "乱中日记 - 联合国教科文组织世界记忆名录",
+          "url": "https://www.unesco.org/en/memory-world/nanjung-ilgi-war-diary-admiral-yi-sun-sin",
+          "publisher": "联合国教科文组织",
+          "type": "archive"
+        },
+        {
+          "title": "李舜臣与朝鲜水军研究 - 九州大学学术机构知识库",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "九州大学",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ji-mimizuka-atrocities",
+      "claim": "日军将朝鲜军民的鼻子和耳朵割下运回日本作为战功凭证，并在京都建有“耳冢（鼻冢）”",
+      "context": "庆长之役中，日军依据秀吉军令割下战死者及无辜百姓之鼻耳腌渍入坛送回日本检验。这些残骸随后被埋葬于京都方广寺大佛门前，至今作为日本国家指定史迹“耳冢（鼻冢）”留存在京都市东山区，历史罪证凿凿。",
+      "verdict": "官方记载明确",
+      "sources": [
+        {
+          "title": "国指定史迹 耳冢 - 京都市官方网站",
+          "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000005537.html",
+          "publisher": "京都市文化财保护课",
+          "type": "government"
+        },
+        {
+          "title": "耳冢 - 日本文化厅 文化遗产在线",
+          "url": "https://bunka.nii.ac.jp/heritages/detail/186591",
+          "publisher": "日本文化厅",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ji-ming-financial-drain",
+      "claim": "明朝“抗倭援朝”虽成功保全属邦，但耗尽巨额国库银饷并造成辽东防卫真空，加速了女真族（清朝）的崛起",
+      "context": "明万历帝倾注数百万两白银与辽东精锐赴朝作战，成功驱逐侵略者。然而战后明朝国库严重亏空，东北边防力量空虚，直接助推了努尔哈赤统一女真各部并建立后金（清朝），这在明清史学界属于不争的历史定论。",
+      "verdict": "学界高度共识",
+      "sources": [
+        {
+          "title": "明史 卷三百二十 列传第二百〇八 外国一 朝鲜",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "中国哲学书电子化计划",
+          "type": "archive"
+        },
+        {
+          "title": "万历三大征与明清易代之地缘演变 - 东洋文库",
+          "url": "https://www.toyo-bunko.or.jp/",
+          "publisher": "东洋文库",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

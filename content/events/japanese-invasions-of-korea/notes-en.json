@@ -1,0 +1,85 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "notes": [
+    {
+      "id": "ji-outbreak-scale",
+      "claim": "Toyotomi Hideyoshi demanded Joseon provide passage to conquer Ming China, mobilizing roughly 300,000 troops across two major invasions",
+      "context": "Hideyoshi mobilized approximately 158,000 troops during the 1592 Bunroku Campaign and another 140,000 in the 1597 Keicho Campaign. His pretext of demanding passage to invade Ming China ('Jeongmyeong Gado') and the scale of the mobilization are thoroughly documented in official chronicles across Japan, Korea, and China (Taikoki, Joseon Wangjo Sillok, and Ming Shi).",
+      "verdict": "Officially Recorded",
+      "sources": [
+        {
+          "title": "Japanese invasions of Korea (1592–1598) - Encyclopedia Britannica",
+          "url": "https://www.britannica.com/event/Japanese-invasions-of-Korea",
+          "publisher": "Encyclopedia Britannica",
+          "type": "reference"
+        },
+        {
+          "title": "Veritable Records of King Seonjo - National Institute of Korean History",
+          "url": "https://db.history.go.kr/",
+          "publisher": "National Institute of Korean History",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ji-yi-sun-sin-naval",
+      "claim": "Admiral Yi Sun-sin's naval victories using turtle ships and cannon tactics secured command of the sea and crippled Japanese logistical supply lines",
+      "context": "Through decisive triumphs at Hansan Island and Myeongnyang, Admiral Yi Sun-sin secured control over the southern and western maritime channels. By severing Japanese sea-borne logistics and food supplies, the naval victories fatally undermined Japanese land offensives in northern Korea—a conclusion universally accepted in modern East Asian historiography.",
+      "verdict": "Academic Consensus",
+      "sources": [
+        {
+          "title": "Nanjung Ilgi: War Diary of Admiral Yi Sun-sin - UNESCO Memory of the World",
+          "url": "https://www.unesco.org/en/memory-world/nanjung-ilgi-war-diary-admiral-yi-sun-sin",
+          "publisher": "UNESCO",
+          "type": "archive"
+        },
+        {
+          "title": "Admiral Yi Sun-sin and Naval Warfare - Kyushu University Institutional Repository",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "Kyushu University",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ji-mimizuka-atrocities",
+      "claim": "Japanese forces severed the noses and ears of Korean soldiers and civilians as trophies of war, which were buried in Kyoto's Mimizuka mound",
+      "context": "During the 1597 Keicho Campaign, Japanese military orders mandated the severing, salting, and barreling of noses and ears instead of whole heads as proof of kills. These severed body parts were shipped to Japan, inspected by officials, and buried before the Hokoji Great Buddha Gate in Kyoto, where the historic 'Mimizuka' (Ears Mound) remains a designated national historic site today.",
+      "verdict": "Officially Recorded",
+      "sources": [
+        {
+          "title": "National Historic Site: Mimizuka - Kyoto City Official Portal",
+          "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000005537.html",
+          "publisher": "Kyoto City Cultural Properties Division",
+          "type": "government"
+        },
+        {
+          "title": "Mimizuka - Agency for Cultural Affairs Cultural Heritage Online",
+          "url": "https://bunka.nii.ac.jp/heritages/detail/186591",
+          "publisher": "Agency for Cultural Affairs",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ji-ming-financial-drain",
+      "claim": "Ming China's intervention successfully protected Joseon but drained the imperial treasury and weakened Liaodong defenses, accelerating the rise of the Qing Dynasty",
+      "context": "The Wanli Emperor committed millions of silver taels and elite border armies to defend Joseon and expel Japanese forces. Modern East Asian historians widely agree that the resultant fiscal collapse and northeastern frontier power vacuum directly facilitated Nurhaci's unification of the Jurchen tribes and the eventual rise of the Qing Dynasty.",
+      "verdict": "Academic Consensus",
+      "sources": [
+        {
+          "title": "History of Ming (Ming Shi, vol. 320): Joseon Biographies",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "Chinese Text Project",
+          "type": "archive"
+        },
+        {
+          "title": "The Wanli Three Great Campaigns and East Asian Geopolitics - The Toyo Bunko",
+          "url": "https://www.toyo-bunko.or.jp/",
+          "publisher": "The Toyo Bunko (Oriental Library)",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

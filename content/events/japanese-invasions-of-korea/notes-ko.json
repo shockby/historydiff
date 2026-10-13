@@ -1,0 +1,85 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "notes": [
+    {
+      "id": "ji-outbreak-scale",
+      "claim": "도요토미 히데요시는 명나라 정복을 명분으로 '정명가도'를 내세워 연인원 30만 명 규모의 침략군을 한반도로 파병했다",
+      "context": "1592년 임진왜란(약 16만 명)과 1597년 정유재란(약 14만 명)의 두 차례에 걸쳐 대규모 왜군이 조선을 침략했다. 히데요시가 명나라 침공 길잡이를 요구했다가 거절당하자 침략을 감행한 사실과 병력 규모는 한·중·일 삼국의 관찬 사료(《조선왕조실록》, 《명사》, 《태합기》)에 일치되게 기록되어 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "임진왜란 - 한국민족문화대백과사전",
+          "url": "https://encykorea.aks.ac.kr/Article/E0047535",
+          "publisher": "한국학중앙연구원",
+          "type": "reference"
+        },
+        {
+          "title": "선조실록 - 국사편찬위원회 한국사 데이터베이스",
+          "url": "https://db.history.go.kr/",
+          "publisher": "국사편찬위원회",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ji-yi-sun-sin-naval",
+      "claim": "이순신 장군이 이끄는 조선 수군이 거북선과 함포 전술로 제해권을 장악하여 일본군의 해상 보급로를 완벽히 차단했다",
+      "context": "이순신 장군은 한산도 대첩, 명량 해전 등에서 연전연승하며 서해와 남해의 제해권을 장악했다. 이로 인해 일본 육군으로 향하는 군량 수송로가 차단되어 북진이 좌절되고 전선이 교착된 것은 동아시아 역사학계 전체에서 일치하는 역사적 평가이다.",
+      "verdict": "학술적 합의 있음",
+      "sources": [
+        {
+          "title": "난중일기 - 유네스코 세계기록유산",
+          "url": "https://www.unesco.org/en/memory-world/nanjung-ilgi-war-diary-admiral-yi-sun-sin",
+          "publisher": "유네스코",
+          "type": "archive"
+        },
+        {
+          "title": "이순신과 조선 수군 연구 - 규슈대학 학술정보 리포지터리",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "규슈대학",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ji-mimizuka-atrocities",
+      "claim": "일본군은 전공의 증거로 조선 군민의 코와 귀를 베어 소금에 절여 일본으로 보냈으며 교토에 '이총(코무덤)'이 조성되었다",
+      "context": "정유재란 당시 히데요시의 군령에 따라 왜군은 목 대신 코와 귀를 베어 소금에 절여 일본으로 보내는 만행을 저질렀다. 이 유해들은 교토 호코지 대불전 문전에 매장되었으며, 현재도 '이총(코무덤·귀무덤)'이라는 명칭으로 교토시 히가시야마구에 국가 사적으로 남아 있다.",
+      "verdict": "공식 기록 있음",
+      "sources": [
+        {
+          "title": "국가지정사적 이총(귀무덤) - 교토시 공식 정보관",
+          "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000005537.html",
+          "publisher": "교토시 문화재보호과",
+          "type": "government"
+        },
+        {
+          "title": "이총 - 일본 문화청 문화유산 온라인",
+          "url": "https://bunka.nii.ac.jp/heritages/detail/186591",
+          "publisher": "일본 문화청",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ji-ming-financial-drain",
+      "claim": "명나라의 '항왜원조'는 조선을 수호했으나 막대한 재정 소진과 요동 방비 약화를 초래하여 여진족(청나라)의 흥기를 가속화했다",
+      "context": "명 만력제는 수백만 냥의 은과 정예군을 투입해 조선을 지원하고 일본군을 격퇴했다. 그러나 이로 인한 재정 파탄과 동북 국경의 안보 공백은 건주여진 누르하치의 세력 결집과 후금(청) 건국을 촉진시켰다는 것이 동아시아 근세사학계의 정설이다.",
+      "verdict": "학술적 합의 있음",
+      "sources": [
+        {
+          "title": "명사 권320 열전 조선전",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "중국철학서 전자화 계획",
+          "type": "archive"
+        },
+        {
+          "title": "만력삼대정과 명청교체기의 대외정세 - 동양문고",
+          "url": "https://www.toyo-bunko.or.jp/",
+          "publisher": "동양문고",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

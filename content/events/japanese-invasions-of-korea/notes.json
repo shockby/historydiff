@@ -1,0 +1,85 @@
+{
+  "eventId": "japanese-invasions-of-korea",
+  "notes": [
+    {
+      "id": "ji-outbreak-scale",
+      "claim": "豊臣秀吉は明征服を企図して「征明仮道」を掲げ、二度にわたり延べ30万人規模の大軍を朝鮮半島に侵略させた",
+      "context": "1592年の文禄の役（約16万人）と1597年の慶長の役（約14万人）の二度にわたり、秀吉の命を受けた全国の大名軍が朝鮮に上陸した。秀吉は朝鮮王朝に明への道案内を求めたが拒絶されたため出兵し、日・中・朝の三国史料（『太閤記』『朝鮮王朝実録』『明史』）にその動員規模や経緯が明確に記録されている。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "文禄・慶長の役 - 日本大百科全書（ニッポニカ）",
+          "url": "https://kotobank.jp/word/%E6%96%87%E7%A6%84%E3%83%BB%E6%85%B6%E9%95%B7%E3%81%AE%E5%BD%B9-129676",
+          "publisher": "小学館",
+          "type": "reference"
+        },
+        {
+          "title": "宣祖実録 - 韓国国史編纂委員会",
+          "url": "https://db.history.go.kr/",
+          "publisher": "韓国国史編纂委員会",
+          "type": "archive"
+        }
+      ]
+    },
+    {
+      "id": "ji-yi-sun-sin-naval",
+      "claim": "李舜臣率いる朝鮮水軍が亀甲船や火砲戦術を駆使して制海権を握り、日本軍の海上補給路を遮断した",
+      "context": "李舜臣は閑山島大捷や鳴梁海戦などで連勝を重ね、西海（黄海）および南海の制海権を確保した。これにより日本軍の糧道（海上兵站）が断たれ、陸上部隊の北進が兵糧不足によって停止・膠着したことは、各国の歴史学において決定的な勝因として広く合意されている。",
+      "verdict": "学術的合意あり",
+      "sources": [
+        {
+          "title": "乱中日記 - ユネスコ世界記憶遺産",
+          "url": "https://www.unesco.org/en/memory-world/nanjung-ilgi-war-diary-admiral-yi-sun-sin",
+          "publisher": "ユネスコ",
+          "type": "archive"
+        },
+        {
+          "title": "李舜臣と朝鮮水軍 - 九州大学学術情報リポジトリ",
+          "url": "https://catalog.lib.kyushu-u.ac.jp/",
+          "publisher": "九州大学",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "ji-mimizuka-atrocities",
+      "claim": "日本軍は戦功の証拠として朝鮮軍民の鼻や耳を削ぎ落として本国へ送り、京都に「耳塚（鼻塚）」が築かれた",
+      "context": "慶長の役において、秀吉の軍令に従い討ち取った首級の代わりに鼻や耳を削ぎ落として塩漬けにし、日本へ送る軍規が敷かれた。京都の方広寺大仏門前にそれらが埋葬され、現在も「耳塚（鼻塚）」として京都市東山区に国史跡として現存している。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "国指定史跡 耳塚 - 京都市情報館",
+          "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000005537.html",
+          "publisher": "京都市文化財保護課",
+          "type": "government"
+        },
+        {
+          "title": "耳塚 - 文化庁 文化遺産オンライン",
+          "url": "https://bunka.nii.ac.jp/heritages/detail/186591",
+          "publisher": "文化庁",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "ji-ming-financial-drain",
+      "claim": "明朝の「抗倭援朝」は朝鮮を保全した一方、膨大な財政負担と遼東の防備低下を招き、女真族（清朝）の台頭を早めた",
+      "context": "万暦帝は「万暦三大征」最大の数百万両の銀と精鋭軍を投じて朝鮮を救援し日本軍を撃退したが、この遠征による財政破綻と遼東防衛の空白が、ヌルハチによる建州女真の統合および後金（清）の台頭を決定づけたことは、東アジア近世史における学術的定説となっている。",
+      "verdict": "学術的合意あり",
+      "sources": [
+        {
+          "title": "明史 巻三百二十 列伝第二百八 外国一 朝鮮",
+          "url": "https://ctext.org/wiki.pl?if=gb&chapter=357193",
+          "publisher": "中国哲学書電子化計画",
+          "type": "archive"
+        },
+        {
+          "title": "万暦三大征と明末清初の内外情勢 - 東洋文庫",
+          "url": "https://www.toyo-bunko.or.jp/",
+          "publisher": "公益財団法人東洋文庫",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

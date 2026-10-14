@@ -9,7 +9,7 @@ import Footer from '@/app/components/Footer';
 const inter = Inter({ subsets: ['latin', 'vietnamese'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://historydiff.pages.dev'),
+  metadataBase: new URL('https://historydiff.solisart.com'),
   title: {
     default: 'HistoryDiff | Visualizing Textbook Differences in History',
     template: '%s | HistoryDiff',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    url: 'https://historydiff.pages.dev',
+    url: 'https://historydiff.solisart.com',
     siteName: 'HistoryDiff',
     title: 'HistoryDiff | 歴史の「記述の差」を視覚的に解明する',
     description: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で浮き彫りにするプラットフォーム。',

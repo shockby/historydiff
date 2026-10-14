@@ -91,7 +91,7 @@ export default function PerceptionDiagnostic({
   const handleShare = () => {
     if (!selectedPerspective) return;
     const shareText = t.diagnosticShareText(currentEvent.title, selectedPerspective.country);
-    const url = typeof window !== 'undefined' ? window.location.href : 'https://historydiff.pages.dev';
+    const url = typeof window !== 'undefined' ? window.location.href : 'https://historydiff.solisart.com';
     const textToShare = `${shareText} ${url}`;
 
     if (navigator.clipboard) {

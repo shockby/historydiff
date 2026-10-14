@@ -3,7 +3,7 @@ import { getAllEvents } from '@/lib/markdown';
 
 export const dynamic = 'force-static';
 
-const SITE_URL = 'https://historydiff.pages.dev';
+const SITE_URL = 'https://historydiff.solisart.com';
 const LANGUAGES = ['en', 'ja', 'zh', 'ko'] as const;
 
 

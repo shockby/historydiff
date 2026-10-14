@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://historydiff.pages.dev/sitemap.xml',
+    sitemap: 'https://historydiff.solisart.com/sitemap.xml',
   };
 }
 

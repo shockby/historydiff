@@ -1,6 +1,6 @@
 import { EventPerspective, EventNotes } from '@/lib/markdown';
 
-export const SITE_URL = 'https://historydiff.pages.dev';
+export const SITE_URL = 'https://historydiff.solisart.com';
 
 export interface EventSchemaParams {
   eventId: string;

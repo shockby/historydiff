@@ -189,7 +189,7 @@ def create_og_image(output_path, title, category, year, countries, lang='ja'):
     font_footer = get_font(FONT_REGULAR_PATH, 16)
     tagline = TAGLINES.get(lang, TAGLINES['en'])
     draw.text((70, 565), tagline, font=font_footer, fill=(140, 140, 155))
-    draw.text((width - 320, 565), "https://historydiff.pages.dev", font=font_footer, fill=(180, 180, 195))
+    draw.text((width - 320, 565), "https://historydiff.solisart.com", font=font_footer, fill=(180, 180, 195))
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     img.save(output_path, "PNG", optimize=True)

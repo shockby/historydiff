@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { X, ExternalLink, Camera, ZoomIn } from 'lucide-react';
 import { EventPhoto, EventPhotos } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
+import { sanitizeExternalUrl } from '@/lib/urlUtils';
 
 interface PhotoGalleryProps {
   photos: EventPhotos;
@@ -149,36 +150,38 @@ function LightboxModal({
               </span>
             )}
             {/* Source link */}
-            <a
-              href={photo.source.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.3rem',
-                fontSize: '0.78rem',
-                color: 'var(--text-secondary)',
-                textDecoration: 'none',
-                marginLeft: 'auto',
-                padding: '3px 8px',
-                borderRadius: '6px',
-                border: '1px solid rgba(255,255,255,0.08)',
-                background: 'rgba(255,255,255,0.03)',
-                transition: 'all 0.2s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)';
-                e.currentTarget.style.color = '#fff';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
-                e.currentTarget.style.color = 'var(--text-secondary)';
-              }}
-            >
-              <ExternalLink size={12} />
-              {t.photoSource}: {photo.source.title}
-            </a>
+            {sanitizeExternalUrl(photo.source.url) && (
+              <a
+                href={sanitizeExternalUrl(photo.source.url)!}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.3rem',
+                  fontSize: '0.78rem',
+                  color: 'var(--text-secondary)',
+                  textDecoration: 'none',
+                  marginLeft: 'auto',
+                  padding: '3px 8px',
+                  borderRadius: '6px',
+                  border: '1px solid rgba(255,255,255,0.08)',
+                  background: 'rgba(255,255,255,0.03)',
+                  transition: 'all 0.2s ease',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)';
+                  e.currentTarget.style.color = '#fff';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
+                  e.currentTarget.style.color = 'var(--text-secondary)';
+                }}
+              >
+                <ExternalLink size={12} />
+                {t.photoSource}: {photo.source.title}
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -297,22 +300,26 @@ function PhotoCard({
             whiteSpace: 'nowrap',
           }}>
             {t.photoSource}:{' '}
-            <a
-              href={photo.source.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              style={{
-                color: 'var(--text-secondary)',
-                textDecoration: 'underline',
-                textDecorationColor: 'rgba(255,255,255,0.2)',
-                transition: 'color 0.2s ease',
-              }}
-              onMouseEnter={(e) => { e.currentTarget.style.color = '#fff'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-secondary)'; }}
-            >
-              {photo.source.title}
-            </a>
+            {sanitizeExternalUrl(photo.source.url) ? (
+              <a
+                href={sanitizeExternalUrl(photo.source.url)!}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                style={{
+                  color: 'var(--text-secondary)',
+                  textDecoration: 'underline',
+                  textDecorationColor: 'rgba(255,255,255,0.2)',
+                  transition: 'color 0.2s ease',
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.color = '#fff'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-secondary)'; }}
+              >
+                {photo.source.title}
+              </a>
+            ) : (
+              <span>{photo.source.title}</span>
+            )}
           </span>
           <span style={{
             flexShrink: 0,

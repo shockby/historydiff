@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { EventOngoing, NewsArticle } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { ExternalLink, RefreshCw, Radio, Compass, Clock, Newspaper, Sparkles, CheckCircle } from 'lucide-react';
+import { sanitizeExternalUrl } from '@/lib/urlUtils';
 
 interface WhyItMattersSectionProps {
   ongoing: EventOngoing;
@@ -438,11 +439,13 @@ export default function WhyItMattersSection({ ongoing, lang }: WhyItMattersSecti
           {/* News Article List */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', flex: 1 }}>
             {articles.map((art, idx) => {
+              const safeUrl = sanitizeExternalUrl(art.url);
+              if (!safeUrl) return null;
               const summaryText = art.summary ? (art.summary[activeLang] ?? art.summary.en) ?? art.summary.ja : null;
               return (
                 <a
                   key={idx}
-                  href={art.url}
+                  href={safeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

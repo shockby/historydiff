@@ -3,6 +3,7 @@
 import { useState, useSyncExternalStore, useMemo } from 'react';
 import { ExternalLink, ChevronDown, ChevronUp, Shield, BookOpen, Newspaper, Globe, Archive, Building } from 'lucide-react';
 import { translations, Language } from '@/lib/translations';
+import { sanitizeExternalUrl } from '@/lib/urlUtils';
 
 interface NoteSource {
   title: string;
@@ -366,10 +367,13 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
               {sourcesHeader}
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-              {note.sources.map((source, idx) => (
+              {note.sources.map((source, idx) => {
+                const safeUrl = sanitizeExternalUrl(source.url);
+                if (!safeUrl) return null;
+                return (
                 <a
                   key={idx}
-                  href={source.url}
+                  href={safeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -422,7 +426,8 @@ function NoteCard({ note, lang }: { note: EventNote; lang: Language }) {
                   </span>
                   <ExternalLink size={12} style={{ color: 'var(--text-secondary)', flexShrink: 0 }} />
                 </a>
-              ))}
+                );
+              })}
             </div>
           </div>
 

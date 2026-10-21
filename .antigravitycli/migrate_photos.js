@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 const eventsDir = path.join(__dirname, '../content/events');
 const R2_BUCKET = 'historydiff-photos';
 const R2_PUBLIC_URL_BASE = 'https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev';
+const WRANGLER_BIN = path.join(__dirname, '../node_modules/.bin/wrangler');
 
 function getWikimediaFilename(sourceUrl) {
   if (!sourceUrl.includes('commons.wikimedia.org/wiki/File:')) {
@@ -87,6 +88,12 @@ async function run() {
         const arrayBuffer = await response.arrayBuffer();
         const buffer = Buffer.from(arrayBuffer);
 
+        // Validate folder and photo.id to prevent path injection
+        if (!/^[a-zA-Z0-9_-]+$/.test(folder) || !/^[a-zA-Z0-9_-]+$/.test(photo.id)) {
+          console.warn(`  Invalid identifier in folder "${folder}" or photo id "${photo.id}". Skipping.`);
+          continue;
+        }
+
         const tempDir = path.join(__dirname, '../tmp');
         if (!fs.existsSync(tempDir)) {
           fs.mkdirSync(tempDir, { recursive: true });
@@ -97,12 +104,17 @@ async function run() {
 
         console.log(`    Downloaded: ${tempFilePath} (${(buffer.length / 1024).toFixed(1)} KB)`);
 
-        // Upload to R2 using --remote
+        // Upload to R2 using --remote without shell interpolation
         const r2Key = `events/${folder}/${photo.id}.${ext}`;
-        const cmd = `npx wrangler@latest r2 object put "${R2_BUCKET}/${r2Key}" --file "${tempFilePath}" --remote`;
-        
-        console.log(`    Uploading to R2 (Remote): ${cmd}`);
-        execSync(cmd, { stdio: 'inherit' });
+        console.log(`    Uploading to R2 (Remote): ${r2Key}`);
+        execFileSync(WRANGLER_BIN, [
+          'r2',
+          'object',
+          'put',
+          `${R2_BUCKET}/${r2Key}`,
+          `--file=${tempFilePath}`,
+          '--remote',
+        ], { stdio: 'inherit' });
 
         // Update URL to R2 URL
         photo.url = `${R2_PUBLIC_URL_BASE}/${r2Key}`;

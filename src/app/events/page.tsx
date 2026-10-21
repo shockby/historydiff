@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes, getSearchKeywords, getEventMeta } from '@/lib/markdown';
-import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
+import { generateWebSiteSchema, generateItemListSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import EventsArchive from '@/app/components/EventsArchive';
 
 export const metadata: Metadata = {
@@ -59,11 +59,11 @@ export default function EventsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(websiteSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(itemListSchema) }}
       />
       <EventsArchive initialEvents={events} lang="en" />
     </>

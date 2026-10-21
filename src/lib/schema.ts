@@ -1,6 +1,14 @@
-import { EventPerspective, EventNotes } from '@/lib/markdown';
+import type { EventPerspective, EventNotes } from './markdown';
 
 export const SITE_URL = 'https://historydiff.solisart.com';
+
+/**
+ * Serializes structured data to JSON safely for use inside <script type="application/ld+json">,
+ * escaping '<' as '\u003c' to prevent script breakout / XSS.
+ */
+export function safeJsonLdStringify(data: unknown): string {
+  return JSON.stringify(data).replace(/</g, '\\u003c');
+}
 
 export interface EventSchemaParams {
   eventId: string;

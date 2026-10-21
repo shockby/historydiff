@@ -156,6 +156,35 @@ function PerspectiveSwitcher({
   );
 }
 
+// ── Safe Markdown Inline Formatting (XSS-safe, no dangerouslySetInnerHTML) ──
+function FormattedInlineMarkdown({ text }: { text: string }) {
+  const parts: React.ReactNode[] = [];
+  const regex = /(\*\*[\s\S]+?\*\*|\*[\s\S]+?\*)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const token = match[0];
+    if (token.startsWith('**') && token.endsWith('**') && token.length >= 4) {
+      parts.push(<strong key={match.index}>{token.slice(2, -2)}</strong>);
+    } else if (token.startsWith('*') && token.endsWith('*') && token.length >= 2) {
+      parts.push(<em key={match.index}>{token.slice(1, -1)}</em>);
+    } else {
+      parts.push(token);
+    }
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return <>{parts}</>;
+}
+
 // ── Single Perspective Read View ──────────────────────────────────────────
 function SinglePerspectiveView({
   perspective, lang, isMobile,
@@ -240,12 +269,9 @@ function SinglePerspectiveView({
               color: 'var(--foreground)',
               opacity: 0.9,
             }}
-            dangerouslySetInnerHTML={{
-              __html: para
-                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\*(.+?)\*/g, '<em>$1</em>'),
-            }}
-          />
+          >
+            <FormattedInlineMarkdown text={para} />
+          </p>
         ))}
       </div>
     </section>

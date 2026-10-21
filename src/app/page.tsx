@@ -1,5 +1,5 @@
 import { getAllEvents, getEventPerspectives, getEventPhotos, getEventOngoing, getEventNotes, getSearchKeywords, getEventMeta } from '@/lib/markdown';
-import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
+import { generateWebSiteSchema, generateItemListSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import SearchEvents from './components/SearchEvents';
 import LanguageRedirect from './components/LanguageRedirect';
 import { Metadata } from 'next';
@@ -54,11 +54,11 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(websiteSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(itemListSchema) }}
       />
       <LanguageRedirect />
       <SearchEvents initialEvents={events} lang="en" />

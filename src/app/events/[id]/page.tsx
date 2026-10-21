@@ -1,5 +1,5 @@
 import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta } from '@/lib/markdown';
-import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, SITE_URL } from '@/lib/schema';
+import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import { getSeoKeywords } from '@/lib/seoKeywords';
 import EventPageClient from './EventPageClient';
 import { Metadata } from 'next';
@@ -109,17 +109,17 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(articleSchema) }}
       />
       {faqSchema && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(faqSchema) }}
         />
       )}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(breadcrumbSchema) }}
       />
       <EventPageClient
         eventId={id}

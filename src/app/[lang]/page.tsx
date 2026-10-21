@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getAllEvents, getEventPerspectives, getEventPhotos, getEventNotes, getEventOngoing, getSearchKeywords, getEventMeta } from '@/lib/markdown';
-import { generateWebSiteSchema, generateItemListSchema, SITE_URL } from '@/lib/schema';
+import { generateWebSiteSchema, generateItemListSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import SearchEvents from '@/app/components/SearchEvents';
 
 export async function generateStaticParams() {
@@ -107,11 +107,11 @@ export default async function LocalizedHome({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(websiteSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(itemListSchema) }}
       />
       <SearchEvents initialEvents={events} lang={lang} />
     </>

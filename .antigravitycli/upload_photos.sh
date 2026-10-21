@@ -3,7 +3,8 @@
 # Usage: bash upload_photos.sh
 
 BUCKET="historydiff-photos"
-WRANGLER="npx wrangler@latest"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WRANGLER="${SCRIPT_DIR}/../node_modules/.bin/wrangler"
 TMP_DIR="/tmp/historydiff-photos"
 
 mkdir -p "$TMP_DIR"
@@ -12,6 +13,12 @@ upload_image() {
   local event_id="$1"
   local photo_id="$2"
   local url="$3"
+
+  # Validate event_id and photo_id to prevent path traversal
+  if [[ ! "$event_id" =~ ^[a-zA-Z0-9_-]+$ ]] || [[ ! "$photo_id" =~ ^[a-zA-Z0-9_-]+$ ]]; then
+    echo "❌ Invalid characters in identifier: $event_id / $photo_id"
+    return 1
+  fi
   local ext="${url##*.}"
   # Normalize extension
   case "$ext" in

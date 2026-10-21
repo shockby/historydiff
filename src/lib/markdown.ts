@@ -4,6 +4,21 @@ import matter from 'gray-matter';
 
 const contentDirectory = path.join(process.cwd(), 'content/events');
 
+const VALID_ID_PATTERN = /^[a-z0-9_-]+$/;
+const ALLOWED_LANGS = new Set(['en', 'ja', 'zh', 'ko']);
+
+function isValidEventId(id: string): boolean {
+  return typeof id === 'string' && VALID_ID_PATTERN.test(id) && !id.includes('..');
+}
+
+function isValidPerspectiveId(id: string): boolean {
+  return typeof id === 'string' && VALID_ID_PATTERN.test(id) && !id.includes('..');
+}
+
+function sanitizeLang(lang: string): string {
+  return ALLOWED_LANGS.has(lang) ? lang : 'en';
+}
+
 export interface EventPerspective {
   id: string;
   title: string;
@@ -29,6 +44,9 @@ export function getAllEvents() {
 }
 
 export function getPerspectiveData(eventId: string, perspectiveId: string): EventPerspective {
+  if (!isValidEventId(eventId) || !isValidPerspectiveId(perspectiveId)) {
+    throw new Error(`Invalid eventId or perspectiveId: ${eventId}, ${perspectiveId}`);
+  }
   const fullPath = path.join(contentDirectory, eventId, `${perspectiveId}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
@@ -43,13 +61,15 @@ export function getPerspectiveData(eventId: string, perspectiveId: string): Even
 }
 
 export function getEventPerspectives(eventId: string, lang = 'en'): EventPerspective[] {
+  if (!isValidEventId(eventId)) return [];
+  const safeLang = sanitizeLang(lang);
   const folderPath = path.join(contentDirectory, eventId);
   if (!fs.existsSync(folderPath)) return [];
   const files = fs.readdirSync(folderPath);
 
   // We look for files ending with -en.md, -ja.md, -zh.md, or -ko.md
   // Fall back to -en.md if the requested language file is missing
-  let filteredFiles = files.filter((file) => file.endsWith(`-${lang}.md`));
+  let filteredFiles = files.filter((file) => file.endsWith(`-${safeLang}.md`));
   
   if (filteredFiles.length === 0) {
     filteredFiles = files.filter((file) => file.endsWith('-en.md'));
@@ -66,6 +86,7 @@ export function getEventPerspectives(eventId: string, lang = 'en'): EventPerspec
  * Used to power cross-language search (e.g. typing "afghan" on the Japanese UI).
  */
 export function getSearchKeywords(eventId: string): string[] {
+  if (!isValidEventId(eventId)) return [];
   const folderPath = path.join(contentDirectory, eventId);
   if (!fs.existsSync(folderPath)) return [];
   const files = fs.readdirSync(folderPath);
@@ -108,7 +129,9 @@ export interface EventNotes {
 }
 
 export function getEventNotes(eventId: string, lang = 'en'): EventNotes | null {
-  const fileName = lang === 'ja' ? 'notes.json' : `notes-${lang}.json`;
+  if (!isValidEventId(eventId)) return null;
+  const safeLang = sanitizeLang(lang);
+  const fileName = safeLang === 'ja' ? 'notes.json' : `notes-${safeLang}.json`;
   let notesPath = path.join(contentDirectory, eventId, fileName);
   
   if (!fs.existsSync(notesPath)) {
@@ -157,6 +180,7 @@ export interface EventPhotos {
 }
 
 export function getEventPhotos(eventId: string): EventPhotos | null {
+  if (!isValidEventId(eventId)) return null;
   const photosPath = path.join(contentDirectory, eventId, 'photos.json');
   if (!fs.existsSync(photosPath)) {
     return null;
@@ -192,6 +216,7 @@ export interface EventVoices {
 }
 
 export function getEventVoices(eventId: string): EventVoices | null {
+  if (!isValidEventId(eventId)) return null;
   const voicesPath = path.join(contentDirectory, eventId, 'voices.json');
   if (!fs.existsSync(voicesPath)) {
     return null;
@@ -228,6 +253,7 @@ export interface EventOngoing {
 }
 
 export function getEventOngoing(eventId: string): EventOngoing | null {
+  if (!isValidEventId(eventId)) return null;
   const ongoingPath = path.join(contentDirectory, eventId, 'ongoing.json');
   if (!fs.existsSync(ongoingPath)) {
     return null;
@@ -249,6 +275,7 @@ export interface EventMeta {
 }
 
 export function getEventMeta(eventId: string): EventMeta | null {
+  if (!isValidEventId(eventId)) return null;
   const metaPath = path.join(contentDirectory, eventId, 'event.json');
   if (!fs.existsSync(metaPath)) {
     return null;
@@ -260,3 +287,4 @@ export function getEventMeta(eventId: string): EventMeta | null {
     return null;
   }
 }
+

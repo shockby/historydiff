@@ -1,11 +1,10 @@
 import type { MetadataRoute } from 'next';
-import { getAllEvents } from '@/lib/markdown';
+import { getAllEvents } from '../lib/markdown.ts';
 
 export const dynamic = 'force-static';
 
-const SITE_URL = 'https://historydiff.solisart.com';
-const LANGUAGES = ['en', 'ja', 'zh', 'ko'] as const;
-
+export const SITE_URL = 'https://historydiff.solisart.com';
+export const LANGUAGES = ['en', 'ja', 'zh', 'ko'] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const events = getAllEvents();
@@ -45,7 +44,75 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  // Event pages sitemap entries (all 44+ events in 4 languages)
+  // Events archive pages sitemap entries
+  const archivePages: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/events`,
+      lastModified: currentDate,
+      changeFrequency: 'daily',
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/events`,
+          ja: `${SITE_URL}/ja/events`,
+          zh: `${SITE_URL}/zh/events`,
+          ko: `${SITE_URL}/ko/events`,
+          'x-default': `${SITE_URL}/events`,
+        },
+      },
+    },
+    ...LANGUAGES.filter((lang) => lang !== 'en').map((lang) => ({
+      url: `${SITE_URL}/${lang}/events`,
+      lastModified: currentDate,
+      changeFrequency: 'daily' as const,
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/events`,
+          ja: `${SITE_URL}/ja/events`,
+          zh: `${SITE_URL}/zh/events`,
+          ko: `${SITE_URL}/ko/events`,
+          'x-default': `${SITE_URL}/events`,
+        },
+      },
+    })),
+  ];
+
+  // Guide pages sitemap entries
+  const guidePages: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/guide`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/guide`,
+          ja: `${SITE_URL}/ja/guide`,
+          zh: `${SITE_URL}/zh/guide`,
+          ko: `${SITE_URL}/ko/guide`,
+          'x-default': `${SITE_URL}/guide`,
+        },
+      },
+    },
+    ...LANGUAGES.filter((lang) => lang !== 'en').map((lang) => ({
+      url: `${SITE_URL}/${lang}/guide`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/guide`,
+          ja: `${SITE_URL}/ja/guide`,
+          zh: `${SITE_URL}/zh/guide`,
+          ko: `${SITE_URL}/ko/guide`,
+          'x-default': `${SITE_URL}/guide`,
+        },
+      },
+    })),
+  ];
+
+  // Event pages sitemap entries (all events in 4 languages)
   const eventPages: MetadataRoute.Sitemap = [];
 
   for (const event of events) {
@@ -80,5 +147,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...topPages, ...eventPages];
+  return [...topPages, ...archivePages, ...guidePages, ...eventPages];
 }

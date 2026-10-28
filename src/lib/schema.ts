@@ -46,12 +46,15 @@ export function generateEventArticleSchema({
   const pageUrl = lang === 'en' ? `${SITE_URL}/events/${eventId}` : `${SITE_URL}/${lang}/events/${eventId}`;
   const fullImageUrl = ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
 
+  // Subject of the article (historical topic / concept).
+  // Use 'Thing' instead of 'Event' because Google Search Console validates '@type: "Event"'
+  // as attendable public events (requiring ISO 8601 startDate, offers, performer, etc.),
+  // whereas these are past historical events covered by an analytical article.
   const aboutEntities = [
     {
-      '@type': 'Event',
+      '@type': 'Thing',
       name: title,
-      ...(year ? { startDate: year } : {}),
-      ...(location ? { location: { '@type': 'Place', name: location } } : {}),
+      description,
     },
   ];
 
@@ -104,6 +107,8 @@ export function generateEventArticleSchema({
     },
     ...(category ? { articleSection: category } : {}),
     ...(keywords.length > 0 ? { keywords: keywords.join(', ') } : {}),
+    ...(year ? { temporalCoverage: year } : {}),
+    ...(location ? { spatialCoverage: { '@type': 'Place', name: location } } : {}),
     about: aboutEntities,
     ...(citationUrls.length > 0 ? { citation: citationUrls } : {}),
   };

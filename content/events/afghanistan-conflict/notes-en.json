@@ -82,6 +82,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "af-2025-russia-recognition-morality-law",
+      "claim": "While Western nations condemned the August 2024 'Virtue and Vice' law, Russia formally recognized the Taliban administration in 2025 following ambassadorial exchanges with China and the UAE",
+      "context": "In August 2024, the Taliban enacted a 35-article 'Propagation of Virtue and Prevention of Vice' law prohibiting women's voices and bare faces in public, drawing fierce condemnation from the UN and Western states. Conversely, regional powers expanded engagement: after China and the UAE accepted Taliban-appointed ambassadors in 2024, Russia's Supreme Court lifted the Taliban's terrorist designation in April 2025 and Moscow granted formal diplomatic recognition to the Islamic Emirate in July 2025.",
+      "verdict": "Confirmed by official records (international posture sharply divided)",
+      "sources": [
+        {
+          "title": "UNAMA Reports on the Law on the Propagation of Virtue and Prevention of Vice & Regional Diplomatic Developments",
+          "url": "https://unama.unmissions.org/",
+          "publisher": "UN Assistance Mission in Afghanistan (UNAMA)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

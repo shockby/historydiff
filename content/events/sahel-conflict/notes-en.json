@@ -100,6 +100,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "sahel-2025-aes-ecowas-withdrawal",
+      "claim": "The military juntas of Mali, Burkina Faso, and Niger formed the Confederation of Sahel States (AES) and officially withdrew from ECOWAS in January 2025",
+      "context": "On July 6, 2024, the military leaders of Mali, Burkina Faso, and Niger signed a treaty in Niamey establishing the Confederation of Sahel States (AES). Alongside the complete withdrawal of French and US military forces (including US Air Base 201 in Agadez) from Niger in 2024, the three states formally exited the Economic Community of West African States (ECOWAS) on January 29, 2025.",
+      "verdict": "Confirmed by official records",
+      "sources": [
+        {
+          "title": "ECOWAS Official Statement on the Withdrawal of Burkina Faso, Mali and Niger (January 2025)",
+          "url": "https://www.ecowas.int/",
+          "publisher": "ECOWAS Commission",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

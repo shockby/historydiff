@@ -138,6 +138,20 @@
           "type": "ngo"
         }
       ]
+    },
+    {
+      "id": "kwd-2024-two-hostile-states-russia-pact",
+      "claim": "In 2024, North Korea formally abandoned peaceful reunification in favor of a 'two hostile states' doctrine, signed a mutual defense pact with Russia, and deployed troops",
+      "context": "In January 2024, Kim Jong Un redefined inter-Korean relations as 'two hostile states at war' rather than kinship, abandoning peaceful reunification, demolishing the Arch of Reunification in Pyongyang, and blowing up inter-Korean road and rail links in October 2024. On June 19, 2024, during Vladimir Putin's visit to Pyongyang, North Korea and Russia signed a Comprehensive Strategic Partnership Treaty containing a mutual military assistance clause, followed by the deployment of North Korean soldiers to Russia in autumn 2024.",
+      "verdict": "Confirmed by official records",
+      "sources": [
+        {
+          "title": "Multilateral Sanctions Monitoring Team (MSMT) & UN Security Council briefings on DPRK",
+          "url": "https://www.mofa.go.jp/",
+          "publisher": "Ministry of Foreign Affairs of Japan / MSMT",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

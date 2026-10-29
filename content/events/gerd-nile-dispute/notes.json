@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "gerd-2024-final-filling-cfa-entry",
+      "claim": "2024年後半にエチオピアはGERDの最終貯水完了を宣言し、同年10月には「ナイル川流域協力枠組み協定（CFA）」が発効した",
+      "context": "エチオピア政府は2024年8〜10月にGERDの第5回（最終）貯水完了と追加タービン稼働を発表した。また2024年10月13日には上流6カ国が批准した「ナイル川流域協力枠組み協定（CFA、エンテベ協定）」が正式発効し、ナイル川流域委員会の設立手続きが進められた。これに対しエジプトとスーダンは、法的拘束力のあるGERD運用合意がないままの一方的措置であるとして国連安保理に抗議し、CFAの法的拘束力も否認した。",
+      "verdict": "公式記録あり（上下流国間の法的対立は継続）",
+      "sources": [
+        {
+          "title": "Nile Basin Initiative Announcement on the Entry into Force of the Cooperative Framework Agreement (13 October 2024)",
+          "url": "https://nilebasin.org/",
+          "publisher": "ナイル川流域イニシアティブ（NBI）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

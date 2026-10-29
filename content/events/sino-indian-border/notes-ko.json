@@ -120,6 +120,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sib-2024-depsang-demchok-patrol",
+      "claim": "2024년 10월 인도와 중국은 동부 라다크 뎁상·뎀초크 지역의 순찰 재개에 합의하고 약 5년 만에 공식 정상회담을 개최했다",
+      "context": "2020년 갈완 계곡 충돌 이래 이어진 실질통제선(LAC) 군사적 대치와 관련하여, 2024년 10월 21일 양국 외교 당국은 마지막 대치 지점이었던 뎁상 평원과 뎀초크 지역의 순찰 및 병력 철수 합의 타결을 발표했다. 이틀 뒤인 10월 23일 러시아 카잔 브릭스 정상회의에서 모디 총리와 시진핑 주석이 5년 만에 공식 양자 회담을 갖고 특별대표 대화 및 직항편 재개 프로세스를 가동했다.",
+      "verdict": "공식 기록 확인됨",
+      "sources": [
+        {
+          "title": "Transcript of Special Briefing by Foreign Secretary on India-China border patrolling arrangements (October 2024)",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "인도 외교부(MEA)",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

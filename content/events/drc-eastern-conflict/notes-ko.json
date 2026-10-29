@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "drc-2025-goma-bukavu-unsc-2773",
+      "claim": "2025년 1~2월 M23이 고마와 부카부를 잇달아 장악하자 유엔 안보리는 결의 2773호를 통해 르완다군의 즉각 철수를 요구했다",
+      "context": "2025년 1월 말 반군 M23(콩고강동맹)이 북키부주 주도 고마를 장악한 데 이어 2월 중순 남키부주 주도 부카부까지 함락시켰다. 유엔 안전보장이사회는 2025년 2월 21일 만장일치로 결의 2773호를 채택하여 M23의 공세를 강력히 규탄하고 르완다 국방군(RDF)에 M23 지원 중단과 콩고 영토에서의 즉각적·무조건적 철수를 명시적으로 요구했다.",
+      "verdict": "공식 기록 확인됨",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2773 (2025) on the situation concerning the Democratic Republic of the Congo",
+          "url": "https://undocs.org/S/RES/2773(2025)",
+          "publisher": "유엔 안전보장이사회",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -100,6 +100,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "sahel-2025-aes-ecowas-withdrawal",
+      "claim": "マリ・ブルキナファソ・ニジェールの軍事政権3カ国は「サヘル諸国連合（AES）」を結成し、2025年1月にECOWASから正式に脱退した",
+      "context": "クーデターで成立したマリ・ブルキナファソ・ニジェールの軍事政権は、2024年7月6日にニアメ首脳会議で「サヘル諸国連合（AES）国家連合」条約に署名した。同時期にニジェールからの仏軍・米軍（アガデズ第201空軍基地等）の完全撤退を完了させ、2025年1月29日には西アフリカ諸国経済共同体（ECOWAS）から正式に脱退した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "ECOWAS Official Statement on the Withdrawal of Burkina Faso, Mali and Niger (January 2025)",
+          "url": "https://www.ecowas.int/",
+          "publisher": "西アフリカ諸国経済共同体（ECOWAS）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -70,6 +70,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "nk-2025-peace-treaty-text-agreed",
+      "claim": "2025년 3월 13일 아르메니아와 아제르바이잔은 양자 평화조약 전문(총 17개 조항)에 최종 합의했다고 발표했다",
+      "context": "2024년 1월 1일 아르차흐 공화국 공식 소멸과 2024년 봄 첫 국경 획정 작업을 거친 뒤, 2025년 3월 13일 양국 외교부는 '평화 및 국가 간 관계 수립에 관한 조약' 초안의 17개 조항 전체에 합의했다고 공식 발표했다. 다만 아제르바이잔 측은 정식 서명의 전제로 아르메니아 헌법 개정과 OSCE 민스크 그룹의 공식 해체를 요구하고 있다.",
+      "verdict": "조약 문안 합의 확인됨 (정식 서명 전제조건 협의 진행 중)",
+      "sources": [
+        {
+          "title": "Statements on completion of negotiations on the draft Agreement on Peace and Establishment of Interstate Relations between Armenia and Azerbaijan (March 13, 2025)",
+          "url": "https://www.mfa.am/en/",
+          "publisher": "아르메니아 외교부·아제르바이잔 외교부",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

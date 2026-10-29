@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "drc-2025-goma-bukavu-unsc-2773",
+      "claim": "2025年1〜2月にM23がゴマとブカヴを相次いで制圧し、国連安保理は決議2773号でルワンダ軍の即時撤退を要求した",
+      "context": "2025年1月末に反政府勢力M23（コンゴ河川同盟）が北キヴ州都ゴマを制圧し、同年2月中旬には南キヴ州都ブカヴも陥落させた。国連安全保障理事会は2025年2月21日、全会一致で決議2773号を採択し、M23の攻勢を強く非難するとともにルワンダ国防軍（RDF）に対しM23への支援停止とコンゴ領内からの即時・無条件撤退を名指しで要求した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2773 (2025) on the situation concerning the Democratic Republic of the Congo",
+          "url": "https://undocs.org/S/RES/2773(2025)",
+          "publisher": "国際連合安全保障理事会",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

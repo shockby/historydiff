@@ -1,38 +1,51 @@
 {
   "eventId": "fukushima-treated-water",
   "isOngoing": true,
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-29",
   "whyItMatters": {
-    "ja": "2023年8月に始まった福島第一原発のALPS処理水海洋放出は、科学的安全性評価と風評被害・国際政治外交のせめぎ合いとして今なお継続しています。日本政府およびIAEAは『トリチウム以外の核種を除去し希釈基準を満たした安全な放出』とする一方、中国・ロシア等は『核汚染水の強行放出』として日本産水産物の全面禁輸措置等を実施。科学的ファクトと政治的対立の乖離が東アジアの貿易・外交に直接的な影響を及ぼしています。",
-    "en": "The ongoing discharge of ALPS-treated water from Fukushima Daiichi Nuclear Power Station since August 2023 remains a sharp debate between scientific verification and geopolitical maneuvering. Japan and the IAEA affirm that the treated water meets strict international safety thresholds, while China and Russia historically labeled it as contaminated water, enforcing import restrictions on Japanese marine products. Independent monitoring and gradual market reopening remain critical issues.",
-    "zh": "自2023年8月启动的福岛第一核电站经ALPS处理水排海工程，在中日及周边国家间引发了关于科学验证标准、生态安全与贸易管制的长久争议。日方与国际原子能机构（IAEA）强调经过滤与稀释后符合国际安全标准，中俄等国则曾对排海透明度提出严正关切并实施水产品进口监管。随着多边独立监测机制推进，相关贸易限制与科学评估正逐步调整。",
-    "ko": "2023년 8월 시작된 후쿠시마 제1원전 ALPS 처리수 해양 방류는 과학적 검증 기준과 환경 안전성, 국제 외교를 둘러싸고 동아시아 국가 간의 핵심 쟁점으로 이어지고 있습니다. 일본 정부와 IAEA는 방사성 물질을 기준치 이하로 희석해 안전하다고 발표한 반면, 주변국들은 독립적 모니터링과 수산물 안전성 확보를 지속적으로 요구하고 있습니다."
+    "ja": "2023年8月に始まった福島第一原発のALPS処理水海洋放出は、科学的安全性評価と風評被害・国際政治外交のせめぎ合いとして現在も続いています。日本政府およびIAEAは『トリチウム以外の核種を除去し希釈基準を満たした安全な放出』とする一方、中国等は『核汚染水の放出』として2023年8月に日本産水産物を全面禁輸しました。その後、2024年9月の日中合意に基づくIAEA枠組みでの追加モニタリング（中国等の第三国専門家による独自採取・分析）を経て、2025年6月に中国が10都県を除く37道府県産の水産物輸入を条件付きで再開したものの、完全撤廃や韓国の8県産禁輸維持を巡る交渉が継続しています。",
+    "en": "The discharge of ALPS-treated water from Fukushima Daiichi since August 2023 remains a focal point between scientific verification and regional diplomacy. Japan and the IAEA affirm the water meets strict international safety thresholds, whereas China initially imposed a blanket ban on Japanese seafood. Following the September 2024 Japan-China consensus expanding IAEA-led third-party sampling and independent testing, China conditionally resumed seafood imports from 37 Japanese prefectures in June 2025, while keeping restrictions on 10 prefectures alongside South Korea's ongoing ban on 8 prefectures.",
+    "zh": "自2023年8月启动的福岛第一核电站ALPS处理水排海工程，持续成为科学验证标准与东亚外交博弈的焦点。日方与国际原子能机构（IAEA）强调处理水经稀释后完全符合国际安全标准；中方则在排海初期全面暂停进口日本水产品。基于2024年9月中日双边共识及IAEA框架下包含中方专家独立取样监测的结果，中方于2025年6月有条件恢复日本37个都道府县水产品进口，但福岛等10个都县的输华限制及韩国对8县水产品的禁令仍在持续。",
+    "ko": "2023년 8월 시작된 후쿠시마 제1원전 ALPS 처리수 해양 방류는 과학적 안전성 검증과 역내 외교 현안으로 이어지고 있습니다. 일본 정부와 IAEA는 국제 안전 기준 부합을 강조해 왔으며, 전면 금수 조치를 취했던 중국은 2024년 9월 중일 합의에 따른 IAEA 틀 내 독자 시료 채취·분석을 거쳐 2025년 6월 10개 도현을 제외한 37개 도도부현산 수산물 수입을 조건부 재개했습니다. 다만 나머지 10개 도현 규제 철폐와 한국의 후쿠시마 주변 8개 현 수산물 수입 금지 유지는 여전히 과제로 남아 있습니다."
   },
   "whatToWatchNext": {
-    "ja": "1. IAEAおよび中国等の第三国専門家が参加する国際共同モニタリングの分析結果公表\n2. 中国・ロシアによる日本産水産物輸入規制の段階的緩和・撤廃プロセスの進展\n3. 東京電力による年間計画に基づく放出作業のトラブルゼロ維持と風評被害賠償対応",
-    "en": "1. Publication of joint sampling and independent testing data involving IAEA and third-party international experts\n2. Phased progress toward resolving Japanese seafood import bans by China and regional partners\n3. Safe, uninterrupted scheduled discharge batches by TEPCO and ongoing domestic fisherfolk compensation",
-    "zh": "1. 国际原子能机构（IAEA）框架下包含中方及第三方专家参与的独立取样与监测数据发布\n2. 中日关于日本水产品输华监管措施的逐步调整与双边专家技术磋商成果\n3. 东京电力公司年度排海计划的安全运行与长期核素沉降环境影响评估",
-    "ko": "1. IAEA 및 주변국 전문가가 참여하는 다자간 해양 시료 채취 및 독립 검증 결과 발표\n2. 수산물 수입 규제 조치의 단계적 완화 여부 및 양자 간 과학기술 협의 진전\n3. 도쿄전력의 연간 계획에 따른 안전 방류 유지 및 환경 모니터링 데이터 투명성"
+    "ja": "1. IAEA枠組み下で中国・韓国等の専門家が参加する追加モニタリング（海水・水産物採取）の継続検証結果\n2. 中国が輸入停止を維持する福島県など10都県産食品・水産物の規制緩和交渉および韓国の8県産輸入規制の行方\n3. 東京電力による2026年度計画放出（年8回）の安全運用と燃料デブリ試験的取り出し・廃炉工程の進展",
+    "en": "1. Ongoing verification results from expanded IAEA international monitoring involving Chinese and South Korean experts\n2. Bilateral negotiations over lifting China's remaining restrictions on 10 Japanese prefectures and South Korea's 8-prefecture ban\n3. Safe execution of TEPCO's FY2026 scheduled discharges (8 batches) alongside fuel debris retrieval and decommissioning milestones",
+    "zh": "1. 国际原子能机构（IAEA）框架下包含中韩等国专家参与的常态化独立取样与实验室比对监测结果\n2. 围绕日本福岛等剩余10个都县水产品及食品输华限制的后续技术磋商与韩国8县禁令走向\n3. 东京电力公司2026财年8批次排海计划的安全运行及核残渣（燃料碎片）取出工程进展",
+    "ko": "1. IAEA 프레임워크 하에 한·중 등 제3국 전문가가 참여하는 추가 해양 시료 채취 및 분석 결과\n2. 중국의 잔여 10개 도현 수입 규제 완화 협상 및 한국 정부의 후쿠시마 주변 8개 현 수산물 금수 조치 유지 여부\n3. 도쿄전력의 2026년도 계획 방류(연 8회) 안전 운용 및 핵연료 데브리 반출·폐로 공정 진척"
   },
   "rssQuery": {
-    "ja": "ALPS処理水 福島第一原発 放出 モニタリング",
-    "en": "Fukushima treated water discharge IAEA monitoring",
-    "zh": "福岛 核污染水 排海 检测",
-    "ko": "후쿠시마 처리수 방류 모니터링"
+    "ja": "ALPS処理水 福島第一原発 水産物 モニタリング",
+    "en": "Fukushima treated water discharge IAEA seafood China",
+    "zh": "福岛 核污染水 排海 水产品 检测",
+    "ko": "후쿠시마 처리수 방류 수산물 모니터링"
   },
   "articles": [
     {
-      "title": "ALPS処理水海洋放出のモニタリング結果と国際協調",
+      "title": "2026年度ALPS処理水海洋放出とIAEA国際共同モニタリングの継続実施",
       "source": "日本経済新聞",
       "url": "https://www.nikkei.com/",
-      "publishedAt": "2026-08-23",
+      "publishedAt": "2026-10-22",
       "summary": {
-        "ja": "国際機関による海水・水産物の定期分析結果が公表され、基準値内での安定的な運用が確認されています。",
-        "en": "Independent testing confirms radioactive isotopes remain well below regulatory ceilings across sampling locations.",
-        "zh": "国际机构公布最新独立海水取样检测数据，各项指标均维持在国际标准安全阈值之内。",
-        "ko": "국제기구의 정기 분석 결과가 공개되며 방사능 수치가 기준치 이하로 안정적으로 관리되고 있음을 보여줍니다."
+        "ja": "2026年度の計画放出が予定通り進められ、IAEAおよび中国を含む参加国の分析機関によるモニタリングで全ての測定値が基準値を大幅に下回っていることが確認されています。",
+        "en": "Scheduled FY2026 discharges proceed smoothly as multi-country laboratories under the IAEA framework confirm all radiation readings remain far below safety thresholds.",
+        "zh": "2026财年按计划推进排海批次，IAEA及包括中方在内的多国实验室比对监测均确认各项放射性指标远低于安全限值。",
+        "ko": "2026년도 계획 방류가 차질 없이 진행되는 가운데 IAEA 및 참가국 분석기관의 공동 모니터링에서 모든 수치가 기준치 이하임이 확인되었습니다."
       },
       "country": "日本"
+    },
+    {
+      "title": "日本産水産物の対中輸出再開後の検疫運用と10都県規制をめぐる協議",
+      "source": "Reuters",
+      "url": "https://jp.reuters.com/",
+      "publishedAt": "2026-10-08",
+      "summary": {
+        "ja": "2025年6月の37道府県産水産物の対中輸出再開以降、放射性物質検査証明を伴う輸出が定着する一方、日本政府は残る10都県の規制撤廃を求め続けています。",
+        "en": "Following the June 2025 resumption of seafood exports from 37 prefectures to China, certified shipments have stabilized while Tokyo continues pressing for lifting the remaining 10-prefecture ban.",
+        "zh": "自2025年6月有条件恢复日本37个都道府县水产品输华以来，附带检测证明的贸易逐步常态化，日方仍持续要求全面放开其余10个都县限制。",
+        "ko": "2025년 6월 37개 도도부현 수산물의 대중국 수출 재개 이후 검역 증명서 기반 무역이 정착된 가운데 일본 정부는 나머지 10개 도현 규제 철폐를 지속 요구하고 있습니다."
+      },
+      "country": "国際"
     }
   ]
 }

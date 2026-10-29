@@ -100,6 +100,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "sahel-2025-aes-ecowas-withdrawal",
+      "claim": "말리·부르키나파소·니제르 3국 군사정권은 '사헬국가연합(AES)'을 결성하고 2025년 1월 서아프리카경제공동체(ECOWAS)에서 공식 탈퇴했다",
+      "context": "쿠데타로 집권한 말리·부르키나파소·니제르 3국 군사정권은 2024년 7월 6일 니아메 정상회의에서 '사헬국가연합(AES) 국가연합' 조약에 서명했다. 같은 해 니제르 주둔 프랑스군과 미군(아가데즈 제201공군기지 등)의 완전 철수를 마친 데 이어 2025년 1월 29일 서아프리카경제공동체(ECOWAS)에서 공식 탈퇴했다.",
+      "verdict": "공식 기록 확인됨",
+      "sources": [
+        {
+          "title": "ECOWAS Official Statement on the Withdrawal of Burkina Faso, Mali and Niger (January 2025)",
+          "url": "https://www.ecowas.int/",
+          "publisher": "서아프리카경제공동체(ECOWAS)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

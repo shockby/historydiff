@@ -82,6 +82,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "af-2025-russia-recognition-morality-law",
+      "claim": "西方严厉谴责2024年《劝善惩恶法》，而继中国和阿联酋接受塔利班大使后，俄罗斯于2025年正式承认塔利班政权",
+      "context": "塔利班于2024年8月颁布限制女性在公共场所发声与露面的《劝善惩恶法》，遭到联合国与西方国家强烈谴责。与此同时，周边国家持续扩大务实接触：继2024年中国与阿联酋正式接受塔利班任命的大使后，俄罗斯最高法院于2025年4月解除对塔利班的恐怖组织认定，俄政府随后于2025年7月正式承认“阿富汗伊斯兰酋长国”。",
+      "verdict": "有官方记录（国际社会对阿政策明显分化）",
+      "sources": [
+        {
+          "title": "UNAMA Reports on the Law on the Propagation of Virtue and Prevention of Vice & Regional Diplomatic Developments",
+          "url": "https://unama.unmissions.org/",
+          "publisher": "联合国阿富汗援助团（UNAMA）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

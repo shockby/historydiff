@@ -70,6 +70,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ktb-2025-border-treaty",
+      "claim": "2025年3月13日、キルギスとタジキスタンの両大統領はビシュケクで歴史的な「国境画定条約」に署名し、国境検問所を再開した",
+      "context": "2021年および2022年の大規模な武力衝突の後、両国政府は国境確定交渉を集中的に進め、2024年12月に全未画定区間の画定で合意に達した。2025年3月13日、ジャパロフ大統領とラフモン大統領がビシュケクで国境画定条約に正式署名し、等価の土地交換や飛び地アクセス道路の中立化、水利施設の共同利用を取り決めるとともに、2021年5月以来閉鎖されていた国境検問所を再開した。",
+      "verdict": "公式記録あり（歴史的合意の成立）",
+      "sources": [
+        {
+          "title": "Statement by the UN Secretary-General welcoming the signing of the Border Treaty between Kyrgyzstan and Tajikistan (March 2025)",
+          "url": "https://www.un.org/sg/en",
+          "publisher": "国際連合（UN）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "eventId": "lebanon-israel-conflict",
+  "isOngoing": true,
+  "lastUpdated": "2026-10-29",
+  "whyItMatters": {
+    "ja": "1978年以来のレバノン・イスラエル紛争は、2023年10月以降の越境交戦と2024年9月の通信機器爆発・ナスララ師殺害・イスラエル軍地上侵攻により、2006年戦争を大きく上回る戦火へと拡大しました。2024年11月の米仏仲介による停戦合意と2025年1月のジョゼフ・アウン大統領選出を経て、リタニ川以南からのヒズボラ撤収とレバノン国軍（LAF）・UNIFILの展開が進められていますが、2026年の米・イスラエル対イラン軍事衝突の波及により、南部国境地帯での散発的空爆と主権回復を巡る緊張が続いています。",
+    "en": "The Lebanon-Israel conflict escalated dramatically in 2023–2024 with cross-border exchanges, the September 2024 pager explosions, the assassination of Hezbollah leader Hassan Nasrallah, and an Israeli ground invasion surpassing the 2006 war. Following the November 2024 US-France-brokered ceasefire and the January 2025 election of Lebanese President Joseph Aoun, efforts center on deploying the Lebanese Armed Forces (LAF) south of the Litani River under UNSC Resolution 1701, even as the 2026 US-Israel-Iran conflict triggers renewed border strikes.",
+    "zh": "始于1978年的黎以冲突在2023至2024年间急剧升级，历经寻呼机爆炸事件、真主党领导人纳斯鲁拉遇袭身亡及以色列地面进攻，造成远超2006年黎以战争的伤亡与流离失所。继2024年11月美法斡旋达成停火协议及2025年1月约瑟夫·奥恩当选黎巴嫩总统后，各方围绕落实安理会第1701号决议、真主党撤出利塔尼河以南及黎巴嫩政府军部署持续博弈，而2026年美以伊冲突的溢出效应仍令黎南部边境危机四伏。",
+    "ko": "1978년 이래 지속된 레바논·이스라엘 분쟁은 2023~2024년 국경 교전 격화와 2024년 9월 무선호출기 폭발 사건, 나스랄라 최고지도자 사망 및 이스라엘 지상군 침공으로 2006년 전쟁을 뛰어넘는 참화를 겪었습니다. 2024년 11월 미·불 중재 휴전 합의와 2025년 1월 조제프 아운 레바논 대통령 선출 이후 유엔 안보리 결의 1701호에 따른 리타니강 이남 헤즈볼라 철수 및 레바논 정부군 배치가 추진되고 있으나, 2026년 미·이스라엘·이란 무력 충돌의 여파로 남부 국경의 군사적 긴장이 이어지고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. 国連安保理決議1701号に基づくリタニ川以南でのレバノン国軍（LAF）展開とヒズボラ武装解除の実効性\n2. イスラエル軍の南部国境拠点からの完全撤退問題とシェバア農場・ブルーライン境界画定交渉\n3. 2026年のイラン・イスラエル軍事衝突に伴うレバノン南部・ベッカー高原への空爆波及と復興資金確保",
+    "en": "1. Full implementation of UNSC Resolution 1701, including Lebanese Armed Forces deployment south of the Litani River and Hezbollah disarmament\n2. Disputes over remaining Israeli military outposts along the Blue Line and land border demarcation talks\n3. Spillover airstrikes in southern Lebanon and the Bekaa Valley amid the 2026 Iran-Israel conflict and international reconstruction funding",
+    "zh": "1. 安理会第1701号决议的全面落实、黎巴嫩政府军在利塔尼河以南接管防务及真主党解除武装进程\n2. 以色列军队从黎南部边境哨所完全撤出问题及“蓝线”陆地边界勘定谈判\n3. 2026年美以伊军事冲突对黎巴嫩南部与贝卡谷地的溢出空袭风险及战后国际重建资金落实",
+    "ko": "1. 유엔 안보리 결의 1701호에 따른 리타니강 이남 레바논 정규군(LAF) 배치 완료 및 헤즈볼라 무장해제 실효성\n2. 블루라인 일대 이스라엘군 잔류 거점 철수 문제와 육상 국경 획정 협상\n3. 2026년 미·이스라엘·이란 충돌에 따른 레바논 남부·베카 계곡 공습 파급 및 전후 재건 자금 확보"
+  },
+  "rssQuery": {
+    "ja": "レバノン イスラエル ヒズボラ 停戦 UNIFIL",
+    "en": "Lebanon Israel Hezbollah ceasefire Litani UNIFIL",
+    "zh": "黎巴嫩 以色列 真主党 停火 联黎部队",
+    "ko": "레바논 이스라엘 헤즈볼라 휴전 UNIFIL"
+  },
+  "articles": [
+    {
+      "title": "レバノン南部における停戦監視体制と安保理決議1701号の履行状況",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "publishedAt": "2026-10-25",
+      "summary": {
+        "ja": "2024年11月の停戦合意以降、レバノン国軍の南部増派が進む一方、2026年の対イラン軍事作戦と連動したイスラエル軍の散発的空爆が続いており、停戦維持が緊迫した局面を迎えています。",
+        "en": "While Lebanese Armed Forces expand deployments in the south under the November 2024 truce, sporadic Israeli strikes linked to the broader 2026 Iran conflict continue to test the ceasefire.",
+        "zh": "自2024年11月停火协议达成以来，黎巴嫩政府军持续向南部增兵，但与2026年伊朗局势联动的以色列零星空袭仍在考验停火机制。",
+        "ko": "2024년 11월 휴전 합의 이후 레바논 정부군의 남부 추가 배치가 진행 중이나, 2026년 이란 사태와 맞물린 이스라엘군의 산발적 공습이 이어지며 휴전 체제가 시험대에 올랐습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

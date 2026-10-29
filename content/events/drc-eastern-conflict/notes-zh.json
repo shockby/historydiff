@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "drc-2025-goma-bukavu-unsc-2773",
+      "claim": "2025年1月至2月M23相继攻占戈马与布卡武，联合国安理会全票通过第2773号决议要求卢旺达军队立即撤出",
+      "context": "2025年1月底，反政府武装“M23运动”（刚果河联盟）攻占北基伍省首府戈马，同年2月中旬又占领南基伍省首府布卡武。联合国安理会于2025年2月21日全票通过第2773号决议，强烈谴责M23攻势，并点名要求卢旺达国防军（RDF）停止支持M23并立即无条件撤出刚果（金）领土。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2773 (2025) on the situation concerning the Democratic Republic of the Congo",
+          "url": "https://undocs.org/S/RES/2773(2025)",
+          "publisher": "联合国安全理事会",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -100,6 +100,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sl-2024-ankara-declaration",
+      "claim": "In December 2024, Ethiopia and Somalia signed the Turkey-brokered Ankara Declaration, reaffirming territorial integrity while agreeing to negotiate commercial maritime access",
+      "context": "Following months of regional tensions sparked by the January 2024 Ethiopia-Somaliland MoU, Turkish President Recep Tayyip Erdoğan mediated talks in Ankara on December 11, 2024 between Ethiopian Prime Minister Abiy Ahmed and Somali President Hassan Sheikh Mohamud. Under the resulting Ankara Declaration, both leaders reaffirmed mutual respect for sovereignty and territorial integrity and agreed to technical negotiations in 2025 to grant Ethiopia reliable commercial access to the sea under Somali sovereign authority.",
+      "verdict": "Confirmed by official records",
+      "sources": [
+        {
+          "title": "Ankara Declaration between the Federal Republic of Somalia and the Federal Democratic Republic of Ethiopia (11 December 2024)",
+          "url": "https://www.mfa.gov.tr/",
+          "publisher": "Ministry of Foreign Affairs of the Republic of Türkiye",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

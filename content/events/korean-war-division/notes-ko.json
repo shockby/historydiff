@@ -138,6 +138,20 @@
           "type": "ngo"
         }
       ]
+    },
+    {
+      "id": "kwd-2024-two-hostile-states-russia-pact",
+      "claim": "2024년 북한은 평화통일 정책을 공식 폐기하고 남북관계를 '적대적 두 국가'로 규정한 데 이어 러시아와 군사동맹 조약을 맺고 파병했다",
+      "context": "2024년 1월 김정은 국무위원장은 남북관계를 동족관계가 아닌 '적대적인 두 국가 관계'로 규정하며 평화통일 노선을 폐기하고 평양의 조국통일3대헌장기념탑을 철거했으며, 같은 해 10월 남북 연결 도로와 철도를 폭파했다. 또한 2024년 6월 19일 푸틴 대통령의 방북 계기에 유사시 상호 군사원조 조항을 포함한 '북·러 포괄적 전략적 동반자 관계 조약'에 서명하고 가을에는 러시아 전선에 북한군을 파병했다.",
+      "verdict": "공식 기록 확인됨",
+      "sources": [
+        {
+          "title": "Multilateral Sanctions Monitoring Team (MSMT) & UN Security Council briefings on DPRK",
+          "url": "https://www.mofa.go.jp/",
+          "publisher": "다국적제재모니터링팀(MSMT)",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

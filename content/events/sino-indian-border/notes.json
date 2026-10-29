@@ -120,6 +120,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sib-2024-depsang-demchok-patrol",
+      "claim": "2024年10月、インドと中国は東部ラダックのデプサン・デムチョク両地区における巡回（パトロール）再開合意に達し、約5年ぶりの公式首脳会談を実施した",
+      "context": "2020年のガルワン渓谷衝突以来続いていた実効支配線（LAC）での軍事的対峙をめぐり、2024年10月21日にインド外務省と中国外交部は、残る主要対峙地点であったデプサン平原およびデムチョク地区での巡回方法に関する合意成立を発表した。その2日後の10月23日、ロシア・カザンのBRICS首脳会談でモディ首相と習近平国家主席が約5年ぶりとなる公式二国間会談を行い、特別代表対話や直行便・巡礼再開に向けたプロセスが始動した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Transcript of Special Briefing by Foreign Secretary on India-China border patrolling arrangements (October 2024)",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "インド外務省（MEA）",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

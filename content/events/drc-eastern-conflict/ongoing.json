@@ -1,0 +1,38 @@
+{
+  "eventId": "drc-eastern-conflict",
+  "isOngoing": true,
+  "lastUpdated": "2026-10-29",
+  "whyItMatters": {
+    "ja": "1996年以来続くコンゴ民主共和国（DRC）東部紛争は、2025年1〜2月に反政府武装勢力M23（コンゴ河川同盟：AFC）が北キヴ州都ゴマおよび南キヴ州都ブカヴを相次いで制圧したことで、第二次コンゴ戦争以来最大の主権・人道危機へと激化しました。DRC政府と国連専門家パネルは隣国ルワンダ軍（RDF）の直接介入とコルタン・金などの戦略鉱物略奪を非難し、ルワンダ側はフツ系武装勢力FDLRの脅威排除を主張。アンゴラ（ルアンダ・プロセス）やカタール（ドーハ仲介）を通じた首脳対話と欧米の対ルワンダ制裁が交錯しています。",
+    "en": "The three-decade conflict in eastern Democratic Republic of the Congo (DRC) escalated into its gravest crisis since the Second Congo War in January–February 2025, when the M23 rebel movement (Congo River Alliance) captured the provincial capitals of Goma and Bukavu. Kinshasa and UN experts accuse Rwanda of direct military intervention and plundering critical minerals like coltan and gold, while Kigali cites defense against the FDLR militia. Regional mediation in Luanda and Doha alongside Western sanctions remain intense.",
+    "zh": "持续三十余年的刚果（金）东部冲突在2025年1月至2月急剧恶化，反政府武装“M23运动”（刚果河联盟）相继攻占北基伍省首府戈马与南基伍省首府布卡武，引发第二次刚果战争以来最严重的主权与人道危机。金沙萨政府与联合国专家组指控卢旺达国防军直接参战并掠夺钶钽铁矿、黄金等关键矿产，卢旺达则强调防范胡图族武装“卢民主力量”（FDLR）威胁。罗安达与多哈调解机制正与国际制裁博弈并行推进。",
+    "ko": "30년 넘게 이어진 콩고민주공화국(DRC) 동부 분쟁은 2025년 1~2월 반군 M23(콩고강동맹)이 북키부주 주도 고마와 남키부주 주도 부카부를 잇달아 점령하면서 제2차 콩고전쟁 이후 최대의 주권·인도적 위기로 치달았습니다. DRC 정부와 유엔 전문가 패널은 르완다군의 직접 개입과 콜탄·금 등 핵심 광물 약탈을 규탄하는 반면, 르완다는 후투족 무장세력(FDLR) 위협 차단을 주장하고 있으며 루안다·도하 중재 외교가 이어지고 있습니다."
+  },
+  "whatToWatchNext": {
+    "ja": "1. ゴマ・ブカヴを占領するM23（AFC）の撤退条件とルアンダ・ドーハ仲介枠組みでのDRC・ルワンダ和平交渉\n2. 南部アフリカ開発共同体（SADC）部隊撤収後の国連PKO（MONUSCO）および地域平和維持枠組みの再編\n3. コルタン（タンタル）・錫・金の違法越境取引に対する欧米・国連の制裁強化と鉱物トレーサビリティ規制",
+    "en": "1. Ceasefire and withdrawal negotiations over M23-held Goma and Bukavu under the Luanda and Doha mediation tracks\n2. Restructuring of MONUSCO and regional African peacekeeping mandates following the withdrawal of SAMIDRC forces\n3. International sanctions and supply-chain traceability enforcement targeting illicit coltan, tin, and gold exports",
+    "zh": "1. 围绕M23撤出戈马与布卡武的条件谈判及罗安达、多哈斡旋框架下的刚卢首脑对话\n2. 南共体特派团（SAMIDRC）撤离后联合国联刚稳定团（MONUSCO）与区域维和机制的重组\n3. 针对钶钽铁矿、锡、金等关键矿产非法跨境贸易的国际制裁与供应链溯源监管",
+    "ko": "1. 고마·부카부를 장악한 M23 반군의 철수 조건 및 루안다·도하 중재 프로세스를 통한 DRC·르완다 협상\n2. 남아프리카개발공동체(SADC) 병력 철수 이후 유엔 평화유지군(MONUSCO) 및 지역 안보 체제 재편\n3. 콜탄·주석·금 등 핵심 광물의 불법 밀수출에 대한 서방·유엔의 제재 및 공급망 추적 규제"
+  },
+  "rssQuery": {
+    "ja": "コンゴ東部 M23 ゴマ ルワンダ 鉱物",
+    "en": "DRC eastern Congo M23 Goma Bukavu Rwanda",
+    "zh": "刚果金 M23 戈马 卢旺达 矿产",
+    "ko": "콩고 동부 M23 고마 르완다 광물"
+  },
+  "articles": [
+    {
+      "title": "ゴマ・ブカヴ制圧後のコンゴ東部情勢とドーハ・ルアンダ仲介協議の動向",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/africa/",
+      "publishedAt": "2026-10-23",
+      "summary": {
+        "ja": "2025年初頭にM23が主要都市ゴマとブカヴを制圧して以降、東部キヴ地方での実効支配が長期化する中、カタールおよびアフリカ連合の仲介による停戦・鉱物管理協議が続けられています。",
+        "en": "With M23 entrenching control over Goma and Bukavu since early 2025, mediators from Qatar and the African Union push for a durable ceasefire and mineral supply-chain oversight.",
+        "zh": "自2025年初M23控制戈马与布卡武以来，基伍地区割据态势持续，卡塔尔与非盟斡旋方正推动停火落实与矿产供应链透明化谈判。",
+        "ko": "2025년 초 M23의 고마·부카부 장악 이후 동부 키부 지역의 통제가 장기화되는 가운데, 카타르와 아프리카연합(AU)의 중재로 휴전 및 광물 관리 협의가 지속되고 있습니다."
+      },
+      "country": "国際"
+    }
+  ]
+}

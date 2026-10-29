@@ -70,6 +70,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "nk-2025-peace-treaty-text-agreed",
+      "claim": "2025年3月13日、アルメニアとアゼルバイジャンは二国間和平条約の全17条の条文テキストで完全合意に達したと発表した",
+      "context": "2024年1月1日のアルツァフ共和国正式消滅と2024年春のタヴシュ地方国境画定作業を経て、2025年3月13日にアゼルバイジャン外務省とアルメニア外務省は「平和および国家間関係樹立に関する条約」の全条文で合意に達したことを公式発表した。ただしアゼルバイジャン側は正式署名の前提としてアルメニア憲法の改正やOSCEミンスク・グループの正式廃止を求めている。",
+      "verdict": "条文合意は事実確認済み（正式署名の前提条件をめぐり協議継続）",
+      "sources": [
+        {
+          "title": "Statements on completion of negotiations on the draft Agreement on Peace and Establishment of Interstate Relations between Armenia and Azerbaijan (March 13, 2025)",
+          "url": "https://www.mfa.am/en/",
+          "publisher": "アルメニア外務省・アゼルバイジャン外務省",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

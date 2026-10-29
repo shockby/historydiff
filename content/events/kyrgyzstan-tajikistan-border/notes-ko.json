@@ -70,6 +70,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ktb-2025-border-treaty",
+      "claim": "2025년 3월 13일 키르기스스탄과 타지키스탄 양국 대통령은 비슈케크에서 역사적인 '국경 획정 조약'에 서명하고 국경 검문소를 재개방했다",
+      "context": "2021년 및 2022년 대규모 무력 충돌 이후 양국 정부는 국경 획정 협상을 집중 추진하여 2024년 12월 미획정 구간 전체의 경계선 확정에 합의했다. 2025년 3월 13일 자파로프 대통령과 라흐몬 대통령은 비슈케크에서 국경 획정 조약에 정식 서명하여 등가 토지 교환, 월경지 통행로 중립화 및 수리시설 공동 이용을 확정하고 2021년 5월 이래 폐쇄되었던 국경 검문소를 재개방했다.",
+      "verdict": "공식 기록 확인됨 (역사적 조약 체결)",
+      "sources": [
+        {
+          "title": "Statement by the UN Secretary-General welcoming the signing of the Border Treaty between Kyrgyzstan and Tajikistan (March 2025)",
+          "url": "https://www.un.org/sg/en",
+          "publisher": "국제연합(UN)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

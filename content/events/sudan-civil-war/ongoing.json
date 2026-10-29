@@ -1,7 +1,7 @@
 {
   "eventId": "sudan-civil-war",
   "isOngoing": true,
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-29",
   "whyItMatters": {
     "ja": "2023年4月に勃発したスーダン軍（SAF）と準軍事組織・即応支援部隊（RSF）の武力衝突は、世界最大規模の人道危機・国内避難民危機へと深刻化しています。SAFは『反乱鎮圧と国家の主権・領土保全』を主張する一方、RSFは『旧政権残党の排除と新秩序形成』を正当化しています。紅海航路の安全保障、エジプトやUAEなど地域大国の代理戦争の様相を呈しており、アフリカの角全体の安定を脅かしています。",
     "en": "The catastrophic civil war that erupted in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) has caused the world's largest displacement and famine crisis. SAF claims legitimate defense of constitutional statehood, while the RSF frames its war as dismantling old regime remnants. Geopolitical rivalries involving UAE, Egypt, Russia, and Iran along the Red Sea turn Sudan into a critical flashpoint.",
@@ -25,7 +25,7 @@
       "title": "スーダン全土で続く激しい交戦と人道支援アクセスの課題",
       "source": "国連ニュース (UN News)",
       "url": "https://news.un.org/en/focus/sudan",
-      "publishedAt": "2026-08-24",
+      "publishedAt": "2026-10-25",
       "summary": {
         "ja": "食糧危機と医療崩壊が深刻化する中、安全な人道支援回廊の確保に向けた国際的圧力が強まっています。",
         "en": "UN agencies issue urgent appeals for unhindered aid delivery as millions face critical food and medical shortages.",

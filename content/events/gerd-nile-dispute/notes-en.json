@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "gerd-2024-final-filling-cfa-entry",
+      "claim": "In late 2024, Ethiopia declared the final filling of the GERD complete, and the Nile Basin Cooperative Framework Agreement (CFA) entered into force in October 2024",
+      "context": "Between August and October 2024, Ethiopia announced the completion of the fifth and final filling of the GERD reservoir and the activation of additional turbines. On October 13, 2024, the Nile Basin Cooperative Framework Agreement (CFA) formally entered into force following ratification by six upstream nations. Egypt and Sudan protested the unilateral GERD operation to the UN Security Council and rejected the CFA as non-binding on their historic water rights.",
+      "verdict": "Confirmed by official records (legal dispute between upstream and downstream states continues)",
+      "sources": [
+        {
+          "title": "Nile Basin Initiative Announcement on the Entry into Force of the Cooperative Framework Agreement (13 October 2024)",
+          "url": "https://nilebasin.org/",
+          "publisher": "Nile Basin Initiative (NBI)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

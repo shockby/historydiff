@@ -100,6 +100,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sl-2024-ankara-declaration",
+      "claim": "2024년 12월 튀르키예의 중재로 에티오피아와 소말리아 연방정부는 '앙카라 선언'에 서명하여 주권 존중과 상업적 해양 접근권 협의에 합의했다",
+      "context": "2024년 1월 에티오피아·소말릴란드 양해각서(MoU)로 촉발된 역내 위기를 해소하기 위해 에르도안 튀르키예 대통령이 중재에 나서, 2024년 12월 11일 아비 에티오피아 총리와 모하무드 소말리아 대통령이 '앙카라 선언'에 서명했다. 양국은 상호 주권·통일·영토 보전을 재확인하는 동시에 소말리아 주권 하에 에티오피아의 안정적인 상업적 해양 접근을 보장하기 위한 기술 협의를 진행하기로 합의했다.",
+      "verdict": "공식 기록 확인됨",
+      "sources": [
+        {
+          "title": "Ankara Declaration between the Federal Republic of Somalia and the Federal Democratic Republic of Ethiopia (11 December 2024)",
+          "url": "https://www.mfa.gov.tr/",
+          "publisher": "튀르키예 외교부",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

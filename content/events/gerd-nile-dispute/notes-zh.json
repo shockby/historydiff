@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "gerd-2024-final-filling-cfa-entry",
+      "claim": "2024年下半年埃塞俄比亚宣布完成复兴大坝最终蓄水，同年10月《尼罗河流域合作框架协定》（CFA）正式生效",
+      "context": "2024年8月至10月，埃塞俄比亚政府宣布完成复兴大坝（GERD）第五次（最终）蓄水并启用新发电机组。2024年10月13日，经上游六国批准的《尼罗河流域合作框架协定》（CFA，恩德培协定）正式生效。埃及与苏丹则就埃塞在无具法律约束力协议情况下单方面运行大坝向联合国安理会提出抗议，并声明不承认CFA对其历史水权的约束力。",
+      "verdict": "有官方记录（上下游法理争议仍在持续）",
+      "sources": [
+        {
+          "title": "Nile Basin Initiative Announcement on the Entry into Force of the Cooperative Framework Agreement (13 October 2024)",
+          "url": "https://nilebasin.org/",
+          "publisher": "尼罗河流域倡议组织（NBI）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

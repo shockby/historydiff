@@ -120,6 +120,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sib-2024-depsang-demchok-patrol",
+      "claim": "In October 2024, India and China reached a patrolling and disengagement agreement at Depsang and Demchok and held their first formal leadership summit in five years",
+      "context": "Addressing the military standoff along the Line of Actual Control (LAC) that began in 2020, India and China announced on October 21, 2024 an agreement on patrolling arrangements and disengagement at the last two friction points in Depsang and Demchok. On October 23, 2024, Prime Minister Narendra Modi and President Xi Jinping held their first formal bilateral meeting in five years at the BRICS Summit in Kazan, reviving Special Representatives talks and civil aviation/pilgrimage links.",
+      "verdict": "Confirmed by official records",
+      "sources": [
+        {
+          "title": "Transcript of Special Briefing by Foreign Secretary on India-China border patrolling arrangements (October 2024)",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "Ministry of External Affairs of India",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

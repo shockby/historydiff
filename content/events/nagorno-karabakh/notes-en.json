@@ -70,6 +70,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "nk-2025-peace-treaty-text-agreed",
+      "claim": "On March 13, 2025, Armenia and Azerbaijan announced agreement on the complete 17-article text of a bilateral peace treaty",
+      "context": "Following the formal dissolution of the Republic of Artsakh on January 1, 2024 and initial border delimitation in spring 2024, the foreign ministries of Azerbaijan and Armenia announced on March 13, 2025 that negotiations on the draft 'Agreement on Peace and Establishment of Interstate Relations' had concluded with full agreement on all 17 articles. Baku continues to demand amendments to Armenia's constitution and the formal dissolution of the OSCE Minsk Group prior to signing.",
+      "verdict": "Text agreement confirmed (preconditions for formal signing remain under negotiation)",
+      "sources": [
+        {
+          "title": "Statements on completion of negotiations on the draft Agreement on Peace and Establishment of Interstate Relations between Armenia and Azerbaijan (March 13, 2025)",
+          "url": "https://www.mfa.am/en/",
+          "publisher": "Foreign Ministries of Armenia and Azerbaijan",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

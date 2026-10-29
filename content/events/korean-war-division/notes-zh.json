@@ -138,6 +138,20 @@
           "type": "ngo"
         }
       ]
+    },
+    {
+      "id": "kwd-2024-two-hostile-states-russia-pact",
+      "claim": "2024年，朝鲜正式放弃和平统一政策并将韩朝关系定性为“敌对两国关系”，同时与俄罗斯签署全面战略伙伴条约并派兵",
+      "context": "2024年1月，金正恩宣布将朝韩关系定性为“敌对的两个国家关系”而非同一民族关系，放弃和平统一目标，拆除了平壤“祖国统一三大宪章纪念塔”，并于同年10月炸毁朝韩连接公路与铁路。2024年6月19日普京访问平壤期间，俄朝签署包含相互军事援助条款的《全面战略伙伴关系条约》，同年秋朝鲜向俄罗斯战场派遣部队。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Multilateral Sanctions Monitoring Team (MSMT) & UN Security Council briefings on DPRK",
+          "url": "https://www.mofa.go.jp/",
+          "publisher": "日本外务省·多边制裁监测组",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

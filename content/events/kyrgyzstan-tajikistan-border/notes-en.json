@@ -70,6 +70,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ktb-2025-border-treaty",
+      "claim": "On March 13, 2025, the presidents of Kyrgyzstan and Tajikistan signed a historic Border Demarcation Treaty in Bishkek and reopened border crossings",
+      "context": "Following deadly armed clashes in 2021 and 2022, both governments conducted intensive negotiations and finalized demarcation of all remaining disputed segments in December 2024. On March 13, 2025, Presidents Sadyr Japarov and Emomali Rahmon formally signed the State Border Treaty in Bishkek—establishing equal land swaps, neutral transit corridors to enclaves, and joint water access—while reopening border checkpoints closed since May 2021.",
+      "verdict": "Confirmed by official records (historic treaty signed)",
+      "sources": [
+        {
+          "title": "Statement by the UN Secretary-General welcoming the signing of the Border Treaty between Kyrgyzstan and Tajikistan (March 2025)",
+          "url": "https://www.un.org/sg/en",
+          "publisher": "United Nations",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

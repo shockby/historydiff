@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert';
-import { getAllEvents, getEventPerspectives, getEventNotes } from '../src/lib/markdown.ts';
+import { getAllEvents, getEventPerspectives, getEventNotes, getEventOngoing } from '../src/lib/markdown.ts';
 
 describe('historical content & database integrity', () => {
   const events = getAllEvents();
@@ -39,6 +39,25 @@ describe('historical content & database integrity', () => {
     }
   });
 
+  test('ongoing.json parsing and 4-language fields are valid for events with ongoing context', () => {
+    const langs = ['ja', 'en', 'zh', 'ko'] as const;
+    let ongoingCount = 0;
+    for (const event of events) {
+      const ongoing = getEventOngoing(event.id);
+      if (ongoing) {
+        ongoingCount++;
+        assert.strictEqual(ongoing.eventId, event.id, `Ongoing eventId should match folder "${event.id}"`);
+        assert.ok(ongoing.lastUpdated && /^\d{4}-\d{2}-\d{2}$/.test(ongoing.lastUpdated), `Event "${event.id}" ongoing.lastUpdated must be YYYY-MM-DD`);
+        for (const lang of langs) {
+          assert.ok(ongoing.whyItMatters?.[lang]?.trim(), `Event "${event.id}" ongoing.whyItMatters.${lang} must be non-empty`);
+          assert.ok(ongoing.whatToWatchNext?.[lang]?.trim(), `Event "${event.id}" ongoing.whatToWatchNext.${lang} must be non-empty`);
+        }
+        assert.ok(Array.isArray(ongoing.articles) && ongoing.articles.length > 0, `Event "${event.id}" ongoing.articles must be non-empty`);
+      }
+    }
+    assert.ok(ongoingCount >= 13, 'Should have at least 13 events with ongoing.json');
+  });
+
   test('perspective titles do not contain redundant country perspective labels across all languages', () => {
     const langs = ['ja', 'en', 'zh', 'ko'] as const;
     const forbiddenPatterns: Record<string, RegExp> = {
@@ -63,4 +82,5 @@ describe('historical content & database integrity', () => {
     }
   });
 });
+
 

@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "drc-2025-goma-bukavu-unsc-2773",
+      "claim": "In January–February 2025, M23 captured Goma and Bukavu, prompting UN Security Council Resolution 2773 demanding the immediate withdrawal of Rwandan forces",
+      "context": "In late January 2025, M23 (Congo River Alliance) rebels seized the North Kivu capital of Goma, followed in mid-February by the South Kivu capital of Bukavu. On February 21, 2025, the UN Security Council unanimously adopted Resolution 2773, condemning the M23 offensive and explicitly demanding that the Rwanda Defence Force (RDF) cease support for M23 and immediately withdraw from DRC territory without preconditions.",
+      "verdict": "Confirmed by official records",
+      "sources": [
+        {
+          "title": "UN Security Council Resolution 2773 (2025) on the situation concerning the Democratic Republic of the Congo",
+          "url": "https://undocs.org/S/RES/2773(2025)",
+          "publisher": "UN Security Council",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

@@ -70,6 +70,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "ktb-2025-border-treaty",
+      "claim": "2025年3月13日，吉尔吉斯斯坦与塔吉克斯坦两国总统在比什凯克签署历史性《国界条约》并重开边境口岸",
+      "context": "在经历2021年与2022年大规模武装冲突后，吉塔两国政府密集推进勘界谈判，于2024年12月就全部未定边界走向达成一致。2025年3月13日，扎帕罗夫总统与拉赫蒙总统在比什凯克正式签署《吉塔国界条约》，就等面积换地、飞地通道中立化管理及水利设施共享作出制度安排，并重新开放了自2021年5月以来关闭的边境口岸。",
+      "verdict": "有官方记录（历史性条约正式签署）",
+      "sources": [
+        {
+          "title": "Statement by the UN Secretary-General welcoming the signing of the Border Treaty between Kyrgyzstan and Tajikistan (March 2025)",
+          "url": "https://www.un.org/sg/en",
+          "publisher": "联合国（UN）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

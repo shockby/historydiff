@@ -100,6 +100,20 @@
           "type": "international"
         }
       ]
+    },
+    {
+      "id": "gerd-2024-final-filling-cfa-entry",
+      "claim": "2024년 하반기 에티오피아는 GERD 최종 담수 완료를 선언했으며, 같은 해 10월 '나일강 유역 협력 프레임워크 협정(CFA)'이 발효되었다",
+      "context": "에티오피아 정부는 2024년 8~10월 GERD 제5차(최종) 담수 완료와 추가 터빈 가동을 발표했다. 또한 2024년 10월 13일에는 상류 6개국이 비준한 '나일강 유역 협력 프레임워크 협정(CFA·엔테베 협정)'이 정식 발효되었다. 이에 이집트와 수단은 법적 구속력 있는 운영 합의 없는 일방적 조치라며 유엔 안보리에 항의하고 CFA의 구속력도 부인했다.",
+      "verdict": "공식 기록 확인됨 (상·하류국 간 법적 대립 지속)",
+      "sources": [
+        {
+          "title": "Nile Basin Initiative Announcement on the Entry into Force of the Cooperative Framework Agreement (13 October 2024)",
+          "url": "https://nilebasin.org/",
+          "publisher": "나일강 유역 이니셔티브(NBI)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

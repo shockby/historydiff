@@ -88,6 +88,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "af-2025-russia-recognition-morality-law",
+      "claim": "2024年の「勧善懲悪法」で欧米がタリバン批判を強める一方、中国・UAEの大使受理に続き2025年にロシアがタリバン政権を正式承認した",
+      "context": "タリバン暫定政権は2024年8月に女性の公の場での声や顔出しを禁じる「勧善懲悪法」を公布し、国連や欧米諸国から「ジェンダー迫害」として強い非難を浴びた。一方で近隣・地域大国は実務関与を拡大し、2024年の中国・UAEによるタリバン任命大使の正式受け入れに続き、2025年4月にロシア最高裁判所がタリバンのテロ組織指定を停止、同年7月にロシア政府が「アフガニスタン・イスラム首長国」を正式承認した。",
+      "verdict": "公式記録あり（国際社会の対応が二極化）",
+      "sources": [
+        {
+          "title": "UNAMA Reports on the Law on the Propagation of Virtue and Prevention of Vice & Regional Diplomatic Developments",
+          "url": "https://unama.unmissions.org/",
+          "publisher": "国連アフガニスタン支援ミッション（UNAMA）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

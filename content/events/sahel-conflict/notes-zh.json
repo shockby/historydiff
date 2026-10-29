@@ -100,6 +100,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "sahel-2025-aes-ecowas-withdrawal",
+      "claim": "马里、布基纳法索和尼日尔三国军政府组建“萨赫勒国家邦联”（AES），并于2025年1月正式退出西共体（ECOWAS）",
+      "context": "马里、布基纳法索和尼日尔三国军政领导人于2024年7月6日在尼亚美峰会上签署条约成立“萨赫勒国家邦联”（AES）。在2024年完成法国驻军及美军（包括阿加德兹第201空军基地）全面撤离后，三国于2025年1月29日正式退出西非国家经济共同体（ECOWAS）。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "ECOWAS Official Statement on the Withdrawal of Burkina Faso, Mali and Niger (January 2025)",
+          "url": "https://www.ecowas.int/",
+          "publisher": "西非国家经济共同体（ECOWAS）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

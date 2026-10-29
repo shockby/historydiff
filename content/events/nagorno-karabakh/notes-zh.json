@@ -70,6 +70,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "nk-2025-peace-treaty-text-agreed",
+      "claim": "2025年3月13日，亚美尼亚与阿塞拜疆宣布就双边和平条约全部17项条款文本达成一致",
+      "context": "继2024年1月1日“阿尔察赫共和国”正式解散及2024年春启动首批边界勘定后，阿塞拜疆与亚美尼亚两国外交部于2025年3月13日正式宣布，双方已就《和平与建立国家间关系条约》草案全部17项条款达成一致。但阿塞拜疆仍将亚美尼亚修改宪法及正式解散欧安组织明斯克小组作为签署条约的前提条件。",
+      "verdict": "条文达成一致已确认（正式签署前提条件仍在博弈）",
+      "sources": [
+        {
+          "title": "Statements on completion of negotiations on the draft Agreement on Peace and Establishment of Interstate Relations between Armenia and Azerbaijan (March 13, 2025)",
+          "url": "https://www.mfa.am/en/",
+          "publisher": "亚美尼亚外交部·阿塞拜疆外交部",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

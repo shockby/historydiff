@@ -134,6 +134,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "lic-2024-war-ceasefire",
+      "claim": "Following the September–November 2024 escalation and assassination of Hassan Nasrallah, a US-France-brokered ceasefire took effect and Lebanon elected a new president in January 2025",
+      "context": "Cross-border fighting since October 2023 escalated into full-scale war in September 2024 with communication device explosions, the killing of Hezbollah leader Hassan Nasrallah in Beirut, and an Israeli ground invasion, resulting in nearly 4,000 deaths in Lebanon. A US-France-brokered ceasefire based on UNSC Resolution 1701 took effect on November 27, 2024, followed by the Lebanese Parliament's election of Army Commander Joseph Aoun as President on January 9, 2025.",
+      "verdict": "Confirmed by official records (full withdrawal and disarmament remain ongoing issues)",
+      "sources": [
+        {
+          "title": "Joint Statement on the Ceasefire between Israel and Lebanon (November 2024)",
+          "url": "https://unscol.unmissions.org/",
+          "publisher": "UN Special Coordinator for Lebanon (UNSCOL)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

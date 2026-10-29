@@ -120,6 +120,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sib-2024-depsang-demchok-patrol",
+      "claim": "2024年10月，中印就拉达克东部德普桑与典角地区巡逻安排达成解决方案，并举行五年来首次正式元首会晤",
+      "context": "围绕2020年以来在实控线（LAC）持续的军事对峙，中印两国外交部门于2024年10月21日确认就德普桑平原和典角地区脱离接触与巡逻安排达成解决方案。同年10月23日，习近平主席与莫迪总理在俄罗斯喀山金砖国家峰会期间举行五年来的首次正式双边会晤，重启边界问题特别代表会晤并推进恢复直航与香客朝圣。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Transcript of Special Briefing by Foreign Secretary on India-China border patrolling arrangements (October 2024)",
+          "url": "https://www.mea.gov.in/",
+          "publisher": "印度外交部（MEA）",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

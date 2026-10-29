@@ -134,6 +134,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "lic-2024-war-ceasefire",
+      "claim": "2024년 9~11월 대규모 교전과 나스랄라 사망 이후 미·불 중재 휴전 합의가 발효되고 2025년 1월 레바논 신임 대통령이 선출되었다",
+      "context": "2023년 10월 이후 이어진 국경 교전은 2024년 9월 통신기기 폭발 사건, 베이루트 공습을 통한 하산 나스랄라 헤즈볼라 사무총장 살해 및 이스라엘 지상군 침공으로 전면전으로 비화하여 레바논에서 약 4,000명이 사망했다. 2024년 11월 27일 안보리 결의 1701호에 기반한 미·불 중재 휴전 합의가 발효되었으며, 2025년 1월 9일 레바논 의회는 조제프 아운 군 사령관을 신임 대통령으로 선출했다.",
+      "verdict": "공식 기록 확인됨 (남부 철군 및 무장해제 이행은 진행 중)",
+      "sources": [
+        {
+          "title": "Joint Statement on the Ceasefire between Israel and Lebanon (November 2024)",
+          "url": "https://unscol.unmissions.org/",
+          "publisher": "유엔 레바논 특별조정관실(UNSCOL)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

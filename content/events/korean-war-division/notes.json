@@ -138,6 +138,20 @@
           "type": "ngo"
         }
       ]
+    },
+    {
+      "id": "kwd-2024-two-hostile-states-russia-pact",
+      "claim": "2024年、北朝鮮は平和統一政策を公式に放棄して韓国を「敵対国」と規定し、ロシアと軍事同盟条約を結んで兵士を派遣した",
+      "context": "2024年1月、金正恩総書記は南北関係を「同族関係ではなく敵対的な二国家関係」と規定して平和統一目標を放棄し、平壌の「祖国統一三大憲章記念塔」を撤去、同年10月には南北連結道路・鉄道を爆破した。さらに2024年6月19日にはプーチン大統領の平壌訪問に合わせて有事の相互軍事援助を含む「露朝包括的戦略パートナーシップ条約」に署名し、同年秋にはウクライナ戦線へ北朝鮮軍部隊を派遣した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Multilateral Sanctions Monitoring Team (MSMT) & UN Security Council briefings on DPRK",
+          "url": "https://www.mofa.go.jp/",
+          "publisher": "日本外務省・多国間制裁監視チーム",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

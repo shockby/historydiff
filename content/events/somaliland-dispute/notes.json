@@ -100,6 +100,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sl-2024-ankara-declaration",
+      "claim": "2024年12月、トルコの仲介によりエチオピアとソマリア連邦政府は「アンカラ宣言」に署名し、主権尊重と商業的海洋アクセス協議で合意した",
+      "context": "2024年1月のエチオピア・ソマリランド覚書（MoU）によって激化した地域危機に対し、トルコのエルドアン大統領が仲介を行い、2024年12月11日にエチオピアのアビィ首相とソマリアのモハムド大統領が「アンカラ宣言」に署名した。双方は互いの主権・統一・領土保全を再確認するとともに、ソマリアの主権下におけるエチオピアの持続可能で信頼できる海洋アクセスに向けた技術協議を2025年に進めることで合意した。",
+      "verdict": "公式記録あり",
+      "sources": [
+        {
+          "title": "Ankara Declaration between the Federal Republic of Somalia and the Federal Democratic Republic of Ethiopia (11 December 2024)",
+          "url": "https://www.mfa.gov.tr/",
+          "publisher": "トルコ共和国外務省",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

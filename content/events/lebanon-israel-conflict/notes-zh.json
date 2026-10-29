@@ -134,6 +134,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "lic-2024-war-ceasefire",
+      "claim": "历经2024年9月至11月的大规模交战与纳斯鲁拉遇袭身亡，黎以在美法斡旋下达成停火，黎巴嫩并于2025年1月选出新总统",
+      "context": "2023年10月以来的跨境交火在2024年9月因通信设备爆炸事件、真主党领导人哈桑·纳斯鲁拉在贝鲁特遇袭身亡及以军地面进攻而演变为全面冲突，造成黎方近4000人丧生。2024年11月27日，美法斡旋下基于安理会第1701号决议的停火协议生效；2025年1月9日，黎巴嫩议会选举军队总司令约瑟夫·奥恩为新任总统。",
+      "verdict": "有官方记录（南部撤军与解除武装落实仍在持续博弈）",
+      "sources": [
+        {
+          "title": "Joint Statement on the Ceasefire between Israel and Lebanon (November 2024)",
+          "url": "https://unscol.unmissions.org/",
+          "publisher": "联合国黎巴嫩问题特别协调员办事处（UNSCOL）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

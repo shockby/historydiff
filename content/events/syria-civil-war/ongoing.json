@@ -1,36 +1,49 @@
 {
   "eventId": "syria-civil-war",
   "isOngoing": true,
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-29",
   "whyItMatters": {
-    "ja": "2011年の『アラブの春』から続くシリア内戦は、アサド政権の支配回復とアラブ連盟復帰が進む一方、北部・東部での反体制派・クルド勢力・トルコ軍・米軍の駐留が固定化し、分断統治が続いています。ロシア・イランの軍事支援と米・トルコの安全保障上の思惑が交錯し、難民帰還問題や人道支援回廊の維持が国際的な課題となっています。",
-    "en": "The Syrian conflict since 2011 has settled into a frozen partition: the Assad government has secured Arab League reintegration, but northern and eastern regions remain under the control of Turkish forces, Kurdish-led SDF, and opposition factions. Russian and Iranian security footprints remain entrenched alongside US counter-terror deployments, keeping refugee repatriation and political transition on hold.",
-    "zh": "始于2011年的叙利亚冲突目前呈现碎片化割据格局。巴沙尔政府已重返阿盟并巩固大部分核心区域，但叙北部与东部仍分别由土耳其支持力量、库尔德武装（SDF）及反对派控制，美俄驻军持续存在。叙利亚重建进程、难民返乡安全保障及安理会2254号决议政治解决路线依然面临重重阻碍。",
-    "ko": "2011년 시작된 시리아 내전은 아사드 정권의 아랍연맹 복귀와 핵심 지역 통제 회복에도 불구하고, 북부 및 동부의 쿠르드 세력, 튀르키예군, 반군 통제지로 분할된 채 교착 상태가 이어지고 있습니다. 난민 귀환과 전후 재건을 둘러싼 국제사회의 외교적 셈법이 엇갈리고 있습니다."
+    "ja": "2011年の『アラブの春』から始まったシリア内戦は、2024年12月に反体制派HTS（ハヤト・タハリール・アル・シャーム）主導の電撃攻勢によってアサド政権が崩壊し、歴史的転換点を迎えました。アフマド・シャラア（旧名ジュラニ）率いる暫定政府は国家再建と欧米の経済制裁解除を模索していますが、北東部のクルド主導勢力（SDF）やトルコ支援勢力との統合交渉、イスラエル軍のゴラン高原緩衝地帯進駐、ロシア軍基地の処遇など、分断された主権の再統合と少数派保護が国際社会の重大な焦点となっています。",
+    "en": "The Syrian Civil War, which began during the 2011 Arab Spring, reached a historic turning point in December 2024 when a lightning offensive led by Hayat Tahrir al-Sham (HTS) toppled the Assad regime. While the interim government led by Ahmed al-Sharaa seeks national reconstruction and Western sanctions relief, reintegrating northeastern Kurdish-led SDF forces, managing Turkish and Israeli military footprints, renegotiating Russian base leases, and protecting religious minorities remain urgent global challenges.",
+    "zh": "始于2011年“阿拉伯之春”的叙利亚内战在2024年12月迎来历史性转折，“沙姆解放组织”（HTS）主导的闪电攻势推翻了阿萨德政权。以艾哈迈德·沙拉（原名朱拉尼）为首的过渡政府正致力于国家重建与争取美欧解除经济制裁，但叙东北部库尔德主导力量（SDF）的整合谈判、土耳其与以色列在边境的军事存在、俄罗斯驻军基地去留以及少数教派权益保护，仍是牵动中东地缘格局的核心焦点。",
+    "ko": "2011년 '아랍의 봄'으로 시작된 시리아 내전은 2024년 12월 반군 하야트 타흐리르 알샴(HTS) 주도의 전격 공세로 아사드 정권이 붕괴하며 역사적 전환점을 맞았습니다. 아흐마드 알샤라가 이끄는 과도정부는 국가 재건과 서방의 경제 제재 해제를 모색하고 있으나, 북동부 쿠르드 주도 세력(SDF)과의 통합 협상, 튀르키예 및 이스라엘군의 군사적 주둔, 러시아 군사기지 처리 및 소수 종파 보호가 국제사회의 핵심 과제로 남아 있습니다."
   },
   "whatToWatchNext": {
-    "ja": "1. トルコとシリア政権の国交正常化・国境安全保障協議の進展\n2. 北東部クルド自治勢力（SDF）とシリア政府軍の統合交渉または軍事的緊張\n3. 国連仲介による憲法委員会プロセスの再開と難民帰還のための治安改善",
-    "en": "1. Normalization and border security negotiations between Damascus and Ankara\n2. Power-sharing or military friction between the Syrian central government and Kurdish SDF\n3. UN-facilitated constitutional talks and verified security conditions for voluntary refugee return",
-    "zh": "1. 叙利亚与土耳其双边关系正常化谈判及边境反恐安全走廊协调\n2. 叙中央政府与叙东北部库尔德主导力量的政治对话与地方自治整合\n3. 联合国主导的叙利亚宪法委员会政治进程及战后难民返乡人道安全机制",
-    "ko": "1. 튀르키예와 시리아 정부 간의 관계 정상화 및 국경 안보 협의 진척\n2. 북동부 쿠르드 주도 세력과 시리아 중앙정부 간의 행정 통합 및 군사적 긴장 추이\n3. 유엔 중재 헌법위원회 재개 및 난민 자발적 귀환을 위한 치안 환경 조성"
+    "ja": "1. シリア暫定政府による新憲法起草・包括的統治移行プロセスと欧米の制裁解除・テロ指定見直しの行方\n2. 北東部クルド自治勢力（SDF）や南部武装勢力の国軍統合交渉とトルコの越境安全保障作戦\n3. ゴラン高原緩衝地帯に展開するイスラエル軍の動向およびロシアのタルトゥース・フメイミム基地交渉",
+    "en": "1. Constitutional drafting, inclusive governance transition, and the lifting of Western sanctions and terrorist designations on HTS\n2. Negotiations to integrate the Kurdish-led SDF and southern factions into a unified national army amid Turkish security operations\n3. Israeli military presence in the Golan buffer zone and renegotiations over Russia's Tartus and Khmeimim bases",
+    "zh": "1. 叙利亚过渡政府新宪法起草、包容性政治过渡进程及美欧解除制裁与恐怖组织认定的评估走向\n2. 叙东北部库尔德武装（SDF）及南部武装派别并入国家军队的谈判与土耳其跨境安全行动\n3. 戈兰高地缓冲区以色列驻军动向及俄罗斯塔尔图斯港与赫梅米姆空军基地租约谈判",
+    "ko": "1. 시리아 과도정부의 신헌법 기초 및 포괄적 통치 이행 과정과 서방의 제재·테러조직 지정 해제 여부\n2. 북동부 쿠르드 자치세력(SDF) 및 남부 무장세력의 정규군 통합 협상과 튀르키예의 국경 안보 작전\n3. 골란고원 완충지대에 진입한 이스라엘군의 동향 및 러시아의 타르투스·흐메이밈 기지 재협상"
   },
   "rssQuery": {
-    "ja": "シリア 情勢 アサド 難民復興",
-    "en": "Syria conflict Assad SDF normalization",
-    "zh": "叙利亚 局势 重建 难民",
-    "ko": "시리아 정세 아사드 재건"
+    "ja": "シリア 暫定政府 シャラア HTS 復興",
+    "en": "Syria interim government Sharaa HTS SDF sanctions",
+    "zh": "叙利亚 过渡政府 沙拉 重建 制裁",
+    "ko": "시리아 과도정부 샤라 HTS 재건"
   },
   "articles": [
     {
-      "title": "シリア情勢と地域外交における関係改善の模索",
+      "title": "シリア暫定政府の国家統合プロセスと欧米による制裁緩和協議の進展",
       "source": "BBC News",
       "url": "https://www.bbc.com/news/world-middle-east-17258397",
-      "publishedAt": "2026-08-22",
+      "publishedAt": "2026-10-24",
       "summary": {
-        "ja": "地域の安定化と人道支援の円滑化に向け、周辺国との外交的対話が続けられています。",
-        "en": "Regional diplomatic engagements continue with a focus on humanitarian coordination and border stabilization.",
-        "zh": "周边国家持续推进外交接触，重点围绕人道救援协调与边境安全机制建设展开探讨。",
-        "ko": "인도적 구호 협력과 국경 안정을 위해 주변국과의 외교적 대화가 이어지고 있습니다."
+        "ja": "2024年末のアサド政権崩壊を経て発足したシリア暫定政府は、クルド勢力（SDF）との軍事・行政統合協議やインフラ再建に向けた国際支援の取り付けを進めています。",
+        "en": "Syria's post-Assad interim administration continues talks on integrating Kurdish-led SDF forces while seeking international reconstruction aid and sanctions relief.",
+        "zh": "阿萨德政权倒台后成立的叙利亚过渡政府正推进与库尔德武装（SDF）的军政整合谈判，并积极争取国际重建资金与制裁放宽。",
+        "ko": "2024년 말 아사드 정권 붕괴 이후 출범한 시리아 과도정부는 쿠르드 세력(SDF)과의 군사·행정 통합 협의 및 인프라 재건을 위한 국제 지원 확보를 추진하고 있습니다."
+      },
+      "country": "国際"
+    },
+    {
+      "title": "シリア難民の帰還環境整備と国連主導の復興支援枠組み",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "publishedAt": "2026-10-12",
+      "summary": {
+        "ja": "周辺国および欧州からのシリア難民帰還が続く中、電力・医療インフラの復旧と少数派の安全保障が主要課題となっています。",
+        "en": "As Syrian refugees return from neighboring states, restoring power and medical infrastructure alongside minority security guarantees remains paramount.",
+        "zh": "随着周边国家难民陆续返乡，恢复电力与医疗基础设施以及保障少数群体安全成为当务之急。",
+        "ko": "주변국으로부터 시리아 난민의 귀환이 이어지는 가운데 전력·의료 인프라 복구와 소수파 안전 보장이 주요 과제로 대두되고 있습니다."
       },
       "country": "国際"
     }

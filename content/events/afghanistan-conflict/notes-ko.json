@@ -82,6 +82,20 @@
           "type": "academic"
         }
       ]
+    },
+    {
+      "id": "af-2025-russia-recognition-morality-law",
+      "claim": "2024년 '권선징악법'으로 서방의 규탄이 거세진 반면, 중국·UAE의 대사 수락에 이어 2025년 러시아는 탈레반 정권을 공식 승인했다",
+      "context": "탈레반 정권은 2024년 8월 공공장소에서 여성의 목소리와 얼굴 노출을 금지하는 '권선징악법'을 공포하여 유엔과 서방으로부터 젠더 박해라는 강한 비판을 받았다. 반면 주변 강대국들은 실무 관여를 확대하여, 2024년 중국과 UAE의 탈레반 임명 대사 수락에 이어 2025년 4월 러시아 대법원이 탈레반의 테러조직 지정을 해제하고 같은 해 7월 러시아 정부가 '아프가니스탄 이슬람 토후국'을 공식 승인했다.",
+      "verdict": "공식 기록 확인됨 (국제사회 대응 양극화)",
+      "sources": [
+        {
+          "title": "UNAMA Reports on the Law on the Propagation of Virtue and Prevention of Vice & Regional Diplomatic Developments",
+          "url": "https://unama.unmissions.org/",
+          "publisher": "유엔 아프가니스탄 지원단(UNAMA)",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

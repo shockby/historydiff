@@ -100,6 +100,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "sl-2024-ankara-declaration",
+      "claim": "2024年12月，埃塞俄比亚与索马里在土耳其斡旋下签署《安卡拉宣言》，重申相互尊重主权并商定推进商业出海口谈判",
+      "context": "针对2024年1月埃塞俄比亚与索马里兰签署谅解备忘录引发的地区紧张，土耳其总统埃尔多安出面调停，促成埃塞俄比亚总理阿比与索马里总统马哈茂德于2024年12月11日共同签署《安卡拉宣言》。双方重申尊重彼此主权、统一与领土完整，并同意于2025年启动技术谈判，在索马里主权框架下为埃塞提供可靠、安全的商业海洋通道。",
+      "verdict": "有官方记录",
+      "sources": [
+        {
+          "title": "Ankara Declaration between the Federal Republic of Somalia and the Federal Democratic Republic of Ethiopia (11 December 2024)",
+          "url": "https://www.mfa.gov.tr/",
+          "publisher": "土耳其共和国外交部",
+          "type": "government"
+        }
+      ]
     }
   ]
 }

@@ -134,6 +134,20 @@
           "type": "government"
         }
       ]
+    },
+    {
+      "id": "lic-2024-war-ceasefire",
+      "claim": "2024年9〜11月の大規模交戦とナスララ師殺害を経て、米仏仲介による停戦合意と2025年1月のレバノン新大統領選出に至った",
+      "context": "2023年10月以降の越境交戦は、2024年9月の通信機器爆発事件、ベイルート空爆によるヒズボラ最高指導者ハッサン・ナスララ師の殺害、およびイスラエル軍の南部地上侵攻で全面衝突に発展し、レバノン側で約4,000人が死亡した。2024年11月27日に米仏仲介で安保理決議1701号に基づく停戦合意が発効し、2025年1月9日にはレバノン議会がジョゼフ・アウン国軍司令官を新大統領に選出した。",
+      "verdict": "公式記録あり（南部撤退・武装解除の履行状況は継続課題）",
+      "sources": [
+        {
+          "title": "Joint Statement on the Ceasefire between Israel and Lebanon (November 2024)",
+          "url": "https://unscol.unmissions.org/",
+          "publisher": "国連レバノン特別調整官事務所（UNSCOL）",
+          "type": "international"
+        }
+      ]
     }
   ]
 }

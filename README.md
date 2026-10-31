@@ -104,6 +104,7 @@ historydiff/
 │   │   │   ├── PhotoGallery.tsx         # Historical photo gallery
 │   │   │   ├── PublicVoices.tsx         # Social media public voices (subjective reference)
 │   │   │   ├── SearchEvents.tsx         # Landing page (recent showcase + archive call-to-action)
+│   │   │   ├── SocialShareBar.tsx       # Context-aware social share bar (X, LINE, Reddit, Facebook, Copy)
 │   │   │   ├── SourceNatureBadges.tsx   # Source nature classification & language tags
 │   │   │   ├── TimelineView.tsx         # Chronological timeline view
 │   │   │   ├── WelcomeModal.tsx         # First-time visitor onboarding modal
@@ -122,6 +123,7 @@ historydiff/
 │       ├── markdown.ts           # Markdown parsing utilities and file loaders
 │       ├── quizData.ts           # Question datasets for quizzes and diagnostics
 │       ├── schema.ts             # Schema.org structured data generators
+│       ├── seoKeywords.ts        # Country-aware SEO metadata & keyword generator
 │       ├── sorting.ts            # Chronological sort utilities
 │       ├── sourceNature.ts       # Source classification and language badge utilities
 │       ├── timelineUtils.ts      # Multi-decade expansion and period-filtered annotations utility
@@ -156,6 +158,7 @@ flowchart LR
 1. On the event page, use the **Sticky Perspective Switcher** to select two countries.
 2. Toggle between Split (Side-by-Side) and Unified (Inline) modes to inspect additions, omissions, and phrasing shifts.
 3. In the **"Text Controversy Analysis"** panel, click **"📖 Compare Sources"** next to any contrasting term to expand word-level source sentence diffs.
+4. Share the active country pair comparison directly via the **Social Share Bar** (X, LINE, Reddit, Facebook, or Copy Link).
 
 ### Step 3: Check Source Nature & Community Notes
 1. Review the **Source Nature Badges** on each perspective card (e.g., Authorized Textbook, Government Statement, Academic Research) and language status.

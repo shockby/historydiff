@@ -18,9 +18,9 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang } = await params;
   const titles: Record<string, string> = {
-    ja: '比較アーカイブ一覧 | HistoryDiff',
-    zh: '比较档案一览 | HistoryDiff',
-    ko: '비교 아카이브 목록 | HistoryDiff',
+    ja: '世界の歴史教科書 比較アーカイブ一覧',
+    zh: '世界历史教科书 比较档案一览',
+    ko: '세계 역사 교과서 비교 아카이브 목록',
   };
   const descriptions: Record<string, string> = {
     ja: '世界各国の歴史教科書に記載されている記述の差異を多角的に探索・比較できるアーカイブ一覧。',
@@ -28,11 +28,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ko: '세계 각국의 역사 교과서에 기록된 기술 차이를 다각도로 탐색하고 비교하는 전체 아카이브.',
   };
 
-  const title = (titles[lang] ?? 'Comparison Archives | HistoryDiff');
+  const pageTitle = (titles[lang] ?? 'Historical Textbook Comparison Archives');
+  const fullTitle = `${pageTitle} | HistoryDiff`;
   const description = (descriptions[lang] ?? 'HistoryDiff Comparison Archives');
 
   return {
-    title,
+    title: pageTitle,
     description,
     alternates: {
       canonical: `${SITE_URL}/${lang}/events`,
@@ -45,7 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
     },
     openGraph: {
-      title,
+      title: fullTitle,
       description,
       url: `${SITE_URL}/${lang}/events`,
       type: 'website',

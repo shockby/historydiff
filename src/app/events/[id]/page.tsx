@@ -1,6 +1,6 @@
 import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta } from '@/lib/markdown';
 import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
-import { getSeoKeywords } from '@/lib/seoKeywords';
+import { buildEventSeoMeta } from '@/lib/seoKeywords';
 import EventPageClient from './EventPageClient';
 import { Metadata } from 'next';
 
@@ -15,13 +15,20 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
   const { id } = await props.params;
   // Use English as canonical metadata
   const perspectives = getEventPerspectives(id, 'en');
-  const title = (perspectives[0]?.title ?? getEventPerspectives(id, 'ja')[0]?.title) ?? 'Event Details';
-  const description = `Compare history textbook descriptions and perspectives on "${title}" across nations. Multi-perspective diff analysis.`;
+  const eventMeta = getEventMeta(id);
+  const eventTitle = eventMeta?.title?.en ?? null;
+
+  const { pageTitle, fullTitle, description, keywords } = buildEventSeoMeta({
+    eventId: id,
+    lang: 'en',
+    eventTitle,
+    perspectives,
+  });
+
   const ogImage = `/og/events/${id}-en.png`;
-  const keywords = getSeoKeywords(id, 'en');
 
   return {
-    title: `${title} | HistoryDiff`,
+    title: pageTitle,
     description,
     keywords,
     alternates: {
@@ -35,7 +42,7 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
       },
     },
     openGraph: {
-      title: `${title} | HistoryDiff`,
+      title: fullTitle,
       description,
       url: `${SITE_URL}/events/${id}`,
       type: 'article',
@@ -44,13 +51,13 @@ export async function generateMetadata(props: { params: Promise<{ id: string }> 
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: pageTitle,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | HistoryDiff`,
+      title: fullTitle,
       description,
       images: [ogImage],
     },
@@ -68,10 +75,14 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const eventMeta = getEventMeta(id);
   const eventTitle = eventMeta?.title?.en ?? null;
 
-  const title = (perspectives[0]?.title ?? getEventPerspectives(id, 'ja')[0]?.title) ?? 'Event Details';
-  const description = `Compare history textbook descriptions and perspectives on "${title}" across nations. Multi-perspective diff analysis.`;
+  const { baseTitle, pageTitle, description, keywords } = buildEventSeoMeta({
+    eventId: id,
+    lang: 'en',
+    eventTitle,
+    perspectives,
+  });
+
   const ogImage = `/og/events/${id}-en.png`;
-  const keywords = getSeoKeywords(id, 'en');
   const category = perspectives[0]?.category;
   const year = perspectives[0]?.year;
   const location = perspectives[0]?.location;
@@ -79,19 +90,21 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const articleSchema = generateEventArticleSchema({
     eventId: id,
     lang: 'en',
-    title: eventTitle ?? title,
+    title: pageTitle,
     description,
     ogImage,
     category,
     year,
     location,
     keywords,
+    notes,
+    dateModified: ongoing?.lastUpdated,
   });
 
   const faqSchema = generateEventFaqSchema({
     eventId: id,
     lang: 'en',
-    title: eventTitle ?? title,
+    title: baseTitle,
     notes,
     perspectives,
     description,
@@ -101,7 +114,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const breadcrumbSchema = generateBreadcrumbSchema({
     eventId: id,
     lang: 'en',
-    title: eventTitle ?? title,
+    title: baseTitle,
     category,
   });
 

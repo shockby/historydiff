@@ -104,6 +104,7 @@ historydiff/
 │   │   │   ├── PhotoGallery.tsx         # 历史照片画廊
 │   │   │   ├── PublicVoices.tsx         # 网络社媒舆论（主观参考信息）
 │   │   │   ├── SearchEvents.tsx         # 首页（最新档案精选展示与一览引导）
+│   │   │   ├── SocialShareBar.tsx       # 对比视角联动型社媒分享栏（X / LINE / Reddit / Facebook等）
 │   │   │   ├── SourceNatureBadges.tsx   # 出处性质与语言标签
 │   │   │   ├── TimelineView.tsx         # 历史时序时间轴视图
 │   │   │   ├── WelcomeModal.tsx         # 初次访问欢迎引导弹窗
@@ -122,6 +123,7 @@ historydiff/
 │       ├── markdown.ts           # Markdown 及 JSON 解析工具
 │       ├── quizData.ts           # 竞猜与认知诊断题库
 │       ├── schema.ts             # Schema.org 结构化数据生成
+│       ├── seoKeywords.ts        # 对比国家联动型 SEO 元数据与关键词生成器
 │       ├── sorting.ts            # 年代排序实用工具
 │       ├── sourceNature.ts       # 出处性质判定与语言标签工具
 │       ├── timelineUtils.ts      # 多年代展开与年代专属注释筛选实用工具
@@ -156,6 +158,7 @@ flowchart LR
 1. 进入事件详情页，页面顶部提供**吸顶视角切换栏**，随时选择需要对比的两个国家。
 2. 可在左右分栏（Side-by-Side）和统一单栏（Unified）间切换，直观查看增删与修辞变动。
 3. 在**“争议文本分析”**面板中，点击对立词旁的 **“📖 对比原文”** 按钮，即可就地展开对应原文句子的词级 Diff 高亮。
+4. 通过**社交媒体分享栏**（X、LINE、Reddit、Facebook 或复制链接），一键分享当前对比的两国教科书视角差异。
 
 ### 第 3 步：确认文献性质，阅读社区事实核查
 1. 查看各视角卡片顶部的**文献性质标签**（如政府审定教材、官方见解、学术专著等）及原典语言状态。

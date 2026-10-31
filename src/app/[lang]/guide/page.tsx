@@ -31,10 +31,10 @@ interface GuidePageProps {
 export async function generateMetadata({ params }: GuidePageProps): Promise<Metadata> {
   const { lang } = await params;
   const titles: Record<string, string> = {
-    ja: '使い方・ガイド | HistoryDiff',
-    zh: '使用指南与功能解析 | HistoryDiff',
-    ko: '이용 가이드 & 기능 소개 | HistoryDiff',
-    en: 'Guide & How to Use | HistoryDiff',
+    ja: '使い方・ガイド',
+    zh: '使用指南与功能解析',
+    ko: '이용 가이드 & 기능 소개',
+    en: 'Guide & How to Use',
   };
   const descriptions: Record<string, string> = {
     ja: 'HistoryDiffの全体像、多角比較機能、ファクトチェックシステム、認識診断などの使い方を詳しく解説します。',
@@ -43,11 +43,12 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
     en: 'Comprehensive guide and walkthrough for HistoryDiff multilateral comparison, verification notes, and interactive tools.',
   };
 
-  const title = (titles[lang] ?? titles.en);
+  const pageTitle = (titles[lang] ?? titles.en);
+  const fullTitle = `${pageTitle} | HistoryDiff`;
   const description = (descriptions[lang] ?? descriptions.en);
 
   return {
-    title,
+    title: pageTitle,
     description,
     alternates: {
       canonical: `${SITE_URL}/${lang}/guide`,
@@ -58,6 +59,12 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
         ko: `${SITE_URL}/ko/guide`,
         'x-default': `${SITE_URL}/guide`,
       },
+    },
+    openGraph: {
+      title: fullTitle,
+      description,
+      url: `${SITE_URL}/${lang}/guide`,
+      type: 'website',
     },
   };
 }

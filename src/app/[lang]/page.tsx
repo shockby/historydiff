@@ -18,14 +18,14 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang } = await params;
   const titles: Record<string, string> = {
-    ja: 'HistoryDiff | 歴史の「記述の差」を視覚的に解明する',
-    zh: 'HistoryDiff | 直观阐明历史“记述之差”',
-    ko: 'HistoryDiff | 역사의 "기술 차이"를 시각적으로 밝힌다',
+    ja: 'HistoryDiff | 世界の歴史教科書の「記述の差」をテキスト比較（Diff）で可視化',
+    zh: 'HistoryDiff | 直观对比世界各国历史教科书的“记述差异”',
+    ko: 'HistoryDiff | 세계 각국 역사 교과서의 "기술 차이"를 시각적으로 비교·검증',
   };
   const descriptions: Record<string, string> = {
-    ja: '世界各国の歴史教科書に記載されている記述の違いをテキスト比較（Diff）で検証。',
-    zh: '通过文本对比（Diff）客观直观地展示各国历史教科书中的记述差异。',
-    ko: '세계 각국의 역사 교과서 기술 차이를 텍스트 비교(Diff)로 시각화하는 플랫폼.',
+    ja: '同じ歴史的事件でも国によって教科書の記述はどう違うのか？日本・中国・韓国・欧米など世界各国の歴史教科書・公的資料の記述の違いをテキスト比較（Diff）とファクトチェックで検証するプラットフォーム。',
+    zh: '同一历史事件在各国教科书中如何不同表述？通过文本对比（Diff）与客观史料考证，直观展示中日韩及欧美等世界各国历史教科书的记述差异。',
+    ko: '같은 역사적 사건이라도 나라마다 교과서 서술은 어떻게 다를까? 한·중·일 및 세계 각국 역사 교과서의 기술 차이를 텍스트 비교(Diff)와 팩트체크로 시각화하는 플랫폼.',
   };
 
   const title = (titles[lang] ?? 'HistoryDiff');
@@ -33,7 +33,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const ogImage = `/og/og-top-${lang}.png`;
 
   return {
-    title,
+    title: {
+      absolute: title,
+    },
     description,
     alternates: {
       canonical: `${SITE_URL}/${lang}`,

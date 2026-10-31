@@ -152,3 +152,189 @@ export function getSeoKeywords(eventId: string, lang: string = 'en'): string[] {
   const combined = Array.from(new Set([...langSpecific, ...common, ...en, ...baseKeywords]));
   return combined;
 }
+
+export interface EventSeoPerspectiveItem {
+  title: string;
+  country: string;
+  category?: string;
+  location?: string;
+  year?: string;
+}
+
+export interface EventSeoInput {
+  eventId: string;
+  lang: string;
+  eventTitle?: string | null;
+  perspectives: EventSeoPerspectiveItem[];
+}
+
+export interface EventSeoResult {
+  baseTitle: string;
+  pageTitle: string;
+  fullTitle: string;
+  description: string;
+  keywords: string[];
+  countries: string[];
+}
+
+function orderCountriesForLang(countries: string[], lang: string): string[] {
+  const preferredMatchers =
+    lang === 'ja'
+      ? ['日本', 'japan']
+      : lang === 'zh'
+      ? ['中国', 'china', '台湾', 'taiwan']
+      : lang === 'ko'
+      ? ['한국', '韓国', 'korea', '대한민국']
+      : ['usa', 'united states', 'アメリカ', '米国', 'uk', 'united kingdom', 'イギリス', 'britain'];
+
+  const preferred: string[] = [];
+  const rest: string[] = [];
+
+  for (const country of countries) {
+    const lower = country.toLowerCase();
+    if (preferredMatchers.some((m) => lower.includes(m))) {
+      preferred.push(country);
+    } else {
+      rest.push(country);
+    }
+  }
+
+  return [...preferred, ...rest];
+}
+
+/**
+ * Generates localized, search-intent-optimized SEO title, description, and keywords for an event page.
+ * Note: `pageTitle` omits the trailing ` | HistoryDiff` because RootLayout applies `template: '%s | HistoryDiff'`.
+ */
+export function buildEventSeoMeta({
+  eventId,
+  lang,
+  eventTitle,
+  perspectives,
+}: EventSeoInput): EventSeoResult {
+  const rawCountries = Array.from(
+    new Set(perspectives.map((p) => p.country?.trim()).filter((c): c is string => Boolean(c)))
+  );
+  const countries = orderCountriesForLang(rawCountries, lang);
+
+  // Pick the preferred perspective's title as fallback when eventTitle (from event.json) is absent
+  const preferredPerspectiveTitle =
+    perspectives.find((p) => p.country === countries[0])?.title ?? perspectives[0]?.title;
+  const baseTitle = (eventTitle ?? preferredPerspectiveTitle) ?? 'Event Details';
+
+  const altTitles = Array.from(
+    new Set(
+      perspectives
+        .map((p) => p.title?.trim())
+        .filter((t): t is string => Boolean(t) && t !== baseTitle)
+    )
+  );
+
+  let pageTitle: string;
+  let description: string;
+
+  if (lang === 'ja') {
+    const countryLabel =
+      countries.length >= 2
+        ? `${countries.slice(0, 4).join('・')}${countries.length > 4 ? 'ほか' : ''}`
+        : '';
+    pageTitle = countryLabel
+      ? `${baseTitle}（${countryLabel}）の歴史教科書・記述比較`
+      : `${baseTitle}の歴史教科書・記述比較`;
+    const altSuffix =
+      altTitles.length > 0 ? `各国の視点（${altTitles.slice(0, 2).join('／')}）の対比も収録。` : '';
+    description = `「${baseTitle}」に関する${
+      countries.length > 0 ? countries.join('・') : '各国'
+    }の歴史教科書・公的資料の記述の違いをテキスト差分（Diff）とファクトチェックで徹底比較。${altSuffix}`;
+  } else if (lang === 'zh') {
+    const countryLabel =
+      countries.length >= 2
+        ? `${countries.slice(0, 4).join('、')}${countries.length > 4 ? '等' : ''}`
+        : '';
+    pageTitle = countryLabel
+      ? `${baseTitle}（${countryLabel}）历史教科书与记述对比`
+      : `${baseTitle}历史教科书与记述对比`;
+    const altSuffix =
+      altTitles.length > 0 ? `涵盖各方视角（${altTitles.slice(0, 2).join(' / ')}）。` : '';
+    description = `对比${
+      countries.length > 0 ? countries.join('、') : '各国'
+    }历史教科书与官方资料关于“${baseTitle}”的记述差异与观点分歧，提供文本对比（Diff）与客观史料核查。${altSuffix}`;
+  } else if (lang === 'ko') {
+    const countryLabel =
+      countries.length >= 2
+        ? `${countries.slice(0, 4).join('·')}${countries.length > 4 ? ' 등' : ''}`
+        : '';
+    pageTitle = countryLabel
+      ? `${baseTitle} (${countryLabel}) 역사 교과서 기술 비교`
+      : `${baseTitle} 역사 교과서 기술 비교`;
+    const altSuffix =
+      altTitles.length > 0 ? ` 각국 시각(${altTitles.slice(0, 2).join(' / ')}) 비교 수록.` : '';
+    description = `"${baseTitle}"에 관한 ${
+      countries.length > 0 ? countries.join('·') : '각국'
+    } 역사 교과서 및 공식 자료의 서술 차이를 텍스트 비교(Diff)와 팩트체크로 검증합니다.${altSuffix}`;
+  } else {
+    const countryLabel =
+      countries.length >= 2
+        ? `${countries.slice(0, 4).join(' vs ')}${countries.length > 4 ? ' & more' : ''}`
+        : '';
+    pageTitle = countryLabel
+      ? `${baseTitle}: ${countryLabel} History Textbook Comparison`
+      : `${baseTitle} - History Textbook Comparison`;
+    const altSuffix =
+      altTitles.length > 0 ? ` Perspectives include: ${altTitles.slice(0, 2).join(' / ')}.` : '';
+    description = `Compare how ${
+      countries.length > 0 ? countries.join(', ') : 'global'
+    } history textbooks and official sources describe "${baseTitle}" through side-by-side text diff and fact-checked primary sources.${altSuffix}`;
+  }
+
+  const fullTitle = `${pageTitle} | HistoryDiff`;
+
+  const dynamicQueryKeywords =
+    lang === 'ja'
+      ? [
+          baseTitle,
+          `${baseTitle} 教科書`,
+          `${baseTitle} 歴史教科書 比較`,
+          ...countries.slice(0, 4).map((c) => `${baseTitle} ${c}`),
+        ]
+      : lang === 'zh'
+      ? [
+          baseTitle,
+          `${baseTitle} 历史教科书`,
+          `${baseTitle} 教科书对比`,
+          ...countries.slice(0, 4).map((c) => `${baseTitle} ${c}`),
+        ]
+      : lang === 'ko'
+      ? [
+          baseTitle,
+          `${baseTitle} 역사 교과서`,
+          `${baseTitle} 교과서 비교`,
+          ...countries.slice(0, 4).map((c) => `${baseTitle} ${c}`),
+        ]
+      : [
+          baseTitle,
+          `${baseTitle} textbook`,
+          `${baseTitle} history textbook comparison`,
+          ...countries.slice(0, 4).map((c) => `${baseTitle} ${c} perspective`),
+        ];
+
+  const baseSeoKeywords = getSeoKeywords(eventId, lang);
+  const keywords = Array.from(
+    new Set([
+      ...dynamicQueryKeywords,
+      ...altTitles.slice(0, 4),
+      ...countries,
+      ...baseSeoKeywords,
+    ])
+  );
+
+  return {
+    baseTitle,
+    pageTitle,
+    fullTitle,
+    description,
+    keywords,
+    countries,
+  };
+}
+

@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { HelpCircle, CheckCircle2, XCircle, ArrowRight, Sparkles, Flame, BookOpen } from 'lucide-react';
+import { HelpCircle, CheckCircle2, XCircle, ArrowRight, Sparkles, Flame, BookOpen, Share2 } from 'lucide-react';
 import { translations, Language } from '@/lib/translations';
 import { EventPerspective } from '@/lib/markdown';
 import { curatedQuizList, QuizItem, getQuizForEvent } from '@/lib/quizData';
@@ -430,21 +430,59 @@ export default function HistoryQuiz({
             flexWrap: 'wrap',
             gap: '0.8rem',
           }}>
-            <Link
-              href={eventHref}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.4rem',
-                fontSize: '0.82rem',
-                fontWeight: 600,
-                color: 'var(--accent)',
-                textDecoration: 'none',
-              }}
-            >
-              <BookOpen size={14} />
-              <span>{t.quizExploreEvent}</span>
-            </Link>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <Link
+                href={eventHref}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  color: 'var(--accent)',
+                  textDecoration: 'none',
+                }}
+              >
+                <BookOpen size={14} />
+                <span>{t.quizExploreEvent}</span>
+              </Link>
+
+              <button
+                type="button"
+                onClick={() => {
+                  const url = typeof window !== 'undefined' ? window.location.href : `https://historydiff.solisart.com${eventHref}`;
+                  const shareText =
+                    activeLang === 'ja'
+                      ? `【歴史教科書当てクイズ】「${currentEventTitle}」の記述（正解：${currentCountry}）に${isCorrect ? '正解しました！' : '挑戦しました！'} #HistoryDiff`
+                      : activeLang === 'zh'
+                      ? `【历史教科书竞猜】“${currentEventTitle}”的记述（正确答案：${currentCountry}），我${isCorrect ? '答对了！' : '参与了挑战！'} #HistoryDiff`
+                      : activeLang === 'ko'
+                      ? `[역사 교과서 맞히기 퀴즈] "${currentEventTitle}" 서술(정답: ${currentCountry}) 퀴즈에 ${isCorrect ? '정답을 맞혔습니다!' : '도전했습니다!'} #HistoryDiff`
+                      : `I ${isCorrect ? 'correctly guessed' : 'tested my knowledge on'} ${currentCountry}'s textbook description of "${currentEventTitle}" on #HistoryDiff!`;
+                  window.open(
+                    `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(url)}`,
+                    '_blank',
+                    'noopener,noreferrer'
+                  );
+                }}
+                style={{
+                  padding: '0.4rem 0.85rem',
+                  borderRadius: '20px',
+                  background: '#0f172a',
+                  border: 'none',
+                  color: '#ffffff',
+                  fontSize: '0.78rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                }}
+              >
+                <Share2 size={13} />
+                <span>{t.diagnosticShare}</span>
+              </button>
+            </div>
 
             {initialQuestions.length > 1 && (
               <button

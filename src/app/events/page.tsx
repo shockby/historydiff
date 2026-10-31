@@ -4,7 +4,7 @@ import { generateWebSiteSchema, generateItemListSchema, safeJsonLdStringify, SIT
 import EventsArchive from '@/app/components/EventsArchive';
 
 export const metadata: Metadata = {
-  title: 'Comparison Archives | HistoryDiff',
+  title: 'Historical Textbook Comparison Archives',
   description: 'Explore and compare differing historical narratives and textbook descriptions from nations worldwide.',
   alternates: {
     canonical: `${SITE_URL}/events`,
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Comparison Archives | HistoryDiff',
+    title: 'Historical Textbook Comparison Archives | HistoryDiff',
     description: 'Explore and compare differing historical narratives from textbooks worldwide.',
     url: `${SITE_URL}/events`,
     type: 'website',

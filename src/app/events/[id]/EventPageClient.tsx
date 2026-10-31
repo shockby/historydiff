@@ -13,6 +13,7 @@ import CollapsibleSection from '@/app/components/CollapsibleSection';
 const HistoryQuiz = dynamic(() => import('@/app/components/HistoryQuiz'), { ssr: false });
 const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDiagnostic'), { ssr: false });
 import WhyItMattersSection from '@/app/components/WhyItMattersSection';
+import SocialShareBar from '@/app/components/SocialShareBar';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
 import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
@@ -388,7 +389,7 @@ function getDefaultPerspectiveIndex(perspectives: EventPerspective[], lang: Lang
     : (lang === 'zh')
     ? ['中国', 'china', '台湾', 'taiwan']
     : (lang === 'ko')
-    ? ['韓国', 'korea', '대한민국']
+    ? ['한국', '韓国', 'korea', '대한민국']
     : ['usa', 'united states', 'アメリカ', '米国', 'uk', 'イギリス'];
 
   const idx = perspectives.findIndex(p => {
@@ -531,6 +532,15 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
           <p style={{ color: 'var(--text-secondary)', fontSize: isMobile ? '0.9rem' : '1.1rem', maxWidth: '900px' }}>
             {viewMode === 'read' ? t.perspectiveSummary : t.compareHelp}
           </p>
+          <SocialShareBar
+            eventId={(eventId ?? null) || left.id}
+            eventTitle={(eventTitle ?? null) || left.title}
+            leftCountry={left.country}
+            rightCountry={safeRight?.country}
+            allCountries={perspectives.map((p) => p.country)}
+            lang={activeLang}
+            variant="compact"
+          />
         </header>
 
         {/* ── Why This Matters Today & Live News (Ongoing Events) ── */}
@@ -659,6 +669,17 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
             />
           </>
         )}
+
+        {/* ── Social Share Callout Card ── */}
+        <SocialShareBar
+          eventId={(eventId ?? null) || left.id}
+          eventTitle={(eventTitle ?? null) || left.title}
+          leftCountry={left.country}
+          rightCountry={safeRight?.country}
+          allCountries={perspectives.map((p) => p.country)}
+          lang={activeLang}
+          variant="callout"
+        />
 
         {/* ── Interactive & Verification Sections (Collapsible with clear previews) ── */}
         {(perspectives.length >= 2 || notes.length > 0 || (voices && voices.voices.length > 0)) && (

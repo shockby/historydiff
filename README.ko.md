@@ -104,6 +104,7 @@ historydiff/
 │   │   │   ├── PhotoGallery.tsx         # 관련 역사 사진 갤러리
 │   │   │   ├── PublicVoices.tsx         # 소셜 미디어 여론의 목소리 (주관적 참고 정보)
 │   │   │   ├── SearchEvents.tsx         # 메인 화면 (최신 아카이브 선별 쇼케이스 및 목록 유도)
+│   │   │   ├── SocialShareBar.tsx       # 비교 국가 연동형 SNS 공유 바 (X / LINE / Reddit / Facebook 등)
 │   │   │   ├── SourceNatureBadges.tsx   # 출처 성격 및 언어 태그
 │   │   │   ├── TimelineView.tsx         # 시계열 연표 뷰
 │   │   │   ├── WelcomeModal.tsx         # 첫 방문자 온보딩 모달
@@ -122,6 +123,7 @@ historydiff/
 │       ├── markdown.ts           # 마크다운 YAML 파서 및 데이터 로더 유틸리티
 │       ├── quizData.ts           # 퀴즈 및 진단용 문제 데이터셋
 │       ├── schema.ts             # Schema.org 구조화 데이터 생성기
+│       ├── seoKeywords.ts        # 비교 국가 연동형 SEO 메타데이터 및 키워드 생성기
 │       ├── sorting.ts            # 연대 정렬 유틸리티
 │       ├── sourceNature.ts       # 출처 성격 자동 분류 및 언어 태그 처리
 │       ├── timelineUtils.ts      # 다중 연대 전개 및 연대별 주석 필터링 유틸리티
@@ -157,6 +159,7 @@ flowchart LR
 2. 비교하고자 하는 두 국가를 선택하면 좌우 분할(Side-by-Side) 또는 단일 행(Unified) 모드로 실시간 차이점이 표시됩니다.
 3. **'텍스트 쟁점 분석'** 패널에서 AI가 자동 추출한 국가별 '고유 어휘'와 '표현 대립' 목록을 확인합니다.
 4. 표현 대립 항목의 **'📖 원문 비교'** 버튼을 클릭하면 해당 문장 간의 단어 단위 Diff 하이라이트가 즉시 펼쳐집니다.
+5. **SNS 공유 바**(X, LINE, Reddit, Facebook, 링크 복사)를 통해 현재 비교 중인 두 국가의 교과서 서술 차이를 원클릭으로 공유할 수 있습니다.
 
 ### 3단계: 출처 성격 확인 및 커뮤니티 노트로 사실 검증
 1. 각 관점 카드 상단의 **출처 성격 배지**(정부 검정 교과서, 공식 성명, 학술 연구 등)와 원문/번역 언어 상태를 확인합니다.

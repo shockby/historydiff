@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Guide & How to Use | HistoryDiff',
+  title: 'Guide & How to Use',
   description: 'Comprehensive guide and walkthrough for HistoryDiff multilateral comparison, verification notes, and interactive tools.',
   alternates: {
     canonical: `${SITE_URL}/guide`,
@@ -28,6 +28,12 @@ export const metadata: Metadata = {
       ko: `${SITE_URL}/ko/guide`,
       'x-default': `${SITE_URL}/guide`,
     },
+  },
+  openGraph: {
+    title: 'Guide & How to Use | HistoryDiff',
+    description: 'Comprehensive guide and walkthrough for HistoryDiff multilateral comparison, verification notes, and interactive tools.',
+    url: `${SITE_URL}/guide`,
+    type: 'website',
   },
 };
 

@@ -5,5 +5,16 @@
     "en": "Georgia–Russia Conflict (South Ossetia & Abkhazia)",
     "zh": "格鲁吉亚-俄罗斯冲突（南奥塞梯与阿布哈兹）",
     "ko": "조지아-러시아 분쟁（남오세티야·압하지야）"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "russia-compatriot-protection",
+      "relation": {
+        "ja": "「国民保護」の論理を、ウクライナ・沿ドニエストル・バルトの事例と並べて比較。",
+        "en": "Compares the “protecting citizens” logic with Ukraine, Transnistria and the Baltics.",
+        "zh": "将“保护公民”的逻辑与乌克兰、德涅斯特河沿岸、波罗的海的案例对照。",
+        "ko": "'자국민 보호' 논리를 우크라이나·트란스니스트리아·발트 사례와 비교."
+      }
+    }
+  ]
 }

@@ -1,0 +1,125 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "notes": [
+    {
+      "id": "rcp-pretext-pattern",
+      "claim": "Russia has justified most of its military interventions in neighbouring states as “protecting Russians”",
+      "context": "In Transnistria (1992), Georgia (2008), Crimea (2014) and the 2022 invasion of Ukraine, the protection of Russians, Russian speakers or Russian passport holders was an explicit justification. By contrast, the Chechen wars were framed as an internal matter and the 1979 Afghanistan invasion as support for an allied government. The 1939 Soviet invasion of Poland was likewise justified as protecting Ukrainians and Belarusians.",
+      "verdict": "It is true that the rationale has been used in many cases, but not in all of Russia's interventions. Whether it was the real motive or a pretext is disputed; analysts point to multiple factors including security, a sphere of influence and opposition to NATO enlargement.",
+      "sources": [
+        {
+          "title": "Russian world (Russkiy Mir)",
+          "url": "https://en.wikipedia.org/wiki/Russian_world",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Soviet invasion of Poland (1939)",
+          "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-donbas-genocide",
+      "claim": "Ukraine was committing “genocide” against Russian-speaking residents of Donbas",
+      "context": "The OHCHR estimates around 14,000 deaths in the 2014–2021 Donbas conflict, including roughly 3,400 civilians, caused by fighting on both sides; abuses by pro-Russian armed groups are also documented. On March 16, 2022 the ICJ found no evidence of genocide and ordered Russia to suspend its military operations as a provisional measure.",
+      "verdict": "Many civilians did die in the conflict, but at the provisional stage the ICJ found no evidence of “genocide” in the legal sense; the merits have not been decided.",
+      "sources": [
+        {
+          "title": "ICJ: Allegations of Genocide (Ukraine v. Russian Federation)",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "OHCHR: Ukraine",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Address by the President of the Russian Federation (Feb 24, 2022)",
+          "url": "http://en.kremlin.ru/events/president/transcripts/67843",
+          "publisher": "Kremlin",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rcp-georgia-2008",
+      "claim": "Russia's 2008 military action was a legitimate response to protect Russian citizens in South Ossetia",
+      "context": "The EU mission (Tagliavini Report) held that Georgia's shelling of Tskhinvali on the night of August 7 opened the hostilities and was not justifiable under international law. It also found Russia's counter-offensive went beyond reasonable limits, and criticized prior mass passport issuance and provocations. Russia recognized South Ossetia and Abkhazia on August 26, but only a few states have followed.",
+      "verdict": "The mission put the opening shots on Georgia, yet Russia's response and its “protect citizens” logic were widely rejected. The assessment of responsibility is two-sided.",
+      "sources": [
+        {
+          "title": "Russo-Georgian War",
+          "url": "https://en.wikipedia.org/wiki/Russo-Georgian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-crimea-referendum",
+      "claim": "The 2014 annexation of Crimea was free self-determination by its residents",
+      "context": "In his March 18, 2014 speech Putin cited the referendum result and protection of Russian speakers as grounds. But the vote took place under armed troops without insignia, violated Ukraine's constitution, and UNGA Resolution 68/262 (100–11–58) declared it invalid. Russia later acknowledged the deployment of its troops.",
+      "verdict": "It is not recognized internationally as a legally valid act of self-determination. Some polls suggest many Crimeans backed joining Russia, but the freedom of the process cannot be verified.",
+      "sources": [
+        {
+          "title": "Address by President of the Russian Federation (Mar 18, 2014)",
+          "url": "http://en.kremlin.ru/events/president/news/20603",
+          "publisher": "Kremlin",
+          "type": "government"
+        },
+        {
+          "title": "UNGA Resolution 68/262",
+          "url": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_68/262",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-baltic-nonciti",
+      "claim": "The Baltic states systematically discriminate against their Russian-speaking residents",
+      "context": "When Estonia and Latvia regained independence in 1991, they automatically granted citizenship to pre-1940 citizens and their descendants and required naturalization of others. Many Russian speakers thus became stateless “non-citizens”, and a notable number remain. The Council of Europe and OSCE have criticized aspects of language and education policy, while noting the path to naturalization and broad conformity with EU standards.",
+      "verdict": "There are points of valid criticism on citizenship and language policy, but no international body has found persecution on a scale that would justify military intervention.",
+      "sources": [
+        {
+          "title": "Non-citizens (Latvia)",
+          "url": "https://en.wikipedia.org/wiki/Non-citizens_(Latvia)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "OSCE High Commissioner on National Minorities",
+          "url": "https://www.osce.org/hcnm",
+          "publisher": "OSCE",
+          "type": "international"
+        },
+        {
+          "title": "Bronze Soldier of Tallinn",
+          "url": "https://en.wikipedia.org/wiki/Bronze_Soldier_of_Tallinn",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-inside-russia",
+      "claim": "Ethnic minorities inside Russia are treated equally",
+      "context": "Russia has over 190 ethnic groups, about 80% of the population being ethnic Russian. A 2018 law made regional-language study effectively optional, drawing protests from places like Tatarstan. After the 2022 partial mobilization, observers noted high call-up rates in minority regions such as Buryatia and Dagestan. In January 2024, large protests erupted in Bashkortostan over an activist's conviction. Authorities say inter-ethnic harmony is maintained.",
+      "verdict": "Equality is guaranteed on paper, but language policy and uneven mobilization are criticized; independent verification is hampered by limits on reporting and data.",
+      "sources": [
+        {
+          "title": "2024 Bashkortostan protests",
+          "url": "https://en.wikipedia.org/wiki/2024_Bashkortostan_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

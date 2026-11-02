@@ -41,6 +41,7 @@ export const eventCoords: Record<string, LatLng> = {
   'textbook-controversy': { lat: 35.68, lng: 139.69 },   // Japan
   'tiananmen-1989': { lat: 39.91, lng: 116.39 },         // Beijing Tiananmen
   'ukraine-invasion': { lat: 49.0, lng: 32.0 },          // Ukraine
+  'russia-compatriot-protection': { lat: 47.0, lng: 29.0 }, // Transnistria / Ukraine / Georgia / Baltics (Russia's near abroad)
   'unit731': { lat: 45.75, lng: 126.6 },                 // Harbin, NE China
   'volhynia-massacre': { lat: 50.74, lng: 25.32 },       // Volhynia, Western Ukraine
   'ww2-asia': { lat: 35.0, lng: 115.0 },                 // Mainland China (general)
@@ -164,6 +165,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   'nagorno-karabakh': { region: 'europe' },
   'transnistria-conflict': { region: 'europe' },
   'ukraine-invasion': { region: 'europe' },
+  'russia-compatriot-protection': { region: 'europe' },
   'volhynia-massacre': { region: 'europe' },
 
   // ── Africa (8) ──

@@ -272,6 +272,19 @@ export interface EventMeta {
     zh?: string;
     ko?: string;
   };
+  relatedEvents?: RelatedEventRef[];
+}
+
+/** Cross-link to another event, declared in event.json (`relatedEvents`). */
+export interface RelatedEventRef {
+  id: string;
+  relation: LocalizedText;
+}
+
+export interface RelatedEvent {
+  id: string;
+  title: string;
+  relation: string;
 }
 
 export function getEventMeta(eventId: string): EventMeta | null {
@@ -288,3 +301,21 @@ export function getEventMeta(eventId: string): EventMeta | null {
   }
 }
 
+
+/**
+ * Resolve the cross-linked events declared in an event's event.json into
+ * localized titles and relation notes. Unknown or invalid ids are skipped.
+ */
+export function getRelatedEvents(eventId: string, lang = 'en'): RelatedEvent[] {
+  const refs = getEventMeta(eventId)?.relatedEvents ?? [];
+  const key = (['ja', 'en', 'zh', 'ko'].includes(lang) ? lang : 'en') as keyof LocalizedText;
+  const result: RelatedEvent[] = [];
+  for (const ref of refs) {
+    const meta = getEventMeta(ref.id);
+    if (!meta) continue;
+    const title = (meta.title[key as 'ja' | 'en' | 'zh' | 'ko'] ?? meta.title.en) ?? ref.id;
+    const relation = (ref.relation[key] ?? ref.relation.en) ?? '';
+    result.push({ id: ref.id, title, relation });
+  }
+  return result;
+}

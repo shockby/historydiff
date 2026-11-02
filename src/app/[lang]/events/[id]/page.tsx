@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta, getRelatedEvents } from '@/lib/markdown';
 import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import { buildEventSeoMeta } from '@/lib/seoKeywords';
 import EventPageClient from '@/app/events/[id]/EventPageClient';
@@ -27,6 +27,7 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id, lang } = await params;
   const perspectives = getEventPerspectives(id, lang);
+  const relatedEvents = getRelatedEvents(id, lang);
   const eventMeta = getEventMeta(id);
   const eventTitle = (eventMeta?.title?.[lang as 'ja' | 'zh' | 'ko'] ?? eventMeta?.title?.en) ?? null;
 
@@ -84,6 +85,7 @@ export default async function LocalizedEventPage({ params }: PageProps) {
   const photos = getEventPhotos(id);
   const voices = getEventVoices(id);
   const ongoing = getEventOngoing(id);
+  const relatedEvents = getRelatedEvents(id, lang);
   const eventMeta = getEventMeta(id);
   const eventTitle = (eventMeta?.title?.[lang as 'ja' | 'zh' | 'ko'] ?? eventMeta?.title?.en) ?? null;
 
@@ -153,6 +155,7 @@ export default async function LocalizedEventPage({ params }: PageProps) {
         initialPhotos={photos}
         initialVoices={voices}
         initialOngoing={ongoing}
+        relatedEvents={relatedEvents}
         lang={lang}
         eventTitle={eventTitle}
       />

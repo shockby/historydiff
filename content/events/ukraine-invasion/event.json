@@ -5,5 +5,16 @@
     "en": "Russia's Invasion of Ukraine (2022–)",
     "zh": "俄罗斯入侵乌克兰（2022年至今）",
     "ko": "러시아의 우크라이나 침공（2022년~）"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "russia-compatriot-protection",
+      "relation": {
+        "ja": "侵攻の名目となった「同胞保護」論を、モルドバ・ジョージア・バルトなど他地域と横断して比較。",
+        "en": "Compares the “protecting compatriots” rationale for the invasion across Moldova, Georgia, the Baltics and others.",
+        "zh": "跨摩尔多瓦、格鲁吉亚、波罗的海等地区比较作为入侵名义的“保护同胞”论。",
+        "ko": "침공의 명분이 된 '동포 보호'론을 몰도바·조지아·발트 등 다른 지역과 비교."
+      }
+    }
+  ]
 }

@@ -5,5 +5,16 @@
     "en": "Kosovo Independence Dispute",
     "zh": "科索沃独立争端",
     "ko": "코소보 독립 분쟁"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "russia-compatriot-protection",
+      "relation": {
+        "ja": "ロシアがコソボを先例として「保護」と自決を主張する論理と、国際法上の評価。",
+        "en": "How Russia cites Kosovo as precedent for “protection” and self-determination, and its assessment under international law.",
+        "zh": "俄罗斯以科索沃为先例主张“保护”与自决的逻辑及其国际法评价。",
+        "ko": "러시아가 코소보를 선례로 '보호'와 자결을 주장하는 논리와 국제법상 평가."
+      }
+    }
+  ]
 }

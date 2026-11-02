@@ -5,5 +5,16 @@
     "en": "\"Universal Values\" vs. \"Non-Interference\": Western-Style Democracy and Alternative Models of Governance",
     "zh": "“普遍价值”与“不干涉内政”：西方式民主与自主治理道路之争",
     "ko": "'보편적 가치' 대 '내정 불간섭': 서구식 민주주의와 독자 노선의 통치"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "russia-compatriot-protection",
+      "relation": {
+        "ja": "「保護」を名目とした武力行使と主権原則の衝突を示す具体例（ロシアの周辺国介入）。",
+        "en": "A concrete case of force used in the name of “protection” colliding with the sovereignty principle (Russia's interventions).",
+        "zh": "以“保护”为名使用武力与主权原则冲突的具体案例（俄罗斯对周边国家的干预）。",
+        "ko": "'보호'를 명분으로 한 무력 사용과 주권 원칙의 충돌을 보여 주는 사례(러시아의 주변국 개입)."
+      }
+    }
+  ]
 }

@@ -1,0 +1,156 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "russia-compatriot-protection-voice-1",
+      "country": {
+        "ja": "ロシア",
+        "en": "Russia",
+        "zh": "俄罗斯",
+        "ko": "러시아"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ロシア人が住む土地を見捨てることはできない。キーウ政権は同胞を迫害し、西側は二重基準で我々を非難しているだけだ。",
+        "en": "We cannot abandon the lands where Russians live. Kyiv persecuted our compatriots, and the West condemns us with double standards.",
+        "zh": "我们不能抛弃俄罗斯人居住的土地。基辅迫害同胞，西方只是以双重标准指责我们。",
+        "ko": "러시아인이 사는 땅을 버릴 수 없다. 키이우 정권이 동포를 박해했고 서방은 이중잣대로 우리를 비난할 뿐이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "国営メディアと国内SNSで主流の論調。世論調査では侵攻支持が多数とされるが、戦時下の調査の信頼性には留保が必要。",
+        "en": "Mainstream tone in state media and domestic social media. Polls show majority support, but wartime polling reliability is uncertain.",
+        "zh": "官方媒体和国内社交媒体的主流论调。民调显示多数支持，但战时民调的可靠性需保留。",
+        "ko": "국영 매체와 국내 SNS의 주류 논조. 여론조사는 다수 지지를 보이나 전시 조사의 신뢰성에는 유보가 필요하다."
+      },
+      "keywords": [
+        "#Compatriots",
+        "#Donbas",
+        "#SVO"
+      ],
+      "timeframe": "2014-2025"
+    },
+    {
+      "id": "russia-compatriot-protection-voice-2",
+      "country": {
+        "ja": "ウクライナ（ロシア語話者を含む）",
+        "en": "Ukraine (including Russian speakers)",
+        "zh": "乌克兰（含俄语居民）",
+        "ko": "우크라이나(러시아어 사용자 포함)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "自分たちは「保護」されるどころか、ロシア語の町が爆撃されている。言語ではなく国への忠誠が問題で、私はロシア語を話しながら国を守っている。",
+        "en": "Far from being “protected”, our Russian-speaking cities are being bombed. The issue is loyalty to the country, not language; I speak Russian and defend Ukraine.",
+        "zh": "我们非但没有被“保护”，说俄语的城市反而遭到轰炸。关键是对国家的忠诚而非语言，我说着俄语保卫乌克兰。",
+        "ko": "'보호'는커녕 러시아어를 쓰는 도시가 폭격당하고 있다. 문제는 언어가 아니라 국가에 대한 충성이며, 나는 러시아어를 쓰며 조국을 지키고 있다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "ハルキウ、オデーサなど東・南部の住民や兵士の発信に多い。",
+        "en": "Common among residents and soldiers in eastern and southern cities such as Kharkiv and Odesa.",
+        "zh": "常见于哈尔科夫、敖德萨等东南部居民和军人的表态。",
+        "ko": "하르키우·오데사 등 동·남부 주민과 군인들의 발언에 많다."
+      },
+      "keywords": [
+        "#Ukraine",
+        "#RussianSpeakers",
+        "#StandWithUkraine"
+      ],
+      "timeframe": "2022-2025"
+    },
+    {
+      "id": "russia-compatriot-protection-voice-3",
+      "country": {
+        "ja": "バルト三国",
+        "en": "Baltic states",
+        "zh": "波罗的海国家",
+        "ko": "발트 3국"
+      },
+      "sentiment": "security-focused",
+      "summary": {
+        "ja": "次は我々かもしれない。市民権と言語の議論は国内問題で、NATOの集団防衛と国境防衛の強化が最優先だ。",
+        "en": "We could be next. Citizenship and language are domestic matters; NATO collective defense and border fortification come first.",
+        "zh": "下一个可能是我们。公民权和语言是内部问题，北约集体防御和加强边境防御才是首要任务。",
+        "ko": "다음은 우리일 수 있다. 시민권과 언어 논의는 국내 문제이며 NATO 집단방위와 국경 방어 강화가 최우선이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "エストニア、ラトビア、リトアニアの政府・世論で共有される傾向。ロシア系住民の中には、国への帰属意識や生活への不安が混在する。",
+        "en": "Widely shared in Baltic government and public opinion; among Russian-speaking residents, loyalty to the state and anxieties about daily life are mixed.",
+        "zh": "波罗的海国家政府和舆论中普遍存在；俄语居民中对国家的认同与生活忧虑并存。",
+        "ko": "발트 국가의 정부·여론에서 널리 공유되며, 러시아계 주민 사이에는 국가 귀속감과 생활 불안이 혼재한다."
+      },
+      "keywords": [
+        "#Narva",
+        "#NATO",
+        "#Article5"
+      ],
+      "timeframe": "2014-2025"
+    },
+    {
+      "id": "russia-compatriot-protection-voice-4",
+      "country": {
+        "ja": "国際法・国際関係の研究者",
+        "en": "International law and relations scholars",
+        "zh": "国际法与国际关系学者",
+        "ko": "국제법·국제관계 연구자"
+      },
+      "sentiment": "academic",
+      "summary": {
+        "ja": "「保護する責任」は武力行使の一般的な根拠にならない。ただし米欧のコソボやイラクの先例が、ロシアに論拠を与えたとの指摘もあり、規範の一貫性が問われている。",
+        "en": "“Responsibility to protect” is not a general basis for force. Yet precedents like Kosovo and Iraq are said to have given Russia arguments, raising questions of normative consistency.",
+        "zh": "“保护的责任”不能成为使用武力的一般依据。但也有观点认为科索沃、伊拉克先例给了俄罗斯口实，规范的一致性受到质疑。",
+        "ko": "'보호할 책임'은 무력 사용의 일반적 근거가 될 수 없다. 다만 코소보·이라크 선례가 러시아에 논거를 제공했다는 지적도 있어 규범의 일관성이 문제된다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "学術誌や国際法のブログ・政策研究機関で議論される傾向。",
+        "en": "Debated in academic journals, international-law blogs and think tanks.",
+        "zh": "主要在学术期刊、国际法博客和智库中讨论。",
+        "ko": "학술지, 국제법 블로그, 정책 연구기관에서 논의된다."
+      },
+      "keywords": [
+        "#R2P",
+        "#Kosovo",
+        "#InternationalLaw"
+      ],
+      "timeframe": "2014-2025"
+    },
+    {
+      "id": "russia-compatriot-protection-voice-5",
+      "country": {
+        "ja": "カザフスタン",
+        "en": "Kazakhstan",
+        "zh": "哈萨克斯坦",
+        "ko": "카자흐스탄"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "ロシアとは隣国として協力したいが、「次は北部か」という不安は消えない。ロシア語話者の権利は我が国の法で守るという立場を示し続けるしかない。",
+        "en": "We want to cooperate with Russia as neighbours, but fears of “is the north next?” persist. We keep stressing that Russian speakers' rights are protected by our own laws.",
+        "zh": "作为邻国我们希望与俄合作，但“下一个会是北部吗”的担忧挥之不去。我们只能不断强调俄语居民的权利由本国法律保障。",
+        "ko": "이웃으로서 러시아와 협력하고 싶지만 '다음은 북부인가'라는 불안은 사라지지 않는다. 러시아어 사용자의 권리는 자국 법으로 보호된다는 입장을 계속 밝힐 수밖에 없다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "カザフスタンの研究者・ジャーナリストの論調。政府は対露関係に配慮し公式には慎重。",
+        "en": "Tone of Kazakh scholars and journalists; the government is officially cautious given ties with Russia.",
+        "zh": "哈萨克斯坦学者和记者的论调；政府顾及对俄关系，官方表态谨慎。",
+        "ko": "카자흐스탄 연구자·언론인의 논조. 정부는 대러 관계를 고려해 공식적으로 신중하다."
+      },
+      "keywords": [
+        "#Kazakhstan",
+        "#NorthKazakhstan",
+        "#Multivector"
+      ],
+      "timeframe": "2014-2025"
+    }
+  ]
+}

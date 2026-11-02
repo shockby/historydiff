@@ -20,5 +20,42 @@
     "zh": "西藏 新疆 内蒙古 达赖喇嘛 人权",
     "ko": "티베트 신장 위구르 내몽골 달라이 라마"
   },
-  "articles": []
+  "articles": [
+    {
+      "title": "ダライ・ラマ14世、後継者認定は自身の事務所のみが行うと表明（2025年7月）",
+      "source": "Central Tibetan Administration",
+      "url": "https://tibet.net/",
+      "publishedAt": "2025-07-02",
+      "summary": {
+        "ja": "90歳の誕生日を前に、ダライ・ラマ14世は転生制度を継続し、後継者の認定権はガンデン・ポタン財団にあると表明。中国政府は金瓶掣籤と中央政府の承認が必要と反発した。",
+        "en": "Ahead of his 90th birthday, the 14th Dalai Lama said the institution will continue and that the Gaden Phodrang Trust alone can recognize his reincarnation. Beijing responded that the Golden Urn and central government approval are required.",
+        "zh": "在90岁生日前夕，十四世达赖喇嘛表示转世制度将延续，认定权属于甘丹颇章基金会。中方回应称必须经金瓶掣签并报中央政府批准。",
+        "ko": "90세 생일을 앞두고 14대 달라이 라마는 환생 제도가 계속되며 인정 권한은 간덴 포당 재단에 있다고 밝혔다. 중국 정부는 금병추첨과 중앙정부 승인이 필요하다고 반박했다."
+      }
+    },
+    {
+      "title": "国連人権高等弁務官事務所、新疆に関する評価報告書を公表（2022年8月）",
+      "source": "UN OHCHR",
+      "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+      "publishedAt": "2022-08-31",
+      "summary": {
+        "ja": "恣意的拘束などが「人道に対する罪に該当しうる」と指摘。中国は報告書を全面的に拒否した。",
+        "en": "The report said arbitrary detention and other abuses may constitute crimes against humanity. China categorically rejected it.",
+        "zh": "报告指出任意拘押等行为可能构成危害人类罪，中方全面拒绝该报告。",
+        "ko": "임의 구금 등이 반인도범죄에 해당할 수 있다고 지적했다. 중국은 보고서를 전면 거부했다."
+      }
+    },
+    {
+      "title": "米国で「チベット・中国紛争解決促進法」が成立（2024年7月）",
+      "source": "U.S. Congress",
+      "url": "https://www.congress.gov/",
+      "publishedAt": "2024-07-12",
+      "summary": {
+        "ja": "チベットの地位に関する中国側の歴史的主張に反論し、対話による解決を促す法律が成立。中国は内政干渉だと反発した。",
+        "en": "The law counters Chinese historical claims about Tibet and promotes a negotiated resolution. China denounced it as interference in its internal affairs.",
+        "zh": "该法律反驳中方关于西藏的历史主张，并推动通过对话解决问题。中方斥其干涉内政。",
+        "ko": "티베트에 대한 중국의 역사적 주장에 맞서 대화를 통한 해결을 촉구하는 법이 제정되었다. 중국은 내정 간섭이라고 반발했다."
+      }
+    }
+  ]
 }

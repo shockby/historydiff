@@ -1,0 +1,125 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "notes": [
+    {
+      "id": "rcp-pretext-pattern",
+      "claim": "ロシアは周辺国への軍事介入のほとんどで「ロシア人の保護」を名目にしている",
+      "context": "1992年の沿ドニエストル、2008年のジョージア、2014年のクリミア、2022年のウクライナ侵攻では、ロシア人・ロシア語話者・ロシア国籍者の保護が明確な理由に挙げられた。一方、1994〜96年・1999年以降のチェチェン戦争は国内問題、1979年のアフガニスタン侵攻は同盟政権の要請という別の論理だった。1939年のソ連のポーランド侵攻でも、ウクライナ人・ベラルーシ人の保護が名目とされた。",
+      "verdict": "「多くの事例で使われてきた」ことは事実だが、すべての介入に当てはまるわけではない。また、この名目が実際の動機のすべてか、口実かは見解が分かれる（安全保障、勢力圏の維持、NATO拡大への対抗など複数要因が指摘される）。",
+      "sources": [
+        {
+          "title": "Russian world (Russkiy Mir)",
+          "url": "https://en.wikipedia.org/wiki/Russian_world",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Soviet invasion of Poland (1939)",
+          "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-donbas-genocide",
+      "claim": "ウクライナはドンバスのロシア語住民に対して「ジェノサイド」を行っていた",
+      "context": "2014〜2021年のドンバス紛争では、国連人権高等弁務官事務所の推計で約1万4千人が死亡し、民間人は約3,400人とされる。死者は双方の戦闘によるもので、親ロシア派武装勢力による人権侵害も記録されている。2022年3月16日、ICJはジェノサイドの証拠は見当たらないとして、ロシアに軍事作戦の停止を命じる暫定措置を出した。",
+      "verdict": "紛争で多数の民間人が犠牲になったのは事実だが、国際法上の「ジェノサイド」にあたる証拠は国際司法裁判所の暫定段階で認められていない（本案判断は未了）。",
+      "sources": [
+        {
+          "title": "ICJ: Allegations of Genocide (Ukraine v. Russian Federation)",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "OHCHR: Ukraine",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Address by the President of the Russian Federation (Feb 24, 2022)",
+          "url": "http://en.kremlin.ru/events/president/transcripts/67843",
+          "publisher": "Kremlin",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rcp-georgia-2008",
+      "claim": "2008年のロシアの軍事行動は、南オセチアのロシア国民を守るための正当な対応だった",
+      "context": "EU調査団（タガリアヴィ報告）は、ジョージア軍による8月7日夜のツヒンバリ砲撃が戦闘の発端であり、国際法上正当化できないとした。同時に、ロシアの反撃は合理的範囲を超え、事前の大量パスポート発給や挑発も問題だとした。ロシアは8月26日に南オセチアとアブハジアを国家承認したが、承認国は少数にとどまる。",
+      "verdict": "戦端はジョージア側にあるとされつつ、ロシアの対応と「国民保護」の論理も国際的には広く否定された。責任の評価は両面的。",
+      "sources": [
+        {
+          "title": "Russo-Georgian War",
+          "url": "https://en.wikipedia.org/wiki/Russo-Georgian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-crimea-referendum",
+      "claim": "2014年のクリミア併合は住民の自由な意思による自決だった",
+      "context": "プーチン大統領は2014年3月18日の演説で、住民投票の結果とロシア語話者の保護を併合の根拠とした。一方、投票は武装した「ロシアの兵士（所属章なし）」が展開する中で実施され、ウクライナ憲法に反し、国連総会決議68/262（賛成100・反対11・棄権58）は無効と宣言した。ロシア自身も後に、兵士の展開を認めている。",
+      "verdict": "国際的には法的に有効な自決とは認められていない。クリミアの住民の多くがロシア編入を支持していたとの世論調査もあるが、その自由度は検証できない。",
+      "sources": [
+        {
+          "title": "Address by President of the Russian Federation (Mar 18, 2014)",
+          "url": "http://en.kremlin.ru/events/president/news/20603",
+          "publisher": "Kremlin",
+          "type": "government"
+        },
+        {
+          "title": "UNGA Resolution 68/262",
+          "url": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_68/262",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-baltic-nonciti",
+      "claim": "バルト諸国はロシア系住民を組織的に差別している",
+      "context": "エストニアとラトビアは1991年の独立時、1940年以前の市民とその子孫に自動的に市民権を与え、それ以外は帰化を求めた。このため多くのロシア語系住民が無国籍の「非市民」となり、現在も一定数が残る。欧州評議会やOSCEは言語・教育政策を批判する一方、帰化の道があることや欧州連合基準に概ね適合していることも指摘している。",
+      "verdict": "市民権・言語政策に批判されるべき点はあるが、軍事介入を正当化するほどの組織的迫害があるとの国際機関の評価はない。",
+      "sources": [
+        {
+          "title": "Non-citizens (Latvia)",
+          "url": "https://en.wikipedia.org/wiki/Non-citizens_(Latvia)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "OSCE High Commissioner on National Minorities",
+          "url": "https://www.osce.org/hcnm",
+          "publisher": "OSCE",
+          "type": "international"
+        },
+        {
+          "title": "Bronze Soldier of Tallinn",
+          "url": "https://en.wikipedia.org/wiki/Bronze_Soldier_of_Tallinn",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-inside-russia",
+      "claim": "ロシア国内の少数民族は平等に扱われている",
+      "context": "ロシアには190以上の民族がいるとされ、約8割がロシア人。2018年の法改正で地方の民族語の学習が事実上選択制になり、タタールスタンなどから反発が出た。2022年の部分動員では、ブリヤートやダゲスタンなど少数民族地域の徴兵率が高いとの指摘が出た。2024年1月にはバシコルトスタンで活動家の有罪判決をめぐる大規模抗議が起きた。当局は民族間の調和は保たれていると説明する。",
+      "verdict": "公式には平等が保障されるが、言語政策や動員の偏りへの批判があり、独立した検証は報道・統計の制約で難しい。",
+      "sources": [
+        {
+          "title": "2024 Bashkortostan protests",
+          "url": "https://en.wikipedia.org/wiki/2024_Bashkortostan_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

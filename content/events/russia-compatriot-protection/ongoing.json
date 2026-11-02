@@ -1,0 +1,51 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-02",
+  "whyItMatters": {
+    "ja": "ロシアの「同胞保護」論は、ウクライナでの戦争、沿ドニエストルやジョージアの未解決の占領、バルト諸国やカザフスタンの安全保障観に直結しています。NATOの東方防衛の強化と、国際法上の「保護する責任」や自決権の解釈をめぐる議論にも影響し続けています。",
+    "en": "Russia's “protecting compatriots” rationale bears directly on the war in Ukraine, the unresolved occupations in Transnistria and Georgia, and the security outlook of the Baltic states and Kazakhstan. It continues to shape NATO's eastern defense and debates over the “responsibility to protect” and self-determination in international law.",
+    "zh": "俄罗斯的“保护同胞”论直接关系到乌克兰战争、德涅斯特河沿岸和格鲁吉亚悬而未决的占领问题，以及波罗的海国家和哈萨克斯坦的安全观，并持续影响北约东翼防务及国际法上“保护的责任”和自决权的争论。",
+    "ko": "러시아의 '동포 보호'론은 우크라이나 전쟁, 트란스니스트리아와 조지아의 미해결 점령, 발트 국가와 카자흐스탄의 안보관과 직결된다. NATO 동부 방어 강화와 국제법상 '보호할 책임'·자결권 해석을 둘러싼 논쟁에도 계속 영향을 미친다."
+  },
+  "whatToWatchNext": {
+    "ja": "・ウクライナの停戦交渉と占領地の扱い\n・沿ドニエストルのロシア軍とモルドバのEU加盟交渉\n・バルト諸国の国境防衛とロシア語教育政策\n・ICJでのウクライナ対ロシア訴訟の本案審理",
+    "en": "・Ukraine ceasefire talks and the status of occupied territories\n・Russian troops in Transnistria and Moldova's EU accession talks\n・Baltic border defense and Russian-language education policy\n・Merits proceedings in Ukraine v. Russia at the ICJ",
+    "zh": "・乌克兰停火谈判与被占领土地位\n・德涅斯特河沿岸俄军与摩尔多瓦入欧谈判\n・波罗的海国家边境防御与俄语教育政策\n・国际法院“乌克兰诉俄罗斯”案实体审理",
+    "ko": "・우크라이나 휴전 협상과 점령지 처리\n・트란스니스트리아 러시아군과 몰도바 EU 가입 협상\n・발트 국가의 국경 방어와 러시아어 교육 정책\n・ICJ 우크라이나 대 러시아 소송 본안 심리"
+  },
+  "rssQuery": {
+    "ja": "ロシア 同胞保護 ウクライナ 沿ドニエストル バルト",
+    "en": "Russia compatriots Transnistria Ukraine Baltic Narva",
+    "zh": "俄罗斯 保护同胞 德涅斯特河沿岸 乌克兰 波罗的海",
+    "ko": "러시아 동포 보호 트란스니스트리아 우크라이나 발트"
+  },
+  "articles": [
+    {
+      "title": "ICJ orders Russia to suspend military operations in Ukraine (provisional measures)",
+      "source": "International Court of Justice",
+      "url": "https://www.icj-cij.org/case/182",
+      "publishedAt": "2022-03-16",
+      "summary": {
+        "ja": "ICJはウクライナがジェノサイドを行った証拠は見当たらないとし、ロシアに軍事作戦の停止を命じる暫定措置を出した。",
+        "en": "The ICJ found no evidence that Ukraine committed genocide and ordered Russia, as a provisional measure, to suspend its military operations.",
+        "zh": "国际法院认为没有证据表明乌克兰实施种族灭绝，并作出临时措施要求俄罗斯暂停军事行动。",
+        "ko": "ICJ는 우크라이나가 제노사이드를 저질렀다는 증거가 없다며 러시아에 군사작전 중단을 명하는 잠정조치를 내렸다."
+      },
+      "country": "International"
+    },
+    {
+      "title": "Address by the President of the Russian Federation announcing the special military operation",
+      "source": "Kremlin",
+      "url": "http://en.kremlin.ru/events/president/transcripts/67843",
+      "publishedAt": "2022-02-24",
+      "summary": {
+        "ja": "プーチン大統領はドンバス住民の保護と「非ナチ化・非軍事化」を侵攻の目的に挙げた。",
+        "en": "Putin named protecting Donbas residents and “denazification and demilitarization” as aims of the invasion.",
+        "zh": "普京将保护顿巴斯居民和“去纳粹化、非军事化”列为入侵目标。",
+        "ko": "푸틴 대통령은 돈바스 주민 보호와 '비나치화·비무장화'를 침공 목적으로 제시했다."
+      },
+      "country": "Russia"
+    }
+  ]
+}

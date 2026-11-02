@@ -1,0 +1,125 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "notes": [
+    {
+      "id": "rcp-pretext-pattern",
+      "claim": "俄罗斯对周边国家的军事干预大多以“保护俄罗斯人”为名",
+      "context": "1992年德涅斯特河沿岸、2008年格鲁吉亚、2014年克里米亚和2022年入侵乌克兰，都明确以保护俄罗斯人、俄语居民或持俄护照者为由。而车臣战争被定性为内政，1979年入侵阿富汗则以应盟友政权请求为由。1939年苏联入侵波兰也曾以保护乌克兰人和白俄罗斯人为名。",
+      "verdict": "该理由确实在许多案例中被使用，但并非适用于俄罗斯所有干预。它究竟是真实动机还是借口存在分歧，分析人士还指出安全、势力范围、反对北约东扩等多重因素。",
+      "sources": [
+        {
+          "title": "Russian world (Russkiy Mir)",
+          "url": "https://en.wikipedia.org/wiki/Russian_world",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Soviet invasion of Poland (1939)",
+          "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-donbas-genocide",
+      "claim": "乌克兰对顿巴斯俄语居民实施了“种族灭绝”",
+      "context": "据联合国人权事务高级专员办事处估计，2014至2021年顿巴斯冲突约造成1.4万人死亡，其中平民约3400人，死亡源于双方交战，亲俄武装的侵权行为也有记录。2022年3月16日，国际法院认为没有种族灭绝的证据，并作出临时措施要求俄罗斯暂停军事行动。",
+      "verdict": "冲突造成大量平民死亡属实，但国际法院在临时措施阶段未发现法律意义上的“种族灭绝”证据，实体问题尚无裁决。",
+      "sources": [
+        {
+          "title": "ICJ: Allegations of Genocide (Ukraine v. Russian Federation)",
+          "url": "https://www.icj-cij.org/case/182",
+          "publisher": "International Court of Justice",
+          "type": "international"
+        },
+        {
+          "title": "OHCHR: Ukraine",
+          "url": "https://www.ohchr.org/en/countries/ukraine",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Address by the President of the Russian Federation (Feb 24, 2022)",
+          "url": "http://en.kremlin.ru/events/president/transcripts/67843",
+          "publisher": "Kremlin",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "rcp-georgia-2008",
+      "claim": "2008年俄罗斯的军事行动是保护南奥塞梯俄罗斯公民的正当回应",
+      "context": "欧盟调查团（塔利亚维尼报告）认为，8月7日夜格军炮击茨欣瓦利引发战斗，在国际法上无法成立；同时认为俄方反击超出合理限度，事先大规模发放护照和挑衅也有问题。俄罗斯8月26日承认南奥塞梯和阿布哈兹，但跟进的国家寥寥。",
+      "verdict": "调查认为开战责任在格方，但俄方的反应及“保护公民”逻辑也被国际社会广泛否定，责任评价具有两面性。",
+      "sources": [
+        {
+          "title": "Russo-Georgian War",
+          "url": "https://en.wikipedia.org/wiki/Russo-Georgian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-crimea-referendum",
+      "claim": "2014年吞并克里米亚是居民自由意志下的自决",
+      "context": "普京在2014年3月18日的讲话中以公投结果和保护俄语居民为依据。但公投是在无标识武装人员部署下举行的，违反乌克兰宪法，联大第68/262号决议（100票赞成、11票反对、58票弃权）宣布其无效。俄方后来也承认部署了军队。",
+      "verdict": "国际上不被承认为具有法律效力的自决。有民调显示不少克里米亚居民支持并入俄罗斯，但过程的自由度无法核实。",
+      "sources": [
+        {
+          "title": "Address by President of the Russian Federation (Mar 18, 2014)",
+          "url": "http://en.kremlin.ru/events/president/news/20603",
+          "publisher": "Kremlin",
+          "type": "government"
+        },
+        {
+          "title": "UNGA Resolution 68/262",
+          "url": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_68/262",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-baltic-nonciti",
+      "claim": "波罗的海国家对俄裔居民进行系统性歧视",
+      "context": "爱沙尼亚和拉脱维亚1991年独立时，自动授予1940年前公民及其后裔国籍，其他人须申请入籍，致使不少俄语居民成为无国籍的“非公民”，至今仍有相当数量。欧洲委员会和欧安组织批评其语言和教育政策的某些方面，同时也指出入籍渠道存在，总体符合欧盟标准。",
+      "verdict": "公民权和语言政策确有可批评之处，但没有国际机构认定存在足以为军事干预正名的系统性迫害。",
+      "sources": [
+        {
+          "title": "Non-citizens (Latvia)",
+          "url": "https://en.wikipedia.org/wiki/Non-citizens_(Latvia)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "OSCE High Commissioner on National Minorities",
+          "url": "https://www.osce.org/hcnm",
+          "publisher": "OSCE",
+          "type": "international"
+        },
+        {
+          "title": "Bronze Soldier of Tallinn",
+          "url": "https://en.wikipedia.org/wiki/Bronze_Soldier_of_Tallinn",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "rcp-inside-russia",
+      "claim": "俄罗斯国内的少数民族受到平等对待",
+      "context": "俄罗斯有190多个民族，约八成为俄罗斯族。2018年修法使地方民族语言学习实际上变为选修，引发鞑靼斯坦等地反对。2022年部分动员后，有观察指出布里亚特、达吉斯坦等少数民族地区征召比例偏高。2024年1月巴什科尔托斯坦因一名活动人士被判刑爆发大规模抗议。当局称民族和睦得到维护。",
+      "verdict": "法律上保障平等，但语言政策和动员不均受到批评，报道和统计受限使独立核实困难。",
+      "sources": [
+        {
+          "title": "2024 Bashkortostan protests",
+          "url": "https://en.wikipedia.org/wiki/2024_Bashkortostan_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

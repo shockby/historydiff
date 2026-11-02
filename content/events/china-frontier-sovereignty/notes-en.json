@@ -1,0 +1,125 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "notes": [
+    {
+      "id": "cfs-17-point-agreement",
+      "claim": "The 1951 Seventeen Point Agreement was a voluntary accord by Tibet",
+      "context": "The agreement was signed in Beijing in May 1951 by a Tibetan delegation and the Chinese government. China says it was lawful and later endorsed by the Tibetan local government. Exile sources say the delegation lacked full authority, the seals were made in Beijing and signing was under duress. The Dalai Lama telegraphed acceptance in October 1951 but repudiated it in 1959.",
+      "verdict": "Both sides have some basis; historians disagree on how voluntary the signing was. That the agreement existed, and that Tibet then came under effective PRC control, is undisputed.",
+      "sources": [
+        {
+          "title": "Seventeen Point Agreement",
+          "url": "https://en.wikipedia.org/wiki/Seventeen_Point_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Central Tibetan Administration",
+          "url": "https://tibet.net/",
+          "publisher": "Central Tibetan Administration",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-tibet-historical-status",
+      "claim": "Tibet was an independent state in 1913–1950 / Tibet has always been part of China",
+      "context": "Tibet declared independence in 1913 and governed itself de facto, but Britain acknowledged Chinese \"suzerainty\" and no state formally recognized it as independent. China claims sovereignty since the Yuan dynasty, while scholars disagree on whether Qing-era ties were sovereignty or a priest–patron relationship.",
+      "verdict": "A fairly common view is that Tibet was de facto independent without international recognition; its legal status remains interpreted differently.",
+      "sources": [
+        {
+          "title": "Tibet: historical status",
+          "url": "https://en.wikipedia.org/wiki/Tibet_(1912%E2%80%931951)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chinese government white papers",
+          "url": "https://english.www.gov.cn/",
+          "publisher": "PRC State Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-xinjiang-detention",
+      "claim": "Xinjiang facilities are vocational training against terrorism; there is no mass internment or genocide",
+      "context": "China calls the facilities vocational education and training centers and says all trainees graduated by end-2019. Satellite imagery, leaked documents (China Cables, Xinjiang Police Files) and former detainees' testimony indicate large-scale arbitrary detention. In 2022 OHCHR said the abuses may amount to crimes against humanity.",
+      "verdict": "Large-scale detention is supported by multiple independent sources. The legal label \"genocide\" has been applied by the U.S. and some others, but lawyers disagree over proving intent, and no international court has ruled.",
+      "sources": [
+        {
+          "title": "OHCHR Assessment of human rights concerns in Xinjiang",
+          "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Determination of the Secretary of State on Atrocities in Xinjiang",
+          "url": "https://2017-2021.state.gov/determination-of-the-secretary-of-state-on-atrocities-in-xinjiang/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-east-turkestan",
+      "claim": "\"East Turkestan\" is a term invented by separatists with no historical reality",
+      "context": "Short-lived regimes calling themselves the East Turkestan Republic existed in 1933 (Kashgar) and 1944–49 (Ili, Soviet-backed). Neither won international recognition, and the latter merged into Communist China in 1949. The name itself has been in use since the early 20th century.",
+      "verdict": "The name and the short-lived regimes are historical facts, but there was never an internationally recognized independent state. The legitimacy of modern independence claims rests on historical interpretation and political judgment.",
+      "sources": [
+        {
+          "title": "East Turkestan Republic (1944–1949)",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Turkestan_Republic",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "World Uyghur Congress",
+          "url": "https://www.uyghurcongress.org/en/",
+          "publisher": "World Uyghur Congress",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-inner-mongolia-language",
+      "claim": "The 2020 Inner Mongolia protests were separatism incited by foreign forces",
+      "context": "In August–September 2020, a policy shifting some classes from Mongolian-language to Mandarin textbooks led to class boycotts and protests. Rights groups and media reported many detentions. Authorities say promoting the national common language accords with the Constitution. Most reports say the central demand was language and cultural protection, not independence.",
+      "verdict": "Protests and detentions are widely reported and centered on language rights; no independent evidence of foreign incitement has been verified.",
+      "sources": [
+        {
+          "title": "Southern Mongolian Human Rights Information Center",
+          "url": "https://www.smhric.org/",
+          "publisher": "SMHRIC",
+          "type": "academic"
+        },
+        {
+          "title": "Inner Mongolia language protests 2020",
+          "url": "https://en.wikipedia.org/wiki/2020_Inner_Mongolia_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cfs-intl-recognition",
+      "claim": "The international community disputes China's sovereignty",
+      "context": "No UN member recognizes Tibet, Xinjiang or Inner Mongolia as independent or recognizes the Tibetan government-in-exile as a government. Western states criticize human-rights conditions, not territorial attribution, and at the UN both supporting and critical camps issue rival joint statements.",
+      "verdict": "No state-level challenge to territorial attribution is found. Many states criticize human-rights conduct, but positions are split.",
+      "sources": [
+        {
+          "title": "UN Human Rights Council vote on Xinjiang debate (Oct 2022)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/regular-sessions/session51/regular-session",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Tibetan Policy and Support Act / Resolve Tibet Act",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

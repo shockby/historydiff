@@ -1,0 +1,53 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "photos": [
+    {
+      "id": "potala-palace",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Potala_Palace.jpg",
+      "caption": {
+        "ja": "ラサのポタラ宮。歴代ダライ・ラマの居城で、1959年の蜂起後にダライ・ラマ14世はインドへ亡命した。現在は中国政府管理下の観光・文化遺産となっている。",
+        "en": "Potala Palace in Lhasa, historic seat of the Dalai Lamas. The 14th Dalai Lama fled to India after the 1959 uprising. It is now a heritage and tourist site under Chinese government management.",
+        "zh": "拉萨布达拉宫，历代达赖喇嘛的居所。1959年事件后十四世达赖喇嘛流亡印度。现为中国政府管理的文化遗产与旅游景点。",
+        "ko": "라싸의 포탈라궁. 역대 달라이 라마의 거처로 1959년 봉기 후 14대 달라이 라마는 인도로 망명했다. 현재는 중국 정부가 관리하는 문화유산이자 관광지다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Potala Palace.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Potala_Palace.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "onwardtibet.org"
+      }
+    },
+    {
+      "id": "id-kah-mosque",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Id_Kah_Mosque_Kashgar.jpg",
+      "caption": {
+        "ja": "新疆カシュガルのエイティガール・モスク。ウイグル人の宗教・文化の中心で、新疆での宗教政策や文化遺産の扱いをめぐる議論でもしばしば言及される。",
+        "en": "Id Kah Mosque in Kashgar, Xinjiang, a center of Uyghur religious and cultural life, often cited in debates over religious policy and heritage treatment in Xinjiang.",
+        "zh": "新疆喀什艾提尕尔清真寺，维吾尔族宗教与文化生活的中心，常在关于新疆宗教政策和文化遗产处理的讨论中被提及。",
+        "ko": "신장 카슈가르의 이드카 사원. 위구르인 종교·문화의 중심지로 신장의 종교 정책과 문화유산 처리 논쟁에서 자주 언급된다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Id Kah Mosque Kashgar.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Id_Kah_Mosque_Kashgar.jpg",
+        "license": "CC BY 3.0",
+        "author": "Radosław Botev"
+      }
+    },
+    {
+      "id": "genghis-khan-mausoleum",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Genghis_khan_mausoleum.jpg",
+      "caption": {
+        "ja": "内モンゴル・オルドスのチンギス・ハン廟。モンゴル民族の象徴的な聖地であり、内モンゴルの文化的アイデンティティを語る際に頻繁に取り上げられる。",
+        "en": "The Genghis Khan Mausoleum in Ordos, Inner Mongolia, a symbolic Mongol shrine often invoked in discussions of Inner Mongolia's cultural identity.",
+        "zh": "内蒙古鄂尔多斯成吉思汗陵，蒙古族象征性的圣地，常在讨论内蒙古文化认同时被提及。",
+        "ko": "내몽골 오르도스의 칭기즈 칸 능. 몽골 민족의 상징적 성지로 내몽골의 문화적 정체성을 논할 때 자주 언급된다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Genghis khan mausoleum.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Genghis_khan_mausoleum.jpg",
+        "license": "CC BY 3.0",
+        "author": "Samxli"
+      }
+    }
+  ]
+}

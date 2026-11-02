@@ -1,0 +1,125 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "notes": [
+    {
+      "id": "cfs-17-point-agreement",
+      "claim": "1951年《十七条协议》是西藏方面自愿达成的协议",
+      "context": "协议于1951年5月由西藏代表团与中国政府在北京签署。中方称其合法，并获西藏地方政府承认；流亡方称代表团没有全权，印章在北京刻制，是在压力下签署。达赖喇嘛1951年10月致电表示接受，但1959年否认了该协议。",
+      "verdict": "双方各有依据，历史学家对签署的自愿程度看法不一。协议存在以及此后西藏被中国有效控制的事实无争议。",
+      "sources": [
+        {
+          "title": "Seventeen Point Agreement",
+          "url": "https://en.wikipedia.org/wiki/Seventeen_Point_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Central Tibetan Administration",
+          "url": "https://tibet.net/",
+          "publisher": "Central Tibetan Administration",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-tibet-historical-status",
+      "claim": "西藏在1913至1950年是独立国家／西藏自古属于中国",
+      "context": "1913年西藏宣布独立并事实上自治，但英国承认中国的“宗主权”，没有国家正式承认其独立。中方主张自元朝起即拥有主权，学界对清代关系是主权还是“供施关系”看法不一。",
+      "verdict": "较为普遍的看法是西藏处于事实独立但未获国际承认的状态，其法律地位仍有不同解释。",
+      "sources": [
+        {
+          "title": "Tibet: historical status",
+          "url": "https://en.wikipedia.org/wiki/Tibet_(1912%E2%80%931951)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chinese government white papers",
+          "url": "https://english.www.gov.cn/",
+          "publisher": "PRC State Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-xinjiang-detention",
+      "claim": "新疆的设施是反恐职业培训，不存在大规模关押或种族灭绝",
+      "context": "中方称这些设施为职业技能教育培训中心，学员于2019年底全部结业。卫星图像、外泄文件（“中国电文”“新疆警察文件”）和前被关押者证词表明存在大规模任意拘押。联合国人权高专办2022年评估称可能构成危害人类罪。",
+      "verdict": "大规模关押有多个独立证据印证。“种族灭绝”的法律认定由美国等部分国家作出，但在意图证明等问题上法律界看法不一，尚无国际法庭裁决。",
+      "sources": [
+        {
+          "title": "OHCHR Assessment of human rights concerns in Xinjiang",
+          "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Determination of the Secretary of State on Atrocities in Xinjiang",
+          "url": "https://2017-2021.state.gov/determination-of-the-secretary-of-state-on-atrocities-in-xinjiang/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-east-turkestan",
+      "claim": "“东突厥斯坦”是没有历史实体的分裂主义者杜撰",
+      "context": "1933年（喀什）和1944至1949年（伊犁，苏联支持）确实存在过自称“东突厥斯坦共和国”的短命政权。两者均未获国际承认，后者于1949年并入新中国。该名称本身自20世纪初就已使用。",
+      "verdict": "名称和短命政权是历史事实，但从未成为国际承认的独立国家。当代独立诉求的正当性取决于历史解释与政治判断。",
+      "sources": [
+        {
+          "title": "East Turkestan Republic (1944–1949)",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Turkestan_Republic",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "World Uyghur Congress",
+          "url": "https://www.uyghurcongress.org/en/",
+          "publisher": "World Uyghur Congress",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-inner-mongolia-language",
+      "claim": "2020年内蒙古抗议是外部势力煽动的分裂活动",
+      "context": "2020年8至9月，部分课程由蒙古语教材改用国家统编汉语教材，引发罢课和抗议。人权组织和媒体报道多人被拘留。当局称推广国家通用语言符合宪法。多数报道称抗议的核心诉求是保护语言文化，而非独立。",
+      "verdict": "抗议和拘留已被广泛报道，核心诉求是语言权利；尚无独立证据证实存在外部势力煽动。",
+      "sources": [
+        {
+          "title": "Southern Mongolian Human Rights Information Center",
+          "url": "https://www.smhric.org/",
+          "publisher": "SMHRIC",
+          "type": "academic"
+        },
+        {
+          "title": "Inner Mongolia language protests 2020",
+          "url": "https://en.wikipedia.org/wiki/2020_Inner_Mongolia_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cfs-intl-recognition",
+      "claim": "国际社会对中国的主权提出异议",
+      "context": "没有任何联合国会员国承认西藏、新疆或内蒙古为独立国家，也没有国家承认西藏流亡政府。西方国家批评的是人权状况而非领土归属，在联合国，支持与批评两个阵营各自发表联合声明。",
+      "verdict": "在国家层面未发现对领土归属的异议。许多国家批评人权问题，但各国立场分化。",
+      "sources": [
+        {
+          "title": "UN Human Rights Council vote on Xinjiang debate (Oct 2022)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/regular-sessions/session51/regular-session",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Tibetan Policy and Support Act / Resolve Tibet Act",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

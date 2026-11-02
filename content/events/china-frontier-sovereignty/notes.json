@@ -1,0 +1,125 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "notes": [
+    {
+      "id": "cfs-17-point-agreement",
+      "claim": "1951年の十七条協定はチベット側の自由意思による合意だった",
+      "context": "協定は1951年5月に北京でチベット代表団と中国政府が署名した。中国は合法で、チベット地方政府が承認したと主張する。亡命側は代表団が全権を持たず、公印も北京で作られ圧力下で署名されたと主張する。ダライ・ラマは1951年10月に承認の電報を送ったが、1959年に協定を否認した。",
+      "verdict": "どちらの主張にも一定の根拠があり、署名の自発性は歴史家の間でも見解が分かれる。協定の存在と、その後チベットが実効支配下に入った事実は争いがない。",
+      "sources": [
+        {
+          "title": "Seventeen Point Agreement",
+          "url": "https://en.wikipedia.org/wiki/Seventeen_Point_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Central Tibetan Administration",
+          "url": "https://tibet.net/",
+          "publisher": "Central Tibetan Administration",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-tibet-historical-status",
+      "claim": "チベットは1913〜1950年に独立国家だった／古来より中国の一部だった",
+      "context": "1913年にチベットは独立を宣言し、事実上の自治を行ったが、英国は中国の「宗主権」を認める立場で、独立国として承認した国はなかった。中国は元朝以来の主権を主張するが、清朝期の関係の性格（宗教的庇護関係か主権か）については学説が分かれる。",
+      "verdict": "事実上の独立状態だったが国際的承認はなかった、というのが比較的共通した理解。法的地位は解釈が分かれる。",
+      "sources": [
+        {
+          "title": "Tibet: historical status",
+          "url": "https://en.wikipedia.org/wiki/Tibet_(1912%E2%80%931951)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chinese government white papers",
+          "url": "https://english.www.gov.cn/",
+          "publisher": "PRC State Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-xinjiang-detention",
+      "claim": "新疆の施設は反テロのための職業訓練であり、強制収容やジェノサイドはない",
+      "context": "中国は施設を職業技能教育訓練センターと説明し、2019年末に全員修了としている。一方、衛星画像、流出文書（「チャイナ・ケーブルズ」「新疆警察ファイル」）、元収容者の証言は大規模な恣意的拘束を示す。国連人権高等弁務官事務所は2022年に「人道に対する罪に該当しうる」と評価した。",
+      "verdict": "大規模な拘束の存在は複数の独立した証拠で裏付けられる。「ジェノサイド」という法的認定は米国など一部が行ったが、意図の立証などをめぐり法律家の間でも意見が割れており、国際裁判所の判断はない。",
+      "sources": [
+        {
+          "title": "OHCHR Assessment of human rights concerns in Xinjiang",
+          "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Determination of the Secretary of State on Atrocities in Xinjiang",
+          "url": "https://2017-2021.state.gov/determination-of-the-secretary-of-state-on-atrocities-in-xinjiang/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-east-turkestan",
+      "claim": "「東トルキスタン」は歴史的実体のない分離主義者の造語である",
+      "context": "1933年（カシュガル）と1944〜49年（イリ、ソ連の支援）に「東トルキスタン共和国」を名乗る政権が短期間存在した事実は確認されている。ただしいずれも国際的な承認は得ておらず、後者は1949年に中国共産党に合流した。この名称自体は20世紀初頭から使われている。",
+      "verdict": "名称と短命の政権は歴史的事実だが、国際的に認められた独立国家だったことはない。現代の独立運動の正当性は歴史解釈と政治判断に依存する。",
+      "sources": [
+        {
+          "title": "East Turkestan Republic (1944–1949)",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Turkestan_Republic",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "World Uyghur Congress",
+          "url": "https://www.uyghurcongress.org/en/",
+          "publisher": "World Uyghur Congress",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-inner-mongolia-language",
+      "claim": "内モンゴルでの2020年の抗議は外国勢力に扇動された分離運動である",
+      "context": "2020年8〜9月、モンゴル語での授業の一部を中国語教材に切り替える方針に対し、授業ボイコットや抗議が広がった。人権団体や報道は多数の拘束を伝える。中国当局は国家通用語の普及は憲法に沿うと説明している。抗議の主な要求は言語・文化の保護で、独立を掲げたものではなかったと多くの報道は伝える。",
+      "verdict": "抗議と拘束は広く報じられており、要求の中心は言語権。外国勢力による扇動を裏付ける独立した証拠は確認されていない。",
+      "sources": [
+        {
+          "title": "Southern Mongolian Human Rights Information Center",
+          "url": "https://www.smhric.org/",
+          "publisher": "SMHRIC",
+          "type": "academic"
+        },
+        {
+          "title": "Inner Mongolia language protests 2020",
+          "url": "https://en.wikipedia.org/wiki/2020_Inner_Mongolia_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cfs-intl-recognition",
+      "claim": "国際社会は中国の主権に異議を唱えている",
+      "context": "国連加盟国で、チベット・新疆・内モンゴルを独立国と承認している国や、チベット亡命政府を政府承認している国はない。西側諸国が問題にしているのは領土帰属ではなく人権状況であり、国連の場でも支持・批判の両陣営が共同声明を競う構図となっている。",
+      "verdict": "領土帰属への異議は国家レベルでは確認されない。人権面の批判は多くの国が行うが、各国の立場は割れている。",
+      "sources": [
+        {
+          "title": "UN Human Rights Council vote on Xinjiang debate (Oct 2022)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/regular-sessions/session51/regular-session",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Tibetan Policy and Support Act / Resolve Tibet Act",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

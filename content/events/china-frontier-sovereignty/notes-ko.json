@@ -1,0 +1,125 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "notes": [
+    {
+      "id": "cfs-17-point-agreement",
+      "claim": "1951년 17조 협정은 티베트 측이 자유의사로 맺은 합의였다",
+      "context": "협정은 1951년 5월 베이징에서 티베트 대표단과 중국 정부가 서명했다. 중국은 합법이며 티베트 지방정부가 승인했다고 주장하고, 망명 측은 대표단에 전권이 없었고 인장도 베이징에서 만들어졌으며 압박 속에 서명했다고 주장한다. 달라이 라마는 1951년 10월 수락 전문을 보냈으나 1959년 협정을 부인했다.",
+      "verdict": "양측 모두 일정한 근거가 있고 서명의 자발성에 대해 역사학자들의 견해가 갈린다. 협정의 존재와 이후 티베트가 중국의 실효 지배 아래 들어간 사실은 다툼이 없다.",
+      "sources": [
+        {
+          "title": "Seventeen Point Agreement",
+          "url": "https://en.wikipedia.org/wiki/Seventeen_Point_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Central Tibetan Administration",
+          "url": "https://tibet.net/",
+          "publisher": "Central Tibetan Administration",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-tibet-historical-status",
+      "claim": "티베트는 1913~1950년 독립국이었다 / 예로부터 중국의 일부였다",
+      "context": "1913년 티베트는 독립을 선언하고 사실상 자치를 했으나 영국은 중국의 '종주권'을 인정했고 독립국으로 공식 승인한 나라는 없었다. 중국은 원나라 이래의 주권을 주장하지만 청대 관계가 주권인지 사원-후원자 관계인지 학계 견해가 갈린다.",
+      "verdict": "사실상 독립 상태였으나 국제적 승인은 없었다는 이해가 비교적 일반적이며 법적 지위는 해석이 갈린다.",
+      "sources": [
+        {
+          "title": "Tibet: historical status",
+          "url": "https://en.wikipedia.org/wiki/Tibet_(1912%E2%80%931951)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chinese government white papers",
+          "url": "https://english.www.gov.cn/",
+          "publisher": "PRC State Council",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-xinjiang-detention",
+      "claim": "신장 시설은 반테러 직업훈련일 뿐 대규모 수용이나 집단학살은 없다",
+      "context": "중국은 시설을 직업기능교육훈련센터라 부르며 2019년 말 전원 수료했다고 한다. 위성사진, 유출 문서('차이나 케이블', '신장 경찰 파일'), 전 수감자 증언은 대규모 임의 구금을 시사한다. 유엔 인권최고대표사무소는 2022년 '반인도범죄에 해당할 수 있다'고 평가했다.",
+      "verdict": "대규모 구금은 여러 독립적 증거로 뒷받침된다. '집단학살'이라는 법적 규정은 미국 등 일부가 했으나 의도 입증을 두고 법률가 의견이 갈리며 국제재판소 판단은 없다.",
+      "sources": [
+        {
+          "title": "OHCHR Assessment of human rights concerns in Xinjiang",
+          "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+          "publisher": "UN OHCHR",
+          "type": "international"
+        },
+        {
+          "title": "Determination of the Secretary of State on Atrocities in Xinjiang",
+          "url": "https://2017-2021.state.gov/determination-of-the-secretary-of-state-on-atrocities-in-xinjiang/",
+          "publisher": "U.S. Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-east-turkestan",
+      "claim": "'동투르키스탄'은 역사적 실체가 없는 분리주의자의 조어다",
+      "context": "1933년(카슈가르)과 1944~49년(일리, 소련 지원)에 '동투르키스탄 공화국'을 자칭한 단명 정권이 있었던 것은 확인된다. 둘 다 국제적 승인을 받지 못했고 후자는 1949년 중국 공산당에 합류했다. 이 명칭 자체는 20세기 초부터 사용되었다.",
+      "verdict": "명칭과 단명 정권은 역사적 사실이지만 국제적으로 승인된 독립국이었던 적은 없다. 현대 독립 주장의 정당성은 역사 해석과 정치적 판단에 달려 있다.",
+      "sources": [
+        {
+          "title": "East Turkestan Republic (1944–1949)",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Turkestan_Republic",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "World Uyghur Congress",
+          "url": "https://www.uyghurcongress.org/en/",
+          "publisher": "World Uyghur Congress",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cfs-inner-mongolia-language",
+      "claim": "2020년 내몽골 시위는 외세가 선동한 분리 운동이다",
+      "context": "2020년 8~9월 일부 수업을 몽골어 교재에서 중국어 통일 교재로 바꾸는 방침에 수업 거부와 시위가 확산되었다. 인권단체와 언론은 다수의 구금을 보도했다. 당국은 국가통용어 보급이 헌법에 부합한다고 설명한다. 다수 보도는 핵심 요구가 독립이 아니라 언어·문화 보호였다고 전한다.",
+      "verdict": "시위와 구금은 널리 보도되었고 요구의 중심은 언어권이다. 외세 선동을 입증하는 독립적 증거는 확인되지 않았다.",
+      "sources": [
+        {
+          "title": "Southern Mongolian Human Rights Information Center",
+          "url": "https://www.smhric.org/",
+          "publisher": "SMHRIC",
+          "type": "academic"
+        },
+        {
+          "title": "Inner Mongolia language protests 2020",
+          "url": "https://en.wikipedia.org/wiki/2020_Inner_Mongolia_protests",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "cfs-intl-recognition",
+      "claim": "국제사회는 중국의 주권에 이의를 제기하고 있다",
+      "context": "유엔 회원국 중 티베트·신장·내몽골을 독립국으로 승인하거나 티베트 망명정부를 정부로 승인한 나라는 없다. 서방이 문제 삼는 것은 영토 귀속이 아니라 인권 상황이며, 유엔에서는 지지 진영과 비판 진영이 각기 공동성명을 낸다.",
+      "verdict": "국가 차원에서 영토 귀속에 대한 이의는 확인되지 않는다. 인권 비판은 많은 국가가 하지만 입장은 갈린다.",
+      "sources": [
+        {
+          "title": "UN Human Rights Council vote on Xinjiang debate (Oct 2022)",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/regular-sessions/session51/regular-session",
+          "publisher": "UN Human Rights Council",
+          "type": "international"
+        },
+        {
+          "title": "Tibetan Policy and Support Act / Resolve Tibet Act",
+          "url": "https://www.congress.gov/",
+          "publisher": "U.S. Congress",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

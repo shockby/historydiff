@@ -1,0 +1,61 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-02",
+  "whyItMatters": {
+    "ja": "チベット、新疆、内モンゴルをめぐる問題は、人権、貿易（ウイグル強制労働防止法など）、米中対立、ダライ・ラマの後継問題と結びつき、現在も外交の火種です。2025年7月にダライ・ラマ14世は後継者の認定権は自身の事務所（ガンデン・ポタン財団）にあると表明し、中国は金瓶掣籤と中央政府の承認が必要だと反論しており、将来の転生をめぐる対立が懸念されます。",
+    "en": "The status of Tibet, Xinjiang and Inner Mongolia is tied to human rights, trade (e.g. the Uyghur Forced Labor Prevention Act), US–China rivalry and the Dalai Lama succession. In July 2025 the 14th Dalai Lama said only his office (the Gaden Phodrang Trust) can recognize his reincarnation, while China insists on the Golden Urn and central government approval, raising fears of rival successors.",
+    "zh": "西藏、新疆和内蒙古问题与人权、贸易（如《维吾尔强迫劳动预防法》）、中美竞争及达赖喇嘛转世问题交织，至今仍是外交焦点。2025年7月，十四世达赖喇嘛表示转世认定权只属于其办公室（甘丹颇章基金会），中方则坚持金瓶掣签和中央政府批准，外界担忧将出现对立的转世继承人。",
+    "ko": "티베트·신장·내몽골 문제는 인권, 무역(위구르 강제노동 방지법 등), 미중 대립, 달라이 라마 후계 문제와 얽혀 지금도 외교적 불씨다. 2025년 7월 14대 달라이 라마는 환생 인정 권한이 자신의 사무소(간덴 포당 재단)에만 있다고 밝혔고 중국은 금병추첨과 중앙정부 승인이 필요하다고 맞서 경쟁적 후계자 출현이 우려된다."
+  },
+  "whatToWatchNext": {
+    "ja": "・ダライ・ラマ後継をめぐる動き\n・新疆産品への各国の輸入規制と国連での人権議論\n・内モンゴル・チベットでの言語・教育政策\n・米中関係の中での人権問題の扱い",
+    "en": "・Developments on the Dalai Lama succession\n・National import bans on Xinjiang goods and UN human-rights debates\n・Language and education policy in Inner Mongolia and Tibet\n・How human rights are handled within US–China relations",
+    "zh": "・达赖喇嘛转世继承的动向\n・各国对新疆产品的进口限制与联合国人权讨论\n・内蒙古、西藏的语言与教育政策\n・中美关系中人权问题的处理",
+    "ko": "・달라이 라마 후계 관련 동향\n・신장산 제품 수입 규제와 유엔 인권 논의\n・내몽골·티베트의 언어·교육 정책\n・미중 관계 속 인권 문제 처리"
+  },
+  "rssQuery": {
+    "ja": "チベット ウイグル 内モンゴル 人権 中国",
+    "en": "Tibet Xinjiang Inner Mongolia Uyghur Dalai Lama China",
+    "zh": "西藏 新疆 内蒙古 达赖喇嘛 人权",
+    "ko": "티베트 신장 위구르 내몽골 달라이 라마"
+  },
+  "articles": [
+    {
+      "title": "ダライ・ラマ14世、後継者認定は自身の事務所のみが行うと表明（2025年7月）",
+      "source": "Central Tibetan Administration",
+      "url": "https://tibet.net/",
+      "publishedAt": "2025-07-02",
+      "summary": {
+        "ja": "90歳の誕生日を前に、ダライ・ラマ14世は転生制度を継続し、後継者の認定権はガンデン・ポタン財団にあると表明。中国政府は金瓶掣籤と中央政府の承認が必要と反発した。",
+        "en": "Ahead of his 90th birthday, the 14th Dalai Lama said the institution will continue and that the Gaden Phodrang Trust alone can recognize his reincarnation. Beijing responded that the Golden Urn and central government approval are required.",
+        "zh": "在90岁生日前夕，十四世达赖喇嘛表示转世制度将延续，认定权属于甘丹颇章基金会。中方回应称必须经金瓶掣签并报中央政府批准。",
+        "ko": "90세 생일을 앞두고 14대 달라이 라마는 환생 제도가 계속되며 인정 권한은 간덴 포당 재단에 있다고 밝혔다. 중국 정부는 금병추첨과 중앙정부 승인이 필요하다고 반박했다."
+      }
+    },
+    {
+      "title": "国連人権高等弁務官事務所、新疆に関する評価報告書を公表（2022年8月）",
+      "source": "UN OHCHR",
+      "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+      "publishedAt": "2022-08-31",
+      "summary": {
+        "ja": "恣意的拘束などが「人道に対する罪に該当しうる」と指摘。中国は報告書を全面的に拒否した。",
+        "en": "The report said arbitrary detention and other abuses may constitute crimes against humanity. China categorically rejected it.",
+        "zh": "报告指出任意拘押等行为可能构成危害人类罪，中方全面拒绝该报告。",
+        "ko": "임의 구금 등이 반인도범죄에 해당할 수 있다고 지적했다. 중국은 보고서를 전면 거부했다."
+      }
+    },
+    {
+      "title": "米国で「チベット・中国紛争解決促進法」が成立（2024年7月）",
+      "source": "U.S. Congress",
+      "url": "https://www.congress.gov/",
+      "publishedAt": "2024-07-12",
+      "summary": {
+        "ja": "チベットの地位に関する中国側の歴史的主張に反論し、対話による解決を促す法律が成立。中国は内政干渉だと反発した。",
+        "en": "The law counters Chinese historical claims about Tibet and promotes a negotiated resolution. China denounced it as interference in its internal affairs.",
+        "zh": "该法律反驳中方关于西藏的历史主张，并推动通过对话解决问题。中方斥其干涉内政。",
+        "ko": "티베트에 대한 중국의 역사적 주장에 맞서 대화를 통한 해결을 촉구하는 법이 제정되었다. 중국은 내정 간섭이라고 반발했다."
+      }
+    }
+  ]
+}

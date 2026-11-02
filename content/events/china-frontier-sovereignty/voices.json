@@ -1,0 +1,156 @@
+{
+  "eventId": "china-frontier-sovereignty",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "china-frontier-sovereignty-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "チベットも新疆も中国の不可分の領土であり、問題は外国が人権を口実に内政干渉している点にある。経済発展とインフラ整備で住民の生活は大きく向上した。",
+        "en": "Tibet and Xinjiang are inseparable parts of China; the real issue is foreign interference under the pretext of human rights. Development and infrastructure have greatly improved living standards.",
+        "zh": "西藏和新疆是中国不可分割的领土，问题在于外国以人权为借口干涉内政。经济发展和基础设施建设大幅改善了当地民众生活。",
+        "ko": "티베트와 신장은 중국의 불가분한 영토이며 문제는 외국이 인권을 구실로 내정 간섭을 하는 데 있다. 경제 발전과 인프라 정비로 주민 생활이 크게 향상되었다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "中国国内のSNSや官製メディアで主流の論調。",
+        "en": "Mainstream tone on Chinese social media and state media.",
+        "zh": "中国国内社交媒体和官方媒体的主流论调。",
+        "ko": "중국 내 SNS와 관영 매체에서 주류를 이루는 논조."
+      },
+      "keywords": [
+        "#内政不干渉",
+        "#民族団結",
+        "#一帯一路"
+      ],
+      "timeframe": "2020-2025"
+    },
+    {
+      "id": "china-frontier-sovereignty-voice-2",
+      "country": {
+        "ja": "チベット亡命社会",
+        "en": "Tibetan diaspora",
+        "zh": "藏人流亡社群",
+        "ko": "티베트 망명 사회"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "独立ではなく真の自治を求める中道アプローチを支持する声が多いが、若い世代では完全独立を求める声も強い。宗教・言語の自由が最大の関心事だ。",
+        "en": "Many support the Middle Way for genuine autonomy rather than independence, though younger people increasingly call for full independence. Religious and language freedom are the core concerns.",
+        "zh": "许多人支持寻求真正自治而非独立的“中间道路”，但年轻一代要求完全独立的声音也在增强。宗教与语言自由是最大关切。",
+        "ko": "독립이 아닌 진정한 자치를 구하는 중도 노선을 지지하는 목소리가 많지만 젊은 세대에서는 완전 독립 요구도 강하다. 종교·언어의 자유가 최대 관심사다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "インド、ネパール、欧米のチベット系コミュニティと支援団体。",
+        "en": "Tibetan communities and support groups in India, Nepal and the West.",
+        "zh": "印度、尼泊尔及西方的藏人社群与支持团体。",
+        "ko": "인도, 네팔, 서구의 티베트계 커뮤니티와 지원 단체."
+      },
+      "keywords": [
+        "#FreeTibet",
+        "#MiddleWay",
+        "#DalaiLama"
+      ],
+      "timeframe": "2020-2025"
+    },
+    {
+      "id": "china-frontier-sovereignty-voice-3",
+      "country": {
+        "ja": "ウイグル人ディアスポラ",
+        "en": "Uyghur diaspora",
+        "zh": "维吾尔族海外社群",
+        "ko": "위구르 디아스포라"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "家族との連絡が途絶え、収容や強制労働の被害が続いている。国際社会は経済的な配慮より人権を優先して行動してほしい。",
+        "en": "We have lost contact with relatives amid detention and forced labor. The international community should put human rights before economic interests.",
+        "zh": "与亲属失去联系，关押和强迫劳动仍在继续。国际社会应将人权置于经济利益之前。",
+        "ko": "가족과 연락이 끊기고 수용과 강제노동 피해가 계속되고 있다. 국제사회는 경제적 이익보다 인권을 우선해 행동해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "欧米・トルコ等のウイグル人コミュニティと人権団体。",
+        "en": "Uyghur communities in the West and Turkey, and human-rights groups.",
+        "zh": "西方和土耳其的维吾尔社群及人权组织。",
+        "ko": "서구·튀르키예의 위구르 커뮤니티와 인권 단체."
+      },
+      "keywords": [
+        "#Uyghur",
+        "#StopUyghurGenocide",
+        "#新疆"
+      ],
+      "timeframe": "2020-2025"
+    },
+    {
+      "id": "china-frontier-sovereignty-voice-4",
+      "country": {
+        "ja": "モンゴル系住民",
+        "en": "Mongolian community",
+        "zh": "蒙古族群体",
+        "ko": "몽골계 주민"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "政治的な独立よりも、モンゴル語教育と文化を守る権利が最も重要だ。言語が失われれば民族のアイデンティティも失われる。",
+        "en": "Protecting Mongolian-language education and culture matters more than political independence; losing the language means losing identity.",
+        "zh": "比政治独立更重要的是保护蒙古语教育和文化的权利；语言消失则民族认同也将消失。",
+        "ko": "정치적 독립보다 몽골어 교육과 문화를 지킬 권리가 더 중요하다. 언어를 잃으면 민족 정체성도 잃는다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "内モンゴル出身者、モンゴル国、在外団体の間で見られる論調。",
+        "en": "Views among Inner Mongolians, in Mongolia, and overseas groups.",
+        "zh": "内蒙古人、蒙古国及海外团体中常见的观点。",
+        "ko": "내몽골 출신자, 몽골국, 해외 단체에서 보이는 논조."
+      },
+      "keywords": [
+        "#内モンゴル",
+        "#モンゴル語",
+        "#SouthernMongolia"
+      ],
+      "timeframe": "2020-2025"
+    },
+    {
+      "id": "china-frontier-sovereignty-voice-5",
+      "country": {
+        "ja": "欧米",
+        "en": "United States / West",
+        "zh": "美国与西方",
+        "ko": "미국·서구"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "主権は認めつつも、拘束や宗教弾圧には制裁や貿易規制で対抗すべきだ。ただし一貫性のない対応との批判もある。",
+        "en": "Sovereignty is accepted, but detention and religious repression should be met with sanctions and trade measures, though critics note inconsistency.",
+        "zh": "在承认主权的同时，应以制裁和贸易措施回应关押与宗教压制，但也有人批评做法不一致。",
+        "ko": "주권은 인정하되 구금과 종교 탄압에는 제재와 무역 규제로 대응해야 한다. 다만 일관성이 없다는 비판도 있다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "米欧の議会・メディア・人権団体の主流意見。",
+        "en": "Mainstream view among Western legislatures, media and rights groups.",
+        "zh": "西方议会、媒体和人权组织的主流意见。",
+        "ko": "서구 의회·언론·인권 단체의 주류 의견."
+      },
+      "keywords": [
+        "#UFLPA",
+        "#HumanRights",
+        "#Sanctions"
+      ],
+      "timeframe": "2021-2025"
+    }
+  ]
+}

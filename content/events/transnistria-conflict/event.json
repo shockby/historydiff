@@ -5,5 +5,16 @@
     "en": "Transnistria Conflict",
     "zh": "德涅斯特河左岸冲突",
     "ko": "트란스니스트리아 분쟁"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "russia-compatriot-protection",
+      "relation": {
+        "ja": "ロシア軍駐留の根拠となった「同胞保護」を、他の周辺国の事例と比較。",
+        "en": "Compares the “compatriot protection” rationale for Russian troops with other neighbouring states.",
+        "zh": "将俄军驻留依据的“保护同胞”与其他周边国家案例比较。",
+        "ko": "러시아군 주둔의 근거가 된 '동포 보호'를 다른 주변국 사례와 비교."
+      }
+    }
+  ]
 }

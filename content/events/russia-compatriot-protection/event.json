@@ -5,5 +5,52 @@
     "en": "Russia's “Protection of Compatriots” and Intervention in Neighbouring States (Transnistria, Georgia, Crimea, Donbas, Baltics)",
     "zh": "俄罗斯的“保护同胞”与对周边国家的干预（德涅斯特河沿岸、格鲁吉亚、克里米亚、顿巴斯、波罗的海）",
     "ko": "러시아의 '동포 보호'와 주변국 개입(트란스니스트리아·조지아·크림·돈바스·발트)"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "ukraine-invasion",
+      "relation": {
+        "ja": "2014年のクリミア・ドンバスと2022年の全面侵攻で「ドンバス住民の保護」が名目とされた事例。",
+        "en": "The case where “protecting Donbas residents” was cited in Crimea/Donbas (2014) and the 2022 full-scale invasion.",
+        "zh": "2014年克里米亚、顿巴斯及2022年全面入侵中以“保护顿巴斯居民”为名的案例。",
+        "ko": "2014년 크림·돈바스와 2022년 전면 침공에서 '돈바스 주민 보호'가 명분이 된 사례."
+      }
+    },
+    {
+      "id": "georgia-russia-conflict",
+      "relation": {
+        "ja": "2008年、南オセチアのロシア国籍者の保護を名目とした軍事行動とパスポート化。",
+        "en": "The 2008 military action justified as protecting Russian citizens in South Ossetia, and “passportization”.",
+        "zh": "2008年以保护南奥塞梯俄罗斯公民为由的军事行动与“护照化”。",
+        "ko": "2008년 남오세티야 러시아 국적자 보호를 명분으로 한 군사행동과 '여권화'."
+      }
+    },
+    {
+      "id": "transnistria-conflict",
+      "relation": {
+        "ja": "1992年の介入と、現在も続くロシア軍の駐留。「同胞保護」の原型となった事例。",
+        "en": "The 1992 intervention and continuing Russian troop presence — an early model of “compatriot protection”.",
+        "zh": "1992年的干预及俄军至今驻留，是“保护同胞”的早期原型。",
+        "ko": "1992년의 개입과 현재도 이어지는 러시아군 주둔. '동포 보호'의 원형이 된 사례."
+      }
+    },
+    {
+      "id": "kosovo-dispute",
+      "relation": {
+        "ja": "ロシアが「保護」と自決の論拠として引き合いに出す西側の先例と、その二重基準論。",
+        "en": "The Western precedent Russia cites for “protection” and self-determination, and the double-standard debate.",
+        "zh": "俄罗斯在“保护”与自决问题上援引的西方先例及双重标准之争。",
+        "ko": "러시아가 '보호'와 자결의 논거로 내세우는 서방의 선례와 이중잣대 논쟁."
+      }
+    },
+    {
+      "id": "universal-values-vs-sovereignty",
+      "relation": {
+        "ja": "「保護する責任」など普遍的価値と内政不干渉・主権原則の対立という共通の論点。",
+        "en": "The shared question of universal values such as the “responsibility to protect” versus non-interference and sovereignty.",
+        "zh": "“保护的责任”等普遍价值与不干涉内政、主权原则之间的共同争论点。",
+        "ko": "'보호할 책임' 등 보편적 가치와 내정 불간섭·주권 원칙의 대립이라는 공통 쟁점."
+      }
+    }
+  ]
 }

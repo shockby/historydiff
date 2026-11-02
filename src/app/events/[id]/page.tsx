@@ -1,4 +1,4 @@
-import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta } from '@/lib/markdown';
+import { getEventPerspectives, getAllEvents, getEventNotes, getEventPhotos, getEventVoices, getEventOngoing, getEventMeta, getRelatedEvents } from '@/lib/markdown';
 import { generateEventArticleSchema, generateEventFaqSchema, generateBreadcrumbSchema, safeJsonLdStringify, SITE_URL } from '@/lib/schema';
 import { buildEventSeoMeta } from '@/lib/seoKeywords';
 import EventPageClient from './EventPageClient';
@@ -72,6 +72,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
   const photos = getEventPhotos(id);
   const voices = getEventVoices(id);
   const ongoing = getEventOngoing(id);
+  const relatedEvents = getRelatedEvents(id, 'en');
   const eventMeta = getEventMeta(id);
   const eventTitle = eventMeta?.title?.en ?? null;
 
@@ -141,6 +142,7 @@ export default async function EventPage(props: { params: Promise<{ id: string }>
         initialPhotos={photos}
         initialVoices={voices}
         initialOngoing={ongoing}
+        relatedEvents={relatedEvents}
         lang="en"
         eventTitle={eventTitle}
       />

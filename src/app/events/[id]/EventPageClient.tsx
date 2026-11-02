@@ -6,6 +6,7 @@ import DiffView from '@/app/components/DiffView';
 import ControversyKeywords from '@/app/components/ControversyKeywords';
 import CommunityNotes from '@/app/components/CommunityNotes';
 import PhotoGallery from '@/app/components/PhotoGallery';
+import RelatedEvents from '@/app/components/RelatedEvents';
 import PublicVoices from '@/app/components/PublicVoices';
 import NeutralityBanner from '@/app/components/NeutralityBanner';
 import SourceNatureBadges from '@/app/components/SourceNatureBadges';
@@ -15,7 +16,7 @@ const PerceptionDiagnostic = dynamic(() => import('@/app/components/PerceptionDi
 import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import SocialShareBar from '@/app/components/SocialShareBar';
 import { analyzeControversyDiff } from '@/lib/diffAnalysis';
-import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing } from '@/lib/markdown';
+import { EventPerspective, EventNotes, EventPhotos, EventVoices, EventOngoing, RelatedEvent } from '@/lib/markdown';
 import { translations, Language } from '@/lib/translations';
 import { Info, CheckCircle2, ArrowLeftRight, BookOpen, GitCompare, Compass, HelpCircle, Shield, MessageCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
@@ -27,6 +28,7 @@ interface EventPageClientProps {
   initialPhotos?: EventPhotos | null;
   initialVoices?: EventVoices | null;
   initialOngoing?: EventOngoing | null;
+  relatedEvents?: RelatedEvent[];
   lang: string;
   eventTitle?: string | null;
 }
@@ -400,7 +402,7 @@ function getDefaultPerspectiveIndex(perspectives: EventPerspective[], lang: Lang
 }
 
 // ── Main Event Page ───────────────────────────────────────────────────────
-function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang, eventTitle }: EventPageClientProps) {
+function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, relatedEvents, lang, eventTitle }: EventPageClientProps) {
   const activeLang = lang as Language;
   const t = translations[activeLang] || translations.en;
 
@@ -548,6 +550,11 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
 
         {/* ── Photos ── */}
         {photos && <PhotoGallery photos={photos} lang={activeLang} />}
+
+        {/* ── Related events (cross-links) ── */}
+        {relatedEvents && relatedEvents.length > 0 && (
+          <RelatedEvents events={relatedEvents} lang={activeLang} />
+        )}
 
         {/* ── Read mode: single perspective ── */}
         {viewMode === 'read' && (
@@ -909,7 +916,7 @@ function EventPageInner({ eventId, initialPerspectives, initialNotes, initialPho
   );
 }
 
-export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, lang, eventTitle }: EventPageClientProps) {
+export default function EventPageClient({ eventId, initialPerspectives, initialNotes, initialPhotos, initialVoices, initialOngoing, relatedEvents, lang, eventTitle }: EventPageClientProps) {
   return (
     <Suspense fallback={
       <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
@@ -923,6 +930,7 @@ export default function EventPageClient({ eventId, initialPerspectives, initialN
         initialPhotos={initialPhotos}
         initialVoices={initialVoices}
         initialOngoing={initialOngoing}
+        relatedEvents={relatedEvents}
         lang={lang}
         eventTitle={eventTitle}
       />

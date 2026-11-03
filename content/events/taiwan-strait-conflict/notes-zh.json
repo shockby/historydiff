@@ -1,0 +1,125 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "notes": [
+    {
+      "id": "tsc-never-governed",
+      "claim": "台湾自古以来就是中国不可分割的一部分，统一是“收复国土”",
+      "context": "清朝1683年将台湾西部纳入统治，1885年设台湾省，但对全岛的有效控制有限。1895至1945年由日本统治，1949年中华人民共和国成立以来从未统治过台湾。中方以历史联系为依据主张主权，台湾方面则强调居民意愿和有效统治的事实。",
+      "verdict": "清朝统治（约200年，其中设省约10年）与中华人民共和国从未统治台湾，都是历史事实。台湾是否“自古”属于中国，取决于历史解释和政治立场，学界看法不一。",
+      "sources": [
+        {
+          "title": "History of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Treaty of Shimonoseki",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-treaty-status",
+      "claim": "《开罗宣言》和《波茨坦公告》已在国际法上确定台湾归属中国／台湾地位未定",
+      "context": "《开罗宣言》（1943年）称台湾将“归还中华民国”。但宣言并非条约，1951年《旧金山和约》中日本放弃台湾却未写明归属，1952年《日华和约》亦然。中方认为宣言具有法律约束力，“地位未定论”则以条约文本为依据。",
+      "verdict": "日本放弃台湾而条约未写明归属，是事实。《开罗宣言》《波茨坦公告》的法律效力，以及其后有效统治与国际承认如何评价，国际法学者意见不一，也没有国际法庭作出裁决。",
+      "sources": [
+        {
+          "title": "Treaty of San Francisco",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Cairo Declaration",
+          "url": "https://en.wikipedia.org/wiki/Cairo_Declaration",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-anti-secession-law",
+      "claim": "中国在法律上保留了对台使用武力的权利",
+      "context": "2005年《反分裂国家法》规定，台独分裂势力造成分裂事实、发生将导致分裂的重大事变，或和平统一的可能性完全丧失时，国家得采取“非和平方式及其他必要措施”（第八条）。中国政府称这针对的是“外部干涉和分裂势力”，而非台湾同胞。",
+      "verdict": "法律明确保留使用武力是事实。是否真正动武并非仅由法律决定；2022年以来中国多次在台湾周边举行大规模军演。",
+      "sources": [
+        {
+          "title": "Anti-Secession Law",
+          "url": "https://en.wikipedia.org/wiki/Anti-Secession_Law",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Anti-Secession Law (full text)",
+          "url": "http://www.gov.cn/",
+          "publisher": "PRC Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-1992-consensus",
+      "claim": "“九二共识”是两岸双方达成的“一个中国”框架",
+      "context": "1992年两岸授权的民间机构在香港会谈，并就“一个中国”以口头和书面方式交换了表述。大陆与国民党解释为“共同认同一个中国原则”，并补充“各自以口头表述”（一中各表）。民进党则称“并不存在共识”。该名称由国民党的苏起于2000年提出。",
+      "verdict": "1992年有过会谈和文书往来是事实，但“共识”是否存在及其内容，双方解释不同。2016年民进党的蔡英文上台后，大陆中止了与台湾的官方对话。",
+      "sources": [
+        {
+          "title": "1992 Consensus",
+          "url": "https://en.wikipedia.org/wiki/1992_Consensus",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Mainland Affairs Council",
+          "url": "https://www.mac.gov.tw/",
+          "publisher": "Mainland Affairs Council (ROC)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-us-defense-commitment",
+      "claim": "美国在法律上有义务防卫台湾",
+      "context": "《台湾关系法》（1979年）规定向台湾提供防御性武器，并“保持能力”抵抗危及台湾人民安全和社会经济制度的武力，但并未规定美军必须介入。美台共同防御条约于1979年终止。前总统拜登多次表示美军将防卫台湾，政府则称政策未变。",
+      "verdict": "美国并无防卫台湾的法律义务（不实）。但提供防御性武器是法律义务，是否介入属于政治决策。“战略模糊”究竟是威慑还是不确定性，专家之间一直有争论。",
+      "sources": [
+        {
+          "title": "Taiwan Relations Act",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Relations_Act",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "US Relations With Taiwan",
+          "url": "https://www.state.gov/u-s-relations-with-taiwan/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-status-quo",
+      "claim": "台海现状可以简单说成“已经独立”或“属于中国”之一",
+      "context": "台湾拥有事实上的自治和民主体制，但没有联合国席位，与之有外交关系的国家仅十余个（2020年代中期）。多数主要国家不正式承认台湾为国家，而保持非官方关系。台湾民意多数倾向“维持现状”，“独立”与“统一”均为少数。",
+      "verdict": "台湾有有效统治的事实政府，以及国际承认有限，两者皆为事实。“是否为国家”取决于采用何种国家承认标准（宣告说或构成说）。",
+      "sources": [
+        {
+          "title": "Political status of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Political_status_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Taiwan Strait Crises",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Strait_crises",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

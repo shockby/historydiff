@@ -1,0 +1,119 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "uk-bloody-sunday-ballymurphy",
+      "claim": "1972년 '피의 일요일 사건'과 1971년 '발리머피 사건'에서 영국군이 비무장 시민을 사살했으며 수십 년 뒤 영국 정부가 공식 사과했다",
+      "context": "1972년 1월 30일 북아일랜드 데리에서 민권 행진 중이던 비무장 시민들에게 영국 육군 공수연대가 발포해 14명이 사망했다. 당초 위저리 조사(1972년)는 군을 옹호했으나, 12년에 걸친 새빌 조사위원회 보고서(2010년)는 희생자 전원의 무고함과 군의 발포가 '부당하고 정당화될 수 없음'을 인정했고 데이비드 캐머런 총리가 공식 사과했다. 1971년 8월 벨파스트에서 11명이 사살된 발리머피 사건에서도 2021년 5월 검시 심문 결과 전원이 무고한 비무장 시민으로 확인되었다.",
+      "verdict": "공적 조사 보고서 및 영국 총리의 의회 성명으로 확인된 사실. 다만 전직 군인에 대한 형사 기소는 대부분 유죄 판결로 이어지지 않았다.",
+      "sources": [
+        {
+          "title": "Bloody Sunday (1972)",
+          "url": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ballymurphy massacre",
+          "url": "https://en.wikipedia.org/wiki/Ballymurphy_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-good-friday-brexit",
+      "claim": "1998년 벨파스트 협정(성금요일 협정)으로 북아일랜드 평화의 틀이 성립되었으나 브렉시트로 통상·국경 문제가 재점화되었다",
+      "context": "약 3,500명 이상이 사망한 북아일랜드 분쟁은 1998년 4월 벨파스트 협정에 의해 개신교계 유니오니스트와 가톨릭계 내셔널리스트의 권력 분점, 남북 아일랜드 간 사실상의 국경 철폐, 주민 다수의 동의에 따른 귀속 결정 원칙으로 타결되었다. 그러나 2016년 영국의 EU 탈퇴(브렉시트)로 아일랜드섬 내 물리적 국경 부활을 피하기 위해 아일랜드해에 통관·검역 경계가 설정되자 유니오니스트가 반발해 2022년부터 자치정부가 기능 정지되었다. 2023년 2월 '윈저 프레임워크'와 2024년 2월 합의로 자치정부가 재개되었고 사상 처음으로 신페인당 출신 자치정부 총리(미셸 오닐)가 선출되었다.",
+      "verdict": "조약 및 공식 기록으로 확인된 사실.",
+      "sources": [
+        {
+          "title": "Good Friday Agreement",
+          "url": "https://en.wikipedia.org/wiki/Good_Friday_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Windsor Framework",
+          "url": "https://en.wikipedia.org/wiki/Windsor_Framework",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-legacy-act-2023",
+      "claim": "2023년 북아일랜드 분쟁 유산법은 '사실상의 사면'으로서 법원으로부터 유럽인권조약 위반 판결을 받았다",
+      "context": "수낙 보수당 정부 시절인 2023년 9월 제정된 이 법은 신설 독립화해·정보회수위원회(ICRIR)에 협조하는 전직 군인과 전 무장세력 조직원에게 형사 기소의 조건부 면제를 부여하고 미해결 사건의 검시 심문과 민사 소송을 중단시키는 내용이었다. 유족 단체·북아일랜드 전 정당·아일랜드 정부가 반대했고 2024년 1월 아일랜드가 유럽인권재판소에 영국을 제소했으며, 같은 해 2월과 9월 벨파스트 고등법원·항소법원이 면책 조항을 유럽인권조약(ECHR) 위반으로 판시했다. 2024년 7월 출범한 스타머 노동당 정부는 면책 조항 폐지 절차를 밟고 있다.",
+      "verdict": "법 제정, 아일랜드의 제소, 북아일랜드 법원의 조약 위반 판결 모두 공식 기록 있음.",
+      "sources": [
+        {
+          "title": "Northern Ireland Troubles (Legacy and Reconciliation) Act 2023",
+          "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Troubles_(Legacy_and_Reconciliation)_Act_2023",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-scotland-referendum",
+      "claim": "2014년 스코틀랜드 독립 주민투표에서는 반대 55.3%로 잔류가 결정되었으나 브렉시트 이후 재투표 권한을 둘러싸고 대법원에서 다투어졌다",
+      "context": "영국 정부와 스코틀랜드 자치정부의 2012년 에든버러 합의에 따라 2014년 9월 18일 실시된 주민투표는 반대 55.3%·찬성 44.7%(투표율 84.6%)로 부결되었다. 그러나 2016년 브렉시트 국민투표에서 영국 전체는 탈퇴(51.9%)를 택한 반면 스코틀랜드에서는 62.0%가 EU 잔류에 투표하자 스코틀랜드국민당(SNP)은 전제가 바뀌었다며 재투표를 요구했다. 2022년 11월 영국 대법원은 만장일치로 '영국 의회의 승인 없이 스코틀랜드 의회가 독립 주민투표법을 제정할 권한이 없다'고 판결했다.",
+      "verdict": "투표 결과 및 2022년 영국 대법원 판결 모두 공식 기록 있음. 재투표 실시 여부의 정치적 타당성에 대해서는 논쟁이 있다.",
+      "sources": [
+        {
+          "title": "2014 Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2014_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Proposed second Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/Proposed_second_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-mau-mau-operation-legacy",
+      "claim": "영국은 케냐 '마우마우 봉기' 당시의 고문을 인정하고 2013년 합의금을 지급했으나 독립 당시 공문서를 조직적으로 폐기·은닉했었다",
+      "context": "1952~1960년 케냐 비상사태 선포 아래 영국 식민 당국은 키쿠유족 등 15만~30만 명 이상을 수용소에 구금했다. 독립 직전 영국 당국은 '레거시 작전(Operation Legacy)'을 통해 불리한 문서를 소각하거나 본국으로 비밀 이송했다. 2011년 소송 과정에서 영국 외무부의 한슬로프 파크에 구식민지 37개 지역의 비밀 문서(Migrated Archives) 약 8,800건이 보관되어 있던 사실이 밝혀졌고, 2013년 6월 헤이그 외무장관이 의회에서 '깊은 유감'을 표명하며 피해자 5,228명에게 총 1,990만 파운드를 지급하는 합의가 성립되었다.",
+      "verdict": "비밀 문서의 존재와 2013년 영국 정부의 합의·의회 성명은 공식 확인된 사실. 수용자 수 및 사망자 총수에는 추산 폭이 있다.",
+      "sources": [
+        {
+          "title": "Mau Mau rebellion",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Legacy",
+          "url": "https://en.wikipedia.org/wiki/Operation_Legacy",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-chagos-sovereignty-treaty",
+      "claim": "영국은 차고스 제도 주민을 추방하고 미군 기지를 제공했으나 2019년 ICJ 권고를 거쳐 2024~2025년 모리셔스로의 주권 반환에 합의했다",
+      "context": "영국은 모리셔스 독립 전인 1965년 차고스 제도를 분리해 '영국령 인도양 지역(BIOT)'으로 삼고, 1968~1973년 선주민 차고스인 약 1,500~2,000명을 모리셔스와 세이셸로 강제 이주시켜 디에고 가르시아섬을 미군 기지로 제공했다. 2019년 2월 국제사법재판소(ICJ)가 분리를 국제법 위반으로 판단하는 권고적 의견을 냈고, 2024년 10월 영국·모리셔스 양국 정부가 주권 이양에 정치적 합의를 이룬 뒤 2025년 5월 조약에 서명했다. 다만 디에고 가르시아섬은 99년간(연장 가능) 영·미 기지로 임차가 계속되며 이 섬으로의 차고스인 귀환은 허용되지 않았다.",
+      "verdict": "강제 이주, ICJ 권고, 2024~2025년 주권 반환 조약 및 99년 임차 조건은 모두 공식 기록으로 확인된 사실.",
+      "sources": [
+        {
+          "title": "Expulsion of the Chagossians",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Chagossians",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chagos Archipelago sovereignty dispute",
+          "url": "https://en.wikipedia.org/wiki/Chagos_Archipelago_sovereignty_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

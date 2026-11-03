@@ -1,0 +1,37 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "photos": [
+    {
+      "id": "free-derry-corner",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/uk-domestic-postcolonial-conflicts/free-derry-corner.jpg",
+      "caption": {
+        "ja": "北アイルランド・デリーのボグサイド地区にある「フリー・デリー・コーナー」。1969年の公民権運動・自治宣言の象徴であり、1972年1月30日に英軍落下傘連隊が非武装市民14人を射殺した「血の日曜日事件」の現場となった。",
+        "en": "Free Derry Corner in the Bogside neighborhood of Derry, Northern Ireland. Painted in 1969 as a symbol of Irish nationalist self-defense and civil rights, the surrounding area was the site of the Bloody Sunday shootings on January 30, 1972.",
+        "zh": "北爱尔兰德里博格赛德区的“自由德里角”。1969年民权运动时期涂刷的这一标志成为民族派自治象征，其周边即1972年1月30日英军伞兵枪杀14名平民的“血色星期日事件”现场。",
+        "ko": "북아일랜드 데리 보그사이드 지구에 있는 '프리 데리 코너'. 1969년 민권운동과 자치 선언의 상징이며, 1972년 1월 30일 영국군 공수연대가 비무장 시민 14명을 사살한 '피의 일요일 사건'의 현장이 되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Free Derry Corner 2018-07-30.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Free_Derry_Corner_2018-07-30.jpg",
+        "license": "CC BY 4.0",
+        "author": "August Schwerdfeger"
+      }
+    },
+    {
+      "id": "diego-garcia-base",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/uk-domestic-postcolonial-conflicts/diego-garcia-base.jpg",
+      "caption": {
+        "ja": "チャゴス諸島ディエゴガルシア島の英米共同軍事基地に展開する米空軍B-2戦略爆撃機。1968〜1973年に先住のチャゴス人が強制追放されて建設され、2024〜2025年のモーリシャス主権返還条約でも99年間の租借継続が定められた。",
+        "en": "A U.S. Air Force B-2 Spirit stealth bomber at Naval Support Facility Diego Garcia in the Chagos Archipelago. Built after Britain forcibly deported the indigenous Chagossians in 1968–1973, the base remains under a 99-year UK–US lease under the 2024–2025 sovereignty treaty with Mauritius.",
+        "zh": "部署在查戈斯群岛迪戈加西亚岛英美联合军事基地的美国空军B-2战略轰炸机。该基地建于1968—1973年英国强制驱逐查戈斯原住民之后，在2024—2025年英毛主权移交条约中仍保留99年租期。",
+        "ko": "차고스 제도 디에고 가르시아섬의 영·미 공동 군사기지에 전개된 미 공군 B-2 전략폭격기. 1968~1973년 선주민 차고스인이 강제 추방된 뒤 건설되었으며 2024~2025년 모리셔스 주권 반환 조약에서도 99년간 임차 지속이 규정되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: B-2 Spirit arrives at Naval Support Facility Diego Garcia (6306307).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:B-2_Spirit_arrives_at_Naval_Support_Facility_Diego_Garcia_(6306307).jpg",
+        "license": "Public domain",
+        "author": "U.S. Air Force / 1st Lt. Michael Hardy"
+      }
+    }
+  ]
+}

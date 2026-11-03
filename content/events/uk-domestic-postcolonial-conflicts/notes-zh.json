@@ -1,0 +1,119 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "uk-bloody-sunday-ballymurphy",
+      "claim": "英军在1972年“血色星期日事件”和1971年“巴利默菲惨案”中枪杀手无寸铁的平民，英国政府在数十年后正式道歉",
+      "context": "1972年1月30日，在北爱尔兰德里举行的民权游行中，英国陆军伞兵向手无寸铁的平民开枪，造成14人死亡。最初的威杰里调查（1972年）为军方开脱，但历时12年的萨维尔调查委员会报告（2010年）认定所有遇难者均无辜、英军开枪“不正当且无法辩解”，时任首相卡梅伦发表正式国家道歉。1971年8月贝尔法斯特巴利默菲11人被枪杀事件中，2021年5月的死因研讯也认定全部遇难者均为无辜平民。",
+      "verdict": "官方调查报告与英国首相议会声明均已证实，但对涉事退伍军人的刑事起诉大多未能定罪。",
+      "sources": [
+        {
+          "title": "Bloody Sunday (1972)",
+          "url": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ballymurphy massacre",
+          "url": "https://en.wikipedia.org/wiki/Ballymurphy_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-good-friday-brexit",
+      "claim": "1998年《贝尔法斯特协议》（《受难节协议》）确立了北爱尔兰和平框架，但英国脱欧导致贸易与边界问题重燃",
+      "context": "造成3,500多人死亡的北爱尔兰冲突通过1998年4月《贝尔法斯特协议》达成和平，确立了联合派与民族派权力分享、取消爱尔兰岛实体边界及“同意原则”。然而2016年英国脱欧后，为避免恢复陆上硬边界而在爱尔兰海设立通关检查，引发联合派抵制并导致自治政府自2022年起停摆。2023年2月《温莎框架》与2024年2月协议促成自治政府恢复运作，新芬党的米歇尔·奥尼尔成为首位民族派北爱首席部长。",
+      "verdict": "条约与官方记录已确认的事实。",
+      "sources": [
+        {
+          "title": "Good Friday Agreement",
+          "url": "https://en.wikipedia.org/wiki/Good_Friday_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Windsor Framework",
+          "url": "https://en.wikipedia.org/wiki/Windsor_Framework",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-legacy-act-2023",
+      "claim": "《2023年北爱尔兰冲突历史遗留法》被视为“事实大赦”，并被法院裁定违反《欧洲人权公约》",
+      "context": "苏纳克保守党政府于2023年9月通过该法，对配合新设立独立委员会（ICRIR）的退伍军人和前准军事人员给予有条件免予起诉，并终止未决死因研讯和民事诉讼。北爱尔兰所有政党、遗属团体及爱尔兰政府均表反对，爱尔兰于2024年1月向欧洲人权法院起诉英国；2024年2月和9月，贝尔法斯特高等法院与上诉法院裁定豁免条款违反《欧洲人权公约》。2024年7月上台的斯塔默工党政府已启动废除豁免条款的程序。",
+      "verdict": "立法、爱尔兰起诉及北爱法院违宪与违反公约裁决均有官方记录。",
+      "sources": [
+        {
+          "title": "Northern Ireland Troubles (Legacy and Reconciliation) Act 2023",
+          "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Troubles_(Legacy_and_Reconciliation)_Act_2023",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-scotland-referendum",
+      "claim": "2014年苏格兰独立公投以55.3%反对决定留英，脱欧后英国最高法院于2022年裁定苏格兰无权自行举行二次公投",
+      "context": "根据2012年《爱丁堡协议》，2014年9月18日举行的苏格兰独立公投以55.3%反对、44.7%赞成（投票率84.6%）否决独立。但2016年脱欧公投中英国整体以51.9%决定脱欧，而苏格兰有62.0%支持留欧，苏格兰民族党（SNP）以局势发生重大变化为由要求再次公投。2022年11月，英国最高法院一致裁定，未经英国议会授权，苏格兰议会无权立法举行独立公投。",
+      "verdict": "公投结果与2022年最高法院裁决均有官方记录，是否应批准再次公投仍存政治争议。",
+      "sources": [
+        {
+          "title": "2014 Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2014_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Proposed second Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/Proposed_second_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-mau-mau-operation-legacy",
+      "claim": "英国承认肯尼亚“茅茅起义”期间的酷刑并于2013年支付和解金，但独立前夕曾系统性销毁和隐匿殖民档案（“遗产行动”）",
+      "context": "1952—1960年肯尼亚紧急状态期间，英国殖民当局将15万至30万以上基库尤人关押于拘留营。独立前夕，英方开展“遗产行动（Operation Legacy）”，焚毁或秘密运回敏感档案。2011年，诉讼过程揭露出英国外交部汉斯洛普庄园藏有来自37个前殖民地的约8,800份秘密档案（转移档案）。2013年6月，外交大臣黑格在议会表示“深切遗憾”，并向5,228名肯尼亚酷刑受害者支付1,990万英镑和解金。",
+      "verdict": "秘密档案的曝光及2013年英国政府和解声明均有官方记录；拘留与死亡总人数在史学界存在不同估算。",
+      "sources": [
+        {
+          "title": "Mau Mau rebellion",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Legacy",
+          "url": "https://en.wikipedia.org/wiki/Operation_Legacy",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-chagos-sovereignty-treaty",
+      "claim": "英国曾驱逐查戈斯群岛居民以供美军建基地，经2019年国际法院裁决后于2024—2025年同意将主权归还毛里求斯并续租基地99年",
+      "context": "英国在毛里求斯独立前的1965年将查戈斯群岛分离，组建“英属印度洋领地”，并于1968—1973年强制驱逐约1,500至2,000名查戈斯原住民，将迪戈加西亚岛提供给美国建立军事基地。2019年2月国际法院（ICJ）发表咨询意见认定分离行为违法，要求英国尽快结束管辖。2024年10月英毛达成政治协议，并于2025年5月签署主权移交条约，但迪戈加西亚岛由英方续租99年以维持英美基地运作，仍不允许查戈斯人返回迪戈加西亚岛定居。",
+      "verdict": "强制驱逐、国际法院咨询意见及2024—2025年条约与99年租约条款均由官方记录确认。",
+      "sources": [
+        {
+          "title": "Expulsion of the Chagossians",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Chagossians",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chagos Archipelago sovereignty dispute",
+          "url": "https://en.wikipedia.org/wiki/Chagos_Archipelago_sovereignty_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

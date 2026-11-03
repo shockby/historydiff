@@ -1,0 +1,113 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "fr-algerian-war-memory",
+      "claim": "France has acknowledged systematic torture and specific assassinations during the Algerian War, but refuses a formal state apology or reparations, and death toll estimates diverge sharply",
+      "context": "Regarding the Algerian War (1954–1962), Algerian authorities cite '1.5 million martyrs,' whereas French historians estimate 300,000 to 500,000 Algerian deaths (alongside ~25,000 French soldiers and tens of thousands of Harkis killed in reprisals). President Emmanuel Macron officially recognized French military responsibility for the torture and killing of mathematician Maurice Audin (2018) and nationalist lawyer Ali Boumendjel (2021) and expanded archive access following the 2021 Stora Report, while ruling out formal state 'repentance' or reparations.",
+      "verdict": "Presidential recognitions and the refusal to issue a formal apology are matters of official record; total war casualty figures differ between Algerian state commemoration and historical estimates.",
+      "sources": [
+        {
+          "title": "Algerian War",
+          "url": "https://en.wikipedia.org/wiki/Algerian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Maurice Audin",
+          "url": "https://en.wikipedia.org/wiki/Maurice_Audin",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-paris-massacre-1961",
+      "claim": "On October 17, 1961, Paris police violently suppressed a peaceful Algerian demonstration, killing dozens to up to 200 people and covering up the toll for decades",
+      "context": "On October 17, 1961, roughly 30,000 unarmed Algerians marched in Paris protesting a discriminatory curfew imposed by Police Prefect Maurice Papon. Police opened fire, beat demonstrators, and threw victims into the Seine River. French authorities initially claimed only 3 deaths and censored press reports; a 1998 official inquiry acknowledged at least 48 deaths, while historians estimate between 100 and over 200 killed. Presidents François Hollande (2012) and Emmanuel Macron (2021) officially acknowledged the bloody repression.",
+      "verdict": "The police crackdown, decades-long censorship, and 2012/2021 presidential acknowledgments are verified facts; exact fatality numbers vary across historical estimates.",
+      "sources": [
+        {
+          "title": "Paris massacre of 1961",
+          "url": "https://en.wikipedia.org/wiki/Paris_massacre_of_1961",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-new-caledonia-referendums-2024",
+      "claim": "New Caledonia's third independence referendum in 2021 was boycotted by pro-independence Kanaks, and a 2024 voting-roll reform bill triggered riots that killed 14 people",
+      "context": "Under the 1998 Nouméa Accord, voters rejected independence by narrowing margins in 2018 (56.7% No) and 2020 (53.3% No). In December 2021, the pro-independence Kanak coalition (FLNKS) boycotted the third referendum after Paris refused to postpone it during the COVID-19 pandemic and traditional Kanak mourning periods, resulting in 96.5% No on 43.9% turnout. In May 2024, a constitutional bill in Paris to unfreeze local voting rolls for recent settlers sparked riots leaving 14 dead and over €2 billion in damages. Paris suspended the bill and brokered the July 2025 Bougival Accord proposing a 'State of New Caledonia' within France, which the FLNKS rejected.",
+      "verdict": "Referendum figures, the 2024 unrest toll, and the 2025 Bougival Accord and FLNKS rejection are all officially documented.",
+      "sources": [
+        {
+          "title": "2021 New Caledonian independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2021_New_Caledonian_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2024 New Caledonia unrest",
+          "url": "https://en.wikipedia.org/wiki/2024_New_Caledonia_unrest",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-francafrique-sahel-withdrawal",
+      "claim": "Between 2022 and 2025, French military forces were withdrawn or expelled from Mali, Burkina Faso, Niger, Chad, Senegal, and Ivory Coast",
+      "context": "Following French counter-insurgency interventions in the Sahel since 2013 (Operations Serval and Barkhane), worsening security and anti-French sentiment fueled a wave of military coups. French troops were forced to withdraw from Mali (2022), Burkina Faso (2023), and Niger (late 2023), while Mali, Burkina Faso, and Niger pivoted toward Russian military cooperation (Africa Corps). Between late 2024 and 2025, Chad, Senegal, and Ivory Coast also ended or handed over permanent French military bases.",
+      "verdict": "Confirmed by official military withdrawal announcements and bilateral base handover agreements.",
+      "sources": [
+        {
+          "title": "Operation Barkhane",
+          "url": "https://en.wikipedia.org/wiki/Operation_Barkhane",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Françafrique",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-thiaroye-cameroon-commissions",
+      "claim": "In 2024–2025, France officially recognized the 1944 Thiaroye massacre in Senegal and systematic French military violence in Cameroon (1945–1971)",
+      "context": "On December 1, 1944, French forces opened fire on West African WWII veterans (Tirailleurs Sénégalais) at the Thiaroye camp near Dakar who were protesting unpaid back wages; colonial authorities reported 35 dead, while historians estimate up to 300–400. In November 2024, President Macron formally recognized the event as a 'massacre' for the first time. In January 2025, a joint Franco-Cameroonian historical commission released its report documenting systematic French military violence, forced internment, and assassinations against Cameroon's UPC independence movement between 1945 and 1971.",
+      "verdict": "Confirmed by President Macron's November 2024 official letter and the January 2025 Franco-Cameroonian historical commission report.",
+      "sources": [
+        {
+          "title": "Thiaroye massacre",
+          "url": "https://en.wikipedia.org/wiki/Thiaroye_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Bamileke War",
+          "url": "https://en.wikipedia.org/wiki/Bamileke_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-banlieues-2023-unrest",
+      "claim": "The June 2023 police shooting of teenager Nahel Merzouk sparked nationwide banlieue riots and UN criticism over racial profiling in French law enforcement",
+      "context": "On June 27, 2023, 17-year-old Nahel Merzouk, of Algerian and Moroccan descent, was fatally shot by police during a traffic stop in Nanterre near Paris. Video of the shooting disproved initial police accounts and triggered days of nationwide riots across suburban housing estates (over 3,700 arrests and widespread property damage). UN OHCHR and CERD urged France to address systemic racial discrimination in policing, which the French Foreign Ministry rejected as unfounded.",
+      "verdict": "The shooting, unrest figures, UN statements, and French government rebuttal are all documented in official records.",
+      "sources": [
+        {
+          "title": "Nahel Merzouk riots",
+          "url": "https://en.wikipedia.org/wiki/Nahel_Merzouk_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "title": {
+    "ja": "フランスの国内紛争と旧植民地問題（アルジェリア戦争の記憶・海外領土・フランサフリック）",
+    "en": "France's Domestic Conflicts and Post-Colonial Reckoning (Algerian War Memory, Overseas Territories and Françafrique)",
+    "zh": "法国的国内冲突与前殖民地遗留问题（阿尔及利亚战争记忆、海外领土与“法属非洲”）",
+    "ko": "프랑스의 국내 분쟁과 구식민지 문제(알제리 전쟁 기억·해외 영토·프랑사프리크)"
+  },
+  "relatedEvents": [
+    {
+      "id": "sahel-conflict",
+      "relation": {
+        "ja": "旧仏領西アフリカ（マリ・ブルキナファソ・ニジェール）での反仏感情と2022〜2025年のフランス軍撤退に直結する紛争。",
+        "en": "Directly linked to anti-French sentiment in former French West Africa (Mali, Burkina Faso, Niger) and the 2022–2025 French military withdrawal.",
+        "zh": "与前法属西非（马里、布基纳法索、尼日尔）的反法情绪及2022—2025年法军撤离直接相关的冲突。",
+        "ko": "구 프랑스령 서아프리카(말리·부르키나파소·니제르)의 반불 정서 및 2022~2025년 프랑스군 철수와 직결된 분쟁."
+      }
+    },
+    {
+      "id": "western-sahara",
+      "relation": {
+        "ja": "旧植民地アルジェリアとモロッコの対立、および2024年のフランスによるモロッコ主権支持転換が絡む北アフリカ問題。",
+        "en": "A North African dispute involving rival former French colonies Algeria and Morocco, reshaped by France's July 2024 endorsement of Moroccan sovereignty.",
+        "zh": "涉及前殖民地阿尔及利亚与摩洛哥对立、以及2024年法国转向支持摩洛哥主权方案的北非问题。",
+        "ko": "구식민지 알제리와 모로코의 대립, 그리고 2024년 프랑스의 모로코 주권 지지 선회가 얽힌 북아프리카 문제."
+      }
+    },
+    {
+      "id": "syria-civil-war",
+      "relation": {
+        "ja": "第一次世界大戦後のサイクス・ピコ協定とフランス委任統治（1920〜1946年）による国境・宗派構造が背景にある紛争。",
+        "en": "A conflict whose borders and sectarian structures trace back to the post-WWI Sykes–Picot Agreement and the French Mandate (1920–1946).",
+        "zh": "以一战后《赛克斯-皮科协定》及法国委任统治（1920—1946年）所塑造的边界与教派结构为背景的冲突。",
+        "ko": "제1차 세계대전 후 사이크스·피코 협정과 프랑스 위임통치(1920~1946년)로 형성된 국경·종파 구조가 배경에 있는 분쟁."
+      }
+    },
+    {
+      "id": "uk-domestic-postcolonial-conflicts",
+      "relation": {
+        "ja": "「単一不可分の共和国」モデルをとるフランスと対比される、イギリスの権限移譲・コモンウェルス方式の脱植民地化と国内問題。",
+        "en": "Britain's devolution and Commonwealth model of post-colonial management, often contrasted with France's “one and indivisible Republic.”",
+        "zh": "与采取“单一不可分割共和国”模式的法国形成对比的英国权力下放与英联邦式去殖民化及国内问题。",
+        "ko": "'단일 불가분의 공화국' 모델을 취하는 프랑스와 대비되는 영국의 권한 이양·영연방 방식 탈식민지화 및 국내 문제."
+      }
+    }
+  ]
+}

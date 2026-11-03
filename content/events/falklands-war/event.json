@@ -5,5 +5,16 @@
     "en": "Falklands War",
     "zh": "福克兰群岛战争",
     "ko": "포클랜드 전쟁"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "uk-domestic-postcolonial-conflicts",
+      "relation": {
+        "ja": "チャゴス諸島や北アイルランドを含む、イギリスの脱植民地化・海外領土・国内統合問題の全体像。",
+        "en": "The broader context of Britain's decolonization, Overseas Territories (including Chagos), and domestic union conflicts.",
+        "zh": "涵盖查戈斯群岛与北爱尔兰在内的英国去殖民化、海外领土及国内统合问题全景。",
+        "ko": "차고스 제도와 북아일랜드를 포함한 영국의 탈식민지화·해외 영토·국내 통합 문제의 전체상."
+      }
+    }
+  ]
 }

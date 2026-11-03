@@ -1,4 +1,37 @@
 {
   "eventId": "western-sahara",
-  "photos": []
+  "photos": [
+    {
+      "id": "western-sahara-berm",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/western-sahara/western-sahara-berm.jpg",
+      "caption": {
+        "ja": "モロッコが西サハラに建設した全長約2,700kmにおよぶ「砂の壁（Berm）」。モロッコ実効支配地域とポリサリオ戦線が主張する解放区を隔てる軍事境界線となっている。",
+        "en": "The Moroccan Western Sahara Wall (\"The Berm\"), stretching approximately 2,700 km across Western Sahara, separating the Moroccan-controlled territory from the Polisario-held Free Zone.",
+        "zh": "摩洛哥在西撒哈拉修筑的长约2700公里的“沙墙”（Berm），分隔了摩洛哥实际控制区与波利萨里奥阵线主张的解放区。",
+        "ko": "모로코가 서사하라에 건설한 약 2,700km 길이의 '모래 장벽(Berm)'. 모로코 실효 지배 지역과 폴리사리오 전선의 해방구를 가르는 군사 경계선이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:The Berm, Western Sahara..jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Berm%2C_Western_Sahara..jpg",
+        "license": "CC BY 2.0",
+        "author": "Michele Benericetti"
+      }
+    },
+    {
+      "id": "western-sahara-refugee-camp",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/western-sahara/el-aioun-refugee-camp.jpg",
+      "caption": {
+        "ja": "アルジェリア西部のティンドゥフ近郊にあるサハラウィー難民キャンプ（エル・アイウン）。1975年の紛争勃発以降、多くの避難民が暮らし、ポリサリオ戦線の拠点となっている。",
+        "en": "Sahrawi refugee camp in El Aaiún near Tindouf, western Algeria. Established after the 1975 conflict, it remains home to tens of thousands of refugees and serves as a Polisario Front base.",
+        "zh": "位于阿尔及利亚西部廷杜夫附近的撒哈拉难民营（阿尤恩）。自1975年冲突爆发以来，大量难民在此居住，也是波利萨里奥阵线的根据地。",
+        "ko": "알제리 서부 틴두프 인근의 사하라 난민 캠프(엘아이운). 1975년 분쟁 발발 이후 수많은 피난민이 거주하며 폴리사리오 전선의 거점이 되고 있다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:ElAiounrefugeecamp.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ElAiounrefugeecamp.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Jørn Sund-Henriksen"
+      }
+    }
+  ]
 }

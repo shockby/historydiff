@@ -1,0 +1,37 @@
+{
+  "eventId": "russia-compatriot-protection",
+  "photos": [
+    {
+      "id": "crimea-unmarked-soldiers-2014",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/russia-compatriot-protection/crimea-unmarked-soldiers-2014.jpg",
+      "caption": {
+        "ja": "2014年3月、クリミアの州都シンフェロポリで庁舎を警備する記章のない武装兵士（「礼儀正しい人々」）。ロシアはロシア系同胞の安全保護を理由に軍事介入を行い、クリミア半島の実効支配を確立した。",
+        "en": "Soldiers without insignia guarding government buildings in Simferopol, Crimea, in March 2014 (\"polite people\"). Russia justified its intervention as protecting Russian-speaking compatriots before annexing the peninsula.",
+        "zh": "2014年3月，无军衔标志的武装士兵（“有礼貌的人”）在克里米亚首府辛菲罗波尔戒备政府大楼。俄罗斯以保护俄裔同胞安全为由进行军事介入，进而控制并吞并克里米亚。",
+        "ko": "2014년 3월 크림반도 심페로폴에서 청사를 경비하는 소속 표식 없는 무장 군인들('예의 바른 사람들'). 러시아는 러시아계 동포 보호를 명분으로 군사 개입을 단행하여 크림반도를 실효 지배했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:VOA-Crimea-unmarked-soldiers.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:VOA-Crimea-unmarked-soldiers.jpg",
+        "license": "Public Domain (Voice of America)",
+        "author": "Elizabeth Arrott / Voice of America"
+      }
+    },
+    {
+      "id": "crimea-council-flags-2014",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/russia-compatriot-protection/crimea-council-flags-2014.png",
+      "caption": {
+        "ja": "2014年3月、親ロシア派勢力に掌握されたクリミア自治共和国最高会議（議会）ビルに翻るロシア国旗とクリミア旗。同胞保護を掲げた住民投票を経てロシアへの編入が宣言された。",
+        "en": "Russian and Crimean flags flying over the Supreme Council building in Simferopol in March 2014 after its takeover by pro-Russian forces, leading to the disputed referendum and annexation.",
+        "zh": "2014年3月亲俄势力控制克里米亚最高拉达（议会）大楼后升起的俄罗斯国旗与克里米亚旗帜。在“保护同胞”的旗号下举行公投并宣布并入俄罗斯。",
+        "ko": "2014년 3월 친러시아 세력에 장악된 크림 자치공화국 최고회의(의회) 건물에 게양된 러시아 국기와 크림기. 동포 보호를 내세운 주민투표를 거쳐 러시아 편입이 선언되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:Flags over Supreme Council of Crimea (3 March 2014).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Flags_over_Supreme_Council_of_Crimea_%283_March_2014%29.png",
+        "license": "Public Domain (Voice of America)",
+        "author": "Elizabeth Arrott / Voice of America"
+      }
+    }
+  ]
+}

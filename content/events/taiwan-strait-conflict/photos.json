@@ -1,0 +1,37 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "photos": [
+    {
+      "id": "kinmen-three-principles-sign",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/taiwan-strait-conflict/kinmen-three-principles-sign.jpg",
+      "caption": {
+        "ja": "金門島（大胆島）に設置された「三民主義統一中國」の心戦標語看板。対岸のアモイ（厦門）を望む位置にあり、冷戦期からの海峡両岸の政治的対立と分断を象徴する。",
+        "en": "Propaganda sign on Dadan Island (Kinmen) reading \"Three Principles of the People Unite China\", facing Xiamen on the mainland. It symbolizes the political standoff and division across the Taiwan Strait since the Cold War.",
+        "zh": "位于金门大担岛的“三民主义统一中国”心战标语墙，面向大陆厦门，象征着冷战以来海峡两岸的政治对峙与分裂分治。",
+        "ko": "진먼현 다단섬에 설치된 '삼민주의통일중국' 선전 표어판. 건너편 샤먼을 바라보는 위치에 있으며, 냉전기 이후 대만해협 양안의 정치적 대립과 분단을 상징한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:Three Principles of the People Unites China.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Three_Principles_of_the_People_Unites_China.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Minsc at Chinese Wikipedia"
+      }
+    },
+    {
+      "id": "third-taiwan-strait-crisis-uss-independence",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/taiwan-strait-conflict/uss-independence-1996.jpeg",
+      "caption": {
+        "ja": "1996年3月、第三次台湾海峡危機の際に台湾近海へ派遣された米海軍空母インディペンデンス（CV-62）。中国のミサイル演習に対し、米国が海軍力を誇示して台湾防衛と海峡の現状維持に関与した。",
+        "en": "U.S. Navy aircraft carrier USS Independence (CV-62) operating near Taiwan during the Third Taiwan Strait Crisis in March 1996. The deployment signaled U.S. commitment to regional stability in response to Chinese missile tests.",
+        "zh": "1996年3月第三次台湾海峡危机期间，部署在台湾附近海域的美国海军“独立”号航空母舰（CV-62）。针对中国的导弹演习，美国展现军事力量以维护海峡现状。",
+        "ko": "1996년 3월 제3차 대만해협 위기 당시 대만 인근 해역으로 파견된 미 해군 항공모함 인디펜던스호(CV-62). 중국의 미사일 훈련에 맞서 미국의 해군력 전개와 해협 현상 유지 관여를 보여주었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons – File:USS Independence (CV-62) underway at sea on 10 March 1996.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:USS_Independence_(CV-62)_underway_at_sea_on_10_March_1996.jpeg",
+        "license": "Public Domain (U.S. Navy)",
+        "author": "U.S. Navy"
+      }
+    }
+  ]
+}

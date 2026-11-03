@@ -1,0 +1,113 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "fr-algerian-war-memory",
+      "claim": "프랑스는 알제리 전쟁 당시의 조직적 고문과 개별 살해를 인정했으나 국가 차원의 공식 사과와 배상은 거부하고 있으며 사망자 수에도 양측 간 큰 차이가 있다",
+      "context": "1954~1962년 알제리 전쟁 사망자 수에 대해 알제리 정부는 '150만 순교자'라고 하는 반면, 프랑스 역사학자들은 알제리인 사망자를 약 30만~50만 명(프랑스군 사망자 약 2만 5,000명, 친불 알제리인 보조병 아르키 살해 수만 명)으로 추산한다. 마크롱 대통령은 2018년 수학자 모리스 오댕, 2021년 알리 부멘젤이 프랑스군의 고문으로 살해되었음을 국가 차원에서 인정하고 2021년 스토라 보고서에 따라 공문서 공개를 추진했으나, 공식 사과(참회)나 배상은 하지 않는다는 입장을 취하고 있다.",
+      "verdict": "개별 사건 인정과 공식 사과 거부는 프랑스 대통령실 성명으로 확인된 사실. 전쟁 전체 사망자 수는 알제리 공식 견해와 역사학자들의 추산 사이에 차이가 있다.",
+      "sources": [
+        {
+          "title": "Algerian War",
+          "url": "https://en.wikipedia.org/wiki/Algerian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Maurice Audin",
+          "url": "https://en.wikipedia.org/wiki/Maurice_Audin",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-paris-massacre-1961",
+      "claim": "1961년 10월 17일 파리 학살에서는 파리 경시청이 알제리인 평화 시위를 탄압해 다수를 살해했으며 오랫동안 은폐되었다",
+      "context": "알제리 전쟁 말기인 1961년 10월 17일, 모리스 파퐁 경시총감이 내린 야간 통행금지령에 항의해 파리에서 행진한 약 3만 명의 비무장 알제리인들에게 경찰이 발포·구타하고 다수를 센강에 던졌다. 당시 프랑스 정부는 사망자를 3명으로 발표하고 보도를 검열했으나, 1998년 공식 조사에서 최소 48명, 역사학자들의 연구에서는 100~200명 이상이 살해된 것으로 추산된다. 2012년 올랑드 대통령, 2021년 마크롱 대통령이 탄압 사실을 공식 인정했다.",
+      "verdict": "탄압 사실과 오랜 보도 통제, 그리고 2012년·2021년 프랑스 대통령의 공식 인정은 확인된 사실. 정확한 사망자 수에는 추산 폭이 있다.",
+      "sources": [
+        {
+          "title": "Paris massacre of 1961",
+          "url": "https://en.wikipedia.org/wiki/Paris_massacre_of_1961",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-new-caledonia-referendums-2024",
+      "claim": "누벨칼레도니에서는 2021년 제3차 독립 투표가 독립파 보이콧 속에 실시되었고 2024년 5월에는 선거권 확대안을 둘러싸고 사망자 14명의 폭동이 발생했다",
+      "context": "1998년 누메아 협정에 따른 독립 주민투표는 2018년(반대 56.7%), 2020년(반대 53.3%) 근소한 차이로 부결된 뒤 2021년 12월 제3차 투표에서는 코로나19 전통 애도 기간을 이유로 선주민 카나크 독립파(FLNKS)가 연기를 요청했으나 프랑스 정부가 거부해 보이콧 속에 반대 96.5%(투표율 43.9%)를 기록했다. 2024년 5월 프랑스 의회가 10년 이상 거주한 본토 출신자 등에게 지방선거권을 부여하는 개헌안을 가결하자 카나크 측이 '선주민 소수파화'라며 반발해 폭동이 일어났다(사망자 14명, 피해액 20억 유로 이상). 법안은 중단되었고 2025년 7월 프랑스 공화국 내에서 '누벨칼레도니국'을 창설하는 부지발 합의가 맺어졌으나 FLNKS는 이를 거부했다.",
+      "verdict": "주민투표 결과, 2024년 폭동 피해, 그리고 2025년 부지발 합의와 FLNKS의 반발 모두 공식 기록 있음.",
+      "sources": [
+        {
+          "title": "2021 New Caledonian independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2021_New_Caledonian_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2024 New Caledonia unrest",
+          "url": "https://en.wikipedia.org/wiki/2024_New_Caledonia_unrest",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-francafrique-sahel-withdrawal",
+      "claim": "2022~2025년에 걸쳐 말리·부르키나파소·니제르·차드·세네갈·코트디부아르에서 프랑스군이 잇따라 철수했다",
+      "context": "프랑스는 2013년 이후 사헬 지역에서 이슬람 극단주의 소탕 작전(세르발 작전·바르칸 작전)을 전개했으나 치안 악화와 구종주국에 대한 반발(반프랑사프리크 정서)을 배경으로 군사 쿠데타가 연쇄 발생했다. 프랑스군은 말리(2022년), 부르키나파소(2023년), 니제르(2023년 말)에서 철수할 수밖에 없었고, 나아가 2024~2025년에는 차드, 세네갈, 코트디부아르에서도 기지 반환·철수가 진행되었으며 말리·부르키나파소·니제르는 러시아(아프리카 군단)와의 군사 협력을 확대했다.",
+      "verdict": "각국에서의 프랑스군 철수 및 기지 반환은 공식 기록으로 확인된 사실.",
+      "sources": [
+        {
+          "title": "Operation Barkhane",
+          "url": "https://en.wikipedia.org/wiki/Operation_Barkhane",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Françafrique",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-thiaroye-cameroon-commissions",
+      "claim": "프랑스 정부는 2024~2025년 세네갈 '티아로이 학살'과 카메룬 독립운동 탄압 당시 프랑스군의 폭력을 잇따라 공식 인정했다",
+      "context": "1944년 12월 1일 제2차 세계대전에 참전한 서아프리카 출신 병사(세네갈 소총병)들이 다카르 교외 티아로이에서 미지급 급여를 요구하며 항의하자 프랑스군이 발포해 다수를 살해했다(당시 프랑스 당국은 사망자 35명으로 발표, 연구자들은 최대 300~400명으로 추산). 2024년 11월 마크롱 대통령은 사건 80년 만에 처음으로 이를 '학살(massacre)'로 공식 인정했다. 또한 2025년 1월에는 프랑스·카메룬 합동역사위원회가 1945~1971년 카메룬 독립파(UPC) 탄압에서 프랑스군이 조직적 폭력·강제 이주·지도자 암살을 자행했다는 보고서를 제출했다.",
+      "verdict": "2024년 11월 프랑스 대통령 서한 및 2025년 1월 합동역사위원회 보고서로 확인된 사실.",
+      "sources": [
+        {
+          "title": "Thiaroye massacre",
+          "url": "https://en.wikipedia.org/wiki/Thiaroye_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Bamileke War",
+          "url": "https://en.wikipedia.org/wiki/Bamileke_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-banlieues-2023-unrest",
+      "claim": "2023년 6월 나엘 군 사살 사건을 계기로 프랑스 전역의 교외에서 폭동이 발생했고 유엔 기구가 법 집행기관의 인종차별 문제를 지적했다",
+      "context": "2023년 6월 27일 파리 교외 낭테르에서 북아프리카계(알제리·모로코계) 17세 소년 나엘 메르주크가 교통 검문 중 경찰관에게 사살된 영상이 확산되면서 전국 방리유(교외)에서 며칠간 폭동이 일어났다(체포자 3,700명 이상, 건물 파손 다수). 유엔 인권최고대표사무소(OHCHR)와 유엔 인종차별철폐위원회(CERD)는 프랑스 경찰의 인종 프로파일링과 과도한 무력 행사에 우려를 표명했으나 프랑스 정부는 '체계적인 인종차별은 존재하지 않는다'고 반박했다.",
+      "verdict": "사건·폭동 규모, 유엔 기구의 권고, 그리고 프랑스 정부의 반박 모두 공식 기록 있음.",
+      "sources": [
+        {
+          "title": "Nahel Merzouk riots",
+          "url": "https://en.wikipedia.org/wiki/Nahel_Merzouk_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

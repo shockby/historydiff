@@ -1,0 +1,128 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "lastUpdated": "2026-11-03",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な世論傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "uk-domestic-postcolonial-conflicts-voice-1",
+      "country": {
+        "ja": "イギリス（保守・ユニオニスト層）",
+        "en": "United Kingdom (Conservative and Unionist voices)",
+        "zh": "英国（保守派与联合派群体）",
+        "ko": "영국(보수·유니오니스트층)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "ベルファスト合意や権限移譲で連合王国は民主的に統治されており、数十年前・数百年前の歴史で元兵士を訴追したり際限ない賠償を求めたりすべきではない。チャゴス諸島の主権譲渡も安全保障上の譲歩しすぎだ。",
+        "en": "The UK is governed democratically through devolution and the Good Friday Agreement; veterans should not face endless prosecutions over decades-old events, nor should Britain pay limitless reparations. Ceding Chagos sovereignty is also a strategic giveaway.",
+        "zh": "联合王国通过权力下放与《受难节协议》实现了民主治理，不应因几十年前甚至数百年前的历史无休止地起诉退伍军人或支付赔偿；移交查戈斯群岛主权也是过度的战略让步。",
+        "ko": "벨파스트 협정과 권한 이양으로 연합왕국은 민주적으로 통치되고 있으며, 수십 년·수백 년 전 역사로 퇴역 군인을 기소하거나 끝없는 배상을 요구해서는 안 된다. 차고스 제도 주권 양도도 안보상 지나친 양보다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "英国内の保守系メディアやX（旧Twitter）で広く見られる論調。",
+        "en": "Widely seen in British conservative media and on X.",
+        "zh": "在英国保守派媒体和X上广泛存在的论调。",
+        "ko": "영국 내 보수 성향 언론과 X에서 널리 보이는 논조."
+      },
+      "keywords": [
+        "#ProtectOurVeterans",
+        "#Chagos",
+        "#Union"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "uk-domestic-postcolonial-conflicts-voice-2",
+      "country": {
+        "ja": "北アイルランド遺族・スコットランド独立派",
+        "en": "Northern Ireland victims' families and Scottish independence supporters",
+        "zh": "北爱尔兰遗属与苏格兰独立派",
+        "ko": "북아일랜드 유족·스코틀랜드 독립파"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "2023年レガシー法は国家暴力の真実を隠すための恩赦であり、被害者家族の尊厳を踏みにじるものだ。またブレグジットでスコットランドの民意が無視された以上、自決権に基づく再投票が認められるべきだ。",
+        "en": "The 2023 Legacy Act was an amnesty designed to bury the truth of state violence and deny justice to families. And after Brexit overrode Scotland's vote to remain in the EU, Scots should have the right to choose their own future.",
+        "zh": "《2023年历史遗留法》是掩盖国家暴力真相的大赦，践踏了受害者家属的尊严；既然脱欧无视了苏格兰留在欧盟的民意，就应承认基于自决权的再次公投。",
+        "ko": "2023년 유산법은 국가 폭력의 진실을 은폐하려는 사면으로 피해자 가족의 존엄을 짓밟는 것이다. 또한 브렉시트로 스코틀랜드의 민의가 무시된 이상 자결권에 따른 재투표가 인정되어야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "北アイルランドの人権団体・遺族キャンペーンやスコットランドのSNSで強い主張。",
+        "en": "Strong sentiment among Northern Ireland rights groups, bereaved families, and Scottish social media.",
+        "zh": "在北爱尔兰人权团体、遗属运动及苏格兰社交媒体上呼声强烈。",
+        "ko": "북아일랜드 인권단체·유족 캠페인 및 스코틀랜드 SNS에서 강한 주장."
+      },
+      "keywords": [
+        "#RepealTheLegacyAct",
+        "#Ballymurphy",
+        "#IndyRef2"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "uk-domestic-postcolonial-conflicts-voice-3",
+      "country": {
+        "ja": "チャゴス人・旧植民地（ケニア・カリブ諸国）",
+        "en": "Chagossians and former colonies (Kenya and Caribbean nations)",
+        "zh": "查戈斯人与前殖民地（肯尼亚、加勒比国家）",
+        "ko": "차고스인·구식민지(케냐·카리브해 국가)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "私たちの故郷や歴史は、常に大国の軍事基地や経済利益の犠牲にされてきた。公文書を隠蔽し、正式な国家謝罪やディエゴガルシアへの帰還権を拒む限り、英帝国の脱植民地化は終わっていない。",
+        "en": "Our homelands and histories have repeatedly been sacrificed for big-power military bases and economic gain. As long as archives were hidden and formal apologies, reparations, or the right to return to Diego Garcia are denied, decolonization remains unfinished.",
+        "zh": "我们的家园与历史一再沦为大国军事基地和经济利益的牺牲品。只要隐匿档案、拒绝正式国家道歉与赔偿、禁止返回迪戈加西亚岛，英帝国的去殖民化就远未结束。",
+        "ko": "우리의 고향과 역사는 늘 강대국의 군사기지와 경제적 이익의 희생양이 되어 왔다. 공문서를 은폐하고 공식 국가 사과나 디에고 가르시아 귀환권을 거부하는 한 대영제국의 탈식민지화는 끝나지 않았다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "チャゴス難民団体、CARICOM関連フォーラム、アフリカ・カリブ系ディアスポラのSNSで多い。",
+        "en": "Common among Chagossian advocacy groups, CARICOM forums, and African/Caribbean diaspora social media.",
+        "zh": "常见于查戈斯难民团体、加勒比共同体论坛及非洲与加勒比裔侨民的社交媒体。",
+        "ko": "차고스 난민 단체, CARICOM 관련 포럼, 아프리카·카리브계 디아스포라 SNS에서 많이 보인다."
+      },
+      "keywords": [
+        "#LetChagossiansReturn",
+        "#MauMau",
+        "#ReparationsNow"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "uk-domestic-postcolonial-conflicts-voice-4",
+      "country": {
+        "ja": "国際法・歴史研究者",
+        "en": "International law and history scholars",
+        "zh": "国际法与历史学者",
+        "ko": "국제법·역사 연구자"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "英国はベルファスト合意やチャゴス主権移交条約など法と交渉による紛争管理に長けているが、レガシー法やレガシー作戦（公文書秘匿）が示すように、国家暴力の法的責任追及には強い抵抗を示してきた。",
+        "en": "Britain has shown institutional skill in managing conflicts through negotiated frameworks like the Good Friday Agreement and the Chagos treaty, yet cases like Operation Legacy and the 2023 Legacy Act reveal deep state resistance to legal accountability.",
+        "zh": "英国擅长通过《受难节协议》和查戈斯条约等法律与谈判框架管理冲突，但“遗产行动”和《2023年历史遗留法》表明，国家机器对追究国家暴力的法律责任始终存在强烈抵触。",
+        "ko": "영국은 벨파스트 협정이나 차고스 주권 이양 조약처럼 법과 협상을 통한 분쟁 관리에 능숙하지만, 유산법이나 레거시 작전(공문서 은닉)이 보여 주듯 국가 폭력의 법적 책임 추궁에는 강한 저항을 보여 왔다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "欧米の学術誌、王立国際問題研究所（チャタムハウス）等の分析で見られる視点。",
+        "en": "A perspective common in academic journals and think tanks such as Chatham House.",
+        "zh": "欧美学术期刊及查塔姆研究所等智库分析中常见的观点。",
+        "ko": "구미 학술지 및 왕립국제문제연구소(채텀하우스) 등의 분석에서 보이는 시각."
+      },
+      "keywords": [
+        "#GoodFridayAgreement",
+        "#OperationLegacy",
+        "#Decolonization"
+      ],
+      "timeframe": "2020-2026"
+    }
+  ]
+}

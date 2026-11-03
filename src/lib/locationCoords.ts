@@ -86,6 +86,8 @@ export const eventCoords: Record<string, LatLng> = {
   'syria-civil-war': { lat: 33.51, lng: 36.28 },         // Damascus, Syria
   'tigray-war': { lat: 13.5, lng: 39.47 },               // Tigray, Ethiopia (Mekelle)
   'transnistria-conflict': { lat: 46.85, lng: 29.63 },   // Transnistria (Tiraspol)
+  'uk-domestic-postcolonial-conflicts': { lat: 54.6, lng: -5.93 }, // Belfast / United Kingdom
+  'france-domestic-postcolonial-conflicts': { lat: 48.86, lng: 2.35 }, // Paris / France
   'yemen-conflict': { lat: 15.37, lng: 44.19 },          // Sana'a, Yemen
 };
 
@@ -170,6 +172,8 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   'transnistria-conflict': { region: 'europe' },
   'ukraine-invasion': { region: 'europe' },
   'russia-compatriot-protection': { region: 'europe' },
+  'uk-domestic-postcolonial-conflicts': { region: 'europe' },
+  'france-domestic-postcolonial-conflicts': { region: 'europe' },
   'volhynia-massacre': { region: 'europe' },
 
   // ── Africa (8) ──

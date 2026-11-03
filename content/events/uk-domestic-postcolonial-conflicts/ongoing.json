@@ -1,0 +1,49 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-03",
+  "whyItMatters": {
+    "ja": "イギリスの国内統合と旧植民地問題は、ブレグジット後の連合王国の行方（北アイルランドでの初のシン・フェイン党自治政府首相誕生やスコットランド独立論）と、国際法に基づく脱植民地化・安全保障の再編に直結している。2024〜2025年のチャゴス諸島主権返還条約は、インド洋の要衝ディエゴガルシア米英基地の99年租借を維持しつつ国際司法裁判所（ICJ）勧告に応じる試みであり、また2024年10月の英連邦首脳会議（CHOGM）でカリブ諸国が奴隷制賠償の議論を共同声明に盛り込ませたことは、旧帝国とグローバル・サウスの関係再定義を象徴している。",
+    "en": "Britain's domestic union and post-colonial reckoning directly shape the post-Brexit future of the United Kingdom—marked by Sinn Féin holding the Northern Ireland First Minister post for the first time and continuing debates over Scottish independence—as well as international law and security. The 2024–2025 UK–Mauritius treaty on the Chagos Archipelago tests whether decolonization rulings by the ICJ can be reconciled with a 99-year lease for the strategic US–UK base on Diego Garcia, while Caribbean nations' push for reparatory justice debates at the October 2024 Commonwealth Heads of Government Meeting (CHOGM) highlights how imperial legacies continue to reshape ties with the Global South.",
+    "zh": "英国的国内统合与前殖民地遗留问题，直接关系到脱欧后联合王国的未来走向（新芬党首次出任北爱尔兰首席部长及苏格兰独立争论）以及基于国际法的去殖民化与安全格局重组。2024—2025年查戈斯群岛主权移交条约试图在维持印度洋要冲迪戈加西亚英美基地99年租约的同时回应国际法院（ICJ）的裁决；而在2024年10月英联邦政府首脑会议（CHOGM）上，加勒比国家推动将奴隶制赔偿讨论写入联合公报，象征着前帝国与“全球南方”关系的重新定义。",
+    "ko": "영국의 국내 통합과 구식민지 문제는 브렉시트 이후 연합왕국의 향방(북아일랜드 최초의 신페인당 자치정부 총리 탄생과 스코틀랜드 독립론) 및 국제법에 기반한 탈식민지화·안보 재편과 직결되어 있다. 2024~2025년 차고스 제도 주권 반환 조약은 인도양 요충지 디에고 가르시아 영·미 기지의 99년 임차를 유지하면서 국제사법재판소(ICJ) 권고에 부응하려는 시도이며, 2024년 10월 영연방 정상회의(CHOGM)에서 카리브해 국가들이 노예제 배상 논의를 공동성명에 포함시킨 것은 구제국과 글로벌 사우스의 관계 재정의를 상징한다."
+  },
+  "whatToWatchNext": {
+    "ja": "・スターマー労働党政権による「2023年北アイルランド紛争レガシー法」免責条項の廃止と検死審問・調査の再開状況\n・チャゴス諸島主権移交条約の発効後の運用、およびチャゴス人の帰還・補償プログラムの具体化\n・2026年スコットランド議会選挙後の独立住民投票（IndyRef2）要求の行方\n・英連邦（コモンウェルス）枠組みでのカリブ共同体（CARICOM）との奴隷制・植民地支配に関する対話",
+    "en": "・Repeal and replacement of the immunity clauses of the 2023 Northern Ireland Legacy Act under the Starmer government and the resumption of inquests\n・Implementation of the UK–Mauritius Chagos treaty, operation of the 99-year Diego Garcia lease, and Chagossian resettlement/support provisions\n・The trajectory of Scottish independence demands following the 2026 Scottish Parliament election\n・Commonwealth and CARICOM discussions on reparatory justice for transatlantic slavery",
+    "zh": "・斯塔默工党政府废除《2023年北爱尔兰冲突历史遗留法》豁免条款及恢复死因研讯与调查的进展\n・英毛查戈斯群岛主权移交条约的实施、迪戈加西亚基地99年租约运作及查戈斯人安置与补偿方案\n・2026年苏格兰议会选举后苏格兰第二次独立公投（IndyRef2）诉求的走向\n・英联邦框架下与加勒比共同体（CARICOM）围绕跨大西洋奴隶制与殖民历史赔偿的对话",
+    "ko": "・스타머 노동당 정부의 '2023년 북아일랜드 분쟁 유산법' 면책 조항 폐지 및 검시 심문·조사 재개 상황\n・차고스 제도 주권 이양 조약 발효 후 운용 및 차고스인 귀환·보상 프로그램 구체화\n・2026년 스코틀랜드 의회 선거 이후 제2차 독립 주민투표(IndyRef2) 요구의 향방\n・영연방 프레임워크 내 카리브 공동체(CARICOM)와의 노예제·식민 지배 관련 대화"
+  },
+  "rssQuery": {
+    "ja": "北アイルランド チャゴス諸島 スコ틀ランド 独立 英連邦 賠償",
+    "en": "Northern Ireland Legacy Act Chagos Archipelago Mauritius Scotland independence",
+    "zh": "北爱尔兰 查戈斯群岛 毛里求斯 苏格兰独立 英联邦 赔偿",
+    "ko": "북아일랜드 차고스 제도 모리셔스 스코틀랜드 독립 영연방"
+  },
+  "articles": [
+    {
+      "title": "Chagos Archipelago sovereignty dispute",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chagos_Archipelago_sovereignty_dispute",
+      "publishedAt": "2025-05-22",
+      "summary": {
+        "ja": "2019年のICJ勧告から2024年10月の政治合意、2025年5月の英・モーリシャス主権移交条約署名とディエゴガルシア基地99年租借までの経緯をまとめた記事。",
+        "en": "Overview of the Chagos sovereignty dispute from the 2019 ICJ advisory opinion to the October 2024 political agreement and the May 2025 UK–Mauritius treaty with a 99-year lease for Diego Garcia.",
+        "zh": "概述从2019年国际法院咨询意见到2024年10月政治协议、2025年5月英毛签署主权移交条约及迪戈加西亚基地99年租约的经过。",
+        "ko": "2019년 ICJ 권고부터 2024년 10월 정치적 합의, 2025년 5월 영국·모리셔스 주권 이양 조약 서명과 디에고 가르시아 기지 99년 임차까지의 경위를 정리한 글."
+      }
+    },
+    {
+      "title": "Northern Ireland Troubles (Legacy and Reconciliation) Act 2023",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Troubles_(Legacy_and_Reconciliation)_Act_2023",
+      "publishedAt": "2025-01-15",
+      "summary": {
+        "ja": "2023年北アイルランド紛争レガシー法の内容、アイルランド政府による欧州人権裁判所提訴、2024年の高裁・控訴院による違憲判断、および労働党政権による見直しをまとめた記事。",
+        "en": "Details the 2023 Legacy Act, Ireland's inter-state ECHR challenge, the 2024 High Court and Court of Appeal rulings against conditional immunity, and the Labour government's repeal plans.",
+        "zh": "详述《2023年北爱尔兰冲突历史遗留法》内容、爱尔兰向欧洲人权法院提起诉讼、2024年高等法院与上诉法院裁定有条件豁免违宪以及工党政府的修订计划。",
+        "ko": "2023년 북아일랜드 분쟁 유산법의 내용, 아일랜드 정부의 유럽인권재판소 제소, 2024년 고등법원·항소법원의 조약 위반 판결 및 노동당 정부의 재검토를 정리한 글."
+      }
+    }
+  ]
+}

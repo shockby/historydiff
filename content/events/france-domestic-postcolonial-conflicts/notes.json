@@ -1,0 +1,113 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "fr-algerian-war-memory",
+      "claim": "フランスはアルジェリア戦争での組織的拷問や個別殺害を認めたが、国家としての公式謝罪と賠償は拒否しており、死者数にも双方で大きな開きがある",
+      "context": "1954〜1962年のアルジェリア戦争の死者数について、アルジェリア政府は「150万人の殉教者」とする一方、フランスの歴史家はアルジェリア人死者を約30万〜50万人（仏兵死者約2.5万人、親仏アルジェリア人兵士アルキの殺害数万人）と推計する。マクロン大統領は2018年に数学者モーリス・オーダン、2021年にアリ・ブメンジェルが仏軍の拷問で殺害されたことを国家として認め、2021年のストーラ報告書に基づき公文書公開を進めたが、公式謝罪（悔悛）や賠償は行わない立場をとっている。",
+      "verdict": "個別事件の承認と公式謝罪拒否は仏大統領府声明で確認された事実。戦争全体の死者数はアルジェリア公式見解と歴史学者の推計に差がある。",
+      "sources": [
+        {
+          "title": "Algerian War",
+          "url": "https://en.wikipedia.org/wiki/Algerian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Maurice Audin",
+          "url": "https://en.wikipedia.org/wiki/Maurice_Audin",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-paris-massacre-1961",
+      "claim": "1961年10月17日のパリ虐殺では、パリ警視庁がアルジェリア人平和デモを弾圧して多数を殺害し、長年隠蔽された",
+      "context": "アルジェリア戦争末期の1961年10月17日、モーリス・パポン警視総監が出した夜間外出禁止令に抗議してパリで行진した約3万人の非武装アルジェリア人に対し、警察が発砲・殴打し、多数をセーヌ川に投げ込んだ。当時の仏政府は死者を3人と発表して報道を検閲したが、1998年の公式調査で少なくとも48人、歴史学者の研究では100〜200人以上が殺害されたとされる。2012年にオランド大統領、2021年にマクロン大統領が弾圧の事実を公式に認めた。",
+      "verdict": "弾圧の事実と長年の情報統制、および2012年・2021年の仏大統領による公式承認は確認された事実。正確な死者数には推計幅がある。",
+      "sources": [
+        {
+          "title": "Paris massacre of 1961",
+          "url": "https://en.wikipedia.org/wiki/Paris_massacre_of_1961",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-new-caledonia-referendums-2024",
+      "claim": "ニューカレドニアでは2021年の第3回独立投票が独立派ボイコットの中で実施され、2024年5月には選挙権拡大案をめぐり死者14人の暴動が発生した",
+      "context": "1998年ヌメア協定に基づく独立住民投票は2018年（反対56.7%）、2020年（反対53.3%）と僅差で否決された後、2021年12月の第3回投票ではコロナ禍の伝統的服喪期間を理由に先住民カナック独立派（FLNKS）が延期を求めたが仏政府が拒否し、ボイコットの中で反対96.5%（投票率43.9%）となった。2024年5月、仏議会が10年以上居住する本土出身者らに地方選挙権を与える憲法改正案を可決すると、カナック側が「先住民の少数派化」と反発し暴動が発生（死者14人、被害20億ユーロ超）。法案は停止され、2025年7月に仏共和国内で「ニューカレドニア国」を創設するブジヴァル合意が結ばれたが、FLNKSはこれを拒否した。",
+      "verdict": "住民投票結果、2024年暴動の被害、および2025年ブジヴァル合意とFLNKSの反発はいずれも公式記録あり。",
+      "sources": [
+        {
+          "title": "2021 New Caledonian independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2021_New_Caledonian_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2024 New Caledonia unrest",
+          "url": "https://en.wikipedia.org/wiki/2024_New_Caledonia_unrest",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-francafrique-sahel-withdrawal",
+      "claim": "2022〜2025年にかけて、マリ・ブルキナファソ・ニジェール・チャド・セネガル・コートジボワールからフランス軍が相次いで撤退した",
+      "context": "フランスは2013年以降、サヘル地域で対イスラム過激派作戦（セルヴァル作戦・バルカンヌ作戦）を展開したが、治安悪化と旧宗主国への反発（反フランサフリック感情）を背景に軍事クーデターが連鎖した。仏軍はマリ（2022年）、ブルキナファソ（2023年）、ニジェール（2023年末）から撤退を余儀なくされ、さらに2024〜2025年にはチャド、セネガル、コートジボワールでも基地返還・撤退が進み、マリ・ブルキナファソ・ニジェールはロシア（アフリカ軍団）との軍事協力を拡大した。",
+      "verdict": "各国からのフランス軍撤退および基地返還は公式記録で確認された事実。",
+      "sources": [
+        {
+          "title": "Operation Barkhane",
+          "url": "https://en.wikipedia.org/wiki/Operation_Barkhane",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Françafrique",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-thiaroye-cameroon-commissions",
+      "claim": "フランス政府は2024〜2025年にセネガル「ティアロイ虐殺」とカメルーン独立運動弾圧における仏軍の暴力を相次いで公式に認めた",
+      "context": "1944年12月1日、第二次大戦に従軍した西アフリカ出身兵（セネガル狙撃兵）がダカール郊外ティアロイで未払い給与を求めて抗議した際、仏軍が発砲して多数を殺害した（当時仏当局は死者35人と発表、研究者は最大300〜400人と推計）。2024年11月、マクロン大統領は事件から80年を経て初めてこれを「虐殺（massacre）」と公式認定した。また2025年1月には、仏・カメルーン合同歴史委員会が1945〜1971年のカメルーン独立派（UPC）弾圧で仏軍が組織的暴力・強制移住・指導者暗殺を行ったとする報告書を提出した。",
+      "verdict": "2024年11月の仏大統領書簡および2025年1月の合同歴史委員会報告書で確認された事実。",
+      "sources": [
+        {
+          "title": "Thiaroye massacre",
+          "url": "https://en.wikipedia.org/wiki/Thiaroye_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Bamileke War",
+          "url": "https://en.wikipedia.org/wiki/Bamileke_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-banlieues-2023-unrest",
+      "claim": "2023年6月のナエル少年射殺事件を機にフランス全土の郊外で暴動が発生し、国連機関が法執行機関の人種差別問題を指摘した",
+      "context": "2023年6月27日、パリ郊外ナンテールで北アフリカ系（アルジェリア・モロッコ系）の17歳少年ナエル・メルズークが交通検問中に警察官に射殺された映像が拡散し、全土のバンリュー（郊外）で数日間にわたり暴動が発生（逮捕者3,700人以上、建物損壊多数）。国連人権高等弁務官事務所（OHCHR）と国連人種差別撤廃委員会（CERD）は仏警察の人種プロファイリングと過剰な武力行使に懸念を表明したが、仏政府は「体系的な人種差別は存在しない」と反論した。",
+      "verdict": "事件・暴動の規模、国連機関の勧告、および仏政府の反論はいずれも公式記録あり。",
+      "sources": [
+        {
+          "title": "Nahel Merzouk riots",
+          "url": "https://en.wikipedia.org/wiki/Nahel_Merzouk_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

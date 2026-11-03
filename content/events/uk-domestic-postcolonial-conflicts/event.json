@@ -1,0 +1,47 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "title": {
+    "ja": "イギリスの国内紛争と旧植民地問題（北アイルランド・連合王国の統合・帝国統治の清算）",
+    "en": "UK's Domestic Conflicts and Post-Colonial Reckoning (Northern Ireland, Union and Legacy of Empire)",
+    "zh": "英国的国内冲突与前殖民地遗留问题（北爱尔兰、联合王国统合与帝国统治清算）",
+    "ko": "영국의 국내 분쟁과 구식민지 문제(북아일랜드·연합왕국 통합·제국 통치의 청산)"
+  },
+  "relatedEvents": [
+    {
+      "id": "falklands-war",
+      "relation": {
+        "ja": "イギリス海外領土の主権と住民自決権をめぐる、旧帝国時代の領土紛争の代表例。",
+        "en": "A flagship territorial dispute from the imperial era over British Overseas Territory sovereignty and self-determination.",
+        "zh": "围绕英国海外领土主权与居民自决权的帝国时代领土争端代表案例。",
+        "ko": "영국 해외 영토의 주권과 주민 자결권을 둘러싼 구제국 시대 영토 분쟁의 대표적 사례."
+      }
+    },
+    {
+      "id": "cyprus-dispute",
+      "relation": {
+        "ja": "1960年独立までのイギリス植民地統治と、現在も残る英主権基地領域が背景にある紛争。",
+        "en": "A conflict shaped by British colonial rule until 1960 and the continuing British Sovereign Base Areas on the island.",
+        "zh": "以1960年独立前的英国殖民统治及至今保留的英属主权基地地区为背景的冲突。",
+        "ko": "1960년 독립까지의 영국 식민 통치와 현재도 남아 있는 영국 주권기지영역이 배경이 된 분쟁."
+      }
+    },
+    {
+      "id": "kashmir-conflict",
+      "relation": {
+        "ja": "1947年のイギリス領インド帝国分割（インド・パキスタン分離独立）に端を発する領土紛争。",
+        "en": "A territorial conflict originating in the 1947 Partition of British India.",
+        "zh": "源于1947年英属印度分治（印巴分治）的领土争端。",
+        "ko": "1947년 영국령 인도 제국 분할(인도·파키스탄 분리 독립)에서 비롯된 영토 분쟁."
+      }
+    },
+    {
+      "id": "france-domestic-postcolonial-conflicts",
+      "relation": {
+        "ja": "漸進的自治・コモンウェルス方式をとった英国と対比される、フランス共和国の脱植民地化と海外領土問題。",
+        "en": "France's republican decolonization and overseas territory conflicts, often contrasted with Britain's devolution and Commonwealth model.",
+        "zh": "与采取渐进自治和英联邦模式的英国形成对比的法兰西共和国去殖民化及海外领土问题。",
+        "ko": "점진적 자치·영연방 방식을 택한 영국과 대비되는 프랑스 공화국의 탈식민지화 및 해외 영토 문제."
+      }
+    }
+  ]
+}

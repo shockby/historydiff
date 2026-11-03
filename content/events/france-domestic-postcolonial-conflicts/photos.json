@@ -1,0 +1,37 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "photos": [
+    {
+      "id": "paris-1961-memorial",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/france-domestic-postcolonial-conflicts/paris-1961-memorial.jpg",
+      "caption": {
+        "ja": "パリのサン＝ミシェル橋近くに設置された「1961年10月17日パリ虐殺」の追悼銘板。「ここで多数のアルジェリア人が血なまぐさい弾圧の犠牲となった」と刻まれており、長年の隠蔽を経て2001年にパリ市が設置し、2012年・2021年に仏大統領が公式に認めた。",
+        "en": "Memorial plaque at Pont Saint-Michel in Paris commemorating the victims of the October 17, 1961 massacre ('To the memory of the many Algerians killed during the bloody repression of the peaceful demonstration of 17 October 1961'). Installed by the City of Paris in 2001 after decades of state censorship.",
+        "zh": "位于巴黎圣米歇尔桥畔的“1961年10月17日巴黎惨案”纪念铭牌，上刻“纪念在1961年10月17日和平示威血腥镇压中遇害的众多阿尔及利亚人”。历经数十年隐瞒后由巴黎市政府于2001年设立，法国总统于2012年和2021年正式承认。",
+        "ko": "파리 생미셸 다리 인근에 설치된 '1961년 10월 17일 파리 학살' 추모 명판. '이곳에서 다수의 알제리인이 피비린내 나는 탄압의 희생자가 되었다'고 새겨져 있으며, 오랜 은폐 끝에 2001년 파리시가 설치하고 2012년·2021년 프랑스 대통령이 공식 인정했다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Memorial Plaque Algerian Massacre Paris 1961.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Memorial_Plaque_Algerian_Massacre_Paris_1961.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "FSouici"
+      }
+    },
+    {
+      "id": "tjibaou-cultural-centre",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/france-domestic-postcolonial-conflicts/tjibaou-cultural-centre.jpg",
+      "caption": {
+        "ja": "ニューカレドニアの首府ヌメアにあるジャン＝マリー・チバウ文化センター。1988年のマティニョン合意に署名し翌年暗殺された先住民カナックの独立運動指導者チバウを記念して1998年（ヌメア協定の年）に開館した、カナック文化と自治・脱植民地化プロセスの象徴。",
+        "en": "The Jean-Marie Tjibaou Cultural Centre in Nouméa, New Caledonia. Opened in 1998—the year of the Nouméa Accord—and named after the Kanak independence leader assassinated in 1989 after signing the Matignon Accords, it stands as a symbol of indigenous Kanak identity and the decolonization process.",
+        "zh": "位于新喀里多尼亚首府努美阿的让-马里·吉巴乌文化中心。为纪念签署1988年《马提翁协议》并于次年遇刺的原住民卡纳克独立运动领袖吉巴乌，于1998年（《努美阿协议》签署当年）落成，是卡纳克文化与去殖民化进程的象征。",
+        "ko": "누벨칼레도니 수도 누메아에 위치한 장마리 치바우 문화센터. 1988년 마티뇽 합의에 서명하고 이듬해 암살된 선주민 카나크 독립운동 지도자 치바우를 기려 1998년(누메아 협정 체결 해)에 개관한 카나크 문화와 자치·탈식민지화 과정의 상징이다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Jean-Marie Tjibaou Cultural Centre, filmed in June 2013.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jean-Marie_Tjibaou_Cultural_Centre,_filmed_in_June_2013.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "gérard from Nouméa"
+      }
+    }
+  ]
+}

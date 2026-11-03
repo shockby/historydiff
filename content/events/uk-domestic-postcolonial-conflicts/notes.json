@@ -1,0 +1,119 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "uk-bloody-sunday-ballymurphy",
+      "claim": "1972年の「血の日曜日事件」や1971年の「バリマーフィー事件」で英軍が非武装市民を射殺し、数十年後に英政府が公式謝罪した",
+      "context": "1972年1月30日、北アイルランド・デリーで公民権行進中の非武装市民に英陸軍落下傘連隊が発砲し14人が死亡した。当初のウィジャリー調査（1972年）は軍を擁護したが、12年かけたサヴィル調査委員会報告書（2010年）は犠牲者全員の無実と軍の発砲が「不当かつ正当化し得ない」ことを認定し、キャメロン首相が公式謝罪した。1971年8月にベルファストで11人が射殺されたバリマーフィー事件でも、2021年5月の検死審問で全員が無実の非武装市民と認定された。",
+      "verdict": "公的調査報告書および英首相の議会声明で確認された事実。ただし元兵士の刑事訴追はほぼ不成立に終わっている。",
+      "sources": [
+        {
+          "title": "Bloody Sunday (1972)",
+          "url": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ballymurphy massacre",
+          "url": "https://en.wikipedia.org/wiki/Ballymurphy_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-good-friday-brexit",
+      "claim": "1998年のベルファスト合意（聖金曜日合意）で北アイルランド和平の枠組みが成立したが、ブレグジットで通商・国境問題が再燃した",
+      "context": "約3,500人以上が死亡した北アイルランド紛争は、1998年4月のベルファスト合意により、プロテスタント系ユニオニストとカトリック系ナショナリストの権力分有、南北アイルランド間の事実上の国境撤廃、および住民多数の同意による帰属決定原則で決着した。しかし2016年の英EU離脱（ブレグジット）により、アイルランド島内の物理的国境回避のためアイリッシュ海に検疫・通関境界が設けられ、ユニオニストが反発して2022年から自治政府が機能停止した。2023年2月の「ウィンザー枠組み」と2024年2月の合意で自治政府が再開し、初めてシン・フェイン党から自治政府首相（ミシェル・オニール）が選出された。",
+      "verdict": "条約・公式記録で確認された事実。",
+      "sources": [
+        {
+          "title": "Good Friday Agreement",
+          "url": "https://en.wikipedia.org/wiki/Good_Friday_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Windsor Framework",
+          "url": "https://en.wikipedia.org/wiki/Windsor_Framework",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-legacy-act-2023",
+      "claim": "2023年北アイルランド紛争レガシー法は「事実上の恩赦」として裁判所から欧州人権条約違反と判断された",
+      "context": "スナク保守党政権下で2023年9月に成立した同法は、新設の独立和解・情報回収委員会（ICRIR）に協力する元兵士や元武装勢力メンバーに刑事訴追の条件付き免除を与え、未解決事件の検死審問や民事訴訟を打ち切る内容だった。遺族団体・北アイルランド全政党・アイルランド政府が反対し、2024年1月にアイルランドが欧州人権裁判所に英国を提訴、同年2月と9月にベルファスト高等法院・控訴院が免責条項を欧州人権条約（ECHR）違反と判示した。2024年7月発足のスターマー労働党政権は免責条項の廃止手続きを進めている。",
+      "verdict": "法制定、アイルランドによる提訴、および北アイルランド裁判所の違憲・条約違反判断ともに公式記録あり。",
+      "sources": [
+        {
+          "title": "Northern Ireland Troubles (Legacy and Reconciliation) Act 2023",
+          "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Troubles_(Legacy_and_Reconciliation)_Act_2023",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-scotland-referendum",
+      "claim": "2014年のスコットランド独立住民投票では反対55.3%で残留が決まったが、ブレグジット後に再投票の権限をめぐり最高裁で争われた",
+      "context": "英政府とスコットランド自治政府の2012年エディンバラ合意に基づき、2014年9月18日に実施された住民投票は反対55.3%・賛成44.7%（投票率84.6%）で否決された。しかし2016年のEU離脱国民投票で英国全体は離脱（51.9%）を選んだ一方、スコットランドでは62.0%がEU残留に投票したため、スコットランド国民党（SNP）は前提が変わったとして再投票を要求した。2022年11月、英最高裁は全員一致で「英議会の承認なしにスコットランド議会が独立住民投票法を制定する権限はない」と判断した。",
+      "verdict": "投票結果および2022年英最高裁判決ともに公式記録あり。再投票を実施すべきかという政治的妥当性には議論がある。",
+      "sources": [
+        {
+          "title": "2014 Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2014_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Proposed second Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/Proposed_second_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-mau-mau-operation-legacy",
+      "claim": "英国はケニア「マウマウ団の乱」での拷問を認め2013年に和解金を支払ったが、独立時に公文書を組織的に廃棄・秘匿していた",
+      "context": "1952〜1960年のケニア非常事態宣言下、英植民地当局はキクユ人ら15万人〜30万人以上を収容所に拘禁した。独立前に英当局は「レガシー作戦（Operation Legacy）」として不都合な文書を焼却または本国へ秘匿移送した。2011年、訴訟過程で英外務省のハンスロープ・パークに旧植民地37地域の秘密文書（Migrated Archives）約8,800件が保管されていたことが判明し、2013年6月にヘイグ外相が議会で「深い遺憾の意」を表明、被害者5,228人に総額1,990万ポンドを支払う和解が成立した。",
+      "verdict": "秘密文書の存在と2013年の英政府和解・議会声明は公式に確認された事実。収容者数・死者数の総数には推計幅がある。",
+      "sources": [
+        {
+          "title": "Mau Mau rebellion",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Legacy",
+          "url": "https://en.wikipedia.org/wiki/Operation_Legacy",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-chagos-sovereignty-treaty",
+      "claim": "英国はチャゴス諸島住民を追放して米軍基地を提供したが、2019年ICJ勧告を経て2024〜2025年にモーリシャスへの主権返還に合意した",
+      "context": "英国はモーリシャス独立前の1965年にチャゴス諸島を分離して「英領インド洋地域（BIOT）」とし、1968〜1973年に先住のチャゴス人約1,500〜2,000人をモーリシャスやセーシェルへ強制移住させてディエゴガルシア島を米軍基地として提供した。2019年2月に国際司法裁判所（ICJ）が分離を国際法違反とする勧告的意見を出し、2024年10月に英・モーリシャス両政府が主権移交で政治合意、2025年5月に条約に署名した。ただしディエゴガルシア島は99年間（延長可能）英米基地として租借が継続され、同島へのチャゴス人帰還は認められていない。",
+      "verdict": "強制移住、ICJ勧告、および2024〜2025年の主権返還条約と99年租借条件はすべて公式記録で確認された事実。",
+      "sources": [
+        {
+          "title": "Expulsion of the Chagossians",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Chagossians",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chagos Archipelago sovereignty dispute",
+          "url": "https://en.wikipedia.org/wiki/Chagos_Archipelago_sovereignty_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

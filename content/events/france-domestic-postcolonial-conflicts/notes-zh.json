@@ -1,0 +1,113 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "fr-algerian-war-memory",
+      "claim": "法国已承认阿尔及利亚战争期间的系统性酷刑与个别暗杀，但拒绝正式国家道歉与赔偿，且双方对死亡人数的估算差距巨大",
+      "context": "关于1954—1962年阿尔及利亚战争的死亡人数，阿尔及利亚官方称为“150万烈士”，而法国历史学家估计阿尔及利亚人死亡约30万至50万人（法军死亡约2.5万人，亲法阿尔及利亚籍辅助兵“哈키人”在战后报复中死亡数万人）。马克龙总统于2018年和2021年分别代表国家承认数学家莫里斯·奥丹与民族运动领袖阿里·布门杰尔系遭法军酷刑杀害，并根据2021年《斯托拉报告》推进档案开放，但明确拒绝作出国家“忏悔（正式道歉）”或赔偿。",
+      "verdict": "个案承认与拒绝正式道歉均有法国总统府官方声明证实；战争总死亡人数在阿方官方口径与史学界估算之间存在差距。",
+      "sources": [
+        {
+          "title": "Algerian War",
+          "url": "https://en.wikipedia.org/wiki/Algerian_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Maurice Audin",
+          "url": "https://en.wikipedia.org/wiki/Maurice_Audin",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-paris-massacre-1961",
+      "claim": "在1961年10月17日巴黎惨案中，巴黎警察暴力镇压阿尔及利亚人和平示威并杀害多人，真相曾被长期掩盖",
+      "context": "阿尔及利亚战争末期的1961年10月17日，约3万名手无寸铁的阿尔及利亚人在巴黎游行，抗议警察局长莫里斯·帕蓬针对阿尔及利亚人实施的宵禁令。警方开枪、殴打示威者并将许多人抛入塞纳河。法国政府最初仅承认3人死亡并审查新闻报道；1998年官方调查确认至少48人死亡，历史学家则估计有100至200多人遇害。奥朗德总统（2012年）和马克龙总统（2021年）先后正式承认这一血腥镇压。",
+      "verdict": "镇压事实、长期新闻审查及2012年与2021年法国总统的正式承认均已核实，确切遇害人数在史学界存在不同估算。",
+      "sources": [
+        {
+          "title": "Paris massacre of 1961",
+          "url": "https://en.wikipedia.org/wiki/Paris_massacre_of_1961",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-new-caledonia-referendums-2024",
+      "claim": "新喀里多尼亚2021年第三次独立公投在独立派抵制下举行，2024年5月围绕放宽选民资格修宪案爆发导致14人死亡的骚乱",
+      "context": "根据1998年《努美阿协议》，2018年（56.7%反对）和2020年（53.3%反对）两次公投均以微弱多数否决独立。2021年12月第三次公投时，原住民卡纳克独立派联盟（FLNKS）因新冠疫情及传统服丧期请求延期遭巴黎拒绝而发起抵制，结果在投票率仅43.9%的情况下以96.5%反对独立告终。2024年5月，法国议会通过允许居住满10年的本土移民参与地方选举的修宪案，引发卡纳克人强烈抗议并爆发骚乱（14人死亡、经济损失超20亿欧元）。法方随后搁置法案并于2025年7月达成在法国框架内设立“新喀里多尼亚国”的《布日瓦勒协议》，但遭FLNKS拒绝。",
+      "verdict": "公投数据、2024年骚乱伤亡损失及2025年《布日瓦勒协议》与FLNKS的拒绝均有官方记录。",
+      "sources": [
+        {
+          "title": "2021 New Caledonian independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2021_New_Caledonian_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2024 New Caledonia unrest",
+          "url": "https://en.wikipedia.org/wiki/2024_New_Caledonia_unrest",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-francafrique-sahel-withdrawal",
+      "claim": "2022年至2025年间，法国军队相继从马里、布基纳法索、尼日尔、乍得、塞内加尔和科特迪瓦撤出",
+      "context": "法国自2013年起在萨赫勒地区开展反恐军事行动（“薮猫行动”与“新月形沙丘行动”），但安全局势恶化与反对前宗主国的情绪引发连锁军事政变。法军被迫先后从马里（2022年）、布基纳法索（2023年）和尼日尔（2023年底）撤军，三国转而扩大与俄罗斯（非洲军团）的军事合作；2024年至2025年，乍得、塞内加尔和科特迪瓦也相继终止或收回法国常驻军事基地。",
+      "verdict": "法国从各国撤军及移交军事基地均由官方公告证实。",
+      "sources": [
+        {
+          "title": "Operation Barkhane",
+          "url": "https://en.wikipedia.org/wiki/Operation_Barkhane",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Françafrique",
+          "url": "https://en.wikipedia.org/wiki/Fran%C3%A7afrique",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-thiaroye-cameroon-commissions",
+      "claim": "法国政府于2024—2025年先后正式承认1944年塞内加尔“蒂亚罗耶大屠杀”及1945—1971年喀麦隆独立运动镇压中的法军暴力",
+      "context": "1944年12月1日，曾参与二战的西非籍老兵（塞内加尔步兵）在达喀尔郊外蒂亚罗耶营地要求发放拖欠军饷时遭法军开枪射杀（当时殖民当局称35人死亡，学者估计达300至400人）。2024年11月，马克龙总统在事件80周年之际首次正式承认其为“大屠杀”。2025年1月，法喀联合历史委员会发布报告，认定法军在1945—1971年镇压喀麦隆人民联盟（UPC）独立运动期间实施了系统性暴力、强制拘留与领袖暗杀。",
+      "verdict": "2024年11月法国总统信函及2025年1月联合历史委员会报告均已确认。",
+      "sources": [
+        {
+          "title": "Thiaroye massacre",
+          "url": "https://en.wikipedia.org/wiki/Thiaroye_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Bamileke War",
+          "url": "https://en.wikipedia.org/wiki/Bamileke_War",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "fr-banlieues-2023-unrest",
+      "claim": "2023年6月少年纳赫尔遭警察射杀事件引发法国全国郊区骚乱，联合国机构指出法国执法部门存在种族歧视问题",
+      "context": "2023年6月27日，17岁的北非裔少年纳赫尔·梅尔祖克在巴黎郊区楠泰尔接受交通检查时遭警察开枪射杀，现场视频推翻了警方最初的说法，引发全国郊区连续数日骚乱（超过3,700人被捕，大量建筑受损）。联合国人权高专办（OHCHR）和消除种族歧视委员会（CERD）对法国警察的种族盘查与过度使用武力表示关切，法国政府则反驳称“不存在系统性种族歧视”。",
+      "verdict": "枪击事件、骚乱规模、联合国机构声明及法国政府反驳均有官方记录。",
+      "sources": [
+        {
+          "title": "Nahel Merzouk riots",
+          "url": "https://en.wikipedia.org/wiki/Nahel_Merzouk_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

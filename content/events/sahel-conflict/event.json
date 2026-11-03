@@ -5,5 +5,16 @@
     "en": "Sahel Conflict",
     "zh": "萨赫勒地区冲突",
     "ko": "사헬 지역 분쟁"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "france-domestic-postcolonial-conflicts",
+      "relation": {
+        "ja": "サヘル諸国の反仏感情の背景にある、旧宗主国フランスの「フランサフリック」政策と植民地史をめぐる対立。",
+        "en": "France's 'Françafrique' legacy and colonial memory disputes that underlie anti-French sentiment across the Sahel.",
+        "zh": "萨赫勒国家反法情绪背后的前宗主国法国“法属非洲”政策及殖民历史争议。",
+        "ko": "사헬 국가들의 반불 정서 배경에 있는 구종주국 프랑스의 '프랑사프리크' 정책과 식민지 역사 갈등."
+      }
+    }
+  ]
 }

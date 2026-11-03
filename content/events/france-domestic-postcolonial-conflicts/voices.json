@@ -1,0 +1,128 @@
+{
+  "eventId": "france-domestic-postcolonial-conflicts",
+  "lastUpdated": "2026-11-03",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な世論傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "france-domestic-postcolonial-conflicts-voice-1",
+      "country": {
+        "ja": "フランス（共和主義・保守層）",
+        "en": "France (Republican and Conservative voices)",
+        "zh": "法国（共和主义与保守派群体）",
+        "ko": "프랑스(공화주의·보수층)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "フランスは人種や宗教で国民を分けない単一不可分の共和国だ。ニューカレドニアは3度の投票でフランス残留を選んでおり、過去の植民地史を理由に国家に終わりなき謝罪を迫ったり郊外の暴動を正当化したりすべきではない。",
+        "en": "France is an indivisible Republic that does not divide citizens by race or religion. New Caledonia voted three times to remain French, and colonial history should not be used to demand endless state apologies or excuse suburban riots.",
+        "zh": "法国是不按种族或宗教划分公民的单一不可分割共和国。新喀里多尼亚已通过三次公投选择留在法国，不应借过去的殖民历史要求国家无休止道歉或为郊区骚乱开脱。",
+        "ko": "프랑스는 인종이나 종교로 국민을 나누지 않는 단일 불가분의 공화국이다. 누벨칼레도니는 세 차례 투표로 프랑스 잔류를 택했으며, 과거 식민지 역사를 이유로 국가에 끝없는 사과를 요구하거나 교외 폭동을 정당화해서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "フランス国内の主要メディアや保守・共和主義層のSNSで広く見られる論調。",
+        "en": "Widely seen in mainstream French media and among republican/conservative voices on X.",
+        "zh": "在法国主流媒体及共和派与保守派社交媒体上广泛存在的论调。",
+        "ko": "프랑스 국내 주요 언론 및 보수·공화주의층 SNS에서 널리 보이는 논조."
+      },
+      "keywords": [
+        "#RépubliqueUneEtIndivisible",
+        "#Laïcité",
+        "#NouvelleCalédonie"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "france-domestic-postcolonial-conflicts-voice-2",
+      "country": {
+        "ja": "ニューカレドニア先住民（カナック）・海外領土",
+        "en": "Indigenous Kanaks in New Caledonia and Overseas Territories",
+        "zh": "新喀里多尼亚原住民（卡纳克人）与海外领土",
+        "ko": "누벨칼레도니 선주민(카나크)·해외 영토"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "コロナ禍の服喪期間中に強行された第3回投票や、本土からの移住者に選挙権を広げる改憲案は、先住民カナックを自分たちの土地で少数派にする再植民地化だ。真の脱植民地化と主権が認められるべきだ。",
+        "en": "Forcing the third referendum during pandemic mourning periods and expanding voting rolls to mainland settlers are attempts to make indigenous Kanaks a minority in our own homeland. True decolonization and sovereignty must be respected.",
+        "zh": "在疫情服丧期强行举行第三次公投以及向本土移民扩大选民资格，都是企图让原住民卡纳克人在自己土地上沦为少数派的再殖民化。应当尊重真正的去殖民化与主权。",
+        "ko": "코로나19 애도 기간 중 강행된 제3차 투표와 본토 이주자에게 선거권을 넓히는 개헌안은 선주민 카나크를 자신의 땅에서 소수파로 만드는 재식민지화다. 진정한 탈식민지화와 주권이 인정되어야 한다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "FLNKSや太平洋地域の市民団体、SNSで強い主張。",
+        "en": "Strong sentiment among FLNKS supporters, Pacific civic groups, and social media.",
+        "zh": "在FLNKS支持者、太平洋地区民间团体及社交媒体上呼声强烈。",
+        "ko": "FLNKS와 태평양 지역 시민단체, SNS에서 강한 주장."
+      },
+      "keywords": [
+        "#Kanaky",
+        "#FreeKanaky",
+        "#Decolonization"
+      ],
+      "timeframe": "2021-2026"
+    },
+    {
+      "id": "france-domestic-postcolonial-conflicts-voice-3",
+      "country": {
+        "ja": "アルジェリア・西アフリカ諸国・フランス郊外住民",
+        "en": "Algeria, West African publics, and French banlieue communities",
+        "zh": "阿尔及利亚、西非民众与法国郊区居民",
+        "ko": "알제리·서아프리카 제국·프랑스 교외 주민"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "数人の犠牲者を象徴的に認めるだけでは132年の植民地支配や虐殺の清算にはならない。アフリカでの軍事・通貨支配（フランサフリック）も、フランス国内の郊外での警察暴力や差別も、同じ植民地的上下関係の延長にある。",
+        "en": "Symbolic gestures acknowledging a few individuals do not atone for 132 years of colonial rule and massacres. Both Françafrique military/monetary dominance in Africa and police violence in French banlieues stem from the same colonial hierarchy.",
+        "zh": "仅象征性承认几名受害者并不能清算132年的殖民统治与大屠杀。无论是在非洲的军事与货币控制（法属非洲），还是法国郊区的警察暴力与歧视，都是同一殖民等级关系的延续。",
+        "ko": "소수의 희생자를 상징적으로 인정하는 것만으로는 132년의 식민 지배와 학살을 청산할 수 없다. 아프리카에서의 군사·통화 지배(프랑사프리크)도, 프랑스 국내 교외의 경찰 폭력과 차별도 같은 식민지적 위계질서의 연장선에 있다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "アルジェリア・サヘル諸国のメディアやSNS、フランスの反人種差別団体の投稿で多い。",
+        "en": "Common across Algerian and Sahelian media/SNS as well as French anti-racism movements.",
+        "zh": "常见于阿尔及利亚与萨赫勒国家媒体、社交媒体及法国反种族主义运动。",
+        "ko": "알제리·사헬 국가 언론과 SNS, 프랑스 반인종차별 단체의 게시물에서 많이 보인다."
+      },
+      "keywords": [
+        "#17Octobre1961",
+        "#JusticePourNahel",
+        "#Françafrique"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "france-domestic-postcolonial-conflicts-voice-4",
+      "country": {
+        "ja": "国際社会・歴史社会学者",
+        "en": "International observers and historical sociologists",
+        "zh": "国际观察人士与历史社会学者",
+        "ko": "국제사회·역사사회학자"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "マクロン政権の公文書公開や歴史委員会設置は歴代政権より踏み込んでいるが、「公式謝罪なき記憶の承認」は旧植民地側にも国内保守派にも中途半端と映り、普遍主義理念と多文化現実のギャップが課題となっている。",
+        "en": "Macron's archive disclosures and historical commissions go further than past presidents, yet 'recognition without apology' leaves both former colonies and domestic conservatives unsatisfied, highlighting the tension between republican universalism and multicultural reality.",
+        "zh": "马克龙政府的档案开放与历史委员会比历届政府更为深入，但“承认而不道歉”令前殖民地与国内保守派均感不满，凸显出共和普遍主义理念与多元文化现实之间的落差。",
+        "ko": "마크롱 정부의 공문서 공개와 역사위원회 설치는 역대 정부보다 진전되었으나 '공식 사과 없는 기억 인정'은 구식민지 측에도 국내 보수파에도 어중간하게 비치며 보편주의 이념과 다문화 현실 사이의 괴리가 과제가 되고 있다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "欧米の学術研究や外交専門誌で見られる分析。",
+        "en": "Analysis frequently seen in international academic research and foreign affairs journals.",
+        "zh": "国际学术研究与外交期刊中常见的分析观点。",
+        "ko": "구미 학술 연구와 외교 전문지에서 보이는 분석."
+      },
+      "keywords": [
+        "#StoraReport",
+        "#PostColonialFrance",
+        "#RepublicanUniversalism"
+      ],
+      "timeframe": "2020-2026"
+    }
+  ]
+}

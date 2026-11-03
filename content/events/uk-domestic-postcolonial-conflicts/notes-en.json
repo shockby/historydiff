@@ -1,0 +1,119 @@
+{
+  "eventId": "uk-domestic-postcolonial-conflicts",
+  "notes": [
+    {
+      "id": "uk-bloody-sunday-ballymurphy",
+      "claim": "British soldiers fatally shot unarmed civilians in Bloody Sunday (1972) and the Ballymurphy massacre (1971), prompting official state apologies decades later",
+      "context": "On January 30, 1972, in Derry, Northern Ireland, British Army paratroopers shot dead 14 unarmed civil rights marchers. While the initial Widgery Tribunal (1972) largely exonerated the soldiers, the 12-year Saville Inquiry (2010) concluded that none of the victims posed a threat and that the shootings were 'unjustified and unjustifiable,' leading Prime Minister David Cameron to issue a formal state apology. Similarly, in May 2021, a coroner's inquest found that all 11 people killed by paratroopers in Ballymurphy, Belfast, in August 1971 were entirely innocent unarmed civilians.",
+      "verdict": "Verified by official inquiry reports and parliamentary statements, though criminal prosecutions of former soldiers have largely failed to result in convictions.",
+      "sources": [
+        {
+          "title": "Bloody Sunday (1972)",
+          "url": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ballymurphy massacre",
+          "url": "https://en.wikipedia.org/wiki/Ballymurphy_massacre",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-good-friday-brexit",
+      "claim": "The 1998 Good Friday Agreement established Northern Ireland's peace framework, but Brexit reignited trade and border tensions",
+      "context": "The 30-year Troubles (over 3,500 deaths) ended with the April 1998 Belfast (Good Friday) Agreement, establishing power-sharing between unionists and nationalists, an invisible border across Ireland, and the principle of consent. However, the UK's 2016 Brexit vote required customs checks across the Irish Sea under the Northern Ireland Protocol to avoid a hard land border, prompting a unionist boycott that collapsed the Stormont Executive in 2022. The February 2023 Windsor Framework and a February 2024 deal restored power-sharing, with Sinn Féin's Michelle O'Neill becoming the first nationalist First Minister.",
+      "verdict": "Confirmed by international treaties and official parliamentary records.",
+      "sources": [
+        {
+          "title": "Good Friday Agreement",
+          "url": "https://en.wikipedia.org/wiki/Good_Friday_Agreement",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Windsor Framework",
+          "url": "https://en.wikipedia.org/wiki/Windsor_Framework",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-legacy-act-2023",
+      "claim": "The Northern Ireland Troubles (Legacy and Reconciliation) Act 2023 was ruled incompatible with the European Convention on Human Rights as a de facto amnesty",
+      "context": "Enacted in September 2023 under the Sunak Conservative government, the Act offered conditional immunity from prosecution to security personnel and paramilitaries who cooperated with a new commission (ICRIR) while shutting down Troubles-era inquests and civil suits. Opposed by all Northern Ireland political parties, victims' groups, and Dublin, it triggered an inter-state ECHR case by Ireland against the UK in January 2024. In February and September 2024, the Belfast High Court and Court of Appeal ruled the immunity provisions incompatible with the ECHR. The Labour government elected in July 2024 pledged to repeal the immunity clauses.",
+      "verdict": "Confirmed by statute, ECHR filings, and Northern Ireland court rulings.",
+      "sources": [
+        {
+          "title": "Northern Ireland Troubles (Legacy and Reconciliation) Act 2023",
+          "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Troubles_(Legacy_and_Reconciliation)_Act_2023",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-scotland-referendum",
+      "claim": "Scotland voted 55.3% against independence in 2014, and in 2022 the UK Supreme Court ruled Holyrood cannot hold a second referendum without Westminster's consent",
+      "context": "Held under the 2012 Edinburgh Agreement, the September 18, 2014 referendum rejected independence by 55.3% to 44.7% on an 84.6% turnout. After the UK voted 51.9% to leave the EU in 2016 while Scotland voted 62.0% to remain, the Scottish National Party (SNP) sought a second referendum. In November 2022, the UK Supreme Court unanimously ruled that the Scottish Parliament lacks legislative competence to hold an advisory independence referendum without a Section 30 order from Westminster.",
+      "verdict": "Referendum results and the 2022 Supreme Court ruling are matters of official record; whether a new vote should be granted remains politically contested.",
+      "sources": [
+        {
+          "title": "2014 Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/2014_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Proposed second Scottish independence referendum",
+          "url": "https://en.wikipedia.org/wiki/Proposed_second_Scottish_independence_referendum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-mau-mau-operation-legacy",
+      "claim": "Britain acknowledged torture during the Kenyan Mau Mau Emergency and paid a 2013 settlement after hidden colonial archives ('Operation Legacy') were uncovered",
+      "context": "During the 1952–1960 Kenya Emergency, British colonial authorities detained between 150,000 and over 300,000 Kikuyu in camps. Ahead of decolonization, British officials burned or secretly removed sensitive records under 'Operation Legacy.' In 2011, litigation forced the disclosure of some 8,800 'migrated archives' from 37 former colonies stored at Hanslope Park. In June 2013, Foreign Secretary William Hague expressed 'sincere regret' in Parliament and announced a £19.9 million settlement for 5,228 Kenyan torture survivors.",
+      "verdict": "The concealed archives and 2013 government settlement are officially documented; total detention and death toll estimates vary among historians.",
+      "sources": [
+        {
+          "title": "Mau Mau rebellion",
+          "url": "https://en.wikipedia.org/wiki/Mau_Mau_rebellion",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Legacy",
+          "url": "https://en.wikipedia.org/wiki/Operation_Legacy",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "uk-chagos-sovereignty-treaty",
+      "claim": "After deporting the Chagossians for a US military base and facing a 2019 ICJ ruling, the UK agreed in 2024–2025 to transfer Chagos sovereignty to Mauritius under a 99-year base lease",
+      "context": "Britain detached the Chagos Archipelago from Mauritius in 1965 and forcibly removed 1,500–2,000 indigenous Chagossians between 1968 and 1973 to make way for the joint US–UK base on Diego Garcia. In February 2019, the International Court of Justice (ICJ) advised that the detachment was unlawful and Britain must end its administration rapidly. Following negotiations, the UK and Mauritius announced a political agreement in October 2024 and signed a treaty in May 2025 transferring sovereignty to Mauritius while leasing Diego Garcia back to the UK for 99 years and continuing to bar Chagossian resettlement on Diego Garcia.",
+      "verdict": "The deportation, ICJ advisory opinion, and 2024–2025 treaty terms are all confirmed by official records.",
+      "sources": [
+        {
+          "title": "Expulsion of the Chagossians",
+          "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Chagossians",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Chagos Archipelago sovereignty dispute",
+          "url": "https://en.wikipedia.org/wiki/Chagos_Archipelago_sovereignty_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

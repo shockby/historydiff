@@ -1,0 +1,37 @@
+{
+  "eventId": "india-internal-conflicts",
+  "photos": [
+    {
+      "id": "harmandir-sahib",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/india-internal-conflicts/harmandir-sahib.jpg",
+      "caption": {
+        "ja": "アムリトサルのハルマンディル・サーヒブ（黄金寺院）。1984年6月のブルースター作戦で軍が突入し、同年10月のインディラ・ガンディー首相暗殺と反シク暴動につながった。",
+        "en": "Harmandir Sahib (the Golden Temple) in Amritsar. The army's entry in June 1984 (Operation Blue Star) preceded the assassination of Prime Minister Indira Gandhi in October and the anti-Sikh riots.",
+        "zh": "阿姆利则的哈曼迪尔·萨希卜（金庙）。1984年6月军队进入（蓝星行动），随后10月总理英迪拉·甘地遇刺并爆发反锡克教暴乱。",
+        "ko": "암리차르의 하르만디르 사힙(황금사원). 1984년 6월 군이 진입(블루스타 작전)했고 같은 해 10월 인디라 간디 총리 암살과 반시크 폭동으로 이어졌다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Harmandir Sahib, Amritsar, India.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harmandir_Sahib,_Amritsar,_India.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Dey.sandip"
+      }
+    },
+    {
+      "id": "meira-paibi-march",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/india-internal-conflicts/meira-paibi-march.jpg",
+      "caption": {
+        "ja": "夜間に行進するマニプールのメイラ・パイビ（女性松明持ち）。2004年にはAFSPAへの抗議で知られ、2023年以降の暴力でも地域社会で仲裁や監視の役割を担う。",
+        "en": "Meira Paibi, the women torch bearers of Manipur, marching at night. Known for their 2004 protest against AFSPA, they also act as community monitors and intermediaries amid the violence since 2023.",
+        "zh": "夜间游行的曼尼普尔梅拉·派比（女性火炬手）。她们因2004年抗议AFSPA而闻名，在2023年以来的暴力中也在社区中承担监督与调解角色。",
+        "ko": "밤에 행진하는 마니푸르의 메이라 파이비(여성 횃불 운동가). 2004년 AFSPA 항의로 알려졌으며 2023년 이후 폭력 속에서도 지역사회에서 감시와 중재 역할을 한다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: Meira Paibi on march.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Meira_Paibi_on_march.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Lairencha"
+      }
+    }
+  ]
+}

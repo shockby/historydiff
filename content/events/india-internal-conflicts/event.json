@@ -1,0 +1,29 @@
+{
+  "eventId": "india-internal-conflicts",
+  "title": {
+    "ja": "インドの国内紛争（反政府武装勢力・民族対立・宗派間暴力）",
+    "en": "India's Internal Conflicts (Insurgencies, Ethnic Strife and Communal Violence)",
+    "zh": "印度国内冲突（武装叛乱、民族对立与宗教教派暴力）",
+    "ko": "인도의 국내 분쟁(무장 반군·민족 갈등·종교 간 폭력)"
+  },
+  "relatedEvents": [
+    {
+      "id": "kashmir-conflict",
+      "relation": {
+        "ja": "インドの国内紛争のうち最も国際化した領土・武装闘争問題で、パキスタン・中国も関与する。",
+        "en": "The most internationalized of India's conflicts, a territorial and armed dispute involving Pakistan and China.",
+        "zh": "印度国内冲突中国际化程度最高的领土与武装斗争问题，巴基斯坦和中国也牵涉其中。",
+        "ko": "인도의 국내 분쟁 중 가장 국제화된 영토·무장 투쟁 문제로 파키스탄·중국도 얽혀 있다."
+      }
+    },
+    {
+      "id": "china-frontier-sovereignty",
+      "relation": {
+        "ja": "辺境の少数民族・自治・主権をめぐる構図が似る隣国中国のケース。",
+        "en": "A neighboring case with similar issues of minorities, autonomy and sovereignty on the periphery.",
+        "zh": "边疆少数民族、自治与主权问题格局相似的邻国中国案例。",
+        "ko": "변경 소수민족·자치·주권 구도가 유사한 이웃 중국의 사례."
+      }
+    }
+  ]
+}

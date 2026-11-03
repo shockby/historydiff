@@ -1,0 +1,127 @@
+{
+  "eventId": "india-internal-conflicts",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "india-internal-conflicts-voice-1",
+      "country": {
+        "ja": "インド（政府支持層）",
+        "en": "India (government supporters)",
+        "zh": "印度（政府支持者）",
+        "ko": "인도(정부 지지층)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "武装勢力や暴動への断固たる対処で国は安定した。ナクサル根絶は成果であり、国内問題に外国が口を出すべきではない。",
+        "en": "Firm action against militants and riots has stabilized the country. Eliminating Naxalism is an achievement, and outsiders should not interfere in domestic matters.",
+        "zh": "对武装分子和暴乱的坚决处置使国家稳定。根除纳萨尔是成就，外国不应干涉内政。",
+        "ko": "무장 세력과 폭동에 대한 단호한 대응으로 나라가 안정되었다. 낙살 근절은 성과이며 외국이 내정에 간섭해서는 안 된다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "X（旧Twitter）や国内メディアで広く見られる論調。",
+        "en": "Widely seen on X and in domestic media.",
+        "zh": "在X和国内媒体上较为常见的论调。",
+        "ko": "X와 국내 언론에서 널리 보이는 논조."
+      },
+      "keywords": [
+        "#NaxalFree",
+        "#InternalSecurity",
+        "#NoForeignInterference"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "india-internal-conflicts-voice-2",
+      "country": {
+        "ja": "北東部・先住民コミュニティ",
+        "en": "Northeast and Indigenous communities",
+        "zh": "东北部与原住民社群",
+        "ko": "북동부·원주민 공동체"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "軍の免責や開発による土地収奪が暴力の根にある。治安作戦だけでなく、土地・森林権と政治的解決が必要だ。",
+        "en": "Military immunity and land dispossession through development are at the root of the violence. Security operations alone are not enough; land and forest rights and political solutions are needed.",
+        "zh": "军队豁免和以发展为名的土地剥夺是暴力的根源。仅靠安全行动不够，需要土地和森林权利及政治解决。",
+        "ko": "군의 면책과 개발에 따른 토지 수탈이 폭력의 뿌리다. 치안 작전만으로는 부족하며 토지·산림 권리와 정치적 해결이 필요하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "現地の市民団体や地方メディア、SNSでの主張。",
+        "en": "Claims by local civic groups, regional media and social media.",
+        "zh": "当地民间团体、地方媒体和社交媒体上的主张。",
+        "ko": "현지 시민단체, 지역 언론, SNS의 주장."
+      },
+      "keywords": [
+        "#RepealAFSPA",
+        "#ForestRights",
+        "#Manipur"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "india-internal-conflicts-voice-3",
+      "country": {
+        "ja": "宗教的少数派（シク教徒・ムスリム）",
+        "en": "Religious minorities (Sikhs and Muslims)",
+        "zh": "宗教少数群体（锡克教徒与穆斯林）",
+        "ko": "종교적 소수자(시크교도·무슬림)"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "1984年や2002年の加害者への訴追は遅く、不十分だった。近年も少数派に対する国家の姿勢が不公平だと感じる。",
+        "en": "Prosecutions for 1984 and 2002 were slow and inadequate, and the state still seems to treat minorities unequally.",
+        "zh": "对1984年和2002年加害者的追责迟缓而不充分，近年来国家对少数群体的态度仍显不公。",
+        "ko": "1984년과 2002년 가해자 처벌은 늦고 미흡했으며 최근에도 국가가 소수자를 불공평하게 대한다고 느낀다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "人権団体、国内外のメディア、ディアスポラのSNS投稿で多い。",
+        "en": "Common among rights groups, domestic and foreign media and diaspora social media.",
+        "zh": "在人权团体、国内外媒体和海外侨民的社交媒体上较为多见。",
+        "ko": "인권단체, 국내외 언론, 디아스포라 SNS에서 많이 보인다."
+      },
+      "keywords": [
+        "#JusticeFor1984",
+        "#GujaratRiots",
+        "#MinorityRights"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "india-internal-conflicts-voice-4",
+      "country": {
+        "ja": "国際社会・研究者",
+        "en": "International observers and scholars",
+        "zh": "国际观察人士与学者",
+        "ko": "국제 관찰자·연구자"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "インドの多様性は強みだが、紛争の根本には統治・開発・不処罰の問題がある。安全保障と人権の両立が課題だ。",
+        "en": "India's diversity is a strength, but governance, development and impunity underlie its conflicts. Reconciling security with human rights is the challenge.",
+        "zh": "印度的多样性是优势，但冲突的根源在于治理、发展和有罪不罚。如何兼顾安全与人权是挑战。",
+        "ko": "인도의 다양성은 강점이지만 분쟁의 근본에는 통치·개발·불처벌 문제가 있다. 안보와 인권의 양립이 과제다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "学術論文やシンクタンクの分析で見られる見方。",
+        "en": "A view seen in academic papers and think-tank analysis.",
+        "zh": "学术论文和智库分析中常见的看法。",
+        "ko": "학술 논문과 싱크탱크 분석에서 보이는 시각."
+      },
+      "keywords": [
+        "#IndianDemocracy",
+        "#HumanRights",
+        "#Federalism"
+      ],
+      "timeframe": "2020-2026"
+    }
+  ]
+}

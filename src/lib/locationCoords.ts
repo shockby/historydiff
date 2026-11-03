@@ -67,6 +67,7 @@ export const eventCoords: Record<string, LatLng> = {
   'gulf-war-iraq-war': { lat: 33.31, lng: 44.36 },       // Baghdad, Iraq / Kuwait
   'iran-iraq-war': { lat: 30.5, lng: 47.82 },            // Iran-Iraq border / Shatt al-Arab
   'kashmir-conflict': { lat: 34.08, lng: 74.8 },         // Kashmir (Srinagar)
+  'india-internal-conflicts': { lat: 21.0, lng: 82.0 },    // Central India (Red Corridor) / India internal conflicts
   'korean-war-division': { lat: 37.96, lng: 126.67 },    // Panmunjom / Korean DMZ
   'kosovo-dispute': { lat: 42.66, lng: 21.17 },          // Kosovo (Pristina)
   'kurdish-question': { lat: 36.19, lng: 44.01 },        // Kurdistan region (Erbil)
@@ -143,6 +144,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   // ── South & Central Asia (4) ──
   'afghanistan-conflict': { region: 'asia', subRegion: 'south-central-asia' },
   'kashmir-conflict': { region: 'asia', subRegion: 'south-central-asia' },
+  'india-internal-conflicts': { region: 'asia', subRegion: 'south-central-asia' },
   'kyrgyzstan-tajikistan-border': { region: 'asia', subRegion: 'south-central-asia' },
   'sino-indian-border': { region: 'asia', subRegion: 'south-central-asia' },
 

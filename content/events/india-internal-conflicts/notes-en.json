@@ -1,0 +1,125 @@
+{
+  "eventId": "india-internal-conflicts",
+  "notes": [
+    {
+      "id": "iic-naxal-decline",
+      "claim": "The Indian government declared Naxalites (Maoist insurgents) eradicated by March 2026",
+      "context": "The movement began with the 1967 peasant uprising in Naxalbari, West Bengal, and the CPI (Maoist) was formed in 2004. Affected districts fell from over 100 around 2010 to a handful, and top leaders were killed in 2025. The government has declared its target met, but independent verification and whether root causes (land and forest rights, poverty) are resolved remain separate questions.",
+      "verdict": "Government declaration and security statistics are on record; durability of the outcome and its human rights record are debated.",
+      "sources": [
+        {
+          "title": "Naxalite–Maoist insurgency",
+          "url": "https://en.wikipedia.org/wiki/Naxalite%E2%80%93Maoist_insurgency",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Left Wing Extremism Division",
+          "url": "https://www.mha.gov.in/en/divisionofmha/left-wing-extremism-division",
+          "publisher": "Ministry of Home Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "iic-salwa-judum",
+      "claim": "The state-backed vigilante force Salwa Judum was ruled unconstitutional",
+      "context": "Begun in 2005 in Chhattisgarh, the militia armed young tribal men as Special Police Officers. In 2011 the Supreme Court ordered it disbanded and disarmed, finding it unconstitutional and a source of rights abuses. The state had described it as a spontaneous people's movement, but the ruling established state responsibility.",
+      "verdict": "Established by Supreme Court judgment.",
+      "sources": [
+        {
+          "title": "Salwa Judum",
+          "url": "https://en.wikipedia.org/wiki/Salwa_Judum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Nandini Sundar v. State of Chhattisgarh (2011)",
+          "url": "https://en.wikipedia.org/wiki/Nandini_Sundar_%26_Ors._v._State_of_Chhattisgarh",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-afspa",
+      "claim": "Is AFSPA essential for Northeast security, or a breeding ground for impunity?",
+      "context": "Enacted in 1958, it lets the army shoot, search and arrest in “disturbed areas”, and prosecution requires central government sanction. The government says it is needed to counter insurgency; critics say it shields rights violations. Its scope has narrowed (fully lifted in Tripura in 2015 and Meghalaya in 2018), but it still applies in parts of Nagaland, Manipur and elsewhere.",
+      "verdict": "The law's content and areas of application are on record; its necessity and effects are debated.",
+      "sources": [
+        {
+          "title": "Armed Forces (Special Powers) Act, 1958",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_(Special_Powers)_Act,_1958",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Insurgency in Northeast India",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Northeast_India",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-manipur-2023",
+      "claim": "Manipur violence since 2023 has deeply divided the Meitei and Kuki-Zo",
+      "context": "Clashes erupted in May 2023 around protests over a Meitei demand for Scheduled Tribe status, killing over 200 and displacing about 60,000. President's Rule was imposed in February 2025 and revoked in February 2026 with a new state government, but distrust persists and Kuki-Zo groups demand a separate administration.",
+      "verdict": "Casualty and displacement figures vary across reports and official statements; assessments of causes and responsibility are debated.",
+      "sources": [
+        {
+          "title": "2023–2025 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023%E2%80%932025_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2023 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-1984-sikh",
+      "claim": "There was organized involvement in the 1984 anti-Sikh riots, but prosecutions took decades",
+      "context": "After the army's June 1984 assault on the Golden Temple (Operation Blue Star), Prime Minister Indira Gandhi was assassinated in October by her Sikh bodyguards, and riots followed in Delhi and elsewhere. Officially about 2,800 died in Delhi. Several inquiries pointed to politicians' involvement, and former MPs were convicted in 2018 and 2025.",
+      "verdict": "The riots and casualties are historical fact; degree of involvement and responsibility are determined by courts and commissions.",
+      "sources": [
+        {
+          "title": "1984 anti-Sikh riots",
+          "url": "https://en.wikipedia.org/wiki/1984_anti-Sikh_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Blue Star",
+          "url": "https://en.wikipedia.org/wiki/Operation_Blue_Star",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-gujarat-2002",
+      "claim": "Was the Gujarat state government responsible in the 2002 riots?",
+      "context": "In February 2002 a train fire at Godhra killed 59 Hindu pilgrims, and the ensuing riots killed over 1,000, mostly Muslims. A Supreme Court-appointed SIT reported in 2012 that it found no prosecutable evidence against then Chief Minister Modi, and the Supreme Court dismissed a challenge in 2022; critics continue to cite failures of the state response. The riots are also linked to the Ayodhya dispute that began with the 1992 Babri Masjid demolition.",
+      "verdict": "Death toll and chronology are on record; state responsibility is contested between judicial findings and critics.",
+      "sources": [
+        {
+          "title": "2002 Gujarat riots",
+          "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ayodhya dispute",
+          "url": "https://en.wikipedia.org/wiki/Ayodhya_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

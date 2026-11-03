@@ -1,0 +1,125 @@
+{
+  "eventId": "india-internal-conflicts",
+  "notes": [
+    {
+      "id": "iic-naxal-decline",
+      "claim": "인도 정부는 2026년 3월까지 낙살라이트(마오주의 무장 세력)를 근절했다고 선언했다",
+      "context": "이 운동은 1967년 서벵골 주 낙살바리 농민 봉기에서 시작되었고 2004년 인도공산당(마오주의)이 결성되었다. 피해 지역은 2010년 전후 100곳 이상에서 크게 줄었고 2025년에는 최고 지도부가 사살되었다. 정부는 목표 달성을 선언했지만 독립적 검증과 토지·산림 권리, 빈곤 등 구조적 원인의 해소 여부는 별개의 문제다.",
+      "verdict": "정부 선언과 치안 통계는 공식 기록이 있으며, 근절의 지속성과 인권 평가는 논쟁 중이다.",
+      "sources": [
+        {
+          "title": "Naxalite–Maoist insurgency",
+          "url": "https://en.wikipedia.org/wiki/Naxalite%E2%80%93Maoist_insurgency",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Left Wing Extremism Division",
+          "url": "https://www.mha.gov.in/en/divisionofmha/left-wing-extremism-division",
+          "publisher": "Ministry of Home Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "iic-salwa-judum",
+      "claim": "정부가 지원한 자경단 살와 주둠은 위헌 판결을 받았다",
+      "context": "2005년 차티스가르 주에서 시작된 이 민병대는 원주민 청년을 특별경찰관으로 임명해 무장시켰다. 2011년 대법원은 위헌이며 인권 침해의 온상이라며 해산과 무장 해제를 명령했다. 주 정부는 주민의 자발적 저항 운동이라 주장했으나 판결은 국가의 책임을 인정했다.",
+      "verdict": "대법원 판결로 확인된 사실.",
+      "sources": [
+        {
+          "title": "Salwa Judum",
+          "url": "https://en.wikipedia.org/wiki/Salwa_Judum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Nandini Sundar v. State of Chhattisgarh (2011)",
+          "url": "https://en.wikipedia.org/wiki/Nandini_Sundar_%26_Ors._v._State_of_Chhattisgarh",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-afspa",
+      "claim": "AFSPA는 북동부 치안에 필수인가, 불처벌의 온상인가",
+      "context": "1958년 제정되어 '소요 지역'에서 군이 발포·수색·체포할 권한을 주며, 군인 기소에는 중앙정부 승인이 필요하다. 정부는 반군 대응에 필요하다고 설명하고 비판 측은 인권 침해의 면책 수단이라고 주장한다. 2015년 트리푸라, 2018년 메갈라야에서 전면 해제되는 등 적용 범위는 줄었지만 나갈랜드·마니푸르 일부 등에서는 지금도 유지된다.",
+      "verdict": "법의 내용과 적용 지역은 공식 기록이 있으며, 필요성과 영향은 논쟁 중이다.",
+      "sources": [
+        {
+          "title": "Armed Forces (Special Powers) Act, 1958",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_(Special_Powers)_Act,_1958",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Insurgency in Northeast India",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Northeast_India",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-manipur-2023",
+      "claim": "2023년부터의 마니푸르 폭력은 메이테이와 쿠키-조의 깊은 분열을 낳았다",
+      "context": "2023년 5월 메이테이의 지정부족(ST) 편입 요구를 둘러싼 시위를 계기로 충돌이 확산되어 200명 이상이 숨지고 약 6만 명이 피란했다. 2025년 2월 대통령 직접 통치가 시행되었고 2026년 2월 해제되며 새 주정부가 출범했으나 불신은 여전하며 쿠키-조 측은 별도 행정구역을 요구한다.",
+      "verdict": "사망·피란 인원은 보도와 공식 발표에 따라 차이가 있으며, 원인과 책임 평가는 논쟁 중이다.",
+      "sources": [
+        {
+          "title": "2023–2025 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023%E2%80%932025_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2023 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-1984-sikh",
+      "claim": "1984년 반시크 폭동에는 조직적 개입이 있었으나 기소는 수십 년 늦어졌다",
+      "context": "1984년 6월 군의 황금사원 진입(블루스타 작전) 후 10월 인디라 간디 총리가 시크교도 경호원에게 암살되었고 델리 등에서 폭동이 일어났다. 공식 사망자는 델리에서 약 2,800명이다. 여러 조사위원회가 정치인의 개입을 지적했고 전직 국회의원이 2018년과 2025년에 유죄 판결을 받았다.",
+      "verdict": "폭동과 피해는 역사적 사실이며, 개입 정도와 책임 소재는 사법·조사위원회가 판단했다.",
+      "sources": [
+        {
+          "title": "1984 anti-Sikh riots",
+          "url": "https://en.wikipedia.org/wiki/1984_anti-Sikh_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Blue Star",
+          "url": "https://en.wikipedia.org/wiki/Operation_Blue_Star",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-gujarat-2002",
+      "claim": "2002년 구자라트 폭동에서 주정부에 책임이 있었는가",
+      "context": "2002년 2월 고드라에서 열차 화재로 힌두교 순례자 59명이 숨졌고, 이어진 폭동으로 1,000명 이상(대부분 무슬림)이 살해되었다. 대법원이 임명한 SIT는 2012년 당시 주 총리 모디를 기소할 근거를 찾지 못했다고 보고했고 대법원도 2022년 관련 청구를 기각했으나, 비판 측은 주정부 대응의 부실을 계속 지적한다. 이 폭동은 1992년 바브리 사원 파괴에서 시작된 아요디아 문제와도 이어진다.",
+      "verdict": "사망자 수와 경위는 기록이 있으며, 주정부 책임은 사법 판단과 비판이 엇갈린다.",
+      "sources": [
+        {
+          "title": "2002 Gujarat riots",
+          "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ayodhya dispute",
+          "url": "https://en.wikipedia.org/wiki/Ayodhya_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

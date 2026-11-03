@@ -5,5 +5,16 @@
     "en": "Disputed Sovereignty over China's Frontier Regions (Tibet, Xinjiang, Inner Mongolia, Manchuria)",
     "zh": "中国边疆地区主权争议（西藏、新疆、内蒙古、旧满洲）",
     "ko": "중국 변경 지역 주권 논쟁(티베트·신장·내몽골·구 만주)"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "taiwan-strait-conflict",
+      "relation": {
+        "ja": "辺境統治とともに中国の「核心的利益」と位置づけられる、台湾の統一と主権をめぐる対立。",
+        "en": "The dispute over Taiwan's sovereignty and reunification, framed alongside frontier rule as China's “core interest”.",
+        "zh": "与边疆治理并列为中国“核心利益”的台湾统一与主权争端。",
+        "ko": "변경 통치와 함께 중국의 '핵심 이익'으로 자리매김한 대만 통일과 주권을 둘러싼 대립."
+      }
+    }
+  ]
 }

@@ -5,5 +5,16 @@
     "en": "Senkaku / Diaoyu Islands Dispute",
     "zh": "尖阁诸岛（钓鱼岛）争端",
     "ko": "센카쿠（댜오위다오） 제도 분쟁"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "taiwan-strait-conflict",
+      "relation": {
+        "ja": "尖閣諸島の安全保障および東シナ海シーレーンと直結する台湾海峡の歴史的・軍事的対立。",
+        "en": "The historical and military Strait dispute directly connected to Senkaku security and East China Sea sea lanes.",
+        "zh": "与尖阁诸岛安全及东海海上航道直接相关的台海历史与军事争端。",
+        "ko": "센카쿠 제도의 안보 및 동중국해 해상 교통로와 직결되는 대만해협의 역사적·군사적 대립."
+      }
+    }
+  ]
 }

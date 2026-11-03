@@ -5,5 +5,16 @@
     "en": "Taiwan UN Membership & Resolution 2758",
     "zh": "台湾联合国代表权与2758号决议",
     "ko": "대만 유엔 가입 문제 · 유엔 결의 2758호"
-  }
+  },
+  "relatedEvents": [
+    {
+      "id": "taiwan-strait-conflict",
+      "relation": {
+        "ja": "国連代表権問題の背景にある、1895年からの台湾海峡を巡る歴史的・軍事的対立の全体像。",
+        "en": "The broader historical and military conflict across the Taiwan Strait since 1895 that frames the UN seat debate.",
+        "zh": "联合国代表权问题背后，自1895年以来围绕台湾海峡的历史与军事对立全景。",
+        "ko": "유엔 대표권 문제의 배경이 되는 1895년 이래 대만해협을 둘러싼 역사적·군사적 대립의 전체상."
+      }
+    }
+  ]
 }

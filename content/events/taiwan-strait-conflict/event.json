@@ -1,0 +1,47 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "title": {
+    "ja": "台湾海峡問題（台湾と中国の対立：歴史的経緯から現在まで）",
+    "en": "The Taiwan Strait Question (Taiwan–China Dispute: From History to the Present)",
+    "zh": "台湾海峡问题（台湾与中国的对立：从历史渊源到现在）",
+    "ko": "대만해협 문제(대만·중국 대립: 역사적 경위에서 현재까지)"
+  },
+  "relatedEvents": [
+    {
+      "id": "taiwan-un-resolution",
+      "relation": {
+        "ja": "1971年の国連総会決議2758号（アルバニア決議）と「中国の代表権」を巡る国際法・外交上の主戦場。",
+        "en": "UN General Assembly Resolution 2758 (1971) and the diplomatic battleground over China's UN representation.",
+        "zh": "1971年联合国大会第2758号决议与围绕“中国代表权”的国际法及外交战场。",
+        "ko": "1971년 유엔 총회 결의 2758호와 '중국 대표권'을 둘러싼 국제법·외교적 주 전장."
+      }
+    },
+    {
+      "id": "senkaku",
+      "relation": {
+        "ja": "東シナ海における領有権問題。台湾有事と南西諸島・尖閣の防衛が地政学的に直結する事例。",
+        "en": "The East China Sea territorial dispute, geopolitically linked to Taiwan contingencies and Nansei Islands defense.",
+        "zh": "东海领土主权争端，在地缘政治上与台海有事及西南诸岛防卫直接相关。",
+        "ko": "동중국해 영유권 분쟁. 대만 유사시와 난세이제도·센카쿠 방위가 지정학적으로 직결되는 사례."
+      }
+    },
+    {
+      "id": "china-frontier-sovereignty",
+      "relation": {
+        "ja": "中国の「核心的利益」と領土一体性の主張、および住民自決・国際的関与をめぐる統治モデルの対比。",
+        "en": "China's claims of “core interests” and territorial integrity compared with debates on self-determination and governance.",
+        "zh": "中国关于“核心利益”与领土完整的主张，与居民自决、国际参与及治理模式的对比。",
+        "ko": "중국의 '핵심 이익'과 영토 완정성 주장, 주민 자결과 국제적 관여를 둘러싼 통치 모델의 대비."
+      }
+    },
+    {
+      "id": "universal-values-vs-sovereignty",
+      "relation": {
+        "ja": "民主主義・自己決定などの普遍的価値と、「一つの中国」原則・内政不干渉の論理が衝突する構造。",
+        "en": "The clash between universal values (democracy, self-determination) and the One-China principle and non-interference.",
+        "zh": "民主与自决等普遍价值与“一个中国”原则、不干涉内政逻辑冲突的结构。",
+        "ko": "민주주의·자기결정 등 보편적 가치와 '하나의 중국' 원칙·내정 불간섭 논리가 충돌하는 구조."
+      }
+    }
+  ]
+}

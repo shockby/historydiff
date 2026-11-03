@@ -1,0 +1,61 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-03",
+  "whyItMatters": {
+    "ja": "台湾海峡は世界の海上貿易の要衝で、台湾は先端半導体の主要な供給元でもある。中国の軍事演習は2022年以降定常化し、台湾有事は日米中の安全保障と世界経済に直結するリスクとして認識されている。台湾の主権と民主主義、中国の統一目標、米国の関与という三つの論理が衝突している。",
+    "en": "The Taiwan Strait is a vital artery for global maritime trade and Taiwan is a leading supplier of advanced semiconductors. Chinese military exercises have become routine since 2022, and a Taiwan contingency is seen as a risk directly linked to the security of Japan, the US and China and to the world economy. Three logics collide: Taiwan’s sovereignty and democracy, China’s unification goal, and US involvement.",
+    "zh": "台湾海峡是全球海上贸易要道，台湾也是先进半导体的主要供应地。2022年以来中国的军事演习常态化，台海有事被视为直接关系日美中安全和世界经济的风险。台湾的主权与民主、中国的统一目标、美国的介入这三种逻辑正在碰撞。",
+    "ko": "대만해협은 세계 해상 무역의 요충이며 대만은 첨단 반도체의 주요 공급원이다. 2022년 이후 중국의 군사훈련이 상시화되었고 대만 유사시는 한·미·일·중의 안보와 세계 경제에 직결된 위험으로 인식된다. 대만의 주권과 민주주의, 중국의 통일 목표, 미국의 관여라는 세 논리가 충돌하고 있다."
+  },
+  "whatToWatchNext": {
+    "ja": "・中国軍の台湾周辺での大規模演習の頻度と規模\n・米国の対台湾武器売却と台湾海峡通過\n・台湾の総統・立法院をめぐる国内政治と対中政策\n・日中関係と台湾有事をめぐる日本政府の説明",
+    "en": "・Frequency and scale of PLA exercises around Taiwan\n・US arms sales to Taiwan and Taiwan Strait transits\n・Taiwan’s domestic politics over the presidency, legislature and China policy\n・Japan–China relations and the Japanese government’s explanations on a Taiwan contingency",
+    "zh": "・解放军在台湾周边大规模演习的频率与规模\n・美国对台军售与过航台湾海峡\n・台湾总统与立法院的内部政治及对大陆政策\n・中日关系与日本政府对台湾有事的说明",
+    "ko": "・중국군의 대만 주변 대규모 훈련의 빈도와 규모\n・미국의 대만 무기 판매와 대만해협 통과\n・대만 총통·입법원을 둘러싼 국내 정치와 대중 정책\n・중일 관계와 대만 유사시에 관한 일본 정부의 설명"
+  },
+  "rssQuery": {
+    "ja": "台湾海峡 中国 台湾 軍事演習 頼清徳",
+    "en": "Taiwan Strait China Taiwan military drills Lai Ching-te",
+    "zh": "台湾海峡 台湾 中国 军演 赖清德",
+    "ko": "대만해협 중국 대만 군사훈련 라이칭더"
+  },
+  "articles": [
+    {
+      "title": "Chinese military exercises around Taiwan after Pelosi visit (August 2022)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Chinese_military_exercises_around_Taiwan",
+      "publishedAt": "2022-08-04",
+      "summary": {
+        "ja": "ペロシ米下院議長（当時）の訪台後、中国軍が台湾を囲む形で大規模演習を実施。以降、台湾周辺での演習が常態化した。",
+        "en": "After then-US House Speaker Pelosi visited Taiwan, the PLA held large-scale exercises encircling the island. Drills around Taiwan have since become routine.",
+        "zh": "时任美国众议长佩洛西访台后，解放军在台湾周边举行大规模围岛军演。此后台湾周边演习趋于常态化。",
+        "ko": "당시 펠로시 미 하원의장의 방문 이후 중국군이 대만을 둘러싼 대규모 훈련을 실시했다. 이후 대만 주변 훈련이 상시화되었다."
+      }
+    },
+    {
+      "title": "Lai Ching-te inaugurated as President of Taiwan (May 2024)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lai_Ching-te",
+      "publishedAt": "2024-05-20",
+      "summary": {
+        "ja": "民進党の頼清徳氏が総統に就任し、中華民国と中華人民共和国は「互いに隷属しない」と述べた。中国は強く反発し、その後も軍事演習を実施した。",
+        "en": "The DPP’s Lai Ching-te took office as president and said the ROC and PRC are “not subordinate to each other”. Beijing reacted strongly and has since held further military drills.",
+        "zh": "民进党的赖清德就任总统，称中华民国与中华人民共和国“互不隶属”。中方强烈反应，其后又举行了军事演习。",
+        "ko": "민진당의 라이칭더가 총통에 취임해 중화민국과 중화인민공화국은 '서로 예속되지 않는다'고 말했다. 중국은 강하게 반발했고 이후에도 군사훈련을 실시했다."
+      }
+    },
+    {
+      "title": "Japan–China relations and the Taiwan contingency debate (November 2025)",
+      "source": "Ministry of Foreign Affairs of Japan",
+      "url": "https://www.mofa.go.jp/",
+      "publishedAt": "2025-11-07",
+      "summary": {
+        "ja": "高市首相が国会で台湾有事が「存立危機事態」になり得ると答弁し、中国政府が撤回を求めるなど日中関係が緊張した。",
+        "en": "Prime Minister Takaichi told the Diet that a Taiwan contingency could be a “survival-threatening situation”; Beijing demanded a retraction and Japan–China relations became strained.",
+        "zh": "高市首相在国会答辩中称台湾有事可能构成“存亡危机事态”，中国政府要求撤回，中日关系趋于紧张。",
+        "ko": "다카이치 총리가 국회에서 대만 유사시가 '존립위기사태'가 될 수 있다고 답변하자 중국 정부가 철회를 요구하는 등 중일 관계가 긴장되었다."
+      }
+    }
+  ]
+}

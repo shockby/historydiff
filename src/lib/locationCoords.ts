@@ -50,6 +50,7 @@ export const eventCoords: Record<string, LatLng> = {
   'china-frontier-sovereignty': { lat: 38.0, lng: 92.0 }, // Tibet / Xinjiang / Inner Mongolia (western & northern China)
   'battle-of-baekgang': { lat: 36.0, lng: 126.7 },        // Baekgang (Geum River estuary / Gunsan area)
   'iberian-enclaves': { lat: 35.95, lng: -5.35 },        // Strait of Gibraltar area
+  'taiwan-strait-conflict': { lat: 24.5, lng: 119.5 },   // Taiwan Strait
   'taiwan-un-resolution': { lat: 23.5, lng: 121.0 },     // Taiwan
   'western-sahara': { lat: 24.0, lng: -13.0 },           // Western Sahara
   'afghanistan-conflict': { lat: 34.53, lng: 69.17 },    // Afghanistan (Kabul)
@@ -121,6 +122,7 @@ export const eventRegions: Record<string, EventRegionInfo> = {
   'senkaku': { region: 'asia', subRegion: 'east-asia' },
   'siberian-internment': { region: 'asia', subRegion: 'east-asia' },
   'sino-japanese-war': { region: 'asia', subRegion: 'east-asia' },
+  'taiwan-strait-conflict': { region: 'asia', subRegion: 'east-asia' },
   'taiwan-un-resolution': { region: 'asia', subRegion: 'east-asia' },
   'takeshima': { region: 'asia', subRegion: 'east-asia' },
   'textbook-controversy': { region: 'asia', subRegion: 'east-asia' },

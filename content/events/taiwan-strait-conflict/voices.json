@@ -1,0 +1,185 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な意見傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "taiwan-strait-conflict-voice-1",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "台湾は中国の一部であり、統一は歴史の必然だ。外部勢力が分裂を煽っているだけで、武力行使も選択肢から外せない。",
+        "en": "Taiwan is part of China and reunification is historically inevitable. Outside forces are stoking separatism, and force cannot be ruled out.",
+        "zh": "台湾是中国的一部分，统一是历史的必然。只是外部势力在挑动分裂，武力也不能排除。",
+        "ko": "대만은 중국의 일부이고 통일은 역사의 필연이다. 외부 세력이 분열을 부추길 뿐이며 무력 사용도 배제할 수 없다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "微博などの国内SNSや官製メディアで主流の論調。若年層ほど強硬との指摘もあるが、検閲下のため実際の多様性は把握しにくい。",
+        "en": "Mainstream tone on Weibo and state media. Younger users are said to be more hawkish, but censorship makes real diversity hard to gauge.",
+        "zh": "微博等国内社交媒体和官媒的主流论调。有观点认为年轻人更强硬，但在审查之下难以判断真实的多元程度。",
+        "ko": "웨이보 등 국내 SNS와 관영 매체의 주류 논조. 젊은 층이 더 강경하다는 지적이 있으나 검열 탓에 실제 다양성을 파악하기 어렵다."
+      },
+      "keywords": [
+        "#OneChina",
+        "#Reunification",
+        "#TaiwanIsPartOfChina"
+      ],
+      "timeframe": "2005-2025"
+    },
+    {
+      "id": "taiwan-strait-conflict-voice-2",
+      "country": {
+        "ja": "台湾",
+        "en": "Taiwan",
+        "zh": "台湾",
+        "ko": "대만"
+      },
+      "sentiment": "nationalist-sovereign",
+      "summary": {
+        "ja": "私たちは台湾人であり、中華民国（台湾）はすでに主権国家だ。中国の脅しには屈せず、民主主義を守りたい。",
+        "en": "We are Taiwanese and the ROC (Taiwan) is already sovereign. We will not bow to Chinese threats and want to defend our democracy.",
+        "zh": "我们是台湾人，中华民国（台湾）已是主权国家。不屈服于中国的威胁，要守护民主。",
+        "ko": "우리는 대만인이며 중화민국(대만)은 이미 주권국가다. 중국의 위협에 굴하지 않고 민주주의를 지키고 싶다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "世論調査では「台湾人」意識が多数。一方、国民党支持層には中台交流の拡大や対話再開を重視する声もあり、与野党で対中政策は対立する。",
+        "en": "Polls show a majority Taiwanese identity. Kuomintang supporters, however, often emphasise expanded exchanges and resumed dialogue; parties differ sharply on China policy.",
+        "zh": "民调显示多数人有“台湾人”认同。但国民党支持者中也有重视扩大两岸交流和恢复对话的声音，朝野对大陆政策分歧明显。",
+        "ko": "여론조사에서는 '대만인' 정체성이 다수다. 한편 국민당 지지층에는 교류 확대와 대화 재개를 중시하는 목소리도 있어 여야의 대중 정책이 갈린다."
+      },
+      "keywords": [
+        "#Taiwan",
+        "#Democracy",
+        "#WeAreTaiwanese"
+      ],
+      "timeframe": "1996-2025"
+    },
+    {
+      "id": "taiwan-strait-conflict-voice-3",
+      "country": {
+        "ja": "台湾（現状維持派）",
+        "en": "Taiwan (status quo supporters)",
+        "zh": "台湾（现状维持派）",
+        "ko": "대만(현상 유지파)"
+      },
+      "sentiment": "balanced-pragmatic",
+      "summary": {
+        "ja": "独立も統一も望まない。戦争は避けたい。今の生活と自由がそのまま続けばそれが一番だ。",
+        "en": "We want neither independence nor unification. We want to avoid war; the best outcome is keeping our current life and freedoms as they are.",
+        "zh": "既不要独立也不要统一，想避免战争。维持现在的生活和自由就是最好的。",
+        "ko": "독립도 통일도 원하지 않는다. 전쟁은 피하고 싶고 지금의 삶과 자유가 그대로 이어지면 가장 좋다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "各種世論調査で最大多数。「現状維持」の中身（いつか独立／いつか統一／無期限）は人によって異なる。",
+        "en": "The largest group in various polls. What “status quo” means (independence someday / unification someday / indefinite) varies by person.",
+        "zh": "多项民调中占最大多数。“维持现状”的内涵（以后独立/以后统一/无限期）因人而异。",
+        "ko": "각종 여론조사에서 가장 큰 비중이다. '현상 유지'의 의미(언젠가 독립/언젠가 통일/무기한)는 사람마다 다르다."
+      },
+      "keywords": [
+        "#StatusQuo",
+        "#Peace",
+        "#Pragmatism"
+      ],
+      "timeframe": "2000-2025"
+    },
+    {
+      "id": "taiwan-strait-conflict-voice-4",
+      "country": {
+        "ja": "アメリカ",
+        "en": "United States",
+        "zh": "美国",
+        "ko": "미국"
+      },
+      "sentiment": "security-focused",
+      "summary": {
+        "ja": "台湾の民主主義を守ることは米国の利益だ。ただし武力による現状変更は許さないが、台湾の一方的な独立宣言も支持しない。",
+        "en": "Defending Taiwan’s democracy serves US interests. We oppose changing the status quo by force, but do not support a unilateral declaration of independence either.",
+        "zh": "保护台湾的民主符合美国利益。我们反对以武力改变现状，但也不支持台湾单方面宣布独立。",
+        "ko": "대만의 민주주의를 지키는 것은 미국의 이익이다. 무력에 의한 현상 변경은 허용하지 않지만 대만의 일방적 독립 선언도 지지하지 않는다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "超党派で対中強硬論が強い。他方、「台湾防衛の明確な約束」と「曖昧性の維持」で意見が割れ、米国の関与の限度をめぐる議論も根強い。",
+        "en": "Hawkish views on China are strong across both parties. Opinion is split between “explicit commitment” and “keeping ambiguity”, and debate over the limits of US involvement persists.",
+        "zh": "两党对华强硬论都很强。但在“明确承诺防卫”与“维持模糊”之间意见分歧，关于美国介入限度的争论也一直存在。",
+        "ko": "초당적으로 대중 강경론이 강하다. 다만 '명시적 방어 약속'과 '모호성 유지'로 의견이 갈리고 미국 개입의 한계를 둘러싼 논쟁도 끈질기다."
+      },
+      "keywords": [
+        "#TaiwanRelationsAct",
+        "#StrategicAmbiguity",
+        "#Deterrence"
+      ],
+      "timeframe": "2016-2025"
+    },
+    {
+      "id": "taiwan-strait-conflict-voice-5",
+      "country": {
+        "ja": "日本",
+        "en": "Japan",
+        "zh": "日本",
+        "ko": "일본"
+      },
+      "sentiment": "security-focused",
+      "summary": {
+        "ja": "台湾海峡の平和は日本の安全に直結する。中国との関係も大事だが、有事への備えと抑止力の強化は避けられない。",
+        "en": "Peace in the Taiwan Strait is directly tied to Japan’s security. Relations with China matter too, but preparing for contingencies and strengthening deterrence is unavoidable.",
+        "zh": "台湾海峡的和平与日本安全直接相关。对华关系也重要，但对有事的准备和强化威慑不可避免。",
+        "ko": "대만해협의 평화는 일본 안보와 직결된다. 중국과의 관계도 중요하지만 유사시 대비와 억지력 강화는 피할 수 없다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "世論調査では台湾への共感と中国への警戒感が強い。一方で、経済関係の悪化や紛争への巻き込まれを懸念する慎重論も根強い。",
+        "en": "Polls show strong sympathy for Taiwan and wariness of China. At the same time, there is persistent caution over damage to economic ties and being drawn into a conflict.",
+        "zh": "民调显示日本民众对台湾的好感和对中国的警惕感强烈。同时也有人担心经济关系恶化和被卷入冲突。",
+        "ko": "여론조사에서는 대만에 대한 공감과 중국에 대한 경계감이 강하다. 한편 경제 관계 악화와 분쟁 연루를 우려하는 신중론도 뿌리 깊다."
+      },
+      "keywords": [
+        "#TaiwanContingency",
+        "#Yonaguni",
+        "#Deterrence"
+      ],
+      "timeframe": "2021-2025"
+    },
+    {
+      "id": "taiwan-strait-conflict-voice-6",
+      "country": {
+        "ja": "東南アジア・欧州などの第三国",
+        "en": "Third countries (Southeast Asia, Europe etc.)",
+        "zh": "东南亚、欧洲等第三国",
+        "ko": "동남아·유럽 등 제3국"
+      },
+      "sentiment": "neutral",
+      "summary": {
+        "ja": "どちらにも肩入れしたくない。台湾海峡の緊張は半導体供給網と世界経済に響く。対話で解決してほしい。",
+        "en": "We don’t want to take sides. Tension in the Strait would hit semiconductor supply chains and the world economy. We want it resolved through dialogue.",
+        "zh": "不想偏袒任何一方。台海紧张会冲击半导体供应链和世界经济。希望通过对话解决。",
+        "ko": "어느 쪽도 편들고 싶지 않다. 대만해협의 긴장은 반도체 공급망과 세계 경제에 영향을 준다. 대화로 해결하길 바란다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ASEAN諸国の多くは「一つの中国」を尊重しつつ、衝突回避を重視。欧州では経済安全保障の観点から台湾との実務関係強化と対中デリスキングの両立が議論される。",
+        "en": "Many ASEAN states respect “one China” while prioritising avoiding conflict. In Europe, balancing closer practical ties with Taiwan and de-risking from China is discussed through an economic-security lens.",
+        "zh": "多数东盟国家尊重“一个中国”，同时优先避免冲突。欧洲则从经济安全角度讨论如何兼顾加强与台湾的实务关系和对华去风险。",
+        "ko": "아세안 다수 국가는 '하나의 중국'을 존중하면서 충돌 회피를 중시한다. 유럽에서는 경제안보 관점에서 대만과의 실무 관계 강화와 대중 디리스킹의 양립이 논의된다."
+      },
+      "keywords": [
+        "#SemiconductorSupplyChain",
+        "#Neutrality",
+        "#Dialogue"
+      ],
+      "timeframe": "2022-2025"
+    }
+  ]
+}

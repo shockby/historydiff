@@ -1,0 +1,125 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "notes": [
+    {
+      "id": "tsc-never-governed",
+      "claim": "台湾は古来中国の不可分の一部であり、統一は「国土の回復」である",
+      "context": "清朝は1683年に台湾西部を統治下に置き、1885年に台湾省を設置したが、島全体の実効支配は限定的だった。1895年から1945年は日本が統治し、1949年以降は中華人民共和国が台湾を一度も統治したことがない。中国は歴史的つながりを根拠に主権を主張し、台湾側は住民の意思と実効統治の事実を重視する。",
+      "verdict": "清朝の統治（約200年、うち省として約10年）と、中華人民共和国が一度も台湾を統治していない事実はいずれも歴史的事実。「古来の一部」かどうかは歴史解釈と政治的立場に依存し、学術的にも見解が分かれる。",
+      "sources": [
+        {
+          "title": "History of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Treaty of Shimonoseki",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-treaty-status",
+      "claim": "カイロ宣言とポツダム宣言で台湾の中国への帰属は国際法上確定している／台湾の地位は未確定である",
+      "context": "カイロ宣言（1943年）は台湾を「中華民国に返還する」とした。しかし宣言は条約ではなく、1951年のサンフランシスコ平和条約で日本は台湾を放棄したが帰属先は書かれていない。1952年の日華平和条約も同様である。中国は宣言が法的拘束力をもつとし、「地位未定論」の立場は条約の文言を根拠にする。",
+      "verdict": "日本が台湾を放棄したが帰属先が条約に明記されていないことは事実。カイロ・ポツダム宣言の法的効力と、その後の実効支配・国際承認がどう評価されるかは国際法学者の間でも意見が分かれ、国際裁判所の判断はない。",
+      "sources": [
+        {
+          "title": "Treaty of San Francisco",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Cairo Declaration",
+          "url": "https://en.wikipedia.org/wiki/Cairo_Declaration",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-anti-secession-law",
+      "claim": "中国は台湾に対する武力行使を法的に留保している",
+      "context": "2005年の反国家分裂法は、台湾が中国から分裂した場合、分裂を引き起こす重大な事変が発生した場合、または平和統一の可能性が完全に失われた場合に、国家は「非平和的方式その他必要な措置」をとることができると定める（第8条）。中国政府は、これは「外部の干渉と独立勢力」に向けたもので、台湾同胞に向けたものではないと説明する。",
+      "verdict": "法律に武力行使の留保が明記されていることは事実。実際に行使するかどうかは法律だけでは決まらず、中国は2022年以降、台湾周辺での大規模演習を繰り返している。",
+      "sources": [
+        {
+          "title": "Anti-Secession Law",
+          "url": "https://en.wikipedia.org/wiki/Anti-Secession_Law",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Anti-Secession Law (full text)",
+          "url": "http://www.gov.cn/",
+          "publisher": "PRC Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-1992-consensus",
+      "claim": "「1992年コンセンサス」は台湾と中国の双方が合意した「一つの中国」の枠組みである",
+      "context": "1992年に香港で中台の窓口機関が会談し、「一つの中国」の原則を口頭・文書でやり取りした。中国と国民党は「一つの中国原則を共に認めた」と解釈し、「各自が中国の意味を表明する」（一中各表）と補足する。民進党は「合意は存在しない」とする。この名称は2000年に国民党系の蘇起氏が命名した。",
+      "verdict": "1992年に会談と文書の往復があったことは事実だが、「合意」の内容と有無は双方で解釈が異なる。2016年に民進党の蔡英文政権が発足して以降、中国は台湾との公式対話を停止した。",
+      "sources": [
+        {
+          "title": "1992 Consensus",
+          "url": "https://en.wikipedia.org/wiki/1992_Consensus",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Mainland Affairs Council",
+          "url": "https://www.mac.gov.tw/",
+          "publisher": "Mainland Affairs Council (ROC)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-us-defense-commitment",
+      "claim": "米国は台湾を防衛する法的義務を負っている",
+      "context": "台湾関係法（1979年）は、防衛的武器の提供と、台湾住民の安全・社会経済制度を危うくする武力行使に対抗する「能力を維持する」ことを定めるが、米軍の介入義務は定めない。米国と台湾の相互防衛条約は1979年に失効した。バイデン前大統領は複数回「米軍が防衛する」と発言したが、政府は政策変更はないと説明した。",
+      "verdict": "米国に台湾防衛の法的義務はない（誤り）。ただし防衛的武器の提供は法律上の義務で、介入の可否は政治判断に委ねられる。この「戦略的曖昧性」が抑止か不確実性かは専門家の間で議論が続く。",
+      "sources": [
+        {
+          "title": "Taiwan Relations Act",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Relations_Act",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "US Relations With Taiwan",
+          "url": "https://www.state.gov/u-s-relations-with-taiwan/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-status-quo",
+      "claim": "台湾海峡の現状は「既に独立している」か「中国の一部」かのどちらかで説明できる",
+      "context": "台湾は事実上の自治・民主体制を持つが、国連加盟はなく、外交関係を持つ国は12か国前後（2020年代半ば）にとどまる。主要国の大半は台湾を国家承認せず、非公式関係を保つ。台湾側の世論は「現状維持」が多数で、台湾内の「独立」「統一」はいずれも少数派である。",
+      "verdict": "台湾が実効統治を行う事実上の政府であることと、国家としての国際的承認が限られていることはいずれも事実。「国家か否か」は国家承認の基準（宣言的／構成的）の捉え方によって結論が変わる。",
+      "sources": [
+        {
+          "title": "Political status of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Political_status_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Taiwan Strait Crises",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Strait_crises",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

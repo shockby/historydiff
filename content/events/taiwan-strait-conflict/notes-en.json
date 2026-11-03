@@ -1,0 +1,125 @@
+{
+  "eventId": "taiwan-strait-conflict",
+  "notes": [
+    {
+      "id": "tsc-never-governed",
+      "claim": "Taiwan has been an inseparable part of China since ancient times, and unification is “restoring the nation’s territory”",
+      "context": "The Qing brought western Taiwan under rule in 1683 and made it a province in 1885, though control of the whole island was limited. Japan ruled it from 1895 to 1945, and the PRC has never governed Taiwan since its founding in 1949. Beijing bases its sovereignty claim on historical ties; Taipei stresses the will of residents and effective governance.",
+      "verdict": "Qing rule (roughly 200 years, about 10 as a province) and the fact that the PRC has never governed Taiwan are both historical facts. Whether Taiwan has been a part of China “since ancient times” depends on interpretation and political stance, and scholars disagree.",
+      "sources": [
+        {
+          "title": "History of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Treaty of Shimonoseki",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-treaty-status",
+      "claim": "The Cairo and Potsdam declarations settled Taiwan’s return to China in international law / Taiwan’s status remains undetermined",
+      "context": "The Cairo Declaration (1943) said Taiwan would be “restored to the Republic of China”. But it is not a treaty; Japan renounced Taiwan in the 1951 San Francisco Peace Treaty without naming a recipient, and the 1952 Japan–ROC treaty is similar. Beijing says the declarations are binding; the “undetermined status” view rests on the treaty text.",
+      "verdict": "It is a fact that Japan renounced Taiwan but the treaty does not name the recipient. The legal weight of the Cairo and Potsdam declarations and of later effective control and recognition is disputed among international lawyers, and no international court has ruled.",
+      "sources": [
+        {
+          "title": "Treaty of San Francisco",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Cairo Declaration",
+          "url": "https://en.wikipedia.org/wiki/Cairo_Declaration",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "tsc-anti-secession-law",
+      "claim": "China has legally reserved the use of force against Taiwan",
+      "context": "The 2005 Anti-Secession Law says that if Taiwan secedes, if major incidents leading to secession occur, or if the possibility of peaceful reunification is completely lost, the state shall employ “non-peaceful means and other necessary measures” (Article 8). Beijing says this targets “external interference and separatist forces”, not Taiwan compatriots.",
+      "verdict": "It is a fact that the law explicitly reserves the use of force. Whether force will actually be used is not decided by the law alone; since 2022 China has repeatedly held large-scale exercises around Taiwan.",
+      "sources": [
+        {
+          "title": "Anti-Secession Law",
+          "url": "https://en.wikipedia.org/wiki/Anti-Secession_Law",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Anti-Secession Law (full text)",
+          "url": "http://www.gov.cn/",
+          "publisher": "PRC Government",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-1992-consensus",
+      "claim": "The “1992 Consensus” is a one-China framework agreed by both Taipei and Beijing",
+      "context": "In 1992 the semi-official bodies of both sides met in Hong Kong and exchanged statements on “one China”. Beijing and the Kuomintang interpret this as a shared commitment to one China, with each side stating its own meaning (“one China, respective interpretations”). The Democratic Progressive Party says no such consensus exists. The term was coined in 2000 by Su Chi of the KMT.",
+      "verdict": "It is true that talks and exchanges of statements occurred in 1992, but whether a “consensus” existed, and its content, are interpreted differently by each side. After the DPP’s Tsai Ing-wen took office in 2016, Beijing suspended official dialogue with Taipei.",
+      "sources": [
+        {
+          "title": "1992 Consensus",
+          "url": "https://en.wikipedia.org/wiki/1992_Consensus",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Mainland Affairs Council",
+          "url": "https://www.mac.gov.tw/",
+          "publisher": "Mainland Affairs Council (ROC)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-us-defense-commitment",
+      "claim": "The United States has a legal obligation to defend Taiwan",
+      "context": "The Taiwan Relations Act (1979) provides for supplying defensive arms and for the US to “maintain the capacity” to resist force that would jeopardise the security or social and economic system of Taiwan’s people, but does not oblige US intervention. The US–ROC mutual defense treaty ended in 1979. Former President Biden said several times that US forces would defend Taiwan; the administration said policy had not changed.",
+      "verdict": "The US has no legal obligation to defend Taiwan (false). Supplying defensive arms is a legal obligation, but intervention is a political decision. Experts continue to debate whether this “strategic ambiguity” deters or creates uncertainty.",
+      "sources": [
+        {
+          "title": "Taiwan Relations Act",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Relations_Act",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "US Relations With Taiwan",
+          "url": "https://www.state.gov/u-s-relations-with-taiwan/",
+          "publisher": "US Department of State",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "tsc-status-quo",
+      "claim": "The status quo in the Taiwan Strait can be described simply as either “already independent” or “part of China”",
+      "context": "Taiwan has de facto self-rule and a democratic system, yet has no UN seat and diplomatic ties with only about a dozen states (mid-2020s). Most major countries do not formally recognise Taiwan as a state and keep unofficial relations. In Taiwan, “maintaining the status quo” is the majority preference; both immediate independence and unification are minority views.",
+      "verdict": "It is a fact both that Taiwan has an effectively governing, de facto government and that its international recognition is limited. Whether it is a “state” depends on the criteria applied to statehood (declaratory vs. constitutive theories).",
+      "sources": [
+        {
+          "title": "Political status of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Political_status_of_Taiwan",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Taiwan Strait Crises",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_Strait_crises",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

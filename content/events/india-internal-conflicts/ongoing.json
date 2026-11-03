@@ -1,0 +1,49 @@
+{
+  "eventId": "india-internal-conflicts",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-03",
+  "whyItMatters": {
+    "ja": "世界最大の民主主義国であるインドの国内紛争は、少数派の権利、先住民の土地、軍の免責、宗教とナショナリズムといった民主主義の根本問題を映す。ナクサル根絶宣言が持続するか、2026年2月に州政府が復活したマニプールで和平が進むか、そして人権・信教の自由をめぐる国際的評価が、米印・日印関係やインドの国際的地位に影響を与えている。",
+    "en": "Conflicts inside the world's largest democracy reflect core questions of minority rights, Indigenous land, military immunity and the place of religion in nationalism. Whether the Naxal eradication holds, whether peace advances in Manipur after the state government was restored in February 2026, and how international assessments of human rights and religious freedom shape US–India and Japan–India ties all matter for India's global standing.",
+    "zh": "世界最大民主国家的国内冲突折射出少数群体权利、原住民土地、军队豁免以及宗教与民族主义等民主制度的核心问题。纳萨尔根除宣告能否持续、2026年2月恢复州政府的曼尼普尔能否推进和平，以及国际社会对人权与宗教自由的评价，都会影响美印、日印关系及印度的国际地位。",
+    "ko": "세계 최대 민주주의 국가 인도의 국내 분쟁은 소수자 권리, 원주민 토지, 군의 면책, 종교와 민족주의 등 민주주의의 핵심 문제를 비춘다. 낙살 근절 선언이 지속될지, 2026년 2월 주정부가 복원된 마니푸르에서 평화가 진전될지, 인권·종교 자유에 대한 국제 평가가 미·인도, 일·인도 관계와 인도의 위상에 영향을 준다."
+  },
+  "whatToWatchNext": {
+    "ja": "・ナクサル根絶宣言後の旧被害地域の開発・土地権・投降者の処遇\n・マニプールの治安、避難民の帰還、クキ＝ゾの別行政区要求\n・AFSPAの適用地域の見直し\n・USCIRFや国務省による人権・信教の自由に関する評価",
+    "en": "・Development, land rights and treatment of surrendered cadres in former Naxal areas\n・Manipur security, return of displaced people and the Kuki-Zo demand for a separate administration\n・Any review of areas covered by AFSPA\n・USCIRF and State Department assessments of human rights and religious freedom",
+    "zh": "・宣布根除纳萨尔后原受影响地区的发展、土地权利与投降人员安置\n・曼尼普尔治安、流离失所者返回及库基-佐族群设立单独行政区的要求\n・AFSPA适用地区是否调整\n・USCIRF与美国国务院对人权和宗教自由的评估",
+    "ko": "・낙살 근절 선언 이후 과거 피해 지역의 개발·토지 권리·투항자 처우\n・마니푸르 치안, 피란민 귀환, 쿠키-조의 별도 행정구역 요구\n・AFSPA 적용 지역 재검토\n・USCIRF와 국무부의 인권·종교 자유 평가"
+  },
+  "rssQuery": {
+    "ja": "インド ナクサル マニプール 少数派 治安",
+    "en": "India Naxal Manipur minorities security",
+    "zh": "印度 纳萨尔 曼尼普尔 少数群体 安全",
+    "ko": "인도 낙살 마니푸르 소수자 치안"
+  },
+  "articles": [
+    {
+      "title": "2023–2025 Manipur violence",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2023%E2%80%932025_Manipur_violence",
+      "publishedAt": "2025-02-13",
+      "summary": {
+        "ja": "2023年5月に始まったメイテイとクキ＝ゾの衝突と、2025年2月の大統領統治導入の経緯をまとめた記事。",
+        "en": "Overview of the Meitei–Kuki-Zo clashes from May 2023 and the imposition of President's Rule in February 2025.",
+        "zh": "概述2023年5月起梅泰与库基-佐冲突及2025年2月实施总统治理的经过。",
+        "ko": "2023년 5월 메이테이와 쿠키-조 충돌 및 2025년 2월 대통령 직접 통치 도입 경위를 정리한 글."
+      }
+    },
+    {
+      "title": "Naxalite–Maoist insurgency",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Naxalite%E2%80%93Maoist_insurgency",
+      "publishedAt": "2025-05-21",
+      "summary": {
+        "ja": "ナクサライト運動の歴史と、2025年以降の治安作戦による衰退をまとめた記事。",
+        "en": "History of the Naxalite movement and its decline under security operations since 2025.",
+        "zh": "概述纳萨尔运动的历史及2025年以来安全行动下的衰退。",
+        "ko": "낙살라이트 운동의 역사와 2025년 이후 치안 작전으로 인한 쇠퇴를 정리한 글."
+      }
+    }
+  ]
+}

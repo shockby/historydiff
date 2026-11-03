@@ -1,0 +1,125 @@
+{
+  "eventId": "india-internal-conflicts",
+  "notes": [
+    {
+      "id": "iic-naxal-decline",
+      "claim": "印度政府宣布已在2026年3月前根除纳萨尔派（毛派武装）",
+      "context": "该运动起源于1967年西孟加拉邦纳萨尔巴里的农民起义，2004年印度共产党（毛派）成立。受影响地区从2010年前后的100多个大幅减少，2025年最高层领导人被击毙。政府宣布目标达成，但独立核实以及土地、森林权利和贫困等结构性根源是否解决，则是另一个问题。",
+      "verdict": "政府宣布与安全统计有官方记录；根除的持续性与人权评价存在争议。",
+      "sources": [
+        {
+          "title": "Naxalite–Maoist insurgency",
+          "url": "https://en.wikipedia.org/wiki/Naxalite%E2%80%93Maoist_insurgency",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Left Wing Extremism Division",
+          "url": "https://www.mha.gov.in/en/divisionofmha/left-wing-extremism-division",
+          "publisher": "Ministry of Home Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "iic-salwa-judum",
+      "claim": "政府支持的民团萨尔瓦·朱杜姆被裁定违宪",
+      "context": "该民兵组织2005年始于恰蒂斯加尔邦，将部落青年任命为特别警察并配发武器。2011年最高法院认定其违宪且是侵犯人权的温床，下令解散并缴械。邦政府曾称其为民众自发的抵抗运动，但判决确认了国家责任。",
+      "verdict": "最高法院判决确认的事实。",
+      "sources": [
+        {
+          "title": "Salwa Judum",
+          "url": "https://en.wikipedia.org/wiki/Salwa_Judum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Nandini Sundar v. State of Chhattisgarh (2011)",
+          "url": "https://en.wikipedia.org/wiki/Nandini_Sundar_%26_Ors._v._State_of_Chhattisgarh",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-afspa",
+      "claim": "AFSPA对东北部安全是不可或缺，还是有罪不罚的温床？",
+      "context": "该法1958年颁布，授权军队在“骚乱地区”开枪、搜查和逮捕，起诉军人需经中央政府批准。政府称其为应对叛乱所必需，批评者则认为它使侵犯人权行为获得豁免。适用范围已缩小（2015年特里普拉邦、2018年梅加拉亚邦全面解除），但那加兰邦、曼尼普尔邦等部分地区仍在适用。",
+      "verdict": "法律内容与适用地区有官方记录；其必要性与影响存在争议。",
+      "sources": [
+        {
+          "title": "Armed Forces (Special Powers) Act, 1958",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_(Special_Powers)_Act,_1958",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Insurgency in Northeast India",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Northeast_India",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-manipur-2023",
+      "claim": "2023年以来的曼尼普尔暴力使梅泰人与库基-佐人严重分裂",
+      "context": "2023年5月，围绕梅泰人要求列入表列部落（ST）的抗议引发冲突扩大，造成200多人死亡、约6万人流离失所。2025年2月实施总统治理，2026年2月解除并成立新州政府，但互不信任依然严重，库基-佐族群要求设立单独行政区。",
+      "verdict": "死亡与流离失所人数在报道和官方发布中不一；对起因与责任的评估存在争议。",
+      "sources": [
+        {
+          "title": "2023–2025 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023%E2%80%932025_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2023 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-1984-sikh",
+      "claim": "1984年反锡克教暴乱存在有组织的介入，但追责拖延了数十年",
+      "context": "1984年6月军队攻入金庙（蓝星行动）后，10月总理英迪拉·甘地被锡克教徒卫兵刺杀，德里等地随即爆发暴乱。官方统计德里约2,800人死亡。多个调查委员会指出有政界人士介入，前议员分别于2018年和2025年被判有罪。",
+      "verdict": "暴乱与伤亡是历史事实；介入程度和责任归属由法院与调查委员会认定。",
+      "sources": [
+        {
+          "title": "1984 anti-Sikh riots",
+          "url": "https://en.wikipedia.org/wiki/1984_anti-Sikh_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Blue Star",
+          "url": "https://en.wikipedia.org/wiki/Operation_Blue_Star",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-gujarat-2002",
+      "claim": "2002年古吉拉特邦暴乱中邦政府是否负有责任？",
+      "context": "2002年2月，戈德拉列车火灾造成59名印度教朝圣者死亡，随后的暴乱造成1,000多人死亡，多数为穆斯林。最高法院任命的特别调查组2012年报告称未发现可起诉时任首席部长莫迪的证据，最高法院2022年驳回相关诉求；批评者则持续指出邦政府应对失当。这场暴乱也与1992年巴布里清真寺被毁引发的阿约迪亚问题相衔接。",
+      "verdict": "死亡人数与经过有记录；邦政府责任在司法结论与批评之间存在对立。",
+      "sources": [
+        {
+          "title": "2002 Gujarat riots",
+          "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ayodhya dispute",
+          "url": "https://en.wikipedia.org/wiki/Ayodhya_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

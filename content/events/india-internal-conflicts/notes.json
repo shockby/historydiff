@@ -1,0 +1,125 @@
+{
+  "eventId": "india-internal-conflicts",
+  "notes": [
+    {
+      "id": "iic-naxal-decline",
+      "claim": "インド政府は2026年3月までにナクサライト（毛沢東派武装勢力）を根絶したと宣言した",
+      "context": "運動は1967年の西ベンガル州ナクサルバリの農民蜂起に始まり、2004年にインド共産党（毛沢東派）が結成された。被害県は2010年前後の100超から大幅に減少し、2025年には最高幹部が殺害された。政府は目標達成を宣言したが、独立した検証や、構造的要因（土地・森林権や貧困）が解消されたかは別の問題である。",
+      "verdict": "政府の宣言と治安統計は公式記録あり。根絶の持続性と人権面の評価は議論あり。",
+      "sources": [
+        {
+          "title": "Naxalite–Maoist insurgency",
+          "url": "https://en.wikipedia.org/wiki/Naxalite%E2%80%93Maoist_insurgency",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Left Wing Extremism Division",
+          "url": "https://www.mha.gov.in/en/divisionofmha/left-wing-extremism-division",
+          "publisher": "Ministry of Home Affairs, India",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "iic-salwa-judum",
+      "claim": "政府が支援した自警団サルワ・ジュドゥムは違憲と判断された",
+      "context": "チャッティースガル州で2005年に始まったこの民兵組織は、先住民の若者を特別警察官に採用して武装させた。2011年に最高裁は、人権侵害の温床であり憲法違反だとして解散と武装解除を命じた。州側は住民の自発的な抵抗運動と主張していたが、判決は国家の責任を認めた。",
+      "verdict": "最高裁判決で確認された事実。",
+      "sources": [
+        {
+          "title": "Salwa Judum",
+          "url": "https://en.wikipedia.org/wiki/Salwa_Judum",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Nandini Sundar v. State of Chhattisgarh (2011)",
+          "url": "https://en.wikipedia.org/wiki/Nandini_Sundar_%26_Ors._v._State_of_Chhattisgarh",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-afspa",
+      "claim": "AFSPA（軍特別権限法）は北東部の治安に不可欠か、それとも不処罰の温床か",
+      "context": "1958年に制定され、「騒乱地域」で軍が発砲・捜索・逮捕を行う権限を与え、訴追には中央政府の許可を要する。政府は反乱対処に必要と説明し、批判側は人権侵害の免責になっていると主張する。2015年にトリプラ、2018年にメガラヤで全面解除されるなど適用範囲は縮小してきたが、ナガランドやマニプールなどの一部で今も続く。",
+      "verdict": "法の内容と適用地域は公式記録あり。その必要性と影響は議論あり。",
+      "sources": [
+        {
+          "title": "Armed Forces (Special Powers) Act, 1958",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_(Special_Powers)_Act,_1958",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Insurgency in Northeast India",
+          "url": "https://en.wikipedia.org/wiki/Insurgency_in_Northeast_India",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-manipur-2023",
+      "claim": "2023年からのマニプール暴力はメイテイとクキ＝ゾの深刻な分断を生んだ",
+      "context": "2023年5月、メイテイ人の指定部族（ST）認定要求をめぐる抗議をきっかけに衝突が拡大し、200人以上が死亡、約6万人が避難した。2025年2月に大統領統治が敷かれ、2026年2月に解除されて新州政府が発足したが、不信は根強く、クキ＝ゾ側は別行政区を要求している。",
+      "verdict": "死者・避難者数は報道・公式発表で幅あり。原因と責任の評価は議論あり。",
+      "sources": [
+        {
+          "title": "2023–2025 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023%E2%80%932025_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "2023 Manipur violence",
+          "url": "https://en.wikipedia.org/wiki/2023_Manipur_violence",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-1984-sikh",
+      "claim": "1984年の反シク暴動では組織的な関与があったが、訴追は数十年遅れた",
+      "context": "1984年6月の黄金寺院への軍突入（ブルースター作戦）の後、10月にインディラ・ガンディー首相がシク教徒の護衛に暗殺され、デリーなどで暴動が起きた。公式の死者はデリーで約2,800人。複数の調査委員会が政治家の関与を指摘し、2018年と2025年にも元国会議員への有罪判決が出た。",
+      "verdict": "暴動と被害は歴史的事実。関与の程度と責任の所在は司法・調査委員会で判断。",
+      "sources": [
+        {
+          "title": "1984 anti-Sikh riots",
+          "url": "https://en.wikipedia.org/wiki/1984_anti-Sikh_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Operation Blue Star",
+          "url": "https://en.wikipedia.org/wiki/Operation_Blue_Star",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    },
+    {
+      "id": "iic-gujarat-2002",
+      "claim": "2002年グジャラート暴動で州政府の責任はあったのか",
+      "context": "2002年2月、ゴドラで列車火災により巡礼のヒンドゥー教徒59人が死亡し、その後の暴動で1,000人以上（大半がムスリム）が殺害された。最高裁任命のSITは2012年、当時の州首相モディ氏の訴追根拠は見つからないと報告し、2022年に最高裁も訴えを退けた。一方、批判側は州政府の対応の怠慢を指摘し続けている。暴動は1992年のバーブリー・モスク破壊に始まるアヨーディヤー問題とも連続する。",
+      "verdict": "死者数と事件経緯は記録あり。州政府の責任については司法判断と批判が対立。",
+      "sources": [
+        {
+          "title": "2002 Gujarat riots",
+          "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        },
+        {
+          "title": "Ayodhya dispute",
+          "url": "https://en.wikipedia.org/wiki/Ayodhya_dispute",
+          "publisher": "Wikipedia",
+          "type": "academic"
+        }
+      ]
+    }
+  ]
+}

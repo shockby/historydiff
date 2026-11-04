@@ -1,7 +1,7 @@
 {
   "eventId": "israel-territory",
   "isOngoing": true,
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-11-04",
   "whyItMatters": {
     "ja": "1948年のイスラエル建国以来続く領土・主権問題は、ガザ地区での戦闘やヨルダン川西岸地区の入植地拡大、エルサレムの地位を巡り、現在も中東全域を揺るがす最大の火種です。イスラエル側が主張する『歴史的・聖書的権利と国家生存の安全保障』と、パレスチナ側が主張する『ナクバ（大災厄）による土地強奪の是正と民族自決・二国家解決』という根本的な歴史認識の乖離が、停戦や永続的和平の成立を困難にしています。",
     "en": "The Israeli-Palestinian territorial and sovereignty conflict since 1948 remains the primary catalyst of Middle Eastern volatility, centered on Gaza, West Bank settlements, and Jerusalem's final status. Israel grounds its claims in ancient historical heritage and existential security doctrines, while Palestinians emphasize the Nakba, ongoing occupation, and the right to self-determination. This fundamental narrative divergence dictates current ceasefire deals and regional normalization.",
@@ -9,10 +9,10 @@
     "ko": "1948년 이스라엘 건국 이래 지속된 영토 및 주권 분쟁은 가자 지구 분쟁, 서안 지구 정착촌 확대, 예루살렘의 최종 지위를 둘러싸고 중동 전역의 안보를 위협하고 있습니다. 이스라엘의 역사적·생존적 안보 논리와 팔레스타인의 나크바(대재앙) 극복 및 민족자결권 주장의 대립은 현재의 휴전 협상과 전후 평화 구상의 핵심 장애물입니다."
   },
   "whatToWatchNext": {
-    "ja": "1. ガザ地区における人道支援物資搬入と多国籍暫定統治構想・復興枠組みの進展\n2. ヨルダン川西岸地区での入植活動とパレスチナ自治政府（PA）の改革・統治能力\n3. イスラエルとアラブ諸国（サウジアラビア等）の国交正常化プロセスの再開条件",
-    "en": "1. Day-after governance frameworks, security arrangements, and reconstruction funding for Gaza\n2. West Bank settlement expansions and governance reforms within the Palestinian Authority\n3. Preconditions for restarting Saudi-Israeli normalization talks under broader regional security guarantees",
-    "zh": "1. 加沙战后安全与治理过渡安排、多边维和构想及战后重建基金的筹建\n2. 约旦河西岸定居点政策走向与巴勒斯坦民族权力机构（PA）治理能力重组\n3. 沙特与以色列关系正常化谈判的重启条件及其与巴勒斯坦建国路径的挂钩",
-    "ko": "1. 가자 지구 전후 통치 체제, 다국적 안보 유지 구상 및 전후 재건 자금 조성 추이\n2. 서안 지구 내 정착촌 확장 동향과 팔레스타인 자치정부(PA)의 개혁 및 행정력\n3. 사우디아라비아 등 아랍권과의 수교 정상화 논의 재개 조건 및 포괄적 안보 협약"
+    "ja": "1. 2026年10月27日のイスラエル総選挙（第26回クネセト）後の連立交渉の行方とガザ・西岸政策への影響\n2. ガザ地区における人道支援物資搬入と多国籍暫定統治構想・復興枠組みの進展\n3. ヨルダン川西岸（ヘブロン・ジェニン等）での軍事作戦・入植活動とパレスチナ自治政府（PA）の統治能力\n4. イスラエルとアラブ諸国（サウジアラビア等）の国交正常化プロセスの再開条件",
+    "en": "1. Coalition negotiations following Israel's October 27, 2026 Knesset election deadlock and their impact on Gaza and West Bank policies\n2. Day-after governance frameworks, security arrangements, and reconstruction funding for Gaza\n3. Military operations and settlement expansions in the West Bank (Hebron, Jenin, etc.) and Palestinian Authority governance reforms\n4. Preconditions for restarting Saudi-Israeli normalization talks under broader regional security guarantees",
+    "zh": "1. 2026年10月27日以色列第26届议会选举僵局后的组阁谈判走向及其对加沙与西岸政策的影响\n2. 加沙战后安全与治理过渡安排、多边维和构想及战后重建基金的筹建\n3. 约旦河西岸（希伯伦、杰宁等）军事行动与定居点政策走向及巴勒斯坦民族权力机构（PA）治理能力\n4. 沙特与以色列关系正常化谈判的重启条件及其与巴勒斯坦建国路径的挂钩",
+    "ko": "1. 2026년 10월 27일 이스라엘 제26대 총선 교착 이후 연정 구성 협상 향방과 가자·서안 정책에 미칠 영향\n2. 가자 지구 전후 통치 체제, 다국적 안보 유지 구상 및 전후 재건 자금 조성 추이\n3. 서안 지구(헤브론·제닌 등) 군사 작전 및 정착촌 확장 동향과 팔레스타인 자치정부(PA)의 행정력\n4. 사우디아라비아 등 아랍권과의 수교 정상화 논의 재개 조건 및 포괄적 안보 협약"
   },
   "rssQuery": {
     "ja": "イスラエル パレスチナ ガザ 停戦",
@@ -21,6 +21,19 @@
     "ko": "이스라엘 팔레스타인 가자 휴전"
   },
   "articles": [
+    {
+      "title": "イスラエル総選挙は与野党とも過半数割れ――アイゼンコット氏を野党統一候補に擁立、連立交渉は難航",
+      "source": "Al Jazeera / The Times of Israel",
+      "url": "https://www.aljazeera.com/news/",
+      "publishedAt": "2026-11-02",
+      "summary": {
+        "ja": "2026年10月27日に投開票された第26回クネセト（定数120）総選挙では、ネタニヤフ首相率いる右派・宗教ブロックが53議席、ガディ・アイゼンコット元参謀総長率いる中道野党ブロックが48議席、アラブ系政党が過去最多の19議席を獲得し、いずれの陣営も過半数（61議席）に届かなかった。野党指導者らはアイゼンコット氏を首相候補として統一擁立することで合意する一方、暫定政権下でガザやヨルダン川西岸ヘブロン等での局地作戦が続き、長期戦略は停滞している。",
+        "en": "Israel's October 27, 2026 election for the 26th Knesset resulted in a deadlock: Prime Minister Netanyahu's right-wing bloc won 53 seats, the opposition bloc led by former military chief Gadi Eisenkot took 48 seats, and Arab-led parties secured a record 19 seats, leaving both blocs short of a 61-seat majority. Opposition leaders united behind Eisenkot as their candidate for prime minister, while localized operations in Gaza and Hebron continue under a caretaker government.",
+        "zh": "2026年10月27日举行的以色列第26届议会（120席）大选陷入政治僵局：内塔尼亚胡总理领导的右翼宗教阵营获53席，前总参谋长加迪·埃曾科特领导的中左翼反对派阵营获48席，阿拉伯裔政党创纪录斩获19席，均未达到61席半数门槛。反对派于11月初一致推举埃曾科特为总理候选人，而在看守政府期间，加沙及约旦河西岸希伯伦等地的局部军事行动仍在持续。",
+        "ko": "2026년 10월 27일 치러진 이스라엘 제26대 크네세트(120석) 총선에서 네타냐후 총리의 우파·종교 블록이 53석, 가디 아이젠코트 전 참모총장이 이끄는 중도 야권 블록이 48석, 아랍계 정당이 역대 최다인 19석을 획득해 어느 진영도 과반(61석)을 확보하지 못했다. 야권 지도부는 아이젠코트를 총리 후보로 단일화하기로 합의했으며, 과도정부 체제 속에 가자 및 서안 헤브론 등지에서의 국지적 군사 작전이 이어지고 있다."
+      },
+      "country": "国際"
+    },
     {
       "title": "中東和平調停とガザ復興に向けた多国間外交協議",
       "source": "ロイター (Reuters)",

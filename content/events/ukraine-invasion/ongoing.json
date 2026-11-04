@@ -1,7 +1,7 @@
 {
   "eventId": "ukraine-invasion",
   "isOngoing": true,
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-11-04",
   "whyItMatters": {
     "ja": "2022年に始まったロシアによるウクライナ侵攻は、第二次世界大戦後の欧州安全保障秩序と国連主導の国際秩序を根本から揺るがしました。ウクライナ側は『1991年の主権国境回復と生存をかけた防衛戦』と位置づける一方、ロシア側は『NATO東方拡大への対抗とロシア系住民保護』を掲げており、双方が主張する歴史的領有権や国家形成の正統性の差が、領土割譲や停戦条件を巡る最大の障害となっています。",
     "en": "Russia's 2022 full-scale invasion of Ukraine represents the most severe challenge to European security and the post-WWII international order. Ukraine frames the conflict as an existential defense of its 1991 borders and sovereignty, while Moscow asserts historical claims and resistance against NATO expansion. These clashing historical narratives directly define the terms of potential ceasefires, sovereignty guarantees, and global geopolitical alignments.",
@@ -9,10 +9,10 @@
     "ko": "2022년 러시아의 우크라이나 침공은 2차 대전 이후의 유럽 안보 질서와 국제 규범을 근본적으로 뒤흔든 사건입니다. 우크라이나는 1991년 국경 회복과 주권 수호를 위한 방어전으로 규정하는 반면, 러시아는 나토 동진 저지와 역사적 완충지대 확보를 주장합니다. 이 역사적 정통성과 영토 인식의 차이는 현재의 휴전 협상과 전후 안보 질서 재편의 핵심 쟁점입니다."
   },
   "whatToWatchNext": {
-    "ja": "1. 「ヴィヴァルディ作戦」の進展とロシアの反撃・ハイブリッド戦（NATO加盟国へのサイバー攻撃等）の激化\n2. 米特使外交と三者会談（UAE仲介案）を通じた停戦協議の実現可否\n3. ウクライナのEU加盟交渉進展と欧米の長期軍事・財政支援の持続可能性\n4. 地上ドローン・AIドローンの実戦投入が従来型陸戦を代替するかどうか",
-    "en": "1. Progress of 'Operation Vivaldi' and Russia's counter-escalation including hybrid warfare (cyberattacks against NATO states)\n2. Whether US envoy diplomacy and trilateral talks (UAE-hosted proposal) can yield a real ceasefire\n3. Ukraine's EU accession talks and the sustainability of long-term Western military and financial support\n4. Whether ground-based and AI-driven drones will replace conventional land warfare at scale",
-    "zh": "1. \"维瓦尔第行动\"进展及俄罗斯反制与混合战（针对北约国家网络攻击等）升级态势\n2. 美国特使外交与三方会谈（UAE斡旋方案）能否促成实质停火\n3. 乌克兰加入欧盟谈判的推进及西方长期军事与财政支援的可持续性\n4. 地面无人机与AI无人机的大规模实战运用能否取代传统地面战",
-    "ko": "1. '비발디 작전'의 진전과 러시아의 반격·하이브리드 전쟁(NATO 회원국 사이버 공격 등) 격화\n2. 미국 특사 외교와 3자 회담(UAE 중재안)을 통한 휴전 협의 실현 가능성\n3. 우크라이나의 EU 가입 협상 진전과 서방의 장기 군사·재정 지원의 지속 가능성\n4. 지상 드론·AI 드론의 실전 투입이 기존 지상전을 대체할 수 있는지 여부"
+    "ja": "1. 2026年11月10〜11日にアブダビで開催予定の米・ウクライナ・ロシア三者実務協議とブリュッセルでの対欧安全保障調整の行方\n2. 冬季を前に激化するロシアのエネルギー・港湾インフラ攻撃とウクライナによるロシア後方深部打撃・無人機消耗戦\n3. ウクライナのEU加盟交渉進展と欧米の長期軍事・財政支援の持続可能性\n4. 地上ドローン・AIドローンの実戦投入が従来型陸戦を代替するかどうか",
+    "en": "1. Outcome of the November 10–11, 2026 US-Ukraine-Russia trilateral working-level talks in Abu Dhabi and parallel European security consultations in Brussels\n2. Escalating Russian winter strikes on Ukrainian energy/port infrastructure vs. Ukrainian deep strikes and drone-driven attrition\n3. Ukraine's EU accession talks and the sustainability of long-term Western military and financial support\n4. Whether ground-based and AI-driven drones will replace conventional land warfare at scale",
+    "zh": "1. 定于2026年11月10日至11日在阿布扎比举行的美乌俄三方工作级会谈及布鲁塞尔欧洲安全保障协调走向\n2. 冬季前夕俄罗斯对乌克兰能源与港口基础设施打击升级，以及乌克兰对俄纵深目标远程打击与无人机消耗战态势\n3. 乌克兰加入欧盟谈判的推进及西方长期军事与财政支援的可持续性\n4. 地面无人机与AI无人机的大规模实战运用能否取代传统地面战",
+    "ko": "1. 2026년 11월 10~11일 아부다비에서 열리는 미·우크라이나·러시아 3자 실무 회담과 브뤼셀 유럽 안보 보장 협의의 향방\n2. 동절기를 앞둔 러시아의 에너지·항만 인프라 타격 격화와 우크라이나의 러시아 후방 심층 타격 및 드론 소모전\n3. 우크라이나의 EU 가입 협상 진전과 서방의 장기 군사·재정 지원의 지속 가능성\n4. 지상 드론·AI 드론의 실전 투입이 기존 지상전을 대체할 수 있는지 여부"
   },
   "rssQuery": {
     "ja": "ウクライナ 戦況 停戦 ロシア",
@@ -21,6 +21,19 @@
     "ko": "우크라이나 전황 휴전 러시아"
   },
   "articles": [
+    {
+      "title": "11月10〜11日にアブダビで米・ウクライナ・露の三者実務協議開催へ――10月の露軍死傷者は過去最悪水準に",
+      "source": "The Guardian / RFE/RL",
+      "url": "https://www.theguardian.com/world/ukraine",
+      "publishedAt": "2026-11-03",
+      "summary": {
+        "ja": "ウィトコフ米特使によるサンクトペテルブルクやオスロでの往復外交を経て、11月10〜11日にUAE・アブダビで米・ウクライナ・ロシアの三者実務協議が開催されることが発表された。米国はブリュッセルで英仏独・EU・NATOとも戦後安全保障枠組みを調整している。一方、前線ではウクライナ無人システム部隊の活用により10月のロシア軍死傷者が5万4,400人を超える消耗戦となっており、冬季を前にしたインフラ攻撃の応酬が続いている。",
+        "en": "Following US Envoy Steve Witkoff's shuttle diplomacy in St. Petersburg and Oslo, trilateral working-level talks between the US, Ukraine, and Russia are scheduled for November 10–11 in Abu Dhabi, alongside US consultations with European allies in Brussels. Meanwhile, frontline attrition remains fierce, with Ukrainian Unmanned Systems Forces contributing to over 54,400 Russian casualties in October amid escalating winter infrastructure strikes.",
+        "zh": "经美国特使威特科夫在圣彼得堡与奥斯陆的穿梭外交，美乌俄三方工作级会谈定于11月10日至11日在阿联酋阿布扎比举行，美方同时在布鲁塞尔与英法德及欧盟、北约协调战后安全框架。与此同时，前线消耗战依然惨烈，在乌克兰无人系统部队打击下，10月俄军伤亡逾5.44万人，冬季前夕双方围绕能源与军工基础设施的远程互袭持续升级。",
+        "ko": "스티브 위트코프 미국 특사의 상트페테르부르크·오슬로 셔틀 외교 끝에 11월 10~11일 UAE 아부다비에서 미·우크라이나·러시아 3자 실무 회담 개최가 확정됐으며, 미국은 브뤼셀에서 유럽 동맹국들과 전후 안보 구상을 조율하고 있다. 한편 전선에서는 우크라이나 무인시스템군의 활약 속에 10월 러시아군 사상자가 5만 4,400명을 넘어서는 극심한 소모전이 이어지고 있으며 동절기를 앞둔 인프라 공방도 격화하고 있다."
+      },
+      "country": "国際"
+    },
     {
       "title": "ウクライナ「ヴィヴァルディ作戦」――地上ドローンで176km²奪還",
       "source": "Reuters",

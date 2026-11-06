@@ -6,8 +6,8 @@ import { translations, type Language } from '../src/lib/translations.ts';
 describe('region definitions and mappings', () => {
   const allEventIds = Object.keys(eventCoords);
 
-  test('all 77 events with coordinates have a region defined', () => {
-    assert.strictEqual(allEventIds.length, 77, 'Total event coords should be 77');
+  test('all 78 events with coordinates have a region defined', () => {
+    assert.strictEqual(allEventIds.length, 78, 'Total event coords should be 78');
     for (const id of allEventIds) {
       const regionInfo = eventRegions[id];
       assert.ok(regionInfo, `Event "${id}" must have region info in eventRegions`);
@@ -61,7 +61,7 @@ describe('region definitions and mappings', () => {
     assert.strictEqual(counts['middle-east'], 8, 'Middle East should have 8 events');
     assert.strictEqual(counts['southeast-asia'], 4, 'Southeast Asia should have 4 events');
     assert.strictEqual(counts['south-central-asia'], 5, 'South & Central Asia should have 5 events');
-    assert.strictEqual(counts['europe'], 14, 'Europe should have 14 events');
+    assert.strictEqual(counts['europe'], 15, 'Europe should have 15 events');
     assert.strictEqual(counts['africa'], 8, 'Africa should have 8 events');
     assert.strictEqual(counts['south-america'], 3, 'South America should have 3 events');
   });

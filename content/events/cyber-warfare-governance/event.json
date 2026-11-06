@@ -1,0 +1,47 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "title": {
+    "ja": "国家間サイバー戦争・情報戦の責任論と国際規範（「自由で開かれたサイバー空間」vs「サイバー主権」）",
+    "en": "State-Sponsored Cyber Warfare, Information Operations & International Norms (\"Free and Open Cyberspace\" vs. \"Cyber Sovereignty\")",
+    "zh": "国家间网络战、信息战责任论与国际规范（“自由开放的网络空间”与“网络主权”之争）",
+    "ko": "국가 간 사이버 전쟁·정보전 책임론과 국제 규범('자유롭고 열린 사이버 공간' 대 '사이버 주권')"
+  },
+  "relatedEvents": [
+    {
+      "id": "universal-values-vs-sovereignty",
+      "relation": {
+        "ja": "情報の自由な流通を掲げる欧米モデルと、国家による管轄権（「サイバー主権」）を重視する中露モデルの対立は、価値観外交と主権原則の衝突のデジタル版といえる。",
+        "en": "The clash between the Western model of free information flows and the Sino-Russian model of state jurisdiction ('cyber sovereignty') mirrors the broader dispute between universal values and non-interference.",
+        "zh": "欧美倡导的信息自由流动模式与中俄强调的国家管辖权（“网络主权”）模式之争，是普遍价值外交与主权不干涉原则在数字空间的延伸。",
+        "ko": "정보의 자유로운 유통을 내세우는 서구 모델과 국가 관할권('사이버 주권')을 중시하는 중·러 모델의 대립은 가치관 외교와 주권 원칙 충돌의 디지털판이라 할 수 있다."
+      }
+    },
+    {
+      "id": "ukraine-invasion",
+      "relation": {
+        "ja": "2015年の電力網ブラックアウト、2017年のNotPetya、2022年侵攻時の衛星通信・インフラ攻撃など、ウクライナは物理的軍事侵攻とサイバー・情報戦が融合したハイブリッド戦争の最前線となった。",
+        "en": "From the 2015 power grid blackout and 2017 NotPetya attack to the 2022 Viasat satellite hack, Ukraine has been the testing ground for hybrid warfare combining kinetic invasion with cyber and information operations.",
+        "zh": "从2015年电网断电、2017年NotPetya攻击到2022年冲突爆发时的卫星通信与基础设施网络攻击，乌克兰成为物理军事行动与网络信息战深度融合的混合战争前沿。",
+        "ko": "2015년 전력망 정전, 2017년 낫페트야(NotPetya), 2022년 침공 당시 위성통신·인프라 공격 등 우크라이나는 물리적 군사 침공과 사이버·정보전이 결합된 하이브리드 전쟁의 최전선이 되었다."
+      }
+    },
+    {
+      "id": "middle-east-us-iran-israel",
+      "relation": {
+        "ja": "2010年にイラン・ナタンズ核施設の遠心分離機を破壊した「スタックスネット（Stuxnet）」は、サイバー兵器が物理的破壊をもたらした史上初の転換点となった。",
+        "en": "The 2010 Stuxnet worm that physically crippled centrifuges at Iran's Natanz nuclear facility marked a historic turning point as the first known cyberweapon to cause physical destruction.",
+        "zh": "2010年摧毁伊朗纳坦兹核设施离心机的“震网（Stuxnet）”病毒，是历史上首次由网络武器造成物理破坏的转折点。",
+        "ko": "2010년 이란 나탄즈 핵시설의 원심분리기를 물리적으로 파괴한 '스턱스넷(Stuxnet)'은 사이버 무기가 물리적 파괴를 초래한 역사상 최초의 전환점이 되었다."
+      }
+    },
+    {
+      "id": "korean-war-division",
+      "relation": {
+        "ja": "北朝鮮の国家背景ハッカー集団（ラザルス等）による日米韓の暗号資産取引所や防衛・金融機関へのサイバー攻撃は、核・ミサイル開発の主要な資金源として国際的な焦点となっている。",
+        "en": "Cyberattacks by North Korean state-linked groups (such as Lazarus) targeting cryptocurrency exchanges and defense institutions in South Korea, Japan, and the US have become a central focus as a funding source for Pyongyang's nuclear and missile programs.",
+        "zh": "朝鲜国家级黑客组织（如拉撒路集团）针对日美韩加密货币交易所及金融、防务机构的网络攻击，作为其核导开发资金来源成为国际安全焦点。",
+        "ko": "북한 국가 배후 해커 조직(라자루스 등)에 의한 한·미·일 가상자산 거래소 및 방산·금융기관 사이버 공격은 핵·미사일 개발의 주요 자금원으로서 국제적 초점이 되고 있다."
+      }
+    }
+  ]
+}

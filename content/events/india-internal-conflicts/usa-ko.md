@@ -1,6 +1,6 @@
 ---
 id: "india-internal-conflicts"
-title: "전략적 파트너와 인권·종교의 자유 — 미국의 시각"
+title: "전략적 파트너와 인권·종교의 자유 — 미국 측 평가"
 category: "국내 분쟁·민족·종교 문제"
 year: "1950년대~현재"
 location: "인도 국내(중부·북동부·펀자브·구자라트 등)"

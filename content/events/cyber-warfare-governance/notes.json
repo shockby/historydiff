@@ -1,0 +1,131 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "notes": [
+    {
+      "id": "cyber-2007-estonia-tallinn",
+      "claim": "2007年4〜5月、ソ連軍兵士銅像の移転をめぐりエストニアの政府・銀行・メディアに大規模DDoS攻撃が発生し、翌2008年にNATOサイバー防衛協力センター（CCDCOE）がタリンに設立された",
+      "context": "一国の行政・金融機能がサイバー攻撃で麻痺した史上初の事例とされる。エストニア政府はロシアからの攻撃と主張したが、ロシア政府は関与を否定した。2013年にCCDCOEの国際専門家グループが公表した『タリン・マニュアル』は、サイバー攻撃が物理的破壊や死傷を伴う場合に国連憲章第51条の「武力攻撃（自衛権発動要件）」に該当し得ると整理したが、中国・ロシアは西側の学者による非公式文書でありサイバー空間の軍事化を招くとして認めていない。",
+      "verdict": "事実確認済み（国家関与の認定とタリン・マニュアルの法的地位には争いあり）",
+      "sources": [
+        {
+          "title": "Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations",
+          "url": "https://ccdcoe.org/research/tallinn-manual/",
+          "publisher": "NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2010-stuxnet",
+      "claim": "2010年に発見されたマルウェア「スタックスネット（Stuxnet）」は、イラン・ナタンズ核施設のウラン濃縮用遠心分離機約1,000台を物理的に破壊した",
+      "context": "ネットワークから隔離（エアギャップ）された産業制御システム（SCADA/PLC）にUSB経由で侵入し、遠心分離機の回転数を異常変動させて物理的破損を引き起こした史上初のサイバー兵器。米紙ニューヨーク・タイムズ等の調査報道で米国とイスラエルによる極秘作戦「オリンピック・ゲームズ」と報じられたが、両国政府は公式には認めていない。中露やイランは「米国こそが重要インフラへの破壊的サイバー攻撃の先駆者だ」と批判する根拠としている。",
+      "verdict": "物理的破壊の事実は確認済み（米・イスラエル政府は公式に認否せず）",
+      "sources": [
+        {
+          "title": "An Unprecedented Look at Stuxnet, the World's First Digital Weapon",
+          "url": "https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/",
+          "publisher": "WIRED / Kim Zetter",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2013-snowden-prism",
+      "claim": "2013年6月、元米国家安全保障局（NSA）契約職員エドワード・スノーデンが、米IT大手サーバーや海底ケーブルから通信を収集する極秘監視計画「PRISM」等を暴露した",
+      "context": "同盟国首脳の通信傍受や海外通信機器・大学への侵入工作も明らかになり、米国の「自由で開かれたインターネット」という理念の信頼性を大きく揺るがせた。米国は2015年の「米国自由法（USA FREEDOM Act）」等で国内メタデータ無差別収集を制限したが、中国・ロシアは現在も米国の「二重基準」を批判する最大の根拠として引用し、EUもデータ移転規制（GDPR等）を強化する契機となった。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "NSA Prism program taps in to user data of Apple, Google and others",
+          "url": "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data",
+          "publisher": "The Guardian",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2014-2015-pla-obama-xi",
+      "claim": "2014年5月に米司法省が中国人民解放軍61398部隊の将校5人を産業スパイ容疑で起訴し、2015年9月の米中首脳会談で「商業目的の知的財産サイバー窃取を行わない」旨の合意が成立した",
+      "context": "米セキュリティ企業Mandiantの2013年報告書（APT1）を受けた史上初の外国軍人に対するサイバー刑事訴追。中国政府は起訴を「捏造」と反発したものの、2015年のオバマ・習近平会談では双方が企業の競争優位を目的とした知的財産のサイバー窃取を支援しないことで合意した。ただしその後、米側は「中国は人民解放軍から国家安全部（MSS）へ担当を移して窃取を再開した」と主張し、合意は事実上形骸化したとされる。",
+      "verdict": "事実確認済み（2015年合意の遵守状況をめぐっては双方が対立）",
+      "sources": [
+        {
+          "title": "U.S. Charges Five Chinese Military Hackers for Cyber Espionage Against U.S. Corporations",
+          "url": "https://www.justice.gov/opa/pr/us-charges-five-chinese-military-hackers-cyber-espionage-against-us-corporations-and-labor",
+          "publisher": "U.S. Department of Justice",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2015-un-gge-norms",
+      "claim": "2015年7月、米中露日を含む国連政府専門家会合（UN GGE）は「既存の国際法がサイバー空間に適用される」こと及び「平時に重要インフラを攻撃しない」等の11の規範を全会一致で採択した",
+      "context": "国際社会が合意した最も重要なサイバー規範。しかし2017年の次回会合では、自衛権（国連憲章第51条）や国際人道法の具体的な適用明記を求める日米欧と、「サイバー空間の軍事化を正当化する」として反対する中露・キューバ等が決裂。その後、西側重視のGGEとロシア主導で全加盟国が参加するオープンエンド作業部会（OEWG）が並立する二重構造となった。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "Report of the Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security (A/70/174)",
+          "url": "https://digitallibrary.un.org/record/799853",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2017-wannacry-notpetya",
+      "claim": "2017年5月の「WannaCry」と6月の「NotPetya」は世界的な被害をもたらし、米英日などは前者を北朝鮮（Lazarus）、後者をロシア軍情報総局（GRU / Sandworm）による攻撃と公式に特定（アトリビューション）した",
+      "context": "WannaCryは150か国以上・約30万台に感染し英国民保健サービス（NHS）等を麻痺させ、NotPetyaはウクライナの会計ソフト更新を踏み台に世界の海運（Maersk）・製薬・物流企業へ拡散し総額100億ドル超の被害を出した。なお両マルウェアとも、元々は米NSAが開発しハッカー集団「Shadow Brokers」に流出させられたWindowsの脆弱性悪用ツール「EternalBlue」を悪用しており、中国やロシアからは情報機関が脆弱性を秘匿・兵器化することの危険性も指摘された。",
+      "verdict": "事実確認済み（北朝鮮・ロシア政府は関与を否定）",
+      "sources": [
+        {
+          "title": "Statement from the Press Secretary on NotPetya",
+          "url": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-press-secretary-25/",
+          "publisher": "The White House (Archives)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2023-volt-typhoon-cverc",
+      "claim": "2023〜2024年、米CISA・NSA等は中国背景の「Volt Typhoon」が米重要インフラに潜伏していると警告し、これに対し中国CVERCは「米情報機関による偽旗工作・予算獲得用の捏造」とする反論報告書を発表した",
+      "context": "米側は、Volt Typhoonがマルウェアを使わず正規の管理ツールを悪用する「環境寄生型（Living off the Land）」手法でグアム等の通信・電力・水道網に5年間潜伏していたと公表。一方、中国の国家コンピュータウイルス緊急対応センター（CVERC）は2022年に米NSA（TAO）による西北工業大学への攻撃調査を公表したのに続き、2024年にはVolt Typhoonを「米情報機関の偽装工作」と主張し、国家間で技術報告書をぶつけ合う「アトリビューション情報戦」が常態化している。",
+      "verdict": "双方の公式発表の事実は確認済み（実態をめぐり米中が真っ向から対立）",
+      "sources": [
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (AA24-038A)",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "publisher": "CISA / NSA / FBI",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2024-un-cybercrime-convention",
+      "claim": "2024年12月、国連総会はロシアが2019年に提案し交渉が進められてきた「国連サイバー犯罪条約」を採択した",
+      "context": "2001年の欧州評議会「ブダペスト条約」に代わる初の普遍的な国連条約として中露や多くのグローバル・サウス諸国が推進した。一方、欧米諸国や国際人権NGO（ヒューマン・ライツ・ウォッチ、EFF等）、IT業界団体からは、条約の適用範囲が広範で人権保障条項が弱く、権威主義国家による国内の反体制派・ジャーナリスト・セキュリティ研究者の弾圧や越境データ要求の正当化に悪用されかねないとの強い懸念が表明されている。",
+      "verdict": "事実確認済み（条約の評価・人権リスクをめぐり賛否対立）",
+      "sources": [
+        {
+          "title": "General Assembly Adopts United Nations Convention against Cybercrime",
+          "url": "https://press.un.org/en/2024/ga12667.doc.htm",
+          "publisher": "United Nations Press",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2025-japan-active-cyber-defense",
+      "claim": "日本は2022年12月の国家安全保障戦略で「能動的サイバー防御（ACD）」の導入を決定し、2025年に通信情報の利用や攻撃元サーバーへのアクセス・無害化を認める関連法を成立させた",
+      "context": "JAXAや防衛産業への情報窃取、2023年7月の名古屋港ランサムウェア被害、2024年5月のDMMビットコインから約482億円相当の暗号資産流出（日米FBIが北朝鮮系TraderTraitorと特定）などを受け、従来の受動的防御を見直したもの。第三者機関（サイバー通信情報監理委員会）の監督下で外為通信等のメタデータを分析し、重大事案で警察・自衛隊が攻撃元を無害化する仕組みだが、憲法21条2項「通信の秘密」や専守防衛との整合性をめぐる議論も続けられてきた。",
+      "verdict": "事実確認済み",
+      "sources": [
+        {
+          "title": "国家安全保障戦略について（2022年12月16日閣議決定）",
+          "url": "https://www.cas.go.jp/jp/siryou/221216anzenhoshou.html",
+          "publisher": "内閣官房（Cabinet Secretariat of Japan）",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

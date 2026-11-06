@@ -1,0 +1,157 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "lastUpdated": "2026-11-06",
+  "disclaimer": {
+    "ja": "以下はSNS上の一般的な世論傾向をまとめたものです。個人の見解であり、検証された事実ではありません。",
+    "en": "The following summarizes general opinion trends on social media. These are personal views, not verified facts.",
+    "zh": "以下是社交媒体上一般舆论倾向的摘要。这些是个人观点，并非经过验证的事实。",
+    "ko": "아래는 SNS상의 일반적인 여론 경향을 정리한 것입니다. 개인의 견해이며 검증된 사실이 아닙니다."
+  },
+  "voices": [
+    {
+      "id": "cyber-warfare-governance-voice-1",
+      "country": {
+        "ja": "アメリカ・西側諸国（安全保障・タカ派層）",
+        "en": "United States & Western Allies (Security hawks)",
+        "zh": "美国与西方国家（国家安全与鹰派群体）",
+        "ko": "미국·서방 국가(안보·매파층)"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "中国やロシア、北朝鮮のハッカーは企業の技術だけでなく水道や電力網にまで時限爆弾を仕掛けている。守っているだけでは勝てない。サイバー軍が敵のサーバーを先制して叩き潰し、重い制裁を科すべきだ。",
+        "en": "Chinese, Russian, and North Korean hackers aren't just stealing corporate secrets anymore—they are planting digital time bombs inside our water and power grids. Pure defense is a losing game; Cyber Command needs to hit back hard and impose crippling costs.",
+        "zh": "中、俄、朝黑客不仅在窃取企业技术，还在我们的水务和电网里预埋数字定时炸弹。只靠被动防御注定失败，网络司令部必须先发制人摧毁对手服务器并施加严厉制裁。",
+        "ko": "중국·러시아·북한 해커들은 기업 기술뿐만 아니라 수도와 전력망에까지 디지털 시한폭탄을 설치하고 있다. 수비만 해서는 이길 수 없다. 사이버사령부가 적의 서버를 선제 타격하고 강력한 제재를 가해야 한다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "Volt TyphoonやSalt Typhoon、ランサムウェア被害の報道を受けて米国の議会関係者や保守・安保系SNSで強い論調。",
+        "en": "Prominent among U.S. lawmakers, defense commentators, and security-focused social media following Volt Typhoon, Salt Typhoon, and ransomware disclosures.",
+        "zh": "在“伏特台风”“盐台风”及勒索软件攻击曝光后，在美国政界、防务评论圈及社交媒体上呼声强烈。",
+        "ko": "볼트 타이푼·솔트 타이푼 및 랜섬웨어 피해 보도 이후 미국 의회 관계자와 안보 계열 SNS에서 강한 논조."
+      },
+      "keywords": [
+        "#VoltTyphoon",
+        "#SaltTyphoon",
+        "#DefendForward"
+      ],
+      "timeframe": "2020-2026"
+    },
+    {
+      "id": "cyber-warfare-governance-voice-2",
+      "country": {
+        "ja": "日本（防衛強化賛成派 vs プライバシー・憲法懸念派）",
+        "en": "Japan (Active Cyber Defense supporters vs. Constitutional privacy advocates)",
+        "zh": "日本（支持强化网络防卫派 vs 担忧通信秘密与宪法派）",
+        "ko": "일본(방위 강화 찬성파 대 프라이버시·헌법 우려파)"
+      },
+      "sentiment": "analytical-pragmatic",
+      "summary": {
+        "ja": "名古屋港の停止やDMMビットコインの482億円流出を見れば、日本だけ能動的サイバー防御がないのは無防備すぎた。ただ、政府が『通信の秘密』を理由なしに監視しないよう第三者機関の厳しいチェックが不可欠だ。",
+        "en": "After the Port of Nagoya shutdown and the ¥48.2 billion DMM Bitcoin heist, Japan couldn't remain the only G7 country without Active Cyber Defense. Still, strict independent oversight is essential so the government doesn't erode the constitutional secrecy of communications.",
+        "zh": "看到名古屋港瘫痪和DMM比特币被盗482亿日元，日本确实不能再毫无防备、缺乏主动网络防御能力了。但必须由独立机构严格监督，防止政府借机侵犯宪法保护的“通信秘密”。",
+        "ko": "나고야항 마비나 DMM 비트코인 482억 엔 유출을 보면 일본만 능동적 사이버 방어가 없던 것은 너무 무방비였다. 다만 정부가 '통신의 비밀'을 침해하지 않도록 제3자 기관의 엄격한 감시가 필수적이다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "2022年安保三文書から2025年の能動的サイバー防御関連法成立にかけて、日本のX（旧Twitter）やメディアで広く交わされた議論。",
+        "en": "Widespread debate on Japanese X and news media between the 2022 National Security Strategy and the 2025 enactment of Active Cyber Defense legislation.",
+        "zh": "从2022年修订安保三文件到2025年通过主动网络防御法案期间，日本X（原Twitter）与主流媒体广泛讨论的焦点。",
+        "ko": "2022년 안보 3문서 개정부터 2025년 능동적 사이버 방어 관련법 성립에 이르기까지 일본 X와 언론에서 폭넓게 오간 논의."
+      },
+      "keywords": [
+        "#能動的サイバー防御",
+        "#通信の秘密",
+        "#サイバー安全保障"
+      ],
+      "timeframe": "2022-2026"
+    },
+    {
+      "id": "cyber-warfare-governance-voice-3",
+      "country": {
+        "ja": "中国",
+        "en": "China",
+        "zh": "中国",
+        "ko": "중국"
+      },
+      "sentiment": "nationalist",
+      "summary": {
+        "ja": "スノーデンが暴露したPRISM計画や西北工業大学へのハッキングを見れば、世界最大の『ハッカー帝国・盗聴帝国』がアメリカなのは明らかだ。『ボルト・タイフーン』は米情報機関が予算を稼ぐための自作自演にすぎない。",
+        "en": "Snowden's PRISM revelations and the NSA's hack of Northwestern Polytechnical University prove that the United States is the world's true 'Empire of Hacking.' 'Volt Typhoon' is just a false-flag story cooked up by U.S. agencies to grab more congressional funding.",
+        "zh": "看看斯诺登曝光的“棱镜计划”和美国国安局对西北工业大学的攻击，谁才是真正的全球头号“黑客帝国、监听帝国”一目了然。所谓“伏特台风”不过是美方情报机构为骗取国会预算自导自演的嫁祸戏码。",
+        "ko": "스노든이 폭로한 프리즘(PRISM) 계획과 서북공업대학 해킹을 보면 세계 최대의 '해킹 제국·도청 제국'이 미국임은 명백하다. '볼트 타이푼'은 미 정보기관이 예산을 타내기 위해 꾸며낸 자작극에 불과하다."
+      },
+      "prevalence": "high",
+      "context": {
+        "ja": "微博（Weibo）や中国メディアで、CVERCの調査報告公表時に毎回トレンド入りする主流の論調。",
+        "en": "Mainstream narrative trending on Weibo and Chinese state media whenever CVERC counter-attribution reports are released.",
+        "zh": "在微博及中国主流媒体上，每逢国家计算机病毒应急处理中心（CVERC）发布溯源报告时均登上热搜的主流论调。",
+        "ko": "웨이보와 중국 언론에서 CVERC 조사 보고서가 발표될 때마다 트렌드에 오르는 주류 논조."
+      },
+      "keywords": [
+        "#黑客帝国",
+        "#伏特台风",
+        "#网络主权"
+      ],
+      "timeframe": "2022-2026"
+    },
+    {
+      "id": "cyber-warfare-governance-voice-4",
+      "country": {
+        "ja": "ロシア・グローバルサウスの一部",
+        "en": "Russia & parts of the Global South",
+        "zh": "俄罗斯及部分“全球南方”国家舆论",
+        "ko": "러시아·글로벌 사우스 일부"
+      },
+      "sentiment": "nationalist-sovereign",
+      "summary": {
+        "ja": "西側は何でも『ロシアや中国のハッカーの仕業』にするが証拠を出したためしがない。ルートサーバーや巨大IT企業を握る米国に勝手に通信を遮断されないためにも、主権インターネットと国連の新しい条約が必要だ。",
+        "en": "The West blames every glitch on 'Russian or Chinese hackers' without ever showing hard proof. When U.S. tech giants control the infrastructure and can weaponize or cut off networks at will, sovereign internet systems and a UN cyber treaty are essential for self-defense.",
+        "zh": "西方把一切问题都归咎于“俄罗斯或中国黑客”，却从不拿出确凿证据。在根服务器和科技巨头被美国垄断、随时可能被武器化断网的今天，建设主权互联网和推进联合国新公约是维护国家安全的必由之路。",
+        "ko": "서방은 무슨 일이든 '러시아나 중국 해커 소행'으로 몰아가지만 증거를 내놓은 적이 없다. 루트 서버와 빅테크를 쥔 미국에 일방적으로 통신이 차단당하지 않기 위해서라도 주권 인터넷과 유엔의 새로운 조약이 필요하다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "ロシアのTelegramチャンネルや、デジタル主権を重視する新興国の論壇で見られる意見。",
+        "en": "Common on Russian Telegram channels and among commentators in emerging economies advocating digital sovereignty.",
+        "zh": "常见于俄罗斯Telegram频道以及强调数字主权的新兴市场国家舆论场。",
+        "ko": "러시아 텔레그램 채널이나 디지털 주권을 중시하는 신흥국 논단에서 보이는 의견."
+      },
+      "keywords": [
+        "#Runet",
+        "#DigitalSovereignty",
+        "#UNCybercrimeConvention"
+      ],
+      "timeframe": "2019-2026"
+    },
+    {
+      "id": "cyber-warfare-governance-voice-5",
+      "country": {
+        "ja": "国際セキュリティ研究者・デジタル権利NGO",
+        "en": "International Security Researchers & Digital Rights NGOs",
+        "zh": "国际安全研究人员与数字权利非政府组织",
+        "ko": "국제 보안 연구자·디지털 권리 NGO"
+      },
+      "sentiment": "critical",
+      "summary": {
+        "ja": "米NSAが秘匿していた脆弱性『EternalBlue』が流出してWannaCryやNotPetyaの大惨事を生んだし、逆に国連サイバー犯罪条約はセキュリティ研究者やジャーナリストの弾圧に悪用される危険がある。大国がサイバー空間を軍事化・監視化したツケを払わされているのは常に一般市民だ。",
+        "en": "The NSA's stockpiled 'EternalBlue' exploit leaked and fueled the WannaCry and NotPetya disasters, while the new UN Cybercrime Convention risks criminalizing security researchers and dissidents. Ordinary citizens always pay the price when great powers militarize and surveil the internet.",
+        "zh": "当年美国NSA囤积的“永恒之蓝”漏洞泄露引发了WannaCry和NotPetya全球灾难，而如今的《联合国打击网络犯罪公约》又存在被滥用于打压安全研究人员和异见者的风险。大国将网络空间军事化和监控化，最终买单的永远是普通民众。",
+        "ko": "미 NSA가 비축했던 취약점 '이터널블루'가 유출돼 워너크라이와 낫페트야 대참사를 낳았고, 반대로 유엔 사이버범죄 협약은 보안 연구자와 언론인 탄압에 악용될 위험이 있다. 강대국들이 사이버 공간을 군사화·감시화한 대가를 치르는 것은 언제나 일반 시민이다."
+      },
+      "prevalence": "medium",
+      "context": {
+        "ja": "EFF（電子フロンティア財団）やヒューマン・ライツ・ウォッチ、情報セキュリティ業界のコミュニティで根強い批判。",
+        "en": "Strong consensus among the Electronic Frontier Foundation (EFF), Human Rights Watch, and the independent infosec community.",
+        "zh": "在电子前哨基金会（EFF）、人权观察及独立信息安全技术社区中根深蒂固的批评声音。",
+        "ko": "전자프런티어재단(EFF), 휴먼라이츠워치 및 정보보안 업계 커뮤니티에서 뿌리 깊은 비판."
+      },
+      "keywords": [
+        "#EternalBlue",
+        "#InfoSec",
+        "#ProtectEncryption"
+      ],
+      "timeframe": "2017-2026"
+    }
+  ]
+}

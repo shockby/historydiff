@@ -1,0 +1,61 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "isOngoing": true,
+  "lastUpdated": "2026-11-06",
+  "whyItMatters": {
+    "ja": "サイバー空間と情報領域は、陸・海・空・宇宙に並ぶ「第5の戦場」として現代の安全保障と国際経済の根幹を左右している。米・日・欧が「自由で開かれたインターネット」と「前方防衛・能動的サイバー防御（ACD）」を進める一方、中・露は「サイバー主権・情報安全保障」を掲げて国連サイバー犯罪条約（2024年採択）や国内通信網の自立化を推進しており、デジタル空間のルール形成そのものが二極化している。さらに「Volt Typhoon」や「Salt Typhoon」をめぐる米中の非難合戦が示すように、サイバー攻撃の発信源特定（アトリビューション）自体が地政学的な情報戦の武器となっており、重要インフラへの事前潜伏は台湾海峡や欧州での偶発的エスカレーションに直結するリスクを抱えている。",
+    "en": "Cyberspace and the information domain have become the 'fifth domain of warfare,' shaping modern national security and the global economy alongside land, sea, air, and space. While the US, Japan, and Europe advance a 'free and open internet' paired with 'Defend Forward' and 'Active Cyber Defense (ACD),' China and Russia champion 'cyber sovereignty' and 'information security' through the 2024 UN Cybercrime Convention and sovereign network architectures—splitting global digital governance into competing blocs. Moreover, as the US–China clash over 'Volt Typhoon' and 'Salt Typhoon' demonstrates, technical attribution itself has become a geopolitical battleground, while peacetime pre-positioning inside critical infrastructure raises acute escalation risks in potential Taiwan Strait or European crises.",
+    "zh": "网络空间与信息领域已成为与陆、海、空、天并列的“第五疆域”，直接关系当代国家安全与全球经济命脉。美、日、欧在倡导“自由开放互联网”的同时推进“前出防御”与“主动网络防御（ACD）”；中、俄则坚持“网络主权”与“信息安全”，推动2024年《联合国打击网络犯罪公约》及主权网络建设，全球数字治理规则正呈现阵营化裂变。同时，中美围绕“伏特台风”与“盐台风”的溯源交锋表明，网络归因本身已成为大国信息博弈的工具，而针对关键基础设施的平时潜伏更潜藏着在台海或欧洲危机中引发升级的巨大风险。",
+    "ko": "사이버 공간과 정보 영역은 육·해·공·우주와 나란히 현대 안보와 국제 경제의 근간을 좌우하는 '제5의 전장'이 되었다. 미·일·유럽이 '자유롭고 열린 인터넷'과 '전방 방어·능동적 사이버 방어(ACD)'를 추진하는 반면, 중·러는 '사이버 주권·정보 안보'를 내걸고 유엔 사이버범죄 협약(2024년 채택)과 국내 통신망 자립화를 추진하며 디지털 규범 형성 자체가 양극화되고 있다. 나아가 '볼트 타이푼'·'솔트 타이푼'을 둘러싼 미·중 공방이 보여 주듯 공격 배후 규명(어트리뷰션) 자체가 지정학적 정보전의 무기가 되었으며, 핵심 인프라 사전 잠복은 대만해협이나 유럽의 우발적 확전으로 직결될 위험을 안고 있다."
+  },
+  "whatToWatchNext": {
+    "ja": "・日本の「能動的サイバー防御（ACD）」関連法の本格運用と、サイバー通信情報監理委員会による通信の秘密保護・監督の実効性\n・米通信網や重要インフラへの「Volt Typhoon」「Salt Typhoon」潜伏問題と、中国CVERCによる対米カウンター・アトリビューション報告の応酬\n・2024年採択の「国連サイバー犯罪条約」の署名・批准動向と、人権保障・越境捜査権をめぐる西側諸国との対立\n・生成AI・自律型エージェントを悪用した国家背景の高度標的型攻撃や選挙・世論工作（認知戦）の進化",
+    "en": "・Full operational rollout of Japan's Active Cyber Defense (ACD) legislation and oversight by the independent communications supervision commission\n・Ongoing US–China confrontation over 'Volt Typhoon' and 'Salt Typhoon' critical infrastructure infiltrations vs. Chinese CVERC counter-attribution reports\n・Ratification and implementation of the 2024 UN Cybercrime Convention and disputes over cross-border surveillance and human-rights safeguards\n・Escalation of AI-driven state cyber operations, automated vulnerability exploitation, and cognitive/election influence campaigns",
+    "zh": "・日本“主动网络防御（ACD）”相关法律的全面实施及独立监督委员会对通信秘密保护的监督成效\n・中美围绕“伏特台风”“盐台风”关键基础设施潜伏指控与中国CVERC对美反制溯源报告的持续交锋\n・2024年通过的《联合国打击网络犯罪公约》签署与批准进展，以及围绕跨境调取数据与人权保障条款的博弈\n・利用生成式AI与自主智能体开展的国家级高级持续性威胁（APT）及认知战、选举舆论干预的演变",
+    "ko": "・일본 '능동적 사이버 방어(ACD)' 관련법의 본격 운용과 사이버통신정보감리위원회에 의한 통신의 비밀 보호·감독 실효성\n・미국 통신망·핵심 인프라에 대한 '볼트 타이푼'·'솔트 타이푼' 잠복 문제와 중국 CVERC의 대미 맞불 어트리뷰션 보고서 공방\n・2024년 채택된 '유엔 사이버범죄 협약'의 서명·비준 동향과 인권 보장·초국경 수사권을 둘러싼 서방 국가들과의 대립\n・생성형 AI·자율형 에이전트를 악용한 국가 배후 지능형지속위협(APT) 및 선거·여론 공작(인지전)의 진화"
+  },
+  "rssQuery": {
+    "ja": "サイバー攻撃 能動的サイバー防御 ボルトタイフーン ラザルス 国家安全保障",
+    "en": "state-sponsored cyberattack Volt Typhoon Lazarus Active Cyber Defense CISA",
+    "zh": "网络攻击 伏特台风 网络主权 主动网络防御 国家安全",
+    "ko": "사이버 공격 능동적 사이버 방어 볼트 타이푼 라자루스 국가안보"
+  },
+  "articles": [
+    {
+      "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+      "source": "CISA / NSA / FBI",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+      "publishedAt": "2024-02-07",
+      "summary": {
+        "ja": "米国・英国・豪州・カナダ・ニュージーランド（ファイブ・アイズ）の情報・サイバー機関が合同で、中国国家背景の「Volt Typhoon」が正規の管理ツールを悪用して米国の通信・エネルギー・交通・上下水道インフラに長期間潜伏していると警告した公式勧告。",
+        "en": "Joint advisory by U.S. and Five Eyes cybersecurity agencies detailing how PRC state-sponsored 'Volt Typhoon' actors used living-off-the-land techniques to maintain persistent access to U.S. communications, energy, transportation, and water infrastructure.",
+        "zh": "美国与“五眼联盟”网络安全机构联合发布的官方通报，指责中国背景的“伏特台风”利用原生系统管理工具长期潜伏于美国通信、能源、交通及水务关键基础设施。",
+        "ko": "미국과 파이브 아이즈 사이버 안보 기관들이 합동으로 중국 배후 '볼트 타이푼'이 정상 관리 도구를 악용해 미국 통신·에너지·교통·상하수도 인프라에 장기간 잠복해 있다고 경고한 공식 권고."
+      }
+    },
+    {
+      "title": "General Assembly Adopts United Nations Convention against Cybercrime",
+      "source": "United Nations Press",
+      "url": "https://press.un.org/en/2024/ga12667.doc.htm",
+      "publishedAt": "2024-12-24",
+      "summary": {
+        "ja": "2024年12月、国連総会が5年間の交渉を経て史上初の「国連サイバー犯罪条約」をコンセンサス採択。越境電子証拠の共有枠組みを確立した一方、人権保護や表現の自由への悪用懸念をめぐる各国の議論を記録した国連公式発表。",
+        "en": "Official UN announcement on the December 2024 adoption of the United Nations Convention against Cybercrime after five years of negotiations, establishing a global framework for sharing electronic evidence amid debates over human rights safeguards.",
+        "zh": "联合国关于2024年12月联大历经五年谈判正式通过首部《联合国打击网络犯罪公约》的官方新闻稿，阐述了跨境电子证据共享机制及各国围绕人权保障条款的讨论。",
+        "ko": "2024년 12월 유엔 총회가 5년간의 협상 끝에 사상 최초의 '유엔 사이버범죄 협약'을 채택했음을 알리는 공식 발표로, 전자증거 공유 체계 확립과 인권 보호 조항을 둘러싼 각국의 논의를 기록."
+      }
+    },
+    {
+      "title": "北朝鮮を背景とするサイバー攻撃グループTraderTraitorによる暗号資産窃取に関する注意喚起",
+      "source": "警察庁・NISC・米国FBI合同発表",
+      "url": "https://www.npa.go.jp/bureau/cyber/Alert/20241224_tradertraitor.html",
+      "publishedAt": "2024-12-24",
+      "summary": {
+        "ja": "2024年5月に日本の暗号資産交換業者DMMビットコインから約482億円相当のビットコインが窃取された事案について、日本の警察庁・NISCと米FBI・国防総省サイバー犯罪センター（DC3）が北朝鮮背景の「TraderTraitor（Lazarus系）」による犯行と公式に特定した共同声明。",
+        "en": "Joint public attribution by Japan's National Police Agency, NISC, the U.S. FBI, and DoD Cyber Crime Center identifying North Korea-linked 'TraderTraitor' (Lazarus Group) as responsible for the May 2024 theft of ¥48.2 billion ($308 million) in Bitcoin from Japan's DMM Bitcoin exchange.",
+        "zh": "日本警察厅、内阁网络安全中心（NISC）与美国联邦调查局（FBI）、国防部网络犯罪中心联合发布声明，正式将2024年5月日本DMM Bitcoin交易所约482亿日元比特币被盗案归因于朝鲜背景的“TraderTraitor（拉撒路关联组织）”。",
+        "ko": "2024년 5월 일본 가상자산 거래소 DMM 비트코인에서 약 482억 엔 상당의 비트코인이 탈취된 사건에 대해 일본 경찰청·NISC와 미국 FBI·국방부 사이버범죄센터(DC3)가 북한 배후 'TraderTraitor(라자루스 계열)'의 소행으로 공식 특정한 공동 성명."
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "photos": [
+    {
+      "id": "nato-ccdcoe-tallinn",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/cyber-warfare-governance/nato-ccdcoe-tallinn.jpg",
+      "caption": {
+        "ja": "エストニアの首都タリンにあるNATOサイバー防衛協力センター（CCDCOE）。2007年にエストニアの行政・金融網を麻痺させた大規模サイバー攻撃を契機に2008年に設立され、サイバー空間への国際法適用を整理した『タリン・マニュアル』の編纂拠点となった。",
+        "en": "The NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) in Tallinn, Estonia. Established in 2008 following the massive 2007 cyberattacks that paralyzed Estonian government and banking networks, it hosted the drafting of the 'Tallinn Manual' on international law in cyberspace.",
+        "zh": "位于爱沙尼亚首都塔林的北约合作网络防御卓越中心（CCDCOE）。该中心在2007年爱沙尼亚政务与金融网络遭大规模网络攻击瘫痪后于2008年成立，是编纂网络空间国际法《塔林手册》的所在地。",
+        "ko": "에스토니아 수도 탈린에 위치한 나토 사이버방위협력센터(CCDCOE). 2007년 에스토니아 행정·금융망을 마비시킨 대규모 사이버 공격을 계기로 2008년 설립되었으며, 사이버 공간의 국제법 적용을 정리한 『탈린 매뉴얼』 편찬 거점이 되었다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: CCDCOE in Tallinn Estonia - NATO Cooperative Cyber Defence Centre of Excellence (53998864302).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:CCDCOE_in_Tallinn_Estonia_-_NATO_Cooperative_Cyber_Defence_Centre_of_Excellence_(53998864302).jpg",
+        "license": "CC BY 2.0",
+        "author": "Tony Webster"
+      }
+    },
+    {
+      "id": "nsa-fort-meade",
+      "url": "https://pub-c2a7c565ec0844b8b93c4ba4006e5b52.r2.dev/events/cyber-warfare-governance/nsa-fort-meade.jpg",
+      "caption": {
+        "ja": "米国メリーランド州フォート・ミードにある米国家安全保障局（NSA）および米サイバー軍（USCYBERCOM）の本部。「前方防衛（Defend Forward）」の司令塔である一方、2013年のスノーデンによる「PRISM」計画暴露以降は中露などから「世界的監視の象徴」としても批判される。",
+        "en": "Headquarters of the U.S. National Security Agency (NSA) and U.S. Cyber Command (USCYBERCOM) at Fort Meade, Maryland. Serving as the nerve center for 'Defend Forward' operations, it has also been cited by critics since the 2013 Snowden 'PRISM' disclosures as a symbol of global surveillance.",
+        "zh": "位于美国马里兰州米德堡的美国国家安全局（NSA）与美军网络司令部（USCYBERCOM）总部。这里既是美军“前出防御”网络行动的指挥中枢，也在2013年斯诺登曝光“棱镜（PRISM）”计划后被中俄等国批评为全球网络监控霸权的象征。",
+        "ko": "미국 메릴랜드주 포트 미드에 있는 미 국가안보국(NSA) 및 미 사이버사령부(USCYBERCOM) 본부. '전방 방어(Defend Forward)'의 사령탑인 동시에 2013년 스노든의 'PRISM' 계획 폭로 이후 중·러 등으로부터 전 세계 감시의 상징으로도 비판받는다."
+      },
+      "source": {
+        "title": "Wikimedia Commons: National Security Agency headquarters, Fort Meade, Maryland.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:National_Security_Agency_headquarters,_Fort_Meade,_Maryland.jpg",
+        "license": "Public domain",
+        "author": "National Security Agency"
+      }
+    }
+  ]
+}

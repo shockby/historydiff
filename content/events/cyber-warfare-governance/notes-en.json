@@ -1,0 +1,131 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "notes": [
+    {
+      "id": "cyber-2007-estonia-tallinn",
+      "claim": "In April–May 2007, massive DDoS attacks crippled Estonian government, banking, and media networks amid a dispute over relocating a Soviet war memorial, leading NATO to establish its Cooperative Cyber Defence Centre of Excellence (CCDCOE) in Tallinn in 2008",
+      "context": "Widely regarded as the first time a state's digital infrastructure was paralyzed by cyberattacks. Estonia accused Russia of orchestrating the attacks, which Moscow denied. In 2013, an international group of experts invited by the NATO CCDCOE published the 'Tallinn Manual,' concluding that cyber operations causing physical destruction or injury equivalent to a kinetic attack can trigger the right of self-defense under UN Charter Article 51. China and Russia reject the Tallinn Manual as a non-binding Western academic text designed to justify the militarization of cyberspace.",
+      "verdict": "Verified (state attribution and the legal authority of the Tallinn Manual remain contested)",
+      "sources": [
+        {
+          "title": "Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations",
+          "url": "https://ccdcoe.org/research/tallinn-manual/",
+          "publisher": "NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2010-stuxnet",
+      "claim": "Discovered in 2010, the Stuxnet computer worm physically destroyed approximately 1,000 uranium-enrichment centrifuges at Iran's Natanz nuclear facility",
+      "context": "Stuxnet infiltrated air-gapped industrial control systems (Siemens SCADA/PLCs) via USB drives and surreptitiously altered centrifuge rotor speeds until they tore themselves apart—making it the world's first cyberweapon known to cause physical destruction. Investigative reporting by The New York Times and others identified Stuxnet as 'Operation Olympic Games,' a covert joint U.S.–Israeli operation, though neither government has officially acknowledged it. China, Russia, and Iran frequently cite Stuxnet as proof that the United States pioneered destructive cyberattacks on critical infrastructure.",
+      "verdict": "Physical sabotage verified (U.S. and Israeli governments have neither confirmed nor denied involvement)",
+      "sources": [
+        {
+          "title": "An Unprecedented Look at Stuxnet, the World's First Digital Weapon",
+          "url": "https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/",
+          "publisher": "WIRED / Kim Zetter",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2013-snowden-prism",
+      "claim": "In June 2013, former U.S. National Security Agency (NSA) contractor Edward Snowden leaked classified documents revealing the 'PRISM' global surveillance program and submarine cable tapping",
+      "context": "The disclosures—which also revealed wiretapping of allied leaders and intrusions into foreign telecom networks and universities—dealt a major blow to the credibility of Washington's 'free and open internet' diplomacy. While the U.S. enacted the 2015 USA FREEDOM Act to curb bulk domestic metadata collection, China and Russia continue to cite Snowden's revelations as primary evidence of U.S. 'hegemony and double standards,' while European courts tightened transatlantic data-transfer rules.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "NSA Prism program taps in to user data of Apple, Google and others",
+          "url": "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data",
+          "publisher": "The Guardian",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2014-2015-pla-obama-xi",
+      "claim": "In May 2014, the U.S. Department of Justice indicted five Chinese PLA Unit 61398 officers for commercial cyber espionage, followed in September 2015 by an Obama–Xi agreement that neither government would conduct cyber-enabled theft of intellectual property for commercial gain",
+      "context": "Following Mandiant's landmark 2013 'APT1' report, this marked the first time state military personnel were criminally indicted for cyber espionage. Although Beijing denounced the indictment as fabricated, Presidents Obama and Xi reached the 2015 bilateral cyber accord. However, U.S. officials and security researchers later alleged that after a brief drop in PLA activity, Chinese commercial cyber espionage resumed under the Ministry of State Security (MSS).",
+      "verdict": "Verified (compliance with the 2015 accord remains disputed between Washington and Beijing)",
+      "sources": [
+        {
+          "title": "U.S. Charges Five Chinese Military Hackers for Cyber Espionage Against U.S. Corporations",
+          "url": "https://www.justice.gov/opa/pr/us-charges-five-chinese-military-hackers-cyber-espionage-against-us-corporations-and-labor",
+          "publisher": "U.S. Department of Justice",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2015-un-gge-norms",
+      "claim": "In July 2015, the UN Group of Governmental Experts (UN GGE)—including the US, China, Russia, and Japan—adopted a consensus report affirming that existing international law applies to cyberspace and establishing 11 peacetime norms, including non-targeting of critical infrastructure",
+      "context": "The 2015 UN GGE report (A/70/174) remains the foundational global consensus on cyber norms. However, the subsequent 2017 GGE collapsed without consensus when the US and its allies sought explicit recognition of the right to self-defense (Article 51) and international humanitarian law in cyberspace, which China, Russia, and Cuba rejected as legitimizing cyber warfare. This split led to parallel UN tracks: the Western-backed GGE and the Russian-sponsored Open-Ended Working Group (OEWG).",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "Report of the Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security (A/70/174)",
+          "url": "https://digitallibrary.un.org/record/799853",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2017-wannacry-notpetya",
+      "claim": "In May and June 2017, the WannaCry and NotPetya cyberattacks caused tens of billions of dollars in global disruption; the US, UK, Japan, and allies formally attributed WannaCry to North Korea (Lazarus) and NotPetya to Russian military intelligence (GRU / Sandworm)",
+      "context": "WannaCry infected over 300,000 computers across 150 countries, crippling the UK's National Health Service (NHS), while NotPetya spread from Ukrainian tax software to global shipping (Maersk), pharmaceutical, and logistics firms, causing over $10 billion in damages. Notably, both worms exploited 'EternalBlue,' a Windows vulnerability tool originally developed by the U.S. NSA and leaked by the Shadow Brokers group—prompting international debate over intelligence agencies stockpiling zero-day vulnerabilities.",
+      "verdict": "Verified (North Korea and Russia deny involvement)",
+      "sources": [
+        {
+          "title": "Statement from the Press Secretary on NotPetya",
+          "url": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-press-secretary-25/",
+          "publisher": "The White House (Archives)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2023-volt-typhoon-cverc",
+      "claim": "In 2023–2024, U.S. agencies (CISA, NSA, FBI) warned that PRC-linked 'Volt Typhoon' had pre-positioned inside U.S. critical infrastructure, while China's CVERC published counter-reports calling Volt Typhoon a U.S. intelligence 'false-flag' fabrication",
+      "context": "U.S. advisories stated that Volt Typhoon used 'living off the land' built-in network tools to maintain covert access to U.S. communications, energy, transportation, and water systems (including in Guam) for up to five years to disrupt military logistics in a potential Indo-Pacific crisis. Following its 2022 report accusing the NSA's TAO of hacking Northwestern Polytechnical University, China's National Computer Virus Emergency Response Center (CVERC) released reports in 2024 alleging that U.S. agencies fabricated the Volt Typhoon attribution to secure congressional budgets—illustrating how technical attribution itself has become an arena of state information warfare.",
+      "verdict": "Official statements from both sides verified (underlying attribution sharply contested)",
+      "sources": [
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (AA24-038A)",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "publisher": "CISA / NSA / FBI",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2024-un-cybercrime-convention",
+      "claim": "In December 2024, the UN General Assembly adopted the United Nations Convention against Cybercrime, a treaty process originally initiated by a 2019 Russian resolution",
+      "context": "Backed by Russia, China, and many Global South nations as a universal alternative to the 2001 Council of Europe Budapest Convention, it is the first legally binding global UN cyber treaty. However, Western governments, human rights NGOs (such as Human Rights Watch and the EFF), and major tech associations warned that the treaty's broad scope and weak human-rights safeguards risk legitimizing cross-border surveillance, domestic censorship, and the prosecution of journalists and security researchers.",
+      "verdict": "Verified (sharp international division over human rights risks)",
+      "sources": [
+        {
+          "title": "General Assembly Adopts United Nations Convention against Cybercrime",
+          "url": "https://press.un.org/en/2024/ga12667.doc.htm",
+          "publisher": "United Nations Press",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2025-japan-active-cyber-defense",
+      "claim": "Japan pledged in its December 2022 National Security Strategy to introduce 'Active Cyber Defense (ACD)' and enacted legislation in 2025 authorizing communication metadata analysis and access/neutralization of attacker servers",
+      "context": "Prompted by espionage against JAXA and defense firms, the July 2023 Port of Nagoya ransomware shutdown, and the May 2024 theft of ¥48.2 billion ($305 million) from DMM Bitcoin (attributed by Japan's NPA and the FBI to North Korea's TraderTraitor), Japan overhauled its purely reactive posture. The 2025 law establishes an independent oversight commission to supervise government analysis of foreign-routed traffic metadata and empowers police and the Self-Defense Forces to neutralize source servers during severe attacks, following intense debate over Article 21(2) ('secrecy of communications') of the Constitution.",
+      "verdict": "Verified",
+      "sources": [
+        {
+          "title": "National Security Strategy of Japan (December 16, 2022)",
+          "url": "https://www.cas.go.jp/jp/siryou/221216anzenhoshou.html",
+          "publisher": "Cabinet Secretariat of Japan",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

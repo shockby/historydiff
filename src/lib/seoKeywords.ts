@@ -124,6 +124,13 @@ export const EVENT_SEO_KEYWORDS: Record<string, EventKeywordSet> = {
     zh: ['联合国大会第2758号决议', '一个中国原则', '恢复中华人民共和国合法席位', '台湾地位未定论批判'],
     ko: ['유엔 총회 결의 제2758호', '대만 유엔 대표권', '하나의 중국 원칙', '양안 관계'],
   },
+  'cyber-warfare-governance': {
+    common: ['cyber warfare governance', 'state-sponsored cyberattacks', 'cyber sovereignty', 'international cyber norms', 'Stuxnet', 'Volt Typhoon'],
+    en: ['cyber warfare international law', 'cyber sovereignty vs free internet', 'Tallinn Manual cyber operations', 'UN GGE OEWG cyber norms', 'Active Cyber Defense', 'public attribution cyber espionage', 'UN Cybercrime Convention'],
+    ja: ['サイバー戦争', 'サイバー安全保障', '能動的サイバー防御', 'サイバー主権', '国連サイバー規範', 'タリン・マニュアル', 'ボルト・タイフーン', '情報戦', '通信の秘密'],
+    zh: ['网络战', '网络安全', '网络主权', '主动网络防御', '伏特台风', '塔林手册', '联合国网络犯罪公约', '信息战', '黑客帝国'],
+    ko: ['사이버 전쟁', '사이버 안보', '능동적 사이버 방어', '사이버 주권', '유엔 사이버 규범', '탈린 매뉴얼', '볼트 타이푼', '정보전', '라자루스 해킹'],
+  },
 };
 
 /**

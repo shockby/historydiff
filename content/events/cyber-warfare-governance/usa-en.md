@@ -1,0 +1,16 @@
+---
+id: "cyber-warfare-governance"
+title: "Public Attribution, Criminal Indictments & the 'Defend Forward' Doctrine"
+category: "Cyber Security, Information Warfare & International Norms"
+year: "2000s–present"
+location: "Cyberspace (Tallinn, Geneva, New York & Global Critical Infrastructure)"
+country: "United States"
+language: "en"
+source: "U.S. National Cybersecurity Strategy, DOJ Indictments, CISA/NSA/FBI Joint Advisories, U.S. Cyber Command Doctrine"
+---
+
+The United States champions an open, interoperable internet governed by a **multi-stakeholder model** and identifies China, Russia, Iran, and North Korea as its primary state-sponsored cyber adversaries. Washington draws a sharp normative distinction between **traditional national-security intelligence gathering** on one hand, and **economically motivated cyber theft of commercial intellectual property** or **peacetime pre-positioning on civilian critical infrastructure** on the other. Acting on this distinction, the U.S. Department of Justice (DOJ) made history in **May 2014** by indicting five officers of the People's Liberation Army **Unit 61398 (APT1)** for commercial cyber espionage—pressure that led to the **2015 Obama–Xi cyber agreement** against state-conducted commercial IP theft. Since then, Washington has systematically paired criminal indictments and sanctions with allied **joint public attributions** (alongside Five Eyes, Japan, the EU, and South Korea), calling out North Korea's **Lazarus Group** (the 2014 Sony Pictures hack and 2017 **WannaCry** ransomware), Russian **GRU (Sandworm)** officers (the 2015–2016 Ukraine power grid blackouts and 2017 **NotPetya**), and Russia's Foreign Intelligence Service (**SVR / APT29**) for the **2020 SolarWinds supply-chain compromise**.
+
+Since 2018, U.S. Cyber Command (USCYBERCOM) has shifted from reactive perimeter defense to the doctrines of "**Defend Forward**" and "**Persistent Engagement**," operating globally to disrupt and degrade adversary cyber operations as close to their origin as possible before they reach U.S. networks. In 2023–2024, CISA, the NSA, and the FBI issued urgent advisories exposing China-linked **Volt Typhoon**—which used "living off the land" techniques to pre-position inside U.S. water, power, port, and communications infrastructure in Guam and the continental United States to disrupt military mobilization during a potential Taiwan crisis—as well as **Salt Typhoon**, which infiltrated major U.S. telecommunications providers.
+
+Critics abroad—including not only Beijing and Moscow but also European privacy advocates—charge Washington with a double standard, pointing to the **2010 Stuxnet worm** that physically sabotaged centrifuges at Iran's Natanz nuclear facility (widely reported as the joint U.S.–Israeli "Operation Olympic Games") and the **2013 Edward Snowden disclosures** of the NSA's **PRISM** global surveillance program and Equation Group operations. U.S. officials respond that American intelligence collection is governed by statutory oversight and strictly limited to national security and counterterrorism, fundamentally differing from authoritarian states' domestic censorship, repression of dissidents, and state-directed looting of private commercial technology.

@@ -1,0 +1,131 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "notes": [
+    {
+      "id": "cyber-2007-estonia-tallinn",
+      "claim": "2007年4至5月，爱沙尼亚因迁移苏联红军铜像争议遭受大规模DDoS攻击导致政务与银行网络瘫痪，北约随后于2008年在塔林设立合作网络防御卓越中心（CCDCOE）",
+      "context": "这是历史上首次出现一国行政与金融基础设施因网络攻击陷入瘫痪的案例。爱沙尼亚指责攻击来自俄罗斯，俄方予以否认。2013年，北约CCDCOE邀请的国际专家组发布《塔林手册》，认为造成物理破坏或人员伤亡的网络攻击可触发《联合国宪章》第51条的自卫权。中俄两国则认为《塔林手册》只是西方学者的非官方文件，旨在为网络空间军事化提供借口。",
+      "verdict": "事实已核实（国家归因及《塔林手册》的法律地位存在争议）",
+      "sources": [
+        {
+          "title": "Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations",
+          "url": "https://ccdcoe.org/research/tallinn-manual/",
+          "publisher": "NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2010-stuxnet",
+      "claim": "2010年被发现的“震网（Stuxnet）”蠕虫病毒物理摧毁了伊朗纳坦兹核设施约1,000台铀浓缩离心机",
+      "context": "该病毒通过U盘渗透进入物理隔离（气隙）的西门子工业控制系统（SCADA/PLC），暗中改变离心机转速使其物理损毁，成为人类历史上首个造成物理破坏的网络武器。《纽约时报》等调查报道称其为美以联合实施的绝密“奥林匹克运动会行动”，但美以政府从未正式承认。中、俄、伊常援引此例批评美国才是攻击关键基础设施的始作俑者。",
+      "verdict": "物理破坏事实已核实（美以官方未予正式证实或否认）",
+      "sources": [
+        {
+          "title": "An Unprecedented Look at Stuxnet, the World's First Digital Weapon",
+          "url": "https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/",
+          "publisher": "WIRED / Kim Zetter",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2013-snowden-prism",
+      "claim": "2013年6月，美国国家安全局（NSA）前承包商雇员爱德华·斯诺登曝光了从美国科技巨头服务器及海底光缆收集通信数据的绝密监控计划“棱镜（PRISM）”",
+      "context": "斯诺登披露的文件还揭示了美方对盟国领导人的监听以及对外国电信网络和大学的入侵行动，严重冲击了美国“互联网自由”外交的公信力。尽管美国于2015年通过《美国自由法》限制国内批量元数据收集，但中俄至今仍将其作为批评美国“全球监控霸权与双重标准”的核心证据，欧盟也因此收紧了跨大西洋数据传输监管。",
+      "verdict": "事实已核实",
+      "sources": [
+        {
+          "title": "NSA Prism program taps in to user data of Apple, Google and others",
+          "url": "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data",
+          "publisher": "The Guardian",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2014-2015-pla-obama-xi",
+      "claim": "2014年5月美国司法部以商业间谍罪起诉中国解放军61398部队5名军官，2015年9月中美首脑会晤达成“双方均不从事商业目的网络知识产权窃密”共识",
+      "context": "继美国安全公司Mandiant于2013年发布APT1报告后，这是美国首次对外国现役军人提起网络间谍刑事起诉。中方强烈抗议起诉系“捏造事实”，但在2015年奥巴马与习近平会晤中，双方同意不支持旨在获取商业竞争优势的网络知识产权窃取。此后美方指责中方将相关行动转交国家安全部（MSS）继续进行，而中方坚决否认。",
+      "verdict": "事实已核实（双方对2015年共识的履行情况各执一词）",
+      "sources": [
+        {
+          "title": "U.S. Charges Five Chinese Military Hackers for Cyber Espionage Against U.S. Corporations",
+          "url": "https://www.justice.gov/opa/pr/us-charges-five-chinese-military-hackers-cyber-espionage-against-us-corporations-and-labor",
+          "publisher": "U.S. Department of Justice",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2015-un-gge-norms",
+      "claim": "2015年7月，包含美、中、俄、日在内的联合国信息安全政府专家组（UN GGE）一致通过报告，确认现有国际法适用于网络空间，并提出平时不攻击关键基础设施等11项规范",
+      "context": "2015年UN GGE报告（A/70/174）是国际社会最重要的网络规范共识。但2017年下一届专家组会议因美日欧要求明确写入自卫权（宪章第51条）和国际人道法适用，而中、俄、古巴等国反对“将网络空间军事化合法化”，最终未能达成共识，导致联合国出现了西方主导的GGE与俄罗斯倡议的不限成员名额工作组（OEWG）双轨并行的局面。",
+      "verdict": "事实已核实",
+      "sources": [
+        {
+          "title": "Report of the Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security (A/70/174)",
+          "url": "https://digitallibrary.un.org/record/799853",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2017-wannacry-notpetya",
+      "claim": "2017年5月的“WannaCry”与6月的“NotPetya”造成全球重大损失，美英日等国正式将前者归因于朝鲜（拉撒路集团），将后者归因于俄罗斯军情局（GRU / Sandworm）",
+      "context": "WannaCry感染了150多个国家的30多万台计算机并瘫痪英国国家医疗服务体系（NHS）；NotPetya则从乌克兰报税软件扩散至马士基航运等全球跨国企业，造成逾100亿美元损失。值得注意的是，两款病毒均利用了由美国国安局（NSA）开发后遭“影子经纪人”泄露的Windows漏洞工具“永恒之蓝（EternalBlue）”，引发国际社会对情报机构囤积零日漏洞风险的广泛批评。",
+      "verdict": "事实已核实（朝鲜与俄罗斯政府均否认参与）",
+      "sources": [
+        {
+          "title": "Statement from the Press Secretary on NotPetya",
+          "url": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-press-secretary-25/",
+          "publisher": "The White House (Archives)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2023-volt-typhoon-cverc",
+      "claim": "2023至2024年，美国CISA与NSA等警告中国背景的“伏特台风（Volt Typhoon）”潜伏于美国关键基础设施，中国国家计算机病毒应急处理中心（CVERC）则发布报告反驳称其为美情报机构骗取预算的“嫁祸行动”",
+      "context": "美方通报称，“伏特台风”采用不依赖恶意软件的“离地攻击（Living off the Land）”技术，在关岛及美国本土的通信、电力、水务系统中潜伏长达5年。中方CVERC则继2022年公布美国NSA（TAO）攻击西北工业大学调查报告后，于2024年连发报告指责美方将勒索软件团伙伪造为“伏特台风”栽赃中国，反映出网络溯源归因本身已演变为大国信息战的一部分。",
+      "verdict": "双方官方发布事实已核实（事件归因真相中美完全对立）",
+      "sources": [
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (AA24-038A)",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "publisher": "CISA / NSA / FBI",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2024-un-cybercrime-convention",
+      "claim": "2024年12月，联合国大会正式通过了由俄罗斯于2019年倡议起草的《联合国打击网络犯罪公约》",
+      "context": "中俄及众多发展中国家支持该公约作为2001年欧洲委员会《布达佩斯公约》的全球替代方案。而欧美国家、国际人权组织（如人权观察、电子前哨基金会）及科技行业协会则警告，该公约适用范围过宽且人权保障条款薄弱，可能被部分国家用于合理化国内审查、跨境调取数据及打压记者与安全研究人员。",
+      "verdict": "事实已核实（围绕公约人权风险存在显著国际分歧）",
+      "sources": [
+        {
+          "title": "General Assembly Adopts United Nations Convention against Cybercrime",
+          "url": "https://press.un.org/en/2024/ga12667.doc.htm",
+          "publisher": "United Nations Press",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2025-japan-active-cyber-defense",
+      "claim": "日本在2022年12月《国家安全保障战略》中决定引入“主动网络防御（ACD）”，并于2025年通过允许分析跨境通信元数据及侵入无害化攻击源服务器的相关法案",
+      "context": "针对JAXA及防务企业遭网络窃密、2023年7月名古屋港勒索软件停摆事件以及2024年5月DMM Bitcoin约482亿日元加密资产被盗（日美警方归因于朝鲜TraderTraitor），日本改变了长期以来的纯被动防御政策。新法案设立独立监督委员会监管通信元数据分析，并授权警察与自卫队在重大事态下无害化处理攻击源，引发了围绕日本《宪法》第21条第2款“通信秘密”与专守防卫原则的深入讨论。",
+      "verdict": "事实已核实",
+      "sources": [
+        {
+          "title": "国家安全保障戦略について（2022年12月16日閣議決定）",
+          "url": "https://www.cas.go.jp/jp/siryou/221216anzenhoshou.html",
+          "publisher": "日本内阁官房（Cabinet Secretariat of Japan）",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

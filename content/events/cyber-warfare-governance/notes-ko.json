@@ -1,0 +1,131 @@
+{
+  "eventId": "cyber-warfare-governance",
+  "notes": [
+    {
+      "id": "cyber-2007-estonia-tallinn",
+      "claim": "2007년 4~5월 소련군 동상 이전을 둘러싸고 에스토니아 정부·은행·언론에 대규모 DDoS 공격이 발생했으며, 이듬해인 2008년 나토 사이버방위협력센터(CCDCOE)가 탈린에 설립되었다",
+      "context": "한 국가의 행정·금융 기능이 사이버 공격으로 마비된 사상 최초의 사례로 꼽힌다. 에스토니아 정부는 러시아발 공격이라고 주장했으나 러시아 정부는 개입을 부인했다. 2013년 CCDCOE 초청 국제 전문가 그룹이 발표한 『탈린 매뉴얼』은 사이버 공격이 물리적 파괴나 사상을 수반할 경우 유엔 헌장 제51조의 '무력 공격(자위권 발동 요건)'에 해당할 수 있다고 정리했으나, 중국·러시아는 서방 학자들의 비공식 문서이자 사이버 공간의 군사화를 초래한다며 인정하지 않는다.",
+      "verdict": "사실 확인됨(국가 개입 인정 여부와 탈린 매뉴얼의 법적 지위에는 이견 존재)",
+      "sources": [
+        {
+          "title": "Tallinn Manual 2.0 on the International Law Applicable to Cyber Operations",
+          "url": "https://ccdcoe.org/research/tallinn-manual/",
+          "publisher": "NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2010-stuxnet",
+      "claim": "2010년 발견된 악성코드 '스턱스넷(Stuxnet)'은 이란 나탄즈 핵시설의 우라늄 농축용 원심분리기 약 1,000대를 물리적으로 파괴했다",
+      "context": "외부망과 분리(망분리)된 산업제어시스템(SCADA/PLC)에 USB를 통해 침투한 뒤 원심분리기 회전수를 비정상적으로 변동시켜 물리적 파손을 일으킨 사상 최초의 사이버 무기다. 뉴욕타임스 등의 탐사보도로 미국과 이스라엘의 극비 작전 '올림픽 게임'으로 보도되었으나 양국 정부는 공식 확인하지 않았다. 중·러와 이란은 '미국이야말로 핵심 인프라 파괴 사이버 공격의 선구자'라고 비판하는 근거로 삼는다.",
+      "verdict": "물리적 파괴 사실은 확인됨(미·이스라엘 정부는 공식 시인도 부인도 하지 않음)",
+      "sources": [
+        {
+          "title": "An Unprecedented Look at Stuxnet, the World's First Digital Weapon",
+          "url": "https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/",
+          "publisher": "WIRED / Kim Zetter",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2013-snowden-prism",
+      "claim": "2013년 6월 전 미국 국가안보국(NSA) 계약직원 에드워드 스노든이 미국 빅테크 서버와 해저 케이블에서 통신을 수집하는 극비 감시 프로그램 'PRISM' 등을 폭로했다",
+      "context": "동맹국 정상 도청과 해외 통신망·대학 해킹 공작도 함께 드러나 미국의 '자유롭고 열린 인터넷' 외교의 신뢰성을 크게 흔들었다. 미국은 2015년 '미국자유법(USA FREEDOM Act)' 등으로 국내 메타데이터 무차별 수집을 제한했으나, 중국·러시아는 현재도 미국의 '이중잣대'를 비판하는 최대 근거로 인용하며 유럽연합(EU)도 데이터 이전 규제(GDPR 등)를 강화하는 계기가 되었다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "NSA Prism program taps in to user data of Apple, Google and others",
+          "url": "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data",
+          "publisher": "The Guardian",
+          "type": "media"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2014-2015-pla-obama-xi",
+      "claim": "2014년 5월 미 법무부가 중국 인민해방군 61398부대 장교 5명을 산업스파이 혐의로 기소했고, 2015년 9월 미·중 정상회담에서 '상업적 목적의 지식재산권 사이버 절취를 하지 않는다'는 합의가 이루어졌다",
+      "context": "미국 보안 기업 맨디언트(Mandiant)의 2013년 보고서(APT1) 이후 외국 현역 군인을 사이버 스파이 혐의로 형사 기소한 최초 사례다. 중국 정부는 기소를 '날조'라며 반발했으나 2015년 오바마·시진핑 회담에서 양측은 기업의 경쟁 우위를 목적으로 한 지식재산권 사이버 절취를 지원하지 않기로 합의했다. 다만 이후 미국 측은 '중국이 인민해방군에서 국가안전부(MSS)로 담당을 옮겨 절취를 재개했다'고 주장하며 합의 이행 여부를 두고 대립이 이어졌다.",
+      "verdict": "사실 확인됨(2015년 합의 준수 여부를 두고는 양측이 대립)",
+      "sources": [
+        {
+          "title": "U.S. Charges Five Chinese Military Hackers for Cyber Espionage Against U.S. Corporations",
+          "url": "https://www.justice.gov/opa/pr/us-charges-five-chinese-military-hackers-cyber-espionage-against-us-corporations-and-labor",
+          "publisher": "U.S. Department of Justice",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2015-un-gge-norms",
+      "claim": "2015년 7월 미·중·러·일을 포함한 유엔 정부전문가그룹(UN GGE)은 '기존 국제법이 사이버 공간에 적용된다'는 점과 '평시에 핵심 인프라를 공격하지 않는다'는 등 11개 규범을 만장일치로 채택했다",
+      "context": "국제사회가 합의한 가장 중요한 사이버 규범이다. 그러나 2017년 차기 회의에서는 자위권(유엔 헌장 제51조)과 국제인도법의 구체적 적용 명기를 요구하는 미·일·유럽과 '사이버 공간의 군사화를 정당화한다'며 반대하는 중·러·쿠바 등이 결렬되었다. 이후 서방 중심의 GGE와 러시아 주도로 전 회원국이 참여하는 개방형 작업반(OEWG)이 병립하는 이중 구조가 되었다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "Report of the Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security (A/70/174)",
+          "url": "https://digitallibrary.un.org/record/799853",
+          "publisher": "United Nations General Assembly",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2017-wannacry-notpetya",
+      "claim": "2017년 5월 '워너크라이(WannaCry)'와 6월 '낫페트야(NotPetya)'는 전 세계적 피해를 초래했으며, 미·영·일 등은 전자를 북한(라자루스), 후자를 러시아군 정보총국(GRU / Sandworm)의 소행으로 공식 특정(어트리뷰션)했다",
+      "context": "워너크라이는 150개국 이상 약 30만 대를 감염시켜 영국 국민보건서비스(NHS) 등을 마비시켰고, 낫페트야는 우크라이나 회계 소프트웨어 업데이트를 경유해 세계 해운(머스크)·제약·물류 기업으로 확산되어 100억 달러 이상의 피해를 냈다. 한편 두 악성코드 모두 원래 미 국가안보국(NSA)이 개발했다가 해커 집단 '섀도 브로커스'에 유출된 윈도우 취약점 도구 '이터널블루(EternalBlue)'를 악용해, 정보기관의 취약점 비축·무기화 위험성도 지적되었다.",
+      "verdict": "사실 확인됨(북한·러시아 정부는 개입 부인)",
+      "sources": [
+        {
+          "title": "Statement from the Press Secretary on NotPetya",
+          "url": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-press-secretary-25/",
+          "publisher": "The White House (Archives)",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2023-volt-typhoon-cverc",
+      "claim": "2023~2024년 미국 CISA·NSA 등은 중국 배후 '볼트 타이푼(Volt Typhoon)'이 미국 핵심 인프라에 잠복해 있다고 경고했고, 이에 중국 CVERC는 '미 정보기관의 예산 확보용 위장·날조 공작'이라는 반박 보고서를 발표했다",
+      "context": "미국 측은 볼트 타이푼이 악성코드 대신 정상 관리 도구를 악용하는 '자생적(Living off the Land)' 기법으로 괌 등의 통신·전력·수도망에 5년간 잠복해 있었다고 발표했다. 반면 중국 국가컴퓨터바이러스응급처리센터(CVERC)는 2022년 미 NSA(TAO)의 서북공업대학 해킹 조사 보고서에 이어 2024년 볼트 타이푼을 '미 정보기관의 허위 깃발 공작'이라고 주장하며, 국가 간 기술 보고서를 맞부딪치는 '어트리뷰션 정보전'이 상시화되고 있다.",
+      "verdict": "양측 공식 발표 사실은 확인됨(실체를 둘러싸고 미·중이 정면 대립)",
+      "sources": [
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (AA24-038A)",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "publisher": "CISA / NSA / FBI",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2024-un-cybercrime-convention",
+      "claim": "2024년 12월 유엔 총회는 러시아가 2019년 제안해 협상이 진행되어 온 '유엔 사이버범죄 협약'을 채택했다",
+      "context": "2001년 유럽평의회 '부다페스트 조약'을 대체하는 최초의 보편적 유엔 협약으로 중·러와 다수의 글로벌 사우스 국가들이 추진했다. 반면 서구 국가들과 국제 인권 NGO(휴먼라이츠워치, EFF 등), IT 업계 단체들은 협약의 적용 범위가 광범위하고 인권 보장 조항이 약해 권위주의 국가의 반체제 인사·언론인·보안 연구자 탄압이나 국경 간 데이터 요구 정당화에 악용될 수 있다는 강한 우려를 표명했다.",
+      "verdict": "사실 확인됨(협약의 평가와 인권 리스크를 둘러싸고 찬반 대립)",
+      "sources": [
+        {
+          "title": "General Assembly Adopts United Nations Convention against Cybercrime",
+          "url": "https://press.un.org/en/2024/ga12667.doc.htm",
+          "publisher": "United Nations Press",
+          "type": "international"
+        }
+      ]
+    },
+    {
+      "id": "cyber-2025-japan-active-cyber-defense",
+      "claim": "일본은 2022년 12월 국가안전보장전략에서 '능동적 사이버 방어(ACD)' 도입을 결정하고, 2025년 통신 메타데이터 활용 및 공격 원점 서버 접근·무력화를 허용하는 관련법을 성립시켰다",
+      "context": "JAXA 및 방위산업 정보 절취, 2023년 7월 나고야항 랜섬웨어 피해, 2024년 5월 DMM 비트코인 약 482억 엔 상당 가상자산 유출(미·일 당국이 북한 TraderTraitor 소행으로 특정) 등을 계기로 기존의 수동적 방어를 재검토한 것이다. 제3자 기관(사이버통신정보감리위원회)의 감독 아래 대외 통신 메타데이터를 분석하고 중대 사안 시 경찰·자위대가 공격 원점을 무력화하는 구조로, 헌법 제21조 제2항 '통신의 비밀' 및 전수방위 원칙과의 정합성을 둘러싼 논의가 이어졌다.",
+      "verdict": "사실 확인됨",
+      "sources": [
+        {
+          "title": "国家安全保障戦略について（2022年12月16日閣議決定）",
+          "url": "https://www.cas.go.jp/jp/siryou/221216anzenhoshou.html",
+          "publisher": "일본 내각관방(Cabinet Secretariat of Japan)",
+          "type": "government"
+        }
+      ]
+    }
+  ]
+}

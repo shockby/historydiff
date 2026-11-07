@@ -1,7 +1,7 @@
 {
   "eventId": "cyber-warfare-governance",
   "isOngoing": true,
-  "lastUpdated": "2026-11-06",
+  "lastUpdated": "2026-11-07",
   "whyItMatters": {
     "ja": "サイバー空間と情報領域は、陸・海・空・宇宙に並ぶ「第5の戦場」として現代の安全保障と国際経済の根幹を左右している。米・日・欧が「自由で開かれたインターネット」と「前方防衛・能動的サイバー防御（ACD）」を進める一方、中・露は「サイバー主権・情報安全保障」を掲げて国連サイバー犯罪条約（2024年採択）や国内通信網の自立化を推進しており、デジタル空間のルール形成そのものが二極化している。さらに「Volt Typhoon」や「Salt Typhoon」をめぐる米中の非難合戦が示すように、サイバー攻撃の発信源特定（アトリビューション）自体が地政学的な情報戦の武器となっており、重要インフラへの事前潜伏は台湾海峡や欧州での偶発的エスカレーションに直結するリスクを抱えている。",
     "en": "Cyberspace and the information domain have become the 'fifth domain of warfare,' shaping modern national security and the global economy alongside land, sea, air, and space. While the US, Japan, and Europe advance a 'free and open internet' paired with 'Defend Forward' and 'Active Cyber Defense (ACD),' China and Russia champion 'cyber sovereignty' and 'information security' through the 2024 UN Cybercrime Convention and sovereign network architectures—splitting global digital governance into competing blocs. Moreover, as the US–China clash over 'Volt Typhoon' and 'Salt Typhoon' demonstrates, technical attribution itself has become a geopolitical battleground, while peacetime pre-positioning inside critical infrastructure raises acute escalation risks in potential Taiwan Strait or European crises.",
@@ -9,10 +9,10 @@
     "ko": "사이버 공간과 정보 영역은 육·해·공·우주와 나란히 현대 안보와 국제 경제의 근간을 좌우하는 '제5의 전장'이 되었다. 미·일·유럽이 '자유롭고 열린 인터넷'과 '전방 방어·능동적 사이버 방어(ACD)'를 추진하는 반면, 중·러는 '사이버 주권·정보 안보'를 내걸고 유엔 사이버범죄 협약(2024년 채택)과 국내 통신망 자립화를 추진하며 디지털 규범 형성 자체가 양극화되고 있다. 나아가 '볼트 타이푼'·'솔트 타이푼'을 둘러싼 미·중 공방이 보여 주듯 공격 배후 규명(어트리뷰션) 자체가 지정학적 정보전의 무기가 되었으며, 핵심 인프라 사전 잠복은 대만해협이나 유럽의 우발적 확전으로 직결될 위험을 안고 있다."
   },
   "whatToWatchNext": {
-    "ja": "・日本の「能動的サイバー防御（ACD）」関連法の本格運用と、サイバー通信情報監理委員会による通信の秘密保護・監督の実効性\n・米通信網や重要インフラへの「Volt Typhoon」「Salt Typhoon」潜伏問題と、中国CVERCによる対米カウンター・アトリビューション報告の応酬\n・2024年採択の「国連サイバー犯罪条約」の署名・批准動向と、人権保障・越境捜査権をめぐる西側諸国との対立\n・生成AI・自律型エージェントを悪用した国家背景の高度標的型攻撃や選挙・世論工作（認知戦）の進化",
-    "en": "・Full operational rollout of Japan's Active Cyber Defense (ACD) legislation and oversight by the independent communications supervision commission\n・Ongoing US–China confrontation over 'Volt Typhoon' and 'Salt Typhoon' critical infrastructure infiltrations vs. Chinese CVERC counter-attribution reports\n・Ratification and implementation of the 2024 UN Cybercrime Convention and disputes over cross-border surveillance and human-rights safeguards\n・Escalation of AI-driven state cyber operations, automated vulnerability exploitation, and cognitive/election influence campaigns",
-    "zh": "・日本“主动网络防御（ACD）”相关法律的全面实施及独立监督委员会对通信秘密保护的监督成效\n・中美围绕“伏特台风”“盐台风”关键基础设施潜伏指控与中国CVERC对美反制溯源报告的持续交锋\n・2024年通过的《联合国打击网络犯罪公约》签署与批准进展，以及围绕跨境调取数据与人权保障条款的博弈\n・利用生成式AI与自主智能体开展的国家级高级持续性威胁（APT）及认知战、选举舆论干预的演变",
-    "ko": "・일본 '능동적 사이버 방어(ACD)' 관련법의 본격 운용과 사이버통신정보감리위원회에 의한 통신의 비밀 보호·감독 실효성\n・미국 통신망·핵심 인프라에 대한 '볼트 타이푼'·'솔트 타이푼' 잠복 문제와 중국 CVERC의 대미 맞불 어트리뷰션 보고서 공방\n・2024년 채택된 '유엔 사이버범죄 협약'의 서명·비준 동향과 인권 보장·초국경 수사권을 둘러싼 서방 국가들과의 대립\n・생성형 AI·자율형 에이전트를 악용한 국가 배후 지능형지속위협(APT) 및 선거·여론 공작(인지전)의 진화"
+    "ja": "・日本の「能動的サイバー防御（ACD）」関連法の本格運用と、サイバー通信情報監理委員会による通信の秘密保護・監督の実効性\n・米通信網や重要インフラへの「Volt Typhoon」「Salt Typhoon」潜伏問題と、中国CVERCによる対米カウンター・アトリビューション報告の応酬\n・2024年採択の「国連サイバー犯罪条約」の署名・批准動向と、人権保障・越境捜査権をめぐる西側諸国との対立\n・生成AI・自律型エージェントを悪用した国家背景の高度標的型攻撃や選挙・世論工作（認知戦）の進化\n・2026年9月以降の国内インシデント集中（委託先・VPN機器経由）を受けた、国家サイバー統括室等による経営層向け対策の浸透と、サイバー対処能力強化法の運用\n・欧州で10月中旬から続く冷凍・冷蔵などOT機器への遠隔操作攻撃と、11月5日の米CISA等の合同勧告後の被害拡大・攻撃元の特定\n・韓国で検討される全省庁横断のサイバー安保コントロールタワー設置の行方",
+    "en": "・Full operational rollout of Japan's Active Cyber Defense (ACD) legislation and oversight by the independent communications supervision commission\n・Ongoing US–China confrontation over 'Volt Typhoon' and 'Salt Typhoon' critical infrastructure infiltrations vs. Chinese CVERC counter-attribution reports\n・Ratification and implementation of the 2024 UN Cybercrime Convention and disputes over cross-border surveillance and human-rights safeguards\n・Escalation of AI-driven state cyber operations, automated vulnerability exploitation, and cognitive/election influence campaigns\n・Whether Japan's executive-level guidance from the National Cyber Directorate and the new cyber response capability law curb the surge of supplier/VPN-origin incidents since September 2026\n・Spread and attribution of the remote-manipulation attacks on commercial refrigeration/OT controllers in Europe since mid-October, following the CISA-led joint advisory of November 5\n・South Korea's planned whole-of-government cybersecurity control tower",
+    "zh": "・日本“主动网络防御（ACD）”相关法律的全面实施及独立监督委员会对通信秘密保护的监督成效\n・中美围绕“伏特台风”“盐台风”关键基础设施潜伏指控与中国CVERC对美反制溯源报告的持续交锋\n・2024年通过的《联合国打击网络犯罪公约》签署与批准进展，以及围绕跨境调取数据与人权保障条款的博弈\n・利用生成式AI与自主智能体开展的国家级高级持续性威胁（APT）及认知战、选举舆论干预的演变\n・日本国家网络统括室面向经营层的对策能否遏制2026年9月以来经由外包方和VPN设备的事件集中爆发\n・欧洲自10月中旬起针对冷冻冷藏等OT设备的远程操控攻击在11月5日美国CISA等联合通报后的扩散与溯源\n・韩国拟设立的跨部门网络安全控制塔的进展",
+    "ko": "・일본 '능동적 사이버 방어(ACD)' 관련법의 본격 운용과 사이버통신정보감리위원회에 의한 통신의 비밀 보호·감독 실효성\n・미국 통신망·핵심 인프라에 대한 '볼트 타이푼'·'솔트 타이푼' 잠복 문제와 중국 CVERC의 대미 맞불 어트리뷰션 보고서 공방\n・2024년 채택된 '유엔 사이버범죄 협약'의 서명·비준 동향과 인권 보장·초국경 수사권을 둘러싼 서방 국가들과의 대립\n・생성형 AI·자율형 에이전트를 악용한 국가 배후 지능형지속위협(APT) 및 선거·여론 공작(인지전)의 진화\n・2026년 9월 이후 위탁업체·VPN 장비 경유 사고 급증에 대한 일본 국가사이버통괄실의 경영진 대상 대책 효과\n・10월 중순부터 유럽에서 이어진 냉동·냉장 등 OT 장비 원격 조작 공격과 11월 5일 미국 CISA 등 합동 권고 이후의 확산 및 배후 규명\n・한국이 검토 중인 범정부 사이버보안 컨트롤타워 구성 향방"
   },
   "rssQuery": {
     "ja": "サイバー攻撃 能動的サイバー防御 ボルトタイフーン ラザルス 国家安全保障",
@@ -21,6 +21,58 @@
     "ko": "사이버 공격 능동적 사이버 방어 볼트 타이푼 라자루스 국가안보"
   },
   "articles": [
+    {
+      "title": "令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について",
+      "source": "警察庁（NPA）",
+      "url": "https://www.npa.go.jp/publications/statistics/cybersecurity/index.html",
+      "publishedAt": "2026-09-10",
+      "summary": {
+        "ja": "2026年上半期のランサムウェア被害報告は123件で、統計開始以降の半期として過去最多。中小企業が約6割、製造業が約3割、侵入経路はVPN機器等のネットワーク機器の脆弱性や認証情報の悪用が約半数を占めた。",
+        "en": "Japan's National Police Agency reported 123 ransomware cases in H1 2026, a record for any half-year since statistics began; about 60% hit small and medium firms, about 30% manufacturers, and roughly half of intrusions came via VPN/network-device vulnerabilities or credential abuse.",
+        "zh": "日本警察厅公布2026年上半年勒索软件受害报告为123起，创有统计以来半年度最高；约六成为中小企业，约三成为制造业，约半数入侵途径为VPN等网络设备漏洞或凭据滥用。",
+        "ko": "일본 경찰청은 2026년 상반기 랜섬웨어 피해 신고가 123건으로 통계 개시 이후 반기 기준 최다라고 발표. 중소기업이 약 60%, 제조업이 약 30%이며 침입 경로의 약 절반은 VPN 등 네트워크 장비 취약점·인증정보 악용."
+      },
+      "country": "日本"
+    },
+    {
+      "title": "相次ぐ不正アクセス・情報漏えいを受けた経営層向け注意喚起",
+      "source": "内閣官房 国家サイバー統括室（NCO）ほか関係省庁",
+      "url": "https://www.cyber.go.jp/",
+      "publishedAt": "2026-10-09",
+      "summary": {
+        "ja": "2026年10月、国家サイバー統括室など関係省庁が、委託先・ウェブシステムを起点とする大規模な情報漏えいの相次ぐ発生を受け、経営層に対し外部公開システムの点検、多要素認証、サプライチェーン全体の見直しを求める注意喚起を行った。",
+        "en": "In October 2026, Japan's National Cyber Directorate and related ministries urged executives to inspect internet-facing systems, enforce MFA and review the whole supply chain after a string of large data leaks originating from contractors and web systems.",
+        "zh": "2026年10月，日本国家网络统括室等部门针对外包方和网站系统引发的大规模信息泄露接连发生，呼吁经营层检查对外公开系统、落实多因素认证并重新审视整个供应链。",
+        "ko": "2026년 10월 일본 국가사이버통괄실 등 관계 부처는 위탁업체·웹 시스템에서 비롯된 대규모 정보 유출이 잇따르자 경영진에게 외부 공개 시스템 점검, 다중 인증, 공급망 전반 재점검을 촉구."
+      },
+      "country": "日本"
+    },
+    {
+      "title": "Joint advisory on attacks against refrigeration and cold-chain control systems",
+      "source": "CISA / FBI / HHS / USDA / DOT",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "publishedAt": "2026-11-05",
+      "summary": {
+        "ja": "10月中旬から欧州各国で、インターネットに公開された業務用冷凍・冷蔵や建物管理の制御機器が遠隔から改ざんされ、食品・医療用保管に被害が出た。ENISA等が警告し、11月5日には米CISA等が合同勧告で機器のネット切断とMFAを求めた。",
+        "en": "Since mid-October, internet-exposed commercial refrigeration and building-management controllers were remotely tampered with across several EU states, spoiling food and medical storage. ENISA and EU bodies issued warnings, and on November 5 CISA and partners urged disconnecting such devices and enforcing MFA.",
+        "zh": "自10月中旬起，欧洲多国暴露在互联网上的商用冷冻冷藏及楼宇管理控制设备被远程篡改，造成食品和医疗储存损失。ENISA等发出警告，11月5日美国CISA等联合通报要求断开设备联网并启用多因素认证。",
+        "ko": "10월 중순부터 유럽 여러 나라에서 인터넷에 노출된 상업용 냉동·냉장 및 건물관리 제어장비가 원격 조작되어 식품·의료 보관에 피해가 발생. ENISA 등이 경고했고 11월 5일 미국 CISA 등이 합동 권고로 장비의 인터넷 차단과 MFA를 요구."
+      },
+      "country": "国際"
+    },
+    {
+      "title": "KISA国政監査と全省庁横断のサイバー安保コントロールタワー検討",
+      "source": "韓国メディア報道（etnews・Newsis 等）",
+      "url": "https://www.kisa.or.kr/",
+      "publishedAt": "2026-10-15",
+      "summary": {
+        "ja": "韓国では10月に金融機関など民間への不正アクセス・個人情報流出が相次ぎ、15日のKISA国政監査で対応体制・予算の不足が指摘された。11月初めには公共・民間・金融を束ねる統括組織の設置が検討されている。",
+        "en": "In South Korea, a string of intrusions and data leaks hit financial and private firms in October; the October 15 parliamentary audit of KISA criticized insufficient response capacity and budget, and a unified control tower spanning public, private and financial sectors is being considered as of early November.",
+        "zh": "韩国10月金融机构等民间领域接连发生非法入侵和个人信息泄露；10月15日国会对KISA的审计指出应对体系和预算不足，11月初正在研究设立统筹公共、民间和金融领域的统一指挥机构。",
+        "ko": "한국에서는 10월 금융기관 등 민간 대상 해킹·개인정보 유출이 잇따랐고, 10월 15일 KISA 국정감사에서 대응 인프라·예산 부족이 지적됐다. 11월 초에는 공공·민간·금융을 아우르는 범정부 컨트롤타워 구성이 검토되고 있다."
+      },
+      "country": "韓国"
+    },
     {
       "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
       "source": "CISA / NSA / FBI",
